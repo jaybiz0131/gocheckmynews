@@ -12,7 +12,7 @@ name: Site refresh
 
 on:
   schedule:
-    - cron: "0 12 * * *"   # 12:00 UTC (between the 07:40 and 16:40 briefs)
+    - cron: "0 12 * * *"   # 12:00 UTC (between the morning and midday brief slots)
   workflow_dispatch: {}
 
 permissions: {}

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""common.py: shared helpers for the GoCheckMySports pipeline stages."""
+"""common.py: shared helpers for the GoCheckMyNews pipeline stages."""
 
 import json
 import os
@@ -10,7 +10,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 OUT_DIR = os.path.join(HERE, "out")
 PROMPTS = os.path.join(HERE, "prompts")
 CONFIG = os.path.join(HERE, "config.json")
-UA = "GoCheckMySports/1.0 (+news pipeline)"
+UA = "GoCheckMyNews/1.0 (+news pipeline)"
 
 
 def gh(level, msg):

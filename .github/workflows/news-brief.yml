@@ -1,4 +1,4 @@
-# GoCheckMySports news brief: the scheduled ingest -> AI processing -> review queue job.
+# GoCheckMyNews news brief: the scheduled ingest -> AI processing -> review queue job.
 #
 # Runs aggregate -> editor -> verifier -> writer -> digest on the slot schedule and uploads
 # the review queue as a workflow artifact for the human editor-in-chief to approve.
@@ -11,7 +11,7 @@
 # The pipeline needs ANTHROPIC_API_KEY (repo secret) for the editor/verifier/writer calls.
 # If the key is not configured yet, the job runs the offline canary as a wiring smoke test
 # and stops (green) instead of failing daily.
-name: GoCheckMySports daily brief
+name: GoCheckMyNews daily brief
 
 on:
   schedule:
@@ -37,7 +37,7 @@ on:
 # with the watcher's breaking runs, so a breaking run QUEUES behind an in-flight scheduled
 # run instead of racing its push (the Pet-divergence class, prevented structurally).
 concurrency:
-  group: sports-publish
+  group: news-publish
   cancel-in-progress: false
 
 permissions:
@@ -158,7 +158,7 @@ jobs:
         if: steps.key.outputs.have_key == 'true'
         uses: actions/upload-artifact@v4
         with:
-          name: sports-review-queue
+          name: news-review-queue
           path: |
             out/review_queue/
             out/approval_template.json

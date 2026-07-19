@@ -1,15 +1,16 @@
 /* ============================================================================
-   GoCheckMySports - site design system.
-   Trusted-newsroom editorial identity: newsprint paper, a masthead rule, a serif
-   for headlines, restrained accent, and the pipeline's verdict vocabulary shown as
-   badges so readers see the honesty machinery. Light + dark. No em dashes anywhere.
+   GoCheckMyNews - site design system.
+   Trusted-newsroom editorial identity: newsprint paper, a press ink blue masthead
+   rule, a serif for headlines, restrained accent, the pipeline's verdict vocabulary
+   shown as badges, and the outlet credibility chips beside every cited source so
+   readers see the honesty machinery. Light + dark. No em dashes anywhere.
    ONE source of truth for site styling; every page links this file.
    ============================================================================ */
 
 :root{
   --paper:#FBFAF6;      --card:#FFFFFF;       --ink:#17181C;
   --muted:#5C616B;      --faint:#6B707A;      --line:#E6E2D8;
-  --rule:#1F5E3F;       /* masthead varsity field green rule + kicker */
+  --rule:#1D4E79;       /* masthead press ink blue rule + kicker */
   --link:#123A5E;       --link-hover:#0B2740;
   --verified-fg:#12603B; --verified-bg:#DCEFE2;
   --review-fg:#7A5200;   --review-bg:#F7EACB;
@@ -23,7 +24,7 @@
 @media (prefers-color-scheme:dark){
   :root{
     --paper:#131419; --card:#1A1C22; --ink:#EBE9E3; --muted:#A6ABB4; --faint:#868B95;
-    --line:#2A2D35; --rule:#57C08A; --link:#8FB6DC; --link-hover:#B7D2ED;
+    --line:#2A2D35; --rule:#7FB3DE; --link:#8FB6DC; --link-hover:#B7D2ED;
     --verified-fg:#8BE0AE; --verified-bg:#12331F; --review-fg:#F0C674; --review-bg:#3A2E10;
     --tag-bg:#24262E; --tag-fg:#B7BCC5;
     --up:#3DDC84; --down:#F4564A;
@@ -147,7 +148,7 @@ hr.rule{border:none;border-top:2px solid var(--rule);margin:0}
 .news input[type=email]{flex:1;min-width:220px;padding:13px 15px;border-radius:6px;border:1px solid rgba(255,255,255,.25);
   background:rgba(255,255,255,.07);color:#FBFAF6;font-family:var(--sans);font-size:15px}
 .news input[type=email]::placeholder{color:rgba(255,255,255,.5)}
-.news button{padding:13px 22px;border-radius:6px;border:none;background:#1F5E3F;color:#fff;
+.news button{padding:13px 22px;border-radius:6px;border:none;background:#1D4E79;color:#fff;
   font-family:var(--sans);font-weight:600;font-size:15px;cursor:pointer;transition:filter .15s}
 .news button:hover{filter:brightness(1.08)}
 .news .fine{font-size:11.5px;color:rgba(255,255,255,.5);margin-top:14px}
@@ -613,6 +614,28 @@ video.desk-coin{border-radius:50%;object-fit:cover;background:#0d1420;display:bl
 @media (prefers-reduced-motion:reduce){.prose a::after,.pc-note a::after,.fnote a::after,
   .flinks a::after,.bl-links a::after{transition:none}}
 
-/* ---- accessibility: skip-to-main-content link (off-screen until focused) ----------- */
-a.skip-link{position:absolute;left:-9999px;top:0;z-index:1000;background:var(--rule);color:#fff;padding:10px 16px;border-radius:0 0 8px 0;font-weight:700;text-decoration:none}
+/* ---- accessibility: skip-to-main-content link (off-screen until focused) -----------
+   Fixed press ink blue on purpose: white-on-var(--rule) fails contrast in dark mode
+   (the dark rule is a light tint); #FFFFFF on #1D4E79 holds 8.7:1 in both themes. */
+a.skip-link{position:absolute;left:-9999px;top:0;z-index:1000;background:#1D4E79;color:#fff;padding:10px 16px;border-radius:0 0 8px 0;font-weight:700;text-decoration:none}
 a.skip-link:focus{left:0}
+
+/* ---- outlet credibility chips (the GoCheckMyNews differentiator) --------------------
+   .tag.cred rides beside every cited source link: the outlet's bias lane and factual
+   grade, lowercase like the data it carries. Reuses the tag chassis + theme variables
+   (muted on paper/card: 6.0:1 light, 7.6:1 dark; both AA). unrated = dashed, honest.
+   .chip-spectrum is the balance signal on story cards; press ink blue text/border
+   (#1D4E79 on paper 8.3:1, on card 8.7:1; dark #7FB3DE on paper 8.2:1, on card 7.6:1),
+   with a fixed light tint inside the constant-dark hero band (about 8:1 on its panels). */
+.tag.cred{background:transparent;color:var(--muted);border:1px solid var(--line);
+  text-transform:none;letter-spacing:.03em;margin-left:6px;vertical-align:1px;white-space:nowrap}
+.tag.cred.unrated{border-style:dashed}
+.sources .tag.cred{margin-left:8px}
+.cred-note{font-size:12px;color:var(--faint);margin:10px 0 0}
+.chip-spectrum{color:var(--rule);border-color:var(--rule);font-weight:600}
+.hero-band .chip-spectrum{color:#7FB3DE;border-color:#7FB3DE}
+.cred-list{list-style:none;padding-left:0;margin:0 0 10px}
+.cred-list li{padding:10px 0;border-bottom:1px solid var(--line);font-size:15.5px}
+.cred-list li:last-child{border-bottom:none}
+.cred-list .mut{color:var(--faint);font-size:13px}
+.cred-side{display:block;font-size:13px;color:var(--muted);margin-top:3px;line-height:1.5}

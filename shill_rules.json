@@ -1,20 +1,20 @@
 {
-  "_note": "Deterministic hype-tell rules and source reputation for the sports desk. This is the fail-closed BELT: a rule-based first net that runs offline and is unit-tested by the canary. The editor AI is the SUSPENDERS (Stage 2) and the verifier AI is a second, independent net (Stage 3). Sports translation of the crypto shill belt: tout/betting bait, unsourced rumor churn, and engagement-bait hot takes instead of coin shilling. Tune over time; living file.",
+  "_note": "Deterministic hype-tell rules and source reputation for the news desk. This is the fail-closed BELT: a rule-based first net that runs offline and is unit-tested by the canary. The editor AI is the SUSPENDERS (Stage 2) and the verifier AI is a second, independent net (Stage 3). News translation of the family shill belt: outrage bait, unnamed-source rumor churn, conspiracy framing, and sponsored placement instead of coin shilling or betting touts. Tune over time; living file.",
 
   "tells": [
-    { "id": "tout_bait",         "weight": 5, "pattern": "\\b(lock of the (day|week|year)|guaranteed (win|winner|pick)|can'?t[- ]miss (pick|parlay|bet)|sure thing|free picks?|best bets? (today|tonight)|expert picks? (win|cash))\\b", "reason": "betting tout / picks-selling bait" },
-    { "id": "parlay_hype",       "weight": 3, "pattern": "\\b(parlay|same[- ]game parlay|sgp)\\b.*\\b(smash|hammer|pound|max bet|slam)\\b", "reason": "parlay-slang betting hype" },
-    { "id": "urgency",           "weight": 3, "pattern": "\\b(don'?t miss|last chance|act now|hurry|limited time|before (the )?line moves)\\b", "reason": "manufactured urgency" },
-    { "id": "unsourced_rumor",   "weight": 3, "pattern": "\\b(sources? say|hearing that|rumor(?:s|ed)? (?:has it|swirling)|reportedly)\\b.*\\b(blockbuster|monster|shocking|stunning)\\b", "reason": "unsourced rumor dressed in hype language" },
-    { "id": "clickbait_frame",   "weight": 2, "pattern": "\\b(you won'?t believe|shocking truth|the real reason|what (he|she|they) said next|goes viral|breaks the internet)\\b", "reason": "engagement-bait framing" },
+    { "id": "outrage_bait",      "weight": 3, "pattern": "\\b(destroys?|obliterates?|eviscerates?|slams?|shreds?|torches?|demolishes?)\\b.*\\b(critics?|opponents?|the left|the right|liberals?|conservatives?)\\b", "reason": "outrage-bait verb framing" },
+    { "id": "conspiracy_frame",  "weight": 4, "pattern": "\\b(what they don'?t want you to know|the media won'?t (tell|show) you|wake up|do your own research|mainstream media is (hiding|lying)|the truth they'?re hiding)\\b", "reason": "conspiracy framing" },
+    { "id": "unsourced_rumor",   "weight": 3, "pattern": "\\b(sources? say|insiders? claim|reportedly|rumor(?:s|ed)?)\\b.*\\b(bombshell|explosive|shocking|stunning|devastating)\\b", "reason": "unsourced rumor dressed in hype language" },
+    { "id": "clickbait_frame",   "weight": 2, "pattern": "\\b(you won'?t believe|shocking truth|the real reason|what happened next|goes viral|breaks the internet|number \\d+ will)\\b", "reason": "engagement-bait framing" },
     { "id": "sponsored",         "weight": 5, "pattern": "\\b(sponsored|in partnership with|presented by|paid post|paid partnership|promoted|advertorial|press release distribution|prnewswire|globe ?newswire|via businesswire)\\b", "reason": "sponsored / paid-placement marker" },
-    { "id": "promo_code_bait",   "weight": 4, "pattern": "\\b(promo code|bonus bets?|risk[- ]free bet|deposit match|new user offer|sign[- ]up bonus)\\b", "reason": "sportsbook affiliate promo bait" },
-    { "id": "hot_take",          "weight": 1, "pattern": "\\b(all[- ]time great|greatest ever|goat debate|washed|fraud|exposed|era is over|dynasty is dead|guaranteed|surefire)\\b", "reason": "hot-take superlatives" },
-    { "id": "fake_quote_frame",  "weight": 2, "pattern": "\\b(allegedly said|is said to have told|per an unnamed|according to a source close to)\\b", "reason": "quote attributed to no one checkable (verify against a primary source)" }
+    { "id": "miracle_bait",      "weight": 4, "pattern": "\\b(doctors hate|miracle cure|one weird trick|this simple trick|secret (that|the)|big pharma doesn'?t)\\b", "reason": "miracle-cure / snake-oil bait" },
+    { "id": "urgency",           "weight": 3, "pattern": "\\b(don'?t miss|last chance|act now|hurry|before it'?s (deleted|taken down|censored))\\b", "reason": "manufactured urgency" },
+    { "id": "loaded_absolutes",  "weight": 1, "pattern": "\\b(total(ly)? corrupt|complete hoax|utterly destroyed|proven beyond doubt|everyone knows|no one is talking about)\\b", "reason": "loaded absolutist language" },
+    { "id": "fake_quote_frame",  "weight": 2, "pattern": "\\b(allegedly said|is said to have told|per an unnamed|according to a source close to)\\b", "reason": "quote attributed to no one checkable (verify against the record)" }
   ],
 
   "source_reputation": {
-    "_note": "Multiplier on a source's baseline trust. > 1 raises weight (official league sources), < 1 lowers it. Editor and verifier both receive these so a single low-rep source cannot carry a top story alone.",
+    "_note": "Multiplier on a source's baseline trust. > 1 raises weight (official public record), < 1 lowers it. Editor and verifier both receive these so a single low-rep source cannot carry a top story alone. Outlet-level bias/factual ratings live separately in site/data/credibility.json and are shown to readers.",
     "primary": 1.5,
     "major": 1.0,
     "onchain": 1.1,
@@ -23,7 +23,7 @@
     "breaking": 0.7,
     "unknown": 0.6,
     "known_low_rep_domains": {
-      "_note": "Domains with pay-for-coverage, tout-network, or aggregation-mill reputations. Not a blocklist; a heavy weight penalty. Extend over time.",
+      "_note": "Domains with pay-for-coverage, content-mill, or fabrication reputations. Not a blocklist; a heavy weight penalty. Extend over time.",
       "domains": [],
       "penalty": 0.4
     }

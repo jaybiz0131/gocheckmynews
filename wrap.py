@@ -5,7 +5,7 @@ wrap.py: the DAILY EDITION (The Morning Brief / The Closing Wrap), 2026-07-14.
 Jack's product call: the desk is a full media outlet, and a media outlet never posts a
 zero-content morning. This stage produces the flagship twice-daily synthesis: what is
 really going on, why, and what to watch in the coming days: the voice of reason for a
-sport-news cycle in constant shout. It runs AFTER autopilot in the brief workflow and can
+news cycle in constant shout. It runs AFTER autopilot in the brief workflow and can
 ALWAYS publish, because its raw material is already gated: the desk's own published,
 verified stories plus the desk's own boards when available. No new facts enter here.
 
@@ -39,7 +39,7 @@ import llm as llmlib
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 CONTENT = os.path.join(HERE, "site", "content")
-NFA = "GoCheckMySports reports events. It never advises bets. Nothing here is betting or gambling advice."
+NFA = "GoCheckMyNews reports events. It does not editorialize and it does not advise. Nothing here is political advocacy, legal advice, or financial advice."
 
 EDITIONS = {
     "morning": {"name": "The Morning Brief", "slug": "morning-brief", "rank": -1,
@@ -168,7 +168,7 @@ def build_item(edition, obj, stories, date, published_utc):
         "date": date, "published_utc": published_utc,
         "category": "daily edition",
         "rank": ed["rank"],
-        "author": "GoCheckMySports",
+        "author": "GoCheckMyNews",
         "key_fact": destyle(obj.get("key_takeaway", "")),
         "bottom_line": destyle(obj.get("bottom_line", "")),
         "human_take": "",
@@ -193,7 +193,7 @@ def main():
     breaking = os.environ.get("BREAKING") == "1"
     # rerun-safe: one edition per slot per day, EXCEPT a breaking run REGENERATES the
     # current slot's edition in place (owner directive 2026-07-15: a Bottom Line that
-    # does not know about the blockbuster trade from an hour ago reads as asleep). Same
+    # does not know about the blockbuster ruling from an hour ago reads as asleep). Same
     # file, same URL, refreshed read.
     final_path = os.path.join(CONTENT, f"{date}-{EDITIONS[edition]['slug']}.json")
     refreshing = os.path.exists(final_path)

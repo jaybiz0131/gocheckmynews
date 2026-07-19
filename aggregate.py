@@ -2,7 +2,7 @@
 """
 aggregate.py: Stage 1, the intake.
 
-Pull sports news from many sources on a schedule, normalize to one shape, dedupe
+Pull general news from many sources on a schedule, normalize to one shape, dedupe
 near-identical stories across outlets into clusters, and run the deterministic shill
 pre-pass. Same pattern as the Storm ingest and the recall cross-reference: fetch, normalize,
 write JSON; never runs in a browser.
@@ -10,8 +10,8 @@ write JSON; never runs in a browser.
 SOURCES (config.json): keyless RSS feeds (official/primary + major outlets) always; the
 legacy aggregator and X/Twitter gatherers only when their env token is set (absence is
 documented, never a failure; both are dormant with no config keys). Official/primary
-sources (league offices, official league data feeds) carry the highest source_tier and the
-editor weights them most.
+sources (the courts, the central bank, Congress: the official public record) carry the
+highest source_tier and the editor weights them most.
 
 OUTPUT  out/items.json
   {
@@ -51,7 +51,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 CONFIG = os.path.join(HERE, "config.json")
 OUT_DIR = os.path.join(HERE, "out")
 DEFAULT_OUT = os.path.join(OUT_DIR, "items.json")
-UA = "GoCheckMySports-Aggregator/1.0 (+news pipeline)"
+UA = "GoCheckMyNews-Aggregator/1.0 (+news pipeline)"
 
 STOPWORDS = set(("the a an and or of to in on for with at by from as is are be into over "
                  "after amid its it new news says say will has have how why what when who "

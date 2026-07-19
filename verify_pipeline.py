@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-verify_pipeline.py: self-verify the GoCheckMySports pipeline. Same two-layer discipline as
+verify_pipeline.py: self-verify the GoCheckMyNews pipeline. Same two-layer discipline as
 the Pet recall verifier (_pipeline/verify_curated.py): an offline hard gate that blocks, and
 a live notify-only check that never blocks a run.
 
@@ -9,10 +9,11 @@ a live notify-only check that never blocks a run.
      - config.json, shill_rules.json well-formed; models carry no temperature/top_p/top_k
        (those 400 on the current model family).
      - prompts exist and carry their load-bearing guardrail tokens (editor: shill/rank;
-       verifier: the three verdicts + adversarial; writer: DRAFT + not betting advice +
+       verifier: the three verdicts + adversarial; writer: DRAFT + no advocacy +
        human take).
-     - shill canary: the deterministic belt scores a known tout headline as rejected, a
-       sportsbook promo item as flagged, and a primary-source real story as clean.
+     - shill canary: the deterministic belt scores a known conspiracy+sponsored item as
+       rejected, an unnamed-source rumor-churn item as flagged, and a primary-source real
+       story as clean.
      - dedupe canary: two near-identical headlines collapse into one cluster.
      - full offline replay end-to-end (aggregate->editor->verifier->writer->digest) over the
        fixture: exact cluster count, exact editor split, all three verdicts present, only
@@ -85,7 +86,7 @@ def layer1_canary():
         "editor.md": ["shill", "rank", "JSON"],
         "verifier.md": ["VERIFIED", "NEEDS-HUMAN-REVIEW", "REJECT", "adversarial"],
         "researcher.md": ["brief", "confidence", "bear_case", "unconfirmed", "thin"],
-        "writer.md": ["DRAFT", "betting advice", "human take", "human_take", "brief",
+        "writer.md": ["DRAFT", "advocacy", "human take", "human_take", "brief",
                       "never pad", "what to watch"],
         "approver.md": ["APPROVE", "REJECT", "accuracy", "balance", "clarity", "compliance",
                         "smuggled"],
@@ -102,32 +103,32 @@ def layer1_canary():
         for tk in toks:
             _check(tk.lower() in low, fails, f"prompt {name}: missing guardrail token '{tk}'")
 
-    # shill belt canary: a tout post is rejected; a sportsbook promo item is flagged
-    # (but not auto-rejected); a primary-source item is clean
-    tout = {"headline": "Lock of the day: guaranteed winner tonight, don't miss",
-            "snippet": "promo code bonus bets, risk-free bet before the line moves",
-            "source": "x", "source_tier": "unknown", "url": "http://x"}
-    promo = {"headline": "New sportsbook offers promo code bonus bets for the playoffs",
-             "snippet": "", "source": "dealsite", "source_tier": "aggregator", "url": "http://d"}
-    real = {"headline": "NFL suspends Acme Falcons cornerback six games for wagering policy violation",
-            "snippet": "", "source": "NFL", "source_tier": "primary", "url": "http://nfl"}
-    shill_mod.annotate([tout, promo, real], rules)
-    _check(tout["shill_rejected"] is True
-           and tout["shill_score"] >= rules["thresholds"]["reject_score"], fails,
-           f"shill canary: tout post not rejected (score={tout['shill_score']})")
-    _check(promo["shill_score"] >= rules["thresholds"]["flag_score"], fails,
-           f"shill canary: sportsbook promo item not flagged (score={promo['shill_score']})")
+    # shill belt canary: a conspiracy-framed sponsored item is rejected; an unnamed-source
+    # rumor-churn item is flagged (but not auto-rejected); a primary-source item is clean
+    conspiracy = {"headline": "What they don't want you to know about the new health bill",
+                  "snippet": "Sponsored: the shocking truth the mainstream media is hiding",
+                  "source": "x", "source_tier": "unknown", "url": "http://x"}
+    rumor = {"headline": "Sources say shocking bombshell coming for the mayor's office",
+             "snippet": "", "source": "churnsite", "source_tier": "aggregator", "url": "http://d"}
+    real = {"headline": "Federal Reserve holds interest rates steady after latest price data",
+            "snippet": "", "source": "Federal Reserve", "source_tier": "primary", "url": "http://fed"}
+    shill_mod.annotate([conspiracy, rumor, real], rules)
+    _check(conspiracy["shill_rejected"] is True
+           and conspiracy["shill_score"] >= rules["thresholds"]["reject_score"], fails,
+           f"shill canary: conspiracy+sponsored item not rejected (score={conspiracy['shill_score']})")
+    _check(rumor["shill_score"] >= rules["thresholds"]["flag_score"], fails,
+           f"shill canary: rumor-churn item not flagged (score={rumor['shill_score']})")
     _check(real["shill_rejected"] is False and real["shill_score"] == 0, fails,
            f"shill canary: primary-source item wrongly flagged (score={real['shill_score']})")
 
     # dedupe canary: two near-identical headlines collapse
     import aggregate
     dup = [
-        {"headline": "NBA suspends Acme Rockets guard ten games over wagering violation",
+        {"headline": "Supreme Court agrees to hear challenge to federal agency rulemaking power",
          "source": "A", "source_tier": "primary", "url": "u1", "timestamp": "", "snippet": ""},
-        {"headline": "NBA suspends Acme Rockets guard ten games over wagering violation, team plans appeal",
+        {"headline": "Supreme Court agrees to hear challenge to federal agency rulemaking power, arguments set for fall",
          "source": "B", "source_tier": "major", "url": "u2", "timestamp": "", "snippet": ""},
-        {"headline": "Yankees ace throws first no-hitter of the season",
+        {"headline": "Senate passes stopgap funding bill ahead of shutdown deadline",
          "source": "C", "source_tier": "major", "url": "u3", "timestamp": "", "snippet": ""},
     ]
     clusters = aggregate.dedupe(dup, cfg)
@@ -195,9 +196,9 @@ def _replay_e2e():
             art = d["article_draft"]
             _check(art["status"] == "DRAFT", fails, f"replay: draft {d['id']} not DRAFT-tagged")
             _check(art["human_take"] == "", fails, f"replay: draft {d['id']} human_take not empty")
-            _check("betting" in art["not_financial_advice"].lower()
+            _check("advocacy" in art["not_financial_advice"].lower()
                    and "advice" in art["not_financial_advice"].lower(), fails,
-                   f"replay: draft {d['id']} missing not-betting-advice disclaimer")
+                   f"replay: draft {d['id']} missing the no-advocacy, no-advice disclaimer")
 
         # Approver: one categorized decision per draft; an unjudged draft would REJECT
         # (fail-closed coverage is exercised by the validate path itself).
@@ -223,16 +224,16 @@ def _replay_e2e():
         # story HOLDS unless its headline carries the unconfirmed label; two independent
         # sources publish; duplicate source names do not count as independence.
         _check(autopilot.breaking_two_source_holds(
-                   "Star quarterback traded to Acme Falcons", ["ESPN"]) is True, fails,
+                   "Cabinet secretary resigns amid federal ethics inquiry", ["NPR"]) is True, fails,
                "breaking gate: single-source story published as fact was NOT held")
         _check(autopilot.breaking_two_source_holds(
-                   "Star quarterback traded to Acme Falcons", ["ESPN", "The Athletic"]) is False, fails,
+                   "Cabinet secretary resigns amid federal ethics inquiry", ["NPR", "The Hill"]) is False, fails,
                "breaking gate: two-source story was wrongly held")
         _check(autopilot.breaking_two_source_holds(
-                   "Unconfirmed: star quarterback may be traded to Acme Falcons", ["ESPN"]) is False,
+                   "Unconfirmed: cabinet secretary may resign amid ethics inquiry", ["NPR"]) is False,
                fails, "breaking gate: labeled-unconfirmed single-source was wrongly held")
         _check(autopilot.breaking_two_source_holds(
-                   "Star quarterback traded to Acme Falcons", ["ESPN", "espn", ""]) is True, fails,
+                   "Cabinet secretary resigns amid federal ethics inquiry", ["NPR", "npr", ""]) is True, fails,
                "breaking gate: duplicate source names wrongly counted as independent")
 
         # Daily edition (wrap): replay dry-run must produce a belts-clean edition item
@@ -349,16 +350,16 @@ def _contract_ladder_canary(cfg):
     # THE BOTTOM LINE lane gate (owner directive 2026-07-15): the signature element's
     # own guardrail must block directional/predictive language and pass clean synthesis.
     import wrap as wrapmod
-    clean = ("The day's theme was the trade deadline outpacing the contenders: two front "
-             "offices dealt and the standings barely budged. The honest read is that the "
-             "sellers stayed patient while the headlines ran hot. The coming checkpoints "
-             "are Thursday's arbitration hearing and the league's next injury report.")
+    clean = ("The day's theme was the budget calendar outpacing the negotiators: two "
+             "chambers voted and the deadline barely moved. The honest read is that the "
+             "leadership stayed patient while the headlines ran hot. The coming checkpoints "
+             "are Thursday's committee hearing and the court's next scheduled filing.")
     _check(wrapmod.bottom_line_lint(clean) == [], fails,
            f"Bottom Line lane: clean synthesis wrongly flagged: {wrapmod.bottom_line_lint(clean)}")
-    dirty = "Tonight's sweep sets up for a move higher in the seeding race."
+    dirty = "Tonight's ruling sets up for a move higher in the appeal fight."
     _check(len(wrapmod.bottom_line_lint(dirty)) >= 1, fails,
            "Bottom Line lane: 'sets up for a move higher' was NOT blocked")
-    _check(len(wrapmod.bottom_line_lint("The Rockets look poised to rally, brace for a wild deadline week.")) >= 2,
+    _check(len(wrapmod.bottom_line_lint("The challengers look poised to prevail, brace for a chaotic deadline week.")) >= 2,
            fails, "Bottom Line lane: poised-to/brace-for was NOT blocked")
     return fails
 

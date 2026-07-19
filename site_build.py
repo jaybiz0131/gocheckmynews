@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
 """
-site_build.py: build the public GoCheckMySports site from committed content.
+site_build.py: build the public GoCheckMyNews site from committed content.
 
 Reproducible + lossless (the GoCheckMyPet lesson D2: everything the page needs is emitted
 here from the templates, so rebuilding never strips the footer, disclaimer, or schema). Reads
 site/content/*.json (one file per published item; _-prefixed files are ignored) and renders a
 static deploy folder site/publish/: home, archive, one page per article, plus the static
-editorial pages (about / how we work / standards) and a 404. No third-party dependency; no em
-dashes; the no-betting-advice disclaimer baked into every article and the footer.
+editorial pages (about / how we work / standards / how we rate sources) and a 404. No
+third-party dependency; no em dashes; the no-advocacy-no-advice disclaimer baked into every
+article and the footer. Every cited source renders with its outlet credibility chip (bias
+lane + factual grade from site/data/credibility.json, attributed to the public charts).
 
 CONTENT FLOW
   A story is published only after a human approves it (publish.py, Stage 6). Promote approved
@@ -33,31 +35,33 @@ ASSETS = os.path.join(SITE, "assets")
 PUBLISH = os.path.join(SITE, "publish")
 PUBLISHED = os.path.join(HERE, "out", "published")
 
-# Brand: GoCheckMySports is a daily sports news desk in the GoCheckMy family
-# (gocheckmysports.com), tied to the family hub through the "A GoCheckMy site" footer link.
+# Brand: GoCheckMyNews is a daily general news desk in the GoCheckMy family
+# (gocheckmynews.com), tied to the family hub through the "A GoCheckMy site" footer link.
 # One identity everywhere: the desk and the site share the name.
-NAME = "GoCheckMySports"
-SLOGAN = "The score is a fact. The story gets checked."   # the brand tagline
-DESK_LINE = "The daily sports desk that checks the story before it runs."   # secondary descriptor
-FAMILY = "GoCheckMySports"                     # family/domain tie: gocheckmysports.com
+NAME = "GoCheckMyNews"
+SLOGAN = "Every story, sourced. Every source, rated."   # the brand tagline
+DESK_LINE = "The daily news desk that checks the story, and rates the source, before it runs."   # secondary descriptor
+FAMILY = "GoCheckMyNews"                       # family/domain tie: gocheckmynews.com
 FAMILY_HUB = "https://gocheckmy.com/"          # the GoCheckMy family hub (canonical footer link)
-ORIGIN = "https://gocheckmysports.com"         # canonical origin for canonical/og:url/sitemap
+ORIGIN = "https://gocheckmynews.com"           # canonical origin for canonical/og:url/sitemap
 OG_IMAGE = ORIGIN + "/og-image.png"            # 1200x630 social card, committed at site/assets/og-image.png
-CF_ANALYTICS_TOKEN = ""  # Cloudflare Web Analytics site token for gocheckmysports.com; empty renders no beacon
-DESC = ("GoCheckMySports is an independent daily sports news desk built with one intention: "
-        "get the stories right and keep the facts honest. Scores are facts; stories get "
-        "checked against their sources before they run. Never betting advice.")
-FAMILY_DESC = ("GoCheckMySports is sports, checked: a daily news desk that verifies every "
-               "story against official league data and on-record sources before it runs. "
-               "The score is a fact. The story gets checked. Never betting advice.")
-NFA = ("GoCheckMySports reports events. It never advises bets. Nothing here is betting or "
-       "gambling advice.")
+CF_ANALYTICS_TOKEN = ""  # Cloudflare Web Analytics site token for gocheckmynews.com; empty renders no beacon
+DESC = ("GoCheckMyNews is an independent daily news desk built with one intention: report "
+        "what actually happened and keep the facts honest. Every story is checked against "
+        "its sources before it runs, and every cited outlet carries a published bias and "
+        "factual rating, shown with attribution. Never advocacy, never advice.")
+FAMILY_DESC = ("GoCheckMyNews is the news, checked: a daily desk that verifies every story "
+               "against the official public record and outlets across the political "
+               "spectrum before it runs. Every story, sourced. Every source, rated.")
+NFA = ("GoCheckMyNews reports events. It does not editorialize and it does not advise. "
+       "Nothing here is political advocacy, legal advice, or financial advice.")
 YEAR = "2026"
 MONTHS = ["", "January", "February", "March", "April", "May", "June", "July", "August",
           "September", "October", "November", "December"]
 
 NAV = [("Home", "/index.html"), ("Latest", "/news.html"),
-       ("Archive", "/archive.html"), ("About", "/about.html")]
+       ("Archive", "/archive.html"), ("Sources", "/sources.html"),
+       ("About", "/about.html")]
 
 
 # ---- helpers -----------------------------------------------------------------
@@ -95,7 +99,7 @@ def _parse_utc(item):
 
 def fmt_when(item):
     """Dateline with the publish time when we have one: 'July 12, 2026 · 07:41 UTC'.
-    Games end late and news breaks around the clock; a reader needs to know 2 hours old vs 20."""
+    News breaks around the clock; a reader needs to know 2 hours old vs 20."""
     base = esc(fmt_date(item.get("date")))
     if item.get("published_utc"):
         dt = _parse_utc(item)
@@ -111,19 +115,45 @@ def _rfc822(item):
 
 # Source attribution: outlet names read better (and more honestly) than raw feed URLs.
 OUTLETS = {
-    "espn.com": "ESPN", "bbc.co.uk": "BBC Sport", "bbc.com": "BBC Sport",
-    "cbssports.com": "CBS Sports", "theguardian.com": "The Guardian",
-    "sports.yahoo.com": "Yahoo Sports",
-    "statsapi.mlb.com": "MLB StatsAPI (official)",
-    "api-web.nhle.com": "NHL API (official)",
-    "site.api.espn.com": "ESPN Scoreboard",
-    "thesportsdb.com": "TheSportsDB",
+    "npr.org": "NPR",
+    "bbc.co.uk": "BBC", "bbc.com": "BBC",
+    "pbs.org": "PBS NewsHour",
+    "nytimes.com": "The New York Times",
+    "theguardian.com": "The Guardian",
+    "washingtonpost.com": "The Washington Post",
+    "wsj.com": "The Wall Street Journal",
+    "dowjones.io": "The Wall Street Journal",
+    "foxnews.com": "Fox News",
+    "nationalreview.com": "National Review",
+    "washingtonexaminer.com": "Washington Examiner",
+    "reason.com": "Reason",
+    "thehill.com": "The Hill",
+    "federalreserve.gov": "Federal Reserve (official record)",
+    "supremecourt.gov": "Supreme Court (official record)",
+    "congress.gov": "Congress.gov (official record)",
+    "justice.gov": "Department of Justice (official record)",
 }
 
 
+def _host_of(url):
+    from urllib.parse import urlparse
+    return urlparse(url or "").netloc.lower().split(":")[0].removeprefix("www.")
+
+
+def _by_domain(host, table):
+    """Match a host against a domain-keyed table, walking subdomains toward the
+    registrable root (rss.nytimes.com matches nytimes.com). Label-boundary only."""
+    parts = [p for p in (host or "").split(".") if p]
+    for i in range(len(parts) - 1):
+        hit = table.get(".".join(parts[i:]))
+        if hit is not None:
+            return hit
+    return None
+
+
 def source_label(src):
-    """'ESPN: veteran shortstop traded at the deadline' instead of a raw URL
-    with utm cruft. A real title (anything that isn't just the URL) is kept as-is."""
+    """'NPR: senate passes the stopgap' instead of a raw URL with utm cruft.
+    A real title (anything that isn't just the URL) is kept as-is."""
     from urllib.parse import urlparse
     url = src.get("url") or ""
     title = (src.get("title") or "").strip()
@@ -131,7 +161,7 @@ def source_label(src):
         return title
     p = urlparse(url)
     host = p.netloc.lower().removeprefix("www.")
-    outlet = OUTLETS.get(host, host)
+    outlet = _by_domain(host, OUTLETS) or host
     slug = [s for s in p.path.split("/") if s]
     hint = re.sub(r"[-_]+", " ", re.sub(r"\.\w+$", "", slug[-1])) if slug else ""
     hint = re.sub(r"\b\d{5,}\b", "", hint).strip()
@@ -142,26 +172,89 @@ def source_label(src):
     return outlet
 
 
+# ---- outlet credibility (the GoCheckMyNews differentiator) ----------------------------
+# site/data/credibility.json maps every source domain the desk cites to a coarse bias lane
+# and a factual-reporting grade, ATTRIBUTED to the public charts that publish them. The
+# build renders a chip beside every cited source and the /sources.html methods page. If the
+# table is absent, every credibility surface skips silently (never a build failure).
+_CRED_PATH = os.path.join(SITE, "data", "credibility.json")
+try:
+    _CRED = json.load(open(_CRED_PATH, encoding="utf-8"))
+except Exception:
+    _CRED = {}
+CRED_DOMAINS = _CRED.get("domains") or {}
+CRED_ATTRIBUTION = _CRED.get("attribution") or {}
+CRED_REVIEW = _CRED.get("review") or {}
+
+# render order + display labels for the coarse lanes (deliberately coarse: a lane, not a score)
+CRED_LANES = [("official-record", "Official record"), ("left", "Left"),
+              ("lean-left", "Lean left"), ("center", "Center"),
+              ("lean-right", "Lean right"), ("right", "Right"),
+              ("libertarian", "Libertarian")]
+
+
+def cred_for(url):
+    """The credibility record for a source URL's outlet, or None (unrated)."""
+    return _by_domain(_host_of(url), CRED_DOMAINS)
+
+
+def cred_chip_label(rec):
+    if rec.get("bias") == "official-record":
+        return "official record"
+    return f'{rec.get("bias") or "unrated"} / {rec.get("factual") or "ungraded"}'
+
+
+def cred_chip(url):
+    """The small credibility chip rendered beside a cited source link: the outlet's bias
+    lane and factual grade ('lean-left / high'), 'official record' for primary-source
+    institutions, 'unrated' for a domain absent from the table. Empty when the table
+    itself is absent."""
+    if not CRED_DOMAINS:
+        return ""
+    rec = cred_for(url)
+    if rec is None:
+        return '<span class="tag cred unrated">unrated</span>'
+    return f'<span class="tag cred">{esc(cred_chip_label(rec))}</span>'
+
+
+def spectrum_lanes(item):
+    """The set of bias lanes represented in a story's cited sources."""
+    lanes = set()
+    for s in item.get("sources") or []:
+        rec = cred_for(s.get("url") or "")
+        if rec and rec.get("bias"):
+            lanes.add(rec["bias"])
+    return lanes
+
+
+def spectrum_chip(item):
+    """The balance signal: when a story's corroboration spans 3+ bias lanes, its card says
+    so. Derived entirely from the credibility table; silent when the table is absent."""
+    if not CRED_DOMAINS:
+        return ""
+    if len(spectrum_lanes(item)) >= 3:
+        return '<span class="chip chip-spectrum">Corroborated across the spectrum</span>'
+    return ""
+
+
 # Topic tags: deterministic keyword rules over the story text, computed at build time so
 # every story (old and new) gets them without touching the pipeline. Order = priority;
 # a story keeps at most 3.
 TAG_RULES = [
-    ("injuries", r"\b(injur\w*|acl|mcl|achilles|hamstring|concussion\w*|surgery|"
-                 r"injured (?:list|reserve)|day-to-day|week-to-week|out for the season|"
-                 r"questionable|doubtful|sidelined)\b"),
-    ("transactions", r"\b(trade[sd]?|traded|signing\w*|signed|waive[sd]?|waiver\w*|"
-                     r"free agen\w*|contract\w*|extension\w*|transfer\w*|draft\w*|"
-                     r"released|option\w* (?:exercised|declined)|call[- ]up)\b"),
-    ("nfl", r"\b(nfl|super bowl|quarterback\w*|touchdown\w*|training camp)\b"),
-    ("nba", r"\b(nba|wnba|finals mvp|triple-double)\b"),
-    ("mlb", r"\b(mlb|world series|no-hitter|home run\w*|inning\w*|pitcher\w*)\b"),
-    ("nhl", r"\b(nhl|stanley cup|hat trick|power play|goalie\w*|goaltender\w*)\b"),
-    ("soccer", r"\b(premier league|champions league|la liga|serie a|bundesliga|mls|"
-               r"fifa|uefa|world cup|soccer)\b"),
-    ("college", r"\b(ncaa|college football|college basketball|march madness|"
-                r"heisman|bowl game\w*|nil deal\w*)\b"),
-    ("scores-results", r"\b(final score\w*|won|beat\w*|defeat\w*|shutout|overtime|"
-                       r"walk-off|clinch\w*|elimination|playoff\w*|postseason)\b"),
+    ("government", r"\b(white house|executive order\w*|federal agenc\w*|shutdown|"
+                   r"congress\w*|senate|house of representatives|house vote\w*|"
+                   r"legislation|regulation\w*|cabinet|governor\w*|statehouse\w*)\b"),
+    ("courts", r"\b(supreme court|scotus|certiorari|appeals court|circuit court|"
+               r"district court|ruling\w*|injunction\w*|indict\w*|lawsuit\w*|"
+               r"plaintiff\w*|verdict\w*|oral argument\w*)\b"),
+    ("economy", r"\b(federal reserve|fomc|inflation|interest rate\w*|rate (?:cut|hike)\w*|"
+                r"jobs report|unemployment|gdp|tariff\w*|cpi|recession|treasur\w*)\b"),
+    ("world", r"\b(united nations|nato|ceasefire|foreign minist\w*|embassy|embassies|"
+              r"sanction\w*|treaty|treaties|middle east|ukraine|taiwan|refugee\w*)\b"),
+    ("politics", r"\b(election\w*|campaign\w*|midterm\w*|ballot\w*|primar(?:y|ies)|"
+                 r"poll\w*|candidate\w*|voter\w*|caucus\w*)\b"),
+    ("business", r"\b(earnings|merger\w*|acquisition\w*|ipo|bankruptc\w*|antitrust|"
+                 r"layoff\w*|stockholder\w*|shareholder\w*|ceo)\b"),
 ]
 _TAG_RES = [(tag, re.compile(pat, re.I)) for tag, pat in TAG_RULES]
 
@@ -242,7 +335,7 @@ def load_content():
 # ---- shared chrome -----------------------------------------------------------
 
 def masthead(active, dateline, brand="site"):
-    """One identity everywhere: GoCheckMySports is both the site and the desk. The brand
+    """One identity everywhere: GoCheckMyNews is both the site and the desk. The brand
     parameter is kept for the shared call sites; every page renders the same masthead."""
     nav = "".join(
         f'<a href="{esc(href)}"{" class=active" if label == active else ""}>{esc(label)}</a>'
@@ -267,9 +360,9 @@ def masthead(active, dateline, brand="site"):
 def newsletter():
     return f"""<section class="news"><div class="wrap">
   <h2>Get the brief</h2>
-  <p>The day's real sports news, fact-checked against official league data, with the honest
-     take. No hot takes dressed as facts, no rumor mills. One email, on a cadence we can
-     actually keep.</p>
+  <p>The day's real news, checked against the official public record and outlets across the
+     political spectrum, with every source rated in the open. No advocacy, no rumor mills.
+     One email, on a cadence we can actually keep.</p>
   <form name="newsletter" method="POST" data-netlify="true" netlify-honeypot="company" action="/thanks.html">
     <input type="hidden" name="form-name" value="newsletter">
     <input class="hp" type="text" name="company" tabindex="-1" autocomplete="off" aria-hidden="true">
@@ -277,17 +370,19 @@ def newsletter():
     <button type="submit">Subscribe</button>
   </form>
   <p class="fine">Emails are stored by Netlify Forms and used only to send the newsletter.
-     Unsubscribe anytime. See our <a href="/privacy.html">privacy policy</a>. Never betting advice.</p>
+     Unsubscribe anytime. See our <a href="/privacy.html">privacy policy</a>. Never advocacy, never advice.</p>
 </div></section>"""
 
 
 def trust_block():
     return f"""<section class="trust"><div class="wrap">
   <div class="sec-head"><h2>The desk's promise</h2><span class="bar"></span></div>
-  <p class="trust-line">We aggregate stories from official league data and established
-  outlets, audit every one for credibility, and surface only what genuinely matters, with
-  the rumor and the hype stripped out. Sources are linked on every story, and nothing here
-  is ever betting advice.</p>
+  <p class="trust-line">We aggregate stories from the official public record and established
+  outlets deliberately spread across the political spectrum, audit every one against its
+  sources, and surface only what genuinely matters, with the spin and the hype stripped out.
+  Sources are linked on every story, every outlet carries its published
+  <a href="/sources.html">bias and factual rating</a>, and nothing here is ever advocacy
+  or advice.</p>
 </div></section>"""
 
 
@@ -295,14 +390,15 @@ def footer(brand="site"):
     """One identity everywhere; the brand parameter is kept for the shared call sites."""
     links = "".join(f'<a href="{esc(h)}">{esc(l)}</a>' for l, h in
                     [("About", "/about.html"), ("How we work", "/method.html"),
+                     ("How we rate sources", "/sources.html"),
                      ("Standards & corrections", "/standards.html"), ("Archive", "/archive.html"),
                      ("Privacy", "/privacy.html"), ("Terms", "/terms.html"),
-                     ("Contact", "mailto:desk@gocheckmysports.com"),
+                     ("Contact", "mailto:desk@gocheckmynews.com"),
                      ("RSS", "/feed.xml")])
     who = f"{esc(NAME)}"
-    note = ("GoCheckMySports is an independent daily sports news desk, built with one "
-            "intention: get the stories right and keep the facts honest. The score is a "
-            "fact; the story gets checked. Sources are linked on every story.")
+    note = ("GoCheckMyNews is an independent daily news desk, built with one intention: "
+            "report what actually happened and keep the facts honest. Every story is "
+            "sourced, and every source carries its published credibility rating.")
     return f"""<footer class="site"><div class="wrap">
   <div class="frow">
     <div class="fbrand">{who}</div>
@@ -440,8 +536,8 @@ def sig_block():
     page."""
     return """<div class="sigrow">
   <div class="sig">
-    <span class="sig-script">GoCheckMySports</span>
-    <span class="sig-cap">The GoCheckMySports Desk &middot; automated newsroom</span>
+    <span class="sig-script">GoCheckMyNews</span>
+    <span class="sig-cap">The GoCheckMyNews Desk &middot; automated newsroom</span>
     <span class="sig-attest">Passed our <a href="/method.html">automated editorial review</a>:
       ranked, source-checked, and verified by the desk's independent review pass.</span>
   </div>
@@ -495,7 +591,7 @@ def render_article(item, all_items=None):
     ribbon = ""
     if item.get("example"):
         ribbon = ('<div class="callout"><b>Example, not a real story.</b> This page shows the '
-                  'format GoCheckMySports publishes in. The content is illustrative only.</div>')
+                  'format GoCheckMyNews publishes in. The content is illustrative only.</div>')
     if item.get("update_of"):
         prev = next((i for i in (all_items or []) if i.get("slug") == item["update_of"]), None)
         prev_title = prev.get("title") if prev else "our earlier story"
@@ -517,17 +613,25 @@ def render_article(item, all_items=None):
     srcs = item.get("sources") or []
     src_html = ""
     if srcs:
+        # every cited source carries its credibility chip: the outlet's bias lane and
+        # factual grade from the public charts (the differentiator; see /sources.html)
         lis = "".join(
-            f'<li><a href="{esc(s.get("url",""))}" rel="nofollow">{esc(source_label(s))}</a></li>'
+            f'<li><a href="{esc(s.get("url",""))}" rel="nofollow">{esc(source_label(s))}</a>'
+            f' {cred_chip(s.get("url") or "")}</li>'
             for s in srcs)
-        src_html = f'<div class="sources"><h4>Sources</h4><ol>{lis}</ol></div>'
+        legend = ""
+        if CRED_DOMAINS:
+            legend = ('<p class="cred-note">Outlet ratings are the public AllSides and '
+                      'Media Bias/Fact Check charts\' calls, not ours. '
+                      '<a href="/sources.html">How we rate sources</a>.</p>')
+        src_html = f'<div class="sources"><h4>Sources</h4><ol>{lis}</ol>{legend}</div>'
     rel_html = ""
     for rel in related_stories(item, all_items or []):
         rel_html += (f'<li><a href="/articles/{esc(rel["slug"])}.html">{esc(rel.get("title"))}</a>'
                      f'<span class="mut"> &middot; {fmt_when(rel)}</span></li>')
     if rel_html:
         rel_html = f'<div class="related"><h4>Related stories</h4><ul>{rel_html}</ul></div>'
-    author = esc(item.get("author", "The GoCheckMySports Desk"))
+    author = esc(item.get("author", "The GoCheckMyNews Desk"))
     body = f"""<main class="wrap narrow">
   <article class="article">
     <div class="ey">{badge}{tag}{topic_chips}<span class="dateline">{fmt_when(item)}</span></div>
@@ -580,7 +684,7 @@ def card(item):
         summ = summ.get("h2", "")
     nsrc = len(item.get("sources") or [])
     return f"""<article class="card reveal">
-  <div class="row">{badge}{tag}</div>
+  <div class="row">{badge}{tag}{spectrum_chip(item)}</div>
   <h3><a href="{href}">{esc(item.get("title"))}</a></h3>
   <p class="summary">{esc(summ[:180])}</p>
   <div class="foot"><span class="dateline">{fmt_when(item)}</span>
@@ -590,7 +694,7 @@ def card(item):
 
 def desk_strip():
     # Desk strip: the desk line beneath the masthead, text only (the chassis this repo was
-    # cloned from put an anchor-portrait video here; sports runs a single brand, no mascot).
+    # cloned from put an anchor-portrait video here; this desk runs a single brand, no mascot).
     return f"""<section class="desk"><div class="wrap">
   <div class="desk-copy">
     <span class="kicker">From the desk</span>
@@ -668,7 +772,7 @@ def render_news(items, dateline):
         lead_tags = tags_for(lead)
         tag = (f'<span class="tag topic">{esc(lead_tags[0])}</span>' if lead_tags
                else f'<span class="tag">{esc(lead.get("category", "news"))}</span>')
-        lead_inner = f"""<span class="kicker">Lead story</span> {tag}
+        lead_inner = f"""<span class="kicker">Lead story</span> {tag}{spectrum_chip(lead)}
     <h1><a href="/articles/{esc(lead["slug"])}.html" style="color:inherit">{esc(lead.get("title"))}</a></h1>
     {f'<p class="dek">{esc(lead["dek"])}</p>' if lead.get("dek") else ""}
     <div class="meta">{badge}<span class="dateline">{fmt_when(lead)}</span>
@@ -689,7 +793,7 @@ def render_news(items, dateline):
     else:
         lead_html = f"""<section class="lead"><div class="wrap">
     <span class="kicker">The desk is live</span>
-    <h1>Honest sports news, on a cadence we can keep.</h1>
+    <h1>Honest news, on a cadence we can keep.</h1>
     <p class="dek">{esc(DESK_LINE)} The first published brief lands here. In the meantime, read how
        the desk works and why you can trust the byline.</p>
     <div class="meta"><a href="/method.html">How we work &rarr;</a>
@@ -710,7 +814,7 @@ def render_news(items, dateline):
 
 
 def render_home(items, dateline):
-    """The GoCheckMySports front door, built for the RETURNING reader: today's headlines,
+    """The GoCheckMyNews front door, built for the RETURNING reader: today's headlines,
     the editions, and the storylines the desk is tracking. The brand pitch lives below the
     information, not above it."""
     live = [i for i in (items or []) if not i.get("example") and not _is_wrap(i)]
@@ -739,7 +843,8 @@ def render_home(items, dateline):
             '<source src="/assets/hero/hero-loop.mp4" type="video/mp4"></video>'
             '<span class="hero-scrim" aria-hidden="true"></span>')
         lead_html = (f'<a class="hero-lead" href="/articles/{esc(lead["slug"])}.html">'
-                     f'<span class="hero-kick"><span class="kicker">Lead story</span>{_hero_tag(lead)}</span>'
+                     f'<span class="hero-kick"><span class="kicker">Lead story</span>{_hero_tag(lead)}'
+                     f'{spectrum_chip(lead)}</span>'
                      f'<h3>{esc(lead.get("title"))}</h3>{dek_html}'
                      f'<span class="hl-meta">{verdict_badge(lead.get("verdict"))}'
                      f'<span class="dateline">{fmt_when(lead)}</span></span></a>')
@@ -834,13 +939,15 @@ def render_home(items, dateline):
   {desk_html}
   {editions_html}
   {track_html}
-  <p class="lede home-lede" style="margin-top:22px">Built with one intention: get the stories
-     right and keep the facts honest. The score is a fact; the story gets checked. Real sports
-     news verified against official league data and on-record sources, with the rumor and the
-     hype stripped out. No hot takes dressed as facts, no paid promotion, and never betting
-     advice. Everything here is free, and every source is linked.</p>
+  <p class="lede home-lede" style="margin-top:22px">Built with one intention: report what
+     actually happened and keep the facts honest. Every story is checked against the official
+     public record and outlets deliberately spread across the political spectrum, with the
+     spin and the hype stripped out. Every cited outlet carries its published
+     <a href="/sources.html">bias and factual rating</a>, shown with attribution. No advocacy,
+     no paid promotion, and never advice. Everything here is free, and every source is
+     linked.</p>
 </section></main>""" + newsletter()
-    return shell(f"{FAMILY} - Sports, checked.", FAMILY_DESC, "Home", body, dateline, path="/")
+    return shell(f"{FAMILY} - The news, checked.", FAMILY_DESC, "Home", body, dateline, path="/")
 
 
 def render_archive(items, dateline):
@@ -864,7 +971,7 @@ def render_archive(items, dateline):
     <div class="sec-head"><h2>Archive</h2><span class="bar"></span></div>
     {inner}
   </section></main>"""
-    return shell(f"Archive - {NAME}", "Every published GoCheckMySports story.", "Archive", body,
+    return shell(f"Archive - {NAME}", "Every published GoCheckMyNews story.", "Archive", body,
                  dateline, path="/archive.html")
 
 
@@ -885,17 +992,22 @@ def render_method(items, dateline):
      what happens between a raw feed and a published story, and where the human sits.</p>
 
   <h2>1. Aggregate the day</h2>
-  <p>On a schedule, the desk pulls sports news from many sources at once: official league data
-     first (league APIs, official schedules and results, on-record club statements), then
-     established outlets. The same event reported by ten outlets is collapsed into one story so
-     nothing is double-counted, and a deterministic first pass flags the obvious hype and
-     promotion tells before any AI sees it.</p>
+  <p>On a schedule, the desk pulls the news from many sources at once: the official public
+     record first (court rulings, central bank releases, and legislation straight from the
+     institutions), then established outlets deliberately spread across the political
+     spectrum, so the desk never sees one side's telling alone. The same event reported by
+     ten outlets is collapsed into one story so nothing is double-counted, and a
+     deterministic first pass flags the obvious hype and promotion tells before any AI sees
+     it. Every outlet in the intake carries a published bias and factual rating, shown to
+     you with attribution; <a href="/sources.html">how we rate sources</a> explains whose
+     ratings they are. A story corroborated across several lanes of that spectrum earns
+     top billing over one carried by a single lane.</p>
 
   <h2>2. An AI managing editor ranks and strips the hype</h2>
-  <p>An AI editor ranks the real news by genuine sporting significance, and strips the junk:
-     unsourced rumor dressed as reporting, betting-pick content, affiliate listicles, and
-     press releases dressed as news. It shows its work, listing why each story made the cut and
-     why others were cut, so the human can audit the call.</p>
+  <p>An AI editor ranks the real news by genuine significance, and strips the junk:
+     unsourced rumor dressed as reporting, advocacy dressed as analysis, affiliate
+     listicles, and press releases dressed as news. It shows its work, listing why each
+     story made the cut and why others were cut, so the human can audit the call.</p>
 
   <h2>3. A separate AI verifies the editor</h2>
   <p>A second, independent AI, with an adversarial prompt, audits those picks before anything is
@@ -925,10 +1037,11 @@ def render_method(items, dateline):
   <h2>What we will not do</h2>
   <ul>
     <li>We will not publish anything unverified. If a stage fails, we publish nothing.</li>
-    <li>We will not advise bets. We report events and explain what they may mean, never what
-        to wager on.</li>
-    <li>We will not report an injury from anything but an official report or an on-record
-        statement. Speculation about an athlete's body is not news.</li>
+    <li>We will not advocate. We report events and explain what they may mean, never what
+        to believe, whom to vote for, or what to buy.</li>
+    <li>We will not endorse a candidate, a party, a policy, or a product. Ever.</li>
+    <li>We will not present a single-source claim as settled fact. A claim carried by one
+        outlet is labeled as such or held.</li>
     <li>We will not run paid coverage as news. Sponsored items are the thing we are built to
         strip out.</li>
     <li>We will not let the machine speak in a human voice. Takes, analysis, and corrections
@@ -936,26 +1049,29 @@ def render_method(items, dateline):
   </ul>
   <p class="nfa">{esc(NFA)}</p>
 </section></main>"""
-    return shell(f"How we work - {NAME}", "How GoCheckMySports ranks, verifies, and approves every story.",
+    return shell(f"How we work - {NAME}", "How GoCheckMyNews ranks, verifies, and approves every story.",
                  "How we work", body, dateline, path="/method.html")
 
 
 def render_about(dateline):
     body = f"""<main class="wrap narrow"><section class="page">
   <span class="kicker">About</span>
-  <h1>Why GoCheckMySports exists</h1>
-  <p class="lede">Sports media is drowning in hot takes, rumor mills, and betting-pick content.
-     The scarce thing is a desk that checks the story. That is the entire product.</p>
+  <h1>Why GoCheckMyNews exists</h1>
+  <p class="lede">The news is drowning in advocacy, aggregation, and outrage engineering.
+     The scarce thing is a desk that checks the story and shows you the source's track
+     record. That is the entire product.</p>
 
-  <p>Too much sports "news" is noise wearing a press badge: trade rumors sourced to nobody,
-     aggregation of aggregation until the original quote is unrecognizable, injury speculation
-     with nothing behind it, and picks columns that are gambling ads in disguise. It is
-     exhausting, and it is how readers get misled.</p>
+  <p>Too much "news" is noise wearing a press badge: claims sourced to nobody, aggregation
+     of aggregation until the original quote is unrecognizable, one side's telling presented
+     as the whole story, and opinion dressed as reporting. It is exhausting, and it is how
+     readers get misled.</p>
 
-  <p>GoCheckMySports is built on one idea: the score is a fact, and the story gets checked. We
-     report what actually happened, verify every claim against official league data and
-     on-record sources before it runs, and never tell you what to bet on. Injuries are reported
-     only from official reports and on-record statements, never from speculation.</p>
+  <p>GoCheckMyNews is built on one idea: every story, sourced; every source, rated. We
+     report what actually happened, verify every claim against the official public record
+     and on-record sources before it runs, and show you each cited outlet's published bias
+     lane and factual grade, with attribution, right next to the link. We deliberately read
+     across the political spectrum so the desk never sees one side's telling alone, and a
+     story corroborated across that spectrum says so on its card.</p>
 
   <h2>The machine does the grind. A human owns the judgment.</h2>
   <p>An AI newsroom does the reading, the triage, the fact-checking, and the first draft, every day,
@@ -966,27 +1082,30 @@ def render_about(dateline):
      standard ever slips, we drop the cadence before we drop the standard.</p>
 
   <h2>Our bias</h2>
-  <p>We are biased toward the reader and against the rumor mill. We weight official league data
-     and on-record sources most, we link every source, and we would rather publish nothing on a
-     given day than publish something we cannot stand behind.</p>
+  <p>We are biased toward the reader and against the spin cycle. We weight the official
+     public record and on-record sources most, we read outlets across the spectrum and show
+     you their published ratings, we link every source, and we would rather publish nothing
+     on a given day than publish something we cannot stand behind. We do not endorse
+     candidates, parties, policies, or products, and we do not tell you what to think.</p>
 
   <h2>What we are not</h2>
-  <p>We are not a sportsbook, a tout service, or a picks column, and nothing here is betting or
-     gambling advice. We report what happened and, carefully, what it may mean. What you do with
-     that is yours.</p>
+  <p>We are not an advocacy shop, a partisan outlet, or an advice column, and nothing here
+     is political advocacy, legal advice, or financial advice. We report what happened and,
+     carefully, what it may mean. What you do with that is yours.</p>
 
   <h2>Contact the desk</h2>
-  <p>Tips, corrections, and questions: <a href="mailto:desk@gocheckmysports.com">desk@gocheckmysports.com</a>.</p>
-  <p>Sponsorship inquiries: <a href="mailto:desk@gocheckmysports.com">desk@gocheckmysports.com</a>.
+  <p>Tips, corrections, and questions: <a href="mailto:desk@gocheckmynews.com">desk@gocheckmynews.com</a>.</p>
+  <p>Sponsorship inquiries: <a href="mailto:desk@gocheckmynews.com">desk@gocheckmynews.com</a>.
      Sponsorship never buys coverage; see <a href="/method.html">how we work</a>.</p>
 
   <div class="callout"><b>Read next:</b> <a href="/method.html">How a story gets to you</a>, the
-    step-by-step of how we rank, verify, and approve. Or <a href="/standards.html">our standards and
-    corrections policy</a>.</div>
+    step-by-step of how we rank, verify, and approve. <a href="/sources.html">How we rate
+    sources</a>, whose ratings the credibility chips carry. Or <a href="/standards.html">our
+    standards and corrections policy</a>.</div>
   <p class="nfa">{esc(NFA)}</p>
 </section></main>"""
-    return shell(f"About - {NAME}", "Why GoCheckMySports exists: an honest daily sports news desk "
-                 "that checks every story against its sources.",
+    return shell(f"About - {NAME}", "Why GoCheckMyNews exists: an honest daily news desk "
+                 "that checks every story against its sources and rates every source in the open.",
                  "About", body, dateline, path="/about.html")
 
 
@@ -997,11 +1116,21 @@ def render_standards(dateline):
   <p class="lede">What you can hold us to.</p>
 
   <h2>Sourcing</h2>
-  <p>Every story links its sources. We weight official league data and primary sources (league
-     APIs, official schedules and results, on-record statements from clubs, leagues, and
-     athletes) most heavily. A claim carried by a single low-credibility source is marked as
-     unverified or is not published. Injuries are reported only from official injury reports or
-     on-record statements, never from speculation.</p>
+  <p>Every story links its sources. We weight the official public record most heavily:
+     rulings, releases, and legislation straight from the courts, the central bank, and
+     Congress outrank any outlet's retelling of them. Below that sit established outlets
+     deliberately spread across the political spectrum, so the desk never sees one side's
+     telling alone. A claim carried by a single source below the primary tier is marked as
+     unverified or is not published.</p>
+
+  <h2>Source ratings, attributed</h2>
+  <p>Every cited outlet renders with a credibility chip: its coarse bias lane and factual
+     grade per the public AllSides and Media Bias/Fact Check charts. Those ratings belong to
+     those organizations, not to us; we transcribe them, attribute them, and re-check them
+     quarterly. A domain we have not seeded renders as unrated, honestly. The full table and
+     the reasoning live at <a href="/sources.html">how we rate sources</a>. A story whose
+     corroboration spans three or more bias lanes carries a "corroborated across the
+     spectrum" marker on its card.</p>
 
   <h2>Verification</h2>
   <p>Before a story is drafted, an independent verification pass checks each claim against its cited
@@ -1015,9 +1144,10 @@ def render_standards(dateline):
      direction, and owns every opinion or analysis in the byline. The AI never writes a
      "take" in a human's voice.</p>
 
-  <h2>Never betting advice</h2>
-  <p>We report events and explain what they may mean. We never advise bets, picks, or wagers of
-     any kind. Nothing on this site is betting, gambling, financial, or legal advice.</p>
+  <h2>Never advocacy, never advice</h2>
+  <p>We report events and explain what they may mean. We do not editorialize, we do not
+     endorse candidates, parties, policies, or products, and we do not advise. Nothing on
+     this site is political advocacy, legal advice, or financial advice.</p>
 
   <h2>Corrections</h2>
   <p>When we get something wrong, we fix it and say so on the story. If you spot an error, tell us and
@@ -1031,8 +1161,92 @@ def render_standards(dateline):
      is part of being trustworthy, which is why this page exists.</p>
   <p class="nfa">{esc(NFA)}</p>
 </section></main>"""
-    return shell(f"Standards - {NAME}", "GoCheckMySports standards, verification, and corrections policy.",
+    return shell(f"Standards - {NAME}", "GoCheckMyNews standards, verification, and corrections policy.",
                  "Standards", body, dateline, path="/standards.html")
+
+
+def render_sources_page(dateline):
+    """/sources.html: the methods page behind the credibility chips. Every rated outlet,
+    grouped by bias lane, with its factual grade, the attribution line from
+    site/data/credibility.json verbatim, and an honest account of whose ratings these are
+    and why the lanes are deliberately coarse."""
+    attr_line = CRED_ATTRIBUTION.get("line") or ""
+    seeded = CRED_REVIEW.get("seeded") or ""
+    next_due = CRED_REVIEW.get("next_review_due") or ""
+    cadence = CRED_REVIEW.get("cadence") or ""
+    chart_links = "".join(
+        f'<li><a href="{esc(u)}" rel="nofollow noopener">{esc(lbl)}</a></li>'
+        for lbl, u in [("The AllSides Media Bias Chart", CRED_ATTRIBUTION.get("allsides")),
+                       ("Media Bias/Fact Check", CRED_ATTRIBUTION.get("mbfc")),
+                       ("The Ad Fontes Media Bias Chart", CRED_ATTRIBUTION.get("adfontes"))]
+        if u)
+    groups = {}
+    for dom, rec in sorted(CRED_DOMAINS.items()):
+        groups.setdefault(rec.get("bias") or "unlisted", []).append((dom, rec))
+    lane_html = ""
+    for lane, lane_label in CRED_LANES:
+        if lane not in groups:
+            continue
+        rows = ""
+        for dom, rec in groups[lane]:
+            name = _by_domain(dom, OUTLETS) or dom
+            side = f'<span class="cred-side">{esc(rec["note"])}</span>' if rec.get("note") else ""
+            rows += (f'<li><b>{esc(name)}</b> <span class="mut">({esc(dom)})</span> '
+                     f'<span class="tag cred">{esc(cred_chip_label(rec))}</span>{side}</li>')
+        lane_html += (f'<h2>{esc(lane_label)}</h2>'
+                      f'<ul class="cred-list">{rows}</ul>')
+    review_line = ""
+    if seeded:
+        review_line = (f'<p>The table was seeded on {esc(seeded)}'
+                       + (f' and is re-verified against the current published charts on a '
+                          f'{esc(cadence)} cadence; the next review is due {esc(next_due)}.'
+                          if next_due else '.') + '</p>')
+    body = f"""<main class="wrap narrow"><section class="page">
+  <span class="kicker">Sources</span>
+  <h1>How we rate sources</h1>
+  <p class="lede">Every source this desk cites renders with a small credibility chip: the
+     outlet's bias lane and factual-reporting grade. This page is the honest fine print
+     behind those chips: whose ratings they are, how coarse they are on purpose, and the
+     full table.</p>
+
+  <h2>Whose ratings these are (not ours)</h2>
+  <p>{esc(attr_line)}</p>
+  <p>The ratings on this site belong to those public charts, not to this desk. We transcribe
+     them at a deliberately coarse granularity, attribute them every place they appear, and
+     re-check them against the published charts on a schedule, because chart ratings move.
+     We claim no media-bias methodology of our own, and a chip is never this desk's opinion
+     of an outlet. The charts we transcribe from and cross-reference:</p>
+  <ul>{chart_links}</ul>
+  {review_line}
+
+  <h2>Why the lanes are coarse</h2>
+  <p>Bias rating is judgment, not measurement, and false precision is its own kind of spin.
+     So the desk keeps whole lanes (left, lean-left, center, lean-right, right, libertarian)
+     instead of scores, and three factual grades (high, mostly-high, mixed) instead of
+     percentages. The chip is meant to answer one reader question fast: roughly where does
+     this outlet sit, and how reliable is its reporting? For anything finer, follow the
+     chart links above.</p>
+  <p>"Official record" is not a bias lane; it marks a primary source: the institution's own
+     rulings, releases, or legislative record rather than journalism about them. A domain we
+     have not seeded renders as <span class="tag cred unrated">unrated</span>, which means
+     exactly that and nothing more.</p>
+
+  <h2>How the desk uses the lanes</h2>
+  <p>The intake is deliberately spread across the spectrum so the desk never sees one side's
+     telling alone, and a story whose corroboration spans three or more lanes carries a
+     "corroborated across the spectrum" marker on its card. Reading an outlet is not an
+     endorsement of it, and a rating is not a verdict on any single story: every story is
+     still verified against its cited sources individually, per
+     <a href="/method.html">how we work</a>.</p>
+
+  <h2>The table</h2>
+  {lane_html}
+  <p class="nfa">{esc(NFA)}</p>
+</section></main>"""
+    return shell(f"How we rate sources - {NAME}",
+                 "Every outlet GoCheckMyNews cites, with its bias lane and factual grade per "
+                 "the public AllSides and Media Bias/Fact Check charts, attributed.",
+                 "Sources", body, dateline, path="/sources.html")
 
 
 def render_privacy(dateline):
@@ -1069,14 +1283,14 @@ def render_privacy(dateline):
 
   <h2>Contact</h2>
   <p>Questions about this policy, your data, or the newsletter, including unsubscribe requests:
-     <a href="mailto:desk@gocheckmysports.com">desk@gocheckmysports.com</a>. A human reads it.</p>
+     <a href="mailto:desk@gocheckmynews.com">desk@gocheckmynews.com</a>. A human reads it.</p>
 
   <h2>Changes</h2>
   <p>This policy changes only when the site's behavior changes, and the date below moves when it
      does. Last updated July 19, 2026.</p>
 </section></main>"""
     return shell(f"Privacy - {NAME}",
-                 "What GoCheckMySports collects and where it goes: newsletter emails via Netlify Forms, "
+                 "What GoCheckMyNews collects and where it goes: newsletter emails via Netlify Forms, "
                  "cookieless Cloudflare analytics, and nothing else.",
                  "Privacy", body, dateline, path="/privacy.html")
 
@@ -1086,18 +1300,18 @@ def render_terms(dateline):
   <span class="kicker">Terms</span>
   <h1>Terms of use</h1>
 
-  <h2>Never betting advice</h2>
-  <p>GoCheckMySports publishes sports news and plain-language analysis for education and
-     information only. Nothing on this site is betting, gambling, financial, or legal advice,
-     and nothing here is a recommendation to place any wager. GoCheckMySports reports events;
-     it never advises bets. If gambling is a problem for you or someone you know, help is
-     available at 1-800-GAMBLER in the United States.</p>
+  <h2>Never advocacy, never advice</h2>
+  <p>GoCheckMyNews publishes news reporting and plain-language context for education and
+     information only. GoCheckMyNews reports events; it does not editorialize and it does
+     not advise. Nothing on this site is political advocacy, an endorsement of any
+     candidate, party, policy, or product, or legal, financial, medical, or investment
+     advice, and nothing here is a recommendation to act.</p>
 
   <h2>Informational purposes only</h2>
-  <p>Stories and commentary are assembled from public third-party sources (official league
-     data, public APIs, news outlets). Data can be delayed, revised, or wrong at the source.
-     Scores and schedules can change on official review. Verify anything that matters against
-     primary sources before you act on it.</p>
+  <p>Stories and context are assembled from public third-party sources (the official public
+     record, public feeds, news outlets). Data can be delayed, revised, or wrong at the
+     source, and outlet credibility ratings are third-party judgments that change over time.
+     Verify anything that matters against primary sources before you act on it.</p>
 
   <h2>No warranty</h2>
   <p>The site and its data are provided "as is" and "as available," without warranties of any
@@ -1105,9 +1319,9 @@ def render_terms(dateline):
      site is accurate, complete, current, or uninterrupted.</p>
 
   <h2>Limitation of liability</h2>
-  <p>To the fullest extent permitted by law, GoCheckMySports and its operators are not liable for
+  <p>To the fullest extent permitted by law, GoCheckMyNews and its operators are not liable for
      any loss or damage arising from your use of this site or reliance on its content, including
-     wagering losses and indirect, incidental, or consequential damages.</p>
+     indirect, incidental, or consequential damages.</p>
 
   <h2>Governing law</h2>
   <p>These terms are governed by the laws of the State of South Carolina, without regard to
@@ -1116,8 +1330,8 @@ def render_terms(dateline):
   <p class="nfa">Last updated July 19, 2026.</p>
 </section></main>"""
     return shell(f"Terms of Use - {NAME}",
-                 "What GoCheckMySports is and is not: sports news for education and information, "
-                 "never betting advice, with no warranty.",
+                 "What GoCheckMyNews is and is not: news reporting for education and information, "
+                 "never advocacy or advice, with no warranty.",
                  "Terms", body, dateline, path="/terms.html")
 
 
@@ -1195,7 +1409,7 @@ def ingest():
             "date": date, "published_utc": published_utc,
             "category": "news", "verdict": rec.get("verdict"),
             "rank": rank_map.get(rec.get("id")),
-            "author": "The GoCheckMySports Desk",
+            "author": "The GoCheckMyNews Desk",
             "key_fact": scrub((payload.get("script", {}) or {}).get("key_fact", "")),
             "bottom_line": scrub(art.get("bottom_line", "")),
             "human_take": destyle(art.get("human_take", "")), "body": paras, "sources": srcs,
@@ -1225,7 +1439,7 @@ def build():
     items = load_content()
     # dateline reflects the newest content (or a neutral standing line), never a wall clock
     newest = next((i.get("date") for i in items if not i.get("example") and i.get("date")), None)
-    dateline = fmt_date(newest).upper() if newest else "AN HONEST SPORTS NEWS DESK"
+    dateline = fmt_date(newest).upper() if newest else "AN HONEST NEWS DESK"
 
     import shutil
     if os.path.isdir(PUBLISH):
@@ -1244,6 +1458,7 @@ def build():
     w("method.html", render_method(items, dateline))
     w("about.html", render_about(dateline))
     w("standards.html", render_standards(dateline))
+    w("sources.html", render_sources_page(dateline))
     w("privacy.html", render_privacy(dateline))
     w("terms.html", render_terms(dateline))
     w("404.html", render_404(dateline))
@@ -1264,8 +1479,8 @@ def build():
 
     # sitemap (indexable pages only; 404/thanks are noindex), robots, netlify 404 redirect
     locs = ["/", "/news.html",
-            "/archive.html", "/bottom-line.html", "/method.html", "/about.html", "/standards.html",
-            "/privacy.html", "/terms.html"]
+            "/archive.html", "/bottom-line.html", "/method.html", "/sources.html",
+            "/about.html", "/standards.html", "/privacy.html", "/terms.html"]
     locs += [f"/articles/{it['slug']}.html" for it in items if not it.get("example")]
     urls = "\n".join(f"  <url><loc>{ORIGIN}{esc(p)}</loc></url>" for p in locs)
     w("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n'
@@ -1274,7 +1489,7 @@ def build():
     w("_redirects", "/*  /404.html  404\n")
     n_live = sum(1 for i in items if not i.get("example"))
     print(f"site: built {PUBLISH} - {n_live} published stor{'y' if n_live == 1 else 'ies'} "
-          f"+ {len(items) - n_live} example, plus home/archive/method/about/standards/404.")
+          f"+ {len(items) - n_live} example, plus home/archive/method/sources/about/standards/404.")
     return 0
 
 

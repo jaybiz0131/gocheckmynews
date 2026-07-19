@@ -3,9 +3,10 @@
 writer.py: Stage 4, the writer AI (drafts).
 
 Drafts the stories that SURVIVED verification (VERIFIED, plus NEEDS-HUMAN-REVIEW which the
-human may promote) into a script skeleton and an article draft, in the GoCheckMySports voice:
-factual, sourced, neutral on betting, with a not-betting-advice disclaimer and an explicit,
-empty human-take slot. REJECT stories are never drafted. Everything is tagged DRAFT. Fail-closed.
+human may promote) into a script skeleton and an article draft, in the GoCheckMyNews voice:
+factual, sourced, never advocacy, with the desk's no-advocacy, no-advice disclaimer and an
+explicit, empty human-take slot. REJECT stories are never drafted. Everything is tagged
+DRAFT. Fail-closed.
 
 USAGE
   python3 writer.py
@@ -19,7 +20,7 @@ import common
 import llm as llmlib
 
 DRAFTABLE = {"VERIFIED", "NEEDS-HUMAN-REVIEW"}
-NFA = "GoCheckMySports reports events. It never advises bets. Nothing here is betting or gambling advice."
+NFA = "GoCheckMyNews reports events. It does not editorialize and it does not advise. Nothing here is political advocacy, legal advice, or financial advice."
 
 
 def select(editor, verifier):

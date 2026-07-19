@@ -7,9 +7,10 @@ env (repo Variables in CI):
   NEWS: the desk's own RSS aggregation (aggregate.py, deterministic) shows a fresh
   cluster (last WATCH_FRESH_MIN minutes, default 90) carried by at least
   WATCH_MIN_SOURCES (default 4) INDEPENDENT sources. Many independent outlets moving
-  on the same story inside 90 minutes IS the sports definition of breaking news; the
+  on the same story inside 90 minutes IS the news definition of breaking news; the
   origin desk's market-price trigger was removed 2026-07-19 as editorially meaningless
-  here (a scoreboard-swing trigger is a possible future addition).
+  here (an official-record trigger, e.g. a surprise ruling or data release, is a
+  possible future addition).
 
 On trigger it emits trigger=true to GITHUB_OUTPUT; watcher.yml then calls the full brief
 workflow with breaking=true (Haiku pipeline + the additive two-source breaking gate).
@@ -27,7 +28,7 @@ import os
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-UA = {"User-Agent": "GoCheckMySports-watcher/1.0"}
+UA = {"User-Agent": "GoCheckMyNews-watcher/1.0"}
 
 # `or` (not a get() default): unset repo Variables reach CI as EMPTY strings
 MIN_SOURCES = int(os.environ.get("WATCH_MIN_SOURCES") or "4")

@@ -1,6 +1,6 @@
 {
-  "brand": "GoCheckMySports",
-  "tagline": "The score is a fact. The story gets checked.",
+  "brand": "GoCheckMyNews",
+  "tagline": "Every story, sourced. Every source, rated.",
   "cadence": "daily-brief",
   "lookback_hours": 30,
   "top_n": 8,
@@ -33,7 +33,7 @@
       "max_tokens": 5000,
       "note": "Role 3: post-draft last line of defense (accuracy/liability -> balance -> quality, categorized rejections). A different call from the writer so the builder never approves their own work."
     },
-    "note": "PRE-REVENUE AGENT ECONOMY (family directive, inherited 2026-07-19 from the crypto desk): claude-haiku-4-5 on every desk stage; the deterministic fail-closed gates (source liveness, dedup, depth gate, belts, two-source rule for anything sourced below primary) are the quality floor, not the model. Same reversal triggers as crypto: sustained audience growth or ~5k monthly pageviews -> writer model review.",
+    "note": "PRE-REVENUE AGENT ECONOMY (family directive, inherited 2026-07-19): claude-haiku-4-5 on every desk stage; the deterministic fail-closed gates (source liveness, dedup, depth gate, belts, cross-outlet corroboration rule) are the quality floor, not the model. Same reversal triggers as the rest of the family: sustained audience growth or ~5k monthly pageviews -> writer model review.",
     "publicist": {
       "model": "claude-haiku-4-5",
       "max_tokens": 1500
@@ -46,7 +46,7 @@
     "wrapcheck": {
       "model": "claude-haiku-4-5",
       "max_tokens": 3000,
-      "note": "Independent trace check on the edition: every specific fact must come from the provided inputs; no betting advice or predictions; calm register. Separate call from the writer."
+      "note": "Independent trace check on the edition: every specific fact must come from the provided inputs; no advocacy, no predictions; calm register. Separate call from the writer."
     },
     "aging": {
       "model": "claude-haiku-4-5",
@@ -60,170 +60,151 @@
     }
   },
   "sources": {
-    "note": "source_tier drives editorial weight. primary = official league/institutional sources (trust most: box scores, transactions, discipline rulings straight from the league). major = established outlets with editorial standards. mixed = aggregated or rumor-adjacent feeds (never publish alone; two-source rule applies). All feeds below are free and keyless, verified live 2026-07-19. The reliability layer is the pipeline (tiering, two-source corroboration, adversarial verifier, primary-source linking), not any single API.",
+    "note": "source_tier drives editorial weight. primary = the official public record (courts, central bank, Congress: documents, rulings, and press releases straight from the institution). major = established outlets with editorial standards, DELIBERATELY spread across the political spectrum so the desk never sees one side's telling alone; each domain carries a published bias/factual rating in site/data/credibility.json, shown to readers with attribution. mixed = aggregated or rumor-adjacent feeds (never publish alone). All feeds below are free and keyless, verified live 2026-07-19. AP and Reuters retired their public RSS (license-only now): documented as the paid upgrade path. The honesty layer is the pipeline (tiering, cross-outlet corroboration, adversarial verifier, primary-source linking, transparent outlet ratings), not any single API.",
     "rss": [
       {
-        "name": "ESPN Top Lines",
-        "tier": "major",
-        "url": "https://www.espn.com/espn/rss/news"
+        "name": "Federal Reserve",
+        "tier": "primary",
+        "url": "https://www.federalreserve.gov/feeds/press_all.xml"
       },
       {
-        "name": "ESPN NFL",
-        "tier": "major",
-        "url": "https://www.espn.com/espn/rss/nfl/news"
+        "name": "U.S. Department of Justice",
+        "tier": "primary",
+        "url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+        "note": "The Supreme Court retired its public RSS (cases.aspx now redirects to PageNotFound, confirmed 2026-07-19); the desk still cites supremecourt.gov documents directly, they just do not arrive by feed."
       },
       {
-        "name": "ESPN NBA",
-        "tier": "major",
-        "url": "https://www.espn.com/espn/rss/nba/news"
+        "name": "Congress.gov Bills",
+        "tier": "primary",
+        "url": "https://www.congress.gov/rss/most-viewed-bills.xml"
       },
       {
-        "name": "ESPN MLB",
+        "name": "NPR",
         "tier": "major",
-        "url": "https://www.espn.com/espn/rss/mlb/news"
+        "url": "https://feeds.npr.org/1001/rss.xml"
       },
       {
-        "name": "ESPN NHL",
+        "name": "BBC News",
         "tier": "major",
-        "url": "https://www.espn.com/espn/rss/nhl/news"
+        "url": "https://feeds.bbci.co.uk/news/rss.xml"
       },
       {
-        "name": "BBC Sport",
+        "name": "BBC World",
         "tier": "major",
-        "url": "https://feeds.bbci.co.uk/sport/rss.xml"
+        "url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       {
-        "name": "CBS Sports",
+        "name": "PBS NewsHour",
         "tier": "major",
-        "url": "https://www.cbssports.com/rss/headlines/"
+        "url": "https://www.pbs.org/newshour/feeds/rss/headlines"
       },
       {
-        "name": "Guardian Sport",
+        "name": "New York Times",
         "tier": "major",
-        "url": "https://www.theguardian.com/uk/sport/rss"
+        "url": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"
       },
       {
-        "name": "Yahoo Sports",
-        "tier": "mixed",
-        "url": "https://sports.yahoo.com/rss/",
-        "keywords": [
-          "trade",
-          "signs",
-          "contract",
-          "injury",
-          "suspended",
-          "fired",
-          "hired",
-          "record",
-          "playoff",
-          "championship",
-          "final",
-          "deadline",
-          "waived",
-          "extension",
-          "retire"
-        ]
+        "name": "Guardian US",
+        "tier": "major",
+        "url": "https://www.theguardian.com/us-news/rss"
+      },
+      {
+        "name": "Washington Post Politics",
+        "tier": "major",
+        "url": "https://feeds.washingtonpost.com/rss/politics"
+      },
+      {
+        "name": "Wall Street Journal World",
+        "tier": "major",
+        "url": "https://feeds.content.dowjones.io/public/rss/RSSWorldNews"
+      },
+      {
+        "name": "Fox News",
+        "tier": "major",
+        "url": "https://moxie.foxnews.com/google-publisher/latest.xml"
+      },
+      {
+        "name": "National Review",
+        "tier": "major",
+        "url": "https://www.nationalreview.com/feed/"
+      },
+      {
+        "name": "Washington Examiner",
+        "tier": "major",
+        "url": "https://www.washingtonexaminer.com/feed"
+      },
+      {
+        "name": "Reason",
+        "tier": "major",
+        "url": "https://reason.com/feed/"
+      },
+      {
+        "name": "The Hill",
+        "tier": "major",
+        "url": "https://thehill.com/feed/"
       }
     ],
-    "keywords_note": "Optional per-feed 'keywords' gate: high-volume aggregated feeds keep only items matching a keyword in headline+snippet, so they cannot flood the editor. Items matching a 'narratives' watchlist entry always pass the gate.",
-    "league_apis": {
-      "note": "Official and quasi-official structured data endpoints, all keyless and verified live 2026-07-19. These are the desk's PRIMARY factual sources: the researcher and verifier treat league-published schedules, scores, and transactions as ground truth that outranks any outlet's retelling. balldontlie was dropped (now key-gated, 401). Upgrade path if the desk ever needs deeper stats: API-Sports (~$10/mo) or SportsDataIO, deliberately excluded from v1 under the free-only constraint.",
-      "endpoints": [
-        {
-          "name": "MLB StatsAPI",
-          "tier": "primary",
-          "url": "https://statsapi.mlb.com/api/v1/schedule?sportId=1",
-          "note": "MLB's own stats API. Official."
-        },
-        {
-          "name": "NHL API",
-          "tier": "primary",
-          "url": "https://api-web.nhle.com/v1/schedule/now",
-          "note": "NHL's own API (follow redirects). Official."
-        },
-        {
-          "name": "ESPN Scoreboard NFL",
-          "tier": "major",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
-          "note": "Unofficial-but-stable ESPN JSON. Reliable data, no SLA; a fetch failure is a documented skip, never a pipeline failure."
-        },
-        {
-          "name": "ESPN Scoreboard NBA",
-          "tier": "major",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard"
-        },
-        {
-          "name": "ESPN Scoreboard MLB",
-          "tier": "major",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard"
-        },
-        {
-          "name": "ESPN Scoreboard NHL",
-          "tier": "major",
-          "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard"
-        },
-        {
-          "name": "TheSportsDB",
-          "tier": "mixed",
-          "url": "https://www.thesportsdb.com/api/v1/json/3/all_leagues.php",
-          "note": "Community-maintained, free test key. Lookup/reference only, never a sole source."
-        }
-      ]
-    },
+    "keywords_note": "Optional per-feed 'keywords' gate: high-volume feeds keep only items matching a keyword in headline+snippet, so they cannot flood the editor. Items matching a 'narratives' watchlist entry always pass the gate. The news desk currently runs ungated; the editor's ranking plus the balance spread is the filter. Add gates if any single feed starts flooding intake.",
     "max_items_per_feed": 40
   },
   "narratives": {
     "note": "The desk's ongoing-storyline watchlist, maintained by the editor-in-chief. A cluster whose headline/snippet matches any keyword gets tagged with the narrative's name in items.json, the editor treats a genuine development in a tagged narrative as presumptively rank-worthy, and watchlist matches always pass a feed's keyword gate. Seeded for July 2026; add narratives as they emerge, retire them when they resolve.",
     "watchlist": [
       {
-        "name": "MLB trade deadline",
+        "name": "2026 midterms",
         "keywords": [
-          "trade deadline",
-          "deadline deal",
-          "deadline trade"
+          "midterm",
+          "midterms",
+          "senate race",
+          "house race",
+          "ballot"
         ]
       },
       {
-        "name": "NFL training camp",
+        "name": "Fed policy",
         "keywords": [
-          "training camp",
-          "holdout",
-          "camp battle"
+          "fomc",
+          "rate decision",
+          "rate hike",
+          "rate cut",
+          "powell",
+          "warsh"
         ]
       },
       {
-        "name": "NBA free agency",
+        "name": "Supreme Court term",
         "keywords": [
-          "free agency",
-          "free agent",
-          "max contract",
-          "sign-and-trade"
+          "supreme court",
+          "scotus",
+          "certiorari"
         ]
       },
       {
-        "name": "World Cup aftermath",
+        "name": "Middle East conflict",
         "keywords": [
-          "world cup",
-          "fifa"
+          "iran",
+          "strikes",
+          "gaza",
+          "hezbollah",
+          "houthis"
         ]
       },
       {
-        "name": "Sports betting integrity",
+        "name": "Tariffs and trade",
         "keywords": [
-          "betting scandal",
-          "gambling investigation",
-          "prop bet",
-          "integrity fee",
-          "wagering violation"
+          "tariff",
+          "trade deal",
+          "trade war",
+          "import duty"
         ]
       },
       {
-        "name": "NIL and college pay",
+        "name": "AI regulation",
         "keywords": [
-          "nil",
-          "revenue sharing",
-          "house settlement",
-          "collective"
+          "ai regulation",
+          "ai act",
+          "ai safety bill",
+          "artificial intelligence bill"
         ]
       }
     ]
@@ -231,7 +212,7 @@
   "dedupe": {
     "jaccard_threshold": 0.6,
     "min_significant_tokens": 3,
-    "note": "Near-identical stories across outlets (same event, many rewrites) collapse into one cluster by normalized-headline token overlap or shared URL. The cluster keeps the highest-tier source as primary and lists the rest as corroboration."
+    "note": "Near-identical stories across outlets (same event, many rewrites) collapse into one cluster by normalized-headline token overlap or shared URL. The cluster keeps the highest-tier source as primary and lists the rest as corroboration; for the news desk, corroboration ACROSS the bias spectrum is what earns top billing."
   },
   "publish": {
     "require_human_approval": true,
@@ -244,7 +225,7 @@
     "never_publish_verdict": [
       "REJECT"
     ],
-    "not_financial_advice": "GoCheckMySports reports events. It never advises bets. Nothing here is betting or gambling advice.",
+    "not_financial_advice": "GoCheckMyNews reports events. It does not editorialize and it does not advise. Nothing here is political advocacy, legal advice, or financial advice.",
     "targets": {
       "newsletter": {
         "enabled": false,

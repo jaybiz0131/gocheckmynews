@@ -1,13 +1,13 @@
-# GoCheckMySports: SPORTS_VERIFY.md
+# GoCheckMyNews: NEWS_VERIFY.md
 
-Verifiable claims for the GoCheckMySports pipeline. Human gate: the editor-in-chief
+Verifiable claims for the GoCheckMyNews pipeline. Human gate: the editor-in-chief
 confirms each item before relying on it in production. Nothing here is deployed by the
 build; publishing is the human's separate approved step.
 
-Provenance: this desk was cloned from the family's crypto news desk chassis on 2026-07-19. The CV1-CV9
-mechanics below were proven live on that chassis (session 2026-07-10); each check keeps its
-ID and must be RE-VERIFIED against the sports sources and prompts before this desk's first
-live publish. Status lines say which is which.
+Provenance: this desk was cloned from the family's sports chassis on 2026-07-19 (that
+chassis descends from the crypto news desk, where the CV1-CV9 mechanics were proven live,
+session 2026-07-10). Each check keeps its ID and must be RE-VERIFIED against the news
+sources and prompts before this desk's first live publish. Status lines say which is which.
 
 ---
 
@@ -21,36 +21,38 @@ orchestrator that runs Stages 1-5 and never publishes; Stage 6 is a separate hum
 
 ## The checklist
 
-**CV1 - Stage 1 aggregation runs against real feeds.** All configured sports feeds resolve
-and parse: the ESPN league feeds, BBC Sport, CBS Sports, Guardian Sport, Yahoo Sports, plus
-the official league data endpoints (MLB StatsAPI, NHL API, ESPN scoreboards). Raw items
-window down and cluster as designed; a missing optional source is a documented skip, not a
-failure. Status: mechanics proven on the chassis; re-verify live on the sports feeds.
+**CV1 - Stage 1 aggregation runs against real feeds.** All configured news feeds resolve
+and parse: the official public record feeds (Federal Reserve press releases, Supreme Court
+cases, Congress.gov bills) plus the spectrum-spread outlet feeds (NPR, BBC News/World, PBS
+NewsHour, The New York Times, Guardian US, Washington Post Politics, WSJ World, Fox News,
+National Review, Washington Examiner, Reason, The Hill). Raw items window down and cluster
+as designed; a missing optional source is a documented skip, not a failure. Status:
+mechanics proven on the chassis; re-verify live on the news feeds.
 
 **CV2 - Dedupe collapses cross-outlet duplicates.** Two near-identical headlines with
 different URLs merge via headline-token Jaccard, and identical-URL copies merge by URL.
 Canary asserts exactly 2 clusters from a 3-item set with one near-duplicate pair. Status:
-verified on the chassis; canary must stay green on the sports fixture.
+verified on the chassis; canary must stay green on the news fixture.
 
-**CV3 - The deterministic hype belt works.** Obvious promotion and betting-pick content is
-scored and rejected; borderline listicle content is flagged, not rejected; real
+**CV3 - The deterministic hype belt works.** Obvious promotion and advocacy-dressed-as-news
+content is scored and rejected; borderline listicle content is flagged, not rejected; real
 primary-source news scores 0, and a primary-tier item that merely uses a superlative is NOT
-penalized (reputation dampening). Status: re-verify with the sports `shill_rules.json`
+penalized (reputation dampening). Status: re-verify with the news `shill_rules.json`
 tells; the canary asserts the reject/clean pair.
 
 **CV4 - Editor / verifier / writer wire end-to-end (offline replay).** aggregate -> editor
 -> verifier -> writer -> digest runs over the fixture with NO API key and NO spend: the
 editor splits ranked vs rejected; the verifier returns all three verdicts (VERIFIED /
 NEEDS-HUMAN-REVIEW / REJECT); the writer drafts the draftable and drops the REJECT; every
-draft is DRAFT-tagged with an empty `human_take` and the no-betting-advice disclaimer.
-Status: re-verify on the sports fixture.
+draft is DRAFT-tagged with an empty `human_take` and the no-advocacy-no-advice disclaimer.
+Status: re-verify on the news fixture.
 
 **CV5 - The verifier is independent and adversarial.** A separate API call with a distinct
 prompt that live-fetches each cited source and confirms the claim's tokens are actually on
 the page. Coverage is fail-closed: any story the verifier does not judge is forced to
 NEEDS-HUMAN-REVIEW, never promoted. Editor confidence vs verifier verdict divergence is
 surfaced in the digest for human eyes. Status: verified on the chassis (wiring + coverage
-gate); exercise the adversarial fetch against live sports URLs before first publish.
+gate); exercise the adversarial fetch against live news URLs before first publish.
 
 **CV6 - The human gate is load-bearing and the publish path is fail-closed.** Must hold:
 - No approval file -> publish does nothing.
@@ -71,7 +73,7 @@ the chassis; unchanged code path.
 obvious promotion is not rejected -> exit 1 with a named `::error::`. Controls -> exit 0.
 `verify_pipeline.py canary` blocks (exit 1) on any wiring/belt/gate drift; `sources`
 (Layer 2) checks the configured feeds live and is notify-only (exit 3), never blocking.
-Status: verified on the chassis; re-run both layers over the sports config.
+Status: verified on the chassis; re-run both layers over the news config.
 
 **CV9 - Model/API correctness.** Calls `https://api.anthropic.com/v1/messages` with
 `x-api-key` + `anthropic-version: 2023-06-01`. No `temperature`/`top_p`/`top_k` is sent
@@ -82,16 +84,32 @@ Status: verified in code; a live key exercises the network path.
 
 ---
 
-**CV10 - RETIRED with the crypto boards.** On the chassis this check covered the Whale
-Watch flow-analysis board. The sports desk ships no market boards; the flow/pulse/chart
-generator modules are removed along with their pages, nav links, and assets. The ID is
-kept so the numbering stays comparable across the family's desks.
+**CV10 - RETIRED with the crypto boards.** On the original chassis this check covered the
+Whale Watch flow-analysis board. This desk ships no market boards; the flow/pulse/chart
+generator modules were removed on the chassis along with their pages, nav links, and
+assets. The ID is kept so the numbering stays comparable across the family's desks.
+
+**CV11 - Credibility chips and /sources.html render.** New on this desk (the
+differentiator). Must hold after `python3 site_build.py`:
+- Every cited source on an article page renders a credibility chip with the outlet's bias
+  lane and factual grade from `site/data/credibility.json` (e.g. "lean-left / high"),
+  "official record" for the primary-source institutions, and "unrated" for a domain absent
+  from the table; subdomain hosts (rss.nytimes.com) resolve to their registrable domain.
+- `/sources.html` builds, appears in the nav and `sitemap.xml`, lists every rated outlet
+  grouped by bias lane with its factual grade, and carries the attribution line from
+  `credibility.json` verbatim, the chart links, and the seeded/review dates.
+- A story whose sources span 3+ bias lanes shows the "corroborated across the spectrum"
+  chip on its card; fewer than 3 lanes shows none; a missing credibility table renders no
+  chips at all (silent skip, never a build failure).
+Status: NEW check, verified by smoke test at cloning (2026-07-19, temp article citing
+nytimes.com + foxnews.com + federalreserve.gov + an unrated domain); re-verify on the
+first real published story.
 
 ## Standing-rules compliance
 - No em dashes in the copy or code (house style). Verify by scan.
-- No-betting-advice discipline: report events, never advise bets, picks, or wagers;
-  disclaimer on every draft and every published payload. Injuries only from official
-  reports or on-record statements.
+- No-advocacy-no-advice discipline: report events, never editorialize, endorse, or advise;
+  disclaimer on every draft and every published payload. Outlet ratings always attributed
+  to the public charts, never claimed as the desk's own.
 - Fail-closed everywhere; the human gate cannot be removed. No deploy performed by builds.
 - Zero third-party dependencies (standard library only), matching the repo's offline,
   drag-and-drop, reproducible posture.

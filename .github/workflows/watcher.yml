@@ -1,11 +1,11 @@
 # The breaking-news watcher (directive item 2, 2026-07-14): every 30 minutes, NO model
 # calls, ~$0. Plain threshold: a fresh story carried by 4+ independent sources (the desk's
-# own RSS aggregation) IS the sports definition of breaking news. On trigger it calls the
+# own RSS aggregation) IS the desk's definition of breaking news. On trigger it calls the
 # full brief workflow with breaking=true, which adds the two-source publish gate.
 # Thresholds are configurable without code changes via repo Variables:
 #   WATCH_MIN_SOURCES (4), WATCH_FRESH_MIN (90),
 #   WATCH_COOLDOWN_MIN (120: quiet while coverage is already fresh).
-# The called workflow shares the sports-publish concurrency group, so a breaking run
+# The called workflow shares the news-publish concurrency group, so a breaking run
 # QUEUES behind any in-flight scheduled publish: never races it (directive item 9).
 name: Breaking-news watcher
 
@@ -43,7 +43,7 @@ jobs:
   fire:
     needs: watch
     if: needs.watch.outputs.trigger == 'true'
-    uses: ./.github/workflows/sports-news-brief.yml
+    uses: ./.github/workflows/news-brief.yml
     with:
       breaking: ${{ needs.watch.outputs.breaking == 'true' }}
     secrets: inherit

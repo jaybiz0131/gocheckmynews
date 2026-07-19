@@ -1,0 +1,34 @@
+{
+  "_note": "The outlet credibility table: the layer that makes this desk GoCheckMyNews. Every source domain the desk cites maps to a coarse bias lane and factual-reporting grade, ATTRIBUTED to the public charts that publish them (AllSides media bias ratings; Media Bias/Fact Check factual grades; Ad Fontes Media Bias Chart). We license nothing and claim no ratings of our own: these are seed values transcribed from the public charts on 2026-07-19 at a deliberately coarse granularity, shown to readers WITH attribution so the judgment stays traceable to its source. VERIFY against the current published charts before launch and re-verify quarterly (chart ratings move). bias lanes: left, lean-left, center, lean-right, right, libertarian, official-record. factual grades: high, mostly-high, mixed. A domain absent from this table renders as 'unrated'.",
+  "attribution": {
+    "line": "Outlet ratings per the public AllSides and Media Bias/Fact Check charts, seeded 2026-07-19. Ratings belong to those organizations, not to this desk.",
+    "allsides": "https://www.allsides.com/media-bias/media-bias-chart",
+    "mbfc": "https://mediabiasfactcheck.com/",
+    "adfontes": "https://adfontesmedia.com/"
+  },
+  "review": {
+    "seeded": "2026-07-19",
+    "next_review_due": "2026-10-19",
+    "cadence": "quarterly"
+  },
+  "domains": {
+    "federalreserve.gov": { "bias": "official-record", "factual": "high", "note": "Primary source: the institution's own record, not journalism." },
+    "supremecourt.gov":   { "bias": "official-record", "factual": "high", "note": "Primary source: the court's own record, not journalism." },
+    "justice.gov":        { "bias": "official-record", "factual": "high", "note": "Primary source: the department's own record, not journalism." },
+    "congress.gov":       { "bias": "official-record", "factual": "high", "note": "Primary source: the legislative record, not journalism." },
+    "npr.org":            { "bias": "lean-left", "factual": "high" },
+    "bbc.com":            { "bias": "center", "factual": "high" },
+    "bbc.co.uk":          { "bias": "center", "factual": "high" },
+    "pbs.org":            { "bias": "center", "factual": "high" },
+    "nytimes.com":        { "bias": "lean-left", "factual": "high" },
+    "theguardian.com":    { "bias": "lean-left", "factual": "mostly-high" },
+    "washingtonpost.com": { "bias": "lean-left", "factual": "high" },
+    "wsj.com":            { "bias": "center", "factual": "high", "note": "News side; the opinion side leans right and the desk treats opinion pieces as opinion, not sourcing." },
+    "dowjones.io":        { "bias": "center", "factual": "high", "note": "WSJ feed infrastructure domain; same rating as wsj.com." },
+    "foxnews.com":        { "bias": "right", "factual": "mixed" },
+    "nationalreview.com": { "bias": "right", "factual": "mostly-high", "note": "Opinion-forward publication; the desk uses its reporting, labels its commentary." },
+    "washingtonexaminer.com": { "bias": "lean-right", "factual": "mixed" },
+    "reason.com":         { "bias": "libertarian", "factual": "mostly-high" },
+    "thehill.com":        { "bias": "center", "factual": "high" }
+  }
+}
