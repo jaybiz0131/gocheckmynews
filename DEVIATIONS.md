@@ -20,4 +20,13 @@ design system (masthead rule retinted to press ink blue, #1D4E79), and the human
 
 ## Deviations
 
-None yet.
+### D1 (2026-07-20): the build clock, scoped
+
+House rule: "dateline reflects the newest content, never a wall clock." The daypart
+front (home_stack in site_build.py) reads the build-time UTC clock to pick the hero
+lead, decay the Breaking badge (3 hours), and anchor The Bottom Line to the current
+slot's edition. The clock decides STACKING ONLY; every rendered dateline stays
+content-derived. SITE_BUILD_NOW pins the clock for deterministic replays. Tension
+surfaced here rather than resolved silently: a static page can present a stale stack
+between builds, and the accepted bound is the existing rebuild rhythm (slot publishes,
+breaking runs, the 12:00 UTC refresh); no extra builds were added to tighten it.

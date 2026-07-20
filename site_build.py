@@ -22,6 +22,7 @@ USAGE
   python3 site_build.py [--ingest]
 """
 
+import datetime
 import json
 import os
 import re
@@ -732,16 +733,78 @@ def _is_wrap(item):
     return str(item.get("id", "")).startswith("wrap-")
 
 
+# ---- daypart stacking (owner directive 2026-07-20) --------------------------------
+# The front page re-stacks like a broadcast rundown. The build clock decides stacking
+# and badge decay ONLY; datelines stay content-derived (the house rule is untouched).
+# SITE_BUILD_NOW pins the clock for deterministic replays and the canary.
+
+BREAKING_HOURS = 3
+_DAYPART_WRAP = {"morning": "wrap-am-", "midday": "wrap-md-", "evening": "wrap-pm-"}
+_NOW_CACHE = None
+
+
+def _build_now():
+    global _NOW_CACHE
+    if _NOW_CACHE is None:
+        env = os.environ.get("SITE_BUILD_NOW", "")
+        try:
+            _NOW_CACHE = datetime.datetime.fromisoformat(env.replace("Z", "+00:00"))
+        except ValueError:
+            _NOW_CACHE = datetime.datetime.now(datetime.timezone.utc)
+    return _NOW_CACHE
+
+
+def _daypart(now):
+    return "morning" if now.hour < 14 else "midday" if now.hour < 20 else "evening"
+
+
+def _fresh_hours(item, now):
+    try:
+        ts = (item.get("published_utc") or "").replace("Z", "+00:00")
+        return (now - datetime.datetime.fromisoformat(ts)).total_seconds() / 3600.0
+    except (ValueError, TypeError):
+        return 1e9
+
+
+def home_stack(items, now=None):
+    """One deterministic rule for the hero lead and The Bottom Line anchor, shared by
+    render_home and bottom_line_card so the front page and /news never disagree.
+      1. A story under BREAKING_HOURS old takes the lead with the Breaking badge (a
+         breaking publish triggers its own build; the next slot or refresh build
+         retires the badge).
+      2. The Bottom Line anchors today's edition matching the build daypart.
+      3. Otherwise the editor's rank of the newest date leads (unchanged behavior).
+      4. No matching edition -> the newest edition, exactly as before. Cron drift's
+         worst case is the status quo; nothing ever renders empty."""
+    now = now or _build_now()
+    stories = [i for i in (items or []) if not i.get("example") and not _is_wrap(i)]
+    breaking = False
+    if stories:
+        freshest = min(stories, key=lambda i: _fresh_hours(i, now))
+        if _fresh_hours(freshest, now) <= BREAKING_HOURS:
+            breaking = True
+            stories = [freshest] + [s for s in stories if s is not freshest]
+    wraps = [i for i in (items or [])
+             if _is_wrap(i) and i.get("bottom_line") and not i.get("example")]
+    prefix = _DAYPART_WRAP[_daypart(now)]
+    today = now.strftime("%Y-%m-%d")
+    anchor = next((w for w in wraps
+                   if str(w.get("id", "")).startswith(prefix) and w.get("date") == today),
+                  None)
+    if anchor is None:
+        anchor = wraps[0] if wraps else None
+    return stories, breaking, anchor
+
+
 def bottom_line_card(items):
     """THE BOTTOM LINE (owner directive 2026-07-15): the desk's signature element, the
     newest edition's 3-5 sentence read, refreshed every slot (and by breaking runs).
     Rendered as the compact card that rides beside the lead story (owner directive
     2026-07-17: lead first, Bottom Line to its right, same arrangement as the front
     page), reusing the home hero's card styling."""
-    wraps = [i for i in items if _is_wrap(i) and i.get("bottom_line") and not i.get("example")]
-    if not wraps:
+    _, _, ed = home_stack(items)  # daypart anchor; falls back to newest edition
+    if ed is None:
         return ""
-    ed = wraps[0]  # load_content sorts newest-first; wraps outrank stories within a date
     name = esc((ed.get("title") or "").split(":")[0].strip() or "The Daily Edition")
     return (f'<a class="hero-bl news-bl" href="/articles/{esc(ed["slug"])}.html">'
             f'<span class="hero-kick"><span class="kicker">The Bottom Line</span></span>'
@@ -838,7 +901,9 @@ def render_home(items, dateline):
     # The front page (owner directive 2026-07-16): a network-style hero mosaic. Several
     # lead stories visible at once with explicit hierarchy (the editor's rank orders them),
     # editions in their own strip below. No carousel: every ranked story is on screen.
-    stories = [i for i in items if not i.get("example") and not _is_wrap(i)]
+    # Daypart re-stack (2026-07-20): home_stack may promote a breaking story to the lead
+    # and picks the edition that anchors The Bottom Line square.
+    stories, breaking, bl_anchor = home_stack(items)
 
     def _hero_tag(item):
         tags = tags_for(item)
@@ -860,8 +925,10 @@ def render_home(items, dateline):
             '<span class="hero-scrim" aria-hidden="true"></span>'
             '<button class="hero-pause" type="button" hidden aria-pressed="false" '
             'aria-label="Pause background animation">&#10074;&#10074;</button>')
+        lead_mark = ('<span class="badge breaking">Breaking</span>' if breaking
+                     else _hero_tag(lead))
         lead_html = (f'<a class="hero-lead" href="/articles/{esc(lead["slug"])}.html">'
-                     f'<span class="hero-kick"><span class="kicker">Lead story</span>{_hero_tag(lead)}'
+                     f'<span class="hero-kick"><span class="kicker">Lead story</span>{lead_mark}'
                      f'{spectrum_chip(lead)}</span>'
                      f'<h3>{esc(lead.get("title"))}</h3>{dek_html}'
                      f'<span class="hl-meta">{verdict_badge(lead.get("verdict"))}'
@@ -869,9 +936,8 @@ def render_home(items, dateline):
         # The Bottom Line rides shotgun: the day's summary as the hero square beside the
         # lead, replacing the standalone band lower on the page.
         bl_card = ""
-        bl_wraps = [i for i in items if _is_wrap(i) and i.get("bottom_line") and not i.get("example")]
-        if bl_wraps:
-            ed = bl_wraps[0]
+        if bl_anchor is not None:
+            ed = bl_anchor
             ed_name = esc((ed.get("title") or "").split(":")[0].strip() or "The Daily Edition")
             bl_card = (f'<a class="hero-bl" href="/articles/{esc(ed["slug"])}.html">'
                        f'<span class="hero-kick"><span class="kicker">The Bottom Line</span></span>'
