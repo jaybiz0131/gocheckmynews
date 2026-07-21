@@ -74,5 +74,64 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-07-21",
+  "approved": 6,
+  "rejected": [
+   {
+    "id": "c103",
+    "headline": "Defense Secretary Hegseth Requests $88 Billion for Iran Operations",
+    "category": "compliance",
+    "reasons": [
+     "The bottom_line states 'The funding request marks a critical Senate vote on the conflict's continuation. The committee's decision will determine whether operations can proceed as planned' \u2014 this reads as a prediction about future Senate action presented as fact, not as a watch point. The draft should clarify that a vote is pending, not that it will determine continuation.",
+     "The bottom_line statement 'while commodity price impacts will likely shape the political environment around the vote' is a predictive assertion about political effects that goes beyond reporting what happened. This is analysis presented as the desk's own judgment rather than attributed reporting.",
+     "The phrase 'The funding request marks a critical Senate vote' implies advocacy-adjacent framing ('critical' signals importance in a way that pressures toward a particular stance). The story should be neutral on whether the vote is critical or routine."
+    ]
+   },
+   {
+    "id": "c083",
+    "headline": "Trump Administration Withholds $1 Billion in Medicaid Funding From California and Minnesota",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The withholding freezes federal health payments to the two Democratic-led states' \u2014 the characterization of the states as 'Democratic-led' does not appear in the brief's data_points and is not sourced inline. This is smuggled editorial framing that colors the story toward a partisan lens without attribution.",
+     "The bottom_line states the action 'may face legal challenge on procedural grounds' \u2014 this is legal prediction/advice not supported by the brief's data_points. The brief's open_questions include whether the action will face challenge, but the draft presents the prediction as settled analysis."
+    ]
+   },
+   {
+    "id": "c062",
+    "headline": "French lawmakers pass ban on social media for children under 15",
+    "category": "clarity",
+    "reasons": [
+     "The draft is extremely thin (176 words) and provides almost no substantive reporting on a major legislative vote. The brief itself is thin, but the draft fails to extract even basic details from the two sources listed. The body consists of only two sentences of actual reporting plus context; critical implementation details (platforms covered, enforcement, penalties, effective date, exceptions) are relegated to the bottom_line as 'to be clarified' rather than being reported as unknown unknowns. The draft reads as a stub rather than a complete story and would embarrass the desk against sources claiming to have reported this vote. A thin brief requires tight execution, not abdication; this draft abdicates.",
+     "The draft acknowledges 'Critical details remain to be clarified' in the bottom_line, which suggests reporting gaps the writer did not attempt to fill. If those outlets reported those details, they belong in the body; if they didn't, the bottom_line should flag them as open questions, not as unresolved reporting obligations."
+    ]
+   },
+   {
+    "id": "c091",
+    "headline": "New Jersey: software glitch registered 6,600 noncitizens to vote, fewer than 400 cast ballots",
+    "category": "accuracy",
+    "reasons": [
+     "The draft's second paragraph states 'The brief does not establish when the glitch was identified, what triggered its discovery, which specific elections the noncitizen voters participated in, whether any of the ballots cast were flagged or removed from results, or what procedural safeguards failed to catch the registration anomaly earlier.' This sentence appears in the body of a published draft, not in a research memo or internal document. A finished article cannot include meta-commentary about what the brief does or does not establish; this violates the no-fabrication, finished-prose rule and reads as the writer speaking directly to the editor rather than to the reader. It is compliance failure: the writer has left working notes in the draft."
+    ]
+   },
+   {
+    "id": "c196",
+    "headline": "Jay Clayton advances from Senate Intelligence Committee on party-line vote",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states Clayton 'currently serves as U.S. Attorney for the Southern District of New York' but the brief data_point 5 says he 'is U.S. attorney for the Southern District of New York.' The use of 'currently' suggests an active ongoing role, but given that he is being confirmed as DNI, this tense is misleading about his present status. More critically, the brief does not confirm whether Clayton remains in this post or has stepped aside pending confirmation.",
+     "The draft claims 'the nation's 18 intelligence agencies' but this specific number does not appear in the brief's data_points. This is a smuggled fact not sourced to the research."
+    ]
+   },
+   {
+    "id": "c133",
+    "headline": "U.S. to manufacture Ukrainian-designed drone boats domestically",
+    "category": "accuracy",
+    "reasons": [
+     "The draft contains no data_points in the brief to support it. The brief lists zero data_points (empty array), meaning the core claim 'The United States will manufacture Ukrainian-designed drone boats domestically for the first time' is unverified in the research. The writer has smuggled the announcement itself as fact without any sourced confirmation in the brief. The brief explicitly marks it as 'thin: true' with no substantive reporting to back the claim\u2014only open questions. The draft reads as if the deal is confirmed, but the brief contains no confirmed data to that effect."
+    ]
+   }
+  ]
  }
 ]
