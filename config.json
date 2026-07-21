@@ -36,7 +36,8 @@
     "note": "COST LOCKDOWN (owner directive 2026-07-21, supersedes the quality-launch A/B): crypto is the priority bet and this desk must never run a higher cost than the crypto desk. claude-haiku-4-5 on every desk stage, exactly like crypto; the deterministic fail-closed gates (source liveness, dedup, depth gate, belts, corroboration rules) are the quality floor, not the model. wraprescue keeps claude-sonnet-5 for the rare edition-failure path only, same as crypto. REVERSAL TRIGGER: real audience traction on this desk -> revisit the writer model.",
     "publicist": {
       "model": "claude-haiku-4-5",
-      "max_tokens": 1500
+      "max_tokens": 1500,
+      "note": "Publicist DISABLED per strategy 2026-07-21: LinkedIn is currently the government-sales channel. Code kept in the repo, schedule removed from publicist.yml. Re-enable only on explicit direction."
     },
     "wrap": {
       "model": "claude-haiku-4-5",
