@@ -91,6 +91,16 @@ def validate(obj, stories):
         # why_it_matters line rather than publishing without one.
         if not (art.get("bottom_line") or "").strip():
             art["bottom_line"] = by_id[d["id"]].get("why_it_matters", "")
+        # The cited-sources list is DETERMINISTIC, never model-trimmed: union the model's
+        # citations with the story's threaded source_urls (cluster primary + cross-outlet
+        # corroboration) so every published story renders a credibility chip per outlet
+        # and a 3+-lane story can earn the spectrum chip (audit 2026-07-21: articles were
+        # citing one URL even when the cluster carried corroboration).
+        srcs = [u for u in (art.get("sources") or []) if isinstance(u, str) and u]
+        for u in by_id[d["id"]].get("source_urls") or []:
+            if u not in srcs:
+                srcs.append(u)
+        art["sources"] = srcs[:6]
         art["status"] = "DRAFT"
         art["not_financial_advice"] = NFA
         art.setdefault("human_take", "")

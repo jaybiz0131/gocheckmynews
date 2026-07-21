@@ -36,12 +36,21 @@ def gather_sources(story, mode):
             checks.append({"url": url, "http_status": None, "source_text": "",
                            "text_excerpt": "(skipped: replay mode is offline)"})
         return checks
-    for url in (story.get("source_urls", []) or [])[:3]:
+    # Up to 3 live pages per story, trying at most 6 URLs: several major outlets block
+    # non-browser fetches outright (audit 2026-07-21: NYT/WSJ/WaPo 403s meant only BBC
+    # stories ever confirmed), so a blocked URL no longer burns one of the 3 slots when a
+    # corroborating outlet further down the list is fetchable. Failures are still recorded
+    # (fail-closed: the verifier sees exactly what could not be confirmed).
+    fetched_ok = 0
+    for url in (story.get("source_urls", []) or [])[:6]:
+        if fetched_ok >= 3:
+            break
         code, page = common.fetch_page(url)
         if code == 200:
             text = common.extract_article_text(page)
             checks.append({"url": url, "http_status": code, "source_text": text,
                            "text_excerpt": text[:1500]})
+            fetched_ok += 1
         else:
             checks.append({"url": url, "http_status": code, "source_text": "",
                            "text_excerpt": page})

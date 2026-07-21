@@ -85,6 +85,27 @@ def validate(obj, top_n):
     return obj
 
 
+MAX_SOURCE_URLS = 6
+
+
+def thread_corroboration(ranked, clusters):
+    """Deterministically extend every ranked story's source_urls with its cluster's primary
+    URL and corroboration URLs (audit 2026-07-21: the model typically returned only the
+    primary URL, so published stories rendered a single credibility chip and the spectrum
+    chip never fired). The model's own picks stay first, then the cluster primary, then
+    corroborating outlets in tier order; deduped, capped. Downstream this gives the
+    verifier cross-outlet pages to confirm against, the researcher more source text for
+    the depth gate, and the site multiple chips per story."""
+    by_id = {c["id"]: c for c in clusters}
+    for r in ranked:
+        c = by_id.get(r["id"]) or {}
+        urls = [u for u in (r.get("source_urls") or []) if u]
+        for u in [c.get("url")] + [x.get("url") for x in (c.get("corroboration") or [])]:
+            if u and u not in urls:
+                urls.append(u)
+        r["source_urls"] = urls[:MAX_SOURCE_URLS]
+
+
 def run(client=None):
     cfg = common.load_config()
     top_n = cfg["top_n"]
@@ -95,6 +116,7 @@ def run(client=None):
 
     obj = client.call_json("editor", system, user,
                            validate=lambda o: validate(o, top_n))
+    thread_corroboration(obj["ranked"], items["clusters"])
 
     obj["_meta"] = {"stage": "2-editor", "mode": client.mode,
                     "candidates": len(items["clusters"]),

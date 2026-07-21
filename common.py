@@ -67,7 +67,11 @@ def extract_article_text(html_body, cap=6000):
     """Readability-lite article extraction, stdlib only. Prefers the <article> block if the
     page has one, else collects <p> contents; strips tags/scripts, unescapes entities, and
     drops short boilerplate lines (nav crumbs, cookie banners) so the researcher gets prose,
-    not nav-soup. Returns up to `cap` chars."""
+    not nav-soup. When the markup pass comes back thin (a client-rendered shell serves
+    nearly no <p> prose), falls back to the page's own JSON-LD NewsArticle.articleBody,
+    which most news CMSes embed server-side even when the visible HTML is a shell (same
+    honest-fetch posture as the sports desk's ESPN content-API fallback: the page the
+    outlet itself served, our UA, no disguises). Returns up to `cap` chars."""
     import html as html_mod
     if not html_body:
         return ""
@@ -79,10 +83,43 @@ def extract_article_text(html_body, cap=6000):
     if not paras and m is None:
         # No <p> tags at all (some CMSes): fall back to the naive strip of the whole page.
         text = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", body)).strip()
-        return text[:cap]
-    out = []
-    for p in paras:
-        t = html_mod.unescape(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", p)).strip())
-        if len(t) >= 40:  # boilerplate lines (menus, "Share this", bylines) run shorter
-            out.append(t)
-    return "\n".join(out)[:cap]
+    else:
+        out = []
+        for p in paras:
+            t = html_mod.unescape(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", p)).strip())
+            if len(t) >= 40:  # boilerplate lines (menus, "Share this", bylines) run shorter
+                out.append(t)
+        text = "\n".join(out)
+    if len(text) < 400:
+        ld = ldjson_article_body(html_body)
+        if len(ld) > len(text):
+            text = ld
+    return text[:cap]
+
+
+def ldjson_article_body(html_body):
+    """The longest articleBody found in any <script type="application/ld+json"> block on the
+    page (plain text, whitespace-normalized), or '' when none parses. Walks nested
+    structures (@graph wrappers, arrays) because outlets nest their NewsArticle object
+    differently. A malformed block is skipped, never fatal."""
+    import html as html_mod
+    best = ""
+    for m in re.finditer(r"(?is)<script[^>]*type\s*=\s*[\"']application/ld\+json[\"'][^>]*>"
+                         r"(.*?)</script>", html_body or ""):
+        try:
+            data = json.loads(m.group(1).strip())
+        except Exception:
+            continue
+        stack = [data]
+        while stack:
+            node = stack.pop()
+            if isinstance(node, dict):
+                b = node.get("articleBody")
+                if isinstance(b, str) and len(b) > len(best):
+                    best = b
+                stack.extend(node.values())
+            elif isinstance(node, list):
+                stack.extend(node)
+    if not best:
+        return ""
+    return html_mod.unescape(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", best))).strip()
