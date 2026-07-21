@@ -289,7 +289,7 @@ def render_feed(items):
     out = ['<?xml version="1.0" encoding="UTF-8"?>',
            '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">',
            "<channel>",
-           f"<title>{esc(NAME)} &#8212; {esc(FAMILY)}</title>",
+           f"<title>{esc(NAME)}</title>",
            f"<link>{ORIGIN}/news.html</link>",
            f"<description>{esc(DESC)}</description>",
            "<language>en-us</language>",
@@ -359,7 +359,7 @@ def masthead(active, dateline, brand="site"):
 
 
 def newsletter():
-    return f"""<section class="news"><div class="wrap">
+    return f"""<section class="news" aria-label="Newsletter signup"><div class="wrap">
   <h2>Get the brief</h2>
   <p>The day's real news, checked against the official public record and outlets across the
      political spectrum, with every source rated in the open. No advocacy, no rumor mills.
@@ -558,7 +558,7 @@ def sig_block():
     <span class="sig-attest">Passed our <a href="/method.html">automated editorial review</a>:
       ranked, source-checked, and verified by the desk's independent review pass.</span>
   </div>
-  <div class="stamp" aria-label="Automated editorial review stamp">
+  <div class="stamp" role="img" aria-label="Automated editorial review stamp">
     <svg viewBox="0 0 120 120" aria-hidden="true">
       <circle cx="60" cy="60" r="56" fill="none" stroke="currentColor" stroke-width="2"/>
       <circle cx="60" cy="60" r="47" fill="none" stroke="currentColor" stroke-width="1" stroke-dasharray="3 4"/>
@@ -641,13 +641,13 @@ def render_article(item, all_items=None):
             legend = ('<p class="cred-note">Outlet ratings are the public AllSides and '
                       'Media Bias/Fact Check charts\' calls, not ours. '
                       '<a href="/sources.html">How we rate sources</a>.</p>')
-        src_html = f'<div class="sources"><h4>Sources</h4><ol>{lis}</ol>{legend}</div>'
+        src_html = f'<div class="sources"><h2>Sources</h2><ol>{lis}</ol>{legend}</div>'
     rel_html = ""
     for rel in related_stories(item, all_items or []):
         rel_html += (f'<li><a href="/articles/{esc(rel["slug"])}.html">{esc(rel.get("title"))}</a>'
                      f'<span class="mut"> &middot; {fmt_when(rel)}</span></li>')
     if rel_html:
-        rel_html = f'<div class="related"><h4>Related stories</h4><ul>{rel_html}</ul></div>'
+        rel_html = f'<div class="related"><h2>Related stories</h2><ul>{rel_html}</ul></div>'
     author = esc(item.get("author", "The GoCheckMyNews Desk"))
     body = f"""<main class="wrap narrow">
   <article class="article">
@@ -712,7 +712,7 @@ def card(item):
 def desk_strip():
     # Desk strip: the desk line beneath the masthead, text only (the chassis this repo was
     # cloned from put an anchor-portrait video here; this desk runs a single brand, no mascot).
-    return f"""<section class="desk"><div class="wrap">
+    return f"""<section class="desk" aria-label="About this desk"><div class="wrap">
   <div class="desk-copy">
     <span class="kicker">From the desk</span>
     <p>{esc(DESK_LINE)}</p>
@@ -1019,7 +1019,7 @@ def render_home(items, dateline):
 
     # The Bottom Line lives in the hero square beside the lead (owner call 2026-07-16);
     # the standalone band below is retired on home. /bottom-line.html keeps the history.
-    body = f"""<main class="wrap"><section class="page">
+    body = f"""<main class="wrap"><h1 class="sr-only">GoCheckMyNews: the latest verified news</h1><section class="page">
   {desk_html}
   {editions_html}
   {track_html}
@@ -1051,7 +1051,7 @@ def render_archive(items, dateline):
     else:
         inner = ('<div class="empty"><span class="k">Archive is empty</span>'
                  '<p style="margin:.6em 0 0">No stories have been approved and published yet.</p></div>')
-    body = f"""<main class="wrap"><section class="sec">
+    body = f"""<main class="wrap"><h1 class="sr-only">GoCheckMyNews archive</h1><section class="sec">
     <div class="sec-head"><h2>Archive</h2><span class="bar"></span></div>
     {inner}
   </section></main>"""
