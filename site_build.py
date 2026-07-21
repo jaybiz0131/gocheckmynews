@@ -1234,8 +1234,11 @@ def render_standards(dateline):
      this site is political advocacy, legal advice, or financial advice.</p>
 
   <h2>Corrections</h2>
-  <p>When we get something wrong, we fix it and say so on the story. If you spot an error, tell us and
-     we will check it against the source. A correction is a feature of an honest desk, not a failure.</p>
+  <p>When we get something wrong, we fix it promptly and note the correction on the story
+     itself. To report an error, email
+     <a href="mailto:desk@gocheckmynews.com">desk@gocheckmynews.com</a> with a link to the
+     story and, if you have it, the source that shows the error; we check every report
+     against the sources. A correction is a feature of an honest desk, not a failure.</p>
 
   <h2>AI disclosure</h2>
   <p>Stories on this site are assembled with AI assistance and fact-checked by a separate,
@@ -1395,7 +1398,22 @@ def render_terms(dateline):
   <p>Stories and context are assembled from public third-party sources (the official public
      record, public feeds, news outlets). Data can be delayed, revised, or wrong at the
      source, and outlet credibility ratings are third-party judgments that change over time.
-     Verify anything that matters against primary sources before you act on it.</p>
+     Verify anything that matters against primary sources before you act on it. If you spot
+     an error in our reporting, our <a href="/standards.html">standards and corrections
+     policy</a> explains how to report it and how we fix it.</p>
+
+  <h2>Our content and copyright</h2>
+  <p>The original text on this site (story summaries, context, and the editorial pages) is
+     &copy; {YEAR} GoCheckMyNews. You may quote it with attribution and a link. The
+     underlying reporting belongs to the outlets we cite: stories here summarize their
+     reporting in our own words and link to the source rather than reproduce it, and
+     headlines, quotations, and outlet ratings remain the property of their publishers.</p>
+
+  <h2>Links to other sites</h2>
+  <p>Every story links out to its sources. Those sites are not ours: we do not control their
+     content, and a link is neither an endorsement of an outlet nor responsibility for what
+     it publishes. Once you leave this site, the destination's own terms and policies
+     apply.</p>
 
   <h2>No warranty</h2>
   <p>The site and its data are provided "as is" and "as available," without warranties of any
@@ -1411,7 +1429,7 @@ def render_terms(dateline):
   <p>These terms are governed by the laws of the State of South Carolina, without regard to
      conflict-of-law rules. If you do not agree with these terms, please do not use the site.</p>
 
-  <p class="nfa">Last updated July 19, 2026.</p>
+  <p class="nfa">Last updated July 21, 2026.</p>
 </section></main>"""
     return shell(f"Terms of Use - {NAME}",
                  "What GoCheckMyNews is and is not: news reporting for education and information, "
