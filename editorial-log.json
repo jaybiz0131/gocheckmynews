@@ -1,0 +1,78 @@
+[
+ {
+  "date": "2026-07-21",
+  "approved": 4,
+  "rejected": [
+   {
+    "id": "c105",
+    "headline": "Iran-backed Houthis declare Red Sea blockade on Saudi Arabia",
+    "category": "accuracy",
+    "reasons": [
+     "The brief contains zero data_points and source_chars=0, indicating no source text was fetched. The draft makes specific claims (Iran-backed Houthis, Red Sea blockade on Saudi Arabia, threat to shipping routes) that cannot be traced to any data point in the brief. Per hard rule: no fact exists outside the brief. Every claim in the draft is unsourced within the brief structure.",
+     "The brief itself flags this in open_questions: 'The New York Times source text was not fetched (empty source_texts array); the brief cannot be built beyond the snippet.' The draft was written without the underlying research and violates the foundational rule that facts must trace to data_points."
+    ]
+   },
+   {
+    "id": "c103",
+    "headline": "Andy Burnham becomes UK Prime Minister, announces electricity tax cut",
+    "category": "accuracy",
+    "reasons": [
+     "The brief contains zero data_points and source_chars=0, indicating no source text was fetched. The draft makes multiple specific claims (Andy Burnham became Prime Minister, announced electricity tax cut, made cabinet appointments, called President Trump) that cannot be traced to any data point in the brief. Per hard rule: no fact exists outside the brief.",
+     "The brief itself flags this failure in open_questions: 'The source text from the New York Times URL is empty; no details are available to verify the core claim, specific tax cut amounts, cabinet appointments, or the Trump call.' The draft was constructed without the underlying research and violates the foundational requirement that every fact must trace to a data_point."
+    ]
+   },
+   {
+    "id": "c206",
+    "headline": "Federal judge blocks Trump administration in Minnesota sanctuary city lawsuit",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The Trump administration filed a lawsuit in September against the Twin Cities, Hennepin County and the state over sanctuary city policies' but the brief's data_point says the lawsuit was filed 'in September' with no year specified, and the source text is truncated/missing. The draft presents this as settled fact when the brief itself flags the source as severely truncated ('primarily website boilerplate and navigation code; the actual article content is truncated or missing').",
+     "The draft contains almost no substantive reporting: no judge's name, no reasoning, no specific ruling details, no Trump administration response or appeal plans. The brief is marked 'thin: true' with extensive open_questions noting critical information is missing from the source. The appropriate response to a severely truncated source is to reject the draft as unpublishable, not to publish a hollow story that reads as reportage when it is almost entirely absence of fact."
+    ]
+   },
+   {
+    "id": "c050",
+    "headline": "India's Cockroach Janta Party Protesters Return After Police Crackdown",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Thousands of protesters gathered again in Delhi on July 22, one day after police used batons and tear gas to disperse a demonstration' and later says 'On July 21, tens of thousands of young men and women defied a police ban to march on parliament.' The brief's core_claim and data_points describe the July 21 crackdown and July 22 return, but the draft does not clearly distinguish that the July 21 event was a single march/attempt that day, not a multi-day sustained presence before the crackdown. The phrasing 'gathered again' implies they were there before July 21, but per the brief, the protest camp had been at Jantar Mantar 'for the past month' (data_point 9), the crackdown occurred on July 21, and the return was July 22. The draft's narrative structure risks conflating the prior month-long camp with a July 21 daytime march. The opening should make clear the temporal sequence: month-long camp \u2192 July 21 march attempt \u2192 police crackdown \u2192 July 22 return to protest site.",
+     "The draft's bottom_line states: 'the police crackdown on unarmed protesters\u2014including women\u2014and the government's initial dismissal signal a deepening domestic political crisis.' The characterization of protesters as 'unarmed' is not present in the brief's data_points. The brief documents that police said 118 of their personnel were injured and protesters displayed 'unruly, aggressive and violent behaviour,' and the bear_case includes that police injury claims 'suggest protesters displayed resistance that created risk to law enforcement.' The draft's unqualified 'unarmed' descriptor is an inference not supported by the sourced record and reads as editorial framing of the police justification (which is based on resistance/violence claims, not weapons). This violates the rule against smuggling unsourced characterizations into the draft."
+    ]
+   },
+   {
+    "id": "c109",
+    "headline": "Arizona Primary Elections Held Tuesday",
+    "category": "accuracy",
+    "reasons": [
+     "The brief's data_points array is empty (contains no data). The brief itself notes 'thin': true and 'source_chars': 0, indicating no source document was actually fetched or analyzed. The draft acknowledges this problem in its bottom_line ('This story cannot be completed without access to the full source document'), but that acknowledgment belongs in a memo to the desk, not in a draft submitted for approval. A draft with no sourced facts beyond the skeleton (Arizona, Tuesday, three office types) violates the core rule: no fact exists outside the brief. The draft should not be submitted for approval until research has built a complete brief with verified data_points. Reject and return to research."
+    ]
+   },
+   {
+    "id": "c033",
+    "headline": "UK cuts VAT on household electricity to zero starting October 2026",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Prime Minister Andy Burnham announced the VAT cut on his first full day in office' is not present in the draft body, but the brief includes this as a reported data point. However, the more critical issue: the draft contains 'Darren Jones, sacked as chief secretary to the prime minister on Monday' without attribution to a source in the brief's bear_case, which presents it as an action taken but does not verify the timing or circumstances of his dismissal relative to the announcement. The phrase 'sacked...on Monday' presents a fact (the dismissal and its timing) without tracing to the data_points; the brief only states Jones 'accused the government' (bear_case), not that he was dismissed or when.",
+     "The draft states 'the former chancellor removed one levy and shifted others onto general taxation' in April, naming a previous intervention, but the brief's data_point says 'former chancellor Rachel Reeves' and the draft does not name her. While the brief confirms this fact, the draft introduces a named person (implied by 'former chancellor' context) without the name appearing in the source material as presented in the brief\u2014a minor gap but worth noting. More critically, the April intervention is confirmed in the brief but the draft's phrasing 'the former chancellor' is indefinite in a way that could mislead readers about who acted.",
+     "The draft refers to 'The government said the policy will be funded by savings from cancelling the digital ID programme, which the government provisionally forecast would have cost \u00a31.8 billion over three years.' The brief's data_point says 'the government said the VAT reduction will be funded by savings from the cancellation of the digital ID programme, which was going to cost \u00a31.8bn' (reported confidence), but separately states 'The Office for Budget Responsibility provisionally forecast that Digital ID had to cost \u00a31.8bn in total over the next three years' (reported confidence). The draft conflates these\u2014attributing the 'provisionally forecast' language to the government when the brief attributes it to the OBR. This is an accuracy error: the source of the forecast matters."
+    ]
+   },
+   {
+    "id": "c214",
+    "headline": "Supreme Court docket includes assault weapons ban challenge",
+    "category": "clarity",
+    "reasons": [
+     "The brief is marked 'thin: true' with only three data_points and six open_questions. The draft is extremely short (2 sentences of substantive content) and does not compensate for the brief's thinness with context or framing. The core facts from the brief are present, but a reader has almost no information about what this case actually concerns beyond the abstract phrase 'assault weapons' bans. The draft acknowledges in the bottom_line that 'the identity of the parties, the specific states whose bans are being challenged, the firearms targeted by those bans' are unconfirmed, which is appropriate caution, but then publishes almost nothing else to give readers stakes or meaning. A two-sentence stub under an incomplete brief is not a publishable form; this should remain in research until more facts are available. The status is 'DRAFT' and the bottom_line itself signals the story is not ready."
+    ]
+   },
+   {
+    "id": "c120",
+    "headline": "Cyclospora outbreak traced to human waste in food supply",
+    "category": "clarity",
+    "reasons": [
+     "The brief is marked 'thin: true' with only two data_points and nine open_questions; source_chars is 0, indicating no source text has been captured or reviewed. The draft is three short paragraphs with almost no factual content beyond 'cyclospora spreads through human feces' (a general fact, not outbreak-specific) and a vague reference to a 'surprising scale.' The bottom_line explicitly lists all critical unverified details: 'total number of cases, affected states, specific contaminated foods, timeline of first cases, identified source facility, any recalls issued, and the specific contamination pathway.' A story cannot be published when its bottom_line is a checklist of missing facts. The brief has captured no actual outbreak data\u2014no case count, no location, no food, no facility. This is a research-phase brief, not ready for drafting. The story should remain under research until the source material is actually read and key facts are verified."
+    ]
+   }
+  ]
+ }
+]
