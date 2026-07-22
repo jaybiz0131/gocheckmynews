@@ -4,6 +4,11 @@
   "ELECTION_CALENDAR_NOTE": "Owner directive 2026-07-22: results nights are the most predictable misses, so they are staffed by default. Windows are deliberately approximate (they bias the editor's staffing, never facts); refresh each cycle. Results discipline lives in prompts/editor.md (ELECTION NIGHTS).",
   "election_calendar": [
     {
+      "name": "Arizona primary results and canvass (July 2026)",
+      "start": "2026-07-21",
+      "end": "2026-07-27"
+    },
+    {
       "name": "August state primary night (AZ, KS, MI, MO, WA window)",
       "start": "2026-08-03",
       "end": "2026-08-05"
@@ -250,6 +255,16 @@
           "ai act",
           "ai safety bill",
           "artificial intelligence bill"
+        ]
+      },
+      {
+        "name": "Arizona primary",
+        "keywords": [
+          "arizona primary",
+          "arizona election",
+          "arizona results",
+          "primary results",
+          "primary night"
         ]
       }
     ]
