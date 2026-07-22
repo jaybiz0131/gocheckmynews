@@ -234,5 +234,64 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-07-22",
+  "approved": 6,
+  "rejected": [
+   {
+    "id": "c095",
+    "headline": "U.S. and Saudi Arabia Expected to Announce Nuclear Cooperation Deal",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'U.S. companies to operate a domestic enrichment facility on Saudi soil' but the brief's data_point says 'run nuclear power for the Saudis on Saudi soil'\u2014these are different things (enrichment facility vs. power operation). The draft conflates uranium enrichment with nuclear power generation.",
+     "The draft references 'tens of billions of dollars over 30 years' as a single figure, but the brief separates these: one data_point says 'billions of dollars' (WSJ), another says '30 years' and 'tens of billions of dollars' (WSJ). The draft has merged attribution.",
+     "The draft states the deal 'would permit the kingdom to develop uranium enrichment capability within its borders' but the brief's core claim and data_points carefully use conditional language ('may be allowed', 'following a joint study'). The draft presents a conditional outcome as a direct permit."
+    ]
+   },
+   {
+    "id": "c149",
+    "headline": "Trump Threatens Strikes on Iranian Power Plants, Bridges if Ships Targeted",
+    "category": "balance",
+    "reasons": [
+     "The brief contains a bear_case array that is empty, yet the brief's open_questions identify fundamental missing context about legal basis, ally/adversary interpretation, and specific triggering circumstances. The draft's bottom_line correctly flags these gaps, but the body presents Trump's threat without any counter-voice, qualifier, or context about the absence of detail. A two-sentence story on a military escalation threat with no context on how this fits into prior statements or policy is underweight for the stakes; the draft reads as threat-laundering rather than reporting.",
+     "The phrase 'latest indication the president is planning to escalate the conflict' adopts interpretive voice (that this is part of a plan to escalate) rather than sticking to the fact of the statement itself. This is the Wall Street Journal's framing, not GoCheckMyNews's reporting."
+    ]
+   },
+   {
+    "id": "c254",
+    "headline": "Carney signals intensified US-Canada trade talks after Trump tariffs",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Canadian Prime Minister Mark Carney' but the brief and reporting do not confirm Carney holds the office of Prime Minister. This is a significant factual error that goes beyond what the brief supports. The draft presents Carney in an official capacity without verification of his current title."
+    ]
+   },
+   {
+    "id": "c116",
+    "headline": "Fifth Death Confirmed in NYC Legionnaires Outbreak; 82 Cases Reported",
+    "category": "accuracy",
+    "reasons": [
+     "The sentence 'According to reporting, an official identified as Mamdani has stated that the source of exposure has been eliminated' presents Mamdani's belief as stated fact without attribution of confidence level. The brief marks this claim as 'reported' confidence, but the phrasing 'has stated' and 'has been eliminated' read as definitive rather than as an official's claim or belief. Should read: 'An official identified as Mamdani stated the source of exposure was eliminated, though this has not been independently verified' or similar language reflecting the confidence label."
+    ]
+   },
+   {
+    "id": "c117",
+    "headline": "Tornadoes and Record Flooding Strike Kentucky and West Virginia",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Several people were injured' but the brief data_point only confirms 'Several people were injured' as 'reported' confidence. The draft then later states 'No specific casualty figures...are available' which contradicts the earlier confident statement about injuries. The contradiction signals the injury figure is not clearly sourced in the reporting available and should not appear as stated fact in the opening paragraphs."
+    ]
+   },
+   {
+    "id": "c182",
+    "headline": "Five House Democrats cross party lines on transgender sports amendment to defense bill",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states the amendment bans transgender students from competing on 'girls' sports teams at schools run by the Department of War.' The brief consistently refers to 'Department of War\u2013run schools' or 'Department of War' (DoW), but the draft introduces 'Department of War' without the standard abbreviation context and later uses 'Department of Defense Education Activity schools' in the Mace quote. This conflation is problematic: the brief's data_point 3 specifies 'schools run by the Department of War (DoW)' and data_point 8 refers to 'Department of War-run schools,' but the Mace quote in data_point 10 uses 'Department of Defense Education Activity schools'\u2014a different entity. The draft should either clarify this is the same institution or note the terminology difference from the source quote, as written it reads as though two different school systems are being discussed.",
+     "The draft states 'All four senior leaders in the House Democratic Caucus, including Minority Leader Hakeem Jeffries, voted no.' The brief's data_point 9 says 'All four senior leaders in the House Democratic Caucus, including Minority Leader Hakeem Jeffries, D-N.Y., voted against the amendment.' The draft omits the state designation (D-N.Y.) that appears in the brief, which is a minor omission but the brief includes it consistently for other named officials; however, this is stylistic rather than factual error. The more serious issue: the draft never explicitly names the other three senior leaders. Data_point 9 claims 'all four' but only Jeffries is named in the draft. The brief does not provide the names of the other three, so the draft cannot name them either\u2014but as written, it implies four senior leaders were identified when only one is named, which is misleading.",
+     "The draft includes a second quote from Mace: 'Men are not women. Men will never become women. Yet male athletes are stealing medals, invading locker rooms, and putting girls in the hospital, all in the name of gender ideology. Our NDAA amendment would end this nonsense.' The brief's data_point 10 attributes this exact quote to Mace and credits it 'according to Fox News' in the draft. However, the draft also states in the preceding paragraph: 'Mace said the amendment would \"ban biological males from competing against biological women in Department of Defense Education Activity schools,\" stating that \"our warfighters' daughters deserve better than this.\" In a prepared statement, according to Fox News, Mace said...' This structure correctly attributes the longer quote to a prepared statement via Fox News, but it creates an impression of multiple distinct Mace statements when the brief provides only two quotes from the same source. The attribution is technically present but the framing ('Mace said... stating that... In a prepared statement, according to Fox News, Mace said') is awkwardly layered and could be read as padding the Mace voice without additional fact-checking."
+    ]
+   }
+  ]
  }
 ]

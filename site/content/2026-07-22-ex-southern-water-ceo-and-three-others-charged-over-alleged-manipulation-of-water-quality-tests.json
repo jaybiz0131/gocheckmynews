@@ -1,0 +1,39 @@
+{
+  "id": "c21",
+  "slug": "ex-southern-water-ceo-and-three-others-charged-over-alleged-manipulation-of-water-quality-tests",
+  "kind": "brief",
+  "title": "Ex-Southern Water CEO and three others charged over alleged manipulation of water quality tests",
+  "dek": "Matthew Wright, former chief executive of Southern Water, and three other company employees have been charged with conspiracy to defraud the Environment Agency and Ofwat between 2012 and 2017 by allegedly manipulating water quality tests. The alleged scheme involved creating artificial no-flow conditions to avoid approximately 45 million pounds in penalties. Wright's legal challenge to the charges was dismissed by two senior judges on Wednesday.",
+  "date": "2026-07-22",
+  "published_utc": "2026-07-22T15:23:58Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 11,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Wright and three others are accused of deliberately creating no-flow conditions at wastewater treatment works to game the operator self-monitoring (OSM) testing regime, which allowed them to avoid test failures and the regulatory penalties those failures would trigger, deceiving agencies tasked with protecting public health and the environment.",
+  "bottom_line": "The fraud conspiracy case now moves toward trial following the judges' rejection of Wright's challenge to the Environment Agency's authority to prosecute. The outcome will test whether executives can be held criminally liable for systematic gaming of environmental oversight mechanisms, with implications for how utilities industry regulation is enforced.",
+  "human_take": "",
+  "body": [
+    "Matthew Wright, 60, former chief executive of Southern Water, and three other company employees have been charged with conspiring to defraud the Environment Agency and Ofwat between 2012 and 2017 by allegedly manipulating water quality tests designed to protect public health and the environment, according to the BBC.",
+    "The four alleged conspirators are Wright; Philip Barker, 57, of West Chiltington, West Sussex; Clive Massey, 64, of Brandhill, Shropshire; and Mark Gregory, 63, of Southampton. According to court findings, the alleged scheme cost regulators in the region of 45 million pounds in avoided penalties, though the Environment Agency assessed the figure as higher.",
+    "District Judge Stephen Leake alleged there had been \"a deliberate plan by officers of the company to manipulate the OSM regime\" by \"contriving operational circumstances\" so there was no flow when the site might fail the operator self-monitoring test, \"in order to avoid the consequences of the true OSM result being provided to the agency and Ofwat.\" Lord Justice Popplewell, in a 48-page judgment, described the scheme as \"arranging for wastewater to be removed from facilities by tankers in order to create no flow results, with a view to covering up pollution and deceiving those whose function is to protect the public from such harm.\"",
+    "The operator self-monitoring scheme, introduced in 2009, involves annual unannounced visits by separate sampling teams to test treated effluent discharge from wastewater treatment works. Under the rules, if the discharge flow at the time of the test is insufficient to take a sample, it is not regarded as a fail, and no samples are taken for the rest of the testing period. The four are accused of exploiting this loophole by deliberately creating no-flow conditions when inspections were scheduled or anticipated.",
+    "Wright's legal team argued the Environment Agency lacked the power to bring fraud and conspiracy charges, claiming the agency could prosecute only environmental offences. That challenge was dismissed Wednesday when Lord Justice Popplewell and Mr Justice Hilliard ruled that the EA has \"a general power to bring private prosecutions\" and that the law \"enables the EA to prosecute for any offence of any nature in circumstances in which such a prosecution is capable of being calculated to facilitate, or conducive or incidental to, the carrying out of any of its functions.\" The judges rejected the argument that restricting the EA to environmental charges would be appropriate, saying it would \"produce unreasonable and anomalous results.\"",
+    "Wright's solicitor stated his client \"denies all wrongdoing and has co-operated fully with the Environment Agency's investigation.\" Massey, Gregory, and Barker did not appear at the hearing and were not represented. The case against the four was scheduled to be heard at Medway Magistrates' Court on July 14.",
+    "Separately, Southern Water itself has been charged with dozens of offences of failing to comply with or contravening an environmental permit condition between 2013 and 2017 at multiple wastewater treatment works. Three additional individuals have also been charged with individual permit violations: Terry Stephens, 68, of Waterlooville, Hampshire; David James, 60, of Worthing, West Sussex; and Mark Butler, 47, of Hassocks, West Sussex.",
+    "Rules around the operator self-monitoring scheme have been tightened in the past year, including a requirement that samples must be rescheduled in the event that flow is insufficient. The current Labour government has pledged to end the practice."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c36d0njy7jjo"
+    }
+  ],
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-07-22T15:23:58Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "update_of": "ex-southern-water-ceo-and-three-others-charged-over-alleged-water-quality-test-manipulation"
+}

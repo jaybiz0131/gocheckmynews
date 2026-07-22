@@ -1,0 +1,37 @@
+{
+  "id": "c198",
+  "slug": "experimental-pancreatic-cancer-vaccine-triggers-immune-responses-in-phase-1-trial",
+  "kind": "brief",
+  "title": "Experimental pancreatic cancer vaccine triggers immune responses in phase 1 trial",
+  "dek": "A phase 1 trial of an experimental pancreatic cancer vaccine called mKRAS-VAX at Johns Hopkins triggered mutant KRAS-targeted immune responses in 18 of 20 high-risk participants. The vaccine targets mutations that drive more than 90 percent of pancreatic ductal adenocarcinomas. After approximately 16.5 months of follow-up, 37.5 percent of vaccinated participants experienced shrinkage or disappearance of pancreatic cysts, and no participants developed cancer.",
+  "date": "2026-07-22",
+  "published_utc": "2026-07-22T15:23:58Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 12,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The vaccine generated immune responses in 90 percent of trial participants and appeared to be safe, with only injection-site reactions and temporary flu-like symptoms reported, though study authors cautioned that larger trials are needed to confirm the cyst shrinkage was caused by the vaccine rather than occurring spontaneously.",
+  "bottom_line": "The trial established that mKRAS-VAX is safe and capable of generating durable immune responses against a mutation present in the vast majority of pancreatic cancers. Phase 2 trials will be necessary to determine whether the immune response actually prevents cancer development and whether the observed cyst regression is vaccine-induced or spontaneous.",
+  "human_take": "",
+  "body": [
+    "An experimental vaccine called mKRAS-VAX has triggered mutant KRAS-targeted immune responses in 18 of 20 high-risk participants in a phase 1 trial at Johns Hopkins School of Medicine in Baltimore, Maryland, according to results published in Cancer Discovery, a journal of the American Association for Cancer Research.",
+    "The vaccine targets six common mutations of the KRAS gene, which drives changes associated with more than 90 percent of pancreatic ductal adenocarcinomas (PDAC), the most common and aggressive form of pancreatic cancer. Trial participants had an inherited risk of PDAC, an abnormality detected in imaging (typically a pancreatic cyst), and had not been diagnosed with cancer.",
+    "Participants received four injections during weeks one, three, and five, along with a booster at week 13. The vaccine generated two types of T cells: one designed to attack abnormal cells and another to provide longer-term immune memory. On average, immune activity increased about 18-fold, although responses varied; half of participants responded to all six KRAS mutations included in the vaccine. The vaccine appeared safe, with participants experiencing only injection-site reactions and temporary flu-like symptoms.",
+    "After approximately 16.5 months of follow-up, no participants had developed pancreatic cancer. Additionally, 37.5 percent of vaccinated participants experienced shrinkage or disappearance of the pancreatic cysts that had put them at increased risk for disease. Study co-author Michael G. Goggins, MD, professor of pathology, medicine and oncology at Johns Hopkins University School of Medicine, stated: \"We observed evidence of stability or regression of the pancreatic cysts in association with the induction and durability of KRAS-specific T-cell responses.\" However, Goggins cautioned: \"Larger studies are needed to demonstrate that this effect was in fact due to the vaccine.\"",
+    "The long-lasting immune response prompted study co-author Neeha Zaidi, MD, associate professor of oncology at the Sidney Kimmel Comprehensive Cancer Center at Johns Hopkins University, to call the durability \"particularly noteworthy when assessing for possible interception of cancer, which requires long-lasting immunity.\"",
+    "Elizabeth Jaffee, MD, deputy director of the Sidney Kimmel Comprehensive Cancer Center, noted that prevention and interception \"save lives and reduce the morbidity associated with cancer development and progression.\" Jaffee stated: \"More studies are needed to find the best vaccine approaches, the best targets and the ideal timing for vaccination.\" She also noted the research highlights the need for more funding to support developing strategies for preventing cancer in high-risk individuals.",
+    "The phase 1 trial was designed primarily to evaluate safety rather than effectiveness, and the authors acknowledged the study was limited by its small sample size and because it was not designed to determine clinical efficacy."
+  ],
+  "sources": [
+    {
+      "title": "Fox News",
+      "url": "https://www.foxnews.com/health/pancreatic-cancer-vaccine-shows-promise-first-human-trial-preventing-disease-high-risk-patients"
+    }
+  ],
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-07-22T15:23:58Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}
