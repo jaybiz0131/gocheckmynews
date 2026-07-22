@@ -1,0 +1,73 @@
+{
+  "id": "wrap-am-2026-07-22",
+  "slug": "morning-brief-2026-07-22",
+  "kind": "brief",
+  "title": "The Morning Brief: Strikes on Iran reach 11th night, nuclear site threatened",
+  "dek": "The US extended its strike campaign against Iran to an 11th consecutive night on July 22, with President Trump threatening an underground nuclear site, while Lebanon, Ukraine, Nicaragua and trade all moved on separate tracks.",
+  "date": "2026-07-22",
+  "published_utc": "2026-07-22T13:16:12Z",
+  "category": "daily edition",
+  "rank": -1,
+  "author": "GoCheckMyNews",
+  "key_fact": "The US-Iran conflict has moved from military and shipping targets toward a threatened strike on an underground nuclear site, a step that has not yet been carried out but has already drawn an explicit Iranian retaliation warning.",
+  "bottom_line": "The US extended its strike campaign against Iran to an 11th consecutive night on July 22, and President Trump said the next target could be an underground nuclear site near Natanz, a threat Iran's military has warned it would answer broadly. Alongside that, Lebanon's army took its first steps into a pilot zone vacated by Israeli forces, Ukraine's president replaced both his defence minister and top general within days, Nicaragua's Ortega declared an end to elections, and Trump imposed 50 percent tariffs on Canadian goods effective in 30 days. Britain's public finances showed a better-than-forecast June but a worse-than-forecast year to date, a tension the autumn Budget will have to address. The common thread is agreements and institutions under active stress, from ceasefires to command structures to fiscal rules, with several outcomes still open. Watch the pilot zone's stability in Lebanon, whether the Pickaxe Mountain threat is carried out, the 30-day tariff window with Canada, and Britain's autumn Budget.",
+  "human_take": "",
+  "body": [
+    "The clearest throughline this morning is Iran. US Central Command carried out strikes against Iranian targets for a 10th consecutive night on July 20, then for an 11th consecutive night on July 22, according to the desk's reporting. Tuesday's 11th-night strikes hit military operations centres, maritime capabilities, aircraft hangars, drone storage and logistics infrastructure, with explosions reported in Tabriz, Chabahar, Konarak and Bushehr, site of Iran's only nuclear power plant. It was on that same Tuesday that President Trump said the next target could be Pickaxe Mountain, an underground site near Natanz where Iran is suspected of an undeclared enrichment facility, saying \"We'll be hitting that area pretty soon, and very heavily.\" Iran's military command warned it would retaliate \"on all the interests of America, the allies and supporters\" if the threat is carried out. The strikes follow an Iranian attack on the Muwaffaq Salti base in Jordan that killed three US service members, named in Pentagon reporting as Pte Isabella Gonzales, 19, Lt Tyler James Feehan, 25, and a third service member whose remains have not been identified.",
+    "Elsewhere, the picture is one of institutions and agreements being tested. In southern Lebanon, the Lebanese army moved into Zawtar al-Gharbiyeh, Froun and Srifa on Tuesday morning, the first concrete step under the US-brokered Trilateral Framework after Israeli withdrawal from a designated pilot zone. An Israeli source told Haaretz that Israeli troops were not present in Froun and Srifa to begin with, raising a question about how much territory the pilot zone actually covers.",
+    "In Ukraine, President Zelensky removed commander-in-chief Oleksandr Syrskyi, 60, days after firing Defence Minister Mykhailo Fedorov, 35, whose dismissal had triggered street protests. Mykhailo Drapatyi, 43, replaces Syrskyi, and Yevhenii Khmara, a former security service official, replaces Fedorov. The reporting confirms a command conflict between Fedorov and Syrskyi preceded both removals but does not detail what set it off.",
+    "In Nicaragua, President Daniel Ortega said in a Sunday speech marking the Sandinista Revolution anniversary that Nicaragua will hold no more elections, telling the crowd \"Never, never, never,\" effectively cancelling the presidential vote that had been scheduled for November 2027.",
+    "On trade, President Trump imposed a 50 percent tariff on a broad range of Canadian goods, including wine, hockey sticks and cement, effective in 30 days, while exempting energy, potash, critical minerals and fish. Prime Minister Mark Carney said Canada stands ready to intensify negotiations; Ontario Premier Doug Ford called for retaliation in kind.",
+    "In Britain, June government borrowing came in at 16 billion pounds, undershooting the OBR's 16.3 billion forecast, but year-to-date borrowing of 57.6 billion pounds still runs 2.7 billion above the OBR's full-year projection, a gap that constrains the fiscal room the government claims ahead of the autumn Budget.",
+    "Two additional stories moved on regulatory and legal tracks. France's parliament adopted a law banning social media accounts for under-15s, with new-account restrictions beginning September 2026 and full age verification required by January 2027. And in Britain, former Southern Water chief executive Matthew Wright and three other executives had a legal challenge to fraud charges dismissed by two senior judges, clearing the way for a prosecution over alleged manipulation of water quality tests between 2012 and 2017.",
+    "Why these events are unfolding together is only partly answered by the reporting. The Iran strikes are described by US officials as retaliation for the deaths of American service members and as protection for shipping in the Strait of Hormuz; the reporting does not specify what triggered the collapse of the earlier ceasefire framework. The Ukraine leadership change follows a confirmed personal conflict between two officials but not a stated policy dispute. Ortega's declaration and Trump's tariff order are each described in the stories as unilateral actions without an external trigger named in the reporting.",
+    "No desk boards were available this run to check current figures against the day's reporting.",
+    "In the coming days, watch whether the Lebanese army's presence in the three pilot-zone villages holds and whether Israel widens or maintains its footprint; whether Trump follows through on the Pickaxe Mountain threat or it remains a stated option; whether Canada and the US resume talks inside the 30-day tariff window; and how Britain's autumn Budget addresses the year-to-date borrowing overshoot."
+  ],
+  "sources": [
+    {
+      "title": "Lebanese army deploys to 'pilot zone' after Israeli withdrawal from southern Lebanon",
+      "url": "/articles/lebanese-army-deploys-to-pilot-zone-after-israeli-withdrawal-from-southern-lebanon.html"
+    },
+    {
+      "title": "Nicaragua's Ortega formally ends elections, consolidating one-party rule",
+      "url": "/articles/nicaragua-s-ortega-formally-ends-elections-consolidating-one-party-rule.html"
+    },
+    {
+      "title": "Trump imposes 50% tariffs on Canadian goods; Carney vows to intensify talks",
+      "url": "/articles/trump-imposes-50-tariffs-on-canadian-goods-carney-vows-to-intensify-talks.html"
+    },
+    {
+      "title": "UK Borrows Less Than Expected in June, But Year-to-Date Outlook Darkens",
+      "url": "/articles/uk-borrows-less-than-expected-in-june-but-year-to-date-outlook-darkens.html"
+    },
+    {
+      "title": "US strikes Iranian targets for 10th consecutive night as casualties mount and shipping routes face disruption",
+      "url": "/articles/us-strikes-iranian-targets-for-10th-consecutive-night-as-casualties-mount-and-shipping-routes-face-disruption.html"
+    },
+    {
+      "title": "Zelensky Removes Ukraine's Top General After Military Leadership Conflict",
+      "url": "/articles/zelensky-removes-ukraine-s-top-general-after-military-leadership-conflict.html"
+    },
+    {
+      "title": "Ex-Southern Water CEO and three others charged over alleged water quality test manipulation",
+      "url": "/articles/ex-southern-water-ceo-and-three-others-charged-over-alleged-water-quality-test-manipulation.html"
+    },
+    {
+      "title": "France Bans Social Media for Under-15s Starting January 2027",
+      "url": "/articles/france-bans-social-media-for-under-15s-starting-january-2027.html"
+    },
+    {
+      "title": "Ukraine Replaces Army Commander Syrskyi With Drapatyi as Military Leadership Shifts",
+      "url": "/articles/ukraine-replaces-army-commander-syrskyi-with-drapatyi-as-military-leadership-shifts.html"
+    },
+    {
+      "title": "US launches 11th consecutive strike on Iran; Trump threatens nuclear site attack",
+      "url": "/articles/us-launches-11th-consecutive-strike-on-iran-trump-threatens-nuclear-site-attack.html"
+    },
+    {
+      "title": "US Strikes Iran for 11th Night; Trump Threatens Underground Nuclear Site",
+      "url": "/articles/us-strikes-iran-for-11th-night-trump-threatens-underground-nuclear-site.html"
+    }
+  ]
+}

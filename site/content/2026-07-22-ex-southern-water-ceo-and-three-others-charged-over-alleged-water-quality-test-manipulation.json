@@ -1,0 +1,36 @@
+{
+  "id": "c020",
+  "slug": "ex-southern-water-ceo-and-three-others-charged-over-alleged-water-quality-test-manipulation",
+  "kind": "brief",
+  "title": "Ex-Southern Water CEO and three others charged over alleged water quality test manipulation",
+  "dek": "Matthew Wright, former chief executive of Southern Water, and three other executives have been charged with conspiracy to defraud the Environment Agency and Ofwat. The alleged scheme involved manipulating water quality tests between 2012 and 2017 through artificial no-flow events at treatment facilities. Wright's legal challenge to the charges was dismissed by two senior judges this week.",
+  "date": "2026-07-22",
+  "published_utc": "2026-07-22T13:10:25Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 7,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Four executives charged with conspiracy to defraud environmental and financial regulators by allegedly creating artificial no-flow conditions at wastewater treatment works to evade water quality testing between 2012 and 2017.",
+  "bottom_line": "The dismissal of Wright's legal challenge clears the path for the prosecution to proceed. The case will test whether regulators can hold corporate executives criminally accountable for systematic manipulation of environmental compliance testing, particularly given the recent tightening of OSM rules that acknowledged gaps in the old framework.",
+  "human_take": "",
+  "body": [
+    "Matthew Wright, former chief executive of Southern Water, and three other executives face charges for allegedly conspiring to defraud environmental and financial regulators by manipulating water quality tests between 2012 and 2017, according to BBC reporting confirmed from the official record.",
+    "The four men accused are Wright (age 60, from Haslemere, Surrey); Philip Barker (age 57, from Chiltington, West Sussex); Clive Massey (age 64, from Brandhill, Shropshire); and Mark Gregory (age 63, from Southampton). They are charged with conspiracy to defraud the Environment Agency and Ofwat through what prosecutors describe as the implementation of artificial no-flow events at wastewater treatment works.",
+    "Wright mounted a legal challenge in June, arguing that the Environment Agency did not have the authority to issue a summons against him. Two senior judges dismissed that challenge on Wednesday and lifted reporting restrictions that had previously prevented public disclosure of the case, per BBC reporting.",
+    "District Judge Stephen Leake, in his ruling that issued the original summons, alleged there was a deliberate plan by company officers to manipulate the operator self-monitoring (OSM) regime, a testing framework introduced in 2009 that conducts unannounced annual discharge tests at wastewater treatment facilities. The scheme works by contriving operational circumstances so that insufficient flow exists at the treatment site during testing periods, preventing samples from being taken. Under the OSM rules as they existed during the alleged conspiracy period, if discharge flow is insufficient to sample, the test is not regarded as a fail, and no samples are taken for the rest of the testing period, according to BBC reporting.",
+    "Southern Water itself has been separately charged with dozens of environmental permit violations at multiple wastewater treatment works between 2013 and 2017. The Environment Agency has announced that rules around OSM testing have been tightened in the past year, including a requirement that samples be rescheduled in the event of insufficient flow. The current Labour government has pledged to end the practice of allowing no-sample results when flow is insufficient, per BBC reporting.",
+    "Wright's defense argued that the Environment Agency lacked jurisdictional power to bring charges, a claim two senior judges found without merit. The case was scheduled for Medway Magistrates' Court on 14 July, though no outcome of that hearing or trial status was reported in available sources."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c36d0njy7jjo?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-07-22T13:10:25Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}

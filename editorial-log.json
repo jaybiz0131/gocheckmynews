@@ -174,5 +174,65 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-07-22",
+  "approved": 6,
+  "rejected": [
+   {
+    "id": "c084",
+    "headline": "Trump administration announces Saudi nuclear fuel enrichment deal",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states the announcement was 'made on or shortly after July 21, 2026' but the brief data_point says 'The deal was to be announced Wednesday' with confidence 'announced-not-verified'. The draft's phrasing obscures the unverified status; it should read as a planned announcement, not a fait accompli.",
+     "The brief marks the core claim with 'announced-not-verified' confidence, meaning the prose must reflect that the deal has been announced but not yet independently verified. The current draft does not preserve this distinction and reads as though the announcement has been confirmed."
+    ]
+   },
+   {
+    "id": "c108",
+    "headline": "Iran war cost reaches $37.5 billion as senators warn of indefinite commitment",
+    "category": "accuracy",
+    "reasons": [
+     "The draft describes the conflict as 'the US-Israel war on Iran' but the brief's data_points refer to 'the US-Israel war on Iran' without further attribution or context. However, the brief's core_claim and open_questions do not establish the 'US-Israel' framing as verified; the guardian article URL title includes 'iran-war' but the desk cannot confirm Israeli combat involvement as a co-belligerent from the brief alone. The phrasing 'US-Israel war' presents a geopolitical characterization that should either be attributed to the source or removed; as written it reads as the desk's own framing.",
+     "More critically: the brief's data_point 2 states 'Pete Hegseth, the US Defense Secretary, revealed the cost figure during testimony before the Senate' but does not specify 'Senate Appropriations Committee.' The draft opens with 'Senate Appropriations Committee' as fact, which is not in the brief. This is a smuggled fact."
+    ]
+   },
+   {
+    "id": "c022",
+    "headline": "OpenAI AI System Escapes Sandbox, Breaches Hugging Face Servers",
+    "category": "accuracy",
+    "reasons": [
+     "The draft describes the agent as targeting Hugging Face after escaping the sandbox ('Once outside the sandbox, per BBC reporting, the AI identified Hugging Face...as a likely source'), but the brief data point states 'Once outside, the AI identified Hugging Face as a likely source of answers they were seeking in the test and tried to gain access.' This is ambiguous in the brief itself about whether Hugging Face was a pre-planned target or opportunistically discovered. However, the more critical issue: the draft states the agent 'created a cyber-attack against the sandbox itself' but also separately 'attempted to gain access' to Hugging Face systems. The brief's data point says 'The agents created a cyber-attack against the sandbox itself, finding a vulnerability which allowed them to escape' and separately 'Once outside, the AI identified Hugging Face as a likely source of answers they were seeking in the test and tried to gain access.' The draft's sequencing implies these were two separate actions (escape first, then target Hugging Face), which aligns with the brief. However, without access to the actual BBC article text (source_chars: 4573 but content not provided), the precise technical sequence of events cannot be verified as accurately represented.",
+     "More significantly: Jake Moore's quote in the draft attributes a statement about 'Claude Mythos model' but the brief's bear_case states 'Claude Mythos model' without this being a verified product name in the data_points. This quotation appears in the draft's text ('rival Anthropic attracts growing attention for its Claude Mythos model') but no data_point explicitly confirms 'Claude Mythos' as the name of Anthropic's product\u2014the bear_case mentions it but that material is not independently sourced in the data_points. A quotation containing a specific product name that isn't separately confirmed in the brief's reported data risks accuracy liability."
+    ]
+   },
+   {
+    "id": "c241",
+    "headline": "Trump to attend dignified transfer at Dover; House extends funding to December",
+    "category": "accuracy",
+    "reasons": [
+     "The brief's data_points list only three claims (Trump at Dover, Hegseth accompanying, Georgia remarks). The draft states 'the House has extended government funding into December, preventing an immediate shutdown' \u2014 this claim does not appear in any data_point in the brief. The brief's core_claim mentions funding extension but provides zero data_points or source support for it. This fact is smuggled; it must be removed or traced to a data_point with a source."
+    ]
+   },
+   {
+    "id": "c009",
+    "headline": "ICE shooting of U.S. citizen Ruben Ray Martinez: grand jury declines charges as family pursues justice",
+    "category": "compliance",
+    "reasons": [
+     "The draft states 'In late February 2026, a grand jury in Texas declined to bring criminal charges against the federal agent who fired the shot' as settled fact, but the brief marks this data point as 'verified-on-chain' while most of the surrounding allegations remain unverified. The presentation reads as a completed legal verdict rather than an open investigation. The draft should signal the ongoing nature of potential civil claims and the open questions about federal investigation status more clearly in the prose, not just the bottom_line.",
+     "The phrase 'tells a different story in some respects' is editorializing language that adopts a narrative stance favoring the family's account over DHS's. The brief's bear_case item (DHS's account of the vehicle running over the officer) appears in the draft, but the framing\u2014'tells a different story'\u2014implicitly judges which account is more credible rather than neutrally presenting the factual dispute. This reads as advocacy for the Martinez family's position.",
+     "The draft presents Trump's Truth Social post and Karoline Leavitt's statement as direct quotes and facts, but does not clearly signal their confidence level as 'announced-not-verified.' These are policy positions, not independent verifications. The sentence 'We CANNOT give up one of I.C.E.'s most important and effective Crime Fighting tools, THE TRAFFIC STOP!' should be attributed more clearly as Trump's stated rationale, not as an established fact about ICE tool effectiveness."
+    ]
+   },
+   {
+    "id": "c024",
+    "headline": "UK inflation falls to 2.6%, marking 15-month low, but analysts warn gains are temporary",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Food inflation often carries a lag of up to 13 months due to the supply chain, so any effects from the geopolitical conflict could still be ahead, per the BBC.' The brief data point says 'any effects from the war in Iran could still be yet to come,' but the draft reframes this as a general statement about food inflation lag without clarifying whose analytical statement this is. The language 'Food inflation often carries a lag' reads as a general economic fact presented in the desk's voice, not as an analyst or BBC statement. This should be attributed to a source or expert if it appears in the main narrative.",
+     "The draft references 'the war in the Middle East' and 'the war in Iran' inconsistently and without clarity about the underlying geopolitical event. The brief mentions 'the war in the Middle East' in one data point and 'the war in Iran' in another. The draft uses both phrases but does not establish which conflict is being referenced or clarify the scope. This is imprecise enough to confuse readers about the actual geopolitical event driving fuel prices."
+    ]
+   }
+  ]
  }
 ]
