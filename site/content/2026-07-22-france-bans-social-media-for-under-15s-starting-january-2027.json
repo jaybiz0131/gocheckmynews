@@ -1,0 +1,30 @@
+{
+  "id": "c037",
+  "slug": "france-bans-social-media-for-under-15s-starting-january-2027",
+  "kind": "brief",
+  "title": "France Bans Social Media for Under-15s Starting January 2027",
+  "dek": "France's parliament approved a law on Tuesday banning social media for under-15s, making France the first European country to enforce such a restriction. From September 2026, people under 15 cannot open new accounts; from January 2027, age verification will apply to all existing accounts. According to BBC reporting, this follows Australia's 2025 ban, which has faced enforcement challenges.",
+  "date": "2026-07-22",
+  "published_utc": "2026-07-22T07:59:56Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 3,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "France became the first EU nation to ban social media for under-15s, with age verification required starting September 2026 for new accounts and January 2027 for all accounts, per BBC reporting.",
+  "bottom_line": "France has set a major precedent for EU digital regulation by mandating age verification across all users rather than platform-level account blocking, a technical approach that may prove more effective than Australia's method but carries privacy risks and potential for unintended consequences. The enforcement test begins in September 2026 when new account restrictions take effect; whether circumvention tools render the ban largely symbolic or whether age verification succeeds in reducing youth access will determine its influence on pending legislation in the UK, EU, and beyond.",
+  "human_take": "",
+  "body": [
+    "France's Senate and National Assembly both adopted a ban on social media for under-15s on Tuesday, making France the first European country to enforce such a restriction, according to BBC reporting. The law will roll out in stages: from September 2026, people under 15 will not be able to open new accounts, and age verification will be required on all new accounts. From January 2027, age verification requirements will apply to all existing accounts, meaning everyone in France will have to prove they are over 15 to use social media, per the BBC.",
+    "Social media platforms will be required to use age-verification tools approved by the French privacy regulator, according to the same reporting. French President Emmanuel Macron welcomed the move, which he had pledged to introduce to mark the end of his decade in office. French Digital Minister Anne Le H\u00e9nanff defended the speed of implementation, saying 'because age-verification tools already exist,' per BBC reporting.",
+    "France is the second country globally to introduce such a ban, following Australia, which banned under-16s from social media in December 2025, according to the BBC. Australia's implementation has revealed significant enforcement challenges. In March 2026, Australia's eSafety Commission announced that seven out of 10 children aged under 16 who had a social media account before the ban still had 'some access,' per BBC reporting.",
+    "Professor Tama Leaver of Curtin University told the BBC that Australia's ban has 'failed' in its technical aims but has successfully shown a ban 'can be done.' Leaver said France's ban may have a higher chance of succeeding because of the requirement for every person to verify their age, but noted this would also increase risks to privacy, according to the BBC. Leaver identified additional risks of the ban, including pushing young people into less-regulated online spaces, reducing their news consumption and their political empowerment, per the same reporting.",
+    "Scepticism about the law's viability has been raised. Concerns voiced include questions over privacy, the efficacy of age-verification tools, the risks of young people bypassing them, and the speed at which the ban was designed and brought in, per BBC reporting citing Agence France Presse. There was also criticism from some on the left in parliament during adoption.",
+    "The French ban arrives as other countries signal movement toward similar restrictions. In June 2026, former British Prime Minister Sir Keir Starmer announced under-16s in the UK will be banned from social media from January 2027, with an optional midnight curfew for UK teens aged 16 and 17 also announced, according to the BBC. In May 2026, European Commission President Ursula von der Leyen proposed a 'social media delay' for children in Europe and said new legislation could be put forward in months, per BBC reporting."
+  ],
+  "sources": [
+    {
+      "title": "https://www.bbc.co.uk/news/articles/cq56l9p4y93o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/cq56l9p4y93o?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}

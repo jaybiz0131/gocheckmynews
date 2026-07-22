@@ -133,5 +133,46 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-07-22",
+  "approved": 8,
+  "rejected": [
+   {
+    "id": "c141",
+    "headline": "UK Inflation Falls to 2.6%, Lowest in 15 Months",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The data may influence the Bank of England's monetary policy path and household spending outlook as cost-of-living pressures moderate.' This claim does not appear in the brief's data_points or bear_case. The brief contains an open_question about 'What specific policy response, if any, does the Bank of England signal in light of this data?' but the draft presents influence on policy as fact rather than as a pending question. This is a smuggled inference not grounded in the research."
+    ]
+   },
+   {
+    "id": "c130",
+    "headline": "Trump administration approves nuclear deal with Saudi Arabia permitting uranium enrichment",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The Trump administration has approved a nuclear agreement with Saudi Arabia' as a settled fact, but the brief provides no data_point confirming the deal was actually approved\u2014only that it was announced or proposed. The brief's core_claim uses 'approves' but the data_points are marked 'reported' with zero source_chars, indicating the source text was not provided or verified. The draft presents an unverified announcement as accomplished fact.",
+     "The draft claims 'The agreement grants Saudi Arabia access to uranium enrichment technology' as definitive policy, but this is not confirmed in any data_point in the brief. The brief explicitly lists as open_questions 'What are the specific terms of the nuclear agreement?' and 'What limits, if any, are placed on Saudi uranium enrichment capability?'\u2014indicating these details are not established in the source material."
+    ]
+   },
+   {
+    "id": "c085",
+    "headline": "Arizona Republican Nominates State Representative for Secretary of State",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states Kolodin 'defeated a more moderate Republican candidate in the primary contest' but the brief's open_questions explicitly note 'The identity and record of the moderate Republican opponent is not named or detailed in available sources.' The writer smuggled a characterization ('more moderate') without source support.",
+     "The draft's angle references 'A candidate known for contesting 2020 election results' but this claim does not appear in any data_point in the brief. The brief itself flags this in open_questions: 'The source text was not provided; the precise claims about Kolodin contesting 2020 results cannot be verified.' This is a material fact introduced outside the brief."
+    ]
+   },
+   {
+    "id": "c038",
+    "headline": "Pentagon Seeks $87 Billion for Iran War as Hegseth Cites $37.5 Billion Cost to Date",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'American soldiers die' in the opening paragraph context ('As the US war with Iran rages and American soldiers die') but this phrasing appears in the brief's angle, not as a fact in the data_points. The actual soldier deaths are named later (four service members identified by name), but the opening invocation of unnamed deaths dying is advocacy language, not reported fact.",
+     "The draft references 'anti-war protesters' disrupting the hearing ('The hearing was disrupted several times by anti-war protesters') but this claim is in the brief's data_points as marked 'reported.' However, the draft does not mention protesters at all\u2014this fact from the brief was omitted, creating imbalance, but the reason for rejection is that the draft's opening tone ('American soldiers die') editorializes beyond what is in the reported record."
+    ]
+   }
+  ]
  }
 ]
