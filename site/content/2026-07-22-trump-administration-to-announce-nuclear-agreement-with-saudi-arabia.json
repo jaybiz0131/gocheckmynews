@@ -1,0 +1,35 @@
+{
+  "id": "c049",
+  "slug": "trump-administration-to-announce-nuclear-agreement-with-saudi-arabia",
+  "kind": "brief",
+  "title": "Trump administration to announce nuclear agreement with Saudi Arabia",
+  "dek": "The Trump administration is expected to announce a 123 Agreement with Saudi Arabia that would allow the kingdom to develop a civilian nuclear program, including uranium enrichment on Saudi soil, according to BBC reporting. The deal has drawn concern from Israeli officials and some U.S. lawmakers.",
+  "date": "2026-07-22",
+  "published_utc": "2026-07-22T20:46:59Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 3,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The 30-year agreement would permit U.S. companies to help build a uranium enrichment facility in Saudi Arabia, a provision that departs sharply from the 2009 agreement with the UAE and hinges on a joint U.S.-Saudi feasibility study.",
+  "bottom_line": "The deal advances to Congress, where its approval is not guaranteed despite Republican control of both chambers. The key question is whether the 10-year restriction on independent Saudi enrichment, contingent on a U.S.-Saudi joint study, will satisfy lawmakers and security analysts concerned about proliferation risks.",
+  "human_take": "",
+  "body": [
+    "The Trump administration is expected to announce a 123 Agreement on Wednesday that would allow Saudi Arabia to develop a civilian nuclear program, including uranium enrichment on Saudi soil, according to BBC reporting based on statements from CBS News.",
+    "Under the deal, which has already received Trump's approval and is expected to last 30 years, U.S. companies would operate nuclear power plants on Saudi soil and potentially build a facility to produce enriched uranium, which can serve as fuel for power plants or be used to make nuclear weapons, per the BBC's account. After a joint U.S.-Saudi study, Saudi Arabia may be permitted to enrich uranium domestically rather than relying entirely on imported fuel. If the U.S. objects to enrichment after the study concludes, Saudi Arabia would be prohibited from pursuing enrichment on its own or with another foreign partner for 10 years.",
+    "The agreement is estimated to be worth tens of billions of dollars, according to BBC reporting. It differs notably from a 2009 U.S. agreement with the United Arab Emirates, under which the UAE does not produce its own fuel and accepts additional restrictions.",
+    "The deal now moves to Congress for approval. Some lawmakers on both sides of the aisle are expected to oppose it, though Republicans control both chambers. Israeli nuclear experts and former officials have raised concerns that the arrangement could eventually allow Saudi Arabia to develop nuclear weapons capability. Crown Prince Mohammed bin Salman said in a 2018 interview with CBS News that Saudi Arabia is not planning to acquire a nuclear weapon but warned that \"without a doubt if Iran developed a nuclear bomb, we will follow suit as soon as possible.\"",
+    "The Trump administration has not made the Saudi nuclear deal contingent on Saudi diplomatic recognition of Israel, per BBC reporting."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cj03r59z73po?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-07-22T20:46:59Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}

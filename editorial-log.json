@@ -412,5 +412,27 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-07-22",
+  "approved": 10,
+  "rejected": [
+   {
+    "id": "c196",
+    "headline": "House passes $1.14 trillion defense bill on narrow vote amid Iran hostilities",
+    "category": "accuracy",
+    "reasons": [
+     "The vote count claim '205 Democrats opposed the measure, and 7 Republicans joined them' cannot be verified against the mathematics stated elsewhere in the draft. The draft states the bill passed 216-212, which means 212 voted against it total. If 205 Democrats and 7 Republicans opposed it, that totals 212 against\u2014correct. However, this math only works if ALL 205 opposing Democrats are included and the count is exact. The brief labels all vote data as 'reported' from Washington Examiner, but the draft presents these specific breakdowns (205 Democrats, 7 Republicans) as fact when the source text is incomplete per the brief's own notation ('appears to be header/navigation code; the full article content...is not available'). The writer has interpolated or inferred the party breakdown from a source that the brief itself documents as incomplete."
+    ]
+   },
+   {
+    "id": "c061",
+    "headline": "Trump Threatens to Destroy Iranian Civilian Infrastructure Over Strait of Hormuz Attacks",
+    "category": "accuracy",
+    "reasons": [
+     "The sentence 'PBS reported that the conflict threatens broader economic disruption and fuel price increases, with implications for US politics ahead of midterm elections scheduled for fall 2026' attributes the characterization of economic threat implications for midterm elections to PBS. The brief data_point says 'The conflict threatens further worldwide economic disruption and fuel price increases ahead of midterm U.S. elections in fall 2026' is reported by PBS, but this is the brief's own framing of what PBS said, not a direct quote or clear attribution. The draft reads as though PBS explicitly connected the Iran threat to midterm election implications, which conflates the brief's angle (the analyst's interpretation) with what PBS actually reported. The writer must separate what the source said from the brief's analytical frame."
+    ]
+   }
+  ]
  }
 ]
