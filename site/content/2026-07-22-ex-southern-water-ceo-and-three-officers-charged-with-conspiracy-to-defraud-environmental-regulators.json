@@ -1,0 +1,38 @@
+{
+  "id": "c24",
+  "slug": "ex-southern-water-ceo-and-three-officers-charged-with-conspiracy-to-defraud-environmental-regulators",
+  "kind": "brief",
+  "title": "Ex-Southern Water CEO and three officers charged with conspiracy to defraud environmental regulators",
+  "dek": "Matthew Wright, the former CEO of Southern Water, and three other ex-officers have been charged with conspiracy to defraud the Environment Agency and Ofwat by allegedly manipulating water quality tests between 2012 and 2017. A High Court judge dismissed Wright's legal challenge to the charges, ruling the Environment Agency had authority to prosecute the fraud case. The alleged scheme involved arranging for wastewater removal to create false test results and avoid approximately \u00a345 million in penalties.",
+  "date": "2026-07-22",
+  "published_utc": "2026-07-22T17:52:23Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 7,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Matthew Wright, former CEO of Southern Water, and three ex-officers are charged with conspiracy to defraud environmental regulators by manipulating water quality tests between 2012 and 2017.",
+  "bottom_line": "The High Court's dismissal of Wright's legal challenge clears the path to trial while establishing broader prosecutorial authority for the Environment Agency over fraud allegations tied to its functions. What unfolds over the coming weeks at Medway Magistrates' Court will determine whether individual corporate officers face criminal sanction for systematic manipulation of environmental tests, a precedent that could reshape enforcement across the water and utilities sectors.",
+  "human_take": "",
+  "body": [
+    "Matthew Wright, the former chief executive of Southern Water, and three other ex-company officers face charges of conspiracy to defraud the Environment Agency and Ofwat by manipulating water quality tests to avoid regulatory penalties. Wright, 60, of Haslemere, Surrey; Philip Barker, 57, of West Chiltington, West Sussex; Clive Massey, 64, of Brandhill, Shropshire; and Mark Gregory, 63, of Southampton, are all charged with conspiracy to defraud, according to BBC reporting.",
+    "The four allegedly conspired between 2012 and 2017 to create false water quality test results. According to the charges described in court, the scheme involved arranging for wastewater to be removed by tankers from Southern Water facilities in order to produce \"no flow\" results during environmental monitoring tests. The alleged purpose was to avoid financial penalties of about \u00a345 million.",
+    "Wright mounted a legal challenge to the summons, arguing the Environment Agency lacked statutory authority to bring fraud charges and could only prosecute environmental offences. That challenge was dismissed by two senior judges on Wednesday. Lord Justice Popplewell ruled that limiting the EA's prosecutorial power to environmental offences alone would \"produce unreasonable and anomalous results.\" The judgment stated the law \"enables the EA to prosecute for any offence of any nature in circumstances in which such a prosecution is capable of being calculated to facilitate, or conducive or incidental to, the carrying out of any of its functions.\" The judges described the allegations as involving \"carefully planned and extensive fraud and dishonesty at a high level within the company and on a large scale.\"",
+    "The alleged manipulation targeted the \"operator self-monitoring\" (OSM) scheme, introduced in 2009, under which wastewater treatment works are tested annually during unannounced visits. According to a prior judgment by District Judge Stephen Leake, the EA alleged there had been \"a deliberate plan by officers of the company to manipulate the OSM regime\" by \"contriving operational circumstances\" so there was no flow when the site might fail the test. The alleged motive was \"to avoid the consequences of the true OSM result being provided to the agency and Ofwat.\"",
+    "Wright's solicitor told the BBC that he \"denies all wrongdoing and has co-operated fully\" with the Environment Agency's investigation. The three other defendants, Barker, Massey, and Gregory, did not appear at the High Court hearing and were not represented. All four no longer work for Southern Water.",
+    "Southern Water said the charges relate to \"a historic set of failures\" uncovered in an internal investigation and stated it is \"a completely different company to a decade ago.\" The company said that as soon as the failures were identified, it reported them to regulators, including the Environment Agency. Southern Water itself has separately been charged with dozens of offences of failing to comply with or contravening an environmental permit condition between 2013 and 2017 at multiple wastewater treatment works. A previous Ofwat investigation in 2019 resulted in customer rebates and penalties. Rules around the OSM scheme have been tightened in the past year, including a requirement that samples must be rescheduled if flow is insufficient during testing.",
+    "The case is scheduled to be heard at Medway Magistrates' Court on 14 July."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c36d0njy7jjo"
+    }
+  ],
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-07-22T17:52:23Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "update_of": "ex-southern-water-ceo-and-three-others-charged-over-alleged-manipulation-of-water-quality-tests"
+}

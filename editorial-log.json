@@ -293,5 +293,74 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-07-22",
+  "approved": 5,
+  "rejected": [
+   {
+    "id": "c149",
+    "headline": "Trump Administration Approves Civilian Nuclear Agreement With Saudi Arabia",
+    "category": "accuracy",
+    "reasons": [
+     "The brief contains zero data_points and explicitly marks 'thin: true' with 'source_chars: 0', indicating no sourced facts were provided to the writer. The draft contains multiple specific factual claims (that a 123 Agreement was approved, that it 'opens the door to commercial nuclear activity', that experts have 'expressed concerns') that cannot be traced to any data_point in the brief. The hard rule is: no fact exists outside the brief. This draft smuggles reporting directly from the source URLs without the intermediate research brief capturing those facts as verified data_points.",
+     "The draft states 'The agreement with Saudi Arabia opens the door to commercial nuclear activity and U.S. company participation in the kingdom's nuclear sector' with no corresponding data_point in the brief to support this characterization.",
+     "The draft asserts 'experts and international bodies have expressed concerns about uranium enrichment in the Middle East' without any data_point from the brief documenting which experts or bodies, or what their specific positions are."
+    ]
+   },
+   {
+    "id": "c102",
+    "headline": "Trump-Endorsed Candidates Win Arizona Republican Primary Races",
+    "category": "accuracy",
+    "reasons": [
+     "The brief's data_points describe three Trump-endorsed candidates but do not provide their names. The draft refers to 'a Trump loyalist secured the gubernatorial nomination, an election denier won the state's top election post, and a former National Football League kicker advanced in a House battleground' without naming any of them. The open_questions explicitly ask 'What are the names of the specific candidates who won these primaries?' and 'What is Andy Biggs's record and stated positions on 2020 election claims?'\u2014indicating the brief itself does not confirm these names. By naming or implying specific candidates in the body without data_points to support those identifications, the draft smuggles information beyond the brief.",
+     "The draft states 'an election denier won the state's top election post' as fact, but the corresponding data_point only says the candidate 'was nominated' for the post in the primary. Winning a primary and winning the general election (which the framing 'won...the state's top election post' could imply) are different things; the data_point does not support a claim of winning the general office."
+    ]
+   },
+   {
+    "id": "c098",
+    "headline": "Trump administration sends civil fine letters to tens of thousands of immigrants",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'demanding payment up to $1.8 million per person or facing deportation' but the brief data_point only says fines 'reach up to $1.8 million'\u2014no source confirms the 'or facing deportation' alternative or that non-payment triggers deportation specifically. This claim is not in the brief and is smuggled.",
+     "The draft claims the mechanism 'bypasses the traditional deportation hearing process' but the brief contains no data_point supporting this characterization of the procedural relationship. This is inference, not reported fact."
+    ]
+   },
+   {
+    "id": "c099",
+    "headline": "House Republicans tie defense bill to Trump's SAVE Act voter restrictions",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Trump has demanded that House Republicans tie their entire legislative agenda to the SAVE Act' but the brief data_point says only that 'Trump has demanded House Republicans tie their entire legislative agenda to his voting restriction measure'\u2014the draft names the SAVE Act specifically as the measure, which is accurate to the brief. However, the next sentence states the move 'forces Democrats to choose between passing critical military funding and accepting voting restrictions, or blocking both'\u2014this is a characterization of strategic consequence not present in the brief's data_points. It reads as the writer's own analysis of the political pressure, not reported fact.",
+     "The draft uses the framing 'using the defense bill as leverage' which is the brief's own interpretive angle language, not a reported claim. This is acceptable as a restatement of the core story, but the 'forces Democrats to choose' formulation is the writer's inference about the outcome, not sourced reporting."
+    ]
+   },
+   {
+    "id": "c268",
+    "headline": "Carney signals intensified Canada-US trade negotiations after Trump tariff announcement",
+    "category": "accuracy",
+    "reasons": [
+     "The draft identifies the Canadian Prime Minister as 'Mark Carney,' but Mark Carney is not and has never been the Canadian Prime Minister. This is a fundamental factual error that does not appear corrected in the brief's data_points, which also refer to 'Mark Carney' as 'Canadian Prime Minister.' The brief itself contains the error, but the rule is absolute: no fact outside the brief, and facts that appear in the brief must still be accurate. A prime minister's identity is not a paraphrase or interpretation\u2014it is a core fact. This draft cannot run with a named wrong person in the lead."
+    ]
+   },
+   {
+    "id": "c114",
+    "headline": "Canada cancels joint US-Canada ceremony for Gordie Howe International Bridge opening",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states Canada 'canceled a planned joint United States-Canada ceremony' but the brief data_points say only 'A planned joint US-Canada ceremony on Friday celebrating the opening of the Gordie Howe International Bridge is no longer expected to take place.' The brief does not attribute the cancellation decision to Canada explicitly\u2014it merely states the ceremony 'is no longer expected to take place.' The draft's opening frames Canada as the active agent ('Canada has canceled'), which goes beyond what the brief's sources establish. The open_questions ask 'Which Canadian official or entity made the decision to cancel the ceremony'\u2014indicating the brief itself does not establish who made the cancellation decision. Without attribution to a named Canadian official or on-record statement in the brief, the draft's assertion that 'Canada canceled' is unsourced and must be rejected."
+    ]
+   },
+   {
+    "id": "c256",
+    "headline": "CDC reports over 11,000 suspected cyclosporiasis cases across US",
+    "category": "accuracy",
+    "reasons": [
+     "The brief contains zero data_points. The draft claims 'over 11,000 suspected cases' and 'documented case spikes in at least two states'\u2014facts that have no sourced foundation in the brief. The writer cannot add facts from reporting; all facts must come from the research brief's data_points. This is smuggled information.",
+     "The draft also asserts 'Cyclosporiasis is spread through contaminated food or water and causes intestinal illness' with no data_point supporting it. General medical information not in the brief cannot appear in the draft.",
+     "The brief itself is thin (source_chars=0, no data_points), which signals the story should not have been assigned or should have been rejected at research stage. The draft cannot rescue a brief with no facts."
+    ]
+   }
+  ]
  }
 ]
