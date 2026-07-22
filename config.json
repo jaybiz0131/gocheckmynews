@@ -1,6 +1,49 @@
 {
   "brand": "GoCheckMyNews",
   "EDITORIAL_BALANCE": "Owner directive 2026-07-21: US audience. When the intake offers US domestic stories that clear the sourcing bar, roughly half the ranked list should be US domestic; international still ranks on merit and leads when it is the day's biggest verified story. Enforced in prompts/editor.md (AUDIENCE BALANCE), not as a hard quota.",
+  "ELECTION_CALENDAR_NOTE": "Owner directive 2026-07-22: results nights are the most predictable misses, so they are staffed by default. Windows are deliberately approximate (they bias the editor's staffing, never facts); refresh each cycle. Results discipline lives in prompts/editor.md (ELECTION NIGHTS).",
+  "election_calendar": [
+    {
+      "name": "August state primary night (AZ, KS, MI, MO, WA window)",
+      "start": "2026-08-03",
+      "end": "2026-08-05"
+    },
+    {
+      "name": "August state primary night (CT, MN, VT, WI window)",
+      "start": "2026-08-10",
+      "end": "2026-08-12"
+    },
+    {
+      "name": "August state primary night (AK, FL, WY window)",
+      "start": "2026-08-17",
+      "end": "2026-08-19"
+    },
+    {
+      "name": "Late-August primary night (multiple states)",
+      "start": "2026-08-24",
+      "end": "2026-08-26"
+    },
+    {
+      "name": "September primary night (MA window)",
+      "start": "2026-08-31",
+      "end": "2026-09-02"
+    },
+    {
+      "name": "September primary night (NH, RI, DE window)",
+      "start": "2026-09-07",
+      "end": "2026-09-09"
+    },
+    {
+      "name": "2026 midterm election night and first counts",
+      "start": "2026-11-02",
+      "end": "2026-11-07"
+    },
+    {
+      "name": "Midterm certification and recount window",
+      "start": "2026-11-08",
+      "end": "2026-12-15"
+    }
+  ],
   "tagline": "Every story, sourced. Every source, rated.",
   "cadence": "daily-brief",
   "lookback_hours": 30,

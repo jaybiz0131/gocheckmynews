@@ -21,6 +21,17 @@ import llm as llmlib
 EDITOR_MAX_CLUSTERS = 120
 
 
+def active_elections(today=None):
+    """Election windows from config election_calendar active today (owner directive
+    2026-07-22: results nights are the most predictable misses, so they are staffed by
+    default). Windows are approximate on purpose; they bias staffing, never facts."""
+    import datetime as _dt
+    cfg = common.load_config()
+    today = today or _dt.datetime.now(_dt.timezone.utc).date().isoformat()
+    return [e for e in cfg.get("election_calendar", [])
+            if e.get("start", "") <= today <= e.get("end", "")]
+
+
 def build_user(items, top_n):
     pool = items["clusters"]
     if len(pool) > EDITOR_MAX_CLUSTERS:
@@ -59,11 +70,20 @@ def build_user(items, top_n):
             continue
     shelf = (("\n\nAlready published by this desk in the last 48 hours (a repeat of these "
               "ranks ONLY as a genuine update, and its why_it_matters must say what "
-              "changed):\n" + "\n".join(f"- {t}" for t in sorted(recent)[:25]) + "\n\n")
+              "changed). When a story you rank is a new chapter of one of these, add "
+              "\"updates\": \"<that title EXACTLY as listed>\" to its ranked entry; the "
+              "site then retires the old version and stamps the new one as an update:\n" + "\n".join(f"- {t}" for t in sorted(recent)[:25]) + "\n\n")
              if recent else "\n\n")
+    elections = active_elections()
+    cal = ""
+    if elections:
+        cal = ("ELECTIONS ON TODAY'S CALENDAR (staffed by default; results and certified "
+               "counts from the official record or attributed outlet calls rank ahead of "
+               "commentary; never our own projection):\n"
+               + "\n".join(f"- {e['name']}" for e in elections) + "\n\n")
     return (f"Here are {len(clusters)} deduplicated story clusters from the last "
             f"{items['_meta'].get('lookback_hours', '?')} hours. Rank the top {top_n} real "
-            f"stories and reject the shill." + shelf + json.dumps(clusters, indent=2))
+            f"stories and reject the shill." + shelf + cal + json.dumps(clusters, indent=2))
 
 
 def validate(obj, top_n):
