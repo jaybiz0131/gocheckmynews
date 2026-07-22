@@ -1,5 +1,6 @@
 {
   "brand": "GoCheckMyNews",
+  "EDITORIAL_BALANCE": "Owner directive 2026-07-21: US audience. When the intake offers US domestic stories that clear the sourcing bar, roughly half the ranked list should be US domestic; international still ranks on merit and leads when it is the day's biggest verified story. Enforced in prompts/editor.md (AUDIENCE BALANCE), not as a hard quota.",
   "tagline": "Every story, sourced. Every source, rated.",
   "cadence": "daily-brief",
   "lookback_hours": 30,
