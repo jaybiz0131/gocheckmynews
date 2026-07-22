@@ -362,5 +362,55 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-07-22",
+  "approved": 7,
+  "rejected": [
+   {
+    "id": "c060",
+    "headline": "Trump threatens to destroy Iranian civilian infrastructure for attacks in Strait of Hormuz",
+    "category": "compliance",
+    "reasons": [
+     "The phrase 'marks an escalation in military rhetoric against Iran' and 'The threat targets civilian infrastructure' read as the desk's own judgment/framing rather than neutral reporting. The brief itself flags the angle as advocacy ('marks a dangerous escalation'), but the draft should present the fact of the threat without adopting the characterization of what it 'marks.' This is editorial voice bleeding into ostensibly neutral reporting.",
+     "The sentence 'The conflict with Iran has been described as unpopular and lacking a clear resolution path' attributes the characterization to PBS, but the brief's open_questions section indicates the source text is truncated HTML with no substantive reporting copy present. This cannot be confirmed in the fetched material and should not appear as reported fact."
+    ]
+   },
+   {
+    "id": "c084",
+    "headline": "Dubai logistics firm and UAE announce port system to bypass Strait of Hormuz",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'A Dubai-based logistics firm and the United Arab Emirates announced a deal' but the brief's single data point identifies the firm as 'A Dubai-based logistics giant'\u2014a material difference in description. The draft weakens the characterization without source justification.",
+     "The draft claims the firm is unnamed in available reporting ('The deal's specifics, including the firm's name...are not detailed in available reporting'), but the brief does not confirm this gap; the source_chars count of 0 indicates the brief itself contains no source text excerpt to verify whether the name was actually withheld or simply not extracted. This represents an unverified editorial judgment presented as fact about what the source does or does not contain."
+    ]
+   },
+   {
+    "id": "c106",
+    "headline": "Tropical storm Bertha makes landfall in Louisiana with 45 mph winds",
+    "category": "accuracy",
+    "reasons": [
+     "The draft opens by attributing the National Hurricane Center data to 'the Guardian' reporting, but states the information came from 'the US National Hurricane Center as reported by the Guardian.' This is a correct attribution chain, but the draft's third paragraph states 'The available reporting does not specify whether the catastrophic flooding in Kentucky and West Virginia is directly caused by Bertha or stems from separate weather systems'\u2014this is not a fact in the brief. The brief's open_questions include this exact question, meaning the ambiguity was already noted as unresolved in the research. The draft should not present this as a discovery about what 'available reporting' shows; it should acknowledge it as an open question from the source. This reads as the writer adding interpretive commentary not grounded in a data point.",
+     "The draft's bottom_line states 'Bertha's movement inland and the ongoing flooding situation in Kentucky and West Virginia will determine whether additional evacuations or emergency declarations are necessary'\u2014this reads as projection/prediction (what will determine future action) rather than forward-looking analysis of what to watch. It crosses into speculative territory that the brief does not support with specific evidence about evacuation timelines or declaration triggers."
+    ]
+   },
+   {
+    "id": "c245",
+    "headline": "CDC confirms record 4,173 cyclosporiasis cases nationwide since May",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'This outbreak surpasses all previous annual totals for the illness in the United States' in the bottom_line, but the brief's open_questions explicitly flag that 'What previous annual total for cyclosporiasis cases does this 4,173 figure surpass?' is unconfirmed. The draft presents a comparison (surpassing previous totals) as fact when the brief does not provide the historical baseline data required to verify this claim.",
+     "The draft's opening claim 'constitutes the largest on record for this foodborne parasitic illness' traces to the brief's core_claim, but the bottom_line extends this to 'surpasses all previous annual totals' without that specific data point in the brief. A year-by-year comparison is not the same as 'largest on record' and cannot be asserted without the historical figures."
+    ]
+   },
+   {
+    "id": "c086",
+    "headline": "Trump administration expected to finalize U.S.-Saudi Arabia nuclear agreement",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states the deal 'is expected to deepen U.S.-Saudi ties for decades to come' but omits the brief's characterization that the deal 'remains controversial'\u2014a material factual claim in the brief (data_point: 'controversial deal') that should appear in the prose to represent the full sourced record."
+    ]
+   }
+  ]
  }
 ]
