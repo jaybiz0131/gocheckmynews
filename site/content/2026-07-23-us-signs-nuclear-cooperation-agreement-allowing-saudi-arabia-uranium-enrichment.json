@@ -1,0 +1,42 @@
+{
+  "id": "c020",
+  "slug": "us-signs-nuclear-cooperation-agreement-allowing-saudi-arabia-uranium-enrichment",
+  "kind": "brief",
+  "title": "US signs nuclear cooperation agreement allowing Saudi Arabia uranium enrichment",
+  "dek": "The Trump administration signed a peaceful nuclear cooperation agreement with Saudi Arabia that could permit the kingdom to enrich uranium domestically for the first time. The deal raises proliferation concerns among nuclear experts and some lawmakers, though the full text remains unpublished and the agreement will go to Congress for review.",
+  "date": "2026-07-23",
+  "published_utc": "2026-07-23T08:03:44Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 1,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The agreement could allow Saudi Arabia to enrich uranium on its soil at a US-built facility, a capability the US has never before granted to another country.",
+  "bottom_line": "Congress will review the agreement in coming weeks, and the full terms of the enrichment provisions remain unclear because the deal text has not been released. Confirmation or disclosure of specific uranium enrichment limits and the timeline for Saudi production capacity would be critical to assessing whether the safeguards match the stated intent of preventing proliferation.",
+  "human_take": "",
+  "body": [
+    "The Trump administration signed a landmark nuclear cooperation agreement with Saudi Arabia that could allow the kingdom to enrich uranium domestically for the first time, according to reporting from BBC News. The development marks a significant shift in US nuclear policy and has sparked concerns among nuclear experts and lawmakers about proliferation risks in a volatile region.",
+    "The agreement grants what the US Energy Department described as \"great access for American companies in the Saudi nuclear energy program,\" according to BBC News. A separate bilateral safeguards agreement was also signed alongside the cooperation deal. Together, the US Department of Energy stated that the two agreements \"lay the legal foundation for a decades-long, multi-billion-dollar partnership that advances several priority economic and strategic objectives, including nuclear nonproliferation,\" per BBC reporting. Earlier media reports suggested that after a joint study with the US, Saudi Arabia may be allowed to enrich uranium on its soil to produce fuel at a US-built enrichment facility, instead of relying on imported fuel.",
+    "US Secretary of Energy Chris Wright stated, per BBC News: \"Rest assured, these agreements uphold the highest standards of nuclear safety and nonproliferation, while relying on the world's best nuclear technology and scientists, designed right here in the United States.\" Secretary of State Marco Rubio pushed back against proliferation concerns, saying, according to BBC reporting: \"The US is not going to reach any agreement with any country in the world that leads to the risk of proliferation.\"",
+    "Yet nuclear experts and former officials in Israel voiced concern the plan could ultimately lead to Saudi Arabia developing a nuclear weapon, though many experts say that path would likely take decades and prompt international pushback, per BBC News. Rosemary Kelanic, director of the Middle East programme at the US-based Defense Priorities think tank, told the BBC: \"The US has never done that before, we have never helped another country enrich on their own soil,\" and noted that the reason is \"if you can produce your own nuclear fuel, you become a much bigger risk\" for building nuclear weapons. She called it \"quite shocking\" if the deal includes such enrichment authority.",
+    "The text of the deal was not made public, according to BBC News. The agreement will be sent to Congress for review, and some lawmakers on both sides of the political aisle are expected to oppose it, though Trump's Republican Party currently controls both chambers, per BBC reporting.",
+    "The contrast with past precedent is stark. The 2009 US nuclear agreement with the United Arab Emirates does not allow the UAE to produce its own fuel and includes a host of other restrictions, per BBC News. Saudi Arabia has been lobbying for such a deal for years under multiple presidents, but Washington had held out with a key request that the country recognize Israel and normalize diplomatic and economic relations with it, according to BBC reporting. That demand for Israeli recognition appears to have been dropped as a condition for the deal, per US media reports cited by the BBC.",
+    "The announcement comes as fighting escalates between the US and Iran, with Saudi Arabia hosting several US bases that have been targeted by Iranian attacks, according to BBC News. The announcement also comes two days after Iran's allies in Yemen, the Houthis, announced a \"maritime blockade\" against Saudi Arabia, per BBC reporting. Massachusetts Democratic Senator Edward Markey issued a statement condemning Rubio and Trump, saying their \"hypocrisy is matched only by their recklessness,\" and stating, according to BBC News: \"They are allowing Saudi Arabia, a belligerent and authoritarian nation, to develop nuclear weapons technologies while starting a war with Iran under the guise of preventing an Iranian nuclear bomb.\"",
+    "During his time as a senator, Rubio had endorsed the \"No Nuclear Weapons for Saudi Arabia Act,\" which required Congress to sign off on a nuclear deal with the Saudis, per BBC reporting."
+  ],
+  "sources": [
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/2026/jul/22/trump-nuclear-agreement-saudi-arabia"
+    },
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cj03r59z73po?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-07-23T08:03:44Z",
+    "sources_cited": 2,
+    "sources_live_checked": 2
+  }
+}

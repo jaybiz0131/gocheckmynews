@@ -434,5 +434,65 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-07-23",
+  "approved": 6,
+  "rejected": [
+   {
+    "id": "c126",
+    "headline": "Dr. Amish Shah defeats establishment-backed candidate in Arizona House primary",
+    "category": "accuracy",
+    "reasons": [
+     "The entire draft is built on a single data_point marked 'unconfirmed' with confidence label noting 'source_texts provided are empty; no details...can be verified from the fetched content.' The draft presents Shah's victory as fact ('Dr. Amish Shah defeated') without any hedging language such as 'reportedly' or 'according to unconfirmed reports.' An unconfirmed claim must read as such in prose; presenting it as settled fact violates the confidence discipline.",
+     "The brief explicitly states 'Unable to assess; source material did not load' and the source_chars count is 0, meaning no actual reporting was retrieved. The writer smuggled an unverified claim into narrative voice without the hard 'unconfirmed' qualifier the brief required."
+    ]
+   },
+   {
+    "id": "c067",
+    "headline": "House passes defense bill authorizing Department of War renaming",
+    "category": "accuracy",
+    "reasons": [
+     "The brief contains only three data_points, all marked 'reported,' with source_chars of 99\u2014indicating minimal source material was actually retrieved. The draft presents specific details (bill passed 'on Wednesday,' $1.15 trillion figure, renaming as 'historic change') as established fact, but the thin brief and near-zero source retrieval signal these facts were not verified against full reporting.",
+     "The draft states the renaming 'represents a historic change to a cabinet department name in place since 1947'\u2014a factual claim about the DoD's founding date that does not appear in any data_point in the brief. This is a smuggled fact: history goes to research, not drafting."
+    ]
+   },
+   {
+    "id": "c107",
+    "headline": "House Republicans advance $95 billion budget bill pairing Iran military funding with farm aid and voting restrictions",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'House Republicans voted 216-214 on Wednesday to advance a $95 billion budget reconciliation bill' but the brief's data_point says the vote was '216-214' without specifying what this vote accomplished. The draft claims it 'advance[d]' the bill, but the brief's core_claim says Republicans 'agreed on Wednesday to begin the process of writing' the bill\u2014these are materially different actions (a procedural vote to start drafting vs. advancing a finished bill). The draft's framing misrepresents the stage of the legislative process.",
+     "The draft includes a bottom_line that reads 'Budget reconciliation: GOP advances $95B package for Iran military operations plus farm aid, setting spending blueprint for remainder of fiscal year'\u2014this language ('setting spending blueprint') is not in the brief and appears to project consequences not reported in the source.",
+     "The draft states 'Budget reconciliation is a legislative procedure that allows certain budget-related bills to pass the Senate with a simple majority rather than the 60 votes typically required for other legislation, effectively limiting the minority party's procedural options'\u2014this is a explanatory definition not sourced to the brief and reads as the writer's own background, not a fact from the reporting."
+    ]
+   },
+   {
+    "id": "c021",
+    "headline": "Houthis claim Red Sea tanker attacks as US launches 12th night of Iran strikes, closing major shipping chokepoints",
+    "category": "balance",
+    "reasons": [
+     "The brief's bear_case explicitly notes: 'The Houthis' responsibility for the attacks has not been confirmed; the BBC notes the responsibility for the tanker strikes has not been confirmed and the attack on the Layla has not been confirmed.' The draft leads with 'Yemen's Houthi forces claimed responsibility for attacks on two Saudi oil tankers in the Red Sea on Wednesday' and presents the Houthi claims prominently without adequate emphasis on the confirmation status. The draft later states 'The claimed attack on the Layla tanker has not been independently confirmed, per BBC reporting' but buries this after the main narrative has already attributed the attacks to Houthis. The framing minimizes the bear_case by front-loading the claims over the caveats.",
+     "The draft states 'the US launched its 12th consecutive night of strikes on Iran' without attribution of confidence\u2014all the strikes are reported/characterized by Centcom and Iranian state media making competing claims about targets and casualties. The draft presents the US strike narrative without the same confirmation-status discipline applied to Houthi claims."
+    ]
+   },
+   {
+    "id": "c096",
+    "headline": "Former head of Miss Hall's School indicted for reckless endangerment; former teacher faces rape charges",
+    "category": "accuracy",
+    "reasons": [
+     "The brief contains only two data_points with minimal detail (both 'reported' confidence), and the brief itself notes 'thin: true' with 'source_chars: 0', indicating the source material provided no substantive text. The draft invents analysis not in the brief: 'Prosecutions of school administrators for reckless endangerment based on failure to report or act on abuse allegations remain uncommon, and this case may set precedent for the threshold of criminal liability.' This comparative claim about rarity and precedent is smuggled\u2014it is not in the brief and appears to be the writer's independent editorial judgment.",
+     "The draft's statement 'The New York Times report does not specify which abuse allegations Norris allegedly ignored, the timeline of the incidents, the identity of the accused teacher, or the procedural status of the case' is a meta-commentary on the source's incompleteness, not a fact from the brief. It reads like the writer acknowledging gaps rather than reporting."
+    ]
+   },
+   {
+    "id": "c053",
+    "headline": "Google's AI spending flips balance sheet negative as annual projection reaches $205 billion",
+    "category": "accuracy",
+    "reasons": [
+     "Rachel Winter quote attributes a 3.5% stock drop in the brief's data_point, but the draft states 4% stock drop. The draft also says 'fell 4 percent' earlier in the same paragraph, creating an internal inconsistency. The brief data_point specifies '3.5% stock drop' in the Winter quote attribution; the draft must trace this accurately or the discrepancy shows the writer departed from the sourced record."
+    ]
+   }
+  ]
  }
 ]
