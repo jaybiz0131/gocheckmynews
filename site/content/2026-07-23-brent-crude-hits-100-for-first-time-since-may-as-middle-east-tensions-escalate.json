@@ -1,0 +1,37 @@
+{
+  "id": "c023",
+  "slug": "brent-crude-hits-100-for-first-time-since-may-as-middle-east-tensions-escalate",
+  "kind": "brief",
+  "title": "Brent crude hits $100 for first time since May as Middle East tensions escalate",
+  "dek": "Oil prices breached $100 per barrel on July 23 for the first time since May, driven by Houthi attacks on Red Sea shipping and renewed US military strikes against Iran. UK petrol prices have risen 5p per litre since early July, and US gasoline has topped $4 per gallon. Central banks face renewed inflation pressure as energy costs ripple through transport and food prices.",
+  "date": "2026-07-23",
+  "published_utc": "2026-07-23T16:58:37Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 1,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Brent crude rose more than 6% on July 23, crossing $100 a barrel for the first time since May, according to BBC News reporting.",
+  "bottom_line": "Oil's breach of $100 reverses three months of price declines and threatens the inflation progress both central banks had claimed. Analysts expect the Bank of England and Federal Reserve to hold steady for now, but the calculus shifts if geopolitical tensions remain elevated or if energy prices sustain the upward momentum.",
+  "human_take": "",
+  "body": [
+    "Brent crude oil prices rose more than 6% on July 23, crossing $100 per barrel for the first time since May, according to BBC News reporting. The breach signals renewed geopolitical risk after a temporary ceasefire between the US and Iran had pushed prices lower in recent months.",
+    "The price spike reflects two escalating pressures. Houthi militia attacks on oil tankers in the Red Sea are threatening a key export route that Saudi Arabia has used to bypass the Strait of Hormuz, per BBC reporting. Simultaneously, the US stepped up military strikes against Iran, according to the same source.",
+    "Oil prices had been falling following the temporary ceasefire between the US and Iran; they had dropped back to levels last seen before the US and Israel began military action against Iran on February 28, BBC News reports. US Secretary of State Marco Rubio said the people in charge in Iran were \"not ready to make a deal,\" per the same reporting.",
+    "The price movement is already visible at the pump. UK petrol prices have risen 5p per litre since the beginning of July, hitting almost \u00a31.56 a litre, according to BBC News. UK diesel is at \u00a31.72 per litre on average, per the RAC. In the US, average gasoline prices have surpassed $4 per gallon, up from $3.92 a month ago, according to AAA reporting cited by BBC News.",
+    "Energy costs create a widening problem for central banks. UK benchmark gas prices are currently at around 150p per therm, up from around 98p at the end of June, per BBC reporting. Jonathan Raymond, investment manager at Quilter Cheviot, stated: \"More expensive fuel and energy can ripple through the wider economy, increasing costs for businesses and ultimately feeding through into the price of food and other goods. This creates another headache for central banks as they continue their battle against inflation.\" This concern arrives as UK inflation has fallen to 2.6% in the year to June, helped by slowing diesel and petrol prices, and US inflation has fallen to 3.5%, according to BBC News.",
+    "Central banks are signaling caution. The Bank of England has held interest rates at 3.75% in its last four meetings, per BBC reporting. Paul Dales, chief UK economist at Capital Economics, said the Bank of England will \"almost certainly\" hold rates again, with analysts expecting cuts next year if energy price rises ease, according to BBC News. US Federal Reserve chair Kevin Warsh, newly appointed, told Congress last week that the central bank had \"no tolerance to persistently elevated inflation,\" BBC News reports. The Fed held interest rates between 3.5% and 3.75% at Warsh's first meeting last month, per the same source, and Warsh told Congress he was committed to \"restoring price stability\" in the wake of the Middle East conflict impacting prices."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cx2djnzrqk2o?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-07-23T16:58:37Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "update_of": "brent-crude-tops-100-for-first-time-since-may-amid-middle-east-escalation"
+}
