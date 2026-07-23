@@ -612,5 +612,63 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-07-23",
+  "approved": 6,
+  "rejected": [
+   {
+    "id": "c122",
+    "headline": "House Passes Second War Powers Resolution on Iran",
+    "category": "accuracy",
+    "reasons": [
+     "The brief is marked 'thin: true' with only 6 data_points covering bare facts. The draft omits critical details from the brief that are required for accuracy: the specific vote margin/count is listed as an open_question in the brief, yet the draft provides no vote numbers at all. The brief's open_questions explicitly ask 'What is the specific vote count in the House on the resolution?' and 'Which four Republican lawmakers voted in support?'\u2014neither appears in the draft, which is appropriate given they are unknown. However, the draft states 'The resolution is described as largely symbolic, implying limited enforcement power should the administration refuse to comply' without a source attribution inline. This paraphrasing of the brief's 'reported' confidence claim must be attributed. The draft reads as the desk's framing ('implying') rather than as reported fact.",
+     "The draft states the measure 'comes amid renewed fighting that has driven oil prices to their highest levels' but this specific causal linkage between 'renewed fighting' and 'oil prices to their highest levels' is not in the brief's data_points for this story. The brief's core_claim and angle focus on Congressional resistance to Iran operations, not oil prices. This appears to be smuggled context from another brief (c023) and is REJECTED as introduced fact."
+    ]
+   },
+   {
+    "id": "c057",
+    "headline": "Nicaragua set to vote on barring opposition parties from elections",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Murillo was named as Ortega's \"co-president\" in February 2025, following a constitutional reform passed unanimously by the National Assembly in November 2025 when Ortega was four years into his five-year term.' This is internally contradictory: Murillo cannot have been named co-president in February 2025 if the constitutional reform enabling that role was not passed until November 2025. The brief data shows the reform was passed in November 2025, but the timeline of when Murillo was actually named co-president is incoherent as written. The writer smuggled in a timeline contradiction not present in the source material."
+    ]
+   },
+   {
+    "id": "c148",
+    "headline": "House passes measure to restrain Trump on Iran",
+    "category": "accuracy",
+    "reasons": [
+     "The draft contains no data_points in the brief (data_points: []), yet presents the core claim as fact: 'The House passed a measure to restrain Trump's military authority regarding Iran.' With zero sourced data and the brief explicitly marked 'thin: true' and 'source_chars: 0', this claim cannot be verified against research. The draft acknowledges details are 'unverified' but still states the measure passed as settled fact.",
+     "The angle about 'revealing potential divisions in party unity' is editorial framing unsupported by any data_point about actual party votes or positions in the brief.",
+     "The entire body reads as speculation ('tests Republican willingness,' 'revealing potential divisions') rather than reporting of facts from the brief. With no sourced facts available, the draft should either be killed or flagged as awaiting verification, not published as-is."
+    ]
+   },
+   {
+    "id": "c119",
+    "headline": "At least two missing in West Virginia after flash floods",
+    "category": "accuracy",
+    "reasons": [
+     "The brief states 'source_chars: 6000' but notes the source text is 'mostly HTML markup and formatting code' with substantive article content 'not fully readable.' The open_questions confirm 'the source text provided is mostly HTML markup.' Despite this, the draft presents facts as verified: 'At least two people are unaccounted for,' '500 National Guard members,' 'all 55 counties.' These facts cannot be traced to readable source material per the brief itself.",
+     "The brief's confidence labels show all five data_points marked 'reported,' not 'verified-on-chain.' A story built entirely on unverifiable source text violates the hard rule that facts must trace to research; this one cannot, by the brief's own admission."
+    ]
+   },
+   {
+    "id": "c013",
+    "headline": "Chinese woman wins Fields Medal for first time; two Chinese scholars claim prize simultaneously",
+    "category": "accuracy",
+    "reasons": [
+     "Draft states 'Wang Hong became the first Chinese woman to win the Fields Medal' but brief data point names her as 'Hong Wang' in the list of four recipients. The name order is reversed in the draft opening versus the brief's identification. This is a factual error on the primary subject's name."
+    ]
+   },
+   {
+    "id": "c123",
+    "headline": "House Judiciary Committee refers former Trump prosecutor Jack Smith for criminal investigation",
+    "category": "accuracy",
+    "reasons": [
+     "Draft states Jordan alleged Smith made false statements 'when he answered questions under oath last December during his testimony before the House Judiciary Committee on January 22.' This is internally contradictory: it cannot be both 'last December' and 'January 22' simultaneously. The brief data point says 'answered questions under oath last December' and separately notes 'testified before the House Judiciary Committee about his investigations into President Trump on January 22.' The draft conflates two separate events without clarity on dates, creating factual confusion about when the alleged false statements occurred."
+    ]
+   }
+  ]
  }
 ]

@@ -1,0 +1,39 @@
+{
+  "id": "c041",
+  "slug": "eu-fines-google-890-million-for-favoring-its-own-apps-over-rivals",
+  "kind": "brief",
+  "title": "EU fines Google \u20ac890 million for favoring its own apps over rivals",
+  "dek": "The European Commission imposed a \u20ac890 million fine on Google for abusing its market position by favoring its own apps and services over competitors under the Digital Markets Act. The penalty marks the EU's first major enforcement action under its new digital competition rulebook.",
+  "date": "2026-07-23",
+  "published_utc": "2026-07-23T16:16:14Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 8,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Google was fined \u20ac890 million by the EU for favoring its own apps and services over rivals in search results and app distribution.",
+  "bottom_line": "Google's next move will determine whether the DMA's enforcement teeth are real. If the company complies within 60 days, the EU gains momentum on enforcement; if it appeals and wins, the rulebook's entire premise faces challenge. Watch whether other enforcement actions follow against Google or other platforms, and whether Google's feared service cuts actually materialize for European users.",
+  "human_take": "",
+  "body": [
+    "The European Commission imposed a \u20ac890 million fine on Google for abusing its market position by favoring its own apps and services over competitors, according to BBC News. The penalty marks the EU's first major enforcement action under its new Digital Markets Act.",
+    "The fine breaks into two components. The European Commission imposed a \u20ac460 million penalty after finding Google favored its own services for helping people book flights and hotels over competitors in search results. Google received a further \u20ac430 million fine due to its Play Store rules, with regulators saying it did not allow people to be shown cheaper offers available outside Google's own marketplace.",
+    "The Commission argued Google's practices limited consumer choice and gave its own services an unfair advantage over rivals. EU competition chief Teresa Ribera stated in a quoted statement that \"the best products should succeed because they're better, not because they're owned by the company running the search engine.\" EU tech boss Henna Virkkunen said the decision was intended to enable other companies to compete and innovate.",
+    "Google has 60 days to comply with the regulations or challenge them by taking the Commission to court, per BBC News. The company criticized the decision through its president of global affairs Kent Walker, who stated in a quoted statement that \"to comply, we are having to strip away real-time Search features Europeans love, like instant pricing and direct availability for hotels, flights and restaurants, and dismantle safety protections on Google Play.\"",
+    "Google also faces a related \u20ac4.1 billion fine for using Android to \"block\" rivals, according to BBC News reporting. The enforcement action tests whether EU regulators can force tech giants to dismantle their own advantages at scale and whether the DMA framework can achieve sustained competition in digital markets."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cevmenngkzpo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/policy/technology/5985627-google-fined-eu-digital-competition/"
+    }
+  ],
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-07-23T16:16:14Z",
+    "sources_cited": 2,
+    "sources_live_checked": 1
+  }
+}
