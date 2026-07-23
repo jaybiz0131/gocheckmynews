@@ -1,0 +1,35 @@
+{
+  "id": "c019",
+  "slug": "trump-conditions-saudi-nuclear-deal-on-israel-recognition",
+  "kind": "brief",
+  "title": "Trump conditions Saudi nuclear deal on Israel recognition",
+  "dek": "President Trump announced a landmark civil nuclear cooperation agreement with Saudi Arabia on Truth Social, stating the deal is conditional on Saudi Arabia joining the Abraham Accords and recognizing Israel. The agreement limits enrichment and restricts use to non-military purposes, but experts have raised proliferation concerns.",
+  "date": "2026-07-23",
+  "published_utc": "2026-07-23T13:13:55Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 1,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Trump stated the nuclear deal 'will be approved, but is totally subject to Saudi Arabia joining the very respected and successful Abraham Accords.'",
+  "bottom_line": "The deal's fate now rests on whether Saudi Arabia accepts the condition of joining the Abraham Accords. Any Saudi statement acknowledging or rejecting the terms will be the immediate test of whether nuclear cooperation and regional diplomacy remain linked or are decoupled.",
+  "human_take": "",
+  "body": [
+    "President Trump announced a landmark civil nuclear cooperation agreement with Saudi Arabia on Truth Social, then immediately tied its approval to a geopolitical condition: Saudi Arabia must join the Abraham Accords and recognize Israel.",
+    "According to Trump's statement, the deal \"will be approved, but is totally subject to Saudi Arabia joining the very respected and successful Abraham Accords.\" He also stated the agreement \"pertains only to non-military use\" and includes a provision that \"There will be no enrichment of material.\"",
+    "The move marks an explicit linkage between nuclear partnership and regional diplomatic realignment. The Abraham Accords framework, brokered by Trump in 2020, initially secured normalization of relations between Israel and the United Arab Emirates and Bahrain. Sudan and Morocco have since normalized relations with Israel under the same framework.",
+    "Experts have criticized the nuclear deal for running the risk of future nuclear proliferation in an already unstable region, per BBC reporting. The conditioning of the agreement on Saudi recognition of Israel underscores the administration's strategy of using US nuclear cooperation as leverage for Middle East diplomatic objectives.",
+    "The brief does not clarify Saudi Arabia's public response to the condition, the specific timeline for approval contingent on recognition, or the detailed inspection mechanisms embedded in the civil nuclear agreement."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cwye71yq8wwo?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-07-23T13:13:55Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}

@@ -494,5 +494,54 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-07-23",
+  "approved": 7,
+  "rejected": [
+   {
+    "id": "c117",
+    "headline": "House passes defense bill as Trump's Iran action raises war powers questions",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Trump stated the US will \"hold Iran responsible\" for any actions the Houthis take against shipping' as a direct quote, but the brief lists this as reported speech without attribution to a source document. The phrasing suggests Trump made a statement linking Iran responsibility to Houthi actions, but the brief does not provide sufficient detail to confirm this exact formulation was used or in what context. This requires verification that the quote/paraphrase matches Trump's actual statement before publication."
+    ]
+   },
+   {
+    "id": "c020",
+    "headline": "Police Admit Failure to Review Attacker's Phones Before Manchester Synagogue Attack",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states Chief Constable Watson said 'little doubt' the extremist messages would have led to further investigation, but the brief data_point (claim 11) says he said 'little doubt' the messages 'would have led to further investigation'\u2014this matches. However, the draft also presents Watson's statement as a direct paraphrase: 'There was little doubt that the extremist messages would have led to further investigation had they been examined.' The brief does not contain a data_point confirming Watson said 'had they been examined'\u2014this conditional framing is smuggled in without source support. The brief's data_point 8 attributes only 'the information contained within these devices would have inspired further investigative action' and data_point 11 says 'little doubt' the messages 'would have led to further investigation,' but neither confirms the specific conditional clause 'had they been examined.' This is a minor but material addition to the sourced record."
+    ]
+   },
+   {
+    "id": "c022",
+    "headline": "France evacuates 20,000 as wildfires spread across southern Europe",
+    "category": "compliance",
+    "reasons": [
+     "The bottom_line does not match the draft body. The bottom_line discusses 'Bertha' (a tropical storm) and Texas/Louisiana coasts, but the entire draft is about European wildfires in France, Italy, and Spain. This appears to be copy-pasted from a different story (likely c310) and creates a massive liability: the desk would be publishing content with a false summary that contradicts its own body text."
+    ]
+   },
+   {
+    "id": "c012",
+    "headline": "Contact Tracing Gaps Complicate Ebola Response in Democratic Republic of Congo",
+    "category": "accuracy",
+    "reasons": [
+     "The draft presents contact tracing as 'the backbone of Ebola response' and asserts that 'without it, outbreak patterns remain opaque' as though these are established facts, but the brief contains only one data_point: 'Contact tracing is a challenge in the Democratic Republic of Congo' (confidence: 'reported'). The draft elaborates on structural obstacles (conflict zones, displacement camps, security preventing worker access, border crossing, remote settlements) with specificity and causal claims ('when a health worker cannot reach a contact within the critical window... the chain of transmission is lost') that do not appear in the brief's single data_point.",
+     "The draft states 'According to NPR's reporting, contact tracing faces significant challenges' but then supplies details about the mechanisms of those challenges\u2014population movement, security preventing access, displacement camps\u2014that are not confirmed in the brief. The brief's open_questions explicitly ask 'What specific security conditions are blocking contact tracing?' and 'Are there displacement camps mentioned in the full article, and how many people are in them?'\u2014indicating the source material does not establish these details as fact.",
+     "The brief is marked 'thin: true' with 'source_chars: 0', meaning no source text was available to the research function. The draft's level of structural and causal detail (displacement camps, border crossing, remote settlements, critical exposure windows) exceeds what a single reported data_point on 'contact tracing is a challenge' can support without smuggling information from outside the brief."
+    ]
+   },
+   {
+    "id": "c103",
+    "headline": "RESEARCH REQUIRED: Ukraine Military Leadership Story Unverified",
+    "category": "accuracy",
+    "reasons": [
+     "The draft is not a story; it is a rejection of the assignment on grounds of insufficient source material. While this is the correct editorial decision (the brief has no data_points, an empty core_claim, and a full list of unresolved open_questions), a rejection memo is not an article draft and should not be submitted for approval. This slot should either contain a completed story or a flag to the assignment desk before a draft is generated.",
+     "If this were to be read as a draft, it violates the hard rule: the draft contains no sourced facts because the brief contains none, but the appropriate response is to return the assignment to research, not to publish the rejection memo as copy. The approver's role is to judge finished drafts against briefs; this is neither finished nor a draft suitable for publication."
+    ]
+   }
+  ]
  }
 ]
