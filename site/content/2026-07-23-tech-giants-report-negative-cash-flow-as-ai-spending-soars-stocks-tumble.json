@@ -1,0 +1,35 @@
+{
+  "id": "c049",
+  "slug": "tech-giants-report-negative-cash-flow-as-ai-spending-soars-stocks-tumble",
+  "kind": "brief",
+  "title": "Tech giants report negative cash flow as AI spending soars, stocks tumble",
+  "dek": "Alphabet and Tesla reported negative free cash flow and announced massive continued AI infrastructure spending. Alphabet's stock fell 7%, Tesla's 14.5%, as investors question whether these investments will generate returns.",
+  "date": "2026-07-23",
+  "published_utc": "2026-07-23T20:41:19Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 8,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Alphabet reported negative free cash flow of $5.9 billion for the first time in at least a decade, and announced plans to spend as much as $205 billion this year on AI projects, a $15 billion increase from three months prior.",
+  "bottom_line": "The market's immediate reaction to negative free cash flow signals that investor patience for AI capex has limits, even as company leadership insists spending will eventually pay off. Watch for quarterly earnings guidance on when these companies expect to return to positive free cash flow and whether capital expenditure slows or accelerates in coming quarters.",
+  "human_take": "",
+  "body": [
+    "Alphabet's parent company saw its stock plunge nearly 7% on Thursday after reporting negative free cash flow of $5.9 billion in the prior quarter, the first such loss in at least a decade, according to BBC reporting. Tesla's stock fell 14.5% the same day after reporting negative free cash flow of $1.1 billion for the second quarter, marking its first negative cash position in two years.",
+    "Both companies announced massive increases in capital expenditure, citing AI infrastructure as the primary driver. Alphabet now expects to spend as much as $205 billion this year on AI projects and infrastructure, a $15 billion jump from the estimate provided three months earlier, per BBC reporting. Tesla expects to spend up to $25 billion this year, more than double its capital spending in 2025, and said spending would likely increase further over the next three years, according to Tesla CFO Vaibhav Taneja's statement on the earnings call.",
+    "Alphabet's capital spending reached $45 billion in the second quarter alone, with 60 percent directed toward servers and 40 percent toward data centers, according to the reporting. Google CFO Anat Ashkanazi attributed the negative free cash flow entirely to growing capital expenditures tied to AI, and noted on the analyst call that demand for AI investment still outpaces current investment levels.",
+    "The stock declines reflect investor uncertainty about when these investments will yield financial returns. Russ Mould, investment director at AJ Bell, told BBC News there remains \"a healthy degree of scepticism about the ability of these investments to generate a commensurate level of return.\" Rachel Winter, a partner at wealth management firm Killik & Co, said there was surprise among investors about Google's spending levels and that the share drop signals concern about the scale of expenditure.",
+    "Alphabet's CEO Sundar Pichai defended the spending as representing early innings in a major technological shift, saying the company sees \"extraordinary opportunities with extraordinary returns,\" according to BBC reporting. Pichai also stated the company's plans around generating returns on spending were disciplined. Ashkanazi reiterated that demand still outpaces investment, suggesting the company intends to continue spending as long as it identifies attractive opportunities."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c235n47g8g8o?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-07-23T20:41:19Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}

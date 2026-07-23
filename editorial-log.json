@@ -853,5 +853,82 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-07-23",
+  "approved": 4,
+  "rejected": [
+   {
+    "id": "c080",
+    "headline": "Jobless claims fall to 187,000, lowest level in 55 years",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Weekly jobless claims serve as a real-time measure of labor market layoffs' and 'A sustained decline in claims signals employers are retaining workers and fewer people are losing their jobs.' These are explanatory claims about what jobless claims measure and what they signal. The brief contains no data_point supporting this definitional or interpretive material\u2014it only documents the 187,000 figure, the 55-year low, and the historical layoff statement. The writer has smuggled in explanatory framing that is not in the brief.",
+     "The brief's open_questions flag that 'the provided source text is truncated/corrupted (contains only HTML/SVG markup, not article body)' and that 'No information on seasonal adjustments, methodology, or how this compares to preceding weeks' claims' is available. The draft presents the figure as definitive without any hedge or caveat about source material limitations, violating the accuracy standard when the brief itself documents source corruption."
+    ]
+   },
+   {
+    "id": "c149",
+    "headline": "Trump ties Saudi nuclear deal to Israel normalization",
+    "category": "accuracy",
+    "reasons": [
+     "The draft claims 'Trump publicly conditioned a 30-year civilian nuclear agreement with Saudi Arabia on the kingdom's normalization of relations with Israel under the Abraham Accords framework.' The brief's open_questions explicitly state: 'The source_texts array is empty; no direct quotes, official statements, or detailed reporting from either the WSJ or Washington Post articles are available for verification' and 'Trump's exact language and framing of the condition are not provided.' The draft presents this as a clean, definitive statement when the brief documents that the underlying source material cannot be verified from the provided material.",
+     "The brief notes 'source_chars: 0' and flags that no article bodies are available. The writer has constructed a narrative about Trump's condition and its implications ('explicit linkage between nuclear proliferation policy and Middle East peace terms') without access to the actual reporting, violating the hard rule that facts must trace to the brief's data_points, which themselves depend on source verification."
+    ]
+   },
+   {
+    "id": "c150",
+    "headline": "House passes war powers measure on Iran strikes; Senate effort fails",
+    "category": "accuracy",
+    "reasons": [
+     "The draft claims 'Trump resumed strikes against Iran this month' and structures the story around 'the first legislative test of congressional appetite to constrain executive military action since Trump resumed strikes against Iran this month.' The brief's open_questions include 'How many nights of Iran strikes has Trump ordered (the snippet says 12+ but source text is unavailable to verify the precise number)?' This indicates the source material itself is corrupted or unavailable ('source_chars: 0'). The draft presents the Iran strikes as established fact when the brief documents that source verification is impossible.",
+     "The brief flags critical open questions: 'What was the exact vote count in the House? Which four Republicans voted for the resolution? What specific language or constraints does the resolution contain? Why did the Senate fail to advance its measure?' The draft provides none of these specifics and presents the House passage and Senate failure as a clean narrative when the brief shows the underlying source material is not available for verification (source_chars: 0)."
+    ]
+   },
+   {
+    "id": "c100",
+    "headline": "U.S. withdraws subpoenas issued to New York Times journalists",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The subpoenas were related to reporting on Air Force One security, according to the Times account.' The brief's only data point on subject matter says the subpoenas were 'related to reporting on Air Force One security' with confidence 'reported', but this is a paraphrase of the brief's own language, not traced to a specific claim the source actually made. The brief itself contains zero source characters (source_chars: 0) and marks this as a 'thin' brief, meaning the actual Times article content was not captured. The draft should not present Air Force One as the confirmed subject matter without the brief demonstrating the source material supports it.",
+     "The draft characterizes the judge's concerns as having 'raised questions about the government's handling' but does not specify what those concerns were. The brief lists as an open question: 'What specific judicial concerns did the federal judge raise about DOJ's handling?' The draft reads as though a judicial action occurred but omits the substance entirely, which is appropriate given the thin brief, but the phrasing 'raised questions' is vague enough to imply clarity the source did not provide."
+    ]
+   },
+   {
+    "id": "c088",
+    "headline": "Houthis attack Saudi tankers as U.S. strikes Iran for 12th consecutive night",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states: 'The U.S. carried out its 12th consecutive night of strikes across Iran.' The brief's data point says: 'The U.S. carried out a 12th night of strikes across Iran' with confidence 'reported'. The word 'consecutive' does not appear in the brief's data point. This is an added qualifier not present in the sourced claim and constitutes smuggled information beyond the brief. The source material captured (source_chars: 221, very thin) may or may not support 'consecutive,' but the writer cannot add that descriptor without it appearing in the brief first."
+    ]
+   },
+   {
+    "id": "c123",
+    "headline": "Minnesota man sentenced to life for killing Democratic state House Speaker",
+    "category": "accuracy",
+    "reasons": [
+     "Draft states 'The sentencing closes a major criminal justice case less than a year and a half after the attack,' but the brief data_point says 'a little over a year after the political attacks.' These are materially different timeframes and the draft's language is not supported by the brief.",
+     "Draft states Boelter 'pleaded guilty to the killings' but the brief only confirms he 'pleaded guilty to killing a top Democratic lawmaker and her husband'\u2014the draft uses 'killings' (plural noun) whereas the brief uses 'killing' (singular noun form), a subtle shift that could imply multiple separate offenses rather than a single dual homicide. The distinction matters legally.",
+     "The brief's open_questions note that 'The source text provided is truncated and contains only HTML navigation structure with no actual article content,' meaning the Guardian URL provided has not yielded verifiable content. The draft presents all claims as 'according to the Guardian' but the source cannot be verified to contain the reported facts."
+    ]
+   },
+   {
+    "id": "c274",
+    "headline": "Democratic-led states sue over conditions on FEMA disaster relief funds",
+    "category": "accuracy",
+    "reasons": [
+     "Draft states conditions 'relate to immigration enforcement and electoral policies' but the brief's data_point says the states 'allege the conditions are without authority and relate to elections and immigration enforcement.' The draft presents this as fact when the brief frames it as allegation by the states. Without the 'allege' framing, the draft reads as the desk asserting the conditions are immigration- and electoral-policy-related rather than reporting the states' claim.",
+     "Brief note_source_chars shows 0, and open_questions list five critical unknowns including 'What are the specific conditions attached to the FEMA grants?' and 'Which states are named as plaintiffs.' The brief is explicitly thin. The draft provides almost no detail beyond the core claim and reads more like a headline summary than a reportable story given how little the source actually contained."
+    ]
+   },
+   {
+    "id": "c087",
+    "headline": "Amish Shah Wins Arizona Democratic Primary Against Party Establishment Pick",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Shah's win represents another defeat to the Democratic Congressional Campaign Committee, as more voters reject the preferences of party leaders in Washington.' This claim goes beyond the brief's data_points. The brief's third data_point attributes this exact claim to PBS NewsHour, but the draft does not explicitly attribute it as reporting; it reads as the writer's own inference from a pattern ('another defeat' implies knowledge of multiple defeats beyond what the brief establishes). The brief establishes only that Shah won and the DCCC backed his rival\u2014not that this is part of a 'broader pattern' of DCCC losses or that voters are systematically rejecting Washington endorsements. The draft's second paragraph extends this into 'a broader pattern in the 2026 election cycle: Democratic voters in contested districts are rejecting Washington-backed endorsements' without sourced evidence of that pattern in the brief."
+    ]
+   }
+  ]
  }
 ]
