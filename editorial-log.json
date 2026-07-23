@@ -796,5 +796,62 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-07-23",
+  "approved": 6,
+  "rejected": [
+   {
+    "id": "c148",
+    "headline": "Trump ties Saudi nuclear deal to Israel normalization",
+    "category": "accuracy",
+    "reasons": [
+     "The brief contains zero data_points. The draft makes specific factual claims (Trump has attached a condition, it ties to the Abraham Accords framework, it is a 30-year agreement) that cannot be traced to any sourced data point in the research brief. The writer has smuggled facts beyond what the brief supports. With no data_points provided, the brief itself is unusable for publication and the draft cannot be verified against research."
+    ]
+   },
+   {
+    "id": "c083",
+    "headline": "Amish Shah wins Democratic primary in Arizona against DCCC-backed rival",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The primary result marks another defeat for the party establishment as Democratic voters reject Washington leadership's preferred candidates' and 'Shah's victory continues a pattern in which primary voters have moved against the DCCC's endorsed candidates.' The brief contains only ONE data point about a pattern ('This is another defeat to the DCCC as more voters reject the preferences of party leaders in Washington'), which itself is framed as reported from PBS but does not specify what prior defeats constitute the pattern. The draft presents this as an established, documented pattern without identifying the prior cases, converting a single-election claim into a generalized trend unsupported by the brief's data. The brief explicitly lists as an open question: 'What prior DCCC-backed defeats are referenced as part of the trend?' indicating the pattern is not confirmed in the source.",
+     "The draft's framing in the second paragraph ('The primary result marks another defeat for the party establishment') adopts PBS's reported language but reads as the desk's own verdict on what the result 'marks'\u2014a causal claim about what voters are 'rejecting' that goes beyond the fact that Shah won and the DCCC backed another candidate. This crosses into interpretation not grounded in the brief's data points."
+    ]
+   },
+   {
+    "id": "c100",
+    "headline": "DOJ Withdraws Subpoenas to New York Times Journalists",
+    "category": "accuracy",
+    "reasons": [
+     "The brief explicitly states 'source_texts for this story are empty; only the snippet is available' and lists as an open_question that 'No details on the judge's specific questions, the DOJ's stated reasoning for withdrawal, the names of the journalists subpoenaed' are available. The draft's claim that 'A federal judge raised questions about how the government handled the subpoenas' is presented as a definitive fact, but the brief does not support this level of specificity\u2014it says only that a judge 'questioned' the handling, and the brief's own open_questions indicate the source text is truncated. This fact cannot be traced to a confirmed data_point in the brief.",
+     "The draft states 'The subpoenas were connected to reporting the Times published on a Qatari jet.' This is confirmed in the brief's angle but appears in no data_point; the brief has zero data_points listed. The writer is drafting from an angle and open_questions, not from sourced facts."
+    ]
+   },
+   {
+    "id": "c122",
+    "headline": "Minnesota Man Sentenced to Life for Killing State House Speaker",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Boelter admitted to politically motivated killings and shootings, though the sources do not provide details on other victims or the specific charges filed against him.' This acknowledges a gap but then presents 'politically motivated killings and shootings' as fact. The brief's data_points confirm 'Boelter admitted to politically motivated killings and shootings' (reported confidence), but the open_questions flag that 'No information is available on: the specific charges filed, the names of any other victims mentioned in the shootings beyond Hortman and her husband.' The draft treats 'shootings' (plural, undefined victims) as established when the brief itself marks this as unknown. The phrase 'though the sources do not provide details' does not cure the liability risk of naming unknown victims.",
+     "The draft states 'The case drew significant attention in Minnesota after the attacks on a top Democratic state legislator.' The brief does not contain a data_point supporting 'drew significant attention'; this is narrative inference, not sourced fact."
+    ]
+   },
+   {
+    "id": "c124",
+    "headline": "Trump administration poised to announce new tariffs as prior 10% global rate expires",
+    "category": "compliance",
+    "reasons": [
+     "The draft states 'Trump's tariff policy suffered what was characterized as a damaging blow in February' without attribution. The brief data_point says 'Trump's tariffs policy suffered a damaging blow in February' with 'reported' confidence from The Guardian, but the draft's phrasing 'what was characterized as' creates ambiguity about whether this is the outlet's characterization or the desk's judgment. This must be clearly attributed inline to The Guardian to avoid reading as the desk's own verdict on whether the blow was actually 'damaging'."
+    ]
+   },
+   {
+    "id": "c079",
+    "headline": "FDA investigates cyclospora outbreak tied to food products including Taco Bell locations",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Sources have reported links to food products served at Taco Bell' but the brief's core_claim says 'sources reporting links to food products including those served at Taco Bell' and provides no data_point specifically confirming the Taco Bell link. The single data_point in the brief is only about the FDA not yet identifying specific products. The Taco Bell claim appears in the brief's core_claim but is not supported by any data_point with a source URL, timestamp, and confidence label. This fact cannot be verified against the research and should not appear in the draft."
+    ]
+   }
+  ]
  }
 ]
