@@ -51,7 +51,7 @@
   ],
   "tagline": "Every story, sourced. Every source, rated.",
   "cadence": "daily-brief",
-  "lookback_hours": 30,
+  "lookback_hours": 44,
   "top_n": 12,
   "budget": {
     "max_tokens_per_run": 220000,
@@ -193,6 +193,18 @@
         "name": "The Hill",
         "tier": "major",
         "url": "https://thehill.com/feed/"
+      },
+      {
+        "name": "The Hill Floor Action",
+        "tier": "major",
+        "url": "https://thehill.com/homenews/house/feed/",
+        "note": "House floor coverage (added 2026-07-23: the $1.15T NDAA was the day's top domestic story and never reached the intake; the general feeds under-cover roll-call votes)."
+      },
+      {
+        "name": "NHC Atlantic",
+        "tier": "primary",
+        "url": "https://www.nhc.noaa.gov/index-at.xml",
+        "note": "National Hurricane Center official advisories (added 2026-07-23: Tropical Storm Bertha's Gulf landfall was a top competitor story with no desk coverage). Official-record source: NOAA's own advisories, not journalism."
       }
     ],
     "keywords_note": "Optional per-feed 'keywords' gate: high-volume feeds keep only items matching a keyword in headline+snippet, so they cannot flood the editor. Items matching a 'narratives' watchlist entry always pass the gate. The news desk currently runs ungated; the editor's ranking plus the balance spread is the filter. Add gates if any single feed starts flooding intake.",
@@ -266,6 +278,36 @@
           "arizona results",
           "primary results",
           "primary night"
+        ]
+      },
+      {
+        "name": "Congress and legislation",
+        "keywords": [
+          "ndaa",
+          "defense authorization",
+          "defense bill",
+          "appropriations",
+          "spending bill",
+          "passes the house",
+          "passes the senate",
+          "house passes",
+          "senate passes",
+          "floor vote",
+          "reconciliation bill",
+          "continuing resolution"
+        ]
+      },
+      {
+        "name": "Severe weather",
+        "keywords": [
+          "hurricane",
+          "tropical storm",
+          "landfall",
+          "storm surge",
+          "evacuation order",
+          "flash flood",
+          "tornado outbreak",
+          "wildfire"
         ]
       }
     ]
