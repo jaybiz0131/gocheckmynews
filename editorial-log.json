@@ -747,5 +747,54 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-07-23",
+  "approved": 7,
+  "rejected": [
+   {
+    "id": "c014",
+    "headline": "House passes war powers resolution to end Iran conflict for second time",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Rep. Pramila Jayapal of Washington, who led the effort, stated the vote sends President Trump \"a clear message that Congress will not continue to tolerate what she described as an \\'illegal war.\\'\"' However, the brief's data_point attributes this to 'Rep. Pramila Jayapal, D-Wash.' without the 'she described as' parenthetical framing. The draft introduces a characterization ('what she described as') not present in the source brief, which risks inflating the claim's directness.",
+     "The draft quotes Jayapal saying Trump won his election by promising to end forever wars, but the brief data_point states 'Jayapal noted that Trump won his election by promising to end forever wars.' The draft presents this as a direct quote when the brief only attributes the claim as a note/observation without quotation marks, suggesting the actual quote may not exist or may be paraphrased differently in the source."
+    ]
+   },
+   {
+    "id": "c024",
+    "headline": "Brent crude tops $100 a barrel as Middle East conflict escalates",
+    "category": "compliance",
+    "reasons": [
+     "The bottom_line contains language that reads as financial/investment advice: 'Central banks face a narrowing window: they must decide whether to hold rates steady despite energy headwinds, or tighten further if energy shocks feed into broader price growth.' This prescriptive framing ('must decide') in the forward-looking section violates the no-advice rule. The bottom_line should present what to watch, not counsel policymakers on decision-making.",
+     "The draft contains speculative language that borders on market prediction: 'The next major trigger will be whether Middle East tensions de-escalate or further military action drives prices higher.' This reads as predictive analysis rather than reporting what conditions would invalidate the core claim, and combined with the energy-price-watch framing, creates cumulative compliance risk around financial commentary."
+    ]
+   },
+   {
+    "id": "c120",
+    "headline": "Minnesota man sentenced to life for killings of Democratic lawmaker Melissa Hortman and her husband",
+    "category": "compliance",
+    "reasons": [
+     "The draft characterizes the killings as 'politically motivated' in the body paragraph but the brief's data_point labels this claim as 'reported'\u2014meaning it comes from the source, not established fact. The phrasing 'The killings were characterized as politically motivated, per Guardian US' correctly attributes the characterization, but the bottom_line then asks 'Questions remain about Boelter's stated motive, any ideological basis for the attacks' which contradicts the earlier statement that the killings were characterized as politically motivated. This creates an internal liability: if the source characterizes them as politically motivated, asking whether there is an ideological basis reads as the desk casting doubt on a reported fact or inviting readers to disbelieve the source's own characterization. The bottom_line must either accept the reported characterization or flag it as unconfirmed; it cannot do both."
+    ]
+   },
+   {
+    "id": "c106",
+    "headline": "EU imposes antitrust fine on Google over search engine practices",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The EU accused Google of anti-competitive business practices related to search' but the brief contains no data_point confirming the specific nature of the accusation beyond 'anti-competitive business practices related to search.' The core_claim and data_points do not detail what practices were targeted. The draft then asserts in the bottom_line 'Critical reporting gaps remain: the exact fine amount, specific practices targeted, and Google's response are not confirmed in available sources'\u2014which acknowledges the gap but then includes unconfirmed material ('The action comes at a tense moment for trans-Atlantic trade relations, per the New York Times') as fact. If the brief itself flags open_questions about the fine amount and specific practices, the draft cannot assert these as settled facts. The statement 'major antitrust fine' lacks a dollar figure in the brief (open_question asks 'What is the exact amount of the fine'); presenting a fine as 'major' without a number is advocacy disguised as reporting."
+    ]
+   },
+   {
+    "id": "c123",
+    "headline": "5.0-magnitude earthquake strikes Texas panhandle",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'the strongest seismic event in the area since 1900' but the brief data_point says 'the strongest quake to hit the area since 1900.' The draft's phrasing introduces ambiguity about whether this is the strongest 'seismic event' (which could include smaller tremors) versus the strongest 'quake' (magnitude). The brief is precise; the draft softens the claim with 'event' rather than matching the source language 'quake,' introducing potential factual slippage.",
+     "The draft calculates '126 years' in the bottom_line ('the strongest tremor in 126 years') based on the timestamp 2026-07-23 and the brief's 'since 1900.' However, 2026 minus 1900 equals 126 years only if the calculation assumes the current year is exactly 2026. This is a smuggled inference about the current date that does not appear in the brief or source reporting and adds a derived fact not in the research."
+    ]
+   }
+  ]
  }
 ]
