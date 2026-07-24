@@ -930,5 +930,70 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-07-24",
+  "approved": 5,
+  "rejected": [
+   {
+    "id": "c118",
+    "headline": "Brent crude oil prices top $100 per barrel amid Middle East tensions with Iran",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Brent crude oil prices topped $100 per barrel for the first time since May 2026' but the brief data_point says 'first time oil prices have breached $100 per barrel since May (2026)' without specifying May of which year. The draft's phrasing implies May 2026 (same year as the reporting date of July 24, 2026), but this is ambiguous in the brief and should not be stated as definitive without clarity. The brief source_chars is 0, indicating the actual NYT article text was not provided to verify the exact temporal claim."
+    ]
+   },
+   {
+    "id": "c096",
+    "headline": "US military conducts 13th consecutive night of strikes on Iran over Red Sea shipping",
+    "category": "compliance",
+    "reasons": [
+     "The brief data_point on the stated purpose of strikes is labeled 'announced-not-verified' confidence level, meaning Central Command's claim about degrading Iran's ability to threaten vessels is an announcement, not verified fact. The draft presents this as a straightforward statement of what the strikes 'are stated to be designed to' but the confidence label requires the prose to reflect the unverified status more clearly. The phrase 'per Central Command's account' partially addresses this but given the 'announced-not-verified' label, the draft should more explicitly signal that this is Central Command's assertion without independent verification."
+    ]
+   },
+   {
+    "id": "c021",
+    "headline": "Rubio Signals U.S. Willingness to Help End Ukraine War but Cautions on Timeline",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'three-day closed-door talks at the ASEAN gathering began Tuesday' but if the meeting was July 23 (Thursday), then Tuesday would be July 21. The brief data_point says 'Three days of closed-door talks at the ASEAN gathering started Tuesday' but does not specify the date of Tuesday. The draft's attribution to NPR is correct, but the timeline as written (Tuesday start + Thursday meeting = mid-week conclusion) conflicts with a three-day duration. This is either a factual error in the draft's timeline setup or an unverified interpretation of when the talks began relative to the stated meeting date."
+    ]
+   },
+   {
+    "id": "c022",
+    "headline": "Federal Judge Forces Justice Department to Withdraw Subpoenas for New York Times Journalists",
+    "category": "compliance",
+    "reasons": [
+     "The draft's bottom_line reads: 'Judge Subramanian's ruling enforced existing legal precedent and Justice Department policy against the government's claim that attorney general approval overrides First Amendment protections.' This statement presents the desk's own judgment about which legal principle is correct ('enforced...against') rather than reporting what the judge held. The phrasing adopts a verdict tone that could read as advocacy for the judicial outcome. The bottom_line should forward-look on what happens next and what would test the ruling, not adjudicate between competing legal theories in the desk's voice.",
+     "The draft characterizes the government's conduct as containing 'mistakes' (the phone record secrecy order and subpoenas of journalists' family members) without sufficient skepticism about whether those were truly mistakes or intentional strategy. The data_points attribute the 'mistake' and 'honest mistake' language to Buckley's own statements, which the draft does relay, but the cumulative framing\u2014two apologies in quick succession, both labeled 'honest mistake'\u2014risks reading as the desk accepting the government's characterization rather than reporting what was said."
+    ]
+   },
+   {
+    "id": "c117",
+    "headline": "Pentagon's casualty count for Iran war changes; military officials offer conflicting explanations",
+    "category": "compliance",
+    "reasons": [
+     "The phrase 'When the Pentagon changes such figures, the public and Congress typically expect a clear, consistent explanation for the shift' reads as the desk's own normative judgment about what should happen, not as reporting of fact or sourced opinion. This is advocacy disguised as observation.",
+     "The sentence 'That silence leaves the public and press relying on conflicting versions of a basic wartime fact' is also advocacy\u2014a verdict on the Pentagon's conduct framed in the desk's voice rather than as a documented consequence reported from the record."
+    ]
+   },
+   {
+    "id": "c126",
+    "headline": "India's largest student protest in years targets Modi government over exam leaks and job quality",
+    "category": "compliance",
+    "reasons": [
+     "The sentence 'Together, these grievances expose a pipeline broken at multiple points, from education through employment' is the desk's interpretive judgment, not reporting. The brief does not contain a data point asserting the pipeline is 'broken'; the draft adopts a frame without sourcing it.",
+     "The phrase 'forcing the Modi government to respond to demands it had not anticipated' in the body is advocacy framing\u2014characterizing government as forced and surprised. The brief's angle uses 'forcing' as a premise, but the draft should report what happened, not adopt the protest side's framing as fact."
+    ]
+   },
+   {
+    "id": "c031",
+    "headline": "France orders evacuation of peninsula as hundreds flee wildfires by boat",
+    "category": "accuracy",
+    "reasons": [
+     "The draft introduces Spain's Interior Minister Fernando Grande-Marlaska declaring a national emergency on Friday with specific fire locations (Villa del Prado, San Mart\u00edn de Valdeiglesias, Burgohondo), but this is not a data_point in the brief. The brief's bear_case is empty and open_questions do not mention Spain. This is smuggled information\u2014the writer added facts about Spain's emergency that do not appear in the research brief, violating the hard rule that no fact exists outside the brief."
+    ]
+   }
+  ]
  }
 ]

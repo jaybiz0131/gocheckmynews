@@ -1,0 +1,34 @@
+{
+  "id": "c52",
+  "slug": "families-still-search-for-bodies-a-month-after-venezuela-earthquakes",
+  "kind": "brief",
+  "title": "Families still search for bodies a month after Venezuela earthquakes",
+  "dek": "Twin earthquakes struck Venezuela's coastal La Guaira region on June 24, killing over 5,300 people according to government officials. Up to 50,000 remain missing one month later as families continue searching through flattened apartment buildings.",
+  "date": "2026-07-24",
+  "published_utc": "2026-07-24T07:59:29Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 10,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Death toll exceeds 5,300 with up to 50,000 still missing one month after the earthquakes.",
+  "bottom_line": "A month into recovery, the absence of documented progress on the estimated 50,000 missing persons defines the humanitarian scope. Watch for official updates on confirmed fatalities, revised missing-persons figures, and any international coordination announcements.",
+  "human_take": "",
+  "body": [
+    "Twin earthquakes that struck Venezuela's coastal La Guaira region on June 24 have left families searching for remains one month later, with no resolution in sight for thousands reported missing.",
+    "Government officials say the death toll has surpassed 5,300, according to BBC reporting. Estimates of the number still missing could be as high as 50,000, though the brief does not specify how these figures were derived or their methodology. La Guaira was the region worst-hit by the twin earthquakes, with apartment buildings in the affected area flattened.",
+    "The search and recovery effort remains ongoing one month after the disaster. Families continue to look for remains of loved ones in the devastated coastal regions, per BBC coverage. The scale of the missing persons estimate underscores the magnitude of the humanitarian crisis.",
+    "The brief does not address specific reasons for the recovery pace, whether related to infrastructure damage, resource constraints, security challenges, or other factors. It also does not detail what international aid or assistance has been deployed, or whether regions beyond La Guaira sustained significant damage."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/videos/cwylplxk8nko?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-07-24T07:59:29Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}
