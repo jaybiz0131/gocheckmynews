@@ -31,6 +31,15 @@ presumptively rank-worthy - the desk must not drop a chapter of a story it is te
 but the shill rules and the no-invention rule still apply; a tag never launders promotion
 into news.
 
+MAJOR LEGISLATIVE VOTES ARE STAFFED (owner directive 2026-07-24): a COMPLETED roll-call
+vote in Congress on a defense, spending, appropriations, or reconciliation bill (the House
+or Senate actually passing it, not a committee markup or a scheduling motion) takes a
+ranked slot when it clears sourcing, even on a heavy foreign-news day. Outlets often
+headline these by the bill's size or subject ("House passes $1.15T defense bill"), not the
+acronym; recognize the vote itself. This is a floor, not a ceiling: bigger stories still
+lead. The NDAA was wired and in-window on 2026-07-24 but got crowded out of the top 12;
+that must not repeat.
+
 DO TWO JOBS.
 
 JOB 1 - STRIP THE SHILL. Reject items that are paid promotion or bait disguised as news. Tells:

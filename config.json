@@ -295,7 +295,9 @@
           "floor vote",
           "reconciliation bill",
           "continuing resolution"
-        ]
+        ],
+        "must_staff": true,
+        "note": "A completed roll-call vote on a defense, spending, or appropriations bill takes a ranked slot even on a heavy foreign-news day (2026-07-24: the $1.15T NDAA was wired and in-window but crowded out of the top 12)."
       },
       {
         "name": "Severe weather",
