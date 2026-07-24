@@ -1118,5 +1118,65 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-07-24",
+  "approved": 6,
+  "rejected": [
+   {
+    "id": "c097",
+    "headline": "Measles cases in U.S. last two years exceed all reported cases from 2000 through 2024 combined",
+    "category": "accuracy",
+    "reasons": [
+     "The core claim states measles cases in the last two years exceed all cases from 2000-2024 combined, but the brief shows source_chars: 0 with a note 'The source text is empty.' The draft presents this as fact ('according to New York Times reporting') when the fetched source material contains no actual text to verify the claim. The writer has smuggled a fact that cannot be traced to available source material."
+    ]
+   },
+   {
+    "id": "c119",
+    "headline": "Largest cyclosporiasis outbreak on record expands to nine states with 11,500+ cases",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'more than 11,500 people suspected to have been sickened this summer' but the brief's open_questions flag a discrepancy: 'The headline states \"CDC investigates 7,400 cases\" but the snippet and article text reference \"more than 11,500 suspected cases\"\u2014which figure is current and what accounts for the discrepancy?' The writer has adopted one figure (11,500) without acknowledging this unresolved conflict in the source material. The brief marks the source as thin and only 2,019 characters; the writer has no basis to choose between competing figures from Guardian reporting.",
+     "The draft states the outbreak 'has been linked to contaminated iceberg lettuce' as fact, but the brief's open_questions include 'What is the confirmed source of the contamination (the snippet mentions \"iceberg lettuce\" but this is not verified in the provided source text)?' The iceberg lettuce link is not confirmed in the brief's data_points\u2014only mentioned as unverified in an open question. Presenting it as settled fact violates the accuracy standard."
+    ]
+   },
+   {
+    "id": "c264",
+    "headline": "Romania shoots down unidentified drone near Black Sea in first NATO airspace incident",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'This is the first time Romania as a NATO member state has shot down a drone in its own airspace' but the brief data_point says 'This marks the first time the NATO state has shot down a drone in its own airspace.' The draft adds 'as a NATO member state'\u2014a qualifier not in the brief. The brief does not claim this is NATO's first such action, only Romania's. The draft's next sentence states 'marking the first time Romania as a NATO member has shot down a drone in its own airspace, according to The Hill' and later the bottom_line says 'This is the first air defense action of its kind by a NATO member in its own airspace'\u2014conflating Romania's first action with NATO's first action. These are distinct claims; the draft smuggled the NATO-wide claim without source support in the brief."
+    ]
+   },
+   {
+    "id": "c057",
+    "headline": "US and Iran trade strikes as June ceasefire collapses into military escalation",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Iran carried out drone strikes on US military facilities across the Middle East on the 13th consecutive night of American attacks' but the brief data_point says 'Iran says it carried out drone strikes' and 'Iran claims it launched attacks'\u2014the draft presents Iran's claims as established fact without the qualifier that these are Iranian assertions. The confidence label is 'reported' but the prose reads as verified.",
+     "The draft includes two data_points not traced to the brief: (1) 'Israeli Prime Minister Benjamin Netanyahu is scheduled to meet with Trump at the White House on Tuesday' (data_point 21) and (2) 'Netanyahu is scheduled to attend a service for the late Senator Lindsey Graham. Ukrainian President Volodymyr Zelensky is expected to meet with Trump the same day' (data_point 22) appear in the brief but do not appear in the draft body. While these are in the brief, they are unrelated to the core story of US-Iran escalation and their absence from the draft is not a violation, but their presence in the brief without use raises a question of editorial judgment rather than accuracy violation. However, the main accuracy issue stands: the draft treats reported claims as fact."
+    ]
+   },
+   {
+    "id": "c100",
+    "headline": "Iran Conflict and Trump Tariffs Create Dual Economic Pressure on U.S. Growth",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Renewed fighting with Iran is sending oil and gas prices soaring' and 'the Trump administration has announced new global tariffs,' but neither claim specifies that these are reported by the New York Times in the manner required by the brief's data_points. The draft attributes the conflict claim only in a parenthetical attribution ('According to reporting by the New York Times') but then proceeds to discuss the tariffs and dual shock without attributing them to the same source.",
+     "The draft asserts 'New tariffs raise the cost of imported goods, from appliances to clothing to automobiles' as a mechanistic fact without sourcing. This claim goes beyond what the brief's data_point states ('could push prices higher'), moving from reported possibility to presented certainty.",
+     "The final paragraph of the body ('The brief does not specify...') is a meta-commentary that violates the hard rule: no fact exists outside the brief. This sentence itself is not a fact from the brief and constitutes the writer commenting on the research rather than reporting from it."
+    ]
+   },
+   {
+    "id": "c121",
+    "headline": "Judge Orders Pentagon to Explain Testosterone Policy Disparity Between Troops",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Defense Secretary Pete Hegseth has championed a plan to screen older soldiers for testosterone deficiencies and offer them hormone treatment,' but the brief's data_point describes the policy as 'controversial.' The draft omits the confidence label and presents the policy as established fact rather than as reported/controversial.",
+     "The final paragraph of the body ('The brief does not indicate...') is a meta-commentary that violates the hard rule. This sentence is not a fact from the brief and constitutes writer commentary on the research rather than reporting.",
+     "The draft characterizes the policy's constitutional status by stating it 'raises constitutional equal protection questions' without attributing this legal analysis to the court order or the Guardian reporting. The brief provides no data_point supporting an independent assertion of what constitutional question is at stake\u2014only that the judge ordered an explanation of the differential treatment."
+    ]
+   }
+  ]
  }
 ]
