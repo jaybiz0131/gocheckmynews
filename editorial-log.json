@@ -1178,5 +1178,62 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-07-24",
+  "approved": 6,
+  "rejected": [
+   {
+    "id": "c048",
+    "headline": "Russian ballistic missiles kill 10 at Ukrainian drone exhibition near Kyiv",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'At least 15 people were killed across Ukraine in Russian attacks on July 24' but the brief's first data point says 'At least 15 people killed in Russian attacks on Ukraine overall on July 24, 2026, including 10 dead in ballistic missile strikes on a drone exhibition near Kyiv.' The draft presents this as a standalone figure at the end without clarity that the 10 at the exhibition are part of the 15 total, creating potential confusion about the actual death count.",
+     "The draft includes a paragraph about Zelensky traveling to the US, meeting Trump on Tuesday, and attending Senator Lindsey Graham's funeral. The brief data point says Trump ally Laura Loomer 'interviewed Zelensky, who stated he intends to go to the funeral of US Senator Lindsey Graham on the same day as his planned meeting with Trump.' The draft omits the crucial detail that Laura Loomer was in Kyiv and conducted this interview, and presents Zelensky's statements about his schedule without that context, which changes the sourcing attribution."
+    ]
+   },
+   {
+    "id": "c114",
+    "headline": "Six killed in West Bank shooting; accounts conflict on who initiated violence",
+    "category": "accuracy",
+    "reasons": [
+     "The brief contains only one data point confirming the death toll (four Palestinians and two Israelis). All other claims in the draft\u2014that accounts conflict on who initiated violence, that the specific sequence of events remains undetailed, that Israel deployed troops as a response, that deployment scope/positioning is unspecified\u2014are not present in the brief and therefore constitute smuggled facts written outside the research.",
+     "The draft's framing that 'Official accounts from Israeli and Palestinian authorities conflict' is presented as fact, but the brief contains no data point establishing what these conflicting accounts are or that they even exist in the source material. This is a major factual claim unsupported by the research."
+    ]
+   },
+   {
+    "id": "c119",
+    "headline": "Cyclosporiasis outbreak expands to nine states with 11,500 suspected cases",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'This is the largest cyclosporiasis outbreak on record in the United States' as a definitive fact, but the brief data_point reads 'This is the largest cyclosporiasis outbreak on record' without the 'in the United States' qualifier. The draft has added geographic specificity not present in the sourced claim.",
+     "The draft claims 'Cyclosporiasis, a parasitic infection, can cause explosive diarrhea and other gastrointestinal symptoms, per The Guardian.' The brief only confirms 'Cyclosporiasis can cause explosive diarrhea' as the sourced claim. The addition of 'parasitic infection' as a defining characteristic and 'other gastrointestinal symptoms' beyond explosive diarrhea extends beyond what the brief supports and should be verified against the source."
+    ]
+   },
+   {
+    "id": "c075",
+    "headline": "Teen pleads guilty to all 55 counts in 2024 Apalachee High School shooting that killed four",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The shooting, which occurred nearly two years ago, killed two students and two teachers' but the brief's timestamp is 2026-07-24 and refers to a '2024 shooting,' which would be roughly 1.5-2 years prior depending on the month in 2024. The phrasing 'nearly two years ago' is imprecise given the brief's own language ('2024') and creates factual ambiguity about timing that the brief does not resolve. The brief explicitly notes 'What is the exact date of the shooting' as an open question, meaning the writer cannot assert temporal claims beyond what the source provides."
+    ]
+   },
+   {
+    "id": "c76",
+    "headline": "UNABLE TO DRAFT: Source material inaccessible",
+    "category": "accuracy",
+    "reasons": [
+     "The draft is presented as an inability-to-draft notice rather than a news story. The brief confirms the source material is inaccessible (source_chars: 312, only metadata available). The draft correctly identifies this as a blocker, but it should not be submitted as a 'draft' for approval\u2014it is a routing instruction to research. This violates the output contract: the desk does not approve meta-commentary about missing sources as finished editorial product."
+    ]
+   },
+   {
+    "id": "c97",
+    "headline": "UNABLE TO DRAFT: Source material contains no data points",
+    "category": "accuracy",
+    "reasons": [
+     "The draft is presented as an inability-to-draft notice rather than a news story. The brief confirms data_points is empty and source_chars is 0\u2014no substantive content exists. Like c76, this is a routing instruction to research, not a finished draft. It should not be submitted for approval as editorial product."
+    ]
+   }
+  ]
  }
 ]
