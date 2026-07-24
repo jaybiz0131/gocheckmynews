@@ -1276,5 +1276,65 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-07-24",
+  "approved": 6,
+  "rejected": [
+   {
+    "id": "c056",
+    "headline": "US and Iran escalate strikes as June ceasefire collapses",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Ukraine's air force spokesman said three ballistic missiles were fired at the exhibition, with only one intercepted.' This sentence appears in the fourth paragraph mid-discussion of US strikes on Iran, not in the context of the Ukraine exhibition. It is contextually misplaced and creates confusion about which conflict it refers to. The brief data_points make clear this claim belongs to story c048 (the Kyiv drone exhibition), not c056 (US-Iran escalation). This is a smuggled fact from a different story's brief.",
+     "The draft contains information about Netanyahu meeting Trump, Zelensky meeting Trump, and a Lindsey Graham service that do not appear in the brief's data_points for c056. These are factual claims without sourcing to the provided brief."
+    ]
+   },
+   {
+    "id": "c101",
+    "headline": "Wildfires force tens of thousands from homes in France and Spain",
+    "category": "accuracy",
+    "reasons": [
+     "Title claims 'tens of thousands' forced from homes, but no numerical figure appears in the brief's data_points. The core_claim and angle reference 'tens of thousands' but the only sourced data_points are: (1) Cap Ferret evacuation ordered, (2) fires west of Madrid closing in. No data_point supports a specific evacuation count. The title smuggles a number that is not in the research."
+    ]
+   },
+   {
+    "id": "c099",
+    "headline": "Measles Cases Hit 35-Year High, Surpassing 2025 Total by Mid-2026",
+    "category": "accuracy",
+    "reasons": [
+     "The draft claims 'The number already exceeds the entire 2025 case total' but the brief contains no data point specifying the 2025 total case count. This fact is smuggled\u2014it appears nowhere in the data_points and cannot be verified against the brief.",
+     "The draft states 'Confirmed cases span 43 states' but the brief's core_claim says '43 states now reporting cases'\u2014a material difference between confirmed cases and reporting. The draft uses the brief's language but without precision about what 'reporting' means.",
+     "The draft explicitly acknowledges 'The brief provided does not contain state-by-state case breakdowns, specific vaccination rate declines, demographic data on who is contracting measles, or information on hospitalizations and deaths' within its own body text. This self-aware admission that critical context is missing does not cure the liability problem: the story presents a 35-year high without the context needed to assess severity or causation, and the brief's angle explicitly cites 'declining vaccination rates' as the driver\u2014a claim unsupported by any data_point in the brief itself."
+    ]
+   },
+   {
+    "id": "c189",
+    "headline": "Colt Gray Pleads Guilty to Murder in Georgia School Shooting",
+    "category": "compliance",
+    "reasons": [
+     "The draft includes the sentence: 'Breanna Schermerhorn and two of Mason's sisters asked the judge for a sentence of life without parole.' This is a victim family's advocacy for a particular outcome in an active sentencing proceeding. While victim statements are factually part of the record and properly attributed, framing their request for a specific sentence as a reported fact (rather than as part of their statement) adopts the tone of advocacy. The sentence should either attribute the request explicitly to their statements ('Breanna Schermerhorn and two of Mason's sisters told the judge they sought a sentence of life without parole') or be removed. As written, it reads as the desk endorsing or highlighting a particular sentencing outcome.",
+     "The phrase 'The case of his father's conviction and sentencing, occurring one week after the son's plea, underscores the broader investigation into how warning signs were assessed and acted upon' in the bottom_line contains interpretive judgment ('underscores') that is not supported by fact and reads as the desk's own editorial voice rather than a forward-looking statement of what to watch. The bottom_line should state what will happen next or what evidence would invalidate the reporting, not what the sequence of events 'underscores.'"
+    ]
+   },
+   {
+    "id": "c110",
+    "headline": "India's Government Agrees to Compensate Families in Exam Leak Case as Student Protests Continue",
+    "category": "accuracy",
+    "reasons": [
+     "The draft cites a New York Times article as the sole source, but the brief's open_questions explicitly state 'The source text is empty; no detail on...' This indicates the source material provided zero substantive information beyond the headline. The draft contains multiple claims presented as fact that cannot be traced to actual reporting: 'compensation families affected by a major exam leak', 'demonstrators are pressing for a broader institutional change: the resignation of India's education minister', 'The education minister has not publicly responded to calls for resignation'. These facts do not appear in the brief's data_points and the brief itself flags that no detail was available on the education minister's identity, the exam leak nature/scale, or the protesters' composition. The writer has fabricated details beyond what the research provided.",
+     "The draft presents 'Gen Z student-led protests' and framing as established fact, but the brief's open_questions ask 'No detail on what 'Gen Z cockroach' protests refers to or the origin of that framing', indicating this terminology was not explained or verified in the source material. The draft simplifies 'cockroach janta' to generic 'Gen Z' without the briefing support."
+    ]
+   },
+   {
+    "id": "c077",
+    "headline": "11 People Indicted in Deaths of Six Migrants Found in Texas Rail Container",
+    "category": "accuracy",
+    "reasons": [
+     "The brief's open_questions explicitly flag a contradiction: 'The PBS headline mentions '7 migrants' while The Guardian and the snippet reference 'six people'\u2014which is the accurate victim count?' The draft states 'six migrants' but does not acknowledge or resolve this discrepancy between sources. A factual inconsistency between the two cited sources about the core number of victims (6 vs. 7) must be addressed in the draft or the story is presenting unverified information as settled.",
+     "The draft claims 'six migrants, from Honduras and Mexico, including a 14-year-old boy, were discovered in a shipping container at a rail yard near the US-Mexico border' but the brief's data_point says 'Six migrants from Honduras and Mexico, including a 14-year-old boy, were found dead in a rail cargo container in Texas in May.' The PBS source URL in the draft's sources list says '7-migrants' in the headline, creating an internal contradiction. The writer has selected the Guardian's count (6) without flagging the PBS discrepancy, violating the rule that facts must trace cleanly to the brief, and the brief itself contains an unresolved source conflict."
+    ]
+   }
+  ]
  }
 ]

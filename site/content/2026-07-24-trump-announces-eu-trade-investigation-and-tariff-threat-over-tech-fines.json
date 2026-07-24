@@ -1,0 +1,36 @@
+{
+  "id": "c034",
+  "slug": "trump-announces-eu-trade-investigation-and-tariff-threat-over-tech-fines",
+  "kind": "brief",
+  "title": "Trump Announces EU Trade Investigation and Tariff Threat Over Tech Fines",
+  "dek": "President Trump announced he will launch a Section 301 trade investigation into the EU and threatened substantial tariffs in response to EU fines against Google, Apple, Meta, and Amazon. Trump posted on Truth Social that the EU would pay a 'very big price' and demanded the fines be 'entirely reversed.'",
+  "date": "2026-07-24",
+  "published_utc": "2026-07-24T20:52:09Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 11,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Trump announced a Section 301 trade investigation into the EU and threatened substantial tariffs after the European Commission fined Google 890 million euros for favoring its own apps in competition with rivals.",
+  "bottom_line": "Trump has now linked tariff threats directly to EU antitrust enforcement, a precedent that could reshape how tech regulation is negotiated transatlantically. Watch whether the EU responds to the Section 301 threat by negotiating or defending its regulatory authority, and whether the investigation results in actual tariff increases.",
+  "human_take": "",
+  "body": [
+    "President Trump announced he will initiate a Section 301 trade investigation into the European Union and threatened substantial tariffs in response to antitrust fines the EU has imposed on major US technology companies, according to BBC News reporting.",
+    "The European Commission fined Google 890 million euros (approximately 1 billion dollars) for operating in a way that squeezed out competitors to its services. Trump posted on Truth Social that the EU would pay a \"very big price\" over how it treated Google, Apple, Meta, and Amazon. He stated that the fines against these companies should be \"entirely reversed\" and that he was initiating the trade investigation while considering \"a substantial TARIFF.\"",
+    "Trump said the US would \"immediately initiate a 301 investigation\" over European regulators' alleged practice of \"robbing American companies and, in turn, the American taxpayer.\" Section 301 of the Trade Act of 1974 gives the Office of the United States Trade Representative the power to investigate and react to trade practices believed to be unfair. The second Trump administration has launched several Section 301 investigations since last year, per BBC reporting.",
+    "Trump claimed in his post that Apple had received EU fines of 15 billion dollars, Meta fines of 3 billion dollars, and Amazon fines of 2.5 billion dollars. BBC News states that \"it was not clear where the figures cited by Trump come from.\" The move comes one day after Trump announced new tariffs on 60 trading partners, including the EU, UK, and China, of between 10 percent and 12.5 percent. Last month, Trump threatened a 100 percent import tariff on any European country that introduces a digital services tax on American technology giants, despite many such nations already doing so for years.",
+    "Google's spokesman Jos\u00e9 Casta\u00f1eda told the BBC the company had \"worked hard to comply\" with Europe's Digital Markets Act but had \"expressed our concerns about the impact of recent EC decisions.\" Casta\u00f1eda said Google appreciates \"the engagement by the administration and US government.\"",
+    "Meta, which owns Facebook, Instagram, and WhatsApp, has been fined several times by EU regulators for violations of user privacy and competition laws and is facing new fines over purportedly \"addictive\" features of its apps. Meta stated last year that the EU was \"attempting to handicap successful American businesses.\" Amazon appears to have been investigated by the European Commission at times but avoided major fines; in 2022 it reached an agreement with regulators to change some of its practices in Europe."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cvgjenp4680o?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-07-24T20:52:09Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}
