@@ -1,0 +1,36 @@
+{
+  "id": "c022",
+  "slug": "tens-of-thousands-evacuated-from-french-coastal-peninsula-and-areas-near-madrid-as-wildfires-spread",
+  "kind": "brief",
+  "title": "Tens of thousands evacuated from French coastal peninsula and areas near Madrid as wildfires spread",
+  "dek": "French authorities evacuated 40,000 people from Cap Ferret peninsula and over 23,000 from the Biscarrosse area after massive wildfires consumed over 10,000 hectares. Spain declared a national emergency as fires burned near Madrid, with the region's president calling it the worst fire in the region's history.",
+  "date": "2026-07-24",
+  "published_utc": "2026-07-24T13:05:38Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 6,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Over 40,000 people were evacuated from Cap Ferret in south-west France after a fire that began Tuesday consumed 10,000 hectares; another 23,000 evacuated from Biscarrosse; Spain declared national emergency for fires near Madrid.",
+  "bottom_line": "Both fires remain uncontained with adverse conditions forecast to continue through the weekend. Watch for evacuation updates from Spain, the total damage counts in both countries, and whether the speed and nocturnal behavior of these fires compared to 2022 suggests a shift in fire dynamics tied to weather or fuel conditions.",
+  "human_take": "",
+  "body": [
+    "French authorities ordered complete evacuation of the Cap Ferret peninsula on the south-west coast after a major wildfire spread rapidly. French Interior Minister Laurent Nunez said 40,000 people had either been or were in the process of being evacuated from the peninsula, according to BBC reporting. Hundreds of people escaped by boat, with a local councillor reporting that 2,000 evacuees had already arrived by boat in the port of Arcachon.",
+    "The fires in the Gironde region, which began on Tuesday, consumed 10,000 hectares (almost 25,000 acres), according to officials cited by the BBC. Local prefect Sophie Brocas said 53 homes had been lost along with a campsite, though 2,000 houses had been saved. Two firefighters died on Tuesday while tackling a blaze near Bordeaux airport, per BBC reporting.",
+    "Fire and rescue chief Marc Vermeulen said the wildfire spread rapidly at the end of Thursday and into the early hours of Friday, per the BBC. Vermeulen compared current propagation speeds to the 2022 fires, noting rates of 800 to 1,000 hectares burned per hour in suburban areas. He also noted a critical difference: while 2022 fires exploded at the end of the day when nights were favorable for firefighting, current fires are exploding during the night at midnight or 01:00. Landes prefect Gilles Clavreul said the fire around Biscarrosse would not be out by the end of Friday, with winds of up to 50km/h (31mph) and temperatures of 36-37C, according to the BBC.",
+    "Another major fire around Biscarrosse in the Landes region began on Thursday afternoon and prompted evacuations of more than 23,000 people, according to BBC reporting. About 18,000 people in Biscarrosse and 5,000 in Parentis-en-Born had to leave their homes, campsites, a nursing home, and a summer camp. So far, 105 homes and other buildings had been identified as either partially or completely destroyed by the flames in that area, per the BBC.",
+    "In Spain, the government declared a national emergency as wildfires burned out of control in several areas close to Madrid, according to BBC reporting. Isabel Diaz Ayuso, the president of the community of Madrid, said it was \"The worst fire in the history of the region,\" per the BBC. Spanish Prime Minister Pedro Sanchez spoke of a \"dramatic situation\" and urged people to take great care. Three fires were burning west of Madrid, at Villa del Prado and San Martin de Valdeiglesias, according to the BBC.",
+    "French President Emmanuel Macron said on Thursday night the wildfire situation in the country was \"very tense,\" especially in the Gironde region, according to BBC reporting. The European Union sent three planes and two helicopters to help the French fire effort, and another four planes to Spain, per the BBC."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cdx82rl5g0do?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-07-24T13:05:38Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}

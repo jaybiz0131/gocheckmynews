@@ -1,0 +1,37 @@
+{
+  "id": "c030",
+  "slug": "trump-administration-sets-10-12-5-tariffs-on-60-countries-covering-nearly-all-us-imports",
+  "kind": "brief",
+  "title": "Trump administration sets 10-12.5% tariffs on 60 countries covering nearly all US imports",
+  "dek": "The administration announced new tariffs of 10% to 12.5% on 60 trading partners, replacing a temporary global levy that expired on July 24. The new duties differentiate based on forced labour commitments, per BBC reporting. Trading partners including Brazil, Japan, and Australia criticized the move as unjustified.",
+  "date": "2026-07-24",
+  "published_utc": "2026-07-24T13:05:38Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 1,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The new tariffs, announced by the Trump administration and covering 99.4% of US imports, tier at 10% for countries that have made forced labour import bans versus 12.5% for those that have not, though trade experts dispute the stated rationale.",
+  "bottom_line": "The tariffs represent the administration's second major attempt at broad import duties in less than a year, following the February Supreme Court ruling that struck down the first iteration. The forced labour framing differs legally from the earlier regime, but whether that distinction survives legal challenge remains unresolved. Watch for tariff impacts on US inflation and consumer prices, and for any trading partner lawsuits or retaliatory measures.",
+  "human_take": "",
+  "body": [
+    "The Trump administration imposed new tariffs ranging from 10% to 12.5% on 60 trading partners effective July 24, covering 99.4% of US imports, according to BBC reporting. The move replaces an identical 10% levy that expired the same day, which had temporarily replaced the administration's earlier tariff regime struck down by the Supreme Court in February 2026.",
+    "The two-tier structure differentiates based on forced labour policy. Trading partners that have announced commitments to adopt and enforce bans on goods made with forced labour face a 10% tariff, while those that have not face 12.5%, per the BBC's account of the administration's stated rationale.",
+    "US Trade Representative Jamieson Greer framed the action in human rights terms. According to BBC reporting, Greer said: \"Today's action will begin to correct what is both a human rights abuse and distortive trade practice to improve the welfare of workers everywhere.\"",
+    "However, trade expert Caroline Freund, quoted in the BBC account, offered a different assessment of the administration's motives. Freund stated the forced labour justification is not the true driver, saying Trump is \"looking for a legal reason to put the tariffs in\" and that \"their goals...is about the trade deficit and it is about US manufacturing, it is not about forced labour.\"",
+    "The tariffs produced swift international reaction. Brazil's government called its 12.5% rate \"unjustified,\" Japan said it regretted the levies, and Australian Trade Minister Don Farrell called them \"completely unjustified,\" per BBC reporting. The UK was assigned a 10% universal tariff on top of any duties on individual goods, while the EU negotiated a 10% all-inclusive arrangement, and UK whisky was exempted after a deal struck during a state visit, according to BBC reporting of UK government statements.",
+    "China's foreign ministry denied the forced labour premise. Spokesperson Mao Ning stated, per BBC reporting: \"There is no so-called forced labour in China, and we oppose using this as an excuse for political manipulation.\" That denial contradicts findings from international human rights groups, which according to BBC reporting have documented forced labour in China particularly among Muslim ethnic minorities in Xinjiang.",
+    "The administration has also launched investigations into 16 additional countries over manufacturing overcapacity claims and may impose further tariffs, per BBC reporting, signalling the tariff regime remains in flux."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cvgj61j6l08o?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-07-24T13:05:38Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}

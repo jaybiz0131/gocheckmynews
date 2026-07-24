@@ -995,5 +995,64 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-07-24",
+  "approved": 6,
+  "rejected": [
+   {
+    "id": "c012",
+    "headline": "US and Iran extend strikes as conflict nears four months, Trump threatens escalation",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The conflict has persisted for nearly four months without reported movement toward settlement' in the bottom_line, but the brief does not provide a start date for the conflict or confirm the duration. The core_claim says 'approaches its fourth month,' but this is not the same as 'nearly four months' and the brief's open_questions explicitly ask 'How long has the US-Iran conflict been active\u2014the story says fourth month but does not give a start date.' The writer has asserted duration as fact without brief support.",
+     "The draft references 'Senate Republicans expressing concern' in the bottom_line ('The brief's sources do not carry substantive Iranian response...') but no such statement about Senate Republicans appears anywhere in the brief's data_points or sources. This is smuggled material not present in the research."
+    ]
+   },
+   {
+    "id": "c011",
+    "headline": "Oil surges to $100 per barrel as Trump imposes tariffs on 59 countries and EU",
+    "category": "accuracy",
+    "reasons": [
+     "The draft title and opening state the tariffs apply to '59 countries' but the brief data_points and core_claim specify '59 countries and the European Union'\u2014the EU is a separate entity from the 59 countries. The title should read '59 countries and the EU' to match the brief's framing.",
+     "The draft states tariffs 'cover more than 99% of US imports but exempt major categories including energy and many foods, according to NPR.' However, the brief's data_point on this says only 'Major categories like energy and many foods will remain exempt from the tariffs.' The phrase 'will remain exempt' suggests these exemptions were already in place or confirmed; the draft's phrasing 'but exempt' reads as a factual statement of what is actually happening. This crosses into presentation of a qualified/announced claim as settled fact when the source says 'remain exempt' (future/continuing exemption, not necessarily confirmed current state).",
+     "The draft claims 'The House approved a non-binding resolution yesterday to remove US forces from the war in Iran' and 'The resolution marked the second such rebuke from the House since the war began.' However, the brief's data_point says 'The non-binding resolution reflects lawmakers' disapproval of a war they did not vote to authorize and marked the second such rebuke passed by the House since the war began.' The brief does not state the resolution is specifically to 'remove US forces'\u2014only that it reflects disapproval. The draft has added specificity ('to remove US forces') that is not in the brief."
+    ]
+   },
+   {
+    "id": "c229",
+    "headline": "Iran claims strikes on US assets in Gulf allies; denies peace proposal",
+    "category": "accuracy",
+    "reasons": [
+     "The draft presents three claims as factual: (1) Iran claimed responsibility for attacks on US assets in Bahrain, Jordan, and Kuwait; (2) strikes targeted Sheikh Isa Air Base in Bahrain; (3) Iran denied reports of a new peace proposal. However, the brief's open_questions explicitly state: 'The source text provided is largely website template code; the article body beyond the headline and snippet is not accessible. No substantive detail on Iran's statement, the alleged peace proposal, casualty figures, or US response is available in the fetched text' and 'No confirmation whether the strikes actually occurred or details of their scope and targets beyond the snippet.' The draft cites claims as sourced from the Washington Examiner, but the brief documentation shows the source material was not fully retrievable. Writing draft sentences that treat inaccessible or unverified claims as settled fact violates the hard rule that facts must trace to brief data_points with verifiable sourcing."
+    ]
+   },
+   {
+    "id": "c013",
+    "headline": "US allies reject Trump's forced labor rationale for new tariffs",
+    "category": "accuracy",
+    "reasons": [
+     "Data point 9 states 'former Prime Minister Keir Starmer negotiated a better U.S. trade deal' and data point 10 mentions 'King Charles III obtained a U.S. tariff on Scotch whisky reduction to zero when he visited the White House in April,' but neither claim appears in the draft body. The writer omitted these sourced facts entirely rather than integrating or excluding them consistently.",
+     "Data point 12 claims 'Japan's Chief Cabinet Secretary Minoru Kihara said his country had been reassured by the Trump administration that they would not be slapped with more tariffs,' but the draft only includes Kihara's statement of regret without the reassurance claim, creating an incomplete picture of Japan's position as briefed."
+    ]
+   },
+   {
+    "id": "c186",
+    "headline": "Federal judge temporarily blocks Trump visa policy targeting content moderation advocacy",
+    "category": "accuracy",
+    "reasons": [
+     "Data points 18-19 report that 'A federal judge in Boston ruled against the Trump administration's $100,000 fee for H-1B visas' and 'The administration is appealing the H-1B visa fee decision,' but these claims do not appear in the draft. The writer omitted sourced facts about a separate visa fee case that the source material contained, violating the rule that facts in the brief must either appear in the draft or be deliberately excluded with consistency.",
+     "The draft title states the policy targets 'content moderation advocacy,' but the brief's core claim and data points describe the policy as targeting those involved in content moderation work or organizations\u2014a narrower framing than 'advocacy' implies. This paraphrasing shifts the scope of what the policy actually restricts."
+    ]
+   },
+   {
+    "id": "c102",
+    "headline": "INSUFFICIENT DATA: Return to research queue",
+    "category": "accuracy",
+    "reasons": [
+     "The draft body itself is a rejection memo, not a story. The instructions state the draft should contain title, body, bottom_line, sources\u2014a publishable article. This entry is a meta-commentary on insufficient research and cannot be approved as editorial output. Return to research queue before submission to approvals."
+    ]
+   }
+  ]
  }
 ]
