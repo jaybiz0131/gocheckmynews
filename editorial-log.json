@@ -1235,5 +1235,46 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-07-24",
+  "approved": 8,
+  "rejected": [
+   {
+    "id": "c098",
+    "headline": "U.S. measles cases hit 35-year high in 2026",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states '2,318 measles cases in the first seven months of 2026' but the brief's single data_point does not provide this specific number. The data_point only claims 'More measles cases have been reported in the United States in the last two years than in all the years from 2000 through 2024 combined'\u2014it does not confirm the 2,318 figure or the 'first seven months' timeframe. This figure appears to be smuggled from the source without appearing in the research brief.",
+     "The draft claims this marks a '35-year high' and exceeds the entire 2025 total, but neither claim appears in the brief's data_points. The brief's open_questions explicitly ask 'What are the specific 2026 case numbers and how do they compare to 2025 totals?' and 'What is the 35-year baseline and why is this year considered a 35-year high?'\u2014indicating these facts were not confirmed in the research phase."
+    ]
+   },
+   {
+    "id": "c031",
+    "headline": "ICC Members Vote to Remove Chief Prosecutor Khan Over Misconduct Findings",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'A panel of three judges, reviewing findings from a United Nations Office of Internal Oversight Services (OIOS) investigation conducted from November 2024 to December 2025, concluded that Khan engaged in an improper sexual relationship with a junior ICC staff member.' This misattributes the conclusion: the brief data shows the OIOS investigation identified the allegations, but the panel of three judges reviewed the OIOS findings and determined the serious misconduct\u2014the conclusion came from the judicial panel, not from the OIOS investigation itself. The sentence structure conflates investigator findings with judicial determination.",
+     "The draft presents Khan's denial and legal challenge in the bear_case voice but does not surface it as a substantive counter-narrative in the main body until the final paragraphs. The bear_case material (Khan's denial and procedural challenges) should appear earlier or with clearer prominence to balance the investigative findings presented in the opening and middle sections."
+    ]
+   },
+   {
+    "id": "c055",
+    "headline": "U.S. and Iran Trade Strikes; Trump Proposes Using Frozen Assets for War Damages",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Chairman of the Joint Chiefs of Staff Dan Caine scheduled to attend' the London conference. The brief lists this person as 'Dan Caine' but this name does not appear in any public record as the actual Chairman; this is either a misspelling (likely Cody) or a fabricated identity not verified in the source. The writer must trace this name back to the BBC article or reject it entirely.",
+     "The draft includes a detail that 'Netanyahu is scheduled to attend a service for the late Senator Lindsey Graham' in the brief's data point, but this claim is dropped entirely from the draft. The draft only states Netanyahu is 'scheduled to meet Trump at the White House on Tuesday.' This is not a factual error in the draft itself, but if the brief includes it as a reported claim, its omission may represent selective briefing; however, this is acceptable editorial judgment on relevance. The 'Dan Caine' name error stands as untraced."
+    ]
+   },
+   {
+    "id": "c076",
+    "headline": "11 indicted in deaths of six migrants found in Texas cargo container",
+    "category": "accuracy",
+    "reasons": [
+     "Draft states 'six migrants' but the PBS NewsHour URL in sources contains '7-migrants' in the title. The brief itself flags this discrepancy in open_questions: 'The snippet mentions six migrants but the PBS headline references 7 migrants.' The draft resolves this ambiguity without sourcing the resolution, smuggling a factual choice not justified by the brief."
+    ]
+   }
+  ]
  }
 ]

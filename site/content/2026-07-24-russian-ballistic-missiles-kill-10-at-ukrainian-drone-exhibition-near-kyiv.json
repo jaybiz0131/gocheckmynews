@@ -1,0 +1,37 @@
+{
+  "id": "c047",
+  "slug": "russian-ballistic-missiles-kill-10-at-ukrainian-drone-exhibition-near-kyiv",
+  "kind": "brief",
+  "title": "Russian ballistic missiles kill 10 at Ukrainian drone exhibition near Kyiv",
+  "dek": "A Russian strike on a defense industry drone exhibition near Kyiv killed at least 10 people and wounded approximately 100, according to Ukrainian President Volodymyr Zelensky. Three ballistic missiles were fired; only one was intercepted. The incident marks at least the third time such an exhibition has been hit since Russia's 2022 invasion.",
+  "date": "2026-07-24",
+  "published_utc": "2026-07-24T20:42:20Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 1,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "At least 10 people killed and roughly 100 injured in a daytime Russian ballistic missile strike on a Ukrainian defense industry drone exhibition near Kyiv, per Ukrainian President Zelensky's statement, reported by BBC News.",
+  "bottom_line": "The escalating pace of strikes on both sides, combined with Zelensky's imminent meeting with Trump, signals a critical moment in the conflict's trajectory. Watch the timing and scope of the reported incoming Russian strike and how Ukraine's deep-strike campaign against Russian logistics and military facilities evolves in response.",
+  "human_take": "",
+  "body": [
+    "A Russian ballistic missile strike on a Ukrainian defense industry drone exhibition near Kyiv killed at least 10 people and wounded approximately 100 in a daytime attack, according to Ukrainian President Volodymyr Zelensky's statement reported by BBC News.",
+    "Three ballistic missiles were fired in the attack; only one was intercepted, according to Ukrainian air force spokesman Yuri Ihnat, per BBC reporting. The strike represents part of a broader wave of Russian attacks on Ukraine: at least 15 people were killed overall in Russian operations that day, including five people in the eastern city of Sloviansk who were struck by Russian glide bombs, BBC reported.",
+    "Russia's Defence Ministry confirmed the attack, stating it deployed high-precision long-range weaponry against a site where drones for targeting civil sites in Russia were being demonstrated. The ministry claimed that drone producers, representatives of Ukraine's drone forces, and security services \"directly planning and carrying out strikes on Russian territory\" were present at the event, according to BBC's reporting of the ministry statement.",
+    "Defense Ministry adviser Serhiy Beskrestnov and Lyuba Shypovych confirmed on social media they were unharmed in the strike. Beskrestnov stated he had stayed away from the event due to security concerns, BBC reported. President Zelensky said the incident was being investigated, while Ukraine's prosecutor-general said efforts were under way to establish who authorized holding the event and what safety measures were in place. This is at least the third time since Russia's full-scale invasion in 2022 that an exhibition of this kind has been targeted, per BBC.",
+    "Ukraine responded with deep strikes into Russian territory. An overnight Ukrainian attack killed six people and wounded 26 in the Russian city of Kirov, more than 1,000 kilometers behind the front line, according to BBC reporting. Zelensky said the strike hit one of the most important military facilities in Kirov, supplying components for aircraft and missile equipment used in strikes against Ukraine. Ukraine also attacked warehouses of Wildberries, Russia's largest online retailer; Kyiv says it targets such logistics hubs because they can be used to purchase military equipment and disrupt supplies to the Russian army, BBC reported. At least two Wildberries facilities in the St Petersburg area were struck Friday, part of a series of attacks on the retailer over the past week.",
+    "President Zelensky is expected to travel to the United States next week and is scheduled to meet President Donald Trump on Tuesday, according to a White House official cited by BBC. Trump ally Laura Loomer, who interviewed Zelensky in Kyiv on Friday, quoted him as saying he intends to attend the funeral of U.S. Senator Lindsey Graham on the same day as the Trump meeting.",
+    "On Friday evening, Zelensky said he had received intelligence that Russia was preparing another large-scale missile strike that could occur that day or within the next 48 hours, BBC reported. Romanian President Nicusor Dan said a Romanian F-16 fighter jet shot down a Russian drone that breached the country's airspace on Friday."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cj637zd1k1ko?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-07-24T20:42:20Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}
