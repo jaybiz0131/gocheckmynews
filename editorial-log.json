@@ -1054,5 +1054,69 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-07-24",
+  "approved": 6,
+  "rejected": [
+   {
+    "id": "c104",
+    "headline": "Oil prices surge past $100 per barrel amid renewed Iran fighting",
+    "category": "accuracy",
+    "reasons": [
+     "The draft body states 'The source material does not provide detail on the timing, scale, or parties involved in the renewed fighting' and 'does not quantify the expected inflation impact.' This is a meta-commentary on research gaps, not a news story. The draft violates the hard rule that facts come from the brief, not from the writer's assessment of the brief's inadequacy. The brief itself contains only two thin data_points with zero sourced detail (source_chars: 0). The writer should have rejected the assignment or returned it to research; instead, the draft reads as a research memo masquerading as published copy.",
+     "The statement 'The Trump administration's new global tariffs could compound inflation pressures' is presented without quantification, expert consensus, or causal mechanism\u2014it reads as speculation or inference from the writer, not a fact in the brief."
+    ]
+   },
+   {
+    "id": "c086",
+    "headline": "Ebola outbreak in eastern Congo kills more than 1,000",
+    "category": "accuracy",
+    "reasons": [
+     "The draft body states 'The source material provided does not contain the expert commentary promised in the headline' and 'the analytical depth the headline promises is not yet available.' This is meta-commentary on research insufficiency, not a finished story. Like c104, this is a research memo, not publishable copy. The brief acknowledges the source is truncated (source_chars: 565, open_questions note the text is 'truncated and does not contain expert commentary'). The writer should have rejected the assignment or flagged it for deeper research, not submitted it as a draft.",
+     "The statement 'No approved vaccine or treatment exists for the virus' appears in the draft body but the brief's data_point says 'There is no approved vaccine or treatment'\u2014both match the source, but the draft does not explain why this epidemiological fact is material to readers' understanding of the outbreak's severity or containment prospects, leaving it orphaned from the story's stakes."
+    ]
+   },
+   {
+    "id": "c131",
+    "headline": "CDC investigating record cyclosporiasis outbreak across nine states",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states '7,400 confirmed cases and over 11,500 suspected cases' but the brief's data_points show the CDC is investigating 7,400 cases total and more than 11,500 people are suspected to have been sickened. The draft's phrasing suggests 7,400 are confirmed separately from the 11,500 suspected, which conflates two different data points from the brief and misrepresents the relationship between confirmed and suspected case numbers.",
+     "The draft does not include the definition or symptoms of cyclosporiasis beyond naming it as a parasitic illness. While the draft mentions 'intestinal infection and severe gastrointestinal symptoms,' the brief's open_questions note that the source mentions 'explosive diarrhea' as a symptom, suggesting the source text contains symptom information the draft should reflect. The draft's symptom description is too generic and may not accurately capture what the source reports.",
+     "The brief is marked 'thin: true' with only 3 data_points and incomplete source text. The draft adds disease description ('transmitted through contaminated food or water, causing intestinal infection') that does not appear in any of the three data_points provided in the brief. This is smuggled information outside the research brief."
+    ]
+   },
+   {
+    "id": "c112",
+    "headline": "Measles Cases Hit Record High as Vaccination Rates Decline",
+    "category": "accuracy",
+    "reasons": [
+     "The draft opens with 'Measles cases in the U.S. have reached a new record level' as a factual claim, but the brief explicitly states the source is 'corrupted SVG/image data and contains no readable article content' and 'the actual measles case figures...cannot be extracted from the source provided.' This fact is not in the brief's data_points (which is empty) and cannot be traced to verified source material.",
+     "The draft asserts 'conflicting signals from the Trump administration on vaccine policy' as fact, but the brief's open_questions note 'No direct quotes or specific policy statements from Trump administration officials on measles vaccination are present in the source material.' This claim appears unverified and should not appear as settled fact in the body.",
+     "The draft itself acknowledges mid-body that case figures, regions, hospitalization data, and administration statements 'could not be verified' and 'remain to be confirmed'\u2014this is admission that the lede's factual claims lack source support. A draft cannot assert unverified facts in the opening and then confess the verification problem three paragraphs later."
+    ]
+   },
+   {
+    "id": "c106",
+    "headline": "10-Year Treasury Yield Reaches Highest Level of Trump's Second Term",
+    "category": "accuracy",
+    "reasons": [
+     "The draft opens with 'The yield on the 10-year Treasury bond...has reached its highest level during Trump's second term' as an asserted fact, but the brief explicitly states 'source_texts array is empty; no fetched article content is available to verify the specific Treasury yield level' and 'The specific yield percentage and comparison to prior levels...cannot be verified from the material supplied.' The data_points array is empty; this core claim has no source support in the brief.",
+     "The draft attributes causation ('reflects market concerns amid three concurrent developments: the ongoing conflict with Iran, concerns about government spending levels, and a surge in investment in artificial intelligence technology') but the brief's open_questions state 'Attribution of the yield rise to these three factors is not sourced in the available material.' Causality asserted without source support violates the hard rule that facts go back to research.",
+     "The draft itself confesses mid-body that 'The specific Treasury yield percentage, the exact date it reached this peak...could not be verified from the available source material.' A draft cannot assert verified facts in the lede and then admit verification failure in the body\u2014this reads as placeholder copy masquerading as reporting."
+    ]
+   },
+   {
+    "id": "c135",
+    "headline": "Trump-Aligned Influencer Loomer Reverses Ukraine Stance After Kyiv Visit",
+    "category": "accuracy",
+    "reasons": [
+     "The draft's core factual claim\u2014that Loomer 'reversed her longstanding opposition to Ukraine aid'\u2014appears in the lede as settled fact, but the brief's open_questions explicitly state 'The exact nature and content of Loomer's stated reversal are not captured in the provided source material' and 'No direct quotes from Loomer explaining her change of position are available in the source text.' The nature and substance of the reversal cannot be verified from available sources; this is the story's central claim and it is unverified.",
+     "The draft states 'has previously amplified Russian propaganda narratives' in the opening paragraph as an attributed fact to The Guardian, but the brief's data_point credits The Guardian only for describing her as 'a far-right US blogger who has previously amplified Moscow's propaganda.' The draft's language ('narratives,' phrasing) tracks the brief's language, which tracks The Guardian\u2014this passes\u2014but the brief's open_questions note 'The source text provided is truncated and does not contain the substantive body of the Guardian article,' so even this attribution rests on unverified source material.",
+     "The draft asserts 'reversed her longstanding opposition to Ukraine aid' but the brief's data_points contain no evidence of what her 'longstanding opposition' consisted of. The brief's open_questions state 'The specific details of Loomer's previous positions on Ukraine aid are not available in the fetched text.' The reversal cannot be shown without evidence of the prior position; this fact is smuggled."
+    ]
+   }
+  ]
  }
 ]

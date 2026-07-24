@@ -1,0 +1,38 @@
+{
+  "id": "c031",
+  "slug": "trump-administration-imposes-10-12-5-tariffs-on-60-countries-covering-99-4-of-us-imports",
+  "kind": "brief",
+  "title": "Trump administration imposes 10-12.5% tariffs on 60 countries covering 99.4% of US imports",
+  "dek": "The Trump administration imposed tariffs of 10% to 12.5% on the top 60 US trading partners, covering 99.4% of US imports, citing forced labour concerns. The move replaces identical duties that expired Friday after the Supreme Court struck down an earlier, higher tariff regime in February. Trade experts dispute the forced-labour rationale, arguing the tariffs are designed to address the trade deficit and boost US manufacturing.",
+  "date": "2026-07-24",
+  "published_utc": "2026-07-24T15:18:18Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 1,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "New tariffs of 10-12.5% apply to 60 countries accounting for 99.4% of US imports, replacing an identical temporary duty that expired after a Supreme Court ruling.",
+  "bottom_line": "The tariffs take effect immediately as a replacement to a struck-down regime, narrowing Trump's prior 50% approach into a forced-labour framework. Watch for retaliatory measures from major trading partners and whether the 16 countries under investigation face new duties by the end of the year.",
+  "human_take": "",
+  "body": [
+    "The Trump administration imposed tariffs of 10% to 12.5% on the top 60 US trading partners, citing forced labour concerns and replacing duties identical in scale that expired on Friday following a Supreme Court ruling four months earlier.",
+    "Countries that have committed to adopting and enforcing bans on forced labour imports face a 10% tariff, per BBC News reporting. Those without such commitments face 12.5%. The duties apply to the top 60 US trade partners covering 99.4% of US imports, including the UK, China, and the European Union, according to the BBC.",
+    "The tariffs replace a regime the administration announced in April 2025, when then-President Trump imposed duties of up to 50% on global trading partners in what he called \"Liberation Day.\" In February 2026, the US Supreme Court ruled those tariffs were illegally enacted under emergency powers, exceeding presidential authority. The ruling prompted tens of billions of dollars in refunds, per BBC reporting.",
+    "US Trade Representative Jamieson Greer stated in a BBC-reported comment: \"Today's action will begin to correct what is both a human rights abuse and distortive trade practice to improve the welfare of workers everywhere.\" China's foreign ministry spokesperson Mao Ning countered, saying: \"There is no so-called forced labour in China, and we oppose using this as an excuse for political manipulation.\" International human rights groups have documented forced labour allegations in China, particularly among Muslim ethnic minorities in Xinjiang, the BBC reported.",
+    "Trade experts disputed the stated rationale. Caroline Freund, Dean of the UC San Diego School of Global Policy and Strategy, told the BBC the move is \"not about forced labour\" but that Trump is \"looking for a legal reason to put the tariffs in.\" She stated Trump's goals are \"about the trade deficit and it is about US manufacturing, it is not about forced labour,\" per the BBC. Wendy Cutler, Asia Society Policy Institute's economic security expert, told the BBC the levies are likely to raise costs for businesses and consumers, though impact could be softened by the number of exempted goods. Cutler said most trading partners would likely focus on reducing dependence on the US by making deals with other countries, per BBC reporting.",
+    "The tariffs created competitive disparities among US trading partners. William Bain, head of the British Chambers of Commerce, told the BBC the UK lost comparative advantage against the European Union, as the EU negotiated a 10% all-inclusive deal on its goods while the UK faces 10% universal tariffs on top of individual product duties. UK whisky was exempted after Trump struck a deal during King Charles and Queen Camilla's state visit to the US, the BBC reported. The UK government said firms faced no changes to tariff rates, per BBC reporting.",
+    "Several countries registered objections. Brazil called the 12.5% rate it faces \"unjustified,\" Japan said it regretted the tariffs, and Australian Trade Minister Don Farrell called them \"completely unjustified,\" according to BBC reporting. The administration is investigating 16 additional countries for potential further tariffs, the BBC reported."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cvgj61j6l08o?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-07-24T15:18:18Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "update_of": "trump-administration-sets-10-12-5-tariffs-on-60-countries-covering-nearly-all-us-imports"
+}
