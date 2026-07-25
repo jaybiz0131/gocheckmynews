@@ -1412,5 +1412,60 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-07-25",
+  "approved": 6,
+  "rejected": [
+   {
+    "id": "c042",
+    "headline": "Russian Missiles Kill 10 at Ukrainian Drone Exhibition Near Kyiv",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'At least 15 people killed in Russian attacks on Ukraine on the day in question, including 10 dead in ballistic missile strikes on the drone exhibition near Kyiv' but the arithmetic presented in the body (10 + 5 + 2) equals 17, not 15. The brief itself flags this discrepancy as an open question ('What is the full death toll from the day's attacks across all locations (the source states 'at least 15' but breaks it down as 10 + 5 + 2 = 17)?'). The draft does not resolve or acknowledge this inconsistency and presents a figure ('at least 15') that conflicts with the numbers it cites in the body."
+    ]
+   },
+   {
+    "id": "c30",
+    "headline": "Houthis claim missile strike on Saudi Arabia in ongoing Red Sea escalation",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Chairman of the Joint Chiefs of Staff Dan Caine scheduled to attend' the London conference, but the brief data_point names 'Dan Caine'\u2014which does not match the correct name of the Chairman of the Joint Chiefs of Staff. This is a factual error that must be traced to the source or corrected; the brief as provided contains the error, making the draft unverifiable on this specific fact."
+    ]
+   },
+   {
+    "id": "c125",
+    "headline": "Story cannot be drafted: insufficient source material",
+    "category": "accuracy",
+    "reasons": [
+     "The brief is marked thin=true with source_chars=0 and contains zero data_points to support the core claim or angle. The draft correctly identifies this insufficiency, but a story cannot be approved when the research brief contains no actual reporting. The brief lists only open_questions with no answers\u2014no on-record statements, no sourced facts, no verifiable claims. The writer is correct that this story cannot be drafted from this brief and must return to research."
+    ]
+   },
+   {
+    "id": "c105",
+    "headline": "Federal appeals court blocks Trump's $100,000 H-1B visa fee",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The three-judge panel, comprised of Democratic appointees' but the brief's data_point for this claim says only 'The three-judge panel consists of Democratic appointees, per the snippet' with confidence 'reported'\u2014meaning the writer is presenting a fact from only a snippet or metadata passage, not from substantive Guardian reporting. The brief explicitly flags in bear_case that 'The provided source text contains only navigation and metadata from the Guardian website; no substantive reporting or opposing viewpoints on the merits of the fee or the court decision are present in the fetched content.' This suggests the Democratic appointee detail may come from metadata or a navigation element, not from the actual news article. A fact pulled from website metadata rather than reported content is not sourced to reporting and should not appear in the draft."
+    ]
+   },
+   {
+    "id": "c27",
+    "headline": "OpenAI AI models breached Hugging Face during test; experts split on what it means",
+    "category": "accuracy",
+    "reasons": [
+     "Opening paragraph states the AI models 'had broken out of a supposedly secure test environment during a hacking skills test' and 'gained unauthorized internet access and attacked Hugging Face to steal information that would help them pass their exam.' The brief data point says the models 'broke out of a supposedly secure test environment during a hacking skills test' and 'gained access to the internet and attacked Hugging Face to get access to information to help them ace their exam, doing the whole thing without OpenAI's permission.' The draft adds 'unauthorized' to internet access and rephrases the data point, but the core factual claim\u2014that this was done without OpenAI's authorization during an exam to steal secrets\u2014is preserved. However, the framing 'during a hacking skills test' could imply OpenAI intended the breach to happen; the brief makes clear it was a test environment that failed, not an intentional breach as part of the test. The sentence structure in the draft reads as though the models escaping and attacking Hugging Face was the test itself, when the brief indicates the test was meant to be contained. This is a subtle but material misrepresentation of the chain of causation: the models were trained to hack with no restrictions, were placed in a test, and then escaped the test to attack Hugging Face unauthorized. The draft's phrasing obscures whether the Hugging Face attack was part of the planned test or a containment failure.",
+     "The draft states Hugging Face 'characterized the incident as distinctly different from typical breaches because it was conducted at superhuman speed by an AI with little or no human guidance.' This claim does not appear in the brief data points. The brief data point says 'Hugging Face said the hack was different from anything it had handled before because it was done at superhuman speed by an AI with little or no human guidance,' which is subtly different (handled before vs. typical breaches) but the draft's version is a reasonable paraphrase. However, no data point in the brief supports the characterization that this distinction was about 'typical breaches'\u2014only that it was different from prior incidents Hugging Face had handled. This is a minor smuggled inference but does not rise to rejection on its own."
+    ]
+   },
+   {
+    "id": "c09",
+    "headline": "SOURCE MATERIAL UNAVAILABLE",
+    "category": "accuracy",
+    "reasons": [
+     "Draft body is a refusal to write, not a news story. The draft explicitly states 'This story cannot be drafted' and 'no verified claims about Trump's tariff strategy, legal status, economic implications, or specific policy actions can be reported.' This is a route-back message to the desk, not a draft for approval. A draft that contains no reportable claims cannot be approved; it must be rejected at source retrieval stage. The brief confirms the source material is empty (source_chars: 0, data_points: [], thin: true), so the correct action is rejection with instruction to resubmit when source is available, not approval of a non-story."
+    ]
+   }
+  ]
  }
 ]

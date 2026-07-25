@@ -1,0 +1,36 @@
+{
+  "id": "c168",
+  "slug": "new-jersey-voter-roll-error-6-600-noncitizens-registered-democrats-split-on-what-it-means",
+  "kind": "brief",
+  "title": "New Jersey voter-roll error: 6,600 noncitizens registered; Democrats split on what it means",
+  "dek": "A software error in New Jersey's Motor Vehicle System led to the mistaken registration of roughly 6,600 noncitizens to vote. Democratic lawmakers acknowledged the failure as unacceptable but rejected Republican claims that it evidences systemic fraud. Fewer than 400 of those improperly registered cast ballots, according to Gov. Mikie Sherrill.",
+  "date": "2026-07-25",
+  "published_utc": "2026-07-25T11:03:36Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 10,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "New Jersey's motor vehicle system error registered approximately 6,600 noncitizens to vote; Gov. Sherrill said fewer than 400 of them cast ballots.",
+  "bottom_line": "The next test is whether either party will act on the specific failure without escalating to sweeping claims about systemic fraud or election security overall. Gov. Sherrill's investigation findings and the status of the fewer than 400 ballots cast by ineligible voters will shape whether this incident becomes a model for bipartisan problem-solving or hardens existing partisan divides on election procedures.",
+  "human_take": "",
+  "body": [
+    "A software error in New Jersey's Motor Vehicle System resulted in the mistaken registration of roughly 6,600 noncitizens to vote, according to Gov. Mikie Sherrill, who said the glitch amounted to a 'serious software error' and immediately ordered an investigation. The state's Division of Elections is removing ineligible voters from the rolls. Gov. Sherrill stated that fewer than 400 of those improperly registered cast ballots.",
+    "Democratic lawmakers have acknowledged the failure as intolerable but are drawing a careful distinction between admitting a concrete institutional problem and accepting broader claims of systemic election fraud.",
+    "Sen. Andy Kim, D-N.J., called the error 'just horrible' and said 'we need to try to address that going forward.' Sen. Tammy Baldwin, D-Wis., praised Gov. Sherrill for disclosing the problem 'in a transparent manner' and said election software should be continuously reviewed. Sen. Tim Kaine, D-Va., said the error was 'not acceptable' and pointed to Virginia's voter ID requirements and election audits, citing the state's track record in finding no noncitizen voting problems. Sen. Raphael Warnock, D-Ga., stated that noncitizen voting 'remains extremely rare' and noted that 'people should have to prove that they are who they say they are before they vote, and we have systems in place to ensure that happens.' The company providing identity-related security services for New Jersey's Motor Vehicle System denied any wrongdoing.",
+    "Democrats are also resisting Republican legislative proposals that use the New Jersey incident as a springboard for broader election restrictions. House Democrats largely opposed a legislative package combining a congressional stock-trading ban with federal voter ID measures. Rep. Seth Magaziner, D-R.I., said he would support 'a simple voter ID law' but objected to the House GOP bill because it extended to other measures, saying: 'If they put up a simple voter ID bill for an up-or-down vote without any of the other bulls--- in it, I would vote for it. I think a lot of people on both sides would, too. But they keep adding other stuff, like gutting mail ballots, and that was the problem with yesterday's bill.'",
+    "Rep. Ritchie Torres, D-N.Y., characterized President Donald Trump's claims of widespread election fraud as 'a figment of his imagination' and said 'There's no evidence for it, and I'm not going to validate his false narratives.' According to the Department of Homeland Security, a preliminary review identified roughly 250,000 potential noncitizens who may be registered to vote across New Jersey, California, Nevada, and Pennsylvania. Sen. Kim, however, expressed caution about relying on DHS databases, saying 'I don't trust the idea that we're just going to mesh it with some DHS database. That's where a lot of the problems come in, but we should all be making sure we're looking out for election integrity.'",
+    "The distinction Democrats are drawing rests on a narrow ground: they concede that individual institutional failures require specific remedies but resist the inference that such failures prove broader malfeasance."
+  ],
+  "sources": [
+    {
+      "title": "Fox News",
+      "url": "https://www.foxnews.com/politics/democrats-concede-nj-voter-roll-failure-horrible-reject-broader-fraud-fears"
+    }
+  ],
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-07-25T11:03:36Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}
