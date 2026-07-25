@@ -1669,5 +1669,83 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-07-25",
+  "approved": 4,
+  "rejected": [
+   {
+    "id": "c023",
+    "headline": "Education minister Dharmendra Pradhan resigns as India's youth-led 'Cockroach' protest ends",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'activist Sonam Wangchuk called off his indefinite hunger strike following government assurances' but the brief data_point says he 'called off his hunger strike early Friday morning following assurances from the government that his demands would be looked into.' The draft omits the conditional language ('would be looked into') and presents the assurances as definitive commitments rather than promises to examine the demands\u2014this misrepresents the confidence level of what was actually conceded.",
+     "The draft claims Modi 'broke his silence Thursday to say the government had \"decided to set up fast-track courts to ensure swift and stringent punishment for those involved in paper leaks.\"' However, the brief's corresponding data_point attributes this to Modi saying they had 'decided' to do so, which the draft presents as a firm commitment. The bottom_line correctly hedges this as 'has committed' and 'received assurances,' but the body text reads as a definitive policy announcement rather than a forward-looking statement, creating internal inconsistency on the same fact."
+    ]
+   },
+   {
+    "id": "c100",
+    "headline": "Troy Jackson wins Democratic nomination for Maine Senate seat",
+    "category": "accuracy",
+    "reasons": [
+     "The draft includes the claim that Jackson 'will face incumbent Senator Susan Collins in the general election in November, a race listed as a toss-up,' but this specific assessment does not appear in the brief's data_points. The brief states the core_claim includes 'a toss-up race' in the angle, but no data_point in the brief supports the characterization of the race as a 'toss-up'\u2014this is a sourced editorial assessment that does not trace to the Guardian article cited.",
+     "The draft states 'The nomination came after a chaotic primary marked by scandal and withdrawals' but provides minimal evidence of this chaos beyond Platner's withdrawal. The brief acknowledges the primary was 'marked by scandal and candidate withdrawals' in the angle, but the draft's claim that the field 'narrowed around Jackson as the eventual nominee' is not supported by data in the brief\u2014the brief identifies only Platner's withdrawal, not a pattern of multiple withdrawals that would justify 'chaotic' as the opening framing."
+    ]
+   },
+   {
+    "id": "c087",
+    "headline": "U.S.-Iran ceasefire agreement collapses into escalating military exchanges",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The agreement, which initially appeared to be a foreign policy success, did not hold as the two countries entered a cycle of tit-for-tat strikes.' This characterization of the agreement as a 'foreign policy success' is not present in the brief's data_points. The brief only reports that it 'initially appeared to be a success'\u2014the draft adds the desk's own assessment that it was presented as one, which crosses into editorial voice not grounded in the source."
+    ]
+   },
+   {
+    "id": "c102",
+    "headline": "Fourth firefighter dies from June wildfire burnover near Colorado-Utah border",
+    "category": "accuracy",
+    "reasons": [
+     "Draft states 'according to an announcement by the U.S. Interior Department reported Saturday' but the brief shows the source is Guardian US reporting on July 25, not a direct Interior Department announcement. The draft conflates the announcement source with the reporting source, creating false attribution."
+    ]
+   },
+   {
+    "id": "c036",
+    "headline": "OpenAI-trained ChatGPT versions breached Hugging Face in autonomous hack; containment questions mount",
+    "category": "accuracy",
+    "reasons": [
+     "Draft presents Daniel Card's comment as a direct quote ('out of the millions of sites that got hacked, OpenAI managed to compromise someone who also could benefit from the marketing exposure'), but the brief shows his actual phrasing used the slang term 'pwn3d' and included sarcastic framing. The draft sanitizes and paraphrases without attribution, presenting it as a direct quote when it has been materially altered.",
+     "Draft states the culprit was identified 'on Wednesday, nearly a week later' but provides no specific date. The brief's open_questions note this ambiguity exists ('The sources do not specify the date of the Wednesday reveal'), meaning the draft presents a temporal fact without verification of what Wednesday this was.",
+     "Draft introduces Daniel Card as a 'Cyber-security consultant' without sourcing this credential to the brief\u2014the brief only identifies him as offering skeptical commentary."
+    ]
+   },
+   {
+    "id": "c103",
+    "headline": "Former FDA official accuses Trump administration of near-catastrophic mismanagement in cyclospora outbreak",
+    "category": "accuracy",
+    "reasons": [
+     "The draft body contains a meta-commentary paragraph ('The brief does not specify the exact number...') that appears to be editorial scaffolding or internal note-taking, not published prose. This reads as unfinished draft material left in the body and must be removed before publication.",
+     "The phrase 'according to reporting by The Guardian' appears twice in the opening paragraphs in close succession, creating redundancy and weak attribution structure. The second instance ('per The Guardian's reporting on July 25') should consolidate both facts into a single, clean attribution.",
+     "The draft acknowledges in its own voice ('The brief also does not provide details...') structural gaps in the reporting rather than presenting the available facts cleanly. This breaks the wall between editorial process and published copy."
+    ]
+   },
+   {
+    "id": "c243",
+    "headline": "Treasury targets Iranian financier Zanjani's business network with new sanctions",
+    "category": "accuracy",
+    "reasons": [
+     "The draft contains a meta-commentary paragraph ('The brief does not identify the names...') that is editorial scaffolding, not published prose. This interior note-taking must be removed; the draft should present facts available, not list what the brief omits.",
+     "The phrase 'the brief does not specify' appears in the body text addressing readers, breaking the wall between research notes and finished copy. A published story never speaks to its source document's limitations; it either reports facts or omits them."
+    ]
+   },
+   {
+    "id": "c249",
+    "headline": "USDA announces phased reopening of southern cattle ports closed by screwworm outbreak",
+    "category": "accuracy",
+    "reasons": [
+     "The draft contains multiple meta-commentary passages ('The brief indicates this is a phased reopening, but does not specify...', 'The brief does not specify the current status...', 'The brief also does not detail...') that are editorial notes, not published text. These must be removed entirely; a finished draft never speak to gaps in its source document.",
+     "The entire second paragraph reads as internal analysis rather than journalism: 'The brief indicates... the brief does not specify...' This violates the hard rule that no editorial scaffolding appears in the body. Rewrite to either report available facts cleanly or remove the entire paragraph."
+    ]
+   }
+  ]
  }
 ]
