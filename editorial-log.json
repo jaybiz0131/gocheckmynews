@@ -1607,5 +1607,67 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-07-25",
+  "approved": 6,
+  "rejected": [
+   {
+    "id": "c129",
+    "headline": "India's Gen Z Student Protesters Force Education Minister's Resignation",
+    "category": "accuracy",
+    "reasons": [
+     "The brief explicitly states 'The source text is empty; no details are available' and has zero source_chars. The draft contains multiple specific factual claims (resignation, exam paper leaks, protest scale, social media organizing, government concessions) that cannot be traced to any data_points in the brief. The writer has fabricated a complete narrative from a sourceless brief.",
+     "The core_claim itself is unverified ('secured the resignation' and 'government concessions') with open_questions explicitly stating these details are unavailable. The draft presents these as accomplished facts rather than alleged or announced-not-verified.",
+     "The draft's framing ('concrete victory', 'force high-level government personnel changes') reads as interpretation and advocacy on an unverified premise."
+    ]
+   },
+   {
+    "id": "c085",
+    "headline": "Major Wildfires Force Hundreds of Thousands to Evacuate in Spain and France",
+    "category": "accuracy",
+    "reasons": [
+     "The brief has zero source_chars and lists only one data_point ('Hundreds of thousands of people...were forced to evacuate or told to remain indoors') with 'reported' confidence. The draft contains multiple unsourced specific claims: 'major wildfires spread across southern France and Spain,' 'fires produced hazardous smoke,' 'evacuation orders forced families, tourists, and seasonal workers to leave homes, hotels, and vacation sites,' and 'peak summer season.' These details appear nowhere in the brief's single data_point and violate the hard rule that facts must trace to the brief.",
+     "The brief's open_questions explicitly flag that 'Number and scale of individual wildfires not specified,' 'Timeline for evacuation orders or expected duration of sheltering not provided,' and 'Current status of fires or containment efforts not detailed in source.' The draft treats these unknowns as established facts rather than gaps."
+    ]
+   },
+   {
+    "id": "c083",
+    "headline": "Iran Ceasefire Deal Collapses Into Military Escalation",
+    "category": "accuracy",
+    "reasons": [
+     "The draft's second paragraph states Trump 'threatened a \"massive\" escalation' with attribution to 'the Times reporting', but the brief's data_point specifies the confidence level is 'reported'\u2014meaning it comes from the Times article. The draft presents this as a fact without any hedging language appropriate to a single-source claim about a threat/statement that could be verified independently. The attribution is present but the confidence framing is weak.",
+     "The opening sentence claims the agreement 'rapidly deteriorated into 13 consecutive days of tit-for-tat military strikes' as though this is a settled fact, but the brief marks this as 'reported' confidence\u2014meaning it is dependent on a single article and readers cannot verify the count independently. The draft should signal this is NYT's reporting of the escalation, not an independently confirmed count.",
+     "The draft's third paragraph is problematic: it begins 'The brief does not detail...' This is a red flag. The writer is editorializing about the brief's limitations rather than working within them. This paragraph reads as the writer flagging gaps rather than reporting what is known. This violates the hard rule that 'no fact exists outside the brief'\u2014the writer should not be calling attention to what the brief lacks; they should write what it contains."
+    ]
+   },
+   {
+    "id": "c015",
+    "headline": "Maine Democrats Nominate Troy Jackson to Challenge Susan Collins",
+    "category": "accuracy",
+    "reasons": [
+     "The draft includes a direct quote from Jackson: 'This campaign is powered by people who are sick of watching billionaires and corporations buy influence while working families get screwed. Together, we're building the grassroots movement it will take to defeat Susan Collins and give Maine a senator who answers to working people.' The brief's data_point lists this statement but provides no source URL or confirmation that it is a direct, verified quote from Jackson. A fabricated or misquoted statement in the draft is an accuracy failure. The quote must be verifiable in the NPR source or not included.",
+     "The draft repeats the fundraising comparison twice (paragraph 3: 'Jackson's campaign reported raising more than $1 million since he announced his run' and final paragraph: 'Jackson has reported $1 million in total haul since beginning his campaign, while Collins holds an $11 million cash advantage'). This is not a factual error but it signals sloppy construction. More critically, the final paragraph uses 'with just over 100 days until the election' without a source date. If voting ends November 3, the reader cannot verify '100 days' without knowing the article date. This is an unattributed time-dependent claim.",
+     "The draft states 'he has faced minimal public pushback from Maine state leaders, per NPR' but the brief's bear_case includes 'Whether Jackson can command the same level of enthusiasm that Platner garnered over the past year remains an open question, even to some Mainers who plan to cast their ballot for him.' This is a contradiction: the draft implies Jackson has faced little criticism, but the brief flags that his enthusiasm level versus Platner's is an open question. The draft should acknowledge that his durability as a candidate is unproven, not that he has faced minimal pushback."
+    ]
+   },
+   {
+    "id": "c080",
+    "headline": "Investigation: Trump's Push for Faster Air Force One Delivery Led to Cost Overruns and Safety Cuts",
+    "category": "accuracy",
+    "reasons": [
+     "The brief contains zero data_points. The core_claim states the investigation 'found that President Trump's push...resulted in cost overruns and trade-offs in safety features,' but there are no supporting facts, numbers, or details in the data_points array. The draft repeats the core_claim almost verbatim ('A New York Times investigation found that President Trump's push...resulted in cost overruns and trade-offs in safety features') but has no concrete facts to back it. The second paragraph of the draft admits this: 'The investigation does not specify which safety features were traded off, the extent of the cost overruns, the original delivery timeline versus Trump's accelerated target, or the sources behind the findings.' This is the writer again editorializing about gaps in the brief rather than reporting what is known. The draft should either contain verifiable details from the brief or be rejected for insufficient sourcing.",
+     "The draft's second sentence states 'The investigation does not specify...' This is a critical error: the writer is telling readers what the NYT investigation didn't report, rather than reporting what it did. This reads as the draft admitting the story is too thin to publish. If the brief has no data_points, the draft cannot credibly claim to cover a 'New York Times investigation' without specifics\u2014it is reporting on the existence of an investigation, not the investigation's findings."
+    ]
+   },
+   {
+    "id": "c097",
+    "headline": "Former FDA official accuses Trump administration of mishandling cyclospora outbreak",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states Yiannas 'accused the Trump administration of near-catastrophic mismanagement' in the opening paragraph, but the brief's data_point says he 'accused the Trump administration of near-catastrophic mismanagement of a cyclospora outbreak'\u2014the draft's language omits 'of a cyclospora outbreak,' creating ambiguity about what mismanagement he accused them of. More critically, the second paragraph then says 'Yiannas's specific criticisms of the federal response remain undetailed in available reporting,' which contradicts the confident accusation in the lead. The lead presents the accusation as established fact while the body immediately acknowledges the specifics are unknown\u2014this is a structural accuracy problem that smuggles uncertainty into the headline claim."
+    ]
+   }
+  ]
  }
 ]
