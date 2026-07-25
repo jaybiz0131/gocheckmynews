@@ -1542,5 +1542,70 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-07-25",
+  "approved": 5,
+  "rejected": [
+   {
+    "id": "c084",
+    "headline": "U.S.-Iran Ceasefire Agreement Collapses Into Military Escalation",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'A ceasefire agreement between the U.S. and Iran signed in June 2026 has unraveled into escalating military strikes' but the brief contains zero data_points. No facts in the draft can be traced to sourced research; the entire story is built on claims not verified in the research brief. The writer's hard rule\u2014no fact exists outside the brief\u2014is violated."
+    ]
+   },
+   {
+    "id": "c248",
+    "headline": "Iran marks first night without U.S. strikes in two weeks as tensions persist",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'a 13-day consecutive cycle of tit-for-tat strikes' but the brief data_point says 'a streak of 13 consecutive days of tit-for-tat strikes.' The draft's language ('cycle of tit-for-tat strikes') could be read as implying rounds of strikes over 13 days, whereas the brief indicates 13 consecutive days of strikes. This ambiguity is material given the story's focus on whether the pause represents de-escalation. The exact nature of the 13-day pattern (continuous vs. cyclical) must be clarified against the source.",
+     "The draft presents 'alleged violations of a ceasefire agreement signed last month' as established fact. The brief data_point says 'alleged violations,' but the draft does not preserve the 'alleged' qualifier; it reads as settled fact that violations occurred, not that they were claimed. This is a confidence/accuracy issue."
+    ]
+   },
+   {
+    "id": "c014",
+    "headline": "Trump pursues new legal justifications for tariffs amid trade policy uncertainty",
+    "category": "clarity",
+    "reasons": [
+     "The draft acknowledges it is under-reported and delegates the problem to the bottom_line. The body itself contains only one substantive claim from the brief, restated with caveats about what is missing. This is not a reporting failure; it is a drafting failure. The draft should either not run (if the brief is too thin), or the writer should have returned to reporting. A story that consists mainly of 'this is not in the reporting' is not a finished draft; it is a rejection note in draft form. The bottom_line's instruction to 'return to NPR's full story' signals the desk that this draft was never ready for approval."
+    ]
+   },
+   {
+    "id": "c031",
+    "headline": "Trump attends rescheduled White House Correspondents' dinner, mixes praise with criticism",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states Cole Tomas Allen 'was tackled by agents while allegedly attempting to assassinate the president' but the brief's data point says he 'has been charged with attempting to assassinate the president,' marking a material difference in how the allegation is framed. The brief distinguishes between charge/allegation status, which the draft obscures by using 'allegedly' as a modifier to 'attempting' rather than to the assassination charge itself.",
+     "The draft presents Allen as 'allegedly attempting to assassinate' which softens the charge status. The brief data point marks this as 'reported' confidence (not 'alleged' or 'charged'), meaning the draft should attribute the assassination attempt charge more precisely to OpenAI's or official account rather than hedge it with 'allegedly.'"
+    ]
+   },
+   {
+    "id": "c035",
+    "headline": "OpenAI security test exposes questions about AI containment",
+    "category": "balance",
+    "reasons": [
+     "The brief's bear_case contains four substantial points questioning whether this was a publicity stunt or representing a genuine AI escape, with named skeptics (Daniel Card, social media commenters, Francesca Bosco's measured take). The draft includes these skeptical voices but buries them in the middle paragraphs and frames them as secondary 'competing interpretations' rather than as integral parts of the story's tension. The opening two paragraphs present OpenAI's account as settled fact ('broke out,' 'gained access to the internet,' 'attacked Hugging Face') without immediate qualification.",
+     "The lead and opening paragraphs adopt OpenAI's framing ('according to OpenAI's account') but the skepticism in the bear_case\u2014that this may be a deliberate marketing exercise\u2014deserves equal weight in the story structure given the brief's explicit core tension. Bosco's warning against simplistic narratives appears late and her measured interpretation is presented as one voice among many rather than as a major analytical frame that should anchor the opening."
+    ]
+   },
+   {
+    "id": "c081",
+    "headline": "Trump's push to accelerate new Air Force One delivery raises cost and safety questions",
+    "category": "accuracy",
+    "reasons": [
+     "The core claim states the Times investigation 'found that President Trump's push to accelerate delivery of a new Air Force One aircraft resulted in cost overruns and trade-offs in safety features,' but the brief contains zero data_points and explicitly notes 'source_chars: 0'\u2014meaning no source text was fetched or is available. The draft presents as fact a conclusion that cannot be traced to any accessible source material. The investigation's findings cannot be verified."
+    ]
+   },
+   {
+    "id": "c245",
+    "headline": "Biden voluntarily dismisses lawsuit blocking release of memoir ghostwriter audio",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The dismissal came after a panel of circuit court judges rejected Biden's petition to prevent the recordings from being released,' attributing this sequence to The Hill. However, the brief's open_questions note 'The source text is empty; only the snippet is available' with 'source_chars: 0.' No source material was fetched to verify the temporal sequence (dismissal after rejection) or the causal relationship. The draft cannot trace this claim back to accessible source text."
+    ]
+   }
+  ]
  }
 ]
