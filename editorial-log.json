@@ -1816,5 +1816,38 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-07-25",
+  "approved": 9,
+  "rejected": [
+   {
+    "id": "c023",
+    "headline": "India's Education Minister resigns after five-week student protest over exam integrity and jobs",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'the Cockroach Janta Party called off its five-week occupation at Jantar Mantar in New Delhi' but the brief shows no data_point confirming the protest location was Jantar Mantar or that it was an 'occupation' in that specific form. The draft presents these details as fact from the brief when they are not explicitly included in the data_points.",
+     "The draft attributes to BBC reporting the statement that 'it is clear the protests have dealt a severe blow to the prime minister's personal brand and his aura of invincibility' (paragraph 4), but this claim appears in the brief as data_point 17 which says 'it is clear that the protests have dealt a severe blow...' This reads as editorial analysis presented as BBC reporting rather than an attributed judgment.",
+     "The draft includes the detail about CJP founder Abhijeet Dipke being 'a 30-year-old political communications strategist and former student at Boston University' screaming 'We have done it' from the stage. While this appears in brief data_point 4, the draft never mentions this founder by name or includes this quote, so this is internally consistent, but the omission of the founder's identity is a material gap given the personalization of the movement."
+    ]
+   },
+   {
+    "id": "c102",
+    "headline": "Troy Jackson wins Maine Democratic Senate nomination after original candidate withdraws",
+    "category": "accuracy",
+    "reasons": [
+     "The draft claims 'roughly 100 days remaining until the general election' but no data_point in the brief specifies the number of days until the general election. The brief timestamp is 2026-07-25; the draft presents a specific figure ('roughly 100 days') not sourced to the brief.",
+     "The bottom_line references 'statements from Jackson on education reform or other campaign planks' as a watch item, but no data_point in the brief mentions education reform or Jackson's campaign planks. This watch item introduces new information not derived from the brief, violating the hard rule that facts/expectations must trace to the research brief."
+    ]
+   },
+   {
+    "id": "c101",
+    "headline": "More than 1 million children lost SNAP food benefits after One Big Beautiful Bill Act",
+    "category": "balance",
+    "reasons": [
+     "The brief's angle explicitly frames this as 'a policy change tied to Trump administration legislation' with questions about 'welfare reform' and 'legislative safeguards,' but the draft presents no counter-argument from the administration, congressional sponsors, or USDA defending the bill's rationale or disputing the harm characterization. The brief carries an empty bear_case, yet the draft's framing ('stripped food assistance,' 'vulnerable population,' opening with loss as the lead story) reads entirely in one direction without presenting the case that proponents might make for the policy change. A story sourced to The Guardian (left-leaning per AllSides) about a Trump administration policy, with no administration voice or competing frame, violates the balance requirement to present what each side says without adopting either voice."
+    ]
+   }
+  ]
  }
 ]
