@@ -1336,5 +1336,81 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-07-25",
+  "approved": 4,
+  "rejected": [
+   {
+    "id": "c079",
+    "headline": "Trump sets new tariffs on trading partners, covering nearly all U.S. imports",
+    "category": "balance",
+    "reasons": [
+     "The bear_case in the brief includes Freeland's statement that the U.S. is 'beating up more fiercely on its allies, on its close friends, than it is on the countries to which it is antagonistic' and her warning about long-term weakening of the country. The draft omits this key framing point, which changes how readers understand the nature of the objection to the tariffs\u2014the draft presents Freeland's critique as economic (inflation, consumer tax) but drops the strategic/alliance argument that occupies substantial space in the brief's bear_case.",
+     "The brief's bear_case also flags Freeland's statement that 'inflation is still high in the United States, and these policies are keeping it there.' The draft quotes her saying tariffs are 'one of the things that is driving inflation' but omits the explicit claim about current high inflation levels, softening the bear_case impact."
+    ]
+   },
+   {
+    "id": "c78",
+    "headline": "SOURCE MATERIAL UNAVAILABLE - STORY CANNOT BE DRAFTED",
+    "category": "accuracy",
+    "reasons": [
+     "The draft itself acknowledges that source material is unavailable and corrupted (HTML metadata fragments only, no article text). The brief's 'thin: true' flag and 'source_chars: 115' confirm the source is unusable. This story cannot be published as-is because there are zero data_points in the brief\u2014no facts to trace back to sourced claims. The draft is a meta-commentary on the brief's failure, not a story. The desk must reject and require full article text or re-reporting before any draft can be approved."
+    ]
+   },
+   {
+    "id": "c022",
+    "headline": "ICC member states vote to remove chief prosecutor Karim Khan",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Trump's administration has brought sanctions against Khan and a dozen other ICC staff in retaliation for warrants the court issued for Israeli officials and investigations into U.S. personnel in Afghanistan.' This claim appears in the body but is not present as a standalone data point in the brief's data_points array until item 21, which is listed AFTER the Venezuela section in the draft. The sequential placement in the draft suggests this context should have appeared earlier when discussing U.S. pressure, but more critically, the timing and relationship of these sanctions to Khan's removal is unclear from the source attribution\u2014the draft does not clarify whether these sanctions preceded or followed the vote, creating potential ambiguity about causation.",
+     "The draft quotes Israel's ambassador Danny Danon at length characterizing Khan's actions as a 'political witch hunt' and 'politically motivated arrest warrant,' presenting this as his statement. However, the brief's bear_case lists Danon's characterization, meaning this is the opposing side's framing, not neutral reporting. The draft presents Danon's political interpretation without sufficient contextualization that this is one party's contested characterization of the prosecutor's actions, not an independent assessment. This reads as adoption of Israeli framing rather than neutral attribution."
+    ]
+   },
+   {
+    "id": "c125",
+    "headline": "Judge rules FDA restrictions on mifepristone are arbitrary and capricious",
+    "category": "clarity",
+    "reasons": [
+     "The brief is marked 'thin': true with only 3 data_points and 6000 source_chars. The draft is extremely sparse (2 paragraphs, ~180 words) even for a thin brief. While brevity is not inherently a failure, the bottom_line admits critical information is missing: 'The specifics of which FDA restrictions the judge found arbitrary remain unclear.' This is a core fact\u2014WHICH restrictions were ruled arbitrary\u2014and the draft does not retrieve it from the source. The writer's own bottom_line confession that key details are unavailable suggests the source reporting itself was insufficient, but the draft should either contain more specifics or explicitly signal in the body (not just the lede) that those details are not yet available. As written, it reads incomplete rather than strategically tight. The second paragraph ('The ruling marks a rare judicial challenge...') adds no new information from the source and functions as throat-clearing rather than forward stakes."
+    ]
+   },
+   {
+    "id": "c105",
+    "headline": "Paramount agrees to freeze merger pending antitrust ruling",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Multiple states have filed an antitrust lawsuit challenging the transaction' but the brief contains only one data point confirming the freeze and does not specify which states or that multiple states filed. This fact is not traceable to the brief's sourced data.",
+     "The draft claims 'blocking it from proceeding while litigation moves forward' as a direct causal mechanism, but the brief only confirms the freeze pending court review\u2014whether states' actions legally block it or Paramount voluntarily agreed is not established in the brief's single sourced claim."
+    ]
+   },
+   {
+    "id": "c124",
+    "headline": "Appeals court rejects Trump's $100,000 H-1B visa fee",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states the three-judge panel 'consisted of Democratic appointees' as a direct factual claim, but the brief's confidence label on this data point is 'reported'\u2014meaning it comes from Guardian US reporting, not verified independently. The sentence reads as settled fact rather than attributed reporting and could invite liability if the appointee information is incomplete or contested.",
+     "The draft claims 'The decision blocks a Trump administration attempt to expand immigration policy restrictions through the visa fee mechanism' using language that characterizes the fee as an 'attempt' to restrict immigration, which reads as editorial framing rather than neutral reporting of what the court found."
+    ]
+   },
+   {
+    "id": "c109",
+    "headline": "Taiwan Steps Up Planning to Resist a Chinese Blockade at Sea",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'No additional operational details on the specific military exercises, concrete security measures, timelines, or evidence of Chinese blockade-related maneuvers are available from the source material at this time.' This is a meta-commentary about what is NOT in the sources, which itself is not a fact from the brief and reads as editorial hedging rather than reporting. The brief contains only one data point; the draft should report that fact cleanly without apologizing for the brief's limitations.",
+     "The draft presents the Taiwan blockade-resistance planning as confirmed fact, but the brief marks all claims as 'reported' confidence only, not verified. The prose should reflect this uncertainty more clearly."
+    ]
+   },
+   {
+    "id": "c021",
+    "headline": "Democrats Approve New Primary Calendar, Putting South Carolina First in 2028",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Committee member David McDonald argued: \"The place to start is in the West. The place to start is in Nevada...\"' but the brief's data point attributes this quote to a 'Committee member' without specifying the name as David McDonald. The draft has invented or assumed the speaker's identity beyond what the brief supports.",
+     "The draft claims 'Nearly one in four registered voters in South Carolina is Black, according to state voting data cited by NPR' but attributes this to 'state voting data cited by NPR'\u2014the brief credits 'state voting data' without specifying that NPR cited it. This is a minor but real divergence from the sourcing chain provided in the brief."
+    ]
+   }
+  ]
  }
 ]

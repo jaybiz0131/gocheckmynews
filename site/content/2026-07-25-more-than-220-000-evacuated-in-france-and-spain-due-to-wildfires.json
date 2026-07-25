@@ -1,0 +1,37 @@
+{
+  "id": "c029",
+  "slug": "more-than-220-000-evacuated-in-france-and-spain-due-to-wildfires",
+  "kind": "brief",
+  "title": "More than 220,000 evacuated in France and Spain due to wildfires",
+  "dek": "Wildfires across southwestern France and the Madrid region have forced evacuations totaling more than 220,000 people, with Spanish officials declaring a national emergency. Three fires near Madrid merged into a single blaze described as beyond firefighters' capacity to contain, while French authorities mobilized the military to assist response efforts.",
+  "date": "2026-07-25",
+  "published_utc": "2026-07-25T07:32:42Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 1,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "More than 220,000 people evacuated across France and Spain; Madrid region official calls fires the worst in regional history.",
+  "bottom_line": "The simultaneous spread across two nations and the merging of separate fire fronts into single mega-blazes mark a departure from typical regional fire patterns. What will determine whether authorities succeed in preventing further mergers between the Madrid and \u00c1vila fires, and whether the scale of evacuations stabilizes or expands.",
+  "human_take": "",
+  "body": [
+    "More than 220,000 people have been ordered to evacuate across southwestern France and the Madrid region as wildfires spread rapidly across both countries, with officials declaring national or regional emergencies and deploying military resources to contain the blazes.",
+    "According to BBC News reporting, almost 60,000 people were newly ordered to evacuate near Bordeaux, bringing total evacuations in France and Spain to more than 220,000. Around 200,000 of those evacuations occurred in the Gironde and Landes regions of southwestern France, where French President Emmanuel Macron has mobilized the military to assist the response.",
+    "In Spain, three separate fires west of Madrid merged into a single blaze that officials describe as beyond the capacity of firefighters to contain. The Spanish government declared a national emergency, ordering 25,000 people to evacuate and nearly 40,000 to remain indoors. Madrid's regional president Isabel D\u00edaz Ayuso characterized the fire as the worst in the region's history, citing what she called a perfect storm of high temperatures, relentless wind, and merging fire fronts. Carlos Novillo, the Madrid regional government's emergency management chief, stated: \"The wildfire is at its peak and is currently beyond the capacity of firefighters to contain.\"",
+    "The Military Emergency Unit has been deployed to focus on protecting areas near the town of El Escorial, roughly 50 kilometers from Madrid. According to BBC News, at least 6,000 hectares of land have burned in the Madrid region, while a separate blaze in \u00c1vila province has consumed almost 9,000 hectares. Officials are monitoring the Burgohondo fire in \u00c1vila, fearing it could merge with the Madrid blaze. Spain's Interior Minister Fernando Grande-Marlaska said authorities were doing everything possible to prevent the two fires from joining.",
+    "Eight municipalities have been fully evacuated: Chapiner\u00eda, Navas del Rey, Colmenar del Arroyo, Fresnedillas de la Oliva, Robledo de Chavela, Aldea del Fresno, Navalagamella, and Zarzalejo. Several other towns, including San Mart\u00edn de Valdeiglesias, Pelayos de la Presa, and Villa del Prado, remain under lockdown. Francisco Mart\u00edn, the government delegate in Madrid, warned that evacuation numbers could rise, noting that \"embers are flying for miles and the fire is jumping great distances.\" The mayor of El Tiemblo reported that flames spread from Navaluenga to the Iruelas Valley, a distance of about 20 kilometers, in less than half an hour.",
+    "According to BBC News, the Civil Guard has arrested one person and is investigating another in connection with the Burgohondo fire, which officials said may have been caused by negligence involving heavy machinery used during a period of fire restrictions. Prime Minister Pedro S\u00e1nchez plans to visit the emergency coordination center early Saturday."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/czjlenp0xk8o?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-07-25T07:32:42Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "update_of": "tens-of-thousands-evacuated-from-french-coastal-peninsula-and-areas-near-madrid-as-wildfires-spread"
+}

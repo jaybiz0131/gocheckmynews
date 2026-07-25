@@ -1,0 +1,38 @@
+{
+  "id": "c198",
+  "slug": "trump-ties-saudi-nuclear-deal-to-abraham-accords-membership",
+  "kind": "brief",
+  "title": "Trump ties Saudi nuclear deal to Abraham Accords membership",
+  "dek": "Trump said Friday that Saudi Arabia must join the Abraham Accords before the U.S. proceeds with a civilian nuclear agreement. He claimed the condition was understood during prior negotiations and that any deal would require congressional approval and limit enrichment to civilian use.",
+  "date": "2026-07-25",
+  "published_utc": "2026-07-25T07:32:42Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 7,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Trump stated Saudi Arabia 'have to be a member of the Abraham Accords' before the U.S. moves forward with a civilian nuclear agreement.",
+  "bottom_line": "The condition signals Trump's broader strategy of making Israeli regional normalization a non-negotiable precondition for major U.S. Middle East policy moves. Watch for Saudi Arabia's official response and whether Congress raises questions about conditioning nuclear cooperation on unrelated regional diplomatic commitments.",
+  "human_take": "",
+  "body": [
+    "The Trump administration will not proceed with a civilian nuclear agreement with Saudi Arabia unless the kingdom joins the Abraham Accords, according to comments Trump made Friday during an Oval Office event on nuclear energy.",
+    "Trump's condition ties a major bilateral security and economic partnership to a separate regional normalization agreement with Israel, effectively making Israeli recognition a prerequisite for U.S. nuclear technology access.",
+    "According to Fox News reporting, Trump said Saudi Arabia 'have to be a member of the Abraham Accords' and stated that the condition 'was always understood' during prior negotiations. \"Chris knew and Saudi Arabia knew that if they joined the Abraham Accords, the deal is not, I'm not going to do the deal,\" Trump said, referring to Energy Secretary Chris Wright, who had announced progress on the Saudi nuclear deal before Trump's condition statement. Trump also rejected the suggestion that Wright had gotten ahead of him on the announcement.",
+    "Trump specified that any deal with Saudi Arabia would be 'limited to civilian nuclear energy' with 'no enrichment. It's civil nuclear,' per Fox News reporting. He also stated that any deal would still require congressional approval and would not move forward unless Saudi Arabia joined the Abraham Accords.",
+    "Trump argued in support of the policy that 'there's no longer an Iran factor. There's no longer Iran to worry about because they've been reduced in terms of their capability and power by many fold,' according to Fox News. He emphasized the Abraham Accords 'have been very successful' and 'bring peace in the Middle East.'",
+    "The remarks came during an Oval Office event celebrating a 'historic milestone for civilian nuclear energy' after four privately funded reactor companies met Trump's goal of bringing new reactor designs online by the Fourth of July, per Fox News reporting.",
+    "The brief does not carry Saudi Arabia's official response to the condition, what specific congressional approval process would apply, or the exact timeframe Trump envisions for Saudi Arabia to join the Abraham Accords before the deal moves forward."
+  ],
+  "sources": [
+    {
+      "title": "Fox News",
+      "url": "https://www.foxnews.com/politics/trump-says-saudi-nuclear-agreement-wont-move-forward-without-abraham-accords-they-have-to-be-member"
+    }
+  ],
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-07-25T07:32:42Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "update_of": "trump-ties-u-s-saudi-nuclear-deal-to-israeli-recognition"
+}
