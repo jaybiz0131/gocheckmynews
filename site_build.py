@@ -411,7 +411,7 @@ def footer(brand="site"):
     <div class="flinks">{links}</div>
   </div>
   <p class="fnote"><b>{esc(NFA)}</b> {note}
-    &copy; {YEAR} {who} &middot; <a href="{FAMILY_HUB}">A GoCheckMy site</a>.</p>
+    {who} &middot; <a href="{FAMILY_HUB}">A GoCheckMy site</a>.<br>&copy; {YEAR} Go Check My Brands LLC</p>
 </div></footer>"""
 
 
@@ -1263,6 +1263,7 @@ def render_about(dateline):
      carefully, what it may mean. What you do with that is yours.</p>
 
   <h2>Contact the desk</h2>
+  <p class="operator">This website is operated by Go Check My Brands LLC, a South Carolina limited liability company. Contact: hello@gocheckmynews.com.</p>
   <p>Tips, corrections, and questions: <a href="mailto:desk@gocheckmynews.com">desk@gocheckmynews.com</a>.</p>
   <p>Sponsorship inquiries: <a href="mailto:desk@gocheckmynews.com">desk@gocheckmynews.com</a>.
      Sponsorship never buys coverage; see <a href="/method.html">how we work</a>.</p>
@@ -1428,6 +1429,8 @@ def render_privacy(dateline):
   <p class="lede">What this site actually collects, which is very little, and where the little
      goes. No accounts, no ads, no cookies set by us.</p>
 
+  <p class="operator">This website is operated by Go Check My Brands LLC, a South Carolina limited liability company. Contact: hello@gocheckmynews.com.</p>
+
   <h2>The newsletter</h2>
   <p>If you sign up for the daily brief, the email address you submit is stored by Netlify Forms,
      the form service of our hosting provider. We use it only to send the newsletter. We do not
@@ -1472,6 +1475,8 @@ def render_terms(dateline):
   <span class="kicker">Terms</span>
   <h1>Terms of use</h1>
 
+  <p class="operator">This website is operated by Go Check My Brands LLC, a South Carolina limited liability company. Contact: hello@gocheckmynews.com.</p>
+
   <h2>Never advocacy, never advice</h2>
   <p>GoCheckMyNews publishes news reporting and plain-language context for education and
      information only. GoCheckMyNews reports events; it does not editorialize and it does
@@ -1489,7 +1494,7 @@ def render_terms(dateline):
 
   <h2>Our content and copyright</h2>
   <p>The original text on this site (story summaries, context, and the editorial pages) is
-     &copy; {YEAR} GoCheckMyNews. You may quote it with attribution and a link. The
+     &copy; {YEAR} Go Check My Brands LLC. You may quote it with attribution and a link. The
      underlying reporting belongs to the outlets we cite: stories here summarize their
      reporting in our own words and link to the source rather than reproduce it, and
      headlines, quotations, and outlet ratings remain the property of their publishers.</p>
