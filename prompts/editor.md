@@ -122,7 +122,11 @@ Rank at most {TOP_N} stories. KEEP THE OUTPUT COMPACT, in this exact discipline:
 - Your final answer must be ONLY the JSON object: no preamble, no commentary, no code fence.
 
 UPDATES, NOT DUPLICATES (owner directive 2026-07-22, the top editorial rule): the desk
-NEVER republishes yesterday's story as a new one. When a ranked story is a new chapter of
+NEVER republishes yesterday's story as a new one. MOVING FIGURES ARE UPDATE MATERIAL
+(owner directive 2026-07-26): when current reporting materially moves a figure the desk
+has already published (evacuation counts, casualty tolls, strike tallies, vote counts),
+that IS a new chapter: rank it with "updates" set, so the site never trails the wires on
+a number it already carries. When a ranked story is a new chapter of
 a title in the already-published shelf (a follow-on development, day N of a running story,
 a decision replaced or reversed, new results on the same event), add an optional field
 "updates": "<the shelf title EXACTLY as listed>" to that ranked entry. The site retires
