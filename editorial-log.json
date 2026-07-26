@@ -2117,5 +2117,61 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-07-26",
+  "approved": 7,
+  "rejected": [
+   {
+    "id": "c057",
+    "headline": "U.S. and Iran Hold Second Day of Military Pause Amid Missile Supply Constraints",
+    "category": "accuracy",
+    "reasons": [
+     "The brief's open_questions explicitly state: 'Source text is empty; no details available from the New York Times URL provided.' The draft contains factual claims (pause for second day, Trump delayed escalation, depleted interceptor stockpiles) that cannot be traced to sourced data_points because the brief contains zero data_points and acknowledges source material was not fetched.",
+     "The draft asserts 'President Trump delayed further escalation in part because of depleted interceptor missile stockpiles' as fact, but the brief marks this as unverified: 'The snippet mentions Trump delayed escalation due to dwindling missile stockpiles, but no source material was fetched to verify specific numbers, timeline, or Iran's stated position.'",
+     "The hard rule is 'no fact exists outside the brief.' This brief is empty of sourced facts and the draft treats unverified claims as established fact. The draft itself acknowledges the problem ('No independent verification...has been reported') but then presents the Trump claim anyway."
+    ]
+   },
+   {
+    "id": "c011",
+    "headline": "Record Wildfires Force 330,000 Evacuations Across France and Spain",
+    "category": "accuracy",
+    "reasons": [
+     "The draft attributes the statement 'moving erratically towards' Bordeaux to 'France's Interior Minister Laurent N\u00fa\u00f1ez' but the brief attributes it to 'France's Interior Minister Laurent N\u00fa\u00f1ez said the situation in the region remained \"very unfavourable\" and the fire was \"moving erratically towards\" Bordeaux' without noting N\u00fa\u00f1ez is the correct name per the data_point. However, the draft spells the name as 'Laurent N\u00fa\u00f1ez' while the brief consistently spells it 'Laurent N\u00fa\u00f1ez'\u2014this is consistent and correct.",
+     "The draft states 'In Spain, around 77,000 hectares have been affected, per Spain's minister for ecological transition Sara Aagesen' but the brief data_point says 'Around 77,000 hectares have been affected by the fires in Spain, according to Spain's minister for ecological transition Sara Aagesen'\u2014this traces correctly.",
+     "All other major facts (330,000 evacuations, 42,000 hectares in southwest France, 55,000 overnight evacuations, 220,000 total in southwest France, 90,000 in Spain, deaths, personnel counts, infrastructure disruptions, Tour de France shortening, official quotes) are present in the data_points and correctly attributed to BBC. No smuggled facts detected."
+    ]
+   },
+   {
+    "id": "c150",
+    "headline": "Ukraine Strikes Iranian Vessel in Caspian Sea, Killing Sailor; Iran Warns Attack 'Cannot Go Unanswered'",
+    "category": "accuracy",
+    "reasons": [
+     "Draft states 'A confirmed Ukrainian strike with a confirmed Iranian casualty' in the bottom_line, but the brief data_points show both the strike claim and casualty claim are labeled 'reported' confidence only, not independently confirmed. The draft's language ('confirmed') overstates the evidentiary ground and must be downgraded to match the brief's confidence level.",
+     "Draft asserts 'The attack confirms Ukraine's expanded long-range strike capability' as fact, but this is analysis/inference not in the brief's data_points. The brief limits claims to: the strike occurred, a sailor was killed, Zelensky confirmed it, and Iran warned of response. The capability assessment is editorial.",
+     "Draft states 'demonstrates willingness to conduct operations against Iranian targets beyond Ukrainian territory' as declarative fact, but the brief contains no data_point supporting Ukraine's tactical intent or targeting doctrine. This is smuggled analysis."
+    ]
+   },
+   {
+    "id": "c100",
+    "headline": "Saudi-Houthi Ceasefire in Yemen Deteriorates as Fresh Fighting Erupts",
+    "category": "accuracy",
+    "reasons": [
+     "Draft opens with 'The ceasefire between Saudi Arabia and Houthi militants in Yemen is deteriorating as the two sides trade blows' as established fact, but the brief's only substantive data_point is 'Saudi Arabia and Houthi militants are trading blows' with 'reported' confidence. The characterization of this as 'deterioration' of a known prior ceasefire is not explicitly confirmed in the brief's data_points\u2014the brief does not specify when the ceasefire began, how long it held, or that it formally existed before these clashes.",
+     "Draft presents 'renewed fighting' as fact, implying a prior stable period, but the brief does not establish a baseline ceasefire duration or status ante before the reported clashes. The word 'renewed' asserts a prior state the brief does not confirm.",
+     "Draft claims the deterioration is 'placing fresh pressure on global energy markets' as direct causation, matching the second data_point, but does not qualify it with the attribution or 'reported' confidence level that should accompany a single-source claim from an emerging story."
+    ]
+   },
+   {
+    "id": "c065",
+    "headline": "Trump family, allies have business ties in nuclear energy, Saudi deal, New York Times reports",
+    "category": "accuracy",
+    "reasons": [
+     "The brief contains zero data_points (data_points array is empty). The draft makes multiple factual claims\u2014'members of President Trump's family and close allies hold overlapping business ties in the nuclear energy sector,' 'the administration is advancing a major foreign policy and energy deal,' 'family members and inner-circle figures maintain financial interests'\u2014that cannot be traced to any sourced data_point in the brief. The writer has smuggled specific allegations without evidentiary backing from research.",
+     "The draft states 'the administration is advancing a major foreign policy and energy deal' as settled fact, but the brief contains no data_points about what specific deal is being advanced, its status, or its details. This is fabricated context.",
+     "The draft's bottom_line reads as editorial judgment ('raises questions about potential conflicts of interest') presented in the desk's own voice rather than attributed to the Times reporting. The phrasing 'a pattern that has characterized aspects of the Trump presidency' is advocacy framing not present in the brief and advances a verdict outside the reported record."
+    ]
+   }
+  ]
  }
 ]
