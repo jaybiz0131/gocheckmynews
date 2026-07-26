@@ -1,0 +1,35 @@
+{
+  "id": "c159",
+  "slug": "federal-appeals-court-blocks-trump-mail-ballot-order-in-23-states",
+  "kind": "brief",
+  "title": "Federal appeals court blocks Trump mail-ballot order in 23 states",
+  "dek": "The 1st U.S. Circuit Court of Appeals ruled 2-1 on Saturday that the Trump administration cannot enforce key provisions of an executive order tightening mail-in voting rules in 23 Democratic-led states. The decision leaves a June district court injunction in place while the administration's appeal proceeds, and the DOJ has signaled it may seek emergency relief from the Supreme Court.",
+  "date": "2026-07-26",
+  "published_utc": "2026-07-26T11:48:08Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 7,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The 1st U.S. Circuit Court of Appeals refused in a 2-1 decision to pause a June ruling that blocked several provisions of Trump's March executive order on mail-in voting in 23 states.",
+  "bottom_line": "The case now moves forward in the appeals process with the executive order blocked in the 23 states for the present. The DOJ's next move will signal whether it pursues emergency Supreme Court relief before the midterm elections, a path that would compress the timeline for the nation's highest court to weigh executive power over mail voting.",
+  "human_take": "",
+  "body": [
+    "The 1st U.S. Circuit Court of Appeals refused on Saturday to let the Trump administration enforce key parts of an executive order aimed at tightening mail-in voting rules in 23 Democratic-led states, according to Fox News. The court issued a 2-1 decision rejecting the Department of Justice's request to pause a June ruling that had blocked several provisions of the order.",
+    "The ruling tests the constitutional boundary between presidential authority and state control over federal elections. Trump signed Executive Order 14399 in March as part of what the administration framed as an election integrity agenda. The order directed the Department of Homeland Security to compile lists of confirmed U.S. citizens eligible to vote and provide them to states, instructed the U.S. Postal Service to establish new standards for mail-in ballots, and directed the Justice Department to prioritize investigations into state and local election officials who issue federal ballots to people deemed ineligible.",
+    "U.S. District Judge Indira Talwani had ruled in June that several provisions of the executive order likely exceeded the president's authority and blocked federal agencies from implementing them in the plaintiff states through November. The lawsuit was brought by 23 states and the District of Columbia, led by California, Massachusetts, Nevada and Washington. According to the brief filed in court, the plaintiff states argued that the Constitution gives them primary responsibility for administering federal elections and that the president exceeded his authority by directing federal agencies to impose new voting requirements.",
+    "The appeals court majority wrote, per Fox News: \"As the district court reasoned, the (executive order) lays out a clear set of rapidly approaching deadlines by which states must coordinate with federal officials and comply with new voting procedures. The Plaintiff States have no practical choice but to respond to the (order) now.\" The court concluded that the lower court's injunction should remain in effect while the legal challenge proceeds.",
+    "The Trump administration had argued that the lawsuit was premature because federal agencies had not finalized the policies needed to implement the executive order. The DOJ previously told the court it could seek emergency relief from the Supreme Court if it did not prevail in the appeals process. Saturday's ruling does not resolve the underlying legal challenge but leaves Talwani's injunction in place while the full appeal continues."
+  ],
+  "sources": [
+    {
+      "title": "Fox News",
+      "url": "https://www.foxnews.com/politics/federal-appeals-court-rejects-trump-bid-enforce-mail-ballot-order-ahead-midterm-elections"
+    }
+  ],
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-07-26T11:48:08Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}
