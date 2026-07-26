@@ -2045,5 +2045,77 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-07-26",
+  "approved": 5,
+  "rejected": [
+   {
+    "id": "c075",
+    "headline": "U.S. and Iran Pause Military Strikes for Second Day; Interceptor Stockpile Constraints Cited",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'President Trump put off plans to escalate fighting in part because of dwindling stockpiles of interceptor missiles' and attributes this to the New York Times. However, the confidence label in the brief is 'reported', not 'confirmed' or 'verified'. The phrasing 'put off' presents this as a settled fact rather than reflecting the tentative sourcing. The draft should indicate this is reported/claimed, not established fact.",
+     "The draft elaborates on the meaning of interceptor missiles ('used to counter incoming threats') and the implication of depletion ('signals constraints on defensive capacity') without these details appearing in the brief's data_points. This is new interpretation not sourced to the brief.",
+     "The brief is marked 'thin: true' with only one data_point, yet the draft presents multiple inferences (operational limits, defensive capacity constraints) as though they are established reporting rather than analysis."
+    ]
+   },
+   {
+    "id": "c123",
+    "headline": "Suspect in Berlin Pride Van Attack Had Prior Terrorism Investigation",
+    "category": "accuracy",
+    "reasons": [
+     "The draft claims the suspect 'had previously been investigated for terrorism plans' but the brief data_points only confirm 'The suspect is 21 years old', 'killed one person and injured 29', and 'remained at large as of Sunday'. The terrorism investigation claim appears nowhere in the three data_points provided in the brief.",
+     "The core_claim references a prior terrorism investigation, but no supporting data_point is included in the brief to anchor this claim. The draft smuggles a fact from the brief's core_claim into prose without a corresponding sourced data_point, violating the rule that facts must trace to research.",
+     "The draft states 'the suspect had previously been investigated for terrorism plans, raising questions about...' in a way that implies this is reported fact, but the brief provides no source attribution or confidence level for this claim in its data_points section."
+    ]
+   },
+   {
+    "id": "c033",
+    "headline": "Israeli settlers set fire to West Bank mosques following deadly clash",
+    "category": "compliance",
+    "reasons": [
+     "The phrase 'The settlements are illegal under international law, the BBC reports' presents a legal verdict as fact without the necessary attribution clarity. This reads as the desk's own judgment rather than as reported legal opinion, and creates liability exposure on a contested geopolitical claim."
+    ]
+   },
+   {
+    "id": "c084",
+    "headline": "Court Ruling Opens Door to End Temporary Protected Status; Employers Warn of Labor Shortages",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'A Supreme Court ruling has cleared the way for the Trump administration to end temporary protected status' but the brief's confidence label is only 'reported'\u2014not verified as an actual ruling. The draft presents this as settled fact when the brief itself marks it as reported-but-unconfirmed. The phrasing should reflect uncertainty or attribution more clearly.",
+     "The draft claims employers 'are already warning' of labor shortages with confidence that overstates the brief. The brief data_point says employers 'are warning of significant labor shortages' but with 'reported' confidence only. The word 'already' adds urgency/temporal claim not explicitly in the source.",
+     "The draft says 'The humanitarian immigration program that granted TPS has allowed those immigrants to remain and earn wages lawfully while political conditions in their home countries remained unstable' but this is background explanation not in the brief's data_points. It may be common knowledge but it is not sourced to the reporting being fact-checked, violating the hard rule that facts must trace to the brief."
+    ]
+   },
+   {
+    "id": "c212",
+    "headline": "Trump Urges Republican Senators to End Filibuster for Legislative Agenda",
+    "category": "compliance",
+    "reasons": [
+     "The opening line in the brief's angle reads 'Trump is publicly pressuring GOP senators to break Senate rules to advance his legislative agenda'\u2014a characterization that the brief itself frames as interpretive. The draft should not adopt this framing ('calling on Republican senators to eliminate the Senate filibuster') without attribution or caveat. Characterizing the filibuster elimination as 'breaking Senate rules' is a value judgment not present in the neutral data_points and risks reading as advocacy against Trump's position.",
+     "The bottom_line states 'If multiple GOP senators break ranks and resist filibuster elimination, Trump's legislative strategy would face a significant constraint heading into the midterm season'\u2014this reads as political strategy analysis/advice (framing what would be a 'constraint') rather than a forward-looking watch statement. It adopts implicit judgment about whether resistance would be desirable."
+    ]
+   },
+   {
+    "id": "c002",
+    "headline": "Displaced Lebanese turn to satellite imagery to monitor homes they cannot reach",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Lebanese civilians displaced by Israeli invasion' but the brief does not characterize the conflict as an 'invasion.' The brief uses neutral language ('Israeli invasion') in the core_claim, but the brief itself contains no data_points or sourced evidence to support any characterization of the conflict. The draft should either attribute the framing to NPR or use more neutral language consistent with reporting standards.",
+     "The draft contains no specific facts traceable to data_points in the brief: there are zero data_points provided in the brief. The draft makes claims about displaced civilians purchasing satellite imagery with no supporting facts, numbers, names, or quotes from the brief's research record."
+    ]
+   },
+   {
+    "id": "c001",
+    "headline": "One year after federal funding cut, public media networks navigate survival without CPB support",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'One year after President Trump signed legislation ending six decades of federal Corporation for Public Broadcasting (CPB) support' but the brief contains zero data_points with verified facts about when the law was signed, the exact funding amount, or even confirmation of the 'six decades' timeline. This is a significant factual claim unsupported by the brief's research.",
+     "The draft claims 'public television and radio stations across the country are navigating an existential transition' but the brief provides no data_points about specific stations, their status, or evidence of an 'existential' crisis. This characterization goes beyond what the brief's research supports.",
+     "The entire body of the draft relies on narrative and interpretation rather than specific, sourced facts. With zero data_points in the brief, the draft has no facts to trace back to research, violating the hard rule that no fact exists outside the brief."
+    ]
+   }
+  ]
  }
 ]
