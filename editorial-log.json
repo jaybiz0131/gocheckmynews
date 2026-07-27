@@ -2243,5 +2243,77 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-07-27",
+  "approved": 5,
+  "rejected": [
+   {
+    "id": "c041",
+    "headline": "Three killed, multiple injured in shooting at Seattle food festival",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Four of the injured were taken to hospital in stable condition, while a fifth declined hospitalization' but the brief data point says 'Four of the injured were taken to hospital in a stable condition, while a fifth chose not to.' The draft adds the qualifier 'declined hospitalization' which is not in the brief and implies a medical judgment not present in the source material.",
+     "The draft states Mayor Wilson 'condemned the shooting as an \"act of horrific violence\"' and includes an extended direct quote starting with 'Impacted families are living through the worst moment of their lives...' However, the brief has Wilson's quote as 'act of horrific violence' separately from the longer statement. The draft merges these into a single condemning statement without making clear these may be multiple separate statements or attributing them with sufficient precision to the source record."
+    ]
+   },
+   {
+    "id": "c002",
+    "headline": "France and Spain battle major wildfires ahead of fourth heat wave",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'More than 300,000 people have been forced to evacuate their homes across both countries' in the lede, but the brief data point states 'More than 250,000 people evacuated in France due to wildfires; over 220,000 residents evacuated in the Gironde region alone.' These numbers do not support the 300,000 figure for both countries combined at the point in the story where it is stated. The brief's data point on total evacuations states 'The devastating wildfires in Spain and France have forced more than 300,000 people to evacuate their homes,' but this appears later in the brief's data points and the Spain-specific numbers (60,000 + 100,000 + 75,000 impacted/evacuated = up to 235,000) combined with France's 250,000+ do not cleanly establish the 300,000 figure as verified in the lead without additional calculation or source verification not present in the brief."
+    ]
+   },
+   {
+    "id": "c186",
+    "headline": "Compounded GLP-1 drugs raise safety concerns among doctors and FDA",
+    "category": "accuracy",
+    "reasons": [
+     "The draft body contains a paragraph ('The brief does not specify...') that explicitly acknowledges the absence of core data points from the research brief, then presents regulatory concerns as fact without those data points. This violates the hard rule that facts must trace to the brief's data_points.",
+     "The draft states 'compounded medications do not undergo the same clinical trials, manufacturing standardization, or quality assurance processes' as fact, but the brief contains zero data_points supporting this claim. The brief is marked 'thin: true' with empty data_points array.",
+     "The draft asserts 'The FDA and medical professionals worry that without these guardrails, patients may face inconsistent dosing, purity issues, or contamination' without citing a single data point from the brief to support these specific concerns.",
+     "The single source provided (The Hill URL) has zero character count in the brief (source_chars: 0), indicating the source was never actually reviewed or data extracted from it. The draft fabricates regulatory analysis from a brief containing no extracted data."
+    ]
+   },
+   {
+    "id": "c050",
+    "headline": "India's education minister resigns after youth-led protests; rare setback for Modi government",
+    "category": "balance",
+    "reasons": [
+     "The brief's bear_case explicitly notes: 'The sources do not include any statement from the Modi government, Minister Pradhan, or government allies defending the resignation or offering a counter-narrative to the protest framing.' The draft contains no counter-narrative, no government statement, and no alternative framing\u2014it presents the protest account as the sole narrative voice throughout.",
+     "The draft reads entirely in the voice of protest advocates ('the erosion of a meritocratic pathway they were promised,' 'a systemic betrayal') without offsetting government or ministerial perspective. A story relying on a single source (BBC) with no contradictory or defensive official statement constitutes one-sided framing of a political resignation.",
+     "The open_questions identify whether 'the government intends to implement...reforms' and what structural changes lie ahead\u2014these are material unknowns that should have prompted either conditional language ('the government has not yet announced whether...') or explicit acknowledgment of the silence. Instead, the draft presents youth grievances as established fact without noting the absence of official response."
+    ]
+   },
+   {
+    "id": "c077",
+    "headline": "Ukrainian Attacks in Crimea Deprive Towns of Power and Water",
+    "category": "accuracy",
+    "reasons": [
+     "The brief contains zero data_points. The draft presents multiple factual claims (\"Ukrainian attacks in Crimea\", \"drone strikes\", \"power and water supplies in towns\", \"towns without power and water\") that cannot be traced to any sourced data in the brief. Per hard rule: no fact exists outside the brief.",
+     "The draft states 'the brief does not address Russian military responses' and 'raises questions about whether economic and humanitarian pressure can alter Putin's calculus'\u2014these are the writer's own reasoning, not from the brief's data or open_questions, which is smuggled analysis."
+    ]
+   },
+   {
+    "id": "c109",
+    "headline": "67 boat strikes. 221 dead. The cocaine hasn't slowed, officials report.",
+    "category": "compliance",
+    "reasons": [
+     "The draft presents a factual dispute between the president's claims and intelligence agencies' findings without attribution discipline. The opening sentence 'The administration's own intelligence agencies have concluded that Operation Southern Spear...has failed' reads as the desk's verdict on a contradiction, not as reported fact. The framing 'contradicts public claims from the president that the operation has virtually ended drug trafficking' adopts an advocacy posture (government failure/dishonesty narrative) rather than reporting what each side says without verdict.",
+     "The statement 'The contradiction raises questions about either the operation's tactical design or the accuracy of public messaging' is the writer's own analysis presented as news judgment, not sourced from the brief."
+    ]
+   },
+   {
+    "id": "c065",
+    "headline": "Can a Progressive Win in a Purple State? Abdul El-Sayed Wants to Find Out.",
+    "category": "compliance",
+    "reasons": [
+     "The draft's title and framing ('Can a Progressive Win in a Purple State?') poses a normative question as though testing an open empirical puzzle, which reads as editorial framing rather than reported fact. The brief's core_claim is that the primary 'will test' this\u2014a forward-looking characterization of what observers say, not a desk-authored question.",
+     "The second paragraph states the race 'is being framed as' and 'is being positioned as' but then the draft shifts to definitive voice: 'The race is also being positioned as a preview of the 2028 presidential primary, where these same divisions are expected to structure candidate recruitment and donor strategies nationally.' This reads as the desk's own political prediction/analysis, not reported characterization.",
+     "The draft avoids any counter-narrative or bear_case. There is no data on El-Sayed's viability, opponent name, or realistic assessment of progressive performance in Michigan\u2014all left as open_questions\u2014yet the draft frames the race as a definitive test of progressive viability without caveat that this framing comes from advocates, not from evidence."
+    ]
+   }
+  ]
  }
 ]
