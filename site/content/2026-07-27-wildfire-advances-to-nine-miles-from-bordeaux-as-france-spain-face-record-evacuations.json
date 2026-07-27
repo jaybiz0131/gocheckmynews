@@ -1,0 +1,37 @@
+{
+  "id": "c014",
+  "slug": "wildfire-advances-to-nine-miles-from-bordeaux-as-france-spain-face-record-evacuations",
+  "kind": "brief",
+  "title": "Wildfire advances to nine miles from Bordeaux as France, Spain face record evacuations",
+  "dek": "A major wildfire in southwestern France has reached within 15 kilometers of Bordeaux, forcing over 220,000 evacuations in France and more than 100,000 in Spain. The blaze has burned 42,000 hectares and destroyed 240 homes, with Prime Minister S\u00e9bastien Lecornu calling it part of an unprecedented fire season across the continent.",
+  "date": "2026-07-27",
+  "published_utc": "2026-07-27T20:49:07Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 2,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The Gironde wildfire in France is now nine miles from Bordeaux, with 220,000 evacuated in France and 100,000+ in Spain.",
+  "bottom_line": "The fires' proximity to Bordeaux and the approach of hotter conditions make the next 48 hours critical for containment. What would shift the story: either rapid weather improvement enabling controlled burns, or winds pushing the fire closer to the city limits and triggering evacuations of Bordeaux itself.",
+  "human_take": "",
+  "body": [
+    "A major wildfire in southwestern France has advanced to within 15 kilometers (nine miles) of Bordeaux, the center of France's wine region, according to BBC News reporting. Over 220,000 people have been evacuated in France and more than 100,000 in Spain, as wildfires across both countries force the largest evacuation response in decades.",
+    "The Gironde fire has burned 42,000 hectares (103,000 acres) and destroyed 240 houses, per reporting by Jerome Steffe, mayor of Cestas south of Bordeaux. Steffe described the situation as \"really catastrophic\" and warned that despite progress by firefighting teams, they have \"won only a small battle,\" with risk remaining from flying embers or sudden wind shifts.",
+    "Bordeaux Mayor Thomas Cazenave said the city is \"preparing to accommodate a large number of people should further evacuations be ordered.\" Interior Minister Laurent Nu\u00f1ez said the fire \"has a life of its own,\" according to BBC reporting. President Emmanuel Macron characterized the blaze as \"completely unprecedented\" and \"the toughest since World War Two.\"",
+    "Prime Minister S\u00e9bastien Lecornu warned that France \"is going through an unprecedented fire season,\" with 116,085 hectares (286,852 acres) burned and 13,566 fire starts recorded since January, per BBC News. Lecornu stated that nine out of 10 fires \"are human-caused and most arise from carelessness: a cigarette butt, a barbecue, work carried out without precaution.\" He also said that \"not all these fires are accidents\" and \"some are deliberately set,\" with 162 arrests since July 6.",
+    "In Spain, a separate wildfire west of Madrid has affected more than 27,000 hectares, according to satellite imagery analysis cited by BBC News. The blaze merged from multiple fires in the Almorox, Villa del Prado, and San Mart\u00edn de Valdeiglesias areas. Spain entered its fifth day of a national emergency on Monday because of the fires, and local officials have warned the region faces the \"worst fires in its history.\"",
+    "The European continent is heating twice as fast as the global average, according to the Copernicus Climate Change Service, as reported by BBC News. An intense heatwave forecast for Tuesday could hamper firefighting efforts further. President Macron said a smaller fire in the Landes region had been contained, but cautioned that \"temperatures are set to rise again, the wind is still present, and therefore we must remain humble\" about the fight ahead in Gironde."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/ckg34128nvpo?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "event_utc": "2026-07-27T20:34:55Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-07-27T20:49:07Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}
