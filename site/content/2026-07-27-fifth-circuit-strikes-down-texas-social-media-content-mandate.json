@@ -1,0 +1,36 @@
+{
+  "id": "c178",
+  "slug": "fifth-circuit-strikes-down-texas-social-media-content-mandate",
+  "kind": "brief",
+  "title": "Fifth Circuit Strikes Down Texas Social Media Content Mandate",
+  "dek": "The Fifth Circuit Court of Appeals ruled 2-1 on Friday that Section 230 of the Communications Decency Act preempts Texas H.B. 18, which required social media platforms to filter harmful content for minors. The court found the state law treats platforms as publishers subject to state control, which federal law forbids.",
+  "date": "2026-07-27",
+  "published_utc": "2026-07-27T12:43:14Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 6,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The Fifth Circuit held that Texas H.B. 18's requirement that social media platforms monitor and filter harmful content for minors violates the federal preemption doctrine because it treats platforms as publishers liable for third-party speech.",
+  "bottom_line": "Texas may appeal to the Supreme Court, especially given the tensions between the court's Moody decision recognizing platforms' curation as protected speech and Section 230's broad preemption doctrine. The ruling applies to similar state laws modeled on H.B. 18, but the Supreme Court's recent precedent suggests the constitutional question of platforms' speech rights versus state regulatory authority remains unsettled.",
+  "human_take": "",
+  "body": [
+    "The Fifth Circuit Court of Appeals ruled 2-1 on Friday that Section 230 of the Communications Decency Act preempts Texas H.B. 18, a state law that required social media platforms to filter content harmful to minors. Judges Dana Douglas and Patrick Higginbotham decided the case Computer & Comm. Industry Ass'n v. Paxton.",
+    "Texas H.B. 18 applies to digital service providers, defined as platforms allowing users to socially interact, create profiles, and post content viewable by others (including message boards, chat rooms, video channels, or main feeds), according to the Fifth Circuit's opinion. The law exempts state and local websites, financial institutions, medical sites, small businesses, higher education sites, employee management software, school education software, email, and direct messaging. It also exempts services that primarily provide news, sports, commerce, or provider-generated content with only incidental social functions.",
+    "The statute requires covered platforms to develop and implement a strategy to prevent minors' exposure to harmful material, defined with reference to Texas Penal Code standards, and to obscene-as-to-minors sexually themed content. The law also covers material that promotes, glorifies, or facilitates suicide, self-harm, eating disorders, substance abuse, stalking, bullying, harassment, grooming, trafficking, child pornography, and sexual exploitation or abuse. Enforcement is triggered by the Texas Attorney General's Consumer Protection Division or by parents of minors affected by violations.",
+    "The Fifth Circuit interpreted Section 230 to provide digital service providers with broad immunity from claims stemming from their publication of information created by third parties, per the opinion. The court cited its 2018 decision in Doe v. MySpace, Inc., in which it held that Section 230 shielded MySpace from negligence liability for publishing communications between a minor and an adult who later sexually assaulted her. The court also distinguished a 2024 precedent, Free Speech Coalition, Inc. v. Paxton, in which the Fifth Circuit held that an age-verification requirement for pornographic websites was not preempted because it did not pertain to immunizing platforms from harm caused by unremoved speech.",
+    "The Fifth Circuit held that H.B. 18's monitoring and filtering requirement amounts to liability dependent on whether platforms comply with state-set publication standards. Claims to enforce the requirement treat platforms as publishers subject to state control, making them preempted by Section 230. The court stated that although H.B. 18 is framed as affirmative obligations rather than direct penalties for published content, the framing is not conclusive. The court emphasized that if a claim seeks to hold a platform liable for deciding whether to publish, withdraw, postpone, or alter content, the claim treats the defendant as a publisher or speaker and is barred by Section 230. H.B. 18's requirement would hold platforms liable for failure to adhere to state-set publication standards, treating them as publishers subject to sweeping state controls, the court found.",
+    "Texas Attorney General Ken Paxton argued, per the opinion, that the Supreme Court's recognition in Moody v. NetChoice, LLC (2024) of platforms' own free speech interest in curating content means Section 230's publisher-shield does not apply to claims seeking to hold platforms liable for their own curation methods. The Fifth Circuit expressed hesitation to read Moody in a way that would render Section 230 easily avoidable, stating it was uncertain whether speech protected by the First Amendment is subject to preemption."
+  ],
+  "sources": [
+    {
+      "title": "Reason",
+      "url": "https://reason.com/volokh/2026/07/27/%c2%a7-230-preempts-texas-mandates-on-social-media-platforms-fifth-circuit-holds-by-2-1-vote/"
+    }
+  ],
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-07-27T12:43:14Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}
