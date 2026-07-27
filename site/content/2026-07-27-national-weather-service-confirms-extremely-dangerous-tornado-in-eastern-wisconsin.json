@@ -1,0 +1,37 @@
+{
+  "id": "c298",
+  "slug": "national-weather-service-confirms-extremely-dangerous-tornado-in-eastern-wisconsin",
+  "kind": "brief",
+  "title": "National Weather Service confirms \"extremely dangerous\" tornado in eastern Wisconsin",
+  "dek": "The National Weather Service confirmed an \"extremely dangerous\" tornado struck eastern Wisconsin near Appleton and Lake Winnebago on Monday, July 27, 2026, around 12:15 p.m. The tornado caused extensive structural damage, downed power lines, and knocked out electricity to approximately 18,000 residents in Menasha. As of initial reporting, officials had not confirmed fatalities or injuries, though emergency searchers were still assessing damage across multiple counties.",
+  "date": "2026-07-27",
+  "published_utc": "2026-07-27T21:32:38Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 7,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The National Weather Service confirmed an \"extremely dangerous\" tornado struck the Winnebago County area near Appleton and Lake Winnebago around 12:15 p.m. on July 27, 2026.",
+  "bottom_line": "Emergency officials were still conducting searches and damage assessments in the hours after the tornado. The extent of injuries, fatalities, and total structural damage remains unclear pending ongoing official evaluation. Watch for updates on the tornado's EF-scale rating and final casualty and damage counts.",
+  "human_take": "",
+  "body": [
+    "The National Weather Service confirmed an \"extremely dangerous\" tornado struck eastern Wisconsin on Monday, July 27, 2026, around 12:15 p.m., spawning reports of completely destroyed buildings, overturned vehicles, and widespread power loss across multiple counties in the Upper Midwest.",
+    "The tornado touched down near Appleton, Menasha, and Lake Winnebago, approximately 30 miles southwest of Green Bay, per CBS News reporting. Emergency officials received reports of damage across a path that included the communities of Neenah, Sherwood, Harrison, Stockbridge, Quinney, Kloten, Brant, Brothertown, Jericho, and Charlesburg, according to CBS News.",
+    "Winnebago County Executive Gordon Hintz reported multiple buildings completely destroyed and vehicles overturned on roadways. He stated at the time of initial reporting that emergency officials were still searching for casualties but he was not aware of any fatalities or injuries, per CBS News. National Weather Service meteorologist Holley Kamba said the agency had received calls reporting trees down, power lines down, and ongoing searches for structural damage across southern Outagamie County and eastern Winnebago County. Outagamie County Executive Tom Nelson reported extensive and severe damage in Menasha and Fox Crossing, with reports of collapsed buildings, though he had not yet confirmed fatalities or injuries.",
+    "In Menasha, a city of approximately 18,000 people, a downed transmission line left the entire city without power, according to CBS News reporting. Menasha authorities opened a shelter at a church to provide temporary safety for residents unable to remain in their homes.",
+    "Wisconsin Governor Tony Evers posted on X that the state was ready to assist communities and thanked emergency responders, per CBS News. The National Weather Service had issued forecasts predicting storms that would bring strong winds along with hail and the possibility of an isolated, brief tornado, though the actual tornado that struck proved to be categorized as \"extremely dangerous,\" a characterization applied to confirmed tornadoes of particular intensity.",
+    "Emergency response operations continue across the affected counties, with officials still conducting damage assessments and casualty searches."
+  ],
+  "sources": [
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/extremely-dangerous-tornado-hits-eastern-wisconsin/"
+    }
+  ],
+  "event_utc": "2026-07-27T21:29:52Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-07-27T21:32:38Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}

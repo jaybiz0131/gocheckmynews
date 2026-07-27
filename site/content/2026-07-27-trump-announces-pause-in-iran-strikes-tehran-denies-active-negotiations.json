@@ -1,0 +1,39 @@
+{
+  "id": "c050",
+  "slug": "trump-announces-pause-in-iran-strikes-tehran-denies-active-negotiations",
+  "kind": "brief",
+  "title": "Trump announces pause in Iran strikes; Tehran denies active negotiations",
+  "dek": "President Trump said the US has paused military strikes against Iran after nearly two weeks of sustained campaign, citing negotiations mediated by third parties. Tehran denies direct talks are occurring. Oil prices fell more than 9 percent on the news.",
+  "date": "2026-07-27",
+  "published_utc": "2026-07-27T21:32:38Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 1,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Trump announced a pause in US military strikes against Iran on Friday at the request of mediating countries, but Iran has denied that direct negotiations are taking place.",
+  "bottom_line": "The pause holds only as long as mediated talks continue and neither side perceives a breach. If negotiations collapse or a new attack triggers a resumption of strikes, the conflict could escalate rapidly. Watch for announcements from the mediating countries about the substance and timeline of the talks, and any statement from Trump about whether he views progress as sufficient to hold the pause.",
+  "human_take": "",
+  "body": [
+    "President Trump announced on Monday that the United States has paused military strikes against Iran after nearly two weeks of sustained campaign, citing ongoing negotiations mediated by third parties. The announcement came as oil prices fell sharply on hopes the conflict could de-escalate.",
+    "Trump told reporters aboard Air Force One that \"there are very friendly negotiations going on\" about the conflict and expressed optimism, saying \"I think there's a good chance that something could happen.\" According to Trump, he decided to pause US strikes on Friday because countries mediating between the US and Iran had asked him to give the talks another chance. The warring sides have not exchanged strikes for a third straight day, per BBC reporting.",
+    "The pause marks a potential turning point after nearly two weeks of daily US strikes and tit-for-tat attacks that effectively unraveled a ceasefire struck in June. The US military said its strikes were aimed to \"degrade Iran's ability to threaten commercial shipping in the Strait of Hormuz,\" a global route for transporting oil. Oil prices fell by more than 9 percent to $87.59 a barrel at one point on Monday, according to BBC reporting, as markets reacted to the possibility of de-escalation.",
+    "However, Tehran has denied that any direct negotiations are taking place, contradicting Trump's characterization of active talks. This divergence in accounts leaves unclear how substantive the mediated discussions actually are or what terms, if any, are under consideration.",
+    "Trump warned that Washington would \"go back to doing what we were doing\" before the pause in fighting if the latest negotiations failed, signaling that a resumption of strikes remains a near-term possibility. He also dismissed media reports of depleting US ammunition stockpiles, saying \"We have a lot of ammunition. We have a lot of the mid-level stuff too, more than we could ever use, no matter what.\" Trump noted that Patriots, highly valued US-made anti-ballistic missiles, are being built and deployed: \"That system is going up. We have a lot.\"",
+    "White House spokesperson Anna Kelly said the US military \"has more than enough munitions, ammo, and stockpiles to serve all of President Trump's strategic goals and beyond, and Operation Epic Fury has exposed what happens when you mess with the United States.\" She added that \"the president has urged our defence contractors to constantly produce more made-in-America weapons, which are the best in the world.\"",
+    "The conflict has taken a human toll. More than 600 US military service members have been injured since the Iran War began in February, when the US and Israel launched strikes against Iran on February 28. Tehran retaliated by firing missiles and drones on US military bases and other assets in Gulf states and inside Israel. In June, Iran and the US signed a memorandum of understanding to stop military operations and reopen the Strait of Hormuz, with a 60-day window to reach a comprehensive settlement. That agreement unraveled after Iranian forces attacked tankers in the waterway on July 13, prompting Washington to resume air strikes and reinstate its naval blockade of Iran's ports. Tehran then retaliated with attacks on US military facilities that killed four American soldiers. The US strikes have killed dozens of people, according to Iran's health ministry."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c62xn4vzmnpo?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "event_utc": "2026-07-27T21:10:56Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-07-27T21:32:38Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "update_of": "oil-prices-fall-as-us-and-iran-announce-pause-in-military-strikes"
+}

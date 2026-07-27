@@ -2437,5 +2437,53 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-07-27",
+  "approved": 7,
+  "rejected": [
+   {
+    "id": "c77",
+    "headline": "Trump administration petitions Supreme Court on mail-voting executive order",
+    "category": "accuracy",
+    "reasons": [
+     "Draft states the administration's petition 'asks the Supreme Court to reverse that decision and permit the order to proceed ahead of the upcoming election cycle,' but the brief contains no data_point confirming the lower court's specific rationale, the order's contents, or the administration's arguments in the petition. These are critical contextual facts necessary to report the story accurately and are absent from the source material provided.",
+     "The draft describes the order as 'targeting mail-in voting' without specifying what the order actually does or restricts. The brief itself flags this as an open question ('What specific provisions does the mail-in voting executive order contain?'), indicating the sourced material does not contain this information. The writer cannot report the nature of the order without it being in the brief."
+    ]
+   },
+   {
+    "id": "c024",
+    "headline": "Judge Orders Singer D4vd to Trial for Murder of 14-Year-Old",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The remains of Hernandez were found in September, according to the reporting' but the brief data_point says 'Remains of Celeste Rivas Hernandez were found in September (implied as September prior to July 2026 reporting)' with a confidence label of 'reported'. The draft presents this as a settled fact, but the brief itself marks it as an implication rather than an explicit statement from the source. The date claim should either be removed or qualified as unclear from the available record, consistent with the brief's own uncertainty.",
+     "The draft introduces a charge of 'unlawful mutilation' in paragraph four ('Burke now faces trial on charges that include unlawful mutilation') but the brief's open_questions section explicitly flags that 'The snippet references 'unlawful mutilation' but the source text does not detail all charges.' This suggests the charge may not be clearly stated in the source material itself. The draft presents it as fact when the brief indicates it is not verified in the actual source text\u2014this is smuggled information beyond what the brief confirms from the reporting."
+    ]
+   },
+   {
+    "id": "c331",
+    "headline": "Sen. Lindsey Graham, 71, dead; funeral set for Washington and South Carolina",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Graham served eight years in the House and nearly a quarter century in the Senate' but the brief data_point says only 'Graham represented South Carolina in Congress for more than three decades' and separately 'served eight years in the House and nearly a quarter century in the Senate.' The draft's phrasing correctly assembles these, but the opening attribution is incorrect: the claim appears in the second paragraph as a direct statement, not attributed to NBC News inline. However, the more critical issue is that 'nearly a quarter century' is approximately 25 years, and if Graham died in July 2026 after serving from roughly 1995-2026 in the Senate (31 years), this characterization appears to understate his Senate tenure. The brief itself contains the discrepancy\u2014it says both 'more than three decades' total AND 'nearly a quarter century' in Senate separately\u2014creating an internal inconsistency the draft inherited. The draft should have flagged this to research before publication."
+    ]
+   },
+   {
+    "id": "c004",
+    "headline": "Anthropic settles with authors for $1.5 billion over AI training on copyrighted works",
+    "category": "accuracy",
+    "reasons": [
+     "The entire draft is built on a single data_point marked 'announced-not-verified' confidence level, but the draft presents the $1.5 billion settlement as established fact without any qualifier signaling its unverified status. The brief explicitly marks this claim as 'announced-not-verified,' meaning it has not been independently confirmed. The draft states 'Anthropic announced a $1.5 billion settlement' and 'The settlement amount is confirmed' in the bottom_line, both of which misrepresent the confidence level from the brief. The draft must either (a) include hedge language matching the 'announced-not-verified' confidence ('Anthropic announced a reported $1.5 billion settlement' or similar), or (b) reject the story as too thin to publish without verification. Presenting an unconfirmed announcement as confirmed is a direct accuracy violation."
+    ]
+   },
+   {
+    "id": "c097",
+    "headline": "Comey seeks dismissal of charges accusing him of threatening Trump",
+    "category": "accuracy",
+    "reasons": [
+     "The brief's data_points confirm the charges and motion to dismiss, but the draft states 'The prosecution has charged Comey based on the alleged veiled threat' without clarifying that this is the government's allegation. The phrasing reads as the desk's assertion of fact rather than the charged claim. More critically, the draft presents Comey's motion as 'challenges the government's legal theory' and 'tests a core question of First Amendment jurisprudence' as established facts about what the motion argues, but the brief contains no data_point confirming Comey's specific legal arguments or First Amendment grounds\u2014only that the motion challenges whether the photograph constitutes a true threat. The draft has inferred and elaborated legal theory beyond what the brief reports."
+    ]
+   }
+  ]
  }
 ]
