@@ -205,6 +205,24 @@
         "tier": "primary",
         "url": "https://www.nhc.noaa.gov/index-at.xml",
         "note": "National Hurricane Center official advisories (added 2026-07-23: Tropical Storm Bertha's Gulf landfall was a top competitor story with no desk coverage). Official-record source: NOAA's own advisories, not journalism."
+      },
+      {
+        "name": "ABC News",
+        "tier": "major",
+        "url": "https://abcnews.go.com/abcnews/topstories",
+        "note": "US wire-class top stories (added 2026-07-27: the desk missed the Seattle Center mass shooting every national desk led with; AP and Reuters public RSS are retired, so the big-three network feeds are the free US breaking layer)."
+      },
+      {
+        "name": "CBS News",
+        "tier": "major",
+        "url": "https://www.cbsnews.com/latest/rss/main",
+        "note": "US wire-class main feed (same 2026-07-27 addition)."
+      },
+      {
+        "name": "NBC News",
+        "tier": "major",
+        "url": "https://feeds.nbcnews.com/nbcnews/public/news",
+        "note": "US wire-class top stories (same 2026-07-27 addition)."
       }
     ],
     "keywords_note": "Optional per-feed 'keywords' gate: high-volume feeds keep only items matching a keyword in headline+snippet, so they cannot flood the editor. Items matching a 'narratives' watchlist entry always pass the gate. The news desk currently runs ungated; the editor's ranking plus the balance spread is the filter. Add gates if any single feed starts flooding intake.",
@@ -239,18 +257,27 @@
         "keywords": [
           "supreme court",
           "scotus",
-          "certiorari"
-        ]
+          "certiorari",
+          "oral argument",
+          "justices",
+          "emergency docket"
+        ],
+        "note": "Keywords tightened 2026-07-27: verb collisions ('strikes down', 'court') were hijacking the Tracking chip; storyline nouns only."
       },
       {
         "name": "Middle East conflict",
         "keywords": [
           "iran",
-          "strikes",
           "gaza",
+          "israel",
+          "houthi",
           "hezbollah",
-          "houthis"
-        ]
+          "red sea",
+          "tehran",
+          "idf",
+          "strait of hormuz"
+        ],
+        "note": "Keywords tightened 2026-07-27: verb collisions ('strikes down', 'court') were hijacking the Tracking chip; storyline nouns only."
       },
       {
         "name": "Tariffs and trade",
@@ -311,6 +338,36 @@
           "tornado outbreak",
           "wildfire"
         ]
+      },
+      {
+        "name": "US public safety",
+        "must_staff": true,
+        "keywords": [
+          "mass shooting",
+          "shooting",
+          "gunman",
+          "active shooter",
+          "casualties",
+          "manhunt",
+          "explosion",
+          "derailment",
+          "mass casualty"
+        ],
+        "note": "Owner directive 2026-07-27 (audit: Seattle Center miss): the mass-casualty and public-safety class national desks lead with is presumptively rank-worthy; sourcing gates unchanged."
+      },
+      {
+        "name": "Fast-moving diplomacy",
+        "keywords": [
+          "ceasefire",
+          "security cabinet",
+          "framework agreement",
+          "peace deal",
+          "normalization",
+          "hostage deal",
+          "summit",
+          "truce"
+        ],
+        "note": "Owner directive 2026-07-27 (audit: Gaza security-cabinet framework miss)."
       }
     ]
   },
