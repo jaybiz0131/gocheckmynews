@@ -267,17 +267,23 @@
       {
         "name": "Middle East conflict",
         "keywords": [
-          "iran",
+          "aramco",
+          "drone",
           "gaza",
-          "israel",
-          "houthi",
           "hezbollah",
-          "red sea",
-          "tehran",
+          "houthi",
           "idf",
-          "strait of hormuz"
+          "interception",
+          "iran",
+          "israel",
+          "netanyahu",
+          "oil facility",
+          "red sea",
+          "saudi",
+          "strait of hormuz",
+          "tehran"
         ],
-        "note": "Keywords tightened 2026-07-27: verb collisions ('strikes down', 'court') were hijacking the Tracking chip; storyline nouns only."
+        "note": "Keywords widened 2026-07-28: the thread missed Saudi drone interceptions and Netanyahu's Washington travel, both chapters of the same running story."
       },
       {
         "name": "Tariffs and trade",

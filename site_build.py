@@ -313,6 +313,18 @@ def render_feed(items):
     return "\n".join(x for x in out if x)
 
 
+def tracking_match(story, rx):
+    """True when a story is genuinely ABOUT a tracked storyline, not merely mentioning
+    it (2026-07-27: the Severe weather chip landed on a Tour de France story whose dek
+    mentioned a wildfire once). A title hit qualifies alone; otherwise two or more hits
+    across title+dek+key_fact. Module level so the canary can pin the regression."""
+    title = story.get("title") or ""
+    if rx.search(title):
+        return True
+    text = " ".join([title, story.get("dek") or "", story.get("key_fact") or ""])
+    return len(rx.findall(text)) >= 2
+
+
 def destyle(text):
     """House style: no em/en dashes in site copy (model drafts sometimes use them)."""
     return (str(text or "").replace(" \u2014 ", ", ").replace("\u2014", ", ")
@@ -1105,16 +1117,7 @@ def render_home(items, dateline):
                                encoding="utf-8")).get("narratives", {}).get("watchlist", [])
     except Exception:
         watch = []
-    def _tracking_match(story, rx):
-        # SUBJECT-level match, not a passing mention (2026-07-27: the Severe weather
-        # chip landed on a Tour de France story whose dek mentioned a wildfire once):
-        # a title hit qualifies alone; otherwise two or more hits across
-        # title+dek+key_fact.
-        title = story.get("title") or ""
-        if rx.search(title):
-            return True
-        text = " ".join([title, story.get("dek") or "", story.get("key_fact") or ""])
-        return len(rx.findall(text)) >= 2
+    _tracking_match = tracking_match
     for n in watch:
         kws = n.get("keywords") or []
         if not kws:
