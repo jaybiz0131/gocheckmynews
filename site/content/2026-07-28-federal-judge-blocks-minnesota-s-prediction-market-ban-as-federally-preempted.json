@@ -1,0 +1,38 @@
+{
+  "id": "c219",
+  "slug": "federal-judge-blocks-minnesota-s-prediction-market-ban-as-federally-preempted",
+  "kind": "brief",
+  "title": "Federal judge blocks Minnesota's prediction market ban as federally preempted",
+  "dek": "U.S. District Judge Katherine Menendez issued a preliminary injunction on July 28, 2026, blocking Minnesota from enforcing its prediction market ban, ruling that federal commodity law preempts the state statute. The ruling signals that similar bans in six other states face steep legal barriers, and the CFTC has sued each state claiming exclusive jurisdiction.",
+  "date": "2026-07-28",
+  "published_utc": "2026-07-28T20:22:15Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 12,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "A federal judge halted Minnesota's first-in-the-nation prediction market ban, finding that federal commodity law preempts the state's authority to restrict platforms like Kalshi and Polymarket.",
+  "bottom_line": "Minnesota's appeal will test whether the preliminary injunction withstands appellate review and establish the scope of federal versus state authority over prediction markets. The outcome will likely determine whether the six other states pursuing similar bans invest further in litigation or shift their regulatory approach.",
+  "human_take": "",
+  "body": [
+    "U.S. District Judge Katherine Menendez issued a preliminary injunction on July 28, 2026, barring Minnesota from enforcing its prediction market ban, according to Reason. Judge Menendez found that federal law expressly preempts the state statute and that the Commodity Futures Trading Commission and prediction platforms are likely to succeed in proving they face irreparable harm.",
+    "Minnesota became the first state to outlaw prediction markets such as Kalshi and Polymarket in May 2026. The law was set to take effect August 1. The CFTC, Kalshi, and Polymarket filed for emergency relief less than a week before the ruling, warning they would seek appellate intervention if the court could not decide before the deadline.",
+    "Judge Menendez found that the Commodity Exchange Act grants the CFTC broad authority to regulate most prediction market contracts as swaps, defined under federal law as any agreement where payment is contingent on the occurrence or nonoccurrence of future events with financial, economic, or commercial consequences. Per the judge's reasoning, most wagers on prediction markets fall within this umbrella.",
+    "However, Judge Menendez acknowledged that Minnesota's statute may not be preempted in all respects. The judge noted that the CFTC would not have exclusive jurisdiction over every conceivable event contract, citing the example that a bet on the winner of a reality television show would be hard pressed to qualify as a swap lacking commercial consequence. Future contracts, such as hedges on commodity prices, which are excluded from the swap definition, could also remain within state regulatory reach.",
+    "CFTC Chairman Mike Selig characterized the ruling as a halt to aggressive state overreach of federally regulated markets, according to Reason. Neal Kumar, chief legal officer of Polymarket, stated that the injunction makes clear that prediction markets on CFTC-registered exchanges are governed by federal law, not a patchwork of state rules.",
+    "Minnesota Attorney General Keith Ellison described prediction market platforms as gambling and stated his office will continue to litigate the case and defend the state's duly passed law, signaling an intent to appeal.",
+    "The ruling comes as six other states, Arizona, Connecticut, Illinois, New Jersey, Massachusetts, and Wisconsin, are pursuing legal avenues to restrict or ban prediction markets. In April 2026, the 3rd Circuit Court of Appeals ruled that New Jersey could not subject Kalshi's event contracts to its sports gambling laws. In May 2026, the U.S. District Court for the District of Arizona granted an injunction preventing Arizona from prosecuting Kalshi for violating its gambling laws. The CFTC has filed suit against each state pursuing prediction market restrictions, arguing the Commodity Exchange Act gives it exclusive jurisdiction."
+  ],
+  "sources": [
+    {
+      "title": "Reason",
+      "url": "https://reason.com/2026/07/28/federal-judge-halts-minnesotas-prediction-market-ban-signaling-other-states-efforts-might-be-illegal-too/"
+    }
+  ],
+  "event_utc": "2026-07-28T19:04:48Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-07-28T20:22:15Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}
