@@ -2601,5 +2601,62 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-07-28",
+  "approved": 6,
+  "rejected": [
+   {
+    "id": "c093",
+    "headline": "Record Evacuations as Wildfires Advance Across France and Spain",
+    "category": "accuracy",
+    "reasons": [
+     "The brief explicitly states 'The source text is unavailable; the number of active fires is not provided' and 'source_chars': 0, indicating the actual New York Times article was not accessed during research. The three data_points in the brief all carry 'confidence': 'reported', but without access to the source material, these cannot be verified as accurately paraphrased from the actual article. The draft presents factual claims (330,000 evacuations, 40\u00b0C heatwave arriving Wednesday, compressed firefighting window) that trace to brief data_points sourced from an inaccessible article\u2014this violates the hard rule that facts must trace to research, not to unaccessible sources. The brief's own open_questions acknowledge the source material gap."
+    ]
+   },
+   {
+    "id": "c087",
+    "headline": "Iran Signals Reluctance to Resume Negotiations as Military Pause Continues",
+    "category": "accuracy",
+    "reasons": [
+     "The brief states 'source_chars': 0 and the open_questions section explicitly lists 'What specific statements or actions has Iran taken to signal reluctance to resume talks, beyond analysts' assessments?' and 'How long has the military strike pause been in effect?'\u2014indicating the New York Times source was not accessible during research. The draft opens with 'Iran's leaders are betting they can endure more pain than President Trump can, according to New York Times reporting,' but this claim originates from an inaccessible source. The brief contains only two data_points and both are sparse and confidence-labeled 'reported' from an article that was never accessed (source_chars: 0). The draft presents geopolitical analysis (Iran's calculation about waiting out Trump's political timeline, leverage via Strait of Hormuz) sourced to material that research did not actually review, violating the hard rule that all facts trace to verified research."
+    ]
+   },
+   {
+    "id": "c069",
+    "headline": "Senate set to vote on Jay Clayton for director of national intelligence",
+    "category": "compliance",
+    "reasons": [
+     "The draft reads as advocacy in its framing and language. The opening paragraph presents Clayton's expected confirmation as a fait accompli that 'split[s] along party lines,' establishing a foregone conclusion rather than reporting an event. The third paragraph uses loaded framing ('unusual moment,' 'declined to state a basic fact') that adopts a judgment about Clayton's conduct rather than attributing that interpretation to a source. The bottom_line statement ('The Senate will signal its tolerance for confirmation of intelligence leadership that declines to affirm certified electoral results') presents an interpretive verdict about what the Senate's vote will mean, rather than reporting what will happen and what to watch. This reads as the desk's own editorial voice, not neutral event reporting.",
+     "The brief identifies a bear_case as empty, but the draft itself invokes the 'bear case' through its language choices (e.g., 'declined to state a basic fact') without presenting any counter-argument or alternative framing from Republicans. A story that relies on one interpretive frame without acknowledging complexity is a compliance violation when it reads this adversarial."
+    ]
+   },
+   {
+    "id": "c250",
+    "headline": "Early voting begins in Wisconsin Democratic governor primary",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'party infighting may benefit democratic socialist state Rep. Francesca Hong' and that 'Internal Democratic division...creates an opening for an unconventional candidate.' However, the brief's open_questions note explicitly that 'no source text was fetched from The Hill URL' and 'The claim that infighting could advantage Hong is analytical but unsourced; no quantitative polling or strategic analysis from named sources backs it.' The writer has smuggled an analytical claim about the relationship between party division and Hong's electoral prospects that is not in the research brief. No fact in the draft establishes what 'party infighting' exists, what form it takes, or how it benefits Hong. This is a violation of the hard rule: no fact exists outside the brief.",
+     "The draft's third paragraph claims 'Hong's candidacy in a five-way Democratic field marks the presence of a democratic socialist competitor in a race for statewide office in a swing state. The outcome of the Democratic primary will shape the party's general election positioning in Wisconsin.' These are analytical assertions about significance and political strategy that go beyond what the brief supplies as reported fact."
+    ]
+   },
+   {
+    "id": "c346",
+    "headline": "Nasdaq-100 enters correction as chip and memory stocks plunge globally",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states: 'Evercore technology analyst Mark Mahaney said that despite investor jitters, cloud demand appears relentless, and positive earnings results so far in the quarter have supported the market.' The brief data point attributes the cloud demand quote to Mahaney but attributes the earnings surprise statement to 'HSBC's Max Kettner' in a separate data point. The draft conflates these two separate analyst statements into one attribution to Mahaney, misattributing Kettner's analysis.",
+     "The draft states: 'Even excluding Alphabet's results, the average earnings surprise is well in excess of the post-COVID-19 pandemic average, per Mahaney.' The brief attributes this claim to 'HSBC's Max Kettner,' not Mahaney. This is a factual misattribution that changes the source authority for the claim."
+    ]
+   },
+   {
+    "id": "c178",
+    "headline": "Sen. Paul releases Fauci documents ahead of Senate testimony on COVID origins",
+    "category": "balance",
+    "reasons": [
+     "The brief contains an empty bear_case array, indicating no counter-evidence or opposing perspective was provided to the writer. The draft presents Paul's allegations and interpretations as the primary narrative without including responses from Fauci, the named scientists, or official denials. The draft acknowledges in a meta-comment ('The brief does not include responses...') that such responses are absent, but this acknowledgment does not fulfill the balance requirement\u2014it merely documents the gap. A draft that lays out serious allegations of conspiracy and cover-up without any counter-voice or official response reads as advocacy for Paul's narrative. The final paragraph attempting to signal limitations does not substitute for actual balance in the prose itself."
+    ]
+   }
+  ]
  }
 ]
