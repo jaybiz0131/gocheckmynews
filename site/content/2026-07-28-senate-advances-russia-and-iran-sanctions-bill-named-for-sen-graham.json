@@ -1,0 +1,38 @@
+{
+  "id": "c324",
+  "slug": "senate-advances-russia-and-iran-sanctions-bill-named-for-sen-graham",
+  "kind": "brief",
+  "title": "Senate advances Russia and Iran sanctions bill named for Sen. Graham",
+  "dek": "A bipartisan group of senators announced agreement Tuesday to move forward on a Russia and Iran sanctions bill named the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026. The bill, which Graham had negotiated with the White House before his death, faced a procedural vote Tuesday evening and is expected to pass easily with more than 60 cosponsors.",
+  "date": "2026-07-28",
+  "published_utc": "2026-07-28T20:51:18Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 4,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The Senate advanced a bipartisan Russia and Iran sanctions bill named after Sen. Lindsey Graham on Tuesday, with a procedural vote scheduled for that evening and Ukrainian President Volodymyr Zelenskyy expected to meet with senators before the vote.",
+  "bottom_line": "Senate passage is expected to be straightforward given the bipartisan backing and supermajority of cosponsors. The House's August recess means any presidential action will wait until at least late August. The key uncertainty is whether the White House will sign the bill once it arrives, and what specific Trump administration policies on Iran and Russia the final legislation will accommodate.",
+  "human_take": "",
+  "body": [
+    "A bipartisan group of senators announced agreement Tuesday to move forward on a Russia and Iran sanctions bill bearing the name of the late Sen. Lindsey Graham, with a procedural vote scheduled for that evening and final passage expected the same week, according to ABC News.",
+    "The bill, formally named the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026, was negotiated by Graham with the White House in the days leading up to his death. Graham, a Republican, had been among the GOP's most outspoken allies of Ukraine. The announcement came after his funeral service at the Washington National Cathedral.",
+    "Senators Richard Blumenthal, Darline Graham, Katie Britt, Jeanne Shaheen, Jim Risch, and Roger Wicker issued a joint statement on the agreement. The bill carries more than 60 cosponsors, according to ABC News, a threshold that historically signals easy passage in the 100-member Senate. Tuesday night's procedural vote sets the bill up for final passage later that week.",
+    "Ukrainian President Volodymyr Zelenskyy was expected to be on Capitol Hill for a meeting with senators just ahead of the vote, per ABC News.",
+    "The package would impose primary and secondary sanctions on Russia and other countries supporting Russia in its invasion of Ukraine, per the reporting. The sanctions target Russian political officials and oligarchs, banks and financial institutions, and the Russian shadow fleet. The legislation allows the president to impose tariffs but limits the scope to the five largest importers of Russian crude oil or gas and the top five countries that aid Russia's energy sanctions evasion, according to ABC News.",
+    "The bill extends previously approved sanctions on Iran that were set to expire this year until 2031, restricting funding for Iran's energy and weapons sector. A White House official stated that the bill meets the president's call to include sanctions on the Iranian regime, though this announcement has not been independently verified.",
+    "The House is out of town until August 31, so the bill will likely not reach the president's desk until after the House acts on it following the scheduled recess, per ABC News."
+  ],
+  "sources": [
+    {
+      "title": "abcnews.com",
+      "url": "https://abcnews.com/Politics/senate-move-russia-sanctions-bill-named-after-sen/story?id=135151693"
+    }
+  ],
+  "event_utc": "2026-07-28T19:22:40Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-07-28T20:51:18Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}
