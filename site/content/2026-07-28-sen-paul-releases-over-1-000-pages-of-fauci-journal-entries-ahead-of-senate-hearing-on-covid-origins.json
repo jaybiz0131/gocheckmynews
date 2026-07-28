@@ -1,0 +1,38 @@
+{
+  "id": "c325",
+  "slug": "sen-paul-releases-over-1-000-pages-of-fauci-journal-entries-ahead-of-senate-hearing-on-covid-origins",
+  "kind": "brief",
+  "title": "Sen. Paul releases over 1,000 pages of Fauci journal entries ahead of Senate hearing on COVID origins",
+  "dek": "Sen. Rand Paul released journal entries from Dr. Anthony Fauci spanning December 2019 to December 2022, ahead of a Senate hearing on COVID-19 origins. The diaries show tension between Fauci's private uncertainties about the virus's source and his public statements, fueling a partisan dispute over lab leak versus natural spillover.",
+  "date": "2026-07-28",
+  "published_utc": "2026-07-28T16:20:06Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 8,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Sen. Paul released over 1,000 pages of Fauci's journal entries dating from December 2019 to December 2022, scheduled to be discussed at a Senate hearing on coronavirus origins.",
+  "bottom_line": "The diary entries are set to feature prominently in Wednesday's Senate hearing, where Paul and other lawmakers will likely use Fauci's private statements to challenge his account of what he knew and said about COVID origins. Whether the entries constitute evidence of deliberate misleading or reflect the ordinary evolution of scientific positions under uncertainty will frame the hearing's political arc.",
+  "human_take": "",
+  "body": [
+    "Sen. Rand Paul of Kentucky released more than 1,000 pages of journal entries from Dr. Anthony Fauci on Monday, ahead of a Senate hearing scheduled for Wednesday on the origins of the coronavirus. The diary entries, spanning December 2019 to December 2022 when Fauci stepped down as director of the National Institute of Allergy and Infectious Diseases, have become a flashpoint in the enduring dispute over whether the virus emerged from a lab leak or spilled over naturally from animals to humans.",
+    "Paul, who heads the Senate Homeland Security Committee, subpoenaed Fauci to appear before the panel as part of its investigation into coronavirus origins. Paul has long argued that the virus came from a leak at the Wuhan Institute of Virology in China and has accused Fauci and other government officials of misleading the public and Congress about the source of the outbreak.",
+    "The journal entries reveal private statements by Fauci that differ in tone and certainty from his public positions during the pandemic's early months. In January 2020, Fauci wrote that \"we know the market was not the source, it was the amplifier,\" though he added that \"somewhere the virus jumped from animals to humans.\" About a week later, Fauci referenced a conference call in which several top infectious disease experts thought the coronavirus might not have originated in nature. Paul seized on these entries Monday, accusing Fauci of telling \"Dear Diary\" one thing while telling the public \"it's implausible that it came from the lab, and we're really convinced it came from these wild animals in the marketplace.\"",
+    "Fauci's private writings also show evolving positions. On May 26, 2021, Fauci wrote that he had \"always said that the very highly likelihood is that the virus originated naturally from an animal reservoir jumping to a human,\" but that over the past couple of days he had been saying no one is 100 percent certain of the origin, including himself, and that he was calling for a thorough investigation. This shift toward publicly acknowledging uncertainty came amid growing international pressure for a full accounting of COVID's origins.",
+    "Beyond origins, the diary entries document Fauci's private reactions to his unprecedented public prominence and his interactions with President Trump. On May 21, 2020, Fauci wrote: \"The situation with my national and international fame is explosive and really unimaginable.\" He tracked favorable coverage including a Brad Pitt portrayal on Saturday Night Live and contact from Barbra Streisand, but also expressed embarrassment and concern about personal security. Fauci described initial positive interactions with Trump in the pandemic's early months and appeared uncomfortable with press coverage suggesting they were feuding. In May 2020, Trump told Fauci during a conversation about vaccine strategy that he was \"losing trillions of dollars,\" though Trump later said \"you and I are OK\" and confirmed he respected Fauci. When Trump argued against wearing masks at an event, Fauci pushed back, and Trump asked afterward, \"Tony, we are good, right?\"",
+    "By August 2020, as Trump's public stance toward Fauci grew more adversarial, Fauci wrote that Trump was acting \"erratically.\" The diaries also show Fauci privately criticizing CDC policies he thought too strict. He wrote that he had \"a problem defending the ultra-conservative approach of the CDC regarding the wearing of masks outdoors.\" When the CDC loosened its outdoor mask guidance in May, Fauci noted that the \"radical right-wing maniacs\" who blamed him for CDC rigidity would \"probably not realize at all that it was me that triggered this change.\"",
+    "On the origins question specifically, the scientific and intelligence community remains divided. Many scientists believe the virus emerged naturally from infected bats before spreading to other species and then to humans at a Wuhan market, according to CBS News reporting. However, the FBI has assessed the coronavirus \"most likely\" emerged in a \"lab incident in Wuhan,\" per the agency's assessment. In January 2025, the CIA issued a new assessment favoring the \"lab leak\" hypothesis, though it stated the finding was made with \"low confidence.\" Fauci declined to comment to CBS News about the diary release, and Paul's office did not respond to a request for comment about how the senator obtained the journals."
+  ],
+  "sources": [
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/anthony-fauci-rand-paul-diary-release/"
+    }
+  ],
+  "event_utc": "2026-07-28T14:26:00Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-07-28T16:20:06Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}
