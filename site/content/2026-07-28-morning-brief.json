@@ -1,0 +1,76 @@
+{
+  "id": "wrap-am-2026-07-28",
+  "slug": "morning-brief-2026-07-28",
+  "kind": "brief",
+  "title": "The Morning Brief: Fires, shaking, and diplomatic fault lines test the world",
+  "dek": "Europe faces its largest evacuations in decades as wildfires advance on major cities, while the US and Iran announced a pause in military strikes and a 15-year-old was detained in a Seattle food festival shooting that killed three.",
+  "date": "2026-07-28",
+  "published_utc": "2026-07-28T09:47:38Z",
+  "category": "daily edition",
+  "rank": -1,
+  "author": "GoCheckMyNews",
+  "key_fact": "Four separate crises dominated the news cycle: 330,000 evacuated from European wildfires with containment described as fragile; US-Iran military pause announced but Tehran denies direct talks; a Chinese chipmaker's record IPO debut reflects global AI demand; and domestic violence struck a Seattle public gathering.",
+  "bottom_line": "The day's dominant thread is fragile containment: European firefighters racing against a heat wave; a US-Iran pause resting on unconfirmed talks; and a 15-year-old detained while a gang shooting investigation unfolds. Watch the Gironde fire's advance against Tuesday's temperatures and wind conditions; whether the US-Iran pause extends beyond initial reports or either side signals resumption of strikes; whether CXMT's IPO capital translates into actual production capacity; and the prosecutor's charging decision in Seattle. Graham's funeral Tuesday at the National Cathedral will bring Trump, Netanyahu, and Zelenskyy to Washington.",
+  "human_take": "",
+  "body": [
+    "Europe's fire crisis has become the day's dominant story. Roughly 330,000 people have been evacuated across southwestern France and Spain as massive wildfires advance on populated areas. The Gironde fire west of Bordeaux has burned 420 square kilometers and stands nine miles from the city itself, with authorities describing it as \"stabilized, not fixed\", meaning a returning heat wave forecast for Tuesday could reignite the blaze. French firefighters, with 93 injured so far, have completed 103 kilometers of firebreaks but face a narrow operational window as temperatures rise and humidity falls. Spanish authorities declared a national emergency for wildfires for the first time. The story turns on whether firefighting crews can hold the line through the coming heat, or whether new evacuations and possible spread into populated areas will follow.",
+    "International tensions showed signs of easing but with significant ambiguity. President Trump announced that the US has paused military strikes against Iran after nearly two weeks of sustained campaign, citing negotiations mediated by third parties. Oil prices fell more than 9 percent to below $88 a barrel on the news, reversing a spike above $100 driven by fears of supply disruption through the Strait of Hormuz, which carries roughly 20 percent of global oil and liquefied natural gas. However, Iran has denied that direct negotiations are taking place, creating uncertainty about the pause's durability. The difference between Trump's public optimism and Tehran's denial of active talks suggests the pause may rest on a fragile understanding.",
+    "On the economic front, a Chinese chipmaker's Shanghai debut marked a historic moment for Beijing's technology ambitions. ChangXin Memory Technologies shares soared nearly 470 percent on their first day, reaching a valuation of approximately 3.3 trillion yuan ($487 billion) and making CXMT the most valuable listed company in mainland China. The surge reflects global AI demand for memory chips and the Chinese government's push for semiconductor self-reliance, even though Samsung, SK Hynix, and Micron control roughly 90 percent of the global DRAM market. The reporting offers no detail on whether CXMT's IPO capital will actually translate into manufacturing capacity gains or sustained market share growth.",
+    "Domestically, a shooting at Seattle's Bite of Seattle food festival on July 27 killed three people and injured at least four others. A 15-year-old with no prior criminal record in King County was ordered held in juvenile detention on suspicion of three counts of first-degree assault and one count of second-degree unlawful possession of a firearm. Prosecutors allege the teen fired into a crowd during a gang-related gunfight involving at least three suspects. The three killed were identified as Junior Cee Niko Semo, 19; Ashley Whitehead, 56; and Carlos Israel Sanchez Villalba, 44. Police continue searching for a possible third suspect.",
+    "In secondary developments: A 7.1-magnitude earthquake struck southern Japan near Kumamoto Prefecture on Tuesday, triggering tsunami alerts that were later lifted with no major damage or casualties reported. The Fifth Circuit Court of Appeals struck down Texas H.B. 18, ruling that Section 230 of the Communications Decency Act preempts a state law requiring social media platforms to filter content harmful to minors. And the US delegation walked out of a UN Security Council meeting after France compared the American vote against extending UN Human Rights Commissioner Volker Turk's term to votes by North Korea and Russia."
+  ],
+  "sources": [
+    {
+      "title": "Chinese chipmaker CXMT surges 470% in Shanghai debut, becomes mainland's most valuable listed company",
+      "url": "/articles/chinese-chipmaker-cxmt-surges-470-in-shanghai-debut-becomes-mainland-s-most-valuable-listed-company.html"
+    },
+    {
+      "title": "Fifth Circuit Strikes Down Texas Social Media Content Mandate",
+      "url": "/articles/fifth-circuit-strikes-down-texas-social-media-content-mandate.html"
+    },
+    {
+      "title": "National Weather Service confirms \"extremely dangerous\" tornado in eastern Wisconsin",
+      "url": "/articles/national-weather-service-confirms-extremely-dangerous-tornado-in-eastern-wisconsin.html"
+    },
+    {
+      "title": "Oil prices fall as US and Iran announce pause in military strikes",
+      "url": "/articles/oil-prices-fall-as-us-and-iran-announce-pause-in-military-strikes.html"
+    },
+    {
+      "title": "Trump announces pause in Iran strikes; Tehran denies active negotiations",
+      "url": "/articles/trump-announces-pause-in-iran-strikes-tehran-denies-active-negotiations.html"
+    },
+    {
+      "title": "Wildfire advances to nine miles from Bordeaux amid record evacuations across Western Europe",
+      "url": "/articles/wildfire-advances-to-nine-miles-from-bordeaux-amid-record-evacuations-across-western-europe.html"
+    },
+    {
+      "title": "Wildfire advances to nine miles from Bordeaux as France, Spain face record evacuations",
+      "url": "/articles/wildfire-advances-to-nine-miles-from-bordeaux-as-france-spain-face-record-evacuations.html"
+    },
+    {
+      "title": "Zelensky arrives in UK for first meeting with new PM Burnham, technology-sharing deal announced",
+      "url": "/articles/zelensky-arrives-in-uk-for-first-meeting-with-new-pm-burnham-technology-sharing-deal-announced.html"
+    },
+    {
+      "title": "15-Year-Old Ordered Held in Detention Over Seattle Food Festival Shooting",
+      "url": "/articles/15-year-old-ordered-held-in-detention-over-seattle-food-festival-shooting.html"
+    },
+    {
+      "title": "7.1-magnitude earthquake strikes southern Japan, tsunami alerts later lifted",
+      "url": "/articles/7-1-magnitude-earthquake-strikes-southern-japan-tsunami-alerts-later-lifted.html"
+    },
+    {
+      "title": "European wildfires force 330,000 evacuations as heat wave threatens firefighting efforts",
+      "url": "/articles/european-wildfires-force-330-000-evacuations-as-heat-wave-threatens-firefighting-efforts.html"
+    },
+    {
+      "title": "US delegation walks out of UN Security Council meeting during France's remarks",
+      "url": "/articles/us-delegation-walks-out-of-un-security-council-meeting-during-france-s-remarks.html"
+    },
+    {
+      "title": "Washington says goodbye to Sen. Lindsey Graham",
+      "url": "/articles/washington-says-goodbye-to-sen-lindsey-graham.html"
+    }
+  ]
+}
