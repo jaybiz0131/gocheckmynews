@@ -1,0 +1,38 @@
+{
+  "id": "c314",
+  "slug": "japan-earthquake-kills-at-least-18-rescue-operations-underway-in-collapsed-buildings",
+  "kind": "brief",
+  "title": "Japan earthquake kills at least 18; rescue operations underway in collapsed buildings",
+  "dek": "A 7.1-magnitude earthquake struck Kumamoto in southwestern Japan on July 28-29, killing at least 18 people and leaving dozens injured with an unknown number still missing in collapsed buildings. A gas explosion at an Aeon Mall shopping center killed three people, while a chimney collapse at a nearby paper factory killed five, with rescue crews racing against extreme heat and time.",
+  "date": "2026-07-29",
+  "published_utc": "2026-07-29T09:47:31Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 1,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "At least 18 people killed in the 7.1-magnitude earthquake; rescue operations underway in multiple collapsed structures with an estimated seven people still missing.",
+  "bottom_line": "Rescue operations will likely continue for days as crews search for survivors in the two main collapse sites. Any improvement in weather conditions or discovery of additional survivors would shape the final casualty count; conversely, deteriorating conditions or discovery of additional trapped persons would alter the immediate scope of the emergency response.",
+  "human_take": "",
+  "body": [
+    "A 7.1-magnitude earthquake struck the Kumamoto area on the southern main island of Kyushu on July 28-29, 2026, killing at least 18 people and leaving rescue workers racing against time and extreme heat to locate survivors in collapsed structures, according to reporting by CBS News.",
+    "At least 62 people have been injured, including six in serious condition, per the Kumamoto prefectural government. The exact number of people still missing across all affected areas remains unclear, though rescue teams continue operations in two major collapse sites.",
+    "An Aeon Mall shopping center in Kashima city saw approximately 3,000 customers evacuated to a parking lot before a gas explosion occurred in another section of the building. The mall's second floor collapsed following the blast, trapping workers inside. Three people died in the Aeon Mall explosion, according to mall president Akio Yoshida, and three store employees who were working at the time remain missing.",
+    "A chimney collapse at the Nippon Paper Industries factory in nearby Yatsushino proved even deadlier: five people were killed there. Seven people have been rescued from debris at the factory, but four more are believed still trapped, according to the Kumamoto prefectural government disaster team.",
+    "The broader impact extends across the region. Nearly 34,900 homes lost electricity, while approximately 15,000 homes had no running water. More than 8,800 people left their homes to stay in more than 400 shelters. Bullet train services remain suspended, though Aso Kumamoto airport resumed operations Wednesday, though some airlines canceled flights as a precautionary measure.",
+    "Rescue operations have drawn soldiers, emergency workers, firefighters from Taiwan, and Japan's Self Defense Forces. Prime Minister Sanae Takaichi stated that \"there are people who are still waiting to be rescued, and it's a race against time. We will go all out to find and rescue as many people as we can.\" The federal government was preparing to deliver food and other necessities to the hardest-hit areas.",
+    "Kumamoto experienced a deadly 7.1-magnitude quake in 2016 that killed at least 50 people, making this region no stranger to seismic disaster."
+  ],
+  "sources": [
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/japan-earthquake-deaths-aeon-mall-paper-factory-missing/"
+    }
+  ],
+  "event_utc": "2026-07-29T09:39:03Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-07-29T09:47:31Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}

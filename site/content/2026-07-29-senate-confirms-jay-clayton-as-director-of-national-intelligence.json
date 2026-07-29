@@ -1,0 +1,39 @@
+{
+  "id": "c037",
+  "slug": "senate-confirms-jay-clayton-as-director-of-national-intelligence",
+  "kind": "brief",
+  "title": "Senate confirms Jay Clayton as director of national intelligence",
+  "dek": "The Senate voted 51-47 on Tuesday to confirm Jay Clayton as director of national intelligence, replacing acting DNI Bill Pulte after his controversial brief tenure. Clayton, a former federal prosecutor and securities regulator who served as US attorney for the Southern District of New York, will now lead the nation's intelligence agencies. Democratic senators expressed concerns about his willingness to resist political pressure during his confirmation hearing.",
+  "date": "2026-07-29",
+  "published_utc": "2026-07-29T09:47:31Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 4,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The Senate voted 51-47 to confirm Jay Clayton as director of national intelligence, ending an interim period marked by political controversy over the intelligence agency's leadership.",
+  "bottom_line": "Clayton's 51-47 confirmation ends a leadership void that saw Pulte's brief, turbulent tenure draw criticism from both parties. The confirmation may allow stalled FISA negotiations to resume, though Democratic concerns about the new DNI's independence from Trump remain unresolved. How Clayton navigates the competing pressures of intelligence tradecraft and presidential demands will shape the intelligence community's institutional health over the coming months.",
+  "human_take": "",
+  "body": [
+    "The US Senate voted 51 to 47 on Tuesday to confirm Jay Clayton as director of national intelligence, installing a more conventionally credentialed intelligence chief after a turbulent interim marked by staffing cuts and political controversy.",
+    "Clayton, a former federal prosecutor and securities regulator who served most recently as US attorney for the Southern District of New York, replaces acting DNI Bill Pulte. Pulte, Trump's original choice for the post, faced broad backlash for lacking national intelligence experience and using his simultaneous role as federal housing regulator to refer the president's political opponents for possible prosecution.",
+    "Pulte arrived in early June and quickly became a flashpoint. According to BBC News, shortly before the Senate advanced Clayton's nomination on Tuesday, Pulte posted on X that the agency was executing what he called a fifth and near-final round of staff terminations, representing approximately 30 percent reduction from weeks earlier. The move prompted alarm from both Republican and Democratic senators concerned about the politicization of the intelligence community.",
+    "Clayton also replaced Tulsi Gabbard, who departed the post last month. Clayton had overseen several prominent criminal cases during his tenure as Southern District attorney, including a drug trafficking investigation involving former Venezuelan president Nicholas Maduro, according to BBC reporting.",
+    "During his confirmation hearing earlier this month, Democratic senators pressed Clayton on whether he would resist political pressure from Trump on intelligence matters, particularly regarding election integrity. Clayton was asked repeatedly whether former president Joe Biden won the 2020 election. He responded that Biden had been \"certified\" as the winner and stated, \"I'm not an election denier,\" per BBC reporting. Senate Intelligence Committee Vice-Chair Mark Warner, a Democrat, said after the hearing: \"I came away from his confirmation hearing with serious reservations about whether he would be willing to stand up to political pressure. I sincerely hope he proves those concerns unfounded, because the Intelligence Community deserves steadier leadership than it has received in recent months.\"",
+    "Senate Majority Leader John Thune, a Republican, signaled that Clayton's confirmation could unlock negotiations on Section 702 of the Foreign Intelligence Surveillance Act, which allows the US government to collect communications involving foreigners abroad without an individual warrant. The authority has lapsed, and Trump has pushed for its long-term renewal. Thune said Monday: \"I hope his appointment will encourage my colleagues to stop blocking reauthorisation of the Foreign Intelligence Surveillance Act.\"",
+    "After the vote, Trump posted on Truth Social: \"Jay is outstanding in every way, and will do a spectacular job as Director!\"",
+    "According to BBC News, Clayton initially had a confirmation hearing scheduled for June 17, but Trump called it off, blaming lawmakers for allowing Section 702 to lapse."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c0rd1kl1825o?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "event_utc": "2026-07-29T09:07:40Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-07-29T09:47:31Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}
