@@ -1,0 +1,37 @@
+{
+  "id": "c000",
+  "slug": "federal-reserve-holds-rates-at-3-5-to-3-75-percent-amid-internal-disagreement",
+  "kind": "brief",
+  "title": "Federal Reserve Holds Rates at 3.5 to 3.75 Percent Amid Internal Disagreement",
+  "dek": "The Federal Open Market Committee voted 9 to 3 on July 29, 2026, to keep the federal funds rate at 3.5 to 3.75 percent. Three officials dissented, preferring a quarter-point increase. The Fed cited solid economic growth, strong productivity, and steady job gains, but noted that inflation remains elevated relative to its 2 percent target, partly due to supply shocks in sectors including energy.",
+  "date": "2026-07-29",
+  "published_utc": "2026-07-29T20:32:55Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 1,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The Federal Reserve held interest rates at 3.5 to 3.75 percent with a 9-3 vote, the largest public dissent on rates in recent months.",
+  "bottom_line": "The Fed's hold with three dissents reveals internal disagreement on inflation, a condition unusual enough to signal real uncertainty in the policy room. Watch whether the next FOMC meeting produces a similar split or whether inflation data, energy prices, or Middle East developments shift the committee toward consensus.",
+  "human_take": "",
+  "body": [
+    "The Federal Open Market Committee voted 9 to 3 on July 29, 2026, to maintain the federal funds rate at 3.5 to 3.75 percent, according to the Federal Reserve's official statement. Three officials, per the Fed's release, dissented in favor of raising the target range by a quarter percentage point at this meeting: Beth M. Hammack, Neel Kashkari, and Lorie K. Logan.",
+    "The dissent marks a rare public split among the committee's voting members and signals internal disagreement over inflation response as the U.S. economy navigates uncertainty tied to Middle East conflict and energy supply pressures.",
+    "The Fed's statement confirms that economic activity is expanding at a solid pace despite elevated uncertainty attributable in part to the Middle East conflict. The committee noted, per its release, that productivity growth and capital investment are strong, and that job gains have kept pace with the workforce while the unemployment rate has remained largely unchanged.",
+    "Inflation, however, remains elevated relative to the committee's 2 percent target. The Fed attributes part of this elevation to supply shocks that have driven price increases in certain sectors, including energy, according to its official statement.",
+    "The committee is continuing its policy of maintaining ample reserves in the banking system, per the Fed's release. The statement does not detail specific measures or next steps in monetary policy beyond the rate hold.",
+    "Three officials' preference for a rate increase reflects concern among some policymakers that tighter credit conditions may be warranted given persistent inflation. The hold represents the majority view that current conditions do not yet justify further rate increases, though the size of the dissent suggests meaningful uncertainty within the Fed's leadership over the appropriate path forward."
+  ],
+  "sources": [
+    {
+      "title": "Federal Reserve",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm"
+    }
+  ],
+  "event_utc": "2026-07-29T18:00:00Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-07-29T20:32:55Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}
