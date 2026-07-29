@@ -2871,5 +2871,93 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-07-29",
+  "approved": 2,
+  "rejected": [
+   {
+    "id": "c350",
+    "headline": "Japan earthquake kills at least 18; rescue workers race to find missing in collapsed buildings",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'at least 7 missing' in the opening paragraph, but the brief and data_points specify 3 missing at Aeon Mall and 4 at Nippon Paper Industries factory, totaling 7. However, the cumulative count of 7 is correct; the issue is the sentence 'Seven people confirmed missing across two major structural collapses' in the bottom_line contradicts the opening 'at least seven missing'\u2014the brief never confirms all 7 are 'confirmed'; it states they are 'believed trapped' or 'missing,' a distinction the brief's confidence labels preserve as 'reported' not 'verified.' The phrasing 'confirmed missing' upgrades unconfirmed status to certainty.",
+     "The draft states 'Kumamoto was struck by a deadly earthquake in 2016 that killed at least 50 people. That prior disaster raised questions about whether newer building codes and early warning systems have improved survival outcomes, though the sources do not address those comparisons.' This final sentence is editorial analysis ('raised questions') not sourced to the brief. It appears nowhere in the data_points and violates the hard rule that no fact exists outside the brief."
+    ]
+   },
+   {
+    "id": "c099",
+    "headline": "European wildfires slow but new heatwave looms; Spain's PM calls next 12 hours critical",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'A woman who was badly burned in the Los Gallardos fire in Almer\u00eda earlier this month has died of her injuries in hospital, bringing the toll from those fires to at least 15 dead.' The brief data_point states 'Fourteen people died in the Almer\u00eda fires' and separately 'a woman who was badly burned...has died of her injuries in hospital.' This means the woman's death brings the total to 15 (14 + 1), but the brief's data_point says the prior death toll was 14, making the cumulative total 15 only if the woman is the 15th. The draft's phrasing 'bringing the toll from those fires to at least 15 dead' is correct, but the brief states 'Fourteen people died in the Almer\u00eda fires' as a separate claim, creating ambiguity about whether the woman is included in the 14 or is the 15th. The draft should have traced this number precisely to avoid the impression of independent arithmetic rather than sourced fact. The number is correct but the sourcing path is muddied."
+    ]
+   },
+   {
+    "id": "c111",
+    "headline": "Severe storms strike northeast with flooding, tornadoes; one dead, hundreds of thousands without power",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The National Weather Service confirmed an \"extremely dangerous\" tornado occurred in eastern Wisconsin' but this claim does not appear in any data_point in the brief. The brief contains no mention of Wisconsin, the National Weather Service, or confirmation of any specific tornado. This is a smuggled fact not sourced to the brief.",
+     "The draft mentions 'Rescues were required as a result of the storms, though the number of rescue operations and their details are not specified in available reporting' but presents this as established fact when the brief's open_questions note that 'The extent and scale of flooding damage, number of rescues, or specific incidents requiring emergency response are not detailed.' The brief acknowledges rescues were mentioned in the source but provides no detail; the draft should reflect this uncertainty more clearly."
+    ]
+   },
+   {
+    "id": "c262",
+    "headline": "Trump administration ending Biden-era Medicare Part D prescription drug subsidies effective 2027",
+    "category": "compliance",
+    "reasons": [
+     "The bottom_line states 'Medicare enrollees with Part D coverage should expect their premium costs to increase starting in 2027 when subsidies expire.' This reads as financial advice (a directive about what enrollees 'should expect' regarding their costs), which violates the no-advice compliance rule. The statement presents a projection as settled expectation rather than reporting what will happen.",
+     "The story lacks any bear_case or counter-perspective. The brief identifies this as a policy reversal but provides no statement from Biden administration officials, subsidy defenders, or beneficiary advocates disputing the Trump administration's allegation that the program 'benefited insurance companies more than enrollees.' A story presenting only one side's characterization of a contested policy move without the other side's response is a balance failure."
+    ]
+   },
+   {
+    "id": "c341",
+    "headline": "Four women accuse actor Jared Leto of criminal sexual conduct in BBC documentary",
+    "category": "compliance",
+    "reasons": [
+     "Bottom line contains advocacy language: 'The question of why no criminal charges have been filed despite the BBC's reported corroboration and the detailed nature of the allegations remains unaddressed by the authorities.' This reads as the desk's own editorial judgment on a gap in official action rather than reporting what is known. Reframe to neutral observation of the open question without implying fault or omission.",
+     "The draft presents criminal allegations in detail without consistently maintaining 'alleged' discipline. Sentences like 'Isabel...said she was 17 when she agreed to meet Leto at a hotel, where he kissed her and used her hand to masturbate himself' present the claim as narrative fact rather than allegation. Each act must carry attribution that preserves the alleged/reported framing."
+    ]
+   },
+   {
+    "id": "c257",
+    "headline": "Thune signals lack of Republican votes on budget resolution despite Trump's push",
+    "category": "accuracy",
+    "reasons": [
+     "The draft claims Trump's call is for a budget 'to fund a war in Iran and potentially raise the national debt limit.' The brief data_point states Trump called for 'a budget framework to fund the war in Iran and perhaps raise the national debt limit.' The phrase 'war in Iran' is not present in the brief; the brief says 'the war in Iran,' which indicates an existing conflict. The draft's wording suggests Trump is proposing to start a war, which is not what the source reports. This is a material misreading of the brief's fact.",
+     "The draft is extremely thin (two sentences of body) for a story with a brief flagged 'thin: true,' but the real problem is that it smuggles a significant claim ('fund a war in Iran') without clear verification from the brief's sourcing. The brief provides only two data_points and offers no detail on what the budget contains, yet the draft asserts Iran-war funding as fact."
+    ]
+   },
+   {
+    "id": "c068",
+    "headline": "Fed Chair Warsh addresses interest rate decision amid inflation concerns",
+    "category": "accuracy",
+    "reasons": [
+     "The draft refers to 'Federal Reserve Chair Warsh' but the brief does not confirm Warsh's first name or full title. The sourced URL does not appear in the draft's quoted material to verify the chair's identity. Without confirmation in the brief, the name is unverified.",
+     "The draft states 'Federal Reserve policymakers are losing patience with inflation but may not be ready to act this week,' which is the only substantive data_point in the brief, yet the draft presents it as settled fact. The brief marks this claim 'reported' (not 'confirmed' or 'verified'), and the draft does not carry that confidence label. This claim should read as reported/according to PBS, not as the desk's own fact.",
+     "The draft opens with 'Federal Reserve Chair Warsh held a news conference Wednesday to discuss the Fed's latest interest rate decision.' The brief confirms a news conference occurred but does not provide the specific interest rate decision details in any data_point. The draft invokes a decision without citing what it was, which is smuggling structure from reporting the brief does not carry."
+    ]
+   },
+   {
+    "id": "c276",
+    "headline": "Comey files motions to dismiss seashell threat charges, alleging vindictive prosecution",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states Comey 'was indicted on two counts of threatening to kill the president' but the brief's core_claim says he was charged with 'threatening President Trump' without specifying the statutory charge or what the indictment alleges '86 47' means. The draft presents a definitive interpretation ('threatening to kill') that is not in the brief.",
+     "The draft describes Comey's lawyer as 'a former U.S. Attorney' but the brief only says 'Comey's lawyer' without the title. This detail is added beyond what the brief supports.",
+     "The draft characterizes the witness's bias statement as the witness 'made clear their intense bias' but the brief says the witness 'made clear their intense bias' as well\u2014this traces correctly. However, the draft then says the witness 'held \"intense bias\" against him' which is redundant phrasing from the brief and acceptable."
+    ]
+   },
+   {
+    "id": "c213",
+    "headline": "Obama endorses Iowa state representative Turek for Senate seat",
+    "category": "accuracy",
+    "reasons": [
+     "The draft describes Turek as 'a two-time Paralympic medalist' but the brief states 'Turek won two Paralympic medals before launching his political career.' These are not the same claim\u2014'medalist' implies finalists across events; 'won two medals' is the precise fact from the brief. The draft's phrasing introduces interpretation not present in the source.",
+     "The brief's open_questions section explicitly flags that 'The fetched source text is truncated and does not contain the full article body' and key details are unavailable. The draft presents claims ('state representative,' Paralympic background) as fact, but the brief itself signals the source is incomplete and unverified. This violates the rule that facts must trace to the brief with confidence intact."
+    ]
+   }
+  ]
  }
 ]
