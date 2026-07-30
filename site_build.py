@@ -1819,7 +1819,9 @@ def _render_og_card(item):
         _sys.path.insert(0, os.path.join(HERE, "scripts"))
         import og_render
         cat = (item.get("category") or "").strip().lower()
-        kicker = ("News News" if cat in ("", "news")
+        # Just "News" on this desk. The family template is "<site word> News", which reads
+        # as "News News" here.
+        kicker = ("News" if cat in ("", "news")
                   else "Daily Edition" if cat == "daily edition" else item["category"].title())
         og_render.render_card(item.get("title", ""), kicker,
                               os.path.join(PUBLISH, "og", f"{item['slug']}.png"))

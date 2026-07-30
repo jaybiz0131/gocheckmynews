@@ -329,7 +329,9 @@ def render_card(headline, kicker, out_path):
     foot_rule_y = H - PAD_TOP - 34
     block_h = 40 + lh * len(lines)
     ky = rule_y + max(26, int((foot_rule_y - rule_y - block_h) / 2))
-    _tracked(d, (PAD_X, ky), (kicker or BRAND_SITE + " news").upper(), kick_f, RULE_DARK, 3.0)
+    # "News news" on the news desk, so the site word alone when it already says it
+    fallback = BRAND_SITE if BRAND_SITE.lower() == "news" else BRAND_SITE + " news"
+    _tracked(d, (PAD_X, ky), (kicker or fallback).upper(), kick_f, RULE_DARK, 3.0)
     hy = ky + 40
     for ln in lines:
         d.text((PAD_X, hy), ln, font=hf, fill=PAPER)
