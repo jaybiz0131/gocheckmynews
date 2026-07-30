@@ -3194,5 +3194,37 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-07-30",
+  "approved": 9,
+  "rejected": [
+   {
+    "id": "c139",
+    "headline": "Declassified intelligence contradicts Trump election interference claims on China",
+    "category": "accuracy",
+    "reasons": [
+     "The draft claims 'Declassified intelligence shows China sought personal data for espionage purposes, not election interference' but the brief provides zero data_points and explicitly notes 'source_chars: 0' with the open_question stating 'No source text provided; snippet alone states declassified evidence exists but provides no detail on what the intelligence shows.' The writer has fabricated a factual claim about what the declassified intelligence 'shows' without any sourced evidence in the brief to support it. This violates the hard rule that facts must trace to data_points in the brief.",
+     "The draft presents the declassified finding as established fact ('shows China sought personal data') when the brief itself indicates the source material was never provided to verify this claim. This is smuggled information without research backing."
+    ]
+   },
+   {
+    "id": "c099",
+    "headline": "DOJ invokes rarely-used secret court to pursue deportation of ISIS supporter's mother",
+    "category": "accuracy",
+    "reasons": [
+     "Draft states 'The case marks the first use of the specialized court mechanism in decades' but the brief's core_claim says 'marking the first use of the dormant court mechanism in decades'\u2014a subtle but critical difference. The draft's phrasing suggests this is the first use period; the brief indicates it has been used before but dormant for decades. The brief data_point says 'early test of a court that has never been used before,' which directly contradicts the lead. The writer smuggled ambiguity into a factual claim that should trace cleanly to the source.",
+     "The entire draft relies on only two data_points from the brief, and those data_points themselves contain unresolved contradictions ('never been used before' vs. 'dormant court mechanism in decades'). This ambiguity was not resolved in the draft, leaving readers with unclear facts about whether this court has or has not been invoked previously."
+    ]
+   },
+   {
+    "id": "c327",
+    "headline": "First responders describe scene findings as Clancy trial enters day 3",
+    "category": "accuracy",
+    "reasons": [
+     "The phrase 'on the home where Clancy killed her children' in the Friday visit description reads as a verdict on guilt before trial conclusion. The brief data_point says 'the home where Lindsay Clancy killed her children' with confidence 'reported', but this phrasing presents as established fact rather than allegation. The draft should read 'the home where the deaths occurred' or 'where the children were found' to preserve the presumption of innocence in an ongoing trial."
+    ]
+   }
+  ]
  }
 ]

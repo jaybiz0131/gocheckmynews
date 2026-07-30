@@ -1,0 +1,37 @@
+{
+  "id": "c305",
+  "slug": "us-economy-slowed-to-1-5-growth-in-q2-2026-missing-expectations-amid-iran-war-inflation",
+  "kind": "brief",
+  "title": "US economy slowed to 1.5% growth in Q2 2026, missing expectations amid Iran war inflation",
+  "dek": "The U.S. economy expanded at an annualized rate of 1.5% in the second quarter of 2026, down from 2.1% in Q1 and below what economists expected. The slowdown coincides with a historic oil shock tied to the Middle East conflict, which drove gasoline prices to $4.56 per gallon in May and inflation to 3.5%, well above the Federal Reserve's 2% target.",
+  "date": "2026-07-30",
+  "published_utc": "2026-07-30T17:06:58Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 1,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "U.S. GDP grew at 1.5% annualized in Q2 2026, down from 2.1% in Q1, as inflation climbed to 3.5% amid Middle East conflict-driven energy shocks.",
+  "bottom_line": "The Federal Reserve now faces a choice between raising rates to combat inflation or holding steady to avoid strangling an already slowing economy. Watch the central bank's policy decision and any statements from Chair Warsh on whether officials view the inflation spike as temporary or entrenched; a return to peace in the Middle East and lower oil prices could validate the temporary thesis, but persistent high inflation despite slower growth would undercut it.",
+  "human_take": "",
+  "body": [
+    "The U.S. economy grew at an annualized rate of 1.5% in the second quarter of 2026, according to new government data, a meaningful slowdown from 2.1% growth in the prior quarter and below what economists had anticipated. The deceleration occurred against a backdrop of historic global energy shocks set off by the Middle East conflict, which sent inflation climbing to 3.5% annually, more than a percentage point above the Federal Reserve's 2% target.",
+    "Gasoline prices soared as high as $4.56 per gallon in May 2026, per AAA data cited in the official report, before easing somewhat following a preliminary peace agreement last month. The oil shock rippled through business costs and household budgets alike, yet hiring proved more resilient than many economists feared, adding pressure on the inflation picture and raising the probability of interest rate increases, according to futures markets.",
+    "The broader picture shows an economy stretched between competing forces. A surge of investment in artificial intelligence has accounted for a large share of the nation's economic growth in recent quarters, with AI spending representing roughly two-thirds of gross domestic product growth over the first half of 2025, per JPMorgan Asset Management. At the same time, the combination of elevated inflation and a resilient labor market has raised the chances of an interest rate hike, futures markets show.",
+    "The Federal Reserve benchmark rate currently stands between 3.5% and 3.75%, a significant drop from a recent peak in 2023 but well above the 0% rate established at the outset of the COVID-19 pandemic. The central bank is set to announce its latest decision on interest rate levels, with Fed Chair Kevin Warsh, who took the helm in summer 2026, stating in Washington last month, \"Persistently high prices are a burden for the American people. This committee will deliver price stability.\"",
+    "The timing of the GDP release follows a period in which the conflict's toll on global energy markets became the dominant economic story. The slowdown from Q1 to Q2 marks the sharpest quarterly deceleration in recent quarters, though growth remains positive. Q4 2025 recorded an annualized rate of 0.5%, meaning the economy has accelerated from that baseline despite the war-driven headwinds of 2026.",
+    "The open question facing policymakers is whether the slowdown is temporary, tied primarily to energy costs that may recede if the Middle East conflict winds down, or a sign of deeper structural challenges in the economy. The brief provided does not specify which economists' expectations were missed or by how much, nor does it detail which sectors or industries were most affected by the deceleration."
+  ],
+  "sources": [
+    {
+      "title": "abcnews.com",
+      "url": "https://abcnews.com/Business/government-report-show-us-economy-performed-amid-iran/story?id=135152547"
+    }
+  ],
+  "event_utc": "2026-07-30T17:00:20Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-07-30T17:06:58Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}
