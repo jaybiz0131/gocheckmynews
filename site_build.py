@@ -1195,40 +1195,36 @@ def render_method(items, dateline):
     body = f"""<main class="wrap narrow"><section class="page">
   <span class="kicker">Method</span>
   <h1>How we work</h1>
-  <p class="lede">What you can hold this desk to, and what it will not do. The standards below
-     are the commitments; the machinery behind them is ours.</p>
+  <p class="lede">The standards this desk holds itself to, and the things it does not do.</p>
 
-  <h2>What every story has to clear</h2>
+  <h2>What we aim for</h2>
   <ul>
-    <li><b>The public record first.</b> Court rulings, central bank releases and legislation
-        straight from the institution outrank anyone's account of them. Every story links
-        what it is built on, so you can check us rather than trust us.</li>
-    <li><b>Read across the spectrum, not from one side.</b> The intake is deliberately spread
-        across the political spectrum, so the desk never sees one side's telling alone. Every
-        outlet carries a published bias and factual rating, shown to you with attribution;
-        <a href="/sources.html">how we rate sources</a> explains whose ratings those are. A
-        story corroborated across several lanes outranks one carried by a single lane.</li>
-    <li><b>An independent review pass.</b> Nothing publishes on the say-so of whoever
-        assembled it. Each story is checked against its own cited sources by a separate pass
-        whose only job is to find what is wrong, and a story that fails is held or dropped.</li>
-    <li><b>One event, one story.</b> The same news carried by ten outlets is collapsed into
-        one, so a loud story does not look like ten stories.</li>
-    <li><b>A human editor-in-chief above all of it,</b> who can hold or kill anything, and who
-        owns every opinion, every take and every correction on this site.</li>
+    <li><b>Sources you can check.</b> Stories link the material they draw on, and the public
+        record such as court rulings, central bank releases and legislation carries more weight
+        here than anyone's account of it.</li>
+    <li><b>More than one side of the story.</b> Our intake is deliberately spread across the
+        political spectrum, so the desk is not reading one side alone. Outlets carry a published
+        bias and factual rating, shown with attribution;
+        <a href="/sources.html">how we rate sources</a> explains whose ratings those are. News
+        corroborated across several lanes gets more prominence than news carried by one.</li>
+    <li><b>A second look before publication.</b> Stories are checked against the sources they
+        cite, by a pass separate from the one that assembled them. Work that does not hold up
+        is held back or dropped rather than smoothed over.</li>
+    <li><b>Labels on unsettled news.</b> Where something is reported rather than confirmed, we
+        try to say so plainly and name who reported it.</li>
+    <li><b>Human oversight.</b> A human editor-in-chief oversees the desk, can hold or remove
+        anything, and owns the opinion and analysis published here.</li>
   </ul>
 
   {ex_html}
 
-  <h2>What we will not do</h2>
+  <h2>What we do not do</h2>
   <ul>
-    <li>We will not publish anything unverified. If a stage fails, we publish nothing.</li>
-    <li>We will not advocate. We report events and explain what they may mean, never what
+    <li>We do not advocate. We report events and explain what they may mean, never what
         to believe, whom to vote for, or what to buy.</li>
-    <li>We will not endorse a candidate, a party, a policy, or a product. Ever.</li>
-    <li>We will not present a single-source claim as settled fact. A claim carried by one
-        outlet is labeled as such or held.</li>
-    <li>We will not run paid coverage as news. Sponsored items are the thing we are built to
-        strip out.</li>
+    <li>We do not endorse candidates, parties, policies or products.</li>
+    <li>We do not present a single-source claim as settled fact.</li>
+    <li>We do not run paid coverage as news.</li>
     <li>We will not let the machine speak in a human voice. Takes, analysis, and corrections
         are human work, always.</li>
   </ul>
@@ -1302,33 +1298,30 @@ def render_standards(dateline):
   <p class="lede">What you can hold us to.</p>
 
   <h2>Sourcing</h2>
-  <p>Every story links its sources. We weight the official public record most heavily:
-     rulings, releases, and legislation straight from the courts, the central bank, and
-     Congress outrank any outlet's retelling of them. Below that sit established outlets
-     deliberately spread across the political spectrum, so the desk never sees one side's
-     telling alone. A claim carried by a single source below the primary tier is marked as
-     unverified or is not published.</p>
+  <p>Stories link the sources they draw on. We give most weight to the official public
+     record: rulings, releases and legislation straight from the courts, the central bank and
+     Congress carry more weight than any outlet's retelling. Below that sit established
+     outlets deliberately spread across the political spectrum, so the desk is not reading one
+     side alone. A claim resting on a single source below that primary tier is labelled as
+     unconfirmed or left out.</p>
 
   <h2>Source ratings, attributed</h2>
-  <p>Every cited outlet renders with a credibility chip: its coarse bias lane and factual
+  <p>Cited outlets render with a credibility chip where we have a rating for them: its coarse bias lane and factual
      grade per the public AllSides and Media Bias/Fact Check charts. Those ratings belong to
      those organizations, not to us; we transcribe them, attribute them, and re-check them
-     quarterly. A domain we have not seeded renders as unrated, honestly. The full table and
+     periodically. A domain we have not seeded renders as unrated, honestly. The full table and
      the reasoning live at <a href="/sources.html">how we rate sources</a>. A story whose
      corroboration spans three or more bias lanes carries a "corroborated across the
      spectrum" marker on its card.</p>
 
   <h2>Verification</h2>
-  <p>Before a story is drafted, an independent verification pass checks each claim against its cited
-     source. Stories that cannot be verified are either marked clearly for the reader or held back.
-     We would rather be slow than wrong.</p>
+  <p>Stories are checked against the sources they cite by a pass separate from the one that
+     assembled them. Work that does not hold up is labelled clearly for the reader or held
+     back. We would rather be slow than wrong.</p>
 
-  <h2>The gate</h2>
-  <p>A story publishes only when an independent verification pass confirms it against its
-     sources: VERIFIED runs, flagged-for-review waits for the human editor-in-chief, rejected
-     never runs. The human editor oversees the desk, can overrule any machine call in either
-     direction, and owns every opinion or analysis in the byline. The AI never writes a
-     "take" in a human's voice.</p>
+  <h2>Oversight</h2>
+  <p>A human editor-in-chief oversees the desk, can hold or remove anything, and owns the
+     opinion and analysis published here.</p>
 
   <h2>Never advocacy, never advice</h2>
   <p>We report events and explain what they may mean. We do not editorialize, we do not
@@ -1343,11 +1336,9 @@ def render_standards(dateline):
      against the sources. A correction is a feature of an honest desk, not a failure.</p>
 
   <h2>AI disclosure</h2>
-  <p>Stories on this site are produced with AI assistance and reviewed by a separate,
-     independent checking pass before publication, under a human editor-in-chief who oversees
-     the desk and can overrule any call. Takes, analysis and corrections are always human.
-     You should know what you are reading, which is why this paragraph exists. The tools and
-     the internals behind it are ours and are not published.</p>
+  <p>Stories on this site are produced with AI assistance and reviewed before publication,
+     under a human editor-in-chief who oversees the desk. Opinion, analysis and corrections
+     are human work. We say so because you should know what you are reading.</p>
   <p class="nfa">{esc(NFA)}</p>
 </section></main>"""
     return shell(f"Standards - {NAME}", "GoCheckMyNews standards, verification, and corrections policy.",
@@ -1469,7 +1460,7 @@ def render_privacy(dateline):
      under its own privacy policy.</p>
 
   <h2>Links out</h2>
-  <p>Every story links its sources. Once you leave this site, the site you land on operates
+  <p>Stories link their sources. Once you leave this site, the site you land on operates
      under its own privacy policy.</p>
 
   <h2>Contact</h2>
