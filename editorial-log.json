@@ -3304,5 +3304,81 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-07-30",
+  "approved": 4,
+  "rejected": [
+   {
+    "id": "c096",
+    "headline": "U.S. GDP growth slowed to 1.5% in second quarter 2026",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'persistent price pressures are unsettling financial markets' as a fact reported by the New York Times, but the brief does not contain this claim as a data_point. The brief's third data_point says 'Persistent price pressures are unsettling financial markets,' which appears in the brief itself but the brief does not confirm this came from the NYT source\u2014it is listed as a data_point with 'reported' confidence, suggesting it should be verified as actually appearing in the NYT article. The draft presents this as NYT reporting without confirmation it appeared in the source text (brief shows source_chars: 0, meaning content was not provided for verification).",
+     "The draft references the Iran-U.S. conflict contributing to inflation 'through energy and supply-chain effects' but this causal claim does not appear in the brief's data_points. The brief only states the conflict occurred and growth slowed; it does not source a causal link between the war and the slowdown to the NYT article."
+    ]
+   },
+   {
+    "id": "c220",
+    "headline": "Senate Republicans block war powers resolution on Iran, 50-49",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Three Republicans crossed party lines in support of the resolution, per the Examiner's reporting: Susan Collins of Maine and Rand Paul. The third Republican defector's name is not specified in available reporting.' This is internally contradictory and misleading: the sentence claims three Republicans defected but then lists only two names, then says the third is not specified. The brief confirms the problem: 'Three Republicans crossed party lines: Susan Collins (R-ME) and Rand Paul (details incomplete in source)' with the third name marked as an open question. The draft should either state that only two names were confirmed (Collins and Paul) with a third unnamed defector, or clearly label this as incomplete information. The current phrasing creates confusion about whether three is confirmed or unconfirmed.",
+     "The draft says 'The narrow vote preserved the president's unilateral authority to conduct military operations against Iran without explicit congressional approval.' This interpretation\u2014that the vote 'preserved' authority\u2014is not sourced in the brief. The brief's core_claim is factual (the vote happened and was 50-49), but the interpretive claim that this 'preserved' authority is editorial reasoning, not a reported fact from the Examiner."
+    ]
+   },
+   {
+    "id": "c105",
+    "headline": "DOJ seeks to use dormant terrorism court to deport mother of ISIS supporter",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states the court has been 'dormant for 30 years' but the brief says 'dormant for 30 years' referring to its never-used status since establishment. The draft does not trace back to any data_point specifying when the court was established or how long it has existed\u2014only that it has never been used. The phrase 'dormant for 30 years' implies it was created 30 years ago and has sat unused; the brief does not confirm this timeline, only that it has not been used in its history. This is a factual claim not supported by the brief.",
+     "The draft presents the case as 'terrorism-adjacent' and references 'an ISIS supporter' without naming the defendant or the connection. The brief states the case is 'linked to an ISIS supporter' and specifies the defendant is 'the mother of a convicted ISIS supporter,' but the draft does not establish this relationship clearly. More critically, the brief does not provide the defendant's name, age, nationality, or other identifying details\u2014the draft should not invent or amplify the 'terrorism-adjacent' framing beyond what the brief supports.",
+     "The draft lacks basic factual specificity that should come from the brief: the defendant's name, nationality, the son/daughter's name, conviction details, or the timeline of events. The brief's open_questions flag multiple missing details (defendant's name, specific connection to ISIS supporter, grounds for opposing deportation). A draft this thin with a brief this thin should either fill these gaps from the source or clearly signal that details are unavailable\u2014the current draft reads as though the information exists but was simply not included."
+    ]
+   },
+   {
+    "id": "c021",
+    "headline": "European football nations vote to boycott World Cup over FIFA investment plan",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The specific terms of FIFA's investment proposals and which tournament elements would be privatized remain unclear from available reporting' but this concession appears nowhere in the brief's data_points or angle. The brief explicitly lists as open_questions 'What specifically are FIFA's investment proposals and which elements of the World Cup would be privatized?' This tells us the brief author knew the details were missing from the source. The draft should not acknowledge this gap as a limitation of 'available reporting' when it should simply state what is known from the sourced material and note what is not yet reported.",
+     "The draft states UEFA 'would' boycott 'if FIFA President Gianni Infantino proceeds with proposed investment deals' but the brief's core_claim says the vote was 'unless FIFA President Gianni Infantino reverses investment proposals'\u2014a conditional threat, not a firm commitment. The draft's phrasing is closer to correct, but then says 'The specific terms of FIFA's investment proposals' remain unclear, contradicting the premise that a clear proposal exists to vote on. Either the proposals are defined enough to vote against them, or they are not\u2014the draft cannot have it both ways.",
+     "The draft lacks a single verifiable fact beyond the vote itself: no names of which associations, no vote counts, no statement text beyond the paraphrase 'the World Cup is not for sale,' no date or venue, no FIFA response. The brief contains three data_points, all marked 'reported,' none of which include specific vote counts, timing, or official statement text. The draft should match the brief's level of detail, not pad it with inference."
+    ]
+   },
+   {
+    "id": "c185",
+    "headline": "Federal judge blocks DOJ's access to New Jersey voter rolls, rejecting Trump administration legal theory",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'the ruling is the latest setback for the Trump administration's voter access initiative' and later 'Judge Quraishi's interpretation of Title III represents a significant legal barrier to the Trump administration's voter access strategy.' The brief's bear_case presents the Trump administration's legal theory (that Title III grants access), but the draft frames the judge's rejection as a 'setback' and 'barrier' to the administration's position without explicitly stating that the administration contested the ruling or planned to appeal. The framing reads as settled judgment rather than one side of an ongoing dispute. The draft should present what the Trump administration argued and what the judge ruled, letting readers see both positions, rather than adopting the judge's interpretive frame as established fact."
+    ]
+   },
+   {
+    "id": "c121",
+    "headline": "American Red Cross declares second-ever national blood supply crisis",
+    "category": "balance",
+    "reasons": [
+     "The brief is marked 'thin: true' with only five core data_points and six open_questions. The draft is extremely short (only two paragraphs) and offers no counter-evidence, context, or mitigation. The brief's open_questions explicitly ask whether this is 'cyclical' or 'structural decline'\u2014the exact tension the bottom_line raises. However, the draft body contains zero information about prior crises, typical supply levels, seasonal patterns, or Red Cross response measures. A thin brief requires tight reporting, but this draft is so sparse it reads incomplete: a one-sentence statement of the crisis with no supporting detail about what 'second-ever' means, when the first occurred, what 'normal' supply looks like, or what the Red Cross is doing. The bottom_line promises to tell readers what determines severity, but the body delivers no information to answer those questions. This is under-reporting relative to the brief's own scope."
+    ]
+   },
+   {
+    "id": "c148",
+    "headline": "HOLD FOR RESEARCH: Source material not provided",
+    "category": "accuracy",
+    "reasons": [
+     "Draft body consists entirely of meta-commentary about missing source material rather than reporting. The brief explicitly notes data_points: [] and source_chars: 0, confirming no verified facts exist to report. A draft that contains no sourced reporting is not a draft; it is a rejection memo. The story cannot be approved because there are no facts to trace and no liability-cleared claims to publish."
+    ]
+   },
+   {
+    "id": "c266",
+    "headline": "HOLD FOR RESEARCH: Source material insufficient",
+    "category": "accuracy",
+    "reasons": [
+     "Draft body consists entirely of meta-commentary about missing source material rather than reporting. The brief contains only four minimal data points with no article text (source_chars: 0) and an explicit open_question noting the article content is missing. A draft that contains no sourced reporting is not a draft; it is a rejection memo. The story cannot be approved because there are no facts to trace, no inline attribution to verify, and no liability-cleared claims to publish."
+    ]
+   }
+  ]
  }
 ]
