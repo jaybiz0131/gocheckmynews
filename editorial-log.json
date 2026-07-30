@@ -3226,5 +3226,83 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-07-30",
+  "approved": 4,
+  "rejected": [
+   {
+    "id": "c093",
+    "headline": "U.S. GDP Growth Slowed in Second Quarter of 2026",
+    "category": "accuracy",
+    "reasons": [
+     "The brief explicitly marks this as 'thin: true' with zero data_points and zero source_chars, yet the draft contains multiple specific factual claims not present in the brief: 'inflationary pressures continued to weigh on growth', 'unsettled markets', 'raised questions about the sustainability of growth momentum', and references to 'interest rate trajectories' and 'spending forecasts.' These claims are smuggled\u2014they do not appear in the brief's data_points and cannot be traced to the single NYT source URL provided.",
+     "The draft states 'According to The New York Times' reporting' but provides no specific figures, growth rate, expected benchmark, or inflation magnitude\u2014the very facts the brief's open_questions identify as missing ('What is the specific GDP growth rate for Q2 2026? What was the expected growth rate that was missed?'). The draft then admits these facts 'have not been independently verified beyond the sourced reporting,' which is a self-contradiction: if they are not verified, they should not appear as asserted facts in the story at all."
+    ]
+   },
+   {
+    "id": "c337",
+    "headline": "Colin Gray Sentenced to 15 Years for Role in Apalachee High School Shooting",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'a conviction on charges including second degree murder and involuntary manslaughter' but the brief's data_point says 'Colin Gray was found guilty in March on charges stemming from the 2024 attack'\u2014it does not enumerate which charges or confirm the specific convictions. The draft then specifies '15 years for each second degree murder conviction and 10 years for each involuntary manslaughter conviction' which matches the brief's data_point, but earlier asserts he was convicted 'on charges including second degree murder and involuntary manslaughter' as though that list is complete and sourced, when the brief itself has an open_question: 'What specific charges was Colin Gray convicted of?'",
+     "The draft refers to 'the 2024 shooting' but this story is dated July 30, 2026\u2014the shooting occurred in 2024. The brief confirms the attack happened at Apalachee High School, but the draft's phrasing 'stemming from a shooting at Apalachee High School in Winder, Georgia that killed four people' mixes the conviction date (2026) with the attack date (2024) in a way that could confuse timeline readers. The brief is clear; the draft's framing is not."
+    ]
+   },
+   {
+    "id": "c336",
+    "headline": "Drone Strikes Hit Gas Vessels at Egyptian Port as War Expands",
+    "category": "accuracy",
+    "reasons": [
+     "The draft opens with 'Drone strikes struck gas vessels at an Egyptian port on the Mediterranean' but the brief's open_questions explicitly flag: 'Which party (US or Iran) is alleged to have conducted the drone strikes on the Egyptian port?' The draft never answers this question, leaving the reader unable to know whether US or Iran conducted the strikes. This is not an open question worth leaving open in the body text\u2014it is a critical fact that must be sourced and stated.",
+     "The draft states 'The conflict, which began approximately five months ago, has involved escalating missile and drone exchanges between Iran and the U.S.' This claim of 'escalating' exchanges is not present in the brief's data_points; the brief only says 'Iran and U.S. are trading more missile strikes' and 'The war with Iran has lasted five months.' The word 'escalating' is not in the brief and represents an interpretation smuggled into the narrative.",
+     "The draft asserts 'the scope of hostilities extends beyond previously documented theaters' but provides no evidence of what the 'previously documented theaters' were, making this claim unverifiable against the brief. The brief does not provide this context."
+    ]
+   },
+   {
+    "id": "c103",
+    "headline": "Dormant alien removal tribunal for terror cases reactivated after 30 years",
+    "category": "accuracy",
+    "reasons": [
+     "Draft states the tribunal is being reactivated 'under the current administration' but the brief does not contain this claim. The brief mentions 'Trump administration' in the core_claim, but this is not explicitly stated in the single reported data_point. The draft characterizes the reactivation timing as part of the current administration's policy without sourced support for that causal claim.",
+     "Draft claims 'The tribunal operates as a secretive proceeding with limited public transparency and restricted defendant protections compared to standard immigration proceedings' but only one data_point is confirmed in the brief (dormancy of 30 years). The characterization of the tribunal's operations, transparency restrictions, and defendant protections are not supported by any data_point in the brief and represent smuggled information."
+    ]
+   },
+   {
+    "id": "c102",
+    "headline": "DOJ uses reactivated secret tribunal to seek deportation of ISIS supporter's mother",
+    "category": "accuracy",
+    "reasons": [
+     "Draft states 'This case marks the first operational use of the court, which had never been used before' but the brief's data_point says 'This court has never been used before this case.' These are the same fact, but the draft is stating it as established fact when it should trace to the NYT source. More critically, the brief and draft together create a potential conflict: draft c103 says the tribunal 'is hearing its first case' while draft c102 says 'the case marks the first operational use.' These cannot both be true if they refer to the same tribunal and timeframe. This is an accuracy problem in how the drafts relate to each other and their shared source.",
+     "Draft states 'The court's rules prevent defendants from challenging how evidence was collected' as a general operational rule, but the brief's data_point is 'Defendants cannot challenge how evidence was collected in the court'\u2014which derives from reporting on this specific case. The draft generalizes a fact about this one case into a statement about the tribunal's rules without confirmation that this applies systematically."
+    ]
+   },
+   {
+    "id": "c261",
+    "headline": "Senate Republicans block Iran war withdrawal resolution",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The Senate vote finished 49-50...with the measure failing to reach the 50-vote threshold required to discharge it from the Foreign Relations Committee.' This is mathematically impossible and internally contradictory: a 49-50 vote shows 49 in favor and 50 opposed, meaning it failed to reach 50 votes in favor (the threshold). The phrasing 'finished 49-50' is ambiguous about which side had which count, and the description of a '50-vote threshold' is not verified in the brief. The brief data_point only confirms '49-50' as the vote count without specifying threshold details. This factual confusion on the central claim of the story requires clarification from the source before publication."
+    ]
+   },
+   {
+    "id": "c022",
+    "headline": "Wildfires kill three firefighters, displace thousands in Crete and across Mediterranean",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states Bianca Boorer visited 'on a yoga retreat' but the brief data_point specifies she visited 'with her mother on a yoga retreat'\u2014the detail about her mother is in the source material and should appear in the draft.",
+     "The draft describes 'only two people had cars among eleven trying to escape' but the brief states 'only two people had cars, with eleven people trying to get into one tiny car'\u2014the phrase 'trying to get into one tiny car' conveys material detail about the evacuation chaos that is lost in paraphrase."
+    ]
+   },
+   {
+    "id": "c095",
+    "headline": "Elon Musk plans at least $100 million in spending for Republican midterm candidates",
+    "category": "accuracy",
+    "reasons": [
+     "The draft characterizes the Musk-Trump rift as occurring 'a year prior' to the 2026 midterm spending announcement, but the brief data_point states the blowup was 'a year prior'\u2014without specification of when 'now' is in the reporting timeline. Given the timestamp is 2026-07-30 and the brief says 'a year prior,' this would place the rift at approximately mid-2025, but the draft does not establish the temporal anchor clearly enough to verify accuracy.",
+     "More critically, the brief is marked 'thin': true, indicating sparse sourcing. The draft acknowledges 'critical gaps remain about which states, what spending vehicle' but then closes by saying 'Watch for Musk or his representatives to provide detail'\u2014this reads as filler and violates the principle that a thin brief should yield a tight, fact-based story, not one padded with forward-looking speculation. A thin brief does not justify placeholder prose."
+    ]
+   }
+  ]
  }
 ]

@@ -1,0 +1,37 @@
+{
+  "id": "c173",
+  "slug": "federal-judge-blocks-doj-access-to-new-jersey-voter-rolls",
+  "kind": "brief",
+  "title": "Federal judge blocks DOJ access to New Jersey voter rolls",
+  "dek": "District Judge Zahid Quraishi ruled Wednesday that Title III of the Civil Rights Act does not extend to New Jersey's computerized voter registration list, blocking a Trump administration request for unredacted access. The ruling comes as the state addresses a software error that led to roughly 6,600 noncitizens being mistakenly registered to vote.",
+  "date": "2026-07-30",
+  "published_utc": "2026-07-30T17:53:59Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 7,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "A federal judge rejected the Justice Department's legal argument that Title III of the Civil Rights Act granted it access to state voter rolls, ruling the law applies only to records election officers physically possess, not computerized databases.",
+  "bottom_line": "The New Jersey decision constrains federal investigative reach into state election records on statutory grounds, but does not resolve whether other legal authorities might provide the DOJ access in other jurisdictions. Watch whether the Trump administration appeals or pursues similar requests in the remaining states named in its litigation.",
+  "human_take": "",
+  "body": [
+    "A federal judge has blocked the Justice Department from obtaining New Jersey's unredacted voter registration list, rejecting the Trump administration's legal theory for accessing state election records. District Judge Zahid Quraishi, a Biden appointee, ruled Wednesday that the government's request exceeds the scope of Title III of the Civil Rights Act.",
+    "The case centers on how broadly federal law applies to modern election administration. According to the judge's written opinion, cited by Fox News, Title III \"applies only to records which come into election officers' possession and thus does not extend to New Jersey's computerized VRL (voter registration list), a document the State itself created.\" The Trump administration had argued that Title III granted federal authorities access to voter registration lists across multiple states.",
+    "New Jersey has faced election administration scrutiny following what Gov. Mikie Sherrill described as a \"serious software error\" in the state's Motor Vehicle System. According to the governor, the error led to roughly 6,600 noncitizens being mistakenly registered to vote. Fewer than 400 of those individuals cast ballots, per Sherrill's statement. The state's Division of Elections has been removing ineligible voters from the rolls, and Sherrill said she ordered an investigation immediately upon discovery of the error. Additionally, reports surfaced that roughly 75,000 noncitizens had been summoned for jury duty through state databases, according to multiple reports cited in the news coverage.",
+    "The company providing identity-related security services denied any wrongdoing regarding the noncitizen registration error, though it is not named in available reporting. Sen. Andy Kim, D-N.J., acknowledged the severity of the problem in a statement: \"In New Jersey, we absolutely need to have accountability for what happened. It was just horrible. There was a big problem with that computer problem that they had. We need to try to address that going forward.\"",
+    "The ruling represents the latest defeat for the Trump administration in its effort to access state voter rolls. The DOJ sued Utah, Oklahoma, Kentucky, West Virginia, and New Jersey earlier this year for access to their registration lists, according to available reporting. The judge's decision turns on a narrow reading of Title III, limiting its application to physical records rather than electronic databases created and maintained by states themselves.",
+    "The case illustrates friction between federal investigative authority and state control over election administration, occurring against the backdrop of New Jersey's documented registration errors. The ruling does not address whether the other states similarly faced voter roll access requests or how those may proceed."
+  ],
+  "sources": [
+    {
+      "title": "Fox News",
+      "url": "https://www.foxnews.com/politics/federal-judge-blocks-doj-access-nj-voter-rolls-amid-statewide-controversy"
+    }
+  ],
+  "event_utc": "2026-07-30T17:31:46Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-07-30T17:53:59Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}
