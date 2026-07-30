@@ -1,0 +1,35 @@
+{
+  "id": "c175",
+  "slug": "trump-administration-invokes-30-year-dormant-terror-deportation-court-for-first-time",
+  "kind": "brief",
+  "title": "Trump administration invokes 30-year-dormant terror deportation court for first time",
+  "dek": "The Justice Department has invoked the Alien Terrorist Removal Court for the first time since its creation in 1996, seeking to deport Nazira Haji Zada from Fort Worth, Texas, who is accused of aiding a 2024 Election Day terror plot allegedly inspired by ISIS. An initial hearing is scheduled for Thursday in Washington, D.C.",
+  "date": "2026-07-30",
+  "published_utc": "2026-07-30T07:57:57Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 12,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The Alien Terrorist Removal Court, created in 1996 but never used until now, is being deployed to deport Nazira Haji Zada, the mother and mother-in-law of two Afghan men convicted in connection with an ISIS-inspired Election Day plot.",
+  "bottom_line": "This case marks the first test of a secretive 30-year-old statute and will determine how the government uses classified evidence in deportation proceedings where the defendant's access to evidence and cross-examination rights may be restricted. The outcome will likely shape how the administration pursues similar cases involving national security allegations.",
+  "human_take": "",
+  "body": [
+    "The Justice Department has filed the first petition ever submitted to the Alien Terrorist Removal Court since its creation in 1996, seeking to deport Nazira Haji Zada, an Afghan woman from Fort Worth, Texas, who is accused of aiding a 2024 Election Day terror plot, according to Fox News.",
+    "Haji Zada was arrested earlier this week. An initial hearing was scheduled for Thursday in Washington, D.C., at the E. Barrett Prettyman U.S. Courthouse. The Alien Terrorist Removal Court is composed of five federal judges from various districts appointed by the chief justice of the Supreme Court and hears applications for removal of non-citizens alleged to qualify as \"alien terrorists\" under federal immigration law when evidence includes classified information.",
+    "According to an FBI memo dated July 15, authorities \"developed information\" that Haji Zada supports the Islamic State and had her children pledge their loyalty to the terrorist group. The memo states she \"supported\" a plot by family members to carry out an ISIS-inspired attack in the United States. Haji Zada is the mother and mother-in-law of two Afghan men convicted in Oklahoma in connection with the Election Day plot. Her son, Abdullah Haji Zada, was sentenced in November to 15 years in prison and previously agreed to be deported after his release. Her son-in-law, Nasir Ahmad Tawhedi, previously worked as a security guard for a U.S. military installation in Afghanistan and pleaded guilty to conspiring and attempting to provide material support to the Islamic State. Tawhedi attempted to advance attack plans by ordering AK-47 rifles, liquidating family assets, and purchasing one-way tickets for his wife and child to travel back to Afghanistan, according to Fox News.",
+    "Acting Attorney General Todd Blanche said in a statement: \"The allegations in this case show the matriarch of an ISIS-sympathizing family aiding in a plot to launch a mass casualty attack on American voters on Election Day.\" Blanche added: \"Congress created the Alien Terrorist Removal Court three decades ago to remove from the United States alien terrorists who never should have been here in the first place.\""
+  ],
+  "sources": [
+    {
+      "title": "Fox News",
+      "url": "https://www.foxnews.com/politics/trump-admin-invokes-30-year-dormant-terror-court-seeks-deport-afghan-woman-tied-election-day-plot"
+    }
+  ],
+  "event_utc": "2026-07-30T04:29:16Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-07-30T07:57:57Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}

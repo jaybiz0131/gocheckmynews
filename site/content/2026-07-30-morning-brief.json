@@ -1,0 +1,86 @@
+{
+  "id": "wrap-am-2026-07-30",
+  "slug": "morning-brief-2026-07-30",
+  "kind": "brief",
+  "title": "The Morning Brief: Japan Quake Toll Climbs as Iran Conflict Resumes",
+  "dek": "A 7.1-magnitude earthquake's death toll rose to at least 18 as rescue crews worked through Japan's collapsed buildings, while Washington and Tehran resumed strikes and the Senate confirmed a new intelligence chief.",
+  "date": "2026-07-30",
+  "published_utc": "2026-07-30T08:04:14Z",
+  "category": "daily edition",
+  "rank": -1,
+  "author": "GoCheckMyNews",
+  "key_fact": "The earthquake death toll in southern Japan is still being confirmed, and Wednesday's US strikes on Iran show that this week's pause in the five-month conflict has ended, not resolved.",
+  "bottom_line": "Southern Japan's earthquake death toll rose to at least 18 by Wednesday, with rescue crews still working two collapsed sites and the number of missing described as unknown, a reminder that early disaster figures shift as confirmation catches up. In Washington, confirmations and legal proceedings moved forward, including Jay Clayton's confirmation as intelligence chief, Colt Gray's life sentence, and Hadi Matar's terrorism conviction, while the Blanche nomination remains stalled on a Republican demand. Overseas, the US and Iran resumed direct strikes after a days-long pause that had appeared to open room for diplomacy, and Shell's doubled profit underscored how the conflict is reshaping energy markets. The honest read is that several of today's biggest numbers, Japan's casualty count chief among them, are still moving. Watch Thursday's Judiciary Committee vote, the new terror deportation court's first hearing, and Iran's response to Wednesday's strikes.",
+  "human_take": "",
+  "body": [
+    "The day's throughline is confirmation catching up to disaster and conflict that moved faster than official counts. In southern Japan, a 7.1-magnitude earthquake first reported Tuesday afternoon local time has, by Wednesday's update, left at least 18 people dead and at least 62 injured, with rescue crews still working two major collapse sites and an unknown number of people unaccounted for across the affected area. In the Middle East, the US and Iran resumed direct strikes after a pause of several days that had looked, briefly, like an opening for diplomacy.",
+    "The earthquake story has moved in stages. Tuesday's initial reporting described a quake registering the top of Japan's Shindo intensity scale (6.8 by the US Geological Survey's measurement), with buildings collapsed, fires burning, and nine people unaccounted for at the Aeon Mall in Kashima city; police told broadcaster TBS there were \"a lot of deaths\" but could not yet confirm a number. By Wednesday's follow-up, the count stood at least 18 dead, with rescue operations continuing in collapsed structures, including a gas explosion at an Aeon Mall shopping center and a chimney collapse at a nearby paper factory among the incidents cited, though the stories do not break down the death toll by location. Crews are working against extreme heat, and the story stresses the number still missing remains unclear.",
+    "In Washington, the day carried threads on courts, confirmations, and money. A jury convicted Hadi Matar of federal terrorism charges in the 2022 stabbing of author Salman Rushdie, with sentencing set for November 3 and a potential life term. A Georgia judge sentenced Colt Gray, who pleaded guilty to all 55 counts including four counts of malice murder in the 2024 Apalachee High School shooting, to life without parole. The Senate confirmed Jay Clayton as director of national intelligence by a 51-47 vote, ending the brief, contested tenure of acting DNI Bill Pulte. Separately, Senators Cornyn and Tillis are withholding votes on attorney general nominee Todd Blanche pending written guarantees that the administration will dissolve a $1.8 billion anti-weaponization fund, a dispute that could decide his confirmation in a 51-49 Senate. The Senate also advanced a Russia and Iran sanctions bill named for the late Sen. Lindsey Graham, expected to pass with more than 60 cosponsors.",
+    "Overseas, the US and Iran resumed direct military action Wednesday night after several days of pause that had come amid apparent diplomatic talks. Centcom said US strikes hit Iranian command centers, missile and drone facilities, and coastal defense sites in retaliation for Tuesday's Iranian ballistic missile attacks on US positions in Jordan and the Strait of Hormuz, all of which Centcom said were intercepted. Shell reported second-quarter profit of $9.84 billion, more than double a year earlier, which it attributed to oil price increases tied to the conflict's disruption of Strait of Hormuz shipping. In France and Spain, wildfires have displaced roughly 330,000 people, with the Gironde fire alone forcing 220,000 evacuations and officials calling it likely France's largest peacetime civilian evacuation.",
+    "The reporting attributes each development to its own driver: the earthquake to seismic activity along Kyushu, the Iran strikes to Tuesday's missile attack and a breakdown in the diplomatic pause, and Shell's earnings explicitly to conflict-driven oil prices. The stories do not offer a reason for the Cornyn-Tillis holdout beyond the stated demand over the anti-weaponization fund, and the mechanism connecting Hadi Matar's actions to any broader network remains, per the reporting, a live question.",
+    "No desk boards were available for this edition, so figures above rely solely on the day's published stories.",
+    "In the coming days, watch Japan's rescue operations at the two remaining collapse sites and whether officials confirm a fuller casualty count; the Senate Judiciary Committee's scheduled Thursday vote on Blanche, contingent on written assurances from the administration; the Alien Terrorist Removal Court's first-ever hearing Thursday in the Nazira Haji Zada case; Matar's November 3 sentencing; and any Iranian response to Wednesday's US strikes, which would test whether the pause that just broke down can be restored."
+  ],
+  "sources": [
+    {
+      "title": "7.1-magnitude earthquake strikes southern Japan; rescue operations ongoing at collapsed shopping mall",
+      "url": "/articles/7-1-magnitude-earthquake-strikes-southern-japan-rescue-operations-ongoing-at-collapsed-shopping-mall.html"
+    },
+    {
+      "title": "Colt Gray sentenced to life without parole for Apalachee High School shooting",
+      "url": "/articles/colt-gray-sentenced-to-life-without-parole-for-apalachee-high-school-shooting.html"
+    },
+    {
+      "title": "Federal judge blocks Minnesota's prediction market ban as federally preempted",
+      "url": "/articles/federal-judge-blocks-minnesota-s-prediction-market-ban-as-federally-preempted.html"
+    },
+    {
+      "title": "Keiko Fujimori inaugurated as Peru's president after narrow runoff victory",
+      "url": "/articles/keiko-fujimori-inaugurated-as-peru-s-president-after-narrow-runoff-victory.html"
+    },
+    {
+      "title": "Senate advances Russia and Iran sanctions bill named for Sen. Graham",
+      "url": "/articles/senate-advances-russia-and-iran-sanctions-bill-named-for-sen-graham.html"
+    },
+    {
+      "title": "Federal Reserve Holds Rates at 3.5 to 3.75 Percent Amid Internal Disagreement",
+      "url": "/articles/federal-reserve-holds-rates-at-3-5-to-3-75-percent-amid-internal-disagreement.html"
+    },
+    {
+      "title": "France orders fresh evacuations as wildfires displace 330,000 across Europe",
+      "url": "/articles/france-orders-fresh-evacuations-as-wildfires-displace-330-000-across-europe.html"
+    },
+    {
+      "title": "Japan earthquake kills at least 18; rescue operations underway in collapsed buildings",
+      "url": "/articles/japan-earthquake-kills-at-least-18-rescue-operations-underway-in-collapsed-buildings.html"
+    },
+    {
+      "title": "Senate confirms Jay Clayton as director of national intelligence",
+      "url": "/articles/senate-confirms-jay-clayton-as-director-of-national-intelligence.html"
+    },
+    {
+      "title": "South Dakota Gov. Larry Rhoden defeats businessman Toby Doeden in GOP primary runoff",
+      "url": "/articles/south-dakota-gov-larry-rhoden-defeats-businessman-toby-doeden-in-gop-primary-runoff.html"
+    },
+    {
+      "title": "Two GOP senators demand guarantee to kill anti-weaponization fund before backing Blanche for attorney general",
+      "url": "/articles/two-gop-senators-demand-guarantee-to-kill-anti-weaponization-fund-before-backing-blanche-for-attorney-general.html"
+    },
+    {
+      "title": "Man Convicted of Federal Terrorism Charges in Stabbing of Salman Rushdie",
+      "url": "/articles/man-convicted-of-federal-terrorism-charges-in-stabbing-of-salman-rushdie.html"
+    },
+    {
+      "title": "Shell's Q2 profit doubles to $9.84 billion as oil prices surge from Iran war",
+      "url": "/articles/shell-s-q2-profit-doubles-to-9-84-billion-as-oil-prices-surge-from-iran-war.html"
+    },
+    {
+      "title": "Trump administration invokes 30-year-dormant terror deportation court for first time",
+      "url": "/articles/trump-administration-invokes-30-year-dormant-terror-deportation-court-for-first-time.html"
+    },
+    {
+      "title": "US Completes Retaliatory Strikes on Iran Following Missile Attack",
+      "url": "/articles/us-completes-retaliatory-strikes-on-iran-following-missile-attack.html"
+    }
+  ]
+}

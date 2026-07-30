@@ -3021,5 +3021,76 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-07-30",
+  "approved": 5,
+  "rejected": [
+   {
+    "id": "c014",
+    "headline": "Death Toll Climbs in Southwest Japan Earthquake as Rescue Efforts Continue",
+    "category": "accuracy",
+    "reasons": [
+     "Draft states 'at least 23 people' killed, but brief data_point 3 establishes that Chief Cabinet Secretary Minoru Kihara gave a higher police tally of 28 deaths. The draft should present both figures upfront with the caveat that the 28 includes cases still under investigation and may include unrelated deaths, per the brief's bear_case emphasis on uncertainty. The draft buries this discrepancy and uncertainty instead of leading with the conflicting tallies.",
+     "Draft omits the critical qualification from the brief: Kihara's 28-death figure 'includes cases still under investigation' and 'some of those cases may later turn out to be unrelated to the earthquake.' This confidence qualifier ('reported' with caveats) is material to the death toll claim and cannot be sanded smooth in drafting."
+    ]
+   },
+   {
+    "id": "c097",
+    "headline": "Cornyn and Tillis Block Blanche AG Confirmation Vote Over IRS Settlement",
+    "category": "accuracy",
+    "reasons": [
+     "The brief contains only one data_point with confidence label 'reported': 'Cornyn and Tillis accused Blanche of refusing to put in writing his promise to kill aspects of Trump's settlement against the IRS.' The draft expands this single claim into a narrative of blocked votes and demands with no additional data_points in the brief to support the framing. The draft states 'blocked a Senate confirmation vote' and 'The demand halts confirmation proceedings' as established fact, but the brief provides no data_point confirming the vote was blocked or that proceedings are halted\u2014only that accusation and demand were made. These are inference beyond the brief.",
+     "The draft presents the situation as a concrete standoff ('The demand halts confirmation proceedings on a key cabinet post') without sourcing. The brief's single data_point supports only that Cornyn and Tillis made accusations; it does not confirm that a vote was scheduled, blocked, or halted. This is factual escalation beyond what the brief research established."
+    ]
+   },
+   {
+    "id": "c101",
+    "headline": "Fauci Invokes Fifth Amendment Over 100 Times at Senate Hearing on COVID Origins",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Dr. Anthony Fauci, the former director of the National Institute of Allergy and Infectious Diseases, invoked the Fifth Amendment over 100 times at a Senate hearing on COVID-19 origins, citing fear of prosecution, according to reporting by the New York Times.' The brief's data_point for this claim is labeled 'reported' confidence, not 'confirmed' or 'verified.' The phrase 'citing fear of prosecution' appears in the draft but is not explicitly stated as an attributed claim in the brief's data_points\u2014the brief only says he 'invoked the Fifth Amendment over 100 times' without attribution of the specific reason. The draft adds interpretive detail ('citing fear of prosecution') that should be attributed inline to the source or flagged as inference.",
+     "The draft contains a paragraph stating 'No defense of Fauci's position, counter-argument from committee Democrats, or other on-record response from committee members appears in the reporting available to date.' This is a meta-statement about what the reporting does not contain, not a fact from the brief. The brief itself identifies no bear_case items and the open_questions explicitly flag missing information. The writer is inserting editorial judgment about gaps in reporting rather than reporting what is known. This reads as advocacy for skepticism of the story itself and violates the no-advocacy rule.",
+     "The draft's opening paragraph attributes the claim to 'reporting by the New York Times' but then the body shifts to 'according to reporting by the New York Times,' then to no attribution on subsequent claims. The sources list shows only one URL, making it impossible to verify whether the 'available reporting' limitation is accurate or whether the writer is smuggling skepticism about source sufficiency into the piece."
+    ]
+   },
+   {
+    "id": "c045",
+    "headline": "Three Greek Firefighters Die as Wildfires Sweep Crete and Southern Europe",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states: 'A fourth heatwave of the summer has begun in Spain and France.' The brief's data_point says 'A fourth heatwave of the summer has begun in Spain and France.' However, earlier in the draft the text reads 'France is experiencing a fourth heatwave of the summer,' which is accurate. But the sentence 'A fourth heatwave of the summer has begun in Spain and France' appears without attribution and reads as the writer's own voice in the opening paragraph. The brief lists this as occurring but the draft should attribute it to BBC reporting inline, not present it as a standalone fact.",
+     "The draft states 'Residents and tourists fled as fire fronts extended as far as 15 kilometers (9.3 miles), per BBC reporting.' The brief's data_point says 'Witnesses said several fires broke out on Crete and spread fast, with the worst fire front extending as far as 15km (9.3 miles).' The draft attributes this to BBC, but the brief attributes it to 'Witnesses'\u2014the draft has collapsed the sourcing and lost the attribution layer. This is a minor accuracy drift but affects liability if the 'per BBC reporting' claim is later challenged.",
+     "The draft includes the sentence: 'The fire service has deployed special measures in Gironde to protect sites linked to France's defence and aerospace industries, including manufacturing facilities for hazardous materials for missiles and rockets.' The brief's data_point says: 'The fire service has deployed special measures in Gironde to protect sites linked to France's defence and aerospace industries, including so-called 'Seveso' sites that manufacture hazardous materials for missiles and rockets.' The draft has dropped the technical term 'Seveso' and replaced it with a generic descriptor. While not technically false, this loses precision and regulatory specificity that the source provided, weakening the accuracy of the technical detail."
+    ]
+   },
+   {
+    "id": "c165",
+    "headline": "French and Spanish economies expanded in Q2 despite Middle East conflict",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'French and Spanish growth in the second quarter of 2026' but the brief's data_points contain only a single claim about 'Economies across the eurozone' with no specific mention of Spanish data. The brief itself flags as an open question: 'Did growth occur across all eurozone economies or only France and Spain?' This suggests Spanish growth may not be confirmed in the source.",
+     "The draft presents the resilience claim ('Economies across the eurozone proved more resilient than feared') as established fact, but the brief marks this as 'reported' confidence level and identifies as an open question: 'What data or forecasts support the claim of resilience\u2014what was the feared/baseline scenario?' The draft should acknowledge this gap rather than presenting resilience as confirmed."
+    ]
+   },
+   {
+    "id": "c099",
+    "headline": "U.S. moves to block Chinese robot imports; China threatens retaliation",
+    "category": "accuracy",
+    "reasons": [
+     "The brief contains zero data_points\u2014only open_questions and the core claim. The draft goes beyond the brief by adding interpretive claims not grounded in any sourced data: 'Earlier restrictions have targeted semiconductors and software' is not in the brief's data_points, 'Manufacturing competitiveness, labor productivity, and the pace of industrial automation increasingly depend on robotic systems' is not sourced in the brief, and 'Control over supply chains in this sector affects economic power and technological independence' is analysis not tied to a data_point.",
+     "The rule is absolute: no fact exists outside the brief. With zero data_points provided, the draft should contain only the core claim and open_questions, not supplementary historical context or strategic analysis without sourced support."
+    ]
+   },
+   {
+    "id": "c119",
+    "headline": "Seattle food festival shooting bullets don't match arrested teen's gun",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'the fatal bullets recovered from a Seattle food festival shooting do not match the gun carried by the 15-year-old arrested at the scene.' The brief's data point says 'Police filed court documents on Wednesday stating the fatal bullets do not appear to have come from the gun the 15-year-old was firing.' The brief uses 'do not appear to have come from' (uncertain language), but the draft presents this as definitive fact ('do not match'). The confidence level is 'reported,' which should be preserved in tone; the draft overstates certainty beyond what the source supports.",
+     "The draft characterizes the ballistics finding as raising questions about 'whether the deaths resulted from crossfire rather than the arrested suspect's direct action.' This inference goes beyond the brief's data points. The brief reports the ballistics mismatch and gang violence linkage, but does not establish or confirm crossfire as the mechanism. The draft draws a causal conclusion not present in the source material."
+    ]
+   }
+  ]
  }
 ]

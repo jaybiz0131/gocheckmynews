@@ -1,0 +1,36 @@
+{
+  "id": "c040",
+  "slug": "shell-s-q2-profit-doubles-to-9-84-billion-as-oil-prices-surge-from-iran-war",
+  "kind": "brief",
+  "title": "Shell's Q2 profit doubles to $9.84 billion as oil prices surge from Iran war",
+  "dek": "Shell reported second-quarter 2026 net profit of $9.84 billion, more than double the $4.26 billion in Q2 2025, as oil prices soared following disruption to global energy supplies through the Strait of Hormuz during the U.S.-Israel conflict with Iran. The company's first-half 2026 earnings rose 70 percent.",
+  "date": "2026-07-30",
+  "published_utc": "2026-07-30T07:57:57Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 8,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Shell's Q2 2026 net profit reached $9.84 billion, more than doubling year-over-year, driven by oil price increases from Middle East conflict-related supply disruption.",
+  "bottom_line": "The breakdown between Shell's profits from production volume versus profits from trading remains unreported, as does any forward guidance from Shell on the sustainability of current profit levels if the conflict ends or supply routes reopen. Watch for quarterly guidance and any major announcements on capital allocation or windfall tax exposure.",
+  "human_take": "",
+  "body": [
+    "Shell reported net profit of $9.84 billion in the second quarter of 2026, more than doubling from $4.26 billion in the same quarter a year earlier, according to BBC News reporting. The surge was driven by oil price increases triggered by disruption to global energy supplies through the Strait of Hormuz during the U.S. and Israeli war on Iran.",
+    "Combined with first-quarter 2026 earnings of $6.92 billion, Shell's first-half 2026 profit rose 70 percent. Shell CEO Wael Sawan attributed the results to the company's \"operational performance enabled very strong results during another quarter of severe disruption in global energy markets,\" according to BBC reporting.",
+    "Oil prices have swung sharply since the conflict began. Before the conflict, Brent crude traded around $73 a barrel, per BBC reporting. Since the outbreak of war, Brent crude has peaked above $120 but also fallen below $100 as speculation swirled over when the Strait of Hormuz will reopen. The Strait carries roughly one-fifth of globally traded oil and liquid natural gas, making disruption there a direct driver of price volatility.",
+    "Shell and other energy giants including BP and Norway's Equinor have recorded bumper profits in 2026 partly through trading on oil price swings, according to BBC News. Major movements in the oil price widen the gap between buying and selling prices, which typically enables traders to capture larger profits from price spreads.",
+    "The windfall profit surge underscores how geopolitical conflict can concentrate economic gains among energy producers while imposing broader costs on consumers and economies reliant on imported fuel. Whether these profit levels will persist depends on the duration and intensity of the Strait of Hormuz disruption and when or whether global supply chains normalize."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cpq8n45r5e8o?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "event_utc": "2026-07-30T07:11:44Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-07-30T07:57:57Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}
