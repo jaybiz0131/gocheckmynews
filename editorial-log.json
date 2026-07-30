@@ -3380,5 +3380,65 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-07-30",
+  "approved": 6,
+  "rejected": [
+   {
+    "id": "c352",
+    "headline": "Chicago Teen Kidnapped in 2022 Found Alive in Virginia After Four Years in Captivity",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Joniah Walker, 15 years old when she was kidnapped from outside a Chicago movie theatre in June 2022' but the data_point specifies 'June 23, 2022'\u2014a specific date that appears in the brief but is omitted from the draft. More critically, the data_point says she was 'kidnapped on June 23, 2022' but the draft's phrasing 'when she was kidnapped...in June 2022' obscures the exact date provided by the source. This is a minor accuracy issue, but the pattern of softening specific dates warrants caution.",
+     "The draft presents Walker as having 'taken an Uber from Milwaukee to Chicago to meet the man who arranged the ride, and was taken from the theatre' but this phrasing is ambiguous about causation and sequence. The brief's data_point states she 'had taken an Uber from Milwaukee to Chicago to meet the man who arranged the ride'\u2014which could imply Anderson arranged the Uber itself or merely that she took an Uber to meet him. The draft's language 'the man who arranged the ride' potentially conflates these two separate claims without the precision the source material requires."
+    ]
+   },
+   {
+    "id": "c119",
+    "headline": "Senate Rejects War Powers Resolution Limiting Trump's Iran Authority",
+    "category": "balance",
+    "reasons": [
+     "The brief's bear_case is empty, but the draft's bottom_line makes a forward-looking prediction: 'The Senate will likely return to the question of war powers and funding authorization as the five-month campaign extends.' This reads as analysis or speculation about future Senate behavior, not a reporting of settled fact from the brief. The brief contains no data_point supporting this claim about what the Senate will 'likely' do next.",
+     "The draft's framing of 'three GOP defections signal that Republican support for the conflict remains contested' adopts interpretive language ('signal', 'contested') that goes beyond the factual record in the brief. The brief is thin and contains no data_point or bear_case item that evaluates the broader state of Republican support; the draft infers this from the three votes without source support."
+    ]
+   },
+   {
+    "id": "c078",
+    "headline": "Mandela Barnes Drops Out of Wisconsin Governor Primary, Clearing Path for Hong",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states Gov. Evers said 'I don't know why he's getting out. I have to believe it's something relatively important.' The brief's data_point shows the fuller quote per ABC News as: 'But he needs to do what he needs to do' and 'I don't know why he's getting out. I have to believe it's something relatively important.' The draft omits the first sentence, which materially changes the tone and completeness of Evers' statement.",
+     "The draft includes a quote from Joel Brennan: 'It's unfortunate for voters that this primary has gotten more attention for chaos than the stakes of this election.' This quote appears in the brief as a data_point marked 'reported,' but is not attributed to ABC News in the draft as it is in the brief. The attribution must be traceable inline to the source."
+    ]
+   },
+   {
+    "id": "c124",
+    "headline": "American Red Cross declares second-ever national blood supply crisis",
+    "category": "compliance",
+    "reasons": [
+     "Bottom line contains directive language ('The Red Cross must address donations immediately') that reads as advocacy/demand rather than neutral reporting of events and implications. This violates the no-advocacy rule.",
+     "The entire third paragraph of the body (beginning 'The brief makes clear...') is meta-commentary explaining what the brief does not contain, which breaks the fourth wall and should not appear in published copy. This is a structural/compliance violation."
+    ]
+   },
+   {
+    "id": "c153",
+    "headline": "Thousands of migrants cross into Spanish territory of Ceuta, creating political crisis",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states Pedro S\u00e1nchez 'has been characterized as relatively lenient on illegal immigration,' but the brief contains only one data_point with confidence 'reported' and no source detail, making the attribution and sourcing of this characterization unclear in the draft. The draft should either attribute this characterization directly to the WSJ reporting or remove it.",
+     "The second and third paragraphs contain general statements about Ceuta and border infrastructure ('frequently a point of entry', 'vulnerability of the enclave's border infrastructure') that do not appear in the brief and constitute smuggled information outside the sourced record.",
+     "The entire fourth paragraph is meta-commentary ('The available reporting does not specify...') that breaks the fourth wall and should not appear in published copy\u2014this is a structural violation of the house style."
+    ]
+   },
+   {
+    "id": "c015",
+    "headline": "UEFA Threatens World Cup Boycott Over FIFA's Privatization Plan",
+    "category": "balance",
+    "reasons": [
+     "The draft opens with UEFA's ultimatum and threat but buries FIFA's defense in paragraph two. The bear_case (FIFA's statement that it retains decision-making power and is only selling part of the commercial venture, not the competition itself) appears late and weakly positioned, making the story read as one-sided despite the brief's inclusion of FIFA's rebuttal. A more balanced opening would present both positions before developing either, or lead with the conflict itself rather than UEFA's framing."
+    ]
+   }
+  ]
  }
 ]

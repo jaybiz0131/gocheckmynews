@@ -1,24 +1,26 @@
 {
-  "id": "c025",
+  "id": "c32",
   "slug": "record-danube-lows-force-hungary-s-only-nuclear-plant-offline-as-heatwave-peaks",
   "kind": "brief",
   "title": "Record Danube lows force Hungary's only nuclear plant offline as heatwave peaks",
-  "dek": "Hungary's Paks nuclear power plant is shutting down entirely for the first time because the Danube's water level has fallen so low its cooling system cannot function. The closure coincides with a heatwave pushing temperatures to 37 degrees Celsius and comes as Serbia and Romania face identical water scarcity crises.",
+  "dek": "Hungary's Paks nuclear power plant, the country's sole reactor, will shut down entirely for the first time due to record-low Danube water levels preventing cooling system intake. Prime Minister P\u00e9ter Magyar warned energy supply could become critical and asked residents to limit electricity use during peak hours. The Danube's levels have reached 30-year lows across multiple countries, forcing similar shutdowns in Romania and halting shipping in Bulgaria.",
   "date": "2026-07-30",
-  "published_utc": "2026-07-30T18:39:56Z",
+  "published_utc": "2026-07-30T19:54:38Z",
   "category": "news",
   "verdict": "VERIFIED",
   "rank": 7,
   "author": "The GoCheckMyNews Desk",
-  "key_fact": "Paks, which supplies a significant portion of Hungary's electricity, is offline due to record low Danube water levels that prevent the plant's suction nozzles from reaching water needed for cooling.",
-  "bottom_line": "The timing of Paks's shutdown, coinciding with peak summer electricity demand and extreme heat, forces Hungary into emergency conservation measures while the broader Danube region grapples with simultaneous water and energy crises. Climatologists forecast no relief until mid-September; if water levels do not recover by then, the question shifts from temporary emergency protocols to sustained structural constraints on European energy supply.",
+  "key_fact": "Hungary's only nuclear power plant will shut down entirely for the first time because the Danube's water level has fallen so low that the plant's cooling system intake nozzles cannot reach the water.",
+  "bottom_line": "Hungary and Romania face weeks without relief; forecasts show no improvement in Danube levels until mid-September, meaning the energy crisis will persist through the peak summer demand period. The question ahead is whether voluntary conservation and rotational blackouts will keep the grid stable, or whether cascading shutdowns force more drastic rationing across southeastern Europe.",
   "human_take": "",
   "body": [
-    "Hungary's Paks nuclear power plant is shutting down entirely for the first time, unable to draw cooling water from the Danube River as water levels hit record lows, according to BBC reporting. The closure threatens to deepen an energy crisis across Central Europe at the moment when demand peaks during an extreme heat event.",
-    "Prime Minister Peter Magyar warned that Hungary's energy supply could become critical from Monday onward due to the Paks shutdown. Temperatures are expected to hover around 37 degrees Celsius for a week. In response, Magyar asked Hungarians to limit electricity consumption between 17:00 and 22:00, including refraining from charging electric cars and using air conditioning during peak hours. The government said a \"rotational shutdown regime\" was possible if other conservation measures proved insufficient, under which it would compile a list of major electricity and water consumers whose consumption could be limited.",
-    "The Danube's collapse is regional, not localized. According to Romania's National Institute of Hydrology, the average river flow where the Danube enters the country is 4,700 cubic metres per second in July. On Wednesday, it measured less than one-third of that, at 1,600 cubic metres per second, with forecasts showing further decline to 1,500 cubic metres per second by Tuesday. Serbia's hydrologist Dejan Vladikovic said the Danube had fallen to levels not seen for 50 to 60 years, a decline he attributed not only to current high temperatures but also to low rainfall during spring.",
-    "The water crisis extends across critical infrastructure. In Romania, one of the two nuclear reactors at the Cernavoda power plant, which supplies about 20 percent of the country's electricity, was shut down. The state was attempting to avoid closing the second 706-megawatt reactor on Thursday. Shipping has ground to a halt in Bulgaria. Border police evacuated 186 passengers from the Viking Ullur river cruise ship after it ran aground near Vidin earlier in the week; passengers had been running low on food and water because the vessel could not dock. Ivan Zhekov, head of river supervision at Bulgaria's maritime administration agency, said, \"I have never heard of such low levels over the years. There has certainly not been a similar situation since 1990.\"",
-    "The Danube runs 2,857 kilometers through 19 countries. Europe is heating up twice as fast as the global average, according to the Copernicus climate service. Climatologists did not expect improvement on the Danube until mid-September. In Serbia, temperatures are forecast to climb as high as 38 degrees Celsius on Friday, locally reaching 40 degrees Celsius, with night-time temperatures in Belgrade as high as 26 degrees Celsius. Meanwhile, vast areas of France and Spain have experienced some of the most intense and widespread wildfires in living memory, leading to hundreds of thousands of evacuations."
+    "Hungary's Paks nuclear power plant, the country's sole reactor, will shut down entirely for the first time as record-low Danube water levels prevent the facility's cooling system from drawing water. The plant's suction nozzles cannot reach the river at its current depth, according to BBC reporting.",
+    "The shutdown arrives as temperatures across the region are forecast to reach 37 degrees Celsius and persist for a week, driving peak electricity demand precisely when supply is collapsing. Prime Minister P\u00e9ter Magyar warned on Monday that Hungary's energy supply could become critical from that day forward due to the combined effect of the plant closure and the heatwave.",
+    "Magyar asked Hungarians to limit activities requiring significant energy consumption between 17:00 and 22:00, including charging electric cars and using air conditioning, according to BBC reporting. If voluntary restraint proves insufficient, Magyar said a rotational shutdown regime was possible, under which the government would compile a list of electricity and water consumers whose consumption could be limited.",
+    "The Danube's collapse extends across the continent. Romania's National Institute of Hydrology reported the average Danube flow entering the country in July is 4,700 cubic metres per second. On Wednesday, the actual flow had fallen to 1,600 cubic metres per second, less than a third of the July average, with forecasts showing further decline to 1,500 cubic metres per second by Tuesday. In Romania, one of the two 706-megawatt reactors at Cernavoda power plant has already shut down, with state-owned company Nuclearelectrica trying to avoid closing the second reactor on Thursday. The Cernavoda plant provides about 20 percent of Romania's power, per BBC reporting.",
+    "Serbian hydrologist Dejan Vladikovic told Serbian television that the Danube had fallen to levels not seen for 50 to 60 years. Vladikovic attributed the collapse not only to current high temperatures but also to low rainfall during spring. Climatologists do not expect improvement until mid-September, according to Vladikovic.",
+    "The immediate human toll is mounting across the region. Border police evacuated 186 river cruise passengers from the Viking Ullur ship when it ran aground near Vidin, on the Bulgaria-Romania border, according to BBC reporting. Passengers had been running low on food and water because the cruise ship was unable to dock, and rescue vessels were unable to get close enough due to shallow depths. Shipping has ground to a halt in Bulgaria. Ivan Zhekov, head of river supervision at Bulgaria's maritime administration, said: \"I have never heard of such low levels over the years. There has certainly not been a similar situation since 1990.\"",
+    "Europe is warming twice as fast as the global average, according to the Copernicus climate service, per BBC reporting. The Danube runs 2,857 kilometers through 19 countries."
   ],
   "sources": [
     {
@@ -26,10 +28,9 @@
       "url": "https://www.bbc.co.uk/news/articles/cn0nqv05g0do?at_medium=RSS&at_campaign=rss"
     }
   ],
-  "event_utc": "2026-07-30T17:55:24Z",
   "verification": {
     "verdict": "VERIFIED",
-    "checked_utc": "2026-07-30T18:39:56Z",
+    "checked_utc": "2026-07-30T19:54:38Z",
     "sources_cited": 1,
     "sources_live_checked": 1
   }
