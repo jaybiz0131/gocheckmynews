@@ -155,6 +155,7 @@ def layer1_canary():
     # full offline replay end-to-end over the fixture
     e2e_fails = _replay_e2e()
     fails.extend(e2e_fails)
+    fails.extend(_merge_state_canary())
 
     # fail-closed canaries
     fails.extend(_failclosed_canaries(cfg))
@@ -171,6 +172,34 @@ def layer1_canary():
           "end-to-end produces a DRAFT-tagged review queue, and every fail-closed gate holds.")
     return 0
 
+
+def _merge_state_canary():
+    """Lock the resolution rules for the file(s) two overlapping publishes always collide on.
+
+    The brief's retry rebases when main moves mid-run, and the watcher's drifted retries
+    land in pairs, so this happens. site/content/ is per-slug and never conflicts;
+    editorial-log.json is rewritten by every run and always does. These assertions pin what each merge
+    must preserve, because getting editorial-log wrong silently deletes another run's
+    editorial record and nothing else would notice."""
+    fails = []
+    import merge_state as ms
+
+    up = [{"date": "2026-07-29", "approved": 3, "rejected": [{"id": "other"}]}]
+    mine = [{"date": "2026-07-29", "approved": 5, "rejected": [{"id": "mine"}]}]
+    got = ms.merge_editorial_log(up, mine)
+    ids = [r["id"] for e in got for r in e.get("rejected", [])]
+    _check("other" in ids and "mine" in ids, fails,
+           "merge_state: editorial-log merge dropped a run's record")
+    _check(ms.merge_editorial_log(up, up) == up, fails,
+           "merge_state: editorial-log merge duplicated an identical record")
+    _check(ms.merge_editorial_log(None, mine) == mine
+           and ms.merge_editorial_log(up, None) == up, fails,
+           "merge_state: editorial-log merge mishandled a missing side")
+
+    _check(set(ms.KNOWN) == {"editorial-log.json"}, fails,
+           "merge_state: the auto-resolve allowlist changed; anything added here can "
+           "silently overwrite real work during a rebase")
+    return fails
 
 def _replay_e2e():
     """Run the whole pipeline in replay mode over the fixture and assert the invariants."""
