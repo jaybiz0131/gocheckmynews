@@ -3134,5 +3134,65 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-07-30",
+  "approved": 6,
+  "rejected": [
+   {
+    "id": "c091",
+    "headline": "U.S. GDP Growth Slowed to 1.5% in Second Quarter",
+    "category": "accuracy",
+    "reasons": [
+     "Draft states '1.5% in the second quarter of 2026' as a definitive fact, but the brief's data_point says only 'Gross domestic product grew at an annualized rate in the second quarter' without specifying the rate. The 1.5% figure appears in the draft title and opening paragraph but is not explicitly confirmed in the brief's source text or data_points.",
+     "Draft claims slowdown 'from the prior quarter' but the brief's open_questions explicitly note: 'The specific GDP growth rate for Q1 2026 (the prior quarter baseline for comparison) is not stated in available source text.' This comparison is smuggled into the draft without source support.",
+     "Draft states inflation 'remains above the Federal Reserve's 2% target' as fact, but the brief's open_questions note: 'The current inflation rate relative to the Fed's 2% target is not quantified in available source text.' No specific inflation figure is in the brief to support this claim."
+    ]
+   },
+   {
+    "id": "c072",
+    "headline": "U.S.-Iran Conflict Escalates With Saudi Arabia Joining Strikes on Proxies",
+    "category": "accuracy",
+    "reasons": [
+     "Draft headline and opening claim 'Saudi Arabia now participating in military strikes against Iranian proxies' but the brief's open_questions state: 'The timeline and scope of Saudi Arabia's involvement\u2014whether new or escalated\u2014is not clarified in the available text.' The draft presents this as established fact ('now participating') when the brief itself flags uncertainty about whether this is genuinely new involvement.",
+     "Draft states 'Both the U.S. and Iran carried out military strikes in the last 24 hours' as confirmed reporting, matching the brief's data_point. However, the brief's open_questions note: 'The specific nature of the military strikes carried out by each side in the last 24 hours is not detailed in the fetched source text.' The draft presents the fact of strikes occurring as established, which traces to the brief, but the certainty around timing ('last 24 hours') should be attributed or hedged given the source uncertainty flagged in open_questions."
+    ]
+   },
+   {
+    "id": "c094",
+    "headline": "Drone strike hits Egyptian port near Suez Canal",
+    "category": "accuracy",
+    "reasons": [
+     "The draft body states 'A drone strike struck a port near the Suez Canal on Wednesday' but the brief contains no data_point specifying that a drone strike occurred\u2014only that 'a strike occurred on Wednesday at a port near the Suez Canal.' The type of weapon (drone) is not in the brief and cannot be assumed.",
+     "The draft bottom_line reads 'underscores Iran conflict expansion to vital trade corridor,' attributing the strike to Iran without any attribution data in the brief. The brief's open_questions explicitly ask 'What was the source of the drone strike (attribution to which actor or nation)?' indicating attribution is unknown. Presenting Iran involvement as fact violates the no-smuggling rule.",
+     "The draft is substantially thinner than warranted by the liability risk: it presents inflammatory claims (Iran expansion, weaponization of trade) without the foundational facts (who struck, damage, casualties, official response) that the brief explicitly flags as missing. This creates a factual liability if attribution changes."
+    ]
+   },
+   {
+    "id": "c071",
+    "headline": "Senate committee advances Schwartz nomination for CDC director",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states the committee voted in a 'near party-line vote' but provides no specific vote count. The brief's open_questions include 'What was the exact vote count in the committee (the snippet says '12-10' but the ABC source text does not provide a specific vote count)?' This signals the vote count is uncertain or absent from the source. The draft must either provide the count traced to the source or remove the specificity claim.",
+     "The draft claims 'Schwartz said she was unaware that CDC programs that worked to prevent smoking and promote vaccinations had been curtailed' but the brief data_point says only 'At the hearing, Schwartz said she was unaware that CDC programs that worked to prevent smoking and promote vaccinations had been curtailed'\u2014no detail about what these programs are or current status. The draft later introduces a new claim: 'Yet this week, the CDC website continued to argue that \"vaccines do not cause autism\" is not an evidence-based claim, despite numerous studies finding no such link.' This is directly from a data_point, but the framing ('Yet') creates a causal link (Schwartz didn't know, but look what the site still says) that is editorial interpretation, not fact-reporting. The phrase 'despite numerous studies' is also the desk's medical judgment, not attributed to the source."
+    ]
+   },
+   {
+    "id": "c141",
+    "headline": "Republican Lame-Duck Senators Departing Senate After This Year",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Lame-duck senators, freed from electoral consequences, may wield influence over confirmation votes independent of party pressure or constituency concerns' and 'Both are Republicans whose status as departing senators may alter their position on pending confirmations.' The brief's angle mentions 'refusing support for Trump-backed nominees' and 'defying Trump' but the brief itself contains an open_question stating 'What is the nature of their defiance on the Blanche nomination? (The sources provided contain no text elaborating the specific objection or vote position.)' This indicates the writer has smuggled interpretive language about the senators' positions on the confirmation that is not confirmed in the source material. The draft presents their influence as general possibility, but ties it to confirmation votes without evidence from the brief that these specific senators have actually taken a position on the Blanche nomination."
+    ]
+   },
+   {
+    "id": "c116",
+    "headline": "Poll: 75% of Americans Say Trump Not Focused on Top Issues; Approval at 34%",
+    "category": "compliance",
+    "reasons": [
+     "Bottom line contains an election prediction framed as fact: 'Whether these numbers shift in coming weeks and what voter turnout looks like in November will test whether low approval translates to congressional losses for Republicans.' This reads as a prediction that low approval will cause Republican losses, which is a causal claim about electoral outcomes presented without hedging. Should be reframed to observe what independent analysts or historical data suggest, with attribution, or removed."
+    ]
+   }
+  ]
  }
 ]
