@@ -3440,5 +3440,54 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-07-30",
+  "approved": 7,
+  "rejected": [
+   {
+    "id": "c122",
+    "headline": "Senate Rejects War Powers Resolution on Iran Conflict",
+    "category": "accuracy",
+    "reasons": [
+     "The sentence 'One update flagged alongside the story notes that US economic growth slowed to 1.5 percent in the second quarter of 2026, missing expectations amid Iran war inflation, though this figure is not independently verified in the sourced materials' introduces a fact (US economic growth at 1.5%) that does not appear anywhere in the research brief. This is smuggled information outside the brief's data_points. The writer cannot patch unverified economic data with a disclaimer; it must be removed or traced to a sourced data_point."
+    ]
+   },
+   {
+    "id": "c112",
+    "headline": "Father of Apalachee High School Shooter Sentenced to 15 Years in Prison",
+    "category": "accuracy",
+    "reasons": [
+     "The draft attributes the 15-year sentence to 'Washington Examiner' but the second New York Times source URL (nytimes.com/2026/07/30) is also listed in sources and not cited in the body. One of these sources must be the primary voice; the draft does not clarify which outlet provided the sentencing figure or whether both reported it.",
+     "The draft states Gray 'was sentenced to 15 years' as a settled fact, but the brief marks this data point as 'reported' confidence only. The draft should signal this is the initial reporting, not a finalized court record, given the brief contains no judicial document or official record\u2014only outlet reporting."
+    ]
+   },
+   {
+    "id": "c266",
+    "headline": "CNN Poll Shows Democrats Ahead by 8 Points on Generic Congressional Ballot",
+    "category": "accuracy",
+    "reasons": [
+     "The draft opens with figures attributed to 'CNN poll released Thursday' and 'reporting by the Washington Examiner,' but the sources list only The Hill (https://thehill.com/homenews/campaign/6000626). The Washington Examiner is mentioned in the draft but not in the sources\u2014this is a smuggled source attribution.",
+     "The draft cites 'Washington Examiner' in paragraph 1 but 'The Hill' is the only source URL provided. Either the Washington Examiner URL must be added to sources or the attribution must be changed to The Hill throughout."
+    ]
+   },
+   {
+    "id": "c109",
+    "headline": "DOJ invokes dormant Cold War deportation court for first time",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The move marks the first-ever invocation of the Cold War-era mechanism' but the brief's data_point says 'The alien terrorist removal court has never been used before' with confidence 'reported'. The draft's language ('first-ever invocation') correctly reflects the claim, but then the body later says 'The dormancy of this court for 30 years reflects its rarity as a legal tool. Its activation now, during the Trump administration, suggests a shift...' This framing suggests activation during Trump administration, but the brief does not specify when the DOJ sought or initiated this case\u2014only that it is the first use. The phrase 'during the Trump administration' in the body is not explicitly sourced in the brief's data_points and reads as the writer's temporal inference rather than reported fact.",
+     "The draft attributes the rollout to 'New York Times reporting' in the opening but then references 'the Times' later in the piece without inline attribution for specific claims (e.g., 'a rotational shutdown regime' sentence attributes to 'the Times' but this is introduced as a new attributional source mid-story for a claim that the brief assigns solely to the NYT). Attribution is present but inconsistent in rigor."
+    ]
+   },
+   {
+    "id": "c083",
+    "headline": "30-Year Mortgage Rate Rises to 6.66% Amid Climbing Borrowing Costs",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states the rate 'marks the highest level the rate has reached in one year,' but the brief's data_points show the rate one year ago (July 30, 2025) was 6.72%, which is higher than the current 6.66%. This contradicts the claim and is not resolved in the brief. The draft presents a fact not supported by the source material provided to the writer."
+    ]
+   }
+  ]
  }
 ]
