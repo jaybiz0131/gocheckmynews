@@ -1,0 +1,38 @@
+{
+  "id": "c027",
+  "slug": "missile-that-struck-polish-territory-assessed-as-russian-kh-101-cruise-missile",
+  "kind": "brief",
+  "title": "Missile that struck Polish territory assessed as Russian Kh-101 cruise missile",
+  "dek": "A cruise missile crashed near the village of Tarnawa Kolonia in eastern Poland on Thursday, leaving a 10-meter crater 92 kilometers from the Ukraine border. Polish Prime Minister Donald Tusk said military analysis of recovered fragments indicates it was 'in all probability' a Russian Kh-101 cruise missile, according to BBC News. No casualties were reported.",
+  "date": "2026-07-30",
+  "published_utc": "2026-07-30T16:02:19Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 8,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Polish military detected the object at 03:40 Thursday and recovered fragments that military experts assessed as consistent with a Russian Kh-101 cruise missile, per BBC News reporting.",
+  "bottom_line": "Polish and NATO officials have characterized the incident as serious but contained, with no escalatory steps announced. Tusk's assessment of the missile as Russian, if confirmed through final analysis, would mark the first armed Russian cruise missile strike on NATO territory. Watch for formal attribution from NATO and Poland's response to Russia or the international community, and for evidence of broader coordination on air defense or retaliation.",
+  "human_take": "",
+  "body": [
+    "A cruise missile crashed near the village of Tarnawa Kolonia in eastern Poland on Thursday morning, leaving a 10-meter-wide crater in farmland 92 kilometers from the Ukraine border. Polish Prime Minister Donald Tusk assessed the object as \"in all probability\" a Russian Kh-101 cruise missile, based on recovered fragments and military analysis, according to BBC News.",
+    "Tusk traveled to the crash site in the eastern city of Lublin for a specially convened meeting and told journalists that \"all the indications\" pointed to a Russian Kh-101. According to his statement reported by BBC News, \"the majority of recovered fragments point to it being a Russian Kh-101 missile.\" No casualties were reported from the impact.",
+    "Polish Defence Minister Wladyslaw Kosiniak-Kamysz stated that about 20 objects were detected close to Polish airspace overnight, with pyrotechnical analysis underway on those observations. Polish military detected the object at approximately 03:40 on Thursday and sent an F-16 fighter jet to intercept it before it disappeared from radar minutes later. A military helicopter was subsequently dispatched to search the area. Residents in Tarnawa Kolonia reported hearing a loud bang at about 04:00, and police located the crash site roughly an hour later.",
+    "Tusk emphasized that no immediate threat had materialized because the missile struck an unpopulated area. \"We were prepared to shoot it down if it had continued its flight,\" Tusk said, per BBC News. NATO said it was in close contact with Polish authorities. Supreme Allied Commander in Europe Gen. Alexus G. Grynkewich stated that NATO would \"continue to take all necessary measures to defend Nato territory.\"",
+    "The strike occurred during a large-scale Russian attack on the Ukrainian cities of Lviv, Kyiv, and near Kryvyih Rih. Ukraine's acting Foreign Minister Andriy Sybiha declared that a Russian Kh-101 cruise missile had \"crossed into Poland as part of Russia's massive strike against Ukraine, violating Nato airspace,\" per BBC News. At least eight people died and dozens were wounded across Ukraine in the broader attack, including six members of one family in a village near Kryvyih Rih, and dozens more wounded in Lviv near the Polish border.",
+    "Head of the European Council Ant\u00f3nio Costa said Russia's \"massive combined strike against Ukraine\" had underlined that \"Russia's aggression is a threat to the security as a whole,\" according to BBC News.",
+    "This is not the first instance of Russian or Ukrainian weaponry entering Polish airspace or territory. A number of Russian drones and one unarmed Russian missile have landed in Poland since Russia's full-scale war in Ukraine began in February 2022. In November 2022, two Polish farmers were killed by a missile that landed just over the border from Ukraine, but that was believed to have been a Ukrainian air defense missile responding to a Russian attack, per BBC News."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cwymkgenv2ro?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "event_utc": "2026-07-30T15:35:50Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-07-30T16:02:19Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}

@@ -3092,5 +3092,47 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-07-30",
+  "approved": 8,
+  "rejected": [
+   {
+    "id": "c092",
+    "headline": "U.S. GDP Growth Slowed to 1.5% in Second Quarter of 2026",
+    "category": "accuracy",
+    "reasons": [
+     "The brief explicitly states 'No source text was provided; the snippet alone offers no specific figures, dates, or sourced detail beyond the headline claim' and lists critical open questions: 'What are the exact inflation figures cited? Which Federal Reserve target is being exceeded? What prior quarter's growth rate does the 1.5% represent a slowdown from?' The draft presents these as settled facts without sourcing them to the brief's data_points (which is empty), violating the hard rule that facts must trace to the brief.",
+     "The draft claims 'persistent inflation that remains above Federal Reserve targets' but the brief offers no specific inflation metrics or Federal Reserve target figures. This is smuggled information not found in the research.",
+     "The draft states the figure 'represents a slowdown from the prior quarter' but provides no prior quarter figure in the brief to support this comparison."
+    ]
+   },
+   {
+    "id": "c333",
+    "headline": "Drone Strikes Hit Egyptian Port as Iran-U.S. Conflict Expands",
+    "category": "accuracy",
+    "reasons": [
+     "The draft introduces the name 'Vice President Vance' and attributes a quote to him via 'A U.S. official,' but this attribution is vague and the brief's data_point only says 'U.S. official stated Vance and Netanyahu had a \"cordial and productive conversation\"'\u2014it does not confirm Vance made the statement himself. The phrasing 'A U.S. official stated that Vice President Vance...' suggests Vance said it when the brief only confirms a U.S. official reported it.",
+     "The draft claims the strike 'marks the conflict's first reported expansion to Egypt's Mediterranean coast' but the brief does not contain a data_point confirming this is the 'first' such expansion. The brief's open question asks 'Which entity or country conducted the drone strikes on the Egyptian port\u2014was this confirmed as Iranian action or another actor?' indicating attribution is unconfirmed, yet the draft presents it within the Iran-U.S. conflict narrative without caveating attribution."
+    ]
+   },
+   {
+    "id": "c114",
+    "headline": "Trump Threatens to Withdraw Blanche AG Nomination Over GOP Holdouts",
+    "category": "accuracy",
+    "reasons": [
+     "The sentence 'Senators John Cornyn and Thom Tillis are among the Republicans stalling Blanche's confirmation' attributes this claim to 'the reporting' but the brief data_point says 'Senators Cornyn and Tillis are among the Republicans blocking confirmation' without specifying their individual names were reported. The draft presents both senators by name as sources of opposition, but the brief only confirms they are 'among' opponents without clarifying whether the source named them individually or if the draft smuggled in the names without brief support."
+    ]
+   },
+   {
+    "id": "c099",
+    "headline": "U.S. investigators assess Iran likely behind Minnesota water system cyberattack",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'No water supply was rendered unsafe to drink, per the Times report' but the brief data_point says 'There were no indications that any water supply had been rendered unsafe to drink.' These are subtly different claims: 'no indications' is weaker than definitive statement 'no water supply was rendered unsafe.' The draft presents the finding as settled fact when the source only establishes absence of indications, which is what the brief's confidence allows.",
+     "The brief is marked 'thin: true' with only 3 data_points and no bear_case. The draft's brevity is appropriate to the brief, but the accuracy issue above still fails the draft on its own merits\u2014the phrasing misrepresents the evidentiary strength of the source."
+    ]
+   }
+  ]
  }
 ]

@@ -1,0 +1,38 @@
+{
+  "id": "c327",
+  "slug": "senate-committee-advances-schwartz-nomination-for-cdc-director-in-12-10-vote",
+  "kind": "brief",
+  "title": "Senate committee advances Schwartz nomination for CDC director in 12-10 vote",
+  "dek": "The Senate Health, Education, Labor and Pensions Committee voted 12-10 on Thursday to advance Dr. Erica Schwartz's nomination as CDC director to a full Senate vote. Schwartz, 54, would become the 22nd CDC director if confirmed. The near-party-line vote reflects internal disagreement over whether she will protect scientific independence from Health Secretary Robert F. Kennedy Jr.'s influence.",
+  "date": "2026-07-30",
+  "published_utc": "2026-07-30T16:02:19Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 7,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The Senate HELP Committee voted 12-10 to advance Schwartz's nomination, per ABC News reporting.",
+  "bottom_line": "Schwartz now faces a full Senate vote. The committee's narrow support and public health groups' qualified endorsements turn on whether her pledged commitment to science will hold against Kennedy's influence if she is confirmed. Any reversal on her stated positions or further gaps in her knowledge of ongoing CDC operations could shift the final vote calculus.",
+  "human_take": "",
+  "body": [
+    "The Senate Health, Education, Labor and Pensions Committee voted 12-10 on Thursday to advance Dr. Erica Schwartz's nomination as CDC director to a full Senate vote, according to ABC News. The near-party-line count underscores internal disagreement over whether Schwartz will protect the agency's scientific independence from Health Secretary Robert F. Kennedy Jr., whose vaccine skepticism and anti-science positions have alarmed public health experts and some Republicans.",
+    "Schwartz, 54, holds medical and law degrees, served as deputy surgeon general, and held a leadership position at the U.S. Coast Guard. If confirmed, she would become the 22nd CDC director. She was nominated in April.",
+    "Committee Chairman Sen. Bill Cassidy (R-La.) questioned Schwartz directly at her July hearing about whether she would resist orders from Kennedy to take actions unsupported by science. After the hearing, Cassidy said he had spoken with Schwartz and stated, per ABC News, \"I'm confident that she knows what she is doing and will stand against those who do not.\" Cassidy's comments came after he initially pressed her on this issue, suggesting lingering concern about her resolve.",
+    "At the same hearing, senators asked what Schwartz would do if Kennedy or other political appointees directed the CDC to make changes without scientific basis. Schwartz pledged to \"never betray the science\" but repeatedly declined to dissent from some of Kennedy's actions, according to ABC News reporting. She was unaware that CDC programs working to prevent smoking and promote vaccinations had been curtailed. She also declined to commit to removing a CDC webpage suggesting a link between childhood vaccines and autism, saying she had not seen it. Cassidy said that HHS officials had subsequently modified the vaccine-autism webpage \"as a sign of good faith,\" though it continued to argue that \"vaccines do not cause autism\" is not an evidence-based claim, despite numerous studies finding no link.",
+    "Public health groups split on Schwartz's nomination. The National Public Health Coalition stated, per ABC News, that \"the public needed to hear clear commitments about how she would protect CDC guidance from political pressure. Too often, her stated commitments were incomplete, vague, or missing.\" Dr. Georges Benjamin, executive director of the American Public Health Association, said Schwartz appeared to be trying to please different factions and disagreed with how she answered several questions, but continued to support her nomination. Benjamin noted that Schwartz is qualified and could rebuild the CDC's depleted command structure and public trust by focusing on bipartisan concerns like foodborne disease outbreaks.",
+    "The CDC has lost more than 3,000 employees, or more than one-quarter of its workforce, largely through layoffs and resignations since Trump returned to office, per ABC News. Schwartz is Trump's third CDC director nominee in 18 months. His first nominee, former Florida congressman Dr. David Weldon, had his Senate hearing cancelled in March 2025 an hour before it was scheduled; Weldon said he was told not enough senators would vote for him. The second nominee, Susan Monarez, was confirmed and served as acting director but was ousted in less than a month because Trump administration officials said she was not aligned with the president's agenda.",
+    "Kennedy had promised not to change the nation's vaccination schedule but later attempted a substantial rewrite of vaccine recommendations for children. Some of his vaccine-change efforts were put on hold this year by a federal judge. Dr. Daniel Jernigan, a former top CDC official who resigned from the agency in August, said if Schwartz is not confirmed, \"it will mean a continued rudderless journey for CDC\" and that Kennedy may want that outcome to continue pursuing \"anti-science and anti-vaccine efforts\" without resistance. Sen. Bernie Sanders opposed Schwartz's nomination, stating, per ABC News, \"The issue at hand is not complicated. Will we have people in the Trump administration who have the guts to stand up to people who are anti-science and into conspiracy theories?\""
+  ],
+  "sources": [
+    {
+      "title": "abcnews.com",
+      "url": "https://abcnews.com/Health/wireStory/senate-committee-advances-nomination-dr-erica-schwartz-trumps-135228808"
+    }
+  ],
+  "event_utc": "2026-07-30T15:13:00Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-07-30T16:02:19Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}
