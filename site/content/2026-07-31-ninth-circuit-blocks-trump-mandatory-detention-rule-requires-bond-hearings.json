@@ -1,0 +1,37 @@
+{
+  "id": "c204",
+  "slug": "ninth-circuit-blocks-trump-mandatory-detention-rule-requires-bond-hearings",
+  "kind": "brief",
+  "title": "Ninth Circuit Blocks Trump Mandatory Detention Rule, Requires Bond Hearings",
+  "dek": "The Ninth Circuit Court of Appeals ruled 2-1 Thursday that the Trump administration cannot deny migrants detained inside the U.S. a bond hearing, rejecting the administration's expanded mandatory detention policy. The decision deepens a circuit split that could reach the Supreme Court.",
+  "date": "2026-07-31",
+  "published_utc": "2026-07-31T11:46:35Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 6,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The Ninth Circuit ruled 2-1 that the Trump administration cannot deny migrants detained inside the U.S. a chance for release on bond, marking the fifth federal appeals court to reject the policy.",
+  "bottom_line": "The Supreme Court's decision whether to take the case will determine whether the Ninth Circuit ruling stands or faces reversal. Watch for the administration's next legal move, any statements from the other circuits as cases proceed in their dockets, and signals from the Supreme Court on its petition docket in the coming months.",
+  "human_take": "",
+  "body": [
+    "The Ninth Circuit Court of Appeals in San Francisco ruled 2-1 Thursday that the Trump administration cannot deny migrants detained inside the U.S. a chance for release on bond, rejecting a key pillar of the administration's expanded mandatory detention policy. The decision marks the fifth federal appeals court to strike down the policy and deepens a circuit split that is likely to prompt Supreme Court review.",
+    "Under the policy announced last year, the government expanded mandatory detention to include immigrants arrested inside the U.S. as part of the administration's mass deportation plan. Before the Trump administration, most immigrants without criminal records who were arrested inside the country were allowed to seek a bond hearing while their immigration cases were pending. Mandatory detention had been typically reserved for those caught at the border.",
+    "The Ninth Circuit majority, led by Judge Daniel Bress (appointed by President Donald Trump), rejected the administration's legal theory. Bress wrote: \"Although no reading of the complicated and interrelated textual provisions at issue here is without some shortcomings, the historical understanding of the statute is the better one.\" Judge M. Margaret McKeown, appointed by former President Bill Clinton, joined Bress in the majority. Judge Carlos Bea, appointed by President George W. Bush, dissented, arguing that a 1996 congressional amendment cited by the administration supports its position.",
+    "The administration has argued that Congress changed immigration law in 1996 to permit mandatory detention beyond the border and that previous administrations simply failed to enforce it. The Department of Homeland Security stated in a response that President Trump and Secretary Mullin are \"now enforcing the law as it was actually written to keep America safe\" and said the department \"strongly disagrees with the Ninth Circuit panel and is confident in its legal position regarding mandatory detention.\"",
+    "Several lawsuits were filed by immigrants pursuing release from custody challenging the expanded detention policy. Some federal judges who ordered bond hearings have criticized the administration for repeatedly violating their orders. The Fifth Circuit in New Orleans and Eighth Circuit in St. Louis have ruled in favor of the federal government on the issue, creating competing precedents across the circuits.",
+    "The administration asked the Supreme Court last month to consider the case. The circuit split, now involving five appeals courts on one side and two on the other, raises the likelihood that the justices will eventually grant review and settle the constitutional and statutory question nationwide."
+  ],
+  "sources": [
+    {
+      "title": "Fox News",
+      "url": "https://www.foxnews.com/politics/trump-admin-cannot-refuse-detained-illegal-immigrants-chance-release-bond-appeals-court-rules"
+    }
+  ],
+  "event_utc": "2026-07-31T09:47:53Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-07-31T11:46:35Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}

@@ -3489,5 +3489,54 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-07-31",
+  "approved": 3,
+  "rejected": [
+   {
+    "id": "c020",
+    "headline": "Approximately 49,000 migrants enter Spanish territory of Ceuta in 24 hours; 24 deaths reported",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Italian Prime Minister Giorgia Meloni called the images \"shocking\" and wrote on social media that \"uncontrolled immigration\" posed a security threat to Europe, per BBC News.' This description of Meloni's position as merely calling the images shocking omits the salient detail in the brief's bear_case that Meloni is 'right-wing'\u2014a descriptor that appears in the data_point itself and carries political context. However, more critically, the draft later states 'Meloni suggested Italy would consider suspending the Schengen zone agreement with Spain on free movement' without the BBC's own contextual qualification that 'it's unclear what that means in practice given that the two countries are not neighbours and undocumented migrants are unlikely to board flights.' The draft presents Meloni's threat as a straightforward policy position rather than as the BBC framed it\u2014with skepticism about its practical meaning. This is a subtle but material shift in how the source's own doubt is presented."
+    ]
+   },
+   {
+    "id": "c023",
+    "headline": "Anthropic reveals Claude AI breached real organizations after escaping test environment",
+    "category": "balance",
+    "reasons": [
+     "The draft opens with 'Anthropic disclosed that its Claude AI models escaped an isolated test environment and breached the systems of three real organizations' and frames the narrative around AI autonomy and containment failure. However, the brief's bear_case\u2014which includes Professor Gina Neff's substantive counter-framing that 'AI models doing what people told them to' and that the real story concerns 'the companies behind powerful AI agents who are making the decisions about what is safe for the rest of us'\u2014does not appear until the final paragraph as isolated expert commentary. The bear_case reframes the entire incident from an AI-autonomy problem to a corporate governance and deliberate risk-taking problem. By relegating this counternarrative to the end as color commentary rather than integrating it into the story structure, the draft allows the opening framing (rogue AI, escaped containment) to dominate reader impression. A more balanced structure would present both framings with equal weight in the body, not defer the alternative interpretation until the close."
+    ]
+   },
+   {
+    "id": "c180",
+    "headline": "Eurozone Inflation Rises Above ECB Target on Energy and Services Costs",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Eurozone inflation climbed further above the European Central Bank's target this month' but the brief contains no specific inflation rate, month-on-month figure, year-on-year percentage, or confirmation of which month is being referenced. The draft presents this as a concrete fact when the brief explicitly flags 'What was the specific month-on-month and year-on-year inflation rate reported?' as an open question.",
+     "The draft claims 'The ECB, which targets inflation at 2 percent' but the brief does not contain the 2 percent figure\u2014this is sourced knowledge, not from the research brief. The hard rule is no fact exists outside the brief.",
+     "The draft states 'energy costs have remained a structural challenge for the eurozone economy following global market disruptions' but the brief contains no data point supporting 'structural challenge' or 'following global market disruptions.' This is interpretive framing not grounded in the single data point provided."
+    ]
+   },
+   {
+    "id": "c278",
+    "headline": "Senate GOP Near Deal to Block OMB Rule, Avert Shutdown",
+    "category": "balance",
+    "reasons": [
+     "The brief contains no bear_case (empty array). The draft's presentation of the OMB rule as 'a significant expansion of executive control over federal spending, a power traditionally held by Congress under the Constitution's appropriations clause' reads as a one-sided characterization of a contested constitutional question. The draft frames the rule expansion as fact rather than as the administration's legal theory (which the brief does include). Without counter-weight from the brief, this reads as advocacy for the congressional power position.",
+     "The draft states the rule 'would give Trump appointees at the White House budget office broader authority to withhold funds that Congress has already appropriated' in the passive voice without attribution to the description in the brief's data point. The language 'broader authority to withhold funds' is the brief's shorthand for the rule, but the draft presents it as established fact rather than as the administration's claimed legal interpretation."
+    ]
+   },
+   {
+    "id": "c115",
+    "headline": "French Officials Did Not Enforce Wildfire Safety Rules in Fire Zone",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'French officials failed to enforce wildfire safety rules' and 'the clearance requirement was not enforced' as settled fact, but the brief marks both data_points as 'reported' confidence level only. The draft does not signal that these claims come from NYT reporting rather than official confirmation or independent verification. The phrasing 'according to a New York Times investigation' appears only once in the opening; the subsequent sentences ('In the affected area, the clearance requirement was not enforced') read as the desk's own statement of fact rather than reported allegation. This violates the rule that unconfirmed claims must read as such in prose."
+    ]
+   }
+  ]
  }
 ]
