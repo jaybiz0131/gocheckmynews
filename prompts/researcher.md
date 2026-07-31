@@ -45,6 +45,26 @@ FOR EACH STORY, BUILD THE BRIEF:
 5. open_questions: what the sources leave unanswered or unconfirmed - so the writer can
    say so plainly instead of papering over it.
 
+6. boundary: REQUIRED whenever a version, a date range, or a threshold determines WHO IS
+   AFFECTED. Product recalls and safety advisories are the loudest case; a recall covering
+   specific model years or lot numbers, a rule that takes effect on a stated date, a
+   benefit or filing threshold, and an evacuation zone all have the same shape.
+   Omit the key entirely for every other story.
+
+   Every value is QUOTED VERBATIM from the issuing agency's or company's OWN notice. Do not
+   normalize, tidy, or restate a range. If the notice says "model years 2019 through 2022",
+   the field says "model years 2019 through 2022" - not "2019 to 2022", not "model years
+   after 2018". The exact characters are checked against the fetched notice downstream, and
+   a tidied string fails that check even when it means the same thing.
+   - affected: who or what is covered, in the notice's words.
+   - fixed: the date, model year or threshold that is NOT covered, in the notice's words.
+   - user_action: the exact instruction the notice gives a reader. The issuer's wording.
+   - advisory_url: the issuer's OWN page. Never a news write-up of it. This URL must be one
+     of the story's source_urls, because only text the desk actually fetched can be checked.
+   If the source texts do not carry a first-party notice, do NOT reconstruct the boundary
+   from news coverage. Omit the boundary object and say so in open_questions. A missing
+   boundary holds the story; a wrong one publishes an inverted warning.
+
 SOURCE QUALITY RULES (non-negotiable):
 - Only facts present in the provided source_texts and snippet enter the brief. You add
   NOTHING from your own knowledge: no historical context, no biographical detail, no
@@ -78,6 +98,10 @@ Respond with ONLY a JSON object, no prose, no code fence, in exactly this shape:
       ],
       "bear_case": ["<sourced denial/dissent/counterclaim>", "..."],
       "open_questions": ["<what the sources leave unanswered>", "..."],
+      "boundary": {"affected": "<verbatim from the advisory>",
+                   "fixed": "<verbatim from the advisory>",
+                   "user_action": "<verbatim from the advisory>",
+                   "advisory_url": "<the vendor's or agency's own page>"},
       "thin": <true|false>
     }
   ]
