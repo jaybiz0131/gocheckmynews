@@ -685,6 +685,14 @@ def render_article(item, all_items=None):
             legend = ('<p class="cred-note">Outlet ratings are the public AllSides and '
                       'Media Bias/Fact Check charts\' calls, not ours. '
                       '<a href="/sources.html">How we rate sources</a>.</p>')
+        # SINGLE-SOURCE DISCLOSURE (owner directive 2026-07-31): when only one outlet has
+        # carried a development, say so plainly beside the sourcing. This is a factual note
+        # about THIS story, not process talk: a reader deserves to know a claim rests on one
+        # outlet, and stating it is a credibility signal rather than an admission.
+        if len(srcs) == 1:
+            legend = (f'<p class="single-source"><b>Single-source report.</b> As published, '
+                      f'only {esc(source_label(srcs[0]))} had reported this development. '
+                      f'No second outlet had corroborated it.</p>') + legend
         src_html = f'<div class="sources"><h2>Sources</h2><ol>{lis}</ol>{legend}</div>'
     rel_html = ""
     for rel in related_stories(item, all_items or []):
