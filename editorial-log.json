@@ -3628,5 +3628,55 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-07-31",
+  "approved": 2,
+  "rejected": [
+   {
+    "id": "c338",
+    "headline": "U.S. investigating whether Iran hacked Minnesota water systems",
+    "category": "clarity",
+    "reasons": [
+     "The draft is self-defeating. The second paragraph states 'CBS News did not report details on which specific water systems are affected, the timeline of alleged intrusions, operational impacts, the investigating agency, the evidence supporting Iranian attribution, or the response measures being taken to secure the systems.' This reads as an admission that the draft has no substance\u2014it reports one fact (an investigation exists) but then enumerates all the critical details missing. A reader learns nothing actionable. The brief is thin (one data point), which calls for a tight story, but this isn't tight\u2014it's hollow. Either provide the details to meet the angle's promise of 'raising immediate questions about resilience,' or reject the brief as insufficiently sourced. A story that amounts to 'something happened, but we don't know what' is not a published product."
+    ]
+   },
+   {
+    "id": "c343",
+    "headline": "Trump announces Hamas agreement to Gaza peace plan with disarmament and phased Israeli withdrawal",
+    "category": "balance",
+    "reasons": [
+     "The draft opens with Trump's announcement and Hamas's agreement as established fact ('announced that Hamas has agreed'), then buries Israeli skepticism deep (paragraph 6 onward). The bear_case in the brief contains four substantive objections: Sa'ar's 'trick' charge with operational critique, Hamas's potential deception, Israeli silence, and unclear timelines. The draft presents Sa'ar's objections but frames them as one Israeli voice, not as the institutional Israeli position. The lede and first three paragraphs read as though the agreement is clinched; Israeli absence from the table gets only a parenthetical reference ('However, Israeli officials have not publicly endorsed the agreement'). A brief that flags 'Israeli silence and Sa'ar's resistance suggest implementation faces immediate obstacles' (bottom_line) requires the draft's opening to reflect that skepticism is not peripheral\u2014it is the story. The current framing treats Israeli pushback as commentary on a done deal, not as evidence the deal is not done. The draft should open on the gap between Trump's/Hamas's claim and Israeli refusal, not on the announcement itself."
+    ]
+   },
+   {
+    "id": "c333",
+    "headline": "Trump threatens to withdraw Blanche AG nomination as GOP senators block confirmation",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Republican Senators John Cornyn and Thom Tillis are reacting to Trump's statement about potentially withdrawing the nomination' but the brief's data_point says they 'are reacting'\u2014implying a response. The draft provides no evidence of what they actually said or how they reacted. The CBS News URL in the draft is the only source, yet the body admits 'what Cornyn and Tillis have specifically said in response to Trump's threat' is unknown. The draft presents their reaction as fact without sourcing what that reaction is.",
+     "The draft claims 'The Blanche nomination has faced obstruction in the Senate, though the specific dispute between GOP senators and the nominee is not yet publicly detailed.' This frames obstruction as established fact, but the brief's data_point only says the nomination 'has stalled among Senate lawmakers'\u2014'stalled' and 'obstruction' are not the same claim, and 'obstruction' implies deliberate blockage without evidence in the brief."
+    ]
+   },
+   {
+    "id": "c009",
+    "headline": "Trump announces Hamas disarmament deal as U.S. economic growth cools",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Both claims carry Trump's attribution only; neither has been independently verified by other major news organizations or official sources beyond the administration's announcement.' This is an editorial judgment about verification status that does not appear in the brief's data_points. The brief's confidence labels say 'reported' for both claims, meaning they are reported by NPR\u2014the draft adds a characterization ('attribution only,' 'not independently verified') not present in the source brief.",
+     "The draft says 'Hamas, Israeli officials, and other parties have not yet confirmed or disputed Trump's characterization of the agreement.' This is a new factual claim (about non-confirmation) not in the brief. The brief lists as an open_question whether parties have confirmed or disputed, but the draft states it as established fact that they have not."
+    ]
+   },
+   {
+    "id": "c104",
+    "headline": "Iran Claims Drone Strike on U.S. Base in Kuwait; Kuwait Reports Interceptions",
+    "category": "accuracy",
+    "reasons": [
+     "Draft states 'Iran claims it conducted drone strikes' as settled fact in the lede, but the brief's core_claim only documents what Kuwait reported (detecting/destroying drones) and what Iran claimed. The draft presents Iran's claim without the 'claims' framing until sentence two, creating false equivalence between the two assertions.",
+     "Draft asserts 'the two countries engage in active military conflict across the Gulf region' as background fact, but this framing and context are not in the brief's data_points. This is smuggled context that goes beyond what the research supports.",
+     "Phrase 'if confirmed' in paragraph two contradicts the confidence label: the brief marks both data_points as 'reported,' not 'unconfirmed' or 'announced-not-verified.' The draft adds uncertainty not present in the source material."
+    ]
+   }
+  ]
  }
 ]
