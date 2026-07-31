@@ -46,8 +46,15 @@ def gather_sources(story, mode):
         if fetched_ok >= 3:
             break
         code, page = common.fetch_page(url)
-        if code == 200:
-            text = common.extract_article_text(page)
+        text = common.extract_article_text(page) if code == 200 else ""
+        # The Guardian serves reduced markup to non-browser fetches, so its scrape comes
+        # back thin or blocked. With GUARDIAN_API_KEY set, the outlet's own API supplies
+        # the published body; without it this is a no-op and the scrape result stands.
+        if len(text) < 400:
+            api_text = common.guardian_api_text(url)
+            if len(api_text) > len(text):
+                text, code = api_text, 200
+        if text:
             checks.append({"url": url, "http_status": code, "source_text": text,
                            "text_excerpt": text[:1500]})
             fetched_ok += 1

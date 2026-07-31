@@ -4,6 +4,7 @@
 import json
 import os
 import re
+import urllib.parse
 import urllib.request
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -61,6 +62,35 @@ def fetch_page(url, timeout=25):
         return code, body
     except Exception as e:
         return None, f"fetch failed: {e}"
+
+
+def guardian_api_text(url, cap=6000):
+    """Full article text for a theguardian.com URL via the Guardian Open Platform
+    (GUARDIAN_API_KEY, developer tier, verified 2026-07-30). Guardian pages, like most
+    major outlets, serve reduced markup to non-browser fetches, so the scrape path often
+    comes back thin; the outlet's own API returns the article body it published. Returns
+    '' for any non-Guardian URL, a missing key, or any failure, so every caller can treat
+    this as a best-effort upgrade and fall through to the normal extraction path."""
+    key = os.environ.get("GUARDIAN_API_KEY", "").strip()
+    if not key:
+        return ""
+    try:
+        host = urllib.parse.urlparse(url).netloc.lower()
+        if not (host == "theguardian.com" or host.endswith(".theguardian.com")):
+            return ""
+        path = urllib.parse.urlparse(url).path.strip("/")
+        if not path:
+            return ""
+        api = (f"https://content.guardianapis.com/{path}"
+               f"?show-fields=bodyText&api-key={urllib.parse.quote(key)}")
+        req = urllib.request.Request(api, headers={"User-Agent": UA})
+        with urllib.request.urlopen(req, timeout=25) as r:
+            data = json.loads(r.read().decode("utf-8", "replace"))
+        body = ((data.get("response", {}) or {}).get("content", {}) or {}) \
+            .get("fields", {}).get("bodyText", "")
+        return re.sub(r"\s+", " ", body).strip()[:cap]
+    except Exception:
+        return ""
 
 
 def extract_article_text(html_body, cap=6000):

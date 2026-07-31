@@ -112,6 +112,10 @@ jobs:
         if: steps.key.outputs.have_key == 'true' && steps.guard.outputs.serve == 'true'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # Guardian Open Platform (developer tier): lets the verifier read the published
+          # body of a Guardian citation instead of a reduced-markup scrape. Absent secret
+          # is a no-op, so the pipeline behaves identically without it.
+          GUARDIAN_API_KEY: ${{ secrets.GUARDIAN_API_KEY }}
         run: python3 run.py --mode live
 
       # FULL AUTO RELEASE (Jack's standing instruction, 2026-07-11): the adversarial verifier
