@@ -105,6 +105,11 @@
       "bias": "lean-left",
       "factual": "high",
       "note": "NBC News: coarse transcription of the public AllSides/MBFC charts, added 2026-07-27 with the feed."
+    },
+    "federalregister.gov": {
+      "bias": "official-record",
+      "factual": "high",
+      "note": "Primary source: the government's own rule record, not journalism."
     }
   }
 }

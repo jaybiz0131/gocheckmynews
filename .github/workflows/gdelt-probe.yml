@@ -1,0 +1,47 @@
+# ONE-OFF DIAGNOSTIC (2026-07-30), manual dispatch only, no schedule, no spend.
+# GDELT's doc API was pitched as "no key, no quota" but returned HTTP 429 on every
+# attempt from a residential IP, including after a 25-second cooldown. This desk has
+# been burned repeatedly by sources that answer datacenter IPs differently (ESPN 202
+# bot challenges, AP/NYT/WSJ 403s), so GDELT is NOT wired into intake until we know
+# what a GitHub runner actually gets back. Run this, read the result, then decide.
+name: GDELT reachability probe
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Probe the GDELT doc API from a runner IP
+        run: |
+          python3 - <<'PYEOF'
+          import json, urllib.request, urllib.error, time
+          url = ("https://api.gdeltproject.org/api/v2/doc/doc"
+                 "?query=ceasefire&mode=artlist&maxrecords=5&format=json")
+          hdrs = {"User-Agent": "GoCheckMyNews-probe/1.0"}
+          for attempt in (1, 2, 3):
+              try:
+                  with urllib.request.urlopen(
+                          urllib.request.Request(url, headers=hdrs), timeout=30) as r:
+                      body = r.read().decode("utf-8", "ignore")
+                  arts = json.loads(body).get("articles", [])
+                  print(f"::notice::GDELT attempt {attempt}: HTTP {r.getcode()}, "
+                        f"{len(arts)} articles. USABLE from CI.")
+                  for a in arts[:3]:
+                      print(f"  {a.get('seendate','')} {a.get('domain','')} {a.get('title','')[:60]}")
+                  raise SystemExit(0)
+              except urllib.error.HTTPError as e:
+                  print(f"::warning::GDELT attempt {attempt}: HTTP {e.code} ({e.reason})")
+              except Exception as e:
+                  print(f"::warning::GDELT attempt {attempt}: {type(e).__name__}: {e}")
+              time.sleep(20)
+          print("::error::GDELT unreachable from this runner after 3 attempts. "
+                "Do NOT wire it into intake: the 'no quota' claim does not hold here.")
+          raise SystemExit(1)
+          PYEOF

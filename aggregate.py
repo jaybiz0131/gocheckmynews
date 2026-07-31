@@ -195,6 +195,33 @@ def fetch(url, is_json=False):
     return json.loads(data) if is_json else data
 
 
+def federal_register_api(f):
+    """The Federal Register's own JSON API (keyless, verified 2026-07-30). Every proposed
+    and final federal rule lands here BEFORE it lands in the news, which is the earliest
+    honest signal the desk can carry and sits at the official-record tier. Emits the exact
+    item shape parse_feed does."""
+    data = fetch(f["url"], is_json=True)
+    items = []
+    for r in data.get("results", []):
+        url = r.get("html_url") or ""
+        title = (r.get("title") or "").strip()
+        if not url or not title:
+            continue
+        ts = parse_ts(r.get("publication_date") or "")
+        agencies = ", ".join(a.get("name", "") for a in (r.get("agencies") or [])[:2])
+        kind = r.get("type") or "Document"
+        items.append({
+            "headline": title,
+            "source": f["name"],
+            "source_tier": f["tier"],
+            "url": url,
+            "timestamp": ts.strftime("%Y-%m-%dT%H:%M:%SZ") if ts else "",
+            "_ts": ts,
+            "snippet": f"{kind} from {agencies}." if agencies else f"{kind}.",
+        })
+    return items
+
+
 def gather_rss(cfg, fixture=None):
     items, ok_sources = [], 0
     feeds = cfg["sources"]["rss"]
@@ -205,6 +232,8 @@ def gather_rss(cfg, fixture=None):
         xml = open(fixture, "rb").read()
         for f in feeds:
             try:
+                if f.get("format") == "federal_register":
+                    continue  # JSON API: no XML fixture to replay against
                 got = parse_feed(xml, f["name"], f["tier"])
                 got, _ = apply_keyword_gate(got, f, watchlist)
                 items += got
@@ -214,12 +243,18 @@ def gather_rss(cfg, fixture=None):
         return items, ok_sources, len(feeds)
     for f in feeds:
         try:
-            xml = fetch(f["url"])
-            got = parse_feed(xml, f["name"], f["tier"])
+            if f.get("format") == "federal_register":
+                got = federal_register_api(f)
+            else:
+                xml = fetch(f["url"])
+                got = parse_feed(xml, f["name"], f["tier"])
             got, gated = apply_keyword_gate(got, f, watchlist)
             # Per-feed cap: one prolific outlet must not flood the editor (some feeds
             # return 100 items). Feeds are newest-first, so the cap keeps the newest.
-            cap = cfg["sources"].get("max_items_per_feed", 40)
+            # per-feed override (2026-07-30): discovery feeds are deliberately broad and
+            # very recent, so an uncapped one would crowd primary-tier items out of the
+            # editor's newest-N window. A feed may declare its own smaller max_items.
+            cap = f.get("max_items", cfg["sources"].get("max_items_per_feed", 40))
             trimmed = f" (capped from {len(got)})" if len(got) > cap else ""
             gate_note = f", {gated} gated off-topic" if gated else ""
             got = got[:cap]

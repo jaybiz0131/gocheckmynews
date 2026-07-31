@@ -223,6 +223,27 @@
         "tier": "major",
         "url": "https://feeds.nbcnews.com/nbcnews/public/news",
         "note": "US wire-class top stories (same 2026-07-27 addition)."
+      },
+      {
+        "name": "Federal Register",
+        "tier": "primary",
+        "format": "federal_register",
+        "url": "https://www.federalregister.gov/api/v1/documents.json?per_page=20&order=newest&conditions[type][]=RULE&conditions[type][]=PRORULE&conditions[agencies][]=justice-department&conditions[agencies][]=federal-emergency-management-agency&conditions[agencies][]=consumer-financial-protection-bureau&conditions[agencies][]=health-and-human-services-department&conditions[agencies][]=homeland-security-department&conditions[agencies][]=treasury-department&conditions[agencies][]=environmental-protection-agency&conditions[agencies][]=labor-department&conditions[agencies][]=federal-trade-commission&conditions[agencies][]=securities-and-exchange-commission&conditions[agencies][]=education-department&conditions[agencies][]=federal-communications-commission&fields[]=title&fields[]=type&fields[]=agencies&fields[]=publication_date&fields[]=html_url",
+        "note": "The official record of every proposed and final federal rule (keyless JSON API, verified 2026-07-30). A new DOJ, FEMA, CFPB, or HHS rule appears here before it appears in news coverage. Filtered to RULE and PRORULE from newsworthy agencies only: the unfiltered feed is dominated by routine FAA airworthiness directives, which would flood the intake."
+      },
+      {
+        "name": "Google News: US public safety",
+        "tier": "mixed",
+        "url": "https://news.google.com/rss/search?q=mass+shooting+OR+%22active+shooter%22+OR+%22mass+casualty%22+when:1d&hl=en-US&gl=US&ceid=US:en",
+        "note": "DISCOVERY ONLY (added 2026-07-30). Google News is an aggregator and its item links are google.com redirects, not article URLs, so it rides the 'mixed' tier: it can surface a story the desk's own feeds missed (the Seattle Center class), but the corroboration rules require a tiered, directly-citable outlet to supply the source before anything publishes.",
+        "max_items": 10
+      },
+      {
+        "name": "Google News: Middle East thread",
+        "tier": "mixed",
+        "url": "https://news.google.com/rss/search?q=Iran+OR+Gaza+OR+Netanyahu+OR+%22Red+Sea%22+when:1d&hl=en-US&gl=US&ceid=US:en",
+        "note": "DISCOVERY ONLY (added 2026-07-30). Google News is an aggregator and its item links are google.com redirects, not article URLs, so it rides the 'mixed' tier: it can surface a story the desk's own feeds missed (the Seattle Center class), but the corroboration rules require a tiered, directly-citable outlet to supply the source before anything publishes.",
+        "max_items": 10
       }
     ],
     "keywords_note": "Optional per-feed 'keywords' gate: high-volume feeds keep only items matching a keyword in headline+snippet, so they cannot flood the editor. Items matching a 'narratives' watchlist entry always pass the gate. The news desk currently runs ungated; the editor's ranking plus the balance spread is the filter. Add gates if any single feed starts flooding intake.",
