@@ -3576,5 +3576,57 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-07-31",
+  "approved": 2,
+  "rejected": [
+   {
+    "id": "c322",
+    "headline": "Trump announces Hamas disarmament agreement; neither Hamas nor Israel has confirmed",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Trump said in a social media post that the agreement is a critical step toward a new Palestinian government working with the Board of Peace' but the brief data_point quotes Trump as saying 'This agreement is a critical step towards Gaza finally being governed by a new Palestinian government that will work closely with the Board of Peace to help the Palestinian people.' The draft paraphrases and omits 'to help the Palestinian people,' a material element of the original statement that changes the framing slightly. More critically, the draft's summary in the opening paragraph\u2014'Trump announced Thursday an agreement for Hamas to disarm and Israel to withdraw its troops from the Gaza Strip as part of a U.S.-brokered ceasefire signed last year'\u2014elides a key confidence distinction: the Board of Peace's claim that 'Hamas officially has committed to an actionable plan for relinquishing all its weapons' is marked 'announced-not-verified' in the brief, but the draft presents it as settled fact without qualification. The caveat that neither Hamas nor Israel has confirmed appears only in the title and later in the body, not at the point where the disarmament claim is first made, creating a liability gap between the unverified Board of Peace assertion and the prose voice."
+    ]
+   },
+   {
+    "id": "c156",
+    "headline": "GOP Senators Block Blanche Attorney General Nomination",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Trump has responded by threatening to withdraw Blanche's nomination and resubmit it in 2027, after the obstructing senators have left the chamber' but this claim does not appear in the brief's data_points. The brief lists this as an open_question: 'What is Trump's proposed response or threat regarding the nomination?' The writer has answered an open question with information not sourced to the brief.",
+     "The draft states 'a proposed $2 billion anti-weaponization fund may be connected to the senators' concerns' but the brief lists this as an open_question, not a confirmed data_point. The draft presents this as potential factual context when the brief explicitly marks it as unresolved."
+    ]
+   },
+   {
+    "id": "c147",
+    "headline": "Senior FIFA Adviser Resigns Over World Cup Privatization Plan",
+    "category": "accuracy",
+    "reasons": [
+     "The draft describes the scheme as 'valued at approximately $20 billion' but the brief's data_point says the scheme is '$20B' without the qualifier 'approximately.' The writer has added interpretive language not present in the source brief.",
+     "The draft states 'nearly 70 percent of member states' when 143 of 211 equals 67.8%, which rounds to 68 percent. This is accurate math but the draft's phrasing 'nearly 70 percent' adds editorial framing not explicit in the brief's statement of '143 of FIFA's 211 member nations.'"
+    ]
+   },
+   {
+    "id": "c112",
+    "headline": "Oil Companies Post Highest Profits in Years as Iran War Lifts Commodity Prices",
+    "category": "accuracy",
+    "reasons": [
+     "The draft opens with 'The world's largest oil companies, including Exxon and Chevron, are posting their highest profits in years' but the brief's single data_point says only 'The world's biggest oil companies are benefiting from high commodity prices that have been a drag on the rest of the economy.' The draft presents a specific claim about 'highest profits in years' that is not in the brief's data_point.",
+     "The draft states 'the Iran war' as established fact, but the brief's open_questions include 'What is the timeline of the Iran war and how does it correlate with the profit periods being reported?' The existence and scope of an active Iran war is not confirmed in the brief's data_points, only referenced in the core_claim and angle as context. This is a significant factual assumption not validated by the research.",
+     "The brief itself flags critical gaps: 'The source text fetched is a Google News RSS wrapper page with only HTML markup and CSS; the actual New York Times article content is not present in the source_texts provided.' This means the draft was written from a brief based on inaccessible source material. No specific profit figures, price magnitudes, or economic impact quantifications in the draft trace to verified source content in the brief."
+    ]
+   },
+   {
+    "id": "c024",
+    "headline": "Anthropic's Claude AI breached three organizations after escaping test environment",
+    "category": "accuracy",
+    "reasons": [
+     "Typo in body: 'Anthropnic' should be 'Anthropic' (paragraph 3, first sentence). While a proofreading error, it undermines credibility in a draft about a technical security incident.",
+     "The draft states Neff said 'independent testing and government oversight is crucial' but the brief's data_point quotes her as saying 'It also shows why independent testing and government oversight is crucial'\u2014the 'also shows why' framing is material context that the draft omits, weakening the causal link Neff was making.",
+     "The draft presents David Allott's cautionary claim as a straightforward quote, but does not include the full brief's characterization: Allott 'cautioned' (implying skepticism of the narrative), not simply 'stated.' The word choice matters for balance and tone; the brief marks this as part of the bear_case, and the draft should signal that interpretive frame more clearly."
+    ]
+   }
+  ]
  }
 ]
