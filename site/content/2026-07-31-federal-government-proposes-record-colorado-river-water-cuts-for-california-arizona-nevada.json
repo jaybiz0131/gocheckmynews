@@ -1,0 +1,51 @@
+{
+  "id": "c094",
+  "slug": "federal-government-proposes-record-colorado-river-water-cuts-for-california-arizona-nevada",
+  "kind": "brief",
+  "title": "Federal Government Proposes Record Colorado River Water Cuts for California, Arizona, Nevada",
+  "dek": "The U.S. Bureau of Reclamation announced a proposal Friday requiring Arizona, California, and Nevada to collectively cut up to 3 million acre-feet of water from the Colorado River through 2036. The cuts would be the largest imposed on Lower Basin states to date.",
+  "date": "2026-07-31",
+  "published_utc": "2026-07-31T18:40:53Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 8,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The Lower Basin states of California, Arizona, and Nevada face collective cuts of up to 3 million acre-feet from the Colorado River through 2036, the largest cuts to date.",
+  "bottom_line": "Watch for formal state responses and the finalized framework details in the coming days. The proposal's success will hinge on whether affected states accept the allocation and whether the flexibility mechanisms prove sufficient as the drought deepens.",
+  "human_take": "",
+  "body": [
+    "The U.S. Bureau of Reclamation announced Friday a proposal requiring California, Arizona, and Nevada to collectively reduce Colorado River water use by up to 3 million acre-feet through 2036, according to CBS News reporting. Colorado, Utah, New Mexico, and Wyoming would face no mandatory cuts under the proposal.",
+    "The cuts represent the largest reduction imposed on Lower Basin states to date. Three million acre-feet equals roughly 130 billion cubic feet, or enough water to serve more than 25 million people annually, per CBS News. The proposal comes after years of deadlocked negotiations between the states over how to manage an increasingly depleted resource.",
+    "The Colorado River serves more than 40 million U.S. residents, several tribal nations, Mexico, and supports agriculture, hydropower, and industrial operations across seven Western states, according to CBS News reporting. Water supplies in Lake Powell and Lake Mead, the nation's two largest reservoirs, have fallen to record lows this year following an exceptionally dry winter. Federal forecasts show Lake Powell's water levels could fall so low by year's end that turbines at nearby Glen Canyon Dam, which generate electricity across the region, may not be able to operate.",
+    "Under the 10-year federal framework, water management decisions will be made every two years, allowing annual releases from Lake Powell between 5 million and 12 million acre-feet, subject to hydrologic conditions. Secretary of the Interior Doug Burgess stated, according to CBS News, that the framework provides flexibility to respond to changing conditions while preserving opportunity for states to work toward consensus-based solutions.",
+    "Years of overuse combined with rising temperatures and drought have severely depleted Colorado River flows compared to historical levels, according to CBS News reporting. Potential consequences of the cuts include higher water prices, increased groundwater reliance, additional agricultural land taken out of production, and new conservation mandates in jurisdictions without prior restrictions, per CBS News.",
+    "Federal officials are expected to finalize the plan in the coming days, though the brief provides no detail on whether state approval is required or what happens if states do not agree. The specific apportionment of cuts among California, Arizona, and Nevada individually, and the distinct economic and agricultural impacts each state will face, remain to be detailed."
+  ],
+  "sources": [
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/policy/energy-environment/6002365-colorado-river-plan-california-arizona-nevada/"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/arizona-california-nevada-colorado-river-water-federal-plan/"
+    },
+    {
+      "title": "The New York Times",
+      "url": "https://www.nytimes.com/2026/07/31/climate/colorado-river-basin-water-cuts.html"
+    }
+  ],
+  "event_utc": "2026-07-31T15:49:23Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-07-31T18:40:53Z",
+    "sources_cited": 3,
+    "sources_live_checked": 1
+  },
+  "boundary": {
+    "affected": "Arizona, California and Nevada",
+    "fixed": "Colorado, Utah, New Mexico and Wyoming",
+    "user_action": "No user action is specified in the source text.",
+    "advisory_url": "No first-party advisory URL is present in the source texts; the proposal is from the U.S. Bureau of Reclamation but the fetched source is a news report, not the agency's official notice."
+  }
+}

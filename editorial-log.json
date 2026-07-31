@@ -3678,5 +3678,61 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-07-31",
+  "approved": 3,
+  "rejected": [
+   {
+    "id": "c121",
+    "headline": "US Bureau of Reclamation proposes water cuts to three western states",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'the fix outlined in the plan is likely to be only temporary' but attributes this to 'sources cited in The Guardian's reporting' without direct attribution. The brief's open_questions note that 'the article's full content could not be retrieved' due to corrupted source text (CSS/HTML markup), making it impossible to verify this claim traces to the source.",
+     "The draft introduces interpretive analysis ('suggests the proposal addresses immediate shortages but does not resolve the underlying structural imbalance') that goes beyond what can be confirmed from a corrupted source.",
+     "Given the brief explicitly states 'the source text provided is corrupted' and 'the article's full content could not be retrieved,' the writer cannot have verified that any of the claims in the brief match the actual Guardian article. This violates the hard rule that facts must trace to the brief."
+    ]
+   },
+   {
+    "id": "c268",
+    "headline": "F-35 fighter jet crashes at Marine Corps Air Station Miramar in San Diego",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states the crash occurred 'on Friday' but the brief specifies the date as 'Friday, July 31, 2026.' The draft should include the specific date to match the sourced information.",
+     "The brief notes source_chars is 0, indicating no source text was retrievable. The draft cannot be verified against source material when the source has not been obtained. This violates the hard rule that facts go back to research."
+    ]
+   },
+   {
+    "id": "c140",
+    "headline": "Tony Romo placed on leave from CBS Sports following impaired driving arrest in Milwaukee",
+    "category": "accuracy",
+    "reasons": [
+     "Draft states Romo 'initially told authorities he had not been drinking but later admitted to having at least one beverage' but brief data_point 5 says 'Body camera video showed Romo was slow to respond to a deputy's instructions and insisted he needed to call his lawyer' \u2014 the draft omits the body camera detail about slowness and lawyer request that appears in the brief and should be traced back to research.",
+     "Draft claims 'Deputies reported finding an open bottle of alcohol inside Romo's vehicle' but the brief data_point 6 specifies 'A deputy observed \"a few shooters\" (small containers of alcohol) in Romo's backpack' \u2014 the draft substitutes 'open bottle' (from Fox/CBS sourcing) for the backpack detail, creating a discrepancy between what the brief documents and what the draft presents as the full factual record.",
+     "Draft paragraph 5 references 'Former Houston Texans defensive lineman J.J. Watt, a three-time winner of the NFL's Defensive Player of the Year award who joined CBS last summer, will replace Romo' but brief data_point 16 labels this as 'reported' confidence, and the draft does not attribute the replacement to Fox News as required by the accuracy rule \u2014 the attribution appears only as 'According to Fox News' in an earlier sentence about Watt, creating ambiguity about sourcing."
+    ]
+   },
+   {
+    "id": "c021",
+    "headline": "Approximately 60,000 migrants enter Spanish enclave of Ceuta from Morocco; dozens die in crossings",
+    "category": "balance",
+    "reasons": [
+     "The brief's bear_case explicitly states that 'CBS News reported: \"While S\u00e1nchez and others have linked the border crossings to the Supreme Court ruling, it was not immediately clear if that was what prompted so many people to flock to Ceuta in recent days,\"' indicating causal uncertainty, yet the draft frames the Supreme Court ruling as the stated cause without adequately surfacing the CBS News caveat about unclear causation. The sentence 'However, CBS News noted it was not immediately clear whether the ruling directly prompted the surge' appears late and weakly, after the causation has already been presented as the dominant framing.",
+     "The draft does not present the bear_case detail that 'Moroccan resident Fatima Zahra told AFP that migrants may have been motivated by social media word-of-mouth about successful crossings rather than explicit coordination by trafficking gangs,' which directly counters the narrative of deliberate trafficking mafias exploiting the ruling. This alternative explanation for the surge should appear alongside the trafficking/ruling narrative to balance the story.",
+     "The draft omits the bear_case statement from Spain's foreign minister criticizing Italy's Meloni, saying her remarks were 'improper' for 'a partner and friendly country from which we expect European solidarity and not partisan demagoguery' \u2014 this counter-voice to the unified European security response framing is absent, creating an imbalanced presentation of European reaction.",
+     "The draft does not adequately surface the open_questions from the brief regarding why Moroccan border guards were absent or ineffective and whether Morocco intentionally enabled the crossing; instead, it presents Moroccan cooperation as settled fact without noting the ambiguity about their role in the surge itself."
+    ]
+   },
+   {
+    "id": "c092",
+    "headline": "Fed Officials Dissented on Rate Hold at Warsh's Second Meeting",
+    "category": "accuracy",
+    "reasons": [
+     "The brief explicitly states 'No source text was fetched; the brief is built from headline and snippet alone' and lists zero data_points. The draft presents 'some Federal Reserve officials dissented' and 'interest rates steady at 3.5-3.75%' as facts, but neither claim appears in any data_point in the brief. The writer has smuggled facts beyond the brief's evidentiary base.",
+     "The draft claims 'Kevin Warsh's second meeting as chairman' occurred and had a rate decision at a specific level (3.5-3.75%), but the brief's open_questions explicitly ask 'When did the meeting occur?' This fact is unverified in the research.",
+     "The draft states 'The dissent signals internal divisions over monetary policy as inflation remains a concern' but offers no data_point from the brief supporting that inflation was cited as a reason for the dissent. The brief has no data_points at all to support any of these claims."
+    ]
+   }
+  ]
  }
 ]
