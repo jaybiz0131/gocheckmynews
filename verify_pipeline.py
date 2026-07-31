@@ -575,6 +575,40 @@ def _failclosed_canaries(cfg):
 
 # ---- Layer 2 -----------------------------------------------------------------
 
+def _json_source_ok(name, url, body):
+    """Shape-check a source that declares a non-RSS format.
+
+    Not every entry under sources.rss is an RSS feed. The Federal Register is a keyless JSON
+    API, declared format=federal_register, and aggregate.federal_register_api reads it with
+    is_json=True; the RSS parser never sees it. Testing it for '<rss' therefore reported a
+    healthy, correctly-configured source as a content mismatch on every single run, which is
+    the worst thing a liveness check can do: it trains the reader of the alert to ignore it,
+    and the one run where a real feed dies looks the same as the noise.
+
+    This is a STRICTER check than the feed test it replaces, not a waiver. It asserts the
+    exact fields aggregate reads, so a schema change at the far end still fails here."""
+    try:
+        data = json.loads(body)
+    except Exception as e:
+        gh("error", f"sources: '{name}' declares a JSON format but did not parse as JSON "
+                    f"({e}): {url}")
+        return False
+    results = (data or {}).get("results")
+    if not isinstance(results, list) or not results:
+        gh("error", f"sources: '{name}' returned no 'results' array; "
+                    f"aggregate.federal_register_api would yield nothing: {url}")
+        return False
+    # The three fields the item builder cannot do without. A rename upstream is a real
+    # outage for this source even though the endpoint still answers 200.
+    if not any(r.get("html_url") and (r.get("title") or "").strip() for r in results):
+        gh("error", f"sources: '{name}' results carry no usable title/html_url pair; "
+                    f"every item would be skipped: {url}")
+        return False
+    print(f"LAYER 2 sources: OK '{name}' -> HTTP 200, JSON with {len(results)} result(s) "
+          f"carrying title/html_url (the shape aggregate reads).")
+    return True
+
+
 def layer2_sources():
     cfg = common.load_config()
     mismatch = False
@@ -584,7 +618,8 @@ def layer2_sources():
             req = urllib.request.Request(url, headers={"User-Agent": common.UA})
             with urllib.request.urlopen(req, timeout=30) as r:
                 code = r.getcode()
-                head = r.read(2000).decode("utf-8", "replace").lower()
+                raw = r.read(200_000).decode("utf-8", "replace")
+                head = raw[:2000].lower()
         except Exception as e:
             gh("warning", f"sources: '{name}' fetch failed ({url}): {e} -- soft warning only, NOT failing")
             continue
@@ -606,6 +641,12 @@ def layer2_sources():
                     pass
             gh("error", f"sources: '{name}' did not resolve 200 (got {code}): {url}")
             mismatch = True
+            continue
+        # Check the source in the shape the pipeline actually reads it. A declared format
+        # means aggregate has a dedicated reader for it, so the RSS test does not apply.
+        if f.get("format"):
+            if not _json_source_ok(name, url, raw):
+                mismatch = True
             continue
         if not ("<rss" in head or "<feed" in head or "<rdf" in head or "<?xml" in head):
             gh("error", f"sources: '{name}' did not look like an RSS/Atom feed: {url}")
