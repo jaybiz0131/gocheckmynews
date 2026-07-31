@@ -3538,5 +3538,43 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-07-31",
+  "approved": 3,
+  "rejected": [
+   {
+    "id": "c020",
+    "headline": "About 60,000 migrants cross into Ceuta in 24 hours; Spain deploys military as EU tensions rise",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'UK Prime Minister Andy Burnham' offered to help Spain. Andy Burnham is not UK Prime Minister; he is Mayor of Manchester. The brief data_point correctly attributes this claim to 'BBC reporting' but does not specify who the UK Prime Minister is. The writer introduced a factual error not present in the source material by naming the wrong person. This is a smuggled fact/correction that should have been caught at research stage, not inserted at draft stage."
+    ]
+   },
+   {
+    "id": "c321",
+    "headline": "Trump announces Hamas disarmament agreement as part of Gaza peace plan",
+    "category": "balance",
+    "reasons": [
+     "The brief's bear_case item\u2014'Few details about the agreement were initially released and there was no immediate official comment from Israel or Hamas on the president's announcement, suggesting lack of official confirmation from the parties directly involved'\u2014appears only weakly in the draft. The draft mentions in paragraph 1 that 'there was no immediate official comment from Israel or Hamas' and again in the bottom_line that 'Official confirmation from Hamas and Israel themselves remains absent from the record at announcement time.' However, the draft then proceeds to present Trump's statements and the Board of Peace's characterization with substantial detail and weight, without adequately foregrounding or sustaining the skepticism about lack of direct confirmation. A reader finishing the draft would have absorbed Trump's claim as substantive, with the confirmation gap appearing as an afterthought rather than a central editorial framing. The bear_case required stronger presence in the body to preserve balance proportionate to the evidence."
+    ]
+   },
+   {
+    "id": "c207",
+    "headline": "Ninth Circuit blocks Trump mandatory detention policy; circuit split deepens",
+    "category": "accuracy",
+    "reasons": [
+     "The sentence 'Four other appeals courts have ruled on the issue: the Fifth Circuit in New Orleans and the Eighth Circuit in St. Louis have ruled in favor of the federal government, while other circuits have rejected the policy' is internally contradictory and unsupported by the brief. The brief data_point states only that 'the Fifth Circuit in New Orleans and Eighth Circuit in St. Louis have ruled in favor of the federal government' and 'other circuits have rejected the policy'\u2014but does not specify that exactly four courts have ruled or name which 'other circuits' rejected it. The draft claims 'four other appeals courts have ruled' but then only clearly identifies two circuits in favor and vaguely references unspecified circuits against, without sourcing the claim that four total have ruled."
+    ]
+   },
+   {
+    "id": "c113",
+    "headline": "Oil companies post elevated profits as Iran war raises commodity prices",
+    "category": "accuracy",
+    "reasons": [
+     "The core_claim in the brief states companies are posting 'record profits' but the draft states only 'elevated profits' and 'strong earnings.' The word 'record' is a material factual claim that does not appear in the brief's data_points, which use only 'benefiting from high commodity prices' and 'strong earnings driven by elevated crude prices.' The draft has softened the claim, but the brief requires 'record' as the sourced fact."
+    ]
+   }
+  ]
  }
 ]
