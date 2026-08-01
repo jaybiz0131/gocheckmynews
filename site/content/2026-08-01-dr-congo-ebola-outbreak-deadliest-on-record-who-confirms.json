@@ -1,0 +1,39 @@
+{
+  "id": "c032",
+  "slug": "dr-congo-ebola-outbreak-deadliest-on-record-who-confirms",
+  "kind": "brief",
+  "title": "DR Congo Ebola outbreak deadliest on record, WHO confirms",
+  "dek": "As of 30 July 2026, the Ebola outbreak in the Democratic Republic of Congo has reached 3,605 confirmed cases and 1,587 deaths, surpassing the previous record from 2018-2020. The Bundibugyo strain has no approved vaccine or treatment. The WHO reports the outbreak is intensifying amid armed conflict and displacement that hamper containment.",
+  "date": "2026-08-01",
+  "published_utc": "2026-08-01T16:33:35Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 7,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The current DR Congo Ebola outbreak has killed 1,587 people across 3,605 cases as of 30 July 2026, making it the deadliest on record in the country and exceeding the 2018-2020 outbreak that killed nearly 2,300.",
+  "bottom_line": "The outbreak is moving faster than vaccine development can currently match, and the armed conflict in affected regions shows no sign of resolution. Watch for vaccine trial results from the UK and Singapore, and monitor whether the weekly case count stabilizes or continues to accelerate; either trajectory will signal whether current response measures are gaining ground.",
+  "human_take": "",
+  "body": [
+    "The Ebola outbreak sweeping the Democratic Republic of Congo has become the deadliest in the country's history, according to the WHO, which confirmed 3,605 cases and 1,587 deaths as of 30 July 2026, a fatality rate of 44 percent. The outbreak, declared on 15 May 2026, now exceeds the previous record set between 2018 and 2020, when nearly 3,500 cases produced almost 2,300 deaths.",
+    "The current crisis is driven by the Bundibugyo strain of Ebola virus. According to the WHO, no approved vaccine or treatment exists for this strain, leaving health systems with supportive care as the primary intervention.",
+    "The spread is accelerating. During the past week alone, the outbreak reached its highest weekly total with 567 cases and 296 deaths, per BBC reporting of WHO data. The WHO stated the outbreak was \"intensifying, with sustained transmission and continued increases in reported cases and deaths.\" The epicenter is Ituri province in the country's northeast, which borders South Sudan and Uganda, but the virus has spread to the North and South Kivu provinces, areas where armed groups including the Rwanda-backed M23 control large territories.",
+    "The conflict and instability are active obstacles to containment. The WHO identified insecurity, population displacement, and cross-border movement as factors that \"continue to hamper response efforts and increase the risk of further spread.\" These conditions complicate isolation, contact tracing, and the deployment of medical personnel.",
+    "Ebola has crossed borders during this outbreak. Uganda has reported 20 cases, and one case was reported in France, according to BBC reporting. Two cases identified in DR Congo were treated in Germany. These exports signal the strain's capacity to move internationally and the global interest in its containment.",
+    "Vaccine development is underway but not yet deployed. On 30 July 2026, the WHO announced that the \"most promising\" vaccine would be developed in Singapore, while a separate vaccine trial has begun in the UK, per BBC reporting. The timeline for availability and trial outcomes remains unspecified in public statements.",
+    "Historically, Ebola has exacted a heavy toll across Africa. According to BBC reporting, the virus has killed 15,000 people across the continent over the last 50 years.",
+    "The Bottom Line: The outbreak is moving faster than vaccine development can currently match, and the armed conflict in affected regions shows no sign of resolution. Watch for vaccine trial results from the UK and Singapore, and monitor whether the weekly case count stabilizes or continues to accelerate; either trajectory will signal whether current response measures are gaining ground."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cy07qe0knvzo?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "event_utc": "2026-08-01T16:16:16Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-01T16:33:35Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}

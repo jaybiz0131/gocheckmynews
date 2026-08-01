@@ -3834,5 +3834,49 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-01",
+  "approved": 4,
+  "rejected": [
+   {
+    "id": "c075",
+    "headline": "Water Systems in Seven U.S. States Targeted by Cyberattacks, Iran Suspected",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Cyberattacks targeting water systems in at least seven U.S. states have been attributed to Iran, according to reporting by the New York Times.' The brief explicitly notes: 'The source text for the New York Times article is not available; all details about the scope, timeline, specific states affected beyond Michigan and Minnesota, the nature of the attacks, any disruptions to service, and the evidence linking attacks to Iran cannot be verified from the provided sources.' The writer has presented the core claim as fact when the brief itself flags it as unverifiable from available sources. This violates the hard rule that no fact exists outside the brief.",
+     "The draft presents the attribution as settled reporting without qualification, but the brief's open_questions section documents that 'all details... and the evidence linking attacks to Iran cannot be verified.' The draft should indicate this sourcing limitation rather than treat the NYT report as confirmed fact."
+    ]
+   },
+   {
+    "id": "c078",
+    "headline": "Kuwait Reports Downing Iranian Drones as Mideast Braces for Escalation",
+    "category": "accuracy",
+    "reasons": [
+     "The draft opens with 'Kuwait reported downing Iranian drones' as a factual statement, but the brief shows source_chars: 0, meaning the NYT source text is not available for verification. The brief's open_questions explicitly ask 'How many drones did Kuwait report downing and what is the evidence of interception?' This indicates the core fact is unverified from available sources.",
+     "The draft states this as reporting without qualifying language ('according to Kuwait reports' or similar), violating the rule that unverified claims must be sourced or flagged as unconfirmed. The writer has smuggled in a fact not verifiable from the provided brief."
+    ]
+   },
+   {
+    "id": "c054",
+    "headline": "UEFA Declares Loss of Confidence in FIFA President Infantino After Failed Private Equity Plan",
+    "category": "accuracy",
+    "reasons": [
+     "The draft opens with 'UEFA has formally declared loss of confidence in FIFA President Gianni Infantino' but the brief explicitly notes that both source texts are truncated and contain no actual reporting content\u2014only page markup. No quotes, statements, dates, or evidence of UEFA's stated loss of confidence appear in either fetched source text.",
+     "The draft claims the plan 'involved roughly $20 billion in World Cup revenues' but the brief contains no data_points supporting this specific figure or confirming it from the truncated sources.",
+     "The draft asserts the plan 'was abandoned after coordinated international pressure from multiple confederations' but the brief's open_questions explicitly note 'The identity of other coordinated international actors pressuring FIFA is not specified in the available source material.'",
+     "The entire second paragraph of the draft acknowledges the sources lack substantive detail, making the opening paragraph's definitive claims unsourceable. The draft admits it has insufficient evidence to support its lead claim."
+    ]
+   },
+   {
+    "id": "c092",
+    "headline": "Trump vows to revive $1.8B fund as Senate committee prepares Blanche vote",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The source brief does not specify which senators or which caucus has objected to it, on what grounds their opposition rests, or whether Trump's threat to revive it is conditional on Blanche's rejection' and 'The nature of the fund, its original purpose, and the formal mechanism by which Trump would implement it unilaterally remain unaddressed in the reporting available here.' This is meta-commentary about the brief's gaps rather than reporting on the Ebola event. The draft should either report what the brief contains or reject the assignment; it cannot narrate its own incompleteness to readers as part of the story. This reads as the writer inserting their research notes into the published draft.",
+     "The entire second paragraph amounts to the writer confessing the story cannot be written from available material. This is not neutral reporting; it is an editorial choice that should have been escalated to the desk before drafting. The sentence 'The source brief does not specify...' directly addresses the approver/editor, not the reader, and should never appear in a published draft."
+    ]
+   }
+  ]
  }
 ]
