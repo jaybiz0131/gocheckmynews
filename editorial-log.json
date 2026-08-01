@@ -3928,5 +3928,55 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-01",
+  "approved": 3,
+  "rejected": [
+   {
+    "id": "c181",
+    "headline": "State Department Warns Americans to Consider Leaving Middle East as Iran Conflict Intensifies",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The State Department also urged Americans to reconsider travel to or through the region,' but the brief data_point says 'urged Americans to reconsider travel bans to or through the region.' The word 'bans' is missing and changes the meaning; this appears to be a drafting error that misrepresents what the State Department said.",
+     "The draft quotes Trump saying he will be 'hitting them very hard,' but does not attribute this to a specific source outlet inline. The brief attributes it to NBC News reporting, but the draft does not make this attribution transparent.",
+     "The draft includes 'hours after Fox News reported that Trump in a phone call had vowed to use aggressive language toward the country,' but the brief data_point contains the actual quote 'beat the f---ing s--- out of' the country. The draft sanitized the quote without flagging it as paraphrased or softened language, which obscures what was actually said."
+    ]
+   },
+   {
+    "id": "c077",
+    "headline": "HOLD: Source Material Not Retrieved",
+    "category": "accuracy",
+    "reasons": [
+     "The draft is a hold notice, not a story. The brief shows empty data_points and open_questions that state source material could not be retrieved. The desk rule is that 'no fact exists outside the brief.' A hold notice acknowledging source retrieval failure is not a reportable story and violates the mandate to draft from verified sources. The research must return with retrievable sources before a draft can be approved."
+    ]
+   },
+   {
+    "id": "c275",
+    "headline": "Three killed, two injured in active shooter incident in Twin Falls, Idaho",
+    "category": "accuracy",
+    "reasons": [
+     "The draft attributes casualty figures to 'Idaho Falls spokesperson Josh Palmer' but the incident occurred in Twin Falls, Idaho, not Idaho Falls. This is a factual error that changes the official source attribution."
+    ]
+   },
+   {
+    "id": "c155",
+    "headline": "Trump rebukes U.S. Attorney Pirro as DOJ dismisses Reflecting Pool case",
+    "category": "accuracy",
+    "reasons": [
+     "The entire draft is about the Reflecting Pool case (Trump, Pirro, Hearn, contractor failure), but the research brief provided contains only data points about an Ebola outbreak in DR Congo (cases, deaths, Bundibugyo strain, vaccines). No facts in the draft\u2014including Trump's Truth Social posts, Hearn's indictment date, Pirro's role, contractor name Atlantic Industrial Coatings, the $14 million contract, the National Park Service engineer's June 11 email, or Secretary Burgum's statement\u2014appear in the brief's data_points. The brief and draft are completely mismatched. The writer was given a DR Congo Ebola brief but wrote a Reflecting Pool/Hearn story.",
+     "This is a fundamental rule violation: 'no fact exists outside the brief.' Every substantive claim in the draft must trace to a data_point; none do."
+    ]
+   },
+   {
+    "id": "c045",
+    "headline": "Current Ebola outbreak worst ever in DR Congo, WHO says",
+    "category": "accuracy",
+    "reasons": [
+     "The entire draft is about a DR Congo Ebola outbreak (Bundibugyo strain, case counts, deaths, vaccine development), but the research brief provided contains only data points about the Reflecting Pool case (Hearn's indictment, Trump's dismissal criticism, Pirro, contractor failure, Burgum's statement). No facts in the draft\u2014including the 3,605 cases, 1,587 deaths, 44% fatality rate, May 15 declaration date, Ituri province, M23 armed group, Uganda/France/Germany cases, Singapore/UK vaccine trials\u2014appear in the brief's data_points. The brief and draft are completely mismatched. The writer was given a Reflecting Pool brief but wrote a DR Congo Ebola story.",
+     "This is a fundamental rule violation: 'no fact exists outside the brief.' Every substantive claim in the draft must trace to a data_point; none do."
+    ]
+   }
+  ]
  }
 ]
