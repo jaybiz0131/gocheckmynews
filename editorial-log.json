@@ -3878,5 +3878,55 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-01",
+  "approved": 3,
+  "rejected": [
+   {
+    "id": "c275",
+    "headline": "U.S. and Israel Planning Strikes on Iranian Energy Infrastructure",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Chief Pentagon spokesperson Sean Parnell said: \"The Department of War is locked and loaded, ready to execute the President's directives at a moment's notice.\"' The brief contains this exact quote, but there is no U.S. Department of War; the correct agency is the Department of Defense. This appears to be either a misquote in the source or a fabrication. The quote as presented is factually impossible and cannot be attributed to an official statement without verification of the actual wording used.",
+     "The draft presents an internal contradiction: it opens by saying 'The United States and Israel are planning military strikes' and later states an Israeli official said 'Israel is unaware of a decision to restart full military operations, nor has been requested of Israel to join any military actions against Iran.' This direct contradiction between the opening claim and the bear_case evidence should be resolved earlier in the story or the framing should be materially softened to reflect the disputed nature of Israeli participation."
+    ]
+   },
+   {
+    "id": "c076",
+    "headline": "Iranian Cyberattacks Hit U.S. Water Systems in Seven States",
+    "category": "accuracy",
+    "reasons": [
+     "The brief is marked 'thin: true' with only one data_point containing the core claim. The draft adds factual content not present in the brief: 'Water systems, which serve millions of Americans daily, are considered essential infrastructure vital to public health and safety.' This is general editorial commentary not sourced to the reporting and violates the hard rule that no fact exists outside the brief.",
+     "The draft characterizes the attacks as 'a significant escalation in nation-state cyber operations' but the brief contains no comparative data, no historical context, and no source attribution for this escalation claim. This is writerly interpretation imposed on thin-sourced reporting."
+    ]
+   },
+   {
+    "id": "c085",
+    "headline": "Trump Reverses Pledge on Ukraine Patriot Interceptor Production",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The reporting came as Russian missiles struck Kyiv, killing nine people.' The brief's open_questions include 'What was the death toll or casualty count from the Russian missile attack on Kyiv?' indicating this specific number is not confirmed in the source material provided to the researcher. The draft has imported a fact not present in the brief.",
+     "The draft claims 'Patriot air defense systems have been critical to Ukraine's ability to counter Russian aerial attacks' but this contextual claim does not appear in the brief's data_points. The brief contains only that Ukraine's supply is dwindling and Trump reversed a pledge; the strategic importance claim is the writer's addition, not sourced reporting."
+    ]
+   },
+   {
+    "id": "c156",
+    "headline": "Trump threatens to keep Blanche as acting AG and revive fund if senators block confirmation",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states the anti-weaponization fund 'was established through a settlement agreement stemming from a lawsuit Trump filed against the IRS' and later that 'the settlement also included an agreement making the president and several family members immune from IRS audits.' However, the brief data_points do not confirm Trump filed the lawsuit or specify the IRS as defendant; they only state the fund 'was established through a settlement agreement stemming from a lawsuit Trump filed against the IRS' per NBC, but the draft introduces details about the settlement's immunity provisions that go beyond what the brief explicitly supports as traced facts. The brief lists these as separate claims but the draft's construction ('stemming from a lawsuit Trump filed against the IRS') asserts Trump as plaintiff without explicit sourcing in the brief's data structure.",
+     "The draft references 'the anti-weaponization fund' being 'formed through a settlement Blanche reached' in one data point, but later says Trump filed the lawsuit. This internal contradiction\u2014whether Trump or Blanche initiated the lawsuit\u2014is not clarified in the brief's data_points, and the draft presents it as settled when the brief itself shows conflicting sourcing on agency (Trump vs. Blanche). The writer must trace this back to the source to confirm which version is accurate before publication."
+    ]
+   },
+   {
+    "id": "c125",
+    "headline": "Spain Says Most Migrants Who Entered Ceuta Have Left or Been Deported",
+    "category": "accuracy",
+    "reasons": [
+     "The brief explicitly states 'No source text was fetched from the Wall Street Journal URL; the brief cannot verify the specific numbers, timeline, or Spain's containment measures without access to the actual article.' The draft reports specific facts (60,000 migrants, Spain deployed containment measures including a security fence and military personnel) that are not in the data_points and cannot be verified against the brief. The hard rule is: no fact exists outside the brief."
+    ]
+   }
+  ]
  }
 ]
