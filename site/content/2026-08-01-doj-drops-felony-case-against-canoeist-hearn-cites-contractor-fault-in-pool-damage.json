@@ -1,0 +1,56 @@
+{
+  "id": "c014",
+  "slug": "doj-drops-felony-case-against-canoeist-hearn-cites-contractor-fault-in-pool-damage",
+  "kind": "brief",
+  "title": "DOJ drops felony case against canoeist Hearn, cites contractor fault in pool damage",
+  "dek": "The Justice Department dropped its felony destruction-of-property charge against former Olympic canoeist David Hearn on July 31, 2026, after the Interior Department provided documents showing the Lincoln Memorial Reflecting Pool damage resulted from contractor installation flaws, not vandalism. Hearn had been arrested and charged after a $14 million Trump-backed renovation project failed.",
+  "date": "2026-08-01",
+  "published_utc": "2026-08-01T01:09:44Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 4,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Federal prosecutors admitted the Interior Department withheld information before indictment that showed damage to the reflecting pool was caused by contractor Atlantic Industrial Coatings' flawed installation and rushed work schedule, not by Hearn or other vandals.",
+  "bottom_line": "Hearn's arrest and prosecution occurred before Interior Department documents establishing contractor fault reached prosecutors, raising questions about why the agency delayed sharing information it possessed. The case underscores risks when government agencies and prosecutors operate without complete information in high-profile matters tied to administration priorities.",
+  "human_take": "",
+  "body": [
+    "The Justice Department dropped its felony destruction-of-property case against David Hearn, a 67-year-old from Bethesda, Maryland, on July 31, 2026, after federal prosecutors concluded they lacked evidence to proceed. The reversal came less than four weeks after Hearn was indicted on July 2.",
+    "Hearn had been accused of damaging the Lincoln Memorial Reflecting Pool during a $14 million renovation project overseen by the Trump administration. He was charged with destruction of government property causing more than $1,000 in damage and had pleaded not guilty. According to prosecutors' filing, Hearn allegedly ripped at sealant at the pool's bottom, though Hearn told the Associated Press he touched a chunk of pool liner that was still attached and released it after a worker told him to stop, saying he was \"a curious citizen.\"",
+    "In a filing Friday afternoon, a supervisor in the U.S. Attorney's Office for the District of Columbia wrote that officials had obtained information that \"undermined the evidentiary basis for the indictment,\" per NBC News. That information came from the Interior Department in documents provided after the indictment was returned. The documents indicated that damage to the pool in June 2026 was \"the result of flawed installation by the contractor, Atlantic Industrial Coatings (AIC), and the rush to complete the project prior to events associated with the America 250 celebration in the weeks surrounding Independence Day 2026,\" according to NPR's reporting.",
+    "The Justice Department's own filing stated: \"Had [the Interior Department] been forthcoming with the information clearly in its possession, the government would not have sought a grand jury indictment.\" At the time prosecutors presented the case to the grand jury, DOJ said it \"was not in possession of any information from DOI indicating that any damage to the Reflecting Pool was caused by anything other than the actions of the defendant and other vandals.\" Based on its later review, the filing continued, \"it is difficult to attribute the widespread damage to the Reflecting Pool to vandalism, let alone to establish that fact beyond a reasonable doubt,\" per NBC News.",
+    "Internal documents provided by the Interior Department described a rushed installation process, with frequent setbacks due to weather and damage reports while material was still being applied, per CBS News. One particular challenge was the installation of sealant around the expansion joints, or gaps in the pool's concrete bed. The peeling that factored into Hearn's case came from sealant sprayed around those joints. A National Park Service employee noticed sealant peeling and sent an email to colleagues just days after the pool was refilled, more than a week before Hearn was arrested, according to CBS News.",
+    "The narrative around the pool's damage had come directly from President Trump. Trump blamed vandals for the issues after announcing a plan to coat the bottom with \"American flag blue\" ahead of America's 250th birthday. He made repeated claims about vandals cutting 350-foot slits into the pool, saying at different times they used a knife, a box cutter, and a razor, and he called them \"thugs,\" \"sick,\" and \"terrible,\" per NBC News. The pool was drained in early July, and Trump said the draining was necessary \"to fix the scars and damage that was done by the Vandals.\"",
+    "Hearn's attorney Steven Levin stated: \"The Government's case against Davey Hearn should never have been brought. Its dismissal today does not erase the abuse of government power in arresting and charging a patriotic American. The government's approach was ready, shoot, aim. The federal government owes Mr. Hearn an apology.\" The U.S. Attorney's Office, headed by Jeanine Pirro, had initially maintained Hearn's actions were deliberate, with Pirro saying: \"This was a deliberate act to damage the reflecting pool at the National Mall that members of the National Park Service actually have worked hard to restore and have witnessed.\"",
+    "The case also exposed procedural problems. A key witness initially was unable to represent to the grand jury that the damage would have cost more than $1,000, the threshold needed to bring a felony case. Additionally, Assistant U.S. Attorney Kevin Reddington, a rookie federal prosecutor, accused Hearn's defense attorneys of violating grand jury secrecy rules, but the rules he cited applied to government attorneys, not defense attorneys, per NBC News. Hearn's lawyers separately argued that the pool being drained spoiled evidence used to prosecute Hearn, leading a judge to warn the government was \"operating at its own peril,\" according to CBS News.",
+    "The U.S. Attorney's Office moved to dismiss at least one of three other misdemeanor cases connected to the pool. The Reflecting Pool, built in the 1920s, has a long history of leaks, faulty filtration, and algae blooms that prior renovation efforts failed to fix. Trump told reporters in April he was disturbed by the pool's \"terrible\" condition. The government awarded no-bid contracts to Atlantic Industrial Coatings for sealant application and to Green Water Solutions, a company owned by a Trump donor, for water filtration systems, per CBS News. The project faced several setbacks and cost grew considerably beyond Trump's original estimates."
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/news/us-news/trump-administration-drops-reflecting-pool-case-blaming-damage-botched-rcna590303"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/doj-dismiss-david-hearn-reflecting-pool-vandalism-charges/"
+    },
+    {
+      "title": "NPR",
+      "url": "https://www.npr.org/2026/07/31/nx-s1-5915828/reflecting-pool-david-hearn-dismiss"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/regulation/court-battles/6003212-doj-drops-lincoln-memorial-reflecting-pool-case/"
+    },
+    {
+      "title": "Fox News",
+      "url": "https://www.foxnews.com/sports/prosecutors-move-dismiss-felony-vandalism-case-olympian-david-hearn-reflecting-pools"
+    }
+  ],
+  "event_utc": "2026-07-31T21:55:16Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-01T01:09:44Z",
+    "sources_cited": 5,
+    "sources_live_checked": 3
+  }
+}
