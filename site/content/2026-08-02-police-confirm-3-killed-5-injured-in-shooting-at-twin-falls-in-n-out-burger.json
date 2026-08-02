@@ -1,0 +1,63 @@
+{
+  "id": "c204",
+  "slug": "police-confirm-3-killed-5-injured-in-shooting-at-twin-falls-in-n-out-burger",
+  "kind": "brief",
+  "title": "Police confirm 3 killed, 5 injured in shooting at Twin Falls In-N-Out Burger",
+  "dek": "Three people were killed and five injured in a shooting outside an In-N-Out Burger in Twin Falls, Idaho on Saturday afternoon. The suspected shooter is also dead. Police say there is no longer a threat to the community.",
+  "date": "2026-08-02",
+  "published_utc": "2026-08-02T16:32:05Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 1,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Three people were killed and five injured in a shooting outside an In-N-Out Burger on Blue Lakes Boulevard in Twin Falls, Idaho on Saturday at 2:29 p.m., according to ABC News.",
+  "bottom_line": "Investigators are continuing to establish the shooter's identity and motive. The identities of those killed, other than the confirmation that an In-N-Out employee was among the victims, have not been released. How quickly authorities can determine whether the shooting was targeted or random will shape the next phase of the investigation and public disclosure.",
+  "human_take": "",
+  "body": [
+    "Three people were killed and five injured in a shooting outside an In-N-Out Burger restaurant in Twin Falls, Idaho on Saturday afternoon, according to ABC News. The suspected shooter is also dead, though police have not clarified whether the alleged perpetrator is among the three confirmed fatalities.",
+    "Police responded to a call for shots fired at 2:29 p.m. at the restaurant on Blue Lakes Boulevard, which sits near a busy shopping area with potentially hundreds of people nearby. An employee of In-N-Out was among those shot and killed. Multiple people were transported to St. Luke's Magic Valley Medical Center.",
+    "A large police presence from multiple agencies descended on the scene. The area around the In-N-Out and the Twin Falls Visitor Center remained closed on Saturday evening as authorities processed the scene and interviewed witnesses. Police asked anyone with information to come forward.",
+    "The motive for the shooting remains under investigation, per ABC News. The suspected shooter's name has not been released. The full extent and nature of the five injuries have not been disclosed.",
+    "Police said they believe there is no longer any threat to the community. The FBI said it was aware of the situation and offering assistance to local law enforcement. Idaho Gov. Brad Little asked for prayers as law enforcement and first responders responded to the incident.",
+    "In a statement, Lynsi Snyder, president of In-N-Out, said the company would be mourning with the families and praying for them. Twin Falls is a city of more than 56,000 people about 128 miles southeast of Boise."
+  ],
+  "sources": [
+    {
+      "title": "abcnews.com",
+      "url": "https://abcnews.com/US/police-respond-active-shooter-idaho-burger/story?id=135296367"
+    }
+  ],
+  "event_utc": "2026-08-02T14:05:52Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-02T16:32:05Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "also_reported_by": [
+    {
+      "outlet": "ABC News",
+      "headline": "Police confirm 3 fatalities, 5 injuries after shooting at Idaho In-N-Out Burger - ABC News - Breaking News, Latest News and Videos"
+    },
+    {
+      "outlet": "CBS News",
+      "headline": "Several people killed in shooting at In-N-Out restaurant in Twin Falls, Idaho, officials say - CBS News"
+    },
+    {
+      "outlet": "Idaho Capital Sun",
+      "headline": "3 dead, 2 injured in Twin Falls In-N-Out shooting - Idaho Capital Sun"
+    },
+    {
+      "outlet": "ABC7 Los Angeles",
+      "headline": "Suspected gunman dead, multiple injuries and deaths, including In-N-Out employee, reported after Twin Falls, Idaho shooting - ABC7 Los Angeles"
+    },
+    {
+      "outlet": "Boise State Public Radio",
+      "headline": "3 dead, 2 injured in Twin Falls In-N-Out shooting - Boise State Public Radio"
+    },
+    {
+      "outlet": "KBOI",
+      "headline": "Three people dead, suspect dead in shooting at Twin Falls In-N-Out: Police - KBOI"
+    }
+  ]
+}

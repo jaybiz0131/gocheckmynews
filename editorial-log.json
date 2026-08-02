@@ -4038,5 +4038,46 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-02",
+  "approved": 4,
+  "rejected": [
+   {
+    "id": "c001",
+    "headline": "Spokane residents flee three major wildfires under Level 3 evacuation orders",
+    "category": "compliance",
+    "reasons": [
+     "boundary_required is true but boundary_ok is false; the draft includes evacuation guidance ('Leave NOW! This may be your only notice.') and directs readers to check local authorities for 'real-time updates on evacuation zones and shelter capacity' without linking to an official advisory URL. The brief itself flags that the advisory_url is unavailable and not fetched from a primary source. Per desk liability rules, evacuation orders and public safety directives must link to official sources; secondary reporting is insufficient. The bottom_line compounds this by instructing user action ('check Spokane County emergency management') without providing the actual URL to those resources."
+    ]
+   },
+   {
+    "id": "c105",
+    "headline": "Trump reverses Iran strike decision after Gulf allies press for negotiations",
+    "category": "accuracy",
+    "reasons": [
+     "The brief explicitly notes that 'The source text from the Google News URL is inaccessible (returns only CSS/markup); the Wall Street Journal article text itself is not included in the fetched source_texts\u2014only the headline and snippet survive.' The draft makes specific factual claims ('The specific Gulf states that pressed Trump, the substance of their appeals, and details of Iran's signaling and proposed framework remain unclear') that acknowledge gaps, but the core factual claims in the opening paragraph\u2014'The president called off a planned attack on Iran late Saturday after Gulf states urged restraint' and 'Tehran has signaled openness to a new plan to reopen the Strait of Hormuz'\u2014rest on sources that were not fully fetched and verified. The hard rule is: no fact exists outside the brief. Here, the brief's own data_points rest on inaccessible source material. The draft cannot be approved when the underlying sources have not been retrieved."
+    ]
+   },
+   {
+    "id": "c222",
+    "headline": "ICE detentions reached record high in July as enforcement crackdown widens",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Two American citizens, Renee Good and Alex Pretti, were killed by federal agents during an enforcement blitz in Minneapolis.' The brief data_point says 'Two American citizens, Renee Good and Alex Pretti, were killed by federal agents during an enforcement blitz in Minneapolis' with confidence 'reported'. However, this is presented without the critical hedge that these are named private individuals in a fatal incident. The draft does not establish that Good and Pretti were public figures or acting in official capacity, and no investigation status or official charges/findings are cited. The draft presents their deaths as fact without attribution to preliminary findings or investigation status, creating liability around an ongoing case involving civilian deaths."
+    ]
+   },
+   {
+    "id": "c097",
+    "headline": "Dodgers Acquire Two-Time Cy Young Winner Skubal From Tigers",
+    "category": "accuracy",
+    "reasons": [
+     "Draft states Skubal 'underwent arthroscopic elbow surgery in May after making seven starts' but does not cite this to the brief's data_points. The brief contains a data_point specifying 'Skubal had a minimally invasive surgery on May 6 to remove a loose body from his pitching elbow and returned to pitch on June 13' \u2014 the draft's paraphrase omits the specific date (May 6) and return date (June 13) that are in the sourced record, and uses 'arthroscopic' where the source says 'minimally invasive.' This is a subtle divergence but the hard rule is that facts trace exactly to the brief's data_points.",
+     "Draft states 'Skubal will not be eligible to receive a qualifying offer from the Dodgers' as a standalone assertion in the final paragraph. This claim appears in the brief's data_points but is presented without the conditional reasoning. The brief says 'because the trade occurred during the season, he will not be eligible' \u2014 the draft drops the causal clause, making the statement appear as bare fact rather than rule-dependent.",
+     "Draft references 'bookmakers' extending 'the Dodgers' favorite status to become the first team to three-peat since the New York Yankees from 1998-2000' but the brief's data_point states 'The Dodgers were already the favorites to become the first team to three-peat since the New York Yankees from 1998-2000 before adding Skubal.' The draft's phrasing ('has led bookmakers to extend') suggests the Skubal trade changed the odds; the brief says they were favorites before. This misrepresents the temporal relationship in the source.",
+     "Draft includes 'The Tigers entered the season with plans to contend after signing two-time All-Star pitcher Framber Valdez to a $115 million, three-year contract and retaining three-time All-Star infielder Gleyber Torres with a $22 million deal' \u2014 these facts are in the brief's data_points but the draft does not distinguish between what was signed in the offseason (Valdez) vs. what was retained (Torres), creating ambiguity about whether Torres was also a free-agent signing in the same cohort. The brief's data_points separate these two moves but the draft conflates the action."
+    ]
+   }
+  ]
  }
 ]

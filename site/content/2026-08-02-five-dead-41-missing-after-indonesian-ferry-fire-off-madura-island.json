@@ -1,0 +1,61 @@
+{
+  "id": "c018",
+  "slug": "five-dead-41-missing-after-indonesian-ferry-fire-off-madura-island",
+  "kind": "brief",
+  "title": "Five dead, 41 missing after Indonesian ferry fire off Madura island",
+  "dek": "The ferry KMP Mutiara Sentosa 2, carrying at least 250 people en route from Surabaya to Makassar, caught fire off Madura island early Saturday. Five have been confirmed dead and 41 are missing. The cause of the fire remains unknown and rescue operations are ongoing.",
+  "date": "2026-08-02",
+  "published_utc": "2026-08-02T16:32:05Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 5,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Five people confirmed dead and 41 missing after the Indonesian ferry KMP Mutiara Sentosa 2 caught fire while carrying at least 250 people off Madura island.",
+  "bottom_line": "With five dead and 41 still unaccounted for, the final toll and full rescue accounting remain incomplete. The cause of the fire has not been identified. Watch for updates on missing persons accounting, investigation findings into the fire's origin, and any statements on the vessel's maintenance and safety certifications.",
+  "human_take": "",
+  "body": [
+    "The Indonesian ferry KMP Mutiara Sentosa 2 caught fire while carrying at least 250 people en route from Surabaya in East Java to Makassar in South Sulawesi, leaving five people confirmed dead and 41 missing as of Saturday. The vessel was almost entirely engulfed in flames off Madura island when rescue operations began.",
+    "The captain reported the fire to Indonesia's National Search and Rescue Agency (Basarnas) at approximately 08:24 local time (02:24 GMT). According to the shipping company, the fire had already begun around 06:00 to 07:00 local time (00:00 to 01:00 GMT), meaning there was a delay of roughly two to two-and-a-half hours between when the fire started and when authorities received notification.",
+    "Passengers who survived the initial blaze held on in the ship's bridge and bow while awaiting rescue. Basarnas confirmed the ferry was engulfed in flames when rescue personnel arrived on scene. The cause of the fire remains unclear and has not been disclosed by authorities or the shipping company.",
+    "The incident marks a significant maritime emergency in one of the world's busiest shipping regions. Indonesia operates thousands of domestic ferries serving populations across its archipelago of more than 17,000 islands."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c74g0wjvlrxo?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "event_utc": "2026-08-02T11:49:40Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-02T16:32:05Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "also_reported_by": [
+    {
+      "outlet": "Reuters",
+      "headline": "Five dead, 41 missing after Indonesian ferry catches fire, authorities say - Reuters"
+    },
+    {
+      "outlet": "ABC News &amp; Headlines",
+      "headline": "Five dead, 41 missing after Indonesian ferry catches fire, authorities say - ABC News &amp; Headlines \u2013 Australian Broadcasting Corporation"
+    },
+    {
+      "outlet": "The Straits Times",
+      "headline": "Five dead, 41 missing after Indonesian ferry catches fire - The Straits Times"
+    },
+    {
+      "outlet": "ANI News",
+      "headline": "Five dead, 41 missing after Indonesian ferry catches fire - ANI News"
+    },
+    {
+      "outlet": "The New Indian Express",
+      "headline": "Five dead, 41 missing as ferry catches fire near Madura Island in Java Sea - The New Indian Express"
+    },
+    {
+      "outlet": "The Economic Times",
+      "headline": "Five killed, 41 missing after Indonesian ferry blaze: Authorities - The Economic Times"
+    }
+  ]
+}

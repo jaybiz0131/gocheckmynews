@@ -1,0 +1,68 @@
+{
+  "id": "c016",
+  "slug": "israeli-strikes-kill-at-least-13-in-gaza-days-after-hamas-accepts-disarmament-plan",
+  "kind": "brief",
+  "title": "Israeli strikes kill at least 13 in Gaza days after Hamas accepts disarmament plan",
+  "dek": "Israeli military aircraft struck Gaza City, Khan Younis, and Deir el-Balah, killing at least 13 people according to Palestinian officials, in the second successive night of attacks. The strikes occur days after Hamas accepted a disarmament agreement that would see the group hand over weapons to the Board of Peace. Israeli officials have expressed skepticism about the agreement's viability.",
+  "date": "2026-08-02",
+  "published_utc": "2026-08-02T16:32:05Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 4,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "At least 13 people, including several children, were killed in Israeli strikes across three Gaza locations days after Hamas accepted a disarmament plan requiring the group to surrender its weapons.",
+  "bottom_line": "The disarmament roadmap makes Israeli troop withdrawal and Hamas weapons surrender mutually conditional, yet Israeli officials continue military operations and publicly reject key elements of the agreement. Watch whether the Palestinian National Committee enters Gaza and whether Israel halts strikes long enough for the inventory process to begin, either of which would signal whether the framework survives contact with the parties' competing interests.",
+  "human_take": "",
+  "body": [
+    "Israeli military aircraft carried out strikes across Gaza City, Khan Younis, and Deir el-Balah on consecutive nights, killing at least 13 people according to Palestinian officials, in the second successive night of attacks. The strikes target a territory where a disarmament agreement was announced just days earlier, exposing deep fractures in a U.S.-brokered peace framework.",
+    "The latest operation comes after Hamas formally accepted a disarmament plan that would require the Palestinian group to hand over its weapons to the Board of Peace, a body established under President Trump's 20-point plan unveiled in September. On Friday, Trump stated Israel was \"very happy\" with the proposed agreement, calling it a \"big step for the Middle East.\" A 15-point implementation roadmap was published Friday, setting out final steps for the accord, including a process to \"inventory and store heavy weapons, military production sites, weapons depots, and tunnels.\"",
+    "Palestinian health officials reported specific casualties from the strikes. Two people, including a child, were killed in a strike on a residential building in Gaza City. A father, mother, and their nine-year-old son were killed after a strike on a house in Khan Younis. A man and woman died after their apartment block was struck in Deir el-Balah. Another person was killed near Jabalia in northern Gaza. The Israeli Defense Forces posted on X that it had killed two Hamas commanders, one from the elite Nukbha force and one from the Maghazi Battalion, saying all three militants, including one killed in a separate attack last week from the Jabalia Battalion, were planning to attack Israeli targets.",
+    "Israel's military conduct stands in direct tension with the disarmament agreement. An IDF spokesperson said the force was targeting military operatives and that two Hamas militants were killed in the latest strikes. However, Israeli Energy Minister Eli Cohen stated on Sunday that no deal had been reached to stop attacks on the Gaza Strip, and said he saw a need for the strip to be placed under full Israeli control if Hamas did not disarm, a position that directly contradicts the Board of Peace plan's requirement that Israeli troops withdraw from Gaza following disarmament. National Security Minister Itamar Ben Gvir dismissed the draft agreement as \"not acceptable.\"",
+    "Under the roadmap, weapons inventory and storage are conditional on Israel meeting its commitments under the initial ceasefire agreement that took effect in October. The weapons would be managed by the Palestinian National Committee, a group of independent technocrats to which Hamas has agreed to hand over power. The committee has so far been working from Cairo and has not entered Gaza.",
+    "Since the ceasefire came into effect last October, more than 1,100 Palestinians have been killed, per BBC reporting. Israel has destroyed more than 1,500 buildings in areas of Gaza that have remained under its control since the ceasefire, according to satellite imagery reviewed by BBC Verify last November. UN estimates place the total debris generated since October 2023 at around 60 million tonnes.",
+    "Hamas has governed the Gaza Strip since 2007. The group's stated agreement to disarmament marks a significant departure from its two-decade hold on power in the territory, contingent on Israel's parallel withdrawal and the handover of civilian governance to the Palestinian National Committee."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/czjlvvkzj20o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOYnJVdkpTQWxaM3NiTVIwUVMxWGQ0eUNVMVlmbWRINnBHdDFrRWU5R3JicVFDOUs4d2dXdEVPcVNSTTIzUGo2RklobDM4RTFzY0hBeUlZQ2lOTEd1QXJuTjJFTGJqZXFMS0lRYnJsdThjeHB4TTFVMWlxUGp4aXJHWGlSU3dCVWhXTEswd0daQS05bE05MGwxaTA0TzBDejFEVHBj?oc=5"
+    }
+  ],
+  "event_utc": "2026-08-02T15:50:59Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-02T16:32:05Z",
+    "sources_cited": 2,
+    "sources_live_checked": 2
+  },
+  "also_reported_by": [
+    {
+      "outlet": "ABC News &amp; Headlines",
+      "headline": "Israeli air strike kills top Hamas official in Gaza, Wael El-Ledawi - ABC News &amp; Headlines \u2013 Australian Broadcasting Corporation"
+    },
+    {
+      "outlet": "The Times of Israel",
+      "headline": "UNRWA fires 70 Gaza staffers amid Israeli accusations agency riddled with Hamas operatives - The Times of Israel"
+    },
+    {
+      "outlet": "PBS",
+      "headline": "What's in the proposed deal to disarm Hamas and withdraw Israeli forces from Gaza - PBS"
+    },
+    {
+      "outlet": "Los Angeles Times",
+      "headline": "Palestinians in Gaza hope Hamas will disarm but fear Israeli forces won\u2019t withdraw - Los Angeles Times"
+    },
+    {
+      "outlet": "CBC",
+      "headline": "Trump touts Gaza peace deal, though Hamas and Israeli officials see hurdles - CBC"
+    },
+    {
+      "outlet": "Le Monde.fr",
+      "headline": "Israeli army strikes mosque in Gaza, claims it served as Hamas weapons depot - Le Monde.fr"
+    }
+  ]
+}
