@@ -1,0 +1,58 @@
+{
+  "id": "wrap-am-2026-08-02",
+  "slug": "morning-brief-2026-08-02",
+  "kind": "brief",
+  "title": "The Morning Brief: Record water cuts, cyberattacks, and escalating crises across continents",
+  "dek": "The federal government proposed the largest Colorado River water cuts in history for three western states, while investigators examined unconfirmed Iranian links to cyberattacks on water systems across seven states. Global crises intensified: the DR Congo's Ebola outbreak became the deadliest on record, Russian missiles killed nine in Kyiv amid constraints on Ukrainian air defense, and a tourist plane crashed near Peru's Nazca Lines.",
+  "date": "2026-08-02",
+  "published_utc": "2026-08-02T01:16:34Z",
+  "category": "daily edition",
+  "rank": -1,
+  "author": "GoCheckMyNews",
+  "key_fact": "The morning's news reveals converging resource and security pressures: water scarcity in the West, critical infrastructure vulnerability to cyber threats, disease outbreaks without approved treatments, and intensifying military conflict amid shifting supply constraints.",
+  "bottom_line": "Friday and Saturday brought cascading crises across water security, critical infrastructure vulnerability, infectious disease, military conflict, and aviation safety. The Colorado River cuts and water-system cyberattacks converge on a single resource under strain; the Ebola outbreak advances without approved medical countermeasures; Russian escalation in Kyiv collides with Ukrainian constraints on air defense supplies; and unrelated accidents claimed lives at high altitude and over Peru. The coming days will test whether the Trump administration changes course on Patriot authorization, whether Iranian attribution holds or shifts, whether the Colorado River states accept the federal proposal, and whether outbreak response gains ground against the Bundibugyo strain.",
+  "human_take": "",
+  "body": [
+    "The U.S. Bureau of Reclamation announced Friday a proposal requiring California, Arizona, and Nevada to collectively reduce Colorado River water use by up to 3 million acre-feet through 2036, the largest cuts imposed on Lower Basin states to date. The three million acre-feet equals roughly enough water to serve more than 25 million people annually. The Upper Basin states of Colorado, Utah, New Mexico, and Wyoming would face no mandatory cuts under the proposal. The cuts come after years of deadlocked negotiations over managing an increasingly depleted resource.",
+    "Federal investigators are examining whether Iranian actors were behind cyberattacks affecting water system technology in at least seven states this week. More than 30 community water systems in Minnesota were affected. Investigators have not definitively attributed the activity to Iran and are openly considering whether the actor could have attempted to appear Iran-based as a false-flag scenario. President Trump disputed the Iranian attribution, while Governor Tim Walz blamed federal cybersecurity cuts. No water supply has been reported compromised as of reporting.",
+    "The Justice Department dropped its felony destruction-of-property charge against David Hearn, a 67-year-old canoeist, on July 31 after prosecutors concluded they lacked evidence to proceed. The reversal came less than four weeks after his indictment. Federal prosecutors admitted the Interior Department withheld information before the indictment that showed damage to the Lincoln Memorial Reflecting Pool resulted from contractor Atlantic Industrial Coatings' flawed installation and rushed work schedule, not vandalism. Hearn had been arrested after a $14 million Trump-backed renovation project failed.",
+    "The Ebola outbreak in the Democratic Republic of Congo has become the deadliest in the country's history, with 3,605 confirmed cases and 1,587 deaths as of July 30, exceeding the 2018-2020 outbreak. The Bundibugyo strain has no approved vaccine or treatment. The WHO reports the outbreak is intensifying amid armed conflict and displacement that hamper containment.",
+    "Russian ballistic missile strikes on Kyiv killed at least nine people Saturday, with dozens injured across multiple districts. More than 10 explosions were reported in the capital. The strikes came as Ukraine's air defense remains constrained by limited Patriot interceptor supplies and the Trump administration's reluctance to authorize Patriot production. Ukraine also sank the sanctioned container ship Yanina in the Black Sea with drones.",
+    "Nirmal Purja, a 43-year-old British-Nepali mountaineer known for summiting all 14 eight-thousanders in 189 days, was killed Thursday in an avalanche on Broad Peak in Pakistan's Karakoram range. Nine other climbers also died in the incident. Broad Peak is the world's 12th-highest summit.",
+    "A Cessna Caravan C-208 carrying tourists to view Peru's Nazca Lines crashed Saturday afternoon with no survivors. All 11 passengers and two pilots on board were killed. The aircraft was operated by Peruvian airline Aerodiana and departed from Pisco. The passengers included tourists from Germany, Spain, and Italy."
+  ],
+  "sources": [
+    {
+      "title": "Federal Government Proposes Record Colorado River Water Cuts for California, Arizona, Nevada",
+      "url": "/articles/federal-government-proposes-record-colorado-river-water-cuts-for-california-arizona-nevada.html"
+    },
+    {
+      "title": "US investigators probe Iranian link to cyberattacks on water systems in seven states",
+      "url": "/articles/us-investigators-probe-iranian-link-to-cyberattacks-on-water-systems-in-seven-states.html"
+    },
+    {
+      "title": "DOJ drops felony case against canoeist Hearn, cites contractor fault in pool damage",
+      "url": "/articles/doj-drops-felony-case-against-canoeist-hearn-cites-contractor-fault-in-pool-damage.html"
+    },
+    {
+      "title": "DR Congo Ebola outbreak deadliest on record, WHO confirms",
+      "url": "/articles/dr-congo-ebola-outbreak-deadliest-on-record-who-confirms.html"
+    },
+    {
+      "title": "FIFA cancels plan to sell World Cup stakes to private equity investors",
+      "url": "/articles/fifa-cancels-plan-to-sell-world-cup-stakes-to-private-equity-investors.html"
+    },
+    {
+      "title": "Nirmal Purja, Record-Holding Mountaineer, Killed in Broad Peak Avalanche",
+      "url": "/articles/nirmal-purja-record-holding-mountaineer-killed-in-broad-peak-avalanche.html"
+    },
+    {
+      "title": "Russian Missile Strikes Kill Nine in Kyiv as Trump Administration Withholds Patriot Approval",
+      "url": "/articles/russian-missile-strikes-kill-nine-in-kyiv-as-trump-administration-withholds-patriot-approval.html"
+    },
+    {
+      "title": "Tourist plane crashes near Nazca Lines in Peru, all 13 on board killed",
+      "url": "/articles/tourist-plane-crashes-near-nazca-lines-in-peru-all-13-on-board-killed.html"
+    }
+  ]
+}

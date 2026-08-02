@@ -1,0 +1,62 @@
+{
+  "id": "c022",
+  "slug": "tourist-plane-crashes-near-nazca-lines-in-peru-all-13-on-board-killed",
+  "kind": "brief",
+  "title": "Tourist plane crashes near Nazca Lines in Peru, all 13 on board killed",
+  "dek": "A Cessna Caravan C-208 carrying sightseers to the Nazca Lines archaeological site crashed in southern Peru on August 2, 2026, killing all 13 people on board. The aircraft was operated by Peruvian airline Aerodiana. The cause remains under investigation.",
+  "date": "2026-08-02",
+  "published_utc": "2026-08-02T01:11:28Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 4,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "All 13 people on a tourist plane departing from Pisco, Peru were killed when the aircraft crashed near the Nazca Lines on August 2, 2026.",
+  "bottom_line": "The crash marks the third fatal aviation incident at or near the Nazca Lines in 16 years, though no pattern or systemic cause has been established. Investigators will determine whether mechanical failure, pilot error, weather, or other factors caused the aircraft to go down.",
+  "human_take": "",
+  "body": [
+    "A small aircraft carrying tourists to view Peru's Nazca Lines archaeological site crashed Saturday afternoon with no survivors, according to BBC reporting. The Cessna Caravan C-208, operated by Peruvian airline Aerodiana, went down around 13:00 local time in the Pueblo Viejo region after departing from an airport in Pisco. All 11 passengers and two pilots on board were killed.",
+    "The passengers included two German tourists, two Spanish tourists, and seven Italian tourists, per reporting from Peru's state news agency cited by BBC. Police Major Jorge Andrade told AFP, as reported by BBC, that four bodies had been recovered at the time of the initial statement, adding, \"Given the severity of the accident, there are no survivors.\"",
+    "Aerodiana said in a statement, according to Reuters reporting cited by BBC, that it would \"assess its flight schedule in accordance with the directives of the relevant authorities.\" The cause of the crash has not been determined.",
+    "Tourists regularly fly in small aircraft over the Nazca Lines, a UNESCO World Heritage site in southern Peru featuring ancient drawings of animals etched into the desert sand, to view the extent of the artwork from above. The site has been the location of previous fatal aviation incidents: in 2022, another small tourist plane crashed during a flight over the site, killing seven people on board, per BBC reporting. In 2010, a tourist plane went down over the Nazca Lines, killing six people, according to the same source.",
+    "Recovery efforts were ongoing at the time of initial reports, with four of the 13 bodies recovered. The investigation into the cause of the crash has not yet begun in earnest."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c70g132erlko?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "event_utc": "2026-08-02T00:29:55Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-02T01:11:28Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "also_reported_by": [
+    {
+      "outlet": "The Guardian",
+      "headline": "Tourist plane crashes during flight over Peru\u2019s Nazca Lines, killing 13 - The Guardian"
+    },
+    {
+      "outlet": "NBC News",
+      "headline": "13 die in tourist plane crash over Peru\u2019s Nazca Lines - NBC News"
+    },
+    {
+      "outlet": "Al Jazeera",
+      "headline": "Police say 13 killed as small plane viewing Nazca Lines in Peru crashes - Al Jazeera"
+    },
+    {
+      "outlet": "South China Morning Post",
+      "headline": "Tourist plane crashes in Peru, killing 13 people on sightseeing flight - South China Morning Post"
+    },
+    {
+      "outlet": "EFE",
+      "headline": "13 dead in Peru tourist plane crash over Nazca Lines - EFE - Agencia de noticias"
+    },
+    {
+      "outlet": "Yahoo News Canada",
+      "headline": "Tourist plane crashes in Peru, killing 13 - Yahoo News Canada"
+    }
+  ]
+}

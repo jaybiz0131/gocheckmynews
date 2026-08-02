@@ -3978,5 +3978,65 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-02",
+  "approved": 2,
+  "rejected": [
+   {
+    "id": "c184",
+    "headline": "State Department Urges Americans to Consider Leaving Middle East as Conflict Escalates",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Washington and Tehran have engaged in escalating strikes and counter-strikes since a ceasefire in April aimed at pausing the war fell apart in June.' However, the brief's data_points describe 'a brief reprieve from fighting in June when the U.S. and Iran signed a memorandum of understanding outlining the process for talks to end the war' and 'In early July, Trump declared a ceasefire to be over.' The draft's claim about a ceasefire in April does not appear in the brief's sourced data_points and appears to be SMUGGLED information.",
+     "The draft claims 'The U.S. and Israel began launching their strikes against Iran on February 28,' but this date does not align with the timeline described in the brief's data_points, which reference June ceasefire attempts and July resumption. This specific date (February 28) is not verified in the brief's data_points.",
+     "The bottom_line references 'a reported planned bombing campaign targeting Iranian energy infrastructure' as something to 'watch for,' but the brief's corresponding data_point marks this as 'unconfirmed' (\"The U.S. and Israel were planning what would be one of the harshest bombing campaigns to date against energy infrastructure targets in Iran, according to multiple sources who spoke to CBS News.\"). The draft should flag this as unconfirmed rather than present it as an established fact to monitor."
+    ]
+   },
+   {
+    "id": "c086",
+    "headline": "Three Dead and At Least Two Injured in Shooting at Twin Falls In-N-Out Burger",
+    "category": "compliance",
+    "reasons": [
+     "The draft header indicates 'boundary_required: true' and 'boundary_ok: false' with the reason 'this story turns on a version, date range or threshold but the brief carries no boundary block.' The draft should not have been submitted without a completed boundary block (affected/fixed/user_action/advisory_url) in both the draft and brief. A liability issue exists: this is an ongoing active investigation with preliminary casualty numbers, and the story lacks the required advisory structure to guide affected readers. The draft must include or be rejected until boundary information is provided."
+    ]
+   },
+   {
+    "id": "c021",
+    "headline": "Blast at Moscow restaurant kills at least three, detonation prevented at entrance",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'At least 21 people were injured in the blast, according to CBS News reporting of the National Anti-Terrorism Committee's statement.' However, the brief data point on the same claim cites CBS as the source but the brief also contains a separate data point from ABC News stating '15 injured' and another from BBC (the primary source) stating '21 injured.' The draft selectively attributes only the CBS figure without acknowledging the discrepancy or noting that initial reports differed. This is not a paraphrase problem\u2014it's a failure to trace the fact accurately to what the brief actually carries.",
+     "The draft states the device detonated 'before she could proceed' into the restaurant, but the brief's data point says 'a woman carrying the device attempted to enter the restaurant but was stopped by a security guard' followed by 'The device detonated before she could proceed.' This is technically traceable, but the draft's phrasing ('before she could proceed') could be read as 'before she could proceed further into the building' rather than the brief's meaning ('before she could proceed into the restaurant at all'). The sequence matters for liability: it suggests the guard's action and the detonation timing. The draft should be clearer."
+    ]
+   },
+   {
+    "id": "c017",
+    "headline": "Migrant surge into Spanish enclave fractures EU unity, emergency talks called",
+    "category": "balance",
+    "reasons": [
+     "The brief identifies significant bear_case material: S\u00e1nchez's claim that Spain 'fully restored control' in 48 hours, his assertion that Ceuta is not part of Schengen (making suspensions legally inappropriate), his accusation that other EU states acted from 'prejudice, fake news, ignorance, or political interest,' and his blame of traffickers for misrepresenting a court ruling. The draft includes these Spanish rebuttals but frames them as defensive reactions to criticism rather than presenting them as a substantive counter-narrative. The draft opens with the EU's accusatory framing ('fractures EU unity,' 'suspended,' 'raised travel advisory') and allows Spanish defenses into the story only after establishing the EU's critical frame. A balanced draft would present both the EU's concerns and Spain's counter-evidence with proportionate weight and voice, not subordinate the bear_case to the lead's hostile framing.",
+     "The draft's opening sentence\u2014'The European Union called emergency talks for Tuesday after roughly 60,000 migrants crossed from Morocco into Spain's Ceuta enclave in a 24-hour period on July 30, 2026'\u2014uses causal language ('after') that implies EU action was triggered by the surge itself, rather than by competing interpretations of whether Spain's border control failed. The bear_case supports reading this as a controlled situation that Spain contained; the draft does not allow that reading prominence until later. This is a framing bias, not an omission."
+    ]
+   },
+   {
+    "id": "c078",
+    "headline": "Iran Covertly Planned Strategy to Deter U.S. Military Action, New York Times Reports",
+    "category": "accuracy",
+    "reasons": [
+     "The New York Times source URL is stated to return 'only HTML markup and CSS styling code with no readable article text' in the brief's open_questions section. The draft presents facts from an unverifiable source as reportage ('The New York Times reports that Iran devised a covert plan'). No data_points exist in the brief to back the core claim; the entire story rests on a source that cannot be verified.",
+     "The brief explicitly notes 'The full reporting cannot be verified from the fetched source.' Publishing a story built entirely on unverifiable reporting violates the desk's hard rule that facts must trace to the research brief, and the brief itself cannot confirm the source contains the reported information."
+    ]
+   },
+   {
+    "id": "c183",
+    "headline": "Washington Governor Declares State of Emergency as Wildfires Burn Over 200,000 Acres",
+    "category": "accuracy",
+    "reasons": [
+     "The brief's open_questions note that 'The Washington Examiner source also returns primarily HTML markup rather than full article text; key details on evacuation zones, fire names, number of people evacuated, and specific timeline remain inaccessible.' The four data_points in the brief are marked 'reported' confidence from a source that cannot be verified in its full form.",
+     "The draft presents facts ('more than 200,000 acres burned in 12 large fires', 'Evacuations were ordered throughout Spokane County') as settled facts traced to the Washington Examiner, but the brief itself flags that the source is inaccessible. Per the hard rule, facts must trace to verifiable research; an unverifiable source\u2014even if attributed\u2014cannot anchor factual claims in a draft."
+    ]
+   }
+  ]
  }
 ]
