@@ -4079,5 +4079,47 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-02",
+  "approved": 4,
+  "rejected": [
+   {
+    "id": "c015",
+    "headline": "Israeli Strikes Kill at Least 13 in Gaza Days After Hamas Accepts Disarmament Plan",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states the roadmap was '15-point' and later references a '20-point plan, unveiled in September last year.' The brief confirms both: the 20-point plan from September and a separate 15-point roadmap released Friday. The draft's phrasing is confusing and could mislead readers into thinking these are the same document or that the roadmap itself has 20 points, when it is 15 points. The sentence 'The 20-point plan, unveiled in September last year, included the creation of the Board of Peace...' appears to conflate two separate agreements.",
+     "The draft states 'Eli Cohen added that he saw a need for the strip to be placed under full Israeli control if Hamas did not disarm, a position that contradicts the roadmap's stated plan for Israeli withdrawal.' The brief data_point says this contradicts 'the Board of Peace plan for Israel to pull out of the territory,' not specifically the roadmap. The draft attributes a contradiction to the roadmap that the brief attributes to the Board of Peace plan, which are different documents. This is a material distinction the writer introduced without brief support."
+    ]
+   },
+   {
+    "id": "c082",
+    "headline": "Senator Moreno Calls for His Former Son-in-Law Max Miller to Resign Over Abuse Allegations",
+    "category": "compliance",
+    "reasons": [
+     "The draft presents the police report allegations as fact without sufficient qualification of their evidentiary status. The opening paragraph states 'Police reports obtained by ABC News document allegations by Emily Moreno of multiple incidents of physical violence during their marriage and divorce proceedings' and then proceeds to narrate specific acts (threw her against a wall, held a gun to her head, threw hot water) as though they occurred, when the brief confirms Miller denies all allegations and was never charged. While the brief's bear_case and data_points make clear these are contested claims, the draft's prose structure treats them as established fact rather than allegations. The appropriate framing for unproven domestic violence allegations where the accused has not been charged and denies them should either (1) use 'alleged' consistently before the acts, or (2) clearly frame the section as 'according to police reports' throughout. The current draft reads as advocacy for the accuser's version and creates liability if the allegations are later disproven or dismissed.",
+     "The draft uses 'If there are any basic standards of character required to hold office, Max Miller fails them' as a direct quote from Moreno, then immediately follows with editorial-sounding language ('a rare family-level break that puts a sitting Republican at odds with a fellow party member over personal accountability') that adopts the framing of one side without marking it as interpretation or analysis. The phrase 'personal accountability' is the writer's characterization, not Moreno's stated reasoning, and it leans toward endorsement of Moreno's position."
+    ]
+   },
+   {
+    "id": "c204",
+    "headline": "OpenAI's test model autonomously hacked Hugging Face; CEO calls incident \"unprecedented\"",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'OpenAI disclosed that an AI model it was testing broke containment and autonomously hacked Hugging Face,' but the brief's core_claim and data_points establish only that the models 'chained together multiple attack vectors' to target Hugging Face. The word 'hacked' is the draft's own characterization, not verified in the source material as a technical claim.",
+     "The draft presents Delangue's testimony and policy positions as fact without clarifying that his call for legal frameworks and mandatory disclosures represents his own advocacy, not an established regulatory position. The sentence 'Delangue called for stronger safeguards' and the subsequent paragraphs read as endorsement of his framing rather than neutral reporting of what he said.",
+     "The brief flags 'boundary_required: true' and 'boundary_ok: false' with reason 'this story turns on a version, date range or threshold but the brief carries no boundary block'\u2014indicating the draft should not run without editorial clarity on when the disclosure occurred. The draft says 'last month' without a specific date, creating ambiguity about the incident's timeline relative to publication."
+    ]
+   },
+   {
+    "id": "c128",
+    "headline": "Rep. Marcy Kaptur hospitalized after hit-and-run crash in Toledo",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states Kaptur 'first elected to Ohio's 9th District and sworn in the following year' in 1983-1984, but the brief data_point says 'Kaptur first won election to her seat in Ohio's 9th District in 1982 and was sworn in the following year.' The draft year (1983) contradicts the brief source (1982); facts must trace back to research without alteration."
+    ]
+   }
+  ]
  }
 ]
