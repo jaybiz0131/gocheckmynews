@@ -4121,5 +4121,64 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-03",
+  "approved": 2,
+  "rejected": [
+   {
+    "id": "c011",
+    "headline": "Trump Calls Off Iran Strike, Says Nuclear Deal and Strait of Hormuz Agreement 'Imminent'",
+    "category": "balance",
+    "reasons": [
+     "The draft presents Iran's denial that it requested Trump to pause strikes ('nothing but a new lie') only in a single sentence buried in paragraph 5, while the main narrative frame accepts Trump's account as the lead fact. The bear_case item about Iran's denial should receive equal structural weight to Trump's claim, not subordinate treatment. The opening paragraphs read in Trump's voice without immediate counter-framing.",
+     "The draft does not adequately surface the pattern of broken diplomatic promises documented in the brief: 'The BBC reported that Trump has repeatedly vowed that a negotiated end to the war is near, only for tit-for-tat strikes to resume.' This appears only once, late in the piece, when it should frame reader skepticism from the start given the multiple bear_case items about Iran's defensive posture and lack of concrete terms.",
+     "The draft states facts about 'imminent' deals and 'final stages' negotiations without adequate hedge for the bear_case skepticism: no on-record agreement framework exists, no venue is confirmed, no participants are named, no deadline is set, and Iran disputes the negotiation setup itself. The framing reads as Trump's optimism rather than a report on contested claims."
+    ]
+   },
+   {
+    "id": "c054",
+    "headline": "Senate Leaders Reach Funding Deal Through December 11, Blocking White House Requests",
+    "category": "compliance",
+    "reasons": [
+     "The brief metadata flags 'boundary_required': true and 'boundary_ok': false with reason 'this story turns on a version, date range or threshold but the brief carries no boundary block.' The draft presents the December 11 funding date and the current spending levels as settled fact without any language acknowledging that these are announced-not-verified terms or that the final bill text has not been released. A spending deal at this stage typically requires House passage and presidential signature; the draft does not clarify the current status of those steps or whether the terms described are negotiated framework or enacted law.",
+     "The phrase 'Senate leaders have agreed on a short-term spending bill' reads as if the bill is finalized, but the brief's open_questions and the boundary flag indicate ambiguity about whether the deal is truly locked or still subject to revision. The draft should include a status hedge ('Senate leaders announced agreement on a bill' or 'proposed measure') until official enactment language is in the sources."
+    ]
+   },
+   {
+    "id": "c092",
+    "headline": "Republican senator calls for Max Miller to resign amid abuse allegations",
+    "category": "accuracy",
+    "reasons": [
+     "Draft states 'Moreno is Miller's ex father-in-law' but brief data_point says 'Max Miller is Moreno's ex son-in-law'\u2014these are inverse relationships. The draft has the relationship backward. If Moreno is Miller's ex father-in-law, then Miller is Moreno's ex son-in-law (confirmed in brief), not the other way around."
+    ]
+   },
+   {
+    "id": "c090",
+    "headline": "Health Secretary RFK Jr. urges measles vaccination amid 35-year outbreak high",
+    "category": "compliance",
+    "reasons": [
+     "Draft states 'Kennedy is a leading vaccination skeptic who has spent years amplifying misinformation about vaccines'\u2014this characterizes Kennedy's statements as misinformation in the desk's voice rather than as an attributed claim. The brief data_point says 'Kennedy has spent years amplifying misinformation' (reported/attributed to Guardian), but the draft presents 'misinformation' as fact rather than as the Guardian's characterization. This reads as the desk endorsing a contested characterization, which violates the no-advocacy/no-editorializing rule."
+    ]
+   },
+   {
+    "id": "c076",
+    "headline": "U.S. and Japan Confirm Coordinated Yen Stabilization Effort",
+    "category": "accuracy",
+    "reasons": [
+     "Brief states 'thin: true' and 'data_points: []' with no verified source content; the draft presents specifics about yen volatility, interest-rate differentials, and currency intervention mechanics that do not appear in the brief's data_points and cannot be traced to the unfetched source. The sentences 'The yen has been subject to significant volatility tied to interest-rate differentials between the U.S. and Japan and shifting expectations about monetary policy in both countries' and 'Currency intervention by major economies typically occurs when officials judge that market swings are disorderly or threaten broader economic stability' are not sourced in the brief and violate the hard rule that no fact exists outside the brief.",
+     "The brief's open_questions section explicitly notes 'No source text was fetched from the New York Times URL; the snippet alone confirms only that officials confirmed coordination last week but provides no specifics'; the draft treats the coordination as confirmed fact but the brief contains zero data_points to support any specifics about what was coordinated or confirmed."
+    ]
+   },
+   {
+    "id": "c215",
+    "headline": "Three Killed, Seven Wounded in Twin Falls In-N-Out Shooting",
+    "category": "accuracy",
+    "reasons": [
+     "The draft names 'Chad Williams, 24' as the gunman, states an 'off-duty state trooper and an armed civilian were present,' and claims 'Authorities have stated that the gunman acted alone, according to New York Times reporting.' The brief's data_points contain only one item: casualty counts marked 'reported' from CBS News. The identities, background, and lone-actor status are not present in the brief's verified data_points; the brief's open_questions section explicitly states 'The CBS News video source_text provided contains only HTML/CSS boilerplate and no actual reporting content; the New York Times source URL was not fetched, so details about Chad Williams, the off-duty trooper, the armed citizen, and the finding that he acted alone cannot be verified from the source texts.'",
+     "The draft presents Chad Williams's name, age, and identity as confirmed fact, but these facts do not appear in any data_point in the brief and the brief's own notes confirm the sources were not fetched or contained no reporting content. This violates the hard rule: no fact exists outside the brief."
+    ]
+   }
+  ]
  }
 ]

@@ -1,0 +1,73 @@
+{
+  "id": "c091",
+  "slug": "rep-marcy-kaptur-hospitalized-after-hit-and-run-crash-in-toledo",
+  "kind": "brief",
+  "title": "Rep. Marcy Kaptur hospitalized after hit-and-run crash in Toledo",
+  "dek": "Rep. Marcy Kaptur, an 80-year-old Democratic congresswoman from Ohio, was hospitalized with non-life-threatening injuries after a hit-and-run crash in Toledo on Sunday morning. She was a passenger traveling to a church service when the vehicle was struck. The Toledo Police Department said two people were transported to the hospital and the investigation is ongoing.",
+  "date": "2026-08-03",
+  "published_utc": "2026-08-03T01:11:41Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 4,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Kaptur, one of the longest-serving members of Congress who first won her seat in 1982, was struck while traveling to church in a competitive swing district she held by less than 1 percentage point in 2024.",
+  "bottom_line": "The police investigation into the hit-and-run remains open; the vehicle and driver have not yet been identified or apprehended based on available reporting. Kaptur's current discharge status and recovery timeline are not yet public.",
+  "human_take": "",
+  "body": [
+    "Rep. Marcy Kaptur, an 80-year-old Democratic congresswoman from Ohio, was hospitalized with non-life-threatening injuries following a hit-and-run crash Sunday morning in Toledo, according to NBC News. She was a passenger in a vehicle traveling to a church service when the car was struck, per her spokesperson Ben Kamens.",
+    "Two people were transported to the hospital after the hit-skip crash, according to Sgt. Mohamad Nasser, a spokesperson for the Toledo Police Department. Kaptur is active and alert, her office said. The police investigation was still ongoing as of Sunday evening.",
+    "Kaptur is one of the longest-serving members of Congress. She first won election to her seat in Ohio's 9th District in 1982 and was sworn in the following year, according to NBC News. Her district, which President Donald Trump won in 2020 and 2024, is routinely a top target for Republicans. She is running for re-election and won her 2024 race by less than 1 percentage point.",
+    "Members of Congress from both parties issued public statements of support. Rep. Andy Biggs, R-Ariz., wrote on X: \"I'm praying for my colleague @RepMarcyKaptur after her crash this morning. May she be restored to full health in short order.\" Rep. Dave Taylor, an Ohio Republican, said on X: \"My thoughts are with @RepMarcyKaptur after hearing the news of this morning's car crash in Toledo. Charity and I are wishing her a speedy recovery.\" Rep. Pramila Jayapal, D-Wash., wrote on X: \"This is so horrible. I'm sending well wishes and hopes for a speedy recovery to my friend, Rep. Marcy Kaptur, and I hope the person who did this is found quickly.\""
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/politics/congress/marcy-kaptur-hospitalized-hit-run-car-crash-rcna590481"
+    },
+    {
+      "title": "Washington Examiner",
+      "url": "https://www.washingtonexaminer.com/news/house/4672250/marcy-kaptur-hospitalized-car-crash-ohio/"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/homenews/house/6004482-rep-marcy-kaptur-hospitalized-hit-run/"
+    },
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/2026/aug/02/marcy-kaptur-congresswoman-hospital-car-crash"
+    }
+  ],
+  "event_utc": "2026-08-02T18:48:52Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-03T01:11:41Z",
+    "sources_cited": 4,
+    "sources_live_checked": 3
+  },
+  "also_reported_by": [
+    {
+      "outlet": "Toledo Blade",
+      "headline": "U.S. Rep. Marcy Kaptur \u2018active, alert\u2019 after crash; person involved at large - Toledo Blade"
+    },
+    {
+      "outlet": "CBS News",
+      "headline": "Ohio Rep. Marcy Kaptur hospitalized following car accident in Toledo, police say - CBS News"
+    },
+    {
+      "outlet": "The Columbus Dispatch",
+      "headline": "US Rep. Marcy Kaptur hospitalized after car crash - The Columbus Dispatch"
+    },
+    {
+      "outlet": "FOX 8 News",
+      "headline": "Ohio Congresswoman Marcy Kaptur involved in Toledo crash on her way to church - FOX 8 News"
+    },
+    {
+      "outlet": "AP News",
+      "headline": "Ohio Rep. Kaptur treated for non-life threatening injuries after a car accident in Toledo - AP News"
+    },
+    {
+      "outlet": "WLWT",
+      "headline": "Ohio Rep. Marcy Kaptur hospitalized after being involved in hit-skip crash - WLWT"
+    }
+  ]
+}
