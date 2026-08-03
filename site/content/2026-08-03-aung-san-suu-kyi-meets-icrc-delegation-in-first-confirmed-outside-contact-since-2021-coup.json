@@ -1,0 +1,63 @@
+{
+  "id": "c027",
+  "slug": "aung-san-suu-kyi-meets-icrc-delegation-in-first-confirmed-outside-contact-since-2021-coup",
+  "kind": "brief",
+  "title": "Aung San Suu Kyi meets ICRC delegation in first confirmed outside contact since 2021 coup",
+  "dek": "Myanmar's ousted democracy leader, held under house arrest since a military coup five years ago, met with an International Committee of the Red Cross delegation, marking her first confirmed outside contact in 2.5 years. Photographs released by the Myanmar military government show her appearing relaxed and well. Her son said the visit may be a first step toward her release.",
+  "date": "2026-08-03",
+  "published_utc": "2026-08-03T12:44:38Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 7,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Aung San Suu Kyi, 81, deposed leader of Myanmar, met with ICRC representatives led by Arnaud de Baecque, her first confirmed contact outside detention since a letter to her son 2.5 years ago.",
+  "bottom_line": "The ICRC visit breaks a 2.5-year silence on Suu Kyi's status but leaves unanswered what prompted the junta to allow it now and whether it signals a shift toward her release. Watch for statements from the ICRC or Myanmar's government on what the delegation learned, and whether future international visits are permitted.",
+  "human_take": "",
+  "body": [
+    "Myanmar's ousted democracy leader met with International Committee of the Red Cross representatives this week, marking her first confirmed contact outside detention in two and a half years and providing the first visual confirmation of her health since the military seized power in 2021.",
+    "Aung San Suu Kyi, 81, was deposed when Myanmar's armed forces overthrew her government in 2021. She was sentenced to 33 years in jail, according to BBC reporting; her sentence has since been reduced and she has been moved to house arrest. Her last confirmed outside contact before this week was a letter to her son, Kim Aris, sent 2.5 years ago.",
+    "The ICRC delegation, led by ICRC representative Arnaud de Baecque, met with Suu Kyi under the organization's standard procedures for visiting people deprived of liberty. The ICRC stated, per BBC reporting, that the visit \"was carried out in accordance with the ICRC's standards and procedures for visiting people deprived of liberty. This included the opportunity to speak with Daw Aung San Suu Kyi in private.\" The substance of their conversation has not been disclosed.",
+    "Photographs released by the Myanmar military government show Suu Kyi appearing relaxed and well, according to BBC reporting, though no details of her current health condition have been made public. Despite repeated assurances from the military that she is alive and well, per BBC reporting, they had provided no convincing evidence of her condition until this meeting.",
+    "Kim Aris, Suu Kyi's son, mounted an international campaign in recent months demanding proof of life for his mother. Following the ICRC visit, he told BBC that it was \"the first positive development for his mother in more than five years\" and stated, \"This may be a first step, but it must not be the last.\"",
+    "The meeting occurs against a backdrop of international pressure on Myanmar's military-dominated government, which remains headed by coup leader Min Aung Hlaing despite an election held earlier this year. Among top demands made of the junta by the international community, per BBC reporting, are that it end aerial bombardment of opposition-held areas, start negotiations to end the civil war, and release Aung San Suu Kyi."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c1e1d5j6660o?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "event_utc": "2026-08-03T10:58:48Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-03T12:44:38Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "also_reported_by": [
+    {
+      "outlet": "The Guardian",
+      "headline": "Red Cross visits Aung San Suu Kyi after Myanmar military pushed to prove she is alive - The Guardian"
+    },
+    {
+      "outlet": "ABC News",
+      "headline": "Myanmar's detained former leader Aung San Suu Kyi has rare meeting with International Red Cross - ABC News - Breaking News, Latest News and Videos"
+    },
+    {
+      "outlet": "CNN",
+      "headline": "Aung San Suu Kyi meets Red Cross official, after mounting demands the military prove she is still alive - CNN"
+    },
+    {
+      "outlet": "ICRC",
+      "headline": "Myanmar | ICRC visits Daw Aung San Suu Kyi - ICRC"
+    },
+    {
+      "outlet": "Al Jazeera",
+      "headline": "Myanmar releases first images of Aung San Suu Kyi since 2021 military coup - Al Jazeera"
+    },
+    {
+      "outlet": "France 24",
+      "headline": "Detained Aung San Suu Kyi meets Red Cross delegate in Myanmar - France 24"
+    }
+  ]
+}

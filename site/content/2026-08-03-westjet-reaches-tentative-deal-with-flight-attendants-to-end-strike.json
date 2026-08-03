@@ -1,0 +1,37 @@
+{
+  "id": "c209",
+  "slug": "westjet-reaches-tentative-deal-with-flight-attendants-to-end-strike",
+  "kind": "brief",
+  "title": "WestJet reaches tentative deal with flight attendants to end strike",
+  "dek": "WestJet and its 4,400-member flight attendant union CUPE 8125 reached a tentative agreement ending a strike that cancelled 495 flights and affected 250,000 travelers. The deal centers on recognition and compensation for ground-based work performed before flights depart.",
+  "date": "2026-08-03",
+  "published_utc": "2026-08-03T12:44:38Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 5,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "A tentative agreement between WestJet and cabin crew union CUPE 8125 ends a strike that disrupted peak travel and affected a quarter-million travelers, though the deal still requires union ratification.",
+  "bottom_line": "The deal halts immediate disruption but leaves the core compensation structure unresolved until union members vote. The specific terms of how ground-based work will be paid under the tentative agreement remain undisclosed, making the ratification vote the next critical step.",
+  "human_take": "",
+  "body": [
+    "WestJet and its flight attendant union, CUPE 8125, have reached a tentative agreement to end a strike that disrupted service and cancelled hundreds of flights during peak travel. The union represents 4,400 cabin crew at Canada's second-largest airline, according to ABC News.",
+    "The strike centred on a core labour issue: how flight attendants should be compensated for duties performed before flights take off. According to ABC News reporting, the union said some of that work was unpaid, while the company said staff was compensated through a credit hour system rather than an hourly rate. The union, per ABC News, said that if the deal is ratified, the work that flight attendants do before flights take off will be recognized.",
+    "According to ABC News, the strike cancelled 495 flights on Sunday, affecting 250,000 travelers during the travel period. The dispute mirrors a labour action at Air Canada last summer. ABC News reported that Air Canada flight attendants stranded more than 100,000 travelers during peak travel season in a strike partly over the same issue of unpaid groundwork, which lasted three days.",
+    "WestJet had proposed a 13 percent wage increase in October, increases of 2.5 percent each January for the next three years, retroactive wage payment to last January, additional pay for all hours worked, and upgrades to other benefits, according to ABC News. Union president Alia Hussain, per ABC News, said that although negotiators tried until the very last minute to get a fair deal, what the airline proposed didn't go far enough.",
+    "WestJet argued, according to ABC News reporting, that flight attendants were already compensated for ground-based work through the credit hour system rather than an hourly rate. This position contradicts the union's characterization of the work as unpaid.",
+    "According to ABC News, the union, CUPE 8125, said that flight attendants will be returning to work now that the strike is over. The tentative agreement still faces a ratification vote, per ABC News, before it becomes final."
+  ],
+  "sources": [
+    {
+      "title": "abcnews.com",
+      "url": "https://abcnews.com/Business/wireStory/westjet-reaches-tentative-deal-flight-attendants-end-strike-135322672"
+    }
+  ],
+  "event_utc": "2026-08-03T12:35:35Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-03T12:44:38Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}

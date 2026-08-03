@@ -4230,5 +4230,45 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-03",
+  "approved": 4,
+  "rejected": [
+   {
+    "id": "c092",
+    "headline": "Todd Blanche withdraws $1.8 billion fund to break Senate confirmation deadlock",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Republican Senator Bernie Moreno called for Representative Max Miller to assume a position' but the brief's data_point specifies 'Republican senator Bernie Moreno called for Representative Max Miller, his ex son-in-law, to assume a position.' The relationship detail ('his ex son-in-law') is material context present in the brief but omitted from the draft, altering the factual completeness of what the brief itself confirmed."
+    ]
+   },
+   {
+    "id": "c078",
+    "headline": "Iran denies Trump claim on new talks as strike reversal analyzed",
+    "category": "accuracy",
+    "reasons": [
+     "The brief contains zero data_points (empty array) and source_chars of 0, indicating no source material was successfully retrieved. The draft makes multiple factual claims: 'Trump called off planned military strikes against Iran,' 'Trump claimed that new talks between the US and Iran would begin Monday,' 'Iran has denied that claim,' and 'Analysis attributes Trump's reversal to Iran's regional escalation.' None of these facts can be traced to a data_point in the brief. The hard rule is: no fact exists outside the brief. This draft was written from a brief that contains no sourced facts, making every claim SMUGGLED."
+    ]
+   },
+   {
+    "id": "c224",
+    "headline": "Fast-moving wildfires destroy hundreds of homes in Spokane area; 60,000 evacuated",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Three major fires are burning: the Old Trails Fire, which broke out Saturday; the Fairview Fire; and the Autumn Lane Fire' with 'no containment on any of the three major blazes.' However, the brief's data_points include a claim that 'Forward progress of the Fairview Fire had stopped as of Sunday night and while the Old Trail Fire was still active, the \"major danger\" had passed.' This contradictory information about containment status is smuggled into the draft without acknowledgment of the conflicting reports in the source material."
+    ]
+   },
+   {
+    "id": "c098",
+    "headline": "Court records show Trump administration DHS sought involuntary medical procedures on detained immigrants",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'the Trump administration's DHS attempted to subject at least 10 hunger strikers' but the brief's confidence label is 'reported'\u2014meaning it comes from the Guardian's review of court records, not from official confirmation. The word 'attempted' implies actions taken; the brief says DHS 'obtained court orders authorizing' the procedures, which is what was sought, not necessarily what was executed. The draft should mirror the brief's language about what was sought via court orders, not what was attempted.",
+     "The third paragraph begins 'The brief provided does not specify...' This is meta-commentary that breaks the wall between research and finished copy. It reads as a writer's note left in the draft and should not appear in published work. This is a compliance violation: the draft should not reference its own research process or admit gaps in a way that signals incompleteness to the reader.",
+     "The core factual claim\u2014that procedures were 'obtained' via court orders\u2014is present and traceable, but the phrasing 'DHS attempted to subject' and 'pursued court orders to authorize the procedures' conflates seeking authorization with attempting execution. The brief does not confirm the procedures were carried out. The draft should say what was sought and authorized, not what was attempted without qualification."
+    ]
+   }
+  ]
  }
 ]

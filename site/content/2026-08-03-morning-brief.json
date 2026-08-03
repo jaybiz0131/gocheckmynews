@@ -1,0 +1,62 @@
+{
+  "id": "wrap-am-2026-08-03",
+  "slug": "morning-brief-2026-08-03",
+  "kind": "brief",
+  "title": "The Morning Brief: Ferry fire, Gaza strikes, shooting deaths mark turbulent Saturday",
+  "dek": "A series of deadly incidents across multiple continents Saturday, an Indonesian ferry fire with 41 missing, Israeli strikes killing 13 in Gaza, a shooting at an Idaho restaurant, and a tourist plane crash in Peru, punctuated by diplomatic fractures in the Middle East and currency intervention in currency markets.",
+  "date": "2026-08-03",
+  "published_utc": "2026-08-03T12:48:02Z",
+  "category": "daily edition",
+  "rank": -1,
+  "author": "GoCheckMyNews",
+  "key_fact": "The day brought four separate mass casualty events across different regions, while diplomatic claims about US-Iran negotiations collapsed into direct contradiction between Trump and Iran's Foreign Ministry.",
+  "bottom_line": "Saturday brought four separate mass casualty events across Indonesia, the United States, and Peru, while the Middle East saw both a disarmament framework under strain and a fundamental disagreement between Trump and Iran over whether negotiations are underway. The honest read on Gaza is that a mutually binding accord exists on paper while both sides pursue divergent military and political aims. Watch for updates on the ferry's cause and missing persons count, clarification of whether US-Iran talks are occurring, investigation findings on the Idaho shooting's motive, and union ratification of the WestJet tentative agreement.",
+  "human_take": "",
+  "body": [
+    "Saturday and Sunday brought a cascade of deadly incidents that dominated the morning news cycle. An Indonesian ferry carrying at least 250 people caught fire off Madura island with five confirmed dead and 41 missing as of Saturday. The captain reported the fire to Indonesia's National Search and Rescue Agency at approximately 08:24 local time, but according to the shipping company, the fire had begun around 06:00 to 07:00 local time, a delay of roughly two to two-and-a-half hours between when the fire started and when authorities received notification. The cause remains unknown.",
+    "The day saw three additional mass casualty events. A shooting outside an In-N-Out Burger in Twin Falls, Idaho left three people dead and five injured at 2:29 p.m. Saturday; the suspected shooter is also dead. In Peru, a Cessna Caravan C-208 operated by Aerodiana carrying tourists to view the Nazca Lines crashed with all 13 people on board killed, including two German tourists, two Spanish tourists, and seven Italian tourists.",
+    "In the Middle East, the fractured state of a recently announced disarmament framework became starkly visible when Israeli military aircraft struck Gaza City, Khan Younis, and Deir el-Balah on consecutive nights, killing at least 13 people according to Palestinian officials. These strikes came days after Hamas formally accepted a disarmament plan requiring the Palestinian group to surrender its weapons to the Board of Peace, established under President Trump's 20-point framework. Trump stated Friday that Israel was \"very happy\" with the proposed agreement. Yet Israeli officials have continued military operations and publicly rejected key elements of the accord.",
+    "A fundamental disagreement erupted over whether US-Iran negotiations are occurring. President Trump announced Sunday that the United States and Iran would hold new talks Monday afternoon after calling off what he described as massive military strikes. Iran's Foreign Ministry immediately denied on Monday that any direct talks with the US were planned or underway. Trump said the pause came amid \"perimeters of a deal\" involving shipping through the Strait of Hormuz and \"ultimately, the denuclearization of Iran,\" but Iran's Foreign Ministry spokesperson Esmaeil Baghaei stated flatly: \"We currently do not have negotiations with America.\"",
+    "On the domestic front, Rep. Marcy Kaptur, an 80-year-old Democratic congresswoman from Ohio who won her seat in 1982, was hospitalized with non-life-threatening injuries after a hit-and-run crash in Toledo on Sunday morning. She was a passenger traveling to a church service when struck. The vehicle and driver remain unidentified as of Sunday evening.",
+    "In financial markets, the US Treasury and Japan's Ministry of Finance jointly intervened in currency markets Friday to halt the yen's slide to a 40-year low, marking the first joint intervention between the two countries since 2011. Both countries signaled readiness to conduct additional interventions if needed.",
+    "In labor news, WestJet and its 4,400-member flight attendant union CUPE 8125 reached a tentative agreement ending a strike that had cancelled 495 flights and affected 250,000 travelers. The strike centered on compensation for ground-based work performed before flights depart."
+  ],
+  "sources": [
+    {
+      "title": "Five dead, 41 missing after Indonesian ferry fire off Madura island",
+      "url": "/articles/five-dead-41-missing-after-indonesian-ferry-fire-off-madura-island.html"
+    },
+    {
+      "title": "Israeli strikes kill at least 13 in Gaza days after Hamas accepts disarmament plan",
+      "url": "/articles/israeli-strikes-kill-at-least-13-in-gaza-days-after-hamas-accepts-disarmament-plan.html"
+    },
+    {
+      "title": "Police confirm 3 killed, 5 injured in shooting at Twin Falls In-N-Out Burger",
+      "url": "/articles/police-confirm-3-killed-5-injured-in-shooting-at-twin-falls-in-n-out-burger.html"
+    },
+    {
+      "title": "Tourist plane crashes near Nazca Lines in Peru, all 13 on board killed",
+      "url": "/articles/tourist-plane-crashes-near-nazca-lines-in-peru-all-13-on-board-killed.html"
+    },
+    {
+      "title": "Aung San Suu Kyi meets ICRC delegation in first confirmed outside contact since 2021 coup",
+      "url": "/articles/aung-san-suu-kyi-meets-icrc-delegation-in-first-confirmed-outside-contact-since-2021-coup.html"
+    },
+    {
+      "title": "Iran denies Trump claim that new talks will start Monday after he called off attacks",
+      "url": "/articles/iran-denies-trump-claim-that-new-talks-will-start-monday-after-he-called-off-attacks.html"
+    },
+    {
+      "title": "Rep. Marcy Kaptur hospitalized after hit-and-run crash in Toledo",
+      "url": "/articles/rep-marcy-kaptur-hospitalized-after-hit-and-run-crash-in-toledo.html"
+    },
+    {
+      "title": "US and Japan conduct first joint currency intervention since 2011",
+      "url": "/articles/us-and-japan-conduct-first-joint-currency-intervention-since-2011.html"
+    },
+    {
+      "title": "WestJet reaches tentative deal with flight attendants to end strike",
+      "url": "/articles/westjet-reaches-tentative-deal-with-flight-attendants-to-end-strike.html"
+    }
+  ]
+}
