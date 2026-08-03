@@ -29,6 +29,12 @@ import re
 import sys
 from urllib.parse import quote
 
+RETIRED_ARTICLES = {
+    "spain-deploys-military-to-ceuta-border-after-60-000-migrants-cross-34-die":
+        "60-000-migrants-cross-into-spain-s-ceuta-in-24-hours-34-deaths-reported",
+}
+
+
 import boundary
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -2011,7 +2017,16 @@ def build():
 
     w("robots.txt", f"User-agent: *\nAllow: /\n\nSitemap: {ORIGIN}/sitemap.xml\n"
                     f"Sitemap: {ORIGIN}/news-sitemap.xml\n")
-    w("_redirects", "/*  /404.html  404\n")
+    # RETIRED URLS keep working (ported from the crypto chassis, fix 3 2026-08-03).
+    # When the desk publishes the same development more than once and the duplicates
+    # are merged, the surviving story takes the reporting and the retired slugs 301
+    # here. Never delete a published URL: someone linked it, and a 404 punishes the
+    # reader for our filing error. Netlify takes the first match, so these precede
+    # the catch-all.
+    redirects = "".join(f"/articles/{old}.html  /articles/{new}.html  301\n"
+                        f"/articles/{old}  /articles/{new}  301\n"
+                        for old, new in sorted(RETIRED_ARTICLES.items()))
+    w("_redirects", redirects + "/*  /404.html  404\n")
     n_live = sum(1 for i in items if not i.get("example"))
     print(f"site: built {PUBLISH} - {n_live} published stor{'y' if n_live == 1 else 'ies'} "
           f"+ {len(items) - n_live} example, plus home/archive/method/sources/about/standards/404.")
