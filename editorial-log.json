@@ -4270,5 +4270,46 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-03",
+  "approved": 4,
+  "rejected": [
+   {
+    "id": "c102",
+    "headline": "Cornyn, Tillis commit to confirm Blanche as attorney general after Justice Department formally rescinds anti-weaponization fund",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states Tillis said Trump 'clearly intended to resurrect the payout fund' and used the phrase 'payout pot for punks,' but the brief data_point quotes only 'payout pot for punks' without attribution of the 'clearly intends to resurrect' paraphrase to the X post. The draft presents a paraphrase as direct from Tillis's statement without verifying that CBS News attributed that specific characterization to him.",
+     "The draft claims Blanche 'told a House committee in June' the Justice Department was not moving forward, but the brief says he made this assertion\u2014the draft should attribute this to his testimony or statement rather than reporting it as bare fact without source attribution in that sentence."
+    ]
+   },
+   {
+    "id": "c061",
+    "headline": "Michigan reports first two U.S. deaths from cyclosporiasis in outbreak affecting 45 states",
+    "category": "compliance",
+    "reasons": [
+     "The brief was flagged with boundary_required: true and boundary_ok: false, with the reason 'this story turns on a version, date range or threshold but the brief carries no boundary block.' The draft does not include any disclaimer or boundary language acknowledging the distinction between first U.S. deaths from this outbreak vs. first U.S. deaths ever from cyclosporiasis. The title and opening could be read as claiming a broader historical milestone ('first two U.S. deaths') without the necessary scope limitation that these are the first deaths in this particular outbreak cycle. This is a compliance liability: a reader could misinterpret the story's scope."
+    ]
+   },
+   {
+    "id": "c103",
+    "headline": "Healthcare Worker Returns Fire at In-N-Out Gunman in Twin Falls Shooting; 3 Dead, 7 Wounded",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states Salinas 'is a 35-year-old healthcare worker from Kimberly, Idaho' and later references 'Salinas completed firearms training after a 2021 mass shooting prompted him to seek such preparation.' However, the brief's open_questions explicitly flag that 'The specific nature of that training, the exact date he completed it, and which 2021 mass shooting prompted his decision are not detailed in the available reporting.' The draft then admits this in its own paragraph ('However, the brief states that Salinas completed firearms training...the specific nature of that training, the exact date he completed it, and which 2021 mass shooting prompted his decision are not detailed in the available reporting'), which is a self-contradiction and breaks the wall between reporting and editorial acknowledgment of gaps. The bottom_line compounds this by claiming Salinas 'had taken firearms training after prior 2021 mass shooting' as a settled fact, when it remains unconfirmed. This violates the rule that unconfirmed claims must read as such in prose.",
+     "The draft includes extensive witness testimony and scene details (Austin James, Braxton Stuebe, Haley Dodaro quotes and actions) that appear nowhere in the data_points of the brief. These details are either smuggled facts outside the research, or the data_points list is incomplete. Either way, the draft exceeds what the brief authorizes."
+    ]
+   },
+   {
+    "id": "c085",
+    "headline": "U.S. Treasury Joins Japan in Currency Intervention Over Yen Decline",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The joint intervention by the world's two largest economies signals alarm over weakness in Japanese financial markets and reveals vulnerability to broader economic instability.' This framing is not supported by the brief. The brief lists these as angle/interpretation elements, but the core_claim only reports that 'The U.S. Treasury joined Tokyo in currency intervention to stem the yen's decline.' The draft presents the interpretive framing ('signals alarm,' 'reveals vulnerability') as established fact rather than as analysis or angle, crossing into advocacy of a particular reading.",
+     "The draft's second paragraph ('However, the available reporting does not detail...') acknowledges the brief is thin and unconfirmed on key details, but then the first paragraph already asserted causal claims ('signals alarm,' 'reveals vulnerability') that depend on those unconfirmed details. A brief explicitly marked 'thin: true' with zero data_points and unconfirmed open_questions should not support definitive causal claims in the body."
+    ]
+   }
+  ]
  }
 ]
