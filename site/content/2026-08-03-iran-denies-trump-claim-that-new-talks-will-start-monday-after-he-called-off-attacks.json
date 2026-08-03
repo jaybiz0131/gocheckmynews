@@ -1,0 +1,59 @@
+{
+  "id": "c015",
+  "slug": "iran-denies-trump-claim-that-new-talks-will-start-monday-after-he-called-off-attacks",
+  "kind": "brief",
+  "title": "Iran denies Trump claim that new talks will start Monday after he called off attacks",
+  "dek": "President Trump announced Sunday that US-Iran negotiations would begin Monday afternoon after calling off what he described as massive military strikes. Iran's Foreign Ministry immediately denied on Monday that any direct talks with the US were planned or underway, creating fundamental disagreement over whether negotiations exist.",
+  "date": "2026-08-03",
+  "published_utc": "2026-08-03T11:46:56Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 1,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Iran's Foreign Ministry spokesperson Esmaeil Baghaei stated on Monday: 'We currently do not have negotiations with America,' contradicting Trump's Sunday announcement that talks would begin the following afternoon.",
+  "bottom_line": "The fundamental disagreement over whether negotiations are occurring leaves the announced pause in strikes without a mutually acknowledged foundation. If Iran continues to deny talks are happening while Trump insists they are, the risk of renewed escalation remains acute, especially as Trump's pattern of threatened and canceled strikes has repeatedly given way to resumed tit-for-tat conflict.",
+  "human_take": "",
+  "body": [
+    "President Trump announced Sunday that the United States and Iran would hold new negotiations Monday afternoon after calling off what he described as massive military strikes. Iran's Foreign Ministry rejected the claim on Monday, stating flatly that no direct talks with the US were planned or underway, creating a fundamental disagreement over whether negotiations exist.",
+    "Trump said on Air Force One that he had agreed to call off the strikes amid what he described as the \"perimeters of a deal\" that would include resuming shipping through the Strait of Hormuz, according to NBC News reporting. He also said the deal would involve \"the Hormuz Strait and also, ultimately, the denuclearization of Iran,\" per CBS News. Trump stated that Iran does not have a deadline to come to an agreement, saying: \"We're ready to go anytime we want. Would I rather make a deal? I'm not looking to kill people.\"",
+    "Trump characterized the planned strikes as historical in scale. According to NBC News, Trump said the strikes would have been \"the biggest attack since World War II.\" He told reporters on Air Force One: \"Iran knew the extent of the attack because they saw it forming. We're talking to them in the form of a negotiation. It begins tomorrow afternoon.\" Trump also posted on Truth Social that he had been asked by Iran and US allies in the Middle East to \"hold off\" as the \"perimeters\" of a deal had been agreed.",
+    "But Iran's Foreign Ministry immediately contested this account. According to NBC News, Foreign Ministry spokesperson Esmaeil Baghaei told reporters on Monday: \"We currently do not have negotiations with America.\" Baghaei added that Iran had no plans to host foreign delegations or send negotiators abroad in the coming days. In a more detailed statement carried by CBS News, Baghaei said: \"To avoid any misunderstanding, it is important to clarify what the current negotiations are about and who they are with. We are not negotiating with the United States at this time. Our negotiations are with Oman and are focused on reaching an understanding on a route that will ensure the safe passage of shipping through the Strait of Hormuz.\"",
+    "Iran also disputed Trump's characterization of events leading to the pause. According to BBC News, Iran's semi-official Mehr news agency denied that Tehran had asked the US to hold off on military action, saying Trump's claims were \"nothing but a new lie.\" Iran's acting Defence Minister Majid Ibn al-Reza asserted that Tehran views threats from adversaries as \"real and credible\" and will \"neither be caught off guard nor remain passive,\" signaling Iran's readiness for conflict despite the announced pause, per BBC News reporting.",
+    "The disagreement over whether talks are happening exposes the fragility of Trump's announced pause. Trump said that Iran and Oman have been holding talks on creating a new route through the Strait of Hormuz, according to NBC News. About 20 percent of the world's crude oil and liquefied natural gas usually flows through the strait, per BBC News. Global oil prices fell on the announcement: Brent Crude oil was down 4.5% at $83.98, while US-traded oil was 4.6% lower at $80.74, according to BBC News reporting.",
+    "Trump's move came after Saudi Arabia's Crown Prince Mohammed bin Salman spoke with him by phone Saturday and, per the Saudi state news agency, told him that dialogue was needed to de-escalate Middle East tensions and expressed concerns over plans for new strikes against Iran, per NBC News. A regional official involved in mediation efforts told CBS News that the proposal called for the US and Iran to return to negotiations and continue working out issues that had stymied prior progress on a deal, and that it included reopening of the Strait of Hormuz and halting attacks across the region, including by Iranian-backed militias in Iraq, with the US ending its naval blockade on Iran in exchange.",
+    "This cycle has recurred before. According to NBC News, Trump has repeatedly threatened and then said he was canceling big attacks, citing progress in talks, only for the diplomacy to be upended by the two sides resuming tit-for-tat strikes. There was a brief reprieve from fighting in June when the two sides signed a memorandum of understanding outlining the process for talks to end the war, per NBC News. In early July, Trump declared the ceasefire to be \"over,\" and the countries resumed strikes, according to NBC News reporting. The conflict has now entered its sixth month, despite Trump's repeated early predictions that the war would resolve itself \"shortly,\" per NBC News."
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/world/iran/trump-iran-talks-attacks-canceled-hormuz-nuclear-rcna590535"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-kuwait-jordan-air-base/"
+    },
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c23579jzv08o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "The New York Times",
+      "url": "https://www.nytimes.com/2026/08/03/world/middleeast/iran-talks-us-oman-strait-hormuz-trump.html"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-us-denies-negotiations-begin-strikes-called-off/"
+    },
+    {
+      "title": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE40Y09LMUJHY2x5bzRGNXU4emF0RVpyckR3VjNPWnNJRzhYNUhpYzVUR1FUZkRqdWNfSmgyN1FUUlVGZUE5S2pJckxmaU90LTF0aTFpbXFBeHhDdw?oc=5"
+    }
+  ],
+  "event_utc": "2026-08-03T07:05:48Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-03T11:46:56Z",
+    "sources_cited": 6,
+    "sources_live_checked": 3
+  }
+}

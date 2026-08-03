@@ -1,0 +1,36 @@
+{
+  "id": "c040",
+  "slug": "us-and-japan-conduct-first-joint-currency-intervention-since-2011",
+  "kind": "brief",
+  "title": "US and Japan conduct first joint currency intervention since 2011",
+  "dek": "The US Treasury and Japan's Ministry of Finance jointly sold dollars and bought yen to halt the yen's fall to a 40-year low. Both countries said they are prepared to conduct more coordinated interventions in the future. The move signals concern about yen weakness and its effects on global financial markets.",
+  "date": "2026-08-03",
+  "published_utc": "2026-08-03T11:46:56Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 7,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "This is the first jointly coordinated currency intervention between the US and Japan since 2011, when both countries acted to weaken the yen after Japan's earthquake and tsunami.",
+  "bottom_line": "Both countries have signaled readiness to conduct more interventions if yen weakness resumes. The open question is the exact size of the US contribution, confirmed only through a photograph of Bessent's notes showing $5-10 billion, not through official Treasury disclosure.",
+  "human_take": "",
+  "body": [
+    "The US Treasury and Japan's Ministry of Finance jointly intervened in currency markets on Friday to halt the yen's slide to a 40-year low, according to BBC reporting. The coordinated action marks the first joint intervention between the two countries since 2011, when they took similar steps to weaken the yen following Japan's earthquake and tsunami.",
+    "Japan's finance ministry said the intervention on Friday countered what it called excessive volatility and disorderly movements in the Japanese yen in recent months. According to Bank of Japan data cited by BBC, Tokyo sold nearly $59 billion in US dollars to buy yen when it intervened in New York markets on Thursday, before the confirmed joint action with Washington on Friday.",
+    "US Treasury Secretary Scott Bessent said in a social media post that the coordinated action countered disorderly yen movements and that the US strongly supports Japan's steps to correct what he characterized as substantial undervaluation of the yen. A Reuters photograph obtained by BBC showed a notepad in front of Bessent during a cabinet meeting reading \"To Do: Buy Japanese Yen $5-10 bil,\" suggesting the scope of the US contribution, though Treasury officials have not confirmed the exact size of the American intervention.",
+    "Both countries committed to future coordinated action. Japan's finance ministry and Bessent said they would not hesitate to conduct more joint interventions if needed. Shigeto Nagai, head of Japan economics at Oxford Economics, told BBC that the US agreed to participate because it serves American national interests by offering significant benefits at low cost, and predicted the two countries would continue to intervene intermittently in a coordinated manner for some time.",
+    "The yen had fallen to 164 per dollar last month. After Trump's comments on Sunday that the US was willing to help Japan with its weakening yen, the dollar fell 0.2% to 157.07 yen, then rose back to 157.70 yen following the Japanese finance ministry's statement. The Bank of Japan raised its main interest rate to 1% in June, the highest level since September 1995, while the US Federal Reserve's benchmark rate stands in a range of 3.50% to 3.75%."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cglj1pr0wjwo?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "event_utc": "2026-08-03T07:30:52Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-03T11:46:56Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}

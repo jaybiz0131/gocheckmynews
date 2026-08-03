@@ -4180,5 +4180,55 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-03",
+  "approved": 3,
+  "rejected": [
+   {
+    "id": "c042",
+    "headline": "Blanche formally rescinds Trump's $1.8bn anti-weaponization fund ahead of confirmation hearing",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Blanche posted on X that he had \"met with committee members and Senators over the past several weeks and addressed any concerns or outstanding questions.\"' The brief marks this claim as 'announced-not-verified', meaning it should read as announced but unconfirmed in the prose. The draft presents it as a direct fact without qualification of confidence.",
+     "The draft states 'Attached to Blanche's post was an unsigned memo' but the brief data point says the memo was 'unsigned.' The draft does include 'unsigned' but this contradicts the core_claim which says Blanche 'formally terminated Trump's $1.8 billion anti-weaponization fund...via signed orders.' The brief's angle explicitly notes the rescission lacks binding force because the memo is unsigned, but the draft's opening paragraph claims Blanche 'issued a formal order' without acknowledging the memo is unsigned until later.",
+     "The draft opens 'Acting Attorney General Todd Blanche issued a formal order late Sunday terminating Donald Trump's $1.8 billion anti-weaponization fund' but then later states the memo was 'unsigned.' A 'formal order' that lacks a signature is a contradiction the draft does not resolve upfront. The brief's core tension\u2014that the order may lack binding legal force\u2014is buried rather than surfaced clearly."
+    ]
+   },
+   {
+    "id": "c226",
+    "headline": "Fast-moving wildfires in Washington destroy hundreds of homes",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Benjamin Cossel, a spokesperson for the California Interagency Incident Management Team 7' but Spokane is in Washington, not California. The brief data point also lists Cossel as 'a spokesperson for the California Interagency Incident Management Team 7,' meaning the error is in the source material. However, the desk's hard rule is that facts go back to research. This is a factual claim in the draft (Cossel's affiliation) that does not match the geography of the story and was not flagged or corrected by the brief. The draft should either correct this or flag it as unconfirmed.",
+     "The draft does not include data_point: 'Rep. Michael Baumgartner (Washington's 5th Congressional District) said Sunday: \"It doesn't look like the weather is getting much better for the next few days. Everyone needs to stay alert.\"' which appears in the brief but not in the draft body. While omission is not a violation of the 'no facts outside the brief' rule, the presence of this data_point in the brief without explanation for its omission suggests the brief was not fully consulted or the writer made editorial choices not noted."
+    ]
+   },
+   {
+    "id": "c021",
+    "headline": "Aung San Suu Kyi meets ICRC delegation in first confirmed outside contact since 2021 coup",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states Kim Aris 'welcomed the news as \"the first positive development for his mother in more than five years,\"' but the brief data_point says he welcomed it as 'the first positive development for his mother in more than five years' and the draft also quotes him saying 'hope is not proof, and one meeting cannot answer the questions my family has lived with since the coup.' The brief's data_point for this quote is: 'Kim Aris stated: \"I hope this is the beginning of transparency, humanitarian access and, ultimately, my mother's freedom. But hope is not proof, and one meeting cannot answer the questions my family has lived with since the coup.\"' The draft conflates or misattributes the longer statement: the quote about 'hope is not proof' is from a different data_point in the brief and should not be attributed to the same moment as 'first positive development.' The draft presents these as a continuous thought without clarifying they come from different statements or moments in time, creating an inaccuracy in how the quotes are sequenced and attributed."
+    ]
+   },
+   {
+    "id": "c005",
+    "headline": "SNAP participation declines by over 4 million since July 2025",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Over 4 million people are no longer receiving SNAP food aid, per the reporting, as the program faces historic cuts and changes.' This accurately traces to the brief's data_points. However, the draft then says 'NPR's reporting does not specify which particular policy changes, benefit reductions, or eligibility rule modifications triggered the departures' and 'The sources provided do not offer breakdowns by state, demographic group, or reason for departure.' These are claims about what the source does NOT contain, which cannot be verified from the brief itself\u2014the brief does not include a complete text of the source, only extracted data_points. The draft is making factual claims about source gaps that go beyond what the brief establishes. The draft should either only report what is in the brief's data_points, or acknowledge it is working from incomplete source material."
+    ]
+   },
+   {
+    "id": "c098",
+    "headline": "Court records show Trump DHS sought involuntary medical procedures on hunger-striking detainees",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Court records reviewed by the Guardian show that Homeland Security officials under the Trump administration obtained court orders to subject at least 10 hunger-striking detainees' but the brief's open_questions explicitly note 'The fetched source text is incomplete (appears truncated after the page header); the full investigation details...are not available in the provided source text.' The writer has asserted facts from a source document that is admittedly incomplete and truncated. This violates the hard rule that no fact exists outside the brief; the brief itself does not contain the specific details of court orders, detainee counts, or procedure types\u2014only that the Guardian reviewed court records. The draft presents as established fact information that the brief marks as unavailable.",
+     "The draft's second paragraph states 'does not specify which courts issued the orders, the legal grounds cited, the names or circumstances of affected detainees, the facilities where procedures took place, or dates when the interventions occurred' and 'The source material also does not include any official response from Immigration and Customs Enforcement'\u2014these are the writer's admissions that the sourcing is incomplete, yet the opening paragraph presents the core claims as settled facts traceable to court records. The draft reads as though court records confirm involuntary procedures were actually performed, when the brief indicates the source is truncated and those details are not available."
+    ]
+   }
+  ]
  }
 ]
