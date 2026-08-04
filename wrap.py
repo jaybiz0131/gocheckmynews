@@ -213,8 +213,32 @@ def main():
     now = datetime.datetime.now(datetime.timezone.utc)
     # three slots (Eastern audience clock): 10:40 UTC morning, 17:00 UTC midday,
     # 23:00 UTC evening; the hour windows resolve whichever slot is running
-    edition = (argv[argv.index("--edition") + 1] if "--edition" in argv
-               else ("morning" if now.hour < 14 else "midday" if now.hour < 20 else "evening"))
+    # WHICH SLOT IS THIS? Ask the cron that fired, not the clock (2026-08-04: the desk
+    # had never once published all three slots in a day, best 2/3, usually 1/3). Cause:
+    # wall-clock buckets plus GitHub's measured drift made runs land in the WRONG
+    # bucket and steal each other's slots. A morning cron drifting past 14:00 resolved
+    # as "midday" and published the midday edition; the real midday run then hit the
+    # once-per-slot guard and skipped, so morning AND midday were lost from one drift.
+    # github.event.schedule names the cron exactly; the clock is only the fallback for
+    # dispatch and watcher-fired runs.
+    CRON_SLOT = {"40 9 * * *": "morning", "38 15 * * *": "midday", "38 23 * * *": "evening",
+                 "55 10 * * *": "morning", "25 11 * * *": "morning", "10 17 * * *": "midday"}
+    cron = (os.environ.get("SLOT_CRON") or "").strip()
+    if "--edition" in argv:
+        edition = argv[argv.index("--edition") + 1]
+    elif cron in CRON_SLOT:
+        edition = CRON_SLOT[cron]
+        # an evening cron that drifts past midnight still belongs to its own day
+        if edition == "evening" and now.hour < 5:
+            now = now - datetime.timedelta(hours=now.hour + 1)
+    elif now.hour < 5:
+        edition = "evening"
+        now = now - datetime.timedelta(hours=now.hour + 1)  # anchor date to the slot's day
+    else:
+        edition = "morning" if now.hour < 14 else "midday" if now.hour < 20 else "evening"
+    if cron and cron not in CRON_SLOT:
+        common.gh("notice", f"wrap: unrecognised cron {cron!r}; resolved '{edition}' "
+                            f"by clock. Add it to CRON_SLOT if it is a slot cron.")
     if edition not in EDITIONS:
         print(f"wrap: unknown edition '{edition}'"); return 1
     if os.path.exists(os.path.join(HERE, "PAUSE")):
