@@ -4311,5 +4311,66 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-04",
+  "approved": 2,
+  "rejected": [
+   {
+    "id": "c073",
+    "headline": "Twenty-five states sue Trump administration over tariffs on 60 economies",
+    "category": "accuracy",
+    "reasons": [
+     "The draft quotes California AG Bonta as saying 'Tariffs are taxes, and the American people cannot and should not shoulder the extra costs that come from the president's failed and illegal economic policy.' However, the brief's data_point for this quote includes additional language not in the draft: '\u2014 no matter how much the President wants them to' at the end. The brief also shows Bonta made a separate statement about this being 'the third time' California sued, which the draft attributes to a single quote but the brief lists as two distinct statements. The draft's paraphrase conflates or truncates the sourced quotes.",
+     "The draft states 'The Trump administration justified the new levies by citing the failure of U.S. trading partners to crack down on imports produced with forced labor, according to the announcement.' This is accurate per the brief's data_point, but the brief's open_questions note that 'The sources do not specify which Supreme Court ruling from February 2026 struck down the prior tariffs or the legal basis for that decision.' The draft references 'tariffs that the Supreme Court struck down in February' as established fact without the caveat that the specific ruling is not identified in sources."
+    ]
+   },
+   {
+    "id": "c063",
+    "headline": "Wildfires destroy hundreds of buildings in Washington state",
+    "category": "clarity",
+    "reasons": [
+     "The brief is marked 'thin': true with only 5 data_points and 8 open_questions identifying critical missing information (specific building and displacement numbers, fire names, acreage, cause, evacuation zones, containment status, injuries/deaths, air quality). The draft is appropriately short given the thin brief, but it offers no forward-looking stakes or specifics about what would constitute meaningful resolution. The bottom_line uses the weak formulation 'remains being assessed' and 'monitoring firefighting progress and the eventual containment of the blazes will be critical,' which reads as placeholder language rather than journalism. For a thin story, the draft should still orient readers to what matters next; instead it defers entirely.",
+     "The draft says 'Residents have been evacuated from affected areas as the wildfires spread across the region' without specifying how many residents, which areas, or evacuation status\u2014all flagged as open questions in the brief. The brevity is appropriate given source constraints, but the phrasing should signal incompleteness ('evacuation orders have been issued' or 'evacuation is ongoing') rather than stating it as a completed action."
+    ]
+   },
+   {
+    "id": "c074",
+    "headline": "Three killed, seven wounded in shooting at Idaho In-N-Out Burger; gunman identified",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states that Austin 'A.J.' Scott was 'a former officer with Twin Falls police and Idaho State Police' and that 'His father, Marcus Scott, said his son moved toward the gunfire in an effort to protect others.' The brief's data_point says 'Marcus Scott said his son Austin used to work as an officer for Twin Falls police and Idaho State Police' and separately 'Marcus Scott said his son was shot after he moved 'toward the danger' when he heard gunfire in an effort to protect others.' The draft's paraphrase converts 'moved toward the danger' into 'moved toward the gunfire,' which is a factual alteration not supported by the source language provided in the brief.",
+     "The draft includes the detail that Terry Dudley was 'charging his Tesla near the restaurant' and 'initially called 911, which was busy, then called a friend for help.' The brief's data_point says he was 'shot in the back around the neck area while charging his Tesla; he called 911 which was busy, then called his friend.' The draft's characterization of calling 'a friend' versus the brief's 'his friend' is acceptable paraphrase, but adding 'which was busy' as a modifier to the 911 call is fine. However, the sequence 'He was flown to a hospital in Boise and remained hospitalized Monday with serious injuries' condenses the brief's 'remained there Monday with serious injuries'\u2014acceptable paraphrase. No accuracy violation here on second review.",
+     "On review: the 'moved toward the gunfire in an effort to protect others' versus 'moved toward the danger when he heard gunfire in an effort to protect others' represents a subtle but material difference. The draft removes the temporal/sensory detail ('when he heard gunfire') and simplifies the direction ('toward the gunfire' vs. 'toward the danger'), which could shade the narrative of his actions. This is a minor alteration but it changes the source language without paraphrase justification."
+    ]
+   },
+   {
+    "id": "c061",
+    "headline": "Michigan Reports First U.S. Deaths in Cyclosporiasis Outbreak Spanning 25+ States",
+    "category": "compliance",
+    "reasons": [
+     "Bottom line contains medical/health advice directive: 'Readers should consult the CDC website and their state health departments for information about whether their region is affected and what precautions are being recommended.' This is a direct call to action/advisory statement that violates the no-advice compliance boundary. The desk's liability posture is clear: GoCheckMyNews reports events and does not advise. This sentence must be removed or reframed as neutral reporting (e.g., 'The CDC and state health departments are providing guidance on their websites')."
+    ]
+   },
+   {
+    "id": "c064",
+    "headline": "FBI Investigates Iran as Likely Culprit in Cyberattacks on U.S. Water Systems Across 7 States",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Federal officials are investigating Iran as the likely culprit' in the opening paragraph without confidence label qualification. The brief's bear_case explicitly notes: 'federal authorities have not linked this to any specific actor' as of the time of reporting, and Kaiser 'personally assesses Iran as the likely actor based on motive, capability, and history rather than definitive attribution evidence.' The opening should read 'Federal officials are investigating Iran as the likely culprit' only if immediately qualified with 'according to former FBI Cyber Deputy Director Cynthia Kaiser' or similar language that attributes the assessment rather than presenting it as settled federal fact. The current phrasing reads as advocacy for a conclusion that remains investigative.",
+     "The draft states 'Kaiser's response noted that the FBI's assessment of similar breaches across at least seven states suggests a broader national vulnerability...' but the brief does not include Kaiser making this specific 'response' to the president's blame of Minnesota. This appears to be the writer's inference or interpolation rather than a direct Kaiser statement in the source. If Kaiser did not make this specific response, it must be reframed or removed."
+    ]
+   },
+   {
+    "id": "c168",
+    "headline": "ICE Records 51,000 Arrests in July, Highest Monthly Total in Agency History",
+    "category": "balance",
+    "reasons": [
+     "Brief explicitly flags bear_case: 'The source text does not include dissenting commentary, criticism from immigration advocacy groups, or opposing viewpoints on the enforcement surge.' Draft acknowledges this absence but publishes anyway without even attempting to source counter-perspective or acknowledging the one-sidedness as a reporting gap. The draft reads entirely in the administration's enforcement frame without structural balance.",
+     "Draft presents 'criminal illegal immigrants' language from DHS social media without distance or context. This is the administration's framing adopted wholesale into the news voice, not reported as their characterization.",
+     "No mention of concerns about enforcement scale, civil liberties questions, or immigration policy debates that would be standard in balanced coverage of a record enforcement surge. The brief's bear_case is ignored entirely."
+    ]
+   }
+  ]
  }
 ]
