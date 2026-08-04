@@ -107,8 +107,8 @@
   },
   "wraprescue": {
    "model": "claude-sonnet-5",
-   "max_tokens": 8000,
-   "note": "The Daily Edition's second-chance generator: when the Haiku edition fails its trace check, the corrective rewrite runs here."
+   "max_tokens": 16000,
+   "note": "The Daily Edition's second-chance generator: when the Haiku edition fails its trace check, the corrective rewrite runs here. CEILING RAISED 8000->16000 (owner ruling 2026-08-04): this stage returned empty responses that cost two editions; the diagnostics showed thinking consuming the whole output budget (stop_reason=max_tokens, blocks=['thinking'], out_tokens at the ceiling), leaving no text block."
   }
  },
  "sources": {
