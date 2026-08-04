@@ -1,0 +1,36 @@
+{
+  "id": "c263",
+  "slug": "water-systems-in-at-least-12-states-face-cyberattacks",
+  "kind": "brief",
+  "title": "Water systems in at least 12 states face cyberattacks",
+  "dek": "Possible cyber intrusions targeting water and wastewater utilities have been reported across at least a dozen states. Iran is the prime suspect, though official confirmation is pending. No widespread service disruptions have been reported.",
+  "date": "2026-08-04",
+  "published_utc": "2026-08-04T17:05:03Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 3,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Possible cyber intrusions targeting water and wastewater utilities have been reported in at least a dozen states, with Iran as the prime suspect, though official confirmation is pending.",
+  "bottom_line": "The intrusions have not yet disrupted service, and utilities have contingency protocols, but the cyberattacks highlight vulnerability in essential infrastructure to foreign access. Official attribution and the full scope of the breach remain to be confirmed.",
+  "human_take": "",
+  "body": [
+    "Possible cyber intrusions targeting water and wastewater utilities have been reported in at least a dozen states, with Iran as the prime suspect, according to ABC News sources. Official confirmation of Iran's involvement has not yet been made.",
+    "The intrusions are characterized as capable of disabling operator visibility by changing passwords or disabling alarms, according to unconfirmed accounts in ABC reporting. No widespread disruptions to water supplies or wastewater treatment have occurred so far.",
+    "Michigan is among the affected states. Michigan State Police confirmed that all systems continued to operate safely, issues were addressed by local operators, and there are no known impacts that posed a public health concern.",
+    "The FBI is leading the investigation and has issued guidance to utilities. Per the FBI's recommendations, utilities are being urged to disconnect systems from the internet where possible and to become familiar with reverting to manual controls if automated systems are compromised. The guidance also encourages utilities to use systems with breakers.",
+    "The specific list of all twelve affected states and the timeline and scope of the intrusions remain undisclosed. Official confirmation of Iran's role, specific software or systems targeted, and whether automated systems have been compromised versus only attempted are also outstanding."
+  ],
+  "sources": [
+    {
+      "title": "abcnews.com",
+      "url": "https://abcnews.com/US/12-states-face-cyberattacks-water-systems-sources/story?id=135348482"
+    }
+  ],
+  "event_utc": "2026-08-04T14:39:07Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-04T17:05:03Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}

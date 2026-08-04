@@ -1,0 +1,37 @@
+{
+  "id": "c008",
+  "slug": "europe-heat-wave-fuels-drought-fires-and-energy-fears",
+  "kind": "brief",
+  "title": "Europe heat wave fuels drought, fires and energy fears",
+  "dek": "A severe heat wave across Europe is driving historic low water levels in major rivers, threatening nuclear power plant cooling systems, and fueling deadly wildfires. Hungary's Paks Nuclear Power Plant came close to forced shutdown; Romania closed two reactors. Firefighters have died battling uncontrolled blazes in Greece.",
+  "date": "2026-08-04",
+  "published_utc": "2026-08-04T17:05:03Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 5,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "A heat wave is simultaneously threatening Europe's nuclear power plants through drought-driven river depletion, fueling deadly wildfires, and exposing WWII-era wreckage.",
+  "bottom_line": "The heat wave and drought are forcing real-time energy and safety decisions across Europe's nuclear fleet and fire suppression systems. The immediate concern is whether water levels stabilize enough to prevent reactor shutdowns or escalate the nuclear emergency further. If cooling water remains critically low, Europe faces potential energy shortfalls during peak summer demand.",
+  "human_take": "",
+  "body": [
+    "A severe heat wave across Europe is creating cascading crises: historic low water levels in major rivers are threatening nuclear power plants, wildfires have killed firefighters and evacuation crews, and the Danube's recession has exposed decades-old wartime wreckage.",
+    "Hungary's Paks Nuclear Power Plant came close to forced shutdown overnight as the Danube water level dropped, according to NPR, reaching within millimeters of complete shutdown before the level stabilized by 1.5 centimeters by morning, allowing the last turbine to operate safely. Romania closed two nuclear reactors due to low Danube water levels and conducted a controlled explosion in the river to redirect cooling water to its sole operational nuclear plant, per NPR.",
+    "Wildfire conditions have turned deadly. Two helicopter crews collided in midair on Sunday while battling a fire near Athens, killing two crew members, according to NPR. Two firefighters died fighting a fire on Crete last week, and a third was killed in the Peloponnese region. Over 500 firefighters, including multiple helicopters, are tackling a fire in Western Attica that has been burning since last week and jumped containment lines on Monday, NPR reports.",
+    "Most of the major wildfires in France that raged last week are now under control, though active fires remain in the southeast as of Tuesday, according to NPR. Over the weekend, most of the population of the southwestern Gironde region near Bordeaux were allowed to return home. Unexploded munitions thought to be from World War II were discovered in the fire area in France, with bomb disposal experts directed to the commune of Le Porge on Monday, per NPR.",
+    "The drought has also brought historical artifacts to light. Dozens of Nazi-era German warships, scuttled during the 1944 retreat, have been brought back into view in Serbia due to the Danube's recession, according to NPR. A cruise ship in Bulgaria evacuated almost 200 tourists after going aground near the port city of Vidin due to low water levels.",
+    "The heat alert is spreading across the continent. The Italian Health Ministry reported that 25 of the country's 27 major cities are on red alert as of Tuesday, with all Italian cities expected to reach red alert status by Thursday, per NPR. The United Kingdom's Health Security Agency issued heat health alerts for eight regions of England for the first half of the week. The Czech Republic recorded its highest overnight temperature on record, more than 82 degrees Fahrenheit (27.9 degrees Celsius), in the eastern town of Bystrnice pod Host\u00fdnem overnight into Tuesday, according to NPR."
+  ],
+  "sources": [
+    {
+      "title": "NPR",
+      "url": "https://www.npr.org/2026/08/04/nx-s1-5919214/europe-heatwave-danube-rhine-wildfires"
+    }
+  ],
+  "event_utc": "2026-08-04T16:37:38Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-04T17:05:03Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}

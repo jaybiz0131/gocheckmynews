@@ -4372,5 +4372,46 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-04",
+  "approved": 4,
+  "rejected": [
+   {
+    "id": "c021",
+    "headline": "US officials say Strait of Hormuz talks with Iran making progress",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'President Donald Trump said Monday he had called off 'massive' strikes on Iran' but the brief data_point says Trump 'warned Iran faced its last chance' AND 'called off massive strikes.' The draft omits the 'last chance' warning, which is a factual element in the brief.",
+     "The draft says the Strait handled supplies 'before the recent conflict began in late February' but this phrasing is imprecise given the brief says 'before the conflict began in late February'\u2014the conflict date is stated as reference point for the baseline measure, not as a temporal limit on the claim. The draft's language could mislead readers about current capacity.",
+     "The draft cites 'BBC reporting' for Brent crude price movements but does not cite BBC for the AAA gasoline/diesel prices that follow in the same sentence\u2014attribution is muddled. The brief shows all prices come from the same BBC source, but the draft's inline attribution pattern suggests AAA data comes from BBC."
+    ]
+   },
+   {
+    "id": "c233",
+    "headline": "Federal appeals court blocks EPA from rescinding climate funds",
+    "category": "clarity",
+    "reasons": [
+     "The brief is marked 'thin: true' with only one data_point. The draft is appropriately brief given that constraint, but it lacks basic reporting details that even a thin brief should carry: the draft does not specify what 'billions' means (no dollar figure), does not name which climate programs are affected (renewable energy and green bank programs are mentioned in the angle but not in the body), and does not provide the procedural context (is this a temporary measure pending appeal? what is the timeline?). The brief's open_questions expose gaps the draft could have at least acknowledged.",
+     "The bottom_line says 'the court's reasoning and timeline for final resolution remain to be disclosed' but this reads as a placeholder\u2014it does not forward-look or tell readers what to watch for. A proper bottom_line would say something like 'Watch for the Trump administration's next legal move and any effort to appeal to the Supreme Court' or similar, rather than restating what is missing."
+    ]
+   },
+   {
+    "id": "c274",
+    "headline": "ICE arrests hit record high in July as enforcement quietly ramps up",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'ICE arrested 51,000 individuals in July 2026, marking the largest monthly total in Department of Homeland Security history, according to sources familiar with the data cited by ABC News.' The brief marks this claim as 'reported' confidence, but the exact phrasing 'sources familiar with the data' creates ambiguity about whether the 51,000 figure itself is confirmed or merely reported as an unverified claim. The confidence label 'reported' in the brief allows the prose to present it as fact, but the structure 'according to sources familiar with the data cited by ABC News' is imprecise attribution that blurs whether ABC News reported the figure or merely reported that sources made the claim. This should either be more explicitly attributed ('ABC News reported that sources familiar with the data said...') or presented with clearer hedging language consistent with the 'reported' confidence level."
+    ]
+   },
+   {
+    "id": "c071",
+    "headline": "Michigan Democratic Senate primary features Stevens and El-Sayed on August 4",
+    "category": "accuracy",
+    "reasons": [
+     "The draft describes Stevens as a 'moderate' and El-Sayed as a 'progressive' in the brief's core_claim and angle, but the brief's own open_questions section states: 'The ideological characterization of Stevens as \"moderate\" and El-Sayed as \"progressive\" comes from the story metadata (why_it_matters), not from the fetched source text itself.' The brief confirms these characterizations are not in the source material. The draft does not include these labels, but the brief itself flags them as unsourced\u2014a red flag that the source is too thin to support the framing. The draft's framing that the race 'serves as a measure of the Democratic Party's ideological direction' and references 'competing visions for the party's future' implies the ideological split without explicitly stating it, but this implication rests on unverified characterizations noted as absent from the source text."
+    ]
+   }
+  ]
  }
 ]
