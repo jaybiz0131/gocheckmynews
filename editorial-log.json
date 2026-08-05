@@ -4540,5 +4540,58 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-05",
+  "approved": 3,
+  "rejected": [
+   {
+    "id": "c008",
+    "headline": "Russian missile barrage kills 17 in Kyiv as Ukraine reports critical air defense shortages",
+    "category": "balance",
+    "reasons": [
+     "The draft presents Ukraine's characterization of strikes on civilian targets (brewing company, building materials warehouses, postal operator, retail chain) as fact without adequate attribution or framing of the dispute. The sentence 'The strikes mainly targeted warehouses belonging to civilian businesses, including a brewing company, building materials warehouses, and civilian logistics facilities, claiming these sites \"have no connection to the war\"' attributes only the final claim to Zelenskyy, making the first part read as the desk's own assessment rather than Ukraine's position.",
+     "The brief's bear_case notes 'it was not immediately possible to reconcile the different accounts' but this caveat does not appear in the draft. The draft should explicitly state that the target characterizations are disputed, not settled fact, to maintain balance between Ukrainian and Russian claims about military vs. civilian use.",
+     "The section on Nova Poshta and Epicentr presents company statements about destruction without noting Russia's counterclaim appears in the same paragraph. The structure creates a narrative in which civilian harm is documented first and Russian denials follow as afterthought, rather than presenting both accounts as genuinely contested."
+    ]
+   },
+   {
+    "id": "c049",
+    "headline": "South Korea records highest temperature since modern record-keeping began at 42.5 degrees Celsius",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states the record was set 'on Sunday' but the brief's timestamp is 2026-08-05, which is a Wednesday. The day-of-week assignment is factually inconsistent with the date. A single source (BBC video) cannot establish what day 'Sunday' refers to without explicit confirmation in the source material itself.",
+     "The draft asserts 'At least 19 people have died during the heatwave' but the brief data_point says deaths are 'attributed to the heatwave'\u2014a minor distinction but the attribution is different in the brief. More critically, the draft later states 'The death toll is expected to remain preliminary' which contradicts presenting '19' as a firm figure without the preliminary qualifier attached to the initial claim itself."
+    ]
+   },
+   {
+    "id": "c296",
+    "headline": "Progressive Abdul El-Sayed wins Michigan Democratic Senate primary over Rep. Stevens",
+    "category": "balance",
+    "reasons": [
+     "The brief's bear_case is empty, but the draft frames this as a left-versus-center contest without presenting any substantive counter-argument or alternative perspective from Stevens or the center-Democratic position. The draft says 'The two represented different wings of the Democratic Party' but never explains what Stevens argued or what her policy platform was, making the framing one-sided.",
+     "The draft states El-Sayed 'criticized Stevens' support for aid to Israel' but presents no counter-statement from Stevens on this issue or any other. A competitive primary requires both sides' voice; this reads in El-Sayed's framing throughout."
+    ]
+   },
+   {
+    "id": "c012",
+    "headline": "Black lung disease reaches 50-year high in Appalachian coal mining regions",
+    "category": "accuracy",
+    "reasons": [
+     "The title claims 'Black lung disease reaches 50-year high' but the brief's core claim and data_point state 'highest levels in nearly 50 years' and 'now as bad as the 1970s'\u2014these are materially different. A 50-year high means the worst level ever recorded in the past 50 years; '1970s levels' is a reference point, not a record. The draft misrepresents the sourced finding.",
+     "The draft claims 'Thousands of miners are sick and dying from the occupational disease' but provides no number, rate, or denominator. The brief data_point says 'Thousands of miners are sick and dying' (same phrasing), but the brief itself is thin (marked 'thin': true) with only 3 data_points and no sourced numbers. This claim lacks the specificity required for a health crisis story and should not appear without a concrete figure traced to the source."
+    ]
+   },
+   {
+    "id": "c100",
+    "headline": "Analysis links Trump AI data center push to air pollution risks",
+    "category": "accuracy",
+    "reasons": [
+     "The draft presents 'An analysis reported by the New York Times suggests that expanded AI data center development under Trump administration policies will generate significant air pollution and environmental health consequences' as fact, but the brief notes zero data_points and explicitly states 'No source text was fetched from the New York Times URL. The snippet is empty.' The core claim itself cannot be verified against the source; the writer has smuggled a claim that the brief does not support.",
+     "The draft acknowledges 'the full details of the analysis, including specific pollution projections, affected geographic areas, and methodology, could not be retrieved from the source,' but then still presents the existence and findings of the analysis as established fact rather than treating it as unconfirmed. This violates the hard rule that no fact exists outside the brief.",
+     "The bottom_line directs readers to 'consult the original source, which carries the specific findings and scope,' but the brief confirms no source content was successfully fetched (source_chars: 0). The draft cannot verify what the source actually says."
+    ]
+   }
+  ]
  }
 ]
