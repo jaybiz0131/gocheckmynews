@@ -1,0 +1,38 @@
+{
+  "id": "c295",
+  "slug": "missouri-voters-block-gop-effort-to-raise-bar-for-constitutional-amendments",
+  "kind": "brief",
+  "title": "Missouri voters block GOP effort to raise bar for constitutional amendments",
+  "dek": "Missouri voters rejected Amendment 4, a Republican-led ballot measure that would have required citizen-initiated constitutional amendments to win majorities in each congressional district rather than statewide. The rejection comes after progressives have used direct democracy to advance abortion rights, Medicaid expansion, and marijuana legalization in the state.",
+  "date": "2026-08-05",
+  "published_utc": "2026-08-05T00:59:49Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 3,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Missouri voters blocked Amendment 4, which would have required ballot initiatives to win majorities in all congressional districts, making it the strictest such threshold in the nation.",
+  "bottom_line": "The defeat of Amendment 4 marks a significant setback for GOP efforts to restrict ballot initiatives in a deep-red state. Watch whether Republican lawmakers attempt other legislative routes to limit the initiative process or whether the ballot initiative system becomes a flashpoint in future state races.",
+  "human_take": "",
+  "body": [
+    "Missouri primary voters rejected Amendment 4 on Tuesday, a Republican-led ballot measure that would have required citizen-initiated constitutional amendments to win majorities in each of Missouri's congressional districts rather than simply winning statewide approval.",
+    "Amendment 4 would have created what Hannah Ledford, deputy director of the Fairness Project, described as the strictest passage threshold in the country for citizen-initiated ballot measures. Other ballot measures, such as those referred from the state legislature, would not have been subject to the higher bar under the amendment.",
+    "The measure was first proposed by Republican state Rep. Ed Lewis after Missouri voters used the citizen initiative method to advance progressive priorities in recent years. According to NBC News, recent ballot initiatives have granted abortion rights, expanded Medicaid, and legalized marijuana. Lewis stated on a radio program, per NBC News: \"This amendment is really an amendment to protect our Constitution. We have the absolute lowest and weakest process and that's why we've had six initiative petitions passed in the last eight years that have really done real harm to our state and to our Constitution.\"",
+    "After the rejection of such amendments, Missouri's Republican-controlled Legislature has repealed or limited some changes made through ballot initiatives, including repealing paid sick leave, according to NBC News.",
+    "Opponents of Amendment 4 poured more than $6 million into broadcast ads, per data from the tracking firm AdImpact. The measure's backers did not air any broadcast ads, according to AdImpact. The campaign against Amendment 5, a separate proposal to end income taxes and expand sales taxes, also included arguments against Amendment 4 in their advertising.",
+    "Missouri is one of 26 states that allows voters to legislate directly by petitioning to place a constitutional amendment on the ballot, per NBC News. Ledford argued the amendment could have left Missouri's direct democracy process \"functionally dead.\"",
+    "The rejection comes as Republican lawmakers last year redrew Missouri's congressional map to carve up the state's lone Democratic-held district. Missouri Secretary of State Denny Hoskins subsequently said a referendum seeking to undo the new congressional map would not appear on the state ballot, arguing the effort was unconstitutional, according to NBC News. Similar ballot measure restrictions are set to face voters in other states: in November, North Dakota and South Dakota voters will decide whether to bump the threshold for citizen-led constitutional amendments up from a statewide majority to 60 percent. Utah will also see a comparable measure on the fall ballot specifically related to tax increases."
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/politics/2026-election/missouri-voters-block-gop-effort-raise-bar-constitutional-amendments-rcna590028"
+    }
+  ],
+  "event_utc": "2026-08-05T00:31:54Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-05T00:59:49Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}

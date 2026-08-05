@@ -1,0 +1,37 @@
+{
+  "id": "c288",
+  "slug": "arson-suspect-arrested-in-spokane-wildfires-has-prior-manslaughter-conviction",
+  "kind": "brief",
+  "title": "Arson suspect arrested in Spokane wildfires has prior manslaughter conviction",
+  "dek": "Aaron Farinacci, 37, was arrested Monday on suspicion of first-degree arson in connection with the Old Trails Fire in the Spokane area. Farinacci has a prior manslaughter conviction and was found in possession of waterproof matches and a butane lighter when detained. Over 700 buildings have been destroyed across three fires.",
+  "date": "2026-08-05",
+  "published_utc": "2026-08-05T00:59:49Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 5,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "A man with a prior manslaughter conviction has been arrested for arson in connection with the Old Trails Fire in Spokane, which has destroyed over 700 buildings.",
+  "bottom_line": "The arrest advances the investigation into one of the largest fire events Spokane has seen, though two other fires remain active and unattributed. A return of dangerous conditions by midweek could further stress firefighting resources and evacuation efforts.",
+  "human_take": "",
+  "body": [
+    "Aaron Farinacci, 37, was arrested Monday on suspicion of first-degree arson in connection with the Old Trails Fire in the Spokane area, according to CBS News. Farinacci has a prior manslaughter conviction, according to the reporting.",
+    "A witness reported seeing Farinacci kneeling near grass where the fire began, per CBS News. When Farinacci was detained, he was found in possession of waterproof matches and a butane lighter. Authorities believe the fire was started with matches or a lighter, according to Spokane County Sheriff John Nowels, who confirmed the details at a press conference late Monday. Farinacci was booked on the arson charge and held on 1 million dollars bond.",
+    "The Old Trails Fire is one of three major blazes burning in the Spokane area. More than 700 buildings in the region have been destroyed, with another 400 yet to be assessed, according to CBS News. Approximately 67,000 people are under evacuation orders as a result of the three fires.",
+    "The fires began Saturday. The Old Trails Fire and Fairview Fire remain active, while firefighters focused on the Autumn Lane Fire on Sunday and Monday. No fatalities have been reported, and all persons previously reported missing in the area have been located, per CBS News.",
+    "Conditions are expected to deteriorate by Wednesday, when temperatures are forecast to reach the 90s through Friday. The Spokane area experienced no rain throughout July, according to the reporting. Across Washington state, at least 16 major fires are burning, marking one of the worst fire seasons in the Pacific Northwest in three decades, per CBS News. Washington Gov. Bob Ferguson said this is likely the worst natural disaster in Spokane history. Farinacci was arrested only in connection with the Old Trails Fire, not the other two."
+  ],
+  "sources": [
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/spokane-washington-wildfires-homes-destroyed/"
+    }
+  ],
+  "event_utc": "2026-08-05T00:05:51Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-05T00:59:49Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "update_of": "arson-suspect-in-spokane-area-wildfire-had-prior-manslaughter-conviction"
+}

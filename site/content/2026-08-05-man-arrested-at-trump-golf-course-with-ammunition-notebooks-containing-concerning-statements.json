@@ -1,0 +1,53 @@
+{
+  "id": "c010",
+  "slug": "man-arrested-at-trump-golf-course-with-ammunition-notebooks-containing-concerning-statements",
+  "kind": "brief",
+  "title": "Man arrested at Trump golf course with ammunition, notebooks containing concerning statements",
+  "dek": "A 38-year-old man was arrested at Trump National Golf Club in Rancho Palos Verdes, California, on Sunday after plainclothes federal agents reported him taking photos and appearing to monitor security preparations. A loaded pistol and ammunition magazine were found in his vehicle; a search of his home uncovered additional firearms, body armor, and concerning notebooks.",
+  "date": "2026-08-05",
+  "published_utc": "2026-08-05T00:59:49Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 1,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Jeanine John Taele, 38, was arrested at Trump National Golf Club in Los Angeles on Sunday after appearing to monitor security and carrying ammunition; federal agents found a loaded pistol in his vehicle and multiple firearms at his home.",
+  "bottom_line": "Taele remains in custody pending trial on the charged offenses. The case outcome and any eventual release of information regarding the concerning statements found in his notebooks will shape public understanding of what authorities believed he was attempting at the golf club.",
+  "human_take": "",
+  "body": [
+    "A 38-year-old man was arrested at Trump National Golf Club in Rancho Palos Verdes, California, on Sunday after plainclothes federal agents reported observing him taking photographs and video while appearing to monitor security-planning activities ahead of Trump's Tuesday fundraising dinner for the Republican National Committee.",
+    "Jeanine John Taele was found carrying a 16-round magazine loaded with hollow-point ammunition in his pants pocket, according to NPR's reporting. When deputies located his vehicle in the golf club's parking lot, they recovered a loaded pistol with a round chambered and an additional loaded magazine containing hollow-point ammunition, per ABC News.",
+    "Authorities announced the arrest on Tuesday. A search of Taele's home in Downey on Monday, per NPR, found a plethora of firearms, magazines and ammunition, body armor, and notebooks with concerning statements. ABC News also reported that two radio signal devices were recovered at the residence. The Los Angeles County District Attorney's Office received the case Tuesday for filing consideration.",
+    "Taele was charged with second-degree robbery, receiving a large-capacity magazine, possession of a short-barreled rifle or shotgun, and carrying a concealed firearm in a vehicle (misdemeanor), according to NPR. He pleaded not guilty to all charges on Monday. His bail was set at $250,000, and he was ordered to stay away from the golf course and not possess weapons.",
+    "At the time of contact with authorities on Sunday, Taele was already the subject of a robbery investigation by the El Segundo Police Department, according to NPR. The incident remains under investigation in coordination with the FBI's Joint Terrorism Task Force and the United States Secret Service, per ABC News. The Los Angeles County Sheriff's Department stated there is no credible threat to communities.",
+    "The arrest comes roughly one year after a jury found Ryan Routh guilty of attempting to assassinate Trump at his Florida golf course by hiding in bushes with a military-grade SKS rifle. Routh was sentenced to life in prison earlier this year, according to ABC News."
+  ],
+  "sources": [
+    {
+      "title": "NPR",
+      "url": "https://www.npr.org/2026/08/04/g-s1-137415/trump-golf-course-arrest-california"
+    },
+    {
+      "title": "abcnews.com",
+      "url": "https://abcnews.com/US/armed-man-arrested-trump-national-golf-los-angeles/story?id=135369202"
+    },
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/2026/aug/04/man-arrested-trump-california-golf-course"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/president-trump-los-angeles-county-golf-club-armed-suspect-arrested/"
+    },
+    {
+      "title": "Washington Examiner",
+      "url": "https://www.washingtonexaminer.com/news/crime/4675264/armed-man-arrested-trump-california-golf-course/"
+    }
+  ],
+  "event_utc": "2026-08-05T00:30:48Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-05T00:59:49Z",
+    "sources_cited": 5,
+    "sources_live_checked": 3
+  }
+}

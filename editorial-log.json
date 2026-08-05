@@ -4413,5 +4413,45 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-05",
+  "approved": 4,
+  "rejected": [
+   {
+    "id": "c112",
+    "headline": "OpenAI settles US discrimination claims for $3.2 million",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The settlement does not address several unresolved questions about the scope and duration of the alleged practices, the number of US applicants affected, what specific recruiting and hiring methods were at issue, or what remedial measures the companies have committed to undertake.' This claim is not in the brief. The brief lists these as open_questions (unanswered by available reporting), but the draft presents them as facts the settlement itself 'does not address'\u2014implying the draft has knowledge of what the settlement contains. This is smuggled information beyond the brief's scope."
+    ]
+   },
+   {
+    "id": "c107",
+    "headline": "Federal judge dismisses seditious conspiracy cases against Oath Keepers militia members",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'vacates the seditious conspiracy convictions' but the brief's data_point says 'dismissed the seditious conspiracy convictions'\u2014these are materially different legal outcomes. Dismissal and vacation are distinct remedies with different implications. The brief itself is marked 'thin: true' with critical open_questions including 'The basis for the judge's decision to grant the dismissal is not provided in the available source text' and 'Whether the dismissals are final or subject to appeal is not clarified'\u2014indicating the source material is incomplete. The draft presents these distinctions as settled fact when the brief's own methodology flags the source as insufficient.",
+     "The draft presents as fact what the brief marks as incomplete sourcing. The open_questions note 'The source text provided is incomplete\u2014it contains only header navigation code and does not include the substantive article content beyond the headline'\u2014a red flag that the writer may be working from secondary reporting rather than verified source material."
+    ]
+   },
+   {
+    "id": "c241",
+    "headline": "U.S. military missile and interceptor supplies severely depleted after Iran operations",
+    "category": "accuracy",
+    "reasons": [
+     "The draft claims 'The U.S. military has expended virtually all of its supply of premier long-range missiles after more than five months of airstrikes against Iran' but the brief's open_questions state 'The source text is empty; no details are provided on the specific quantities of missiles or interceptors depleted, the timeline of the Iran strikes, casualty figures, or the strategic context of the operations.' and 'The precise duration of the conflict and the rate of depletion are not specified.' The writer is presenting as fact claims that the brief itself identifies as unsourced or unverified in the material provided.",
+     "The brief is marked 'thin: true' with 'source_chars: 0'\u2014indicating the source URL yields no retrievable content. The draft contains two substantive claims about military depletion, neither of which can be traced to actual source material per the brief's own assessment."
+    ]
+   },
+   {
+    "id": "c139",
+    "headline": "Democrat exits Senate race in South Dakota, clearing way for independent",
+    "category": "accuracy",
+    "reasons": [
+     "The sentence 'Rounds told NBC News that his campaign strategy would not change if the Democratic contender dropped out, suggesting he does not regard Bengs as a weaker opponent than Beaudion would have been' misrepresents the brief's data point. The brief states Rounds's comment 'suggesting Bengs is actually a Democrat' (an unclear/corrupted data point itself), but the draft interprets it as suggesting Rounds views Bengs as equally strong. The brief's bear_case says 'Rounds told NBC News that his campaign strategy would not change...suggesting he does not view Bengs as a weaker opponent than Beaudion would have been'\u2014the draft correctly reflects the bear_case interpretation, but the data_point is malformed in the brief. The draft should reflect what Rounds actually said without the confusing parenthetical. Since the exact quote and Rounds's actual meaning are unclear in the source materials, this claim should be removed or marked as ambiguous."
+    ]
+   }
+  ]
  }
 ]
