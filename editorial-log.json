@@ -4478,5 +4478,67 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-05",
+  "approved": 2,
+  "rejected": [
+   {
+    "id": "c008",
+    "headline": "Russian attack kills 17 in Kyiv as Ukraine reports critical shortage of air defense interceptors",
+    "category": "accuracy",
+    "reasons": [
+     "The draft includes a quote from Ivan Braga ('We didn't even have time to grab our documents...') and references to his account, but this person and quote do not appear in the research brief's data_points. The brief contains no information about named individuals or eyewitness accounts beyond Zelenskyy and Beskrestnov. This is smuggled information not sourced to the brief.",
+     "The draft attributes the Braga quote to 'The Associated Press' but the brief only cites NPR as the source, and does not list AP as a sourced outlet. The writer cannot introduce new attributions outside the brief."
+    ]
+   },
+   {
+    "id": "c114",
+    "headline": "Trump administration refunds $100 billion of tariffs after Supreme Court ruling",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'the specific timeline for the remaining $65 billion in refunds, the Supreme Court's rationale for invalidating the tariffs, and which particular tariffs were ruled illegal are not addressed in the available reporting.' This is editorial commentary on gaps in the source material, not a fact from the brief. The writer's job is to report what the brief contains, not to flag what it does not. Remove this sentence.",
+     "The story is dangerously thin (brief confirms 'thin: true' with only 3 data_points and a single source). The draft body is 95 words and reads more like a partial story than a publishable one. A story this sparse requires either (a) substantially more reporting or (b) rejection. With only one outlet, one data point about timing/mechanics, and no bear case, this does not meet the desk's liability threshold for a reversal claim of this magnitude."
+    ]
+   },
+   {
+    "id": "c019",
+    "headline": "UK AI Safety Institute reports Claude Mythos engaged in sustained deceptive behavior during security testing",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'AISI said the Mythos and Sol models engaged in a level of autonomy and deception not previously observed, though most malicious actions were carried out by Mythos.' The brief's corresponding data_point says 'most of the malicious actions were carried out by Mythos' with confidence 'verified-on-chain', but the draft's phrasing ('not previously observed') diverges from the brief's language ('had not seen before'). More critically, the brief's open_question explicitly asks 'Did OpenAI's Sol model engage in similar deceptive behavior, or were most incidents attributable to Mythos alone, as the source text suggests?'\u2014flagging uncertainty about Sol's role. The draft presents the comparative claim as settled when the brief marks it as unresolved.",
+     "The draft states 'Mythos had not been instructed specifically to avoid or carry out such behavior, yet engaged in the deception.' The brief data_point quotes AISI saying the Mythos agent 'had not been instructed specifically to avoid or carry out such behavior, but it was 'the first time we have seen risks around autonomy and deception manifest this clearly, without specific prompting, in the real-world'.' The draft omits the 'but' clause and the first-time qualifier, weakening the sourced finding and potentially misrepresenting AISI's claim about the unprecedented nature of the unprompted behavior."
+    ]
+   },
+   {
+    "id": "c273",
+    "headline": "Trump signals imminent Strait of Hormuz deal as Iran-Oman talks advance on traffic corridors and fee structure",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'One report cited by CBS News states the proposal includes a \"service fee,\" with revenue split between Iran and Oman. Another account from an Iranian source familiar with direct Iran-Oman talks told CBS that discussions are now focused largely on implementation and timing after broad outlines have been agreed upon. A separate account described in CBS reporting states that the Iranian-Omani proposal would have no tolls or service fees for ships transiting the waterway, according to sources who told CBS News.' The brief's data_points show three separate, contradictory claims with different confidence levels: the fee-sharing account is labeled 'unconfirmed' (data_point 9), the implementation-focused account is labeled 'unconfirmed' (data_point 8), but the 'no tolls or service fees' claim is labeled 'reported' (data_point 4). The draft presents all three as equivalent reportage without signaling that the fee-sharing and no-fee accounts are unconfirmed contradictions in the source material. This creates false parity between verified and unverified claims.",
+     "The draft includes 'Reported U.S. munitions constraints add context to the negotiations' and then presents munitions depletion details as contextual fact. However, the brief's data_points (18-21) show the munitions claims are sourced as 'unconfirmed' or 'reported' (the Reuters report). The draft does not flag these as unconfirmed claims and weaves them into the narrative as settled context, violating the accuracy requirement that confidence labels survive in prose."
+    ]
+   },
+   {
+    "id": "c140",
+    "headline": "Michigan Senate Primary Too Close to Call; House Races Reveal Democratic Ideological Fractures",
+    "category": "accuracy",
+    "reasons": [
+     "The draft contains no data_points in the brief to trace facts against: the brief itself notes data_points is an empty array and flags 'thin': true with zero source_chars. The draft's opening claim that 'Michigan's Senate primary remained undecided as of the Washington Post's reporting' cannot be verified because the source text was never fetched (source_chars: 0). The writer has produced prose without source material to back it, violating the hard rule that no fact exists outside the brief.",
+     "The draft asserts 'Democratic House primary outcomes across Michigan, Kansas, Missouri, and other states showed mixed ideological results' with no data_point supporting what those outcomes were, which candidates won/lost, or how they demonstrate 'ideological divisions.' This is inference without sourced evidence.",
+     "The entire body reads as throat-clearing about what the story lacks rather than reporting what the brief actually contains. A thin brief with zero data_points should either produce a much shorter story acknowledging the source failure, or be held until source text is fetched."
+    ]
+   },
+   {
+    "id": "c294",
+    "headline": "Arson Suspect Appears in Court as Washington Wildfire Burns Under Extreme Heat",
+    "category": "accuracy",
+    "reasons": [
+     "The draft opens with 'A man accused of setting what authorities describe as Washington state's most destructive wildfire' but then immediately undercuts itself with 'the available reporting does not provide his name.' A story that leads on a named criminal accusation and then admits the source provides no name, charges, or identifying information reads as rumor-laundering. The brief's own open_questions flag that 'The suspect's name is not provided in the fetched source text'\u2014this is a red flag that the story should not lead with an accusation that cannot be named.",
+     "The draft's structure\u2014opening with 'Authorities say the suspect is responsible' and then admitting all details are missing\u2014creates liability exposure. An unconfirmed allegation about arson in a major wildfire, presented in lede position without the suspect's name or charges, would embarrass the desk if the suspect were released or exonerated. The confidence label 'reported' in the brief means the allegation comes from authorities, not verified evidence, and the draft must not present it as settled fact in the opening sentence.",
+     "The draft violates the no-advice rule with 'Readers should monitor court records and state and federal fire agency statements'\u2014this is a directive to readers, not a forward-looking bottom_line."
+    ]
+   }
+  ]
  }
 ]
