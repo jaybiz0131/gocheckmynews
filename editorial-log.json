@@ -4636,5 +4636,51 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-05",
+  "approved": 4,
+  "rejected": [
+   {
+    "id": "c082",
+    "headline": "Federal Officials Investigate Cyberattacks on U.S. Water Systems",
+    "category": "accuracy",
+    "reasons": [
+     "The draft claims 'Federal officials are responding to cyberattacks on water systems' and later references 'cyberattacks on the U.S. water supply across at least 12 states, attributed to Iranian hackers' in the brief's core claim, but the brief's own open_questions section explicitly states 'No source text was fetched from the New York Times URL; the brief cannot verify which states were affected, the scope of damage, the timeline of the attacks, what specific systems were compromised, the basis for attribution to Iran, or what prior warnings went unheeded.' The draft cannot assert 'Federal officials are responding' as fact when the source material was never retrieved and verified.",
+     "The draft presents the core claim about Iranian attribution and 12-state scope as established fact in the opening sentence, but the brief carries no data_points whatsoever supporting these claims. The brief itself is marked 'thin: true' with 'source_chars: 0', indicating the source was never actually fetched. The draft smuggles in unverified facts.",
+     "The draft should flag this as unconfirmed reporting, not present it as settled fact. A brief with zero data_points and zero source characters cannot support the definitive framing the draft uses."
+    ]
+   },
+   {
+    "id": "c081",
+    "headline": "Abdul El-Sayed Wins Michigan Democratic Senate Primary",
+    "category": "accuracy",
+    "reasons": [
+     "The draft opens with 'Abdul El-Sayed won the Michigan Democratic Senate primary, according to the New York Times' and treats this as fact, but the brief's open_questions explicitly states 'The source text is a navigation header and partial article structure; it does not contain the vote count, margin of victory, opponent names, turnout figures, or substantive reporting on El-Sayed's policy positions or the race dynamics.' The source was never properly retrieved.",
+     "The brief's single data_point is labeled 'confidence: reported' but references a URL that returned only navigation headers (source_chars: 4637 of mostly structure, not content). The draft cannot assert El-Sayed 'won' without actual vote data or election results in the source material.",
+     "The draft states 'the specific vote totals, margin of victory, opponent names, and turnout figures are not available' (correctly) but then opens by asserting the win as fact anyway. This is internally contradictory and constitutes smuggling the core claim without sourced evidence."
+    ]
+   },
+   {
+    "id": "c130",
+    "headline": "Rep. Chuck Edwards Withdraws From Reelection After Ethics Committee Censure Recommendation",
+    "category": "accuracy",
+    "reasons": [
+     "The draft asserts 'An Ethics Committee report documented what the Post describes as persistent unprofessional and inappropriate conduct by Edwards toward two young female staffers, and recommended his censure' but the brief's open_questions explicitly includes 'What specific conduct did the Ethics Committee report document?' and 'When was the censure recommendation issued?' The brief itself carries source_chars: 0, indicating no actual source text was retrieved.",
+     "The draft presents the ethics allegations as documented fact ('documented what the Post describes') when the brief's own data_points merely claim these facts were 'reported' and the source material was never successfully fetched. The draft is sourcing from a non-existent document.",
+     "The brief has no bear_case items, and Edwards' perspective or response is completely absent from the draft. The draft states 'Edwards' stated reasons for withdrawing...cannot be confirmed from the available source material' yet presents the conduct allegations as confirmed, creating an asymmetry of verification that violates the rule that confidence labels must survive in prose."
+    ]
+   },
+   {
+    "id": "c172",
+    "headline": "White House declassifies FBI memos on investigation into Trump's firing of Comey",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Earlier this year, Comey was charged with threatening Mr. Trump's life by posting photos of seashells arranged to form the numbers '86 47'' but this claim appears only as a data_point marked 'verified-on-chain' in the brief with no source verification process described. The phrasing 'seashells arranged to form numbers' is unusual and specific; the brief does not clarify the basis for this claim or whether it comes from an official charge document or reporting. This allegation about a private citizen requires sourcing to official record or on-record statements and should not appear as settled fact without explicit attribution.",
+     "The draft references 'The Justice Department has denied allegations by former FBI Director Comey that he is being selectively prosecuted' but the brief's corresponding data_point says 'The Justice Department has denied that Comey is being selectively prosecuted.' The draft attributes an allegation to Comey ('allegations by former FBI Director Comey') that the brief does not confirm came from Comey himself; the brief only states Comey 'has alleged he is being vindictively and selectively prosecuted' in a separate data_point. The draft rewrites the sequence to suggest DOJ is responding to Comey's public allegations, when the brief does not establish that Comey made a public statement on this specific point before DOJ's denial. This reshuffles the factual record beyond what the brief supports.",
+     "The draft includes 'Last year, Comey was separately charged with making false statements to Congress, though the indictment was dismissed' but presents this as a closed matter of fact without sourcing to an official record or on-record confirmation. The brief lists this as a verified data_point but does not specify the source document or official statement confirming dismissal. Personal material about a named private individual beyond what the sourced record carries requires explicit attribution and should not read as the desk's own fact."
+    ]
+   }
+  ]
  }
 ]
