@@ -4593,5 +4593,48 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-05",
+  "approved": 4,
+  "rejected": [
+   {
+    "id": "c125",
+    "headline": "Primary elections held August 5, 2026 in Michigan, Kansas, Missouri and other states",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Primary elections were held August 5, 2026 across multiple states including Michigan, Kansas, and Missouri' but the brief contains no data_points with any specific details about what happened in Kansas, Missouri, or other states. The only factual content in the brief is the core_claim mentioning these states held primaries and that Michigan Senate race was too close to call. The brief explicitly flags open_questions asking 'What specific primary election results occurred in Kansas, Missouri, and other states beyond Michigan?' and 'Who were the Democratic and Republican nominees that emerged from these primaries?' \u2014 indicating the writer was instructed that these facts do not exist in the research. The draft asserts facts that violate the hard rule: 'no fact exists outside the brief.'",
+     "The draft cites only one source (Washington Post) that provides zero character content according to the brief metadata (source_chars: 0), meaning the writer has no documented research supporting the claims made beyond the Michigan mention in the core_claim. This is a smuggled fact problem."
+    ]
+   },
+   {
+    "id": "c082",
+    "headline": "Russian Missile Attack Kills 17 in Kyiv as Ukraine's Air Defense Depletes",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Ukraine is running desperately low on interceptor missiles' and 'Russia's capacity to produce or procure missiles significantly exceeds Ukraine's ability to intercept them.' These claims are sourced only to the single NYT article cited in the brief, but the draft then admits in its own body: 'The brief does not specify which areas of Kyiv were struck, how many missiles Russia fired in the attack, how many were intercepted...' This is self-contradiction. The writer is acknowledging the brief does not support the asymmetry claim with specifics, yet the draft presents it as established fact. The brief's data_points show only two claims\u201417 killed and low interceptor supply\u2014both marked 'reported' with no supporting detail on the asymmetry argument. The angle (military asymmetry) appears in the brief but not in substantive data; the draft presents it as narrative fact without the measured language required.",
+     "The third paragraph reads like editorial commentary ('underscores an emerging military constraint') rather than reporting of what the source said. It offers analysis the brief does not support with data."
+    ]
+   },
+   {
+    "id": "c265",
+    "headline": "Trump Says Strait of Hormuz Deal Could Arrive Within Days as Iran-Oman Talks Progress",
+    "category": "balance",
+    "reasons": [
+     "The brief's bear_case explicitly flags that 'the proposed Iran-Oman deal includes a service fee with revenue split between Iran and Oman, which appears to contradict Trump's stated position on no tolls.' The draft does present both Trump's opposition to tolls and the unconfirmed reports of service fees, but the structure and tone flatten the tension rather than highlight it as irreconcilable. The draft presents Trump's position, then the conflicting proposals, then moves to military stockpile issues. A reader finishes without clarity on whether this deal is actually viable under Trump's stated red lines. The bottom_line acknowledges the tension ('core unresolved tension remains') but the body does not emphasize it proportionally to the brief's assessment of it as a deal-breaker. The bear_case is present but muted.",
+     "The draft pivots heavily into U.S. military stockpile depletion (three full paragraphs) as a separate negotiating context. While the brief includes this data, the draft devotes disproportionate space to it relative to the core story (Trump's timeline + tolls contradiction). This imbalance de-emphasizes the core conflict the brief flagged.",
+     "The draft presents multiple unconfirmed claims ('service fees', '60-day free transit', 'broad outlines agreed') without consistent labeling. Some are embedded in phrases like 'sources said' or 'according to unconfirmed sources' but others read as settled: 'ships would use the route closest to Iran' (unconfirmed in brief, presented as procedure in draft). The bear_case items deserve more structural weight given the stakes."
+    ]
+   },
+   {
+    "id": "c132",
+    "headline": "U.S. Halts Exports of Recycled Battery Metals and Tungsten",
+    "category": "accuracy",
+    "reasons": [
+     "The draft presents 'The U.S. is moving to halt exports of recycled battery metals and tungsten' as fact, but the brief contains zero data_points\u2014no sourced claim in the research to support this statement. The brief's core_claim is present but unsupported by any research data. The rule is: no fact exists outside the brief. This entire draft is built on an unsourced core claim.",
+     "The draft repeatedly acknowledges the WSJ reporting 'does not specify' and 'does not address' key details, then presents the policy as a confirmed announced measure. A story built on admitting the source says nothing substantive about the policy itself violates accuracy: the writer is using the source's silence as permission to write about the policy, rather than reporting what was actually said. If the WSJ reported only the bare announcement without detail, the brief should reflect that limit; instead, the brief offers no data_points to verify even the existence of the announcement."
+    ]
+   }
+  ]
  }
 ]

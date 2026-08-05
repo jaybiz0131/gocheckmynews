@@ -1,0 +1,63 @@
+{
+  "id": "c264",
+  "slug": "spacex-posts-7-8b-revenue-in-first-public-earnings-stock-falls-despite-beat",
+  "kind": "brief",
+  "title": "SpaceX Posts $7.8B Revenue in First Public Earnings, Stock Falls Despite Beat",
+  "dek": "SpaceX reported second-quarter revenue of $7.8 billion, exceeding analyst forecasts of $6.8 billion, according to CBS News. The company posted a net loss of $541 million. Stock fell 7% in after-hours trading despite the beat.",
+  "date": "2026-08-05",
+  "published_utc": "2026-08-05T13:09:13Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 7,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "SpaceX's Q2 2026 revenue of $7.8 billion exceeded FactSet analyst forecasts of $6.8 billion, marking the company's first quarterly report as a publicly traded company.",
+  "bottom_line": "SpaceX cleared Wall Street's Q2 revenue bar but the market's reaction underscores investor doubt about the company's path to profitability amid heavy infrastructure spending. Watch whether upcoming quarters show either accelerating revenue growth sufficient to justify capex or management guidance on when the company expects to reach sustained profitability.",
+  "human_take": "",
+  "body": [
+    "SpaceX reported second-quarter revenue of $7.8 billion, surpassing Wall Street forecasts, in its maiden earnings report as a publicly traded company. Yet the stock sank 7% to $116.40 in after-hours trading, falling below the $135 per share IPO offer price, according to CBS News reporting.",
+    "The company posted a net loss of $541 million in the quarter, an improvement from a $1 billion net loss in the same period last year, per CBS News. Analyst consensus forecasted revenue of $6.8 billion for the quarter, according to FactSet data cited in the reporting.",
+    "All three of SpaceX's main business units reported revenue above consensus estimates. The connectivity unit, which houses Starlink satellite internet service, generated $4.3 billion in quarterly revenue, exceeding the FactSet analyst consensus of $3.8 billion, per CBS News. Starlink subscribers doubled to 12 million from 6 million in the year-ago quarter, according to the reporting. The Starship division reported $962 million in quarterly revenue. The AI unit booked $2.6 billion, according to CBS News.",
+    "Musk stated during the earnings call that SpaceX expects to deliver more than 1 million tons to orbit per year, with potential to eventually reach 10 million tons annually. For context, Musk said the rest of the world delivers around 300 tons, according to CBS News reporting. SpaceX launched its 13th Starship test flight in late July, though no Starship has yet been placed into Earth orbit, per the reporting.",
+    "Market analyst Adam Crisafulli, head of Vital Knowledge, noted that all three main business units reported revenue ahead of consensus. However, investor appetite cooled after the announcement. Emarketer Senior Analyst Gadjo Sevilla stated, according to CBS News, that investors are skeptical of long-term promises: \"I don't think people want to hear promises about the next five years or a mission to Mars. Everyone knows that will take time. They want to see how the value can be turned around as quickly as possible.\" Analysts cited SpaceX's capex spending plans, including nearly $16 billion on AI infrastructure, as weighing on the stock.",
+    "SpaceX booked $18.7 billion in revenue for the full year 2025 but reported a net loss of more than $4.9 billion, according to a regulatory filing cited by CBS News. The company is targeting a moon landing in 2028. The stock has lost nearly 50% of its value from an intraday high of $225.64 reached on June 16, per CBS News reporting."
+  ],
+  "sources": [
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/spacex-earnings-elon-musk-ipo/"
+    }
+  ],
+  "event_utc": "2026-08-05T11:47:38Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-05T13:09:13Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "also_reported_by": [
+    {
+      "outlet": "TradingKey",
+      "headline": "Elon Musk's SpaceX Stock Jumps After First Public Earnings Beat on AI and Starlink Growth - TradingKey"
+    },
+    {
+      "outlet": "Newser",
+      "headline": "SpaceX Posts $541M Loss, Big Jump in Revenue - Newser"
+    },
+    {
+      "outlet": "bloomingbit",
+      "headline": "SpaceX Beats Revenue Estimates in First Post-IPO Quarter, Falls 5% After Hours on AI Spending - bloomingbit"
+    },
+    {
+      "outlet": "BBN Times",
+      "headline": "SpaceX Beats Q2 Revenue Estimates in First Post-IPO Report but AI Costs Send Stock Lower - BBN Times"
+    },
+    {
+      "outlet": "NDTV Profit",
+      "headline": "SpaceX Shares Rocket 8% As Wall Street Eyes Turnaround In First Earnings Post Listing - NDTV Profit"
+    },
+    {
+      "outlet": "710 KURV",
+      "headline": "SpaceX Posts Loss In First Report As A Public Company But Less Than Expected - 710 KURV"
+    }
+  ]
+}

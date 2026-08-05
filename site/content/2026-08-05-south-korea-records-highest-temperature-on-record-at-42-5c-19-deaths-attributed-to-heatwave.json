@@ -1,0 +1,61 @@
+{
+  "id": "c048",
+  "slug": "south-korea-records-highest-temperature-on-record-at-42-5c-19-deaths-attributed-to-heatwave",
+  "kind": "brief",
+  "title": "South Korea Records Highest Temperature on Record at 42.5C; 19 Deaths Attributed to Heatwave",
+  "dek": "South Korea recorded a high of 42.5 degrees Celsius in Yangsan on Sunday, its highest temperature since modern record keeping began. At least 19 people have died during the heatwave, and Seoul is under a severe heat warning for the first time under a government system established this year.",
+  "date": "2026-08-05",
+  "published_utc": "2026-08-05T13:09:13Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 5,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "South Korea recorded a high of 42.5 degrees Celsius on Sunday in Yangsan, its highest temperature since modern record keeping began, with at least 19 deaths attributed to the heatwave.",
+  "bottom_line": "South Korea's record temperature and mounting deaths highlight the strain extreme heat places on public health systems and infrastructure. Watch for updates on the heatwave's duration, any expansion of the alert system to other regions, and comparative data on heat-related mortality across recent years.",
+  "human_take": "",
+  "body": [
+    "South Korea recorded a high of 42.5 degrees Celsius in the southern city of Yangsan on Sunday, marking the country's highest temperature since modern record keeping began, according to BBC World. At least 19 people have died during the heatwave, per authorities cited by BBC World.",
+    "The extreme heat has prompted authorities to issue a severe heat warning for Seoul for the first time under a government alert system established this year specifically to respond to rising temperatures. The warning reflects the government's recognition that temperature extremes increasingly demand formal emergency classification and coordinated public response.",
+    "The brief does not specify the exact geographic scope of the heatwave, whether all 19 deaths were directly heat-related, the causes of individual deaths, or how the current event's severity compares to other recent heatwaves in South Korea or the broader region."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/videos/c935ng9n2klo?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "event_utc": "2026-08-05T11:30:39Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-05T13:09:13Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "update_of": "south-korea-records-highest-temperature-on-record-at-42-5-c-as-heatwave-claims-at-least-19-lives",
+  "also_reported_by": [
+    {
+      "outlet": "The News Pakistan",
+      "headline": "South Korea records its highest-ever temperature of 42.5C - The News Pakistan"
+    },
+    {
+      "outlet": "\uc870\uc120\uc77c\ubcf4",
+      "headline": "South Korea's Record 42.5\u00b0C Heatwave Shifts Toward Capital Region - \uc870\uc120\uc77c\ubcf4"
+    },
+    {
+      "outlet": "The Economic Times",
+      "headline": "South Korea records its highest-ever temperature of 42.5C - The Economic Times"
+    },
+    {
+      "outlet": "The Sun Malaysia",
+      "headline": "South Korea records its highest temperature ever at 42.5C - The Sun Malaysia"
+    },
+    {
+      "outlet": "Oman Observer",
+      "headline": "South Korea records its highest-ever temperature of 42.5C - Oman Observer"
+    },
+    {
+      "outlet": "BusinessToday Malaysia",
+      "headline": "South Korea\u2019s LG Records Highest Second Quarter Profit In History - BusinessToday Malaysia"
+    }
+  ]
+}
