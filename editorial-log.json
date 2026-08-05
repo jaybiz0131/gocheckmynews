@@ -4453,5 +4453,30 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-05",
+  "approved": 6,
+  "rejected": [
+   {
+    "id": "c115",
+    "headline": "Trump administration refunds $100 billion in tariff revenue",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The Supreme Court's ruling against the tariffs represents a significant legal setback' but the brief contains no data_point confirming a Supreme Court ruling on the tariffs. The only data_point states 'The U.S. Supreme Court ruled Trump's tariffs illegal' with confidence 'reported,' but this claim itself is thin (brief is marked thin=true with only 3 data_points). The draft presents as settled fact what appears to be unverified; the brief does not confirm the ruling occurred, only that the Guardian reported it.",
+     "The draft asserts the Supreme Court 'ruled them illegal' as established fact without attribution or confidence qualification. The brief marks this data_point as 'reported' (not 'verified'), meaning it comes from a single outlet. The writer must attribute this claim inline or qualify its status; presenting an unconfirmed court ruling as fait accompli is a liability violation."
+    ]
+   },
+   {
+    "id": "c272",
+    "headline": "Trump says Strait of Hormuz deal could happen as soon as this week",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'the U.S. has used virtually all of its Army Tactical Missile Systems (ATACMS) and Precision Strike Missiles during the war with Iran' as fact, but the brief marks this claim 'unconfirmed' (two anonymous sources). The confidence level must be preserved in the prose; presenting an unconfirmed sourced claim as settled fact violates the hard rule.",
+     "The draft presents 'U.S. officials told CBS there are limited inventories' without the 'reported' confidence label from the brief, again treating unconfirmed information as established.",
+     "The draft does not clearly signal the distinction between reported Trump administration positions (which are established) and the unconfirmed Iranian-source claims about service-fee splits and inbound/outbound channel management. Readers cannot distinguish what is on the record from what is anonymous-sourced hearsay without confidence-label clarity."
+    ]
+   }
+  ]
  }
 ]

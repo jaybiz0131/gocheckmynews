@@ -1,0 +1,61 @@
+{
+  "id": "c278",
+  "slug": "gluesenkamp-perez-and-trump-backed-braun-advance-in-washington-house-race",
+  "kind": "brief",
+  "title": "Gluesenkamp Perez and Trump-backed Braun advance in Washington House race",
+  "dek": "Democratic Rep. Marie Gluesenkamp Perez and Trump-endorsed Republican state Sen. John Braun advanced from Washington's 3rd Congressional District primary to the November general election, beating seven other candidates. The race is rated a tossup by the Cook Political Report and leans Democratic by the University of Virginia's Center for Politics.",
+  "date": "2026-08-05",
+  "published_utc": "2026-08-05T11:44:45Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 5,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Washington's 3rd District is one of 13 districts nationwide that voted for Trump in 2024 while also electing a Democrat to the House, making it a high-stakes battleground for 2026 House control.",
+  "bottom_line": "The general election will pit an incumbent Democrat with a cross-party voting record against a Trump-endorsed Republican who has demonstrated independence from the president on core issues. The outcome will test whether either candidate's willingness to diverge from partisan orthodoxy resonates with voters in a district that is nationally unusual in its split allegiances.",
+  "human_take": "",
+  "body": [
+    "Democratic Rep. Marie Gluesenkamp Perez and Republican state Sen. John Braun advanced from Washington's 3rd Congressional District primary to the November general election, per CBS News. Gluesenkamp Perez and Braun beat seven other candidates in the state's nonpartisan primary, which advances the top two vote-getters to the general ballot regardless of party affiliation.",
+    "Gluesenkamp Perez, a two-term congresswoman, has represented the district since 2023. She twice defeated Trump-backed candidate Joe Kent, who later became Trump's counterterrorism chief before resigning in protest over the Iran war. In her congressional record, Gluesenkamp Perez voted against President Joe Biden's student loan forgiveness plan, voted in favor of military support to Israel, and supported a previous version of Trump's voting regulations bill, now known as the SAVE America Act.",
+    "Braun, a Navy veteran who was elected to the state Senate in 2012, runs an emergency vehicle manufacturing plant. Trump endorsed Braun in April and called Gluesenkamp Perez \"a true radical left extremist.\" However, in a recent interview with local news station KGW, Braun publicly disagreed with Trump on the 2020 election, affirming that Biden won when asked to clarify. Braun also criticized Trump's sweeping tariffs, saying the \"broad, sometimes indiscriminate use of tariffs can be very harmful,\" including to his own manufacturing business, while allowing that import taxes are appropriate when \"talking about some of the threats from China and from Russia.\"",
+    "Washington's 3rd Congressional District, located in the southwestern corner of the state, was one of 13 districts nationwide that voted for President Trump in 2024 while also electing a Democrat to the House. The University of Virginia's Center for Politics rates the race as leans Democratic, while the Cook Political Report rates it as a tossup."
+  ],
+  "sources": [
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/washington-3rd-district-primary-results-marie-gluesenkamp-perez-john-braun/"
+    }
+  ],
+  "event_utc": "2026-08-05T05:02:45Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-05T11:44:45Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "also_reported_by": [
+    {
+      "outlet": "CBS News",
+      "headline": "Democratic Rep. Gluesenkamp Perez and Trump-backed Republican advance in Washington's 3rd District primary - CBS News"
+    },
+    {
+      "outlet": "Washington Examiner",
+      "headline": "Marie Gluesenkamp Perez to face Trump-backed John Braun in November - Washington Examiner"
+    },
+    {
+      "outlet": "The Seattle Times",
+      "headline": "Marie Gluesenkamp Perez, John Braun advancing in Washington\u2019s 3rd District - The Seattle Times"
+    },
+    {
+      "outlet": "KGW",
+      "headline": "Marie Gluesenkamp Perez, John Braun will face off in general election for Washington's 3rd Congressional District - KGW"
+    },
+    {
+      "outlet": "Washington State Standard",
+      "headline": "Trump backs Braun to unseat WA\u2019s Gluesenkamp Perez in US House race - Washington State Standard"
+    },
+    {
+      "outlet": "Northwest Progressive Institute",
+      "headline": "WA-03 is still Washington\u2019s tossup district: Marie Gluesenkamp Perez and John Braun are tied ahead of 2026 Top Two election - Northwest Progressive Institute"
+    }
+  ]
+}
