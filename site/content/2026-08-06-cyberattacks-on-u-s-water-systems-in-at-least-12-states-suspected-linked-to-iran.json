@@ -1,0 +1,48 @@
+{
+  "id": "c308",
+  "slug": "cyberattacks-on-u-s-water-systems-in-at-least-12-states-suspected-linked-to-iran",
+  "kind": "brief",
+  "title": "Cyberattacks on U.S. water systems in at least 12 states suspected linked to Iran",
+  "dek": "Federal officials suspect Iran-backed hackers have penetrated water system controls in at least 12 states, forcing some utilities to switch from remote to manual operation. While no drinking water contamination has been reported, the breaches reveal vulnerabilities in critical infrastructure that officials say resemble tactics used by an Iranian-linked group in 2023.",
+  "date": "2026-08-06",
+  "published_utc": "2026-08-06T01:00:15Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 1,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Hackers gained remote access to pumps, valves, and water pressure controls at utilities serving hundreds of thousands of customers, including the Clayton County Water Authority in Georgia.",
+  "bottom_line": "Federal agencies have not formally attributed the attacks to Iran, and the breach confirms only tactical similarity to a 2023 Iranian-linked campaign. Watch for further official attribution statements and disclosure of how many utilities remain exposed or have not yet patched their systems.",
+  "human_take": "",
+  "body": [
+    "Hackers have gained remote access to critical operational controls at water utilities across at least 12 U.S. states, forcing some systems to abandon automated functions and switch to manual operation, according to CBS News reporting. Federal investigators suspect Iran-backed actors carried out the intrusions, though no formal attribution has been made.",
+    "Affected states include Michigan, Minnesota, Georgia, New Jersey, and South Dakota, per CBS News. In Minnesota alone, more than 30 community water systems reported impact. In Georgia, the Clayton County Water Authority, which serves 300,000 customers in the Atlanta area, experienced cyber activity that caused a water pressure drop and forced a boil water advisory on August 4 before service was restored within hours, according to CBS News.",
+    "On July 30, the FBI, Environmental Protection Agency, and Cybersecurity and Infrastructure Security Agency jointly warned that cyber threat actors had remotely accessed online infrastructure for water and wastewater systems in at least seven states, resulting in loss of monitoring and control functionality, per CBS News. Some utilities lost critical remote-control capabilities to pumps, valves, and water pressure systems, according to the reporting.",
+    "Federal investigators suspect the tactics match those used by CyberAv3ngers, a group linked to the Iranian Revolutionary Guard, which in 2023 penetrated water-system controllers using default passwords, per CBS News. The resemblance to that campaign forms the basis for the suspicion, but federal investigators have not made any formal attribution to Iran.",
+    "Water agencies have been advised to disconnect their operating programs from the internet and strengthen password protections and firewalls, according to CBS News. So far, according to officials cited by CBS News, the cyberattacks have had no impact on drinking water, which has remained safe.",
+    "The intrusions underscore vulnerabilities in infrastructure that operates essential services. The briefing agencies have not disclosed which specific systems or operators were compromised or whether any information about customers or operations was stolen."
+  ],
+  "sources": [
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/more-states-water-systems-cyberattacks-iran-backed-hackers/"
+    },
+    {
+      "title": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQem5KNFMwWjJpTmtVOWxLQ3F3R20zZVdyeWRQYTJXR3kxNVM2dUFTSnZmN2RxaTlLOTNENmFPbmVnMUZaT1gxNVMxUW1oSXpnMVhvcGF1QnI0aUdOTFBCWmF2aGxLWV9YZXFhejM3eGNaNjZjc0RoaVIwc1lLZnAtN3ZPT2Z0aVpFQ0xlSEZvX2xSQQ?oc=5"
+    }
+  ],
+  "event_utc": "2026-08-05T23:41:00Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-06T01:00:15Z",
+    "sources_cited": 2,
+    "sources_live_checked": 2
+  },
+  "update_of": "water-systems-in-at-least-12-states-face-cyberattacks",
+  "also_reported_by": [
+    {
+      "outlet": "newsradio 1040 who",
+      "headline": "U.S. Water Suspected Iran Cyberattacks Include 12 States - newsradio 1040 who"
+    }
+  ]
+}

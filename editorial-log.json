@@ -4682,5 +4682,44 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-06",
+  "approved": 4,
+  "rejected": [
+   {
+    "id": "c083",
+    "headline": "Man arrested at Trump's California golf course with loaded pistol, armor-piercing ammo and fake security badge",
+    "category": "compliance",
+    "reasons": [
+     "The draft includes a direct quote from U.S. Attorney Bill Essayli stating 'While we are still investigating the motives of this individual, we are thankful he was apprehended before the President's visit. Federal and local law enforcement stepped in early and prevented what could have been a dangerous situation from occurring.' This quote characterizes the situation as a threat that was prevented, which reads as a verdict on Taele's intent. However, the brief explicitly states under open_questions: 'The sources do not establish Taele's specific intent or motive\u2014investigators are still reviewing his notebooks and reconstructing his activities to determine his intentions.' The prosecutor's characterization of a 'prevented dangerous situation' as fact, even in direct quote, creates liability when the actual intent remains undetermined. The desk must either attribute this assessment to the prosecutor clearly (as opinion/characterization) or remove it.",
+     "The draft states 'multiple notebooks containing what law enforcement described as 'concerning statements' referencing the White House were recovered' but the brief clarifies under open_questions that 'The full contents of the 'concerning statements' in the notebooks are not disclosed; only that they 'referenced the White House' per law enforcement sources.' The phrase 'concerning statements' in the draft appears to adopt law enforcement's characterization without sufficient hedging, given that the actual content and nature of these statements remain undisclosed and under investigation. This risks reading as a verdict on intent rather than a report of what was found."
+    ]
+   },
+   {
+    "id": "c089",
+    "headline": "AIPAC considers general election campaign against El-Sayed after $32M primary loss",
+    "category": "accuracy",
+    "reasons": [
+     "The draft contains only two sentences and all facts trace to the brief's data_points. However, the brief is marked 'thin': true and contains only 2 data_points with 0 source_chars, indicating the source text was empty or corrupted. The brief itself contains four open_questions that go to the core of the story's meaning: AIPAC's rationale, whether a final decision was made, El-Sayed's policy position, and the meaning of the primary result. A draft this short built from such thin sourcing\u2014where the actual Times article text is unavailable to the research team\u2014cannot be approved. The writer has no ability to verify that the $32M figure is accurate, that AIPAC is actually 'weighing' a general election effort (vs. announced it, ruled it out, etc.), or that this framing reflects what the Times actually reported. Reject pending resubmission after research brief is rebuilt with usable source text."
+    ]
+   },
+   {
+    "id": "c299",
+    "headline": "Salmonella Outbreak Linked to Jalape\u00f1o Peppers Spreads Across 27 States",
+    "category": "compliance",
+    "reasons": [
+     "Bottom line states 'consumers should verify the source of any jalape\u00f1os they have purchased' which reads as actionable advice to readers. This crosses into guidance territory inconsistent with the no-advice disclaimer. The bottom line should state what to watch or what would change the picture, not instruct readers on personal conduct."
+    ]
+   },
+   {
+    "id": "c295",
+    "headline": "Trump administration pays out milestone $100 billion in tariff refunds",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Beth Benike, founder and CEO of Busy Baby, received a $50,000 refund after months of delays' but the brief data_point says 'after months of glitches and delays.' The draft omits 'glitches,' which is a material detail about the nature of the delay and changes the scope of the complaint from the source."
+    ]
+   }
+  ]
  }
 ]
