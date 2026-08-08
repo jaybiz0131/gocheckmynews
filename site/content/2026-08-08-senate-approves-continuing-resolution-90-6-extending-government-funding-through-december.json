@@ -1,0 +1,37 @@
+{
+  "id": "c279",
+  "slug": "senate-approves-continuing-resolution-90-6-extending-government-funding-through-december",
+  "kind": "brief",
+  "title": "Senate approves continuing resolution 90-6, extending government funding through December",
+  "dek": "The Senate voted 90-to-6 on Saturday to approve a continuing resolution extending federal government funding through December 11. The bipartisan bill now goes to the House, which passed a separate GOP-led measure opposed by Democrats before its August recess.",
+  "date": "2026-08-08",
+  "published_utc": "2026-08-08T16:12:02Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 1,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The Senate approved the continuing resolution in a 90-to-6 vote, funding the government through December 11.",
+  "bottom_line": "The Senate's bipartisan bill now moves to a House controlled by Republicans who advanced a separate measure with Democratic opposition. Johnson's choice between the two versions will determine whether Congress avoids another shutdown or heads toward the fiscal cliff the bill is designed to prevent.",
+  "human_take": "",
+  "body": [
+    "The Senate approved a continuing resolution in a 90-to-6 vote on Saturday to fund the federal government through December 11, clearing a major fiscal deadline and sending the bipartisan measure to the House.",
+    "The bill keeps the government funded at current levels with some exceptions for six weeks beyond the September 30 end of the fiscal year, according to CBS News. The Senate pursued a bipartisan approach, acknowledging the need for support across the aisle given the 60-vote threshold required to advance most legislation.",
+    "The measure includes a provision closing a loophole that prevented the administration from transferring funds to Border Patrol, according to CBS News. Democrats had refused to fund immigration enforcement agencies earlier this year. The bill also includes language to temporarily prevent political appointees in the administration from implementing a proposed rule about federal grants. Democrats sought to permanently ban the rule, warning that it will allow the administration to cancel grants and \"take even more federal funding hostage,\" per CBS News. The temporary ban, rather than a permanent one, could cause the measure to lose support among Republicans, according to the reporting.",
+    "GOP Senator Susan Collins of Maine, chair of the Senate Appropriations Committee, praised the stopgap funding measure for avoiding \"any poison pills,\" per CBS News.",
+    "The House approved a separate continuing resolution that would also fund the government into December before leaving town for its August recess. The GOP-led House bill was passed with widespread opposition from Democrats, according to CBS News. Following two record-breaking government shutdowns within the last 12 months, the appetite for another funding lapse appears low among the bulk of lawmakers.",
+    "The House is set to return from its recess on August 31. If Speaker Mike Johnson moves forward with the Senate bill, it could pick up support from Democrats to propel it to passage, according to CBS News. The open question is whether Johnson will bring the Senate bill to a vote or pursue the separate House measure that his Republican majority already passed."
+  ],
+  "sources": [
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/senate-funding-bill-continuing-resolution-approved/"
+    }
+  ],
+  "event_utc": "2026-08-08T12:26:00Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-08T16:12:02Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}

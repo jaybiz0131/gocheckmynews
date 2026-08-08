@@ -4721,5 +4721,39 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-08",
+  "approved": 4,
+  "rejected": [
+   {
+    "id": "c230",
+    "headline": "Iran says deal with Oman on Strait of Hormuz is close but insufficient to reopen waterway",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Agreement between Iran and Oman over control of the strategic waterway is seen as crucial to a wider agreement to end the conflict that began with U.S. and Israeli attacks on Iran on February 28' but the brief's corresponding data_point says 'the conflict that began with U.S. and Israeli attacks on Iran on February 28'\u2014this is stated as fact in the brief but the draft should note this is a contested claim about who initiated the conflict, not established fact. The framing conflates Iran's characterization with objective reality.",
+     "The draft includes 'Iranian media report attacks on ships saying they violated Iran's directives, without specifying that Iran was behind the attacks' and 'Iranian media quoted the UAE report without including the part in which the country blamed Iran for the attack'\u2014these details appear in the brief's data_points but are presented in the draft without clear attribution to what Iranian media reported versus what the brief's NBC source verified, muddying the sourcing."
+    ]
+   },
+   {
+    "id": "c024",
+    "headline": "Spain and Italy suspend border-free travel over Ceuta migrant crossing",
+    "category": "accuracy",
+    "reasons": [
+     "Draft claims 'Spain says its checks will stay until September 7 \"unless a change in the circumstances that led to its adoption warrants modifying that period.\"' but brief data_point states 'Spain says its checks will stay in place until 7 September' without the conditional language. The draft adds the conditional clause which is not verified in the brief's data_point.",
+     "Draft states 'Italy has said that Spanish and EU citizens are exempt from additional checks, with extra screening applied only to non-EU residents, per BBC News. However, it remains unclear how border officials were meant to distinguish between EU and non-EU travelers.' But the brief data_point for Italy's exemption policy (claim 12) does not include the conditional phrase 'However, it remains unclear how border officials were meant to distinguish...' as a separate sourced claim\u2014this uncertainty language appears to be added reasoning, not sourced from the brief.",
+     "Draft claims 'Another passenger said \"we were stopped and asked for identification, which the police seemed to approve of.\"' This quote appears in the brief as data_point 16 but the draft does not attribute it or provide context about which passenger said this or when/where. The brief data_point shows this was sourced from BBC News reporting of passenger accounts, but the draft presents it as a second standalone passenger account without clarifying source or distinguishing it from the prior RTVE account."
+    ]
+   },
+   {
+    "id": "c008",
+    "headline": "Federal funds barred from fentanyl test strip distribution",
+    "category": "accuracy",
+    "reasons": [
+     "The brief is marked 'thin: true' with 'data_points: []' (zero data points) and 'source_chars: 0', indicating the research brief contains no verified facts beyond the core claim itself. The draft introduces specific factual claims about how fentanyl test strips work ('small paper strips that change color when exposed to fentanyl'), how they are distributed ('harm-reduction programs have distributed the strips as part of broader overdose prevention efforts'), and their purpose that are not present in the brief's data_points and therefore violate the hard rule that 'no fact exists outside the brief.' These are plausible contextual details but they originate in the writer's background knowledge, not the research.",
+     "The draft cites NPR as the source of the core claim ('according to NPR's reporting') but the brief provides only a URL stub with no actual source content ('source_chars: 0'). The writer cannot verify what NPR actually reported or confirm facts beyond the headline-level claim without access to the full source material, yet the draft presents multiple sentences as established fact."
+    ]
+   }
+  ]
  }
 ]

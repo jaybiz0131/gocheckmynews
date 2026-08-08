@@ -1,0 +1,31 @@
+{
+  "id": "wrap-md-2026-08-08",
+  "slug": "afternoon-brief-2026-08-08",
+  "kind": "brief",
+  "title": "The Afternoon Brief: Senate passes funding bill as House faces choice",
+  "dek": "The Senate voted 90-to-6 Saturday to extend government funding through December, sending a bipartisan measure to a House divided between competing approaches. Meanwhile, a school shooting in Thailand killed at least eight, including five staff and a 12-year-old girl.",
+  "date": "2026-08-08",
+  "published_utc": "2026-08-08T16:16:08Z",
+  "category": "daily edition",
+  "rank": -2,
+  "author": "GoCheckMyNews",
+  "key_fact": "Congress has a bipartisan path to avoid a shutdown, but the House must choose between the Senate bill and a separate Republican measure opposed by Democrats.",
+  "bottom_line": "The Senate passed a bipartisan continuing resolution funding the government through December, now awaiting House action. Republicans control that chamber and have advanced a separate bill, giving Speaker Johnson the decision on which path Congress takes to avoid a shutdown. Watch for Johnson's choice and the House floor schedule in the coming days; the bill's fate will clarify whether Congress is united on preventing a lapse or headed toward another fiscal standoff.",
+  "human_take": "",
+  "body": [
+    "Two separate crises emerged on Friday and Saturday, one acute and one unfolding over the coming weeks. A 14-year-old opened fire at Debsirin Nonthaburi School northwest of Bangkok around 10 a.m. on Friday, killing five school staff members, his two grandparents, and a 12-year-old girl who died after hospitalization. Twenty-three people were wounded, most by gunshot. The shooter took his own life. The attack killed at least eight people total and underscores Thailand's position as a regional outlier on gun prevalence and firearm deaths. The sources do not clarify what oversight mechanisms, if any, govern how firearms registered to adults are stored or accessed in homes with minors.",
+    "In Washington, the Senate cleared a major fiscal deadline Saturday when it voted 90-to-6 to approve a continuing resolution funding the federal government through December 11. The bipartisan bill extends funding at current levels with some exceptions for six weeks beyond the September 30 end of the fiscal year. The vote reflects the Senate's acknowledgment that legislation requiring 60 votes needs support across the aisle.",
+    "The measure now moves to the House, which faces a choice. Before the August recess, House Republicans passed a separate, GOP-led funding bill that Democrats opposed. Speaker Johnson must now decide between the two versions: the Senate's bipartisan path or the House Republicans' alternative. That choice will determine whether Congress avoids another shutdown or heads toward the fiscal cliff the continuing resolution is designed to prevent.",
+    "The Senate's 90-to-6 vote demonstrates broad agreement on the need to prevent a funding lapse, at least among the 90 who backed it. What happens next depends on House leadership's willingness to accept the Senate bill or insist on its own measure."
+  ],
+  "sources": [
+    {
+      "title": "School shooting near Bangkok kills at least 8, including five staff and girl who died in hospital",
+      "url": "/articles/school-shooting-near-bangkok-kills-at-least-8-including-five-staff-and-girl-who-died-in-hospital.html"
+    },
+    {
+      "title": "Senate approves continuing resolution 90-6, extending government funding through December",
+      "url": "/articles/senate-approves-continuing-resolution-90-6-extending-government-funding-through-december.html"
+    }
+  ]
+}
