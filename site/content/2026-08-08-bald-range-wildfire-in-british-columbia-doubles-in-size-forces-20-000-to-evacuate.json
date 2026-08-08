@@ -1,0 +1,50 @@
+{
+  "id": "c038",
+  "slug": "bald-range-wildfire-in-british-columbia-doubles-in-size-forces-20-000-to-evacuate",
+  "kind": "brief",
+  "title": "Bald Range Wildfire in British Columbia Doubles in Size, Forces 20,000 to Evacuate",
+  "dek": "The Bald Range wildfire in British Columbia has grown to more than 36 square miles and forced over 20,000 people to evacuate from Summerland and Peachland. The fire doubled in size since Friday and remained out of control as of Saturday morning.",
+  "date": "2026-08-08",
+  "published_utc": "2026-08-08T19:46:15Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 5,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The Bald Range fire has grown to 36+ square miles and forced over 20,000 evacuations, with the blaze doubling in size since Friday.",
+  "bottom_line": "The Bald Range fire has grown to 36+ square miles and forced nearly complete evacuations from two towns as of Saturday morning, with power outages and ongoing threat to livestock and property. Watch for updates on structure loss, containment progress, and the fire's cause, which will determine whether this reflects unprecedented growth conditions or known regional fire behavior.",
+  "human_take": "",
+  "body": [
+    "A fast-moving wildfire in British Columbia has grown to more than 36 square miles (95 square kilometers) across the Summerland and Okanagan-Similkameen districts, forcing over 20,000 people to flee their homes as of Saturday morning. The blaze doubled in size since it was first detected on Friday, per BBC reporting.",
+    "Summerland's entire population of around 12,000 people received evacuation orders, according to BBC World. About 8,000 residents of the neighboring town of Peachland were ordered to evacuate as well. Power was lost across Summerland early Saturday, city officials said. The fire remained out of control as of Saturday morning, with firefighters working to contain the advance.",
+    "Erick Thompson, an emergency official with the Regional District of Okanagan-Similkameen, described this as one of the \"quickest-moving, largest fires in such a short time\" he had seen in the fire-prone region, per BBC reporting. The urgency forced Thompson himself to leave the emergency operations center to evacuate his own family. \"I had to leave the EOC to come and get my family to leave this area. We're heading south,\" Thompson said.",
+    "Residents unable to rescue livestock and pets left gates open in hopes the animals would find their own way to safety, according to BBC World. Some owners painted markings on their animals to make them easier to identify after evacuation. As of the reporting date, it was not yet clear how many structures had been destroyed in the blaze.",
+    "The brief carries no information on the fire's origin or cause, the current status of containment efforts, expected timeline for controlling the fire, or estimates of animal losses or rescues."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cx25dkwk3e3o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "Washington Examiner",
+      "url": "https://www.washingtonexaminer.com/policy/energy-and-environment/4680260/british-columbia-wildfire-20000-evacuate/"
+    }
+  ],
+  "event_utc": "2026-08-08T18:13:49Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-08T19:46:15Z",
+    "sources_cited": 2,
+    "sources_live_checked": 2
+  },
+  "also_reported_by": [
+    {
+      "outlet": "Azat TV",
+      "headline": "Extreme Bald Range Wildfire Explodes to 5,000 Hectares Near Summerland, Prompting Helicopter Rescues - Azat TV"
+    },
+    {
+      "outlet": "The Sunday Guardian",
+      "headline": "Summerland Wildfire Latest News Today: 20,000 Evacuated as Bald Range Fire Threatens BC Town &amp; State of Emergency Declared \u2014 Check Current Status, Advisory, Helpline Number &amp; More Updates | BREAKING - The Sunday Guardian"
+    }
+  ]
+}

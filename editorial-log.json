@@ -4755,5 +4755,50 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-08",
+  "approved": 4,
+  "rejected": [
+   {
+    "id": "c088",
+    "headline": "Hunter Biden tells BBC his father's prostate cancer has metastasized to bones",
+    "category": "compliance",
+    "reasons": [
+     "Draft presents medical information about a living private individual (Joe Biden's cancer diagnosis, treatment details, Gleason score, metastasis specifics) that goes beyond what the story's newsworthiness requires. The draft includes granular medical detail (Gleason score of 9, specific treatment timeline, radiotherapy completion date) sourced to Fox News reporting but framed as established fact rather than disclosed health information. This crosses from covering a public family disclosure into detailed medical coverage of a named private citizen's illness that invades privacy beyond editorial necessity.",
+     "The title and framing ('Hunter Biden tells BBC') focuses on Hunter Biden as the news agent, but the story's substance is detailed medical information about Joe Biden. This mismatch, combined with the depth of medical detail presented, risks reading as privacy invasion rather than event coverage.",
+     "The draft includes a data point about Hunter Biden's pardon that is not in the core claim and lies outside the stated news event (Hunter's disclosure about his father's cancer). The pardon reference appears in the brief's data_points but is not part of this story's stated core_claim and muddies the narrative focus."
+    ]
+   },
+   {
+    "id": "c072",
+    "headline": "U.S. Weapons Stockpiles Depleted by Iran War, Analysts Say Russia and China Benefit",
+    "category": "accuracy",
+    "reasons": [
+     "The draft presents the Iran war as an established, ongoing conflict, but the brief does not establish whether such a war exists or is sourced to verifiable reporting. The core claim and all data points reference only generic claims about 'the Iran war' without linking to any official declaration, conflict timeline, or Pentagon statement confirming active warfare.",
+     "The draft states 'The Iran conflict has drawn down U.S. weapons inventories, according to New York Times reporting published August 8' but provides no specific data from that reporting\u2014no numbers, no weapons systems, no inventory comparisons. The brief itself acknowledges the story 'lacks the specific inventory figures, weapons systems affected, or timeline projections.' A fact-based assertion of depletion without any supporting detail is a smuggled claim.",
+     "The phrase 'significant erosion of American military firepower' appears in the draft as a paraphrase of the brief's data point 'Weapons depletion has resulted in a significant erosion of firepower,' but the original source is marked only 'reported'\u2014second-hand via Google News/NYT aggregator\u2014without confirmation from Pentagon officials or primary sources. This is presented as settled fact when the sourcing is thin."
+    ]
+   },
+   {
+    "id": "c256",
+    "headline": "Wildfires Tear Through Spokane-Area Neighborhoods Amid Worsening Weather",
+    "category": "clarity",
+    "reasons": [
+     "The draft states 'Multiple wildfires are burning through neighborhoods' but the brief and single source do not specify how many individual fires exist\u2014the brief lists this as an open question. The word 'multiple' implies specific knowledge the sourcing does not provide.",
+     "The draft reads as a placeholder or summary of missing information rather than a story. Nearly every sentence acknowledges what is NOT known: 'does not specify the number,' 'does not detail,' 'carries no information.' This violates the red-team test: the draft would embarrass the desk if readers expected a fire story and received instead a list of gaps. The single CBS News video source is too thin to sustain even this minimal narrative.",
+     "For a thin brief (thin=true), the correct output is a tight, focused story built on what IS confirmed. This draft instead foregrounds absence, making it read like an editor's note rather than published reporting. No reader learns what is actually happening, only what the reporter does not know."
+    ]
+   },
+   {
+    "id": "c080",
+    "headline": "Democrat Eyes Challenge to Rep. Max Miller in Ohio's 7th",
+    "category": "accuracy",
+    "reasons": [
+     "The brief's core_claim states Miller 'faces multiple calls to step down over abuse allegations,' but the draft never specifies that the allegations are abuse-related. The draft says 'faces calls to step down' without naming the type of allegation, which obscures a material fact from the brief's core claim.",
+     "The draft opens with 'at a moment when the incumbent faces calls to step down' without attribution or sourcing. The brief indicates the source text is empty (source_chars: 0), meaning this framing comes from the snippet alone and lacks the detail to warrant the present-tense framing of active calls. A thin brief with no data_points means the writer cannot assert calls are actively underway without reported specificity."
+    ]
+   }
+  ]
  }
 ]
