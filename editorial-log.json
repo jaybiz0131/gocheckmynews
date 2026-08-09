@@ -4903,5 +4903,31 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-09",
+  "approved": 6,
+  "rejected": [
+   {
+    "id": "c119",
+    "headline": "Iran Demands U.S. Naval Blockade Withdrawal, War Damages Payment Before Strait of Hormuz Reopens",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Iranian state media on Sunday, August 9, 2026, reported that President Masoud Pezeshkian had met with the country's absent Supreme Leader Mojtaba Khamenei' but the brief's corresponding data_point says 'no evidence was provided that the meeting took place' (confidence: reported). The draft presents this as a news report without the critical caveat that it was unverified\u2014this reads as smuggled advocacy for the Iranian state claim rather than skeptical reporting of an unconfirmed assertion.",
+     "The draft states 'Pezeshkian earlier in the week said that it had been \"very difficult\" to contact the 56-year-old Supreme Leader Mojtaba Khamenei, who has not been seen publicly since he was badly injured in U.S. strikes that killed his father.' This adds detail ('56-year-old', 'his father', characterization of injury severity) beyond what the brief's data_point carries. The brief data_point does not specify the Supreme Leader's age, relationship detail, or U.S. attribution of injury causation\u2014these are new facts not in the research brief.",
+     "The draft includes a paragraph on Houthi attacks on Mocha port, Saudi Aramco refinery, and Saudi condemnations (Houthi rebels attacked Sunday targeting Mocha, drone hit Jizan refinery, Saudi energy ministry statement on extinguished fire). While these facts appear in the brief's data_points, they are disconnected from the core claim about Iran's conditions for reopening the Strait and Vance's statements. The inclusion reads as scope-creep without narrative integration to the main story\u2014these details belong in a separate regional violence story, not embedded here without connective tissue explaining their relevance to Hormuz negotiations."
+    ]
+   },
+   {
+    "id": "c071",
+    "headline": "New York Times: Trump crypto venture received $100 million from investor with suspicious background",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Zhou has unknown motivations and a background the outlet characterizes as raising red flags' but the brief provides only that 'Zhou has a suspicious background and unknown motivations, according to the New York Times reporting.' The draft adds interpretive language ('characterizes as raising red flags') not present in the brief's data point, which simply reports what the Times said without that framing.",
+     "The draft claims 'The New York Times did not immediately provide specifics about Zhou's background or the nature of the concerns in the limited reporting available to verify this account.' This is a meta-commentary on source quality and limitations that does not appear in the brief's data points and constitutes the writer editorializing about what the Times provided rather than reporting what was reported.",
+     "The draft's second paragraph beginning 'According to the Times reporting, Zhou has unknown motivations...' directly follows a statement about what Zhou 'is identified as' without clear attribution, creating ambiguity about whether the characterization comes from the Times or the writer."
+    ]
+   }
+  ]
  }
 ]

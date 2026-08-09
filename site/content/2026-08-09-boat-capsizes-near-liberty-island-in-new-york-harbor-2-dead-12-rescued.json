@@ -1,0 +1,65 @@
+{
+  "id": "c147",
+  "slug": "boat-capsizes-near-liberty-island-in-new-york-harbor-2-dead-12-rescued",
+  "kind": "brief",
+  "title": "Boat capsizes near Liberty Island in New York Harbor; 2 dead, 12 rescued",
+  "dek": "A 22-foot bowrider capsized near Liberty Island in New York Harbor on Saturday night, killing a 27-year-old woman and a 5-month-old girl. Twelve others were rescued with minor injuries; the cause remains under investigation.",
+  "date": "2026-08-09",
+  "published_utc": "2026-08-09T12:19:29Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 5,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "A 22-foot bowrider capsized near Liberty Island in New York Harbor on Saturday, August 9, 2026, around 10:25 p.m., killing an adult female and a 5-month-old infant while 12 others were rescued by first responders.",
+  "bottom_line": "Investigators have not yet disclosed what caused the vessel to overturn or identified the boat's operator. The outcome of the ongoing investigation into the circumstances will be key to understanding how a rescue of 12 people occurred while two others died.",
+  "human_take": "",
+  "body": [
+    "A 22-foot bowrider capsized near Liberty Island in New York Harbor on Saturday night, killing a 27-year-old woman and a 5-month-old girl. Twelve others were rescued with minor injuries, according to reporting from Fox News and ABC News.",
+    "NYPD officers responded to a report of an overturned vessel in the vicinity of Liberty Island at around 10:25 p.m., per Fox News. First responders arrived at approximately 10:30 p.m., according to ABC News. Twelve people were rescued from the water before police arrived, according to authorities reported by Fox News. The adult female and infant were later located in the water by NYPD divers and transported to NYU Langone Hospital in Brooklyn in critical condition, where they were pronounced dead.",
+    "The identities of the deceased have not been released, per Fox News. The twelve rescued passengers were transported to local area hospitals and are believed to be in stable condition, according to the reporting. Some of the other passengers were transported with minor injuries, per ABC News.",
+    "The NYPD's Harbor Unit, Scuba Team, and Aviation Unit responded to the scene along with the U.S. Coast Guard, according to Fox News. No arrests have been made in connection with the incident. The cause of the capsizing remains under investigation."
+  ],
+  "sources": [
+    {
+      "title": "Fox News",
+      "url": "https://www.foxnews.com/us/two-dead-including-infant-after-boat-capsizes-new-york-harbor-12-rescued"
+    },
+    {
+      "title": "abcnews.com",
+      "url": "https://abcnews.com/US/2-dead-12-injured-after-boat-capsizes-new/story?id=135496017"
+    }
+  ],
+  "event_utc": "2026-08-09T09:11:24Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-09T12:19:29Z",
+    "sources_cited": 2,
+    "sources_live_checked": 2
+  },
+  "also_reported_by": [
+    {
+      "outlet": "New York Post",
+      "headline": "Two dead, including an infant, after boat capsized off Liberty Island coast; 12 people rescued from water - New York Post"
+    },
+    {
+      "outlet": "ABC7 New York",
+      "headline": "Crews responding after vessel overturns off Liberty Island, sources say - ABC7 New York"
+    },
+    {
+      "outlet": "ABC News",
+      "headline": "2 dead, 12 injured after boat capsizes in New York Harbor, officials say - ABC News - Breaking News, Latest News and Videos"
+    },
+    {
+      "outlet": "The New York Times",
+      "headline": "2 Die After Boat Overturns in New York Harbor, Police Say - The New York Times"
+    },
+    {
+      "outlet": "The Times of India",
+      "headline": "5-month-old baby among 2 dead as boat capsizes near New York\u2019s Liberty Island - The Times of India"
+    },
+    {
+      "outlet": "Patch",
+      "headline": "Woman, Child Critically Injured After Boat Overturns Near Liberty Island: Report - Patch"
+    }
+  ]
+}
