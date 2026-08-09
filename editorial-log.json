@@ -4929,5 +4929,44 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-09",
+  "approved": 4,
+  "rejected": [
+   {
+    "id": "c237",
+    "headline": "Iran sets steep conditions for Hormuz reopening as negotiations remain stalled",
+    "category": "accuracy",
+    "reasons": [
+     "The angle states Iran's demands are 'largely unprecedented,' but the brief's data_point 6 and Haghirian quote (data_point 7) explicitly state the demands are 'still largely within the framework of the initial deal the two sides reached in June.' The draft does not include this critical context that contradicts the 'unprecedented' framing in the opener, creating a liability: readers understand the demands as shocking when sourced analysis says they are continuations of existing framework."
+    ]
+   },
+   {
+    "id": "c020",
+    "headline": "Boat captain arrested after vessel capsizes near Statue of Liberty, killing woman and infant",
+    "category": "compliance",
+    "reasons": [
+     "The draft names a specific accused individual (Manuel Hernandez, age 46) and states he 'was arrested and charged with reckless endangerment' as though a conviction or guilt is established. The brief correctly labels this as criminal allegation requiring 'alleged' discipline. The draft presents the charge as fact without qualification ('charged with reckless endangerment' reads as settled; proper form would be 'was arrested on charges of reckless endangerment' or 'allegedly recklessly endangered'). This is a personal material liability risk on an active criminal matter."
+    ]
+   },
+   {
+    "id": "c109",
+    "headline": "Alleged Irish Crime Boss Daniel Kinahan Extradited From U.A.E. After Decade-Long Hunt",
+    "category": "accuracy",
+    "reasons": [
+     "Draft states 'The alleged operation smuggled tens of millions of dollars' worth of cocaine and cannabis into Europe' but the brief data point specifies the gang is 'alleged to have smuggled tens of millions of dollars' worth of illegal drugs, including cocaine and cannabis, as well as guns into Europe.' The draft omits firearms from this sentence, narrowing the scope of alleged smuggling without justification from the source."
+    ]
+   },
+   {
+    "id": "c223",
+    "headline": "Idaho placed over 1,000 new mothers on child abuse registries after THC tests",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states Harris-Rashid 'moved from California, where marijuana is legal, to South Carolina when pregnant with her third child in 2021' but then discusses her midwife and drug testing in what appears to be South Carolina context. The brief's open_questions flag indicates the source text about Harris-Rashid's South Carolina experience 'appears cut off mid-sentence' with 'additional detail follows about South Carolina's specific legal framework'\u2014the draft presents this case as illustrative of Idaho's policy when Harris-Rashid's case occurred in South Carolina, creating a factual mismatch with the Idaho focus of the core story. The brief itself notes the source is incomplete, making this claim unverified.",
+     "The draft presents Harris-Rashid's experience as part of the Idaho narrative without clarifying that her case unfolded in South Carolina, not Idaho. This blurs the geographic scope of the story and may mislead readers into thinking Idaho's THC-testing regime extends to mothers who moved there, when the data point only confirms she moved to South Carolina while pregnant."
+    ]
+   }
+  ]
  }
 ]

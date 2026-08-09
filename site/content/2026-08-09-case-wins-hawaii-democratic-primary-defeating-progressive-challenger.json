@@ -1,0 +1,62 @@
+{
+  "id": "c084",
+  "slug": "case-wins-hawaii-democratic-primary-defeating-progressive-challenger",
+  "kind": "brief",
+  "title": "Case wins Hawaii Democratic primary, defeating progressive challenger",
+  "dek": "Rep. Ed Case (D-Hawaii) defeated state Sen. Jarrett Keohokalole in Hawaii's 1st Congressional District Democratic primary on Aug. 9, according to CBS News. Case held a nearly 14-point lead with 91% of votes counted. The race pitted a moderate incumbent against a progressive challenger in a safe Democratic district.",
+  "date": "2026-08-09",
+  "published_utc": "2026-08-09T16:01:38Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 7,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "With 91% of the vote counted, Case led Keohokalole by nearly 14 points, per CBS News.",
+  "bottom_line": "Case advances to the general election against Lam in a district strongly favoring Democrats. Watch whether Case's primary victory influences how other moderate Democrats in safe seats approach progressive primary challenges in remaining 2026 races.",
+  "human_take": "",
+  "body": [
+    "Rep. Ed Case (D-Hawaii) defeated state Sen. Jarrett Keohokalole in the Democratic primary for Hawaii's 1st Congressional District on Aug. 9, holding a nearly 14-point lead with 91% of votes counted, according to CBS News.",
+    "Case has represented the district, which includes Honolulu and other parts of Oahu, since 2019. He previously served in the House from 2002 to 2007, representing Hawaii's 2nd District. Keohokalole, 42, is a state senator who mounted the primary challenge from the left.",
+    "The race centered on Case's voting record in Congress. Keohokalole criticized Case for his vote to send military aid to Israel, per CBS News. Case is one of just three Democrats in the House to vote for an earlier version of President Trump's SAVE America Act, according to CBS News. Case told Hawaii News Now he did not support the latest version of that legislation.",
+    "Progressive primary challenges have unseated some Democratic incumbents in safe districts this year. Democratic incumbents in safe districts in New York and Colorado have been ousted by primary challengers so far in 2026, per CBS News. Case's primary victory stands apart from that pattern.",
+    "In November, Case will face Republican Adriel Lam, who ran unopposed in the Republican primary. Given Hawaii's strong Democratic lean, Case is favored to win the general election, according to CBS News. Hawaii's Democratic Governor Josh Green also secured the Democratic nomination for governor and will face Republican Gary Cordery, who won Saturday's GOP primary, in November."
+  ],
+  "sources": [
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/ed-case-hawaii-1st-congressional-district-jarrett-keohokalole/"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/homenews/campaign/6017601-case-wins-hawaii-house-primary/"
+    },
+    {
+      "title": "Washington Examiner",
+      "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4680344/ed-case-house-democratic-primary-hawaii/"
+    },
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/2026/aug/09/ed-case-wins-hawaii-house-primary-election-democrats"
+    }
+  ],
+  "event_utc": "2026-08-09T10:12:25Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-09T16:01:38Z",
+    "sources_cited": 4,
+    "sources_live_checked": 3
+  },
+  "also_reported_by": [
+    {
+      "outlet": "Hawaii News Now",
+      "headline": "Incumbent Case wins U.S. House District 1 Democratic primary - Hawaii News Now"
+    },
+    {
+      "outlet": "Washington Examiner",
+      "headline": "Rep. Ed Case defeats progressive rival in Hawaii Democratic House primary - Washington Examiner"
+    },
+    {
+      "outlet": "The Eastern Herald",
+      "headline": "Ed Case Wins Hawaii Democratic Primary, Repels Progressive Challenge Over SAVE Act Vote - The Eastern Herald"
+    }
+  ]
+}
