@@ -1,0 +1,46 @@
+{
+  "id": "wrap-am-2026-08-09",
+  "slug": "morning-brief-2026-08-09",
+  "kind": "brief",
+  "title": "The Morning Brief: B.C. Fire Grows Past 39 Square Miles, State of Emergency",
+  "dek": "A fast-moving wildfire in British Columbia has pushed past 39 square miles and triggered a provincial state of emergency, while the Senate cleared a government funding deadline and Thailand mourns a school shooting.",
+  "date": "2026-08-09",
+  "published_utc": "2026-08-09T10:18:08Z",
+  "category": "daily edition",
+  "rank": -1,
+  "author": "GoCheckMyNews",
+  "key_fact": "The Bald Range wildfire grew from over 36 square miles on Saturday morning to more than 39 square miles by Sunday, prompting British Columbia to declare a state of emergency amid more than 100 active fires.",
+  "bottom_line": "British Columbia's Bald Range wildfire grew from more than 36 square miles Saturday morning to over 39 square miles by Sunday, prompting a provincial state of emergency amid more than 100 active fires and evacuations exceeding 20,000 people. The Senate separately cleared a bipartisan continuing resolution, 90 to 6, funding the government through December 11, sending the measure to a House that has its own competing bill. In Thailand, a school shooting near Bangkok left at least eight dead, including five staff and a 12-year-old girl, after a 14-year-old attacker also killed his grandparents before taking his own life. The reporting establishes the scale of each event but leaves open the wildfire's cause, the House's next step on funding, and how the Thai shooter obtained his weapon. Coming checkpoints include B.C.'s containment updates, the House's action on government funding, and any official findings from Thai authorities.",
+  "human_take": "",
+  "body": [
+    "The most consequential story of the past two days is unfolding in British Columbia, where the Bald Range wildfire has forced tens of thousands from their homes and pushed the province to declare a state of emergency. Saturday morning reporting put the fire at more than 36 square miles, having doubled in size since it was first detected Friday. By Sunday, the fire had grown further, to more than 39 square miles, according to the desk's reporting, which also noted the blaze had begun generating its own weather system and lightning.",
+    "The human toll has been immediate. Summerland, a community of about 12,000, was ordered to evacuate entirely, and neighboring Peachland's roughly 8,000 residents were told to leave as well. Power went out across Summerland early Saturday. By Saturday, British Columbia's emergency management minister said the province was contending with more than 100 active wildfires, nearly half of them uncontrolled, in conditions officials described as unusually intense amid heat, wind, and prolonged drought. The state of emergency gives the province added authority to restrict travel and secure accommodations for evacuees.",
+    "Elsewhere, the Senate voted 90 to 6 on Saturday to approve a continuing resolution funding the federal government through December 11, clearing a bipartisan measure that now moves to the House. The bill would keep government funding at current levels, with some exceptions, for six weeks beyond the September 30 end of the fiscal year. The House had passed a separate, GOP-led measure opposed by Democrats before its August recess, leaving the chamber to choose between two paths before funding lapses.",
+    "In Thailand, a 14-year-old opened fire at Debsirin Nonthaburi School northwest of Bangkok on Friday, killing at least eight people, including five school staff and a 12-year-old girl who died later in the hospital. The shooter had also killed his two grandparents at his family's home earlier that morning before taking his own life at the school. Twenty-three people were wounded, most from gunshot wounds.",
+    "On the wildfire, the reporting attributes the speed of growth to hot, windy weather and prolonged drought across the province, conditions officials say have produced explosive fire behavior, including a fire generating its own lightning. The cause of the Bald Range fire itself is not established in the reporting. On the funding bill, the driver is procedural: the Senate's 60-vote threshold pushed lawmakers toward a bipartisan text, while the House's competing GOP-only bill reflects a different political calculation that the reporting does not resolve. On the Thailand shooting, the reporting does not clarify how a 14-year-old accessed a firearm registered to an adult, leaving open questions about storage and oversight that the sources do not answer.",
+    "No desk boards were available for this edition.",
+    "In the coming days, watch for confirmation of the number of structures destroyed and the cause of the Bald Range fire, along with any further evacuation orders as officials warn conditions remain dangerous across British Columbia's more than 100 active fires. On Capitol Hill, watch for whether House Speaker Johnson brings the Senate's bipartisan continuing resolution to a vote or advances the House's separate GOP-led measure, a choice that will determine whether the government funding deadline passes without a shutdown. In Thailand, watch for any official findings on how the shooter obtained the firearm and whether authorities respond with policy changes."
+  ],
+  "sources": [
+    {
+      "title": "Bald Range Wildfire in British Columbia Doubles in Size, Forces 20,000 to Evacuate",
+      "url": "/articles/bald-range-wildfire-in-british-columbia-doubles-in-size-forces-20-000-to-evacuate.html"
+    },
+    {
+      "title": "Fast-moving wildfire forces evacuation of more than 20,000 in British Columbia",
+      "url": "/articles/fast-moving-wildfire-forces-evacuation-of-more-than-20-000-in-british-columbia.html"
+    },
+    {
+      "title": "School shooting near Bangkok kills at least 8, including five staff and girl who died in hospital",
+      "url": "/articles/school-shooting-near-bangkok-kills-at-least-8-including-five-staff-and-girl-who-died-in-hospital.html"
+    },
+    {
+      "title": "Senate approves continuing resolution 90-6, extending government funding through December",
+      "url": "/articles/senate-approves-continuing-resolution-90-6-extending-government-funding-through-december.html"
+    },
+    {
+      "title": "British Columbia declares state of emergency as fast-moving wildfire forces 20,000+ to evacuate",
+      "url": "/articles/british-columbia-declares-state-of-emergency-as-fast-moving-wildfire-forces-20-000-to-evacuate.html"
+    }
+  ]
+}

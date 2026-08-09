@@ -4842,5 +4842,66 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-09",
+  "approved": 2,
+  "rejected": [
+   {
+    "id": "c001",
+    "headline": "Houthis claim Aramco refinery attack; Iran demands U.S. behavioral shift before Strait of Hormuz reopens",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'a memorandum of understanding signed in June' but the brief data_point says 'A memorandum of understanding signed in June' without specifying what year. The draft's phrasing suggests a recent June, but the brief does not clarify the date sufficiently to confirm the draft's framing is accurate to the source material.",
+     "The draft attributes the statement 'from our perspective, negotiations cannot resume until the violations of the memorandum of understanding have ended and the United States has remedied the provisions of the memorandum that it violated' to Araghchi and cites NPR, but adds the attribution 'per NPR's reporting' mid-sentence. While the quote itself is in the brief, the inline attribution structure in the draft creates ambiguity about whether the entire claim or only the quote is from NPR.",
+     "The draft mentions 'two people familiar with the talks who spoke on condition of anonymity' multiple times but never explicitly labels these claims as 'unconfirmed' as required by the brief confidence marking. The brief marks all claims from these anonymous sources as 'unconfirmed,' but the draft presents them as matter-of-fact without qualification, violating the rule that confidence labels must survive into prose."
+    ]
+   },
+   {
+    "id": "c250",
+    "headline": "USDA issues health alert for meat products with jalape\u00f1os linked to multistate salmonella outbreak",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The health alert is precautionary rather than based on confirmed illnesses traced to the meat products themselves' in paragraph 4. This interpretation\u2014calling it 'precautionary' in the desk's voice rather than as an attributed characterization\u2014goes beyond the brief's data_point which simply states the USDA 'said there have been no confirmed reports of illness from FSIS-regulated products.' The draft editorializes the USDA's factual statement into a judgment about the alert's purpose without attribution.",
+     "The bottom_line advises 'Consumers should watch for updates to the recalled product list and monitor for symptoms if they consumed meat products containing jalape\u00f1os from the affected batch.' This is medical/health advice presented in the desk's own voice, not attributed to public health guidance or official statements. This violates the compliance rule against offering advice."
+    ]
+   },
+   {
+    "id": "c220",
+    "headline": "Case wins Hawaii Democratic House primary against progressive challenger",
+    "category": "compliance",
+    "reasons": [
+     "The sentence 'Case's projected win holds his seat and preserves his conservative voting pattern in the House delegation' reads as advocacy by characterizing the outcome as favorable preservation of a particular voting record, rather than neutral reporting of the result.",
+     "The bottom_line sentence 'it signals whether similar generational primary challenges will emerge in other Democratic districts' presents a predictive framing that reads as editorializing about what the result means for future contests, rather than forward-looking observation of what to watch."
+    ]
+   },
+   {
+    "id": "c136",
+    "headline": "China's inflation cools more than expected in July",
+    "category": "compliance",
+    "reasons": [
+     "The sentence 'Slowing inflation can signal economic weakness if driven by demand collapse rather than successful price-control policy' presents a conditional economic interpretation that reads as the desk's own analysis rather than reported context, and borders on financial interpretation.",
+     "The bottom_line 'may influence whether the central bank accelerates stimulus efforts' and the phrase about 'whether policy responses generate demand' contain language that reads like financial/economic advice or prediction rather than neutral reporting of what is being watched."
+    ]
+   },
+   {
+    "id": "c083",
+    "headline": "Taiwan Develops Drone Strategy From Ukraine's Battlefield Model",
+    "category": "accuracy",
+    "reasons": [
+     "The brief contains zero data_points and the source URL has 0 characters; the draft presents multiple specific claims about Taiwan's drone strategy, Ukraine's battlefield success, and strategic positioning without any factual foundation in the research. The rule is: no fact exists outside the brief. Every claim in the draft (Taiwan studying Ukraine's model, drones being used to degrade formations, supply line disruption, cross-strait environment differences) is unsourced invention.",
+     "The brief explicitly marks this as 'thin: true' and lists only open_questions, meaning research is incomplete. The draft reads as a finished narrative with strategic analysis rather than what the brief actually contains: no confirmed data, only research gaps to be filled."
+    ]
+   },
+   {
+    "id": "c078",
+    "headline": "Israel and U.S. Target Hezbollah's Financial Networks",
+    "category": "accuracy",
+    "reasons": [
+     "The brief contains zero data_points and the source URL has 0 characters; the draft presents specific operational claims (financial networks being targeted, coordinated U.S.-Israel campaign, parallel strategies, funding disruption mechanisms) without any factual foundation in the research.",
+     "The brief is marked 'thin: true' with only open_questions listed (what networks are targeted, what sanctions imposed, what mechanisms are being used). The draft should not exist as a finished narrative; it should either be held pending research or explicitly flag that specific targeting details, timelines, and mechanisms remain unconfirmed. The draft reads as reportage of facts when the brief contains zero verified facts."
+    ]
+   }
+  ]
  }
 ]
