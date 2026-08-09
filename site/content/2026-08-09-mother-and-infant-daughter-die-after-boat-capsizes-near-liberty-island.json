@@ -1,0 +1,54 @@
+{
+  "id": "c085",
+  "slug": "mother-and-infant-daughter-die-after-boat-capsizes-near-liberty-island",
+  "kind": "brief",
+  "title": "Mother and infant daughter die after boat capsizes near Liberty Island",
+  "dek": "A boat carrying 14 people capsized near Liberty Island in New York Harbor on Saturday night. A 27-year-old woman identified as Sara Sanchez and her 5-month-old daughter Antonella Garcia died. Boat captain Manuel Hernandez, 46, was arrested on 13 counts of reckless endangerment. Twelve others were rescued and remain in stable condition.",
+  "date": "2026-08-09",
+  "published_utc": "2026-08-09T23:48:59Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 2,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "A 27-year-old woman and her 5-month-old daughter died after a vessel overturned near Liberty Island in New York Harbor on Saturday; the boat's captain was arrested on 13 counts of reckless endangerment.",
+  "bottom_line": "The investigation into whether the vessel was operating illegally and what caused the capsize remains ongoing. No statement from Manuel Hernandez or his legal representation has been made public regarding the charges.",
+  "human_take": "",
+  "body": [
+    "A vessel carrying 14 people overturned near Liberty Island in New York Harbor on Saturday night, resulting in two deaths. The New York Police Department was called to the scene at 10:55 p.m. A 27-year-old woman identified as Sara Sanchez and her 5-month-old daughter Antonella Garcia were located and declared deceased on arrival at NYU Langone Hospital, according to CBS News reporting. Both lived in the same home in College Point, Queens. Police did not specify the relationship between the two victims.",
+    "Twelve people had already been rescued from the water when NYPD arrived. A Sea the City boat initially saw the capsized vessel and helped 11 people out of the water. The remaining survivors were taken to a local hospital and are reported to be in stable condition with minor injuries, per CBS News.",
+    "Manuel Hernandez, 46, of New York, who is identified as the boat's captain, was arrested on Sunday on 13 counts of reckless endangerment. Authorities are investigating whether the vessel was operating illegally as a charter. According to CBS News reporting, an illegal charter is defined as any passenger-for-hire vessel operation that lacks Coast Guard credentials, safety equipment and inspection certificates.",
+    "Captain Doreen McCarthy, the Coast Guard Sector New York commander, expressed sadness over the loss and gratitude for the heroic actions of partner agencies and the Good Samaritan vessel, according to CBS News. Police said they are investigating the cause of the deadly incident. The exact cause of the capsizing has not been determined."
+  ],
+  "sources": [
+    {
+      "title": "The New York Times",
+      "url": "https://www.nytimes.com/2026/08/09/nyregion/new-york-harbor-boat-capsizes-dead.html"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/new-york-harbor-liberty-island-boat-overturn/"
+    }
+  ],
+  "event_utc": "2026-08-09T22:15:07Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-09T23:48:59Z",
+    "sources_cited": 2,
+    "sources_live_checked": 1
+  },
+  "update_of": "boat-capsizes-near-liberty-island-in-new-york-harbor-2-dead-12-rescued",
+  "also_reported_by": [
+    {
+      "outlet": "ABC7 New York",
+      "headline": "Mother, child killed when boat overturns off Liberty Island - ABC7 New York"
+    },
+    {
+      "outlet": "amNewYork",
+      "headline": "Mother and child die after boat capsizes near Liberty Island, captain charged - amNewYork"
+    },
+    {
+      "outlet": "Hudson Reporter",
+      "headline": "Mother and Baby Die After Speedboat Overturns Near Liberty Island; Operator Charged - Hudson Reporter"
+    }
+  ]
+}

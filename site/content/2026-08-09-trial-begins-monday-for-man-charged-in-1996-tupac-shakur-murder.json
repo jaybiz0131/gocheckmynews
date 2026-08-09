@@ -1,0 +1,60 @@
+{
+  "id": "c256",
+  "slug": "trial-begins-monday-for-man-charged-in-1996-tupac-shakur-murder",
+  "kind": "brief",
+  "title": "Trial begins Monday for man charged in 1996 Tupac Shakur murder",
+  "dek": "Nearly 30 years after Tupac Shakur's death, trial opens Monday for Duane Davis, also known as 'Keefe D', charged with organizing the 1996 murder. Davis was indicted in 2023 in connection with the cold case.",
+  "date": "2026-08-09",
+  "published_utc": "2026-08-09T23:48:59Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 4,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Trial begins Monday for Duane Davis, charged in 2023 with organizing Tupac Shakur's 1996 murder.",
+  "bottom_line": "The trial's opening will mark the first time the case reaches a courtroom in nearly three decades. How the case proceeds and what evidence emerges during trial will determine whether the charge results in a conviction or acquittal.",
+  "human_take": "",
+  "body": [
+    "Trial opens Monday for Duane Davis, also known as 'Keefe D', charged with organizing Tupac Shakur's murder in 1996, according to NPR's reporting. The case has remained unsolved for nearly three decades until police charged Davis in 2023.",
+    "The trial represents a significant moment in one of hip-hop's most infamous cold cases. Shakur's death occurred in 1996, and the case has drawn sustained public attention for decades.",
+    "Beyond the charge that Davis organized the murder and the trial start date, available reporting does not detail the specific evidence prosecutors plan to present, the charges Davis faces beyond the organizing allegation, expected trial duration, or defense arguments. The exact calendar date of Monday's start was not specified in available sources."
+  ],
+  "sources": [
+    {
+      "title": "NPR",
+      "url": "https://www.npr.org/2026/08/09/nx-s1-5924034/nearly-30-years-after-tupacs-death-the-trial-over-his-murder-will-finally-begin"
+    }
+  ],
+  "event_utc": "2026-08-09T21:27:16Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-09T23:48:59Z",
+    "sources_cited": 1,
+    "sources_live_checked": 0
+  },
+  "also_reported_by": [
+    {
+      "outlet": "ABC7 New York",
+      "headline": "Duane 'Keffe D' Davis, accused of organizing murder of Tupac Shakur, set to go on trial Monday - ABC7 New York"
+    },
+    {
+      "outlet": "Fox News",
+      "headline": "Jury selection in Tupac Shakur murder trial begins Monday, suspect denies involvement - Fox News"
+    },
+    {
+      "outlet": "Rolling Stone",
+      "headline": "Tupac Shakur Murder Trial: Everything You Need to Know - Rolling Stone"
+    },
+    {
+      "outlet": "104.5 Latino Hits",
+      "headline": "Tupac Murder Trial Set To Start Monday - 104.5 Latino Hits"
+    },
+    {
+      "outlet": "Vulture",
+      "headline": "The Trial for the Murder of Tupac Shakur Starts Monday - Vulture"
+    },
+    {
+      "outlet": "Hip-Hop Wired",
+      "headline": "Tupac Shakur Murder Suspect Heads To Trial Monday - Hip-Hop Wired"
+    }
+  ]
+}

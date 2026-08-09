@@ -1,0 +1,45 @@
+{
+  "id": "c001",
+  "slug": "crews-battle-wildfires-in-western-u-s-and-canada",
+  "kind": "brief",
+  "title": "Crews battle wildfires in western U.S. and Canada",
+  "dek": "Western North America is experiencing a cascading wildfire emergency: 183 new U.S. fires since Saturday, over 100 active fires in British Columbia, tens of thousands evacuated, and multiple firefighter fatalities. Response capacity is stretched across multiple states and provinces amid extreme heat and drought conditions.",
+  "date": "2026-08-09",
+  "published_utc": "2026-08-09T23:48:59Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 8,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The Bald Range wildfire in British Columbia grew to more than 39 square miles and forced more than 20,000 people to evacuate after a state of emergency was declared.",
+  "bottom_line": "Response capacity across multiple states and provinces is fully engaged, with over 30,000 personnel deployed. The critical watch points are containment rates on the largest fires (Widemouth 2, Rocky Canyon, and Bald Range), evacuation status in British Columbia, and whether the dry and warm conditions continue to fuel new starts. If lightning activity increases as forecast without rainfall, the crisis will expand further.",
+  "human_take": "",
+  "body": [
+    "More than 30,000 personnel with over 640 crews are fighting a cascading wildfire emergency across western North America. According to NPR's reporting, 183 new fires, including eight large ones, ignited across the U.S. since Saturday, while more than 100 wildfires are burning across British Columbia, with nearly half of them out of control.",
+    "The scale of the crisis is stark. Firefighters were battling more than 94 large fires across the U.S. as of Sunday, per NPR. In Utah alone, close to a dozen active wildfires have scorched more than 300,000 acres. The Rocky Canyon Fire, located about 30 miles northeast of Salt Lake City, grew to more than 2,800 acres since it began Friday and was 0 percent contained as of Sunday. The Widemouth 2 fire, which was 27 percent contained Sunday morning, has scorched more than 118,000 acres and is now the largest fire in Utah this year, surpassing the Babylon Fire which has burned over 107,000 acres.",
+    "Large fires are also burning in Washington state, Idaho, Montana, and Colorado. In the Spokane, Washington area, at least 60,000 people were evacuated, per NPR.",
+    "The human cost has been immediate. Two pilots died Friday after their helicopter crashed while battling the Widemouth 2 Fire in Fishlake National Forest. A bulldozer operator identified as Jason Ensign died battling the Wrights Spring Fire, which has spread over 33,000 acres and was 0 percent contained as of Sunday afternoon.",
+    "In British Columbia, the Bald Range wildfire generated conditions described as extreme by provincial officials. The fire, first reported Friday evening, grew to more than 39 square miles and raced roughly 9 miles toward Okanagan Lake within hours. A state of emergency was declared Saturday, per CBS News. British Columbia Emergency Management Minister Kelly Greene said the state of emergency gives the province additional powers, including the ability to restrict travel and secure accommodations for evacuees.",
+    "The speed of the Bald Range fire's growth prompted Premier David Eby to call it a \"remarkable escalation in fire activity,\" per CBS News. Cliff Chapman, the British Columbia Wildfire Service's director of operations, called conditions \"explosive.\" The blaze became so intense it generated its own weather system and lightning.",
+    "More than 20,000 people were evacuated from communities along Okanagan Lake, according to NPR and CBS News. Summerland, home to about 12,000 people, was ordered evacuated overnight, along with about 8,000 people in and around nearby Peachland. Highway 97, a major route through the region, was closed between Peachland and Penticton. Eighteen firefighting aircraft rescued more than 50 people, per CBS News. Officials confirmed \"significant structure loss\" but said they could not yet assess the full damage because the area remained an active fire zone.",
+    "The Royal Canadian Mounted Police are investigating a possible wildfire death near Summerland, but hazardous conditions have prevented authorities from confirming the fatality.",
+    "Conditions driving the fires are expected to persist. An abnormally dry and warm winter has led to an extremely difficult fire season, per NPR. The British Columbia Wildfire Service said it is expecting a high potential for lightning-caused wildfire starts, particularly in the central Interior and the Okanagan, which are receiving limited precipitation and dry lightning. British Columbia experiences an average of 1,600 wildfires per year, per CBS News."
+  ],
+  "sources": [
+    {
+      "title": "NPR",
+      "url": "https://www.npr.org/2026/08/09/nx-s1-5926463/western-us-wildfires-canada-utah"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/bald-range-wildfire-canada-british-columbia/"
+    }
+  ],
+  "event_utc": "2026-08-09T22:03:09Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-09T23:48:59Z",
+    "sources_cited": 2,
+    "sources_live_checked": 2
+  },
+  "update_of": "bald-range-wildfire-in-british-columbia-doubles-in-size-forces-20-000-to-evacuate"
+}

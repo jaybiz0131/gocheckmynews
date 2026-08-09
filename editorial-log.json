@@ -4968,5 +4968,46 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-09",
+  "approved": 4,
+  "rejected": [
+   {
+    "id": "c038",
+    "headline": "British Columbia wildfire doubles in size, forces evacuation of 20,000 residents",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The regional districts of Central Okanagan and Okanagan-Similkameen, along with Summerland and Peachland districts, have issued evacuation orders' but the brief data_point references 'Snpink'tn Indian Band' as one of the entities that issued evacuation orders. The draft omits this detail present in the source brief, which constitutes incomplete fact-tracing back to the research."
+    ]
+   },
+   {
+    "id": "c257",
+    "headline": "Puerto Rico begins cutting water service as severe drought deepens",
+    "category": "accuracy",
+    "reasons": [
+     "The draft claims 'The action exposes significant gaps in the island's aging water infrastructure and affects hundreds of thousands of residents.' The brief contains no data_points\u2014it is empty. The claim about 'hundreds of thousands of residents' and 'significant gaps' in infrastructure are not sourced in the brief and violate the hard rule that facts must trace to research. These are smuggled claims.",
+     "The draft states 'The cuts come as the island confronts a drought severe enough to trigger rationing measures.' The brief's core_claim only confirms 'severe drought' from the NPR source, but the brief itself carries zero data_points and zero source_chars, indicating the source text is unavailable to verify any detail. The claim about the severity being 'severe enough to trigger rationing' goes beyond what can be verified from the brief."
+    ]
+   },
+   {
+    "id": "c075",
+    "headline": "Iran names longtime I.R.G.C. commander to head Supreme National Security Council",
+    "category": "accuracy",
+    "reasons": [
+     "The draft claims 'Iran appointed Mohsen Rezaei, a longtime Islamic Revolutionary Guard Corps (I.R.G.C.) commander, as secretary of the Supreme National Security Council, according to The New York Times.' The brief contains zero data_points. The brief's source_chars field shows 0, indicating the source text is empty/unavailable. The writer has no sourced facts in the brief to trace the claim to\u2014this violates the hard rule that every fact must come from the brief.",
+     "The draft's statement that 'The move reflects Iran's pattern of consolidating authority within its security establishment' is authorial analysis not present in the brief, and with no source text available, this cannot be verified as traced to research."
+    ]
+   },
+   {
+    "id": "c072",
+    "headline": "Iran, Holding Firm to Hormuz, Pushes for Return to June MOU",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The New York Times reported that Iran is using control of the Strait of Hormuz as leverage to pressure the U.S. to release frozen assets, lift sanctions, and end its naval blockade.' This claim appears in the brief's core_claim, but the draft itself acknowledges 'No source text was available from the article URL to verify details.' The draft cannot attribute facts to the New York Times when the source material was never retrieved. The factual claim about Iran's stated demands is in the brief but unverified from primary sources; the draft presents it as reported fact without the 'announced-not-verified' or 'unconfirmed' confidence label the brief requires.",
+     "The brief explicitly flags 'No source text was fetched from the New York Times URL; the story cannot be verified or detailed from primary sources.' The draft should either not run at all or clearly signal the unconfirmed status of every claim. Instead, it reads as though the Times reported these details, when no source text exists to confirm them."
+    ]
+   }
+  ]
  }
 ]
