@@ -4800,5 +4800,47 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-08",
+  "approved": 4,
+  "rejected": [
+   {
+    "id": "c087",
+    "headline": "Hunter Biden confirms father's prostate cancer has metastasized to bones and beyond",
+    "category": "compliance",
+    "reasons": [
+     "The draft presents intimate health details about a named private individual (Joe Biden) beyond what the story requires to report the core fact. While he is a public figure, the extensive medical detail (bone metastasis, pain, debilitation, quality of life assessment, specific treatments) crosses into personal medical information that goes beyond the sourced public statement. The story should focus on what Hunter Biden disclosed, not elaborate on the condition itself.",
+     "The phrase 'terminal cancer condition' in the angle/framing (appearing implicitly in references to 'live with cancer till the rest of his life') presents a medical prognosis as settled fact. Metastatic prostate cancer is serious, but the desk cannot diagnose or declare it terminal; that is a medical judgment outside the sourced record.",
+     "The opening sentence frames Hunter Biden's disclosure as confirmation of 'metastasized to bones and beyond,' but the brief's own open question identifies that 'specific organs or sites beyond bone' remain unspecified. The draft should flag this uncertainty more clearly rather than presenting 'beyond' as fact."
+    ]
+   },
+   {
+    "id": "c080",
+    "headline": "Senate abandons Trump's voting restrictions bill after GOP confirms lack of votes",
+    "category": "accuracy",
+    "reasons": [
+     "The phrase 'voting restrictions bill' in the title and body is not supported by the brief. The brief data_point refers only to 'voting restrictions the president made a top priority' without confirming the bill's actual content or labeling it as a 'restrictions' bill. The writer has characterized the bill's purpose without sourced evidence of what it contained.",
+     "The draft states 'Republicans confirmed they lacked sufficient votes' but the brief only confirms that 'Republicans lacked the votes'\u2014a subtle but material difference in attribution of who did the confirming. The brief does not establish that Republicans themselves made this confirmation public."
+    ]
+   },
+   {
+    "id": "c079",
+    "headline": "Senate confirms Todd Blanche as Attorney General",
+    "category": "compliance",
+    "reasons": [
+     "The phrase 'nearly limitless right' in the body is quoted directly from the brief's data_point, but appears in the draft without quotation marks. A direct quotation from a source must be marked as such.",
+     "The angle in the brief frames this as raising 'constitutional questions' and 'signaling potential shifts in DOJ autonomy'\u2014interpretive editorializing about what the appointment means. The draft echoes this framing ('implications for how the Justice Department operates') rather than sticking to reported fact. The desk's own voice on constitutional theory or what an appointment 'signals' is advocacy, not reporting."
+    ]
+   },
+   {
+    "id": "c062",
+    "headline": "New Mexico Court Orders Meta to Fund Child Safety Protections and Pay $942 Million in Penalties",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states '$567 million into a harm-prevention fund dedicated to child safety measures and $375 million in civil penalties' and later totals these as '$942 million in penalties' in the title. However, the brief contains no data_point specifying these dollar figures\u2014only the core_claim references them. The writer has smuggled the precise breakdown ($567M/$375M split) into the draft without this appearing as a data_point in the research brief. All numbers must trace to the brief's data_points; paraphrased reporting from the source is acceptable, but unconfirmed numerical precision from a secondary PBS report cannot be presented as fact without explicit brief validation."
+    ]
+   }
+  ]
  }
 ]

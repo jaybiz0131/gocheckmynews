@@ -1,0 +1,55 @@
+{
+  "id": "c042",
+  "slug": "fast-moving-wildfire-forces-evacuation-of-more-than-20-000-in-british-columbia",
+  "kind": "brief",
+  "title": "Fast-moving wildfire forces evacuation of more than 20,000 in British Columbia",
+  "dek": "The Bald Range wildfire in British Columbia doubled in size since Friday and forced more than 20,000 people to evacuate overnight, including the entire community of Summerland. The fire remains out of control across more than 36 square miles.",
+  "date": "2026-08-08",
+  "published_utc": "2026-08-08T23:58:57Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 3,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The Bald Range fire has forced evacuations of more than 20,000 people across British Columbia, doubling in size since Friday.",
+  "bottom_line": "The fire's rate of expansion and the scale of the evacuation underscore the volatility of conditions in the region. How quickly fire crews can establish a perimeter and whether weather conditions shift to aid containment efforts will determine whether the evacuations remain in place for days or weeks. The number of structures destroyed and cause of the fire remain unconfirmed.",
+  "human_take": "",
+  "body": [
+    "A wildfire spanning more than 36 square miles (95 square kilometers) across the Summerland and Okanagan-Similkameen districts of British Columbia forced more than 20,000 people to evacuate overnight, according to BBC World reporting. The Bald Range fire doubled in size since it was first detected on Friday and remained out of control as of Saturday morning.",
+    "The district of Summerland, with a population of around 12,000, was ordered to evacuate entirely. The nearby districts of Okanagan, Peachland, and Okanagan-Similkameen also issued evacuation orders, with evacuation alerts issued in some areas. The power went out across the area early Saturday.",
+    "Erick Thompson, an emergency official with the Regional District of Okanagan-Similkameen, described the fire's pace as one of the \"quickest-moving, largest fires in such a short time\" he had seen in the fire-prone region. The scale of the evacuation was immediate, forcing emergency crews to relocate hundreds of residents living in Summerland care facilities, including senior housing, to safer areas, according to Interior Health, a publicly funded health authority in British Columbia.",
+    "The evacuation created cascading challenges beyond displacement. In Okanagan, residents struggling to evacuate horses left their gates open in the hope that animals would find their own way to safety. Some owners painted markings on their animals to make them easier to identify later.",
+    "BC Premier David Eby issued a statement saying that \"throughout the night and into this morning, first responders, BC Wildfire Service crews, [Royal Canadian Mounted Police] officers, emergency management teams, and local communities worked tirelessly to keep people safe and fight the fire near Summerland.\" As of Saturday, it was not yet clear how many structures had been destroyed by the blaze."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cx25dkwk3e3o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "Washington Examiner",
+      "url": "https://www.washingtonexaminer.com/policy/energy-and-environment/4680260/british-columbia-wildfire-20000-evacuate/"
+    }
+  ],
+  "event_utc": "2026-08-08T19:27:55Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-08T23:58:57Z",
+    "sources_cited": 2,
+    "sources_live_checked": 2
+  },
+  "update_of": "bald-range-wildfire-in-british-columbia-doubles-in-size-forces-20-000-to-evacuate",
+  "also_reported_by": [
+    {
+      "outlet": "ABC News",
+      "headline": "Wildfires force 20,000 to flee as British Columbia declares state of emergency - ABC News - Breaking News, Latest News and Videos"
+    },
+    {
+      "outlet": "Huron Daily Tribune",
+      "headline": "Wildfires force 20,000 to flee as British Columbia declares state of emergency - Huron Daily Tribune"
+    },
+    {
+      "outlet": "\u041c\u0435\u0436\u0430. \u041d\u043e\u0432\u0438\u043d\u0438 \u0423\u043a\u0440\u0430\u0457\u043d\u0438.",
+      "headline": "Fast-Moving Bald Range Wildfire Forces More Than 20,000 to Evacuate in British Columbia - \u041c\u0435\u0436\u0430. \u041d\u043e\u0432\u0438\u043d\u0438 \u0423\u043a\u0440\u0430\u0457\u043d\u0438."
+    }
+  ]
+}

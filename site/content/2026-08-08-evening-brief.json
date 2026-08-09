@@ -1,0 +1,40 @@
+{
+  "id": "wrap-pm-2026-08-08",
+  "slug": "evening-brief-2026-08-08",
+  "kind": "brief",
+  "title": "The Evening Brief: Senate backs funding bill; wildfire forces 20,000 from homes",
+  "dek": "The Senate cleared a bipartisan spending measure through December while a fast-moving wildfire in British Columbia doubled in size and forced evacuations from two towns. A school shooting near Bangkok killed at least eight.",
+  "date": "2026-08-08",
+  "published_utc": "2026-08-08T23:02:36Z",
+  "category": "daily edition",
+  "rank": -3,
+  "author": "GoCheckMyNews",
+  "key_fact": "Three separate crises are unfolding: Congress must navigate competing funding bills to avoid a shutdown, a wildfire in Canada has grown beyond control with 20,000 displaced, and a 14-year-old in Thailand carried out a mass shooting at a school.",
+  "bottom_line": "The Senate cleared a bipartisan funding bill to December 11, but the House now holds the deciding vote on which measure moves forward, with a shutdown possible if leadership cannot align around one approach. A wildfire in British Columbia forced 20,000 evacuations after doubling in size since Friday and remains out of control. A school shooting near Bangkok killed at least eight, with the 14-year-old shooter having taken his own life. Watch for the House's move on spending, containment progress and evacuation updates from Canada, and Thai authorities' findings on the shooting.",
+  "human_take": "",
+  "body": [
+    "The evening closes on three distinct emergencies, each with immediate next steps and open questions about what comes next.",
+    "In Washington, the Senate approved a bipartisan continuing resolution 90-6 on Saturday, extending federal government funding through December 11. The bill breaks a potential fiscal standoff and heads to a House that has already passed a separate, Republican-led measure opposed by Democrats before the chamber's recess. Speaker Johnson now faces a choice between two bills with conflicting support, and the outcome will determine whether Congress clears the fiscal deadline or heads toward another shutdown.",
+    "In British Columbia, the Bald Range wildfire has grown to more than 36 square miles since it was first detected on Friday, doubling in size and forcing more than 20,000 people to evacuate. Summerland, with a population of around 12,000, received full evacuation orders; about 8,000 residents of neighboring Peachland were ordered to leave as well. Power was lost across Summerland early Saturday. The fire remained out of control as of Saturday morning, with firefighters working to contain its advance. The reporting does not identify what is driving the fire's rapid growth or provide estimates for when containment might be achieved.",
+    "Near Bangkok on Friday, a 14-year-old opened fire at Debsirin Nonthaburi School in Nonthaburi province, killing at least eight people: five school staff, his two grandparents, and a 12-year-old girl who died after hospitalization. Twenty-three others were wounded, most by gunshot. The shooter took his own life after the attack. The reporting does not clarify what oversight mechanisms, if any, govern how firearms registered to adults are stored or accessed in homes with minors, or how a 14-year-old obtained the legally registered gun used in the attack.",
+    "Each event carries its own immediate checkpoints. The House will decide which funding bill to advance and whether to hold a vote before or after returning from recess. Fire crews in British Columbia will work to establish a perimeter around the Bald Range fire, with weather conditions and containment progress determining evacuation timelines. Thai authorities will release findings on the school shooting's cause and the circumstances that enabled the 14-year-old to access the weapon."
+  ],
+  "sources": [
+    {
+      "title": "Bald Range Wildfire in British Columbia Doubles in Size, Forces 20,000 to Evacuate",
+      "url": "/articles/bald-range-wildfire-in-british-columbia-doubles-in-size-forces-20-000-to-evacuate.html"
+    },
+    {
+      "title": "Fast-moving wildfire forces evacuation of more than 20,000 in British Columbia",
+      "url": "/articles/fast-moving-wildfire-forces-evacuation-of-more-than-20-000-in-british-columbia.html"
+    },
+    {
+      "title": "School shooting near Bangkok kills at least 8, including five staff and girl who died in hospital",
+      "url": "/articles/school-shooting-near-bangkok-kills-at-least-8-including-five-staff-and-girl-who-died-in-hospital.html"
+    },
+    {
+      "title": "Senate approves continuing resolution 90-6, extending government funding through December",
+      "url": "/articles/senate-approves-continuing-resolution-90-6-extending-government-funding-through-december.html"
+    }
+  ]
+}
