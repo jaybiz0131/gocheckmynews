@@ -5190,5 +5190,56 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-10",
+  "approved": 3,
+  "rejected": [
+   {
+    "id": "c015",
+    "headline": "Ukrainian drone strike kills 13 in Russian city of Nizhnekamsk",
+    "category": "accuracy",
+    "reasons": [
+     "Title states '13' killed but the brief's open_questions flag notes a discrepancy: 'The headline in the story references 12 deaths, but the sourced reports state 13 deaths; the discrepancy between the headline and the sourced data is unexplained.' The draft body correctly states 13, but the title does not match the open question about this variance. More critically, the brief itself flags this as an unresolved discrepancy between sources, yet the draft presents 13 as settled fact without any hedging or attribution nuance that would capture the uncertainty flagged in the research.",
+     "The sentence 'Ukraine has targeted Russian oil facilities with long-range drones almost daily in recent months' appears in the draft but the brief data_point is identical. However, the context and framing in the draft\u2014treating this as established pattern\u2014reads as fact when the brief marks it only as 'reported' (not 'confirmed'). The draft should preserve the conditional framing of reported claims.",
+     "The draft includes two sentences of analysis/argument: 'The campaign has caused fuel shortages in Russia, reduced its refining capacity, and unsettled the population, per ABC News' and 'Repairing the refineries is complicated because Ukraine's attacks have damaged specialized equipment often imported, making repairs time-consuming and expensive as Russia seeks workarounds while evading international sanctions.' These are causal claims (campaign *caused* shortages, attacks *made* repair *complicated*) that go beyond the brief's data_point, which only states the campaign 'has caused fuel shortages' and 'eaten into refining capacity'\u2014the word 'caused' itself is a judgment. The draft should attribute such causal analysis directly and inline, not present it as the desk's own assessment."
+    ]
+   },
+   {
+    "id": "c071",
+    "headline": "Iran says Strait of Hormuz talks with Oman separate from broader reopening negotiations",
+    "category": "clarity",
+    "reasons": [
+     "The brief flags this as 'thin: true' with only one data_point and five open_questions that outline critical gaps: Iran's specific demands, status of talks with Oman, current state of the waterway, Trump administration role, and timeline. The draft is extremely short (2 paragraphs) and does not attempt to surface or address any of these open questions, which are essential context for the story. A thin brief justifies a short story only if the story makes clear what is *not* known; this draft reads as incomplete rather than deliberately narrow. The bottom_line acknowledges the gaps but the draft body does not signal them to readers, leaving the piece feeling unfinished.",
+     "The phrase 'The statement suggests that Iran may be conditioning full reopening of the critical global shipping chokepoint on concessions unrelated to the immediate talks with Oman, though the sources do not specify what those broader conditions are' is inference phrased as report. The brief does not contain a data_point saying Iran is conditioning reopening on unspecified concessions; the brief only says talks with Oman are 'separate' from reopening discussions. The draft interprets 'separate' to mean Iran is using one as leverage for the other\u2014a editorial inference, not a sourced claim."
+    ]
+   },
+   {
+    "id": "c256",
+    "headline": "Todd Blanche Confirmed as Attorney General by Single-Vote Senate Margin",
+    "category": "accuracy",
+    "reasons": [
+     "Draft states 'single-vote margin' and 'single vote' but brief does not specify the actual vote count. The brief's open_questions note indicates the source fetched was a CSS/HTML template with no substantive content\u2014meaning the vote breakdown (51-50 or otherwise) cannot be verified from the brief's data_points. The phrase 'single-vote margin' is smuggled; it does not appear in any confirmed data_point.",
+     "Draft asserts 'the brief does not specify the vote breakdown' but then uses 'single-vote margin' in the headline and opening sentence as established fact. This hedging in body contradicts the headline's certainty."
+    ]
+   },
+   {
+    "id": "c257",
+    "headline": "U.S. Lost 23,000 Jobs in July as Gas Prices Rise Above $4 Per Gallon",
+    "category": "accuracy",
+    "reasons": [
+     "Draft opens with 'The U.S. economy shed 23,000 jobs in July 2026, an unexpected decline, according to official employment data cited by CBS News.' The word 'unexpected' does not appear in any data_point in the brief. The brief's core_claim and first data_point state the loss occurred but do not characterize it as 'unexpected.' This is smuggled editorial framing.",
+     "Draft states 'CBS News correspondent Nancy Cordes reported on both figures as indicators of economic weakness' but the data_point only confirms 'Nancy Cordes reported on the U.S. economy showing signs of trouble'\u2014not that she framed them specifically as 'indicators of economic weakness.' The paraphrase shifts the sourcing."
+    ]
+   },
+   {
+    "id": "c002",
+    "headline": "Flood death toll in India's Assam reaches 100 as rivers overflow and thousands lose homes",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Experts say human-caused climate change is intensifying South Asia's monsoons' but the brief data_point says only 'Experts say human-caused climate change is intensifying South Asia's monsoons'\u2014the claim itself is in the brief as reported, but the draft's attribution to 'experts' without qualifying that this is expert opinion (not established fact) and the framing in the draft's final paragraph treats climate attribution as settled when the brief marks it as 'reported' opinion. More critically: the draft presents 'The rains, once predictable, now arrive in erratic bursts...' as a factual claim about observed change, but this is prognostication/modeling language that reads as expert projection, not documented historical comparison. The brief sources this to NPR, but without seeing the source text itself, the confidence level ('reported') suggests this is attributed expert commentary, not baseline meteorological fact. The draft should flag this as expert assessment, not historical fact."
+    ]
+   }
+  ]
  }
 ]

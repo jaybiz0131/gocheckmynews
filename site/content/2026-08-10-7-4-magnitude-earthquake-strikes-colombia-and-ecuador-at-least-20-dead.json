@@ -1,0 +1,79 @@
+{
+  "id": "c054",
+  "slug": "7-4-magnitude-earthquake-strikes-colombia-and-ecuador-at-least-20-dead",
+  "kind": "brief",
+  "title": "7.4-magnitude earthquake strikes Colombia and Ecuador; at least 20 dead",
+  "dek": "A major earthquake centered in Colombia's remote Choco region killed at least 20 people, with dozens of buildings collapsed across western cities including Pereira, Manizales, and Cali. The quake was felt across the border in Ecuador.",
+  "date": "2026-08-10",
+  "published_utc": "2026-08-10T15:19:08Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 1,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "A 7.4-magnitude earthquake struck western Colombia on August 10, 2026, killing at least 20 people and collapsing dozens of buildings across multiple cities.",
+  "bottom_line": "Rescue operations are ongoing in the hardest-hit cities. The sources do not yet provide final casualty figures or a timeline for structural assessments of critical infrastructure such as hospitals and water systems that would indicate broader recovery challenges.",
+  "human_take": "",
+  "body": [
+    "A 7.4-magnitude earthquake struck western Colombia on August 10, 2026, killing at least 20 people and prompting evacuations across multiple cities as rescue operations began in collapsed buildings.",
+    "The U.S. Geological Survey and Colombia's geological agency confirmed the epicenter was in San Jose Del Palmar, a community of about 4,800 people in the Choco region approximately 250 miles west of Bogota. According to the USGS, the quake struck at a depth of 66 miles.",
+    "Casualties were concentrated in urban centers. Per local officials, at least 18 people were killed in Pereira and two in Manizales. The neo-Gothic cathedral in Manizales sustained significant damage, with one of its towers collapsing onto the nave. In Cali, a city of 2 million people, Mayor Alejandro Eder reported that residents were trapped in at least 19 collapsed buildings. Choco Governor Nubia Cordoba reported injuries and serious structural damage in Quibdo, the regional capital with a population of about 130,000.",
+    "The tremor was also felt across the border in Ecuador. Earthquakes above 6.0 magnitude are rare in central and western Colombia, according to the sources; in 1999, a 6.2-magnitude quake near Armenia killed more than 1,100 people.",
+    "New President Abelardo de la Espriella said Monday he had taken personal charge of the government's emergency response in San Jose Del Palmar, telling affected residents: \"You are not alone. The state is present and taking action.\" Monday was declared a day of mourning in the region.",
+    "The sources do not provide a complete accounting of injuries across all affected cities or the full extent of building damage beyond the reported collapses."
+  ],
+  "sources": [
+    {
+      "title": "abcnews.com",
+      "url": "https://abcnews.com/International/wireStory/powerful-earthquake-shakes-colombia-ecuador-prompting-people-evacuate-135515580"
+    },
+    {
+      "title": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/world/a-7-4-magnitude-earthquake-rocks-colombia-and-ecuador-prompting-people-to-evacuate-buildings"
+    },
+    {
+      "title": "Washington Examiner",
+      "url": "https://www.washingtonexaminer.com/news/world/4680798/strong-magnitude-earthquake-strikes-colombia-ecuador/"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/video/massive-74-magnitude-earthquake-rocks-colombia/"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/colombia-earthquake-western-region-evacuations/"
+    }
+  ],
+  "event_utc": "2026-08-10T13:54:43Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-10T15:19:08Z",
+    "sources_cited": 5,
+    "sources_live_checked": 3
+  },
+  "also_reported_by": [
+    {
+      "outlet": "WGME",
+      "headline": "7.4-magnitude earthquake prompts evacuations in Colombia and Ecuador - WGME"
+    },
+    {
+      "outlet": "Spectrum News NY1",
+      "headline": "7.4-magnitude earth\u00adquake shakes Colombia and Ecuador, prompting people to evacuate buildings - Spectrum News NY1"
+    },
+    {
+      "outlet": "Washington Examiner",
+      "headline": "Strong 7.4 magnitude earthquake strikes Colombia and neighboring Ecuador - Washington Examiner"
+    },
+    {
+      "outlet": "FOX21 News Colorado",
+      "headline": "7.4-magnitude earthquake shakes Colombia and Ecuador - FOX21 News Colorado"
+    },
+    {
+      "outlet": "WBFF",
+      "headline": "7.4-magnitude earthquake prompts evacuations in Colombia and Ecuador - WBFF"
+    },
+    {
+      "outlet": "KBOI",
+      "headline": "7.4-magnitude earthquake prompts evacuations in Colombia and Ecuador - KBOI"
+    }
+  ]
+}
