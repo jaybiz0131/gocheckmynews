@@ -1,0 +1,68 @@
+{
+  "id": "c028",
+  "slug": "at-least-13-killed-in-ukrainian-strike-on-russia-s-tatarstan-region-officials-say",
+  "kind": "brief",
+  "title": "At least 13 killed in Ukrainian strike on Russia's Tatarstan region, officials say",
+  "dek": "Ukrainian drone strikes on Nizhnekamsk in Russia's Tatarstan region on August 10 killed at least 13 people, including one child, according to BBC reporting. The strike hit an oil refinery and residential areas more than 1,100 kilometers from the Ukrainian border. Moscow reported more than 450 drones were shot down overnight.",
+  "date": "2026-08-10",
+  "published_utc": "2026-08-10T11:28:11Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 1,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "At least 13 people, including one child, were killed in a Ukrainian drone strike on Nizhnekamsk, Tatarstan, on August 10, 2026, marking one of the deadliest Ukrainian attacks on Russian territory since the 2022 invasion.",
+  "bottom_line": "The strike demonstrates Ukraine's capacity to conduct deep-penetration drone operations and Russia's difficulty defending territory far from the front. What will shape the story next: whether injury tolls are reconciled, whether Ukraine claims credit for the drone loss figures Moscow reported, and whether this prompts a documented Russian response.",
+  "human_take": "",
+  "body": [
+    "At least 13 people, including one child, were killed in a Ukrainian drone strike on Nizhnekamsk in Russia's Tatarstan region on August 10, according to BBC reporting. The strike marks one of the deadliest Ukrainian attacks on Russian territory since the 2022 invasion began, demonstrating Ukraine's expanding ability to strike targets far inside Russia with sustained drone assaults.",
+    "The attack hit Tanevo oil refinery and residential areas in Nizhnekamsk, a city more than 1,100 kilometers (680 miles) from the Ukrainian border, per BBC reporting. Ukraine's Armed Forces confirmed the refinery was targeted, and Ukrainian defence technology manufacturer FirePoint said its FP-1 drones were used in the operation, according to BBC. The strike lasted several hours overnight into the morning, local sources told BBC.",
+    "Moscow confirmed industrial facilities were targeted alongside residential areas. Russia's Investigative Committee stated, per BBC, that \"civilian individuals who were not involved in any military operations were present\" at the site. BBC noted it \"has not independently verified\" this claim. The head of Tatarstan, Rustam Minnikhanov, confirmed the strike and shared his condolences, while Nizhnekamsk Mayor Radmir Belayev said \"This is a tremendous pain for all of us,\" per BBC. A period of mourning has been declared in Tatarstan.",
+    "Injury figures diverge between sources. BBC reported 75 people injured, according to Russian authorities, while CBS News cited Tatarstan authorities as stating 39 people injured. The sources do not explain the discrepancy. Reports of casualties come from Russian officials and have not been independently verified by Western reporters on the ground.",
+    "Ukraine's defence forces previously struck the same oil refineries in Nizhnekamsk on June 12, per BBC. CBS News reported that Ukrainian officials confirmed the strike as \"part of efforts to reduce the Russian aggressor's military capabilities\" and noted that Ukraine has targeted Russian oil facilities with long-range drones almost daily in recent months to reduce Russian oil refining capacity. Ukrainian President Volodymyr Zelenskyy said late Sunday, per CBS: \"We do deliver entirely justified responses, and every Russian strike will be met with our response. Russia's war will be felt more and more at their own home, in Russia. The only reason this is still continuing is Russia's unwillingness to end this war.\"",
+    "Moscow claimed more than 450 Ukrainian drones were shot down by Russian air defences overnight, per BBC. Kyiv has not yet commented on this claim, according to BBC.",
+    "The strike occurred amid broader escalation. A combined drone and missile strike on Kyiv last week killed 21 people, per BBC. In Kharkiv, near the front line, five people were killed overnight in a Russian artillery attack, BBC reported. Additionally, the World Health Organization's European office said Monday that one of its warehouses in the central Dnipro region of Ukraine had been struck twice in less than 24 hours, destroying emergency supplies worth an estimated $500,000 intended for front-line health facilities, per CBS News."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/ukraine-russia-war-drone-attack-tatarstan-oil/"
+    }
+  ],
+  "event_utc": "2026-08-10T10:03:58Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-10T11:28:11Z",
+    "sources_cited": 2,
+    "sources_live_checked": 2
+  },
+  "also_reported_by": [
+    {
+      "outlet": "Radio Free Europe/Radio Liberty",
+      "headline": "Russia Reports 13 Dead After Ukrainian Drones Strike In Tatarstan - Radio Free Europe/Radio Liberty"
+    },
+    {
+      "outlet": "Yahoo",
+      "headline": "Authorities: Ukrainian drone attack on Russia's Tatarstan kills 12 - Yahoo"
+    },
+    {
+      "outlet": "The Moscow Times",
+      "headline": "13 Killed in Ukrainian Attack on Republic of Tatarstan - The Moscow Times"
+    },
+    {
+      "outlet": "Public Radio of Armenia",
+      "headline": "At least 13 killed in Ukrainian drone strike on Russia\u2019s Tatarstan region - Public Radio of Armenia"
+    },
+    {
+      "outlet": "India Today",
+      "headline": "12 killed, 39 injured in Ukrainian strike on oil refinery in Russia's Tatarstan - India Today"
+    },
+    {
+      "outlet": "Yahoo News Australia",
+      "headline": "At Least 13 Killed In Ukrainian Drone Strike On Russia's Tatarstan - Yahoo News Australia"
+    }
+  ]
+}

@@ -5111,5 +5111,37 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-10",
+  "approved": 5,
+  "rejected": [
+   {
+    "id": "c075",
+    "headline": "Southern Iran bears brunt of U.S. bombing",
+    "category": "accuracy",
+    "reasons": [
+     "The draft makes factual claims ('near-constant U.S. airstrikes in southern Iran, including on Qeshm island, have disrupted civilian life and livelihoods') that cannot be traced to the brief. The brief contains zero data_points; the draft body explicitly admits 'the full details of specific casualty figures, dates of individual strikes, damage assessments, and direct quotes from affected residents were not accessible.' A story cannot be written from a brief with no fetched source text (source_chars: 0). The writer has paraphrased a headline or premise without the underlying facts to support it.",
+     "The bottom_line tells readers 'Read the full New York Times reporting for casualty figures, strike locations, and civilian testimony' and 'The sourced brief does not contain the data necessary to establish the scale or specifics of disruption.' This is an admission that the brief is too thin to write from, violating the hard rule that 'no fact exists outside the brief.' The story should not have been drafted."
+    ]
+   },
+   {
+    "id": "c008",
+    "headline": "Ukrainian drone strike kills 12 in Russian city of Nizhnekamsk",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Ukrainian officials made no immediate comment on the Nizhnekamsk attack, according to NPR' but this claim does not appear in the data_points of the brief. The brief's open_questions note that 'Ukrainian officials made no immediate comment,' but this is flagged as an open question, not a confirmed data_point. A negative claim (what someone did not do) requires explicit sourcing and cannot be inferred from silence in the brief."
+    ]
+   },
+   {
+    "id": "c222",
+    "headline": "Trump says U.S. 'semi-negotiating' with Iran while applying economic pressure",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states Trump said the U.S. blockade 'has exacerbated the country's economy' but the brief data point says Trump 'said that the U.S. blockade on the Strait of Hormuz has exacerbated the country's economy.' The draft attributes this as Trump's claim about U.S. action; the brief indicates Trump is claiming the blockade (presumably Iran's blockade of the Strait, not a U.S. blockade of Iranian ports) has hurt Iran's economy. This is a material factual misattribution that reverses the causal direction of Trump's argument.",
+     "The draft opens paragraph 2 by saying 'Iran's foreign minister directly disputed that characterization' but does not clearly specify which characterization is being disputed. The brief's bear_case notes that Araghchi 'explicitly rejected the characterization of talks as negotiations'\u2014this is the specific point of dispute. The draft should name this directly to avoid reader confusion about what exactly Iran rejected."
+    ]
+   }
+  ]
  }
 ]

@@ -1,0 +1,65 @@
+{
+  "id": "c037",
+  "slug": "china-evacuates-over-one-million-as-typhoon-dolphin-makes-landfall",
+  "kind": "brief",
+  "title": "China evacuates over one million as Typhoon Dolphin makes landfall",
+  "dek": "Typhoon Dolphin made landfall in eastern China on Sunday with wind speeds of 150km/h (94mph), prompting evacuation of more than one million people, primarily from Wenzhou and Taizhou in Zhejiang province. Chinese authorities issued their highest-level alert for the strongest storm to hit China this year. Authorities warn of torrential rains, severe flooding, and landslide risk through Wednesday.",
+  "date": "2026-08-10",
+  "published_utc": "2026-08-10T11:28:11Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 8,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Authorities evacuated more than one million people from Wenzhou (900,000) and Taizhou (390,000) as Typhoon Dolphin made dual landfalls in Zhejiang province Sunday at maximum wind speeds of 150km/h (94mph).",
+  "bottom_line": "The scale of China's evacuation, over one million people from two cities, represents one of the largest single-storm mobilizations in the country this year and underscores the vulnerability of densely populated coastal zones. Authorities have opened shelters and halted transport, but the storm's unusual longevity and massive rainfall footprint mean the flood and landslide risk will persist through Wednesday. Watch for casualty and damage updates as the storm moves north into provinces with large populations including Shanghai, and whether the nine-year-old boy is found.",
+  "human_take": "",
+  "body": [
+    "Chinese authorities evacuated more than one million people from their homes in eastern China including Shanghai as Typhoon Dolphin made landfall Sunday with maximum wind speeds of 150 kilometers per hour. The storm struck Yuhuan in Zhejiang province at 17:30 local time (09:30 GMT) and made a second landfall in the city of Wenzhou about an hour later. Chinese authorities had issued their highest-level red alert for Dolphin, which is the strongest storm to hit China this year, according to BBC reporting.",
+    "Wenzhou authorities relocated some 900,000 residents and opened more than 1,000 emergency shelters, while about 390,000 people were evacuated from the city of Taizhou. In Hangzhou, Zhejiang's capital city, authorities waived parking fees in all public spaces for drivers seeking shelter amid the strong winds and floodwaters.",
+    "Although authorities have downgraded Dolphin to a tropical storm, they continue to warn of torrential rains, severe flooding, and the risk of landslides through Wednesday as the storm moves north. Parts of Zhejiang could receive between 250 millimeters and 500 millimeters of rain over the next few days, according to forecasters. Heavy rain was forecast Monday for the provinces of Shandong, Henan, Hubei, Anhui, Jiangsu, Zhejiang, and the city of Shanghai.",
+    "The storm prompted widespread disruptions. Nearly 1,000 flights were cancelled in Shanghai alone on Monday. Governments urged people to avoid outdoor activities, while several top tourist attractions remained closed, including parts of Disneyland and Legoland, and several viewing platforms along the Bund in Shanghai. Ground-floor businesses flooded in the former French Concession in Shanghai, an area popular with tourists, with people wading through ankle-deep waters. In the coastal province of Fujian, maritime authorities suspended dozens of passenger ferry routes and halted more than 100 offshore construction projects.",
+    "State media reported that a nine-year-old boy from Wenling, Zhejiang is missing after being swept into the sea. Chinese officials have not reported any other casualties. The Typhoon Dolphin Advisory, issued by the relevant Chinese meteorological authority, is the primary source for casualty status and affected regions.",
+    "The storm's characteristics heightened its impact. According to China's state broadcaster CCTV, Dolphin moved over a long distance of 6,000 kilometers before making landfall, suggesting a lifespan more than three times that of an average typhoon. The storm also has a massive circulation size and intense rainfall capacity, CCTV reported. This year is a strong El Ni\u00f1o year, which experts say means typhoons can grow to be more intense, per BBC reporting.",
+    "Before reaching China, Dolphin brought torrential rains to the Philippines, parts of northern Taiwan, and Japan's Okinawa island. Eight people died in the Philippines because of heavy monsoon rains brought on by Dolphin and storms earlier in the week, according to the Office of Civil Defence, with more than 7,000 people sheltering at evacuation centers nationwide. In Okinawa in Japan, five elderly people suffered non-life-threatening injuries, according to the prefectural government, with three of them falling because of the strong winds. In Hong Kong, the weather observatory posted a record high temperature of 36.9 degrees Celsius on Sunday as the typhoon swept warm air over the city.",
+    "State authorities also reported detaining two people for spreading misinformation around the storm on the Chinese internet. One of the detained individuals, a 60-year-old man, created a fake video with AI that claimed someone in Shanghai had fallen from a building during the storm. The other, a 32-year-old man, had re-edited storm footage posted by other social media users in a way that was deemed misleading."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cx2rgzyplg2o?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "event_utc": "2026-08-10T07:23:54Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-10T11:28:11Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "also_reported_by": [
+    {
+      "outlet": "Al Jazeera",
+      "headline": "China evacuates a million from homes as Typhoon Dolphin arrives - Al Jazeera"
+    },
+    {
+      "outlet": "The Guardian",
+      "headline": "Typhoon Dolphin: more than a million people evacuated in China as record rainfall dumped on Shanghai - The Guardian"
+    },
+    {
+      "outlet": "ICIS",
+      "headline": "Typhoon Dolphin disrupts logistics in eastern China - ICIS"
+    },
+    {
+      "outlet": "The New York Times",
+      "headline": "Video: Typhoon Dolphin Hits China - The New York Times"
+    },
+    {
+      "outlet": "SBS",
+      "headline": "More than one million evacuated, flights cancelled, as Typhoon Dolphin hits China - SBS"
+    },
+    {
+      "outlet": "NDTV",
+      "headline": "Over 1 Million Evacuated As Typhoon Dolphin Disrupts Flights Across China - NDTV"
+    }
+  ]
+}
