@@ -1,0 +1,45 @@
+{
+  "id": "c094",
+  "slug": "blanche-sworn-in-as-attorney-general-after-50-49-senate-confirmation",
+  "kind": "brief",
+  "title": "Blanche sworn in as attorney general after 50-49 Senate confirmation",
+  "dek": "Todd Blanche was sworn in as attorney general on Monday after the Senate confirmed him in a 50-49 vote early Saturday. The narrow confirmation came after weeks of uncertainty and resolved a key seat in Trump's cabinet.",
+  "date": "2026-08-10",
+  "published_utc": "2026-08-10T20:25:58Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 3,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Todd Blanche was sworn in as attorney general after winning Senate confirmation by a single vote, 50-49, following weeks of uncertain prospects.",
+  "bottom_line": "Blanche now leads the Justice Department with a mandate shaped by narrow confirmation politics. How he manages the competing pressures of Republican demands for aggressive investigations and the broader department's institutional interests will define his tenure and the direction of federal law enforcement under Trump.",
+  "human_take": "",
+  "body": [
+    "Todd Blanche was sworn in as attorney general on Monday at the White House, according to CBS News. White House press secretary Karoline Leavitt posted a video of Blanche taking the oath in the Oval Office, with Judge Emil Bove, who served alongside Blanche on President Trump's legal defense team before his federal appointment, administering the oath as Trump looked on.",
+    "The Senate confirmed Blanche early Saturday morning following a marathon overnight session as senators prepared to depart for their August recess. The confirmation vote was 50-49, according to CBS News, marking a narrow margin that came down to a single deciding senator.",
+    "Blanche's prospects had appeared uncertain for weeks. According to CBS News, Democrats pledged to oppose his nomination, and several Republicans voiced concerns. Sens. Susan Collins of Maine and Lisa Murkowski of Alaska announced they would oppose him, while concerns persisted among Republicans including Sens. John Cornyn of Texas and Thom Tillis of North Carolina, per CBS News. The sticking point for some Republicans centered on the Justice Department's 1.8 billion dollar \"anti-weaponization\" fund, intended to provide payouts to people who alleged they were wronged by the federal government.",
+    "Blanche had testified in June that the fund was \"dead,\" but concern persisted until last week, when he issued an order rescinding his directive that established the fund. Cornyn and Tillis dropped their opposition following that action, according to CBS News.",
+    "With Collins and Murkowski locked in opposition, the decisive vote came down to Sen. Bill Cassidy of Louisiana. Cassidy announced his support in a short speech on the Senate floor Friday. Per CBS News, he said: \"Mr. Blanche is not perfect, and he will tell you this, but the choice is not between perfection and Mr. Blanche. It is between Mr. Blanche and another acting attorney general who may not run the department effectively under President Trump and who indeed may not be as good as Mr. Blanche.\"",
+    "Blanche has been serving as acting attorney general since Pam Bondi's ouster in April, after working as deputy attorney general. He was formally nominated in June and joined Trump's legal defense team in 2023 after Trump was indicted in a case related to payments to Stormy Daniels in 2016, per CBS News. Trump was found guilty on 34 felony counts in May 2024, according to the same reporting. Before joining the Trump defense team, Blanche received his law degree from Brooklyn Law School, clerked for two federal judges in New York, and worked as a prosecutor in the U.S. Attorney's Office for the Southern District of New York, per CBS News. He later joined the law firms WilmerHale and Cadwalader, Wickersham & Taft before starting his own firm, Blanche Law, in 2023."
+  ],
+  "sources": [
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/todd-blanche-attorney-general-sworn-in-trump/"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/homenews/administration/6020995-blanche-attorney-general-sworn-in/"
+    },
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/2026/aug/10/todd-blanche-attorney-general-sworn-in"
+    }
+  ],
+  "event_utc": "2026-08-10T18:45:14Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-10T20:25:58Z",
+    "sources_cited": 3,
+    "sources_live_checked": 2
+  }
+}

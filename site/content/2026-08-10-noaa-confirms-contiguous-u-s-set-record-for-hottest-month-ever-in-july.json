@@ -1,0 +1,48 @@
+{
+  "id": "c055",
+  "slug": "noaa-confirms-contiguous-u-s-set-record-for-hottest-month-ever-in-july",
+  "kind": "brief",
+  "title": "NOAA confirms contiguous U.S. set record for hottest month ever in July",
+  "dek": "The National Oceanic and Atmospheric Administration reported that the contiguous United States recorded its hottest month on record in July 2026, with temperatures averaging 76.9 degrees Fahrenheit, 3.3 degrees above the 20th-century average. The record came amid heat waves affecting 185 million people, drought covering nearly half the country, and widespread flooding and wildfires.",
+  "date": "2026-08-10",
+  "published_utc": "2026-08-10T20:25:58Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 4,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "July 2026 was not only the warmest July but the warmest month of any kind in NOAA's 132 years of record-keeping for the contiguous United States, according to the agency's data.",
+  "bottom_line": "NOAA's record for July marks an escalation in extreme weather severity across North America and globally. Watch for how the forecast of above-normal temperatures over the next three months, as El Ni\u00f1o conditions persist, affects infrastructure, power grids, and public health systems; any significant retreat from the global temperature trajectory would require major shifts in underlying atmospheric and oceanic patterns.",
+  "human_take": "",
+  "body": [
+    "The National Oceanic and Atmospheric Administration said the contiguous United States set a record for its hottest month ever in July 2026. Temperatures across the region averaged 76.9 degrees Fahrenheit, according to NOAA data reported by CBS News, placing the month 3.3 degrees above the 20th-century average. The record marks not only the warmest July but the warmest month of any kind in the agency's 132 years of record-keeping, per NBC News reporting.",
+    "July's heat was 0.1 to 0.2 degrees warmer than the previous records set in July 1936 and July 2012, according to CBS News. The month also broke the record for average low temperature, reaching 64.2 degrees and surpassing July 2022 by 0.7 degrees, CBS News reported.",
+    "Extreme heat waves beginning in early July placed more than 185 million people under heat alerts, including residents of Boston, New York City, Philadelphia, and Washington, D.C., according to CBS News. The Independence Day parade in the nation's capital was among several events canceled or postponed due to the extreme conditions. Multiple locations across Idaho, Utah, Wyoming, and Montana set all-time high temperature records on July 12 alone, per NBC News: Salt Lake City and Sheridan, Wyoming each reached 109 degrees, Billings, Montana hit 111 degrees, and Miles City, Montana reached 115 degrees. Wyoming experienced its warmest July and warmest month on record, with temperatures 5.1 degrees above average, NBC News reported.",
+    "Beyond sustained heat, the month brought extreme weather across the region. Despite below-average precipitation across the contiguous U.S. overall, which ranked third driest on record according to CBS News, intense rain fell in localized areas. From July 13 to 17, rainfall in the Texas Hill Country totaled more than 28 inches near Knippa in Uvalde County, per NBC News. From July 28 to 30, slow-moving thunderstorms dumped nearly 12 inches of rain over eastern New York, causing major flash flooding, NBC News reported.",
+    "Drought conditions extended across much of the country. As of Aug. 4, about 48.5 percent of the contiguous U.S. was in drought, according to CBS News. Around 40 percent of the U.S. and Puerto Rico faced drought conditions by the end of July, NBC News reported. In Puerto Rico, more than two-thirds of the island was in drought, and San Juan residents and neighboring communities have begun rationing water, CBS News stated.",
+    "Wildfires burned across the region. More than 140,000 acres burned in eastern Oregon in July, per CBS News and NBC News reporting, prompting thousands of evacuations from mostly small towns in central and eastern parts of the state. Devastating wildfires also burned in Canada and Europe, with fast-moving blazes in July destroying hundreds of structures in Washington state and Oregon, NBC News reported.",
+    "Globally, last month was the joint second-warmest July on record, according to the World Meteorological Organization, CBS News reported. The WMO warned that above-normal temperatures are expected over the next three months as El Ni\u00f1o, the weather phenomenon characterized by warmer ocean temperatures, is likely to push global temperatures to record highs. WMO Secretary-General Celeste Saulo stated, per CBS News: \"El Ni\u00f1o is one of the most closely monitored climate phenomena in the world. But forecasts in themselves do not prevent hazards, people do. This El Ni\u00f1o developing against the backdrop of unprecedented ocean heat and rising temperatures, provides governments and communities with a window of opportunity to anticipate risks and act before impacts unfold.\"",
+    "Western Europe also experienced extreme heat. A new report released by the European Union's Copernicus Climate Change Service found that western Europe had its hottest June-July period on record, NBC News reported. The continent has suffered through four brutal heat waves since May, with temperatures setting several national records and driving the region further into drought, NBC News stated. The Copernicus report also said that average sea surface temperatures reached their highest levels for July across extrapolar oceans, the bodies of water between 60 degrees South and 60 degrees North latitude that are free of seasonal sea ice, NBC News reported.",
+    "A separate \"state of the climate\" report released by the Bulletin of the American Meteorological Society indicated that 2025 was similarly extreme, with greenhouse gas concentrations, global sea level, and ocean heat content all reaching their highest levels on record, per NBC News."
+  ],
+  "sources": [
+    {
+      "title": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/science/noaa-says-contiguous-u-s-set-record-in-july-for-hottest-month-ever"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/contiguous-us-hottest-month-july-record-noaa/"
+    },
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/science/climate-change/us-just-hottest-month-record-rcna591771"
+    }
+  ],
+  "event_utc": "2026-08-10T18:03:12Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-10T20:25:58Z",
+    "sources_cited": 3,
+    "sources_live_checked": 3
+  }
+}

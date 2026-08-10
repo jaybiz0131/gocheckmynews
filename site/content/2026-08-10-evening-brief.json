@@ -1,0 +1,82 @@
+{
+  "id": "wrap-pm-2026-08-10",
+  "slug": "evening-brief-2026-08-10",
+  "kind": "brief",
+  "title": "The Evening Brief: Western disasters mount: fires, quake, drone strike, typhoon toll grows",
+  "dek": "A 7.4-magnitude earthquake killed at least 20 in Colombia, a Ukrainian drone strike killed at least 13 in Russia, British Columbia's wildfire death toll rose to one, and Typhoon Dolphin forced evacuation of over one million in China. Global disaster toll since Saturday now exceeds 55.",
+  "date": "2026-08-10",
+  "published_utc": "2026-08-10T20:31:06Z",
+  "category": "daily edition",
+  "rank": -3,
+  "author": "GoCheckMyNews",
+  "key_fact": "The past 48 hours have concentrated multiple large-scale disasters across North America and globally, each producing significant casualties and displacement, while record heat in the U.S. and extreme weather conditions across the hemisphere suggest structural vulnerability to climate-driven hazards.",
+  "bottom_line": "The past 48 hours have concentrated multiple large-scale disasters, wildfires, a magnitude-7.4 earthquake, a deep-penetration Ukrainian drone strike, and a typhoon forcing over one million evacuations, into a single window, with combined casualties exceeding 55. July's record U.S. heat (3.3 degrees above normal) and persistent drought establish the climate context for the wildfire epidemic now stretching response capacity across North America. Watch for containment updates on the Widemouth 2 fire in Utah and Bald Range in BC; casualty and structure-loss counts from Colombia's earthquake; whether Russia formally responds to the Tatarstan strike; Typhoon Dolphin's track through Wednesday and flood impacts in Shanghai and adjacent provinces; and whether the forecast of above-normal temperatures over the next three months further stresses power grids and public health systems.",
+  "human_take": "",
+  "body": [
+    "Four separate disasters have claimed at least 55 lives since Saturday, stretching emergency response capacity across three continents. The cascading pattern, a wildfire claiming its first death, a major earthquake in Colombia, a Ukrainian drone strike deep inside Russia, and a typhoon forcing the evacuation of over one million people from China, reflects a converging period of extreme weather and regional instability, all occurring within a single weather system affecting much of the Northern Hemisphere.",
+    "The Bald Range wildfire in British Columbia has now scorched more than 53 square miles and claimed one confirmed death: an 80-year-old woman who died while evacuating. The fire, first reported Friday evening, forced more than 20,000 people from Summerland and Peachland, with Premier David Eby confirming that the flames generated their own weather system and lightning, according to reporting that detailed the fire's explosive growth. Eighteen firefighting aircraft rescued more than 50 people in active operations. Simultaneously, 183 new fires ignited across the western United States since Saturday, with over 30,000 personnel and 640 crews engaged. Utah alone is battling close to a dozen active wildfires that have scorched more than 300,000 acres, including the Widemouth 2 fire at 118,000 acres, now the largest in the state this year.",
+    "On August 10, a 7.4-magnitude earthquake struck western Colombia's San Jose Del Palmar region, killing at least 20 people and collapsing dozens of buildings across Pereira, Manizales, and Cali. The quake struck at a depth of 66 miles in a region approximately 250 miles west of Bogota. The same day, Ukrainian drone strikes on Nizhnekamsk in Russia's Tatarstan region, more than 1,100 kilometers from the Ukrainian border, killed at least 13 people including one child, marking one of the deadliest Ukrainian attacks on Russian territory since the 2022 invasion. The strike hit the Tanevo oil refinery and residential areas in a multi-hour operation, with Ukrainian defense manufacturer FirePoint confirming FP-1 drones were used. Moscow reported more than 450 drones shot down overnight.",
+    "In New York Harbor, a 22-foot bowrider capsized near Liberty Island on August 9, killing a 27-year-old woman identified as Sara Sanchez and her 5-month-old daughter Antonella Garcia. Twelve others were rescued from the water. Manuel Hernandez, 46, the vessel's captain, was arrested on 13 counts of reckless endangerment. The cause of the capsize remains under investigation.",
+    "In China, Typhoon Dolphin made dual landfalls in Zhejiang province on August 10 with maximum wind speeds of 150 kilometers per hour (94 mph), prompting evacuation of more than one million people. Wenzhou relocated 900,000 residents and opened more than 1,000 emergency shelters, while about 390,000 people evacuated from Taizhou. Authorities issued their highest-level red alert for the strongest storm to hit China this year. The storm's effects are expected to persist through Wednesday with torrential rains and landslide risk.",
+    "Underlying these events is the climate backdrop now confirmed by federal data: the National Oceanic and Atmospheric Administration confirmed that the contiguous United States recorded its hottest month ever in July 2026, with temperatures averaging 76.9 degrees Fahrenheit, 3.3 degrees above the 20th-century average. July was not only the warmest July but the warmest month of any kind in NOAA's 132 years of record-keeping. The heat came amid drought covering nearly half the country, conditions that have amplified fire risk across the western wildfire corridor.",
+    "In other developments, Todd Blanche was sworn in as attorney general on Monday after the Senate confirmed him 50-49 early Saturday in a narrow vote. The confirmation followed weeks of uncertainty and came as senators prepared for August recess."
+  ],
+  "sources": [
+    {
+      "title": "Bald Range Wildfire in British Columbia Doubles in Size, Forces 20,000 to Evacuate",
+      "url": "/articles/bald-range-wildfire-in-british-columbia-doubles-in-size-forces-20-000-to-evacuate.html"
+    },
+    {
+      "title": "Boat capsizes near Liberty Island in New York Harbor; 2 dead, 12 rescued",
+      "url": "/articles/boat-capsizes-near-liberty-island-in-new-york-harbor-2-dead-12-rescued.html"
+    },
+    {
+      "title": "British Columbia declares state of emergency as fast-moving wildfire forces 20,000+ to evacuate",
+      "url": "/articles/british-columbia-declares-state-of-emergency-as-fast-moving-wildfire-forces-20-000-to-evacuate.html"
+    },
+    {
+      "title": "Case wins Hawaii Democratic primary, defeating progressive challenger",
+      "url": "/articles/case-wins-hawaii-democratic-primary-defeating-progressive-challenger.html"
+    },
+    {
+      "title": "Crews battle wildfires in western U.S. and Canada",
+      "url": "/articles/crews-battle-wildfires-in-western-u-s-and-canada.html"
+    },
+    {
+      "title": "Mother and infant daughter die after boat capsizes near Liberty Island",
+      "url": "/articles/mother-and-infant-daughter-die-after-boat-capsizes-near-liberty-island.html"
+    },
+    {
+      "title": "Netanyahu rejects Trump's 15-point Gaza plan, insists on Hamas disarmament before withdrawal",
+      "url": "/articles/netanyahu-rejects-trump-s-15-point-gaza-plan-insists-on-hamas-disarmament-before-withdrawal.html"
+    },
+    {
+      "title": "Trial begins Monday for man charged in 1996 Tupac Shakur murder",
+      "url": "/articles/trial-begins-monday-for-man-charged-in-1996-tupac-shakur-murder.html"
+    },
+    {
+      "title": "7.4-magnitude earthquake strikes Colombia and Ecuador; at least 20 dead",
+      "url": "/articles/7-4-magnitude-earthquake-strikes-colombia-and-ecuador-at-least-20-dead.html"
+    },
+    {
+      "title": "At least 13 killed in Ukrainian strike on Russia's Tatarstan region, officials say",
+      "url": "/articles/at-least-13-killed-in-ukrainian-strike-on-russia-s-tatarstan-region-officials-say.html"
+    },
+    {
+      "title": "Blanche sworn in as attorney general after 50-49 Senate confirmation",
+      "url": "/articles/blanche-sworn-in-as-attorney-general-after-50-49-senate-confirmation.html"
+    },
+    {
+      "title": "China evacuates over one million as Typhoon Dolphin makes landfall",
+      "url": "/articles/china-evacuates-over-one-million-as-typhoon-dolphin-makes-landfall.html"
+    },
+    {
+      "title": "NOAA confirms contiguous U.S. set record for hottest month ever in July",
+      "url": "/articles/noaa-confirms-contiguous-u-s-set-record-for-hottest-month-ever-in-july.html"
+    },
+    {
+      "title": "Wildfires in western Canada force more than 20,000 people to evacuate",
+      "url": "/articles/wildfires-in-western-canada-force-more-than-20-000-people-to-evacuate.html"
+    }
+  ]
+}

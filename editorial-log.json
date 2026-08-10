@@ -5241,5 +5241,54 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-10",
+  "approved": 3,
+  "rejected": [
+   {
+    "id": "c019",
+    "headline": "Trump signs executive order on childhood vaccine schedule, calls for splitting MMR shots",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The Trump administration has long promoted a connection between the MMR vaccine and autism' but the brief's data_point says 'The Trump administration has long pushed a discredited link between MMR vaccines and autism.' The draft omits the critical word 'discredited' which materially changes the meaning and liability exposure. The brief itself characterizes the connection as debunked in the angle ('rests on a repeatedly debunked claim'), but the draft's phrasing could read as the desk endorsing the claim as a fact rather than a false one.",
+     "The draft's framing 'However, multiple studies have found no link between MMR vaccines and autism, per the same reporting' positions the debunked claim and its refutation as equal-weight competing claims in sequence, rather than clearly establishing that Trump's claim is scientifically false. This is a liability issue when the brief's angle explicitly identifies the claim as 'repeatedly debunked.'"
+    ]
+   },
+   {
+    "id": "c080",
+    "headline": "Earthquake strikes Colombia days after new president takes office",
+    "category": "clarity",
+    "reasons": [
+     "The brief is marked 'thin: true' with only 2 data_points and 'source_chars: 0', indicating the research is severely incomplete. The draft, while not inaccurate to the brief, reads as a stub that lacks the minimum detail needed to justify publication: no magnitude, no location within Colombia, no description of damage, no named response from the Espriella administration. The draft opens with a vague 'major earthquake' but provides no facts to support that characterization. The bottom_line asks questions ('what was the scale of displacement') that the reporting itself should answer. This violates the desk's standard to open with stakes and deliver reporting, not questions the reporter failed to answer."
+    ]
+   },
+   {
+    "id": "c057",
+    "headline": "Trial begins for man accused of orchestrating Tupac Shakur's 1996 killing",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Combs is currently serving roughly four years in prison after being convicted of prostitution-related charges,' but the brief data_point says 'Combs is serving roughly four years in prison after being convicted of prostitution-related charges' with no temporal qualifier of 'currently.' This is a factual claim about Combs' current incarceration status that may not match the sourced record and introduces a fact beyond what the brief supports. The brief does not confirm 'currently' serving\u2014only that he is serving. This distinction matters for accuracy."
+    ]
+   },
+   {
+    "id": "c046",
+    "headline": "Bald Range wildfire in British Columbia forces 12,000 to evacuate; homes destroyed",
+    "category": "compliance",
+    "reasons": [
+     "The draft metadata shows boundary_required: true and boundary_ok: false with reason 'this story turns on a version, date range or threshold but the brief carries no boundary block.' The story contains multiple time-sensitive facts (fire 'broke out on Friday,' evacuation order 'as of Monday,' Okanagan Lake level 'as of July,' 100+ fires 'as of Monday,' 70 fires 'started in the previous week alone') without a clear publication boundary statement establishing when 'Friday' and 'Monday' occurred or what date range 'previous week' references. This creates liability for staleness and confusion. The story cannot be approved without a compliance boundary block clarifying the reference dates."
+    ]
+   },
+   {
+    "id": "c187",
+    "headline": "Trump administration revokes more than 175,000 visas",
+    "category": "accuracy",
+    "reasons": [
+     "The draft cites 'The Hill' as the source for all claims, but the brief shows two additional source URLs (Washington Examiner articles) that the draft does not draw from. More critically, the draft itself acknowledges 'the two additional source URLs are not functional for extracting details on visa policy'\u2014meaning the writer cannot verify those sources exist or contain relevant material. The hard rule is: no fact exists outside the brief. The brief's open_questions flag that 'No State Department official press release or direct statement is included in the available reporting,' yet the draft does not acknowledge this confidence limitation when presenting State Department claims.",
+     "The draft states 'The State Department said the majority of the canceled visas resulted from \"law enforcement encounters\"' without confidence labeling. The brief marks this as 'reported' confidence only, sourced to a single outlet (The Hill). The draft should either attribute this explicitly to The Hill in-sentence or acknowledge the sourcing constraint; presenting State Department claims as unattributed facts when they come only through The Hill's reporting crosses the line into false certainty.",
+     "The draft includes two source URLs that the brief itself identifies as non-functional for this story's purpose ('the two additional source URLs are not functional for extracting details on visa policy'). Including URLs in the sources list that do not support the claims violates the accuracy requirement that facts must trace to verifiable sources in the brief."
+    ]
+   }
+  ]
  }
 ]
