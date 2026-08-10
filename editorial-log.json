@@ -5143,5 +5143,52 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-10",
+  "approved": 3,
+  "rejected": [
+   {
+    "id": "c037",
+    "headline": "Over one million evacuated as Typhoon Dolphin makes landfall in eastern China",
+    "category": "accuracy",
+    "reasons": [
+     "Draft states 'Hong Kong recorded a record high temperature of 36.9 degrees Celsius on Sunday as the typhoon swept warm air over the city.' The brief data_point says 'Weather observatory in Hong Kong posted a record high temperature of 36.9C on Sunday as the typhoon swept warm air over the city.' The draft omits attribution to the weather observatory, presenting it as a bare fact when the source specifies it came from a specific institutional source."
+    ]
+   },
+   {
+    "id": "c041",
+    "headline": "Canadian wildfire kills one, forces 20,000 to evacuate in British Columbia",
+    "category": "accuracy",
+    "reasons": [
+     "Draft states 'The fire has burned across 53 square miles (136 square kilometers, or 13,618 hectares).' The brief lists two separate data_points: one claiming '53 sq miles (136 sq km)' and another claiming '13,618 hectares (33,650 acres).' These do not match: 136 sq km equals 13,600 hectares (approximately), but the draft presents 136 sq km as equivalent to 13,618 hectares without acknowledging a discrepancy. The 33,650 acres figure in the brief contradicts the math (136 sq km \u2248 13,600 hectares \u2248 33,600 acres, not 13,618 hectares separately). The draft conflates two potentially contradictory measurements from the source without flagging the inconsistency or tracing which measurement the brief actually supports."
+    ]
+   },
+   {
+    "id": "c074",
+    "headline": "HOLD: Story cannot be drafted without retrieved source material",
+    "category": "accuracy",
+    "reasons": [
+     "The entire draft is a meta-commentary about missing source material rather than a news story. The body is a request to research to retrieve sources, not reporting. This violates the hard rule that 'no fact exists outside the brief'\u2014here, there is no brief with facts to report. The draft should not have been submitted for approval; it should have been returned to research before reaching the desk. If the brief genuinely contains zero data points and zero source_chars, the story cannot be drafted and should be held at research level, not routed to approval as a draft."
+    ]
+   },
+   {
+    "id": "c224",
+    "headline": "Iran rejects U.S. talks characterization, demands blockade lift before Strait reopens",
+    "category": "accuracy",
+    "reasons": [
+     "The draft attributes a quote to Trump ('It will work out. It always works out. It's like a chess game.') and references Trump saying the U.S. is 'only semi-negotiating' with Iran. The brief's data_point states Trump said the U.S. is 'only semi-negotiating,' but the brief's bear_case quote says 'We are only semi-negotiating with them. We are just watching Iran with its huge inflation and the fact they have no money.' The full quote in the bear_case includes 'We are just watching Iran with its huge inflation and the fact they have no money,' which contextualizes the economic-leverage argument. The draft's presentation of Trump's position via 'very bad shape' and 'blockade on the Strait of Hormuz has exacerbated the country's economy' is paraphrased from the brief's data_point ('Iran is in \"very bad shape\" and that the U.S. blockade on the Strait of Hormuz has exacerbated the country's economy'), but the draft then says Trump described the situation as 'one of economic leverage' without direct attribution in the data_points for that specific framing. The draft is also missing attribution in a critical sentence: 'Trump stated, \"It will work out. It always works out. It's like a chess game.\"' appears to be paraphrased from the bear_case but is presented as direct Trump quote without clearly signaling it comes from Axios via the brief. Attribution must be inline; the reader should know from the sentence itself that this is Axios reporting, not GoCheckMyNews analysis."
+    ]
+   },
+   {
+    "id": "c081",
+    "headline": "Meta releases Muse Glimmer, a freely downloadable AI model",
+    "category": "accuracy",
+    "reasons": [
+     "The draft describes Muse Glimmer as 'the company's most powerful AI model' but the brief data_point says Meta 'describes' it as such. The draft presents this as a fact without attribution to Meta's characterization, when the source only carries Meta's claim. This is a confidence/attribution problem: the brief marks it 'reported' (meaning Meta said it), not verified as objectively true. The sentence should read 'Meta describes Muse Glimmer as its most powerful AI model' to preserve the source boundary.",
+     "The draft states 'The move is likely to intensify the ongoing policy debate' as though this is established fact from the Times reporting, but the brief data_point says the release is 'likely to intensify debate'\u2014this is interpretation/inference, not a reported claim. The draft should either attribute this directly to Times analysis or remove it as speculation outside the brief."
+    ]
+   }
+  ]
  }
 ]
