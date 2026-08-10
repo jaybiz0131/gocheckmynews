@@ -1,0 +1,43 @@
+{
+  "id": "c222",
+  "slug": "wildfires-in-western-canada-force-more-than-20-000-people-to-evacuate",
+  "kind": "brief",
+  "title": "Wildfires in western Canada force more than 20,000 people to evacuate",
+  "dek": "The Bald Range wildfire in British Columbia killed at least one person and forced more than 20,000 people to evacuate from communities along Okanagan Lake. The fire scorched more than 53 square miles in days and generated its own weather system and lightning.",
+  "date": "2026-08-10",
+  "published_utc": "2026-08-10T10:46:19Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 3,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "An 80-year-old woman died while evacuating the Bald Range wildfire, which forced more than 20,000 people to flee communities in British Columbia's Okanagan Lake region.",
+  "bottom_line": "As damage assessment continues in the active fire zone, watch for updated casualty counts and estimates of structures destroyed; the state of emergency powers may signal whether officials expect further rapid fire spread across the remaining 100-plus wildfires in the province.",
+  "human_take": "",
+  "body": [
+    "The Bald Range wildfire in British Columbia killed at least one person and forced more than 20,000 people to flee communities in the Okanagan Lake region. An 80-year-old woman died while trying to escape the wildfire, according to the Royal Canadian Mounted Police. About 12,000 people in Summerland were ordered evacuated overnight, and approximately 8,000 people in and around nearby Peachland evacuated. Eighteen firefighting aircraft rescued more than 50 people, per British Columbia Forests Minister Ravi Parmar.",
+    "The wildfire was first reported Friday evening and raced roughly 9 miles toward Okanagan Lake within hours. By Sunday, the flames had scorched more than 53 square miles. The fire became so intense it generated its own weather system and lightning, according to Premier David Eby. Cliff Chapman, the British Columbia Wildfire Service's director of operations, called conditions \"explosive\" and warned that other communities could face similarly fast-moving fires.",
+    "Premier Eby announced a state of emergency Saturday. More than 100 wildfires burned across British Columbia at the time of the emergency announcement, with nearly half of them out of control. The state of emergency gives the province additional powers, including the ability to restrict travel and secure accommodations for evacuees, per British Columbia Emergency Management Minister Kelly Greene. Eleanor Olszewski, Canada's minister of emergency management and community resilience, approved a request for federal assistance from British Columbia to provide shelter and accommodations for evacuees.",
+    "Highway 97, a major route through the region, was closed between Peachland and Penticton. Erick Thompson, an emergency official with the Regional District of Okanagan-Similkameen, had to abandon the emergency operations centre and evacuate his family. Eby's office confirmed \"significant structure loss\" but said officials could not yet assess the damage because the area remained an active fire zone.",
+    "British Columbia experiences an average of 1,600 wildfires per year, according to the BC Wildfire Service. In July, President Trump threatened Canada with additional tariffs after wildfires sent smoke into New York City, Chicago, Detroit, and Washington, D.C., leading to severe air quality issues."
+  ],
+  "sources": [
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/bald-range-wildfire-canada-british-columbia/"
+    }
+  ],
+  "event_utc": "2026-08-10T03:36:59Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-10T10:46:19Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "update_of": "bald-range-wildfire-in-british-columbia-doubles-in-size-forces-20-000-to-evacuate",
+  "also_reported_by": [
+    {
+      "outlet": "Plataforma Media",
+      "headline": "Wildfires forced 20,000 people out of Canada and left US residents on edge. An 80-year-old woman died trying to escape (with video) - Plataforma Media"
+    }
+  ]
+}

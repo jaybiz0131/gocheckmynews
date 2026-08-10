@@ -5060,5 +5060,56 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-10",
+  "approved": 3,
+  "rejected": [
+   {
+    "id": "c020",
+    "headline": "At least 13 killed in Ukrainian strike on Russia's Tatarstan region, officials say",
+    "category": "accuracy",
+    "reasons": [
+     "The draft reports '75 more people injured' but the brief contains a data_point stating CBS News reported '39 injured'. The brief itself flags this discrepancy in open_questions ('Why did BBC and CBS report different injury counts (75 vs. 39 injured)?'). The draft presents only the BBC figure without acknowledging the CBS discrepancy, smuggling in an unresolved factual conflict as settled fact.",
+     "The draft states 'independent verification of this figure is not available from the sources' regarding the 450 drones claim, but this is the writer's own editorial judgment, not a statement from the brief or sources. The confidence label should state what the sources say, not what verification exists in some theoretical universe. This reads as the desk making a liability judgment rather than reporting what was sourced."
+    ]
+   },
+   {
+    "id": "c031",
+    "headline": "China evacuates one million from homes as massive storm makes landfall",
+    "category": "accuracy",
+    "reasons": [
+     "The draft reports 'Chinese officials have not reported any casualties' but then immediately states 'state media reported that a nine-year-old boy from Wenling, Zhejiang is missing after being swept into the sea.' This is logically incoherent: a missing person is a potential casualty. The brief's open_questions explicitly flag this tension ('Why did Chinese officials report no casualties when eight deaths were confirmed in the Philippines and five injuries in Okinawa? Is this a lag in reporting, or actual zero domestic casualties despite the scale of the disaster?'). The draft fails to resolve or even acknowledge the contradiction, presenting it as fact when it is actually a reported discrepancy that requires attribution and clarity about what 'casualties' means in the official statement.",
+     "The draft attributes the El Ni\u00f1o claim to 'Experts' without naming or sourcing them: 'Experts attribute the typhoon's intensity to this year being a strong El Ni\u00f1o year.' The brief data_point says 'This year is a strong El Ni\u00f1o year, which experts say means typhoons can grow to be more intense'\u2014attributing it to generic 'experts' via BBC. The draft's phrasing 'Experts attribute' without inline attribution or source notation is under-attributed."
+    ]
+   },
+   {
+    "id": "c026",
+    "headline": "Former Thai MP arrested in shooting death; confessed on YouTube",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The shooting occurred outside Thongchai's office in Nonthaburi, a province south of Bangkok.' The brief data_point says 'The shooting occurred outside Thongchai's office in the southern province of Nonthaburi.' The brief itself describes Nonthaburi as 'south of Bangkok' in the core_claim, but 'southern province' is the language the source uses. More critically, the phrase 'south of Bangkok' is the writer's paraphrase, not verified in the brief's language. The brief does not explicitly state Nonthaburi's directional relationship to Bangkok; only that it is 'the southern province.' This is a minor smuggled characterization."
+    ]
+   },
+   {
+    "id": "c217",
+    "headline": "Trump signals shift to economic pressure as U.S. engages Iran through intermediaries",
+    "category": "balance",
+    "reasons": [
+     "The brief's bear_case items are substantially underrepresented in the draft. The bear_case lists three critical counterpoints: (1) Araghchi's explicit denial that direct negotiations are occurring; (2) Iran issuing new demands signaling hardened positions; (3) Iran's precondition of U.S. compensation making negotiations potentially impossible. The draft does include Araghchi's statement in paragraph 2 ('this is not called negotiations') and Iran's demand for compensation, but these are presented within a narrative structured around Trump's 'semi-negotiating' framing and economic pressure strategy. The draft leads with Trump's characterization and only then introduces Iran's rejection, creating the appearance that Iran is reacting to or disputing an active negotiation rather than standing as an equally weighted counterpoint. A true balance would structure the opening around the fundamental disagreement about whether negotiations are even occurring, rather than beginning in Trump's frame. The draft reads as though Trump's 'semi-negotiating' is the primary story, with Iran's rejection as secondary detail.",
+     "The draft also layers in extensive material on Houthi attacks and the Ukraine-Caspian Sea dispute in paragraphs 5-6, which expands the story's scope beyond the core claim about U.S.-Iran negotiations and economic pressure. While these are data_points in the brief, they function here to underscore Iran's regional assertiveness\u2014a thematic choice that implicitly favors the narrative of Iran as an escalatory actor, rather than presenting the diplomatic divergence as the balanced center of the story."
+    ]
+   },
+   {
+    "id": "c073",
+    "headline": "License-plate reader cameras draw bipartisan skepticism in Texas",
+    "category": "accuracy",
+    "reasons": [
+     "The draft body acknowledges that 'The sources available do not provide substantive details on Flock's operational scope, the specific policy criticisms, the range of law enforcement justifications for deployment, or the identities and statements of the bipartisan opposition voices.' This is a meta-commentary on source inadequacy embedded in the draft itself, which violates the hard rule that facts come from the brief. The draft is essentially confessing that it cannot be written from the brief provided.",
+     "The brief's data_points contain only a single claim with a single source URL, but the draft's sources list two distinct New York Times URLs. The actual source content is empty (source_chars: 0), meaning no verifiable facts exist in the brief to support even the minimal claims made in the draft.",
+     "The statement 'In Texas, the technology is drawing rare bipartisan opposition on civil liberties grounds' is drawn from a single headline-level claim in the brief ('In Texas, there's one thing liberals and conservatives agree on: They don't want cameras trained on their cars'). The draft then admits it cannot elaborate this claim with any supporting detail, detail that should have been in the brief before drafting began. This is a case where the writer has exposed the source failure rather than filled the gap."
+    ]
+   }
+  ]
  }
 ]
