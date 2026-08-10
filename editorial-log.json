@@ -5009,5 +5009,56 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-10",
+  "approved": 3,
+  "rejected": [
+   {
+    "id": "c001",
+    "headline": "Crews battle wildfires in western U.S. and Canada as death toll rises",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Premier David Eby said: \"People have lost their homes. And many people have been displaced.\"' but the brief's data_point for this quote reads 'Premier David Eby said: \"People have lost their homes. And many people have been displaced.\"' This appears consistent. However, the draft also attributes to Eby: 'called the fire's sudden growth \"a remarkable escalation in fire activity\" and said the blaze became so intense that it generated its own weather system and lightning' but the brief attributes this statement to 'Premier Eby' without specifying it came from a quote. The draft presents these as direct attributions to Eby but should verify the exact source of this attribution.",
+     "The draft includes a quote attributed to British Columbia Wildfire Service: 'We are expecting a high potential for lightning-caused wildfire starts, particularly in the central Interior and the Okanagan which are receiving limited precipitation and dry lightning. New ignitions occurring during periods of hot and dry weather can establish and spread quickly.' This quote is attributed to 'The British Columbia Wildfire Service said Sunday' but the brief identifies this as coming from the BC Wildfire Service. The draft's attribution is correct per the brief.",
+     "Critical factual discrepancy: The draft states 'British Columbia experiences 1,600 wildfires per year on average, according to the BC Wildfire Service.' This fact appears at the end of the draft but is sourced only to CBS News in the brief. The statement is present in the brief's data_points, so the fact itself is traceable. However, the draft lists only two sources (NPR and CBS), and this fact comes from CBS per the brief, which is correct."
+    ]
+   },
+   {
+    "id": "c257",
+    "headline": "Puerto Rico government begins water service cuts due to severe drought",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Puerto Rico's government began cutting water service to homes this week in response to a severe drought, according to NPR reporting.' However, the brief contains zero data_points\u2014no confirmed facts from sources at all. The brief itself notes 'source_chars': 0, meaning no source text was provided to the researcher. The core_claim is stated but not backed by any data_point with a source URL or confidence level. The writer cannot report a fact that has no data_point in the brief."
+    ]
+   },
+   {
+    "id": "c106",
+    "headline": "Alexandria Ocasio-Cortez announces she is freezing her eggs",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Alexandria Ocasio-Cortez, 36, announced she is freezing her eggs, according to reporting from The Washington Post and The Hill.' However, the brief contains only two data_points and both are sourced to 'snippet' with source_chars: 0\u2014meaning no actual source text was provided. The brief's open_questions explicitly state 'Source texts are empty; only snippet available.' The writer cannot attribute a fact to 'The Washington Post and The Hill' when the brief provides no text from those outlets, only a snippet. This is a sourcing failure that violates the rule that facts must trace back to data_points in the brief."
+    ]
+   },
+   {
+    "id": "c075",
+    "headline": "Iran Appoints Mohsen Rezaei to Head Supreme National Security Council",
+    "category": "accuracy",
+    "reasons": [
+     "The draft claims 'Iran has appointed Mohsen Rezaei' as fact, but the brief explicitly states 'No source text was fetched from the New York Times article; the brief is built from snippet alone and cannot be verified against primary reporting.' The core_claim itself is unverified and the brief contains zero data_points to support any facts in the draft.",
+     "The draft presents the appointment as established fact without any confidence label reflecting the unverified status. The brief's open_questions include 'When exactly did the appointment occur or take effect?' and 'what the move strategically means?' \u2014 all unknowns that the draft presents as settled.",
+     "The draft itself acknowledges the sourced material does not establish timing, background, or strategic context, yet still leads with a definitive claim unsupported by fetched source text. This is a contradiction: the writer cannot both claim the appointment happened and admit the source text was never retrieved to verify it."
+    ]
+   },
+   {
+    "id": "c083",
+    "headline": "Don Nelson, Second-Winningest Coach in NBA History, Dies at 86",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states Nelson was 'the second-winningest coach in NBA history,' but the brief's data_point 6 says 'Nelson retired as the NBA's winningest coach.' These directly contradict. The brief's open_questions explicitly flag: 'how many total coaching wins did Nelson achieve, and who holds the record for most wins?' \u2014 meaning the winningest status is unresolved in the sourced material.",
+     "The draft presents 'second-winningest' as fact without flagging the contradiction with the brief's separate claim that he retired as the 'winningest.' The desk cannot run conflicting facts about the same person's standing without resolving which is true or acknowledging the discrepancy in prose."
+    ]
+   }
+  ]
  }
 ]
