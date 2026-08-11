@@ -1,0 +1,36 @@
+{
+  "id": "c267",
+  "slug": "congo-ebola-outbreak-kills-2-011-as-deaths-double-in-three-weeks",
+  "kind": "brief",
+  "title": "Congo Ebola outbreak kills 2,011 as deaths double in three weeks",
+  "dek": "Congo's Ebola outbreak has killed at least 2,011 people among 4,381 confirmed cases as of August 2026, per CBS News. The death toll doubled in just three weeks after reaching 1,000. The Bundibugyo virus strain responsible has no approved vaccines or treatments, and health workers are striking over pay.",
+  "date": "2026-08-11",
+  "published_utc": "2026-08-11T10:31:16Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 4,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The outbreak doubled from 1,000 to 2,000 deaths in three weeks, per CBS News, marking it the fastest-spreading Ebola outbreak on record and the second-largest in history after the 2014-2016 West Africa outbreak.",
+  "bottom_line": "The acceleration from 1,000 to 2,000 deaths in three weeks reflects a response strained by lack of approved medical tools, worker strikes over pay, and undetected transmission chains. Watch for whether trials of vaccines and treatments yield viable interventions and whether international funding reaches health workers to restore the response capacity.",
+  "human_take": "",
+  "body": [
+    "Congo's Ebola outbreak has killed at least 2,011 people among 4,381 confirmed cases, per data released overnight into Tuesday to CBS News. The death toll doubled in just around three weeks after the outbreak recorded its first 1,000 deaths, a pace that exceeds response capacity.",
+    "The World Health Organization has declared the outbreak a public health emergency of international concern. The outbreak, which has also produced cases in neighboring Uganda, began in May 2026 and is already the second-largest in history, behind only the 2014-2016 West Africa outbreak that recorded more than 28,000 cases including over 11,000 deaths.",
+    "The Bundibugyo virus strain responsible for the current outbreak has no approved vaccines or treatments, distinguishing it from most previous Ebola outbreaks. Clinical trials for vaccines and treatments have begun in Ituri, the epicenter of the outbreak. However, the WHO said Monday that the outbreak likely started in February, long before authorities detected it in one of Congo's most remote areas. Early cases were wrongly attributed to malaria and typhoid, and initial testing targeted the more common Ebola type.",
+    "Health authorities face compounding obstacles to response. According to CBS News reporting, rebel conflict, poor road conditions, and work stoppages over payment issues slow delivery of aid to remote localities. Many health workers have gone on strike to protest not being paid since the outbreak was declared. Aid workers say the outbreak continues to outpace the expanding response across five affected provinces. Most new cases are being recorded outside of monitored contacts, indicating chains of transmission are escaping detection.",
+    "Dr. Mohamed Yakub Janabi, WHO regional director for Africa, told a news conference that officials are \"chasing the virus, the virus is ahead of us,\" per CBS News. The current outbreak is the 17th that the Central African nation has faced and the largest on record there. The Ebola virus itself was first identified in 1976 near the Ebola River in what is now Congo."
+  ],
+  "sources": [
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/congo-ebola-death-toll-2000-outbreak-fastest-spreading/"
+    }
+  ],
+  "event_utc": "2026-08-11T09:01:00Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-11T10:31:16Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}

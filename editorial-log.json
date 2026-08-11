@@ -5337,5 +5337,56 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-11",
+  "approved": 3,
+  "rejected": [
+   {
+    "id": "c012",
+    "headline": "Minnesota and Wisconsin hold primaries testing progressive power in swing states",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Trump's immigration crackdown in the Twin Cities earlier this year shaped the competitive Democratic primary' but the brief's data_point says Trump's crackdown 'shaped Minnesota's competitive Democratic primary for an open U.S. Senate seat'\u2014the draft omits the critical qualifier that this shaped the Senate primary specifically, not the entire Minnesota primary landscape. This is a material difference in scope.",
+     "The draft includes the claim 'Tiffany has worked to define himself as a Wisconsin everyman, playing up his roots on a Wisconsin dairy farm and love of the Green Bay Packers and a brandy old fashioned' which appears in the brief's data_points but is never used in the article body\u2014this fact is smuggled in via the bottom_line's forward-looking framing without appearing in the narrative itself, violating the rule that facts must trace back to research and appear in the prose."
+    ]
+   },
+   {
+    "id": "c018",
+    "headline": "Trump secretly switched planes at NATO summit to evade Iranian missile threat",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Trump had arrived in Ankara aboard a brand-new Boeing 747-8, a Qatar-donated aircraft' but the brief's data_point specifies 'Trump had arrived in the Turkish capital on July 8 aboard a brand-new Boeing 747-8, an aircraft donated by Qatar.' The article omits 'on July 8,' creating ambiguity about when he arrived versus when the plane-switch occurred, both dated July 8 in the brief.",
+     "The draft claims 'It is unclear how Trump transferred from the C-32A to the older Air Force One after landing in the U.K., according to Fox News' but the brief's data_point attributes this uncertainty to Fox News alone. The draft presents this as fact from Fox News reporting when the brief shows the uncertainty is attributed to Fox News. This is technically accurate but the framing slightly overstates Fox News's reporting versus their acknowledgment of a gap.",
+     "The draft references 'Following U.S. military strikes against Iranian targets earlier in the summer, intelligence officials identified a specific threat from Iran targeting the president's movements' but this is paraphrased from a brief data_point marked 'reported' via Fox News. The phrasing 'intelligence officials identified' is slightly more definitive than the source warrants; the brief says the ruse was employed because 'the U.S. had learned of a threat.' The verb 'identified' implies active intelligence work; 'learned' is more cautious."
+    ]
+   },
+   {
+    "id": "c009",
+    "headline": "Syrian court sentences Assad and brother to death for war crimes in absentia",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states Assad and Maher fled to Russia 'after insurgents marched into Damascus in December 2024' but the brief's data_point says 'December 2014'. The draft contradicts the brief's own source material and presents a date inconsistent with the stated timeline that Assad's family rule ended '20 months ago' (which would place the fall in late 2024, not 2014). This is a critical factual error: the writer imported conflicting dates into the same story without reconciling them against the brief."
+    ]
+   },
+   {
+    "id": "c051",
+    "headline": "Trump executive order cuts childhood vaccines and recommends splitting MMR shots",
+    "category": "compliance",
+    "reasons": [
+     "The draft's framing and language read as advocacy against Trump's order rather than neutral reporting. Phrases like Dr. Racine calling the order 'dangerous' and not based on 'gold-standard science,' combined with the opening that 'The order resurrects the discredited vaccine-autism link,' adopt a critical stance. While individual quotes are sourced, the overall selection, sequencing, and emphasis (leading with Trump's unsourced claims, then his 'lethal' language, then lined up expert refutations) constructs an argument rather than reports events neutrally. The story reads in one side's voice\u2014the medical establishment's case against Trump\u2014without proportional space for the administration's rationale. The bear_case items (Kennedy's CNN statement, the 72-shot comparison context) appear buried in the body rather than integrated as equal-weight counter-framing. This violates the no-advocacy rule."
+    ]
+   },
+   {
+    "id": "c106",
+    "headline": "Luigi Mangione due in Manhattan court in UnitedHealthcare CEO killing case",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Prosecutors allege that Mangione gunned down Thompson outside a Manhattan hotel in 2024' but the brief data_point says the killing occurred 'in 2024' without specifying the date as 2024 in the way the draft presents it. More critically, the draft does not attribute the charge of 'gunned down' as an allegation\u2014it reads as fact. The brief marks this as 'reported' confidence, but the phrasing 'gunned down' should be softened to 'allegedly gunned down' or similar language to reflect the allegation status.",
+     "The draft states 'prosecutors allege that Mangione gunned down Thompson' but the brief's corresponding data_point says 'Prosecutors allege that Mangione gunned down Brian Thompson outside a Manhattan hotel in 2024'\u2014the draft omits 'outside a Manhattan hotel' which is material detail from the brief. While this is not new information, the omission of a critical locational element weakens accuracy to the source.",
+     "The bottom_line states 'The Guardian's reporting does not specify the purpose of Tuesday's appearance or the charges Mangione faces,' which concedes the draft is incomplete. A story that must rely on its bottom_line to apologize for omissions is poorly constructed; however, this is a clarity issue, not accuracy. The draft is thin (brief is marked thin=true) but the bottom_line's admission that charges are unspecified is a red flag: if the brief does not contain the specific charges, the draft should not present the appearance as a straightforward scheduling item without that context."
+    ]
+   }
+  ]
  }
 ]
