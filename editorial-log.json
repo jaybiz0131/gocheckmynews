@@ -5290,5 +5290,52 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-11",
+  "approved": 4,
+  "rejected": [
+   {
+    "id": "c060",
+    "headline": "Trump signs executive order on childhood vaccine schedule",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Shots against RSV, hepatitis A, and hepatitis B would move to the higher-risk category' but the brief data_point says 'Shots against RSV and hepatitis A and B would just be recommended for high-risk children.' The draft omits RSV from the list in the title/framing but includes it in the body; more critically, the phrasing 'would move' implies these were previously universal, which is not established in the brief. The brief says the order 'recommends' these moves but does not establish their prior status.",
+     "The draft attributes to 'CBS News medical correspondent Dr. C\u00e9line Gounder' the statement that 'no company has announced plans to produce one,' but the brief data_point quotes Gounder as saying 'No company has said it's building one.' The draft's phrasing 'announced plans' is slightly different and could imply active marketing/announcement rather than lack of statement. This is a paraphrase boundary issue.",
+     "The draft presents the statement 'nothing bad can happen' as Trump's direct assertion, but the brief's confidence label is 'reported,' meaning it is alleged to have been said. The sentence 'He promised that \"nothing bad can happen\" from the research his administration plans on autism' reads as settled fact without qualification. The brief marks this as reported, not verified-on-chain, so attribution or confidence language should be clearer."
+    ]
+   },
+   {
+    "id": "c269",
+    "headline": "Wildfires ravage the West",
+    "category": "clarity",
+    "reasons": [
+     "The draft body explicitly states 'The source material does not provide specific locations of the fires, total acreage burned, number of evacuations, structural damage, resource deployment details, or forecast timeline for when conditions may improve.' This is a meta-commentary on the source's insufficiency, not reporting. The entire body is essentially a disclaimer about what the brief does not contain rather than a story built from what it does.",
+     "A single data point ('At least 200 major wildfires') cannot sustain a news story, especially when the writer acknowledges upfront that no detail exists. This draft fails the red-team test: it reads as an editor's note or a stub, not finished journalism. If the source is too thin to report from, the assignment should not have been filed."
+    ]
+   },
+   {
+    "id": "c077",
+    "headline": "Netanyahu Rejects Trump Gaza Plan Over Disarmament Dispute",
+    "category": "accuracy",
+    "reasons": [
+     "The draft presents a '15-point plan' as fact in the opening paragraph, but the brief explicitly notes that 'the headline and snippet alone cannot verify the existence of a Trump 15-point plan.' No data_point in the brief supports this claim; it appears only in the core_claim assertion, which itself is marked unverified in open_questions.",
+     "The draft states Netanyahu 'insisting that Hamas must be disarmed before Israeli forces withdraw' as a core fact, but this specific condition is not backed by any retrieved source text\u2014the brief's open_questions flag that 'Netanyahu's specific rejection language' and 'the disarmament condition' remain unverified.",
+     "The draft invokes 'an Israeli election' in the angle but the brief's open_questions explicitly state 'the timeline of an Israeli election' is unverified from available sources.",
+     "The brief contains zero data_points; the draft builds an entire structure on a headline snippet and unconfirmed claims. The hard rule is that no fact exists outside the brief."
+    ]
+   },
+   {
+    "id": "c061",
+    "headline": "Trump Rejects Iran's Reparations Demand Over Strait of Hormuz",
+    "category": "accuracy",
+    "reasons": [
+     "The headline claims Trump 'rejects Iran's reparations demand,' but the brief's open_questions note: 'The PBS NewsHour source text was truncated or corrupted in the fetch and carries no substantive reporting on Iran's demands, Trump's response, or the Strait closure.' The core claim about Iran's reparations demand comes from a truncated source that does not appear in the retrieved material, violating the rule that facts must trace to the brief's data_points.",
+     "The draft states 'Iran demands U.S. reparations for war damage as a condition of reopening the Strait of Hormuz' as established fact in the opening, but this claim derives only from the PBS NewsHour snippet, which the brief flags as unverified/unverified text capture. No data_point in the brief confirms Iran's specific demand for reparations or that they have explicitly demanded the strait be reopened by the U.S.",
+     "The draft's third paragraph acknowledges the PBS NewsHour source 'could not be verified from the retrieved source material,' then continues to cite it as authority for 'Iran's stated demands for reparations and the status of the broader impasse.' This is a self-aware admission that facts are being presented without sourced support.",
+     "The bear_case in the brief ('Trump rejects Iran's demand for reparations, stating they have no money') is Trump's dismissal, not confirmation that Iran made the demand. The draft treats an unverified snippet as settled fact."
+    ]
+   }
+  ]
  }
 ]

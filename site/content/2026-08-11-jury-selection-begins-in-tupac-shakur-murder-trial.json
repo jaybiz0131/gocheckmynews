@@ -1,0 +1,70 @@
+{
+  "id": "c264",
+  "slug": "jury-selection-begins-in-tupac-shakur-murder-trial",
+  "kind": "brief",
+  "title": "Jury selection begins in Tupac Shakur murder trial",
+  "dek": "Jury selection began Monday in Las Vegas for the trial of Duane 'Keffe D' Davis, 63, charged with murder in the 1996 killing of rapper Tupac Shakur. Davis has pleaded not guilty. The case went cold for nearly three decades until Davis published a memoir and gave interviews describing his alleged involvement.",
+  "date": "2026-08-11",
+  "published_utc": "2026-08-11T00:04:43Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 4,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Jury selection began Monday in Las Vegas for Duane 'Keffe D' Davis, 63, charged with a single count of murder with a deadly weapon in connection with the 1996 drive-by killing of Tupac Shakur.",
+  "bottom_line": "The trial will test whether a defendant's own public memoir and interviews, given years after a crime and outside the courtroom, can prove sufficient grounds for conviction on orchestration charges when the actual trigger person remains unidentified. Shakur's stepbrother Mopreme said nothing would bring back his stepbrother and that 'That would be justice for me. But we all know that is unattainable,' though he expressed hope the trial will reveal the truth.",
+  "human_take": "",
+  "body": [
+    "Jury selection began Monday in Las Vegas for the trial of Duane 'Keffe D' Davis, 63, charged with a single count of murder with a deadly weapon with the intent to promote, further or assist a criminal gang. The charge stems from the 1996 drive-by shooting of rapper Tupac Shakur, nearly 30 years after the killing that left the case cold for decades.",
+    "Davis has been jailed since late 2023 and has pleaded not guilty. According to CBS News, jury selection could continue through much of the week, with the trial expected to last about a month. Family members of Shakur gathered at the Las Vegas courthouse for the proceedings, including the rapper's stepbrother Maurice 'Mopreme' Shakur, who said he is 'cautiously optimistic' justice will come.",
+    "On September 7, 1996, per CBS News reporting, Shakur was in the passenger seat of a black BMW with Death Row Records co-founder Marion 'Suge' Knight driving. The two had just watched Mike Tyson knock out Bruce Seldon and were headed to a nightclub where Shakur was scheduled to perform. At a red light near the Las Vegas Strip, a white Cadillac pulled up beside them and gunfire erupted. Shakur was shot multiple times and died six days later. Knight survived with minor injuries and is serving a 28-year prison sentence for a fatal hit-and-run.",
+    "The case went cold until Davis began making public statements about his alleged involvement as a leader of the South Side Compton Crips. In 2019, Davis published a tell-all memoir, and both the book and interviews Davis gave revived the police investigation. According to prosecutors, per CBS News, if Davis had not written explicitly about the killing or talked about it in interviews, it is likely no one would have been charged.",
+    "Prosecutors allege Davis orchestrated the shooting to get revenge after Shakur and his entourage beat up Davis' nephew, Orlando 'Baby Lane' Anderson, at the MGM Grand hours before Shakur was killed. Per CBS News, prosecutors hope to prove that Davis was the shot caller and provided the weapon, though the trial likely will not reveal who pulled the trigger. The prosecutors' case relies on Davis's co-authored book, 'Compton Street Legend,' as well as police and media interviews he participated in, according to reporting from CBS News.",
+    "Davis's defense attorneys argue there is no evidence he directed the shooting and the state relies on witnesses who were not there. They contend the book was fictionalized and had a co-author, making it impossible to know which parts Davis wrote. The defense also said Davis left the narcotics trade in 2009 and worked a steady job before illness forced him to retire in 2014. In a separate interview with CBS Las Vegas affiliate KLAS-TV, Davis denied any involvement.",
+    "Grand jury transcripts, per CBS News, portray Shakur's shooting as a culmination of a longstanding feud between rival record labels Death Row Records and Bad Boy Records and rival gang sects Mob Piru and South Side Compton Crips. Mob Piru, part of the larger Bloods gang, was associated with Death Row Records, which featured Shakur, Snoop Dogg and Dr. Dre. The South Side Compton Crips hung out with and provided protection to Bad Boy Records, which was founded by Sean 'Diddy' Combs and included rappers like The Notorious B.I.G., or Christopher Wallace. The rival gangs fought and retaliated against each other both before and after Shakur's death.",
+    "In his book, Davis claims that Combs wanted Knight and Shakur killed. Combs has denied having any involvement in Shakur's death. Per CBS News, Combs is serving roughly four years in prison after being convicted of prostitution-related charges. Combs' attorney did not return emailed requests from The Associated Press for comment, according to CBS News. Shakur's stepbrother said he wants allegations that Combs was involved to be explored further."
+  ],
+  "sources": [
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/video/jury-selection-begins-in-tupac-shakur-murder-trial/"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/tupac-shakur-killing-1996-alleged-organizer-trial-las-vegas-duane-keffe-d-davis/"
+    }
+  ],
+  "event_utc": "2026-08-10T23:30:52Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-11T00:04:43Z",
+    "sources_cited": 2,
+    "sources_live_checked": 2
+  },
+  "update_of": "trial-begins-monday-for-man-charged-in-1996-tupac-shakur-murder",
+  "also_reported_by": [
+    {
+      "outlet": "KSNV",
+      "headline": "TODAY: Jury selection begins in Tupac Shakur murder trial - KSNV"
+    },
+    {
+      "outlet": "Courthouse News",
+      "headline": "Jury selection begins in Tupac Shakur murder trial - Courthouse News"
+    },
+    {
+      "outlet": "FOX 5 DC",
+      "headline": "Tupac Shakur murder: Jury selection begins in Las Vegas trial for suspect Duane 'Keffe D' Davis - FOX 5 DC"
+    },
+    {
+      "outlet": "FOX 5 Atlanta",
+      "headline": "Jury selection begins in Tupac Shakur murder trial - FOX 5 Atlanta"
+    },
+    {
+      "outlet": "CBS News",
+      "headline": "Jury selection set in the Tupac Shakur murder trial - CBS News"
+    },
+    {
+      "outlet": "XXL Mag",
+      "headline": "Tupac Shakur Murder Trial Officially Underway as Jury Selection Begins - XXL Mag"
+    }
+  ]
+}

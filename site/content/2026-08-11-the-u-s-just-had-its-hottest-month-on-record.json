@@ -1,0 +1,39 @@
+{
+  "id": "c282",
+  "slug": "the-u-s-just-had-its-hottest-month-on-record",
+  "kind": "brief",
+  "title": "The U.S. just had its hottest month on record",
+  "dek": "NOAA confirmed July 2026 as the hottest month in 132 years of U.S. record-keeping, averaging 76.9 degrees and 3.3 degrees above the 20th-century average. Extreme weather across the nation included heat waves, drought, flooding, and wildfires.",
+  "date": "2026-08-11",
+  "published_utc": "2026-08-11T00:04:43Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 5,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "July 2026 was the warmest month in the United States in NOAA's 132 years of record-keeping, averaging 76.9 degrees and 3.3 degrees above the 20th-century average.",
+  "bottom_line": "The record arrives amid a pattern of escalating extremes: NOAA's confirmation of July 2026 as the hottest month follows a year (2025) in which sea levels and ocean heat also set records. The convergence of heat waves, drought, flooding, and wildfire activity across multiple regions signals a shift in the baseline conditions Americans are adapting to.",
+  "human_take": "",
+  "body": [
+    "The United States reached a historic climate milestone in July 2026. NOAA confirmed that July was the hottest month in the nation's 132 years of record-keeping, not only the warmest July ever recorded but also the warmest calendar month across any season, per NBC News.",
+    "Warmer-than-normal temperatures affected the entire contiguous U.S., averaging 76.9 degrees for the month, according to NBC News. The average temperature was 3.3 degrees above the 20th-century average. The heat was accompanied by extreme weather across nearly every region. Around 40% of the U.S. and Puerto Rico was in the grips of drought at the end of July, per the U.S. Drought Monitor as reported by NBC News.",
+    "Intense rain fell in other regions. From July 13 to 17, intense rain fell across the Texas Hill Country, producing rainfall totals of more than 28 inches near the town of Knippa, in Uvalde County, according to NBC News. From July 28 to 30, slow-moving thunderstorms dumped nearly 12 inches of rain over eastern New York, causing major flash flooding, per NBC News.",
+    "Wyoming experienced its warmest July and warmest month on record, with temperatures 5.1 degrees above average, according to NBC News. Multiple sites across Idaho, Utah, Wyoming and Montana set new all-time high temperature records on July 12, including 109 degrees in Salt Lake City; 109 degrees in Sheridan, Wyoming; 111 degrees in Billings, Montana; and 115 degrees in Miles City, Montana, per NBC News.",
+    "Wildfires compounded the crisis. More than 140,000 acres were scorched in Oregon in July, prompting thousands of residents to evacuate from mostly small towns across the central and eastern parts of the state, according to NBC News. It was among the top five warmest Julys for 13 states overall.",
+    "The extremes extended globally. The European Union's Copernicus Climate Change Service found that Western Europe had its hottest June-July period on record, with the continent suffering through four brutal heat waves since May, per NBC News. Average sea surface temperatures reached their highest levels for July across extrapolar oceans, according to the Copernicus report as reported by NBC News.",
+    "A separate 'state of the climate' report released in the Bulletin of the American Meteorological Society indicated that 2025, the year prior, was similarly extreme, with greenhouse gas concentrations, global sea level and ocean heat content all reaching their highest levels on record, according to NBC News."
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/science/climate-change/us-just-hottest-month-record-rcna591771"
+    }
+  ],
+  "event_utc": "2026-08-10T20:13:25Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-11T00:04:43Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "update_of": "noaa-confirms-contiguous-u-s-set-record-for-hottest-month-ever-in-july"
+}

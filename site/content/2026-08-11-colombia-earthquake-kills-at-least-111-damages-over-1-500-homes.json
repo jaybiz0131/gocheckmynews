@@ -1,0 +1,38 @@
+{
+  "id": "c022",
+  "slug": "colombia-earthquake-kills-at-least-111-damages-over-1-500-homes",
+  "kind": "brief",
+  "title": "Colombia earthquake kills at least 111, damages over 1,500 homes",
+  "dek": "A magnitude 7.4 earthquake struck Colombia's Choc\u00f3 province on August 10, killing at least 111 people and damaging more than 1,500 homes. The epicenter was near San Jos\u00e9 del Palmar at a depth of 103 kilometers. Search and rescue operations are ongoing in multiple cities, with people believed trapped in collapsed buildings.",
+  "date": "2026-08-11",
+  "published_utc": "2026-08-11T00:04:43Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 1,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "At least 111 people are dead after the magnitude 7.4 earthquake struck Colombia's Choc\u00f3 province on August 10, 2026.",
+  "bottom_line": "The full extent of damage and casualties remains unclear as rescue operations continue across the affected region. The open questions are the current status of missing persons, the final death toll, and structural damage to critical infrastructure beyond airports and buildings.",
+  "human_take": "",
+  "body": [
+    "A magnitude 7.4 earthquake struck Colombia's Choc\u00f3 province on August 10 at 07:34 local time, per BBC News reporting. The quake, centered at a depth of 103 kilometers (64 miles) near the village of San Jos\u00e9 del Palmar, has killed at least 111 people and damaged more than 1,500 homes, according to President Abelardo de la Espriella.",
+    "Search and rescue operations are underway across multiple cities and regions, with the death toll expected to rise as teams work to free people trapped under collapsed buildings.",
+    "The city of Pereira, about 55 kilometers (34 miles) from the epicenter, reported at least 40 deaths in its metropolitan area, with 65 buildings collapsed and people believed trapped in 15 of them, per BBC reporting. A curfew has been put in place in some parts of Pereira until 05:00 local time on Tuesday. Thirty-two buildings collapsed in Cali, located about 160 kilometers south of Pereira. At least two people died in Manizales. Deaths were also reported in Quibd\u00f3, Medell\u00edn, and across the Choc\u00f3 and Valle del Cauca regions.",
+    "The local mayor of San Jos\u00e9 del Palmar, Le\u00f3n Fabio Mar\u00edn Moncada, reported that despite heavy damage to roads in and out of the village, there had been no deaths or injuries there, per BBC News. The country's aviation authority reported damage at regional airports including those in Pereira, Manizales, Quibd\u00f3, Armenia, Cartago, and Buenaventura. Tremors were felt in neighboring Venezuela, Ecuador, and Panama.",
+    "According to the US Geological Survey, an estimated 1.5 million people felt shaking close to magnitude seven. Deep earthquakes like this one are typically less dangerous than those that rupture closer to Earth's surface, but they can release energy in ways that damage buildings and produce fewer but potentially stronger aftershocks, per USGS.",
+    "President de la Espriella has declared a national disaster situation, which creates special powers to respond to the emergency, including authority to reallocate budgets. The U.S. State Department, led by Secretary Marco Rubio, said it is \"closely monitoring\" the earthquake and stands \"ready to support.\" EU chief Ursula von der Leyen announced the EU's Copernicus satellite is being used in rescue operations. El Salvador's President Nayib Bukele offered personnel and equipment for rescue efforts."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c20e360lx0vo?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "event_utc": "2026-08-10T21:24:29Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-11T00:04:43Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "update_of": "7-4-magnitude-earthquake-strikes-colombia-and-ecuador-at-least-20-dead"
+}
