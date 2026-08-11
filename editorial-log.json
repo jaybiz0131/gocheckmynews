@@ -5545,5 +5545,54 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-11",
+  "approved": 2,
+  "rejected": [
+   {
+    "id": "c072",
+    "headline": "Congo Ebola outbreak kills 2,011 in 4,381 cases; spreading faster than any prior surge",
+    "category": "accuracy",
+    "reasons": [
+     "The draft claims the outbreak is 'spreading almost three times faster than the 2014-16 West African epidemic, which was previously the deadliest Ebola surge on record.' The brief data_point states only that it is 'spreading almost three times faster than the 2014-16 outbreak in West Africa' and separately notes '2014-16 outbreak in West Africa was the deadliest in history.' The draft conflates these into a single sentence that asserts a comparative fact ('spreading almost three times faster...which was previously the deadliest') that requires both the speed multiplier AND the deadliness rank to be from the same source. The brief does not state that the 2014-16 outbreak was the deadliest\u2014only that it 'was the deadliest,' which is a different claim. More critically, the brief has an open_question: 'No comparison figures are given for the 2014-16 West African epidemic (death toll, case count, or duration) to allow readers to assess the relative scale claim.' The draft presents the speed comparison as settled fact without acknowledging the absence of comparative data that would allow readers to verify it. This is a smuggled interpretation of thin sourcing."
+    ]
+   },
+   {
+    "id": "c306",
+    "headline": "U.S. Marine veteran Robert Gilman freed from Russian prison after more than four years",
+    "category": "compliance",
+    "reasons": [
+     "The draft includes a direct quote from Gilman's sister Lexie Hudson: 'I am so grateful to President Trump for saving my brother's life. There is no other reason that Robert is alive today other than that President Trump heard about the case and took action.' This quote is evaluative and constitutes advocacy (crediting Trump with 'saving' Gilman's life as the only reason he survived). Presenting a family member's political gratitude statement as a closing sentiment reads as endorsement of Trump's action and crosses the no-advocacy line. The brief's confidence label for this claim is 'reported,' meaning it is attributable, but the placement and framing of this quote at draft's end\u2014with no counter-voice or caveat\u2014uses it to advance a political narrative rather than report a fact neutrally."
+    ]
+   },
+   {
+    "id": "c084",
+    "headline": "Sourcing limitations prevent verification of Trump Turkey departure claim",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Multiple outlets report that President Trump used extraordinary security measures to depart Turkey' and 'The claim appears in headlines and summaries from major outlets including the New York Times and The Hill.' However, the brief contains only ONE data_point, sourced to a Google News snippet, with confidence 'reported'. The draft claims multiple outlets reported this; the brief provides no evidence of reporting from NYT or The Hill\u2014only a Google News snippet. The draft smuggles attribution to named outlets (NYT, The Hill) that are not substantiated in the research brief.",
+     "The draft then acknowledges 'the primary source articles themselves were not accessible for independent verification, and the fetched source material contained no readable article text, only HTML and CSS markup.' This is a fundamental sourcing failure: the story cites outlets by name but admits the actual articles could not be read. A story built on inaccessible sources should not be published and should not claim to report from those outlets. The confidence label 'reported' in the brief reflects only a snippet; the draft misrepresents this as confirmation from the outlets named."
+    ]
+   },
+   {
+    "id": "c278",
+    "headline": "ACLU seeks to block Trump's second executive order on birthright citizenship",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Justice Brett Kavanaugh wrote in a concurring opinion that these four exceptions constitute a closed set, meaning no additional exceptions can be recognized based on subsequent circumstances or developments.' The brief's data_point quotes Kavanaugh as writing 'the four exceptions were a closed set, meaning that there can be no additional exceptions recognized based on subsequent circumstances or developments. And the decision has consistently been read that way.' The draft paraphrases 'these four exceptions' and omits the final clause 'And the decision has consistently been read that way.' This omission is material: Kavanaugh's statement that the decision 'has consistently been read that way' is a separate factual claim about judicial interpretation that appears in the source but is excluded from the draft. The draft cannot edit away a part of a quote that changes the evidentiary weight.",
+     "The draft states 'Chief Justice John Roberts' majority opinion explained that the key determinant of citizenship is fixed by place of nativity, irrespective of parentage.' The brief quotes this as 'the key determinant of citizenship was 'fixed by the place of nativity, irrespective of parentage.'' The draft uses present tense 'is fixed'; the source uses past tense 'was fixed.' This is a subtle but real alteration of the original statement\u2014one reads as a standing principle, the other as a historical determination. The tense must match the source."
+    ]
+   },
+   {
+    "id": "c302",
+    "headline": "Total Solar Eclipse Coming to Northern Hemisphere August 12, 2026",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'In 2045, another total eclipse will cross the U.S., starting in Northern California and moving east through Colorado Springs, Tulsa, Little Rock, Jackson, Mississippi, and ending in Orlando, Florida' but the brief data_point says the path starts in 'Northern California' and lists 'Reno, Nevada' as one of the viewing cities in the 2045 eclipse. The draft omits Reno, Nevada, which appears in the source brief.",
+     "The draft presents the London eclipse coverage as occurring during the Atlantic crossing: 'After crossing the northern Atlantic for 45 minutes, the eclipse will reach northern Spain at approximately 2:30 p.m. ET (8:32 p.m. local time in Valencia)' but inserts London's observation between Iceland and Spain in the narrative flow, when the brief data_point clarifies that London's max occurs 'when it will be best visible in the U.K.' during the Atlantic crossing\u2014a distinct event that should be clearly separated rather than nested in the path progression."
+    ]
+   }
+  ]
  }
 ]

@@ -1,0 +1,45 @@
+{
+  "id": "c025",
+  "slug": "7-4-magnitude-earthquake-kills-at-least-180-in-colombia-rescue-efforts-underway",
+  "kind": "brief",
+  "title": "7.4-magnitude earthquake kills at least 180 in Colombia; rescue efforts underway",
+  "dek": "A magnitude 7.4 earthquake struck Colombia on Monday, August 11 at 07:34 local time, killing at least 180 confirmed people with nearly 2,600 injured and almost 200 missing. More than 1,100 homes were destroyed and over 8,000 damaged across western Colombia, with the deadliest impact in Cali and Pereira. President Abelardo de la Espriella declared a state of emergency as rescue operations continue amid more than 70 aftershocks.",
+  "date": "2026-08-11",
+  "published_utc": "2026-08-11T19:48:41Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 1,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "At least 180 people confirmed dead in a 7.4-magnitude earthquake that struck Colombia on Monday, with rescue operations ongoing and over 70 aftershocks recorded.",
+  "bottom_line": "Rescue operations are ongoing as aftershocks continue across the affected regions. What would shift this story: a significant further increase in the death toll as more buildings are searched, or a major new aftershock that derails rescue efforts or causes additional structural collapse.",
+  "human_take": "",
+  "body": [
+    "A magnitude 7.4 earthquake struck Colombia on Monday, August 11 at 07:34 local time (12:34 GMT), setting off one of the country's largest natural disasters in recent years with rescue operations still underway as aftershocks continue.",
+    "At least 180 people have been confirmed dead, per BBC News reporting, though an aggregated figure gathered from local officials suggests the toll may exceed 240. Nearly 2,600 have been injured and almost 200 remain missing across the affected region, which stretches hundreds of miles across western Colombia. More than 1,100 homes have been destroyed and over 8,000 damaged, according to BBC News.",
+    "The deadliest impact has been concentrated in two cities. In Cali, a city of 2.2 million people, 95 deaths have been reported, per BBC News. The city has recorded 239 people trapped in rubble, 949 injured, and 45 buildings that have either completely or partially collapsed. In the city's Calima neighborhood, four children died after a section of the Gimnasio Calima school collapsed. Several upper floors of one of Cali's hospitals, some dedicated to pediatric care, have collapsed, leaving some patients trapped. In Pereira, the city's fire department reports 79 people have died. In Manizales, five people have been killed and 60 buildings have partially or totally collapsed, according to BBC News.",
+    "President Abelardo de la Espriella declared a state of emergency following the earthquake. The mayor of Calima municipality ordered a curfew beginning at 20:00 local time and lasting until 06:00 on Wednesday morning to combat threats of looting. Pereira has implemented a car-free day to allow rescue and search operations to proceed.",
+    "Rescue efforts are being hampered by continued seismic activity. Colombia's geological service reports more than 70 aftershocks have occurred since Monday's earthquake. Two magnitude 3.6 aftershocks struck early on Tuesday, one in San Jos\u00e9 del Palmar and the second in Santander, per the geological service.",
+    "Internationally, Spain's Foreign Minister reported that 164 Spaniards were still missing, with no reports of injuries or deaths of Spanish citizens. The Trump administration announced a donation of $15.5 million (11.5 million pounds) to Colombia, according to BBC News.",
+    "The official death toll stands at 181 confirmed by authorities, though the higher figure aggregated from local officials suggests the actual number of casualties may still be rising as rescue operations continue."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c20dqd9qwq4o?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "event_utc": "2026-08-11T19:09:52Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-11T19:48:41Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "update_of": "colombia-earthquake-kills-at-least-111-damages-over-1-500-homes",
+  "also_reported_by": [
+    {
+      "outlet": "Dem\u00f3crata",
+      "headline": "Expansion | More than 180 deceased due to the earthquake of magnitude 7.4 in the northwest of Colombia - Dem\u00f3crata"
+    }
+  ]
+}
