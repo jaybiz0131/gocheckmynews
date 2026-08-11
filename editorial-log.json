@@ -5473,5 +5473,45 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-11",
+  "approved": 4,
+  "rejected": [
+   {
+    "id": "c028",
+    "headline": "Former U.S. Marine Robert Gilman released after more than four years in Russian prison",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states Gilman 'was arrested in January 2022 after allegedly kicking a police officer while aboard a train to Moscow,' but the brief's data point says he was arrested 'for allegedly kicking a police officer after being taken off a train for causing a disturbance.' The draft adds 'to Moscow' and characterizes the sequence differently than the sourced record; the brief indicates he was removed from the train first, then arrested, not that he kicked the officer while aboard.",
+     "The draft attributes to Trump a direct quote about the cheeseburger ('he had one request: A GREAT cheeseburger when he lands. I will take care of that!'), but this is a paraphrase of Trump's Truth Social statement. The quote marks suggest verbatim language from Trump's post, which is acceptable only if the exact text appears in the source; the brief's data point presents it as reported speech, not as a direct quote from Trump's platform post itself, creating attribution ambiguity."
+    ]
+   },
+   {
+    "id": "c086",
+    "headline": "STORY KILLED: Cannot verify core claim from available sources",
+    "category": "accuracy",
+    "reasons": [
+     "Draft is labeled 'STORY KILLED' and functions as an editorial kill note rather than a news story. The brief contains zero data_points and is marked thin=true with only open_questions and no sourced facts. Per the hard rule, no fact exists outside the brief; a story cannot be written from an empty brief. This draft should not be submitted as a publishable news product\u2014it is metadata about research failure, not reporting."
+    ]
+   },
+   {
+    "id": "c113",
+    "headline": "Wildfire in California's Los Padres grows to 2,000 acres; evacuations ordered in Big Sur",
+    "category": "accuracy",
+    "reasons": [
+     "Draft states 'Nearly 500 fire personnel are battling the blaze' and 'The fire is being tracked by Cal Fire, the state fire agency.' The brief's data_points confirm the 500 personnel claim and Cal Fire tracking, but the brief is marked thin=true with only 2,128 source_chars and the open_questions section explicitly notes the Guardian source text is 'truncated and contains only navigation markup; the full article text is not available.' This indicates the brief was built from incomplete source material. A story built from a truncated source where facts cannot be independently verified in the source text violates the desk's requirement that facts trace to verified source material. The writer has smuggled confidence into claims extracted from a brief that itself admits source verification failed."
+    ]
+   },
+   {
+    "id": "c247",
+    "headline": "Congressional Budget Office projects $2.1 trillion fiscal 2026 deficit, $200 billion higher than February estimate",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'the CBO's specific explanation for the change and the relative contributions of revenue and spending adjustments remain unclear from available reporting,' but this characterization is not supported by the brief. The brief's open_questions flag that these details are unknown, but the draft presents this as a reporting limitation rather than as a factual gap in the source material itself. The writer has inserted editorial judgment ('remain unclear from available reporting') that does not appear in the source data_points and constitutes smuggled framing.",
+     "The draft's bottom_line states 'Congress and fiscal analysts will need to examine the CBO's detailed explanations,' which implies detailed explanations exist but have not been reported. This goes beyond what the brief supports: the brief simply marks these as open questions, not as available-but-unexamined material. This is a factual claim about what the CBO has provided that is not in the brief."
+    ]
+   }
+  ]
  }
 ]

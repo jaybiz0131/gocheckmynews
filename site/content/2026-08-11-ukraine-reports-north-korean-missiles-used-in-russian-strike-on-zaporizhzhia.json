@@ -1,0 +1,71 @@
+{
+  "id": "c025",
+  "slug": "ukraine-reports-north-korean-missiles-used-in-russian-strike-on-zaporizhzhia",
+  "kind": "brief",
+  "title": "Ukraine reports North Korean missiles used in Russian strike on Zaporizhzhia",
+  "dek": "President Zelensky accused Russia of using North Korean ballistic missiles in strikes on the southern city of Zaporizhzhia on August 11, killing seven people and injuring at least 24. The claim marks an escalation in the Russia-Ukraine conflict and signals deepening military cooperation between Moscow and Pyongyang.",
+  "date": "2026-08-11",
+  "published_utc": "2026-08-11T18:02:49Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 4,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Strikes on Zaporizhzhia killed seven employees of Ukraine's Zaporizhstal metallurgical plant and injured at least 24 others.",
+  "bottom_line": "The use of North Korean weapons and troops remains disputed on the evidence. Zelensky's claim of North Korean missile involvement in the Zaporizhzhia strike stands without publicly presented verification, and the open question of whether ballistic missiles used in the attack are specifically North Korean or Russian-made remains unresolved. Watch for any technical analysis or intelligence disclosures from Western officials that might corroborate or challenge Zelensky's identification.",
+  "human_take": "",
+  "body": [
+    "Seven people died and at least 24 were injured when Russia struck the southern Ukrainian city of Zaporizhzhia on August 11, according to BBC reporting. All seven casualties were employees of Ukraine's Zaporizhstal metallurgical plant, which halted all operations following the attack.",
+    "President Volodymyr Zelensky accused Moscow of using North Korean ballistic missiles in the strike, delivering the accusation in a video address on Monday evening. \"For the first time,\" Zelensky said, Russia \"cannot wage war without reinforcements from North Korea.\" He warned that repeated use of North Korean weapons and troops would allow Russia and North Korea to \"correct their shortcomings and blind spots,\" and framed the deployment as a danger to the broader world.",
+    "According to BBC reporting, Zelensky said: \"The more North Korean strikes there are here in Ukraine, in Europe, the more their missiles and soldiers are used, the more they correct their shortcomings and blind spots.\" He added that the use of North Korean military assets poses \"a danger to the rest of the world.\"",
+    "BBC News reports that Zelensky has not presented any evidence to support his identification of the missiles as North Korean in origin. Ukraine's military has said that dozens of North Korean missiles have been fired by Russia into its territory since Russia's full-scale invasion in February 2022, per BBC reporting.",
+    "The broader pattern of alleged North Korean military involvement in the conflict extends beyond missiles. Zelensky warned over the weekend that as many as 50,000 North Korean soldiers were being sent to fight with Russian forces. According to BBC reporting, some 11,000 North Korean soldiers were deployed to help Russia push Ukrainian troops out of the western Russian region of Kursk following Ukraine's cross-border incursion in August 2024. Western officials told the BBC in January 2025 that North Korean troops had suffered nearly 40% casualties in the fighting in Kursk in just three months.",
+    "On the same day as the Zaporizhzhia strike, Ukraine conducted what Zelensky called \"a very significant achievement\": a successful air strike on a Russian petrochemical plant in western Siberia. Zelensky promised \"more Ukrainian deep strikes, which should demonstrate to Russia and the Russians that peace is necessary.\"",
+    "Russia's overnight strikes on August 11 included 120 drones and a range of different missiles, according to Ukrainian officials, who for the first time did not provide a count of missiles fired or intercepted. Per BBC reporting, strikes also hit the capital Kyiv, the north-eastern city of Sumy, and substations in Kherson and Kharkiv, causing power outages. Local officials said a children's hospital in Kyiv was damaged but reported no injuries, as staff and patients were sheltering. One person was killed in Sumy when Russia attacked with gliding bombs, and two women were injured in a separate drone strike on the city.",
+    "The Ukrainian Air Force issued a statement on Monday urging media outlets not to write \"sensationalised headlines\" or \"spread pessimism\" about shortages of air defence interceptors. Reports also emerged of a fire and explosions at a logistics center of Wildberries, a major Russian retailer, in the Voronezh region bordering Ukraine. Wildberries has not confirmed the attack but said facilities in the region have been evacuated. In July, Ukrainian drone attacks on several Wildberries warehouses disrupted Russian small and medium-sized businesses; Kyiv said at the time it was targeting logistics hubs used by Russia to procure military equipment and disrupting supplies to the Russian army.",
+    "A day before the Zaporizhzhia strikes, Ukrainian drone strikes on the Russian republic of Tatarstan, more than 1,100 kilometers from the Ukrainian border, killed at least 13 people including one child and injured at least 75. The Uzbek consulate in Tatarstan reported that seven of the dead were Uzbek citizens. Ukraine's Armed Forces said it had hit the city's Tanevo oil refinery. BBC reporting describes the attack as one of the deadliest single strikes on Russia since the start of its full-scale invasion of Ukraine."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c151dpzwnvxo"
+    },
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c151dpzwnvxo?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "event_utc": "2026-08-11T16:19:44Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-11T18:02:49Z",
+    "sources_cited": 2,
+    "sources_live_checked": 2
+  },
+  "update_of": "zelensky-accuses-russia-of-using-north-korean-ballistic-missiles",
+  "also_reported_by": [
+    {
+      "outlet": "Defense News",
+      "headline": "How North Korean forces are bolstering Russia\u2019s war against Ukraine - Defense News"
+    },
+    {
+      "outlet": "Fox News",
+      "headline": "Russia deploys North Korean missile unit to Ukraine, Moscow-Pyongyang axis deepens: report - Fox News"
+    },
+    {
+      "outlet": "AP News",
+      "headline": "Russian attacks kill 10 in Ukraine as Zelenskyy says Moscow is getting more North Korean missiles - AP News"
+    },
+    {
+      "outlet": "France 24",
+      "headline": "Ukraine says Russia fired North Korean missiles - France 24"
+    },
+    {
+      "outlet": "Al Jazeera",
+      "headline": "Russian attacks kill 12, Zelenskyy claims use of North Korean missiles - Al Jazeera"
+    },
+    {
+      "outlet": "Radio Free Europe/Radio Liberty",
+      "headline": "Ukraine Says Russia Fired North Korean Missiles In Deadly Strike - Radio Free Europe/Radio Liberty"
+    }
+  ]
+}
