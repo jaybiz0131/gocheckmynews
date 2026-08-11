@@ -1,0 +1,63 @@
+{
+  "id": "c024",
+  "slug": "zelensky-accuses-russia-of-north-korean-missile-use-says-no-evidence-presented",
+  "kind": "brief",
+  "title": "Zelensky accuses Russia of North Korean missile use; says no evidence presented",
+  "dek": "Ukraine's President Volodymyr Zelensky accused Russia of using North Korean ballistic missiles in strikes on the southern city of Zaporizhzhia that killed seven people and injured at least 24. The BBC reports that Zelensky has not presented evidence for the claim. Ukrainian officials have previously accused Russia of receiving military aid from North Korea; some 11,000 North Korean troops were deployed in Kursk in 2024 and suffered nearly 40% casualties in three months, per Western officials.",
+  "date": "2026-08-11",
+  "published_utc": "2026-08-11T16:29:19Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 2,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Zelensky says Russia used North Korean missiles in Zaporizhzhia strikes killing seven; the BBC confirms he presented no evidence for the claim.",
+  "bottom_line": "The central question remains whether independent technical or physical evidence can verify Zelensky's claims about North Korean missile use in specific strikes. Neither Russia nor North Korea has officially responded to the allegations. Credibility of the claim rests on whether independent Western intelligence or forensic analysis corroborates the missile identification, a threshold the BBC indicates has not yet been met.",
+  "human_take": "",
+  "body": [
+    "Ukraine's President Volodymyr Zelensky accused Russia Monday evening of using North Korean ballistic missiles in strikes on the southern city of Zaporizhzhia that killed seven people and injured at least 24, according to BBC News. All seven killed were employees of Ukraine's Metinvest metallurgical plant, which halted all operations following the strikes. Zaporizhzhia regional head Ivan Fedorov posted photos of vehicles and buildings on fire, saying Moscow had struck the city using missiles and guided bombs.",
+    "In a video address Monday evening, Zelensky stated that \"for the first time\" Russia \"cannot wage war without reinforcements from North Korea.\" He warned that North Korean missiles and soldiers were being used to \"correct their shortcomings and blind spots\" in the conflict. However, the BBC explicitly reports that Zelensky has not presented any evidence to back up his comments about North Korean missile use.",
+    "This is not the first time Zelensky and other senior Ukrainian and Western officials have accused Russia of receiving military assistance from North Korea. Ukraine's military has said that dozens of North Korean missiles have been fired by Russia into its territory since Moscow's full-scale invasion in February 2022. Zelensky warned over the weekend that as many as 50,000 North Korean soldiers were being sent to fight with Russian forces. Some 11,000 North Korean soldiers were deployed to help Moscow push Ukrainian troops out of the western Russian region of Kursk following their cross-border incursion in August 2024. In January 2025, Western officials told the BBC that North Korean troops had suffered nearly 40% casualties in the fighting in Kursk in just three months.",
+    "Monday's strikes in Zaporizhzhia were part of broader Russian attacks across Ukraine. One person was injured in strikes on the capital Kyiv, where air raid sirens sounded twice during the night. A children's hospital in Kyiv was damaged but there were no injuries as staff and patients were sheltering. Two women were injured in a Russian drone strike on the north-eastern city of Sumy, and one person was killed when Russia attacked Sumy with gliding bombs in the afternoon, per regional head Serhii Kryvosheienko. Strikes on substations in Kherson and Kharkiv resulted in power outages. Ukrainian officials say Russia fired 120 drones overnight.",
+    "For the first time, Ukrainian officials did not release figures on missiles fired or intercepted. An Air Force statement on Monday urged the media not to write \"sensationalised headlines\" or \"spread pessimism\" about the shortage of air defence interceptors.",
+    "Ukraine also reported striking Russian targets deep inside Russian territory Monday. Zelensky hailed a successful air strike on a Russian petrochemical plant in western Siberia as a \"very significant achievement\" by the Ukrainian military, promising \"more Ukrainian deep strikes, which should demonstrate to Russia and the Russians that peace is necessary.\" Ukrainian drone strikes on Tatarstan, more than 1,100 kilometers from the Ukrainian border, killed at least 13 people, including one child, and injured at least 75, per BBC reporting. Ukraine's Armed Forces said it had hit the city's Tanevo oil refinery in Tatarstan. The Uzbek consulate in Tatarstan said seven of those killed were citizens of Uzbekistan."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c151dpzwnvxo?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "event_utc": "2026-08-11T16:19:44Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-11T16:29:19Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "also_reported_by": [
+    {
+      "outlet": "The Independent",
+      "headline": "Ukraine-Russia war latest: Zelensky warns North Korea could send up to 50,000 troops to Russia - The Independent"
+    },
+    {
+      "outlet": "France 24",
+      "headline": "North Korea may deploy up to 50,000 troops to Russia, Zelensky claims - France 24"
+    },
+    {
+      "outlet": "The Globe and Mail",
+      "headline": "Moscow is getting more North Korean missiles, Zelensky says, as Russia bombards Ukraine - The Globe and Mail"
+    },
+    {
+      "outlet": "Newser",
+      "headline": "Zelensky: Russia Is Sunk Without North Korea - Newser"
+    },
+    {
+      "outlet": "NK News",
+      "headline": "Russia can\u2019t fight Ukraine without North Korea\u2019s help: Zelensky - NK News"
+    },
+    {
+      "outlet": "SOFX",
+      "headline": "Zelensky Says North Korea Set to Send Russia Up to 50,000 Troops - SOFX"
+    }
+  ]
+}

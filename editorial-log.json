@@ -5388,5 +5388,47 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-11",
+  "approved": 4,
+  "rejected": [
+   {
+    "id": "c302",
+    "headline": "Colombia earthquake kills 181, leaves 3,000+ missing as rescuers search rubble",
+    "category": "compliance",
+    "reasons": [
+     "The sentence 'The brief mentions that Pope Leo XIV is \"deeply saddened\" by the earthquake, based on reporting not independently verified by the desk.' violates the no-advocacy, no-advice compliance rule. The phrase 'based on reporting not independently verified by the desk' is an editorial statement that reads as the desk's own judgment rather than simply attributing the claim with its confidence label. The data_point in the brief is marked 'announced-not-verified'; the draft should either omit this claim or present it as 'Pope Leo XIV said he was deeply saddened by the earthquake' with attribution, not add desk commentary about verification.",
+     "The sentence 'The quake represents Colombia's strongest earthquake on record' is presented as fact/analysis in the desk's voice rather than sourced. The brief's data_point says 'The quake struck Colombia's western region' but does not contain a data_point confirming it is 'Colombia's strongest earthquake on record.' This claim does not trace back to the brief and is SMUGGLED."
+    ]
+   },
+   {
+    "id": "c105",
+    "headline": "Timber fire grows to 2,000 acres in Big Sur; evacuations ordered",
+    "category": "accuracy",
+    "reasons": [
+     "The third sentence of the body\u2014'The brief does not specify which particular locations along Big Sur have been evacuated, the cause of the fire, current containment status, or reported injuries and property damage.'\u2014is an editorial meta-commentary that belongs in an internal note, not in published copy. This reads as the writer speaking directly to the desk about the brief's limitations rather than reporting to readers. It breaks the fourth wall and must be removed.",
+     "More critically, the brief is marked 'thin': true with only six data_points and incomplete source material (noted in open_questions: 'appears to be navigation/boilerplate HTML only'). The draft's acknowledgment of what it does not contain signals that the story may not meet publication threshold. The story's opening and body carry stakes and basic facts from the brief, but the self-aware gap-listing in the third sentence is a red flag that the writer is aware the brief is too thin to sustain a full story. A thin story is acceptable if tightly written to the available facts; but a thin story that calls attention to what it *cannot* report is not ready for approval."
+    ]
+   },
+   {
+    "id": "c041",
+    "headline": "Lebanon parliament votes to abolish death penalty",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Israel's parliament approved legislation expanding the circumstances in which capital punishment can be imposed, including in cases related to the October 2023 Hamas-led attacks.' The brief data_point specifies: 'Israeli MPs passed a new law in May to impose the death penalty and conduct public trials for those involved in the Hamas-led attacks and mass hostage-taking in Israel in October 2023.' The draft omits 'in May' and 'mass hostage-taking,' softening the specificity of the brief's claim. More critically, the draft says the law 'can be imposed,' implying future application, while the brief states it 'passed a new law...to impose the death penalty,' indicating enacted authority. This is a material difference in factual assertion that goes beyond paraphrase."
+    ]
+   },
+   {
+    "id": "c029",
+    "headline": "Syrian court sentences Assad to death in absentia for war crimes",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Assad left for Damascus to Moscow' which is incoherent; the intended meaning 'fled from Damascus to Moscow' appears in the brief and elsewhere in the draft body but this garbled phrasing creates a factual error in the opening claim.",
+     "The draft claims Assad's regime fell 'in December 2024' but does not cite the specific '11-day campaign' mentioned in the brief's data_point about Ahmed al-Sharaa sweeping to power; while the brief supports both claims, the draft should clarify the timeline relationship or attribute the duration.",
+     "The draft attributes 'Attempts by Syrian opposition figures to pursue Assad through courts in Western countries...did not lead to any convictions' to 'the BBC' inline, which is correct per the brief, but this is bear_case material that appears in the body without a transitional signal that it represents a counterpoint or limitation; it reads as supporting narrative rather than as presented ambiguity about accountability pathways."
+    ]
+   }
+  ]
  }
 ]
