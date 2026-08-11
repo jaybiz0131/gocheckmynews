@@ -1,0 +1,37 @@
+{
+  "id": "c171",
+  "slug": "drug-resistant-fungus-candida-auris-detected-in-3-437-cases-across-27-u-s-states",
+  "kind": "brief",
+  "title": "Drug-resistant fungus Candida auris detected in 3,437 cases across 27 U.S. states",
+  "dek": "As of July 25, 2026, Candida auris has been detected in 3,437 clinical cases across 27 U.S. states, according to provisional CDC data reported by Fox News. The fungus, classified by the CDC as an urgent antimicrobial-resistance threat, spreads primarily in healthcare settings and carries mortality rates of 30-72% in invasive infections, though most affected patients are already seriously ill. More than 90% of U.S. samples are resistant to fluconazole, a common antifungal treatment.",
+  "date": "2026-08-11",
+  "published_utc": "2026-08-11T18:38:54Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 7,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "3,437 clinical cases of Candida auris documented in 27 U.S. states as of July 25, 2026, with California accounting for roughly one-quarter of the total at 873 cases.",
+  "bottom_line": "The CDC's classification of C. auris as an urgent antimicrobial-resistance threat reflects the speed of its spread and the scarcity of effective drugs. What to watch: whether mortality rates or treatment resistance accelerate in the months ahead, and whether new antifungal therapies mentioned in research efforts reach clinical use. The premise of this story would shift if the breakdown between colonization and confirmed invasive infections shows that the 3,437 figure is predominantly asymptomatic carriage rather than active disease.",
+  "human_take": "",
+  "body": [
+    "As of the week ending July 25, 3,437 clinical cases of Candida auris have been documented across 27 U.S. states in 2026, according to provisional CDC data reported by Fox News. The fungus, a yeast capable of causing serious infections primarily in hospitals, nursing homes and other healthcare settings, is classified by the CDC as an urgent antimicrobial-resistance threat. The outbreak underscores a growing challenge: a pathogen that spreads readily through contaminated surfaces and medical equipment while resisting multiple antifungal drugs.",
+    "California accounts for 873 cases, roughly one-quarter of the country's total, per Fox News reporting. Other states with substantial case counts include Texas (433), Tennessee (283), Ohio (279), Georgia (193), Louisiana (179), Illinois (171), Arizona (171), Michigan (146), Virginia (132) and Pennsylvania (121).",
+    "Candida auris is highly transmissible between patients through contact with contaminated surfaces or objects such as bedrails, doorknobs and shared medical equipment. The fungus can spread through people who carry it without showing symptoms, a condition known as colonization. Those at highest risk of infection include patients with severe underlying medical conditions, particularly those using breathing tubes, feeding tubes, intravenous lines or catheters, and those hospitalized frequently or for extended periods. People without those risk factors are unlikely to become colonized or develop infection, according to Fox News reporting.",
+    "It is important to note that the CDC defines a clinical case as detection of C. auris in a specimen collected during normal medical care, not necessarily confirmation of active infection. Some clinical specimens represent colonization, asymptomatic carrier status, rather than actual infection, meaning the 3,437 figure encompasses both confirmed infections and colonization cases. The health effects range from colonization without symptoms to potentially deadly invasive infections, including bloodstream infections. Invasive C. auris infections are associated with mortality rates of 30% to 72%, although most affected patients are already seriously ill, per Fox News reporting.",
+    "Treatment options are severely limited by drug resistance. More than 90% of U.S. samples are resistant to fluconazole, a common antifungal treatment. Echinocandins are currently the main treatment option for C. auris, although some strains are resistant to all three main classes of antifungal drugs. Dr. Marc Siegel, Fox News senior medical analyst, noted that symptoms such as fever, chills and aches are common to many infections, meaning the fungus can be mistaken for other illnesses. Siegel stated that sterilization and disinfection measures in hospitals can be helpful in combating C. auris, and that research is ongoing to develop new treatments.",
+    "The spread of Candida auris reflects a broader challenge in healthcare: the emergence of pathogens resistant to multiple drugs at once. The fungus's ability to persist on surfaces and equipment, combined with its capacity to spread through asymptomatic carriers, makes containment difficult in busy medical environments where immunocompromised patients are common."
+  ],
+  "sources": [
+    {
+      "title": "Fox News",
+      "url": "https://www.foxnews.com/health/dangerous-drug-resistant-fungus-spreads-across-us-reaching-27-states"
+    }
+  ],
+  "event_utc": "2026-08-11T18:23:29Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-11T18:38:54Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}

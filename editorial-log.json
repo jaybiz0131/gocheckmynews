@@ -5513,5 +5513,37 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-11",
+  "approved": 5,
+  "rejected": [
+   {
+    "id": "c025",
+    "headline": "Russia using North Korean missiles to strike Ukraine, Zelensky says",
+    "category": "balance",
+    "reasons": [
+     "The bear_case item 'Zelensky has not presented any evidence to back up his comments about North Korean missile use, per BBC reporting' appears in the brief but is buried in paragraph 3 ('However, according to BBC reporting, Zelensky has not presented any evidence...') rather than being presented as a distinct counter-evidence section or given proportionate weight. The draft then immediately pivots to 'The broader claim of North Korean military involvement has earlier supporting reporting' which frames the story toward supporting evidence. A bear_case explicitly flagged in the research should not be de-emphasized through placement and framing; the draft reads as though it is addressing an objection rather than presenting a genuine evidentiary balance."
+    ]
+   },
+   {
+    "id": "c246",
+    "headline": "CBO projects fiscal 2026 deficit at $2.1 trillion, $200 billion higher than February forecast",
+    "category": "clarity",
+    "reasons": [
+     "Draft is extremely thin (only 3 data_points, all basic facts) but the body consists of just two paragraphs with the second paragraph essentially disclaiming the story by saying CBO 'did not specify' the drivers. This reads as an admission the story has no substance beyond the headline number. A two-sentence body that amounts to 'CBO said X, and we don't know why' does not meet the standard for publication even for a thin brief. The bottom_line tries to project forward, but there is nothing in the draft itself to sustain reader interest or clarify what makes this revision newsworthy.",
+     "The draft offers no context, no expert interpretation, no detail on what changed between February and August, and no explanation of fiscal policy implications. For a $200 billion deficit swing, the lack of any analytical content or named sources beyond 'The Hill reporting' leaves the reader with only a number and no understanding of its significance."
+    ]
+   },
+   {
+    "id": "c101",
+    "headline": "Trump Justice Department deployed staff to monitor Minnesota primary polling sites in two largest counties",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Hennepin and Ramsey counties are Minnesota's two largest counties' as a fact, but this claim does not appear in the brief's data_points. The brief lists it as a reported fact from Guardian US, but the draft presents it without attribution inline, making it read as the desk's own knowledge rather than sourced information. All facts must trace to the brief.",
+     "The draft asserts 'Federal election monitoring at polling places occurs under narrow legal grounds, typically authorized under the Voting Rights Act or in response to documented voting access violations.' This is general legal/civics information not present in the brief and constitutes smuggled context. The brief contains no data_point about the legal framework for federal monitoring; the draft cannot introduce this without a source."
+    ]
+   }
+  ]
  }
 ]

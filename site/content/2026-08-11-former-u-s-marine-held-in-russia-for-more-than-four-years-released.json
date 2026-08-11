@@ -1,0 +1,80 @@
+{
+  "id": "c028",
+  "slug": "former-u-s-marine-held-in-russia-for-more-than-four-years-released",
+  "kind": "brief",
+  "title": "Former U.S. Marine held in Russia for more than four years released",
+  "dek": "Robert Gilman, 32, was released from a Russian prison on August 11, 2026, after more than four years in custody. President Trump announced the release, saying it was on a humanitarian basis. Gilman is reported to have been in critical health condition, diagnosed with a dissociative stupor and pneumonia approximately 50 days before his release.",
+  "date": "2026-08-11",
+  "published_utc": "2026-08-11T18:38:54Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 4,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Robert Gilman, detained for 1,666+ days, was released after Trump discussed the case with Russian President Vladimir Putin; his sister and advocates credit Trump with saving his life, while Senator Ed Markey documented severe health deterioration in custody.",
+  "bottom_line": "Gilman's release marks a rare diplomatic outcome during active U.S.-Russia tensions, but leaves unresolved the status and condition of five other Americans detained in Russia. What drives any further releases, and whether their medical situations worsen or improve, will test whether this humanitarian case represents a broader shift in negotiations or a singular intervention.",
+  "human_take": "",
+  "body": [
+    "Robert Gilman, a 32-year-old former U.S. Marine, was released from a Russian prison on August 11, 2026, after more than four years in custody. President Donald Trump announced the release on Truth Social, saying he had discussed Gilman's case with Russian President Vladimir Putin and that the release occurred on a humanitarian basis, with no prisoner exchange taking place.",
+    "Gilman served in the Marines from August 2019 to August 2020. According to NBC News reporting, he was detained in 2022 after allegedly kicking a police officer after being removed from a train for causing a disturbance. He received an initial sentence of three and a half years. In October 2024, he was accused of attacking a prison inspector, beating an investigator, and assaulting a guard; he was sentenced to eight years and one month. His sentence was extended again to 10 years after he was found guilty of assaulting prison guards, according to NBC News.",
+    "Gilman's health deteriorated severely in detention. Approximately 50 days before his release, he was diagnosed with a dissociative stupor, described by Senator Ed Markey (D-Mass.) as a condition where Gilman was non-responsive and unable to interact or eat. Markey, reporting to NBC News, said Gilman \"was essentially catatonic and also suffered a severe case of pneumonia.\" According to the BBC, Gilman's family described his health as in a life-threatening condition. Eric Lebson of the advocacy group Global Reach told the BBC that in Russian confinement, Gilman was subject to repeated harassment, including forced exercise training sessions lasting up to 16 hours and administration of psychotropic drugs. The abuse was severe enough that at one point Gilman required a feeding tube, Lebson said.",
+    "Gilman's supporters contend he was ill when first arrested and that he was provoked in prison into actions that led to further charges. Markey stated to NBC News that \"Gilman was subjected to physical torture, forced medication, and provocations by Russian authorities\" and that \"there is no doubt that his treatment by Russian authorities is the reason Robert is in this precarious state today.\" A month before his release, Russia's Kommersant newspaper reported that Gilman had been admitted to a hospital, quoting his lawyer Irina Brazhnikova that he was receiving treatment but it was too early to discuss a diagnosis, per NBC News.",
+    "Gilman is expected to land at Andrews Air Force Base in Washington, D.C., and later arrive at a U.S. military hospital in Texas where he will be assessed and treated, according to BBC reporting on a family statement. Trump said on Truth Social that Gilman had requested a cheeseburger upon landing, according to NBC News reporting of the announcement.",
+    "Gilman's sister, Lexie Hudson, told NBC News: \"There is no other reason that Robert is alive today other than that President Trump heard about the case and took action.\" She also told the BBC: \"The Russians treated my brother so badly. They hurt him for no reason, other than that he was both an American and a Marine.\" Hudson said she credited Massachusetts Senator Ed Markey with helping secure her brother's release and told the BBC: \"I am so grateful to President Trump for saving my brother's life.\"",
+    "Markey told the press, per NBC News, that \"we don't yet know the full details of his current condition or the long-term impact on his recovery.\" According to the BBC, five other Americans remain in Russian custody with medical issues: Aleksandr Antonov, David Barnes, Olga Jezler, Andre Khachatoorian, and Chuck Zimmerman. The Russian government has not commented on Gilman's release, NBC News reported."
+  ],
+  "sources": [
+    {
+      "title": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/politics/former-u-s-marine-held-in-russia-for-more-than-4-years-has-been-released-advocates-say"
+    },
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/world/europe/former-us-marine-robert-gilman-held-russia-released-rcna591952"
+    },
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cvgj4m8e1ryo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/homenews/administration/6022976-robert-gilman-russia-release/"
+    },
+    {
+      "title": "abcnews.com",
+      "url": "https://abcnews.com/Politics/former-us-marine-robert-gilman-released-detention-russia/story?id=135549706"
+    }
+  ],
+  "event_utc": "2026-08-11T15:44:10Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-11T18:38:54Z",
+    "sources_cited": 5,
+    "sources_live_checked": 3
+  },
+  "also_reported_by": [
+    {
+      "outlet": "CNN",
+      "headline": "Former US Marine Robert Gilman released from detention in Russia - CNN"
+    },
+    {
+      "outlet": "NBC News",
+      "headline": "Former Marine held in Russia for more than 4 years has been released - NBC News"
+    },
+    {
+      "outlet": "ABC News",
+      "headline": "Former US Marine held in Russia for more than 4 years has been released, his advocates say - ABC News - Breaking News, Latest News and Videos"
+    },
+    {
+      "outlet": "The Hill",
+      "headline": "Former US Marine Robert Gilman released from detention in Russia - The Hill"
+    },
+    {
+      "outlet": "Politico",
+      "headline": "Former Marine held in Russia for 4 years has been freed, Trump says - Politico"
+    },
+    {
+      "outlet": "Radio Free Europe/Radio Liberty",
+      "headline": "Former US Marine, Jailed In Russia, Hospitalized In Serious Medical Condition, Freed - Radio Free Europe/Radio Liberty"
+    }
+  ]
+}
