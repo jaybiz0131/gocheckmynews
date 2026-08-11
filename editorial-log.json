@@ -5430,5 +5430,48 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-11",
+  "approved": 4,
+  "rejected": [
+   {
+    "id": "c068",
+    "headline": "Colombia earthquake kills at least 179, over 3,000 missing",
+    "category": "accuracy",
+    "reasons": [
+     "The draft cites a claim about 'seven fatalities reported in one documented strike' being employees of Zaporizhstal metallurgical plant, attributing it to PBS NewsHour. However, this claim does not appear in the brief's data_points; the brief contains no information linking the seven deaths to Zaporizhstal or confirming where those deaths occurred. The writer has smuggled in a fact not present in the research brief.",
+     "The draft states 'according to reporting from PBS NewsHour citing mayors and governors from Cali, Pereira, Choco, and Manizales' for the 179 death toll, but the brief's data_point states the deaths occurred 'in Cali, Pereira, Choco and Manizales' without specifying that PBS cited mayors and governors by name. This level of attribution detail exceeds what the brief supports.",
+     "The brief's open_questions explicitly note 'the fetched source text appears corrupted or incomplete (contains only SVG path data and no article body)' \u2014 the brief itself flags that the source material is unreliable. The draft proceeds as though the source has been properly verified, creating a liability when the underlying source document cannot be read."
+    ]
+   },
+   {
+    "id": "c115",
+    "headline": "State Department cancels over 175,000 visas since Trump's return",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'the revocation pace quadrupled the final year of Joe Biden's tenure' but the brief's data_point says 'The revocation pace quadrupled compared to Joe Biden's final year in the White House.' The draft's phrasing ('quadrupled the final year') is grammatically ambiguous and could be read as 'quadrupled during the final year' rather than 'quadrupled compared to the final year.' This is a factual accuracy problem in how the comparison is presented.",
+     "The draft asserts 'The brief does not include specifics on which visa categories were affected most heavily' \u2014 but this is editorial commentary about what is missing from the brief, not a fact from the brief. Per the hard rule, facts exist only in the brief; the writer should not be flagging gaps in the source material as prose in the story. This reads as the writer explaining their work rather than reporting.",
+     "Similarly, 'The brief does not include official State Department statements beyond the tally itself' and 'nor does it document any legal challenges' are meta-commentary about source limitations inserted into the news story body, violating the boundary between research notes and published prose."
+    ]
+   },
+   {
+    "id": "c101",
+    "headline": "Body-Camera Video, Court Evidence Document Federal Agents Using Slurs During Immigration Sweeps",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The use of slurs by agents, if confirmed through investigation, would represent alleged misconduct' \u2014 this hedges the core claim with a new conditional ('if confirmed') that does not appear in the brief. The brief's data_points mark both claims as 'reported' confidence, meaning the New York Times has reported them as fact. The draft should present what the Times reported without adding an extra layer of conditionality the source did not carry.",
+     "The draft says 'neither the agents' nor the Department of Homeland Security's response to the allegations has been reported' \u2014 this is a fact not in the brief and crosses into original reporting/analysis. The brief does not claim DHS or agents responded; the draft adds a negative fact (non-response) that was not part of the research."
+    ]
+   },
+   {
+    "id": "c86",
+    "headline": "CANNOT PUBLISH: Trump Military Jet Story Lacks Verifiable Sources",
+    "category": "accuracy",
+    "reasons": [
+     "The draft body itself is a refusal-to-publish notice, not a news story. The desk's rule is that facts must trace to the research brief; here, the entire draft is meta-commentary on the brief's insufficiency rather than reporting. The brief contains zero data_points, zero source text, and an empty bear_case. The draft correctly identifies this as unpublishable, but a refusal notice is not a story draft\u2014it is an editorial decision. The approver's role is to judge drafts against briefs, not to review rejection memos. If the intent is to flag this story as killed, that belongs in the assignment system, not in the draft approval queue."
+    ]
+   }
+  ]
  }
 ]
