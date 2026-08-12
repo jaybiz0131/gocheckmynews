@@ -1,0 +1,37 @@
+{
+  "id": "c278",
+  "slug": "baby-rescued-alive-from-rubble-after-7-0-colombia-earthquake",
+  "kind": "brief",
+  "title": "Baby rescued alive from rubble after 7.0 Colombia earthquake",
+  "dek": "A 7.0-magnitude earthquake struck Colombia on Monday, killing at least 181 people and injuring 2,595. Video shows five men pulling an infant alive from collapsed building rubble where a man trapped beneath was holding the child.",
+  "date": "2026-08-12",
+  "published_utc": "2026-08-12T11:41:51Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 4,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "A baby was rescued alive from building rubble in Colombia after a 7.0-magnitude earthquake, with video showing the extraction by five rescuers using bare hands.",
+  "bottom_line": "The full scale of casualties and missing persons remains under assessment as rescue efforts continue. The identity and condition of the rescued infant, along with the man who held the child, have not been disclosed; those details may emerge as medical and rescue operations proceed.",
+  "human_take": "",
+  "body": [
+    "A 7.0-magnitude earthquake struck Colombia on Monday, leaving at least 181 dead and 2,595 injured, according to President Abelardo de la Espriella. Civilian-run databases estimate nearly 4,000 people remain unaccounted for.",
+    "Video footage posted Monday night by Brian Osorio Zuluaga shows a baby being pulled alive from the ruins of a destroyed building. The infant had been held beneath the rubble by a man whose lower half was trapped and whose arms were covered in blood. Five men removed the baby using their bare hands.",
+    "The man told rescuers he was holding a child before workers began the extraction. Once the baby was freed, rescuers carefully lifted the infant from the wreckage. The video offers no information on the medical condition of either the baby or the man who protected it, nor has the identity of either been disclosed.",
+    "Osorio Zuluaga wrote of the rescue, per CBS News coverage: \"Today I understood, more than ever, that no one is really prepared to live through a situation like the one we are experiencing today.\" He added, \"A helping hand can make the difference between life and death. In moments like this, differences don't matter, what matters is helping.\"",
+    "International aid is mobilizing. The U.S. has offered more than 15 million dollars in assistance, according to CBS News reporting. Mexico's president said she is prepared to send hundreds of search and health workers, tons of health supplies, and other equipment. El Salvador's President Nayib Bukele announced his country would send two planes loaded with 100 tons of aid in the coming days.",
+    "President de la Espriella had been in power for only days when the disaster struck, and rescue operations continue as authorities work to locate survivors and assess damage across the country."
+  ],
+  "sources": [
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/baby-rescued-rubble-colombia-earthquake/"
+    }
+  ],
+  "event_utc": "2026-08-12T10:14:09Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-12T11:41:51Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}

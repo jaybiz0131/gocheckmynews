@@ -1,0 +1,70 @@
+{
+  "id": "c079",
+  "slug": "crowley-defeats-hong-in-wisconsin-democratic-gubernatorial-primary",
+  "kind": "brief",
+  "title": "Crowley defeats Hong in Wisconsin Democratic gubernatorial primary",
+  "dek": "Milwaukee County Executive David Crowley, a centrist Democrat, narrowly defeated Wisconsin assemblywoman Francesca Hong, a democratic socialist, in the Wisconsin Democratic gubernatorial primary on Tuesday. The race was a high-stakes test for progressives in a crucial battleground state and the first open gubernatorial seat since 2010.",
+  "date": "2026-08-12",
+  "published_utc": "2026-08-12T11:41:51Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 2,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The Associated Press projects Milwaukee County Executive David Crowley won the Wisconsin Democratic gubernatorial primary, defeating assemblywoman Francesca Hong in a major upset.",
+  "bottom_line": "Crowley will advance to the general election, where he will face the Republican nominee in a race for an open gubernatorial seat in Wisconsin, a state that has been heavily contested in recent national elections. Watch for the Republican primary outcome and Crowley's messaging in the general campaign.",
+  "human_take": "",
+  "body": [
+    "Milwaukee County Executive David Crowley, a centrist Democrat, narrowly won the Wisconsin Democratic gubernatorial primary on Tuesday in what the Associated Press projects as a major upset, defeating Wisconsin assemblywoman Francesca Hong, a democratic socialist.",
+    "The race became a high-stakes test for progressives who pinned their hopes on winning a major party nomination in a crucial battleground state, according to ABC News. The Wisconsin Democratic gubernatorial contest was the latest in a series of contests this year pitting democratic socialists against centrist Democrats for major party nominations, per ABC News.",
+    "Republicans and Democrats are vying to win the first open gubernatorial seat since 2010, according to ABC News. Democratic Gov. Tony Evers, the current officeholder, announced last year that he would not run for reelection, opening the seat to candidates from both parties.",
+    "The exact vote margin and final tally were not provided in available reports. Specific policy positions distinguishing Crowley and Hong beyond their ideological labels remain unclear from the available record. The Republican gubernatorial nominee has not yet been identified in the available reporting."
+  ],
+  "sources": [
+    {
+      "title": "abcnews.com",
+      "url": "https://abcnews.com/Politics/voters-6-states-choosing-candidates-november/story?id=135555937"
+    },
+    {
+      "title": "The New York Times",
+      "url": "https://www.nytimes.com/2026/08/12/us/elections/david-crowley-wisconsin-governors-primary.html"
+    },
+    {
+      "title": "abcnews.com",
+      "url": "https://abcnews.com/Politics/wisconsin-2026-live-primary-election-results/story?id=134597793"
+    }
+  ],
+  "event_utc": "2026-08-12T09:28:48Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-12T11:41:51Z",
+    "sources_cited": 3,
+    "sources_live_checked": 2
+  },
+  "update_of": "crowley-wins-wisconsin-democratic-primary-for-governor-defeating-hong",
+  "also_reported_by": [
+    {
+      "outlet": "CNN",
+      "headline": "David Crowley boosts Democratic establishment with Wisconsin primary win over democratic socialist Francesca Hong - CNN"
+    },
+    {
+      "outlet": "The New York Times",
+      "headline": "Primary Elections Live Updates: Crowley, a Moderate Democrat, Defeats Hong in Wisconsin Primary for Governor - The New York Times"
+    },
+    {
+      "outlet": "BBC",
+      "headline": "David Crowley defeats Francesca Hong in Wisconsin governor primary - BBC"
+    },
+    {
+      "outlet": "CBS News",
+      "headline": "Wisconsin's Democratic showdown between Francesca Hong and David Crowley and more races to watch today - CBS News"
+    },
+    {
+      "outlet": "NPR",
+      "headline": "In Wisconsin, David Crowley defeats Francesca Hong in Democratic primary for governor - NPR"
+    },
+    {
+      "outlet": "The 19th News",
+      "headline": "Wisconsin Democrats choose David Crowley over Francesca Hong\u2019s progressive vision - The 19th News"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "c295",
+  "slug": "inflation-in-focus-as-wage-growth-slows-for-workers",
+  "kind": "brief",
+  "title": "Inflation in focus as wage growth slows for workers",
+  "dek": "The Bureau of Labor Statistics will release July consumer price index data on August 12 at 8:30 a.m. ET. Economists expect 3.4% annual inflation, down from 3.5% in June, while wage growth at 3.2% annually lags inflation. Energy volatility and tech supply constraints are driving price pressures.",
+  "date": "2026-08-12",
+  "published_utc": "2026-08-12T11:41:51Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 7,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Workers' wage growth of 3.2% annually trails expected inflation of 3.4%, eroding purchasing power as oil prices near $85 per barrel and computer memory costs spike.",
+  "bottom_line": "The July CPI release on August 12 will show whether inflation has continued to moderate from its May peak of 4.2% and how much of the decline comes from energy prices versus broader goods and services. The wage-inflation gap remains a central question for Federal Reserve policymakers and households as energy markets remain volatile and tech-driven supply shocks persist.",
+  "human_take": "",
+  "body": [
+    "The wage growth that American workers have seen is not keeping pace with the cost of living. According to NBC News reporting, average hourly wages in July grew at 3.2% from a year ago, as reported by the Bureau of Labor Statistics on Friday, while economists surveyed by Dow Jones expect July inflation to show 3.4% on an annual basis, down from 3.5% in June. The gap means workers have less purchasing power even as their paychecks grow.",
+    "The Bureau of Labor Statistics is scheduled to release the July consumer price index data on August 12 at 8:30 a.m. ET. The timing is significant because energy prices and supply constraints have become central to the inflation outlook, and Federal Reserve officials are weighing whether to raise interest rates at their next decision, scheduled for September 16.",
+    "Energy volatility is a core driver of current price pressures. Per NBC News, consumer price index jumped to 4.2% in May 2026 as the war with Iran pushed crude oil higher. On Tuesday (August 11), U.S. crude oil prices neared $85 per barrel, while international Brent crude oil rose as high as $90 per barrel, its first time reaching that level this month, according to NBC News. Gas prices remain above $4 a gallon per the same reporting.",
+    "Technology and manufacturing supply shocks are adding to the burden. According to NBC News, manufacturers of computer memory, including Samsung, SK Hynix, Western Digital, and Micron, have dramatically raised prices due to enormous demand from artificial intelligence data center buildout. Apple told NBC News in a June 2026 statement: \"We have never seen a component price increase this much, this quickly\" and \"We have now reached a point where we need to begin raising prices.\" Goldman Sachs forecast that airfare prices rose 2% in July 2026 reflecting passthrough of the rebound in jet fuel prices, per NBC News.",
+    "Core inflation, which excludes volatile food and energy prices, is expected to show a more modest picture. According to NBC News, core CPI is expected to rise 0.2% from June, and core inflation on a year-ago basis is set to fall slightly to 2.5% from 2.6%.",
+    "Federal Reserve officials are signaling readiness for action. Beth Hammack, president of the Federal Reserve Bank of Cleveland, said on Monday that the central bank may need to hike rates multiple times to get inflation back under control, per NBC News. Hammack told Yahoo Finance that a quarter-point increase \"probably doesn't do a whole lot for the economy.\" On Tuesday, Hammack wrote on LinkedIn: \"Now is the time to act\" and \"The longer we wait to take action to bring inflation back to our 2 percent objective, the more challenging it will be to bring it back down and the more expensive it will be for the American people.\"",
+    "Minneapolis Fed President Neel Kashkari identified multiple sources of inflation in a July 31 statement. According to NBC News, Kashkari wrote that \"Inflation has been elevated relative to our 2 percent target for more than five years\" and identified supply shocks such as Russia's invasion of Ukraine, Trump's trade wars, and the Iran war as root causes of inflation, while also citing the booming artificial intelligence data center buildout as causing problems. PNC Financial economists wrote that \"Energy prices should again exert a modest disinflationary influence on July CPI, although likely not to the same extent as in June,\" per NBC News."
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/business/economy/cpi-inflation-july-2026-rcna591698"
+    }
+  ],
+  "event_utc": "2026-08-12T09:00:41Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-12T11:41:51Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}

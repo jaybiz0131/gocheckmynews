@@ -1,0 +1,39 @@
+{
+  "id": "c272",
+  "slug": "deadly-storms-tornadoes-slam-midwest-causing-widespread-power-outages",
+  "kind": "brief",
+  "title": "Deadly storms, tornadoes slam Midwest, causing widespread power outages",
+  "dek": "Severe storms and tornadoes struck the Midwest on Tuesday, killing at least two people and leaving more than 700,000 without power across Ohio, Indiana, and Illinois. The National Weather Service confirmed at least three tornadoes touched down in Chicago's south suburbs, and forecasters warned of multiple additional rounds of rain through Friday.",
+  "date": "2026-08-12",
+  "published_utc": "2026-08-12T11:41:51Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 1,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "More than 700,000 customers across Ohio, Indiana, and Illinois remained without power early Wednesday after Tuesday's severe weather.",
+  "bottom_line": "The region faces continued flood risk through Friday as additional rain rounds move through the Ohio Valley. Watch for updates on deaths and injuries as investigations conclude and for power restoration timelines, which will signal the storm's broader infrastructure impact and recovery timeline.",
+  "human_take": "",
+  "body": [
+    "Severe storms and tornadoes struck the Midwest on Tuesday, killing at least two people and leaving more than 700,000 without power across Ohio, Indiana, and Illinois. The National Weather Service confirmed that at least three tornadoes touched down in Chicago's south suburbs during the midday hours Tuesday, part of a system that brought destructive winds, heavy rain, and lightning across multiple states.",
+    "A 4-year-old boy was killed in Jennings County, Indiana, when a tree fell on his family's mobile home on Tuesday afternoon, according to CBS News. In Ohio, Gov. Mike DeWine said a person died during an emergency in Roseville after crews were unable to reach them due to flooded roads. At least one additional death was confirmed in Portage, Indiana, when a home exploded after being struck by wind gusts up to 99 miles per hour, according to CBS News.",
+    "Power outages, the most visible immediate consequence, extended across the region early Wednesday. More than 220,000 customers in Ohio were still without power, per CBS News, while another 450,000 customers remained in the dark across Indiana and Illinois. Outages were also reported across West Virginia and Kentucky, according to the network. The scope of the outages reflects the storm system's geographic reach and the damage to transmission and distribution infrastructure.",
+    "The storm dumped extreme rainfall in parts of Ohio, with up to 8 inches recorded in some areas, per CBS News. At a state prison just south of Cleveland, lightning struck the facility, hospitalizing 16 people, the network reported. All flights were temporarily stopped at Chicago's two major airports during the peak of the storm, disrupting travel across the region.",
+    "National Weather Service meteorologist Scott Baker described the storm system as occurring on the outer edge of a \"ring of fire,\" which occurs when a large zone of high atmospheric pressure forms and triggers heavy rain and thunderstorms along its edges, according to CBS News. The Midwest was positioned in an area of excessive moisture and instability that fed the severe weather, Baker stated.",
+    "Forecasters said multiple rounds of rain would cause flood hazards in the Ohio Valley through early Friday, per CBS News. Gov. DeWine warned that flood dangers would persist, saying, \"This is not something that will end tonight,\" according to the network. There were numerous reports of wind gusts of 80 miles per hour or more at personal weather stations, CBS News reported. The fifth day of the 10-day Lake County, Indiana Fair was canceled as a precaution.",
+    "According to CBS News, officials in Portage are still determining the exact cause of the home explosion and whether it was directly related to the severe weather. The total death toll across all states affected remains under investigation in some jurisdictions."
+  ],
+  "sources": [
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/midwest-severe-storms-tornadoes-power-outages/"
+    }
+  ],
+  "event_utc": "2026-08-12T11:28:19Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-12T11:41:51Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "update_of": "midwest-storms-leave-nearly-1-million-without-power-multiple-deaths-reported"
+}
