@@ -5687,5 +5687,58 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-12",
+  "approved": 3,
+  "rejected": [
+   {
+    "id": "c273",
+    "headline": "Severe Midwest storms and tornadoes kill at least two, cause widespread outages",
+    "category": "accuracy",
+    "reasons": [
+     "Death toll discrepancy: The draft states 'at least two people' were killed, but then describes three separate deaths: (1) a 4-year-old in Jennings County, Indiana; (2) a person in Roseville, Ohio; and (3) 'at least one person was killed in that explosion' in Portage, Indiana. The brief's open_questions flag explicitly notes 'Whether the Portage, Indiana home explosion death is counted as one of the two confirmed storm-related deaths or a third death' and 'Total confirmed death toll across the full storm event.' The draft should either clarify the total death toll or acknowledge that the count remains unclear; presenting 'at least two' while describing three deaths is inaccurate."
+    ]
+   },
+   {
+    "id": "c296",
+    "headline": "July inflation expected at 3.4%, outpacing wage growth of 3.2%",
+    "category": "compliance",
+    "reasons": [
+     "Financial advice violation: The bottom_line reads 'The July CPI release will test whether energy moderation and stabilizing core inflation are enough to persuade the Federal Reserve to moderate its rate-hiking pace, or whether persistent price pressures in semiconductors and consumer electronics justify additional increases before September.' This frames rate-hiking decisions in terms that guide reader expectations about policy outcomes, crossing into financial advice territory by implying which outcome would be preferable or how inflation/rates should move. This violates the no-advice compliance requirement.",
+     "Medical/financial framing: The framing of wage growth versus inflation as a 'squeeze' that 'erode[s] purchasing power' in context with rate-hike speculation could be read as implying financial guidance on how readers should view their economic situation. The draft should present the data without advocating for a particular Fed response."
+    ]
+   },
+   {
+    "id": "c122",
+    "headline": "Trump Says Secret Service Instructed Plane Switch During Turkey Departure",
+    "category": "accuracy",
+    "reasons": [
+     "The draft contains substantive claims not present in the brief: 'Officials and journalists reportedly remained aboard Air Force One during the switch' and 'their identities and exact number are unconfirmed.' The brief has zero data_points; the writer cannot have sourced these details from the research record. The hard rule is violated: no fact exists outside the brief.",
+     "The draft states Trump 'said the aircraft swap was ordered to address the threat' but the brief only confirms Trump 'stated the Secret Service instructed him to switch planes.' The characterization of what the swap was 'ordered to address' is a new inference not in the source material.",
+     "Draft claims 'The Washington Post article containing the full details was unavailable for independent verification by the desk'\u2014but this is a confession of total source failure. With zero data_points in the brief and an inaccessible source, there are no facts to report. The desk cannot publish a story about an event it has no documented evidence for."
+    ]
+   },
+   {
+    "id": "c008",
+    "headline": "Coordinated Cyberattacks Hit U.S. Water Systems Across Seven States; Iran Suspected",
+    "category": "compliance",
+    "reasons": [
+     "The bottom_line states 'The scale and coordination of the attacks on water systems represent the largest documented operational cyber event against U.S. critical infrastructure to date, according to expert assessment.' This claim of 'largest documented operational cyber event...to date' does not appear in any data_point. Expert assessment in the brief notes 'I can't recall a time when there's been this many targets at once with operational impact' (Rob Lee), which is a personal recollection, not a historical ranking. The draft upgraded this to a factual superlative not supported by the source.",
+     "The brief's boundary_ok field is explicitly false with reason 'this story turns on a version, date range or threshold but the brief carries no boundary block.' The draft presents 'over 30 water systems across at least seven states between July 26 and July 28, 2026' and 'at least seven states' as settled fact. Without a boundary block in the brief, these precise numbers and ranges cannot be presented as certain. The story pivots on 'largest' and 'coordinated' but the brief flags that the coordinate structure, date range, and severity threshold are unvetted boundaries.",
+     "The draft's sourcing includes a second URL (Google News RSS feed) that is a news aggregator link, not a primary source, and the first source (NPR) is the only substantive source. The brief notes 'source_chars': 0 initially, suggesting the desk struggled to fetch or verify source material. Publishing with weak provenance on a breaking infrastructure story violates liability discipline."
+    ]
+   },
+   {
+    "id": "c088",
+    "headline": "Zhu Rongji, Architect of China's Market Economy, Dies at 97",
+    "category": "accuracy",
+    "reasons": [
+     "Draft claims Zhu Rongji 'transformed China into the world's leading manufacturing power' and 'led its entry into the World Trade Organization' as settled fact. Brief shows source_chars: 0 and open_questions flag that 'no actual text from either the New York Times or Wall Street Journal articles was fetched.' The writer has no source text to verify these biographical claims and tenure details came from the articles\u2014only metadata and a title. These facts cannot be traced to actual source prose.",
+     "Draft states he 'engineered the economic reforms that positioned China at the center of global manufacturing and trade' and 'his role in bringing China into the WTO marked a watershed moment.' Brief confirms source_texts array is empty and no direct quotes or content from the articles are present. Claims about his role and achievements are asserted without visible source backing.",
+     "The brief explicitly notes 'The date of death, specific biographical details, tenure dates, policy achievements, family information, and cause of death are all unavailable.' The draft presents tenure and achievement as verified when the brief says they are unavailable from the fetched sources."
+    ]
+   }
+  ]
  }
 ]
