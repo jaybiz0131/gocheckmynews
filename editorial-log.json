@@ -5594,5 +5594,56 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-12",
+  "approved": 3,
+  "rejected": [
+   {
+    "id": "c099",
+    "headline": "HOLD: Colombia Earthquake Story Requires Source Verification",
+    "category": "accuracy",
+    "reasons": [
+     "This submission is not a draft; it is a researcher's note explaining why a draft cannot be written. The hard rule is 'no fact exists outside the brief.' Here, there is no brief data to draft from (thin: true, source_chars: 0). A HOLD notice belongs in research workflow, not in the approvals queue. The desk cannot approve a story that was never attempted. Return this to research with instructions to fetch the New York Times source or reject the angle."
+    ]
+   },
+   {
+    "id": "c014",
+    "headline": "Federal Judge Expands Nationwide Block on Trump Mail-In Voting Order",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states Trump's order directs USPS to 'deliver absentee ballots only to people on those lists,' but the brief data_point says 'compile lists of eligible voters from states and deliver absentee ballots only to people on those lists.' The draft omits the 'compile lists' step, materially misrepresenting how the order works.",
+     "The draft describes Judge Talwani finding the groups 'are likely to prove' their case as a conclusion about constitutional overreach, but the brief marks this 'reported' confidence only\u2014the draft presents the judge's preliminary assessment as a legal finding without qualification. The sentence reads as the desk's own interpretation of likelihood rather than reporting what the judge stated."
+    ]
+   },
+   {
+    "id": "c046",
+    "headline": "Russia Releases Former U.S. Marine Robert Gilman on Humanitarian Grounds",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'ABC News reports he was sentenced to four and a half years in 2022 for fighting with a Russian police officer at a train station,' but the BBC brief data_point says he was 'initially given a sentence of three and a half years' for kicking a police officer while drunk on a train, with the sentence later 'increased to 10 years' after a second conviction for assaulting prison guards. The ABC News data_point in the brief itself says 'four and a half years' for the train station incident, creating a direct conflict between the two sourced outlets. The draft chose the ABC figure without noting the discrepancy with BBC reporting, violating the rule that conflicting facts must be reported as such or traced to a single, preferred source. This is a material factual contradiction that should halt publication.",
+     "The draft states Trump said Gilman 'had requested a cheeseburger when he lands,' but the BBC brief data_point quotes Trump saying 'A GREAT cheeseburger.' The draft's paraphrase softens the quoted language without indicating the quoted text exists, which is not a paraphrase error but an accuracy loss of Trump's own words as reported."
+    ]
+   },
+   {
+    "id": "c154",
+    "headline": "Pentagon Confirms 153 Civilians Killed in Yemen Strikes During 2025",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states Hegseth 'directed budget cuts' and that 'Defense Secretary Pete Hegseth has directed budget cuts to civilian harm mitigation programs.' The brief data_point says the 'Trump administration's 2026 budget request' proposed cuts\u2014this attributes the direction to the administration broadly, not specifically to Hegseth's directive. The draft overstates Hegseth's personal agency beyond what the sourced data supports.",
+     "The draft omits a critical data point from the brief: Hegseth's quote 'untie the hands of our warfighters' and emphasize 'maximum lethality, not tepid legality'' (data_point 14 in brief). This quote directly contextualizes the policy direction and appears in the source material but is absent from the draft, creating a material gap in attribution.",
+     "The draft states Hegseth 'has fired top military lawyers for the Army, Navy, and Air Force in his initial months at the Pentagon' but omits the accompanying data point that Hegseth 'previously disparaged military lawyers as jagoffs' (data_point 16). This context is part of the sourced record and material to understanding the policy direction being reported."
+    ]
+   },
+   {
+    "id": "c362",
+    "headline": "Oregon Sets Modern Record for Wildfire Acreage as Season Continues",
+    "category": "clarity",
+    "reasons": [
+     "The draft's body states 'The specific total acreage burned in Oregon and the full scope of the current Western wildfire season are not yet finalized. Additional details about the firefighters' deaths and the projected end date for the season remain unconfirmed by primary sources cited in the reporting.' This language explicitly signals that the primary facts of the story (acreage, firefighter details, season timeline) are not confirmed by the source, which undermines the story's credibility and utility. A story that announces its facts are unconfirmed is not ready for publication.",
+     "The brief is marked 'thin: true' indicating sparse sourcing, yet the draft compounds this by declaring key factual claims unverified. The story should either provide the confirmed figures from NPR or not run; acknowledging data gaps mid-story is not a solution to thin sourcing."
+    ]
+   }
+  ]
  }
 ]

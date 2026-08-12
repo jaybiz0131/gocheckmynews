@@ -1,0 +1,52 @@
+{
+  "id": "c305",
+  "slug": "midwest-storms-leave-nearly-1-million-without-power-multiple-deaths-reported",
+  "kind": "brief",
+  "title": "Midwest Storms Leave Nearly 1 Million Without Power; Multiple Deaths Reported",
+  "dek": "Severe storms swept the Midwest on August 11 with hurricane-force winds exceeding 100 mph, confirmed tornadoes, flooding, and widespread power outages affecting over 1 million customers across Illinois, Indiana, Ohio, and adjacent states. At least two deaths were reported.",
+  "date": "2026-08-12",
+  "published_utc": "2026-08-12T00:39:28Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 2,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Over 1 million electricity customers in Illinois, Indiana, Ohio, and Tennessee were without power as of Tuesday evening, according to utility tracker PowerOutage.us, following a day of severe weather with winds exceeding 100 mph and confirmed tornadoes.",
+  "bottom_line": "Restoration of power and normal operations will take days; multiple sources warned that full recovery extends beyond 48 hours. The open question is whether the death toll will climb as rescue efforts continue and additional damage assessments come in from affected counties.",
+  "human_take": "",
+  "body": [
+    "Severe storms swept across the Midwest on Tuesday, August 11, 2026, leaving over 1 million electricity customers without power and causing multiple deaths as hurricane-force winds, confirmed tornadoes, and flooding hit the region. More than 991,000 customers across Illinois, Indiana, Ohio, and Kentucky were without power as of Tuesday evening, according to utility tracker PowerOutage.us, per CBS News reporting. NBC News reported over 1 million customers across Illinois, Indiana, Ohio, and Tennessee lacked power by the same evening.",
+    "At least two suspected tornadoes tore through suburbs in south Chicago and northwest Indiana, according to CBS News. NBC News confirmed two tornadoes near Chicago: one in southern Cook County and a second in eastern Will County, both causing damage consistent with EF-1 tornadoes. Personal weather stations recorded wind gusts of 80 mph or more in numerous locations, per CBS News. The National Weather Service warned of possible 100 mph winds in Porter County, according to NBC News reporting.",
+    "At least two deaths were directly tied to the storms. A resident of Roseville, Ohio died during a health emergency when first responders, faced with flooded roads, could not reach the scene, according to Ohio Gov. Mike DeWine, per CBS News. A person died in a suspected house explosion in Portage, Indiana, approximately 30 miles southeast of Chicago, around 12:20 p.m. local time, with the weather suspected to play a role but the cause still under investigation, according to NBC News. A home in Frankfort, Illinois caught fire during the storms, suspected to be either struck by lightning or ignited after power lines were blown into it, per NBC News.",
+    "Transportation and commerce ground to a halt. All flights were temporarily stopped at Chicago's two major airports. At Chicago's O'Hare International Airport, 45 percent of flights were delayed and 10 percent were canceled on Tuesday, according to CBS News. A train car was overturned by wind in the Portage area during the storms, per NBC News. The fifth day of the 10-day Lake County, Indiana Fair was canceled, per CBS News.",
+    "Utility crews mobilized across state lines. AEP, a major utility provider serving the Columbus, Ohio area, said the region experienced gusts of more than 80 mph and deployed more than 2,000 workers to restore electricity, including crews from other states, according to NBC News. Columbus Mayor Andrew Ginther said response teams witnessed what he called \"disaster-like conditions\" and warned that power could remain out for days. \"Things are not going to be fully restored and back to normal later today or tomorrow, the day after that,\" Ginther said, per NBC News.",
+    "Flood risks persisted beyond Tuesday evening. Gov. Mike DeWine warned that flood dangers would continue and that \"This is not something that will end tonight,\" per CBS News. Forecasters said multiple rounds of rain would cause flood hazards in the Ohio Valley through early Friday. DeWine signed an emergency proclamation for Perry and Muskingum counties due to flooding, with water rescues and home evacuations reported, according to NBC News. Portage Mayor Austin Bonta signed a declaration of emergency and said roads were impassible Tuesday. Portage Police Chief Mike Candiano said there were so many trees blocking roads that several officers parked a mile away from a home explosion and ran toward it to respond.",
+    "The National Weather Service warned that the Midwest was on the outer edge of a \"ring of fire,\" which brings waves of excessive moisture, instability, and storms, according to meteorologist Scott Baker, per CBS News. Police Capt. Rob Maynard, who has lived in Portage for 50 years, called the storms \"probably the most severe weather event that any of us here can remember,\" per NBC News."
+  ],
+  "sources": [
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/midwest-severe-storms-tornadoes-power-outages/"
+    },
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/weather/storms/dead-million-power-severe-storms-strike-midwest-rcna592035"
+    }
+  ],
+  "event_utc": "2026-08-11T23:27:28Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-12T00:39:28Z",
+    "sources_cited": 2,
+    "sources_live_checked": 2
+  },
+  "also_reported_by": [
+    {
+      "outlet": "Newsweek",
+      "headline": "Violent Storms Leave Trail of Destruction Across Midwest: Photos - Newsweek"
+    },
+    {
+      "outlet": "The New York Times",
+      "headline": "Storms Leave a Trail of Warnings Across the Midwest - The New York Times"
+    }
+  ]
+}
