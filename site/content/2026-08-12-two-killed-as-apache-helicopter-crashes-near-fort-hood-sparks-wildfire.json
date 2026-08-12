@@ -1,0 +1,80 @@
+{
+  "id": "c042",
+  "slug": "two-killed-as-apache-helicopter-crashes-near-fort-hood-sparks-wildfire",
+  "kind": "brief",
+  "title": "Two killed as Apache helicopter crashes near Fort Hood, sparks wildfire",
+  "dek": "An AH-64 Apache attack helicopter based at Fort Hood crashed in a field near Salado, Texas on August 12, killing both crew members on board. The impact ignited a large wildfire that spread out of control, prompting evacuations in the area.",
+  "date": "2026-08-12",
+  "published_utc": "2026-08-12T22:25:19Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 4,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Both occupants of the AH-64 Apache were pronounced dead at the scene around 2:30 p.m. local time after the helicopter crashed into a field near Salado, about 50 miles north of Austin.",
+  "bottom_line": "The Army's criminal investigation division is now leading the inquiry into what caused the crash. The identities of the crew members and the specific cause of the accident remain under investigation.",
+  "human_take": "",
+  "body": [
+    "An AH-64 Apache attack helicopter based at Fort Hood crashed into a field near Salado, Texas on Wednesday, August 12, killing both crew members on board and igniting a large wildfire that spread rapidly across the region.",
+    "Emergency responders arrived at the crash site around 1:30 p.m. EDT after receiving 911 calls, according to NBC News reporting. The two occupants were pronounced dead at the scene approximately one hour later, per CBS News. Salado is located about 50 miles north of Austin.",
+    "Bell County Sheriff's Office spokesman Cliff Coleman described the crash into the field as \"a violent crash,\" according to NBC News. When officers arrived, they found a large fire that was \"getting out of control very quickly,\" per BBC News reporting. The fire spread rapidly across a large area of land, according to NBC News. No structures were damaged and no other injuries were reported, per NBC News.",
+    "The wildfire prompted evacuations in the surrounding area, NBC News reported. Local emergency responders, military personnel, and law enforcement all responded to the incident.",
+    "The victims have not yet been publicly identified, according to NBC News. The criminal investigation division of Fort Hood is leading the inquiry into the crash, per NBC News.",
+    "Brig. Gen. Ethan Diven, acting commanding general of the 1st Cavalry Division, stated in a release: \"Our immediate priority is securing the site and supporting the initial response efforts.\" He added: \"Our thoughts are with the crew and their families as we await further information.\"",
+    "The AH-64 Apache is a twin-engine, four-bladed attack helicopter. The Army describes it, according to NBC News, as \"the most advanced aerial fighting vehicle in the world.\""
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/ceqep0n2ej9o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/news/us-news/two-people-are-dead-military-helicopter-crashes-texas-sparking-fire-rcna592238"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/apache-helicopter-crash-salado-texas-fort-hood/"
+    },
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/video/two-dead-after-military-apache-helicopter-crashes-near-fort-hood-in-texas-268212805854"
+    },
+    {
+      "title": "abcnews.com",
+      "url": "https://abcnews.com/US/2-dead-army-apache-helicopter-crash-texas-officials/story?id=135591343"
+    }
+  ],
+  "event_utc": "2026-08-12T21:21:35Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-12T22:25:19Z",
+    "sources_cited": 5,
+    "sources_live_checked": 3
+  },
+  "also_reported_by": [
+    {
+      "outlet": "CBS News",
+      "headline": "2 killed after Apache helicopter from Fort Hood crashes in Salado, Texas - CBS News"
+    },
+    {
+      "outlet": "KEYE",
+      "headline": "2 pilots killed in Fort Hood Apache helicopter crash near Salado, wildfire sparked - KEYE"
+    },
+    {
+      "outlet": "WOAI",
+      "headline": "Two pilots killed after Fort Hood Apache helicopter crashes near Salado, igniting fire - WOAI"
+    },
+    {
+      "outlet": "NewsNation",
+      "headline": "Apache helicopter crash near Fort Hood kills 2 - NewsNation"
+    },
+    {
+      "outlet": "NBC News",
+      "headline": "Two dead after military Apache helicopter crashes near Fort Hood in Texas - NBC News"
+    },
+    {
+      "outlet": "NBC 5 Dallas-Fort Worth",
+      "headline": "2 killed in Apache attack helicopter crash near Fort Hood - NBC 5 Dallas-Fort Worth"
+    }
+  ]
+}

@@ -6094,5 +6094,57 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-12",
+  "approved": 2,
+  "rejected": [
+   {
+    "id": "c136",
+    "headline": "Former SPLC official Heidi Beirich charged in fraud case linked to informant payments",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states Beirich 'was in a romantic relationship with one informant who infiltrated the National Alliance' but the brief data_point says she 'was in a romantic relationship' with such an informant. The draft presents the relationship as established fact; the brief marks it as 'reported' confidence but does not confirm it was a romantic relationship\u2014it only states the allegation from the indictment. The draft should read 'was alleged to have been in' or 'the indictment alleges she was in' to preserve the confidence level.",
+     "The draft attributes Attorney General Blanche's quote about 'completely fictitious companies' names' to NBC News in a way that makes it sound like a polished statement, but the quote itself is visibly garbled in the brief ('for reasons that were not that were not accurate as as described'), suggesting it may be inaccurate or incomplete. The draft should either clean this attribution or note it comes from a press conference and may reflect paraphrase."
+    ]
+   },
+   {
+    "id": "c293",
+    "headline": "Tuesday primaries reveal split over moderate versus progressive candidates, mixed Trump endorsement results",
+    "category": "balance",
+    "reasons": [
+     "The brief's bear_case includes 'Hong argued voters were ready for \"transformational change\" and campaigned on her positions as a democratic socialist fighting for the working class' and 'Some Democratic figures, including Minnesota Rep. Ilhan Omar, campaigned with Hong, suggesting support existed for her progressive platform among some Democrats.' The draft mentions Ilhan Omar campaigned with Hong but does not present Hong's affirmative case or any argument that her positions represented legitimate alternatives to Crowley's. The draft opens by framing the primary as 'centrist or democratic socialist' but then presents almost entirely negative material about Hong (social media posts, defunding police reversal, lack of endorsements from Sanders and AOC, Democrat concerns about electability) without letting Hong or her supporters explain why her platform mattered. The framing reads as dismissive of progressive positions rather than balanced coverage of a genuine party debate.",
+     "The draft characterizes Hong as having positions 'too extreme' in the voice of 'some Democrats' but does not present any affirmative voice from Hong's campaign, supporters, or progressive wing explaining why those positions were not extreme or why they mattered. A balanced draft would include at least one paragraph of what Hong and her allies argued for, not just what critics said about her."
+    ]
+   },
+   {
+    "id": "c011",
+    "headline": "ICE plans $10-20 million purchase of electric-shock gloves for officers",
+    "category": "balance",
+    "reasons": [
+     "The draft presents Jenn Rolnick Borchetta's ACLU critique with substantial space and quotes, but the bear_case in the brief includes a second statement from Borchetta that is not in the draft: 'ICE spent the last year showing this country that they are willing to disregard the law and are too quick to use force, with devastating and at times fatal consequences for citizens and noncitizens alike.' This material statement about legal violations is in the brief's bear_case but was omitted from the draft, weakening the critical framing.",
+     "The draft includes Peters saying 'he expected the devices to be misused by a small number of employees, as with other policing technologies, though he said they are unlikely to cause injuries' and notes 'he emphasized it would be important for ICE to have robust policies and training in place,' but the brief's bear_case indicates Peters' point about misuse potential should be presented more prominently as a counter-argument, not buried as context. The draft reads more as a balanced view from Peters rather than as part of a clear opposing position.",
+     "The draft closes with the bottom_line asking 'whether ICE will establish and enforce the manufacturer's own safety restrictions and training requirements,' which is not in the brief's data_points or bear_case. This forward-looking judgment about policy compliance is editorial framing, not reported fact, and tilts the piece toward skepticism without sourced warrant."
+    ]
+   },
+   {
+    "id": "c074",
+    "headline": "Woman rescued alive 36 hours after 7.4-magnitude earthquake in Colombia kills 241",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Eighty-seven people have been rescued in Cali so far' but the brief does not contain this data point. This fact does not appear in any of the research brief's data_points and therefore violates the hard rule that no fact exists outside the brief.",
+     "The draft states 'In Pereira, at least 92 buildings collapsed, and 15 people are known to be trapped with another 37 reported missing, according to Asocapitales.' The brief's data_point says 'In Pereira, at least 92 buildings collapsed' and separately 'Fifteen people are known to be trapped and another 37 have been reported missing in Pereira, according to Asocapitales,' but the draft incorrectly attributes both claims to a single source phrase 'according to Asocapitales.' The structure creates ambiguity about whether all three figures come from one source or whether some are external to the brief."
+    ]
+   },
+   {
+    "id": "c40",
+    "headline": "Trump exits Air Force One via catering truck during NATO summit; Cabinet remains on decoy aircraft",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states Trump 'secretly exited Air Force One through a catering truck' as a definitive fact. The brief's data_point says he 'hid on a catering truck to be clandestinely transported' with confidence 'reported'\u2014meaning BBC reported it, not that it is independently verified. The draft presents this as settled fact without the epistemic hedging the brief's confidence label requires. This is especially problematic for an extraordinary operational detail that no other source has confirmed.",
+     "The draft attributes the succession protocol explanation ('In the event the president dies or is incapacitated, power passes to Vice President JD Vance...') to BBC News as though BBC authored that civics lesson. The brief's data_point for succession is marked 'verified-on-chain,' meaning it's established constitutional fact, not reporting by BBC. The draft should attribute the succession order to the Constitution or official succession rules, not to BBC's article about the incident."
+    ]
+   }
+  ]
  }
 ]
