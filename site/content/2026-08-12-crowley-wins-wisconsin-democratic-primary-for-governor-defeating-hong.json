@@ -1,0 +1,85 @@
+{
+  "id": "c013",
+  "slug": "crowley-wins-wisconsin-democratic-primary-for-governor-defeating-hong",
+  "kind": "brief",
+  "title": "Crowley wins Wisconsin Democratic primary for governor, defeating Hong",
+  "dek": "Milwaukee County Executive David Crowley won Wisconsin's Democratic primary for governor with 39.8% of the vote to state lawmaker Francesca Hong's 39.4%, according to NBC News projections. Crowley, backed by outgoing Gov. Tony Evers, reversed a foundering campaign to upset Hong, a democratic socialist. He will face Republican Rep. Tom Tiffany in the general election.",
+  "date": "2026-08-12",
+  "published_utc": "2026-08-12T10:41:15Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 1,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Crowley took 39.8% to Hong's 39.4% with 98% of the vote counted, after suspending his campaign a month prior and relaunching with Evers' endorsement.",
+  "bottom_line": "Crowley's narrow margin over Hong set up a general election clash between an establishment-backed moderate and a Trump-backed Republican in a key battleground. Watch how Crowley's reboot from suspended to nominee translates into momentum, and whether the social media controversy that emerged during the primary affects his standing against Tiffany.",
+  "human_take": "",
+  "body": [
+    "Milwaukee County Executive David Crowley won Wisconsin's Democratic primary for governor with 39.8% of the vote, narrowly defeating state lawmaker Francesca Hong's 39.4%, according to NBC News projections with 98% of the expected vote tallied. The AP called the race for Crowley.",
+    "Crowley, 40, has served as Milwaukee County executive since 2020 and would be the state's first Black governor if he wins in November. He will face Republican Rep. Tom Tiffany in the general election.",
+    "Crowley's path to the nomination was unconventional. He suspended his campaign roughly a month ago after struggling to gain traction and polling in the single digits, according to the Marquette University Law School poll from late July. Days after dropping out, he re-entered the race with outgoing Democratic Gov. Tony Evers' endorsement. Crowley and allied outside groups spent $4 million on ads during the primary, according to AdImpact. Hong's campaign and her supporting groups spent less than half a million dollars on ads.",
+    "Hong, a democratic socialist state lawmaker, had walked back past calls to defund and abolish the police, eliminate the U.S. Senate, and cancel Thanksgiving. She has been fiercely critical of Israel and its leaders over the war in Gaza but did not make the issue a central part of her campaign message. Hong held a rally with left-wing streamer Hasan Piker and Rep. Ilhan Omar, D-Minn., but did not receive endorsements from Sen. Bernie Sanders, I-Vt., and Rep. Alexandria Ocasio-Cortez.",
+    "Crowley faced his own controversies. Shortly after he re-entered the race, NBC News reported on a years-old social media account registered to him featuring incendiary posts about women and race, along with derogatory LGBTQ references. A pro-Crowley outside group only started running a TV ad targeting Hong in the closing days of the race, saying her \"record is a distraction we can't afford.\" A group tied to the Republican Governors Association spent nearly $3 million on ads casting Hong as too liberal.",
+    "Other candidates pulled a combined 20% of the vote. Progressive state Sen. Kelda Roys finished in third place with just shy of 8%. Lt. Gov. Sara Rodriguez, who dropped out in mid-July amid campaign finance reporting issues, and former Lt. Gov. Mandela Barnes, the party's 2022 Senate nominee, each took nearly 4% support.",
+    "In the only debate of the primary late last month, none of Crowley's opponents directly criticized Hong. One voter, Ali Plummer of Madison, cited risk aversion in her choice: \"I voted for Crowley because I am a risk-averse person, and I really was reading a lot about who has the chances to beat Tom Tiffany in the larger election,\" she told NBC News.",
+    "A Wisconsin judge had ruled that voters who returned absentee ballots could not request new ones, even if the candidates they backed were no longer in the race. Crowley raised almost three times as much money after relaunching his campaign as he had in the entire year prior to when he briefly suspended it, according to NPR. On the GOP side, Rep. Tom Tiffany, who has represented the 7th Congressional District since 2020, easily won the party's gubernatorial nomination. Tiffany is backed by President Donald Trump."
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/politics/2026-election/francesca-hong-david-crowley-democratic-primary-wisconsin-governor-rcna592056"
+    },
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/2026/aug/11/wisconsin-primary-election-governor-race"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/homenews/campaign/6023832-crowley-leads-hong-with-wisconsin-governor-primary-too-close-to-call-5-takeaways/"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/homenews/campaign/6023019-crowley-wins-wisconsin-governor-primary/"
+    },
+    {
+      "title": "NPR",
+      "url": "https://www.npr.org/2026/08/12/nx-s1-5927119/2026-minnesota-governor-primary-election-crowley-hong"
+    },
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/2026/aug/12/david-crowley-defeats-francesca-hong-to-win-democratic-primary-for-wisconsin-governor"
+    }
+  ],
+  "event_utc": "2026-08-12T03:53:09Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-12T10:41:15Z",
+    "sources_cited": 6,
+    "sources_live_checked": 3
+  },
+  "also_reported_by": [
+    {
+      "outlet": "CNN",
+      "headline": "David Crowley boosts Democratic establishment with Wisconsin primary win over democratic socialist Francesca Hong - CNN"
+    },
+    {
+      "outlet": "MPR News",
+      "headline": "David Crowley wins Democratic primary for Wisconsin governor over progressive Francesca Hong - MPR News"
+    },
+    {
+      "outlet": "BBC",
+      "headline": "David Crowley defeats Francesca Hong in Wisconsin governor primary - BBC"
+    },
+    {
+      "outlet": "Axios",
+      "headline": "Moderate Crowley narrowly beats democratic socialist Hong in Wisconsin - Axios"
+    },
+    {
+      "outlet": "NBC News",
+      "headline": "David Crowley pulls off upset over Francesca Hong in Wisconsin\u2019s Democratic primary for governor - NBC News"
+    },
+    {
+      "outlet": "NPR",
+      "headline": "In Wisconsin, David Crowley defeats Francesca Hong in Democratic primary for governor - NPR"
+    }
+  ]
+}

@@ -5645,5 +5645,47 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-12",
+  "approved": 4,
+  "rejected": [
+   {
+    "id": "c101",
+    "headline": "Flanagan wins Minnesota Democratic Senate primary, defeating Craig",
+    "category": "accuracy",
+    "reasons": [
+     "The draft contains a quote attributed to Flanagan: 'To supporters, Flanagan spoke of \"ending the despicable priorities of an administration that hands out tax breaks to billionaires, builds gilded ballrooms and spends billions on bombs while screwing over working people.\"' This quote is not in the brief's data_points. The brief data_points contain a similar but distinct quote from CBS News: 'Flanagan said to supporters: \"Ending the despicable priorities of an administration that hands out tax breaks to billionaires, builds gilded ballrooms and spends billions on bombs while screwing over working people. Truly affordable housing so that people can pay their rent and young people can buy their first home before they're middle-aged.\"' The draft's version is incomplete and truncates the sourced quote without attribution to CBS News in that specific section, presenting a paraphrased version as though it were the full statement when the source material shows it was longer. This is a quote accuracy issue."
+    ]
+   },
+   {
+    "id": "c278",
+    "headline": "Severe storms slam Midwest, leaving nearly 1 million without power",
+    "category": "accuracy",
+    "reasons": [
+     "The headline and opening paragraph state 'At least two deaths were confirmed' but the brief's open_questions section explicitly states: 'Total death toll across the region\u2014sources confirm at least two deaths (Roseville, Ohio and Portage, Indiana home explosion)' and the data_points only document two specific deaths (one in Roseville, Ohio and one in Portage, Indiana). The draft presents this as settled fact ('At least two deaths were confirmed'), but the brief itself flags the Portage explosion as potentially not definitively linked to the severe weather: 'Whether the Portage, Indiana home explosion was definitively linked to the severe weather\u2014the source states \"It was not immediately clear if the cause of the explosion was linked to the severe weather.\"' The draft should reflect this uncertainty rather than confirming the death as part of the storm toll without that qualifier."
+    ]
+   },
+   {
+    "id": "c014",
+    "headline": "Former U.S. Marine held in Russia has been released",
+    "category": "balance",
+    "reasons": [
+     "The draft omits substantive representation of the bear_case: Russian media reports that Gilman pleaded guilty and apologized, and Kommersant's account of his explanation for his actions (wanting to stay in the prison rather than be transferred). These facts appear in the brief but are severely compressed in the draft to a single sentence ('Russian media reported that Gilman pleaded guilty...') without the explanation of motive. The draft then immediately pivots to his father's dispute and the State Department's wrongful detention claim, creating a lopsided frame that emphasizes the U.S. government and family narratives while minimizing the Russian record and Gilman's own admissions.",
+     "The draft reads in the voice of the U.S. government and family advocates (Markey's framing about 'torture,' Hudson's statements about Trump 'taking action,' Rubio's language) without adequate counterweight from Russian official statements or the substance of Gilman's own admissions on record. The absence of Russian Federal Penitentiary Service response is noted, but the draft does not distinguish between 'no comment' and the substantive Russian media account of Gilman's guilty plea and his stated motive\u2014which is in the brief but nearly invisible in the prose."
+    ]
+   },
+   {
+    "id": "c006",
+    "headline": "Cyberattacks hit U.S. water systems; Iran suspected",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'over 30 water systems across multiple U.S. states' in the opening but the brief's first data_point says 'over 30 water systems in Minnesota late last month'\u2014a significant geographic discrepancy. The draft expands Minnesota-specific attacks to a multi-state claim without that evidence in the brief.",
+     "The draft claims 'The FBI confirmed that at least seven states suffered similar attacks' but the brief data_point only says 'The FBI confirmed that at least seven states suffered similar attacks on water and wastewater facilities.' The brief does not specify which seven states or provide geographic scope beyond the Minnesota attacks explicitly stated in the first data_point.",
+     "The draft presents 'cybersecurity experts and federal officials suspect Iranian involvement, though the U.S. government has not officially said yet who they think is responsible' in a way that conflates suspicion with reported fact, when the bear_case explicitly states 'suspicion is based on expert assessment and historical patterns, not confirmed attribution.' The phrasing softens the confidence level required by the bear_case.",
+     "The anonymous state IT official's claim about transportation and energy sectors is marked 'unconfirmed' in the brief but presented in the draft without that confidence qualifier, violating the rule that unconfirmed claims must read that way in prose."
+    ]
+   }
+  ]
  }
 ]
