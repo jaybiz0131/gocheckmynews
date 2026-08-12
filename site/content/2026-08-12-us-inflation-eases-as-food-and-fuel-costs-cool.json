@@ -1,0 +1,37 @@
+{
+  "id": "c053",
+  "slug": "us-inflation-eases-as-food-and-fuel-costs-cool",
+  "kind": "brief",
+  "title": "US inflation eases as food and fuel costs cool",
+  "dek": "Annual US inflation fell to 3.4% in July, down from 3.5% in June, driven by slower food price growth and declining energy costs. Month-to-month inflation rose 0.1%, mainly due to housing cost increases. The modestly lower reading gives the Federal Reserve room to hold rates steady rather than increase them.",
+  "date": "2026-08-12",
+  "published_utc": "2026-08-12T17:16:10Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 1,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "US annual inflation fell to 3.4% in July 2026, down from 3.5% in June, according to BBC reporting of Bureau of Labor Statistics data.",
+  "bottom_line": "The Fed now faces a clearer choice to hold rates as both inflation and labor data support pause. Watch for the central bank's September policy decision and any shift in how the administration frames cost-of-living pressures as the election approaches.",
+  "human_take": "",
+  "body": [
+    "US annual inflation fell to 3.4% in July, down from 3.5% in June, according to data reported by BBC citing the Bureau of Labor Statistics. The modest decline reflects slower food price growth and declining energy costs, creating a narrow opening for the Federal Reserve to hold interest rates steady rather than increase them as inflation pressures ease.",
+    "Month-to-month, prices rose 0.1% in July, mainly driven by an increase in housing costs, which make up a large share of household spending. Gasoline prices fell 2.9% from June to July but remain up 24.6% over the year, a gap highlighting persistent underlying pressures in energy markets. Food prices rose only slightly in July at a slower rate than in June.",
+    "Core inflation, which excludes food and energy, rose 0.2% in July after staying flat in June. Medical care and airline tickets edged higher in this category, while car insurance continued to fall, according to the Bureau of Labor Statistics figures reported by BBC.",
+    "Federal Reserve Chair Kevin Warsh said the central bank's priority is to keep inflation moving down while avoiding unnecessary shocks to the economy. The Fed's key target is to keep inflation near 2%, a level policymakers say keeps prices stable, supports steady economic growth, and helps prevent deeper downturns. Warsh stated the Fed cannot use a magic wand to undo years of above-target inflation and must stay patient as price growth cools gradually.",
+    "President Donald Trump said inflation is still too high for many families, pointing to rent and grocery bills as signs that the cost of living remains a major concern. Chris Zaccarelli, chief investment officer at Northlight Asset Management, characterized the figures as no big surprise and said inflation is not reaccelerating. Jeffrey Roach, chief economist at LPL Financial, said inflation is on a real decelerating course, noting that July's drop in energy prices helped soften the month's inflation pressures.",
+    "Financial markets reacted calmly to the latest figures, with stocks little changed as the numbers were broadly in line with market expectations. Bill Adams, chief US economist at Fifth Third Commercial Bank, said the report keeps a narrow path open for the Fed to hold rates steady in September. Recent labor market concerns, including July's loss of jobs reported by BBC, have softened expectations for a rate increase, and economists said the inflation and labor reports together give the Fed more time to wait."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c0qv2nn1gpeo?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "event_utc": "2026-08-12T17:03:05Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-12T17:16:10Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}

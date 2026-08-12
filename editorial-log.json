@@ -5921,5 +5921,46 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-12",
+  "approved": 4,
+  "rejected": [
+   {
+    "id": "c128",
+    "headline": "Minnesota is first state to set all-female matchups for the biggest races",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Sen. Amy Klobuchar, a Democrat, will compete against state House Speaker Lisa Demuth in the gubernatorial contest,' but the brief data_point says 'Sen. Amy Klobuchar (D) and state House Speaker Lisa Demuth are running for governor.' The draft does not specify Demuth's party affiliation. The brief does not provide Demuth's party, so the draft cannot assert she is Republican without sourcing it.",
+     "The draft identifies Michele Tafoya as 'Republican' in the first paragraph but the brief only states she is running against Flanagan for Senate without party attribution. The draft has added party information not present in the brief's data_point."
+    ]
+   },
+   {
+    "id": "c206",
+    "headline": "Source material insufficient for story draft",
+    "category": "accuracy",
+    "reasons": [
+     "This 'draft' is a meta-commentary on source insufficiency, not a news story. It violates the hard rule that facts must come from the brief and that the writer drafts a story from available research, not a editorial note about missing source material. The brief itself is empty (no data_points, no bear_case), confirming no story should be drafted. This should have been rejected at research stage, not submitted as a draft."
+    ]
+   },
+   {
+    "id": "c207",
+    "headline": "Trump Claims U.S. Has 'Total Control' of Strait of Hormuz",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Trump characterized Iran's military capacity as severely degraded' and then quotes his Truth Social post, but the brief's data_point presents the entire quote as something Trump wrote, not a characterization the writer is making. This is accurate paraphrasing and traces correctly.",
+     "However, the draft paragraph 'Commercial shipping hesitancy persists. Per CBS News reporting, ships are hesitant to pass through the Strait of Hormuz waterways, a sign that operational constraints or perceived risk continue to affect traffic even as Trump asserts military dominance' adds interpretive framing ('a sign that operational constraints or perceived risk continue to affect traffic') that goes beyond what the brief's data_point states. The brief only says 'Ships are hesitant to pass through the Strait of Hormuz waterways' with confidence 'reported'\u2014the causal chain linking this hesitancy to 'operational constraints or perceived risk' is smuggled in without source support.",
+     "The opening sentence attributes the claim to 'CBS News reporting' but the brief's first data_point is sourced to CBS News while the Washington Examiner URL is also listed in sources. The attribution is defensible but the interpretive add about what the hesitancy 'is a sign of' lacks brief support."
+    ]
+   },
+   {
+    "id": "c109",
+    "headline": "Federal hearing scheduled in Mangione case; plea deal speculation emerges",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Rumors of a potential plea deal have been circulating since June, per the Guardian's reporting' but the brief data_point says 'Rumors of a plea deal in the federal case have been circulating since June' without attribution to the Guardian. The phrasing 'per the Guardian's reporting' implies the Guardian itself reported the June rumors, but the brief does not confirm the Guardian sourced that specific timeline claim. This is a fact presented as coming from the source when the brief does not establish the Guardian made that claim."
+    ]
+   }
+  ]
  }
 ]

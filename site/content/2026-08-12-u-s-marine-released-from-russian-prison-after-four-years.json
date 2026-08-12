@@ -1,0 +1,55 @@
+{
+  "id": "c168",
+  "slug": "u-s-marine-released-from-russian-prison-after-four-years",
+  "kind": "brief",
+  "title": "U.S. Marine Released From Russian Prison After Four Years",
+  "dek": "Robert Gilman, a U.S. Marine detained in Russia since January 2022, landed at Andrews Air Force Base on August 11, 2026, after being released on humanitarian grounds without a prisoner swap. The State Department had classified him as a wrongful detainee. Gilman was the third U.S. Marine arrested in Russia in the past decade.",
+  "date": "2026-08-12",
+  "published_utc": "2026-08-12T17:16:10Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 4,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Gilman completed 1,666 days in Russian detention and was freed without the U.S. providing a prisoner exchange, according to Trump's statement.",
+  "bottom_line": "Gilman's release without a prisoner exchange differs from the two prior cases of U.S. Marines held in Russia, each of whom was traded for detained Russian nationals. The degree to which diplomatic pressure, the assessed humanitarian need, or other factors drove Russia's decision to release Gilman without demanding an exchange remains unaddressed in the available reporting.",
+  "human_take": "",
+  "body": [
+    "Robert Gilman, a U.S. Marine held in Russian detention for 1,666 days, landed at Andrews Air Force Base in Washington, D.C., on August 11, 2026, according to Fox News reporting. His release on humanitarian grounds, without a prisoner swap, marks a departure from the exchanges that secured the freedom of two other U.S. Marines held in Russia in recent years.",
+    "Gilman was arrested on January 17, 2022, in Voronezh, Russia, and was sentenced to a total of 10 years in prison. According to Fox News, he was convicted in 2022 of assaulting a police officer and received an initial sentence of three and a half years. In 2024, Russian courts found him guilty of attacking a prison inspector during a cell check, assaulting an investigator, and beating another guard. In December 2025, a regional court extended his sentence after finding him guilty of additional assault on prison staff. The U.S. State Department classified him as a wrongful detainee.",
+    "According to Trump's statement on Truth Social, Russia agreed to the release \"very much on a Humanitarian Basis\" and \"asked for no one in return,\" with Trump emphasizing that \"No exchange took place.\" The president stated this decision came after his discussions with President Vladimir Putin.",
+    "Upon arrival at Andrews Air Force Base, Steve Witkoff, U.S. special envoy to the Middle East, brought Gilman cheeseburgers and milkshakes, per Fox News reporting. Sebastian Gorka, deputy assistant to the president, said he brought a cigar for when Gilman is \"fully recovered.\" Gilman was reunited with his mother, Nancy, who was also on the aircraft.",
+    "Gilman is the third U.S. Marine to be detained in Russia within the past decade. Paul Whelan was arrested in 2018 and Trevor Reed in 2019, according to Fox News. Both were later released in prisoner swaps. Steve Witkoff noted that Marc Fogel and Ksenia Karelina were also brought home from Russia under Trump's leadership, but Fox News does not specify when those releases occurred or their circumstances."
+  ],
+  "sources": [
+    {
+      "title": "Fox News",
+      "url": "https://www.foxnews.com/politics/marine-veteran-robert-gilman-returns-us-soil-trump-admin-fulfills-request-no-american-left-behind"
+    }
+  ],
+  "event_utc": "2026-08-12T16:57:27Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-12T17:16:10Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "update_of": "former-u-s-marine-released-from-russian-detention-after-four-years",
+  "also_reported_by": [
+    {
+      "outlet": "Yahoo",
+      "headline": "Former Marine Released From Russian Prison is Back on US Soil - Yahoo"
+    },
+    {
+      "outlet": "WBZ NewsRadio 1030",
+      "headline": "Marine From Lowell, Robert Gilman, Is Released From Russian Prison - WBZ NewsRadio 1030"
+    },
+    {
+      "outlet": "UNITED24 Media",
+      "headline": "Russia Frees US Marine Robert Gilman After More Than Four Years in Prison - UNITED24 Media"
+    },
+    {
+      "outlet": "Tempo.co English",
+      "headline": "Ex-Marine Released and Returning to US from Russian Prison - Tempo.co English"
+    }
+  ]
+}

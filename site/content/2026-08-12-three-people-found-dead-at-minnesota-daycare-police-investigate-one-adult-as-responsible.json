@@ -1,0 +1,36 @@
+{
+  "id": "c315",
+  "slug": "three-people-found-dead-at-minnesota-daycare-police-investigate-one-adult-as-responsible",
+  "kind": "brief",
+  "title": "Three people found dead at Minnesota daycare; police investigate one adult as responsible",
+  "dek": "Two adults and a child, believed to be related, were found dead at Brown Bear Daycare in Hopkins, Minnesota on August 12, 2026. Police believe one of the adults killed the other two. The cause of death and motive remain under investigation.",
+  "date": "2026-08-12",
+  "published_utc": "2026-08-12T17:16:10Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 7,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Three people including a young child were found dead at a home daycare in Hopkins, Minnesota, with police believing one adult killed the other two.",
+  "bottom_line": "The Hopkins Police Department has narrowed investigative focus to one of the adults involved but has not released the cause of death or identified a clear motive. Questions remain about the exact relationship among the victims and what happens to the six surviving children who were at the facility.",
+  "human_take": "",
+  "body": [
+    "Three people, two adults and a young child believed to be related, were found dead at Brown Bear Daycare in Hopkins, Minnesota on August 12, 2026, according to NBC News. Hopkins is roughly 15 miles southwest of Minneapolis.",
+    "Police believe one of the adults found at the scene was responsible for the deaths of the other two, per the Hopkins Police Department. The exact cause of death for all three victims and the motive behind the incident remain under investigation.",
+    "Authorities were notified of the bodies when a parent arrived at the daycare center to drop off their child. The facility was serving all seven of its enrolled children, all under age 5, at the time of the discovery, according to NBC News.",
+    "Hopkins Police Department Chief Brent Johnston characterized the scene as severe at a press conference, stating, \"This was one of those ones you'll remember throughout your entire career, if not life.\" Hopkins Mayor Patrick Hanlon said in a statement, \"We are all reeling with this information right now as a community.\"",
+    "Johnston told reporters the incident was isolated. Police continue to investigate the specific cause of death and the circumstances that led to the deaths."
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/news/us-news/3-people-found-dead-child-daycare-minneapolis-area-rcna592164"
+    }
+  ],
+  "event_utc": "2026-08-12T16:35:30Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-12T17:16:10Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}
