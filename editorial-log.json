@@ -5868,5 +5868,58 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-12",
+  "approved": 3,
+  "rejected": [
+   {
+    "id": "c122",
+    "headline": "U.S. Credit Card Debt Climbs to $1.26 Trillion Near Record High",
+    "category": "compliance",
+    "reasons": [
+     "Draft contains financial advice language: 'raising questions about whether consumers are managing tighter household budgets' and 'signals potential household financial stress' read as interpretive judgment on consumer behavior and economic health that exceed reporting the facts. The phrase 'potential household financial stress' in the bottom_line is a verdict, not an observation of what the source says.",
+     "The statement 'The climb in credit card balances comes against a backdrop of easing inflation, raising questions about...' presents causation/correlation interpretation as the desk's own reasoning rather than attributed analysis.",
+     "Bottom_line 'signals potential household financial stress' is advocacy-adjacent language that goes beyond neutral event reporting into assessment of what the data means for consumers' welfare."
+    ]
+   },
+   {
+    "id": "c305",
+    "headline": "Crowley Defeats Hong in Wisconsin Gubernatorial Primary; Graham Seat Advances to Runoff",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states the Graham race is for 'Senator Lindsey Graham's seat' but the brief identifies it as 'Senator Lindsey Graham's seat' with candidates 'Darline Graham and Ralph Norman.' The draft does not distinguish whether Darline Graham is related to Lindsey Graham or clarify the actual seat designation. This creates ambiguity about which seat is in contest.",
+     "The brief's open_questions note that 'The source text provided is heavily populated with CSS and HTML markup rather than article content' and 'No information about the Minnesota primary races mentioned in the headline is present in the provided source text.' The draft's framing as settled fact relies on a source that the brief flags as compromised/unverifiable on its content.",
+     "The draft claims CBS News 'projects' outcomes but the sourced material per the brief contains primarily markup, not substantive reporting that would support confident projection language."
+    ]
+   },
+   {
+    "id": "c026",
+    "headline": "Josh Kushner and Bob Iger to buy Los Angeles Lakers for $12.5 billion",
+    "category": "accuracy",
+    "reasons": [
+     "Draft states 'All-time NBA leading scorer LeBron James played eight seasons in Los Angeles but announced in July he was leaving to join the Philadelphia 76ers on a two-year contract.' The brief data_point specifies the contract was 'for $8 million,' but the draft omits this figure. The brief contains a specific contract value that the writer left out\u2014this is selective fact omission from the source material.",
+     "Draft states the team 'will be led by six-time NBA All-Star Luka Doncic' but provides no sourcing basis in the brief for this claim about future team leadership. The brief contains a data_point that 'The team will now be led by six-time NBA All-Star Luka Doncic,' but this is a forward-looking assertion ('will be led') presented as settled fact without explanation of circumstances (e.g., trade, signing, or current roster status) that would justify it. This exceeds what the brief actually supports about the team's composition."
+    ]
+   },
+   {
+    "id": "c072",
+    "headline": "Trump Says Secret Service Directed Him to Leave Air Force One in Catering Container During NATO Summit",
+    "category": "accuracy",
+    "reasons": [
+     "The draft body contains a meta-statement: 'The brief does not contain Trump's specific statements, Secret Service confirmation of the directive, details about the Iranian threat's credibility, information about which staff remained on the decoy aircraft or their knowledge of the deception, or the precise timing and date of the NATO summit incident.' This is internal process language that should not appear in published copy and violates the no-smuggling rule by acknowledging gaps in sourcing within the article itself.",
+     "The draft describes Trump's account and behavior but the brief's open_questions flag that 'The source text provided is corrupted SVG markup and does not contain Trump's actual statements or quotes defending the operation or addressing safety concerns.' The draft presents claims about Trump downplaying the subterfuge and defending aircraft safety as fact when the source material is corrupted and does not actually contain these statements."
+    ]
+   },
+   {
+    "id": "c104",
+    "headline": "Tennessee to Execute Darrell Hines Despite May 2026 Lethal-Injection Failure",
+    "category": "accuracy",
+    "reasons": [
+     "The draft body contains a meta-statement: 'The available source material does not identify the inmate whose execution was botched in May 2026, provide specific procedural details about Hines's Supreme Court appeal, include statements from Tennessee's Department of Corrections or Attorney General's office, specify the constitutional grounds of the challenge, or detail whether safety changes were made to lethal injection protocols after the May failure.' This is internal process language that should not appear in published copy and violates the no-smuggling rule by acknowledging sourcing gaps within the article.",
+     "The brief's open_questions note that 'The source text is corrupted DOM markup and does not contain the substantive article content, legal arguments, or any statement from Tennessee officials defending the execution proceeding.' The draft presents multiple factual claims (conviction details, execution date, bipartisan backlash) as reported fact when the source material is corrupted and does not actually contain readable content to verify these claims."
+    ]
+   }
+  ]
  }
 ]

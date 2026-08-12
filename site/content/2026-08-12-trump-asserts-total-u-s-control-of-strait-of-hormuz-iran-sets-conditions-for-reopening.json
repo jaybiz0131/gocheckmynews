@@ -1,0 +1,68 @@
+{
+  "id": "c143",
+  "slug": "trump-asserts-total-u-s-control-of-strait-of-hormuz-iran-sets-conditions-for-reopening",
+  "kind": "brief",
+  "title": "Trump asserts total U.S. control of Strait of Hormuz; Iran sets conditions for reopening",
+  "dek": "President Trump stated the U.S. has total control of the Strait of Hormuz and should keep it. Iran's security chief countered that the strait will remain closed until the U.S. ends its military campaign, lifts its blockade, releases frozen assets, and regional wars in Lebanon and Gaza end.",
+  "date": "2026-08-12",
+  "published_utc": "2026-08-12T16:31:42Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 4,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Trump said 'The U.S.A. has total control over the Strait of Hormuz. I THINK WE WILL KEEP IT,' while Iran's Secretary of the Supreme National Security Council stated the strait 'will remain closed' until specific U.S. actions occur.",
+  "bottom_line": "The two sides present fundamentally incompatible accounts of the Strait's control and the preconditions for reopening it. Whether Trump's assertion of U.S. control reflects operational reality or rhetorical posture remains untested by independent verification of traffic flow and enforcement patterns through the waterway.",
+  "human_take": "",
+  "body": [
+    "President Trump stated the United States has total control of the Strait of Hormuz and suggested the U.S. should retain it, per statements reported by ABC News. The assertion comes amid active military operations and ongoing diplomatic contact between Washington and Tehran.",
+    "Trump said in multiple statements, \"The U.S.A. has total control over the Strait of Hormuz. I THINK WE WILL KEEP IT!\" and repeated the claim in follow-up remarks: \"We totally control the Strait of Hormuz. We have control over it. Nobody else, only us. Our navy is unbelievable.\" He also stated, \"We have total control over the Hormuz Strait right now. They don't have control. We have total control. We own it.\"",
+    "Iran's Secretary of the Supreme National Security Council and Maj. Gen. Mohsen Rezaei directly disputed this characterization of the strait's status. According to ABC News, Rezaei stated: \"The Strait of Hormuz will not be reopened until the United States ends the war and blockade, releases Iran's frozen assets, and the war throughout the region, including in Lebanon and Gaza, ends. The Strait of Hormuz will remain closed until all conditions are met.\"",
+    "Delegations from the U.S. and Iran entered negotiations in June aimed at a war-ending deal based on a memorandum of understanding signed by both countries, per ABC News. Trump, however, expressed skepticism about Iran's reliability. He said, \"I don't trust Iran. I'm the last person to trust Iran. They've lied to me constantly.\" He also stated, \"And at some point, maybe they'll do something and then they get blown away. Right now, we're in a very good position.\"",
+    "The Strait of Hormuz remains the site of shipping incidents linked to Iran-aligned actors. The International Maritime Organization Secretary-General released a statement condemning a deadly attack on a cargo ship off Yemen. At least six people were killed in two attacks on the Egyptian-owned Tihamah cargo ship, according to Yemeni officials cited by ABC News. The Iran-aligned Houthi rebels in Yemen said they targeted what they described as \"a Saudi military equipment transport ship,\" though did not name the vessel.",
+    "Trump also characterized Iran's overall position as weakened. He said, \"Iran is all talk and no action, the Bully of the Middle East No Longer\" and stated, \"They have No Money. Their country is 'shot.' All they have is FAKE NEWS and 300% INFLATION, and getting worse.\"",
+    "In February, Trump announced \"major combat operations\" against Iran, with massive joint U.S.-Israeli strikes targeting military, government, and infrastructure sites, per ABC News."
+  ],
+  "sources": [
+    {
+      "title": "abcnews.com",
+      "url": "https://abcnews.com/International/live-updates/iran-live-updates-negotiations-us-messages-exchanged-tehran/?id=135508900"
+    },
+    {
+      "title": "The Wall Street Journal",
+      "url": "https://www.wsj.com/world/middle-east/trump-says-hormuz-is-under-u-s-control-few-ships-are-listening-485ba60e?mod=rss_worldnews"
+    }
+  ],
+  "event_utc": "2026-08-12T15:03:13Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-12T16:31:42Z",
+    "sources_cited": 2,
+    "sources_live_checked": 1
+  },
+  "also_reported_by": [
+    {
+      "outlet": "PBS",
+      "headline": "Iran demands U.S. pay for war damage before agreeing to reopen Strait of Hormuz - PBS"
+    },
+    {
+      "outlet": "WSJ",
+      "headline": "Trump Thought Opening the Strait of Hormuz Was Imminent. Iran Had Other Plans. - WSJ"
+    },
+    {
+      "outlet": "The Hill",
+      "headline": "Iran\u2019s steep demands for US over Strait of Hormuz threaten to derail reopening - The Hill"
+    },
+    {
+      "outlet": "CNBC",
+      "headline": "Trump signals shift to economic pressure as Iran hardens stance over Strait of Hormuz - CNBC"
+    },
+    {
+      "outlet": "Time Magazine",
+      "headline": "Trump Responds as Iran Says U.S. Must Meet These Six Demands If Strait of Hormuz Is to Reopen - Time Magazine"
+    },
+    {
+      "outlet": "CBS News",
+      "headline": "Trump demands Iran pay compensation after Tehran makes conditions for reopening Strait of Hormuz - CBS News"
+    }
+  ]
+}
