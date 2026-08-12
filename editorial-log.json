@@ -5962,5 +5962,57 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-12",
+  "approved": 3,
+  "rejected": [
+   {
+    "id": "c319",
+    "headline": "Three found dead at Minnesota daycare, including child; police investigating adult male",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Police are investigating one adult male found at the scene, whom they believe was responsible for the other two deaths,' but the brief data_point says 'Police believe one of the adults, a man found in the incident, was responsible for the two other deaths.' The draft's phrasing 'investigating...whom they believe was responsible' conflates ongoing investigation with established belief. The brief marks this as 'reported' confidence, not verified, and the draft should reflect that authorities are still investigating the manner of death and have not conclusively determined responsibility."
+    ]
+   },
+   {
+    "id": "c025",
+    "headline": "Trump secretly switched aircraft in Turkey; Cabinet remained on decoy plane with press",
+    "category": "balance",
+    "reasons": [
+     "The draft presents a unified narrative but the brief's bear_case explicitly documents conflicting accounts: BBC reports the press said they were unaware they were on a decoy flight, while Fox News reports via a senior Trump administration official that the press 'were aware Trump was not on board.' The draft states 'Conflicting accounts exist about what the press knew' but then does not adequately integrate the Fox News version into the main narrative. The draft says 'members of the press said they were not aware' (BBC) and then reports the conflicting Fox account in the next paragraph, but the framing ('However, Fox News reported via a senior Trump administration official...') presents the official account as a secondary correction rather than a material conflict that should shape how readers understand the event. This is a foundational factual dispute about the operation's transparency that deserves equal weight in the body, not buried after the lead narrative has already been set."
+    ]
+   },
+   {
+    "id": "c214",
+    "headline": "Trump claims total U.S. control of Strait of Hormuz; Iran sets conditions for reopening",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Iran's Secretary of the Supreme National Security Council and Maj. Gen. Mohsen Rezaei' as if Rezaei holds both titles simultaneously. The brief data_point clarifies he is appointed 'as the supreme leader's representative' on the council, not as its Secretary. This conflates his role.",
+     "The draft presents Trump's characterization of Iran's economic condition ('They have No Money...300% INFLATION') as fact without attribution or caveat. The brief marks this as Trump's claim; the draft should signal it is his assertion, not verified economic data.",
+     "The draft states 'Iran's top security official set strict conditions for reopening' without clarity that this is Iran's negotiating position/claim, not an established fact about what will happen. Rezaei's statement is a conditional demand, not a description of actual events."
+    ]
+   },
+   {
+    "id": "c175",
+    "headline": "Freed Marine Robert Gilman Returns to U.S. After 1,666 Days in Russian Prison, Facing Long Recovery",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states Gilman 'was arrested on January 17, 2022, in Voronezh, Russia, after traveling to the country while en route to Moldova,' but the brief data_point claims he 'was arrested on January 17, 2022, in Voronezh, Russia' with no mention of destination or travel purpose in that specific point. The draft adds 'while en route to Moldova' which is present in a separate data_point ('Gilman began his ordeal after traveling to Russia while en route to Moldova'), creating a composite claim not present in a single sourced data_point.",
+     "The draft characterizes the assault allegations as 'allegations that many have characterized as false,' but the brief data_point only states the charges were 'assaulting police officers\u2014allegations that many have characterized as false' without attribution detail. The phrasing in the draft could read as the desk's own judgment rather than reported characterization, creating potential liability around an ongoing legal matter.",
+     "The draft states Gilman 'was convicted in 2022' but also reports separate 2024 and December 2025 convictions for prison assault. The brief's data_points confirm these are Russia's reported convictions, not independent verification of the initial charges' merit, yet the draft's framing ('convicted of assaulting a police officer') could read as accepting the Russian court's version of contested facts."
+    ]
+   },
+   {
+    "id": "c133",
+    "headline": "Minnesota Sets First All-Female General Election Matchups for Governor and Senate",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Democratic Lt. Gov. Peggy Flanagan will face Republican Michele Tafoya' in the Senate race, but the brief data_points establish only that 'Democratic Lt. Gov. Peggy Flanagan is running for Senate' and 'Republican Michele Tafoya is running for Senate.' The draft uses 'will face,' asserting a general election matchup as fact when the brief only confirms both candidates advanced from primaries. No data_point in the brief confirms they are the two finalists or that they 'will face' each other.",
+     "The draft states 'Democratic Senator Amy Klobuchar will face Republican state House Speaker Lisa Demuth' in the gubernatorial race, but again the brief data_points only confirm each candidate 'is running for governor'\u2014not that these are the two finalists or that they 'will face' each other in November. The draft projects a general election pairing not explicitly confirmed in the sourced brief.",
+     "The draft claims this is 'a first for the state' but the brief does not contain a data_point confirming Minnesota has never had all-female matchups in both races before. This is an added claim not traced to the brief."
+    ]
+   }
+  ]
  }
 ]

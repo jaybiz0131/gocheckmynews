@@ -1,0 +1,74 @@
+{
+  "id": "c309",
+  "slug": "july-cpi-inflation-eases-to-3-4-down-from-3-5-in-june",
+  "kind": "brief",
+  "title": "July CPI inflation eases to 3.4%, down from 3.5% in June",
+  "dek": "The Consumer Price Index rose 3.4% annually in July, according to official data confirmed by CBS News, marking the second consecutive month of moderating price pressures. Core inflation, which excludes food and energy, fell to 2.5% from 2.6% in June. The next Federal Reserve rate decision is scheduled for September 16, with the August inflation report due September 11.",
+  "date": "2026-08-12",
+  "published_utc": "2026-08-12T18:02:32Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 1,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "July CPI inflation measured 3.4% annually, down from 3.5% in June, and core inflation fell to 2.5% from 2.6%.",
+  "bottom_line": "The July CPI report shows inflation moderating for a second consecutive month, but remains above the Fed's 2% target and continues to exceed wage growth. The August inflation report, arriving September 11 ahead of the Fed's September 16 decision, will be material to the rate-setting discussion.",
+  "human_take": "",
+  "body": [
+    "The Consumer Price Index rose 3.4% annually in July, according to official data confirmed by CBS News, marking the second consecutive monthly decline in the year-over-year inflation rate after it peaked at 4.2% in May.",
+    "Core inflation, which excludes food and energy costs, fell to 2.5% in July from 2.6% in June, according to BBC News. Month-to-month, overall inflation rose 0.1% in July, while prices excluding food and energy climbed 0.2% after remaining flat in June.",
+    "The July figures arrive as the labor market weakens. A jobs report showed employers cut 23,000 positions last month rather than the forecast 95,000 new hires, per CBS News. Wage growth rose 3.2% annually in July, according to CBS reporting, meaning inflation at 3.4% continues to outpace nominal wage gains.",
+    "Energy prices remain volatile. Gasoline prices rose 24.6% year-over-year in July but fell 2.9% month-over-month, according to BBC data. Energy prices overall jumped 14.7% annually. CBS News reports that oil prices surged in July as tensions escalated in the Strait of Hormuz and Iran-backed Houthi rebels targeted shipping in the Red Sea. Brent crude moved from approximately 71 dollars a barrel at the start of July to above 100 dollars by July 23, per CBS. American drivers paid an average of 4.06 dollars for a gallon of gasoline in July, up from about 3 dollars in February before the Iran war began, according to CBS reporting.",
+    "Inflation remains above its pre-war level of 2.4% in February and has not reached the Federal Reserve's 2% annual target. Economists polled by FactSet predicted July inflation would rise at an annual rate of 3.4%, matching the outcome.",
+    "Heather Long, chief economist of the Navy Federal Credit Union, said according to CBS, \"Inflation is wiping out wage gains for many.\" Mark Zandi, Moody's Analytics chief economist, told CBS that inflation could dip close to the Federal Reserve's 2% annual goal by this time next year, barring fresh escalations in the Iran war. Kevin Warsh, the new Federal Reserve chair, has said according to BBC News the central bank's priority is to \"keep inflation moving down\" while avoiding unnecessary shocks to the economy, and that the Fed cannot use a \"magic wand\" to undo years of above-target inflation.",
+    "Seema Shah, Chief Global Strategist at Principal Asset Management, said per CBS: \"Today's CPI print, alongside July's drop in payrolls, should lower expectations for a September hike, but does not put it completely to bed. Unless August's inflation print also shows subdued price pressures, a September hike is a clear risk.\" Other analysts offered different readings. Chris Zaccarelli, chief investment officer at Northlight Asset Management, said the figures were \"no big surprise\" and inflation is not \"reaccelerating,\" according to BBC. Jeffrey Roach, chief economist at LPL Financial, said inflation is on a \"real decelerating course,\" per BBC. Bill Adams, chief US economist at Fifth Third Commercial Bank, said per BBC the report \"keeps a narrow path open for the Fed to hold rates steady in September.\"",
+    "President Donald Trump said, according to BBC News, that inflation is still too high for many families, pointing to rent and grocery bills as signs that the cost of living remains a major concern.",
+    "The Federal Reserve's next interest rate decision is scheduled for September 16, with the August inflation report due September 11, according to CBS News."
+  ],
+  "sources": [
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/july-cpi-report-inflation-fed-rates/"
+    },
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c0qv2nn1gpeo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "The New York Times",
+      "url": "https://www.nytimes.com/2026/08/12/business/economy/cpi-report-july-inflation-data.html"
+    }
+  ],
+  "event_utc": "2026-08-12T17:27:58Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-12T18:02:32Z",
+    "sources_cited": 3,
+    "sources_live_checked": 2
+  },
+  "also_reported_by": [
+    {
+      "outlet": "Morningstar",
+      "headline": "July CPI Report Shows Inflation at a 3.4% Annual Rate - Morningstar"
+    },
+    {
+      "outlet": "CBS News",
+      "headline": "CPI report shows inflation eased in July to a 3.4% annual pace - CBS News"
+    },
+    {
+      "outlet": "NBC News",
+      "headline": "CPI shows inflation rose 0.1% from June to July - NBC News"
+    },
+    {
+      "outlet": "Yahoo",
+      "headline": "CPI shows inflation rose 0.1% from June to July - Yahoo"
+    },
+    {
+      "outlet": "Seeking Alpha",
+      "headline": "Headline CPI rises 3.4% Y/Y in July, slowing from June's pace, as expected - Seeking Alpha"
+    },
+    {
+      "outlet": "TradingView",
+      "headline": "CPI Report: Annual Inflation Rate Comes In At 3.4% In July, In Line With Expectations As Energy Prices Ease - TradingView"
+    }
+  ]
+}
