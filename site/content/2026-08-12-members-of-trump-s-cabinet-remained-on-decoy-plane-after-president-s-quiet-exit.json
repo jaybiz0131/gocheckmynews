@@ -1,0 +1,42 @@
+{
+  "id": "c025",
+  "slug": "members-of-trump-s-cabinet-remained-on-decoy-plane-after-president-s-quiet-exit",
+  "kind": "brief",
+  "title": "Members of Trump's cabinet remained on decoy plane, after president's quiet exit",
+  "dek": "President Trump secretly switched to a different aircraft in Turkey on July 8 while cabinet members Marco Rubio and Scott Bessent stayed aboard the original plane as a decoy, citing Iran-related security concerns. Members of the press corps were unaware they were on a decoy flight.",
+  "date": "2026-08-12",
+  "published_utc": "2026-08-12T18:13:17Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 3,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Trump exited Air Force One via a catering truck and boarded a military plane while his Secretary of State and Treasury Secretary remained on the original aircraft, which kept the Air Force One designation.",
+  "bottom_line": "Trump's unannounced aircraft switch in Turkey raised questions about what threat warranted the operation and why the press and some cabinet officials were not informed in advance, unlike in the Clinton-era precedent. What to watch: whether the White House Correspondent's Association demands advance briefing protocols for future operations, and what specifics, if any, the administration discloses about the Iran-related threat that prompted the move.",
+  "human_take": "",
+  "body": [
+    "President Trump boarded Air Force One in Ankara, Turkey on July 8 with Secretary of State Marco Rubio, Treasury Secretary Scott Bessent, and members of the press, then secretly exited the aircraft via a catering truck and boarded a different military plane, according to BBC reporting. The cabinet members remained on the original aircraft, which retained the Air Force One call sign and served as a decoy.",
+    "Rubio and Bessent stayed aboard to maintain the presidential line of succession in case something happened to Trump, per CBS News reporting cited by the BBC. White House Deputy Chief of Staff Stephen Miller and White House Communications Director Steven Cheung also remained on the initial aircraft designated as Air Force One. Defence Secretary Pete Hegseth was on the second aircraft that carried Trump out of Ankara.",
+    "Trump told reporters that the decision to undertake the switch came from 'the US military and the Secret Service, who wanted me to go in a different flight.' He provided no specifics about the nature of the threat, saying only that he gets 'a lot of threats.'",
+    "Members of the press corps have said they were not aware they were traveling on a decoy flight, according to BBC reporting. It remains unclear what Rubio, Bessent, and other cabinet and staff members knew about the operation in advance, or whether they learned of the switch after Trump had already departed.",
+    "The operation differs from a precedent set during President Bill Clinton's 2000 trip to Islamabad. Clinton flew on an unmarked executive jet that landed after a decoy aircraft bearing Air Force One livery. The White House informed USA Today reporter Susan Page, then head of the White House Correspondent's Association, of the security arrangements in advance, per BBC reporting. No such advance briefing occurred in the Trump operation, and the White House Correspondent's Association has not publicly commented on the incident.",
+    "It remains unclear what danger, if any, faced the occupants of the decoy plane during the flight. Trump's invocation of Iran-related threats as the driver of the operation has not been elaborated with specifics. Standard operational security practice may account for the decision, as the BBC notes that such ruses, often called 'shell games' by Secret Service personnel, are common, and more elaborate operations often occur during high-risk trips abroad."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c4g306eln8wo"
+    },
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c4g306eln8wo?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "event_utc": "2026-08-12T16:34:01Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-12T18:13:17Z",
+    "sources_cited": 2,
+    "sources_live_checked": 2
+  },
+  "update_of": "trump-secretly-exited-decoy-aircraft-during-nato-summit-in-turkey"
+}
