@@ -5818,5 +5818,55 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-12",
+  "approved": 3,
+  "rejected": [
+   {
+    "id": "c278",
+    "headline": "Severe storms and tornadoes kill at least three in Midwest, leave over 700,000 without power",
+    "category": "accuracy",
+    "reasons": [
+     "Title claims 'at least three' deaths, but the brief's first data_point states only 'At least two storm-related deaths confirmed in the region at time of reporting.' The draft then lists three specific deaths (Portage explosion, Jennings County child, Roseville emergency), but the brief explicitly notes in open_questions that the Portage death's 'relation to the severe weather is not yet confirmed' and calls the total count uncertain. The title overstates confirmed deaths by treating three unconfirmed/partially-confirmed deaths as a settled fact when the brief itself marks this as an open question."
+    ]
+   },
+   {
+    "id": "c300",
+    "headline": "Inflation Remains Above Wage Growth as Core Prices Accelerate",
+    "category": "compliance",
+    "reasons": [
+     "The bottom_line states 'has set the stage for a potential Federal Reserve rate increase in mid-September' \u2014 this reads as a prediction/projection presented as fact rather than as a conditional observation. It should be reframed to avoid forecasting the Fed's decision.",
+     "The sentence 'the more expensive it will be for the American people' in the Hammack quote could read as the desk endorsing the inflation concern as settled fact rather than reporting an official's position. The quote itself is fine, but context around it should clarify this is one official's view.",
+     "The statement 'Core inflation's acceleration, combined with persistent energy costs and official calls for action, has set the stage for a potential Federal Reserve rate increase' in the bottom_line conflates correlation with causation and implies outcome in a way that exceeds the reporting. Reframe to 'Watch whether the Fed cites...' without presupposing the stage-setting."
+    ]
+   },
+   {
+    "id": "c048",
+    "headline": "Zhu Rongji, Former Chinese Premier, Dies at 97",
+    "category": "accuracy",
+    "reasons": [
+     "The draft cites three sources (BBC, NYT, WSJ) but the brief confirms only BBC text was fetched and verified. The open_questions note states: 'The BBC source text does not include verbatim text from the New York Times or Wall Street Journal articles listed in source_urls; only the BBC text was fetched and is available for verification.' Every fact in the draft must trace to verified source material; facts attributed to NYT or WSJ URLs that were not fetched violate the hard rule that no fact exists outside the brief. The draft must either remove those source citations or add a note that NYT and WSJ reports could not be verified against the source URLs provided."
+    ]
+   },
+   {
+    "id": "c298",
+    "headline": "Trump Confirms Secret Service Ordered Plane Swap Over Iranian Missile Threat",
+    "category": "accuracy",
+    "reasons": [
+     "The draft body contains unbrief-sourced material: 'The brief does not specify the timing of when the threat was detected...' and 'The open questions surrounding the incident include...' and 'No additional details about the incident's operational scope...' These sentences read as meta-commentary about the brief itself, not reporting. They are not present in the research brief's data_points and violate the hard rule that facts come from the brief, not the writer's editorial gloss.",
+     "The draft acknowledges in its own body that key details are missing ('The brief does not specify...'), which signals the writer is aware the story is thin but is padding it with admissions of absence rather than reporting only what exists in the brief."
+    ]
+   },
+   {
+    "id": "c008",
+    "headline": "Cyberattacks Disrupt Water Systems in Seven States; Iran Suspected by Experts",
+    "category": "accuracy",
+    "reasons": [
+     "The draft attributes the data_point 'cybersecurity experts and federal officials suspected Iran may be responsible' but fails to preserve the 'suspected' qualifier with appropriate epistemic reserve. The phrase 'Cybersecurity experts and federal officials suspected Iran may be responsible' is reported, but later in the body the draft states 'the U.S. government has not officially attributed the attacks to any party,' which does preserve the distinction. However, the opener 'Iran Suspected by Experts' in the title alone shifts the framing from suspicion to a fact headline.",
+     "The draft reports that 'One anonymous state IT official...expressed concern that the transportation and energy sectors could also be impacted by these attacks' (confidence: 'unconfirmed' in the brief), but the brief's data_point is marked 'unconfirmed,' meaning this claim must read with epistemic reserve or qualification in the prose. The draft presents it as fact without a label like 'according to an anonymous official' or 'one official expressed concern,' placing unconfirmed material in the same factual register as confirmed reporting."
+    ]
+   }
+  ]
  }
 ]

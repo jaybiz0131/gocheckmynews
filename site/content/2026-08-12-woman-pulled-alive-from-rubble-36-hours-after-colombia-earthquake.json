@@ -1,0 +1,55 @@
+{
+  "id": "c017",
+  "slug": "woman-pulled-alive-from-rubble-36-hours-after-colombia-earthquake",
+  "kind": "brief",
+  "title": "Woman pulled alive from rubble 36 hours after Colombia earthquake",
+  "dek": "Daniela Largo, a 32-year-old woman, was pulled alive from collapsed building rubble in Pereira 36 hours after a 7.4-magnitude earthquake struck western Colombia, following a 10-hour rescue operation. Her survival comes as at least 188 people remain confirmed dead across the affected region.",
+  "date": "2026-08-12",
+  "published_utc": "2026-08-12T12:34:41Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 3,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "A 32-year-old woman was rescued alive 36 hours after a 7.4-magnitude earthquake in Colombia, following a 10-hour rescue operation that involved digging tunnels through four concrete slabs.",
+  "bottom_line": "Largo's rescue demonstrates the capacity of coordinated emergency response but also underscores the scale of the disaster, with hundreds still trapped or missing across the affected region. The ongoing frequency of aftershocks and the continued search operations across Pereira and Cali will determine whether additional survivors are found in the coming hours.",
+  "human_take": "",
+  "body": [
+    "Daniela Largo, a 32-year-old woman, was pulled alive from beneath a collapsed building in Pereira on Tuesday, 36 hours after a 7.4-magnitude earthquake struck western Colombia. According to BBC News, the rescue operation lasted 10 hours.",
+    "Firefighters, aided by colleagues deployed from Bogot\u00e1 and the disaster response team of the national police force, reached Largo via a tunnel dug beneath four concrete slabs. The rescue team located her with the help of a small camera and dug two tunnels to reach her, one from above to provide oxygen and one from below to free her from the rubble. According to Largo's mother, quoted by BBC News, a local resident heard her daughter cry out for help from beneath the debris.",
+    "The 7.4-magnitude earthquake struck at 07:34 local time (12:34 GMT) on Monday, with its epicenter near the village of San Jos\u00e9 del Palmar in Choc\u00f3 province. Seismometers nearest the epicenter registered shaking lasting between 90 seconds and two minutes. More than 100 aftershocks have followed the main quake, per BBC News reporting.",
+    "Largo's rescue comes against a backdrop of widespread destruction. At least 188 people have died in the quake according to official figures cited by BBC News. In Pereira, 79 people are confirmed dead, the second-highest number after Cali, where 95 people have died according to figures from the Association of Colombian Capital Cities. In Pereira, at least 92 buildings collapsed, with 15 people known to be trapped and another 37 reported missing. In Cali, more than 200 people remained trapped as of Tuesday afternoon. Eighty-seven people have been rescued in Cali so far.",
+    "Cali's mayor declared a night-time curfew and said soldiers would be on patrol in the worst-hit areas. Colombian President Abelardo de la Espriella celebrated Largo's rescue on social media, describing it as \"news which fills us with hope.\" Largo has a 12-year-old son waiting for her at home, according to her mother."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cz7d2e5wlgno?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "event_utc": "2026-08-12T11:28:02Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-12T12:34:41Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "update_of": "woman-rescued-alive-36-hours-after-colombia-earthquake",
+  "also_reported_by": [
+    {
+      "outlet": "The Globe and Mail",
+      "headline": "Video: Woman, kitten pulled alive from Colombia quake debris 36 hours in - The Globe and Mail"
+    },
+    {
+      "outlet": "Modern Ghana",
+      "headline": "Woman rescued after 36 hours under rubble in Colombia | #AJ shorts - Modern Ghana"
+    },
+    {
+      "outlet": "The Weekly Times",
+      "headline": "Woman, kitten pulled alive from Colombia quake debris 36 hours in - The Weekly Times"
+    },
+    {
+      "outlet": "CTV News",
+      "headline": "Woman rescued from rubble in Colombia after 36 hours - CTV News"
+    }
+  ]
+}
