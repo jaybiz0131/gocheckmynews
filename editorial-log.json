@@ -6340,5 +6340,54 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-13",
+  "approved": 3,
+  "rejected": [
+   {
+    "id": "c097",
+    "headline": "Russian blockade of Ukrainian ports threatens global grain exports",
+    "category": "accuracy",
+    "reasons": [
+     "The draft asserts 'Russian naval strikes and a blockade of Ukrainian ports threaten global grain export supplies' as fact, but the brief contains zero data_points. The source text could not be fetched (source_chars: 0). No primary facts in the draft trace to sourced data; the entire claim is unsupported by the research provided. The writer should not have written a story from an empty brief."
+    ]
+   },
+   {
+    "id": "c172",
+    "headline": "Wall Street Journal Reports North Korean Operatives Infiltrating U.S. Employment",
+    "category": "accuracy",
+    "reasons": [
+     "The brief explicitly states 'No source text was fetched; the WSJ article is behind a paywall or was not successfully retrieved' and 'The snippet provided does not contain reporting details.' The draft presents the core claim as fact ('The Wall Street Journal has reported that North Korean operatives are infiltrating U.S. employment using stolen identities and AI') without any data_points in the brief to support it. The writer has no verified source material to trace the claim to.",
+     "The brief contains zero data_points and explicitly notes source_chars: 0, meaning no primary reporting was available. The draft violates the hard rule: 'no fact exists outside the brief.' The claim about the scheme exists nowhere in the research material."
+    ]
+   },
+   {
+    "id": "c173",
+    "headline": "Wall Street Journal Reports Taiwan Intensifying Coast Guard Naval Operations",
+    "category": "accuracy",
+    "reasons": [
+     "The brief states 'No source text was fetched from the Wall Street Journal article' and source_chars: 0. The draft presents specific claims ('Taiwan is deploying antiship missiles and conducting intensified naval exercises') as established fact without any data_points in the brief to verify them against.",
+     "The brief contains zero data_points. Per the hard rule, facts must trace back to research material. The writer has no source text to reference and no verified data to support the opening claims about Taiwan's operations."
+    ]
+   },
+   {
+    "id": "c093",
+    "headline": "Rep. Crow Formally Questions Hegseth Over Lawyer's Role in Military Promotions",
+    "category": "accuracy",
+    "reasons": [
+     "The brief explicitly states 'No source text was fetched from the New York Times article' and source_chars: 0. The draft presents the core claim as established fact ('Representative Jason Crow has formally pressed Defense Secretary Pete Hegseth to clarify the role a lawyer played in military promotion decisions') without any data_points in the brief to support it.",
+     "The brief contains zero data_points. The writer has no verified source material, no primary reporting, and no facts to trace. The hard rule forbids facts outside the brief, and this entire story rests on source material that was never retrieved or verified."
+    ]
+   },
+   {
+    "id": "c095",
+    "headline": "Over 400,000 New Yorkers Lose Health Coverage After Federal Funding Cuts",
+    "category": "accuracy",
+    "reasons": [
+     "The draft claims 'More than 400,000 New Yorkers have lost health insurance coverage or are now searching for new plans, according to reporting by the New York Times' and later states 'The New York Times reported on the scope and impact of the coverage losses on August 13.' However, the brief explicitly notes: 'The source text was not fetched; the snippet alone carries the core facts' and lists multiple open_questions about the specific federal program, timing, mechanics, and state response. The draft treats a single reported figure as established fact when the brief itself indicates the source was not fully examined. The brief is marked 'thin: true' with zero source_chars, meaning the reporting is too sparse to support confident attribution of scope and impact beyond the single data point."
+    ]
+   }
+  ]
  }
 ]

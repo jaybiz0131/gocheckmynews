@@ -1,0 +1,70 @@
+{
+  "id": "c323",
+  "slug": "trump-asserts-u-s-has-total-control-of-strait-of-hormuz-iran-disputes-claim",
+  "kind": "brief",
+  "title": "Trump asserts U.S. has \"total control\" of Strait of Hormuz; Iran disputes claim",
+  "dek": "President Trump stated on Truth Social that the U.S. has \"total control\" over the Strait of Hormuz. Iran's Basij paramilitary unit head countered that the waterway is \"under Iran's control and management.\" The competing claims highlight contested authority over a critical global shipping chokepoint during ongoing U.S.-Iran conflict.",
+  "date": "2026-08-13",
+  "published_utc": "2026-08-13T11:35:31Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 3,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Trump wrote on Truth Social that the U.S. has \"total control\" of the Strait of Hormuz, while Iran's Basij chief asserted Iran controls and manages the waterway.",
+  "bottom_line": "Trump's assertion and Iran's counterclaim represent rhetorical escalation during active conflict over a chokepoint vital to global energy supply. Watch for statements from other maritime powers, shipping insurers, or the U.S. Navy clarifying operational reality versus political assertion.",
+  "human_take": "",
+  "body": [
+    "President Trump stated on his Truth Social platform that the U.S. has \"total control\" over the Strait of Hormuz, writing \"I THINK WE WILL KEEP IT,\" according to CBS News reporting.",
+    "The assertion drew an immediate counterclaim from Iran's Basij paramilitary unit head Hossein Taeb, who asserted that the Strait of Hormuz is \"under Iran's control and management,\" per CBS News reporting citing Reuters and Iran's semi-official Fars news agency. Iran's Foreign Ministry Spokesperson Esmaeil Baqaei added that \"every party that benefits from commercial shipping through the Strait of Hormuz carries both a legal and a moral obligation to remediate the environmental harm,\" language that implies Iran's role in stewarding the waterway.",
+    "The competing claims emerged as the U.S.-Iran war approaches the six-month mark, according to CBS News. The Strait of Hormuz is the world's most critical oil transit route, and assertions of control over it carry material weight for global energy markets and shipping security.",
+    "The sourced reporting does not include specific military or operational actions underpinning Trump's claim, the current operational status of international shipping through the strait, comparative analysis of U.S. Navy presence versus Trump's assertion, or independent verification of either side's control claims beyond their on-record statements. Those details remain open questions."
+  ],
+  "sources": [
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-strait-of-hormuz-donald-trump-tehran-control-threatens-keep-it/"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-donald-trump-strait-hormuz-traffic-falls-houthis-kill-red-sea/"
+    },
+    {
+      "title": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdnRSa0s5a1NHbzFqLTczc1FydWJqXzd1Nmc4ZEJoWlRheExRdUpFMjdxS2haWDc5cHdmRUNONVEzRjhaZjUyLVNmV0NpcXROSkFwaDBpVlBkOHc1SU52OXptQ1hLRnE1NVNIRHpxUVU5MFgxRTFpYUNFMnNGQXdtbTF3a05qV3gwNEpxaEswd053TXFPbnlSZExIc01hck56MjIyV2d4QQ?oc=5"
+    }
+  ],
+  "event_utc": "2026-08-13T10:39:48Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-13T11:35:31Z",
+    "sources_cited": 3,
+    "sources_live_checked": 3
+  },
+  "update_of": "trump-asserts-total-u-s-control-of-strait-of-hormuz-iran-sets-conditions-for-reopening",
+  "also_reported_by": [
+    {
+      "outlet": "Fox News",
+      "headline": "Iran defies Trump, declares Strait of Hormuz blocked after president claims US has \u2018total control' - Fox News"
+    },
+    {
+      "outlet": "ABC News",
+      "headline": "Iran live updates: Tehran rejects Trump claim that US controls Strait of Hormuz - ABC News - Breaking News, Latest News and Videos"
+    },
+    {
+      "outlet": "Time Magazine",
+      "headline": "Trump Responds as Iran Says U.S. Must Meet These Six Demands If Strait of Hormuz Is to Reopen - Time Magazine"
+    },
+    {
+      "outlet": "Atlantic Council",
+      "headline": "Iran is draining its leverage in the Strait of Hormuz. Trump\u2019s best move is to let it happen. - Atlantic Council"
+    },
+    {
+      "outlet": "CNBC",
+      "headline": "Trump signals shift to economic pressure as Iran hardens stance over Strait of Hormuz - CNBC"
+    },
+    {
+      "outlet": "Al Jazeera",
+      "headline": "Trump demands compensation from Iran as talks on Strait of Hormuz continue - Al Jazeera"
+    }
+  ]
+}
