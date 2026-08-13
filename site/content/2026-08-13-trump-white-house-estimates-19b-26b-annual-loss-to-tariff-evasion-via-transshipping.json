@@ -1,0 +1,39 @@
+{
+  "id": "c088",
+  "slug": "trump-white-house-estimates-19b-26b-annual-loss-to-tariff-evasion-via-transshipping",
+  "kind": "brief",
+  "title": "Trump White House estimates $19B-$26B annual loss to tariff evasion via transshipping",
+  "dek": "The Trump administration disclosed that goods, primarily from China, are being rerouted through more than 40 countries including Mexico and Malaysia to evade tariffs. The White House estimates this transshipping costs $19 billion to $26 billion annually in lost tariff revenue.",
+  "date": "2026-08-13",
+  "published_utc": "2026-08-13T21:30:37Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 7,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The administration estimates it loses $19 billion to $26 billion per year in tariff revenue as countries transship goods to circumvent duties.",
+  "bottom_line": "The administration's own accounting confirms that transshipping erodes tariff effectiveness before duties ever attach. Watch for policy proposals or enforcement actions targeting the intermediary countries, or for revised tariff calculations that account for this estimated $19 billion to $26 billion annual leak. If the administration proposes no enforcement remedy, the structural vulnerability remains public knowledge.",
+  "human_take": "",
+  "body": [
+    "The Trump White House has disclosed a significant structural weakness in its tariff strategy: according to PBS NewsHour reporting, the administration estimates it loses $19 billion to $26 billion each year in tariff revenue as countries circumvent duties through a practice known as transshipping.",
+    "Goods, particularly from China, are being rerouted through intermediary nations for packaging and limited assembly before reaching the U.S. market, allowing them to enter at lower tariff rates or avoid duties altogether. According to the Washington Post, more than 40 nations participate in routing goods away from tariffs, though Mexico and Malaysia have emerged as principal transshipment hubs.",
+    "The pattern began after 2018 tariff increases, according to PBS NewsHour reporting. Rather than absorb new duties, Chinese suppliers shifted supply chains to send unfinished goods to third countries, where minimal processing occurs before export to the United States. The goods then enter as products of their transshipment country rather than their country of origin, circumventing tariff classifications tied to China.",
+    "This gap between intended and realized tariff impact reveals what the administration itself now acknowledges: the tariff system as constructed cannot prevent goods from changing jurisdictional ownership during transit. The White House has identified the problem. The brief does not specify what policy response or enforcement mechanism the administration intends to deploy to close the gap."
+  ],
+  "sources": [
+    {
+      "title": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/politics/trump-white-house-says-its-losing-19b-26-billion-a-year-in-revenue-as-countries-dodge-tariffs"
+    },
+    {
+      "title": "The Washington Post",
+      "url": "https://www.washingtonpost.com/politics/2026/08/13/white-house-says-more-than-40-nations-help-china-dodge-tariffs/"
+    }
+  ],
+  "event_utc": "2026-08-13T17:46:48Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-13T21:30:37Z",
+    "sources_cited": 2,
+    "sources_live_checked": 1
+  }
+}

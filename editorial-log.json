@@ -6544,5 +6544,47 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-13",
+  "approved": 4,
+  "rejected": [
+   {
+    "id": "c315",
+    "headline": "Midwest Flooding Kills at Least 3, Threatens Major Cities Amid Forecast for Additional Heavy Rain",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Cambridges City, Indiana' but the brief and all data points consistently name it 'Cambridge City, Indiana'. This is a factual error in a proper noun that must be corrected before publication.",
+     "The draft attributes the Corder quote 'the rain never stopped, it just kept coming and coming' to CBS News reporting, but the brief's data point uses an em dash ('the rain never stopped \u2014 it just kept coming and coming'), and the draft instruction explicitly prohibits em dashes. The quote should be presented without the em dash or the source attribution needs clarification on whether this exact punctuation appeared in the original reporting."
+    ]
+   },
+   {
+    "id": "c105",
+    "headline": "Luigi Mangione faces federal charges as guilty plea and state trial converge",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states Mangione 'faces two federal counts of stalking resulting in death' but the brief does not specify what victim or deaths these charges reference. The brief's open_questions ask 'What is the identity and title of the executive whose death is referenced in the stalking charges?' indicating this information is not confirmed in the source. The draft presents the charges as fact without clarifying whose death is alleged.",
+     "The draft refers to 'a separate state murder trial' but the brief does not confirm the specific state charges or that they are murder charges. The data_points only confirm 'state murder trial jury selection is set to begin next month' without details on the actual charges. The draft assumes murder charges without brief support."
+    ]
+   },
+   {
+    "id": "c120",
+    "headline": "Trump authorizes private companies to conduct offensive cyber-attacks",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states Trump signed the memorandum 'on Wednesday' but the brief data_point only says 'on Wednesday' with a timestamp of 2026-08-13 (which is a Wednesday). The draft presents a specific day without confirmation of which Wednesday or the exact date in the source material provided.",
+     "The draft claims the memorandum 'directs the U.S. administration to authorize private companies to conduct offensive cyber-attacks' but the brief's data_points state it 'aims to give private companies the power' and 'directs the administration to leverage capability.' These are subtly different formulations\u2014one describes a directive to authorize, the other describes a directive to leverage. The draft conflates the memorandum's direction with its outcome in a way not precisely mirrored in the brief."
+    ]
+   },
+   {
+    "id": "c317",
+    "headline": "Massachusetts teen charged in mother's and brother's deaths after using ChatGPT to search killing ideas",
+    "category": "compliance",
+    "reasons": [
+     "The title and framing present an allegation\u2014that Aravind 'used ChatGPT to search killing ideas'\u2014as an established fact, when the brief and sources show this is a prosecutor's allegation in an ongoing case where the defendant entered a not guilty plea. The title should read as alleged or quoted (e.g., 'Prosecutor says teen charged in mother's, brother's deaths searched ChatGPT for killing ideas') to preserve the presumption of innocence and avoid liability if the case is dismissed or the allegation is disputed. A definitive verdict on an open criminal case violates the compliance boundary.",
+     "The opening paragraph and subsequent passages present the DA's characterization of ChatGPT searches ('theoretical ideas or fantasy stories regarding the killing of his family') as established conduct, not as an allegation made by prosecutors. The phrasing 'had been recently demonstrating some concerning behavior, including using the internet and ChatGPT to make searches' reads as fact rather than allegation. This must be reframed to make clear these are claims by law enforcement in an ongoing investigation, not settled facts."
+    ]
+   }
+  ]
  }
 ]
