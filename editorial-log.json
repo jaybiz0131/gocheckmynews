@@ -6146,5 +6146,46 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-13",
+  "approved": 4,
+  "rejected": [
+   {
+    "id": "c041",
+    "headline": "Two killed as Apache helicopter crashes near Fort Hood; wildfire sparked",
+    "category": "accuracy",
+    "reasons": [
+     "Bell County Sheriff's Office spokesperson name mismatch: brief lists 'Bill Coleman' in data_point #4 but 'Cliff Coleman' in data_points #6 and #7; draft uses 'Cliff Coleman' throughout. The brief itself is internally inconsistent on this name, creating an unresolvable trace problem. Draft cannot be verified against a brief that contradicts itself on a named source's identity.",
+     "Brig. Gen. Ethan Diven quote mismatch: brief data_point #8 attributes quote 'Our immediate priority is securing the site and supporting the initial response efforts. Our thoughts are with the crew and their families as we await further information.' but draft uses entirely different quote: 'Our thoughts and deepest sympathies are with the families, friends, and fellow Troopers of those involved during this incredibly difficult time.' These are substantively different statements attributed to the same source on the same occasion; draft quote does not appear in brief and cannot be verified to source."
+    ]
+   },
+   {
+    "id": "c311",
+    "headline": "CANNOT VERIFY: Trump Strait of Hormuz claim lacks source documentation",
+    "category": "accuracy",
+    "reasons": [
+     "The draft itself is a meta-commentary on source failure, not a news story. The brief's core_claim references Trump's statement about 'total control' of the Strait of Hormuz, but the brief's own data_points contain zero information about that claim\u2014they document only a NATO summit security incident unrelated to the Strait. The draft correctly identifies this failure but is not a publishable story; it is an editorial note explaining why a story cannot be drafted. No fact in the draft traces to the brief's claim because the brief provides no facts supporting its own core_claim."
+    ]
+   },
+   {
+    "id": "c317",
+    "headline": "U.S. records highest measles case count in more than three decades",
+    "category": "compliance",
+    "reasons": [
+     "The sentence 'It is preventable by vaccination, which medical research has established as safe and highly effective' reads as medical advice framed in the desk's own voice rather than as reported fact. The brief traces this to CBS reporting, but the prose construction ('It is preventable by vaccination') echoes public health messaging and crosses into advisory territory. Should read: 'Vaccination prevents measles, according to medical research cited in the reporting' or similar, maintaining the reporting frame throughout.",
+     "The closing statement 'vaccines undergo intensive safety testing before distribution' is presented as settled fact in the desk voice without attribution clarity. The brief marks this as 'reported,' but the draft reads as the desk endorsing a safety verdict rather than reporting what sources say. Rephrase to: 'According to the reporting, vaccines undergo intensive safety testing before distribution.'"
+    ]
+   },
+   {
+    "id": "c071",
+    "headline": "Primary elections in six states show Democratic splits between establishment and progressive candidates",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'a pair of celebrities were candidates in the primary races' but provides no names, states, or outcomes. The brief data_point carries the same vague claim with 'reported' confidence. However, the draft then says 'the specific individuals, states, and outcomes are not detailed in the available coverage'\u2014which is accurate transparency about the source gap, but this creates a factual void: the reader learns nothing reportable about who these celebrities are or where they ran. This violates the hard rule that facts in the draft must trace to the brief's data_points. A claim about 'a pair of celebrities' with zero specifics is not a fact; it is a placeholder. Either the brief contains the names/states/details (in which case they belong in the draft), or this claim should not appear at all.",
+     "The draft reports 'In the Southeast, according to PBS NewsHour, primary results left unresolved questions about political succession and Trump's influence on Democratic contests' but then immediately says 'does not specify what succession matters were at stake or how Trump's presence shaped particular races.' This is self-contradiction: the draft reports the claim as a direct newsworthy finding while simultaneously admitting the source provides no content. The brief's data_point says questions 'remain unresolved'\u2014meaning the brief itself is thin\u2014but a draft that announces a finding and then nullifies it in the next breath is not transparent reporting; it is scaffolding left in place. Remove the finding or provide the specifics from the source."
+    ]
+   }
+  ]
  }
 ]
