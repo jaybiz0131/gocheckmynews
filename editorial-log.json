@@ -6239,5 +6239,57 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-13",
+  "approved": 3,
+  "rejected": [
+   {
+    "id": "c314",
+    "headline": "Iran asserts control of Strait of Hormuz after Trump claims U.S. dominance",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Iran's Persian Gulf Strait Authority, the agency set up to manage transit through the strait and collect tolls following a February 28 conflict start date' but the brief data_point says the agency was 'set up...soon after the war began on Feb. 28'\u2014'following' and 'soon after' are not identical; 'following' suggests immediate succession, while 'soon after' is vaguer. More critically, this phrasing introduces a new fact not in the brief: that the conflict start date was February 28. The brief does not establish this as a verified fact\u2014it appears only as context in one data_point. The draft smuggles an unconfirmed date into the narrative voice as settled fact.",
+     "The draft presents the unconfirmed threat to Trump ('significant ongoing threat from Iran to kill Trump') without the 'unconfirmed' label required by the brief's confidence designation. The sentence reads: 'U.S. officials also assert, without independent verification, that a significant ongoing threat from Iran to kill Trump exists'\u2014the phrase 'without independent verification' does not carry the same force as the brief's required 'unconfirmed' label and may obscure liability."
+    ]
+   },
+   {
+    "id": "c092",
+    "headline": "STORY CANNOT BE DRAFTED: Insufficient source material",
+    "category": "accuracy",
+    "reasons": [
+     "The draft body is itself a rejection statement, not a story. It reads as editorial commentary ('This story cannot be drafted for publication') rather than reporting. If the brief truly contains no data_points and the source fetched no text, the correct action is to REJECT the draft outright with category 'accuracy'\u2014a story without facts cannot be published. The draft should not exist; it should be replaced with a clean rejection decision. The desk does not publish rejection letters as articles."
+    ]
+   },
+   {
+    "id": "c048",
+    "headline": "WHO Warns 2026 Ebola Outbreak May Become Deadliest on Record",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Research cited by WHO Africa director Dr Mohamed Janabi shows the virus began spreading in February but was initially misdiagnosed as malaria or typhoid, delaying official declaration by three months.' The brief data point says 'Research cited by Janabi shows the virus started spreading in February and was initially misdiagnosed as malaria or typhoid' but does not attribute the three-month delay claim to this research. The draft smuggles in a causal conclusion ('delaying official declaration by three months') that is not explicitly in the brief's data point, which only says the outbreak 'is believed to have begun at least three months before the May declaration' without attributing the delay to the misdiagnosis.",
+     "The draft presents 'No approved vaccine or recognized therapeutic drugs can treat this strain' as a settled fact without confidence qualifier. The brief marks this claim as 'reported' confidence only, and the phrasing should reflect that this is what sources state rather than an established medical fact, to avoid reading as medical guidance or expert consensus the desk has verified."
+    ]
+   },
+   {
+    "id": "c161",
+    "headline": "North Korean Operatives Use Stolen U.S. Identities and AI to Secure Employment and Divert Earnings",
+    "category": "accuracy",
+    "reasons": [
+     "The brief contains zero data_points and one source (WSJ). The draft presents multiple specific claims\u2014'operatives exploit gaps in employer identity-verification processes,' 'divert wages to accounts controlled by North Korea's government,' 'route earnings offshore'\u2014that cannot be traced to the brief's data_points (which is empty). These details are either smuggled from the source without being extracted into the brief, or fabricated. The writer's hard rule is 'no fact exists outside the brief.' The draft violates this rule.",
+     "The draft states 'North Korean state operatives are using stolen American identities' as settled fact in the opening, but the brief marks this as the core_claim without data_point support. A claim without data-point backing must either be attributed to the source inline or marked with appropriate confidence language ('according to reporting' appears only in the first sentence, not reinforced for subsequent claims).",
+     "Phrases like 'The operatives exploit a vulnerability in standard U.S. labor-market screening procedures' and 'Once hired, operatives can work remotely or in person' read as the desk's own analysis rather than reporting what the source said. No data_point in the brief supports these procedural details."
+    ]
+   },
+   {
+    "id": "c162",
+    "headline": "Taiwan Equips Coast Guard With Antiship Missiles, Intensifies Naval Drills",
+    "category": "accuracy",
+    "reasons": [
+     "The brief contains zero data_points. The draft opens with 'Taiwan is equipping its coast guard with antiship missiles and conducting intensified naval exercises' as stated fact, but this cannot be traced to any data_point in the brief. The writer's hard rule requires all facts to exist in the brief; a claim without data-point backing is smuggled.",
+     "The draft states 'The coast guard has historically served coastal patrol and search-and-rescue functions' and 'Equipping it with antiship missiles, weapons designed to target naval vessels at distance, transforms it into an active combatant force.' These are analytical conclusions presented as fact without data-point support in the brief.",
+     "The draft presents 'Taiwan's military modernization reflects its strategic position' and 'Taiwan lacks the numerical advantage to match Beijing's naval fleet' as the desk's own strategic analysis, not reporting from the source. These claims do not appear in the brief's data_points and read as advocacy for understanding Taiwan's military rationale."
+    ]
+   }
+  ]
  }
 ]
