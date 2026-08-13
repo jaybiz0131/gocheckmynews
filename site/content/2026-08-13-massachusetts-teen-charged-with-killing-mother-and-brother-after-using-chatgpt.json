@@ -1,0 +1,36 @@
+{
+  "id": "c359",
+  "slug": "massachusetts-teen-charged-with-killing-mother-and-brother-after-using-chatgpt",
+  "kind": "brief",
+  "title": "Massachusetts teen charged with killing mother and brother after using ChatGPT",
+  "dek": "Arjun Aravind, 17, of Acton, Massachusetts, was charged with two counts of murder in the deaths of his mother and 14-year-old brother. Prosecutors say he used ChatGPT to search for ideas about killing family members. He was arrested early Wednesday in a parking lot 13 miles away and is being held.",
+  "date": "2026-08-13",
+  "published_utc": "2026-08-13T16:30:18Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 4,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "A 17-year-old has been charged with murdering his mother and brother after using ChatGPT to search for theoretical ideas and fantasy stories about killing family members, according to prosecutors.",
+  "bottom_line": "Aravind remains in custody on the murder charges. The case will proceed through the Middlesex County court system. What remains unclear from the public record is whether Aravind has secured legal representation and what specific steps, if any, preceded the alleged homicides.",
+  "human_take": "",
+  "body": [
+    "Arjun Aravind, 17, of Acton, Massachusetts, has been charged with two counts of murder in the deaths of his mother, Sudha Venkatesan, 45, and his brother, Siddharth Aravind, 14. According to NBC News, Middlesex County District Attorney Marian Ryan stated that the investigation found Aravind had recently been using the internet and ChatGPT to make searches for theoretical ideas or fantasy stories regarding the killing of his family, and was engaged in creating fantasy stories of a gothic novel kind with ChatGPT, asking questions and creating characters relating to threats to his family.",
+    "Venkatesan was last seen between 6:30 a.m. and 7 a.m. on Tuesday when Aravind's father left for work. The brother went to a recreational facility around 9 a.m. and returned home shortly after noon. When the family's tutor was unable to make contact with residents upon arrival, the father called police. Officers located both bodies inside the home shortly after 6:30 p.m. ET: the brother's body on the first floor and the mother's body in the basement.",
+    "Arvind and his mother's 2014 green Honda Accord were missing from the home. An alarm was tripped at a parking lot about 13 miles away in Wayland early Wednesday morning. Responding officers recognized the license plate and found Aravind inside the car. He was taken into custody without incident.",
+    "Aravind has been charged with two counts of murder, two counts of assault and battery on a household or family member, two counts of assault and battery, use of a vehicle without authority, and theft of a motor vehicle. Local law enforcement knew the family from a previous missing person report filed last year, though according to Acton Police Chief Douglas Sturniolo, that report involved a runaway with no threats of violence involved.",
+    "DA Marian Ryan said of the case: \"This is an unspeakable tragedy. It is an incredibly dark day. Obviously, an insurmountable tragedy for the dad in this case.\" OpenAI could not be immediately reached for comment, according to NBC News."
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/news/us-news/teen-accused-killing-mother-brother-help-chatgpt-rcna592308"
+    }
+  ],
+  "event_utc": "2026-08-13T14:10:35Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-13T16:30:18Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}
