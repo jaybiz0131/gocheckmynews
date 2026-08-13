@@ -1,0 +1,63 @@
+{
+  "id": "c322",
+  "slug": "student-shot-in-warner-robins-high-school-bathroom",
+  "kind": "brief",
+  "title": "Student Shot in Warner Robins High School Bathroom",
+  "dek": "A 14-year-old student opened fire on another student in a bathroom at Warner Robins High School in Georgia on Wednesday afternoon at approximately 2:15 p.m., injuring one student, per CBS News reporting. The alleged shooter fled on foot and was apprehended nearby.",
+  "date": "2026-08-13",
+  "published_utc": "2026-08-13T11:12:19Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 6,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "A 14-year-old student allegedly shot another student during an argument in a Warner Robins, Georgia high school bathroom, and is now in custody.",
+  "bottom_line": "Authorities have not disclosed how the teen obtained the firearm or what charges will be filed. The school's closure through the week and crisis support team presence indicate the scope of the incident's impact on the wider community.",
+  "human_take": "",
+  "body": [
+    "A 14-year-old student opened fire on another student in a bathroom at Warner Robins High School in Georgia on Wednesday afternoon at approximately 2:15 p.m., injuring one student, according to CBS News reporting. The alleged shooter fled the school on foot and was apprehended in a nearby neighborhood. The teen is now in custody.",
+    "Investigators believe two ninth-grade students got into an argument that escalated, and one of the students pulled out a gun and shot the other. One student was injured and transported to a local hospital for treatment. The Houston County Sheriff's Office initially reported two people were injured, but Houston County Sheriff Matt Moulton later clarified that only one person was hurt. \"Fortunately, what could have been a much worse incident was minimized to us only having one student injured,\" Moulton said.",
+    "Authorities have not disclosed how the 14-year-old obtained the firearm or who it may be registered to. No charges have been announced, and the specific nature of the argument between the two ninth-graders has not been detailed.",
+    "Warner Robins High School, located in Central Georgia about 100 miles south of Atlanta, will be closed for the remainder of the week for all students and staff. The school's crisis team will be on campus on Friday and Monday to support students and staff.",
+    "Warner Robins Mayor LaRhonda W. Patrick said her community was saddened by the incident. \"This type of incident impacts our students, faculty, and parents, but also our entire community. We appreciate all of our public safety officers, police and fire, for their rapid response in protection of our children. We shall overcome together,\" Patrick said.",
+    "Governor Brian Kemp issued a statement expressing gratitude to the responders. \"Their action quickly brought the situation under control and kept students, faculty, and staff safe. As we wait for more details to emerge, we're thankful for all those who keep our classrooms safe,\" Kemp said. Senator Raphael Warnock said he and his office were closely following the reports and that his prayers were with the injured student. \"I'm grateful to the law enforcement officers and first responders on the scene,\" Warnock said."
+  ],
+  "sources": [
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/shooting-reported-on-campus-of-warner-robins-high-school-georgia-sheriff-says/"
+    }
+  ],
+  "event_utc": "2026-08-13T05:25:56Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-13T11:12:19Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "also_reported_by": [
+    {
+      "outlet": "13WMAZ",
+      "headline": "2 students injured, at least 1 shot, in shooting at Warner Robins High School; suspect in custody - 13WMAZ"
+    },
+    {
+      "outlet": "Live 5 News",
+      "headline": "Fight inside bathroom led to shooting at Warner Robins High School - Live 5 News"
+    },
+    {
+      "outlet": "wtvcfox",
+      "headline": "Student injured, suspect in custody after shooting at Warner Robins High School - wtvcfox"
+    },
+    {
+      "outlet": "FOX 5 Atlanta",
+      "headline": "Student arrested after Warner Robins High School shooting - FOX 5 Atlanta"
+    },
+    {
+      "outlet": "WCTV",
+      "headline": "At least 2 students injured in shooting at Warner Robins High School, suspect in custody - WCTV"
+    },
+    {
+      "outlet": "WGXA",
+      "headline": "Wednesday shooting at Warner Robins High School sparks statements from local leaders - WGXA"
+    }
+  ]
+}

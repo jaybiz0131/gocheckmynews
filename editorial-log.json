@@ -6291,5 +6291,54 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-13",
+  "approved": 3,
+  "rejected": [
+   {
+    "id": "c317",
+    "headline": "Trump claims U.S. 'total control' of Strait of Hormuz; Iran disputes assertion",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'U.S. officials speaking on condition of anonymity told CBS News that there is, according to the brief, an unconfirmed significant ongoing threat from Iran to kill Trump.' This phrasing ('according to the brief') is meta-commentary that should not appear in published prose and breaks the fourth wall between the draft and the research process. The sentence should simply present the claim as reported.",
+     "The phrase 'according to these unconfirmed accounts' in the paragraph about the missile threat lacks the confidence-label discipline required by the desk rule. The brief marks the missile plot claim as 'unconfirmed,' but the draft buries this uncertainty mid-paragraph rather than signaling it clearly upfront, as 'unconfirmed' claims must be read in the prose."
+    ]
+   },
+   {
+    "id": "c062",
+    "headline": "Trump secretly switched planes at NATO summit in Turkey after Iranian threat alert",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Some officials suggested the Israeli report might have been an effort to sway Trump's decision-making in the war with Iran.' The brief marks this claim as 'unconfirmed' with confidence label 'unconfirmed,' but the draft presents it without signaling that uncertainty to the reader. Per desk rule, unconfirmed claims must read as such in prose; this reads as settled reporting."
+    ]
+   },
+   {
+    "id": "c013",
+    "headline": "Three Executions Scheduled for Same Day Across Tennessee, Alabama, Oklahoma",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'the first same-day triple execution in the United States since January 7, 2010' but the brief's data_point says 'The last time three executions were held on the same day was Jan. 7, 2010, when Louisiana, Ohio and Texas put inmates to death.' These are not the same claim\u2014the draft says 'since' (implying none between 2010 and now), while the brief source only confirms that 2010 was the last time, not that there were definitively none in between. The draft's wording overstates the certainty of the fact. Additionally, the opening of the draft announces 'If all three proceed' but then proceeds to narrate the three cases as though they will definitely happen, creating a factual inconsistency with the conditional framing."
+    ]
+   },
+   {
+    "id": "c206",
+    "headline": "Trump nominates federal judge Lee Rudofsky to Eighth Circuit Court of Appeals",
+    "category": "accuracy",
+    "reasons": [
+     "Draft states Rutledge 'appointed Rudofsky as Arkansas's first Solicitor General' but the brief data_point (claim 10) shows the full quote includes 'When I appointed Judge Rudofsky to serve as Arkansas's first Solicitor General, I had long recognized his legal acumen and knew he would serve Arkansas with distinction.' The draft omits the middle clause ('I had long recognized his legal acumen and knew he would serve Arkansas with distinction') from Rutledge's statement, presenting a truncated quote that changes the emphasis of her endorsement.",
+     "Draft omits Rutledge's statement 'I am confident he will continue to apply the law faithfully' which appears in the brief's data_point 10 but is not in the draft's paraphrase of her remarks. This is a material omission from a direct quote in the source."
+    ]
+   },
+   {
+    "id": "c019",
+    "headline": "UK defends seizure of Russian shadow fleet tanker as Putin threatens retaliation",
+    "category": "accuracy",
+    "reasons": [
+     "Draft states the UK Ministry of Defence 'characterizes [Russia's oil] as \"a critical lifeline for the Kremlin\" in sustaining Russia's war in Ukraine' but the brief data_point 8 shows the exact characterization from the ministry is 'a critical lifeline for the Kremlin' in 'sustaining Russia's illegal war' in Ukraine. The draft deletes the word 'illegal' before 'war,' removing an evaluative descriptor that appeared in the original source attribution.",
+     "Draft describes the Italian operation as boarded a tanker 'suspected of flying a false flag' but the brief data_point 19 states 'suspected of not being entitled to fly the flag it claimed.' These are different characterizations: 'false flag' implies deliberate deception/masquerade, while 'not entitled to fly the flag it claimed' is more precise legal language. The draft's phrasing introduces language not in the source."
+    ]
+   }
+  ]
  }
 ]
