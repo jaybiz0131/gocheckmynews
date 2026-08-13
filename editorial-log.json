@@ -6187,5 +6187,57 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-13",
+  "approved": 2,
+  "rejected": [
+   {
+    "id": "c111",
+    "headline": "Two killed as Army Apache helicopter crashes near Fort Hood; wildfire spreads to 155 acres",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Fort Hood, located about 50 miles south of the crash site' but the brief data point says 'Salado is about 50 miles north of Austin' (not 50 miles south of Fort Hood). The directional relationship is inverted or misplaced\u2014the draft's geography is contradicted by its own source brief."
+    ]
+   },
+   {
+    "id": "c076",
+    "headline": "DOJ charges nearly a dozen in marriage fraud scheme targeting green card applicants",
+    "category": "accuracy",
+    "reasons": [
+     "The brief is marked 'thin: true' with only 362 source_chars and 2 data_points. The draft contains detailed explanatory claims ('marriage-fraud networks operate at scale,' 'document-fraud scheme,' 'heightened vetting') that appear to be editorial context or generic background, not sourced facts from the brief. The draft expands beyond what the brief's sparse data supports without attribution.",
+     "The brief's open_questions flag that 'the source text does not capture the announcement content' and key details (identities, charges, number of marriages, timeline) are missing. The draft presents the scheme as fact-pattern without noting these gaps, reading as more confident than the source warrant permits."
+    ]
+   },
+   {
+    "id": "c327",
+    "headline": "Crowley wins Wisconsin Democratic primary in dramatic comeback after dropping out five weeks earlier",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states Crowley 'defeated state Rep. Francesca Hong despite trailing her by 31 percentage points in the final Marquette University Law School poll less than three weeks before the election,' but the brief's Marquette data point shows Hong at 38% and Crowley at 7%\u2014a 31-point gap. The draft presents this as the 'final' poll 'less than three weeks' before the primary, but the brief data_point clearly identifies this as the 'July 22-27' poll. Without confirmation in the brief that this was the final poll or the timing relative to August 12, this is a fact not in the source material.",
+     "The draft attributes the voter quote 'risk-averse person' and electability concern to NBC News, but adds the phrase 'against the Republican nominee' when the brief's corresponding data_point specifies the concern is about 'beating Tom Tiffany in the general election.' The draft softens and generalizes the opponent reference beyond what the sourced material carries, obscuring who the Republican nominee actually is.",
+     "The draft states that Evers 'actively campaigned with Crowley, making an electability argument against Hong' but the brief's corresponding data_point says Evers 'barnstormed the state with Crowley'\u2014a more specific claim. The draft's paraphrase weakens the on-the-ground intensity of the reported activity without justification."
+    ]
+   },
+   {
+    "id": "c078",
+    "headline": "Trump issues executive order to scale back and space out childhood immunizations",
+    "category": "compliance",
+    "reasons": [
+     "The draft states the order 'aligns with priorities of the Make America Healthy Again movement, which has expressed skepticism toward vaccine schedules and bundled inoculations' and 'fulfills a campaign commitment to vaccine-skeptical supporters'\u2014characterizations that read as the desk's own judgment rather than attributed stance. The brief contains no data_point supporting these interpretive claims; only that the order 'aligns with priorities of the MAHA movement.' The draft adopts framing language ('fulfills a campaign commitment') that is editorial gloss, not reported fact.",
+     "The draft's body contains multiple acknowledgments of missing information ('The sourced reporting does not specify which vaccines are affected...The reporting does not include responses from the CDC...') that read as the writer documenting research gaps rather than delivering a story. This throat-clearing belongs in the brief's open_questions, not in published prose; it undermines reader confidence in the reporting itself."
+    ]
+   },
+   {
+    "id": "c042",
+    "headline": "Trump secretly switched planes at NATO summit; cabinet officials stayed on decoy aircraft",
+    "category": "accuracy",
+    "reasons": [
+     "The draft cites 'According to the New York Times, citing unnamed officials, someone had been spotted carrying a portable surface-to-air missile in the vicinity of the NATO conference in Ankara.' However, the brief's corresponding data_point attributes this claim only to 'BBC News' with confidence 'reported'\u2014the New York Times is not listed as a source in the brief, making this attribution smuggled from outside the research.",
+     "The draft states the catering truck detail: 'Trump was transported from the tarmac via catering truck to the second aircraft.' The brief data_point says 'Trump hid on a catering truck to be clandestinely transported to a military plane' (confidence: 'reported'). The draft's use of 'via catering truck' is a reasonable paraphrase, but only the BBC is sourced in the brief for this claim; attributing it without attribution-in-prose is acceptable given it traces to the brief, but the NYT missile attribution is a separate violation.",
+     "The draft attributes the missile claim to 'According to the New York Times' but the brief does not list the New York Times as a source for this data point\u2014only BBC News. This is a factual attribution that exists in the draft but not in the brief, violating the rule that no fact goes outside the brief."
+    ]
+   }
+  ]
  }
 ]
