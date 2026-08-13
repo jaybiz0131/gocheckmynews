@@ -6389,5 +6389,37 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-13",
+  "approved": 4,
+  "rejected": [
+   {
+    "id": "c322",
+    "headline": "Trump claims U.S. has \"total control\" of Strait of Hormuz; Iran disputes assertion",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'When asked about the statement Monday night, according to BBC News reporting, Trump said the decision to undertake heightened security measures was made by the U.S. military and Secret Service' \u2014 but the brief cites CBS News as the source for this claim, not BBC News. The draft misattributes the source outlet.",
+     "The draft omits several data points from the brief that are directly relevant to the core story: the catering truck plane swap (data point from brief), the cabinet members staying on decoy plane to preserve succession (explicitly in brief), and the specific threat details about the shoulder-mounted missile and Iranian knowledge of Trump's hotel floor (all in brief). These are not paraphrases of included material; they are sourced facts that appear in the brief but not in the draft, creating an incomplete and inaccurate account of the incident."
+    ]
+   },
+   {
+    "id": "c015",
+    "headline": "Three men scheduled for lethal injection on same day across Tennessee, Alabama and Oklahoma",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states that Williams 'raped and strangled Holland' but the brief data point says Williams 'raped and strangled Holland after offering her mother $2,500 for the child to perform a sex act.' The draft omits the $2,500 offer detail from the prosecutors' allegations, which is a material fact about the alleged crime.",
+     "The draft presents the Alabama Pardon and Parole Board's rejection as resolved fact ('voted 3-1 against recommending clemency'), but this is actually a bear_case counter-argument that should be contextualized as a rejection of clemency arguments, not a standalone fact supporting the execution. The balance between Cuesta-Rodriguez's defense arguments and the board's rejection is appropriate, but the phrasing in the Williams section lacks this balance."
+    ]
+   },
+   {
+    "id": "c093",
+    "headline": "Story Held: Source Material Not Retrieved",
+    "category": "accuracy",
+    "reasons": [
+     "The brief's data_points reference a New York Times article (source_chars: 0), indicating the source was never retrieved or verified. The draft body correctly identifies this problem, but the draft itself should not exist\u2014it is a meta-commentary on workflow failure, not a story. The desk's rule is 'no fact exists outside the brief'; here, the brief itself contains unverified data_points (confidence: 'reported') that were never extracted from primary source material. The story cannot be approved because the research phase is incomplete. This should be returned to research with the source fetched, not submitted as a draft for approval."
+    ]
+   }
+  ]
  }
 ]
