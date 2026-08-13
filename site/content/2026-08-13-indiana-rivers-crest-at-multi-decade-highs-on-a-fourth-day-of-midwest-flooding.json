@@ -1,0 +1,59 @@
+{
+  "id": "catchup-indiana-flood-20260813",
+  "slug": "indiana-rivers-crest-at-multi-decade-highs-on-a-fourth-day-of-midwest-flooding",
+  "kind": "brief",
+  "title": "Indiana Rivers Crest at Multi-Decade Highs on a Fourth Day of Midwest Flooding",
+  "dek": "The White River at Muncie was cresting Thursday at its highest level in more than 80 years, with a higher crest forecast downstream at Anderson. More than 250,000 Indiana homes and businesses were without power, and two deaths have been reported in the state.",
+  "date": "2026-08-13",
+  "published_utc": "2026-08-13T13:04:27Z",
+  "event_utc": "2026-08-13T12:00:00Z",
+  "category": "news",
+  "author": "The GoCheckMyNews Desk",
+  "verdict": "VERIFIED",
+  "rank": 1,
+  "key_fact": "The White River at Muncie was cresting Thursday at its highest level in over 80 years and is forecast to crest downstream at Anderson at its highest in more than 100 years. Parts of the region have taken 6 to nearly 12 inches of rain this week, and more than 250,000 Indiana customers were without power Thursday morning.",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-13T13:04:27Z",
+    "sources_cited": 3,
+    "sources_live_checked": 3
+  },
+  "human_take": "",
+  "bottom_line": "",
+  "also_reported_by": [
+    {
+      "outlet": "CNN",
+      "headline": "Midwest faces fourth consecutive day of flooding after catastrophic Indiana deluge"
+    },
+    {
+      "outlet": "Fox Weather",
+      "headline": "Flash Flood Emergencies issued across Indiana"
+    },
+    {
+      "outlet": "The Washington Times",
+      "headline": "Deaths, damage reported as severe weather in the Midwest spawns tornadoes, flash flooding"
+    }
+  ],
+  "body": [
+    "Flooding across Indiana and the wider Midwest reached a fourth consecutive day on Thursday, with rivers in the eastern half of the state cresting at levels not seen in decades, according to CNN's reporting.",
+    "The White River at Muncie was cresting Thursday morning at its highest level in more than 80 years, and is forecast to crest at Anderson, downstream, at its highest in more than 100 years by Thursday evening. At least four rivers in eastern Indiana are forecast to reach major flood stage into Thursday, which means flooding can worsen or persist after the heaviest rain has stopped.",
+    "Parts of the region have recorded 6 to nearly 12 inches of rain this week, several months' worth in some places. More than 250,000 homes and businesses in Indiana were without power on Thursday morning.",
+    "Two deaths have been reported in Indiana. A four-year-old boy was killed on Tuesday in Geneva Township, in the southeastern part of the state, when a tree fell on a house. One person was found dead on Tuesday in Portage after what authorities described as an apparent explosion and house fire following the passage of a derecho.",
+    "The threat has not ended with the rivers. More than 20 million people from Iowa to West Virginia were under flood watches for further rain expected Thursday and Friday.",
+    "This desk reports what officials and forecasters have said and does not issue guidance of its own: watches, warnings and evacuation decisions belong to the National Weather Service and to local emergency management, and their instructions are the ones that matter for anyone in the affected areas."
+  ],
+  "sources": [
+    {
+      "title": "CNN: Midwest faces fourth consecutive day of flooding after catastrophic Indiana deluge",
+      "url": "https://www.cnn.com/weather/flooding-rain-severe-storms-derecho-midwest-appalachians-climate"
+    },
+    {
+      "title": "Fox Weather: Flash Flood Emergencies issued across Indiana",
+      "url": "https://www.foxweather.com/weather-news/flash-flood-emergencies-indiana-life-threatening-flooding"
+    },
+    {
+      "title": "The Washington Times: Deaths, damage reported as severe weather spawns tornadoes, flash flooding",
+      "url": "https://www.washingtontimes.com/news/2026/aug/12/deaths-damage-reported-severe-weather-midwest-spawns-tornadoes-flash/"
+    }
+  ]
+}
