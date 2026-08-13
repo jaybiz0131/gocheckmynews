@@ -30,6 +30,12 @@ import sys
 from urllib.parse import quote
 
 RETIRED_ARTICLES = {
+    "zelensky-accuses-russia-of-north-korean-missile-use-says-no-evidence-presented":
+        "ukraine-reports-north-korean-missiles-used-in-russian-strike-on-zaporizhzhia",
+    "zelensky-accuses-russia-of-using-north-korean-ballistic-missiles":
+        "ukraine-reports-north-korean-missiles-used-in-russian-strike-on-zaporizhzhia",
+    "us-inflation-eases-as-food-and-fuel-costs-cool":
+        "july-cpi-inflation-eases-to-3-4-down-from-3-5-in-june",
     "spain-deploys-military-to-ceuta-border-after-60-000-migrants-cross-34-die":
         "60-000-migrants-cross-into-spain-s-ceuta-in-24-hours-34-deaths-reported",
 }
@@ -2023,10 +2029,13 @@ def build():
     # here. Never delete a published URL: someone linked it, and a 404 punishes the
     # reader for our filing error. Netlify takes the first match, so these precede
     # the catch-all.
+    # /rss.xml is the address readers and aggregators try first; the desk publishes at
+    # /feed.xml, so alias rather than leave a 404 (2026-08-13 audit).
+    rss_alias = "/rss.xml  /feed.xml  301\n"
     redirects = "".join(f"/articles/{old}.html  /articles/{new}.html  301\n"
                         f"/articles/{old}  /articles/{new}  301\n"
                         for old, new in sorted(RETIRED_ARTICLES.items()))
-    w("_redirects", redirects + "/*  /404.html  404\n")
+    w("_redirects", rss_alias + redirects + "/*  /404.html  404\n")
     # THE EDITION (owner spec 2026-08-03, chassis extension per the approved crypto
     # build): the composed front replaces the Latest tab at its own URL; back issues
     # under /edition/. Written LAST so the composed front wins the /news.html route.
