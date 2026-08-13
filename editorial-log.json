@@ -6499,5 +6499,50 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-13",
+  "approved": 4,
+  "rejected": [
+   {
+    "id": "c002",
+    "headline": "Kennedy Center board votes again for closure and Trump name despite court order",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states Judge Cooper 'ruled that board members had lacked sufficient information to make such a choice' in May, but the brief's data_point quotes the judge as saying 'None of the board members had sufficient information in advance of the March 16 meeting to make a well-considered decision.' The draft's phrasing ('lacked') is passive and imprecise where the brief specifies the timing ('in advance of the March 16 meeting'). More critically, the draft never clarifies that the May ruling was a temporary injunction, not a final ruling, which is material to understanding the legal posture and why a second vote is now occurring.",
+     "The draft claims 'In February, Trump wrote on Truth Social that \"a one year review of The Trump Kennedy Center\" had taken place' but the brief data_point says Trump wrote that a review 'had taken place' with various parties 'to decide between a complete or partial closure.' The draft paraphrases this accurately but then states Judge Cooper's May response as 'The evidence of any such review is nil,' which the draft attributes to the judge's ruling. However, the draft earlier does not establish that Trump's February claim was made *before* the March vote, which is the temporal fact that makes Cooper's finding of 'nil' evidence damaging. The sequence and causal chain are muddled.",
+     "The draft states that the board voted 'to put President Trump's name back on the center's entry, calling the complex, 'Restored and Renovated by President Donald J. Trump,' but this exact phrasing does not appear in any data_point. The brief's data_point says 'the board also voted on Thursday to put President Trump's name back on the center's entry' without specifying the exact inscription language. The draft has inserted a specific quotation that is not in the brief\u2014this is a smuggled fact.",
+     "The draft says Trump's aircraft switch story happened 'Within a day of July 8 departure,' but the brief's core_claim says 'within a day of...detection,' not within a day of departure. The timing relationship is inverted\u2014the switch was within a day of detection of the threat, not within a day of the departure date itself. This is a material factual error that changes the immediacy of the response."
+    ]
+   },
+   {
+    "id": "c075",
+    "headline": "White House reports losing $19 billion to $26 billion annually in tariff revenue to transshipping",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The White House announced it is losing between $19 billion and $26 billion per year in tariff revenue' with confidence marked 'announced-not-verified' in the brief. However, the brief's open_questions note that 'The PBS source text provided is truncated and contains only HTML markup; no substantive reporting content is available to verify the dollar figures.' The draft presents an unverified announcement as a reported fact without qualification. The confidence label 'announced-not-verified' must be reflected in the prose (e.g., 'according to White House statements' or 'the White House says it is losing'), not suppressed.",
+     "The draft cites 'PBS NewsHour reporting and a Washington Post account of White House statements' but the brief notes 'Washington Post source URL listed but its source text was not provided; cannot verify corroboration claimed.' The draft should not claim corroboration from the Washington Post without verifying its text.",
+     "The draft's bottom_line states 'The Washington Post reported that more than 40 nations are engaged in routing goods to avoid tariffs, a detail relevant to the scope of the workaround but not independently verified in the available reporting provided here.' This admission of lack of verification in the bottom_line contradicts the draft body, which treats the $19B-$26B figure as settled fact. If it is unverified, it must be marked in the draft body as well."
+    ]
+   },
+   {
+    "id": "c109",
+    "headline": "Oklahoma and Tennessee carry out executions on same day; Alabama case pending",
+    "category": "accuracy",
+    "reasons": [
+     "The draft opens with 'Oklahoma carried out the execution of Carlos Cuesta-Rodriguez on Thursday, and Tennessee executed Darrell Hines approximately one hour later, according to reporting from The Guardian.' The brief's open_questions state 'The source text provided is truncated HTML and contains only styling markup; no substantive reporting on the executions, the crimes, the defendants, the Alabama case status, or the broader context is available.' The writer cannot trace these specific facts (names, times, execution order) to actual reporting content because the source text is truncated markup only. This violates the hard rule that no fact exists outside the brief and the brief contains no substantive reporting to support the named individuals or the one-hour interval.",
+     "The brief identifies the data_points as 'reported' confidence, but those data_points themselves are unverifiable because the source text is corrupted. A fact that cannot be verified in the source material should not appear in the draft as though it were confirmed reporting."
+    ]
+   },
+   {
+    "id": "c130",
+    "headline": "BAE Systems to pay $36 million for 104 arms export violations",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'BAE Systems Inc. is the US arm of the UK defence company BAE Systems' but the brief's first data_point describes 'The UK defence company BAE Systems' without the Inc. designation being tied to UK operations. The draft conflates the entity: it should clarify whether BAE Systems Inc. (the US arm) or the UK parent is the subject of the settlement. The brief data_point #2 specifies 'the US arm of BAE,' making clear the settlement is with the US subsidiary, but the prose in the draft reads ambiguously on corporate structure.",
+     "The draft omits the specific violation count attribution: it says '104 violations of US arms export regulations' but does not attribute this to the Department of State announcement or Guardian reporting inline. The brief requires facts trace to sources; bare numbers without attribution invite liability questions."
+    ]
+   }
+  ]
  }
 ]

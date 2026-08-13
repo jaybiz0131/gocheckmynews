@@ -1,0 +1,53 @@
+{
+  "id": "c072",
+  "slug": "federal-judge-dismisses-trump-administration-s-title-vi-lawsuit-against-harvard",
+  "kind": "brief",
+  "title": "Federal judge dismisses Trump administration's Title VI lawsuit against Harvard",
+  "dek": "U.S. District Judge Richard Stearns dismissed the Trump administration's civil rights lawsuit against Harvard on Thursday, finding that alleged antisemitic incidents were too isolated to constitute an ongoing violation of Title VI. The government alleged Harvard tolerated antisemitism; Harvard called the suit retaliatory.",
+  "date": "2026-08-13",
+  "published_utc": "2026-08-13T19:28:37Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 3,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Judge Stearns ruled that the government's allegations of antisemitic incidents, concentrated in 2023-2024 and with only a handful in March 2025, were too isolated and episodic to support a claim of ongoing federal civil rights violations.",
+  "bottom_line": "Judge Stearns's dismissal rests on a legal threshold: that isolated incidents, no matter how serious, do not meet the standard for institutional noncompliance with Title VI. The DOJ has indicated it will assess next steps, and the ongoing Civil Rights Division investigation may pursue administrative rather than judicial remedies. How the administration's continued appeal of the earlier grant-termination decision proceeds could test whether the same legal reasoning applies to claims of discrimination in federal funding.",
+  "human_take": "",
+  "body": [
+    "U.S. District Judge Richard Stearns dismissed the Trump administration's civil rights lawsuit against Harvard University on Thursday, ruling that alleged antisemitic incidents did not constitute an ongoing violation of federal law. The judge found the government's allegations focused largely on incidents during protests over Israel's war in Gaza in the 2023-2024 school year, with only a handful of later incidents in March 2025 that were \"too isolated and episodic\" to support a claim of institutional noncompliance, according to NBC News.",
+    "The administration filed the lawsuit in March under Title VI of the Civil Rights Act of 1964, which bans discrimination based on race, color, and national origin in programs that receive federal funding. The government had told Harvard in June 2025 that it was not complying with the statute. In its court filing, the administration alleged that Harvard faculty and leadership \"turned a blind eye to antisemitism and discrimination against Jews and Israelis\" and said it was suing to \"recover billions of dollars of taxpayer subsidies awarded to a discriminatory institution,\" according to NBC News.",
+    "Judge Stearns wrote in his four-page order: \"Without diminishing any concern arising from these occurrences, the court finds them, singly and collectively, to be too isolated and episodic to support a plausible inference that any institutionalized noncompliance with Title VI persists at Harvard to this day,\" per CBS News. Stearns also wrote that the government's complaint was \"devoid of any factual allegations\" that occurred after the Trump administration notified Harvard of its belief that the university had failed to comply with federal civil rights law, according to CBS News.",
+    "Harvard had urged the judge in June to dismiss the administration's lawsuit, arguing the government had not alleged ongoing or imminent violations of Title VI. The university stated: \"Harvard condemns antisemitism and is committed to ensuring that Jewish and Israeli students, like all members of the Harvard community, can learn and participate fully in campus life free from harassment or exclusion,\" per NBC News. Harvard also called the lawsuit \"yet another pretextual and retaliatory action by the administration for refusing to turn over control of Harvard to the federal government,\" according to NBC News.",
+    "The dismissal continues a pattern of court setbacks for the Trump administration's efforts to strip funding from Harvard. In December, the administration appealed a judge's order that found it had unlawfully terminated more than $2 billion in grants awarded to Harvard and could no longer cut off its research funding, per NBC News. A federal judge also blocked the administration's efforts last year to revoke Harvard's ability to enroll international students.",
+    "The Justice Department responded in a statement saying it \"disagreed with the ruling and are assessing the next steps,\" according to CBS News. The department also pointed to an ongoing antisemitism investigation by the DOJ's Civil Rights Division, which remains active outside the civil court system, per CBS News."
+  ],
+  "sources": [
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/homenews/education/6027947-judge-dismisses-harvard-antisemitism-lawsuit/"
+    },
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/politics/trump-administration/judge-dismisses-trump-lawsuit-harvard-antisemitism-rcna592379"
+    },
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/2026/aug/13/trump-harvard-lawsuit-dismissed"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/harvard-antisemitism-lawsuit-dismissed-trump-administration/"
+    },
+    {
+      "title": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/politics/judge-dismisses-trump-administration-lawsuit-alleging-antisemitism-at-harvard"
+    }
+  ],
+  "event_utc": "2026-08-13T17:13:32Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-13T19:28:37Z",
+    "sources_cited": 5,
+    "sources_live_checked": 3
+  }
+}
