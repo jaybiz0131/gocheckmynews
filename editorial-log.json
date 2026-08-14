@@ -6586,5 +6586,48 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-14",
+  "approved": 4,
+  "rejected": [
+   {
+    "id": "c106",
+    "headline": "Mangione expected to plead guilty to federal charges in UnitedHealthcare CEO case",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Luigi Mangione is expected to plead guilty to federal charges related to the death of a health insurance executive' but the brief's data_point identifies the victim only as 'a health insurance executive' without naming the UnitedHealthcare CEO. The draft's body repeats this vague reference twice. The core_claim in the brief names 'UnitedHealthcare CEO' but none of the three data_points extracted from the sources specify which executive or confirm the victim's identity. The draft should either name the victim (if the source supports it) or use only the language the brief provides: 'a health insurance executive.' As written, the draft smuggles specificity beyond what the brief's extracted data confirms.",
+     "The brief flags a critical sourcing gap: 'The New York Times source URL was provided in source_urls but its text is not included in source_texts, so no details from that reporting can be verified.' The draft cites two sources but only one CBS News URL is traceable to extracted data. A draft citing a source whose content was not extracted into the brief violates the hard rule that facts must trace to research; the writer cannot vouch for reporting they have not read.",
+     "The brief is marked 'thin: true' and the three data_points are bare. The draft repeats claims from the brief but adds no new detail; it reads as placeholder prose. However, the accuracy and sourcing failures above are the primary rejection triggers."
+    ]
+   },
+   {
+    "id": "c300",
+    "headline": "Midwest flooding escalates as 36 million people remain under flood alerts",
+    "category": "compliance",
+    "reasons": [
+     "The brief is marked 'boundary_required: true' and 'boundary_ok: false' with explicit boundary_reasons: 'this story turns on a version, date range or threshold but the brief carries no boundary block.' The draft violates this desk requirement by proceeding without a boundary disclaimer. The story hinges on date-dependent claims ('Wednesday,' 'Thursday,' counts of 277 flash flooding incidents 'since Monday,' deaths 'on Tuesday,' etc.) that could become stale or misleading if the story is republished or resurfaced. The presence of 'boundary_required: true' is a hard stop; the story must not publish without a boundary block in the metadata, and the draft does not include one.",
+     "The draft cites Governor Braun's statement as a direct quote but includes an em dash: 'Our state response is fully mobilized, resources are moving where they're needed, and we will continue working around the clock to support every impacted community.' Desk rule prohibits em dashes; this is a compliance violation (formatting/style enforced as liability protection)."
+    ]
+   },
+   {
+    "id": "c102",
+    "headline": "Appeals court dismisses challenge to Alien Enemies Act deportations on mootness grounds",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The case had returned to the appeals court from the Supreme Court after Trump initiated the deportations' but the brief data_point says 'The case had boomeranged from the Supreme Court after Trump began deportations.' The draft's phrasing suggests a temporal sequence (returned after deportations began) while the brief indicates the case moved back to appeals court and then deportations occurred. The actual sequence and nature of the Supreme Court's involvement is unclear from the sources, and the draft presents a narrative connection ('after') not explicitly supported by the brief's language."
+    ]
+   },
+   {
+    "id": "c100",
+    "headline": "Trump authorizes private U.S. companies to conduct offensive hacking against cybercriminals",
+    "category": "accuracy",
+    "reasons": [
+     "Sentence 'The authorization marks a significant shift in U.S. cyber doctrine, moving the country toward the operational model long used by China and Russia' presents editorial framing as fact. The brief contains no data point supporting this comparative judgment; the NYT article only reports the authorization and notes that China/Russia use private hackers, not that this move 'marks a shift toward' their model or closes any gap. This is the writer editorializing, not the source.",
+     "Sentence 'The Trump authorization closes a gap between U.S. and adversary practice' is not in the brief. This is a causal and strategic interpretation not supported by a data point.",
+     "The phrase 'raises unresolved questions about international law implications and potential escalation risks' reads as the desk's own concern-raising rather than reporting what sources or officials said about these risks. The brief contains no data point about these concerns being raised by named parties."
+    ]
+   }
+  ]
  }
 ]
