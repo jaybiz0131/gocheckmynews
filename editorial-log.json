@@ -6713,5 +6713,35 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-14",
+  "approved": 5,
+  "rejected": [
+   {
+    "id": "c291",
+    "headline": "FBI reports violent crime fell 9% in 2025, murder down 18% from prior year",
+    "category": "balance",
+    "reasons": [
+     "The brief's open_questions section explicitly flags that 'The sources do not provide dissenting views, skeptical analysis, or alternative explanations for the crime decline,' yet the draft includes a paragraph acknowledging this absence rather than surfacing it as a limitation during the main narrative. The draft buries the gap in a penultimate paragraph stating 'The sources do not provide...' which reads as the writer's own meta-commentary rather than integrating the limitation into the reporting. A story claiming record crime drops without any counterargument, expert skepticism, or discussion of competing explanations for causation should either (a) include that skepticism in the body or (b) flag the absence more prominently before the Trump quote. Trump's claim of 'single largest reduction in violent crime in American history' is presented without noting that this exact claim is contested or that the administration's role in the decline is unverified\u2014this reads as advocacy if no counter-voice appears in the story proper."
+    ]
+   },
+   {
+    "id": "c292",
+    "headline": "Murdaugh retrial moves out of Colleton County; judge allows prior testimony, approves DNA testing",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Alex Murdaugh was sentenced to life' but the brief data point states 'A jury found Murdaugh guilty in 2023' without specifying the sentence. The draft adds a sentencing detail not explicitly confirmed in the provided brief's sourced data_points, making it a smuggled fact outside the research brief's confirmed claims."
+    ]
+   },
+   {
+    "id": "c122",
+    "headline": "Trump dismisses concerns from families about USS Lincoln conditions; one sailor went overboard",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'multiple sailors having attempted to jump overboard' in the data_point summary, but the brief and draft body specify only one sailor went overboard in early August. The phrase 'Both Stowe and Rappa said their children told them about a fellow sailor jumping overboard' refers to the same single incident, not multiple attempts. The draft body correctly reports 'a sailor...went overboard' (singular), but the framing in the data_point and headline ('one sailor went overboard') does not align with the brief's language about 'multiple sailors' in the bear_case or other sections\u2014this appears to be a smuggled inference not supported by the sourced facts."
+    ]
+   }
+  ]
  }
 ]

@@ -1,0 +1,74 @@
+{
+  "id": "c073",
+  "slug": "nws-honolulu-issues-tropical-storm-warning-for-molokai-as-lala-approaches",
+  "kind": "brief",
+  "title": "NWS Honolulu issues Tropical Storm Warning for Molokai as Lala approaches",
+  "dek": "The National Weather Service Honolulu issued a Tropical Storm Warning on August 14 at 10:38 AM HST for portions of Molokai as Tropical Storm Lala approaches. Peak winds of 35-45 mph with gusts to 55 mph are forecast Saturday afternoon into early Sunday morning, along with potential storm surge up to 2 feet and rainfall of 2-4 inches on leeward areas and 3-6 inches on windward zones.",
+  "date": "2026-08-14",
+  "published_utc": "2026-08-14T20:48:12Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 2,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The NWS Honolulu issued a Tropical Storm Warning for Molokai on August 14 at 10:38 AM HST with peak winds 35-45 mph gusting to 55 mph forecast for Saturday afternoon through early Sunday.",
+  "bottom_line": "Residents in the affected Molokai zones should complete all protective measures before Saturday afternoon when tropical storm force winds arrive. The NWS advisory is the authoritative source for current conditions and specific preparedness steps; residents should monitor updates from the National Weather Service Honolulu as the storm approaches.",
+  "human_take": "",
+  "body": [
+    "The National Weather Service Honolulu issued a Tropical Storm Warning on August 14 at 10:38 AM HST for Hoolehua on Molokai's north shore and the Halawa Valley-Kalaupapa area on the windward side. Tropical Storm Lala is forecast to bring hazardous wind and surge to the affected zones from Saturday afternoon into early Monday morning.",
+    "Peak winds are forecast at 35-45 mph with gusts to 55 mph, arriving Saturday afternoon and persisting until early Sunday morning, per the NWS alerts. The windward (Halawa Valley-Kalaupapa) area is forecast to receive additional rainfall of 3-6 inches with locally higher amounts, while the leeward Hoolehua area is forecast for 2-4 inches with locally higher totals.",
+    "Storm surge poses an additional threat. The NWS forecasts potential inundation up to 2 feet above ground in surge-prone areas on both Molokai zones, with a window of concern extending from early Saturday morning through early Monday morning, according to the agency's alert.",
+    "Expected wind impacts include damage to porches, awnings, carports, and unanchored mobile homes; large tree limbs breaking and a few trees snapped or uprooted; downed fences and roadway signs; roads becoming impassable from debris; hazardous driving conditions on bridges; and scattered power and communications outages, per the NWS warning.",
+    "Storm surge flooding is forecast to cause localized inundation mainly along immediate shorelines and in low-lying areas, with near-shore roads and parking lots becoming overrun; moderate beach erosion; heavy surf breaching dunes; strong rip currents; and minor to locally moderate damage to marinas, docks, and piers, according to the alert. The Halawa Valley-Kalaupapa zone faces a higher flooding rain threat rated as significant, which may prompt several evacuations and rescues, with rivers and tributaries quickly becoming swollen and flood waters entering some structures.",
+    "The NWS stated the situation is unfavorable for tornado formation and tornadoes are not expected.",
+    "The alert does not specify Tropical Storm Lala's current track, intensity, or forward speed, nor does it provide forecast discussion explaining the meteorological reasoning behind the projections. The expected duration of the entire storm system's passage over Hawaii beyond the wind and surge windows is not addressed in the alert."
+  ],
+  "sources": [
+    {
+      "title": "api.weather.gov",
+      "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.26f5fc84d976f940207a88270b54aa9b20eaa1cd.019.1.cap"
+    },
+    {
+      "title": "api.weather.gov",
+      "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.26f5fc84d976f940207a88270b54aa9b20eaa1cd.017.1.cap"
+    },
+    {
+      "title": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/nation/hurricane-warning-issued-for-the-big-island-of-hawaii-as-tropical-storm-lala-approaches"
+    },
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/2026/aug/14/hawaii-tropical-storm-lala"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/tropical-storm-lala-big-island-hawaii-hurricane-track/"
+    }
+  ],
+  "event_utc": "2026-08-14T20:38:00Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-14T20:48:12Z",
+    "sources_cited": 5,
+    "sources_live_checked": 3
+  },
+  "also_reported_by": [
+    {
+      "outlet": "Hawaii department of defense (.gov)",
+      "headline": "Tropical Storm Lala \u2013 Hawai\u2018i Emergency Management Agency - Hawaii department of defense (.gov)"
+    },
+    {
+      "outlet": "Newsweek",
+      "headline": "\"Catastrophic\" warning issued for Hawaii: Tropical Storm Lala path map - Newsweek"
+    },
+    {
+      "outlet": "Honolulu Star-Advertiser",
+      "headline": "Barbara weakens as Tropical Storm Cosme moves southwest of Mexico - Honolulu Star-Advertiser"
+    }
+  ],
+  "boundary": {
+    "affected": "Hoolehua (Molokai North) and Halawa Valley - Kalaupapa (Molokai Windward)",
+    "fixed": "No fixed/excluded zones specified in the alert; alert is for Molokai locations listed",
+    "user_action": "Plan for hazardous wind of equivalent tropical storm force; Remaining efforts to protect property should be completed as soon as possible; Prepare for limited wind damage; Move to safe shelter before the wind becomes hazardous; Complete preparations for storm surge flooding, especially in low-lying vulnerable areas, before conditions become unsafe; Leave immediately if evacuation orders are given for your area; Heed any flood watches and warnings",
+    "advisory_url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.26f5fc84d976f940207a88270b54aa9b20eaa1cd.019.1.cap"
+  }
+}
