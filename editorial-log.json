@@ -6660,5 +6660,58 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-14",
+  "approved": 3,
+  "rejected": [
+   {
+    "id": "c273",
+    "headline": "UAE accuses Iran of Hormuz attacks; Vance names cheap oil as top U.S. war goal",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'As of early Friday, Lala was located approximately 455 miles east-southeast of Hilo' but the brief's data_point c273-11 states the distance was '435 miles east-southeast of Hilo' per CBS News. The draft uses 455 miles, which does not match the sourced brief.",
+     "The draft claims 'Lala was approximately 455 miles east-southeast of Hilo and 650 miles east-southeast of Honolulu, according to CBS News reporting' but the brief attributes the 455-mile distance only to ABC News (data_point c66-2), not CBS News; CBS reports 435 miles (data_point c66-11). The attribution is mismatched to the specific source."
+    ]
+   },
+   {
+    "id": "c66",
+    "headline": "Tropical Storm Lala forecast to strengthen to hurricane, approach Big Island Saturday",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'As of early Friday, Lala was located approximately 455 miles east-southeast of Hilo' but the brief data_point c66-2 reports '435 miles east-southeast of Hilo' per ABC News, and data_point c66-11 reports 'about 435 miles east-southeast of Hilo' per CBS News. The draft's figure of 455 miles does not match either sourced distance in the brief."
+    ]
+   },
+   {
+    "id": "c87",
+    "headline": "Luigi Mangione federal court appearance scheduled",
+    "category": "accuracy",
+    "reasons": [
+     "The brief's data_points array is empty, indicating no legible reporting was retrieved. The draft claims 'Luigi Mangione is expected to appear in federal court for a hearing, according to The Guardian's reporting' and references 'a separate state murder trial's jury selection is set to begin next month'\u2014these are facts presented as if verified, but the brief explicitly states the source text is 'corrupted HTML/CSS' with 'no legible reporting content.' No fact in this draft can be traced to a confirmed data_point in the brief.",
+     "The draft introduces the detail 'federal charges' and 'state murder trial' without these specifics being present in any confirmed data_point. The brief's open_questions note that 'the exact date and nature of the federal charges are not confirmed in the source text' and 'the actual reporting on the plea deal, charges, court date, and case details cannot be extracted.'",
+     "The sources section lists two URLs, but the brief's open_questions confirm the Guardian source is corrupted and unusable. The draft cites reporting from sources that the brief confirms were not successfully retrieved and verified."
+    ]
+   },
+   {
+    "id": "c088",
+    "headline": "New York Times reports alleged Russian interference in Moldova",
+    "category": "accuracy",
+    "reasons": [
+     "The brief explicitly states 'source_chars': 0 and 'the source text for the New York Times article was not provided (source_texts is empty); all data points are derived from the snippet alone and cannot be verified against the fetched source.' The draft presents specific factual claims\u2014'paid Orthodox priests, vote-buying schemes, and training camps on election interference'\u2014as reportage, but these cannot be traced to verified source material.",
+     "The draft states 'Moscow conducted a covert operation in Moldova' and details specific mechanisms (paid clergy, vote-buying, training camps) without access to the underlying reporting to confirm these details exist in the Times article. The brief's open_questions note that 'specific details are missing' and facts 'cannot be verified against the fetched source.'",
+     "The hard rule is: 'no fact exists outside the brief.' Here, the brief contains data_points marked 'reported,' but the brief itself acknowledges those data_points could not be verified against the actual source text. A fact presented as reported but not verifiable against the source violates the accuracy standard."
+    ]
+   },
+   {
+    "id": "c203",
+    "headline": "USS Abraham Lincoln Being Relieved After Record Deployment Amid Sailor Welfare Concerns",
+    "category": "accuracy",
+    "reasons": [
+     "Draft states 'some sailors have attempted to jump overboard' as reported fact, but the brief marks this as an open question: 'How many sailors have attempted to jump overboard?' with no data_point confirming the claim. The draft presents unconfirmed allegations as established reporting.",
+     "Draft claims 'food shortages' were reported, but the brief lists 'What food shortages specifically have been reported?' as an open question with no supporting data_point. This is smuggled information not in the brief.",
+     "Draft states 'mental health crises' occurred but the brief's open question is 'What specific mental health crises have occurred?' The brief has no data_point confirming the occurrence of specific crises\u2014only that there are 'mounting concerns.' The draft conflates concern with confirmed incident."
+    ]
+   }
+  ]
  }
 ]
