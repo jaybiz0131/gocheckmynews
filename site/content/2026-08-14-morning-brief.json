@@ -1,0 +1,76 @@
+{
+  "id": "wrap-am-2026-08-14",
+  "slug": "morning-brief-2026-08-14",
+  "kind": "brief",
+  "title": "The Morning Brief: Courts, climate, and conflicts reshape Thursday's landscape",
+  "dek": "A federal judge rejected the Trump administration's Title VI case against Harvard on legal grounds, the Midwest endured a fourth day of historic flooding, and competing claims over the Strait of Hormuz escalated U.S.-Iran tensions as the administration prioritized oil prices over nuclear containment.",
+  "date": "2026-08-14",
+  "published_utc": "2026-08-14T10:43:45Z",
+  "category": "daily edition",
+  "rank": -1,
+  "author": "GoCheckMyNews",
+  "key_fact": "The day's outcomes turned on thresholds: a court found isolated incidents insufficient for institutional civil rights violations; rivers reached 80- to 100-year highs; and the Trump administration openly ranked energy affordability above nuclear non-proliferation in Iran strategy.",
+  "bottom_line": "Thursday's news cycle exposed three distinct failure points: a court's threshold for civil rights enforcement; nature's 80-year precipitation cycle; and the administration's stated choice to prioritize commodity prices over nuclear containment in Iran. The Mangione plea Friday will test whether New York's double-jeopardy law blocks the state murder prosecution. Watch for Treasury's sanctions announcement next week, the state murder trial's jury selection opening September 8, and whether the Strait of Hormuz disputes trigger responses from other maritime powers or insurance markets.",
+  "human_take": "",
+  "body": [
+    "Thursday brought three distinct orders of consequence: judicial, environmental, and geopolitical, each driven by competing standards of proof, measurement, or priority.",
+    "U.S. District Judge Richard Stearns dismissed the Trump administration's Title VI civil rights lawsuit against Harvard, ruling that antisemitic incidents concentrated in 2023-2024 and a handful in March 2025 were \"too isolated and episodic\" to constitute institutional noncompliance. The administration had alleged that Harvard tolerated antisemitism and sought to recover billions in federal funding. The legal threshold for Title VI violations, Stearns found, requires demonstration of ongoing institutional failure, not episodic harm. The Department of Justice indicated it would assess next steps; an ongoing Civil Rights Division investigation may pursue administrative remedies instead of litigation. The dismissal does not resolve the separate question of whether the administration's earlier grant-termination decision, which triggered the lawsuit, will survive appellate review under the same legal standard.",
+    "Midwest flooding reached a fourth consecutive day Thursday, with Indiana's White River at Muncie cresting at its highest level in more than 80 years and forecast to crest downstream at Anderson at its highest in more than 100 years. The region received 6 to nearly 12 inches of rain this week. More than 250,000 Indiana customers lost power Thursday morning, and two deaths were reported in the state. At least four rivers in eastern Indiana were forecast to reach major flood stage Thursday, meaning water levels could worsen or persist even after the heaviest rain stopped.",
+    "The administration issued explicit ranking of war priorities Thursday. Vice President Vance told Fox News that keeping oil and gas prices low is the United States' \"goal number one\" in the Iran conflict, with preventing Iran's nuclear program as \"goal number two.\" Defense Secretary Hegseth said the naval blockade could continue \"indefinitely,\" while Treasury Secretary Bessant announced unprecedented economic sanctions coming next week. The same day, Trump asserted on Truth Social that the U.S. has \"total control\" of the Strait of Hormuz, drawing immediate counterclaim from Iran's Basij chief that the waterway is \"under Iran's control and management.\"",
+    "Elsewhere, Luigi Mangione is set to plead guilty Friday in federal court to charges in the December 2024 killing of UnitedHealthcare CEO Brian Thompson. The plea comes less than a month before jury selection in the separate state murder trial begins September 8, creating a collision under New York's double-jeopardy rules: a federal guilty plea could bar the state prosecution. The Manhattan District Attorney has warned the federal court of this consequence in writing. White House press secretary Karoline Leavitt announced her departure at month's end; no successor has been named. An NYPD officer, Omar Habib, was convicted Thursday under the city's 2020 chokehold ban, the first such conviction in six years, and sentenced to seven years maximum. Record rainfall in eastern Japan killed at least eight people and displaced thousands, with Chiba prefecture recording the highest precipitation ever measured in Japan, nearly three times the average August monthly total."
+  ],
+  "sources": [
+    {
+      "title": "Federal judge dismisses Trump administration's Title VI lawsuit against Harvard",
+      "url": "/articles/federal-judge-dismisses-trump-administration-s-title-vi-lawsuit-against-harvard.html"
+    },
+    {
+      "title": "Indiana Rivers Crest at Multi-Decade Highs on a Fourth Day of Midwest Flooding",
+      "url": "/articles/indiana-rivers-crest-at-multi-decade-highs-on-a-fourth-day-of-midwest-flooding.html"
+    },
+    {
+      "title": "Karoline Leavitt to Leave White House Press Secretary Role at the End of August",
+      "url": "/articles/karoline-leavitt-to-leave-white-house-press-secretary-role-at-the-end-of-august.html"
+    },
+    {
+      "title": "Mangione set to plead guilty to federal charges Friday; state murder trial jury selection begins next month",
+      "url": "/articles/mangione-set-to-plead-guilty-to-federal-charges-friday-state-murder-trial-jury-selection-begins-next-month.html"
+    },
+    {
+      "title": "Massachusetts teen charged with killing mother and brother after using ChatGPT",
+      "url": "/articles/massachusetts-teen-charged-with-killing-mother-and-brother-after-using-chatgpt.html"
+    },
+    {
+      "title": "Student Shot in Warner Robins High School Bathroom",
+      "url": "/articles/student-shot-in-warner-robins-high-school-bathroom.html"
+    },
+    {
+      "title": "Trump asserts U.S. has \"total control\" of Strait of Hormuz; Iran disputes claim",
+      "url": "/articles/trump-asserts-u-s-has-total-control-of-strait-of-hormuz-iran-disputes-claim.html"
+    },
+    {
+      "title": "Trump White House estimates $19B-$26B annual loss to tariff evasion via transshipping",
+      "url": "/articles/trump-white-house-estimates-19b-26b-annual-loss-to-tariff-evasion-via-transshipping.html"
+    },
+    {
+      "title": "Ukraine strikes Russian grain terminals at Black Sea port of Novorossiysk",
+      "url": "/articles/ukraine-strikes-russian-grain-terminals-at-black-sea-port-of-novorossiysk.html"
+    },
+    {
+      "title": "Ukrainian strikes damage Russian grain terminals at Black Sea port of Novorossiysk",
+      "url": "/articles/ukrainian-strikes-damage-russian-grain-terminals-at-black-sea-port-of-novorossiysk.html"
+    },
+    {
+      "title": "NYPD officer convicted under post-Floyd chokehold ban for first time",
+      "url": "/articles/nypd-officer-convicted-under-post-floyd-chokehold-ban-for-first-time.html"
+    },
+    {
+      "title": "Record rainfall in eastern Japan kills eight, displaces thousands",
+      "url": "/articles/record-rainfall-in-eastern-japan-kills-eight-displaces-thousands.html"
+    },
+    {
+      "title": "U.S. prioritizes low oil prices as primary war goal in Iran conflict, officials say",
+      "url": "/articles/u-s-prioritizes-low-oil-prices-as-primary-war-goal-in-iran-conflict-officials-say.html"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "c176",
+  "slug": "nypd-officer-convicted-under-post-floyd-chokehold-ban-for-first-time",
+  "kind": "brief",
+  "title": "NYPD officer convicted under post-Floyd chokehold ban for first time",
+  "dek": "Omar Habib, an NYPD officer, was found guilty Thursday of second-degree felony strangulation, third-degree misdemeanor assault, and violating New York City's 2020 chokehold ban, per Fox News. The conviction marks the first NYPD officer prosecuted under the city's chokehold law enacted after George Floyd's death. Habib faces up to seven years in prison.",
+  "date": "2026-08-14",
+  "published_utc": "2026-08-14T10:38:12Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 8,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Omar Habib is the first NYPD officer convicted under New York City's 2020 chokehold ban, enacted in response to George Floyd's death.",
+  "bottom_line": "Habib's conviction breaks a decades-long enforcement gap: chokeholds were prohibited by NYPD policy for years before the 2020 law criminalized them, yet no officer faced criminal prosecution until now. The verdict will test whether the law can become a reliable accountability mechanism or remains a symbolic gesture that took six years to produce its first conviction.",
+  "human_take": "",
+  "body": [
+    "Omar Habib, an NYPD officer, was found guilty Thursday of second-degree felony strangulation, third-degree misdemeanor assault, and violating New York City's 2020 chokehold ban, according to Fox News. The conviction marks the first time an NYPD officer has been prosecuted under the city's chokehold law, enacted after George Floyd's death at the hands of Minneapolis police Officer Derek Chauvin in 2020.",
+    "The felony strangulation conviction carries a maximum sentence of seven years in prison. Bronx Criminal Supreme Court Judge Cynthia Isales ordered Habib held without bail. Habib was terminated from the police department following his felony conviction after serving since 2007; the NYPD said his termination was required by law.",
+    "On July 28, 2023, Habib was responding to a 911 call at a Bronx catering hall involving a drunk and disorderly man who resisted arrest, according to Bronx District Attorney Darcel Clark. Prosecutors said Habib put the man in a chokehold so tight that it impeded his breathing and circulation and caused him to lose consciousness.",
+    "Before his arrest in this case, Habib had a documented history of substantiated misconduct complaints about excessive use of force and abusing his authority. The Civilian Complaint Review Board substantiated an allegation that Habib used a chokehold in a separate 2017 encounter. Habib was also accused of lying under oath and tampering with evidence in a 2016 gun raid, resulting in several defendants withdrawing their guilty pleas.",
+    "The New York City measure criminalizes chokeholds and certain forms of pressure on an arrestee's chest or back that compress the diaphragm while an officer is making or attempting an arrest. The law was challenged by police unions but was upheld by New York state's highest court in 2023. Police use of chokeholds was already prohibited in most cases by NYPD policy when the law was enacted, but officers who used them were almost never prosecuted under the prior disciplinary framework.",
+    "Officer Daniel Pantaleo lost his job in 2019 but faced no criminal charges after a department disciplinary proceeding found that he used a prohibited chokehold on Eric Garner, who died during a 2014 arrest after repeatedly saying he could not breathe.",
+    "Patrick Hendry, president of the Police Benevolent Association of the City of New York, denounced Thursday's verdict. According to Fox News, Hendry stated the officer's conviction was \"further proof of a grim reality: every second police officers spend on this job puts them at risk of criminal prosecution, and pervasive anti-police propaganda has made it incredibly difficult to receive a fair trial.\" Habib's attorney argued during trial that other factors could have caused the man to pass out, such as drinking without eating enough food."
+  ],
+  "sources": [
+    {
+      "title": "Fox News",
+      "url": "https://www.foxnews.com/us/nypd-cop-found-guilty-chokehold-first-conviction-since-restraint-tactic-banned-george-floyd-death"
+    }
+  ],
+  "event_utc": "2026-08-14T07:03:42Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-14T10:38:12Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}

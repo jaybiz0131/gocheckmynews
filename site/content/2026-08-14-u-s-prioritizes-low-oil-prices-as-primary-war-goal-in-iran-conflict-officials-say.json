@@ -1,0 +1,39 @@
+{
+  "id": "c289",
+  "slug": "u-s-prioritizes-low-oil-prices-as-primary-war-goal-in-iran-conflict-officials-say",
+  "kind": "brief",
+  "title": "U.S. prioritizes low oil prices as primary war goal in Iran conflict, officials say",
+  "dek": "Vice President JD Vance stated Thursday that keeping oil and gas prices low is the United States' 'goal number one' in the Iran war, ranked above preventing Iran's nuclear program. Defense Secretary Pete Hegseth said the naval blockade can continue 'indefinitely,' while Treasury Secretary Scott Bessant announced unprecedented economic sanctions coming next week.",
+  "date": "2026-08-14",
+  "published_utc": "2026-08-14T10:38:12Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 1,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Vance told Fox News that low oil prices are 'goal number one' in the Iran war, with preventing Iran from obtaining a nuclear weapon as 'goal number two.'",
+  "bottom_line": "The Trump administration's public prioritization of oil prices over nuclear non-proliferation signals a shift toward indefinite economic and military pressure, though current Brent Crude prices contradict Vance's assertion of price success. The durability of this strategy depends on whether Treasury sanctions next week achieve cost reduction for American consumers and whether extended naval operations sustain sailor morale and missile inventory as confrontations persist.",
+  "human_take": "",
+  "body": [
+    "Vice President JD Vance ranked energy affordability above nuclear non-proliferation Thursday, stating that keeping oil and gas prices low is the United States' \"goal number one\" in the Iran war, according to his remarks to Fox News. Iran's nuclear program was designated \"goal number two.\" The statement marks an explicit public ordering of strategic objectives as the Trump administration signals an indefinite naval blockade of Iranian ports and announces new economic pressure on Tehran.",
+    "Defense Secretary Pete Hegseth told reporters Thursday that the U.S. could sustain its naval blockade on Iran \"indefinitely\" because \"we'll rotate ships in and out, as we have, and we'll continue to\" do. Treasury Secretary Scott Bessant told Newsmax on the same day that new sanctions are imminent, saying: \"Watch this space for more announcements coming next week. We are going to apply measures like have never been seen in the history of economic isolation on a country.\"",
+    "Oil prices have not fallen as Vance suggested. Brent Crude, the international oil benchmark, sits just above $87 a barrel, approximately 45 percent higher than January levels, according to NBC News reporting. The average price for a gallon of gas in the U.S. is now above $4, compared to below $3 before the conflict began on February 28, when the U.S. and Israel attacked Iran.",
+    "Traffic through the Strait of Hormuz, a critical global energy chokepoint through which roughly 20 percent of the world's energy supplies traveled prior to the war, remains a fraction of its peacetime volume. According to NBC's reporting, approximately 130 to 140 vessels typically transited the strait during normal operations. Traffic now consists of a \"trickle\" of that level. A tanker suffered minor damage from an aerial drone strike Thursday while attempting to exit the strait, per the United Kingdom Maritime Trade Operations Center, per NBC's reporting.",
+    "President Trump described the American blockade as a \"wall of steel\" and said Wednesday that the U.S. had \"total control\" over the Strait of Hormuz. Iran disputes this assertion. Iranian military spokesman Ebrahim Zolfaghari stated Thursday, via the state-controlled IRIB news agency, that \"no vessel can safely transit the Strait of Hormuz without Iran's authorization and supervision.\" Iran's Foreign Minister Abbas Araghchi accused the U.S. of \"intelligence failures\" and making a \"miscalculation\" over the strait.",
+    "The shift in stated objectives follows a cycle of tit-for-tat military exchanges that depleted U.S. reserves of missile interceptors, according to NBC's reporting. Trump has suggested moving toward \"low-keying it\" with economic pressure rather than sustained military force. The USS George Washington is now sailing to the Middle East to replace the USS Abraham Lincoln aircraft carrier, which has been at sea for approximately 250 days without a port call for more than 200 days. Families of some of the 5,000 sailors and Marines aboard the Lincoln have described low morale and deteriorating conditions, per NBC's reporting.",
+    "The blockade has created global economic strain beyond energy markets. The Hormuz impasse has limited supplies of vital products such as fertilizer, per NBC's reporting. Tehran insists it has no desire to develop a nuclear weapon. Trump and his team have offered various reasons for the conflict over time, initially citing support for anti-government protests, then prioritizing Iran's nuclear program, and at other points suggesting regime change as an objective, per NBC's reporting."
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/world/iran/low-oil-prices-trump-goal-iran-war-vance-blockade-economic-pressure-rcna592504"
+    }
+  ],
+  "event_utc": "2026-08-14T10:11:35Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-14T10:38:12Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "update_of": "trump-asserts-u-s-has-total-control-of-strait-of-hormuz-iran-disputes-claim"
+}

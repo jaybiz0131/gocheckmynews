@@ -6629,5 +6629,36 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-14",
+  "approved": 5,
+  "rejected": [
+   {
+    "id": "c090",
+    "headline": "Russia interfered in Moldova elections through paid clergy and vote-buying, NYT investigation reports",
+    "category": "accuracy",
+    "reasons": [
+     "The brief contains zero data_points and the body acknowledges 'the exact number of clergy members involved, amounts paid, sums spent on vote-buying, affected vote totals, and electoral outcomes are not detailed in available reporting'\u2014yet the draft presents Russia's interference as factually established ('Russia conducted a campaign') without the supporting detail. The NYT URL source_chars field shows 0, indicating no article text was retrieved. The core_claim rests on a snippet alone, not on substantiated reporting. The writer cannot attribute claims to the brief when the brief itself contains no data_points and admits the source was not fetched. This is smuggled reporting: the draft asserts facts (paid clergy, vote-buying, training camps) that exist nowhere in the brief's documented sources."
+    ]
+   },
+   {
+    "id": "c272",
+    "headline": "Midwest faces second wave of severe storms as floodwaters persist across Indiana and Ohio",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Charlie Simmons, 70, found his home, which he had finished renovating two months prior, completely flooded.' The brief data_point says 'In Anderson, Indiana, the White River burst its banks, forcing 70-year-old Charlie Simmons to wade through chest-deep water; his home, which he had finished renovating two months prior, was completely flooded.' However, the brief does not identify Simmons as someone whose home was 'completely flooded'\u2014it says he 'waded through chest-deep water.' The draft conflates his wading experience with the flooding of his home into a single claim. More critically, the brief's data_point about Christian Corder of New Castle is in the brief but entirely absent from the draft; the draft introduces Charlie Simmons as the primary anecdote but omits the Christian Corder quote about the rainfall being 'overwhelming' and 'never stopped.' The writer may have selectively chosen anecdotes; this requires verification that the brief's Corder material was not smuggled out."
+    ]
+   },
+   {
+    "id": "c275",
+    "headline": "Three U.S. states carried out executions on the same day for first time since 2010",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Eleven states executed a total of 47 people in 2025' but the brief data_point says '47 people in 2025, the highest number since 2009' without specifying 'eleven states.' The draft adds a qualifier not present in the source brief.",
+     "The draft includes the detail that Fisher 'screamed for help' ('he shot her in one eye and then waited about eight minutes before firing the fatal shot into her other eye') but the brief data_point says she 'screamed for help' only in its version ('waited about eight minutes as she screamed for help before firing'). The draft's version omits 'screamed for help,' which is a material difference in the sourced account\u2014the brief includes it but the draft does not."
+    ]
+   }
+  ]
  }
 ]

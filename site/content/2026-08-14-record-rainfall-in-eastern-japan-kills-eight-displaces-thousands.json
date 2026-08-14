@@ -1,0 +1,41 @@
+{
+  "id": "c021",
+  "slug": "record-rainfall-in-eastern-japan-kills-eight-displaces-thousands",
+  "kind": "brief",
+  "title": "Record rainfall in eastern Japan kills eight, displaces thousands",
+  "dek": "Eastern Japan recorded its highest rainfall ever this week, killing at least eight people and cutting power to over 20,000 households in Chiba prefecture. Authorities issued the highest emergency alert Thursday before downgrading it Friday as the deluge subsided, though landslide and flooding risks remain.",
+  "date": "2026-08-14",
+  "published_utc": "2026-08-14T10:38:12Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 4,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The rainfall in Chiba represents the highest volume of precipitation ever recorded in Japan, nearly three times the average August monthly total, according to the Japan Meteorological Agency.",
+  "bottom_line": "Rivers and rain-fed systems are expected to continue swelling through the weekend as the immediate deluge subsides. The story invalidates only if the death toll stabilizes at eight and power restoration accelerates beyond current projections; monitoring Friday and Saturday's rainfall persistence and river-gauge readings will determine whether the crisis enters a recovery phase or deepens.",
+  "human_take": "",
+  "body": [
+    "At least eight people have died as record rainfall inundated eastern Japan this week, with the deluge described by local authorities as historically unprecedented even by the nation's weather standards.",
+    "The Japan Meteorological Agency stated that Chiba prefecture has logged more than 100 millimeters of rain per hour since Thursday afternoon, with the total rainfall representing the highest volume of precipitation ever recorded in Japan. According to the agency, the rainfall is about three times the average rainfall in August.",
+    "The extreme weather cut power to more than 20,000 households in Chiba prefecture and forced more than 100,000 households to evacuate Thursday after the rain triggered landslides and widespread outages. Several rail services remain suspended and some major highways are shut as of Friday morning. Thousands were stranded at Tokyo's Narita Airport, with around 1,800 people spending the night at the Chiba Prefectural Government building, though a Narita airport spokesperson said all flights were scheduled to operate normally Friday. Flag carrier Japan Airlines stated some of its flights may be delayed but does not expect cancellations.",
+    "Chiba Governor Toshihito Kumagai told reporters Friday morning that the situation was extraordinary. \"This case was an extremely unusual situation, even by Japan's historical weather standards,\" he said. \"I have responded to many disasters in the past, but I have never experienced a case like this.\"",
+    "Among the eight deaths, a woman died inside her car submerged on a flooded road, and two others collapsed along the streets and later died. The Japan Meteorological Agency described the conditions as an \"unprecedented level of heavy rain\" brought by warm, humid air flowing into the country's east that combined with cold air above, creating extremely unstable atmospheric conditions. Authorities continue to warn of landslide and flooding risks and expect the rains to last through late Friday.",
+    "The crisis extends across the region. In the Philippines, authorities have shut schools and government offices in most of the country's north citing flood threats. Earlier this week, Japan, the Philippines and China were hit by back-to-back storms, Dolphin, Chan-Hom and Peilou, churning across the region simultaneously. Dolphin brought heavy rain to Japan's Okinawa island, cutting power to tens of thousands of buildings and cancelling flights. Over the weekend, Chinese authorities evacuated more than a million people from their homes as Dolphin, the strongest typhoon to hit China so far this year, made landfall in the country's east. Meteorologists have forecast an unusually active typhoon season across the region."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cq561gpen8lo"
+    },
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cq561gpen8lo?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "event_utc": "2026-08-14T10:36:14Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-14T10:38:12Z",
+    "sources_cited": 2,
+    "sources_live_checked": 2
+  }
+}
