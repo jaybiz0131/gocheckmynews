@@ -1,0 +1,38 @@
+{
+  "id": "c252",
+  "slug": "2-powerful-earthquakes-hit-indonesia-on-same-day-at-least-47-dead",
+  "kind": "brief",
+  "title": "2 powerful earthquakes hit Indonesia on same day, at least 47 dead",
+  "dek": "A magnitude 7.7 earthquake struck Flores island in eastern Indonesia at 5:58 a.m. local time on August 15, followed hours later by a 6.4-magnitude quake on Sumatra island. At least 47 people have been killed, 50 hospitalized, and about 2,000 villagers displaced to temporary shelters.",
+  "date": "2026-08-15",
+  "published_utc": "2026-08-15T17:02:57Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 1,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Two earthquakes measuring 7.7 and 6.4 magnitude struck eastern Indonesia on the same day, killing at least 47 people and triggering at least 235 aftershocks, the largest recorded at magnitude 6.2.",
+  "bottom_line": "Rescue teams are contending with communication blackouts and geographic isolation as they work to reach survivors across six regencies. The final death toll and full scope of injuries remain uncertain pending restoration of access to the hardest-hit remote villages.",
+  "human_take": "",
+  "body": [
+    "A magnitude 7.7 earthquake struck Indonesia's Flores region at 5:58 a.m. local time, with its epicenter 42 miles north-northwest of the city of Ende in East Nusa Tenggara province. Hours later, a separate 6.4-magnitude quake hit Sumatra island. The combined toll: at least 47 confirmed dead, 50 hospitalized, and about 2,000 villagers displaced to emergency shelters across remote regencies.",
+    "The double seismic event has left rescue operations struggling against compounding obstacles: landslides have cut off the Trans-Flores Highway, a 435-mile paved mountain road that spans Flores island, power outages have disabled communications in affected cities and villages, and the region's geographic isolation has delayed the arrival of rescue teams. The National Disaster Management Agency deployed a helicopter to assist with logistics and emergency response.",
+    "At least 235 aftershocks followed the initial 7.7-magnitude quake, according to CBS News reporting, with the largest recorded at magnitude 6.2. Rescuers have recovered at least 47 bodies, mostly in Sikka, Manggarai, and East Manggarai regencies. The earthquakes flattened at least 157 houses and damaged nearly 200 more, according to the reporting. More than 100 public facilities were destroyed, including schools, medical centers, and churches.",
+    "Authorities initially issued a tsunami warning and urged coastal residents to move to higher ground but lifted the warning after monitoring showed no significant sea-level changes, per CBS News reporting.",
+    "Indonesia lies on the Pacific Ring of Fire, a region where more than 17,000 islands experience frequent earthquakes and volcanic activity. Authorities warned, per the reporting, that the death toll would almost certainly rise as rescue and recovery efforts continue and communication is restored to cut-off villages.",
+    "The open questions that remain unaddressed in official statements include what the final confirmed death toll will be, how many of the 235 aftershocks have caused additional damage or casualties, the current status of communications in affected areas, and whether access has been restored to villages isolated by landslides."
+  ],
+  "sources": [
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/indonesia-earthquake-tsunami-warning/"
+    }
+  ],
+  "event_utc": "2026-08-15T14:56:00Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-15T17:02:57Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "update_of": "magnitude-7-7-earthquake-kills-at-least-38-off-eastern-indonesia-magnitude-6-9-aftershock-follows"
+}

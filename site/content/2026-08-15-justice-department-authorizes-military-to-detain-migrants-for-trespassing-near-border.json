@@ -1,0 +1,39 @@
+{
+  "id": "c249",
+  "slug": "justice-department-authorizes-military-to-detain-migrants-for-trespassing-near-border",
+  "kind": "brief",
+  "title": "Justice Department authorizes military to detain migrants for trespassing near border",
+  "dek": "The Department of Justice issued a legal opinion Friday authorizing U.S. military personnel to arrest and detain migrants accused of trespassing in designated National Defense Areas near the U.S.-Mexico border, circumventing traditional Posse Comitatus Act restrictions on domestic military law enforcement.",
+  "date": "2026-08-15",
+  "published_utc": "2026-08-15T17:02:57Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 4,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Deputy Assistant Attorney General William Hyde authored an Office of Legal Counsel opinion stating that using military personnel to arrest trespassers just outside National Defense Areas does not violate the Posse Comitatus Act, given what the opinion calls 'express statutory authorization' and military-protective powers.",
+  "bottom_line": "The DOJ opinion provides legal cover for military arrests outside designated zones, but leaves unresolved which specific statute the department believes authorizes the exception to Posse Comitatus and whether courts will uphold the interpretation. Civil liberties organizations and legal scholars may challenge the opinion, and any case reaching federal court could invalidate the government's legal theory.",
+  "human_take": "",
+  "body": [
+    "The Department of Justice issued a legal opinion Friday authorizing U.S. military personnel to arrest and detain migrants accused of trespassing in designated National Defense Areas near the U.S.-Mexico border, even outside those zones. The opinion, authored by Deputy Assistant Attorney General William Hyde from the Justice Department's Office of Legal Counsel, marks a significant expansion of military authority in domestic immigration enforcement.",
+    "The Trump administration has designated six National Defense Areas (NDAs) along the southern border in Arizona, California, New Mexico, and Texas, where the Department of Defense controls large swaths of land to deter illegal immigration. The Defense Department has posted signs in English and Spanish warning that unauthorized entry is prohibited.",
+    "The core legal claim in the opinion directly addresses the Posse Comitatus Act, the longstanding federal law that generally prohibits the military from enforcing laws on domestic soil. Per the opinion's text, as reported by CBS News: \"In sum, we conclude that the use of military personnel to arrest trespassers just outside of an NDA would not violate the Posse Comitatus Act, given the express statutory authorization and the military-purpose of a commander's traditional protective power.\" The opinion does not specify which statutory provision provides this authorization, leaving open the question of what Congress enacted that the DOJ believes overrides Posse Comitatus.",
+    "U.S. Northern Command has stated that military service members can apprehend those who trespass in National Defense Areas and transfer them to appropriate law enforcement authorities. The Justice Department began charging individuals apprehended in April 2025 and has since charged hundreds more, according to CBS News. The specific charges are most commonly violations of military security regulations and unlawful entry onto military property, both misdemeanors. The task force has made 161 temporary detentions in National Defense Areas.",
+    "The military deployment has coincided with a sharp drop in apprehensions at the southern border. The Trump administration has also virtually closed the asylum system for those entering the U.S. illegally. In fiscal year 2025, Border Patrol reported fewer than 240,000 migrant apprehensions, down from 1.5 million and 2 million in fiscal years 2024 and 2023, respectively, according to CBS News. In fiscal year 2026, Border Patrol recorded 81,000 apprehensions with two months remaining.",
+    "More than 20,000 service members have served deployments on the border, with the military's southern border Joint Task Force currently including 8,000 service members. The Pentagon made the U.S.-Mexico border its first mission during the initial days of President Trump's second term.",
+    "The opinion said the military has suggested it may designate additional zones in the future. The OLC's legal opinion is advisory only and does not set legal precedent, meaning courts could reach a different conclusion if the authority is challenged."
+  ],
+  "sources": [
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/justice-department-opinion-military-migrants-trespassing/"
+    }
+  ],
+  "event_utc": "2026-08-15T15:14:09Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-15T17:02:57Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "update_of": "justice-department-authorizes-military-to-detain-migrants-for-trespassing-on-border-defense-zones"
+}

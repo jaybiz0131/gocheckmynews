@@ -7083,5 +7083,54 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-15",
+  "approved": 3,
+  "rejected": [
+   {
+    "id": "c250",
+    "headline": "Downpours flood the Midwest as Lala barrels toward Hawaii",
+    "category": "accuracy",
+    "reasons": [
+     "The draft body contains the sentence 'The brief carries no details on the specific expected intensity of Tropical Storm Lala at landfall in Hawaii, the timeline for its arrival, which Midwest states face the most severe flooding, or whether flood warnings or evacuations have been issued in either region.' This is meta-commentary about the brief itself, not reporting. It violates the hard rule that facts exist in the brief, not about the brief. This sentence should be removed entirely."
+    ]
+   },
+   {
+    "id": "c079",
+    "headline": "Massive egg recall in US south and south-west due to salmonella outbreak",
+    "category": "compliance",
+    "reasons": [
+     "The bottom_line reads as advice: 'Consumers who purchased eggs from the affected regions during the outbreak period should consult FDA guidance on the recalled products.' The phrase 'should consult' is actionable guidance to readers, which crosses into financial/health advice territory. This violates the no-advice rule.",
+     "The draft body contains meta-commentary about what the brief does not confirm: 'The brief does not confirm the specific farm or company source of the recalled eggs...' This is editorial aside about the brief's gaps, not reporting. Remove this sentence.",
+     "The draft is flagged boundary_required=true but boundary_ok=false with reasons indicating 'this story turns on a version, date range or threshold but the brief carries no boundary block.' The story cannot proceed without the boundary block that defines the scope of the recall, which is missing from the brief. The desk must halt this story until the boundary is established."
+    ]
+   },
+   {
+    "id": "c034",
+    "headline": "Israeli airstrikes on southern Lebanon kill 11; ceasefire framework tensions escalate",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Israeli airstrikes on southern Lebanon killed 11 people Friday' and later 'The escalation underscores the fragility of the agreement and deepens the Israel-Hezbollah conflict amid broader Middle East tensions.' The date reference is inconsistent: the opening says 'Friday' but the body says 'Seven people were killed in a strike on a house on the outskirts of Ansar...at around 04:30 local time' and 'Four more people were killed in a separate strike on the town of Deir al-Zahrani later Saturday.' The brief's open_questions note 'The sources do not clarify how many of the 11 deaths occurred in each location (Ansar vs. Deir al-Zahrani).' The draft presents deaths across two separate days (Friday and Saturday) as a single 'Friday' event, creating factual confusion not resolvable from the provided brief.",
+     "The draft states the IDF described Hassan as 'allegedly involved in advancing terror attacks' but the brief data_point quotes the IDF as simply stating he 'was involved in advancing terror attacks' without the 'allegedly' qualifier. This softens the claim beyond what the source material supports. The word 'allegedly' does not appear in any IDF quote provided in the brief."
+    ]
+   },
+   {
+    "id": "c251",
+    "headline": "[STORY HELD: SOURCE MATERIAL UNVERIFIED]",
+    "category": "accuracy",
+    "reasons": [
+     "The draft is a meta-statement about source failure, not a publishable news story. It violates the hard rule that 'no fact exists outside the brief.' The brief contains only two data_points with minimal substance ('pleaded guilty to two federal stalking charges' and 'read a statement aloud to the court'), and explicitly states in open_questions that the source material is 'primarily HTML/CSS markup and does not contain substantive reporting content.' The brief is marked 'thin': true. A story cannot be drafted from a source that provides no substantive facts. The correct response is to HOLD this story pending source retrieval by the research desk, not to submit a draft that announces the hold. The draft itself acknowledges it cannot meet verification standards, which means no draft should have been submitted to approvals."
+    ]
+   },
+   {
+    "id": "c071",
+    "headline": "Iran alleges Qatar is holding three pilots detained since March",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'their fighter jets were shot down during what Iran describes as conflict with the United States' but the brief data_point says the jets were shot down 'during conflict with the U.S.' without the hedge 'what Iran describes as.' The brief does not contain evidence that this characterization comes only from Iran's account; the writer has smuggled a confidence qualifier not present in the sourced material. This is either unverified framing or a misrepresentation of what the sources actually say about who shot down the jets and under what circumstances."
+    ]
+   }
+  ]
  }
 ]
