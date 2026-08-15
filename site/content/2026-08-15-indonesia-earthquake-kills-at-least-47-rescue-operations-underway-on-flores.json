@@ -1,0 +1,60 @@
+{
+  "id": "c038",
+  "slug": "indonesia-earthquake-kills-at-least-47-rescue-operations-underway-on-flores",
+  "kind": "brief",
+  "title": "Indonesia earthquake kills at least 47, rescue operations underway on Flores",
+  "dek": "A magnitude 7.7 earthquake struck the island of Flores in eastern Indonesia early Saturday, killing at least 47 people across six provinces and destroying hundreds of buildings. Rescue teams are searching for survivors in the remote, mountainous region as dozens of aftershocks continue.",
+  "date": "2026-08-15",
+  "published_utc": "2026-08-15T23:52:50Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 1,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The earthquake, centered at 15 km depth, killed at least 47 people with 24 fatalities in Manggarai province, 17 in East Manggarai, and others across four additional provinces.",
+  "bottom_line": "Rescue teams are actively searching for survivors in terrain complicated by landslides and multiple aftershocks. Watch for updates on the damage assessment and whether death tolls change as communication is restored to isolated areas. The story would shift significantly if landslides or aftershocks trigger secondary disasters that complicate rescue access further.",
+  "human_take": "",
+  "body": [
+    "A magnitude 7.7 earthquake struck the island of Flores in eastern Indonesia shortly before 05:00 local time Saturday, killing at least 47 people across multiple provinces and triggering dozens of aftershocks that continue to hamper rescue efforts in the remote, mountainous terrain.",
+    "According to BBC reporting, the quake hit at a depth of 15 kilometers. Per Indonesia's meteorology and geophysics agency, death tolls included 24 fatalities in Manggarai province, 17 in East Manggarai province, 3 in Sikka province, and at least one death each in Ngada, Ende, and West Manggarai provinces. At least two people were seriously injured and 11 slightly injured, according to BBC reporting.",
+    "More than 150 houses have been severely damaged, alongside dozens of educational institutions, healthcare facilities, places of worship, offices, and other public structures, per BBC reporting. Hundreds of buildings sustained severe damage from the main quake and the cascade of aftershocks that followed. Landslides blocked access to some villages, complicating rescue operations and damage assessment.",
+    "At the port in Maumere, the largest town in Flores, large chunks of concrete broke away from the terminal building onto passengers waiting to board a ferry, with some thrown into the sea when a gangway collapsed, according to BBC reporting. In Ruteng, officials assembled a temporary medical tent outside a hospital to treat earthquake victims.",
+    "Emanuel Melkiades Laka Lena, governor of East Nusa Tenggara province, told a news conference that people were killed in their sleep when buildings collapsed on top of them, according to BBC reporting. The initial tsunami warning prompted approximately 2,000 people to evacuate to higher ground, but the alert was lifted about three hours after the initial quake when monitoring showed no significant sea level rise.",
+    "The National Agency for Disaster Management (BNPB) stated that aid packages were being sent to affected areas, with 10,500 packages having arrived at base operations so far. Per BNPB guidance, residents should remain calm and avoid coastal areas and structures showing damage. Indonesia lies along the meeting point of three major tectonic plates, making the archipelago one of the world's most seismically active regions.",
+    "The full scale of the disaster remains unclear as rescue teams and officials continue to assess damage across the remote provinces. No projections on total damage or additional death toll estimates have been provided by authorities."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c3v00w5ylw9o?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "event_utc": "2026-08-15T21:49:12Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-15T23:52:50Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "also_reported_by": [
+    {
+      "outlet": "The Watchers",
+      "headline": "Major M7.7 earthquake hits Flores region, Indonesia, leaving at least 47 dead - The Watchers - Watching the world evolve and transform"
+    },
+    {
+      "outlet": "NewsCord",
+      "headline": "Magnitude 7.7 Earthquake Kills At Least 47 Off Indonesia\u2019s Flores Island: 29 outlets compared - NewsCord"
+    },
+    {
+      "outlet": "The Times",
+      "headline": "Indonesia earthquake: 47 dead as aftershocks hit Flores - The Times"
+    },
+    {
+      "outlet": "India Tribune",
+      "headline": "Indonesia: Flores earthquake death toll rises to 47 - India Tribune - Chicago"
+    },
+    {
+      "outlet": "India Today",
+      "headline": "Indonesia Flores earthquake kills 47 as small tsunamis hit coastal villages - India Today"
+    }
+  ]
+}

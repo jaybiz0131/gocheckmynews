@@ -1,0 +1,48 @@
+{
+  "id": "c257",
+  "slug": "13-year-old-calls-911-after-being-shot-four-times-in-michigan-rampage-five-killed",
+  "kind": "brief",
+  "title": "13-year-old calls 911 after being shot four times in Michigan rampage; five killed",
+  "dek": "A 13-year-old girl, shot four times, called 911 during a shooting rampage in rural Michigan that killed five people across multiple locations. The suspected gunman, Chad Hickman, 39, was found dead near one of the victims. The girl was hospitalized in critical condition but was stable by Saturday.",
+  "date": "2026-08-15",
+  "published_utc": "2026-08-15T23:52:50Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 8,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "A 13-year-old girl called 911 to report she had been shot four times after a rampage that killed five people across three locations in northern Michigan.",
+  "bottom_line": "Investigators have established the sequence of events and the identities of those involved, but the motive remains under investigation. The autopsy findings and any disclosure of how the girl identified the suspect to emergency dispatch could add material detail to the record in coming days.",
+  "human_take": "",
+  "body": [
+    "A 13-year-old girl, shot four times, called 911 to report she had been shot during a shooting rampage in rural Michigan on Friday that killed five people across three locations, according to NBC News reporting. The girl was the sole survivor of the incident.",
+    "State police arrived around 11:40 a.m. Friday at a home in Lake Township, Missaukee County, where they found three people dead: a 45-year-old man, a 40-year-old woman identified as Amanda Everitt (40), and a 16-year-old boy identified as Eric Everitt, Amanda's son, per the reporting. The girl was also found at that location.",
+    "The suspected gunman, Chad Hickman, 39, is believed to have killed five people across three separate locations, per NBC's reporting. At a second home in Missaukee County, officers found a 53-year-old man dead. A 29-year-old woman was found dead in a wooded area near Whitlock Lake, where Hickman was also discovered dead next to one of the victims.",
+    "The girl was taken to a hospital in critical condition but was stable by Saturday, according to the reporting. State police spokesperson Lt. Ashley Miller said the girl \"called 911 to report that she had been shot.\" Miller stated that investigators had no doubt about the suspect's identity and \"were able to identify him right away,\" but declined to say how, per NBC's account.",
+    "David Everitt, Amanda's father and Eric's grandfather, wrote on Facebook that the wounded girl was a hero \"who while shot 4 times still managed to call 911 and identify the shooter,\" according to the reporting.",
+    "Investigators cannot yet say whether Hickman died by suicide, pending an autopsy, per the reporting. The investigation into a possible motive was ongoing as of Saturday. Miller said the incident \"obviously has rocked and crushed\" the rural community of approximately 15,000 people, and that residents are \"looking for answers, and they want to know why,\" according to NBC's reporting."
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/news/us-news/13-year-old-survivor-michigan-rampage-called-911-rcna592709"
+    }
+  ],
+  "event_utc": "2026-08-15T19:57:46Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-15T23:52:50Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "update_of": "five-killed-across-multiple-locations-in-northern-michigan-suspect-dead",
+  "also_reported_by": [
+    {
+      "outlet": "NBC News",
+      "headline": "13-year-old survivor of Michigan rampage called 911 to report she\u2019d been shot - NBC News"
+    },
+    {
+      "outlet": "New York Post",
+      "headline": "Hero survivor, 13, of Michigan maniac\u2019s shooting spree called 911 despite being shot several times: police, family - New York Post"
+    }
+  ]
+}

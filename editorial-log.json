@@ -7175,5 +7175,37 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-15",
+  "approved": 4,
+  "rejected": [
+   {
+    "id": "c070",
+    "headline": "Category 1 hurricane Lala approaches Hawaii's Big Island with life-threatening rain and wind",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Green's proclamation, announced-not-verified per CBS News, directed all state agencies...' This is a malformed attribution. The confidence label 'announced-not-verified' belongs to the data_point about the proclamation's content (per the brief), but it is incorrectly inserted mid-sentence in the draft as if it were a source tag. The phrase reads awkwardly and fails to properly signal uncertainty in prose; it should either be rephrased as 'according to announced statements' or the uncertain claim should be clearly marked in the narrative voice, not parenthetically interpolated.",
+     "The draft attributes 'Gov. Green declared a state of emergency Thursday and signed an emergency proclamation allowing the state to quickly access resources from a 100 million dollar disaster fund, per ABC News reporting' but the brief data_point shows confidence 'reported' for the declaration and 'announced-not-verified' for the proclamation's specific directive language. The draft conflates these and presents both as equally reported when the proclamation details should carry the lower confidence signal."
+    ]
+   },
+   {
+    "id": "c006",
+    "headline": "Midwest flooding kills at least 3, displaces 150,000 from power as Indiana seeks federal aid",
+    "category": "balance",
+    "reasons": [
+     "The draft structures the entire narrative around FEMA's failure to map flood-prone areas and the financial vulnerability this creates, featuring three substantial paragraphs (4-6) on FEMA map inadequacy, the Hurricane Helene precedent, and coverage gaps. The brief's bear_case is empty, and no counter-evidence or alternative perspective is presented. The story reads entirely from one analytical frame\u2014that federal flood risk assessment is fundamentally broken\u2014without presenting what FEMA, emergency management officials, or other authorities say in response to or in defense of current mapping practices. A story framing a federal agency's systematic failure requires at least acknowledgment of the agency's position or the complexity of the mapping challenge; this draft amounts to unchallenged criticism presented as analysis."
+    ]
+   },
+   {
+    "id": "c246",
+    "headline": "Justice Department Authorizes Military to Detain Migrants in Border Defense Zones",
+    "category": "accuracy",
+    "reasons": [
+     "The final paragraph contains two sentences about anti-hacking laws and digital infrastructure that are not connected to the National Defense Areas story and appear to be smuggled from a different brief or topic: 'U.S. anti-hacking laws broadly bar people and businesses from hacking digital infrastructure, though exceptions exist for law enforcement. The memo does not change those laws but mandates that any participating company be contracted with the federal government.' This material does not appear in the brief's data_points and breaks the hard rule that no fact exists outside the brief.",
+     "The sentence 'The memo does not change those laws but mandates that any participating company be contracted with the federal government' appears to confuse or conflate the National Defense Areas authorization with a different cyber operations policy; the brief contains no such mandate about federal contracting in relation to the NDAs specifically."
+    ]
+   }
+  ]
  }
 ]
