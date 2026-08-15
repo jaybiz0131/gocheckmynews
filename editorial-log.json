@@ -6844,5 +6844,56 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-15",
+  "approved": 3,
+  "rejected": [
+   {
+    "id": "c107",
+    "headline": "FBI: Violent crime plummeted in 2025, murder rate hit 20-year low",
+    "category": "accuracy",
+    "reasons": [
+     "The brief includes a data_point claiming 'The Trump administration's immigration crackdowns resulted in the highly publicized shooting deaths of U.S. citizens Renee Good and Alex Pretti in Minneapolis' (confidence: reported), but this claim does not appear anywhere in the draft. This is a significant omission of sourced information from the brief.",
+     "The draft states the FBI data covers 'about 87% of the country's police departments' but the brief contains a separate data_point stating the report covers 'about 96% of the U.S. population.' The draft uses the narrower figure (87%) which is in the brief, but the brief also lists a conflicting 96% figure in another data_point. The draft should have noted or reconciled this discrepancy rather than silently choosing one.",
+     "The draft's final paragraph states 'The brief does not establish what correlation, if any, exists between the administration's stepped-up immigration and violent crime crackdowns and the 10-year high in reported assaults on law enforcement officers.' This meta-commentary about the brief itself is inappropriate for publication and violates the rule that no editorializing about sources appears in the final draft."
+    ]
+   },
+   {
+    "id": "c083",
+    "headline": "5 people killed in rural Michigan; suspect found dead",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'A fifth victim was found dead at another residence elsewhere in Missaukee County' but the brief's data_point says 'A fourth person was found dead at another residence in Missaukee County.' The victim count and numbering sequence are inconsistent between draft and brief: the draft says five people at three locations (3 + 1 + 1) but refers to 'a fourth person' at the second residence, creating confusion about whether there are five or six victims total.",
+     "The draft refers to 'the sixth person found dead in the woods with Hickman' in the final sentence, but earlier states five people were killed plus the suspect (Hickman) found dead, which totals six bodies. The brief data_point states 'Hickman and another person were found dead in the woods' but never clarifies if that 'another person' is one of the original five victims or a sixth person. The draft treats it as a sixth person without clarification from the brief."
+    ]
+   },
+   {
+    "id": "c123",
+    "headline": "[INSUFFICIENT SOURCE MATERIAL - DO NOT PUBLISH]",
+    "category": "accuracy",
+    "reasons": [
+     "The draft contains only a rejection notice rather than an attempt to write a publishable story. While the reasoning provided in the draft about insufficient source material is valid (the brief has zero data_points and is marked 'thin': true), a draft should not be submitted in this form. The writer should either return the brief to research before drafting, or not submit a draft at all. A rejection notice disguised as a draft violates the submission protocol.",
+     "The core brief itself is unpublishable: it contains no data_points (empty array), no bear_case content, and only open_questions. This is a research failure, not a drafting failure, but the writer should not have attempted to convert this into a 'draft' text. The proper action was to reject the assignment at intake."
+    ]
+   },
+   {
+    "id": "c257",
+    "headline": "Hawaii under hurricane warning as Tropical Storm Lala intensifies toward islands",
+    "category": "accuracy",
+    "reasons": [
+     "Gov. Green's quote in the draft reads: 'This is a very serious storm' and 'We have not had a hurricane make landfall in quite some time. So none of us really have experienced this really in, you know, the last couple of decades.' However, the brief's data_point for this quote only includes 'This is a very serious storm' and the separate quote about 'an incredible amount of water'\u2014the full second quote about not experiencing hurricane landfall is not in the brief and constitutes smuggled information.",
+     "Mayor Kimo Alameda's full quote in the draft is not present in the brief's data_points. The brief only includes the paraphrase that 'Alameda noted that the greatest threats from the storm will vary for people in different parts of the island, including high surf for those close to the shoreline, high winds in different areas, and flooding'\u2014not the direct quote 'We're not exempt from these extreme weather conditions. So we've been here before, and messages have already gone out. But this could look like a big one.'"
+    ]
+   },
+   {
+    "id": "c072",
+    "headline": "Sherrod Brown mounts Senate comeback bid in Ohio",
+    "category": "clarity",
+    "reasons": [
+     "The brief explicitly notes 'No source text was fetched; the full article details regarding Brown's campaign strategy, policy positions, populist pitch specifics, opponent information, or polling data are unavailable' and lists critical open questions including 'Details on whether Brown previously held the Ohio Senate seat or is running for an open seat.' The draft fails to clarify whether this is a return to a seat Brown previously held or a bid for an open seat\u2014essential context for 'comeback' to be intelligible. The story is too thin even relative to the thin brief; it reads as incomplete reporting rather than a tight story built from available facts."
+    ]
+   }
+  ]
  }
 ]

@@ -1,0 +1,35 @@
+{
+  "id": "c285",
+  "slug": "flood-threat-rising-in-the-midwest-as-rivers-crest",
+  "kind": "brief",
+  "title": "Flood threat rising in the Midwest as rivers crest",
+  "dek": "Rivers across the Midwest storm zone are rising and threatening homes as severe weather continues. NBC News reports from outside Indianapolis on the growing flood danger.",
+  "date": "2026-08-15",
+  "published_utc": "2026-08-15T11:00:50Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 4,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Rivers are rising and threatening to wash out more homes across the Midwest storm zone.",
+  "bottom_line": "The Midwest flood threat remains fluid and localized reporting indicates ongoing danger to residential areas. Readers in affected regions should monitor local National Weather Service updates and emergency management alerts for specific guidance on their location.",
+  "human_take": "",
+  "body": [
+    "Rivers across the Midwest storm zone are rising and threatening homes in the region, according to NBC News reporting. The flood threat continues to grow as severe weather moves through the area.",
+    "NBC News reporter Maggie Vespa is reporting from outside Indianapolis on the escalating danger from rising floodwaters. The storm zone has produced conditions that are causing rivers to rise toward and beyond normal levels, with the potential to wash out additional homes in affected areas.",
+    "The exact scope of the threat, including which specific rivers are rising by how much and which counties or municipalities face the greatest danger, remains unclear from available reporting. The forecast for river levels, expected rainfall totals, and any evacuation orders that may have been issued are not yet detailed in the coverage."
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/nightly-news/video/flood-threat-rising-in-the-midwest-268343365595"
+    }
+  ],
+  "event_utc": "2026-08-14T23:30:36Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-15T11:00:50Z",
+    "sources_cited": 1,
+    "sources_live_checked": 0
+  },
+  "update_of": "indiana-rivers-crest-at-multi-decade-highs-on-a-fourth-day-of-midwest-flooding"
+}
