@@ -7132,5 +7132,48 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-15",
+  "approved": 3,
+  "rejected": [
+   {
+    "id": "c246",
+    "headline": "Tropical Storm Lala floods Midwest while threatening Hawaii",
+    "category": "clarity",
+    "reasons": [
+     "The draft explicitly acknowledges missing information in paragraph 3 ('The sources provided do not specify...'), which reads as a confession of inadequate reporting rather than a completed news story. This breaks the fourth wall and undermines reader confidence.",
+     "The brief is marked thin=true with only 3 data_points; the draft should either deliver a tightly focused story around those facts or be rejected for insufficient source material. A 200-word story that announces what it cannot report is neither.",
+     "The opening claims Lala is 'simultaneously battering two distant U.S. regions' and 'moving toward' Hawaii\u2014mixing present active threat in the Midwest with future threat in Hawaii\u2014without timestamps or clarity on when reporting occurred. This conflates two different storm phases without grounding.",
+     "No current intensity rating, rainfall forecasts, specific affected areas, or evacuation status appears in the draft, yet the bottom_line directs readers to 'watch for official updates'\u2014a deflection that suggests the story should not have run at draft stage."
+    ]
+   },
+   {
+    "id": "c245",
+    "headline": "Justice Department authorizes military to detain migrants near border defense zones",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states the opinion 'grant[s] U.S. military personnel broad new authority to detain migrants accused of trespassing in or near designated National Defense Areas,' but the brief's data point 7 specifies the opinion said 'military personnel can arrest individuals who leave national defense areas before they can be apprehended for trespassing'\u2014a materially narrower claim about detaining people *outside* the zones, not *in or near* them. The draft conflates the authority and overstates its scope.",
+     "The draft opens with 'a significant expansion of military power on domestic soil' and closes with 'clears the legal path for expanded military detention operations'\u2014language that reads as the desk's own verdict rather than attribution. The brief's bear_case correctly notes the opinion is 'advisory only and does not set any legal precedent.' The framing in the draft minimizes this critical limitation and presents the opinion's effect as settled."
+    ]
+   },
+   {
+    "id": "c247",
+    "headline": "Mangione enters guilty plea on federal stalking charges in UnitedHealthcare CEO case",
+    "category": "accuracy",
+    "reasons": [
+     "The brief explicitly labels itself 'thin: true' with only 3 data_points and notes in open_questions that 'The source text does not contain the full content of Mangione's statement to the court or his stated reasons for targeting Thompson.' The draft's third paragraph reads: 'The CBS News reporting confirms the plea itself and that Mangione made a statement to the court. The source material does not contain the full text of Mangione's statement or the specific details of his stated reasons for targeting Thompson beyond the indication that he provided an explanation during the hearing.' This paragraph admits the gap but it also reads as editorial commentary on the source's insufficiency, not as news reporting. A brief this thin warrants either rejecting the story as unpublishable or writing only what the brief supports\u2014not a meta-narrative about what the source does not contain. The draft should either be scrapped or reduced to bare facts only (plea, two federal charges, statement made, state trial pending)."
+    ]
+   },
+   {
+    "id": "c004",
+    "headline": "Trump administration moves to authorize private companies to conduct offensive cyber operations",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states Paul Rosenzweig 'told NPR the order is \"a bad idea,\"' but the brief data_point quotes him as saying 'It's not an incomparably bad idea, but it's a bad idea'\u2014a materially different statement that softens the criticism. The draft omits the 'not an incomparably bad idea' qualifier, misrepresenting his actual position.",
+     "The draft presents the claim about how private firms would legally conduct offensive cyber operations as unresolved ('Additionally, the memo does not fully explain how private firms would legally conduct offensive cyber operations given existing U.S. anti-hacking laws'), but the brief data_point states 'The memo does not change existing U.S. anti-hacking laws, but mandates any participating company be contracted with the federal government'\u2014a critical distinction about the legal mechanism that the draft fails to convey."
+    ]
+   }
+  ]
  }
 ]

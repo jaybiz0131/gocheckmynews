@@ -1,0 +1,73 @@
+{
+  "id": "c035",
+  "slug": "israeli-airstrikes-in-southern-lebanon-kill-11-lebanese-health-authorities-say",
+  "kind": "brief",
+  "title": "Israeli airstrikes in southern Lebanon kill 11, Lebanese health authorities say",
+  "dek": "Israeli airstrikes in southern Lebanon on August 15, 2026, killed 11 people including three children and two women, according to Lebanese health authorities. The strikes occurred in the towns of Ansar and Deir al-Zahrani. Israeli officials said they targeted a Hezbollah battalion commander but acknowledge civilian deaths.",
+  "date": "2026-08-15",
+  "published_utc": "2026-08-15T17:30:15Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 5,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Eleven people, including three children and two women, were killed in Israeli strikes on southern Lebanon on August 15, 2026, per Lebanese health authorities.",
+  "bottom_line": "The August 15 strikes underscore deep disagreements between Israel and Lebanon over what the June framework permits and prohibits. The next test comes in September negotiations, where the parties will face the diverging interpretations of the ceasefire terms that have already generated multiple incidents of escalation.",
+  "human_take": "",
+  "body": [
+    "Israeli airstrikes in southern Lebanon killed 11 people on August 15, 2026, according to Lebanese health authorities, marking one of the deadliest single days of attacks since a June ceasefire framework was announced.",
+    "Per BBC World, seven people were killed in a strike on a house on the outskirts of Ansar, 70 kilometers (43 miles) south of Beirut, at around 04:30 local time. Among the dead were three children and two women. Four people were killed and five wounded in a later strike on the town of Deir al-Zahrani. Lebanese authorities said the strike in Ansar occurred where displaced families were living.",
+    "Israeli officials provided a separate account of the incident. The Israel Defense Forces said the strike on Ansar was directed at Ali Samir al-Haj Hassan, described by the IDF as a Hezbollah battalion commander in the Radwan Force unit. The IDF stated: \"Alongside him, several additional terrorists who were involved in advancing terror attacks against IDF soldiers were eliminated.\" In response to questions about civilian casualties, the IDF claimed the strike was \"specifically directed at Hassan, who was a lawful target under international law, not at his family members who he used as human shields, hiding alongside them inside the military HQ.\"",
+    "Lebanon's Prime Minister Nawaf Salam disputed that framing. According to BBC World, Salam said the seven civilians killed were not \"military infrastructure\" and stated: \"Israel must halt this escalation.\" Lebanon's President Joseph Aoun condemned the Israeli strikes and their \"repeated violations\" of the June framework.",
+    "Israel and Lebanon announced a framework agreement on June 26, 2026, per BBC World, laying out a plan for Israeli forces to withdraw from southern Lebanon in exchange for the disarmament of the Iran-backed Hezbollah militant group. The June ceasefire framework calls for Hezbollah to disarm, Israeli forces to withdraw gradually from southern Lebanon, and the Lebanese army to deploy across the area. Hezbollah was not a party to the agreement and has rejected direct negotiations.",
+    "Hezbollah responded to the strikes with a statement: \"The Israeli enemy must clearly understand that its attacks, violations and attempts to impose a fait accompli cannot continue, and will be met with an appropriate response in defense of Lebanon, its people, sovereignty and national dignity.\"",
+    "Despite a reduction in fighting following the June agreements, Israeli strikes and demolitions in southern Lebanon have continued, according to BBC World. Israel's forces continue to occupy roughly 5 percent of Lebanese territory. The IDF says it will continue to remove threats to Israeli citizens and soldiers operating in the security zone, the 10-kilometer-deep military buffer in southern Lebanon occupied by Israel. Lebanese and Israeli negotiators are set to meet for an eighth round of negotiations in September, though a final date has not been set."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c4gjygx4gjeo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/world/israeli-airstrikes-on-southern-lebanon-kill-11-people-health-ministry-says"
+    },
+    {
+      "title": "The New York Times",
+      "url": "https://www.nytimes.com/2026/08/15/world/middleeast/israel-strikes-lebanon-ansar.html"
+    }
+  ],
+  "event_utc": "2026-08-15T15:47:14Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-15T17:30:15Z",
+    "sources_cited": 3,
+    "sources_live_checked": 2
+  },
+  "update_of": "israeli-strikes-in-lebanon-kill-11-health-officials-say",
+  "also_reported_by": [
+    {
+      "outlet": "Al Jazeera",
+      "headline": "Israeli strikes kill 11 in southern Lebanon as attacks intensify - Al Jazeera"
+    },
+    {
+      "outlet": "PBS",
+      "headline": "Israeli airstrikes on southern Lebanon kill 11 people, Health Ministry says - PBS"
+    },
+    {
+      "outlet": "ABC News",
+      "headline": "Israeli airstrikes on southern Lebanon kill 11 people in another test to truce - ABC News - Breaking News, Latest News and Videos"
+    },
+    {
+      "outlet": "The Guardian",
+      "headline": "Israeli strikes on southern Lebanon kill 11 in worst toll since June truce - The Guardian"
+    },
+    {
+      "outlet": "Middle East Eye",
+      "headline": "Israeli strikes kill 11 in southern Lebanon, Lebanese health ministry says\u200b - Middle East Eye"
+    },
+    {
+      "outlet": "The Hindu",
+      "headline": "Israeli airstrike on southern Lebanon kills 7 people, Lebanese state media say - The Hindu"
+    }
+  ]
+}
