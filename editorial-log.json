@@ -6786,5 +6786,63 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-15",
+  "approved": 2,
+  "rejected": [
+   {
+    "id": "c053",
+    "headline": "Mangione pleads guilty to federal charges in shooting of health insurance executive",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states Mangione 'admitted to stalking and shooting the executive outside a Hilton hotel in Manhattan in 2024,' but the brief data_point specifies the location as 'outside a Hilton hotel in Manhattan' without year context. The draft's insertion of '2024' as the year of the incident is not present in any of the brief's data_points and appears to be smuggled information not traceable to the research.",
+     "The draft claims Mangione 'revealed his motive' but the brief explicitly flags this as an open question: 'The specific nature of the motive Mangione revealed - the source text is truncated and does not carry the motive statement.' The draft presents the motive revelation as fact without specifying what that motive was, violating the rule that unconfirmed claims must be marked as such. A claim marked in the brief as truncated/unverified cannot appear in the draft as settled fact."
+    ]
+   },
+   {
+    "id": "c259",
+    "headline": "Approximately 16 million Americans under flood watch as Midwest flooding continues",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states the flooding is 'the Midwest enters its fourth day of severe flooding' and later 'now in its fourth day.' This claim\u2014the specific duration of the event\u2014does not appear anywhere in the brief's data_points. The brief contains no temporal marker for how many days the flooding has been ongoing. This is smuggled information introduced by the writer, not sourced to the brief.",
+     "The draft states 'Indiana rivers are cresting at multi-decade highs' but the brief contains no data_point matching this claim. The brief only notes that the brief itself lists 'Indiana' as mentioned in CBS News reporting but provides no specific claim about 'multi-decade highs.' This is an unsourced factual claim.",
+     "The draft acknowledges in its own bottom_line that 'The extent of the flood watch zone and the timeline for water recessions remain unclear from available reporting,' yet the body presents '16 million Americans under flood watches' as settled fact without hedge language. The brief is marked 'thin: true' with only two minimal data_points, yet the draft reads with more specificity than the research warrants, indicating facts have drifted beyond what the brief supports."
+    ]
+   },
+   {
+    "id": "c124",
+    "headline": "U.S. and Iran locked in economic standoff over sanctions and blockade",
+    "category": "accuracy",
+    "reasons": [
+     "The draft body contains a meta-commentary paragraph beginning 'The brief does not specify...' This is internal editorial scaffolding, not reporting. It must be removed entirely; it breaks the fourth wall and reads as the writer's note to the desk, not published journalism.",
+     "The draft makes claims about economic strategy ('Iran's counter-strategy relies on market conditions that make the blockade unsustainable') that do not appear in the brief's data_points. The brief contains only that 'Tehran is betting high oil prices will force Washington to relent'\u2014not the characterization of what makes it 'unsustainable.' This is inference beyond the sourced claim."
+    ]
+   },
+   {
+    "id": "c085",
+    "headline": "Mass shooting in rural Michigan leaves five dead; suspect also found deceased",
+    "category": "accuracy",
+    "reasons": [
+     "The draft body contains a meta-commentary paragraph beginning 'The brief does not specify...' This is internal editorial scaffolding and must be removed. It is not reporting; it breaks the fourth wall and reads as a writer's note to editors, not published journalism."
+    ]
+   },
+   {
+    "id": "c266",
+    "headline": "FBI reports 18.1% murder decline in 2025, reaching 20-year low",
+    "category": "accuracy",
+    "reasons": [
+     "The final paragraph states 'The Trump administration's efforts included highly publicized shooting deaths of U.S. citizens Renee Good and Alex Pretti in Minneapolis' and 'National Guard was also sent to Washington, D.C. to assist local police with high levels of vehicle theft and gun violence.' These claims appear in the brief as data_points but the phrasing 'The Trump administration's efforts included...shooting deaths' causally links the administration's actions to deaths without the source material's clarity on causation or context. The brief lists this as a reported fact but the draft's construction ('efforts included...deaths') reads as attribution of blame rather than neutral reporting. Additionally, the source material cited (single CBS News URL) does not appear sufficient to substantiate two separate, serious allegations about specific deaths and their causal relationship to federal policy without fuller documentation."
+    ]
+   },
+   {
+    "id": "c057",
+    "headline": "Congo Ebola outbreak exceeds 4,600 cases, 2,100 deaths",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The outbreak has reached that death toll almost three times faster than the 2014-16 West Africa outbreak, which was previously the deadliest Ebola epidemic on record.' The brief's data_point claims '2,100 death toll in Congo was reached almost three times faster than the outbreak over a decade ago' but does not explicitly confirm that the West Africa outbreak was 'previously the deadliest Ebola epidemic on record.' This comparative claim about the West Africa outbreak's historical status is not present in the brief's data_points and constitutes smuggled information beyond the brief's scope."
+    ]
+   }
+  ]
  }
 ]
