@@ -1,0 +1,38 @@
+{
+  "id": "c148",
+  "slug": "federal-judge-lifts-block-on-somalia-tps-termination-despite-finding-compelling-case-for-plaintiffs",
+  "kind": "brief",
+  "title": "Federal judge lifts block on Somalia TPS termination despite finding 'compelling case' for plaintiffs",
+  "dek": "U.S. District Judge Allison Burroughs in Boston lifted a stay blocking the Trump administration's termination of Somalia's Temporary Protected Status on Friday, citing a June Supreme Court ruling that limited judicial review of TPS decisions. The judge acknowledged plaintiffs faced irreparable harm but said the Supreme Court's decision constrained her authority.",
+  "date": "2026-08-15",
+  "published_utc": "2026-08-15T11:36:09Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 3,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "According to sources at U.S. Citizenship and Immigration Services, 2,471 Somali nationals currently hold TPS, with another 1,383 pending applications.",
+  "bottom_line": "The Supreme Court's limitation on judicial review of TPS terminations removed the primary legal check on the administration's action. Whether plaintiffs pursue further appeals or administrative remedies remains unclear from the current reporting; the timing for when the termination formally takes effect will depend on remaining DHS procedures and whether additional legal challenges succeed.",
+  "human_take": "",
+  "body": [
+    "U.S. District Judge Allison Burroughs in Boston on Friday lifted a stay that had blocked the Department of Homeland Security from terminating Somalia's Temporary Protected Status designation. The decision removes a legal obstacle to the Trump administration's plan announced in January to end humanitarian protections for Somali nationals, according to Fox News reporting.",
+    "In her ruling, Burroughs acknowledged that plaintiffs challenging the termination had presented a \"compelling case\" and would suffer \"irreparable harm\" if the injunction were withheld, and that the balance of hardships and public interest favored the plaintiffs. However, she concluded that a June Supreme Court ruling in Mullin v. Doe constrained her ability to continue blocking the action. That Supreme Court decision held that the TPS statute bars judicial review of certain non-constitutional decisions by the administration to terminate TPS designations, and also found that plaintiffs' equal protection challenge was unlikely to succeed.",
+    "The Trump administration's termination plan was justified by then-Homeland Security Secretary Kristi Noem, who argued that conditions in Somalia had improved enough to end the protections. Four Somali nationals and two advocacy groups, including African Communities Together, brought the lawsuit challenging the decision. The plaintiffs argued the administration's decision was motivated by bias against non-White immigrants, pointing to Trump's previous descriptions of Somalis as \"garbage\" and \"low IQ people,\" per Fox News.",
+    "Following the Supreme Court's ruling in June, the plaintiffs filed an amended complaint raising new constitutional claims and sought emergency relief. Burroughs issued an administrative stay in August in response to allegations that the administration violated the Fifth Amendment by terminating Somalia's TPS designation based on racial and national-origin discrimination.",
+    "Burroughs, appointed by former President Barack Obama, wrote in her Friday decision: \"Plaintiffs have made a convincing showing that they will suffer irreparable harm if the injunction is withheld ... and the balance of hardships and the public interest also favor Plaintiffs, given that the government has made no showing that maintaining TPS status for the duration of this litigation would impose an undue burden.\" Despite those findings, she lifted the stay, citing the Supreme Court's constraints on her judicial authority.",
+    "According to sources at U.S. Citizenship and Immigration Services cited by Fox News, 2,471 Somali nationals in the U.S. currently hold TPS, while another 1,383 have pending TPS applications. The termination exposes these individuals to potential deportation proceedings."
+  ],
+  "sources": [
+    {
+      "title": "Fox News",
+      "url": "https://www.foxnews.com/politics/trump-scores-major-immigration-victory-judge-clears-way-end-tps-protections-thousands-somalis"
+    }
+  ],
+  "event_utc": "2026-08-15T09:43:12Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-15T11:36:09Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "update_of": "judge-lifts-block-on-trump-administration-s-somalia-tps-termination-citing-supreme-court-constraints"
+}

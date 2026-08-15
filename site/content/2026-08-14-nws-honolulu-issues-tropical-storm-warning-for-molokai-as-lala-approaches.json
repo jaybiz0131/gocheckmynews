@@ -70,5 +70,6 @@
     "fixed": "No fixed/excluded zones specified in the alert; alert is for Molokai locations listed",
     "user_action": "Plan for hazardous wind of equivalent tropical storm force; Remaining efforts to protect property should be completed as soon as possible; Prepare for limited wind damage; Move to safe shelter before the wind becomes hazardous; Complete preparations for storm surge flooding, especially in low-lying vulnerable areas, before conditions become unsafe; Leave immediately if evacuation orders are given for your area; Heed any flood watches and warnings",
     "advisory_url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.26f5fc84d976f940207a88270b54aa9b20eaa1cd.019.1.cap"
-  }
+  },
+  "superseded_by": "hawaii-under-hurricane-warning-as-tropical-storm-lala-approaches-big-island"
 }

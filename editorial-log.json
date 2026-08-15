@@ -6895,5 +6895,55 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-15",
+  "approved": 3,
+  "rejected": [
+   {
+    "id": "c264",
+    "headline": "16 million Americans under flood watches as Midwest waters rise",
+    "category": "clarity",
+    "reasons": [
+     "The draft is extremely thin (one sentence of substantive content plus a bottom_line) despite the brief marking the source as 6000 characters. The brief itself flags 6 open questions (specific states/counties, duration, rainfall amounts, evacuations, peak water level, fatalities) that are fundamental to the story but entirely absent. A 16-million-person flood watch warrants more than a single sourced claim. The brief's angle emphasizes 'specific scope and timing remain active' yet the draft provides neither. This fails minimum clarity for stakes and context.",
+     "The bottom_line contradicts the story's own reporting: it says 'the extent of the flood watch zone and timeline for water recessions remain unclear from available reporting,' but the draft itself provides no reporting detail beyond the CBS figure to establish what *is* clear. The bottom_line should guide readers to what matters, not admit defeat on the story's core premises."
+    ]
+   },
+   {
+    "id": "c122",
+    "headline": "UNABLE TO DRAFT: Source material not readable",
+    "category": "accuracy",
+    "reasons": [
+     "Draft body states 'The brief's data_points array is empty' and presents this as a fact about the submission state, but this is meta-commentary about the research process, not a news story. A draft titled 'UNABLE TO DRAFT' should not be published as news content; it is a rejection memo disguised as a draft. If the source material is truly unreadable, the story should not proceed to approval queue at all."
+    ]
+   },
+   {
+    "id": "c067",
+    "headline": "UNABLE TO DRAFT: Source material not readable",
+    "category": "accuracy",
+    "reasons": [
+     "Draft is titled 'UNABLE TO DRAFT: Source material not readable' and presents internal research process commentary rather than news. The body reads as a desk memo explaining why the story cannot proceed, not as a news article. This should not be in the approval queue; it should be rejected at research stage. Additionally, the brief contains only two data_points with no specifics (no rule name, no dates, no case counts, no affected regions), making any publishable story impossible. The draft correctly identifies this insufficiency but should not be repackaged as a story submission."
+    ]
+   },
+   {
+    "id": "c066",
+    "headline": "Prosecutors Examined Firm With Tie to Judge in Trump Hush Money Trial",
+    "category": "accuracy",
+    "reasons": [
+     "The brief explicitly states 'No source text was fetched; the brief is built from the snippet alone' and lists zero data_points and zero bear_case items. The draft presents the core claim as reportable fact ('A U.S. attorney in Chicago subpoenaed a fund-raising firm...') when the brief itself contains no verified details to support any of the specifics: not the location (Chicago), not the entity type (fund-raising firm), not the relationship (co-owned by daughter), not the existence or nature of the subpoena. The draft acknowledges uncertainty in its second paragraph but the lede states unverified details as established fact. With no source text fetched and no data_points in the brief, the draft cannot meet the hard rule that facts must trace to the research.",
+     "The draft cites 'The New York Times' as the source, but the brief contains no fetched source text and source_chars = 0, meaning the research team did not retrieve or verify the Times article. Publishing a draft built on an unfetched source violates the accuracy requirement."
+    ]
+   },
+   {
+    "id": "c004",
+    "headline": "ICE Detained a Venezuelan Soccer Pro. His Case Shows the Immigration Backlog Crisis",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Calder\u00f3n was arrested in late February after being pulled over for speeding...and charged with driving without a valid Florida license.' However, the brief's open_questions explicitly flag: 'The exact date Calder\u00f3n was detained is not specified; only that he was arrested in late February is provided.' The draft treats the speeding stop and driving-without-license charge as established fact when the brief itself marks this as an open question about timing and does not confirm the charge details in its data_points with independent verification\u2014the data_point cites 'NPR / Department of Homeland Security statement' as sources. A statement from DHS is an official response, not independent verification of the arrest charge.",
+     "The draft states DHS gave Calder\u00f3n 'permission to stay until September 5, 2025,' but the brief's open_questions note: 'The source states DHS gave a permission-to-stay date of September 5, 2025, but the story is dated August 15, 2026, creating a chronological discrepancy that may indicate a transcription error or clarification needed from DHS.' The draft presents this date as fact without flagging the chronological impossibility (a September 2025 deadline stated in August 2026 reporting). This is a red-flag accuracy failure\u2014the brief identified the discrepancy as unresolved and the draft published it as settled.",
+     "The draft attributes the quote about quota-driven detention ('the slow pace of case processing is by design and allows the government to meet detention and deportation quotas') to Shev Dalal-Dheini as a direct statement, but the brief's data_point marks this as 'reported' confidence from NPR\u2014meaning it is paraphrased/summarized reporting, not a direct quote from the source. The draft should not present paraphrased claims as verified statements without attribution nuance."
+    ]
+   }
+  ]
  }
 ]
