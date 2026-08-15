@@ -1,0 +1,32 @@
+{
+  "id": "c004",
+  "slug": "cannot-publish-no-source-text-available",
+  "kind": "brief",
+  "title": "CANNOT PUBLISH: No Source Text Available",
+  "dek": "Brief references NPR reporting on Venezuelan soccer player Homero Calder\u00f3n's ICE detention and immigration backlog but provides no article text, facts, dates, charges, proceedings, or context. Source fetch returned empty. No story possible without source material.",
+  "date": "2026-08-15",
+  "published_utc": "2026-08-15T11:58:19Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 6,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "No verifiable facts available from the provided source.",
+  "bottom_line": "Story development blocked pending source recovery. Resubmit only when the full NPR article text or alternative on-record sources with specific case details and backlog mechanics are available.",
+  "human_take": "",
+  "body": [
+    "This story cannot be drafted. The brief names Venezuelan soccer player Homero Calder\u00f3n and references an NPR report about his ICE detention and the immigration system backlog, but no article text was retrieved from the source URL. The source_texts array is empty, meaning no facts, dates, charges, court proceedings, timeline, or backlog statistics are available. The brief itself notes that zero data points are recoverable. Without access to the NPR reporting or alternative verified sources with substantive detail about Calder\u00f3n's case and the operational backlog, no factual story can be constructed."
+  ],
+  "sources": [
+    {
+      "title": "NPR",
+      "url": "https://www.npr.org/2026/08/15/nx-s1-5928322/ice-detained-a-venezuelan-soccer-pro-his-case-shows-the-immigration-backlog-crisis"
+    }
+  ],
+  "event_utc": "2026-08-15T10:10:00Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-15T11:58:19Z",
+    "sources_cited": 1,
+    "sources_live_checked": 0
+  }
+}

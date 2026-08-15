@@ -6995,5 +6995,28 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-15",
+  "approved": 6,
+  "rejected": [
+   {
+    "id": "c264",
+    "headline": "16 million Americans under flood watches as Midwest faces torrential rains",
+    "category": "clarity",
+    "reasons": [
+     "The draft opens with a fact ('Around 16 million Americans are under flood watches') and immediately admits it has no details about which states, duration, timeline, or when the rain began/will end. This is not a story; it is a confession of insufficient reporting. The brief itself is marked 'thin: true' with only two data points, but the draft goes further by stating in the body 'The sources do not specify...' multiple times, which reads as transparency-theater rather than news. A story this thin should either (a) be rejected at the brief stage, or (b) be built around what IS known (e.g., 'The National Weather Service has issued flood watches affecting 16 million Americans in the Midwest as heavy rains swell rivers; specifics remain fluid') rather than listing what is missing. The current draft violates the open-question format by inserting the admissions into the body rather than treating them as editorial gaps. The bottom_line also fails: it does not look forward or suggest what would change the story, only that NWS pages are 'primary sources,' which is not a news lead.",
+     "The story structure fails: it leads with a number, acknowledges the number is all that is known, and then spends the body listing what it does not know. This is not reporting; it is a placeholder. A thin brief can produce a short, tight story, but not one that reads as incomplete reporting."
+    ]
+   },
+   {
+    "id": "c257",
+    "headline": "Five killed in Northern Michigan; suspect found dead",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The suspect, 39-year-old Chad Hickman, was found dead in a wooded area' and later 'Authorities searched the woods, they found Hickman and a fourth victim dead.' This presentation conflates two separate victims\u2014the fourth person found in critical condition at the initial scene and Hickman (the suspect). The brief's data points show: (1) 'a fourth person in critical condition' at the first scene, (2) 'Hickman and a fourth victim dead' in the woods. The draft's wording suggests Hickman himself was the fourth victim, when the brief indicates Hickman was the suspect found dead alongside an unnamed fourth victim. This is a material factual error about casualty identity and count."
+    ]
+   }
+  ]
  }
 ]
