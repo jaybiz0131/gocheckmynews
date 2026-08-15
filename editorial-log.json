@@ -6945,5 +6945,55 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-15",
+  "approved": 3,
+  "rejected": [
+   {
+    "id": "c277",
+    "headline": "Trump declares intention to claim Strait of Hormuz as U.S. territory; Iran warns blockade will continue",
+    "category": "balance",
+    "reasons": [
+     "The brief's bear_case notes 'No counterclaim or denial from the Trump administration or alternative perspective is presented in the source text,' yet the draft presents this one-sided account without signaling the absence of Trump administration response or rebuttal. A sentence such as 'The Trump administration has not publicly responded to Iran's statements' would flag the imbalance for readers. Instead, the draft reads as a one-way escalation narrative.",
+     "The draft characterizes Trump's stated rationales for the conflict ('initially citing support for anti-government protests and later prioritizing Iran's nuclear program and regime change') in a way that could read as dismissing or minimizing the administration's stated policy basis. The phrasing 'various rationales' implies shifting or inconsistent justifications without the brief supporting editorial judgment on that point.",
+     "The draft omits any counter-argument or Trump administration statement on the territorial claim itself\u2014what legal or policy theory supports it, what the administration views as its basis. The reader is left with only Iran's mockery and Trump's assertion, with no administration defense presented."
+    ]
+   },
+   {
+    "id": "c147",
+    "headline": "Federal judge lifts block on Trump administration's Somalia TPS termination, citing Supreme Court constraints",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states that Trump's descriptions of Somalis as 'garbage' and 'low IQ people' are offered as evidence in the case ('They pointed to Trump's previous descriptions of Somalis as \"garbage\" and \"low IQ people,\" according to Fox News reporting'). However, the brief data_point says plaintiffs 'pointed to' these statements\u2014meaning the statements are allegations or claims made by plaintiffs in their legal challenge, not independently verified facts documented by Fox News. The draft's phrasing makes it appear Fox News confirmed Trump made these statements; the brief says plaintiffs cited them. This is an accuracy slip: the source of the claim (plaintiffs' legal argument) is not clearly separated from the source of the reporting (Fox News relaying what plaintiffs alleged).",
+     "The quote from Judge Burroughs ('Plaintiffs have made a convincing showing...') is presented in the draft, and the brief's data_point marks it 'verified-on-chain,' but the draft then states 'Despite these findings, she wrote that she was \"bound to view things through the Mullin prism\"'\u2014implying the judge found for plaintiffs on merits but was overruled by precedent. The brief's bear_case clarifies that Burroughs 'did not reach on the merits due to the jurisdictional bar imposed by Mullin v. Doe.' The draft's language could mislead readers into thinking she ruled on the merits and lost on appeal to precedent, rather than never reaching the merits. The word 'Despite' creates causal ambiguity that the brief does not support."
+    ]
+   },
+   {
+    "id": "c121",
+    "headline": "Trump administration escalates economic pressure on Iran through sanctions and naval blockade",
+    "category": "accuracy",
+    "reasons": [
+     "The draft presents 'The Trump administration is doubling down on sanctions and a naval blockade against Iran' and 'Tehran is betting that elevated oil prices will force Washington to relent' as facts from the brief, but the brief itself marks these as only 'reported'\u2014unverified claims from Wall Street Journal. The draft does not signal that these are reported allegations rather than confirmed facts. The opening paragraph reads as settled narrative rather than 'according to Wall Street Journal reporting' language that preserves the unconfirmed status.",
+     "The draft body then systematically lists what is NOT in the reporting (specific sanctions, blockade scope, Iran's statements, economic impact figures, timeline, Iran's production capacity), which undercuts the lead. A draft that opens with unverified claims and then immediately details their absence reads as advocacy-adjacent framing rather than neutral reporting. The desk should reject and request a rewrite that either (a) leads with what IS known via on-record statements, or (b) clearly marks the core claims as unconfirmed and reported-only throughout."
+    ]
+   },
+   {
+    "id": "c004",
+    "headline": "Story cannot proceed: source material not retrieved",
+    "category": "accuracy",
+    "reasons": [
+     "The draft itself is a meta-commentary refusing to proceed rather than a story. The body and bottom_line do not attempt to report facts from the brief; they declare the brief empty and request research return to source work. This is a legitimate editorial decision (the brief has zero data_points and explicitly states 'No source text was fetched'), but it is not a draft for approval\u2014it is a research failure note. The desk should not approve or reject this as a story; research should be directed to return with material before a draft is submitted. If this is a placeholder to signal incompleteness, it should not be routed to approval."
+    ]
+   },
+   {
+    "id": "c066",
+    "headline": "Story cannot proceed: source material not retrieved",
+    "category": "accuracy",
+    "reasons": [
+     "The draft itself is a meta-commentary refusing to proceed rather than a story. The body and bottom_line do not attempt to report facts from the brief; they declare the brief empty and request research return to source work. This is a legitimate editorial decision (the brief has zero data_points and explicitly states 'No source text was fetched'), but it is not a draft for approval\u2014it is a research failure note. The desk should not approve or reject this as a story; research should be directed to return with material before a draft is submitted. If this is a placeholder to signal incompleteness, it should not be routed to approval."
+    ]
+   }
+  ]
  }
 ]
