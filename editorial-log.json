@@ -6743,5 +6743,48 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-14",
+  "approved": 4,
+  "rejected": [
+   {
+    "id": "c279",
+    "headline": "Luigi Mangione pleads guilty in federal court to stalking and killing UnitedHealthcare CEO",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states Mangione 'pleaded guilty in federal court to stalking and killing UnitedHealthcare CEO Brian Thompson,' but the brief's open_questions explicitly note that 'The fetched page text does not contain the actual reporting, details of the plea, specific charges, sentencing information, or Mangione's statements.' The source link appears to be a video page with only navigation HTML and styling code; the actual reporting content was not retrieved. No substantive confirmation of the guilty plea details exists in the brief's data_points beyond the bare headline assertion.",
+     "The draft presents the plea as settled fact ('pleaded guilty') when the source document itself was not successfully fetched and contains no substantive reporting to verify the claim. This is a smuggled fact not properly verified in the brief."
+    ]
+   },
+   {
+    "id": "c280",
+    "headline": "FBI reports 2025 violent crime fell sharply, murder rate at 20-year low",
+    "category": "accuracy",
+    "reasons": [
+     "The draft does not mention the claim from the brief's data_points that 'The administration's efforts resulted in shooting deaths of U.S. citizens Renee Good and Alex Pretti in Minneapolis.' This is a significant factual claim in the brief attributed to CBS News that should have appeared in the draft if it was part of the sourced reporting, particularly given the draft's discussion of the administration's policies and their effects.",
+     "The draft omits this critical counterpoint entirely, which weakens the accuracy claim that all facts in the draft trace to the brief and, conversely, suggests the brief contains a sourced claim about fatal shootings connected to the administration's enforcement efforts that the draft failed to include or verify exists in the actual reporting."
+    ]
+   },
+   {
+    "id": "c102",
+    "headline": "Five people killed in rural Michigan; suspect found dead",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Five people were found dead across multiple locations' and later 'Five people were found dead...with the suspected shooter also found deceased,' but then describes six total deaths: three at Lake Township residence, one at another residence in Missaukee County, one at Whitlock Lake, and Hickman himself. The math doesn't match the stated 'five people.' The brief's core claim similarly conflates 'five people dead and a sixth person found deceased'\u2014this is an accuracy problem in both the brief and draft. The draft should clarify whether the count is five victims plus suspect (six total) or whether victim count is accurately five. As written, the opening summary contradicts the detailed accounting that follows."
+    ]
+   },
+   {
+    "id": "c022",
+    "headline": "Jason Arday, Cambridge's Youngest Black Professor, Found Dead After Plagiarism Allegations",
+    "category": "compliance",
+    "reasons": [
+     "Title and opening frame the story as 'Jason Arday, Cambridge's Youngest Black Professor, Found Dead After Plagiarism Allegations'\u2014the causal framing ('after') and the placement of unresolved allegations in the headline and lede constitute advocacy-adjacent narrative that conflates timing with causation. The brief's bear_case documents that Arday denied plagiarism and LJMU concluded he had not plagiarized; the headline's construction reads as verdict-laden.",
+     "The draft does not adequately surface the bear_case in early, visible prose. Arday's denials, LJMU's exoneration, and his autism-based explanation for errors appear only in the middle-to-late paragraphs. A reader stopping after paragraph 3 would not know he denied the allegations or that one institution cleared him. The brief required this balance to appear; the draft buries it.",
+     "Paragraph 2 states 'scrutiny over alleged plagiarism in his academic work and questions about his professional accomplishments' without immediate attribution or caveat, allowing the allegations to read as established fact rather than contested claim in the draft's own voice.",
+     "The bottom_line states 'Police have not disclosed a cause of death, and the circumstances surrounding Arday's death raise questions about institutional and media responsibility'\u2014this frames media conduct as a causal factor ('raise questions about... media responsibility in high-profile academic disputes') without evidence in the brief that media conduct caused or contributed to his death. This is inference-as-analysis, not fact-reporting, and violates the no-advocacy line."
+    ]
+   }
+  ]
  }
 ]

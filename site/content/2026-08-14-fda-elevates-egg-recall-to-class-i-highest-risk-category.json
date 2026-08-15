@@ -1,0 +1,68 @@
+{
+  "id": "c292",
+  "slug": "fda-elevates-egg-recall-to-class-i-highest-risk-category",
+  "kind": "brief",
+  "title": "FDA Elevates Egg Recall to Class I, Highest Risk Category",
+  "dek": "The FDA designated 1.6 million cartons of eggs a Class I recall on Wednesday, its most serious category, due to potential salmonella contamination. The eggs were first recalled July 22 by Midwest Poultry Services and carry 'Sell By' or 'Best By' dates between July 20 and August 17.",
+  "date": "2026-08-14",
+  "published_utc": "2026-08-14T23:55:53Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 7,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The FDA applied its highest-risk classification to the recall, reserved for products that pose reasonable probability of serious adverse health consequences or death.",
+  "bottom_line": "The FDA's elevation of this recall to its highest risk tier reflects agency assessment that the contamination poses a genuine threat of serious illness. Consumers holding affected eggs should not use them and should verify whether their purchases fall within the recall dates through their retailer or the FDA's official notice.",
+  "human_take": "",
+  "body": [
+    "The FDA designated a salmonella-linked egg recall a Class I on Wednesday, the agency's most serious classification for food products. According to CBS News, 1.6 million cartons of eggs sold under various brand names at retailers across the U.S. are subject to the recall.",
+    "The FDA applies the Class I designation to product recalls \"in which there is a reasonable probability that the use of or exposure to a violative product will cause serious adverse health consequences or death,\" per CBS News. The eggs were first recalled on July 22 by Midwest Poultry Services, based in North Manchester, Indiana, due to potential salmonella contamination.",
+    "The affected products carry \"Sell By\" or \"Best By\" dates between July 20 and August 17, according to CBS News. Midwest Poultry Services recalled more than 19 million eggs from Texas farms between June 6 and July 3, the outlet reports. The FDA stated that no other products for Midwest Poultry Services are part of the latest recall.",
+    "Salmonella is a bacterial infection spread through food that causes diarrhea, fever, and stomach pain, per CBS News. Most cases resolve on their own, though some infected individuals can become severely dehydrated and require medical attention, the outlet reports. The condition can become life-threatening if the infection spreads beyond a person's intestines, according to CBS News.",
+    "Consumers with eggs bearing dates in the recalled range should verify product information against official FDA guidance or retailer notifications. The consumer should consult the FDA's official advisory for specific brand names and additional details on affected products."
+  ],
+  "sources": [
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/fda-class-1-egg-recall-salmonella/"
+    }
+  ],
+  "event_utc": "2026-08-14T19:57:23Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-14T23:55:53Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "also_reported_by": [
+    {
+      "outlet": "Good Housekeeping",
+      "headline": "Check Your Eggs: FDA Raises Massive Recall to Highest Risk Level - Good Housekeeping"
+    },
+    {
+      "outlet": "Real Simple",
+      "headline": "Nationwide Cheese Recall Elevated to Highest Risk Category, Due to Listeria Contamination - Real Simple"
+    },
+    {
+      "outlet": "Forbes",
+      "headline": "FDA Raises Recall On Costco Eggs \u2014The Class I Warning, Explained - Forbes"
+    },
+    {
+      "outlet": "Newsweek",
+      "headline": "Cookie Recall Update As FDA Sets Highest Risk level - Newsweek"
+    },
+    {
+      "outlet": "FoodChain Magazine",
+      "headline": "FDA Issues High-Risk Recall on Sun Noodle\u2019s S&amp;S Cup Saimin Due to Undeclared Egg Allergen - FoodChain Magazine"
+    },
+    {
+      "outlet": "Cheapism",
+      "headline": "FDA Elevates Quaker Oats Pancake Mix Recall to Highest Risk - Cheapism"
+    }
+  ],
+  "boundary": {
+    "affected": "1.6 million cartons of eggs sold under various brand names at retailers across the U.S.",
+    "fixed": "Not specified in source text",
+    "user_action": "Not specified in source text",
+    "advisory_url": "Not provided; the CBS News article does not link to an FDA advisory or official notice"
+  }
+}
