@@ -7044,5 +7044,44 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-15",
+  "approved": 4,
+  "rejected": [
+   {
+    "id": "c253",
+    "headline": "Two major earthquakes strike Indonesia in hours; at least 47 dead",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'the largest measuring 6.4 in magnitude' for aftershocks, but the brief's data_point says 'the largest recorded at magnitude 6.2'. This is a factual discrepancy of 0.2 magnitude points that must trace directly to the source."
+    ]
+   },
+   {
+    "id": "c251",
+    "headline": "Tropical Storm Lala targets Hawaii as Midwest flooding continues",
+    "category": "accuracy",
+    "reasons": [
+     "The draft body openly states 'Details on the tropical storm's expected arrival timing, maximum sustained wind speeds, rainfall forecasts, or specific areas of Hawaii under warning are not provided in the available sourced material' and 'The geographic scope of Midwest flooding...remain unspecified'. This is self-aware admission of missing facts, not reporting. A story that leads with facts it then admits are absent is incoherent and fails to report. The brief contains only three thin data_points; the draft should either report those three facts cleanly or return to research rather than publish a story that reads as 'I have nothing to say about this topic.'"
+    ]
+   },
+   {
+    "id": "c252",
+    "headline": "Mangione pleads guilty to federal stalking charges in UnitedHealthcare CEO case",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Mangione addressed the court with a statement during the proceeding' and references 'the specific content of Mangione's statement to the court' and 'his explanation of motive as initially indicated in headlines'\u2014but the brief marks the core claim about the statement as 'announced-not-verified' (not yet confirmed), and the open_questions section notes that 'The source_text provided is mostly CSS/HTML markup and does not contain the actual statement content.' The draft presents the statement as confirmed fact when the brief itself indicates the source material does not contain verified content. This violates the accuracy check: a claim marked 'announced-not-verified' in the brief must read that way in prose, not as settled fact.",
+     "The draft does not acknowledge the 'announced-not-verified' confidence label for the guilty plea itself. The core claim and all three data_points carry 'announced-not-verified' confidence, meaning these are unconfirmed reports from the outlet. The draft must signal this uncertainty ('according to CBS News' is used once but does not carry through to communicate lack of independent verification for a statement presented as fact)."
+    ]
+   },
+   {
+    "id": "c004",
+    "headline": "ICE Detention Case Highlights Immigration System Backlogs",
+    "category": "accuracy",
+    "reasons": [
+     "The draft contains no data_points from the brief. The brief is marked 'thin': true with zero data_points and six open_questions, indicating the research was incomplete. The writer has drafted a story that punts every fact to NPR ('refer to NPR's full reporting', 'NPR's reporting is the authoritative source') rather than drawing from a completed research brief. The hard rule is: no fact exists outside the brief. A story with no facts in the brief cannot be written; this draft violates that rule by existing at all. The desk should reject and send the writer back to research."
+    ]
+   }
+  ]
  }
 ]

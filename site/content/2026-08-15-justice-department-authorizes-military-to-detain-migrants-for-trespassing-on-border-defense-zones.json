@@ -1,0 +1,38 @@
+{
+  "id": "c250",
+  "slug": "justice-department-authorizes-military-to-detain-migrants-for-trespassing-on-border-defense-zones",
+  "kind": "brief",
+  "title": "Justice Department authorizes military to detain migrants for trespassing on border defense zones",
+  "dek": "The Justice Department issued a legal opinion Friday permitting U.S. military personnel to arrest migrants accused of trespassing in National Defense Areas near the U.S.-Mexico border. The Trump administration has designated six such zones across Arizona, California, New Mexico, and Texas. The opinion sidesteps the Posse Comitatus Act's traditional ban on military law enforcement on domestic soil by citing military protective authority.",
+  "date": "2026-08-15",
+  "published_utc": "2026-08-15T15:52:54Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 4,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Deputy Assistant Attorney General William Hyde concluded that military personnel can arrest trespassers just outside National Defense Areas without violating the Posse Comitatus Act, citing statutory authorization and a commander's traditional protective power.",
+  "bottom_line": "The opinion provides legal cover for military detention operations already underway but does not establish binding precedent. Watch for congressional response, legal challenges from civil liberties groups, or additional National Defense Area designations the military has indicated it may pursue. The arrangement's constitutional durability remains untested in court.",
+  "human_take": "",
+  "body": [
+    "The Justice Department issued a legal opinion Friday permitting U.S. military personnel to arrest migrants accused of trespassing in National Defense Areas near the U.S.-Mexico border, marking a significant expansion of military authority in immigration enforcement.",
+    "The opinion, authored by Deputy Assistant Attorney General William Hyde, concludes that military personnel can detain individuals just outside designated National Defense Areas without violating the Posse Comitatus Act, the longstanding law that generally prohibits the military from enforcing laws on domestic soil. The Trump administration has designated six such zones across Arizona, California, New Mexico, and Texas for the stated purpose of deterring illegal immigration.",
+    "According to CBS News reporting, Deputy Assistant Attorney General Hyde wrote: \"In sum, we conclude that the use of military personnel to arrest trespassers just outside of an NDA would not violate the [Posse Comitatus Act], given the express statutory authorization and the military-purpose of a commander's traditional protective power.\" The zones themselves are closed to civilians and marked with bilingual warning signs.",
+    "Per CBS News, the Defense Department says more than 20,000 service members have served deployments on the border since the administration's initial days. The military's southern border Joint Task Force currently includes 8,000 service members and has made 161 temporary detentions in the National Defense Areas, according to a task force spokesperson cited by CBS News. Those detained are transferred to law enforcement as quickly as possible.",
+    "The Justice Department began charging individuals apprehended in these areas starting in April 2025 and has charged hundreds since then, per CBS News reporting. The most common charges are violating military security regulations and entering military, naval, or Coast Guard property, both misdemeanors. Additional charges related to border crossing may apply in some cases.",
+    "CBS News reports that apprehension numbers at the southern border have declined sharply under the new administration: fewer than 240,000 migrant apprehensions in fiscal year 2025, down from 1.5 million and 2 million in fiscal years 2024 and 2023, respectively. In fiscal year 2026, Border Patrol recorded 81,000 apprehensions with two months remaining.",
+    "CBS News notes that the Office of Legal Counsel opinion is advisory only and does not set legal precedent. The brief indicates no public statements from civil liberties organizations, immigration advocates, legal scholars, or Congress have been included in available reporting on the opinion. The source material does not carry any account of legal challenges or constitutional arguments mounted against the arrangement, nor details of any specific statutory authorization the opinion cites."
+  ],
+  "sources": [
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/justice-department-opinion-military-migrants-trespassing/"
+    }
+  ],
+  "event_utc": "2026-08-15T15:14:09Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-15T15:52:54Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}
