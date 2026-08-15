@@ -7018,5 +7018,31 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-15",
+  "approved": 6,
+  "rejected": [
+   {
+    "id": "c255",
+    "headline": "Iran strikes another ship in Strait of Hormuz as Israel steps up Lebanon attacks",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'An Israeli strike in Lebanon killed at least nine people, including children, according to the health ministry' but the brief's only data_point on this claim is marked 'reported' from CBS News. The draft itself acknowledges in the body that 'The specific location and timing of the Lebanese strike are not detailed in the available sourced accounts' and later states 'No statement from Israeli military officials on the military justification for the Lebanon strikes has been located in the available sources,' which indicates the sourcing is thinner than the opening claim suggests. The lead should reflect the thinness of verification rather than state the fact as settled.",
+     "The draft presents the Iran ship strike as fact in the lede ('Iran carried out another attack on a ship in the Strait of Hormuz') but then immediately undermines this by stating 'details on the Iranian attack and full extent of damage remain limited from available sourced material.' The brief's open_questions explicitly state 'No details on which ship Iran struck, when the attack occurred, the extent of damage sustained, or attribution are present in the fetched sources.' The lead conflates an unverified claim with reported fact; the brief's data_points contain zero Iran ship-strike details, only the Lebanon strike from CBS News.",
+     "The draft cites 'CBS News reporting' for the Lebanon death toll but provides no link or attribution trail; the sources list shows two Google News RSS redirects that returned only 'navigation markup and metadata only' per the brief's open_questions. The actual sourcing is too thin to anchor a headline claim without qualification."
+    ]
+   },
+   {
+    "id": "c004",
+    "headline": "Venezuelan Soccer Pro Detained by ICE",
+    "category": "clarity",
+    "reasons": [
+     "The draft reads as a meta-commentary on its own inadequacy rather than reporting a story. Sentences like 'The verified reporting available does not specify...' and 'For those details...refer to NPR's full reporting' are editorial throat-clearing that undermine credibility and read as the writer apologizing for the brief's thinness rather than doing the job of synthesis.",
+     "The bottom_line ('Readers seeking to understand...will need to consult that source directly') explicitly directs readers away from the story, defeating the purpose of publication. A thin brief may require a short story, but not one that amounts to 'go read the source instead.'",
+     "With only one data_point in the brief (that Calder\u00f3n was detained), the draft should either (a) report that single fact cleanly with available context about ICE backlogs from the source, or (b) hold the story until the brief has substance. This draft does neither\u2014it publishes a confession of inadequacy."
+    ]
+   }
+  ]
  }
 ]

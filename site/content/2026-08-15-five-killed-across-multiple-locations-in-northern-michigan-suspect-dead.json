@@ -1,0 +1,57 @@
+{
+  "id": "c260",
+  "slug": "five-killed-across-multiple-locations-in-northern-michigan-suspect-dead",
+  "kind": "brief",
+  "title": "Five killed across multiple locations in Northern Michigan; suspect dead",
+  "dek": "Five people were killed Friday in rural Northern Michigan across multiple scenes in Missaukee County. The suspect, 39-year-old Chad Hickman, was found dead in a wooded area. Authorities have disclosed no motive or victim identities.",
+  "date": "2026-08-15",
+  "published_utc": "2026-08-15T13:01:16Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 6,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Troopers responded to a shooting at a home in Lake Township around 11:40 a.m. and found three people dead and a fourth in critical condition; a fifth victim was found at a separate home linked to the case.",
+  "bottom_line": "Investigators remain focused on establishing motive, victim identities, and the full sequence of events across the multiple scenes. Expect additional disclosure once victim identifications are complete and the manner of deaths is determined.",
+  "human_take": "",
+  "body": [
+    "Five people were killed Friday in rural Northern Michigan across multiple locations in Missaukee County, with the suspect, 39-year-old Chad Hickman, found dead, according to CBS News reporting. Michigan State Police described it as a multi-homicide investigation.",
+    "Troopers were called to a shooting at a home in Lake Township in Missaukee County at about 11:40 a.m. local time. They arrived to find three people dead and a fourth person in critical condition. Hickman had fled the scene before troopers arrived, prompting a manhunt. His vehicle was eventually spotted near a wooded area in nearby Caldwell Township. Authorities searched the wooded area and found Hickman and a fourth victim dead. A fifth victim was found dead at a separate home in Missaukee County, believed to be linked to the same case.",
+    "Michigan State Police Lt. Ashley Miller said in a statement, per CBS News: \"This situation is heartbreaking for the community and challenging for the investigators involved. We remain committed to conducting a thorough investigation and will provide updates as new information becomes available.\" Michigan Gov. Gretchen Whitmer said: \"My thoughts are with the victims, their families, and the Missaukee community.\"",
+    "Authorities have disclosed no motive for the killings. The names and ages of the five victims were not immediately released, nor was the manner of death for any of the victims provided. The relationship between Hickman and the victims is not explained in available sources, and how Hickman died (suicide, law enforcement action, or other cause) has not been specified."
+  ],
+  "sources": [
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/police-investigate-homicide-northern-michigan-missaukee-county/"
+    }
+  ],
+  "event_utc": "2026-08-15T05:23:35Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-15T13:01:16Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "also_reported_by": [
+    {
+      "outlet": "CBS News",
+      "headline": "Five people killed in Northern Michigan, officials say; suspect found dead - CBS News"
+    },
+    {
+      "outlet": "The Northern Express",
+      "headline": "The Top Five Issues Impacting Northern Michigan Farming in 2026 - The Northern Express"
+    },
+    {
+      "outlet": "Northern Michigan University",
+      "headline": "NMU in Michigan's Top Five for Online Education - Northern Michigan University"
+    },
+    {
+      "outlet": "Petoskey News-Review",
+      "headline": "Five things to know about the wave of extremely cold temperatures in Northern Michigan - Petoskey News-Review"
+    },
+    {
+      "outlet": "GolfPass",
+      "headline": "Northern Michigan golf: Five more great par 5s to conquer - GolfPass"
+    }
+  ]
+}

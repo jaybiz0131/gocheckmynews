@@ -1,0 +1,45 @@
+{
+  "id": "c148",
+  "slug": "five-shot-at-virginia-state-university-one-in-critical-condition",
+  "kind": "brief",
+  "title": "Five shot at Virginia State University; one in critical condition",
+  "dek": "At least five people were shot early Saturday near student housing at Virginia State University in Chesterfield, Virginia. One victim is in critical condition and four sustained non-life-threatening injuries. The shooting involved multiple suspects and no arrests have been announced.",
+  "date": "2026-08-15",
+  "published_utc": "2026-08-15T13:01:16Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 5,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The shooting occurred around 1:28 a.m. near the Quad Annexes residence halls, just days before the academic year was set to begin.",
+  "bottom_line": "The investigation remains active with multiple agencies involved and suspects outstanding. Watch for updates on suspect identification and arrest, victim identities and conditions, and any disclosed motive or connection among those involved.",
+  "human_take": "",
+  "body": [
+    "At least five people were shot at Virginia State University early Saturday morning near student housing, with one victim in critical condition and four others sustaining non-life-threatening injuries, according to reporting from Fox News. Officers from Virginia State University Police and Chesterfield County Police responded to the 3300 block of Boisseau Street at approximately 1:28 a.m., where they found the five individuals suffering from gunshot wounds outside VSU residence halls near the Quad Annexes. All five were transported to area hospitals.",
+    "The shooting involved multiple suspects, but no arrests have been announced as of reporting time. A significant law enforcement presence remained on campus, and the university lifted an initial lockdown following the incident. An investigation is led by Chesterfield County Police with assistance from VSU Police, the Bureau of Alcohol, Tobacco, Firearms and Explosives, and the Hanover County Sheriff's Office.",
+    "Virginia State University is a historically Black university in Chesterfield, Virginia. Classes for the new academic year were set to begin Monday, according to CBS News reporting. The university has asked anyone with information about the shooting to contact Chesterfield County Police at 804-748-1251, Crime Solvers at 804-748-0660, or VSU Police at 804-524-5411.",
+    "Authorities have disclosed no motive for the shooting. The identities of the five victims have not been released, and the status and identities of the multiple suspects remain unknown. The exact circumstances of the shooting and whether it stemmed from a dispute or other trigger have not been disclosed in the sources."
+  ],
+  "sources": [
+    {
+      "title": "Fox News",
+      "url": "https://www.foxnews.com/us/multiple-people-shot-virginia-state-university-campus-lockdown-police"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/shooting-virginia-state-university/"
+    }
+  ],
+  "event_utc": "2026-08-15T11:41:38Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-15T13:01:16Z",
+    "sources_cited": 2,
+    "sources_live_checked": 2
+  },
+  "also_reported_by": [
+    {
+      "outlet": "Al Jazeera",
+      "headline": "Five wounded in shooting at Virginia State University - Al Jazeera"
+    }
+  ]
+}
