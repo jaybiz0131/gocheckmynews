@@ -1,0 +1,62 @@
+{
+  "id": "c142",
+  "slug": "suspect-arrested-in-virginia-state-university-shooting-that-wounded-five",
+  "kind": "brief",
+  "title": "Suspect arrested in Virginia State University shooting that wounded five",
+  "dek": "Camron Harris, 19, from Henrico, Virginia, was arrested Saturday after a 12-hour manhunt following a shooting near VSU residence halls that wounded five people. Harris, not a student, was found hiding in a dorm closet. Police obtained warrants for four counts of malicious wounding and four counts of firearm use in a felony.",
+  "date": "2026-08-16",
+  "published_utc": "2026-08-16T13:46:46Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 2,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Camron Harris, 19, was arrested after a 12-hour search following a shooting that wounded five people near Virginia State University residence halls early Saturday.",
+  "bottom_line": "Harris remains in custody pending further charges. The investigation into the circumstances of the shooting and the identities and condition of the victims is ongoing.",
+  "human_take": "",
+  "body": [
+    "Camron Harris, 19 years old and from Henrico, Virginia, was arrested Saturday after a 12-hour manhunt following a shooting that wounded five people near Virginia State University residence halls early that morning, according to Fox News reporting. Harris is not a student at the university.",
+    "The shooting occurred at approximately 1:28 a.m. at the 3300 block of Boisseau Street, outside VSU residence halls. Of the five wounded, one was in critical condition. Only one of the five victims is a university student, per Fox News reporting.",
+    "Police located Harris hiding in a closet inside one of the campus dorm buildings hours after the shooting. Police obtained felony warrants for four counts of malicious wounding and four counts of use of a firearm in the commission of a felony. Authorities stated Harris may face more charges. He is being held without bail at Chesterfield County Jail.",
+    "The university implemented a lockdown following the incident, which has since been lifted. VSU announced that \"VSU police will maintain an increased presence on campus as the investigation continues.\" Virginia State University is a state-supported historically Black university located in Ettrick, Virginia, about 25 miles south of Richmond."
+  ],
+  "sources": [
+    {
+      "title": "Fox News",
+      "url": "https://www.foxnews.com/us/virginia-state-university-shooting-suspect-found-hiding-dorm-closet-arrested"
+    }
+  ],
+  "event_utc": "2026-08-16T11:58:38Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-16T13:46:46Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "update_of": "five-injured-in-shooting-at-virginia-state-university-suspect-arrested-after-12-hour-search",
+  "also_reported_by": [
+    {
+      "outlet": "CNN",
+      "headline": "Suspect in Virginia State University shooting is arrested after police find him hiding in a closet - CNN"
+    },
+    {
+      "outlet": "NewsNation",
+      "headline": "Suspect captured after Virginia State University shooting - NewsNation"
+    },
+    {
+      "outlet": "WJLA",
+      "headline": "Suspect arrested after 5 shot near Virginia State University residence halls - WJLA"
+    },
+    {
+      "outlet": "Yahoo",
+      "headline": "Suspect in Virginia State University shooting is arrested after police find him hiding in a closet - Yahoo"
+    },
+    {
+      "outlet": "BBN Times",
+      "headline": "Suspect Arrested After Shooting Wounds Five at Virginia State University - BBN Times"
+    },
+    {
+      "outlet": "WWBT",
+      "headline": "Suspect arrested after shooting at Virginia State University - WWBT"
+    }
+  ]
+}

@@ -7431,5 +7431,40 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-16",
+  "approved": 3,
+  "rejected": [
+   {
+    "id": "c188",
+    "headline": "5th Circuit reinstates Texas mail-in voter ID requirement after lower court block",
+    "category": "accuracy",
+    "reasons": [
+     "Paragraph 2 states 'The mechanics of the ID requirement, the legal reasoning behind the 5th Circuit's decision, and which order currently governs Texas election administration remain unaddressed in available reporting.' This reads as the writer's own analysis or editorial commentary about what the source failed to include, rather than reporting what the source says. The hard rule is: facts go back to research, the writer never patches gaps or editorializes about missing information. This sentence should be removed entirely\u2014it is not a fact from the brief; it is the writer's critique of the brief's thinness."
+    ]
+   },
+   {
+    "id": "c076",
+    "headline": "U.S. and Iran Poised to Miss Nuclear and Peace Negotiation Deadline",
+    "category": "accuracy",
+    "reasons": [
+     "The draft acknowledges the brief is 'thin' and states 'The brief does not establish what triggered the negotiations, which officials on each side are leading the talks, or whether either party has made a public statement about the approaching miss.' This is a meta-commentary that violates the hard rule: no fact exists outside the brief. The draft should not narrate its own incompleteness; it should either not run or run as a complete story built from the brief.",
+     "The draft reads as an editorial rejection memo, not a publishable news story. The bottom_line states 'The desk cannot confirm' and directs research return\u2014this is internal process language, not reader-facing journalism.",
+     "The body contains no actual reporting; it only describes what is missing. This is not a draft; it is a research gap notice masquerading as a draft."
+    ]
+   },
+   {
+    "id": "c073",
+    "headline": "Trump Administration Arrests Immigrants With Active Cases at Airports",
+    "category": "accuracy",
+    "reasons": [
+     "The brief itself contains zero data_points and note that 'No source text was available.' The draft was built from a headline snippet with no source material to verify against.",
+     "The draft acknowledges this in the body: 'The source text was not available to the desk. Critical details are not confirmed.' This meta-commentary about the desk's inability to report violates the hard rule and is not a publishable story.",
+     "The bottom_line is an internal rejection memo ('Return to research to obtain the New York Times article text'), not reader-facing journalism.",
+     "No facts can be traced to a brief because the brief contains no data_points. The story cannot run."
+    ]
+   }
+  ]
  }
 ]
