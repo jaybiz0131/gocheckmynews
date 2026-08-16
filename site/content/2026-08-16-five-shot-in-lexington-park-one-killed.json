@@ -1,0 +1,40 @@
+{
+  "id": "c228",
+  "slug": "five-shot-in-lexington-park-one-killed",
+  "kind": "brief",
+  "title": "Five shot in Lexington park, one killed",
+  "dek": "One person killed and four wounded, including children ages 14 and 4, in shooting at Charles Young Park in downtown Lexington, Kentucky on Saturday evening. Police have not identified the deceased or announced an arrest.",
+  "date": "2026-08-16",
+  "published_utc": "2026-08-16T16:02:12Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 4,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "One fatality and four injuries, including a 14-year-old and a 4-year-old, in a shooting during summer festivities at a public park in broad daylight.",
+  "bottom_line": "Authorities have not yet announced an arrest or identified a motive. Questions remain about the shooter's identity and the sequence of events that led to the attack.",
+  "human_take": "",
+  "body": [
+    "One person was killed and four others wounded, including a 14-year-old and a 4-year-old, in a shooting at Charles Young Park in downtown Lexington, Kentucky on Saturday evening, according to NBC News reporting.",
+    "Lexington Police Chief Lawrence Weathers confirmed the victim count. Two adults also sustained non-life-threatening injuries. Police have not identified the person who died or announced an arrest in connection with the shooting.",
+    "Devine Carama, a gun violence prevention advocate present at the park, described the moment of violence. \"While trying to keep four young people covered and safe during the shooting, a person eight inches from me was shot tonight,\" Carama said, per NBC News. \"Opening fire in a peaceful event, broad daylight, with women and children present is unacceptable.\"",
+    "The shooting occurred during summer festivities at the park. The nature of the festivities and details about the circumstances of the incident remain unclear from the available reporting.",
+    "No suspect information has been released. The investigation is ongoing."
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/news/us-news/five-shot-lexington-ky-park-leaving-one-dead-rcna592770"
+    },
+    {
+      "title": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxORmJjR3dyeVFCR0FHeTZnMWhHY1FyWktCNTBraVVuR2FpRDBwWmh5VTgwYThIeHp3eldjNEpfbnIxMC0zN0ExZEl6ai1JX0VvMzFQdDR5bjVIQlZ4NWtVU083ZW5pVlFURW9OcjhrRWpjeVNhWUdLWlVPVjg2YjBOVy03aXZsaWg2Qnc1UDZfeVBpNVFi0gGaAUFVX3lxTE9fRko2Z3JhbDZqampnT3UzbG1oTEFXbXY3SXF3UGV3SlhkaGhIUmJUWXJJY1QwN2dNMTdGTF9BUmFnNHFRM3dlSjBPNTU2VU5ObS02anBMemlqQmhQa3pZNWdWSUhYWlBmcFlOZmNVQWU0OTFLTGMyU2txZkVzM3lMbEpqVkFXNGplblNtZG8yUUFoMHNzMkVQc0E?oc=5"
+    }
+  ],
+  "event_utc": "2026-08-16T14:17:14Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-16T16:02:12Z",
+    "sources_cited": 2,
+    "sources_live_checked": 2
+  }
+}
