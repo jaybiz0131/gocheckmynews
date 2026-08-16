@@ -7207,5 +7207,48 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-16",
+  "approved": 3,
+  "rejected": [
+   {
+    "id": "c015",
+    "headline": "Hurricane Lala skirted Hawaii's Big Island, leaving power outages and one death",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Hurricane Lala strengthened to peak winds of 91 miles per hour' in the opening, but the brief's core_claim describes it as 'strengthened to Category 1 with 80 mph winds.' The data_points show conflicting information: one states '80 mph' (confidence: reported) and another states '91mph' (confidence: reported). The draft presents 91 mph without acknowledging the discrepancy or the earlier 80 mph figure from one source. This creates ambiguity about which figure is authoritative and when the wind speed changed.",
+     "The brief's bear_case explicitly flags that 'sources only confirm 1992 as the most recent landfall' and that 'the snippet claims potential for first hurricane landfall since 1871' but this is not verified in the source texts. The draft states 'The last hurricane to make landfall in Hawaii was Hurricane Iniki in 1992,' which is correct and matches the sources, but the angle in the brief references 'a historically significant threshold\u2014the first landfall there since 1871' which is unsupported by the data and not presented in the draft. The brief's own bear_case warns this claim is unverified in sources."
+    ]
+   },
+   {
+    "id": "c035",
+    "headline": "Russia and Ukraine trade aerial attacks; at least five killed in Ukrainian cities",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states Ukraine's attack 'killed at least six people in Russia' in a single sentence, but the brief's open_questions explicitly flag that 'the sources give differing death tolls' and note that CBS reports 'at least six killed' with breakdown (five in Rostov region, one 83-year-old in Moscow region), while the BBC source text does not clearly summarize a full death toll across all Russian regions hit. The draft presents the figure as settled fact without indicating the ambiguity or the source disagreement documented in the brief's own uncertainty section.",
+     "The draft paragraph 'Ukraine responded Sunday with a major drone assault' cites 'Around 600 Ukrainian drones' per BBC and 'some 600 drones' per CBS, then states 'roughly a third had been destroyed over the Moscow region itself' (Sobyanin per CBS). However, the brief notes in open_questions that 'the sources do not provide Kyiv's official response to Russia's claims about the specific targets hit.' The draft does not include any Ukrainian rebuttal to Russia's claimed military targets\u2014only Russian claims followed by Ukrainian acknowledgment of logistics targeting. This omits the bear_case entirely.",
+     "The draft introduces a Wildberries warehouse location as 'in Koledino, 25 kilometers from the centre of Moscow' (per BBC data_point), but the CBS data_point states 'A Ukrainian attack sparked a blaze at a warehouse belonging to Russian retail giant Wildberries in the town of Podolsk.' The two sources name different locations for the Wildberries hit. The draft uses only the BBC figure without flagging the location discrepancy between sources."
+    ]
+   },
+   {
+    "id": "c084",
+    "headline": "Five dead in Indiana as flooding described as worst in over 30 years continues",
+    "category": "accuracy",
+    "reasons": [
+     "The draft claims 'First responders used boats to rescue people from rising waters in neighborhoods along the White River in Indianapolis as rivers reached record levels' but the brief's open_questions explicitly state: 'No details about specific rescue operations, additional death toll breakdown, federal aid request status, river water level records, or damage extent are available in the provided text.' The claim about 'record levels' cannot be verified from the source material and appears to be an inference not present in the brief.",
+     "The draft states 'The scale of the emergency has forced a request for federal aid from state officials' but the brief's open_questions note 'No statement from state officials or FEMA about the disaster declaration or aid request is included in the source text.' This claim is smuggled beyond what the brief confirms."
+    ]
+   },
+   {
+    "id": "c122",
+    "headline": "U.S. accuses Chinese refiner Hengli of importing illicit Iranian crude",
+    "category": "balance",
+    "reasons": [
+     "The draft presents the U.S. accusation and Hengli's denial but fails to develop the bear_case meaningfully. The second paragraph ('The company's denial stands against the U.S. allegation but does not address the specific evidence or enforcement mechanisms the U.S. may be considering') editorializes about what Hengli's denial lacks rather than letting the denial stand on its own or exploring what evidence or context exists. This reads as the desk adjudicating credibility rather than reporting both sides symmetrically.",
+     "The brief identifies a critical open question: 'What specific evidence does the U.S. have that Hengli is importing Iranian crude?' The draft does not acknowledge the unresolved nature of the accusation or note that the specifics of U.S. evidence are not disclosed in available reporting. A reader is left with the impression that the accusation is settled fact, when the brief itself marks the claim only 'reported' (not verified-on-chain), indicating it rests on announcement rather than independent confirmation."
+    ]
+   }
+  ]
  }
 ]

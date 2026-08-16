@@ -1,0 +1,68 @@
+{
+  "id": "c210",
+  "slug": "five-wounded-in-shooting-at-virginia-state-university-suspect-arrested-after-12-hour-search",
+  "kind": "brief",
+  "title": "Five wounded in shooting at Virginia State University; suspect arrested after 12-hour search",
+  "dek": "Five people were wounded in a shooting around 1:30 a.m. outside a Virginia State University residence hall. Camron Harris, 19, of Henrico, Virginia, was arrested more than 12 hours later, hiding in a dormitory closet. One victim remains in critical condition.",
+  "date": "2026-08-16",
+  "published_utc": "2026-08-16T09:57:06Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 5,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Camron Harris, 19, was arrested after being found hiding in a closet in Seward Hall at about 4 p.m., more than 12 hours after the shooting.",
+  "bottom_line": "Harris remains in custody without bond pending trial proceedings. Watch for details on motive from investigators and for any statements from Harris or his legal team, which would clarify whether he acted alone or if additional suspects remain at large. The investigation outcome will also determine whether the initial police assessment that multiple shooters were involved holds, or whether Harris was the sole perpetrator.",
+  "human_take": "",
+  "body": [
+    "Five people were injured in a shooting at Virginia State University early Saturday that prompted a temporary campus lockdown and a search that lasted more than 12 hours. The shooting occurred around 1:30 a.m. outside a university residence hall, according to CBS News reporting.",
+    "Camron Harris, 19, of Henrico, Virginia, was arrested at about 4 p.m. after being found hiding in a closet in Seward Hall, per ABC News. Harris is not a student at the university, according to CBS News. He is being held without bond and has been charged with eight felony warrants: four counts of malicious wounding and four counts of use of a firearm in the commission of a felony, per ABC News.",
+    "One victim, a 21-year-old man, remains in critical condition, according to CBS News. The other four sustained non-life-threatening injuries. One victim, a 20-year-old VSU student, has been released from the hospital. The other three victims are not students at the school and include a 23-year-old man, a 19-year-old woman, and a 17-year-old, per ABC News.",
+    "Police initially indicated that multiple shooters may have been involved, according to CBS News reporting, though Harris has since been arrested. Chesterfield County Police are leading the investigation, with assistance from Virginia State University Police, the Bureau of Alcohol, Tobacco, Firearms and Explosives, and the Hanover County Sheriff's Office, per ABC News.",
+    "Virginia State University is a historically Black university in Ettrick, Virginia, about 24 miles south of Richmond with approximately 5,700 students, per CBS News. Residence halls had opened for students a week prior to the shooting, and many had recently completed the university's orientation program for incoming students. Classes for the new academic year were set to begin Monday.",
+    "Virginia Gov. Abigail Spanberger said she and her family are praying for a quick recovery for those who were shot and thanked first responders and law enforcement, according to ABC News. Sen. Mark Warner, D-Va., said he was \"heartbroken to hear\" of the shooting and called it \"devastating to see another Virginia campus harmed by gun violence,\" per ABC News. Authorities have provided no information about a possible motive for the shooting, and it is unclear whether Harris has legal representation."
+  ],
+  "sources": [
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/shooting-virginia-state-university/"
+    },
+    {
+      "title": "abcnews.com",
+      "url": "https://abcnews.com/US/5-injured-shooting-virginia-state-university-arrests-made/story?id=135669705"
+    }
+  ],
+  "event_utc": "2026-08-16T01:41:45Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-16T09:57:06Z",
+    "sources_cited": 2,
+    "sources_live_checked": 2
+  },
+  "update_of": "five-shot-at-virginia-state-university-multiple-suspects-at-large",
+  "also_reported_by": [
+    {
+      "outlet": "Al Jazeera",
+      "headline": "Five wounded in shooting at Virginia State University, suspect arrested - Al Jazeera"
+    },
+    {
+      "outlet": "The Richmonder",
+      "headline": "Five injured in overnight shooting at Virginia State University - The Richmonder"
+    },
+    {
+      "outlet": "The Independent",
+      "headline": "Five wounded in Virginia State University shooting as police hunt \u2018multiple suspects\u2019 - The Independent"
+    },
+    {
+      "outlet": "The Jerusalem Post",
+      "headline": "Five shot in Virginia State University campus shooting - The Jerusalem Post"
+    },
+    {
+      "outlet": "WRAL",
+      "headline": "Five people shot at Virginia State University - WRAL"
+    },
+    {
+      "outlet": "Augusta Free Press",
+      "headline": "Five shot, one critically wounded, in mass shooting at Virginia State University - Augusta Free Press"
+    }
+  ]
+}

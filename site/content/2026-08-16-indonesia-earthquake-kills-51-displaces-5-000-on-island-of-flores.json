@@ -1,0 +1,47 @@
+{
+  "id": "c013",
+  "slug": "indonesia-earthquake-kills-51-displaces-5-000-on-island-of-flores",
+  "kind": "brief",
+  "title": "Indonesia earthquake kills 51, displaces 5,000 on island of Flores",
+  "dek": "A magnitude 7.7 earthquake struck Indonesia's Flores island on Saturday, killing at least 51 people and displacing around 5,000. The shallow quake, centered 15km below the surface, damaged more than 900 homes and triggered 341 aftershocks. Rescue operations are ongoing in remote mountainous terrain.",
+  "date": "2026-08-16",
+  "published_utc": "2026-08-16T09:57:06Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 1,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "At least 51 people killed, around 5,000 displaced, more than 900 homes damaged by a magnitude 7.7 earthquake on Flores island.",
+  "bottom_line": "The death toll and full extent of displacement remain uncertain as rescue operations continue in difficult terrain and communications remain limited in remote areas. The coming days will reveal whether casualties and displacement figures rise as teams access more isolated communities and damage assessments progress.",
+  "human_take": "",
+  "body": [
+    "At least 51 people have been killed and around 5,000 displaced by a magnitude 7.7 earthquake that struck Indonesia's island of Flores on Saturday, according to BBC reporting. The quake struck just before 05:00 local time, with its center located 15 kilometers below the surface, and has been followed by 341 aftershocks.",
+    "The shallow depth and remote mountainous terrain of Flores have compounded the challenges for rescue and aid delivery. According to the National Disaster Management Agency (BNPB), more than 900 homes and hundreds of other buildings have been severely damaged. The agency reports that 3,356 people have been displaced in Sikka province alone, with a further 2,078 evacuated in Manggarai.",
+    "Death tolls vary by region, per BBC reporting: 24 fatalities recorded in Manggarai province, 17 deaths in East Manggarai province, 3 in Sikka province, and at least one in each of the Ngada, Ende and West Manggarai provinces. According to Deputy Health Minister Benjamin Paulus Octavianus, 36 people were seriously injured in East Nusa Tenggara province, while 77 suffered minor injuries.",
+    "Damage to critical infrastructure has complicated the emergency response. Ruteng Regional Hospital in Manggarai had its operating theatre and clinic ceilings cave in, requiring patients to be treated in tents, according to hospital spokesperson Rista Mari and images reviewed by BBC. The BNPB stated that dozens of schools, healthcare facilities and government offices have been severely damaged. The agency said \"meeting basic needs and providing logistics for evacuees has become one of the top priorities of the emergency response\" and has dispatched tonnes of emergency supplies to Manggarai.",
+    "Several victims had been killed in their sleep by collapsing rubble, according to Emanuel Melkiades Laka Lena, governor of East Nusa Tenggara province. A tsunami warning was initially issued, leading some 2,000 people to self-evacuate, but was lifted around three hours after the initial jolt when no significant sea level rise was detected.",
+    "This earthquake is the deadliest to strike southeast Asia since 2022, when hundreds of people were killed in West Java, per BBC reporting. The ongoing advice from BNPB is for people to remain calm and to stay away from coastal areas and structures showing signs of damage."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c3v00w5ylw9o?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "event_utc": "2026-08-16T08:23:38Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-16T09:57:06Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "also_reported_by": [
+    {
+      "outlet": "India Today",
+      "headline": "Indonesia earthquake death toll rises to 51 as rescuers reach cut-off Flores - India Today"
+    },
+    {
+      "outlet": "National Herald",
+      "headline": "Indonesia quake kills 51 as landslides cut off communities on Flores - National Herald"
+    }
+  ]
+}
