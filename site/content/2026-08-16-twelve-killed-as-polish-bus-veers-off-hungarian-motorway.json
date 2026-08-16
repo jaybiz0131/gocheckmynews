@@ -1,0 +1,47 @@
+{
+  "id": "c026",
+  "slug": "twelve-killed-as-polish-bus-veers-off-hungarian-motorway",
+  "kind": "brief",
+  "title": "Twelve killed as Polish bus veers off Hungarian motorway",
+  "dek": "A Polish tourist bus carrying pilgrims from Bosnia and Herzegovina overturned on Hungary's M3 motorway near Ny\u00edregyh\u00e1za early Sunday, killing 12 people. Firefighters rescued 35 survivors; police believe the driver fell asleep at the wheel and took him into custody.",
+  "date": "2026-08-16",
+  "published_utc": "2026-08-16T11:36:39Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 8,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Twelve people died and 47 survived when a 24-tonne Polish bus carrying 59 people overturned on Hungary's M3 motorway near Ny\u00edregyh\u00e1za on August 16, 2026.",
+  "bottom_line": "Investigators are examining the driver's role in the crash; the extent and outcome of the formal investigation remains unclear from available reporting. Watch for details on the driver's questioning, any charges filed, and whether findings on fatigue or vehicle condition emerge.",
+  "human_take": "",
+  "body": [
+    "A Polish tourist bus carrying pilgrims overturned on Hungary's M3 motorway near Ny\u00edregyh\u00e1za early Sunday, killing 12 people and leaving 47 survivors with injuries ranging from minor to life-threatening, according to BBC News reporting.",
+    "The bus, carrying 57 passengers and 2 drivers from Poland's southernmost region of Podkarpacie, was returning from Bosnia and Herzegovina when it veered off the motorway at around 01:00 local time (23:00 GMT on Saturday). The 24-tonne vehicle came to rest in a ditch after overturning. Hungarian police believe the driver fell asleep at the wheel, per BBC News.",
+    "Firefighters rescued 35 people by the time of the initial reporting. Hungary's ambulance service treated the survivors with varying degrees of injury: one person with life-threatening injuries, nine with serious injuries, and 37 with minor injuries, according to BBC News.",
+    "The driver has been taken into custody. Polish Foreign Minister Rados\u0142aw Sikorski said his Hungarian counterpart told him police had begun questioning the bus driver, per BBC News. The source does not specify what charges, if any, the driver may face or whether a formal investigation has been opened.",
+    "Hungary's Prime Minister P\u00e9ter Magyar offered condolences to the families of victims and wished those injured a speedy recovery. Polish Prime Minister Donald Tusk decided to send a special Polish aircraft with foreign ministry officials and medical services to assist with the response, according to BBC News.",
+    "The source does not identify the nationalities or identities of the 12 deceased, does not provide details on the driver's age or experience, and does not indicate whether mechanical failure or road conditions contributed to the crash."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/ckg4424zd7go?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "event_utc": "2026-08-16T10:53:50Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-16T11:36:39Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "also_reported_by": [
+    {
+      "outlet": "Yahoo",
+      "headline": "Twelve killed, 47 injured as Polish coach veers off Hungarian motorway - Yahoo"
+    },
+    {
+      "outlet": "The Annapurna Express",
+      "headline": "Twelve killed as Polish bus veers off Hungarian motorway - The Annapurna Express"
+    }
+  ]
+}

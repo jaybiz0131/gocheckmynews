@@ -7325,5 +7325,45 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-16",
+  "approved": 3,
+  "rejected": [
+   {
+    "id": "c001",
+    "headline": "Ukraine launches hundreds of drones across Russia, killing at least six",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Russia's Ministry of Defense announced it destroyed 822 Ukrainian drones overnight, though the sources do not provide independent verification of this figure.' However, the brief marks this claim with confidence label 'announced-not-verified'. The draft's phrasing ('announced it destroyed') correctly reflects the unverified status in the brief, but then adds 'though the sources do not provide independent verification'\u2014this parenthetical is not in the brief and smuggles in editorial framing about source limitations that goes beyond the research.",
+     "The opening sentence 'Ukraine launched hundreds of drones across Russia on August 16 in one of the war's largest aerial attacks, according to NPR reporting' presents the characterization as NPR's. The brief data point says 'At least six people were killed in one of Kyiv's largest aerial attacks of the war' (marked 'reported'). The phrasing 'in one of the war's largest aerial attacks' is a judgment call about scale that should be attributed or marked as announced-not-verified, not presented as settled fact from NPR alone."
+    ]
+   },
+   {
+    "id": "c038",
+    "headline": "Iran claims Qatar holds three fighter pilots; Qatar categorically denies",
+    "category": "compliance",
+    "reasons": [
+     "The final sentence reads: 'The allegation carries implications for how captured military personnel are treated during the ongoing US-Iran conflict.' This is the desk's own inference about stakes and implication, not a fact from the brief. The brief does note 'implications for prisoner-of-war protections and regional mediation efforts' in the angle, but the draft's formulation 'carries implications for how captured military personnel are treated during the ongoing US-Iran conflict' reads as the writer's own editorial verdict about the meaning of the dispute, crossing from reporting into analysis. This violates the no-advocacy line.",
+     "The phrase 'Bargherzadeh's statement accused Qatar of violating' (note: name is misspelled as 'Bargherzadeh' when it should be 'Bagherzadeh' throughout\u2014this is an accuracy error as well). The word 'accused' is the draft's characterization; the brief says Bagherzadeh 'claimed' and 'accused Qatar of violating'\u2014using the verb 'accused' in the draft voice rather than attribution is a subtle but present shift toward advocacy against Qatar."
+    ]
+   },
+   {
+    "id": "c093",
+    "headline": "At least five dead in Indiana flooding described as worst in over 30 years",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Arthur Fridrich, the university's former director of distance education, told the Associated Press that a shooting just before students return to class is heartbreaking for the community' in the brief's data_points, but this quote does not appear anywhere in the draft body. This is a sourced fact from the brief that was omitted, creating an incomplete account of available reporting."
+    ]
+   },
+   {
+    "id": "c126",
+    "headline": "NATO fighter jet shoots down suspected Russian drone over Romanian airspace",
+    "category": "balance",
+    "reasons": [
+     "The brief's bear_case explicitly states 'The source does not present any Russian response or denial to the attribution of this particular drone,' and the open_questions note this absence. However, the draft's bottom_line reads 'Russia has not publicly responded to or denied the attribution of this specific drone' as forward-looking context, when it should be integrated into the body text as part of the balance section to show the attribution complexity. The current structure leaves the reader without the counter-evidence paragraph present in the sourced reporting about attribution ambiguity (electronic warfare, hijacked Ukrainian drones, unclear origins across multiple incidents). The draft adequately covers some complexity in paragraphs 4-7, but the absence of Russia's own voice (or silence) on this specific incident should be more prominent in the main narrative, not relegated to the bottom_line."
+    ]
+   }
+  ]
  }
 ]
