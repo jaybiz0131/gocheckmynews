@@ -7730,5 +7730,49 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-16",
+  "approved": 4,
+  "rejected": [
+   {
+    "id": "c002",
+    "headline": "Kushner meets Hamas leader in Egypt on Gaza peace plan; Netanyahu talks set for Monday",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'A ceasefire has been in effect since October 10 of last year' but the brief's data_point says 'The ceasefire, which came into effect on 10 October last year, remains in place.' The draft then immediately contradicts itself by saying 'However, North Korea's actions suggest heightened threat activity... North Korea has resumed ballistic missile testing' and 'The Israel Defense Forces have carried out several strikes in Gaza since the ceasefire began.' This creates a factual incoherence: if a ceasefire is in effect, IDF strikes during it must be explained differently or the ceasefire status must be clarified. The brief's data_point 14 states 'The Israel Defense Forces have carried out several strikes in Gaza since the ceasefire began\u2014the latest on 'terrorists' in Khan Yunis and Nuseirat areas of Gaza\u2014accusing Hamas of breaking the truce' which indicates the ceasefire is disputed/contested, not simply 'in effect' as stated.",
+     "The draft claims 'Netanyahu stated last week in a public break with the Trump administration that Israel \"rejects the Board of Peace's 15-point document on Gaza\" and \"will not carry out any withdrawal until Hamas is genuinely disarmed,\" per BBC and NPR reporting.' However, the brief's data_point 12 is marked 'verified-on-chain' and attributes this quote to Netanyahu directly. The draft's paraphrase is accurate to the brief, but the brief provides the exact quote: 'Israel rejects the Board of Peace's 15-point document on Gaza. The IDF will not carry out any withdrawal until Hamas is genuinely disarmed.' The draft should use the verified quote or clearly mark paraphrase; presenting it as indirect discourse when a verified direct quote exists is sloppy but not a liability breach per se.",
+     "The draft states 'Israeli forces currently control about 60 percent of Gaza' and attributes this to NPR in the body, but does not attribute the separate claim about May's '70 percent control' goal. The brief's data_point 33 is marked 'verified-on-chain' and states 'In May, Netanyahu said the next step was to move to 70% control.' This quote should be attributed inline or the claim should be omitted."
+    ]
+   },
+   {
+    "id": "c001",
+    "headline": "At least 7 dead as Indiana flooding reaches record levels; more storms expected",
+    "category": "accuracy",
+    "reasons": [
+     "The draft headline states 'At least 7 dead' but the brief's first data_point (PBS NewsHour) says 'At least seven people have died' while the third data_point (NPR) says 'At least six people across multiple counties in Indiana have died.' The brief itself contains conflicting information from two sources on the death toll. The draft cannot resolve this by choosing '7' without noting the discrepancy or the source variance. A fact in direct conflict across the brief's own sources is smuggled if presented as settled without attribution to the higher count.",
+     "The draft states 'The deceased include a 4-year-old boy, two men, and three women, per PBS NewsHour reporting' and attributes this to PBS. However, the brief's data_point 2 attributes this breakdown to PBS NewsHour but the brief also has a data_point 3 from NPR stating 'At least six people across multiple counties in Indiana have died.' The draft uses the breakdown from PBS (which totals 7) but the NPR report says 6 total. The draft should either note that sources differ on the total count, or attribute the 7-person count and 4/2/3 breakdown solely to PBS without implying NPR agrees."
+    ]
+   },
+   {
+    "id": "c094",
+    "headline": "Attorney General Blanche declines to pledge DOJ independence from White House",
+    "category": "accuracy",
+    "reasons": [
+     "The brief's open_questions section explicitly states: 'The source texts provided are truncated or inaccessible; the Guardian text cuts off mid-navigation code and The Hill URL content is not included.' This indicates the writer worked from sources that were incomplete or inaccessible. The draft presents Blanche's quote ('No, I'm not going to pledge that') and the core claim as settled fact, but the brief itself flags that source material was truncated/inaccessible, making verification impossible. The writer cannot source facts from material they could not read.",
+     "The draft states 'Historically, DOJ independence from White House influence has been treated as a foundational principle' without this appearing in the brief's data_points. This is new information smuggled in without sourcing.",
+     "The draft's framing ('marks a notable departure from conventional assurances') adopts interpretive language that goes beyond what the brief's thin data permits and risks reading as the desk's own verdict rather than reported fact."
+    ]
+   },
+   {
+    "id": "c087",
+    "headline": "Republican senator calls Trump's MMR vaccine claims 'crazy' and 'stupid'",
+    "category": "accuracy",
+    "reasons": [
+     "The brief's open_questions explicitly state that 'The full source texts from both The Guardian and The Hill URLs are corrupted or incomplete' and that 'Specific quotes from Cassidy's denunciation, Trump's exact vaccine claims, the timing and venue of Cassidy's statement...cannot be verified from the fetched sources.' The draft presents Cassidy's quotes ('crazy' and 'stupid') and Trump's vaccine claims as facts traceable to the sources, but the brief indicates these cannot be confirmed from the corrupted source material. The writer has smuggled facts (the exact quotes and their context) beyond what the brief's available evidence supports.",
+     "The brief flags uncertainty about whether 'Cassidy is an outgoing or sitting senator' but the draft presents him as a sitting senator ('a Louisiana Republican') without confidence qualification. The brief's open_questions note this cannot be verified; presenting it as settled fact violates the confidence-label preservation rule."
+    ]
+   }
+  ]
  }
 ]
