@@ -7365,5 +7365,37 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-16",
+  "approved": 4,
+  "rejected": [
+   {
+    "id": "c035",
+    "headline": "Ukraine and Russia exchange aerial strikes; at least five dead in each country",
+    "category": "accuracy",
+    "reasons": [
+     "Draft opens with 'at least five dead in each country' but brief data_points show BBC reports 'seven people have died across Russia' (not 'between six and seven'). The lead misrepresents the sourced death toll in Russia and contradicts the bottom_line's own admission that 'BBC reports seven; CBS reports at least six.'",
+     "Draft states 'Valentina, 69, lost her husband's market stall with books visible on the ground' but this claim does not appear in the brief's data_points. The brief only mentions 'A book market in Kyiv's Pochayna district was damaged' with no named individual 'Valentina' or her specific loss. This is smuggled information outside the brief.",
+     "Brief data_points reference 'Valentina, 69, lost her husband's market stall' but draft substitutes 'Luba' as the sole named vendor. The draft drops the Valentina reference entirely and presents only Luba's statement, which is a material omission that changes the story's evidence base."
+    ]
+   },
+   {
+    "id": "c079",
+    "headline": "Story cannot be drafted; insufficient research",
+    "category": "accuracy",
+    "reasons": [
+     "The draft itself correctly identifies that the brief is empty: data_points list is empty, source_chars = 0, and open_questions confirm the source text was never fetched. The draft refuses to write and asks for research return\u2014this is the correct editorial response, not a publishable story. A 'story' that reads as a rejection note to research is not a draft for approval; it is a statement that no draft exists. Per the hard rule (no fact exists outside the brief), no story can be approved from a brief with zero data_points and no fetched source material. This refusal is editorially sound but cannot be approved as a publishable draft."
+    ]
+   },
+   {
+    "id": "c082",
+    "headline": "As Iran War Turns Into Economic Battle, a New U.S. Strategy Recalls Old Ones",
+    "category": "compliance",
+    "reasons": [
+     "The draft body is a meta-commentary on why the story cannot be drafted, rather than a news story itself. This violates the compliance requirement that drafts must be actual articles reporting events, not editorial reflections on sourcing gaps. The draft should either be rejected at intake or returned for actual reporting before a story can be written."
+    ]
+   }
+  ]
  }
 ]

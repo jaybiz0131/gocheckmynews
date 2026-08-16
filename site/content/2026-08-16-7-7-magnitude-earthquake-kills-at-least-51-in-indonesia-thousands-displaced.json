@@ -1,0 +1,61 @@
+{
+  "id": "c013",
+  "slug": "7-7-magnitude-earthquake-kills-at-least-51-in-indonesia-thousands-displaced",
+  "kind": "brief",
+  "title": "7.7-magnitude earthquake kills at least 51 in Indonesia; thousands displaced",
+  "dek": "A shallow earthquake struck Flores island in Indonesia on Saturday, killing at least 51 people and displacing around 5,000. More than 900 homes and dozens of schools and healthcare facilities were severely damaged. The quake was Indonesia's deadliest since 2022.",
+  "date": "2026-08-16",
+  "published_utc": "2026-08-16T11:59:29Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 1,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "A 7.7-magnitude earthquake struck Flores island, Indonesia, killing at least 51 people and displacing around 5,000.",
+  "bottom_line": "Rescue operations are ongoing in a region where damaged roads and continuing aftershocks, with 341 recorded so far, complicate access to affected villages. The full damage assessment in monetary terms and the final confirmed death toll remain under determination as rescue teams expand their reach into remote areas.",
+  "human_take": "",
+  "body": [
+    "A 7.7-magnitude earthquake struck Flores island in Indonesia on Saturday, killing at least 51 people and displacing around 5,000, according to BBC reporting.",
+    "The quake struck shortly before 05:00 local time on Saturday (22:00 GMT on Friday) at a depth of 15 kilometers, making it shallow enough to cause widespread structural damage across a remote, mountainous region where rescue operations are still underway.",
+    "Death tolls were concentrated in multiple provinces: Manggarai province recorded 24 fatalities, East Manggarai province recorded 17 deaths, Sikka province recorded 3 deaths, and at least one death each was reported in Ngada, Ende, and West Manggarai provinces. The deputy health minister reported 36 people seriously injured in East Nusa Tenggara province and 77 suffering minor injuries. A tsunami warning was initially issued, leading approximately 2,000 people to self-evacuate, though the warning was lifted around three hours later when no significant sea level rise was detected.",
+    "Structural damage was extensive. More than 900 homes were severely damaged, along with hundreds of other buildings. Dozens of schools, healthcare facilities, and government offices suffered severe damage. Ruteng Regional Hospital in Manggarai had its operating theatre and clinic ceilings cave in, forcing staff to treat patients in tents. A hospital spokesperson stated: \"We heard that medical assistance would be provided, but nothing has arrived yet. We hope that assistance will arrive soon.\" At the port in Maumere, large chunks of concrete broke off the terminal building onto passengers waiting to board an inter-island ferry, with some thrown into the sea when the gangway to a ship collapsed.",
+    "Displacement figures broke down by location: 3,356 people were displaced in Sikka and 2,078 people were evacuated in Manggarai. Landslides blocked access to some villages, complicating rescue and supply efforts. The government's disaster response agency (BNPB) stated that \"meeting basic needs and providing logistics for evacuees has become one of the top priorities of the emergency response\" and dispatched tonnes of emergency supplies to Manggarai. The agency advised people to remain calm and stay away from coastal areas and structures showing signs of damage.",
+    "The earthquake was Indonesia's deadliest since 2022, when hundreds of people died in West Java. Tremors were felt as far west as Bima. Indonesia sits along the meeting point of three major tectonic plates, making it one of the world's most seismically active regions.",
+    "Governor Emanuel Melkiades Laka Lena of East Nusa Tenggara province said several victims had been killed in their sleep by collapsing rubble. One resident, Arnold Welianto from Talibura, reported being startled awake and rushing to his child's room as the ground shook."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c3v00w5ylw9o?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "event_utc": "2026-08-16T08:23:38Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-16T11:59:29Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "update_of": "magnitude-7-7-earthquake-kills-51-in-indonesia-displaces-thousands",
+  "also_reported_by": [
+    {
+      "outlet": "Al Jazeera",
+      "headline": "Indonesia\u2019s magnitude 7.7 quake kills at least 51, displaces thousands - Al Jazeera"
+    },
+    {
+      "outlet": "\u041c\u0435\u0436\u0430. \u041d\u043e\u0432\u0438\u043d\u0438 \u0423\u043a\u0440\u0430\u0457\u043d\u0438.",
+      "headline": "A 7.7 Earthquake Kills at Least 51 in Eastern Indonesia: The Deadliest Quakes of the Decade - \u041c\u0435\u0436\u0430. \u041d\u043e\u0432\u0438\u043d\u0438 \u0423\u043a\u0440\u0430\u0457\u043d\u0438."
+    },
+    {
+      "outlet": "The News International",
+      "headline": "Indonesia earthquake death toll rises to 51 as thousands evacuate after magnitude-7.7 tremor - The News International"
+    },
+    {
+      "outlet": "Khaleej Times",
+      "headline": "Indonesia quake: Thousands evacuate after 7.7-tremor leaves at least 51 dead - Khaleej Times"
+    },
+    {
+      "outlet": "BOL News",
+      "headline": "At least 51 dead, thousands displaced after 7.7-magnitude earthquake strikes eastern Indonesia - BOL News"
+    }
+  ]
+}
