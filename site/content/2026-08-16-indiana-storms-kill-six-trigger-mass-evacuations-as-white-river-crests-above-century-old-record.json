@@ -1,0 +1,39 @@
+{
+  "id": "c217",
+  "slug": "indiana-storms-kill-six-trigger-mass-evacuations-as-white-river-crests-above-century-old-record",
+  "kind": "brief",
+  "title": "Indiana storms kill six, trigger mass evacuations as White River crests above century-old record",
+  "dek": "Heavy rains caused the White River to break records set more than 100 years ago, forcing hundreds to evacuate in central Indiana. Six deaths have been linked to the storms, including an 18-year-old who went missing in a swollen river. Gov. Mike Braun said in a statement that five Hoosiers had been lost, creating a discrepancy with the overall reported death toll.",
+  "date": "2026-08-16",
+  "published_utc": "2026-08-16T17:38:43Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 7,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The White River crested just shy of 25 feet in Anderson and Noblesville on Friday, more than a foot above the 1913 record, according to CBS News reporting.",
+  "bottom_line": "The White River was expected to crest Saturday evening in Indianapolis, with forecasters monitoring water levels throughout the region. The outcome of recovery efforts will depend on whether the river begins to recede as predicted and whether the discrepancy in the confirmed death toll is clarified by officials.",
+  "human_take": "",
+  "body": [
+    "Heavy rains across central Indiana have caused severe flooding that has broken river records set more than 100 years ago, forcing hundreds of residents to evacuate and claiming at least six lives. The National Weather Service reported that more than 11 inches of rain fell over two days in some areas, swelling creeks and streams throughout the region.",
+    "The White River crested just shy of 25 feet in Anderson and Noblesville on Friday, more than a foot above the record set in 1913, per CBS News reporting. Jacob Spence, director of Marion County Emergency Management, described the flooding as \"one of those once-in-a-lifetime type floods\" and an \"unprecedented event\" where authorities are \"setting some new records.\" The damage has been concentrated along the river corridor from Hamilton County and into the northern Indianapolis suburbs.",
+    "Governor Mike Braun declared a state of emergency on Friday as the waters rose. Mayor Joe Hogsett issued evacuation orders for residents along the White River on Saturday. As of early afternoon Saturday, Indianapolis Fire Department spokesperson Rita Reith reported 91 people and 45 pets rescued. Authorities estimated that about 400 people evacuated parts of northern Indianapolis on their own, while the governor's office reported that more than 350 evacuations have occurred in Delaware County. A senior mobile home community in Tipton County was being evacuated, and rescues and welfare checks were occurring in Fayette County. National Guard vehicles assisted rescue efforts.",
+    "The six deaths linked to the storms include Matthew Morey, an 18-year-old incoming Purdue University freshman, whose body was found Saturday after he went missing on Wednesday when he entered the Mississinewa River with three others. The Delaware County Sheriff's Office confirmed his death and issued a statement: \"There are no words that can ease the pain of losing a child. Our hearts are with Matthew's family, friends, classmates, and everyone who knew and loved him.\" Additional deaths included a 58-year-old woman in Delaware County who died after attempting to drive through floodwaters, a 4-year-old boy in Jennings County, a 58-year-old woman in Lake County, an 86-year-old woman in Porter County, and a man in LaPorte County.",
+    "In a Saturday statement, Gov. Braun said: \"My heart is with the families and loved ones of the five Hoosiers we have lost and every family whose life has been changed by these storms. Please continue to take flooding seriously and stay away from floodwaters.\" The governor's reference to five deaths does not reconcile with the overall casualty count of six reported by emergency officials, per CBS News reporting.",
+    "President Trump approved Gov. Braun's request for a presidential emergency declaration on Saturday, freeing up to 5 million dollars in federal resources. Flash-flood warnings and watches remained in place Saturday across a swath of central Indiana, and forecasters expected the White River to crest Saturday evening in the Indianapolis area. The Yorktown Public Library in Delaware County was severely impacted, with approximately 1-foot-high floodwater throughout the building on Friday. The library stated on Facebook: \"Seeing our library in this state yesterday was nothing short of devastating. We're definitely all feeling a little heartbroken. We want to thank everyone who has already reached out to offer help. We're happy to report that the water has receded this morning, and we're working with a water mitigation company to come up with a plan.\"",
+    "Earlier in the week, severe storms wreaked havoc across other parts of the Midwest, causing tornadoes, heavy rains, and flash flooding, with storm damage reported from the Chicago area all the way to western Pennsylvania."
+  ],
+  "sources": [
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/indiana-floods-white-river-evacuations-rescues/"
+    }
+  ],
+  "event_utc": "2026-08-16T15:23:20Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-16T17:38:43Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "update_of": "flood-threat-rising-in-the-midwest-as-rivers-crest"
+}
