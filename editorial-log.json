@@ -7250,5 +7250,37 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-16",
+  "approved": 5,
+  "rejected": [
+   {
+    "id": "c035",
+    "headline": "Ukraine launches hundreds of drones across Russia in large-scale attack",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The attack killed between six and seven people in Russia' followed by 'One source (BBC) reports seven people have died across Russia from the attacks.' This contradicts the core brief claim that 'at least six people' were killed. The brief's own open_questions flag this exact discrepancy as unreconciled between sources (CBS reports six, BBC reports seven), yet the draft presents both figures without resolving which is accurate or why they differ. The writer then assigns the higher figure to BBC only, creating ambiguity about the actual death toll when sources conflict.",
+     "The draft states 'A Russian missile attack on Ukraine's Kryvyi Rih killed two people and wounded 14 others, including 14 workers at a steel plant, according to Ukrainian President Volodymyr Zelenskyy' (emphasis added). The phrasing 'including 14 workers' suggests 14 is a subset of the 14 wounded, which is logically impossible. The brief data point says 'Another person was killed and 14 workers of a steel plant were wounded in Kryvyi Rih' (BBC), which indicates the 14 workers are the wounded total. The draft's sentence structure mangles this and creates a false claim that is not in the brief.",
+     "The draft introduces 'According to Mayor Vitali Klitschko' for the Kyiv injury figure but the brief source attribution is to BBC, not a direct quote from the mayor. The draft's inline attribution shifts the source incorrectly."
+    ]
+   },
+   {
+    "id": "c080",
+    "headline": "U.S. and Iran approach deadline on nuclear program negotiations",
+    "category": "accuracy",
+    "reasons": [
+     "The brief explicitly states in open_questions: 'The fetched source text from Google News is entirely non-substantive HTML and CSS styling with no actual article content; it is a rendering error and contains zero reportable facts' and 'The New York Times URL (first source URL) was not fetched; the source_texts array carries only the Google News RSS reference.' The brief contains zero data_points and acknowledges it cannot verify the deadline date, negotiation status, peace terms, economic measures, or any named officials or statements. The draft violates the hard rule that no fact exists outside the brief by writing substantive claims ('the conflict shifts from military confrontation toward economic competition') with zero sourced data_points to support them. The draft fabricates reportable content from sources that either failed to fetch or contain no usable text."
+    ]
+   },
+   {
+    "id": "c025",
+    "headline": "Twelve killed as Polish bus veers off Hungarian motorway",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Firefighters rescued 35 of the 59 people onboard' but the brief data_point says '35 out of the 57 passengers and two drivers onboard have been rescued.' The draft conflates the rescue count with a total that includes the 12 killed (57 + 2 = 59), which misrepresents the numbers. The brief establishes 59 total on the bus; 12 were killed, so only 47 survived. The 35 rescued figure needs clarification in context of the 12 dead, not presented as a simple ratio of 35 of 59."
+    ]
+   }
+  ]
  }
 ]

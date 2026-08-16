@@ -1,0 +1,47 @@
+{
+  "id": "c123",
+  "slug": "nato-fighter-jet-shoots-down-drone-in-romanian-airspace-near-ukraine-border",
+  "kind": "brief",
+  "title": "NATO fighter jet shoots down drone in Romanian airspace near Ukraine border",
+  "dek": "A Spanish F-18 fighter jet shot down a drone that entered Romanian airspace near the border with Ukraine and Moldova early Sunday. The incident is part of a recurring pattern of drone incursions into NATO territory during the war in Ukraine.",
+  "date": "2026-08-16",
+  "published_utc": "2026-08-16T11:00:43Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 7,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Romania's defense ministry said a NATO fighter jet intercepted and shot down a drone that had entered its airspace near the border with Ukraine and Moldova early Sunday morning.",
+  "bottom_line": "The pattern of drone incursions across NATO airspace has accelerated since Russia's invasion began, raising questions about whether the crossings reflect the unpredictable effects of electronic warfare or represent a deliberate effort to test NATO's air defenses. Further incidents or statements from NATO or allied governments about the origins and causes of these crossings will clarify whether this reflects a new phase of conflict dynamics.",
+  "human_take": "",
+  "body": [
+    "A Spanish F-18 fighter jet deployed on NATO duties shot down a drone that had entered Romanian airspace near the border with Ukraine and Moldova early Sunday morning, according to Romania's defense ministry reported by CBS News. The drone had entered from Moldova, and debris fell in an unpopulated area near the border with Ukraine.",
+    "The incident marks the latest in a recurring series of drone incursions into NATO territory since Russia's invasion of Ukraine began in 2022. Authorities have blamed these crossings on electronic interference from the war, though the exact mechanism remains unexplained in available accounts.",
+    "According to reporting by CBS News, in some cases the drones are Ukrainian aircraft that have been hijacked by Russian forces. Ukrainian drones have previously crashed across all three Baltic states, which share borders with Russia, with officials attributing the inadvertent incursions to Russian electronic warfare.",
+    "Romanian authorities have documented drone fragments on Romanian soil several times since 2023 following Russian attacks on Ukrainian ports along the Danube River, per CBS News. Last month, Romania shot down a drone for the first time since the invasion after it entered the country's airspace approximately 60 miles from Bucharest. In June, Latvia's military said two NATO fighter jets shot down a drone that entered the country's airspace, according to the same reporting.",
+    "Last week, Ukraine denied targeting Bulgaria after a drone entered the country's airspace on Saturday and exploded near an international gas pipeline shortly after crossing the border from Romania, CBS News reported. That incident came days before Sunday's interception in Romania.",
+    "The sources do not confirm the nationality, origin, or operational status of the drone shot down Sunday, or whether it posed an active threat before being intercepted."
+  ],
+  "sources": [
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/nato-fighter-jet-shoots-down-drone-romania-ukraine/"
+    },
+    {
+      "title": "The Wall Street Journal",
+      "url": "https://www.wsj.com/world/europe/nato-jets-down-suspected-russian-drone-over-romania-19d66e3d?mod=rss_worldnews"
+    }
+  ],
+  "event_utc": "2026-08-16T06:23:43Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-16T11:00:43Z",
+    "sources_cited": 2,
+    "sources_live_checked": 1
+  },
+  "also_reported_by": [
+    {
+      "outlet": "Euromaidan Press",
+      "headline": "Romanian jets scramble as Russian drone enters NATO airspace before Ukraine shoots it down - Euromaidan Press"
+    }
+  ]
+}
