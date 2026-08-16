@@ -1,0 +1,75 @@
+{
+  "id": "c227",
+  "slug": "attorney-general-todd-blanche-signals-potential-supreme-court-appeal-on-voter-roll-access",
+  "kind": "brief",
+  "title": "Attorney General Todd Blanche signals potential Supreme Court appeal on voter roll access",
+  "dek": "Attorney General Todd Blanche told NBC News that the Justice Department may appeal to the Supreme Court in 22 cases where federal courts have blocked the administration's demand for state voter rolls, a push rooted in an executive order requiring states to provide voter data including names, dates of birth, addresses, and partial Social Security numbers.",
+  "date": "2026-08-16",
+  "published_utc": "2026-08-16T17:03:15Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 5,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Blanche said on 'Meet the Press' that it is 'a possibility' the DOJ will appeal the 22 lost voter roll cases to the Supreme Court ahead of November's midterm elections, marking a potential escalation of the administration's effort to gain unprecedented federal access to state voting records.",
+  "bottom_line": "A Supreme Court appeal, if filed, would test the constitutional limits of federal authority over voter rolls and could reshape how election administration is shared between federal and state governments. The timing and substance of any appeal will determine whether this dispute reaches the high court before or after the November midterm elections.",
+  "human_take": "",
+  "body": [
+    "Attorney General Todd Blanche said the Justice Department may ask the Supreme Court to intervene in dozens of cases where federal judges have ruled against the administration's efforts to gain broad access to state voter rolls ahead of November's midterm elections.",
+    "When asked on NBC News' \"Meet the Press\" whether the DOJ would appeal the 22 cases it has lost so far to the Supreme Court, Blanche replied, \"Absolutely, it's a possibility.\" The potential escalation marks a significant moment in the administration's push for federal access to voting records traditionally controlled by individual states.",
+    "The legal battle stems from an executive order Trump signed requiring states to turn over voter data, including voters' names, dates of birth, residential addresses, state driver's license numbers, and the last four digits of their Social Security numbers. According to the administration's stated rationale, the federal government is gathering the data to allow the Justice Department to investigate what it calls \"deficiencies\" or \"anomalies,\" including whether any noncitizens are registered to vote.",
+    "While some states have voluntarily complied, the Justice Department has sued 30 states and Washington, D.C., for refusing to turn over the data. Federal judges in Oregon, Michigan, and elsewhere have sided with at least 22 states seeking to block federal access to their voter rolls, per NBC News' reporting.",
+    "Blanche framed the effort in election integrity terms. \"Election integrity is something that President Trump ran on, and the American people elected him,\" he told NBC News. \"It's something that every American should care about. The idea that the Department of Justice is trying to investigate issues around elections to make sure they're fair and make sure they're conducted the right way is not something that we should be running away from.\"",
+    "However, critics and state officials, including some Republicans, have pushed back. Elections have always been run by states, and the federal government does not typically keep track of voter rolls, according to NBC News' reporting. Notably, some of the states fighting the federal government in court are led by Republicans, including Idaho, Nevada, Utah, Georgia, and Vermont. Vermont's GOP Governor Phil Scott told \"Meet the Press\" last month that state leaders are better positioned to run elections than the federal government.",
+    "Senate Democrats raised concerns about Blanche during his confirmation hearing, questioning whether his personal relationship with Trump would influence his decisions as the nation's top law enforcement official. House Minority Leader Hakeem Jeffries characterized the DOJ under Blanche as \"a wholly owned subsidiary of the Trump cartel and Donald Trump's extreme agenda, as opposed to standing up for the rule of law.\"",
+    "Blanche took over as acting attorney general after Trump fired Attorney General Pam Bondi in April. The Senate voted earlier this month to confirm Blanche to his post after he served several months in the acting role. Before returning to government, Blanche served as Trump's personal attorney in a New York City case where the president was found guilty of 34 felony counts of falsifying business records.",
+    "When asked about Democratic concerns regarding his independence, Blanche told NBC News: \"I will act with integrity. Our prosecutors will act with integrity. We will prosecute without fear or any sort of favor, and that's exactly what we've been doing, and that's what every Department of Justice should do.\" He added: \"The president will never ask me to do something unethical or legal or illegal. He never has. He never will.\"",
+    "Separately, Blanche also addressed negotiations with Republican senators over his confirmation. Key GOP senators including Thom Tillis of North Carolina and John Cornyn of Texas had concerns about a so-called \"anti-weaponization\" fund, a nearly $2 billion fund that would have allowed people to collect money from the Justice Department if they felt it had been weaponized against them. Blanche told NBC News on Sunday: \"I've said repeatedly: It's dead.\""
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/politics/justice-department/attorney-general-todd-blanche-doj-state-voter-rolls-supreme-court-rcna592721"
+    },
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/meet-the-press/video/attorney-general-todd-blanche-says-the-doj-may-take-states-voter-roll-fight-to-supreme-court-268371525962"
+    },
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/news/us-news/todd-blanche-best-course-fbi-takeover-nancy-guthrie-investigation-rcna592784"
+    }
+  ],
+  "event_utc": "2026-08-16T13:46:34Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-16T17:03:15Z",
+    "sources_cited": 3,
+    "sources_live_checked": 2
+  },
+  "also_reported_by": [
+    {
+      "outlet": "NBC News",
+      "headline": "Attorney General Todd Blanche says the DOJ may take states\u2019 voter roll fight to Supreme Court - NBC News"
+    },
+    {
+      "outlet": "Yahoo",
+      "headline": "Attorney General Todd Blanche says the DOJ may take states\u2019 voter-roll fight to Supreme Court - Yahoo"
+    },
+    {
+      "outlet": "Forbes",
+      "headline": "Todd Blanche Refuses To Pledge Independence From White House As Trump\u2019s Attorney General - Forbes"
+    },
+    {
+      "outlet": "The White House (.gov)",
+      "headline": "Todd Blanche Sworn In As Attorney General - The White House (.gov)"
+    },
+    {
+      "outlet": "CNN",
+      "headline": "Trump\u2019s former lawyers: Judge Emil Bove swears in Attorney General Todd Blanche at the White House - CNN"
+    },
+    {
+      "outlet": "The New Yorker",
+      "headline": "The Senate\u2019s Shameful Acquiescence to Todd Blanche as Attorney General - The New Yorker"
+    }
+  ]
+}

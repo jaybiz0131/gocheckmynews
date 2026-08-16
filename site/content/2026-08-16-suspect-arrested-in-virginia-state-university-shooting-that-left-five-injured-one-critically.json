@@ -1,0 +1,75 @@
+{
+  "id": "c031",
+  "slug": "suspect-arrested-in-virginia-state-university-shooting-that-left-five-injured-one-critically",
+  "kind": "brief",
+  "title": "Suspect arrested in Virginia State University shooting that left five injured, one critically",
+  "dek": "Camron Harris, 19, was arrested Saturday after a shooting at Virginia State University that wounded five people, one critically. Harris was found hiding in a dormitory closet after a 12-hour search. He is not a student at the university, and only one of the five victims was a VSU student.",
+  "date": "2026-08-16",
+  "published_utc": "2026-08-16T17:03:15Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 3,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Camron Harris, 19, from Henrico, Virginia, was arrested after five people were shot at Virginia State University during opening week; one victim remains in critical condition.",
+  "bottom_line": "Harris is in custody following his arrest; the case status, charges, and details about whether he acted alone or with others remain unspecified in the sourced reporting. Clarification on the initial multiple-shooter assessment and the trajectory of the investigation will define how the incident is understood.",
+  "human_take": "",
+  "body": [
+    "Camron Harris, 19, from Henrico, Virginia, was arrested Saturday after a shooting at Virginia State University left five people wounded, one in critical condition.",
+    "Harris was found hiding in a closet on campus hours after the incident, according to BBC reporting. Officers responded to reports of gunfire outside residence halls at approximately 1:28 a.m. local time Saturday. Harris is not a student at the university, and only one of the five victims was enrolled at VSU, according to BBC coverage.",
+    "The victims' ages range from 17 to 23. A 21-year-old man remains in critical condition, while the other four victims, aged 17 to 23, sustained non-life-threatening injuries according to police, per BBC reporting.",
+    "The shooting occurred as Virginia State University, located south of Richmond and one of the nation's historically Black universities, was preparing for the new academic term. Campus dormitories opened for returning students on Friday, and classes were scheduled to begin Monday. The university has more than 5,000 students.",
+    "Local police initially reported that they believed more than one shooter was involved in the incident. Lt James R Lamb of Chesterfield County Police Department told BBC on Saturday that authorities believed multiple assailants were involved, according to BBC reporting. The sourced material does not clarify whether Harris acted alone or with others, or whether the initial assessment of multiple shooters has been revised."
+  ],
+  "sources": [
+    {
+      "title": "Washington Examiner",
+      "url": "https://www.washingtonexaminer.com/news/crime/4688938/suspect-arrested-virginia-state-university-shooting/"
+    },
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c0l5583903yo"
+    },
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/2026/aug/16/virginia-state-university-shooting-suspect-arrested"
+    },
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c0l5583903yo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOYTVLR0g3d1FwakI5bUJXSnNWZ2NJU3dDQkItV1dseHA5X0VHVGdEeFF4X3YwSS1tVzQ1MzZIdjVQZkIwVnZVcHBKOEFrSnVIaEQxM0dmeHFrUHVTd2ZWTjlwZFUtckxQOHdMYW13dkhPd0dVcnoyTERHdzZjWkNKZmFaUFFRYXN0cGg40gGQAUFVX3lxTE1XUFZ2bXdWVWtubklCM1dPeTNDTU9rS0NWM3hMbmlxLXFSQ1NNTUFhQ2Z6LUFoMml5Yjg2LUVoWExfdmpXbkFHMzRMSTZlRGdOcGpJWF9NVzgyM0dpdy1Fd0tOZF9WN0kxRXg3YUFzSHFpcUlzUlIxNnh1Tk54aXZfcG1TdkstdG12Z1VqT09DTw?oc=5"
+    }
+  ],
+  "event_utc": "2026-08-16T14:30:22Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-16T17:03:15Z",
+    "sources_cited": 5,
+    "sources_live_checked": 3
+  },
+  "update_of": "19-year-old-arrested-in-virginia-state-university-shooting-five-injured",
+  "also_reported_by": [
+    {
+      "outlet": "CNN",
+      "headline": "Suspect in Virginia State University shooting is arrested after police find him hiding in a closet - CNN"
+    },
+    {
+      "outlet": "NewsNation",
+      "headline": "Suspect captured after Virginia State University shooting - NewsNation"
+    },
+    {
+      "outlet": "WJLA",
+      "headline": "Suspect arrested after 5 shot near Virginia State University residence halls - WJLA"
+    },
+    {
+      "outlet": "BBN Times",
+      "headline": "Suspect Arrested After Shooting Wounds Five at Virginia State University - BBN Times"
+    },
+    {
+      "outlet": "WWBT",
+      "headline": "Suspect arrested after shooting at Virginia State University - WWBT"
+    }
+  ]
+}
