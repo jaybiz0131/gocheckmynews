@@ -7581,5 +7581,57 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-16",
+  "approved": 3,
+  "rejected": [
+   {
+    "id": "c002",
+    "headline": "Tropical Storm Lala delivers dangerous flash floods to Hawaii without making landfall",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Tropical Storm Lala is battering Hawaii...despite passing within 30 miles of Big Island's South Point without making landfall' but the brief identifies the location as passing within 30 miles, not specifying 'South Point' in the core claim. More critically, the draft later states 'several occupied homes possibly swept off their foundations in the coastal communities of Na'alehu and Wai'ohinu' yet earlier in the same paragraph states these are 'near Big Island's southern tip' without attribution. The brief's data points separately cite BBC and NPR for the community names, and the brief data itself notes 'several occupied homes possibly swept off their foundations' is reported but not confirmed\u2014the draft should reflect this uncertainty more clearly and consistently across references.",
+     "The draft states 'about 210,000 islanders live off the grid in improvised housing on Big Island' as a straightforward fact in the final paragraph. This figure comes from NPR and is sourced to that outlet, but the phrasing 'live off the grid in improvised housing' requires careful framing since it carries social implications about this population. The brief's data_point states the claim as reported by NPR but does not indicate whether NPR provided this exact characterization. The draft should either quote NPR's exact language or attribute the descriptor more carefully."
+    ]
+   },
+   {
+    "id": "c225",
+    "headline": "Attorney General Blanche signals possible Supreme Court appeal in voter roll cases",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Blanche took over as acting attorney general after Trump fired Attorney General Pam Bondi in April.' The brief data_point says 'Blanche took over as acting attorney general after Trump fired Attorney General Pam Bondi in April.' However, this requires verification: the sequence of events and the term 'fired' are presented as fact. The brief does not provide a source URL or timestamp for this claim in the data_points section\u2014it appears in the general narrative but without confidence labeling. This is a critical biographical claim about a named official's termination and should have explicit source attribution in the draft.",
+     "The draft reports 'Trump praised Blanche on Friday in Nassau County, New York, saying: \"He's going to be the greatest, maybe ever...He's got a shot at being the greatest ever, if he remains tough and strong.\"' The brief's data_point quotes this as 'President Trump said of Blanche on Friday in Nassau County, New York: \"He's going to be the greatest, maybe ever... He's got a shot at being the greatest ever, if he remains tough and strong.\"' The draft's paraphrase and quote are substantively accurate to the brief, but the draft does not attribute this statement to a specific source outlet (NBC, per the brief). All quotes from officials should carry clear source attribution inline.",
+     "The draft states 'The Senate confirmed Blanche to his post earlier in August' but the brief data_point says 'The Senate voted earlier in August 2026 to confirm Blanche to his post after he spent several months as acting attorney general.' The draft's phrasing omits that Blanche had served 'several months as acting attorney general' before confirmation, which is material context present in the brief but not conveyed in the draft."
+    ]
+   },
+   {
+    "id": "c216",
+    "headline": "Indiana storms linked to deaths as floods trigger rescues and evacuations",
+    "category": "accuracy",
+    "reasons": [
+     "Opening paragraph states 'precise death counts remain unconfiled in public statements, with one source citing six deaths and another indicating different figures' \u2014 but the brief's core_claim asserts 'at least six deaths' as reported by Gov. Braun, and all data_points consistently cite six deaths from CBS News. The draft introduces uncertainty ('one source citing six...another indicating different figures') that does not exist in the brief and contradicts the reported consensus. The writer added interpretive language about conflicting sources that was not in the research.",
+     "The statement that 'another indicating different figures' lacks any factual basis in the brief; no second source with a different death count is cited or mentioned in any data_point. This is a smuggled claim\u2014a factual assertion (that reports differ) not present in the research."
+    ]
+   },
+   {
+    "id": "c128",
+    "headline": "Federal judge rules border wall construction can proceed on Tohono O'odham lands",
+    "category": "compliance",
+    "reasons": [
+     "The draft includes a quote from DHS Secretary Markwayne Mullin: 'DHS remains focused on enforcing our immigration laws, securing the border, and ensuring those who enter our country illegally are removed swiftly. Thanks to the strong leadership of President Trump, we have the most secure border in history.' The brief shows this data_point is labeled 'announced-not-verified' confidence. The draft presents this statement as a fact without any qualifier (e.g., 'according to the Trump administration,' 'stated,' 'announced,' or 'claimed'). An unattributed or unattrited quote presented as settled fact when confidence is 'announced-not-verified' violates accuracy discipline and liability protocol.",
+     "The statement 'the Trump administration has cited border security gains in recent months' followed by unqualified DHS statistics lacks the necessary softening language. The brief marks the apprehension statistics ('down 94 percent,' 'lowest level in 30 years') and the 'zero border releases' claim as 'announced-not-verified.' The draft should signal administrative claims rather than narrate them as fact. The phrase 'According to a statement from DHS Secretary Markwayne Mullin's office' only appears once in the paragraph, and the subsequent statistics and quote are not clearly attributed to that announced claim."
+    ]
+   },
+   {
+    "id": "c186",
+    "headline": "5th Circuit reinstates Texas mail-in ballot ID requirement; reverses March 2026 lower court block",
+    "category": "balance",
+    "reasons": [
+     "The brief's angle explicitly states voting rights advocates say the requirement 'will suppress turnout,' but the draft contains no counter-argument or perspective from voting rights groups. The bear_case is empty, and the draft presents only the court's action without the dispute over its effects.",
+     "The draft's bottom_line mentions 'Whether...voting rights groups challenge it on other grounds remains to be reported' but the body never introduces their objection to the ruling itself, leaving the story one-sided on the central controversy."
+    ]
+   }
+  ]
  }
 ]
