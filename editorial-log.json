@@ -7282,5 +7282,48 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-16",
+  "approved": 4,
+  "rejected": [
+   {
+    "id": "c035",
+    "headline": "Ukraine launches largest aerial attack; Russia responds with strikes on Ukrainian cities",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'At least five people have been killed and wounding more than ten' in the opening paragraph, but the brief's core_claim and data_points show conflicting figures: CBS reported 'at least six people were killed' and BBC reported 'seven people have died across Russia.' The draft uses neither figure accurately and omits the discrepancy that the brief explicitly flags as an open question. The opening should either present the conflicting counts or use one with proper attribution.",
+     "The draft states 'Russia's Ministry of Defense reported that it had destroyed 822 Ukrainian drones overnight, per CBS News. The agency also claimed that air defenses intercepted and destroyed 822 drones in the latest salvo, according to BBC reporting.' This reads as the same claim cited twice from different sources without clarifying whether BBC is independently reporting the same figure or simply relaying the Russian claim. The brief data_points treat these as distinct source claims but the draft fuses them in a way that obscures which outlet verified what.",
+     "The draft attributes the Wildberries warehouse location only generically ('the town of Podolsk') but the brief's data_point specifies 'A Wildberries warehouse in Koledino, 25km (15.5 miles) from the centre of Moscow' per BBC. The draft omits the specific location detail."
+    ]
+   },
+   {
+    "id": "c080",
+    "headline": "U.S. and Iran Poised to Miss Diplomatic Deadline on Nuclear Talks",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'No further details about the specific deadline date, the terms under negotiation, or the reasons for the expected failure are provided in the available source material.' This is meta-commentary about the brief's limitations, not reporting. The draft should present the core claim from the brief without editorializing about what the sources lack.",
+     "The draft's entire body consists of acknowledgments of what is NOT in the source material rather than reporting what IS in the brief. The brief's data_point confirms the core claim; the draft should lead with that fact, not with the absence of details.",
+     "The draft reads as a failed attempt to fill space rather than a story. The instruction is no fact exists outside the brief; this draft violates that by making the absence of facts the story itself."
+    ]
+   },
+   {
+    "id": "c092",
+    "headline": "At Least Five Dead in Indiana Flooding Described as Worst in Over 30 Years",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The available source material does not provide specific rainfall totals from named locations...' and 'No official statement from Indiana state officials, FEMA, or the federal government is included in the source material regarding federal aid requests, disaster declarations...' These are meta-observations about source gaps, not reporting. The draft should report only what the brief contains, not narrate its absences.",
+     "The draft frames itself as a transparency document about source limitations rather than a news story. This violates the hard rule that facts come from the brief; meta-commentary about what the brief lacks is not a fact to report."
+    ]
+   },
+   {
+    "id": "c025",
+    "headline": "Twelve killed as Polish bus veers off Hungarian motorway",
+    "category": "accuracy",
+    "reasons": [
+     "Paragraph 4 states: 'With 12 people killed from the 59 total aboard, 47 people survived the crash. The remaining 12 survivors not yet rescued, if any, remain unaccounted for in the immediate aftermath.' This math is incoherent and unsourced: 12 killed + 47 survived = 59 total, leaving zero 'remaining 12 survivors not yet rescued.' The brief states 35 were rescued by firefighters, 1 treated with life-threatening injuries, 9 with serious injuries, 37 with minor injuries (1+9+37=47). The draft's claim about '12 survivors not yet rescued' does not appear in the brief and creates a false factual claim that was not sourced."
+    ]
+   }
+  ]
  }
 ]
