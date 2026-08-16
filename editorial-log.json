@@ -7466,5 +7466,46 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-16",
+  "approved": 4,
+  "rejected": [
+   {
+    "id": "c001",
+    "headline": "Tropical Storm Lala brings catastrophic rain and flooding to Hawaii; one dead, thousands without power",
+    "category": "accuracy",
+    "reasons": [
+     "Draft states 'nearly 130,000 utility customers without power' but brief data_point says 'Nearly 115,000 customers lost electricity.' The draft inflates the figure by ~15,000 customers\u2014a material factual discrepancy that does not trace to the brief.",
+     "Draft reports 'Laupahoehoe community on the Hamakua Coast received more than 33 inches of rain since Friday' (matches brief), but then states 'the Big Island as a whole recorded 1 to 2 feet of rain' without attribution in that same sentence. Brief specifies this is ABC News reporting; draft should attribute inline or risk ambiguity on which outlet reported which figure."
+    ]
+   },
+   {
+    "id": "c228",
+    "headline": "Attorney General Todd Blanche signals DOJ may appeal voter roll cases to Supreme Court",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The Senate confirmed Blanche to his post earlier this month' but the brief data_point says 'The Senate voted earlier this month to confirm Blanche to his post after he spent several months as acting attorney general.' The brief also contains a separate claim: 'Blanche took over as acting attorney general after Trump fired Attorney General Pam Bondi in April.' The draft does not reconcile the timeline: if Bondi was fired in April and Blanche became acting AG then, 'earlier this month' (August) cannot be when the Senate confirmed him after he served 'several months' as acting AG. The draft's timeline is internally incoherent and does not match the brief's sequencing.",
+     "The draft omits entirely from the body the data_point about Blanche taking over as acting attorney general after Trump fired Pam Bondi in April, presenting only the confirmation as 'earlier this month' without the contextual chronology in the brief that establishes he served several months in the acting role first.",
+     "The draft refers to 'November midterm elections' in the bottom_line, but the brief specifies '2026' and calls them 'midterm elections'\u2014the year 2026 means these are not typical midterms (which occur in even years between presidential elections). This is not a factual error in the draft itself but the bottom_line's phrasing 'November midterm elections' is potentially confusing given the 2026 date; however, the brief's own language ('November midterm elections') is reproduced, so this traces to the brief."
+    ]
+   },
+   {
+    "id": "c184",
+    "headline": "5th Circuit Court of Appeals reinstates Texas mail-in voter ID requirement",
+    "category": "clarity",
+    "reasons": [
+     "The brief is marked 'thin: true' with only two data_points and minimal sourcing detail (source_chars: 0). The draft acknowledges in the body that 'The Hill reported the 5th Circuit action but did not provide details on the court's legal reasoning, which specific provisions were reinstated beyond the mail-in ID requirement, or whether the decision is subject to further appeal.' This is honest about the thinness of the source, but the story itself becomes mostly acknowledgment of what is not known, making it read more like a report on the absence of information than a news story. The bottom_line compounds this by directing readers to 'Check official Texas election authority guidance for current mail-in ballot procedures,' which reads like advice rather than forward-looking journalism about what will happen next. The story does not establish stakes clearly in the opening (it buries the November midterm context until later), and the body largely catalogs unknowns rather than leading with the one concrete fact (reinstatement of ID requirement ahead of elections). A thin brief justifies a short story, but not one that reads primarily as 'details are unclear.'"
+    ]
+   },
+   {
+    "id": "c211",
+    "headline": "Indiana storms linked to 6 deaths as floods trigger rescues and evacuations",
+    "category": "accuracy",
+    "reasons": [
+     "Death count discrepancy: Draft states 'At least six deaths' in headline and opening, but later reports Gov. Braun's quote referencing 'five Hoosiers we have lost.' The brief flags this unreconciled discrepancy in open_questions. The draft lists six deaths (Matthew Morey, 4-year-old in Jennings County, 58-year-old in Lake County, 86-year-old in Porter County, man in LaPorte County, 58-year-old in Delaware County) but Braun's statement contradicts this. The draft must either resolve this discrepancy or flag the inconsistency as the source does not clarify it."
+    ]
+   }
+  ]
  }
 ]

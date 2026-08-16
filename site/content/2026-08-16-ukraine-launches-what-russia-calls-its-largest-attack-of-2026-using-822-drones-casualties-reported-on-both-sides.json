@@ -1,0 +1,38 @@
+{
+  "id": "c011",
+  "slug": "ukraine-launches-what-russia-calls-its-largest-attack-of-2026-using-822-drones-casualties-reported-on-both-sides",
+  "kind": "brief",
+  "title": "Ukraine launches what Russia calls its largest attack of 2026 using 822 drones; casualties reported on both sides",
+  "dek": "Ukraine struck Russian targets with approximately 822 drones on August 16, killing at least seven people in Russia according to Moscow's account. Russia responded with attacks on Ukraine that killed at least seven more and injured over 39, per Ukrainian officials.",
+  "date": "2026-08-16",
+  "published_utc": "2026-08-16T15:53:30Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 4,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Ukraine used some 822 drones in an overnight strike on Russia, with about 600 aimed at Moscow, according to BBC reporting; Russian officials said at least seven people were killed.",
+  "bottom_line": "The overnight strike and counter-strike represent the latest in an intensifying pattern of reciprocal drone and missile attacks. Neither casualty count has been independently verified outside official government claims. Watch for Ukrainian or international confirmation of Russia's casualty figures and the damage toll on both sides in coming days.",
+  "human_take": "",
+  "body": [
+    "Ukraine struck Russian targets overnight on August 16 using approximately 822 drones, roughly 600 aimed at Moscow, according to BBC reporting. Moscow claimed the attack killed at least seven people in Russia, making it what Russian officials said was the \"largest-scale\" attack Ukraine has launched this year.",
+    "Russia responded with strikes on Ukrainian cities and infrastructure. According to BBC reporting, Russian attacks killed at least seven people across Ukraine and injured more than 39. The Ukrainian capital Kyiv came under attack four times overnight, with air-raid sirens sounding repeatedly. Mayor Vitali Klitschko reported at least six people, including a child, were injured in the city, per BBC.",
+    "In Russia, the regional governor said Moscow had suffered \"one of the most massive drone attacks in recent memory.\" Five people died in the south-western region of Rostov. A woman was killed in Belgorod after a civilian bus was struck. An 83-year-old man died in a drone attack in the Moscow region, according to Governor Andrey Vorobyov. A Wildberries warehouse in Koledino, 25 kilometers from central Moscow, was hit and caught fire, injuring three workers, per BBC reporting.",
+    "Ukraine has repeatedly targeted Wildberries, the Russian online retailer, since July. Kyiv said it was targeting logistics hubs used by Russians to procure military equipment and disrupting supplies to the Russian army, according to BBC.",
+    "Russia claimed its attacks on Kyiv targeted military infrastructure, specifically a FirePoint facility producing parts for Ukrainian Flamingo missiles and a factory making drone components, per BBC. A book market in Kyiv's Pochayna district was damaged in the strikes, and a vinyl store owner reported losing 500,000 hryvnias (roughly 8,262 British pounds) in stock.",
+    "Both warring sides accuse each other of targeting civilians. Ukrainian President Volodymyr Zelensky said 13 regions came under attack this week. He stated that Russia launched more than 1,550 attack drones, nearly 1,560 guided aerial bombs, and 62 missiles across Ukraine this week, per BBC reporting.",
+    "Russia launched its full-scale invasion in February 2022 and currently controls approximately a fifth of Ukrainian territory. The conflict has become predominantly aerial, with continuous exchanges of missiles and drones aimed at degrading each side's warfighting capacity."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c1411pgje8xo?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "event_utc": "2026-08-16T15:50:12Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-16T15:53:30Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}
