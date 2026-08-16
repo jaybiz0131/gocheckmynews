@@ -7397,5 +7397,39 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-16",
+  "approved": 5,
+  "rejected": [
+   {
+    "id": "c193",
+    "headline": "Federal appeals court reinstates Texas mail-in voting ID requirements",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The specific legal reasoning behind each court's decision and any dissenting opinions from the appeals panel remain unreported in the available record,' but this is NOT in the brief. The brief does not contain a data_point saying reasoning or dissenting opinions are unreported; the writer has added editorial hedging not sourced to the brief.",
+     "The draft says 'This ruling by the 5th Circuit, a federal appeals court, suggests at least one level of appellate review has found the state's approach permissible, though the case's full legal history and the impact of this decision on the other provisions of the 2021 law are not specified in current reporting'\u2014this is narrative inference and qualification not supported by the brief's three data_points. The brief is explicitly marked 'thin: true'; the writer has padded the story with unanchored commentary rather than sticking to reported facts.",
+     "The draft adds 'Texas election law has faced ongoing legal challenges, particularly around the tension between voting access and election security measures'\u2014this contextual claim is not in the brief and appears to be writer interpretation."
+    ]
+   },
+   {
+    "id": "c274",
+    "headline": "Tropical storm warning issued for Hawaii regions as dangerous conditions develop",
+    "category": "compliance",
+    "reasons": [
+     "The draft contains weather advisory language that functions as actionable safety guidance: 'Plan for dangerous wind,' 'Prepare: Last minute efforts...should now be complete,' 'Act: Now is the time to shelter from dangerous wind,' and 'Turn around, don't drown when encountering flooded roads.' This material appears in the bottom_line and reads as emergency advice rather than news reporting. The desk's compliance rule forbids legal, financial, or advisory content in the desk's own voice. Weather service guidance must be attributed to NWS, not paraphrased as the draft's own directive."
+    ]
+   },
+   {
+    "id": "c075",
+    "headline": "Trump administration arrests immigrants with active legal cases at airports",
+    "category": "accuracy",
+    "reasons": [
+     "The draft asserts 'The Trump administration is arresting immigrants at airports who have active immigration cases and no criminal history' as established fact, but the brief contains zero data_points. The core_claim is marked as thin=true with source_chars=0, indicating no sourced reporting exists to support this claim beyond a headline.",
+     "The draft acknowledges the brief's emptiness ('The specific cases, dates, and numbers of such arrests remain unclear', 'The New York Times has not released the policy directive') but then presents the unsubstantiated core claim as the lede and story framing. This is smuggling an unsourced assertion into the piece.",
+     "The bottom_line correctly notes the brief is inadequate ('The desk cannot publish this story at present'), making the draft internally contradictory: it leads with an unconfirmed claim while simultaneously admitting in the bottom_line that the story cannot be published. The draft should not have been written at all, or should be structured as a hold/rejected brief rather than a published-ready draft."
+    ]
+   }
+  ]
  }
 ]
