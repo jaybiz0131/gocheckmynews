@@ -7925,5 +7925,45 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-17",
+  "approved": 4,
+  "rejected": [
+   {
+    "id": "c011",
+    "headline": "Trump threatens to bomb Oman as Iran-US diplomacy deadline expires",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Trump stressed the upcoming November midterm elections in the US had \"nothing to do with my thinking.\"' but the brief data_point says Trump 'argued the upcoming November elections had \"nothing to do with my thinking.\"' The brief does not specify 'midterm' elections\u2014only 'November elections.' Midterm elections occur in even-numbered years not ending in zero; November 2026 would be midterm elections, but November 2028 would be a presidential election. The draft adds a temporal/electoral specification ('midterm') not present in the sourced brief, creating factual ambiguity about which election cycle Trump was discussing.",
+     "The draft attributes the Houthi military spokesperson statement as 'Yehya Saree posted on X: \"The strike was accurate and direct, resulting in the complete burning of the ship, the sinking of a number of the boats, and the burning of the remainder.\"' However, the brief data_point shows the full quote from Saree is: '\"The Houthis managed to target a military landing ship belonging to the Saudi enemy, along with four accompanying military boats in the Red Sea off the coast of Mokha, using a number of ballistic missiles. The strike was accurate and direct, resulting in the complete burning of the ship, the sinking of a number of the boats, and the burning of the remainder.\"' The draft presents only the second sentence of a two-sentence statement, omitting the first sentence that describes the targeting action and missile type, materially altering the context and completeness of the on-record claim."
+    ]
+   },
+   {
+    "id": "c060",
+    "headline": "Storms move from Midwest to mid-Atlantic with flooding ongoing",
+    "category": "accuracy",
+    "reasons": [
+     "The draft body states 'Multi-day storms have caused deaths in Indiana and triggered flooding across the Midwest and mid-Atlantic region' but the brief's core_claim and only data_point specify 'At least seven people dead in Indiana from days of storms.' The draft omits the specific death toll ('at least seven') that is present in the brief and sourced to PBS NewsHour. The writer's hard rule requires all facts in the draft to trace to the brief; a death toll is a factual claim that must be included or the draft reads as incomplete and fails to convey the available verified information."
+    ]
+   },
+   {
+    "id": "c062",
+    "headline": "60-day deadline for U.S.-Iran peace deal is expiring with talks still mediated",
+    "category": "clarity",
+    "reasons": [
+     "The draft contains a self-aware editorial admission of its own limitations ('The brief provided does not clarify...') which reads as metacommentary rather than journalism. This breaks the fourth wall and undermines reader trust by foregrounding the writer's research gaps instead of either filling them or simply not mentioning them. The sentence should be removed entirely; if key facts are missing, the story should either be held or rewritten to work within what the brief contains."
+    ]
+   },
+   {
+    "id": "c113",
+    "headline": "Government Bond Yields Surge to Highest Levels Since 2008 Across Major Economies",
+    "category": "compliance",
+    "reasons": [
+     "The paragraph beginning 'The brief does not specify...' is meta-commentary about the research process and belongs in editorial notes, not the published draft. It reads as the writer explaining gaps rather than reporting what was found, breaking the fourth wall of the story.",
+     "The bottom_line contains financial advice language: 'If yields remain elevated or climb further, governments may face pressure to adjust fiscal spending or monetary policy, reshaping the investment environment' reads as interpretation of investment implications. The boundary_required field is false, but the disclaimer at the end may not protect against a passage that explains market consequences in second-order terms."
+    ]
+   }
+  ]
  }
 ]

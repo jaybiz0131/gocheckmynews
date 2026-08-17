@@ -1,0 +1,39 @@
+{
+  "id": "c001",
+  "slug": "dhs-defends-investigating-critic-and-issuing-warning-notice",
+  "kind": "brief",
+  "title": "DHS defends investigating critic and issuing warning notice",
+  "dek": "Federal ICE agents tracked David Streever, a New York man, to his home, airport, and hotel to question him about a January email criticizing ICE's former acting director Todd Lyons, and left him with a warning notice citing federal law against threatening officials. The Department of Homeland Security defended the investigation in court filings as a lawful preventative tool.",
+  "date": "2026-08-17",
+  "published_utc": "2026-08-17T15:55:11Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 6,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "ICE agents investigated and issued a warning notice to David Streever for a January email that criticized ICE's former acting director using harsh language, prompting Streever to sue over alleged First Amendment violations.",
+  "bottom_line": "A federal judge will weigh whether warning notices and in-person confrontations about acknowledged protected speech violate the First Amendment, even if motivated by legitimate safety concerns. The court's ruling will determine whether law enforcement can use investigative visits and warnings as a preventative tool without crossing into chilling effects on speech.",
+  "human_take": "",
+  "body": [
+    "Federal Immigration and Customs Enforcement agents tracked David Streever, a Rochester, New York man, to his home, an airport, and a hotel to question him about an email he sent in January criticizing ICE's former acting director Todd Lyons. The agency later left Streever with a warning notice citing federal laws against threatening officials. Now Streever has sued, arguing the government violated his First Amendment rights, and the Department of Homeland Security is defending the investigation in court filings as lawful preventative action.",
+    "On June 23, two ICE special agents came to Streever's home, according to NPR's reporting. When Streever's wife told them he was in Europe, agents obtained information about his return flight and confronted him at John F. Kennedy International Airport on June 25, per NPR. After he cleared customs, agents traced him to a hotel he had listed with U.S. Customs and Border Protection; staff would not confirm whether Streever had checked in, and he did not answer phone calls from the agents. Special agents from Jersey City then traveled more than 330 miles to Rochester to attempt to question him at his residence, according to NPR's account.",
+    "The email that triggered the investigation was sent to Lyons in January, five months before the agents tracked Streever down. It was written after federal immigration officials fatally shot two U.S. citizen observers in Minneapolis. According to NPR, Streever's email compared Lyons to a Nazi and predicted he would be tormented by his conscience. The subject line read \"What's next\"; Streever called Lyons a \"monstrous human being\" and compared him to Reinhard Heydrich, a Nazi official and architect of the Holocaust. The email stated Lyons would \"be a sad, despised man who eats himself alive with shame at your own pathetic weakness\" and would \"torment yourself until your last day on Earth.\"",
+    "When agents left Streever's home, his wife received a warning notice stating \"YOU MAY BE IN VIOLATION OF FEDERAL LAW\" and listing statutes that make it a crime to threaten federal officials, according to NPR. At the bottom, the notice read: \"Receipt of this Notice will be taken into consideration, should you continue to be involved in any criminal activities described above.\"",
+    "Brent Goodwin, ICE's assistant director for investigations at its Office of Professional Responsibility, wrote in a court declaration that Streever's email had \"potential threatening undertones to ICE personnel, potentially presenting a safety concern,\" according to NPR. Goodwin stated: \"ICE OPR did not have any information about Mr. Streever when the email came in, so OPR decided that it needed to conduct an ICE investigation.\" The case was closed on June 30, after agents reported they had \"exhausted all investigative leads.\"",
+    "Streever sued with legal representation from FIRE, a civil liberties organization, arguing the government's actions caused him to self-censor and violated his First Amendment rights. His attorneys asked a federal judge to block DHS and its agents from taking further action to intimidate or retaliate against Streever for his speech, and to void any future action related to the warning notice, per NPR.",
+    "In response, lawyers from the U.S. Attorney's office in Washington, D.C. filed a brief defending the investigation. They argued that \"in-person investigatory visits from law enforcement accompanied by prophylactic warnings about federal law are a critical tool in the investigative and preventative process, and they do not violate the First Amendment,\" according to NPR. The filing also stated the government needed such tools due to \"an increase in threats of violence against public officials.\"",
+    "Crucially, the government's filing did not argue that Streever's email constituted an actual violent threat prosecutable under federal law, and did not claim Streever had written anything beyond the January email that triggered the investigation, per NPR's analysis. Adam Steinbaugh, an attorney with FIRE representing Streever, said: \"They didn't even come back and try to say, 'Well, if you look at it in the right light, this could be a threat of violence that is not protected by the First Amendment.' They effectively concede that this is protected political speech. And I think that should send alarm bells ringing, because now you have the government saying, 'Yeah, we acknowledge this is protected political speech, but it's critical that we issue warning notices about this.'\" Steinbaugh called such a government stance \"alien\" to the First Amendment."
+  ],
+  "sources": [
+    {
+      "title": "NPR",
+      "url": "https://www.npr.org/2026/08/17/nx-s1-5934692/dhs-free-speech-investigations"
+    }
+  ],
+  "event_utc": "2026-08-17T13:31:13Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-17T15:55:11Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}
