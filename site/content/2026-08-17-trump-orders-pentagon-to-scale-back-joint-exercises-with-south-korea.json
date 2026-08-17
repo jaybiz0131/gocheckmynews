@@ -1,0 +1,58 @@
+{
+  "id": "c013",
+  "slug": "trump-orders-pentagon-to-scale-back-joint-exercises-with-south-korea",
+  "kind": "brief",
+  "title": "Trump orders Pentagon to scale back joint exercises with South Korea",
+  "dek": "President Trump directed the Pentagon to substantially reduce the Ulchi Freedom Shield joint military exercises with South Korea, citing cost and concern about signaling hostility to North Korea. The order affects 11 days of planned activity involving 18,000 South Korean soldiers. Trump stated North Korea 'has been unthreatening and respectful' while he has been in office, though the country resumed ballistic missile testing this month.",
+  "date": "2026-08-17",
+  "published_utc": "2026-08-17T00:02:26Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 4,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Trump instructed Secretary of Defense Pete Hegseth to 'substantially reduce the Joint Military Exercises' with South Korea, a foundational element of the U.S.-South Korea security alliance designed to prepare for North Korean threats.",
+  "bottom_line": "Trump's order will take effect this week, with Secretary Hegseth implementing the reduction. The Pentagon has not issued a public statement on the scope of the cuts or their operational impact. Whether South Korea's government formally responds to the exercise reduction and whether Trump's diplomatic overture to North Korea yields concrete negotiations are the critical tests of whether the gamble pays off.",
+  "human_take": "",
+  "body": [
+    "President Trump instructed the Pentagon to substantially reduce the Ulchi Freedom Shield joint military exercises with South Korea, citing costs and his stated relationship with North Korea. According to Trump's social media post, reported by ABC News, the exercises are scheduled to begin this week and represent 11 days of planned activity involving 18,000 South Korean soldiers.",
+    "The exercises are designed to prepare for North Korean threats and include live-fire drills to test joint precision targeting and maneuver, a wet gap crossing, and distribution of prepositioned military equipment, per ABC News reporting. Trump said in his post that the exercises are costly and 'send a signal that is totally inappropriate and hostile' to North Korea. He stated North Korea 'has been unthreatening and respectful' while Trump has been in the White House.",
+    "Trump instructed Secretary of Defense Pete Hegseth to 'substantially reduce the Joint Military Exercises,' according to ABC News. Trump said he recently asked South Korea's president to join the U.S. in efforts to denuclearize Iran, and that South Korea declined. Trump stated his decision to reduce military partnership with South Korea is 'somewhat unrelated' to the Iran request, per CBS News.",
+    "The U.S. military has characterized the exercises differently. According to ABC News reporting, the military said Ulchi Freedom Shield reinforces 'the role of the alliance as the linchpin for regional peace and security' and reaffirms 'the ironclad commitment between the United States and the Republic of Korea to defend their homelands.' Trump has taken similar action before. During his first term, after his 2018 meeting with North Korean leader Kim Jong Un in Singapore, Trump told reporters: 'We will be stopping the war games, which will save us a tremendous amount of money, unless and until we see the future negotiation is not going along like it should,' per ABC News.",
+    "Trump met with Kim Jong Un three times during his first term, most recently in 2019, according to ABC News. Since returning to office, Trump has expressed interest in continuing discussions with North Korea. Trump recently posted a photo of himself standing next to Kim, writing that the two leaders get along great 'despite the unfriendly look on this particular picture,' ABC News reported.",
+    "The timing adds context. North Korea on Friday threatened unspecified stern steps against the U.S. and South Korea, describing their military drills as 'a rehearsal for an aggressive war,' per ABC News. This came after South Korea, the U.S., and Japan detected the launch of a short-range ballistic missile by North Korea, which landed in waters off North Korea's east coast. According to ABC News, this was North Korea's first ballistic weapons testing activity since late June and represents a resumption of ballistic missile testing activities banned by the United Nations.",
+    "Experts cited in the sources note that North Korea has pushed hard to enlarge its nuclear and missile arsenals since Kim's high-stakes diplomacy with Trump collapsed in 2019, and that experts say Kim likely believes a bigger weapons arsenal would increase his chances for wresting more concessions from the U.S. in future negotiations, per ABC News."
+  ],
+  "sources": [
+    {
+      "title": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/politics/trump-orders-pentagon-to-scale-back-joint-exercises-with-south-korea"
+    },
+    {
+      "title": "abcnews.com",
+      "url": "https://abcnews.com/US/wireStory/trump-orders-pentagon-scale-back-joint-exercises-south-135694217"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/trump-scale-back-south-korea-military-exercises/"
+    },
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/politics/trump-administration/trump-orders-military-substantially-reduce-joint-exercises-south-korea-rcna592832"
+    },
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cx2lll7zvn0o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "The Wall Street Journal",
+      "url": "https://www.wsj.com/politics/national-security/trump-orders-cuts-to-u-s-south-korea-military-drills-2bc63cec?mod=rss_worldnews"
+    }
+  ],
+  "event_utc": "2026-08-16T22:01:52Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-17T00:02:26Z",
+    "sources_cited": 6,
+    "sources_live_checked": 3
+  }
+}
