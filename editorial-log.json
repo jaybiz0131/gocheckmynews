@@ -7893,5 +7893,37 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-17",
+  "approved": 5,
+  "rejected": [
+   {
+    "id": "c095",
+    "headline": "18-year-old charged with murder in Kentucky park shooting that killed teenager",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states Griffin 'faces multiple counts of assault in addition to the murder charge,' but the brief data_point says he is 'charged with several counts of assault in addition to murder.' The draft presents this as a definitive fact from the source, but the brief itself lists this as a 'reported' confidence claim with no detail on what those charges are. More critically, the sources provided are truncated Google News RSS feeds and a Guardian URL; the actual source text is not available to verify the specific charges alleged, making any statement beyond 'charged with murder' unconfirmed by the fetched record.",
+     "The draft states the shooting 'killed a 16-year-old and injured four others, including two children, at a community celebration,' but the brief's open_questions note indicates 'The Guardian source text provided was truncated and did not contain substantive reporting detail beyond navigation markup.' The writer is presenting sourced facts from a source that was not actually readable to the research team. This violates the rule that facts must trace to data points derived from readable source material."
+    ]
+   },
+   {
+    "id": "c138",
+    "headline": "Navy awards $22.9B Tomahawk contract; Trump downplays weapons shortage concerns",
+    "category": "accuracy",
+    "reasons": [
+     "The brief's open_questions flag a critical ambiguity: 'Does the \"Department of War\" designation in the source text refer to the Department of Defense, or has there been an official renaming?' The draft uses 'Department of War' three times (Under Secretary of War, Department of War's Acquisition Transformation Strategy, Navy's Portfolio Acquisition Executive for Munitions oversees procurement and delivery) without clarification. This is a factual claim about current U.S. government structure that must either be verified as official terminology or corrected to 'Department of Defense.' The writer cannot smuggle an unconfirmed institutional name into the draft."
+    ]
+   },
+   {
+    "id": "c084",
+    "headline": "Blanche Does Not Commit to DOJ Independence From Trump on Meet the Press",
+    "category": "accuracy",
+    "reasons": [
+     "The draft title claims Blanche 'Does Not Commit to DOJ Independence From Trump' but the brief's only data_point does not confirm what Blanche said about independence itself\u2014only that 'the president had never asked him to prosecute specific people and never would.' The title asserts a fact (non-commitment on independence) that is not in the data_points, only in the brief's core_claim. The writer cannot assert the core_claim as established fact when the only sourced data_point is Blanche's prosecutions statement.",
+     "The draft repeatedly states facts are 'inaccessible' and 'unclear from available source material,' then proceeds to report the story anyway. This violates the hard rule: no fact exists outside the brief. The draft should either be rejected for missing information or rewritten to acknowledge that the specific language on independence is not available in the brief's data_points, making it impossible to verify the headline's central claim."
+    ]
+   }
+  ]
  }
 ]

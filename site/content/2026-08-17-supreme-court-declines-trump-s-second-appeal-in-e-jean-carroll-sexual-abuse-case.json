@@ -1,0 +1,70 @@
+{
+  "id": "c083",
+  "slug": "supreme-court-declines-trump-s-second-appeal-in-e-jean-carroll-sexual-abuse-case",
+  "kind": "brief",
+  "title": "Supreme Court declines Trump's second appeal in E. Jean Carroll sexual abuse case",
+  "dek": "The Supreme Court declined on August 17, 2026, for a second time to hear President Trump's appeal of a $5 million jury verdict awarded to E. Jean Carroll for sexual abuse and defamation. Trump has already paid the award plus interest, and faces a separate $83 million defamation verdict pending at the Supreme Court.",
+  "date": "2026-08-17",
+  "published_utc": "2026-08-17T14:46:59Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 2,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The Supreme Court declined on Monday, August 17, 2026, to hear Trump's request to reconsider its June 2026 rejection of his appeal of the $5 million Carroll verdict, according to NBC News and CBS News reporting of the unsigned Supreme Court order.",
+  "bottom_line": "With the Supreme Court's second rejection of the $5 million appeal, Trump exhausts his options in that case, but the larger $83 million verdict remains unresolved at the Court pending a ruling on whether his statements as president qualify for immunity protection. The outcome of the $83 million appeal, expected later this year, will determine whether Trump faces additional financial liability in the Carroll litigation.",
+  "human_take": "",
+  "body": [
+    "The Supreme Court declined on Monday, August 17, 2026, for a second time to hear President Trump's appeal of a jury verdict awarding $5 million to writer E. Jean Carroll for sexual abuse and defamation, according to NBC News reporting of the unsigned Court order. Trump had asked the Court to reconsider its June 2026 rejection of the same appeal, an unusual move that the Court almost never grants, per NBC News.",
+    "The jury verdict, rendered in 2023 after a civil trial in New York, found that Trump more likely than not sexually assaulted Carroll in a department store dressing room in 1996 and then defamed her by calling her claims a \"con job\" and \"hoax\" after his first term ended, per NBC News and CBS News. The jury, composed of six men and three women, deliberated for less than three hours before unanimously finding evidence supported Carroll's claims, according to CBS News.",
+    "Trump has already turned over the $5 million award plus accrued interest, paying Carroll $5.62 million this summer, per NBC News and CBS News. The case arose from a federal lawsuit Carroll filed in New York City alleging Trump sexually assaulted her in 1996, per NBC News. The defamation claims relate to statements Trump made about Carroll after his first term, per NBC News. Carroll's attorney, Roberta Kaplan, had asked the jury to award Carroll enough to \"make him stop\" defaming her client, per CBS News.",
+    "Trump has denied the allegations and called the cases a hoax. Trump called no witnesses during the 2023 trial and did not attend, according to CBS News. In a statement responding to Monday's order, a spokesman for Trump's legal team called the Carroll matters a \"Democrat-funded travesty of the Carroll Hoaxes,\" per CBS News. Trump has continued to deny Carroll's allegations after the second jury verdict, per CBS News.",
+    "A separate, larger defamation case remains pending at the Supreme Court. In 2024, a second civil jury awarded Carroll $83 million in damages for defamation related to statements Trump made as president during his first term, per NBC News. Trump was in attendance for much of that trial, testifying briefly before leaving minutes before the jury rendered its verdict, according to CBS News. In taking the $83 million case to the Supreme Court, Trump's legal team claimed an appeals panel neglected to rule on whether he had presidential immunity when making the statements about Carroll, per CBS News. The Supreme Court has yet to rule on Trump's effort to claim presidential immunity in that case, per CBS News, and is not set to act on the appeal until later this year, according to NBC News."
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/politics/supreme-court/supreme-court-declines-trump-appeal-e-jean-carroll-award-rcna592887"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/regulation/court-battles/6032917-supreme-court-rejects-donald-trump-e-jean-carroll-case/"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/supreme-court-trump-appeal-of-e-jean-carroll-case/"
+    },
+    {
+      "title": "abcnews.com",
+      "url": "https://abcnews.com/Politics/supreme-court-rejects-final-trump-appeal-5-million/story?id=135707525"
+    },
+    {
+      "title": "The New York Times",
+      "url": "https://www.nytimes.com/live/2026/08/17/us/trump-news/275fea82-9350-5fdb-a0e9-d98777a69ca8?smid=url-share"
+    }
+  ],
+  "event_utc": "2026-08-17T13:32:51Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-17T14:46:59Z",
+    "sources_cited": 5,
+    "sources_live_checked": 3
+  },
+  "also_reported_by": [
+    {
+      "outlet": "CBS News",
+      "headline": "Supreme Court declines to rehear Trump's appeal in $5 million E. Jean Carroll case - CBS News"
+    },
+    {
+      "outlet": "PBS",
+      "headline": "Supreme Court rejects Trump's push to toss $5 million verdict in E. Jean Carroll sexual abuse case - PBS"
+    },
+    {
+      "outlet": "ABC News",
+      "headline": "Supreme Court rejects Trump's appeal of 2022 E. Jean Carroll defamation case - ABC News - Breaking News, Latest News and Videos"
+    },
+    {
+      "outlet": "Politico",
+      "headline": "Courts reject Trump's Hail Mary bids to avoid paying E. Jean Carroll - Politico"
+    }
+  ]
+}
