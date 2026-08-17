@@ -7965,5 +7965,29 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-17",
+  "approved": 5,
+  "rejected": [
+   {
+    "id": "c005",
+    "headline": "House Ethics Committee investigating Rep. Jimmy Gomez for alleged sexual misconduct",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'According to CBS News, the committee is \"reviewing allegations that Representative Jimmy Gomez may have engaged in sexual misconduct...\"' but the brief's data_point attributes this quote to CBS News with confidence 'verified-on-chain', yet the draft does not make clear this is the official Ethics Committee statement itself rather than CBS News paraphrasing. The quote is presented as CBS News reporting the committee's language, but attribution could be clearer.",
+     "The draft states 'The New York Post reported in April that Gomez was seen kissing a member of another office's congressional staff in 2023, according to NPR.' However, the brief's data_point 3 states 'CNN reported in June that the panel had opened an investigation, following a New York Post story' (CNN in June, not NPR). The brief's data_point 4 says 'The NPR report states the New York Post reported in April' \u2014 NPR is reporting what the Post said, not the original source. The draft's phrasing 'according to NPR' for the April Post story is correct but creates ambiguity about source hierarchy.",
+     "More critically: the brief's data_point 3 says 'CNN reported in June' but the draft makes no mention of CNN's reporting. This is a sourced fact from the brief that is entirely absent from the draft. If CNN broke or reported the committee's opening of the investigation in June, and that is in the brief, it should appear in the draft."
+    ]
+   },
+   {
+    "id": "c259",
+    "headline": "Canada negotiates intensively to avert U.S. tariffs of up to 50% before Wednesday deadline",
+    "category": "accuracy",
+    "reasons": [
+     "The claim 'Consumer prices in the United States have jumped 3.4% over the last year, up from 2.4% prior to the Iran war' introduces a reference point ('prior to the Iran war') not found in the brief's data_point, which states only 'Consumer prices have jumped 3.4% over the last year, up from 2.4% right before the Iran war.' The phrase 'Iran war' itself is vague and not tied to a specific date in the brief; the writer has contextualized this comparison in a way the source material does not support."
+    ]
+   }
+  ]
  }
 ]
