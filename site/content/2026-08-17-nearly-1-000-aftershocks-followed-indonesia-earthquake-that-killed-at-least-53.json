@@ -1,25 +1,25 @@
 {
-  "id": "c197",
+  "id": "c202",
   "slug": "nearly-1-000-aftershocks-followed-indonesia-earthquake-that-killed-at-least-53",
   "kind": "brief",
   "title": "Nearly 1,000 aftershocks followed Indonesia earthquake that killed at least 53",
-  "dek": "A 7.7-magnitude earthquake struck eastern Indonesia on August 16, 2026, killing at least 53 people and displacing about 5,000 into temporary shelters. A second 6.4-magnitude quake hit the same day, followed by nearly 1,000 recorded aftershocks that complicated rescue operations.",
+  "dek": "A 7.7-magnitude earthquake struck eastern Indonesia on August 16, followed by a 6.4-magnitude quake on Sumatra Island. The death toll stands at 53, with more than 130 injured and approximately 5,000 displaced. Authorities have recorded at least 995 aftershocks, with the largest measuring 6.2 magnitude.",
   "date": "2026-08-17",
-  "published_utc": "2026-08-17T00:02:26Z",
+  "published_utc": "2026-08-17T10:14:09Z",
   "category": "news",
   "verdict": "VERIFIED",
-  "rank": 1,
+  "rank": 7,
   "author": "The GoCheckMyNews Desk",
-  "key_fact": "The 7.7-magnitude earthquake struck 42 miles north-northwest of Ende in East Nusa Tenggara province at 5:58 a.m. local time on August 16, 2026, killing at least 53 and triggering nearly 995 aftershocks.",
-  "bottom_line": "Rescue teams continue operations across Flores Island as the cascade of aftershocks persists. The recovery timeline and full death toll remain uncertain as access to remote villages is gradually restored and power infrastructure is rebuilt.",
+  "key_fact": "A 7.7-magnitude earthquake in eastern Indonesia killed at least 53 people and triggered nearly 1,000 aftershocks, destroying over 900 homes and cutting off remote villages.",
+  "bottom_line": "Search and rescue operations continue in a region where landslides and power outages have severely constrained communication and access. The ongoing aftershock sequence and potential for additional landslides will determine both the pace of recovery and whether the death toll increases as teams reach more remote settlements.",
   "human_take": "",
   "body": [
-    "A 7.7-magnitude earthquake struck eastern Indonesia on August 16, 2026 at 5:58 a.m. local time, killing at least 53 people and setting off a cascade of seismic activity that has complicated rescue and recovery efforts across Flores Island.",
-    "The initial quake's epicenter was 42 miles north-northwest of the city of Ende in East Nusa Tenggara province, according to CBS News reporting. A second 6.4-magnitude earthquake struck Sumatra Island shortly after, adding to the destruction. Nearly 1,000 aftershocks have been recorded in the region since the initial event, with only 46 felt by residents, per CBS News. The largest aftershock measured 6.2 magnitude.",
-    "At least 47 bodies were recovered Saturday immediately following the quakes, mostly in Sikka, Manggarai, and East Manggarai districts. Rescue teams recovered six additional bodies on Sunday, bringing the confirmed death toll to 53. More than 130 people were injured, according to CBS News reporting.",
-    "The earthquakes destroyed more than 900 homes and damaged 450 others in East Nusa Tenggara province, with at least 241 homes damaged in the Flores region alone. More than 100 public facilities, including schools, medical centers, and churches, were destroyed. Landslides in Ende regency severed the Trans-Flores highway, a roughly 435-mile paved mountain road spanning Flores Island, cutting off critical access routes. About 5,000 people have been forced into temporary shelters, per CBS News.",
-    "A tsunami warning was triggered immediately after the quake and forced coastal residents to move to higher ground, but it was later lifted after monitoring showed no significant sea-level changes. Power outages in cities and villages have hampered the flow of information and complicated search and rescue operations. The National Disaster Management Agency deployed a helicopter to assist with logistics and support emergency response.",
-    "Indonesia sits on the Ring of Fire, an arc of volcanoes and fault lines in the Pacific Basin, making it prone to earthquakes and volcanic activity, according to CBS News reporting."
+    "A 7.7-magnitude earthquake struck eastern Indonesia on Saturday, August 16 at 5:58 a.m. local time, with the epicenter located 42 miles north-northwest of the city of Ende in East Nusa Tenggara province on Flores Island, per CBS News. A second, 6.4-magnitude quake struck Sumatra Island the same day. At least 53 people were killed across both earthquakes, with more than 130 injured, according to CBS News reporting.",
+    "Rescuers recovered at least 47 bodies on Saturday immediately following the initial quake, mostly in the regencies of Sikka, Manggarai, and East Manggarai. Rescue teams recovered six additional bodies on Sunday, raising the confirmed death toll to 53 as of the latest reports. About 5,000 people were forced into temporary shelters following the disaster.",
+    "Structural damage was widespread across East Nusa Tenggara province. More than 900 homes were destroyed and 450 more damaged, according to CBS News. At least 241 homes were damaged in the Flores region alone. More than 100 public facilities were destroyed, including schools, medical centers, and churches, per the network's reporting. Landslides triggered by the earthquake buried or cut off many remote villages across six regencies on Flores Island, hampering both rescue operations and communication.",
+    "The earthquake triggered a tsunami warning that forced coastal residents to move to higher ground; authorities later lifted the alert after monitoring showed no significant sea-level changes. However, landslides in Ende regency severed the Trans-Flores highway, a roughly 435-mile paved mountain road spanning Flores Island from Labuan Bajo to Larantuka, further isolating affected areas. Power outages in cities and villages, per CBS News, hampered the flow of information and complicated search and rescue efforts.",
+    "Authorities have since recorded at least 995 aftershocks, according to CBS News, though only 46 of the recorded aftershocks were felt by residents. The largest recorded aftershock measured 6.2 magnitude. The sustained seismic activity has prolonged the emergency response phase and raised concerns about additional structural failures in already-damaged buildings.",
+    "The National Disaster Management Agency deployed a helicopter to assist with logistics and support emergency response operations. The extent of casualties in remote villages cut off by landslides remains unclear, and authorities have not yet provided a timeline for restoring road access or a final casualty estimate. Whether the death toll will rise further as rescuers reach isolated areas remains an open question."
   ],
   "sources": [
     {
@@ -30,8 +30,14 @@
   "event_utc": "2026-08-16T23:54:11Z",
   "verification": {
     "verdict": "VERIFIED",
-    "checked_utc": "2026-08-17T00:02:26Z",
+    "checked_utc": "2026-08-17T10:14:09Z",
     "sources_cited": 1,
     "sources_live_checked": 1
-  }
+  },
+  "also_reported_by": [
+    {
+      "outlet": "CBS News",
+      "headline": "Nearly 1,000 aftershocks followed Indonesia earthquake that killed at least 53, officials say - CBS News"
+    }
+  ]
 }

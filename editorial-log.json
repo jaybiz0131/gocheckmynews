@@ -7858,5 +7858,40 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-17",
+  "approved": 3,
+  "rejected": [
+   {
+    "id": "c047",
+    "headline": "Hurricane Lala bypasses Hawaii, destroys over 100 homes; one dead",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Power outages affected 219,000 customers across Hawaii as of Sunday afternoon local time, tracked by PowerOutage, with more than 200,000 households without electricity according to BBC reporting.' This contradicts the brief's data point which says '219,000 customers had lost electricity' and separately '200,000+ households without power.' The draft conflates two separate figures and attributes both to the same time window without clarifying whether these are overlapping or distinct counts. The brief's phrasing treats them as separate claims from the same source; the draft merges them into a confusing single sentence that obscures the source distinction.",
+     "The draft includes 'The most recent major storm to hit the mainland was Category three Hurricane Milton, which struck Florida in October 2024.' The brief's data point says 'The last major storm was category three Hurricane Milton, which hit Florida in October 2024.' This is a geographic clarification ('mainland' vs. the general claim about 'last major storm') that adds information not in the brief. The brief does not specify that Milton was a 'mainland' storm or establish that as a relevant category\u2014it simply notes it as the most recent major hurricane. This is a subtle addition that goes beyond paraphrase.",
+     "The bottom_line contains 'the governor called an outcome that \"amazingly\" could have been far worse' but this misquotes the brief's data point. The brief states Governor Green said there \"amazingly\" did not seem to have been wider loss of life. The draft reframes this as the governor calling the outcome \"amazingly\" capable of being worse\u2014a different claim. The governor's quote in the body correctly captures his actual words, but the bottom_line misrepresents his statement."
+    ]
+   },
+   {
+    "id": "c001",
+    "headline": "Actress Hayden Panettiere dies at 36",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states the memoir was published in 'May 2026,' but this creates a temporal impossibility: the article reports events from August 2026, and the brief data_point confirms the memoir was released in May 2026. However, the draft then references an 'August interview with CBS News's Gayle King' about the memoir, placing that interview after publication\u2014this is internally consistent with the brief. The critical error is that the draft says 'Panettiere published a memoir, \"This Is Me: A Reckoning,\" in May 2026' when the brief's data_point says 'recently published' without specifying the year as 2026. The draft invents the year '2026' for the memoir publication date, which is not in the brief's data_points and is not sourced to any outlet. This is a smuggled fact.",
+     "The draft states 'she noted the depressant worsened her condition over time' in the Nashville/Jay Shetty Podcast section, but the brief's corresponding data_point includes a direct quote: 'Even though the alcohol helped my nervous system calm down, it is a depressant, so over time it made things worse, not better.' The draft paraphrases but does not attribute the quote inline or provide attribution that would allow readers to verify the claim's source and context.",
+     "The draft includes the detail that Panettiere 'gave full custody of her daughter, Kaya, to her ex-fianc\u00e9, Wladimir Klitschko, the Ukrainian professional boxer, in 2018,' but the brief's data_point states 'She gave full custody of her daughter, Kaya, to her ex-fianc\u00e9, Wladimir Klitschko. The 11-year-old daughter has lived with her father since 2018.' The draft's phrasing 'in 2018' is ambiguous about whether she gave custody that year or whether the arrangement began that year; the brief clarifies the daughter 'has lived with her father since 2018' but does not explicitly state the custody transfer occurred in 2018. The draft states a fact not contained in the brief."
+    ]
+   },
+   {
+    "id": "c019",
+    "headline": "Trump announces substantial reduction in U.S.-South Korea military exercises",
+    "category": "balance",
+    "reasons": [
+     "The brief's bear_case includes the point: 'North Korea's foreign ministry condemned the joint military drills as \"a rehearsal for an aggressive war,\" contradicting the notion that the reduction would improve relations with Pyongyang.' The draft does include this quote ('On Friday, North Korea's foreign ministry condemned the joint military drills as \"a rehearsal for an aggressive war,\"'), but it is placed deep in the body and does not function as a counter-argument to the framing that Trump's move is aimed at improving relations. The draft leads with Trump's stated logic and South Korea's cautious response, then expert skepticism, but the North Korean rhetorical opposition to the drills themselves appears only as a late factual note rather than as a substantive bear_case argument. The draft does not adequately surface the contradiction that North Korea is simultaneously (1) condemning the drills and (2) unlikely to view their reduction as a diplomatic olive branch, which undermines Trump's stated rationale.",
+     "The draft's opening and structure adopt the narrative frame of Trump's announcement and reasoning without proportionate space for the bear_case arguments. Expert Leif-Eric Easley's skepticism appears in a single paragraph, but the framing and flow of the draft emphasize Trump's announcement, his past precedent, and his diplomatic posture toward Kim rather than questioning whether the move achieves its stated aim. A reader could finish this draft believing Trump's logic is the primary frame, with expert doubt as a secondary note, when the brief's bear_case suggests the evidence of North Korea's intransigence and the marginal cost savings should carry equal or greater weight in the framing."
+    ]
+   }
+  ]
  }
 ]
