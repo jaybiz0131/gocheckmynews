@@ -1,0 +1,45 @@
+{
+  "id": "c132",
+  "slug": "judge-blocks-trump-administration-from-scrapping-fbi-headquarters-move-to-maryland",
+  "kind": "brief",
+  "title": "Judge blocks Trump administration from scrapping FBI headquarters move to Maryland",
+  "dek": "U.S. District Judge Theodore D. Chuang ruled that the Trump administration's attempt to cancel the FBI headquarters relocation to Greenbelt, Maryland, and move it instead to the Ronald Reagan Building in Washington was not in accordance with law. The ruling protects Maryland and Prince George's County's decade-long investment and pledges of hundreds of millions of dollars.",
+  "date": "2026-08-18",
+  "published_utc": "2026-08-18T19:43:21Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 4,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "A federal judge blocked the Trump administration from relocating the FBI headquarters from the planned Greenbelt, Maryland site to the Ronald Reagan Building in Washington.",
+  "bottom_line": "The Trump administration may appeal Judge Chuang's ruling, though no timeline for an appeal has been announced. The decision freezes the administration's ability to redirect the project or its funding, but unresolved questions remain about the legal reasoning behind the judge's determination and the timeline for construction in Greenbelt.",
+  "human_take": "",
+  "body": [
+    "U.S. District Judge Theodore D. Chuang, an appointee of President Barack Obama, ruled that the Trump administration's plan to relocate the FBI headquarters from Greenbelt, Maryland to the Ronald Reagan Building in Washington was not in accordance with law, blocking the move and preventing the administration from repurposing funds Congress had allocated for the project.",
+    "The ruling protects a relocation decision made during the Biden administration and defends Maryland and Prince George's County's years of investment in securing the project. According to ABC News, Maryland and Prince George's County had committed more than a decade of work to compete for the headquarters and pledged hundreds of millions of dollars to support the move.",
+    "The FBI's current Pennsylvania Avenue headquarters, the J. Edgar Hoover Building, was dedicated in 1975. According to reporting, proponents of moving the headquarters have said the brutalist-style building, where nets surround the facility to protect pedestrians from falling debris, has fallen into disrepair. The Maryland location was selected over nearby Virginia following an intense competition between the two states.",
+    "The suit was brought by the state of Maryland and Prince George's County against the Trump administration's reversal of the Biden-era decision. Maryland Attorney General Anthony Brown stated that by blocking the Trump administration's attempt to move the FBI to the Reagan Building and divert the funds Congress set aside for the project, the court has cleared the path back to Greenbelt. Maryland Gov. Wes Moore said it is time to stop the games and get to work building the world-class FBI headquarters in Prince George's County.",
+    "The FBI responded to the ruling by stating, according to ABC News: This is not the first time courts have tried to undermine the administration in its goal to make government more cost-effective for American taxpayers. The court has chosen to impermissibly intervene for political reasons. This FBI is mission focused and will continue the best course of action to meet the needs of law enforcement."
+  ],
+  "sources": [
+    {
+      "title": "The Washington Post",
+      "url": "https://www.washingtonpost.com/national-security/2026/08/17/trump-administration-cant-scrap-plan-move-fbi-headquarters-md-judge-rules/"
+    },
+    {
+      "title": "abcnews.com",
+      "url": "https://abcnews.com/Politics/wireStory/judge-blocks-trump-administration-moving-fbi-headquarters-dc-135723932"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/video/judge-blocks-plan-to-move-fbi-headquarters/"
+    }
+  ],
+  "event_utc": "2026-08-18T01:57:04Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-18T19:43:21Z",
+    "sources_cited": 3,
+    "sources_live_checked": 2
+  },
+  "update_of": "trump-administration-can-t-scrap-plan-to-move-fbi-headquarters-to-md-judge-rules"
+}

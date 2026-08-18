@@ -1,0 +1,74 @@
+{
+  "id": "c069",
+  "slug": "minnesota-sues-texas-governor-to-force-extradition-of-ice-agent",
+  "kind": "brief",
+  "title": "Minnesota sues Texas governor to force extradition of ICE agent",
+  "dek": "Minnesota Attorney General Keith Ellison filed a federal lawsuit against Texas Governor Greg Abbott to compel extradition of ICE agent Christian Castro, charged with assault with a deadly weapon and falsely reporting a crime. Castro was arrested in Texas in May after allegedly shooting a Venezuelan man in Minneapolis.",
+  "date": "2026-08-18",
+  "published_utc": "2026-08-18T19:43:21Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 2,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "An attorney general is suing a governor over extradition, testing whether a sitting governor can legally refuse to return a federal agent for trial in another state.",
+  "bottom_line": "The suit will likely turn on whether Abbott's office offers a legal basis for withholding the warrant or whether it stands as a bare refusal to comply with interstate extradition requirements. The court's response will clarify the limits of gubernatorial discretion in extradition cases.",
+  "human_take": "",
+  "body": [
+    "Minnesota Attorney General Keith Ellison filed a federal lawsuit against Texas Governor Greg Abbott to compel the extradition of ICE agent Christian Castro, according to ABC News. Castro is accused of firing a gun at the front door of an occupied home in Minneapolis on January 14, striking a Venezuelan man in the leg, then lying about the circumstances of the shooting.",
+    "Castro was charged in May with four counts of second-degree assault with a deadly weapon and one count of falsely reporting a crime. A Hennepin County District Court judge found probable cause for the charges and issued a nationwide warrant for his arrest. Texas Rangers located and arrested Castro on May 29, after which a Cameron County judge ordered him detained pending extradition proceedings.",
+    "Four days after Castro's arrest, Minnesota Governor Tim Walz sent Abbott an extradition request. Texas Governor Greg Abbott has withheld a rendition warrant directing law enforcement to transfer Castro back to Minnesota for prosecution. Ellison said in a statement: \"Now, Governor Abbott is trying to shield Castro from being held accountable for these serious charges by refusing to extradite him to Minnesota.\" Ellison also said: \"Abbott's refusal to extradite Castro is unconstitutional and violates federal law and Texas law. I will not stand for that, so I'm taking Abbott to court. Christian Castro will stand trial in Minnesota.\"",
+    "The lawsuit also alleges that Manuel Trevino, the sheriff of Cameron County, Texas, who is named as a defendant in the federal complaint, has failed to make Castro available for extradition. Ellison's office said the attorney general will also be requesting a temporary restraining order barring the Cameron County Sheriff's Office from releasing Castro.",
+    "The incident occurred during Operation Metro Surge, according to ABC News. The Cameron County sheriff declined to comment on the lawsuit."
+  ],
+  "sources": [
+    {
+      "title": "abcnews.com",
+      "url": "https://abcnews.com/US/minnesota-sues-texas-governor-compel-extradition-ice-agent/story?id=135746968"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/regulation/court-battles/6035849-minnesota-texas-lawsuit-ice-shooting-extradition/"
+    },
+    {
+      "title": "Washington Examiner",
+      "url": "https://www.washingtonexaminer.com/policy/immigration/4691331/minnesota-sue-abbott-texas-extradition-ice/"
+    },
+    {
+      "title": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/nation/minnesota-ag-sues-texas-governor-to-extradite-ice-agent-for-trial"
+    }
+  ],
+  "event_utc": "2026-08-18T18:18:36Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-18T19:43:21Z",
+    "sources_cited": 4,
+    "sources_live_checked": 3
+  },
+  "also_reported_by": [
+    {
+      "outlet": "KERA News",
+      "headline": "Minnesota sues Gov. Abbott as ICE agent charged in shooting faces possible release in Texas - KERA News"
+    },
+    {
+      "outlet": "WSJ",
+      "headline": "Minnesota Suit Alleges Texas Governor Refuses to Extradite ICE Officer - WSJ"
+    },
+    {
+      "outlet": "FOX 9 Minneapolis-St. Paul",
+      "headline": "Minnesota sues Texas over ICE extradition - FOX 9 Minneapolis-St. Paul"
+    },
+    {
+      "outlet": "The Hill",
+      "headline": "Minnesota sues Texas governor to force extradition of ICE agent involved in shooting - The Hill"
+    },
+    {
+      "outlet": "Politico",
+      "headline": "Minnesota AG sues Texas gov to force the state to extradite ICE agent - Politico"
+    },
+    {
+      "outlet": "AP News",
+      "headline": "Minnesota attorney general sues Texas governor to compel extradition of ICE agent for trial - AP News"
+    }
+  ]
+}

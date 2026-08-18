@@ -8180,5 +8180,46 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-18",
+  "approved": 4,
+  "rejected": [
+   {
+    "id": "c075",
+    "headline": "Disney and ABC sue FCC over early license renewal demand",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'the Trump administration waged a retaliatory campaign against ABC and encouraged the FCC to use its regulatory power' as fact from The Hill's reporting, but the brief data_point attributes this only to the lawsuit's allegation: 'The lawsuit alleges the Trump administration waged a retaliatory campaign on ABC and encouraged the FCC to use its regulatory power.' The draft collapses the distinction between what the lawsuit claims and what has been established; the allegation must be presented as the lawsuit's claim, not as reported fact.",
+     "The brief has an empty bear_case and five open_questions that signal the story is thin and contested. The draft presents the Trump administration's intent and the retaliation claim without any counter-statement from the FCC or administration, and without signaling that no response is available. This creates a one-sided read that misrepresents the sourced record."
+    ]
+   },
+   {
+    "id": "c141",
+    "headline": "Supreme Court declines Trump's appeal in E. Jean Carroll defamation case",
+    "category": "accuracy",
+    "reasons": [
+     "The brief explicitly notes that 'The source_texts field is empty; the brief is built from the headline and snippet alone' and identifies this as a thin brief (thin=true) with zero source_chars. The draft presents specific factual claims ('$5 million defamation verdict', 'Supreme Court declined', 'Trump's second appeal') that cannot be traced to data_points in the brief because none exist. The hard rule is: no fact exists outside the brief. With zero data_points and an empty open_questions field warning of lack of sourced detail, this draft smuggles facts that have no research backing."
+    ]
+   },
+   {
+    "id": "c080",
+    "headline": "Florida held midterm primary elections on August 18, 2026",
+    "category": "accuracy",
+    "reasons": [
+     "The brief flags that 'The source_texts provided contain only HTML rendering code (SVG path elements) and no actual electoral results, candidate information, vote totals, or outcome data' and that the URLs are labeled 'live-results' but contain no live or final results. The draft claims 'Florida voters selected nominees' (past tense, settled fact), but the brief contains no data_points confirming which nominees won, vote counts, margins, or outcomes. The single data_point uses future tense ('will select'), not past confirmation of results. The draft also cites three PBS URLs including Alaska and Wyoming primaries despite the story being about Florida only, suggesting source misalignment. No fact in the draft about actual winners or results traces to a data_point."
+    ]
+   },
+   {
+    "id": "c200",
+    "headline": "Trump administration proposes rescinding Roadless Rule on 44M forest acres",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The Roadless Rule has protected pristine forest lands from commercial development for over two decades' as a standalone assertion. The brief's data_points mark this claim as only 'reported' confidence (from Washington Examiner), and the brief's open_questions note that 'substantive detail about the proposal's procedural status, timeline, rationale, or opposition statements from environmental groups could not be extracted from available source material.' The draft presents this as settled fact without attribution or confidence qualification.",
+     "The draft's second paragraph ('Blocking road construction has effectively inhibited logging in those protected areas, according to the Washington Examiner's reporting') paraphrases a brief data_point correctly but the framing 'effectively inhibited' goes beyond what the brief's data_point ('Blocking roads under the rule inhibits logging') states. This is a marginal inflation of the sourced claim.",
+     "The draft contains no bear_case material even though the task requires it when present. The brief's bear_case is empty, so this is not a balance failure, but the draft's open_questions state the source material is 'truncated' and substantive details 'could not be extracted.' The draft presents the proposal as definitive without acknowledging the thinness of sourced detail or the procedural uncertainty flagged in open_questions."
+    ]
+   }
+  ]
  }
 ]
