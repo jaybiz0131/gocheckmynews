@@ -7989,5 +7989,66 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-17",
+  "approved": 2,
+  "rejected": [
+   {
+    "id": "c064",
+    "headline": "Seven dead in week of Midwest storms and floods",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Hurricane Lala left a trail of destruction across the Big Island of Hawaii and the other Hawaiian islands' but this claim appears nowhere in the brief's data_points. The brief acknowledges this claim is in the source but flags in open_questions that 'the fetched source text contains only page structure code and no substantive reporting content.' The writer cannot verify this fact from the actual source material provided to the desk.",
+     "The draft's second paragraph asserts facts about Hawaii that are not present in the research brief's core_claim or any data_point. The writer has smuggled information beyond what the brief establishes as verified."
+    ]
+   },
+   {
+    "id": "c067",
+    "headline": "Analysts preview primary races in Alaska, Florida, and Wyoming",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'NPR's Tamara Keith and Cook Political Report's Amy Walter are providing analysis of notable races in those states, per the reporting' but provides no actual content from that analysis. The brief explicitly flags in open_questions: 'The fetched source text contains only page structure code and no substantive analysis; the specific races deemed notable in Alaska, Florida, and Wyoming are not identified in the provided material.' The writer is attributing analysis to named analysts without being able to verify what they actually said beyond their names appearing in a page title."
+    ]
+   },
+   {
+    "id": "c210",
+    "headline": "Appeals Court Rejects Trump Administration's Interim U.S. Attorney Appointments",
+    "category": "accuracy",
+    "reasons": [
+     "The draft claims 'The decision reflects a second appellate rejection of the Trump administration's strategy to install prosecutors without Senate approval' but the brief does not contain any data_point confirming a prior appellate rejection. This is smuggled information not found in the research brief.",
+     "The brief's open_questions explicitly ask 'What was the prior appellate rejection of this tactic, and which court issued it?' indicating this detail was not verified in the source material. The writer cannot patch unconfirmed facts into prose."
+    ]
+   },
+   {
+    "id": "c271",
+    "headline": "Oil Prices Spike as Trump Signals End to Iran Ceasefire Talks",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Gas prices have climbed 36% since the Iran war began on February 28, 2026, reaching $4.06 per gallon as of Monday morning, August 17.' However, the brief's data_point states 'As of Monday morning, August 17, 2026, the national average price for gas was $4.06 per gallon' and separately 'Gas prices represent a 36% jump since the Iran war began.' The draft fuses these into a single declarative statement implying the $4.06 figure represents a 36% climb, but the timing and baseline reference are unclear in the source. The draft's phrasing ('reaching $4.06') suggests cumulative movement that cannot be confirmed from the data_points provided.",
+     "The draft presents Trump's comments about Oman ('If Oman gets in the way, we'll bomb the s--- out of them') as a direct quote attributed to Fox News reporting, but the data_point confidence is 'reported' without clarity on whether this quote appeared in the NBC source or is being sourced to Fox News secondhand through NBC. This attribution is insufficiently clear for a threat statement about a named nation."
+    ]
+   },
+   {
+    "id": "c73",
+    "headline": "School vaccination rates and exemptions: source data unavailable",
+    "category": "accuracy",
+    "reasons": [
+     "The draft itself acknowledges the source material is corrupted and contains no verifiable data points. The brief's data_points array is empty and open_questions confirm no CDC figures, exemption statistics, MMR coverage percentages, or state-by-state breakdowns can be extracted from the source.",
+     "The core_claim references 'fourth consecutive year of record exemptions' and 'MMR coverage falling below disease-prevention threshold,' but neither figure appears in the fetched source text per the brief's own open_questions.",
+     "No facts in the draft can be traced to sourced data_points because no data_points exist in the brief. The story cannot proceed without recovered source material or re-reporting."
+    ]
+   },
+   {
+    "id": "c005",
+    "headline": "Federal judge voids key National Firearms Act provisions after Congress eliminated tax",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Judge James Wesley Hendrix of the Northern District of Texas invalidated key components of the nearly 100-year-old National Firearms Act, permitting certain Americans to purchase silencers and short-barreled firearms without federal registration or taxation.' The brief's data_point says 'invalidated key components...in more than a dozen states,' but the draft later constrains the ruling to 'only to plaintiffs in the Texas case' and 'states involved,' contradicting the geographic scope suggested in the opening.",
+     "The draft references 'a final rule published in August 2026' regarding DOJ's push to restore gun rights to people with certain felony convictions. The brief's data_point says 'according to a final rule published Monday' with timestamp 2026-08-17. 'August 2026' is vague and 'Monday' is ambiguous; the draft should attribute this directly to NPR's reporting date or the rule itself to maintain verifiability.",
+     "The draft includes 'According to NPR's reporting, the DOJ has also made a wider push to restore gun rights to people with certain felony convictions, with exceptions for violent offenses such as domestic violence and gang-related offenses, per a final rule published in August 2026.' This appears to mix two different policy actions (the NFA ruling and a separate felony gun rights rule) in a single sentence without clarity on whether both are part of the same article or represent different reporting. The brief treats it as a single sourced claim, but the draft's sequencing muddies attribution."
+    ]
+   }
+  ]
  }
 ]
