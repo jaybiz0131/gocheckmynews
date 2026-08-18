@@ -16,7 +16,7 @@ jobs:
   probe:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with: { python-version: "3.12" }
       - name: Probe the GDELT doc API from a runner IP
         run: |
