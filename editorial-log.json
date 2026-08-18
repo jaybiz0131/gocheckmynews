@@ -8090,5 +8090,40 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-18",
+  "approved": 4,
+  "rejected": [
+   {
+    "id": "c062",
+    "headline": "Florida primary elections: voters select nominees for governor and Senate",
+    "category": "accuracy",
+    "reasons": [
+     "The brief contains only one data point about Florida primary elections. The draft adds a claim that 'The Senate primary will determine which candidates advance to fill the remainder of Secretary of State Marco Rubio's unexpired U.S. Senate term' \u2014 but the brief identifies Rubio as 'Secretary of State,' not as the person whose Senate seat is being filled. The brief states the primary is 'to complete the remainder of Secretary of State Marco Rubio's unexpired U.S. Senate term,' which is internally contradictory (he cannot simultaneously be Secretary of State and have an unexpired Senate term). This factual claim about what the Senate primary is for cannot be verified against the provided brief data.",
+     "The draft reports 'Results for both races are not yet finalized in the verified reporting available,' but the brief does not contain any data point about the status or timing of results. This meta-statement about the reporting state goes beyond what the brief supports.",
+     "The draft's sources include links to Alaska and Wyoming primary results, but the brief only provides one data point about Florida. The brief itself notes 'Source texts are incomplete and do not contain substantive reporting' for Alaska and Wyoming, yet the draft is written as though all three states are covered equally. The brief is marked 'thin: true' with only one data point; the draft should reflect that thinness by focusing exclusively on Florida or declining to write until results are available."
+    ]
+   },
+   {
+    "id": "c056",
+    "headline": "Trump Orders Pentagon to Scale Back Joint Military Exercises with South Korea",
+    "category": "balance",
+    "reasons": [
+     "The draft's framing and voice adopt the expert/skeptical perspective throughout without proportional presentation of the administration's rationale. The brief's bear_case items (Seoul hoping Trump's outreach leads to meaningful talks, South Korea continuing diplomatic consultations, precedent of Trump scaling back exercises in 2018 and 2020) are mentioned only peripherally in passing or not at all in a dedicated counter-evidence paragraph. The draft reads as though the expert consensus against the move is the settled position rather than one side of a contested policy question.",
+     "The angle provided by the brief ('downgrading a 73-year military alliance to avoid offending North Korea') is advocatorial framing that the desk did not provide as an open question but as a narrative verdict. The draft should present what Trump says the move accomplishes and what experts warn, without adopting the framing that the move is a 'downgrade' or primarily motivated by 'avoiding offending' rather than cost reduction and diplomatic outreach."
+    ]
+   },
+   {
+    "id": "c128",
+    "headline": "House Ethics Committee investigating California Democrat Gomez over sexual misconduct allegations",
+    "category": "accuracy",
+    "reasons": [
+     "The draft includes a data point about Rep. Gomez forming a Congressional Dads Caucus in 2023 (listed in brief as data_point 7) but this fact does not appear anywhere in the draft body. The brief rule requires all facts to appear in the draft if they are sourced; conversely, the draft should not include facts not in the brief, but omitting a sourced fact from the brief is a structural problem if the brief flagged it as reportable.",
+     "More critically: the draft states 'Reps. Eric Swalwell (D-Calif.) and Tony Gonzales (R-Texas)' resigned this year, but the brief data_point says 'Two members resigned this year amid ethics investigations: Reps. Eric Swalwell (D-Calif.) and Tony Gonzales (R-Texas).' The draft's phrasing is acceptable as paraphrase. However, the draft also includes context about Swalwell and Gonzales that goes beyond the brief's scope without adding clarity to the Gomez story itself\u2014this is acceptable context-setting for the bear case. The structure passes.",
+     "The draft states the committee 'recommended this month that the full House censure Rep. Chuck Edwards' but the brief says 'The Ethics Committee recommended this month that the full House censure Rep. Chuck Edwards (R-N.C.) after finding he 'engaged in persistent unprofessional and inappropriate conduct towards two young female staffers.' Edwards later announced he was dropping his re-election bid.' Both match; this is accurate."
+    ]
+   }
+  ]
  }
 ]
