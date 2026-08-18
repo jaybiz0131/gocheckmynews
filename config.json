@@ -1,474 +1,486 @@
 {
- "brand": "GoCheckMyNews",
- "EDITORIAL_BALANCE": "Owner directive 2026-07-21: US audience. When the intake offers US domestic stories that clear the sourcing bar, roughly half the ranked list should be US domestic; international still ranks on merit and leads when it is the day's biggest verified story. Enforced in prompts/editor.md (AUDIENCE BALANCE), not as a hard quota.",
- "ELECTION_CALENDAR_NOTE": "Owner directive 2026-07-22: results nights are the most predictable misses, so they are staffed by default. Windows are deliberately approximate (they bias the editor's staffing, never facts); refresh each cycle. Results discipline lives in prompts/editor.md (ELECTION NIGHTS).",
- "election_calendar": [
-  {
-   "name": "Arizona primary results and canvass (July 2026)",
-   "start": "2026-07-21",
-   "end": "2026-07-27"
+  "brand": "GoCheckMyNews",
+  "EDITORIAL_BALANCE": "Owner directive 2026-07-21: US audience. When the intake offers US domestic stories that clear the sourcing bar, roughly half the ranked list should be US domestic; international still ranks on merit and leads when it is the day's biggest verified story. Enforced in prompts/editor.md (AUDIENCE BALANCE), not as a hard quota.",
+  "ELECTION_CALENDAR_NOTE": "Owner directive 2026-07-22: results nights are the most predictable misses, so they are staffed by default. Windows are deliberately approximate (they bias the editor's staffing, never facts); refresh each cycle. Results discipline lives in prompts/editor.md (ELECTION NIGHTS).",
+  "election_calendar": [
+    {
+      "name": "Arizona primary results and canvass (July 2026)",
+      "start": "2026-07-21",
+      "end": "2026-07-27"
+    },
+    {
+      "name": "August state primary night (AZ, KS, MI, MO, WA window)",
+      "start": "2026-08-03",
+      "end": "2026-08-05"
+    },
+    {
+      "name": "August state primary night (CT, MN, VT, WI window)",
+      "start": "2026-08-10",
+      "end": "2026-08-12"
+    },
+    {
+      "name": "August state primary night (AK, FL, WY window)",
+      "start": "2026-08-17",
+      "end": "2026-08-19"
+    },
+    {
+      "name": "Late-August primary night (multiple states)",
+      "start": "2026-08-24",
+      "end": "2026-08-26"
+    },
+    {
+      "name": "September primary night (MA window)",
+      "start": "2026-08-31",
+      "end": "2026-09-02"
+    },
+    {
+      "name": "September primary night (NH, RI, DE window)",
+      "start": "2026-09-07",
+      "end": "2026-09-09"
+    },
+    {
+      "name": "2026 midterm election night and first counts",
+      "start": "2026-11-02",
+      "end": "2026-11-07"
+    },
+    {
+      "name": "Midterm certification and recount window",
+      "start": "2026-11-08",
+      "end": "2026-12-15"
+    }
+  ],
+  "tagline": "Every story, sourced. Every source, rated.",
+  "cadence": "daily-brief",
+  "lookback_hours": 44,
+  "top_n": 8,
+  "TOP_N_NOTE": "TOP_N RULING 2026-07-31: cut from 12 to 8 per slot. The desks were publishing ~184 articles a week between them while all article pages combined drew ~16 weekly views, so slots 9 to 12 were reaching nobody. Cutting the tail reduces per-run spend (fewer researcher, writer, and verifier calls), raises the average significance of what reaches the front page, and lowers exposure to search-engine scaled-content policies, which target high-volume automated publishing. Revisit when distribution catches up to the inventory; this is a quality-over-volume decision, not a cost-only one.",
+  "budget": {
+    "max_tokens_per_run": 400000,
+    "max_usd_per_run": 1.5,
+    "note": "Fail-closed cap. The token and USD caps must express the SAME limit and they did not: 220k tokens fires at roughly $0.32-0.41 on Haiku while the USD cap allows $1.50, so the token cap was binding at about a quarter of the approved spend and a normal run already sat at 50-100% of it. A News run on 2026-07-31 drafted 8 of 8 stories and then died in the approver at 227,860 tokens, spending everything and publishing nothing. 400k keeps a full run near $0.60, still well under the USD cap, which is now the limit that actually binds. Cutting top_n from 12 to 8 was tried first and did not fix it."
   },
-  {
-   "name": "August state primary night (AZ, KS, MI, MO, WA window)",
-   "start": "2026-08-03",
-   "end": "2026-08-05"
+  "models": {
+    "editor": {
+      "model": "claude-haiku-4-5",
+      "max_tokens": 12000
+    },
+    "verifier": {
+      "model": "claude-haiku-4-5",
+      "max_tokens": 10000
+    },
+    "researcher": {
+      "model": "claude-haiku-4-5",
+      "max_tokens": 20000,
+      "note": "Role 1 of the three-role editorial pipeline: builds the structured research brief (data points + confidence labels + the other side of the story) from the fetched source pages. Fact fidelity is the whole job. COST LOCKDOWN (owner directive 2026-07-21): Haiku, crypto-desk parity.",
+      "note_capacity": "Output ceilings sized for a full 12-story day (2026-07-22: the researcher hit the 8000 cap on all three ladder rungs once the intake fattened; Haiku 4.5 allows 64k output, and a ceiling only bills when used)."
+    },
+    "writer": {
+      "model": "claude-haiku-4-5",
+      "max_tokens": 20000,
+      "note": "Full-length stories (350-650 words) in batches of 3 per call; the cap covers 3 complete drafts with headroom so JSON never truncates. COST LOCKDOWN (owner directive 2026-07-21): Haiku, crypto-desk parity."
+    },
+    "approver": {
+      "model": "claude-haiku-4-5",
+      "max_tokens": 8000,
+      "note": "Role 3: post-draft last line of defense (accuracy/liability -> balance -> quality, categorized rejections). A different call from the writer so the builder never approves their own work."
+    },
+    "note": "COST LOCKDOWN (owner directive 2026-07-21, supersedes the quality-launch A/B): crypto is the priority bet and this desk must never run a higher cost than the crypto desk. claude-haiku-4-5 on every desk stage, exactly like crypto; the deterministic fail-closed gates (source liveness, dedup, depth gate, belts, corroboration rules) are the quality floor, not the model. wraprescue keeps claude-sonnet-5 for the rare edition-failure path only, same as crypto. REVERSAL TRIGGER: real audience traction on this desk -> revisit the writer model.",
+    "publicist": {
+      "model": "claude-haiku-4-5",
+      "max_tokens": 1500,
+      "note": "Publicist DISABLED per strategy 2026-07-21: LinkedIn is currently the government-sales channel. Code kept in the repo, schedule removed from publicist.yml. Re-enable only on explicit direction."
+    },
+    "wrap": {
+      "model": "claude-haiku-4-5",
+      "max_tokens": 8000,
+      "note": "The Daily Edition (Morning Brief / Closing Wrap, wrap.py): synthesis over the desk's own published stories. COST LOCKDOWN (owner directive 2026-07-21): Haiku, crypto-desk parity."
+    },
+    "wrapcheck": {
+      "model": "claude-haiku-4-5",
+      "max_tokens": 3000,
+      "note": "Independent trace check on the edition: every specific fact must come from the provided inputs; no advocacy, no predictions; calm register. Separate call from the writer."
+    },
+    "aging": {
+      "model": "claude-haiku-4-5",
+      "max_tokens": 4000,
+      "note": "Monthly post-publication review (aging.py, report-only): has any published story's premise been invalidated? Conservative flagging; a human decides on corrections."
+    },
+    "wraprescue": {
+      "model": "claude-sonnet-5",
+      "max_tokens": 16000,
+      "note": "The Daily Edition's second-chance generator: when the Haiku edition fails its trace check, the corrective rewrite runs here. CEILING RAISED 8000->16000 (owner ruling 2026-08-04): this stage returned empty responses that cost two editions; the diagnostics showed thinking consuming the whole output budget (stop_reason=max_tokens, blocks=['thinking'], out_tokens at the ceiling), leaving no text block."
+    }
   },
-  {
-   "name": "August state primary night (CT, MN, VT, WI window)",
-   "start": "2026-08-10",
-   "end": "2026-08-12"
+  "sources": {
+    "note": "source_tier drives editorial weight. primary = the official public record (courts, central bank, Congress: documents, rulings, and press releases straight from the institution). major = established outlets with editorial standards, DELIBERATELY spread across the political spectrum so the desk never sees one side's telling alone; each domain carries a published bias/factual rating in site/data/credibility.json, shown to readers with attribution. mixed = aggregated or rumor-adjacent feeds (never publish alone). All feeds below are free and keyless, verified live 2026-07-19. AP and Reuters retired their public RSS (license-only now): documented as the paid upgrade path. The honesty layer is the pipeline (tiering, cross-outlet corroboration, adversarial verifier, primary-source linking, transparent outlet ratings), not any single API.",
+    "rss": [
+      {
+        "name": "Federal Reserve",
+        "tier": "primary",
+        "url": "https://www.federalreserve.gov/feeds/press_all.xml"
+      },
+      {
+        "name": "U.S. Department of Justice",
+        "tier": "primary",
+        "url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+        "note": "The Supreme Court retired its public RSS (cases.aspx now redirects to PageNotFound, confirmed 2026-07-19); the desk still cites supremecourt.gov documents directly, they just do not arrive by feed."
+      },
+      {
+        "name": "Congress.gov Bills",
+        "tier": "primary",
+        "url": "https://www.congress.gov/rss/most-viewed-bills.xml"
+      },
+      {
+        "name": "NPR",
+        "tier": "major",
+        "url": "https://feeds.npr.org/1001/rss.xml"
+      },
+      {
+        "name": "BBC News",
+        "tier": "major",
+        "url": "https://feeds.bbci.co.uk/news/rss.xml"
+      },
+      {
+        "name": "BBC World",
+        "tier": "major",
+        "url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+      },
+      {
+        "name": "PBS NewsHour",
+        "tier": "major",
+        "url": "https://www.pbs.org/newshour/feeds/rss/headlines"
+      },
+      {
+        "name": "New York Times",
+        "tier": "major",
+        "url": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"
+      },
+      {
+        "name": "Guardian US",
+        "tier": "major",
+        "url": "https://www.theguardian.com/us-news/rss"
+      },
+      {
+        "name": "Washington Post Politics",
+        "tier": "major",
+        "url": "https://feeds.washingtonpost.com/rss/politics"
+      },
+      {
+        "name": "Wall Street Journal World",
+        "tier": "major",
+        "url": "https://feeds.content.dowjones.io/public/rss/RSSWorldNews"
+      },
+      {
+        "name": "Fox News",
+        "tier": "major",
+        "url": "https://moxie.foxnews.com/google-publisher/latest.xml"
+      },
+      {
+        "name": "National Review",
+        "tier": "major",
+        "url": "https://www.nationalreview.com/feed/"
+      },
+      {
+        "name": "Washington Examiner",
+        "tier": "major",
+        "url": "https://www.washingtonexaminer.com/feed"
+      },
+      {
+        "name": "Reason",
+        "tier": "major",
+        "url": "https://reason.com/feed/"
+      },
+      {
+        "name": "The Hill",
+        "tier": "major",
+        "url": "https://thehill.com/feed/"
+      },
+      {
+        "name": "The Hill Floor Action",
+        "tier": "major",
+        "url": "https://thehill.com/homenews/house/feed/",
+        "note": "House floor coverage (added 2026-07-23: the $1.15T NDAA was the day's top domestic story and never reached the intake; the general feeds under-cover roll-call votes)."
+      },
+      {
+        "name": "NHC Atlantic",
+        "tier": "primary",
+        "url": "https://www.nhc.noaa.gov/index-at.xml",
+        "note": "National Hurricane Center official advisories (added 2026-07-23: Tropical Storm Bertha's Gulf landfall was a top competitor story with no desk coverage). Official-record source: NOAA's own advisories, not journalism."
+      },
+      {
+        "name": "ABC News",
+        "tier": "major",
+        "url": "https://abcnews.go.com/abcnews/topstories",
+        "note": "US wire-class top stories (added 2026-07-27: the desk missed the Seattle Center mass shooting every national desk led with; AP and Reuters public RSS are retired, so the big-three network feeds are the free US breaking layer)."
+      },
+      {
+        "name": "CBS News",
+        "tier": "major",
+        "url": "https://www.cbsnews.com/latest/rss/main",
+        "note": "US wire-class main feed (same 2026-07-27 addition)."
+      },
+      {
+        "name": "NBC News",
+        "tier": "major",
+        "url": "https://feeds.nbcnews.com/nbcnews/public/news",
+        "note": "US wire-class top stories (same 2026-07-27 addition)."
+      },
+      {
+        "name": "Federal Register",
+        "tier": "primary",
+        "format": "federal_register",
+        "url": "https://www.federalregister.gov/api/v1/documents.json?per_page=20&order=newest&conditions[type][]=RULE&conditions[type][]=PRORULE&conditions[agencies][]=justice-department&conditions[agencies][]=federal-emergency-management-agency&conditions[agencies][]=consumer-financial-protection-bureau&conditions[agencies][]=health-and-human-services-department&conditions[agencies][]=homeland-security-department&conditions[agencies][]=treasury-department&conditions[agencies][]=environmental-protection-agency&conditions[agencies][]=labor-department&conditions[agencies][]=federal-trade-commission&conditions[agencies][]=securities-and-exchange-commission&conditions[agencies][]=education-department&conditions[agencies][]=federal-communications-commission&fields[]=title&fields[]=type&fields[]=agencies&fields[]=publication_date&fields[]=html_url",
+        "note": "The official record of every proposed and final federal rule (keyless JSON API, verified 2026-07-30). A new DOJ, FEMA, CFPB, or HHS rule appears here before it appears in news coverage. Filtered to RULE and PRORULE from newsworthy agencies only: the unfiltered feed is dominated by routine FAA airworthiness directives, which would flood the intake."
+      },
+      {
+        "name": "Google News: US public safety",
+        "tier": "mixed",
+        "url": "https://news.google.com/rss/search?q=mass+shooting+OR+%22active+shooter%22+OR+%22mass+casualty%22+when:1d&hl=en-US&gl=US&ceid=US:en",
+        "note": "DISCOVERY ONLY (added 2026-07-30). Google News is an aggregator and its item links are google.com redirects, not article URLs, so it rides the 'mixed' tier: it can surface a story the desk's own feeds missed (the Seattle Center class), but the corroboration rules require a tiered, directly-citable outlet to supply the source before anything publishes.",
+        "max_items": 10
+      },
+      {
+        "name": "Google News: Middle East thread",
+        "tier": "mixed",
+        "url": "https://news.google.com/rss/search?q=Iran+OR+Gaza+OR+Netanyahu+OR+%22Red+Sea%22+when:1d&hl=en-US&gl=US&ceid=US:en",
+        "note": "DISCOVERY ONLY (added 2026-07-30). Google News is an aggregator and its item links are google.com redirects, not article URLs, so it rides the 'mixed' tier: it can surface a story the desk's own feeds missed (the Seattle Center class), but the corroboration rules require a tiered, directly-citable outlet to supply the source before anything publishes.",
+        "max_items": 10
+      },
+      {
+        "name": "NWS Active Alerts (severe and extreme)",
+        "tier": "primary",
+        "max_items": 15,
+        "url": "https://api.weather.gov/alerts/active.atom?severity=Severe,Extreme",
+        "note": "Fix 1, owner-approved 2026-08-03: domestic-disaster category was structurally thin (Spokane class). Official warning record; capped so routine alerts cannot flood intake."
+      },
+      {
+        "name": "InciWeb wildfire incidents",
+        "tier": "primary",
+        "max_items": 10,
+        "url": "https://inciweb.wildfire.gov/incidents/rss.xml",
+        "note": "Fix 1: the federal wildfire incident record. FEMA's feed bot-walls (403) and is omitted; NWS+InciWeb+NPR National close the category."
+      },
+      {
+        "name": "NPR National (US domestic)",
+        "tier": "major",
+        "max_items": 15,
+        "url": "https://feeds.npr.org/1003/rss.xml",
+        "note": "Fix 1: dedicated US-domestic lane (the homepage feed skews politics/world). Verification run 2026-08-03: its lead item was the Washington wildfires story."
+      },
+      {
+        "name": "FEMA news",
+        "tier": "primary",
+        "max_items": 10,
+        "url": "https://www.fema.gov/feeds/news.rss",
+        "note": "Fix 1 revisit (owner note 3, 2026-08-03): the 403 was my probe's UA, not the wall; the desk's own fetch helper clears it (verified, 40KB). Joins the domestic-disaster lane."
+      }
+    ],
+    "keywords_note": "Optional per-feed 'keywords' gate: high-volume feeds keep only items matching a keyword in headline+snippet, so they cannot flood the editor. Items matching a 'narratives' watchlist entry always pass the gate. The news desk currently runs ungated; the editor's ranking plus the balance spread is the filter. Add gates if any single feed starts flooding intake.",
+    "max_items_per_feed": 40
   },
-  {
-   "name": "August state primary night (AK, FL, WY window)",
-   "start": "2026-08-17",
-   "end": "2026-08-19"
+  "narratives": {
+    "note": "The desk's ongoing-storyline watchlist, maintained by the editor-in-chief. A cluster whose headline/snippet matches any keyword gets tagged with the narrative's name in items.json, the editor treats a genuine development in a tagged narrative as presumptively rank-worthy, and watchlist matches always pass a feed's keyword gate. Seeded for July 2026; add narratives as they emerge, retire them when they resolve.",
+    "watchlist": [
+      {
+        "name": "2026 midterms",
+        "keywords": [
+          "midterm",
+          "midterms",
+          "senate race",
+          "house race",
+          "ballot"
+        ]
+      },
+      {
+        "name": "Fed policy",
+        "keywords": [
+          "fomc",
+          "rate decision",
+          "rate hike",
+          "rate cut",
+          "powell",
+          "warsh"
+        ]
+      },
+      {
+        "name": "Supreme Court term",
+        "keywords": [
+          "supreme court",
+          "scotus",
+          "certiorari",
+          "oral argument",
+          "justices",
+          "emergency docket"
+        ],
+        "note": "Keywords tightened 2026-07-27: verb collisions ('strikes down', 'court') were hijacking the Tracking chip; storyline nouns only."
+      },
+      {
+        "name": "Middle East conflict",
+        "keywords": [
+          "aramco",
+          "drone",
+          "gaza",
+          "hezbollah",
+          "houthi",
+          "idf",
+          "interception",
+          "iran",
+          "israel",
+          "netanyahu",
+          "oil facility",
+          "red sea",
+          "saudi",
+          "strait of hormuz",
+          "tehran"
+        ],
+        "note": "Keywords widened 2026-07-28: the thread missed Saudi drone interceptions and Netanyahu's Washington travel, both chapters of the same running story."
+      },
+      {
+        "name": "Tariffs and trade",
+        "keywords": [
+          "tariff",
+          "trade deal",
+          "trade war",
+          "import duty"
+        ]
+      },
+      {
+        "name": "AI regulation",
+        "keywords": [
+          "ai regulation",
+          "ai act",
+          "ai safety bill",
+          "artificial intelligence bill"
+        ]
+      },
+      {
+        "name": "Arizona primary",
+        "keywords": [
+          "arizona primary",
+          "arizona election",
+          "arizona results",
+          "primary results",
+          "primary night"
+        ]
+      },
+      {
+        "name": "Congress and legislation",
+        "keywords": [
+          "ndaa",
+          "defense authorization",
+          "defense bill",
+          "appropriations",
+          "spending bill",
+          "passes the house",
+          "passes the senate",
+          "house passes",
+          "senate passes",
+          "floor vote",
+          "reconciliation bill",
+          "continuing resolution"
+        ],
+        "must_staff": true,
+        "note": "A completed roll-call vote on a defense, spending, or appropriations bill takes a ranked slot even on a heavy foreign-news day (2026-07-24: the $1.15T NDAA was wired and in-window but crowded out of the top 12)."
+      },
+      {
+        "name": "Severe weather",
+        "keywords": [
+          "hurricane",
+          "tropical storm",
+          "landfall",
+          "storm surge",
+          "evacuation order",
+          "flash flood",
+          "tornado outbreak",
+          "wildfire"
+        ]
+      },
+      {
+        "name": "US public safety",
+        "must_staff": true,
+        "keywords": [
+          "mass shooting",
+          "shooting",
+          "gunman",
+          "active shooter",
+          "casualties",
+          "manhunt",
+          "explosion",
+          "derailment",
+          "mass casualty"
+        ],
+        "note": "Owner directive 2026-07-27 (audit: Seattle Center miss): the mass-casualty and public-safety class national desks lead with is presumptively rank-worthy; sourcing gates unchanged."
+      },
+      {
+        "name": "Fast-moving diplomacy",
+        "keywords": [
+          "ceasefire",
+          "security cabinet",
+          "framework agreement",
+          "peace deal",
+          "normalization",
+          "hostage deal",
+          "summit",
+          "truce"
+        ],
+        "note": "Owner directive 2026-07-27 (audit: Gaza security-cabinet framework miss)."
+      },
+      {
+        "name": "Iran conflict",
+        "keywords": [
+          "iran",
+          "strait of hormuz",
+          "hormuz",
+          "tehran",
+          "irgc",
+          "khamenei",
+          "iranian"
+        ]
+      }
+    ]
   },
-  {
-   "name": "Late-August primary night (multiple states)",
-   "start": "2026-08-24",
-   "end": "2026-08-26"
+  "dedupe": {
+    "jaccard_threshold": 0.6,
+    "min_significant_tokens": 3,
+    "note": "Near-identical stories across outlets (same event, many rewrites) collapse into one cluster by normalized-headline token overlap or shared URL. The cluster keeps the highest-tier source as primary and lists the rest as corroboration; for the news desk, corroboration ACROSS the bias spectrum is what earns top billing. CROSS-OUTLET SIGNAL (2026-07-31): full-token Jaccard almost never fires across outlets that word the same event differently, so only 4% of clusters carried any corroboration and stories published citing one source. A second, conservative signal merges when headlines share at least min_shared_entities distinctive entities (capitalized words and numbers, which survive rewording), the items are within cross_outlet_window_hours of each other, AND token overlap clears cross_outlet_jaccard_floor. False merges are worse than single-sourcing, so these thresholds are tuned to zero observed false merges, not to a corroboration target. BODY-TEXT MATCHING (2026-08-01): headlines are reworded freely across outlets, so headline signals alone found only 4% corroboration while a 20-of-20 hand sample showed every single-source story HAD other outlets on it. Entities are now also read from the feed's sentence-cased snippet (90% of items carry one), where a capitalised word is a real proper noun rather than Title Case. When the prose shares body_strong_entities distinctive specifics INCLUDING a number, that stands alone without the headline-overlap floor, which was gating out exactly the pairs body matching exists to catch.",
+    "min_shared_entities": 2,
+    "cross_outlet_jaccard_floor": 0.25,
+    "cross_outlet_window_hours": 24,
+    "body_strong_entities": 3
   },
-  {
-   "name": "September primary night (MA window)",
-   "start": "2026-08-31",
-   "end": "2026-09-02"
-  },
-  {
-   "name": "September primary night (NH, RI, DE window)",
-   "start": "2026-09-07",
-   "end": "2026-09-09"
-  },
-  {
-   "name": "2026 midterm election night and first counts",
-   "start": "2026-11-02",
-   "end": "2026-11-07"
-  },
-  {
-   "name": "Midterm certification and recount window",
-   "start": "2026-11-08",
-   "end": "2026-12-15"
+  "publish": {
+    "require_human_approval": true,
+    "require_verifier_verdict": [
+      "VERIFIED"
+    ],
+    "allow_with_human_override": [
+      "NEEDS-HUMAN-REVIEW"
+    ],
+    "never_publish_verdict": [
+      "REJECT"
+    ],
+    "not_financial_advice": "GoCheckMyNews reports events. It does not editorialize and it does not advise. Nothing here is political advocacy, legal advice, or financial advice.",
+    "targets": {
+      "newsletter": {
+        "enabled": false,
+        "adapter": "newsletter",
+        "note": "Owned audience, highest value, build first. Set endpoint + key to enable."
+      },
+      "site": {
+        "enabled": false,
+        "adapter": "site",
+        "note": "SEO + archive article publish."
+      },
+      "social": {
+        "enabled": false,
+        "adapter": "social",
+        "note": "Social scheduling."
+      },
+      "video": {
+        "enabled": false,
+        "adapter": "video",
+        "note": "Newscast script handoff to the recording workflow."
+      }
+    }
   }
- ],
- "tagline": "Every story, sourced. Every source, rated.",
- "cadence": "daily-brief",
- "lookback_hours": 44,
- "top_n": 8,
- "TOP_N_NOTE": "TOP_N RULING 2026-07-31: cut from 12 to 8 per slot. The desks were publishing ~184 articles a week between them while all article pages combined drew ~16 weekly views, so slots 9 to 12 were reaching nobody. Cutting the tail reduces per-run spend (fewer researcher, writer, and verifier calls), raises the average significance of what reaches the front page, and lowers exposure to search-engine scaled-content policies, which target high-volume automated publishing. Revisit when distribution catches up to the inventory; this is a quality-over-volume decision, not a cost-only one.",
- "budget": {
-  "max_tokens_per_run": 400000,
-  "max_usd_per_run": 1.5,
-  "note": "Fail-closed cap. The token and USD caps must express the SAME limit and they did not: 220k tokens fires at roughly $0.32-0.41 on Haiku while the USD cap allows $1.50, so the token cap was binding at about a quarter of the approved spend and a normal run already sat at 50-100% of it. A News run on 2026-07-31 drafted 8 of 8 stories and then died in the approver at 227,860 tokens, spending everything and publishing nothing. 400k keeps a full run near $0.60, still well under the USD cap, which is now the limit that actually binds. Cutting top_n from 12 to 8 was tried first and did not fix it."
- },
- "models": {
-  "editor": {
-   "model": "claude-haiku-4-5",
-   "max_tokens": 12000
-  },
-  "verifier": {
-   "model": "claude-haiku-4-5",
-   "max_tokens": 10000
-  },
-  "researcher": {
-   "model": "claude-haiku-4-5",
-   "max_tokens": 20000,
-   "note": "Role 1 of the three-role editorial pipeline: builds the structured research brief (data points + confidence labels + the other side of the story) from the fetched source pages. Fact fidelity is the whole job. COST LOCKDOWN (owner directive 2026-07-21): Haiku, crypto-desk parity.",
-   "note_capacity": "Output ceilings sized for a full 12-story day (2026-07-22: the researcher hit the 8000 cap on all three ladder rungs once the intake fattened; Haiku 4.5 allows 64k output, and a ceiling only bills when used)."
-  },
-  "writer": {
-   "model": "claude-haiku-4-5",
-   "max_tokens": 20000,
-   "note": "Full-length stories (350-650 words) in batches of 3 per call; the cap covers 3 complete drafts with headroom so JSON never truncates. COST LOCKDOWN (owner directive 2026-07-21): Haiku, crypto-desk parity."
-  },
-  "approver": {
-   "model": "claude-haiku-4-5",
-   "max_tokens": 8000,
-   "note": "Role 3: post-draft last line of defense (accuracy/liability -> balance -> quality, categorized rejections). A different call from the writer so the builder never approves their own work."
-  },
-  "note": "COST LOCKDOWN (owner directive 2026-07-21, supersedes the quality-launch A/B): crypto is the priority bet and this desk must never run a higher cost than the crypto desk. claude-haiku-4-5 on every desk stage, exactly like crypto; the deterministic fail-closed gates (source liveness, dedup, depth gate, belts, corroboration rules) are the quality floor, not the model. wraprescue keeps claude-sonnet-5 for the rare edition-failure path only, same as crypto. REVERSAL TRIGGER: real audience traction on this desk -> revisit the writer model.",
-  "publicist": {
-   "model": "claude-haiku-4-5",
-   "max_tokens": 1500,
-   "note": "Publicist DISABLED per strategy 2026-07-21: LinkedIn is currently the government-sales channel. Code kept in the repo, schedule removed from publicist.yml. Re-enable only on explicit direction."
-  },
-  "wrap": {
-   "model": "claude-haiku-4-5",
-   "max_tokens": 8000,
-   "note": "The Daily Edition (Morning Brief / Closing Wrap, wrap.py): synthesis over the desk's own published stories. COST LOCKDOWN (owner directive 2026-07-21): Haiku, crypto-desk parity."
-  },
-  "wrapcheck": {
-   "model": "claude-haiku-4-5",
-   "max_tokens": 3000,
-   "note": "Independent trace check on the edition: every specific fact must come from the provided inputs; no advocacy, no predictions; calm register. Separate call from the writer."
-  },
-  "aging": {
-   "model": "claude-haiku-4-5",
-   "max_tokens": 4000,
-   "note": "Monthly post-publication review (aging.py, report-only): has any published story's premise been invalidated? Conservative flagging; a human decides on corrections."
-  },
-  "wraprescue": {
-   "model": "claude-sonnet-5",
-   "max_tokens": 16000,
-   "note": "The Daily Edition's second-chance generator: when the Haiku edition fails its trace check, the corrective rewrite runs here. CEILING RAISED 8000->16000 (owner ruling 2026-08-04): this stage returned empty responses that cost two editions; the diagnostics showed thinking consuming the whole output budget (stop_reason=max_tokens, blocks=['thinking'], out_tokens at the ceiling), leaving no text block."
-  }
- },
- "sources": {
-  "note": "source_tier drives editorial weight. primary = the official public record (courts, central bank, Congress: documents, rulings, and press releases straight from the institution). major = established outlets with editorial standards, DELIBERATELY spread across the political spectrum so the desk never sees one side's telling alone; each domain carries a published bias/factual rating in site/data/credibility.json, shown to readers with attribution. mixed = aggregated or rumor-adjacent feeds (never publish alone). All feeds below are free and keyless, verified live 2026-07-19. AP and Reuters retired their public RSS (license-only now): documented as the paid upgrade path. The honesty layer is the pipeline (tiering, cross-outlet corroboration, adversarial verifier, primary-source linking, transparent outlet ratings), not any single API.",
-  "rss": [
-   {
-    "name": "Federal Reserve",
-    "tier": "primary",
-    "url": "https://www.federalreserve.gov/feeds/press_all.xml"
-   },
-   {
-    "name": "U.S. Department of Justice",
-    "tier": "primary",
-    "url": "https://www.justice.gov/news/rss?type=press_release&m=1",
-    "note": "The Supreme Court retired its public RSS (cases.aspx now redirects to PageNotFound, confirmed 2026-07-19); the desk still cites supremecourt.gov documents directly, they just do not arrive by feed."
-   },
-   {
-    "name": "Congress.gov Bills",
-    "tier": "primary",
-    "url": "https://www.congress.gov/rss/most-viewed-bills.xml"
-   },
-   {
-    "name": "NPR",
-    "tier": "major",
-    "url": "https://feeds.npr.org/1001/rss.xml"
-   },
-   {
-    "name": "BBC News",
-    "tier": "major",
-    "url": "https://feeds.bbci.co.uk/news/rss.xml"
-   },
-   {
-    "name": "BBC World",
-    "tier": "major",
-    "url": "https://feeds.bbci.co.uk/news/world/rss.xml"
-   },
-   {
-    "name": "PBS NewsHour",
-    "tier": "major",
-    "url": "https://www.pbs.org/newshour/feeds/rss/headlines"
-   },
-   {
-    "name": "New York Times",
-    "tier": "major",
-    "url": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"
-   },
-   {
-    "name": "Guardian US",
-    "tier": "major",
-    "url": "https://www.theguardian.com/us-news/rss"
-   },
-   {
-    "name": "Washington Post Politics",
-    "tier": "major",
-    "url": "https://feeds.washingtonpost.com/rss/politics"
-   },
-   {
-    "name": "Wall Street Journal World",
-    "tier": "major",
-    "url": "https://feeds.content.dowjones.io/public/rss/RSSWorldNews"
-   },
-   {
-    "name": "Fox News",
-    "tier": "major",
-    "url": "https://moxie.foxnews.com/google-publisher/latest.xml"
-   },
-   {
-    "name": "National Review",
-    "tier": "major",
-    "url": "https://www.nationalreview.com/feed/"
-   },
-   {
-    "name": "Washington Examiner",
-    "tier": "major",
-    "url": "https://www.washingtonexaminer.com/feed"
-   },
-   {
-    "name": "Reason",
-    "tier": "major",
-    "url": "https://reason.com/feed/"
-   },
-   {
-    "name": "The Hill",
-    "tier": "major",
-    "url": "https://thehill.com/feed/"
-   },
-   {
-    "name": "The Hill Floor Action",
-    "tier": "major",
-    "url": "https://thehill.com/homenews/house/feed/",
-    "note": "House floor coverage (added 2026-07-23: the $1.15T NDAA was the day's top domestic story and never reached the intake; the general feeds under-cover roll-call votes)."
-   },
-   {
-    "name": "NHC Atlantic",
-    "tier": "primary",
-    "url": "https://www.nhc.noaa.gov/index-at.xml",
-    "note": "National Hurricane Center official advisories (added 2026-07-23: Tropical Storm Bertha's Gulf landfall was a top competitor story with no desk coverage). Official-record source: NOAA's own advisories, not journalism."
-   },
-   {
-    "name": "ABC News",
-    "tier": "major",
-    "url": "https://abcnews.go.com/abcnews/topstories",
-    "note": "US wire-class top stories (added 2026-07-27: the desk missed the Seattle Center mass shooting every national desk led with; AP and Reuters public RSS are retired, so the big-three network feeds are the free US breaking layer)."
-   },
-   {
-    "name": "CBS News",
-    "tier": "major",
-    "url": "https://www.cbsnews.com/latest/rss/main",
-    "note": "US wire-class main feed (same 2026-07-27 addition)."
-   },
-   {
-    "name": "NBC News",
-    "tier": "major",
-    "url": "https://feeds.nbcnews.com/nbcnews/public/news",
-    "note": "US wire-class top stories (same 2026-07-27 addition)."
-   },
-   {
-    "name": "Federal Register",
-    "tier": "primary",
-    "format": "federal_register",
-    "url": "https://www.federalregister.gov/api/v1/documents.json?per_page=20&order=newest&conditions[type][]=RULE&conditions[type][]=PRORULE&conditions[agencies][]=justice-department&conditions[agencies][]=federal-emergency-management-agency&conditions[agencies][]=consumer-financial-protection-bureau&conditions[agencies][]=health-and-human-services-department&conditions[agencies][]=homeland-security-department&conditions[agencies][]=treasury-department&conditions[agencies][]=environmental-protection-agency&conditions[agencies][]=labor-department&conditions[agencies][]=federal-trade-commission&conditions[agencies][]=securities-and-exchange-commission&conditions[agencies][]=education-department&conditions[agencies][]=federal-communications-commission&fields[]=title&fields[]=type&fields[]=agencies&fields[]=publication_date&fields[]=html_url",
-    "note": "The official record of every proposed and final federal rule (keyless JSON API, verified 2026-07-30). A new DOJ, FEMA, CFPB, or HHS rule appears here before it appears in news coverage. Filtered to RULE and PRORULE from newsworthy agencies only: the unfiltered feed is dominated by routine FAA airworthiness directives, which would flood the intake."
-   },
-   {
-    "name": "Google News: US public safety",
-    "tier": "mixed",
-    "url": "https://news.google.com/rss/search?q=mass+shooting+OR+%22active+shooter%22+OR+%22mass+casualty%22+when:1d&hl=en-US&gl=US&ceid=US:en",
-    "note": "DISCOVERY ONLY (added 2026-07-30). Google News is an aggregator and its item links are google.com redirects, not article URLs, so it rides the 'mixed' tier: it can surface a story the desk's own feeds missed (the Seattle Center class), but the corroboration rules require a tiered, directly-citable outlet to supply the source before anything publishes.",
-    "max_items": 10
-   },
-   {
-    "name": "Google News: Middle East thread",
-    "tier": "mixed",
-    "url": "https://news.google.com/rss/search?q=Iran+OR+Gaza+OR+Netanyahu+OR+%22Red+Sea%22+when:1d&hl=en-US&gl=US&ceid=US:en",
-    "note": "DISCOVERY ONLY (added 2026-07-30). Google News is an aggregator and its item links are google.com redirects, not article URLs, so it rides the 'mixed' tier: it can surface a story the desk's own feeds missed (the Seattle Center class), but the corroboration rules require a tiered, directly-citable outlet to supply the source before anything publishes.",
-    "max_items": 10
-   },
-   {
-    "name": "NWS Active Alerts (severe and extreme)",
-    "tier": "primary",
-    "max_items": 15,
-    "url": "https://api.weather.gov/alerts/active.atom?severity=Severe,Extreme",
-    "note": "Fix 1, owner-approved 2026-08-03: domestic-disaster category was structurally thin (Spokane class). Official warning record; capped so routine alerts cannot flood intake."
-   },
-   {
-    "name": "InciWeb wildfire incidents",
-    "tier": "primary",
-    "max_items": 10,
-    "url": "https://inciweb.wildfire.gov/incidents/rss.xml",
-    "note": "Fix 1: the federal wildfire incident record. FEMA's feed bot-walls (403) and is omitted; NWS+InciWeb+NPR National close the category."
-   },
-   {
-    "name": "NPR National (US domestic)",
-    "tier": "major",
-    "max_items": 15,
-    "url": "https://feeds.npr.org/1003/rss.xml",
-    "note": "Fix 1: dedicated US-domestic lane (the homepage feed skews politics/world). Verification run 2026-08-03: its lead item was the Washington wildfires story."
-   },
-   {
-    "name": "FEMA news",
-    "tier": "primary",
-    "max_items": 10,
-    "url": "https://www.fema.gov/feeds/news.rss",
-    "note": "Fix 1 revisit (owner note 3, 2026-08-03): the 403 was my probe's UA, not the wall; the desk's own fetch helper clears it (verified, 40KB). Joins the domestic-disaster lane."
-   }
-  ],
-  "keywords_note": "Optional per-feed 'keywords' gate: high-volume feeds keep only items matching a keyword in headline+snippet, so they cannot flood the editor. Items matching a 'narratives' watchlist entry always pass the gate. The news desk currently runs ungated; the editor's ranking plus the balance spread is the filter. Add gates if any single feed starts flooding intake.",
-  "max_items_per_feed": 40
- },
- "narratives": {
-  "note": "The desk's ongoing-storyline watchlist, maintained by the editor-in-chief. A cluster whose headline/snippet matches any keyword gets tagged with the narrative's name in items.json, the editor treats a genuine development in a tagged narrative as presumptively rank-worthy, and watchlist matches always pass a feed's keyword gate. Seeded for July 2026; add narratives as they emerge, retire them when they resolve.",
-  "watchlist": [
-   {
-    "name": "2026 midterms",
-    "keywords": [
-     "midterm",
-     "midterms",
-     "senate race",
-     "house race",
-     "ballot"
-    ]
-   },
-   {
-    "name": "Fed policy",
-    "keywords": [
-     "fomc",
-     "rate decision",
-     "rate hike",
-     "rate cut",
-     "powell",
-     "warsh"
-    ]
-   },
-   {
-    "name": "Supreme Court term",
-    "keywords": [
-     "supreme court",
-     "scotus",
-     "certiorari",
-     "oral argument",
-     "justices",
-     "emergency docket"
-    ],
-    "note": "Keywords tightened 2026-07-27: verb collisions ('strikes down', 'court') were hijacking the Tracking chip; storyline nouns only."
-   },
-   {
-    "name": "Middle East conflict",
-    "keywords": [
-     "aramco",
-     "drone",
-     "gaza",
-     "hezbollah",
-     "houthi",
-     "idf",
-     "interception",
-     "iran",
-     "israel",
-     "netanyahu",
-     "oil facility",
-     "red sea",
-     "saudi",
-     "strait of hormuz",
-     "tehran"
-    ],
-    "note": "Keywords widened 2026-07-28: the thread missed Saudi drone interceptions and Netanyahu's Washington travel, both chapters of the same running story."
-   },
-   {
-    "name": "Tariffs and trade",
-    "keywords": [
-     "tariff",
-     "trade deal",
-     "trade war",
-     "import duty"
-    ]
-   },
-   {
-    "name": "AI regulation",
-    "keywords": [
-     "ai regulation",
-     "ai act",
-     "ai safety bill",
-     "artificial intelligence bill"
-    ]
-   },
-   {
-    "name": "Arizona primary",
-    "keywords": [
-     "arizona primary",
-     "arizona election",
-     "arizona results",
-     "primary results",
-     "primary night"
-    ]
-   },
-   {
-    "name": "Congress and legislation",
-    "keywords": [
-     "ndaa",
-     "defense authorization",
-     "defense bill",
-     "appropriations",
-     "spending bill",
-     "passes the house",
-     "passes the senate",
-     "house passes",
-     "senate passes",
-     "floor vote",
-     "reconciliation bill",
-     "continuing resolution"
-    ],
-    "must_staff": true,
-    "note": "A completed roll-call vote on a defense, spending, or appropriations bill takes a ranked slot even on a heavy foreign-news day (2026-07-24: the $1.15T NDAA was wired and in-window but crowded out of the top 12)."
-   },
-   {
-    "name": "Severe weather",
-    "keywords": [
-     "hurricane",
-     "tropical storm",
-     "landfall",
-     "storm surge",
-     "evacuation order",
-     "flash flood",
-     "tornado outbreak",
-     "wildfire"
-    ]
-   },
-   {
-    "name": "US public safety",
-    "must_staff": true,
-    "keywords": [
-     "mass shooting",
-     "shooting",
-     "gunman",
-     "active shooter",
-     "casualties",
-     "manhunt",
-     "explosion",
-     "derailment",
-     "mass casualty"
-    ],
-    "note": "Owner directive 2026-07-27 (audit: Seattle Center miss): the mass-casualty and public-safety class national desks lead with is presumptively rank-worthy; sourcing gates unchanged."
-   },
-   {
-    "name": "Fast-moving diplomacy",
-    "keywords": [
-     "ceasefire",
-     "security cabinet",
-     "framework agreement",
-     "peace deal",
-     "normalization",
-     "hostage deal",
-     "summit",
-     "truce"
-    ],
-    "note": "Owner directive 2026-07-27 (audit: Gaza security-cabinet framework miss)."
-   }
-  ]
- },
- "dedupe": {
-  "jaccard_threshold": 0.6,
-  "min_significant_tokens": 3,
-  "note": "Near-identical stories across outlets (same event, many rewrites) collapse into one cluster by normalized-headline token overlap or shared URL. The cluster keeps the highest-tier source as primary and lists the rest as corroboration; for the news desk, corroboration ACROSS the bias spectrum is what earns top billing. CROSS-OUTLET SIGNAL (2026-07-31): full-token Jaccard almost never fires across outlets that word the same event differently, so only 4% of clusters carried any corroboration and stories published citing one source. A second, conservative signal merges when headlines share at least min_shared_entities distinctive entities (capitalized words and numbers, which survive rewording), the items are within cross_outlet_window_hours of each other, AND token overlap clears cross_outlet_jaccard_floor. False merges are worse than single-sourcing, so these thresholds are tuned to zero observed false merges, not to a corroboration target. BODY-TEXT MATCHING (2026-08-01): headlines are reworded freely across outlets, so headline signals alone found only 4% corroboration while a 20-of-20 hand sample showed every single-source story HAD other outlets on it. Entities are now also read from the feed's sentence-cased snippet (90% of items carry one), where a capitalised word is a real proper noun rather than Title Case. When the prose shares body_strong_entities distinctive specifics INCLUDING a number, that stands alone without the headline-overlap floor, which was gating out exactly the pairs body matching exists to catch.",
-  "min_shared_entities": 2,
-  "cross_outlet_jaccard_floor": 0.25,
-  "cross_outlet_window_hours": 24,
-  "body_strong_entities": 3
- },
- "publish": {
-  "require_human_approval": true,
-  "require_verifier_verdict": [
-   "VERIFIED"
-  ],
-  "allow_with_human_override": [
-   "NEEDS-HUMAN-REVIEW"
-  ],
-  "never_publish_verdict": [
-   "REJECT"
-  ],
-  "not_financial_advice": "GoCheckMyNews reports events. It does not editorialize and it does not advise. Nothing here is political advocacy, legal advice, or financial advice.",
-  "targets": {
-   "newsletter": {
-    "enabled": false,
-    "adapter": "newsletter",
-    "note": "Owned audience, highest value, build first. Set endpoint + key to enable."
-   },
-   "site": {
-    "enabled": false,
-    "adapter": "site",
-    "note": "SEO + archive article publish."
-   },
-   "social": {
-    "enabled": false,
-    "adapter": "social",
-    "note": "Social scheduling."
-   },
-   "video": {
-    "enabled": false,
-    "adapter": "video",
-    "note": "Newscast script handoff to the recording workflow."
-   }
-  }
- }
 }
