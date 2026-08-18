@@ -8050,5 +8050,45 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-18",
+  "approved": 3,
+  "rejected": [
+   {
+    "id": "c130",
+    "headline": "Supreme Court declines Trump's second appeal in E. Jean Carroll case; $5M verdict final",
+    "category": "accuracy",
+    "reasons": [
+     "Bottom line states 'The Supreme Court's refusal to reconsider its April rejection of Trump's appeal' but the brief and body consistently establish the rejection occurred in June 2026, not April. This is a factual error not present in the brief.",
+     "The draft body says 'Trump has already paid the $5 million verdict plus interest, with Carroll receiving the funds in July' but the brief data_points separate these claims: one says 'Trump has already turned over the $5 million, plus interest' (NBC, reported confidence) and another says 'Carroll has received the money in the 2023 case, and it was paid in July' (ABC, reported confidence). The draft conflates payment timing with receipt timing without the source clarity the brief preserves."
+    ]
+   },
+   {
+    "id": "c245",
+    "headline": "Federal judge blocks Trump administration's plan to move FBI to Reagan Building",
+    "category": "balance",
+    "reasons": [
+     "The draft opens with the judge's ruling and legal finding but delays the bear_case\u2014the administration's counter-argument about cost-effectiveness\u2014to the final paragraph as a brief FBI statement. The bear_case in the brief emphasizes that the FBI Director explicitly framed the Reagan Building as 'the most cost-effective and resource-efficient way to carry out our mission' in July 2025, but the draft buries the cost-efficiency rationale only in the FBI's final reactive statement ('court has tried to undermine the administration in its goal to make government more cost-effective'), separating it from the affirmative case for why the administration made the move. A reader finishing the story's substantive sections would understand this as a legal overreach by the court, not as a genuine policy dispute between cost-efficient relocation and congressional intent. The bear_case deserves earlier, dedicated framing to show both sides' substantive positions, not just the FBI's defensive reaction."
+    ]
+   },
+   {
+    "id": "c279",
+    "headline": "Virginia State University Shooting Suspect Sent Instagram Messages About Acquiring Firearm Before Attack",
+    "category": "accuracy",
+    "reasons": [
+     "Draft states 'Harris posted an Instagram Story of the VSU campus shortly before the shooting' in the angle/brief context, but this claim does not appear in the draft body itself. However, the brief data_point #12 claims 'Harris had posted an Instagram Story of the VSU campus shortly before the shooting' with 'reported' confidence. The draft omits this fact entirely, creating an internal inconsistency between what the brief captured and what the draft presents. The data point should appear in the body if included in the brief's evidentiary record."
+    ]
+   },
+   {
+    "id": "c129",
+    "headline": "House Ethics Committee investigates Rep. Gomez over alleged sexual misconduct with staffer",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The New York Post, citing unidentified sources, first reported the allegations this year, with the incident described as involving Gomez and a younger aide.' The brief's corresponding data_point says 'first reported the allegations this year that Gomez kissed a younger aide'\u2014the specific detail that he 'kissed' the aide appears in the brief but not in the draft sources listed (NBC News). This is a factual claim ('kissed') that cannot be attributed to the NBC News sources cited in the draft and appears to come from the New York Post reference, but the draft does not explicitly attribute the 'kissed' detail to the Post. The sentence structure creates ambiguity about what the Post reported versus what NBC reported, violating the rule that all facts must trace to the brief's sourced claims.",
+     "The draft attributes the Committee statement ('The Committee notes that the mere fact that it is investigating these allegations...') to 'verified on the committee's record,' but the brief marks this as 'verified-on-chain' from NBC News. The draft's phrase 'verified on the committee's record' introduces sourcing language not present in the brief and could mislead readers about the direct source of verification."
+    ]
+   }
+  ]
  }
 ]
