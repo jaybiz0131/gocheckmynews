@@ -8125,5 +8125,60 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-18",
+  "approved": 2,
+  "rejected": [
+   {
+    "id": "c069",
+    "headline": "US and Canada race to strike tariff deal before Wednesday deadline",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Canadian Prime Minister Mark Carney' but the brief does not confirm Carney is Prime Minister. The data_point attributes a quote to 'Canadian Prime Minister Mark Carney' to ABC News, but without independent verification in other sources, and given that Mark Carney is not Canada's current Prime Minister (Justin Trudeau is), this is a factual error that should have been caught against the sourced record. The writer smuggled an unverified name-title pair.",
+     "The draft states 'Last month, Trump imposed import taxes of 10% to 12.5% on 59 countries and the European Union' but the brief's data_point says 'on 59 countries and the European Union\u2014which together account for 99% of U.S. imports.' The phrase about 99% of U.S. imports does not appear in the draft, but the omission is not the liability. The liability is that the draft presents this as settled fact when the brief's confidence label is 'reported,' not 'verified.' However, this traces correctly to source and is attributed inline, so it survives. Overruled on this point.",
+     "The draft attributes 'nearly 72% of Canadian goods exports last year went to the United States' to ABC News, but the brief's data_point attributes it to ABC News without qualifying source text visible, and the draft does not clarify the data originates from ABC News reporting. The attribution is present but the year reference ('last year') is vague and unsourced to a specific data point in the brief. This is technically traceable but imprecise."
+    ]
+   },
+   {
+    "id": "c071",
+    "headline": "Florida Primary: Voters Select Nominees for Governor and U.S. Senate Seat",
+    "category": "accuracy",
+    "reasons": [
+     "The brief is marked 'thin': true and contains only one data_point. The open_questions list includes basic factual questions that go unaddressed in the draft: 'What are the specific candidates running in each race (governor, U.S. Senate)?' The draft contains no candidate names, no polling, no description of the field, no turnout expectations, and no issue positions\u2014it is a bare announcement with no information beyond the seats being contested. A thin brief does not excuse failing to report what little is known; this draft reports almost nothing from the single data_point available.",
+     "The draft's bottom_line urges readers to 'watch for turnout levels and vote distribution within each party to gauge momentum heading into the general election.' This is a call to action framed as forward-looking guidance. It reads as editorial direction to the reader rather than substantive reporting of what the story contains or what stakes matter. The prescription 'watch for' violates the no-advice boundary.",
+     "The brief notes: 'The source texts are SVG graphic markup (page navigation elements), not article content; the snippet provides the only substantive information about what voters are deciding.' This signals the sources did not yield reportable material. The draft cites three PBS sources but contains reporting from only one data_point from one of those URLs. The draft should disclose the thinness of available sourcing or reject the assignment as incomplete."
+    ]
+   },
+   {
+    "id": "c145",
+    "headline": "Supreme Court Declines Trump's Appeal in Carroll Defamation Case",
+    "category": "accuracy",
+    "reasons": [
+     "The brief explicitly notes 'The source text is empty; no details are available' and lists seven open_questions including no confirmation of the procedural disposition, no sourcing on Trump's response, and no detail on remaining claims. The draft presents the Supreme Court's action as settled fact ('has declined', 'allows...to stand as final judgment') without any confidence qualifier. The brief's core_claim itself is unsourced (data_points is empty array), yet the draft narrates it as established.",
+     "The draft states 'with no further recourse available' as a definitive legal conclusion not present in the brief's data_points. This is new information not traced to the empty source.",
+     "The bottom_line's instruction to 'Watch for any remaining claims or damages that may still be pending' contradicts the draft's opening claim that the verdict stands 'as final judgment with no further recourse available'\u2014this internal inconsistency signals the writer is uncertain of what the brief actually says, which it doesn't say much of anything."
+    ]
+   },
+   {
+    "id": "c236",
+    "headline": "Justice Department Finalizes Gun Rights Restoration Process for Some Convicted Felons",
+    "category": "accuracy",
+    "reasons": [
+     "The brief's data_points array is empty and open_questions explicitly note 'The source texts are empty; no details are provided.' Yet the draft presents multiple facts as established: 'has finalized a process', 'Attorney General Todd Blanche announced the initiative on Monday', 'allows individuals convicted of certain nonviolent felonies to restore their federal firearm rights.' None of these have sourced data_points to back them.",
+     "The draft names 'Todd Blanche' as Attorney General and attributes an announcement to him on 'Monday' with no date provided. The brief offers no confirmation of Blanche's role, the announcement date, or the finalization status claimed in the opening sentence.",
+     "The three sources in the draft footer appear to be The Hill URLs, but the brief notes source_chars: 0, meaning no actual text was retrieved. The writer is citing sources that did not yield content to verify claims."
+    ]
+   },
+   {
+    "id": "c255",
+    "headline": "14 charged in alleged drug trafficking operation at Penn State University fraternities",
+    "category": "accuracy",
+    "reasons": [
+     "The headline states '14 charged' but the opening body sentence says 'Thirteen current and former Penn State University students have been charged.' The brief's core_claim says 'Fourteen current and former Penn State University students,' and the first data_point says 'Thirteen current and former students.' The draft has introduced a contradiction\u2014headline says 14, body says 13\u2014that is not resolved in the brief (which itself contradicts 14 vs. 13). The writer must pick one sourced number; presenting both unreconciled is accuracy failure.",
+     "The body includes a sentence\u2014'The available reporting does not provide details on the specific statutory charges filed against the defendants, individual names, roles within the alleged organization, bail or court status, or statements from the defendants, their attorneys, or the fraternity organizations themselves'\u2014that narrates an absence. Per the instruction, the writer is forbidden from narrating absence, and this sentence restates open_questions in the draft's own voice, which is category accuracy violation (smuggling meta-uncertainty into the fact pattern)."
+    ]
+   }
+  ]
  }
 ]

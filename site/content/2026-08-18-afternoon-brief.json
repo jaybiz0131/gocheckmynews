@@ -1,0 +1,55 @@
+{
+  "id": "wrap-md-2026-08-18",
+  "slug": "afternoon-brief-2026-08-18",
+  "kind": "brief",
+  "title": "The Afternoon Brief: Courts reject Trump on Carroll, FBI move; Disney sues FCC over licenses",
+  "dek": "The Supreme Court declined Trump's second appeal of the $5 million Carroll verdict, finalizing that judgment. A federal judge blocked the Trump administration's plan to scrap the FBI headquarters relocation to Maryland. Disney and ABC sued the FCC over an order requiring early broadcast license renewal, alleging retaliation for editorial content.",
+  "date": "2026-08-18",
+  "published_utc": "2026-08-18T16:08:11Z",
+  "category": "daily edition",
+  "rank": -2,
+  "author": "GoCheckMyNews",
+  "key_fact": "Three separate court decisions today constrained Trump administration actions: the Carroll verdict became final and unreviewable, the FBI relocation reversal was blocked, and Disney won a restraining order fight opening the door to challenge what it calls regulatory retaliation.",
+  "bottom_line": "Three federal courts constrained Trump administration actions today: the Supreme Court made the $5 million Carroll verdict final, a district judge blocked the FBI headquarters relocation reversal, and Disney won an early fight in its challenge to what it alleges is FCC retaliation. The Carroll $83 million appeal and the Disney restraining order decision will signal how courts view presidential immunity and regulatory retaliation claims in coming weeks.",
+  "human_take": "",
+  "body": [
+    "The day brought a cluster of judicial checks on Trump administration moves across the federal courts. The Supreme Court declined without explanation to reconsider its June rejection of Trump's appeal of the $5 million E. Jean Carroll verdict, closing what the desk reported this summer as his final legal avenue in that case. Trump has already paid the judgment plus interest, bringing the total to $5.62 million. A separate $83 million defamation verdict from a second Carroll trial remains in the appeals process, with Trump's presidential immunity argument still pending before the Supreme Court.",
+    "In a separate ruling, U.S. District Judge Theodore D. Chuang blocked the Trump administration's reversal of the FBI headquarters relocation to Maryland, finding the reversal was not in accordance with law. The judge's order prevents the administration from moving the FBI to the Ronald Reagan Building in Washington, renovating it for that purpose, or repurposing funds allocated to the Maryland project, according to the desk's reporting. The decision leaves open whether the administration will appeal.",
+    "Meanwhile, Disney and ABC filed suit in federal court on August 18 against the Federal Communications Commission, seeking to block what they characterize as retaliation for broadcast editorial decisions. The lawsuit challenges an FCC order requiring eight Disney-owned ABC television stations to file broadcast license renewal applications years ahead of schedule, with only thirty days to prepare filings that ordinarily take months. The licenses were not due for renewal until 2028 at the earliest. Disney's legal team, including attorneys Beth Wilkinson and Paul Clement, called the order \"unprecedented.\" The FCC has disputed the retaliation claim, citing ongoing investigations into Disney's diversity practices and compliance issues with \"The View\" program.",
+    "Beyond the courts, the day also brought updates on investigations and responses to natural disaster. Federal Immigration and Customs Enforcement agents defended in court filings their investigation of David Streever, a New York man who sent an email criticizing ICE's former acting director. The DHS characterized the investigation and warning notice as lawful preventative action, though Streever has sued arguing the government violated his First Amendment rights. A federal judge will weigh whether warning notices and in-person confrontations about protected speech violate the First Amendment. In Virginia, court documents revealed that Camron Harris, 19, the alleged suspect in a Virginia State University shooting that wounded five people on Saturday, sent Instagram messages discussing acquiring a firearm and carrying out the attack in real time. In Indonesia, rescue operations continued following a 7.7-magnitude earthquake on August 16 that killed at least 53 people and triggered nearly 1,000 aftershocks, with about 5,000 displaced."
+  ],
+  "sources": [
+    {
+      "title": "DHS defends investigating critic and issuing warning notice",
+      "url": "/articles/dhs-defends-investigating-critic-and-issuing-warning-notice.html"
+    },
+    {
+      "title": "Nearly 1,000 aftershocks followed Indonesia earthquake that killed at least 53",
+      "url": "/articles/nearly-1-000-aftershocks-followed-indonesia-earthquake-that-killed-at-least-53.html"
+    },
+    {
+      "title": "Supreme Court declines Trump's second appeal in E. Jean Carroll case; $5M verdict stands",
+      "url": "/articles/supreme-court-declines-trump-s-second-appeal-in-e-jean-carroll-case-5m-verdict-stands.html"
+    },
+    {
+      "title": "Supreme Court declines Trump's second appeal in E. Jean Carroll sexual abuse case",
+      "url": "/articles/supreme-court-declines-trump-s-second-appeal-in-e-jean-carroll-sexual-abuse-case.html"
+    },
+    {
+      "title": "VSU shooting suspect sent Instagram messages about acquiring and using firearm",
+      "url": "/articles/vsu-shooting-suspect-sent-instagram-messages-about-acquiring-and-using-firearm.html"
+    },
+    {
+      "title": "Disney and ABC sue FCC, alleging retaliatory campaign over broadcast content",
+      "url": "/articles/disney-and-abc-sue-fcc-alleging-retaliatory-campaign-over-broadcast-content.html"
+    },
+    {
+      "title": "Supreme Court declines Trump's second appeal in Carroll defamation case",
+      "url": "/articles/supreme-court-declines-trump-s-second-appeal-in-carroll-defamation-case.html"
+    },
+    {
+      "title": "Trump administration can't scrap plan to move FBI headquarters to Md., judge rules",
+      "url": "/articles/trump-administration-can-t-scrap-plan-to-move-fbi-headquarters-to-md-judge-rules.html"
+    }
+  ]
+}
