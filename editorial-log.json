@@ -8422,5 +8422,57 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-19",
+  "approved": 3,
+  "rejected": [
+   {
+    "id": "c068",
+    "headline": "U.S. National Debt Exceeds $40 Trillion for First Time",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states the debt 'crossed $40 trillion for the first time in history on August 17, 2026, according to the Treasury Department report released the following day.' The brief's core_claim and data_point indicate the Treasury Department reported on August 18 (Wednesday) that the crossing occurred on August 17 (the day before), not that the crossing occurred on August 17 with a report 'the following day' (which would be August 18). The phrasing is awkward and potentially inaccurate about the timing of the event versus the report.",
+     "The draft claims 'Leading economists warn that the United States is facing a fiscal reckoning, though the sourced reporting does not specify what form that reckoning might take or when it might materialize.' This sentence narrates absence (restating an open_question: 'The specific economist warnings and fiscal impact details are referenced in the snippet but not fully present in the fetched source texts'). Per instructions, the writer is forbidden from narrating absence, and this violates that rule."
+    ]
+   },
+   {
+    "id": "c113",
+    "headline": "Republican Dan Sullivan and Democrat Mary Peltola Advance to Alaska Senate General Election",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'She lost her reelection bid for Alaska's sole House seat the following cycle by less than 3 percentage points.' The brief data_point says 'Peltola won a full term in 2022 but then lost re-election in 2024 by 3 percentage points,' and another states 'Peltola fell short by less than 3 points in the 2024 race.' These two data_points in the brief contradict each other (one says 'by 3 percentage points,' the other says 'by less than 3 points'). The draft's use of 'less than 3 percentage points' aligns with one data_point but conflicts with the other; this conflicting sourcing within the brief itself creates an accuracy problem the draft cannot resolve by picking one version.",
+     "The draft states the race 'will unfold under Alaska's unique ranked-choice voting system after the state's top-four primary format.' The brief supports this, but the phrasing could be clearer; however, the more significant issue is that the brief's open_questions section notes: 'Whether Dan J. Sullivan will be among the final two candidates advancing to the general election remains undetermined as of the primary announcement.' The draft presents the general election as a head-to-head between Sullivan and Peltola without acknowledging this uncertainty, implying both have already advanced to the general when the brief indicates only the primary results are in and Dan J. Sullivan's status for the general is still open."
+    ]
+   },
+   {
+    "id": "c170",
+    "headline": "Trump delays 50% Canadian tariffs for three days after last-minute deal",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Canadian Prime Minister Mark Carney' but the brief does not identify who Canada's Prime Minister is. This is a factual claim about identity that cannot be verified from the brief's data_points, which only quote Carney by name without establishing his title in the source material itself. The writer has added information not contained in the research.",
+     "The draft includes a data_point about midterm election risk ('The Trump administration would be taking a risk by imposing a hefty new tariff ahead of November's midterm elections, as U.S. voters are already frustrated with the high cost of living') from the brief, but this claim is entirely absent from the draft body. The brief includes it as a reported data_point, but the draft fails to incorporate it, creating an asymmetry that suggests the writer made a selection judgment about what to include\u2014a legitimate choice, but the absence of any counter-balancing discussion of political timing weakens the story's completeness given the brief's inclusion of this angle."
+    ]
+   },
+   {
+    "id": "c079",
+    "headline": "Trump nominates White House physician Overton as FDA Commissioner",
+    "category": "accuracy",
+    "reasons": [
+     "The draft refers to 'a physician and deputy assistant to the president for domestic policy at the White House' but the brief's core_claim identifies her as 'a White House physician and abortion opponent.' The draft omits the 'abortion opponent' descriptor that appears in the brief's core_claim and angle, which is central to the story's framing. The brief's angle explicitly states she 'advocated for strict congressional regulation of the abortion drug mifepristone,' but no data_point in the brief contains this claim, and the draft does not mention it. The angle references her abortion advocacy, but this is not backed by any of the data_points provided\u2014this is a gap between brief and draft that suggests either the brief is incomplete or the writer is working from external knowledge.",
+     "The draft states 'Health and Human Services Secretary Robert F. Kennedy Jr. said Overton is \"ALWAYS RIGHT\"' but the brief's data_point says 'Secretary Kennedy said \"Heidi is ALWAYS RIGHT\"'\u2014these are meaningfully different statements. The draft's phrasing could be read as Kennedy endorsing her judgment generally; the brief's version ties the statement to her presence in the Oval Office. This is a subtle but material paraphrase error that changes the conditional context.",
+     "The last data_point in the brief is marked 'unconfirmed' confidence level: 'A source familiar with the matter told CBS News that Makary was leaving over the internal debate regarding flavored e-cigarettes...' The draft presents this as: 'A source familiar with the matter told CBS News that Makary was leaving over an internal debate regarding flavored e-cigarettes, saying he did not want to approve the flavored varieties but had been forced to by other members of the administration.' This unconfirmed claim is presented without any hedge ('reportedly,' 'according to sources,' or confidence language), violating the rule that confidence labels must survive in prose."
+    ]
+   },
+   {
+    "id": "c118",
+    "headline": "Treasury increases debt buyback as bond yields spike",
+    "category": "accuracy",
+    "reasons": [
+     "The opening sentence claims 'The US Treasury doubled its buyback program for government debt' but this core claim does not appear in any data_point in the brief. The brief lists four data_points: interest rates, expected rate behavior, 20-year yield highs, and Fed division on inflation. The doubling of the buyback program itself is not a sourced fact in the brief and therefore is smuggled into the draft.",
+     "The draft presents 'doubled its buyback program' and 'Treasury doubled its buyback of government debt' as established fact, but the brief's core_claim marks this as unverified narrative context, not a confirmed data point. The writer cannot assert the doubling as fact when it does not appear as a verified data_point in the research."
+    ]
+   }
+  ]
  }
 ]
