@@ -266,17 +266,11 @@
         "max_items": 15,
         "url": "https://feeds.npr.org/1003/rss.xml",
         "note": "Fix 1: dedicated US-domestic lane (the homepage feed skews politics/world). Verification run 2026-08-03: its lead item was the Washington wildfires story."
-      },
-      {
-        "name": "FEMA news",
-        "tier": "primary",
-        "max_items": 10,
-        "url": "https://www.fema.gov/feeds/news.rss",
-        "note": "Fix 1 revisit (owner note 3, 2026-08-03): the 403 was my probe's UA, not the wall; the desk's own fetch helper clears it (verified, 40KB). Joins the domestic-disaster lane."
       }
     ],
     "keywords_note": "Optional per-feed 'keywords' gate: high-volume feeds keep only items matching a keyword in headline+snippet, so they cannot flood the editor. Items matching a 'narratives' watchlist entry always pass the gate. The news desk currently runs ungated; the editor's ranking plus the balance spread is the filter. Add gates if any single feed starts flooding intake.",
-    "max_items_per_feed": 40
+    "max_items_per_feed": 40,
+    "fema_note": "FEMA news RSS RETIRED 2026-08-19: it answered 403 on every run, not intermittently, so it was pure log noise and zero intake. Severe-weather and disaster coverage continues through the wire and official feeds already configured plus the Severe weather narrative watchlist. Federal Register's 503s are genuinely intermittent and it stays."
   },
   "narratives": {
     "note": "The desk's ongoing-storyline watchlist, maintained by the editor-in-chief. A cluster whose headline/snippet matches any keyword gets tagged with the narrative's name in items.json, the editor treats a genuine development in a tagged narrative as presumptively rank-worthy, and watchlist matches always pass a feed's keyword gate. Seeded for July 2026; add narratives as they emerge, retire them when they resolve.",
