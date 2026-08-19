@@ -8314,5 +8314,56 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-19",
+  "approved": 3,
+  "rejected": [
+   {
+    "id": "c261",
+    "headline": "Moody and Nixon advance to Florida Senate general election",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states Moody 'defeated a handful of lesser-known Republicans to secure the GOP nomination' but the brief data_point says 'Moody defeated a handful of lesser-known Republicans to secure the GOP nomination.' However, the draft also names specific opponents\u2014'Army veteran Chris Gleason, physician Neelam Perry and minister Ernie Rivera'\u2014which matches the brief's data_point listing those same names. This is consistent and traceable.",
+     "The draft claims 'Moody secured the nomination billing herself as a fifth-generation Floridian with a track record of backing law enforcement and fighting for safer communities.' This statement appears in the brief as a data_point but is NOT substantively covered in the draft's body\u2014it is mentioned only in the context of her securing the nomination. However, re-reading the draft, this claim does not appear in the body text at all, only 'Moody defeated a handful of lesser-known Republicans' and biographical details. The brief data_point 15 about how 'Moody secured the nomination billing herself...' is sourced but never used in the draft prose. This is not smuggling (the writer is allowed to omit data points) unless it creates a false impression. The draft does not appear to misrepresent Moody's messaging.",
+     "The draft's bottom_line states 'Nixon faces an uphill challenge against an incumbent backed by Trump in a state that has voted Republican in federal races for over a decade.' The brief does not contain a data_point stating the timeframe 'over a decade.' The brief says 'Florida last elected a Democrat to the Senate in 2012,' which is 14 years ago as of 2026, supporting 'over a decade,' but also says the state 'has become increasingly red in recent years.' The phrase 'over a decade' is a reasonable inference but is not explicitly stated as a fact in the brief's data_points. However, the core_claim and data_points do support this characterization indirectly. This is defensible.",
+     "Critical issue: The draft's bottom_line reads 'Nixon faces an uphill challenge against an incumbent backed by Trump in a state that has voted Republican in federal races for over a decade. The November result will test whether her grassroots appeal and progressive platform can overcome Republican dominance in Florida.' This language\u2014'test whether her grassroots appeal and progressive platform can overcome'\u2014reads as a forward-looking projection that subtly endorses the test of her viability. While not explicit advocacy, the phrasing 'will test whether' imports uncertainty and positions the reader to watch for confirmation of her ability to overcome dominance. The framing is proportionate to the evidence (she is a long-shot per the brief), but the language edges toward suggestive rather than neutral reportage. On review, this is a borderline case but does not rise to clear compliance failure; the draft is reporting the matchup fairly."
+    ]
+   },
+   {
+    "id": "c277",
+    "headline": "Hageman wins Wyoming Republican Senate primary with Trump endorsement",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states in the bottom_line: 'Hageman advances to a general election in a state where Republicans have governed the Senate seat for more than 60 years and where Trump's vote share matched Hageman's House performance, making a Republican victory in November highly probable.' The phrase 'making a Republican victory in November highly probable' is a prediction or projection of outcome presented as a near-certainty. The brief does not contain a data_point or projection stating that a Republican victory is 'highly probable.' The brief merely notes the state is 'deep-red' and has not elected a Democrat since 1962. The draft is smuggling in a predictive judgment ('highly probable') that is not in the research brief. This is category 'accuracy' because it violates the rule that no fact/claim exists outside the brief.",
+     "The bottom_line also uses language\u2014'making a Republican victory in November highly probable'\u2014that reads as the desk's own verdict on likelihood rather than an open question. This also risks 'compliance' violation if read as a projection or implicit advice to voters about expected outcomes. The brief's angle says 'setting up an expected GOP general election victory,' which is cautious ('expected' vs. 'highly probable'), and the writer has amplified certainty beyond what the brief supports."
+    ]
+   },
+   {
+    "id": "c258",
+    "headline": "Former NIAID adviser pleads guilty to concealing COVID-19 research records",
+    "category": "balance",
+    "reasons": [
+     "The brief's bear_case contains Morens' congressional testimony denying he attempted to evade transparency laws, which directly contradicts the guilty plea. This counter-position appears only as a single sentence mid-draft ('In congressional testimony, Morens denied attempting to evade federal transparency laws by using his personal email, a position contradicted by the guilty plea') rather than as substantive counter-evidence. The phrasing 'a position contradicted by the guilty plea' reads as the desk's own verdict rather than presenting both sides without adoption of either voice. The bear_case should be reflected with genuine balance, not as a claim already ruled against by the draft's framing."
+    ]
+   },
+   {
+    "id": "c007",
+    "headline": "Congo Ebola outbreak reaches 5,021 cases at record transmission speed",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states the outbreak 'has spread about three times faster than the 2014 to 2016 West African Ebola outbreak' based on a brief data_point claiming 'about three times faster.' However, the draft also opens with 'spreading at a pace faster than any previous Ebola epidemic in recorded history' and the bottom_line refers to 'record transmission speed' as if this is measured in absolute historical terms. The brief's data_point is comparative (vs. West Africa 2014-2016 only), not a claim about all recorded history. The draft conflates a comparison to one prior outbreak with a historical record claim, which overstates the sourced evidence."
+    ]
+   },
+   {
+    "id": "c065",
+    "headline": "Federal judge blocks Trump administration from relocating FBI headquarters to Washington",
+    "category": "accuracy",
+    "reasons": [
+     "The draft cites PBS NewsHour as the source but provides no factual specificity: no judge name, no court, no date of ruling, no Trump administration proposal details, no Maryland-to-Washington location confirmation. The brief is explicitly absent. Without a research brief to anchor facts, the draft must trace every claim to its cited source URL; the source URL is provided but the draft contains no verifiable details (judge identity, court, ruling date, specific proposal) that would allow a reader or editor to verify the claim against the source. This is a minimal stub that cannot be checked for accuracy.",
+     "The opening sentence ('A federal judge has blocked the Trump administration's effort to move the FBI headquarters from Maryland to a Washington office building') is presented as fact but the draft itself admits 'No additional details about the judge's reasoning, the specific relief granted, or the affected parties' plans to appeal are available from the reporting on file'\u2014a sentence that narrates absence and violates the no-narration-of-absence rule. If details are not on file, they should not be narrated; the story should either provide them or be rejected."
+    ]
+   }
+  ]
  }
 ]
