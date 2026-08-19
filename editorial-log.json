@@ -8365,5 +8365,62 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-19",
+  "approved": 1,
+  "rejected": [
+   {
+    "id": "c086",
+    "headline": "Republican Dan Sullivan and Democrat Mary Peltola advance to Alaska Senate general election; federal investigation underway into same-named candidate",
+    "category": "accuracy",
+    "reasons": [
+     "The phrase 'Senator Sullivan and his GOP allies have argued the second Sullivan is a Democratic plant' presents the allegation as settled fact without the alleged/accused framing required by the brief's confidence label 'reported' on an ongoing investigation. The data point on the grand jury subpoenas is marked 'unconfirmed' in the brief, but the draft states 'a grand jury issued subpoenas last week' as settled fact rather than preserving the unconfirmed status. The criminality framing ('conspiracy to confuse voters') must carry the unconfirmed hedge from the brief.",
+     "The sentence 'State and federal prosecutors are investigating whether Dan J. Sullivan's candidacy is part of a conspiracy to confuse voters' presents an ongoing investigation as established fact without preserving the 'unconfirmed' confidence label. The draft should signal this is alleged/under investigation, not reported as true."
+    ]
+   },
+   {
+    "id": "c112",
+    "headline": "Angie Nixon projected winner of Florida Democratic Senate primary",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Both progressives and establishment Democrats celebrated the result, per The Guardian' but the brief's data point only claims 'Progressives and establishment Democrats both celebrated Nixon's win' (reported confidence). The draft presents this as established fact from The Guardian when the brief itself notes the source texts are 'heavily truncated' and 'contain primarily navigation/CSS markup rather than article body text.' This is a fact asserted without viable source verification: the brief explicitly flags that 'No quotes from Nixon, Vindman, party officials, or Democratic strategists analyzing the upset appear in the available source text,' making the celebration claim unverifiable from the provided sources.",
+     "The brief's open_questions section states the sources 'do not provide demographic breakdowns of primary voters or analysis of why Nixon won,' yet the draft frames the outcome as 'what news outlets characterize as a major upset' and 'defies the early expectation that the establishment-backed Vindman would prevail.' These framing assertions rely on analysis that the brief itself could not extract from the available source texts, violating the rule that no fact exists outside the brief."
+    ]
+   },
+   {
+    "id": "c009",
+    "headline": "Trump delays 50% tariffs on Canadian imports after last-minute deal announcement",
+    "category": "accuracy",
+    "reasons": [
+     "The draft contains multiple claims not present in the brief's data_points: Trump's motivation to bring manufacturing back to the U.S. (mentioned in brief but omitted from draft), Trump's inflammatory comments about making Canada the 51st state (data_point 18, not in draft), Trump's 2025 tariff declaration as a national emergency (data_point 19, not in draft), Supreme Court February ruling striking down those tariffs (data_point 20, not in draft), and Smoot-Hawley comparison (data_point 22, not in draft). However, the draft DOES include material not in the brief: the claim that the tariffs would 'have been paid by U.S. importers, who could try to pass the cost along to consumers through higher prices' appears in the draft but the data_point (12) only says tariffs 'would have been paid by U.S. importers' without the speculative 'try to pass along' language. More critically, the draft states 'U.S. voters are already frustrated with the high cost of living' as a standalone assertion attributable to NPR (data_point 13), but this is presented without any connection to the tariff story itself\u2014it reads as editorial context rather than reported fact tied to the negotiation. The sentence 'The threat of Section 338 tariffs gives the United States leverage to seek fresh concessions from Ottawa' (data_point 26) is analyst interpretation labeled as fact without attribution to a named source in the draft."
+    ]
+   },
+   {
+    "id": "c018",
+    "headline": "Israel opens criminal investigation into deaths of Hind Rajab and Gaza medical workers",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The story of Hind Rajab was made into an Oscar-nominated film called The Voice of Hind Rajab' without any caveat or attribution to the film's current status. The brief data_point (9) says exactly the same, but does not specify whether the nomination is past or pending. The draft presents this as settled historical fact, yet an Oscar nomination's status (whether the film was nominated, is eligible, or has already competed) is time-sensitive. Without date clarity from the brief, the draft risks stating a nomination that may not yet have occurred or may be incorrectly characterized. This is a factual claim that should have been attributed to a named source or dated in the draft, not presented as background. Additionally, the draft refers to 'World Central Kitchen employees in Deir al-Balah two years ago' but the brief data_point (16) does not specify 'two years ago'\u2014it only says 'two years ago' in the draft's own prose, not the brief. The brief does not contain a timestamp for when the WCK killing occurred relative to the August 2026 present, so the temporal reference '2024' or 'two years ago' is not sourced to the brief."
+    ]
+   },
+   {
+    "id": "c077",
+    "headline": "Judge blocks Trump administration from relocating FBI headquarters",
+    "category": "accuracy",
+    "reasons": [
+     "No brief exists for this story. The draft cites PBS NewsHour as the source for the claim that 'A federal judge blocked the Trump administration from moving the FBI headquarters out of its Maryland location to a Washington, D.C. office building.' Without a research brief containing data_points, the hard rule that 'no fact exists outside the brief' cannot be evaluated. The approval process requires tracing every fact in the draft to a data_point in the brief. Because there is no brief, the draft cannot be approved under the stated verification protocol. The draft is also extremely thin (one sentence of substantive reporting) with no attribution details (judge's name, date of ruling, reasoning, case citation), which would normally require a more detailed brief to support. This draft fails the core requirement of the approval process: it has no research brief to trace facts against."
+    ]
+   },
+   {
+    "id": "c114",
+    "headline": "Justice Department defends prosecution of ex-FBI chief over seashell post",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The open questions surrounding the case include the specific statutory charge (threat statutes typically require communication of intent to injure or harm), what the DOJ argues the arrangement specifically refers to or threatens, and what Comey's defense to the prosecution claims.' This violates the hard rule: facts go back to research only. The clause about what threat statutes 'typically require' is the writer's own legal interpretation, not in the brief. The entire paragraph beginning 'The open questions...' narrates absence and restates open_questions as though they are facts the desk has verified, which is prohibited.",
+     "The draft presents the seashell arrangement as '8647' without confirmation that this is what the Guardian reported. The brief data_point says the post featured seashells 'arranged to read \"8647\"' but the draft's phrasing 'spelling \"8647\"' treats interpretation as settled fact rather than reported claim."
+    ]
+   }
+  ]
  }
 ]
