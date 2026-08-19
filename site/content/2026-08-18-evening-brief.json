@@ -1,0 +1,61 @@
+{
+  "id": "wrap-pm-2026-08-18",
+  "slug": "evening-brief-2026-08-18",
+  "kind": "brief",
+  "title": "The Evening Brief: Courts block Trump on Carroll, FBI, and broadcast licenses",
+  "dek": "Federal courts constrained the Trump administration on three fronts today: the Supreme Court finalized a $5 million judgment against Trump in the Carroll case, a judge blocked the administration's plan to scrap the FBI headquarters move to Maryland, and Disney won an early round in its lawsuit alleging FCC retaliation over broadcast licenses. Meanwhile, a separate federal case tests whether ICE can investigate citizens for protected speech.",
+  "date": "2026-08-18",
+  "published_utc": "2026-08-18T23:00:52Z",
+  "category": "daily edition",
+  "rank": -3,
+  "author": "GoCheckMyNews",
+  "key_fact": "Three separate judicial decisions froze Trump administration actions on personnel litigation, infrastructure, and media regulation, while a First Amendment case advances that challenges whether law enforcement can use investigative visits as a warning tool for criticism of officials.",
+  "bottom_line": "Federal courts today froze three Trump administration actions, the Carroll judgment is final, the FBI headquarters move to Maryland is blocked, and Disney's FCC challenge advances, while a separate case prepares to test whether ICE can use investigative visits as a preventative tool against protected speech. The Supreme Court's silence on the $83 million Carroll appeal and the Disney restraining order decision will signal how courts view presidential immunity and regulatory retaliation claims in coming weeks. Watch for the administration's response to the FBI ruling, whether it appeals, and the pace of the Disney case toward a temporary restraining order decision.",
+  "human_take": "",
+  "body": [
+    "The evening brought four distinct legal challenges to executive and regulatory actions, with courts blocking or questioning government power in ways that will shape the coming months.",
+    "The Supreme Court declined for a second time to hear Trump's appeal of a $5 million jury verdict awarded to E. Jean Carroll for sexual abuse and defamation. Trump has already paid the full amount plus interest, totaling $5.62 million as of this summer. The Court almost never grants reconsideration requests, and this rejection closes Trump's legal avenue in that case. A separate $83 million verdict from a 2024 trial remains in the appeals process, with Trump's presidential immunity claim pending before the Court.",
+    "A federal judge blocked the Trump administration from relocating the FBI headquarters from the planned Greenbelt, Maryland site to the Ronald Reagan Building in Washington. U.S. District Judge Theodore D. Chuang ruled that the administration's reversal of the Biden-era decision was not in accordance with law, preventing the administration from repurposing the funds Congress allocated for the Maryland project. Maryland and Prince George's County had committed more than a decade of work and hundreds of millions of dollars to secure the headquarters.",
+    "Disney and ABC filed suit on August 18 against the Federal Communications Commission, challenging an order requiring eight Disney-owned ABC television stations to file broadcast license renewal applications years ahead of schedule. Disney's legal team, which includes attorneys Beth Wilkinson and Paul Clement, called the directive unprecedented. The licenses were not due for renewal until 2028 at the earliest. Disney argues the FCC order is government retaliation for the network's editorial decisions; the FCC disputes this, citing ongoing investigations into Disney's diversity practices and The View program's compliance with public interest standards. The case raises core First Amendment questions about regulatory pressure on press freedom.",
+    "In a separate First Amendment matter, federal Immigration and Customs Enforcement agents tracked David Streever, a Rochester, New York man, to his home, an airport, and a hotel to question him about an email he sent in January criticizing ICE's former acting director Todd Lyons. ICE left Streever with a warning notice citing federal law against threatening officials. Streever has sued, arguing the government violated his First Amendment rights. The Department of Homeland Security is defending the investigation in court filings as lawful preventative action. A federal judge will weigh whether warning notices and in-person confrontations about acknowledged protected speech violate the First Amendment, even if motivated by legitimate safety concerns.",
+    "The day's pattern reflects courts testing the boundaries of executive authority: whether presidents can be held financially liable for pre-office conduct, whether administrations can reverse infrastructure decisions, whether regulators can order expedited compliance as a tool of pressure, and whether law enforcement can investigate citizens for protected criticism of officials."
+  ],
+  "sources": [
+    {
+      "title": "DHS defends investigating critic and issuing warning notice",
+      "url": "/articles/dhs-defends-investigating-critic-and-issuing-warning-notice.html"
+    },
+    {
+      "title": "Supreme Court declines Trump's second appeal in E. Jean Carroll case; $5M verdict stands",
+      "url": "/articles/supreme-court-declines-trump-s-second-appeal-in-e-jean-carroll-case-5m-verdict-stands.html"
+    },
+    {
+      "title": "Supreme Court declines Trump's second appeal in E. Jean Carroll sexual abuse case",
+      "url": "/articles/supreme-court-declines-trump-s-second-appeal-in-e-jean-carroll-sexual-abuse-case.html"
+    },
+    {
+      "title": "VSU shooting suspect sent Instagram messages about acquiring and using firearm",
+      "url": "/articles/vsu-shooting-suspect-sent-instagram-messages-about-acquiring-and-using-firearm.html"
+    },
+    {
+      "title": "Disney and ABC sue FCC, alleging retaliatory campaign over broadcast content",
+      "url": "/articles/disney-and-abc-sue-fcc-alleging-retaliatory-campaign-over-broadcast-content.html"
+    },
+    {
+      "title": "Judge blocks Trump administration from scrapping FBI headquarters move to Maryland",
+      "url": "/articles/judge-blocks-trump-administration-from-scrapping-fbi-headquarters-move-to-maryland.html"
+    },
+    {
+      "title": "Minnesota sues Texas governor to force extradition of ICE agent",
+      "url": "/articles/minnesota-sues-texas-governor-to-force-extradition-of-ice-agent.html"
+    },
+    {
+      "title": "Supreme Court declines Trump's second appeal in Carroll defamation case",
+      "url": "/articles/supreme-court-declines-trump-s-second-appeal-in-carroll-defamation-case.html"
+    },
+    {
+      "title": "Trump administration can't scrap plan to move FBI headquarters to Md., judge rules",
+      "url": "/articles/trump-administration-can-t-scrap-plan-to-move-fbi-headquarters-to-md-judge-rules.html"
+    }
+  ]
+}

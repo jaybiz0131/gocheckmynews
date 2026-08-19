@@ -8221,5 +8221,58 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-18",
+  "approved": 3,
+  "rejected": [
+   {
+    "id": "c024",
+    "headline": "Federal trial opens on Meta child safety and addiction allegations",
+    "category": "accuracy",
+    "reasons": [
+     "The draft attributes an internal Meta research finding to 'BBC News' when the brief shows it should be attributed to NPR. Specifically, the claim 'An internal 2016 email noted the \"overall company goal\" for Instagram is \"teen time spent\" on the platform, according to NPR' is correct in the draft, but earlier claims about internal research (1 in 5 teens, 41 percent, 'addict's narrative', product features language) are attributed to 'BBC News' in the draft while the brief lists BBC as the source\u2014this is consistent and accurate. However, the draft states O'Neill said 'Meta said it put safety over profits, but hid the reality that, time and again, when it came to make a decision, profits won' but this quote is not directly in the data_points; it appears only as an item in the bear_case summary, not as a verified statement. The draft attributes it as a direct O'Neill quote but the brief does not contain this as a data_point with a source.",
+     "The draft quotes O'Neill saying 'It was especially bad for kids' but the brief data_point says 'O'Neill said this design was \"especially bad for kids\"' as paraphrase. The draft presents it as a direct quote in the context of her full statement, but the brief marks only the 'hook-hold-harvest-hide' statement as a full quotation, while the 'especially bad for kids' language appears in the brief as paraphrase within the data_point narrative, not as a verified direct quote."
+    ]
+   },
+   {
+    "id": "c055",
+    "headline": "Trump Administration Sanctions ICC President and Senior Prosecutor",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Neither the United States nor Israel are members of the ICC' but the brief does not contain this claim in its data_points. This is a factual assertion introduced without source support in the brief.",
+     "The draft includes 'the state of Palestine became a member of the ICC in 2015' but this claim does not appear in the brief's data_points and violates the hard rule that no fact exists outside the brief.",
+     "The draft states the ICC 'has opened investigations into alleged Israeli war crimes in Gaza and alleged American actions in Afghanistan' but the brief's relevant data_point says investigations were opened 'into US personnel in Afghanistan and for warrants the court issued against top Israeli officials...for alleged war crimes in Gaza'\u2014the draft's phrasing misrepresents what the brief states about the scope and nature of the investigations."
+    ]
+   },
+   {
+    "id": "c001",
+    "headline": "New York Man Charged with Federal Hate Crimes for Attack at Manhattan Synagogue",
+    "category": "accuracy",
+    "reasons": [
+     "The draft names the synagogue as 'Central Synagogue' but the brief consistently refers to it as 'a synagogue in Manhattan' without naming it. The specific name 'Central Synagogue' does not appear in any data_point and is smuggled information not in the research brief.",
+     "The draft states Montes is 'currently in state custody on $10,000 bail' but the brief data_point says he is 'being held on $10,000 bail following an appearance on a complaint drafted by the Manhattan District Attorney's Office' without specifying current custody status. The draft adds the descriptor 'currently in state custody' which goes beyond what the brief supports.",
+     "The draft includes 'According to ABC News, Montes struck a 63-year-old woman, cutting her lip and bruising her arm' but earlier in the same paragraph attributes similar facts to 'the Justice Department's account.' This creates confusion about sourcing and splits a single incident across two attributed sources where the brief treats it as one claim from ABC News only."
+    ]
+   },
+   {
+    "id": "c119",
+    "headline": "Massachusetts woman sentenced to six years for Capitol firebomb plot against Treasury Secretary",
+    "category": "accuracy",
+    "reasons": [
+     "The draft omits a material data point: the brief identifies English as a 'transgender woman,' but the draft only states she is a '26-year-old Massachusetts woman.' This is a factual descriptor in the source that was available to the writer and is omitted without justification.",
+     "The bottom_line violates the desk rule: it restates open_questions as though they were reported gaps ('remain unreported in available sources'). Per the checker's instructions, a sentence that narrates absence of information is category accuracy\u2014the writer is forbidden from doing this work."
+    ]
+   },
+   {
+    "id": "c117",
+    "headline": "Trump administration announces rescission of 25-year-old Roadless Rule protecting national forests",
+    "category": "accuracy",
+    "reasons": [
+     "The draft describes the Roadless Rule as 'one of the longest-standing environmental protections on federal land' with language that reads interpretive ('represents a reversal'). More critically, this framing\u2014that the rescission is presented as a policy reversion\u2014goes beyond what the brief's data_points support. The brief states the rule 'has protected' for 25 years, but the draft's angle ('conservationists face urgent challenge to block') is editorial in tone and appears in the draft's framing without attribution to any sourced position.",
+     "The bottom_line again violates the accuracy rule by narrating absence: 'the specific agencies involved in the announcement, and the timeline for implementation were not detailed in available reporting.' This restates open_questions as fact-gaps in the desk's voice, forbidden per the checker instructions."
+    ]
+   }
+  ]
  }
 ]
