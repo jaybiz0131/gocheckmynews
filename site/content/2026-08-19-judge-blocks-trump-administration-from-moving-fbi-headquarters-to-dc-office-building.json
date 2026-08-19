@@ -1,0 +1,46 @@
+{
+  "id": "c085",
+  "slug": "judge-blocks-trump-administration-from-moving-fbi-headquarters-to-dc-office-building",
+  "kind": "brief",
+  "title": "Judge blocks Trump administration from moving FBI headquarters to DC office building",
+  "dek": "A federal judge ruled Monday that the Trump administration exceeded its statutory authority by attempting to move FBI headquarters from a Maryland site to the Ronald Reagan Building in Washington. The court found that Congress had previously limited the agency's choice to three specific locations, and the Reagan Building was not among them.",
+  "date": "2026-08-19",
+  "published_utc": "2026-08-19T03:13:05Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 7,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "U.S. District Judge Theodore D. Chuang found the FBI and General Services Administration decisions to select the Reagan Building were 'not in accordance with law' and exceeded their statutory authority.",
+  "bottom_line": "The ruling marks the latest turn in a dispute stretching back more than a decade over replacing the deteriorating J. Edgar Hoover Building. The Trump administration's next step, whether an appeal or a request to Congress to change the law, will determine whether the Greenbelt site moves forward or faces further delay.",
+  "human_take": "",
+  "body": [
+    "A federal judge ruled Monday that the Trump administration cannot move FBI headquarters from Maryland to the Ronald Reagan Building in Washington, finding the decision violated federal law. The ruling preserves a site selection made during the Biden administration and raises the question of how much executive power can override prior congressional direction on major federal infrastructure projects.",
+    "U.S. District Judge Theodore D. Chuang, an appointee of President Barack Obama, found that the FBI and General Services Administration decisions to select the Reagan Building were \"not in accordance with law\" and exceeded their statutory authority, according to Fox News. The court also determined that the FBI's decision to redirect previously appropriated funds toward the move was arbitrary and capricious.",
+    "In 2023, the GSA selected a site in Greenbelt, Maryland, after Congress directed the agency to choose among three previously identified locations: Greenbelt and Landover in Maryland, or Springfield, Virginia. In July 2025, the FBI and GSA announced they instead planned to relocate headquarters to the Reagan Building, which was not among the three sites Congress had authorized. The court found that congressional site-selection requirements prevented the agencies from unilaterally choosing a different location.",
+    "Judge Chuang noted that the J. Edgar Hoover Building, which has housed FBI headquarters since 1974, is obsolete, cannot accommodate all headquarters staff, and does not meet applicable security standards. The brutalist-style building, with nets surrounding the facility to protect pedestrians from falling debris, has deteriorated over decades. The court said Congress would have to change the law if the administration wants to pursue a different location.",
+    "The suit was brought by the state of Maryland and Prince George's County. According to ABC News, Maryland Attorney General Anthony Brown stated that Maryland and Prince George's County committed more than a decade of work to earn the FBI headquarters and pledged hundreds of millions of dollars. Maryland Governor Wes Moore said: \"Now it is time to stop the games and get to work building the world-class FBI headquarters that our public servants deserve, where it belongs: in Prince George's County, Maryland.\"",
+    "The FBI disputed the ruling in a statement, saying the court \"has chosen to impermissibly intervene for political reasons.\" The agency added that \"this is not the first time courts have tried to undermine the administration in its goal to make government more cost-effective for American taxpayers.\" The FBI also stated that it \"has led the largest reduction in crime in American history under President Trump\" and that attempts to undermine its work \"will not deter us.\""
+  ],
+  "sources": [
+    {
+      "title": "abcnews.com",
+      "url": "https://abcnews.com/Politics/wireStory/judge-blocks-trump-administration-moving-fbi-headquarters-dc-135723932"
+    },
+    {
+      "title": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/politics/judge-blocks-the-trump-administration-from-moving-fbi-headquarters-out-of-maryland-to-dc-office-building"
+    },
+    {
+      "title": "Fox News",
+      "url": "https://www.foxnews.com/politics/federal-judge-blocks-trump-administration-plan-move-fbi-headquarters-reagan-building"
+    }
+  ],
+  "event_utc": "2026-08-18T02:56:08Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-19T03:13:05Z",
+    "sources_cited": 3,
+    "sources_live_checked": 3
+  },
+  "update_of": "judge-blocks-trump-administration-from-scrapping-fbi-headquarters-move-to-maryland"
+}

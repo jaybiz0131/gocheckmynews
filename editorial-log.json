@@ -8274,5 +8274,45 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-19",
+  "approved": 4,
+  "rejected": [
+   {
+    "id": "c025",
+    "headline": "Trump pauses 50% tariffs on Canadian imports for three days",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Canadian Prime Minister Mark Carney' but the brief consistently identifies him as 'Prime Minister Mark Carney' without the Canadian qualifier in most data points. More critically, this appears to be a fictional character in a 2026 scenario\u2014the brief itself does not establish Carney's identity or background, and the name conflicts with real Canadian political figures. The draft treats this as settled fact when it should trace to a data_point that establishes who this person is.",
+     "The draft claims the pause was 'less than two hours before' the tariffs took effect 'at midnight,' but the brief data_point states the announcement came 'less than two hours before a 50% levy on nearly $20bn (C$28bn) of Canadian imports were set to go in place' without specifying 'midnight.' The draft adds temporal specificity not present in the source material."
+    ]
+   },
+   {
+    "id": "c195",
+    "headline": "Democratic socialist Angie Nixon defeats Alex Vindman in Florida Democratic Senate primary",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states Nixon 'brought in less than $1 million, according to Fox News reporting through June 30, while Vindman reported approximately $14.6 million.' The brief data_points show Nixon 'reported roughly $625,000 through the same period (June 30)' per Fox News, but the draft's pairing of '$14.6 million' to Vindman contradicts the brief data_point that states Vindman 'reported approximately $14.6 million in campaign receipts through June 30.' The NBC News data_point says Vindman 'raised more than $16 million' (different figure, different metric). The draft conflates two separate figures without clarifying which source backs which number, creating ambiguity about whether Vindman raised $14.6M or $16M+.",
+     "The draft includes personal background on Vindman ('Jewish immigrant born in Soviet Ukraine') as context for understanding electoral dynamics in Florida's Jewish population. While this fact traces to the brief, the placement and framing at the draft's end\u2014'Vindman is a Jewish immigrant born in Soviet Ukraine'\u2014combined with the earlier passage about Florida's third-largest Jewish population creates an implication that Vindman's ethnicity/religion is being used as a proxy for electability in a community, which reads as identity-based analysis rather than neutral reporting. The brief's open_question explicitly flags 'How does Florida's Jewish population respond to Nixon's stated positions on Israel aid given Florida's third-largest Jewish population?' but the draft does not answer this; instead it presents demographic facts that invite the reader to draw that inference without evidence."
+    ]
+   },
+   {
+    "id": "c280",
+    "headline": "Trump orders U.S.-South Korea military drills cut short, citing North Korea relationship",
+    "category": "balance",
+    "reasons": [
+     "The bear_case in the brief includes a claim about 'Meta's representative said social media addiction does not exist...' which is plainly out of scope for a story about U.S.-South Korea military drills. This contaminated bear_case does not apply to c280 and should not be evaluated against it. However, examining the legitimate bear_case items that do apply: The draft presents Trump's own defense ('not sacrificing...actually making it much safer') and the DoD official statement about 'preserve essential readiness' and 'no degradation to training objectives.' The bottom_line states 'Experts cited by CBS News say the move threatens combined readiness and could weaken the decades-long alliance' but the draft body itself contains no expert analysis or counter-testimony beyond Trump's and the DoD's statements. The CBS News sourcing in the brief includes 'Experts say Trump's move threatens to hurt combined U.S.-South Korean readiness' and 'Experts said North Korean leader Kim Jong Un...won't likely embrace Trump's overture anytime soon unless he's promised bigger concessions,' but neither of these expert perspectives appear in the draft body. The draft reads predominantly from the administration's framing without the countervailing expert skepticism the brief documents."
+    ]
+   },
+   {
+    "id": "c120",
+    "headline": "ABC sues Trump's media regulator over demand for TV license renewals",
+    "category": "accuracy",
+    "reasons": [
+     "The third paragraph states 'The brief does not specify which editorial decisions or coverage prompted the FCC's action, the normal timeline for license renewals, or the administration's stated rationale for accelerating ABC's application schedule.' This is a narration of absence. The writer is forbidden from narrating what the brief or sources do not contain; this sentence violates the rule that no fact exists outside the brief by treating the absence of information as a reportable fact. The paragraph should be removed entirely."
+    ]
+   }
+  ]
  }
 ]
