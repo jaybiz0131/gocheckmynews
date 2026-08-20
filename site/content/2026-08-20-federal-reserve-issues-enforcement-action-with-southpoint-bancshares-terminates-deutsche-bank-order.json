@@ -1,0 +1,45 @@
+{
+  "id": "c000",
+  "slug": "federal-reserve-issues-enforcement-action-with-southpoint-bancshares-terminates-deutsche-bank-order",
+  "kind": "brief",
+  "title": "Federal Reserve issues enforcement action with SouthPoint Bancshares, terminates Deutsche Bank order",
+  "dek": "The Federal Reserve Board on August 20, 2026, issued a Written Agreement enforcement action with SouthPoint Bancshares, Inc. and terminated a Cease and Desist Order against Deutsche Bank AG and related entities that had been in place since April 2017. The Fed also announced prohibitions against two former bank employees for misappropriation of customer funds.",
+  "date": "2026-08-20",
+  "published_utc": "2026-08-20T16:02:46Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 6,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The Federal Reserve issued a Written Agreement with SouthPoint Bancshares and terminated a nine-year Cease and Desist Order against Deutsche Bank AG on August 20, 2026.",
+  "bottom_line": "The new enforcement action signals ongoing supervisory concerns at SouthPoint Bancshares, while the termination of Deutsche Bank's nine-year order marks formal closure of that enforcement chapter. Watch for any subsequent disclosures detailing the specific violations or corrective measures at SouthPoint.",
+  "human_take": "",
+  "body": [
+    "The Federal Reserve Board announced on August 20, 2026, execution of a Written Agreement with SouthPoint Bancshares, Inc., Birmingham, Alabama, dated August 14, 2026, according to the Federal Reserve's official announcement.",
+    "On the same day, the Federal Reserve announced termination of a Cease and Desist Order against Deutsche Bank AG, Frankfurt am Main, Germany; DB USA Corporation, New York; and Deutsche Bank AG New York Branch, New York. The Cease and Desist Order had been in effect since April 20, 2017, and was terminated on August 13, 2026, according to the Federal Reserve.",
+    "The Federal Reserve also announced consent prohibitions against Stephanie R. Kilbert, a former employee of Regions Bank, Birmingham, Alabama, for misappropriation of customer funds, per the Federal Reserve's statement. Consent prohibitions were separately announced against Crystal A. Wykle, a former employee of United Community Bank, Greenville, South Carolina, also for misappropriation of customer funds.",
+    "All announcements were released at 11:00 a.m. EDT on Thursday, August 20, 2026."
+  ],
+  "sources": [
+    {
+      "title": "Federal Reserve",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820b.htm"
+    },
+    {
+      "title": "Federal Reserve",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820a.htm"
+    }
+  ],
+  "event_utc": "2026-08-20T15:00:00Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-20T16:02:46Z",
+    "sources_cited": 2,
+    "sources_live_checked": 2
+  },
+  "also_reported_by": [
+    {
+      "outlet": "Mirage News",
+      "headline": "Fed Acts on SouthPoint, Ends Deutsche Bank Enforcement - Mirage News"
+    }
+  ]
+}

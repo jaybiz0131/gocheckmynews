@@ -8528,5 +8528,44 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-20",
+  "approved": 4,
+  "rejected": [
+   {
+    "id": "c039",
+    "headline": "At least 15 killed in Kyiv as Ukraine grapples with air defence shortages",
+    "category": "accuracy",
+    "reasons": [
+     "The phrase 'Ukraine has relied on American supplies of Patriot interceptor missiles to combat Russian ballistic missiles, but the US has used much of its stockpile during the war with Iran' introduces a new factual claim not present in the brief. The brief data_point states only that 'the US has used much of its stockpile during the war with Iran' as context for Zelensky's claim about Patriot interceptors. The draft transforms this into a causal statement about why interceptors have not been replaced, which goes beyond what the brief supports and reads as analysis rather than reported fact. This is a smuggled inference."
+    ]
+   },
+   {
+    "id": "c052",
+    "headline": "Trump announces new economic measures against Iran after ceasefire expires",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states Trump 'described the campaign as \"economic D-Day\" on Iran' but the brief data_point says Trump 'described the announcement as \"economic D-Day\" on Iran.' The draft changes 'announcement' to 'campaign,' which misstates what Trump called by that name and introduces ambiguity about scope.",
+     "The draft includes the sentence 'Trump recently reportedly threatened to bomb Oman\u2014a US ally\u2014if it \"gets in the way\" of his administration's own talks with Iran,' which appears nowhere in the body of the draft and contradicts the story's claim to provide details on Trump's new announcement. This is mentioned in the brief's open_questions as undated ('when did this occur?') and unverified in the sourced material, yet the draft presents it as established fact without qualification. The brief itself flags this as problematic (no date). The draft should either attribute it explicitly to reported sources with uncertainty markers or exclude it entirely."
+    ]
+   },
+   {
+    "id": "c116",
+    "headline": "Member of online extremist network \"764\" sentenced to 77 years in federal prison",
+    "category": "accuracy",
+    "reasons": [
+     "The draft cites two sources but the second source (Guardian URL) appears in the sources list but is never mentioned or verified in the brief. The brief notes: 'The Guardian's source text is incomplete (truncated HTML); no additional detail or dissenting voice is available from that outlet.' The writer has attributed all facts to CBS News alone, which is correct, but the inclusion of an unverified secondary source in the sources field creates a factual liability: the desk cannot confirm what that second source says. Either remove it or trace facts to it; as written, the draft presents a sourced narrative from one outlet only."
+    ]
+   },
+   {
+    "id": "c078",
+    "headline": "U.S. deports 20 people to Liberia under new bilateral agreement",
+    "category": "accuracy",
+    "reasons": [
+     "The phrase 'Advocates have characterized many of these agreements as secret, though the reporting does not independently verify the secrecy designation or provide official government response to that characterization' is not in the brief. The brief's data_point describes the agreements as 'often-secret' (advocates' characterization), but the draft adds a meta-commentary about verification status that is not sourced to the brief and narrates the absence of independent verification\u2014which violates the rule against narrating absence and goes beyond what the source material carries."
+    ]
+   }
+  ]
  }
 ]

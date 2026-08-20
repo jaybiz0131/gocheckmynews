@@ -1,0 +1,49 @@
+{
+  "id": "wrap-md-2026-08-20",
+  "slug": "afternoon-brief-2026-08-20",
+  "kind": "brief",
+  "title": "The Afternoon Brief: Fed adds bank supervision news to a primary-heavy day",
+  "dek": "The Federal Reserve issued a Written Agreement with SouthPoint Bancshares and closed out a nine-year-old order against Deutsche Bank, while Florida and Alaska's primary results from Tuesday continue to set the terms for November.",
+  "date": "2026-08-20",
+  "published_utc": "2026-08-20T16:09:29Z",
+  "category": "daily edition",
+  "rank": -2,
+  "author": "GoCheckMyNews",
+  "key_fact": "The general election matchups set Tuesday in Florida and Alaska now sit alongside routine but notable Federal Reserve supervisory actions, with no new developments changing the picture on Israel's Hind Rajab investigation since this morning.",
+  "bottom_line": "Tuesday's Florida and Alaska primary results carried into Wednesday as the day's dominant story, setting up a Donalds-Jolly governor's race and a Nixon-Moody Senate race in Florida, alongside a Sullivan-Peltola Alaska Senate contest still shadowed by a federal grand jury investigation into a same-named rival candidate. Israel's confirmation that its military fired on the car carrying five-year-old Hind Rajab, and its announcement of a criminal investigation, remains the day's most significant reversal of an official record. The Federal Reserve added a separate development, executing a Written Agreement with SouthPoint Bancshares dated August 14, 2026, and terminating a Cease and Desist Order against Deutsche Bank AG that had stood since April 2017. The reporting establishes what happened in each case but not the underlying rationale behind the Fed's SouthPoint action. Coming days will test whether Israel's investigation produces charges, whether the Alaska grand jury inquiry affects that race's shape, and what further detail emerges on the SouthPoint enforcement matter.",
+  "human_take": "",
+  "body": [
+    "The day's throughline remains the primary results from Tuesday now cementing themselves into November matchups, with the Federal Reserve adding a separate strand of news on bank supervision. Nothing in today's reporting changes the shape of what the morning brief laid out on Florida, Alaska, or Israel; the additions are the Fed's announcements on SouthPoint Bancshares and Deutsche Bank AG.",
+    "In Florida, Rep. Byron Donalds and former Rep. David Jolly have advanced to the general election to succeed term-limited Gov. Ron DeSantis, Donalds winning the Republican primary and Jolly winning the Democratic primary. Separately, Angie Nixon, a progressive state representative and member of the Democratic Socialists of America, won Florida's Democratic Senate primary on August 18, 2026, defeating Alex Vindman, who had raised more than $16 million for his campaign against Nixon's under $1 million. Nixon will face Republican incumbent Sen. Ashley Moody in November for the remaining two years of Secretary of State Marco Rubio's term. In Alaska, GOP incumbent Dan Sullivan and Democrat Mary Peltola both advanced to the general election, while a federal grand jury issued subpoenas last week to compel information from witnesses related to the campaign of Dan J. Sullivan, a same-named Republican rival candidate, according to a law enforcement official who spoke to NBC News.",
+    "Overseas, the Israeli military confirmed for the first time that it fired on the car carrying five-year-old Palestinian girl Hind Rajab in Gaza in 2024, reversing earlier denials, and announced it will open a criminal investigation into her death and the killings of six relatives, two paramedics, and 15 others in a March 2025 incident. The Hind Rajab Foundation has expressed no confidence in that investigation.",
+    "On the economic side, the Federal Reserve Board announced on August 20, 2026, execution of a Written Agreement with SouthPoint Bancshares, Inc., Birmingham, Alabama, dated August 14, 2026. The same day, the Federal Reserve announced termination of a Cease and Desist Order against Deutsche Bank AG, Frankfurt am Main, Germany; DB USA Corporation, New York; and Deutsche Bank AG New York Branch, New York, an order that had been in effect since April 20, 2017, and was terminated on August 13, 2026. The Fed also released minutes from its Federal Open Market Committee meeting held July 28-29, 2026, published on August 19, 2026 at 2:00 p.m. EDT, three weeks after the policy decision date as is standard practice.",
+    "Why these threads are moving together is largely a matter of calendar: Tuesday's primaries were always going to produce Wednesday matchup stories, and the Fed's supervisory announcements and minutes release followed its own routine publication schedule. The reporting does not say why SouthPoint Bancshares faced a Written Agreement, only that the agreement was executed; specific violations are not detailed in what the Fed has released.",
+    "What to watch in the coming days: the scope and timeline of Israel's criminal investigation into Hind Rajab's death, and whether it produces indictments or trials of individual soldiers; the outcome of the federal grand jury investigation into the Dan J. Sullivan candidacy in Alaska, including whether he is among the two additional seats yet to be determined in that state's top-four primary system; and any further disclosures on the specific violations or corrective measures required of SouthPoint Bancshares under its Written Agreement with the Fed."
+  ],
+  "sources": [
+    {
+      "title": "Donalds and Jolly set for Florida governor general election",
+      "url": "/articles/donalds-and-jolly-set-for-florida-governor-general-election.html"
+    },
+    {
+      "title": "Israel confirms soldiers fired at car carrying Hind Rajab and opens criminal investigation",
+      "url": "/articles/israel-confirms-soldiers-fired-at-car-carrying-hind-rajab-and-opens-criminal-investigation.html"
+    },
+    {
+      "title": "Progressive State Representative Wins Florida Democratic Senate Primary, Faces Republican Incumbent Moody",
+      "url": "/articles/progressive-state-representative-wins-florida-democratic-senate-primary-faces-republican-incumbent-moody.html"
+    },
+    {
+      "title": "Sullivan and Peltola advance in Alaska Senate primary; federal investigation into same-named candidate underway",
+      "url": "/articles/sullivan-and-peltola-advance-in-alaska-senate-primary-federal-investigation-into-same-named-candidate-underway.html"
+    },
+    {
+      "title": "Federal Reserve issues enforcement action with SouthPoint Bancshares, terminates Deutsche Bank order",
+      "url": "/articles/federal-reserve-issues-enforcement-action-with-southpoint-bancshares-terminates-deutsche-bank-order.html"
+    },
+    {
+      "title": "Federal Reserve Releases FOMC Minutes from July Meeting",
+      "url": "/articles/federal-reserve-releases-fomc-minutes-from-july-meeting.html"
+    }
+  ]
+}
