@@ -74,9 +74,32 @@ def bottom_line_lint(text):
     low = (text or "").lower()
     return [pat for pat in BOTTOM_LINE_LINT if re.search(pat, low)]
 
-ADVICE_LINT = [r"\byou should\b", r"\bbuy\b", r"\bsell\b", r"\bgood entry\b",
-               r"\bwill (rally|crash|pump|dump|10x|moon)\b", r"\bguaranteed\b",
-               r"\btime to (buy|sell|enter|exit)\b"]
+# ADVICE IS A CONSTRUCTION, NOT A VERB (owner report 2026-08-20). This belt was cloned
+# from the finance desk, where a bare "buy"/"sell" really is an advice word. Everywhere
+# else they are ordinary reporting vocabulary, and the bare rule kept killing correct
+# editions: three sports editions died on trade-deadline prose, and the 2026-08-20 run
+# lost all three ladder rungs on its own lead, "Barcelona signs Rodri from Manchester
+# City", because clubs buy and sell players. The previous fix bolted exemptions onto the
+# regex (low|high|out|off|side|window|mode, then deadline|trade|roster within 45 chars),
+# which is the tell that the rule itself was wrong for this beat: every exemption papered
+# over one instance and the next sentence found a new way through.
+#
+# What actually creates liability is telling the READER what to do, so that is what these
+# match: second person, imperatives, and urgency. Reporting that someone bought, sold,
+# or is expected to sell stays clean, which is the whole job of this desk.
+ADVICE_LINT = [
+    r"\byou should\b",
+    r"\byour (?:money|portfolio|savings|retirement)\b",
+    r"\bgood entry\b",
+    r"\bwill (rally|crash|pump|dump|10x|moon)\b",
+    # "guaranteed" is ordinary on a general-news beat (guaranteed loans, guaranteed
+    # income, guaranteed contracts), so only the promise-of-return sense is banned
+    r"\bguaranteed\s+(?:returns?|profits?|gains?|income from|win|winner)\b",
+    r"\b(?:buy|sell|invest)\s+(?:now|today|before|while|immediately)\b",
+    r"\btime to (buy|sell|enter|exit|invest)\b",
+    r"\b(?:you|readers|investors)\s+(?:should|ought to|need to)\s+"
+    r"(?:buy|sell|invest|avoid|dump|pile)\b",
+]
 
 
 def gather_stories(hours=36):
