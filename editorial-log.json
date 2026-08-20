@@ -8474,5 +8474,59 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-20",
+  "approved": 2,
+  "rejected": [
+   {
+    "id": "c019",
+    "headline": "Russian Missiles Kill at Least 13 in Kyiv as Air Defenses Falter",
+    "category": "accuracy",
+    "reasons": [
+     "The draft includes two data points not found in the brief: (1) 'Romania's defence ministry said a drone crossed into its territory at the northern border with Ukraine, triggering an air alert siren before crashing into an uninhabited area' and (2) 'The Polish military said it had launched defensive air operations to protect its airspace.' These claims appear in the brief's data_points but were omitted from the draft body. However, the reverse problem exists: the draft includes material about Ukraine targeting Moscow with 600 drones, Ukrainian attacks killing 16 people including a child, Russia shooting down 726 drones, and Wildberries logistics strikes\u2014all sourced to BBC in the brief\u2014but the draft attributes these to 'BBC reporting' without clarifying that these are separate Ukrainian counter-attacks, not part of the Kyiv strike narrative. This creates a reader expectation that these are related to the initial attack when they occur later in the week, conflating timeline.",
+     "The draft states 'Ukraine targeted Moscow with 600 drones over the weekend' but the brief's data_point says 'Ukraine has stepped up its attacks deep inside Russia and targeted the capital Moscow with a wave of 600 drones at the weekend'\u2014the source indicates this is a separate escalatory action, not a direct response to the Kyiv strikes, yet the placement in the draft makes it appear as retaliation narration."
+    ]
+   },
+   {
+    "id": "c013",
+    "headline": "Founder of Evergrande Sentenced to Life in Prison for Fraud",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'In March 2024, Hui was fined $6.5 million and banned from China's capital market for life for his company overstating revenue.' The brief's data_point says 'In March 2024, Hui was fined $6.5m and banned from China's capital market for life for his company overstating its revenue by $78bn.' The draft omits the $78 billion overstating amount, which is a material fact that contextualizes the severity of prior misconduct. This is information loss, not paraphrase.",
+     "The draft claims 'Revenues were overstated by roughly $80 billion over 2019 and 2020' but does not specify this applies to a prior period or the total scope. The brief attributes this to NPR reporting. However, the draft earlier references a $78bn overstatement from the March 2024 fine, creating potential reader confusion about whether these are the same or different figures. The draft should clarify the temporal and scope distinction."
+    ]
+   },
+   {
+    "id": "c115",
+    "headline": "Republican Dan Sullivan and Democrat Mary Peltola advance in Alaska Senate primary",
+    "category": "accuracy",
+    "reasons": [
+     "The brief's bear_case explicitly states: 'The Guardian source text is primarily navigation markup and does not contain substantive reporting on the Alaska race; it was fetched but provides no sourced counter-argument or bear case.' The draft cites Guardian as the source for the core fact that 'Incumbent Republican senator Dan Sullivan and Democrat Mary Peltola advanced to Alaska's general election after the state's August 19, 2026 primary, per Guardian reporting.' This fact cannot be reliably attributed to Guardian per the brief itself.",
+     "The brief lists multiple open_questions including 'What are the specific vote totals or percentages for Senator Dan Sullivan, Mary Peltola, and Daniel J. Sullivan Jr. in the primary?' and 'Did Senator Dan Sullivan or Democratic candidate Mary Peltola issue statements about the race or the same-name candidate challenge?' The draft provides no vote totals, percentages, or statements from the two winners, leaving the core claim of their advancement unsubstantiated by usable source material.",
+     "The draft refers to the second candidate as 'Daniel J. Sullivan Jr.' but the brief's data point uses the nickname 'Dirty Trick' Dan Sullivan in quotation marks from Fox News. The draft omits this nicknamed reference despite it being in the sourced material, and uses only the legal name throughout, which changes the character of the reporting."
+    ]
+   },
+   {
+    "id": "c158",
+    "headline": "Trump announces 'most crushing economic operation ever' against Iran",
+    "category": "accuracy",
+    "reasons": [
+     "The brief is marked 'thin: true' with 'source_chars: 0', indicating the source material provided no actual text content to the researcher. The draft makes factual claims about Trump's statements and the Strait of Hormuz that cannot be verified against a research brief that contains no sourced text. The writer has smuggled facts from sources the desk has not reviewed.",
+     "The brief's open_questions include: 'The sources do not detail the specific economic measures Trump intends to implement as part of the announced operation' and 'The sources do not explain why the Strait of Hormuz has been closed since early March or what prompted the negotiations.' The draft states as fact that 'The Strait of Hormuz...has been effectively closed since early March' without establishing what prompted the closure or its cause, presenting background that the brief marks as unexplained.",
+     "The bottom_line states 'Trump has named an operation but released no details on its specific mechanisms,' yet the draft body reports Trump's Truth Social statements as if they constitute the substance of an announcement. The bottom_line's own caveat (no details released) contradicts the draft's tone of reporting a substantive announcement."
+    ]
+   },
+   {
+    "id": "c189",
+    "headline": "Pennsylvania State Police helicopter and Cessna collide near Carlisle Airport, one killed",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'helicopter pilots' were initially trapped and freed themselves, but the brief and sources refer to helicopter crew/occupants, not 'pilots.' The brief data_point says 'Both helicopter pilots were initially trapped' but the brief's own angle and context indicate these are two state troopers (Cpl. Corman and trooper Mills), not two pilots. The helicopter has one pilot; the draft's language 'both state troopers aboard the helicopter' correctly identifies them later, but the earlier reference to 'helicopter pilots' in the context of the two troopers is inaccurate.",
+     "The draft claims the helicopter was 'conducting routine training near a grassy area adjacent to a runway' but the brief's more precise data_point states it 'was hovering several feet off the ground on a grass area adjacent to a runway.' The draft's language omits the critical detail that it was hovering (implying it was in motion during training) when the brief specifies it was in a stationary hover, which is material to the 'on the ground' vs 'midair collision' ambiguity that the draft itself highlights.",
+     "The draft presents the two state troopers' hospital outcomes as a single narrative ('One trooper could be released... the other remaining overnight') but attributes this to NBC News without noting that this was a prediction/expectation from medical staff at a specific moment in time, not a confirmed outcome. The confidence label in the brief is 'reported,' and the phrasing should reflect that this was an expected timeline, not a settled fact."
+    ]
+   }
+  ]
  }
 ]

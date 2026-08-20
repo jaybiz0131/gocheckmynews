@@ -1,0 +1,50 @@
+{
+  "id": "c000",
+  "slug": "federal-reserve-releases-fomc-minutes-from-july-meeting",
+  "kind": "brief",
+  "title": "Federal Reserve Releases FOMC Minutes from July Meeting",
+  "dek": "The Federal Reserve released minutes from its Federal Open Market Committee meeting held July 28-29, 2026, on August 19, 2026 at 2:00 p.m. EDT. The minutes reflect the committee's policy discussions and economic assessments at the time of the meeting.",
+  "date": "2026-08-20",
+  "published_utc": "2026-08-20T10:05:15Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 4,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The Federal Reserve published FOMC minutes from July 28-29, 2026, three weeks after the policy decision date, as is standard practice for regularly scheduled meetings.",
+  "bottom_line": "The minutes are now available for public review at the Federal Reserve's website and reflect the committee's economic assessments and policy discussions from late July.",
+  "human_take": "",
+  "body": [
+    "The Federal Reserve released minutes from its Federal Open Market Committee meeting held July 28-29, 2026, on August 19, 2026 at 2:00 p.m. EDT. Minutes for regularly scheduled FOMC meetings are generally published three weeks after the policy decision date, according to the Federal Reserve. The descriptions of economic and financial conditions in the minutes are based solely on information available to the Committee at the time of the meeting."
+  ],
+  "sources": [
+    {
+      "title": "Federal Reserve",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260819a.htm"
+    }
+  ],
+  "event_utc": "2026-08-19T18:00:00Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-20T10:05:15Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "also_reported_by": [
+    {
+      "outlet": "Mirage News",
+      "headline": "FOMC Minutes Released: July 28-29, 2026 - Mirage News"
+    },
+    {
+      "outlet": "Yahoo Finance",
+      "headline": "The Federal Reserve Just Released Its August Inflation Forecast, and It Could Put the FOMC on a Collision Course for Its September Meeting - Yahoo Finance"
+    },
+    {
+      "outlet": "The Motley Fool",
+      "headline": "The Federal Reserve Just Released Its August Inflation Forecast, and It Could Put the FOMC on a Collision Course for Its September Meeting - The Motley Fool"
+    },
+    {
+      "outlet": "TradingView",
+      "headline": "Fed Minutes July 8: Will the FOMC Signal a Rate Cut or Another Hike? - TradingView"
+    }
+  ]
+}
