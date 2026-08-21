@@ -8567,5 +8567,64 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-20",
+  "approved": 5,
+  "rejected": [
+   {
+    "id": "c100",
+    "headline": "Democrat Aisha Wahab Wins California Special Election to Fill Swalwell's House Seat",
+    "category": "balance",
+    "reasons": [
+     "The brief's bear_case states: 'No opposing voices or counter-narrative to Wahab's win are present in the source texts. The sources do not provide any statement from Hernandez conceding or contesting the result, nor any criticism of Wahab's Gaza stance from AIPAC or its allies after the loss.' The draft contains no counter-evidence or opposing voice paragraph whatsoever. While the brief notes this absence in bear_case and the writer is forbidden from narrating absence, the framing of the entire story\u2014presenting Wahab's victory as a triumph over AIPAC spending without any response, statement, or perspective from the opposing side or the defeated camp\u2014reads as one-sided. The story adopts a pro-Wahab framing (rare victory, she 'overcame' the spending blitz) without allowing the other side to appear in any form, creating an unbalanced narrative structure."
+    ]
+   },
+   {
+    "id": "c017",
+    "headline": "U.S. Federal Debt Reaches $40 Trillion; Annual Interest Costs Exceed $1 Trillion",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The Treasury Department reported this week that the U.S. federal debt had reached $40 trillion for the first time.' The brief marks this claim as 'announced-not-verified' with confidence label. The draft presents this as a straightforward Treasury Department report without any qualification about the announcement status or confidence level. The writer was required to preserve confidence labels in prose; presenting an 'announced-not-verified' claim as a settled fact ('The Treasury Department reported') is a liability error.",
+     "The draft states 'Just the annual interest on that accumulated debt now exceeds $1 trillion' without qualification. The brief marks this as 'announced-not-verified' confidence. The draft presents this as an established fact rather than an announced figure awaiting independent verification.",
+     "The sentence 'NPR reports the Treasury had taken steps to prop up the Japanese yen so that Japan would not be tempted to sell some of its own U.S. Treasurys' appears unsourced in context and the connection between yen support and Treasury holdings is presented as causal fact when the brief shows only NPR reporting\u2014not official confirmation or verified mechanism."
+    ]
+   },
+   {
+    "id": "c093",
+    "headline": "Treasury Secretary Bessent Pursues Bond Market Intervention",
+    "category": "accuracy",
+    "reasons": [
+     "No brief exists for this story. The hard rule states 'no fact exists outside the brief.' Every factual claim in the draft (Bessent implementing buyback operations, Treasury deploying interventionist tactics, yields remaining elevated, this representing a departure from traditional management) must trace to the cited sources (New York Times, The Hill) or be rejected. The draft provides no hyperlinks that can be verified, and without a brief to anchor facts, the claims cannot be confirmed to originate from the cited sources rather than being drafted without source attribution."
+    ]
+   },
+   {
+    "id": "c095",
+    "headline": "Trump Announces Economic Pressure Campaign Against Iran",
+    "category": "accuracy",
+    "reasons": [
+     "No brief exists for this story. The hard rule states 'no fact exists outside the brief.' The draft contains multiple factual claims that cannot be verified: (1) Trump announced the campaign on social media; (2) he described it as 'economic D-Day'; (3) the statement came 'six months into the ongoing military conflict between the United States and Iran'; (4) he said he would pursue 'the most crushing economic operation ever taken' against Iran; (5) the New York Times reported on the administration's stated intent to intensify economic pressure. Without a research brief, these facts cannot be traced to on-record sources. The claim that conflict has been 'ongoing' for six months is particularly problematic as a factual assertion without brief support."
+    ]
+   },
+   {
+    "id": "c001",
+    "headline": "Federal Reserve issues enforcement action against SouthPoint Bancshares; terminates Deutsche Bank order",
+    "category": "accuracy",
+    "reasons": [
+     "No brief exists for this story. The draft claims 'The Federal Reserve Board issued an enforcement action against SouthPoint Bancshares, Inc. on Wednesday' and 'the Federal Reserve announced the termination of an enforcement action against Deutsche Bank AG' but provides no actual data from the cited Federal Reserve press releases. The draft's own sources are URLs only; without access to those press releases' content, no facts can be verified. The desk rule is absolute: every fact must trace to research. A story with zero source content behind the citations cannot be approved.",
+     "The draft describes enforcement actions in vague terms ('regulatory tool to address compliance deficiencies or governance failures') that are paraphrases of the writer's own understanding, not traced quotes or specific findings from the Fed releases. These are not facts from the sources; they are gloss.",
+     "The bottom_line instructs readers to 'check the full Fed press releases for the specific compliance issues' \u2014 an admission that the draft itself contains no substantive findings, only announcements. This is thin reporting masquerading as coverage and violates the hard rule that facts come from research."
+    ]
+   },
+   {
+    "id": "c018",
+    "headline": "Trump nominates Dr. Heidi Overton as FDA commissioner",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'revived debunked theories linking vaccines to autism' as the desk's own characterization. The brief's data_point says Trump 'dredged up debunked theories linking vaccines to autism' per NPR reporting. The descriptor 'debunked' is NPR's characterization, not independently verified by the desk, and should be attributed to NPR or presented as reported consensus, not asserted as settled fact in the desk's voice.",
+     "The draft presents 'Sharfstein and other public health experts have pointed out there's no science to support giving the measles vaccine in a separate shot' as a clean factual statement, but the brief's confidence label for this claim is 'reported'\u2014meaning it comes through NPR's framing. The language 'there's no science' is stronger and more declarative than appropriate for a reported claim; it should read 'experts say there is no scientific support' or similar, preserving the 'reported' distance."
+    ]
+   }
+  ]
  }
 ]

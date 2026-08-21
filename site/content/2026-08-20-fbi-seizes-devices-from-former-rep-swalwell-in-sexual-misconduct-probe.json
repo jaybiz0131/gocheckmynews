@@ -1,0 +1,71 @@
+{
+  "id": "c084",
+  "slug": "fbi-seizes-devices-from-former-rep-swalwell-in-sexual-misconduct-probe",
+  "kind": "brief",
+  "title": "FBI Seizes Devices From Former Rep. Swalwell in Sexual Misconduct Probe",
+  "dek": "Federal agents executed search warrants on former Democratic Rep. Eric Swalwell's residence and seized an iPhone and MacBook Pro as part of a criminal investigation into sexual misconduct allegations. Swalwell resigned from Congress in April after a House Ethics Committee inquiry into accusations from multiple women. Investigators are examining potential charges under a federal statute making it a crime for officials to deprive individuals of constitutional rights.",
+  "date": "2026-08-20",
+  "published_utc": "2026-08-20T23:55:33Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 4,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "FBI agents seized electronic devices from former Rep. Eric Swalwell during searches executed Saturday at San Francisco International Airport and Sunday at his Washington, D.C. residence, according to a court filing.",
+  "bottom_line": "Swalwell faces potential federal charges related to his conduct while serving in Congress. The investigation remains ongoing, with no announced timeline for charges or further proceedings.",
+  "human_take": "",
+  "body": [
+    "Federal agents have seized electronic devices from former Democratic Rep. Eric Swalwell as part of a criminal investigation into sexual misconduct allegations, according to reporting by CBS News. The action marks an escalation from the congressional ethics review that ended with Swalwell's resignation in April.",
+    "One search warrant was executed Saturday night after Swalwell landed at San Francisco International Airport, while a second targeted his residence in Washington, D.C., and was executed on Sunday, per CBS News. According to a court filing in the Northern District of California, agents seized an iPhone and a MacBook Pro during the searches.",
+    "Investigators are examining potential charges under Section 242 of Title 18, which makes it a crime for a person acting under color of law to willfully deprive someone of constitutional or federally protected rights, according to CBS News. The statute applies to acts done while an official is purporting to act in performance of official duties, even if those acts exceed the bounds of lawful authority.",
+    "Swalwell represented Bay Area districts from 2013 until his resignation. He ended his gubernatorial bid and left Congress in April following allegations of sexual assault and other misconduct from multiple women, according to CBS News reporting. The accusations included rape and unsolicited explicit messages and nude photos.",
+    "The bipartisan House Ethics Committee had launched an investigation into Swalwell; the probe ended with his resignation since the committee has jurisdiction only over current members and staff, per CBS News. Swalwell acknowledged making \"mistakes in judgment\" but said an assault allegation was \"false\" and said he would fight it.",
+    "Separately, on Monday the White House released declassified documents from the FBI's investigation into Swalwell regarding an alleged relationship more than a decade ago with Christine Fang, a suspected Chinese intelligence operative. According to CBS News, the 97-page document set stemmed from that 2015 investigation. Many of those details were already publicly known, and Swalwell was never charged in the matter, per CBS News. FBI Director Kash Patel had been pressing to release the files."
+  ],
+  "sources": [
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/swalwell-fbi-search-warrants-devices-sexual-misconduct-investigation/"
+    },
+    {
+      "title": "The Washington Post",
+      "url": "https://www.washingtonpost.com/national-security/2026/08/20/feds-seize-eric-swalwells-devices-search-home-part-sexual-assault-inquiry/"
+    },
+    {
+      "title": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/politics/ap-report-federal-agents-seize-devices-from-ex-rep-eric-swalwell-in-sexual-misconduct-probe"
+    }
+  ],
+  "event_utc": "2026-08-20T19:51:45Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-20T23:55:33Z",
+    "sources_cited": 3,
+    "sources_live_checked": 2
+  },
+  "also_reported_by": [
+    {
+      "outlet": "CNN",
+      "headline": "FBI raids former Rep. Eric Swalwell\u2019s home, seizes devices in probe tied to sexual assault claims - CNN"
+    },
+    {
+      "outlet": "KCRA",
+      "headline": "FBI raids former Rep. Eric Swalwell\u2019s home, seizes devices in probe tied to sexual assault claims - KCRA"
+    },
+    {
+      "outlet": "NBC News",
+      "headline": "FBI searches former Rep. Eric Swalwell\u2019s home, seizes his electronic devices - NBC News"
+    },
+    {
+      "outlet": "Spectrum News",
+      "headline": "Report: FBI raids former Rep. Eric Swalwell home and seizes devices - Spectrum News"
+    },
+    {
+      "outlet": "ABC7 New York",
+      "headline": "FBI seizes devices from former Rep. Eric Swalwell at San Francisco airport, raids DC home in probe tied to sexual assault claims - ABC7 New York"
+    },
+    {
+      "outlet": "Sacramento Bee",
+      "headline": "FBI stops former Rep. Eric Swalwell at SFO to seize his cellphone, laptop - Sacramento Bee"
+    }
+  ]
+}
