@@ -1,0 +1,51 @@
+{
+  "id": "c012",
+  "slug": "supreme-court-allows-trump-ballroom-construction-to-continue",
+  "kind": "brief",
+  "title": "Supreme Court allows Trump ballroom construction to continue",
+  "dek": "Chief Justice John Roberts issued a temporary administrative stay allowing President Trump's White House ballroom construction to proceed, blocking lower court rulings that would have halted the above-ground portion of the $400 million project. The National Trust for Historic Preservation challenged the project on grounds of presidential authority and aesthetic concerns.",
+  "date": "2026-08-21",
+  "published_utc": "2026-08-21T18:59:09Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 3,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Chief Justice John Roberts issued a temporary stay allowing construction on Trump's $400 million White House ballroom project to continue, overriding lower court orders that would have halted the above-ground work.",
+  "bottom_line": "The stay does not resolve the underlying dispute over the administration's authority to build the ballroom. Watch for the full Supreme Court's decision on whether to hear the case or allow the lower court orders to stand.",
+  "human_take": "",
+  "body": [
+    "Chief Justice John Roberts issued a temporary administrative stay on Friday allowing President Trump's White House ballroom construction to proceed, blocking lower court rulings that would have halted the above-ground portion of the project.",
+    "The National Trust for Historic Preservation brought the legal challenge, arguing that the president lacked authority to proceed with the construction and objecting to the design on aesthetic grounds. A federal judge had ruled in favor of the trust, saying that while underground construction could continue, the ballroom itself could not be built while litigation remained pending. On August 7, the U.S. Court of Appeals for the District of Columbia Circuit upheld that decision, setting a Friday deadline for construction to halt unless the Supreme Court intervened.",
+    "The $400 million, privately funded project is 65 percent complete as of August 14, according to NBC News reporting, with a 250-person crew working 20 hours a day, seven days a week. The plan includes an extensive underground component with secure locations and medical facilities that the administration has argued are vital for security purposes.",
+    "The decision is only provisional, giving the justices more time to consider next steps in the case."
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/politics/supreme-court/supreme-court-trump-white-house-ballroom-rcna592899"
+    },
+    {
+      "title": "The Washington Post",
+      "url": "https://www.washingtonpost.com/politics/2026/08/21/supreme-court-says-trump-can-continue-ballroom-work-it-weighs-case/"
+    },
+    {
+      "title": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/politics/supreme-court-chief-justice-allows-work-on-trumps-400m-white-house-ballroom-to-continue-for-now"
+    },
+    {
+      "title": "Washington Examiner",
+      "url": "https://www.washingtonexaminer.com/news/supreme-court/4694407/supreme-court-temporarily-allows-white-house-ballroom-construction/"
+    },
+    {
+      "title": "NPR",
+      "url": "https://www.npr.org/2026/08/21/nx-s1-5935417/supreme-court-allows-trumps-ballroom-construction-to-continue-for-now"
+    }
+  ],
+  "event_utc": "2026-08-21T18:15:52Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-21T18:59:09Z",
+    "sources_cited": 5,
+    "sources_live_checked": 3
+  }
+}

@@ -8733,5 +8733,45 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-21",
+  "approved": 8,
+  "rejected": [
+   {
+    "id": "c219",
+    "headline": "Pentagon reports 750-plus US service members wounded in Iran conflict",
+    "category": "accuracy",
+    "reasons": [
+     "The brief's open_questions explicitly state: 'The source text provided is largely inaccessible (appears to be HTML markup and styling code rather than article content); the full scope of the Pentagon's casualty report, the breakdown between Operation Epic Fury and Overseas Operations categories, and the specific date range ('late February') for the war's start cannot be verified from the fetched text.' This signals that the core facts in the draft cannot be traced to verified source material. The brief marks this as 'thin: true' with unresolved open questions about whether the 750+ figure includes killed in action or only wounded, and whether the distinction between casualty-tracking categories can be explained. The draft presents these figures as settled fact without any hedging language that reflects the brief's confidence limitations.",
+     "The brief lists three data_points but marks all with 'confidence: reported' rather than 'verified'; the draft presents the 750+ wounded figure, the 50 additional injured, and the Operation Epic Fury/Overseas Operations breakdown as established fact when the brief itself indicates the source material is inaccessible and these claims are unverified."
+    ]
+   },
+   {
+    "id": "c076",
+    "headline": "SNAP enrollment fell over 13% in 12 months, steeper than government projections",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Work requirements and other provisions of President Trump's policies are driving the enrollment loss' but the brief data_point says 'Work requirements and other provisions of President Donald Trump's policies are driving the decline.' The critical issue is that the brief's confidence level on this claim is 'reported'\u2014meaning it is attributed to a source, not verified independently. The draft presents this causation as fact in its own voice without attribution to PBS NewsHour or The Hill. A reader cannot distinguish between desk reporting and source reporting.",
+     "The brief is marked 'boundary_required: true' and 'boundary_ok: false' with the reason 'this story turns on a version, date range or threshold but the brief carries no boundary block.' The draft provides no context on what the government's original estimate was, making the claim that the decline 'exceeded government estimates' impossible for readers to evaluate. The story's news hook depends on this comparison, but the brief's open_questions show the desk itself does not have the government's original estimate figure."
+    ]
+   },
+   {
+    "id": "c009",
+    "headline": "Albany woman charged with attempting to provide material support to ISIS and plotting Capitol attack",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief exists for this story. Per the hard rule, 'no fact exists outside the brief.' The draft cites three sources (DOJ, Washington Post, NPR) but the instruction protocol requires facts to trace to a research brief. Without a brief, every factual claim in the draft\u2014including Bowie's age (35), her location (Albany, New York), the specific charges (material support to ISIS and Capitol attack plot), her court appearance, and the legal status of 'no conviction'\u2014cannot be verified against a standardized research record. The draft must either be matched to a completed brief or rejected entirely."
+    ]
+   },
+   {
+    "id": "c299",
+    "headline": "FBI seizes devices from former Rep. Swalwell in sexual misconduct probe",
+    "category": "accuracy",
+    "reasons": [
+     "The draft cites NBC News and ABC News as sources but no research brief exists for this story. Per the hard rule, every fact must trace to either a data_point in the brief OR, when no brief exists, to the actual cited sources. The draft cannot be verified against source material that was not provided for review. The approver cannot confirm whether the claimed searches, device seizures, and allegations are accurately reported from those outlets without access to the source documents themselves."
+    ]
+   }
+  ]
  }
 ]

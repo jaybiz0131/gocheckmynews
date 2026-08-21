@@ -1,0 +1,67 @@
+{
+  "id": "c129",
+  "slug": "alabama-jury-awards-9-25-million-to-former-basketball-player-in-new-york-times-defamation-case",
+  "kind": "brief",
+  "title": "Alabama jury awards $9.25 million to former basketball player in New York Times defamation case",
+  "dek": "Kai Spears, a walk-on for the University of Alabama men's basketball team, won a $9.25 million defamation judgment against the New York Times after the newspaper falsely reported he was present at a fatal 2023 shooting in Tuscaloosa. The verdict marks the Times' first defamation loss in over 50 years.",
+  "date": "2026-08-21",
+  "published_utc": "2026-08-21T18:59:09Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 7,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "An Alabama jury awarded $9.25 million in damages to Kai Spears after finding the New York Times defamed him by falsely reporting he was at the scene of a fatal shooting on January 15, 2023.",
+  "bottom_line": "The verdict exposes a rare vulnerability for major news outlets in defamation cases, particularly when reporting on crime involves false factual claims about an identified individual's presence or knowledge of events. Watch for whether the Times appeals and what legal reasoning, if any, a higher court applies to the Alabama jury's finding.",
+  "human_take": "",
+  "body": [
+    "An Alabama jury has awarded $9.25 million in damages to Kai Spears, a former walk-on for the University of Alabama men's basketball team, after finding that the New York Times defamed him by falsely reporting he was present at a fatal shooting in Tuscaloosa in January 2023. The verdict marks the first defamation loss the Times has sustained in over 50 years on one of its published articles, according to Reason's reporting.",
+    "Spears sued the Times in 2023 after the newspaper published an article two months following the January 15, 2023 shooting. The article, titled \"A Fourth Alabama Player Was at a Deadly Shooting, in a Car Hit by Bullets,\" stated that the fatal shooting \"could have been even more deadly, as surveillance video showed that two players were in a car struck by bullets in the crossfire.\" The article further said that Spears was in the car with Brandon Miller at the time of the shooting and that Darius Miles had asked Miller to bring Miles's gun to the scene.",
+    "According to the trial record, the facts differed substantially. On the early morning of January 15, 2023, Spears and Miller visited Moe's Original BBQ in Tuscaloosa. Miles, another teammate, asked Miller to bring him a gun that Miles had left in Miller's car; Miller left to do so, and Spears started back to his dorm. Michael Davis, Miles's childhood friend, shot and killed Jamea Harris using the gun that Miller had brought to Miles. At the time of the shooting, Spears and his friends were on their way back to his dorm. Spears did not get in Miller's car and was not at the scene of the shooting when it occurred.",
+    "Crucially, Spears had no knowledge that Miller was communicating with Miles or that Miles had asked Miller to bring him his gun. Spears did not know where Miller planned to go or what he planned to do when he left Moe's, and he did not know that Miles's gun was in Miller's car.",
+    "Judge Annemarie Carney Axon allowed the case to proceed in May. At the motion to dismiss stage, the Times argued that the article's statements were not defamatory because the article portrayed Spears as a potential victim. However, under Alabama law, when considering whether a news article carried a defamatory meaning, the article must be read as a whole, and the entire article could allow an ordinary reader to conclude that Spears was somehow complicit in the shooting.",
+    "Sentencing details, including the verdict date and the names of jury members, are not included in the available reporting. The Times has not publicly confirmed whether it plans to appeal the judgment."
+  ],
+  "sources": [
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/sport/2026/aug/21/kai-spears-alabama-basketball-defamation-case-new-york-times"
+    },
+    {
+      "title": "Reason",
+      "url": "https://reason.com/volokh/2026/08/21/9-25m-verdict-against-n-y-times-in-libel-case-brought-by-alabama-basketball-player/"
+    }
+  ],
+  "event_utc": "2026-08-21T12:32:54Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-21T18:59:09Z",
+    "sources_cited": 2,
+    "sources_live_checked": 2
+  },
+  "also_reported_by": [
+    {
+      "outlet": "The New York Times",
+      "headline": "The New York Times Loses Defamation Lawsuit in Alabama - The New York Times"
+    },
+    {
+      "outlet": "The Guardian",
+      "headline": "Former Alabama basketball player wins $9.25m in defamation case against New York Times - The Guardian"
+    },
+    {
+      "outlet": "ESPN",
+      "headline": "Jury rules New York Times defamed Alabama basketball player - ESPN"
+    },
+    {
+      "outlet": "New York Post",
+      "headline": "New York Times loses defamation suit, ordered to pay $9.25M to former Alabama basketball player - New York Post"
+    },
+    {
+      "outlet": "USA Today",
+      "headline": "Former Alabama basketball player Kai Spears wins defamation case against New York Times - USA Today"
+    },
+    {
+      "outlet": "TV News Check",
+      "headline": "New York Times Loses Defamation Lawsuit In Alabama - TV News Check"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "c072",
+  "slug": "texas-appeals-court-reduces-50m-sandy-hook-judgment-against-alex-jones-to-1-5m",
+  "kind": "brief",
+  "title": "Texas appeals court reduces $50M Sandy Hook judgment against Alex Jones to $1.5M",
+  "dek": "A Texas appellate court on Friday cut a $50 million judgment against Infowars founder Alex Jones to $1.5 million, finding Sandy Hook parents did not show evidence that harassment exceeded the state's damage cap. A separate $1.4 billion Connecticut judgment against Jones remains unchanged.",
+  "date": "2026-08-21",
+  "published_utc": "2026-08-21T18:59:09Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 4,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The Texas Third Court of Appeals unanimously reduced the judgment based on a technical finding that Sandy Hook parents Neil Heslin and Scarlett Lewis failed to prove harassment rose to a level allowing them to exceed Texas's $750,000 per-plaintiff damages cap.",
+  "bottom_line": "The Texas appellate reduction turns on the state's damage cap structure rather than Jones' liability for the underlying falsehoods, leaving the $1.4 billion Connecticut judgment intact and the overall financial pressure on Jones largely unchanged. Watch whether either side appeals Friday's ruling, and whether the two judgments are addressed differently in Jones' ongoing bankruptcy proceedings.",
+  "human_take": "",
+  "body": [
+    "The Texas Third Court of Appeals on Friday cut a $50 million judgment against Infowars founder Alex Jones to $1.5 million, according to CBS News reporting. The unanimous opinion found that Sandy Hook parents Neil Heslin and Scarlett Lewis did not show evidence that harassment driven by Jones' false claims that the 2012 school shooting was a hoax rose to a level permitting them to exceed Texas's $750,000 damages cap per plaintiff.",
+    "The ruling does not affect a $1.4 billion judgment against Jones issued in Connecticut, per CBS News.",
+    "Heslin and Lewis's 6-year-old son Jesse Lewis was among 20 children and six educators killed in the Newtown attack. According to CBS News, the 2022 Texas verdict marked the first time Jones was held financially liable for spreading lies about the massacre, which Jones claimed was staged by the government to advance gun control legislation. During the trial, Jones conceded the attack was \"100% real\" and acknowledged being wrong to have promoted those falsehoods.",
+    "At trial, Heslin and Lewis told jurors that an apology would not suffice and urged them to hold Jones financially accountable for years of suffering inflicted on the Sandy Hook families, per CBS News. Jones' trial attorney Andino Reynal predicted immediately after the verdict that damages would be reduced on appeal to roughly $1.5 million, a projection the court's ruling confirmed.",
+    "Jones and Infowars have filed for bankruptcy, with those proceedings ongoing, according to CBS News. The company gave up the Infowars brand in April and moved operations to new websites and Jones' personal X account, per the outlet. The satirical website The Onion has set up a parody version of Infowars, running spoofed shows and directing some funds to Sandy Hook families."
+  ],
+  "sources": [
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/infowars-alex-jones-texas-court-judgment/"
+    },
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/2026/aug/21/alex-jones-texas-court-sandy-hook-school-shooting-hoax"
+    },
+    {
+      "title": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/nation/court-slashes-50m-judgment-against-alex-jones-over-falsely-calling-sandy-hook-shooting-a-hoax"
+    },
+    {
+      "title": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbXlrMzlGN0djQ0g3WXdLdDcwakdnd3VCaHdJMXI5UnRBR0JkdEg5ck80QjB4WWk3NXM0X0VsT0hKQUh2R2NVbS1IVUk3V3BiLW5QSkVzMHdFSUpwVHJvTU1rZTVxeVZsaldsdF9YSjVEeXJhVml1ekVGTFEtWjZjT201Y01QUjNwZGN0M0ZLR01CcWtHWHFMSF9WVGxRejBPclZycmt1MG9UWXh2dVFxc1J1UnV5N21sSXNBTGk3VUdZeTFITkRYMQ?oc=5"
+    }
+  ],
+  "event_utc": "2026-08-21T16:18:00Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-21T18:59:09Z",
+    "sources_cited": 4,
+    "sources_live_checked": 3
+  },
+  "also_reported_by": [
+    {
+      "outlet": "The Guardian",
+      "headline": "Texas slashes $50m judgment against Alex Jones over false claim Sandy Hook shooting was hoax - The Guardian"
+    },
+    {
+      "outlet": "Austin American-Statesman",
+      "headline": "Texas court slashes $50M award against Alex Jones in Sandy Hook parents' case - Austin American-Statesman"
+    },
+    {
+      "outlet": "KUT",
+      "headline": "Texas court reduces Alex Jones' payment to Sandy Hook families to $1.5 million - KUT"
+    },
+    {
+      "outlet": "CT Insider",
+      "headline": "Alex Jones\u2019 $50M Sandy Hook damages cut to $1.5M. He still owes $1.4B in Connecticut - CT Insider"
+    },
+    {
+      "outlet": "Patch",
+      "headline": "Texas Court Slashes Nearly $50M Alex Jones Judgment In Sandy Hook Case - Patch"
+    },
+    {
+      "outlet": "KERA News",
+      "headline": "Texas court reduces Alex Jones' payment to Sandy Hook families to $1.5 million - KERA News"
+    }
+  ]
+}
