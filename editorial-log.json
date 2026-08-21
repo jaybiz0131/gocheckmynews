@@ -8683,5 +8683,55 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-21",
+  "approved": 7,
+  "rejected": [
+   {
+    "id": "c020",
+    "headline": "Charter plane crash kills 8 at remote radar site in western Alaska",
+    "category": "accuracy",
+    "reasons": [
+     "Brief states 'no brief exists for this story; every draft fact must then trace to the draft's own cited sources or be rejected'. Draft cites four sources (NPR, Guardian, CBS, The Hill) but provides no URLs that can be verified and the URLs in the draft appear to be placeholder or generic constructs.",
+     "The draft makes factual claims: 'charter aircraft crashed', 'remote radar site in western Alaska', 'Thursday', 'killing all eight people aboard', 'U.S. military said'. Without a research brief to anchor these facts and with unverified source URLs, these claims cannot be traced to on-record reporting per the desk's hard rule.",
+     "The instruction contract requires facts to originate in research briefs or, absent a brief, in directly verifiable sourcing. This draft has neither."
+    ]
+   },
+   {
+    "id": "c008",
+    "headline": "Albany woman charged with attempting to provide material support to ISIS",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief was provided for this story. The instruction states 'every draft fact must then trace to the draft's own cited sources or be rejected.' The draft cites five sources but the approver has no access to those source texts to verify that the claims (Bowie's age, address, charge details, the alleged ISIS-inspired plot targeting the State Capitol building, the timing of her initial appearance) actually appear in those sources. Without a brief or access to source verification, this draft cannot be approved under the hard rule that 'no fact exists outside the brief' and by extension, outside verifiable sourced material the approver can evaluate."
+    ]
+   },
+   {
+    "id": "c089",
+    "headline": "FBI seizes devices from former Rep. Swalwell in sexual misconduct probe",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief was provided for this story. The instruction states 'every draft fact must then trace to the draft's own cited sources or be rejected.' The draft cites two sources but the approver has no access to those source texts to verify the key claims: that federal agents seized electronic devices from Swalwell, that they searched his home, that this was on August 20, 2026, that he was a leading gubernatorial candidate at the time of resignation in April 2026, or any other factual assertions. Without a brief or verifiable source access, this draft cannot be approved under the hard rule that facts must be traceable to research."
+    ]
+   },
+   {
+    "id": "c313",
+    "headline": "Vance Says Iran Conflict Entered 'New Phase' of Economic Pressure",
+    "category": "accuracy",
+    "reasons": [
+     "The draft opens with 'Vice President JD Vance stated that the U.S. conflict with Iran has entered a \"new phase\" of economic pressure following President Trump's launch of economic operations against Tehran, per CBS News reporting.' This is presented as a verified fact sourced to CBS News. However, the brief's open_questions explicitly state: 'The headline attributes a direct quote to Vance about a 'new phase' of economic pressure, but the first source URL (the video page) contains only page markup and CSS; the actual content or transcript of what Vance said is not present in the fetched text. No direct quote from Vance is verified in the source texts provided.' The draft treats Vance's statement as established fact when the research brief indicates it cannot be verified from the provided sources.",
+     "The draft reports that 'An unnamed Trump administration official told CBS News that \"crushing sanctions\" and a U.S. naval blockade on Iran had left the country \"completely broke\"' without noting the confidence level. The brief marks this claim as 'unconfirmed,' a material distinction that must survive in the prose when the source is anonymous.",
+     "The draft states 'A Trump administration official said there are \"many levers the president can crank harder in the weeks and months ahead\"' without signaling the unconfirmed status. The brief marks this as 'unconfirmed' confidence, which must be reflected in the language."
+    ]
+   },
+   {
+    "id": "c001",
+    "headline": "Federal Reserve issues enforcement action against SouthPoint Bancshares, terminates Deutsche Bank order",
+    "category": "accuracy",
+    "reasons": [
+     "The brief explicitly states 'no brief exists for this story; every draft fact must then trace to the draft's own cited sources or be rejected.' The draft cites two Federal Reserve press release URLs but provides no actual facts from those sources\u2014it only refers vaguely to 'official Federal Reserve press release,' 'the official order,' and 'the Federal Reserve's announcement' without stating what the enforcement action against SouthPoint actually is, what violations occurred, why Deutsche Bank's action was terminated, or any substantive detail. The reader cannot verify whether the draft accurately reflects the source material because no facts are stated. A draft consisting entirely of meta-references to sources without reporting the actual news is not reporting; it is an empty shell."
+    ]
+   }
+  ]
  }
 ]
