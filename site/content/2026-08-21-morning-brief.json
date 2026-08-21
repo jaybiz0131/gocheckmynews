@@ -1,0 +1,60 @@
+{
+  "id": "wrap-am-2026-08-21",
+  "slug": "morning-brief-2026-08-21",
+  "kind": "brief",
+  "title": "The Morning Brief: Capitol plot, FBI escalates Swalwell case, Middle East tensions rise",
+  "dek": "An Albany woman was apprehended with an explosive device intended for the New York State Capitol; federal agents seized devices from former Rep. Swalwell in a criminal misconduct probe; Russia struck Kyiv's critical infrastructure overnight, killing at least 17; and Israel opened settlement construction tenders and re-established a 2005-evacuated West Bank site as five democracies condemned the move.",
+  "date": "2026-08-21",
+  "published_utc": "2026-08-21T10:16:16Z",
+  "category": "daily edition",
+  "rank": -1,
+  "author": "GoCheckMyNews",
+  "key_fact": "The morning brings a domestic terrorism arrest, escalation in a former congressman's legal jeopardy, and intensifying Israel-Palestine tensions alongside Russia's renewed assault on Ukrainian infrastructure.",
+  "bottom_line": "The morning brings converging crises: a foiled domestic terror plot, escalating criminal jeopardy for a former congressman, Russia's renewed targeting of Ukrainian civilian infrastructure, and Israel's accelerating settlement expansion into disputed territory amid international objections. The Panama Canal capacity cut compounds existing shipping disruptions. Watch the NTSB's probe into the Alaska plane crash on August 21 that killed eight; whether international pressure or Israeli court challenges delay the West Bank settlement tender deadline on October 19; and whether Central American rainfall levels return to normal before Panama Canal reductions widen further.",
+  "human_take": "",
+  "body": [
+    "Federal authorities apprehended Jessica Bowie, 35, of Albany, New York, on August 19 after she gained possession of what she believed to be an explosive device, according to the U.S. Department of Justice. Bowie faces charges of attempting to provide material support to ISIS and plotting to deploy that device at the New York State Capitol with the intent to kill public officials and destroy \"as much of the building as possible\" before fleeing to ISIS-controlled territory in Syria. The FBI investigation involved multiple federal and state agencies alongside confidential sources and surveillance of the Capitol building.",
+    "In Washington, federal agents executed search warrants at former Democratic Rep. Eric Swalwell's San Francisco residence on Saturday night and his Washington, D.C. residence on Sunday, seizing an iPhone and a MacBook Pro, according to CBS News reporting. The action escalates a criminal investigation into sexual misconduct allegations that previously led to Swalwell's resignation from Congress in April. Investigators are examining potential charges under a federal statute making it a crime for officials to deprive individuals of constitutional rights. The investigation remains ongoing with no announced timeline for formal charges.",
+    "Overseas, Russia struck Kyiv around midnight with missiles and drones, killing at least 17 people and injuring more than 40, per the Ukrainian State Emergency Service as reported by BBC News. Apartment blocks, warehouses, a children's hospital, and a school were damaged. The Ukrainian Air Force indicated Thursday morning that none of the Russian ballistic missiles used in the overnight attack were intercepted. Power was cut to thousands of properties across the Kyiv region, and Kyiv's mayor Vitali Klitschko warned residents in two districts may experience disrupted hot water supply. The strike marks the first time in several months that critical infrastructure in the capital was purposefully targeted, signaling a return to Moscow's winter strategy of degrading Ukraine's heating and electricity systems.",
+    "In the West Bank, Israel opened construction tenders Thursday for approximately 1,234 settlement homes in the E1 area between East Jerusalem and the settlement of Maale Adumim, with a bid deadline of October 19, days before Israel's October 27 general election. The same day, Israel settled 30 \"pioneer families\" at the Kadim settlement, completing the reversal of all four settlements evacuated during the 2005 Disengagement Plan. The UK, France, Germany, Italy, and Canada issued a joint statement calling the tender \"unacceptable\" and urging immediate withdrawal. The BBC was not permitted to enter the Kadim settlement to interview settlers or officials at the opening ceremony.",
+    "Globally, the Panama Canal Authority announced it will reduce daily vessel traffic from 36 to 32 ships starting September 15, citing insufficient water supplies caused by El Ni\u00f1o. The reduction, phased in from September 3, affects one of the world's most critical trade chokepoints at a moment when shipping already faces severe disruptions from conflict in the Middle East."
+  ],
+  "sources": [
+    {
+      "title": "Albany Woman Charged with Attempting to Provide Material Support to ISIS, Plotting Capitol Attack",
+      "url": "/articles/albany-woman-charged-with-attempting-to-provide-material-support-to-isis-plotting-capitol-attack.html"
+    },
+    {
+      "title": "FBI Seizes Devices From Former Rep. Swalwell in Sexual Misconduct Probe",
+      "url": "/articles/fbi-seizes-devices-from-former-rep-swalwell-in-sexual-misconduct-probe.html"
+    },
+    {
+      "title": "Federal Reserve issues enforcement action with SouthPoint Bancshares, terminates Deutsche Bank order",
+      "url": "/articles/federal-reserve-issues-enforcement-action-with-southpoint-bancshares-terminates-deutsche-bank-order.html"
+    },
+    {
+      "title": "Federal Reserve Releases FOMC Minutes from July Meeting",
+      "url": "/articles/federal-reserve-releases-fomc-minutes-from-july-meeting.html"
+    },
+    {
+      "title": "Five Western democracies condemn Israel's West Bank settlement tender",
+      "url": "/articles/five-western-democracies-condemn-israel-s-west-bank-settlement-tender.html"
+    },
+    {
+      "title": "Russia strikes Kyiv overnight; at least 17 killed, 40+ wounded; critical infrastructure hit",
+      "url": "/articles/russia-strikes-kyiv-overnight-at-least-17-killed-40-wounded-critical-infrastructure-hit.html"
+    },
+    {
+      "title": "Eight killed in charter plane crash at Alaska military radar site",
+      "url": "/articles/eight-killed-in-charter-plane-crash-at-alaska-military-radar-site.html"
+    },
+    {
+      "title": "Israel re-establishes West Bank settlement Kadim with 30 families, reversing 2005 evacuation",
+      "url": "/articles/israel-re-establishes-west-bank-settlement-kadim-with-30-families-reversing-2005-evacuation.html"
+    },
+    {
+      "title": "Panama Canal reducing daily ship traffic due to drought driven by El Ni\u00f1o",
+      "url": "/articles/panama-canal-reducing-daily-ship-traffic-due-to-drought-driven-by-el-ni-o.html"
+    }
+  ]
+}

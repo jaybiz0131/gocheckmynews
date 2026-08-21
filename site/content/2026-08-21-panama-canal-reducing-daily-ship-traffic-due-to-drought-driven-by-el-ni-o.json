@@ -1,0 +1,36 @@
+{
+  "id": "c045",
+  "slug": "panama-canal-reducing-daily-ship-traffic-due-to-drought-driven-by-el-ni-o",
+  "kind": "brief",
+  "title": "Panama Canal reducing daily ship traffic due to drought driven by El Ni\u00f1o",
+  "dek": "The Panama Canal Authority announced Thursday that it will cut daily vessel traffic from 36 to 32 ships starting September 15, citing low rainfall caused by El Ni\u00f1o. The reduction affects one of the world's most critical trade chokepoints and comes as shipping already faces Iran-related disruptions in the Strait of Hormuz.",
+  "date": "2026-08-21",
+  "published_utc": "2026-08-21T10:05:19Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 11,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "32 vessels per day will be able to pass through the Panama Canal starting September 15, down from the current 36, due to insufficient water supplies caused by El Ni\u00f1o.",
+  "bottom_line": "Watch whether rainfall in Central America returns to normal levels, which could determine whether the reduction remains at 32 vessels or expands further. The cumulative impact of the Panama Canal cut and ongoing Strait of Hormuz disruptions will shape shipping costs and delivery timelines through the remainder of the year.",
+  "human_take": "",
+  "body": [
+    "The Panama Canal Authority informed shipping firms Thursday that it will reduce daily vessel traffic from 36 to 32 ships starting September 15, citing insufficient rainfall caused by El Ni\u00f1o. The reduction, phased in from September 3, affects one of the world's most critical trade chokepoints at a moment when global shipping already faces severe disruptions from conflict in the Middle East.",
+    "El Ni\u00f1o is a pattern of periodic sea surface warming that affects weather systems globally, according to BBC News. This year's El Ni\u00f1o is expected to be particularly strong, with its effects made more intense by climate change, and many forecasts suggest it could be one of the strongest ever recorded, with disruptions to weather, food supplies, and economies.",
+    "About 14,000 ships per year use the artificial waterway, per BBC News, and the canal brings in approximately 3 billion dollars annually as a key source of income for Panama. The Panama Canal greatly reduces the time and distance ships must travel between the Atlantic and Pacific oceans, operating 24 hours a day, 365 days a year. The capacity reduction represents roughly an 11 percent decrease in daily throughput.",
+    "According to BBC News, the Panama Canal Authority said the measures are being put in place to preserve service reliability and safeguard water resources for human consumption. The ACP added that despite the arrival of the rainy season in Central America and water-saving measures already in place at the canal, additional action was needed to support the long-term sustainability of transit operations. In 2023, the ACP cut the number of vessels using the waterway during the previous El Ni\u00f1o period after Panama was hit with its driest October since records began in 1950, per BBC News.",
+    "The Panama Canal reduction compounds existing shipping pressures. Per BBC News, the shipping industry is already dealing with severe disruptions due to what it identifies as an Iran war, causing a large reduction in the number of vessels passing through the crucial Strait of Hormuz. The simultaneous constraints on two critical chokepoints represent a rare convergence of climate and geopolitical stress on global commerce."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cwyl0jkxxryo?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "event_utc": "2026-08-21T06:46:08Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-21T10:05:19Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}

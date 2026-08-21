@@ -8626,5 +8626,62 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-21",
+  "approved": 5,
+  "rejected": [
+   {
+    "id": "c018",
+    "headline": "Ninth day without power: Indiana residents face cascading health, economic risks",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Courtney Page-Tan, an Indiana University Indianapolis professor' said 'For a lot of households that live paycheck to paycheck...' but the brief's data_point attributes this quote to Page-Tan discussing school closures broadly. The draft then attributes a second quote to Page-Tan ('We thrive best, you know, as humans on certainty and predictability...') but the brief attributes this quote to 'Raydia Martin, assistant director of the Flourish Community Hub at Flourish Church in Gary.' The draft has misattributed a quote from Raydia Martin to Courtney Page-Tan."
+    ]
+   },
+   {
+    "id": "c019",
+    "headline": "FBI seizes devices from former Rep. Swalwell in sexual misconduct investigation",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief exists for this story. The draft cites four news outlets (Washington Post, PBS NewsHour, CBS News, NPR) as sources for the seizure of devices and home search, but provides no URLs to those outlets' reporting\u2014only URLs to the outlets' domains. The approval instruction requires every fact to trace to a data_point in the brief OR to the draft's own cited sources. Without URLs to the actual reporting, the factual claims (device seizure, home search, timeline of allegations in spring 2026, Swalwell's resignation, gubernatorial candidacy) cannot be verified against the sources listed. The sources field contains only domain-level URLs, not the specific reporting cited.",
+     "The claim that Swalwell 'resigned after allegations surfaced in spring 2026' is presented as fact but no source document is provided that confirms this specific timeline and causal claim."
+    ]
+   },
+   {
+    "id": "c008",
+    "headline": "Albany woman charged with ISIS-inspired plot to attack New York State Capitol",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief exists for this story. The draft cites a DOJ press release and four news outlets but provides URLs only to domain-level and generic endpoints, not to the specific reporting cited. The URL 'https://www.justice.gov/opa/pr/albany-new-york-woman-charged-isis-inspired-terror-plot-targeting-new-york-state-capitol' appears plausible but cannot be verified without access to the actual document. The NBCNews URL contains 'rcna593595' (a generic identifier) without a dated slug or story-specific path. Without verifiable source URLs, facts like Bowie's age (35), arrest date (August 20, 2026), charge details, and the allegation that she planned an attack on the State Capitol cannot be traced.",
+     "The draft states 'The FBI investigation led to Bowie's arrest before any alleged attack could be carried out' but this causal and temporal claim is not supported by a retrievable source URL."
+    ]
+   },
+   {
+    "id": "c001",
+    "headline": "Federal Reserve issues enforcement action against SouthPoint Bancshares, terminates Deutsche Bank order",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief was provided for this story. The instruction states: 'every draft fact must then trace to the draft's own cited sources or be rejected.' The draft cites Federal Reserve press releases as sources but provides no URLs that can be verified, and no facts from those sources are quoted or paraphrased in the body. The draft makes definitive claims about enforcement actions, dates, and statutes without quoting or attributing any specific language to the cited press releases. The statement 'The Federal Reserve did not disclose the specific compliance or operational issues' and 'details of enforcement actions are typically provided in the formal order document' are editorial characterizations, not facts traced to the sources. Without access to the actual source documents and without inline attribution of key facts, this draft cannot be verified."
+    ]
+   },
+   {
+    "id": "c085",
+    "headline": "Trump appears on Cohen's radio show in unexpected public reconciliation",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Cohen served three years in federal prison after pleading guilty to lying to Congress about a Trump Tower project in Russia and to campaign finance violations in which he implicated Trump in payments to the adult film actor Stormy Daniels and former Playboy model Karen McDougal, according to CBS News.' However, the brief's corresponding data_point says 'Cohen served prison time for his role in what he said was covering up Trump's 'dirty deeds.'' This is a significant factual discrepancy: the draft asserts specific charges (lying to Congress, campaign finance violations) that are not present in the brief's data_point, violating the hard rule that 'no fact exists outside the brief.'",
+     "The draft states 'Following his 2024 testimony as the star witness in Trump's criminal hush money trial, which resulted in a 34-count felony conviction, Cohen has since characterized his testimony as coerced.' The brief contains a data_point about Cohen's Substack post from January characterizing his testimony as coerced, but the draft does not indicate whether this characterization occurred 'since' the 2024 trial or before it. The timeline conflates two separate claims\u2014the trial outcome and Cohen's later reframing\u2014in a way that the brief does not support. The brief shows Cohen made the coercion claim in January; the draft implies it came 'following' the 2024 trial without clear temporal markers."
+    ]
+   },
+   {
+    "id": "c125",
+    "headline": "CaaStle CEO sentenced to five years in prison for $300 million fraud",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Christine Hunsicker, 49, former CEO of CaaStle, was sentenced Thursday to five years in federal prison for orchestrating a $300 million fraud scheme spanning 2019 to 2025, according to the Manhattan US attorney's office.' The brief's data_point says 'The Manhattan US attorney's office announced the sentencing on Thursday' but does not confirm that the US attorney's office announced the scheme dates (2019-2025). The scheme dates appear in a separate data_point attributed to Guardian US, but the draft attributes the entire compound claim\u2014age, name, role, sentence length, scheme amount, and date range\u2014to the US attorney's office without clarity on what came from which source. The attribution must match what each source actually carried."
+    ]
+   }
+  ]
  }
 ]

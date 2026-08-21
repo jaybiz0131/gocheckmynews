@@ -1,0 +1,49 @@
+{
+  "id": "c017",
+  "slug": "eight-killed-in-charter-plane-crash-at-alaska-military-radar-site",
+  "kind": "brief",
+  "title": "Eight killed in charter plane crash at Alaska military radar site",
+  "dek": "A twin-engine Cessna 441 operated by Security Aviation crashed at Cape Newenham Long Range Radar Site Airport in western Alaska on Thursday at 12:15 p.m. local time, killing all eight people aboard: two pilots and six passengers. The National Transportation Safety Board is leading the investigation.",
+  "date": "2026-08-21",
+  "published_utc": "2026-08-21T10:05:19Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 1,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "All eight people aboard a charter plane contracted by the Army Corps of Engineers died when the aircraft crashed on approach to a remote U.S. military radar facility 450 miles west of Anchorage.",
+  "bottom_line": "The NTSB investigation will determine what caused the Cessna to crash on approach. Until that inquiry concludes, the exact cause remains unknown. Watch for the agency's preliminary findings and whether the crash reveals any systemic issues with operations at Alaska's remote radar sites.",
+  "human_take": "",
+  "body": [
+    "A twin-engine Cessna 441 contracted by the Army Corps of Engineers crashed at Cape Newenham Long Range Radar Site Airport in western Alaska on Thursday, killing all eight people aboard.",
+    "The Federal Aviation Administration said the crash occurred at 12:15 p.m. local time on approach to the airport, located approximately 450 miles west of Anchorage. Two pilots and six passengers were on board, according to NBC News. Search and rescue teams reached the site and confirmed there were no survivors.",
+    "The aircraft was operated by Anchorage-based air charter company Security Aviation, per CBS News. The Army Corps of Engineers had chartered the plane, and the agency confirmed that two of its employees were among those killed. The specific mission the group was carrying out has not been disclosed.",
+    "Cape Newenham Long Range Radar Site is part of a network of remote radar installations that track aircraft operating in Alaska's airspace and along its borders, per NBC News. The facility is managed by the Pacific Air Forces Regional Support Center.",
+    "U.S. Air Force Lt. Gen. Robert Davis, commander of Alaskan Command, the Alaskan North American Aerospace Defense Command Region and Eleventh Air Force, said in a statement: \"This is a devastating loss for our military family and the communities we serve.\"",
+    "The National Transportation Safety Board will lead the investigation into the crash mechanics, with the FAA assisting. The NTSB's Alaska region chief, Clint Johnson, is overseeing the inquiry. Names of those on board will be released 24 hours after their next of kin are notified."
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/news/us-news/charter-plane-carrying-8-crashes-western-alaska-rcna593687"
+    },
+    {
+      "title": "NPR",
+      "url": "https://www.npr.org/2026/08/21/nx-s1-5940552/charter-plane-crash-kills-8-alaska-military"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/charter-plane-crash-cape-newenham-alaska/"
+    },
+    {
+      "title": "The Wall Street Journal",
+      "url": "https://www.wsj.com/us-news/plane-crash-near-remote-military-radar-site-in-alaska-kills-8-68b0edd4?mod=rss_worldnews"
+    }
+  ],
+  "event_utc": "2026-08-21T05:04:45Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-21T10:05:19Z",
+    "sources_cited": 4,
+    "sources_live_checked": 3
+  }
+}
