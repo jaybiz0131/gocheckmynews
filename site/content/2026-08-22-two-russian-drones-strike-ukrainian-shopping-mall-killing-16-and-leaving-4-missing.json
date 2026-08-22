@@ -1,0 +1,60 @@
+{
+  "id": "c016",
+  "slug": "two-russian-drones-strike-ukrainian-shopping-mall-killing-16-and-leaving-4-missing",
+  "kind": "brief",
+  "title": "Two Russian drones strike Ukrainian shopping mall, killing 16 and leaving 4 missing",
+  "dek": "A double-tap drone strike on a shopping mall in Kryvyi Rih, Ukraine killed 16 people and injured 130, with 4 still missing. President Zelensky condemned the attack as \"cynical and despicable,\" noting the second drone targeted emergency workers already responding to the first strike.",
+  "date": "2026-08-22",
+  "published_utc": "2026-08-22T17:38:43Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 5,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Sixteen people were killed and 130 injured in a double-tap drone strike on a shopping mall in Kryvyi Rih on Friday; 4 remain missing.",
+  "bottom_line": "With 4 people still missing and rescue operations continuing, the death toll and injury count remain subject to change. Watch for official clarification on why air defenses failed to intercept the drones, and whether Ukraine's ongoing ammunition shortages continue to constrain its ability to defend against incoming strikes.",
+  "human_take": "",
+  "body": [
+    "Two Russian drones struck a shopping mall in Kryvyi Rih, Ukraine on Friday in what is known as a double-tap strike, killing 16 people and injuring 130, according to BBC reporting. Four people remain missing after the attack.",
+    "The second drone targeted emergency workers who had already begun response operations following the first strike, per BBC's account. The initial impact set a fire covering approximately 9,000 square meters, which rescue teams later extinguished. Rescue teams from seven other Ukrainian regions were urgently deployed Friday evening to assist in the search for survivors, and the search and rescue operation could last another two days, BBC reports.",
+    "Dnipropetrovsk regional head Oleksandr Hanzha said a body was retrieved from the rubble overnight, bringing the death toll to 16. By Saturday, 52 injured people, including 14 children, remained in city hospitals, with dozens having already undergone surgery, according to Kryvyi Rih's military chief Oleksandr Vilkul as reported by the BBC.",
+    "President Volodymyr Zelensky condemned the attack as \"cynical and despicable,\" per BBC reporting. Vilkul told the BBC the drones had been flying at \"extremely low altitudes\" and characterized the attackers as \"animals.\"",
+    "Officials have not commented on why Ukraine's air defense units, which the military says are 90 percent successful at intercepting drones, failed to stop Friday's attacks on the shopping center, BBC reports. Ukraine's interception rate for ballistic missiles, however, is much lower at about 40 percent, the defense ministry reported in June. Kyiv has repeatedly said it is running low on US-made Patriot missiles, the most effective weapon against ballistics.",
+    "The Kryvyi Rih attack came a day after 17 people were killed and more than 40 injured in a major Russian missile and drone attack on Kyiv. Zelensky said \"missile and drone strikes throughout the evening and night\" had struck Ukraine across multiple locations on Saturday, with residential buildings and civilian infrastructure damaged. In addition to the Kyiv railway strike that killed one person and injured another, three people were injured by a drone strike on a city minibus in Zaporizhzhia, and two people were killed in a separate Russian attack in the Kyiv region, according to Ukraine's state emergencies service DSNS as reported by BBC.",
+    "Russia's defense ministry said it downed 457 Ukrainian drones overnight, presenting a counter-narrative of Russian air defense effectiveness, BBC reports. Russia has not commented on the Kryvyi Rih attack. Kyiv describes its strikes on Russian energy facilities and logistics hubs as legitimate military targets because they finance Russia's war effort, but Russia has said civilians are being targeted in those operations."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o"
+    },
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "event_utc": "2026-08-22T13:13:16Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-22T17:38:43Z",
+    "sources_cited": 2,
+    "sources_live_checked": 2
+  },
+  "also_reported_by": [
+    {
+      "outlet": "The Times",
+      "headline": "Russian double-tap strike kills 16 in Ukrainian shopping centre - The Times"
+    },
+    {
+      "outlet": "Egypt Independent",
+      "headline": "At least 16 killed and over 100 wounded in Russian \u2018double-tap\u2019 strike on a Ukrainian shopping center - Egypt Independent"
+    },
+    {
+      "outlet": "UNITED24 Media",
+      "headline": "Ukraine Burns Two Russian S-400 Launchers\u2014The Same System Russia Fires at Ukrainian Cities - UNITED24 Media"
+    },
+    {
+      "outlet": "CNN",
+      "headline": "Two Russian warehouses hit by Ukrainian strikes - CNN"
+    }
+  ]
+}

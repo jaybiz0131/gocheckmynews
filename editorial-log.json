@@ -8895,5 +8895,64 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-22",
+  "approved": 5,
+  "rejected": [
+   {
+    "id": "c007",
+    "headline": "U.S. imposes 50% tariffs on $20 billion of Canadian goods; Canada vows dollar-for-dollar retaliation",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Prime Minister Mark Carney announced that Canada would match those tariffs dollar for dollar' but the brief's data_point 5 provides a direct quote: 'Canada will match those tariffs dollar for dollar to protect our workers and businesses.' The draft paraphrases this as a general announcement without the direct quote, which is acceptable, BUT the brief contains no data_point confirming Carney made this announcement 'within hours' as the draft claims in the opening paragraph. The timing claim ('Within hours, Prime Minister Mark Carney announced') is not in the brief.",
+     "The draft states 'the full scope of Canada's stated objections remains unclear from the available statements' in the final paragraph. This is a statement about absence/what is unreported, which violates the instruction that 'the writer is forbidden from narrating absence.' The open_questions in the brief list what specifics are not detailed, but the draft should not construct a sentence around that absence."
+    ]
+   },
+   {
+    "id": "c057",
+    "headline": "Interior Department orders 1.25 million acre-feet in Colorado River water cuts for three Western states",
+    "category": "accuracy",
+    "reasons": [
+     "The draft includes a quote from Kyle Roerink, senior adviser at the conservation group Great Basin Water Network: 'efforts to build a new airport and shopping malls and some public land sales have not progressed, reflecting the dire hydrology inked in the federal documents.' This appears in the brief's data_points (claim 21) but is presented in the draft without attribution or context. More critically, this quote does not appear anywhere in the body of the draft as written; the draft ends with Travnicek's quote about the prolonged drought and does not include Roerink's statement at all. The writer appears to have included this in the brief's data_points but failed to incorporate it into the actual draft text. However, re-reading the draft body provided, there is NO Roerink quote in the actual article text, so this data_point from the brief is completely absent from the draft without explanation."
+    ]
+   },
+   {
+    "id": "c009",
+    "headline": "Supreme Court allows Trump ballroom construction to continue pending review",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief exists for this story. Per the approval instructions, every fact must trace to cited sources or be rejected. The draft cites four major outlets (NBC News, PBS NewsHour, NPR, Washington Post) but provides no URLs that can be verified. The NPR URLs use a future date (2026) which is impossible. Without access to the actual source material or a research brief, the story cannot be verified for accuracy. The claim about a '$400 million White House ballroom project' is extraordinary and requires verification before publication.",
+     "The story's core facts\u2014that Chief Justice Roberts issued an administrative stay, that it permits construction to proceed, that a lower court had issued an injunction\u2014cannot be traced to verifiable sources in the draft itself. The URLs provided are either inaccessible or contain temporal impossibilities (2026 dates)."
+    ]
+   },
+   {
+    "id": "c025",
+    "headline": "Fourteen elderly civilians killed in Myanmar military strikes on monastery",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Chow Hang-tung spoke to the BBC in 2021, weeks before her arrest on 4 June 2022' but the brief data_point says 'Chow Hang-tung spoke to the BBC in 2021, weeks before her arrest on 4 June 2022'. The draft says 'weeks before her arrest', but the June 2021 arrest documented in the brief refers to a separate case. The draft's Chow interview is quoted as being in 2021, 'weeks before her subsequent arrest,' but the brief's timeline shows the 2021 vigil arrest was in June 2021, and the current case charges came in 2021 with incarceration since then. The placement of the interview in the draft (near the end, after discussing the separate June 2021 case) creates ambiguity about which arrest it preceded. However, reviewing more carefully: the brief states 'Chow Hang-tung spoke to the BBC in 2021, weeks before her arrest on 4 June 2022' in one data point, but also 'Chow was arrested in June 2021 for inciting' in another. The draft says the interview was 'weeks before her subsequent arrest' in the context of the separate case. This is a factual discrepancy: the brief shows two different arrest dates (June 2021 and June 2022 implied), creating confusion the draft does not resolve."
+    ]
+   },
+   {
+    "id": "c058",
+    "headline": "Pentagon dismisses Stars and Stripes editor, publisher, and reporter",
+    "category": "balance",
+    "reasons": [
+     "The draft's framing and language strongly suggest advocacy and reads in a critical voice toward the Pentagon. Phrases like 'raises questions about press freedom, editorial independence, and the military's willingness to suppress critical coverage' (from the angle in the brief) are reflected in the draft's structure and word choice. The draft leads with the dismissals and the CBS interview connection, then notes 'no official Pentagon statement' has been provided, creating an impression that the Pentagon is being secretive or suppressive. The brief's bear_case\u2014that the Pentagon characterized the dismissals as 'insubordination' rather than suppression\u2014is mentioned only glancingly ('characterized as being for insubordination'), buried in the second paragraph, and is not developed as a genuine alternative account. The draft reads as though the Pentagon fired journalists for doing journalism, without fairly presenting the Pentagon's stated rationale (breach of protocol/insubordination) as a substantive counterargument. A reader would not come away understanding that the Pentagon's position is that this was a personnel/protocol matter, not a press-suppression matter. The bear_case appears in the brief but does not meaningfully survive in the draft as a co-equal account."
+    ]
+   },
+   {
+    "id": "c066",
+    "headline": "Eight killed in Cessna 441 charter crash near remote Alaska radar site",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief exists for this story. Per instructions, every fact in the draft must then trace to the draft's own cited sources.",
+     "Draft cites PBS NewsHour, NBC News, and WSJ as sources but provides only their URLs, not their actual text. The approver cannot verify whether the sourced URLs actually report the claims made (eight killed, two Army Corps workers, aircraft type, departure/destination airports, timing, exact location).",
+     "Critical facts like 'eight people on board,' 'two U.S. Army Corps of Engineers workers,' aircraft type 'Cessna 441,' departure from Anchorage, destination to 'Cape Newenham Long Range Radar Site Airport,' '450 miles to the west,' and 'midday Thursday' cannot be traced to verifiable source text in the submission.",
+     "The instruction requires: 'the writer never patches them [facts]\u2014facts go back to research.' Without a brief or accessible source text in this submission, the approver cannot fulfill the core liability check."
+    ]
+   }
+  ]
  }
 ]
