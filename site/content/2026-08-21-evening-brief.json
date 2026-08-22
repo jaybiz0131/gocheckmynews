@@ -1,0 +1,101 @@
+{
+  "id": "wrap-pm-2026-08-21",
+  "slug": "evening-brief-2026-08-21",
+  "kind": "brief",
+  "title": "The Evening Brief: Terror plot, trials cleared, shipping cut, and a newsroom fired",
+  "dek": "Evening brings closure on several fronts: courts cleared two major trials, an Albany woman faced terror charges, and the Pentagon fired Stars and Stripes' top editors. Meanwhile, Israel completed settlement reversals, the Panama Canal cut capacity, and a Texas court slashed a Sandy Hook judgment on technical grounds.",
+  "date": "2026-08-21",
+  "published_utc": "2026-08-21T23:04:48Z",
+  "category": "daily edition",
+  "rank": -3,
+  "author": "GoCheckMyNews",
+  "key_fact": "Three criminal proceedings move toward trial or sentencing in October; a newsroom independence dispute escalates into dismissals; and global infrastructure faces dual strain from climate and conflict.",
+  "bottom_line": "Criminal trials clear procedural gates for October hearings; a jury handed the Times its first major defamation loss in over 50 years; and the Pentagon fired Stars and Stripes' top editors over editorial independence claims. Shipping infrastructure faces dual pressure from El Ni\u00f1o and Middle East conflict, while the Justice Department settled a $400 million COPPA case with TikTok. Watch for Snelling's sentencing on October 16, Jeffries's trial beginning October 26, the five-day appeal period for Stars and Stripes staff, whether Central American rainfall relieves Panama Canal reductions, and the full Supreme Court's decision on Trump's ballroom construction.",
+  "human_take": "",
+  "body": [
+    "The evening edition brings a day of legal motion and institutional friction, with courts removing procedural barriers even as one newsroom's independence came under direct pressure.",
+    "On the criminal side, three cases advanced. Jessica Bowie, 35, of Albany, was charged with attempting to provide material support to ISIS and plotting to deploy an explosive device at the New York State Capitol to kill public officials and destroy the building. According to the U.S. Department of Justice, Bowie was apprehended on August 19 as she gained possession of what she believed to be an explosive device. Former Abercrombie & Fitch CEO Mike Jeffries cleared a competency gate: Judge Nusrat Choudhury ruled on August 21 that Jeffries is fit to stand trial on sex trafficking charges, reversing an earlier finding of mental incompetence after reviewing medical records and over 21 hours of audio recordings across 109 calls. His trial is scheduled to begin on October 26. Laken Snelling, 22, a former University of Kentucky STUNT team member, pleaded guilty Friday to first-degree manslaughter in the death of her newborn son, whose body was found wrapped in a towel inside a trash bag in a closet on August 27. She faces up to 10 years in prison, with sentencing set for October 16.",
+    "In civil litigation, institutional walls cracked. An Alabama jury awarded $9.25 million in damages to Kai Spears, a former walk-on for the University of Alabama men's basketball team, after finding the New York Times defamed him by falsely reporting he was present at a fatal shooting in Tuscaloosa in January 2023. The verdict marks the first defamation loss the Times has sustained in over 50 years on one of its published articles. In a separate case, the Texas Third Court of Appeals unanimously reduced a $50 million judgment against Infowars founder Alex Jones to $1.5 million on technical grounds: Sandy Hook parents Neil Heslin and Scarlett Lewis did not show evidence that harassment exceeded Texas's $750,000 per-plaintiff damages cap, according to the court's reasoning. The $1.4 billion Connecticut judgment against Jones remains unchanged.",
+    "At Stars and Stripes, the Pentagon dismissed publisher Max Lederer, editor-in-chief Erik Slavin, and Middle East correspondent Lara Korte on Friday, citing insubordination over unauthorized participation in a CBS Sunday Morning segment. Lederer's refusal to fire Slavin and Korte at Pentagon direction contributed to his own dismissal. Slavin stated in a statement to Fox News Digital that he was fired for saying in a CBS interview that censorship of news for service members would constitute a red line. Lara Korte posted on X that she was informed the Department of Defense was firing her for insubordination after she told a CBS reporter that she works for Stars and Stripes, not the Pentagon, not any administration and not any policy maker. The fired staffers were granted five days to appeal. The dismissals follow a Pentagon overhaul announced in January 2026 by Chief Pentagon spokesman Sean Parnell, who said the Pentagon would return Stars and Stripes to its original mission of reporting for warfighters and eliminate what he called woke distractions.",
+    "On infrastructure, two systems tightened. The Panama Canal Authority announced Thursday that it will reduce daily vessel traffic from 36 to 32 ships starting September 15, citing low rainfall caused by El Ni\u00f1o. The reduction, phased in from September 3, affects one of the world's most critical trade chokepoints at a moment when global shipping already faces severe disruptions from conflict in the Middle East. Chief Justice John Roberts issued a temporary administrative stay on Friday allowing President Trump's White House ballroom construction to proceed, blocking lower court rulings that would have halted the above-ground portion of the $400 million project. The National Trust for Historic Preservation brought the legal challenge, arguing that the president lacked authority to proceed with the construction and objecting to the design on aesthetic grounds.",
+    "On Capitol Hill, California's 14th House District special election delivered a data point on AIPAC influence. State Senator Aisha Wahab won the special election for the seat, defeating fellow Democrat Melissa Hernandez with 53% to 47% when 95% of the expected vote was counted. Wahab will serve the remainder of former Rep. Eric Swalwell's term. Swalwell resigned from Congress in April; federal agents seized electronic devices from him as part of a criminal investigation into sexual misconduct allegations, according to reporting by CBS News. Agents seized an iPhone and a MacBook Pro during searches at San Francisco International Airport and his Washington residence."
+  ],
+  "sources": [
+    {
+      "title": "Albany Woman Charged with Attempting to Provide Material Support to ISIS, Plotting Capitol Attack",
+      "url": "/articles/albany-woman-charged-with-attempting-to-provide-material-support-to-isis-plotting-capitol-attack.html"
+    },
+    {
+      "title": "FBI Seizes Devices From Former Rep. Swalwell in Sexual Misconduct Probe",
+      "url": "/articles/fbi-seizes-devices-from-former-rep-swalwell-in-sexual-misconduct-probe.html"
+    },
+    {
+      "title": "Federal Reserve issues enforcement action with SouthPoint Bancshares, terminates Deutsche Bank order",
+      "url": "/articles/federal-reserve-issues-enforcement-action-with-southpoint-bancshares-terminates-deutsche-bank-order.html"
+    },
+    {
+      "title": "Five Western democracies condemn Israel's West Bank settlement tender",
+      "url": "/articles/five-western-democracies-condemn-israel-s-west-bank-settlement-tender.html"
+    },
+    {
+      "title": "Russia strikes Kyiv overnight; at least 17 killed, 40+ wounded; critical infrastructure hit",
+      "url": "/articles/russia-strikes-kyiv-overnight-at-least-17-killed-40-wounded-critical-infrastructure-hit.html"
+    },
+    {
+      "title": "Alabama jury awards $9.25 million to former basketball player in New York Times defamation case",
+      "url": "/articles/alabama-jury-awards-9-25-million-to-former-basketball-player-in-new-york-times-defamation-case.html"
+    },
+    {
+      "title": "Democrat Aisha Wahab wins California special election for Swalwell's House seat",
+      "url": "/articles/democrat-aisha-wahab-wins-california-special-election-for-swalwell-s-house-seat.html"
+    },
+    {
+      "title": "Eight killed in charter plane crash at Alaska military radar site",
+      "url": "/articles/eight-killed-in-charter-plane-crash-at-alaska-military-radar-site.html"
+    },
+    {
+      "title": "Ex-Abercrombie & Fitch Chief Fit to Stand Trial on Sex Trafficking Charges, Judge Rules",
+      "url": "/articles/ex-abercrombie-fitch-chief-fit-to-stand-trial-on-sex-trafficking-charges-judge-rules.html"
+    },
+    {
+      "title": "Ex-Kentucky Student-Athlete Pleads Guilty to Manslaughter in Infant Death",
+      "url": "/articles/ex-kentucky-student-athlete-pleads-guilty-to-manslaughter-in-infant-death.html"
+    },
+    {
+      "title": "Former Kentucky student-athlete pleads guilty to manslaughter in infant death",
+      "url": "/articles/former-kentucky-student-athlete-pleads-guilty-to-manslaughter-in-infant-death.html"
+    },
+    {
+      "title": "Hong Kong activists convicted under national security law for organizing Tiananmen vigils",
+      "url": "/articles/hong-kong-activists-convicted-under-national-security-law-for-organizing-tiananmen-vigils.html"
+    },
+    {
+      "title": "Israel re-establishes West Bank settlement Kadim with 30 families, reversing 2005 evacuation",
+      "url": "/articles/israel-re-establishes-west-bank-settlement-kadim-with-30-families-reversing-2005-evacuation.html"
+    },
+    {
+      "title": "Israel reestablishes Kadim settlement in West Bank with 30 families",
+      "url": "/articles/israel-reestablishes-kadim-settlement-in-west-bank-with-30-families.html"
+    },
+    {
+      "title": "Justice Department Secures $400M Settlement with TikTok and ByteDance Over Children's Privacy Violations",
+      "url": "/articles/justice-department-secures-400m-settlement-with-tiktok-and-bytedance-over-children-s-privacy-violations.html"
+    },
+    {
+      "title": "Panama Canal reducing daily ship traffic due to drought driven by El Ni\u00f1o",
+      "url": "/articles/panama-canal-reducing-daily-ship-traffic-due-to-drought-driven-by-el-ni-o.html"
+    },
+    {
+      "title": "Pentagon Fires Stars and Stripes Publisher and Top Editorial Staff Over CBS Interview",
+      "url": "/articles/pentagon-fires-stars-and-stripes-publisher-and-top-editorial-staff-over-cbs-interview.html"
+    },
+    {
+      "title": "Supreme Court allows Trump ballroom construction to continue",
+      "url": "/articles/supreme-court-allows-trump-ballroom-construction-to-continue.html"
+    },
+    {
+      "title": "Texas appeals court reduces $50M Sandy Hook judgment against Alex Jones to $1.5M",
+      "url": "/articles/texas-appeals-court-reduces-50m-sandy-hook-judgment-against-alex-jones-to-1-5m.html"
+    }
+  ]
+}

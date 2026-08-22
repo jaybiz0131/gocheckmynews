@@ -1,0 +1,58 @@
+{
+  "id": "c003",
+  "slug": "justice-department-secures-400m-settlement-with-tiktok-and-bytedance-over-children-s-privacy-violations",
+  "kind": "brief",
+  "title": "Justice Department Secures $400M Settlement with TikTok and ByteDance Over Children's Privacy Violations",
+  "dek": "The Department of Justice announced a $400 million settlement with TikTok and ByteDance resolving litigation over alleged violations of the Children's Online Privacy Protection Act. TikTok will pay $300 million immediately, with an additional $100 million contingent on vacating a prior consent decree related to its predecessor, Musical.ly. The settlement represents one of the largest recoveries in a COPPA case, according to the Justice Department.",
+  "date": "2026-08-21",
+  "published_utc": "2026-08-21T23:55:25Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 1,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The Justice Department secured a $400 million settlement with TikTok and ByteDance resolving COPPA litigation, with $300 million due immediately and $100 million contingent on vacating a prior Musical.ly consent decree.",
+  "bottom_line": "The settlement establishes a baseline for COPPA enforcement against major platforms but leaves open what specific compliance improvements will trigger the $100 million contingent payment and the timeline for vacating the Musical.ly consent decree. Watch whether TikTok implements the announced privacy and age-control measures on the schedule the department outlines in its monitoring framework.",
+  "human_take": "",
+  "body": [
+    "The Department of Justice announced a $400 million settlement with TikTok and ByteDance resolving litigation over alleged violations of the Children's Online Privacy Protection Act (COPPA), according to the Justice Department's official announcement. Per the department's statement, TikTok will pay $300 million immediately, with an additional $100 million due upon entry of an order vacating a prior consent decree entered against TikTok's predecessor, Musical.ly.",
+    "The settlement resolves litigation concerning compliance with COPPA and its implementing regulations. According to the Justice Department, the settlement represents one of the largest recoveries ever obtained in a COPPA case. The department filed its complaint in 2024 in the U.S. District Court for the Central District of California, handled by the Civil Division's Enforcement and Affirmative Litigation Branch on referral from the Federal Trade Commission.",
+    "Associate Attorney General Stanley E. Woodward Jr. stated that the settlement is \"a major victory for American children and parents\" and that \"the Department's priority is ensuring that children are protected online and that companies entrusted with their personal information meet their legal obligations.\" Assistant Attorney General Brett A. Shumate of the Civil Division said the resolution \"secures a significant monetary recovery and reflects the Department's commitment to ensuring children receive the full protections that Congress mandated.\"",
+    "Since the Justice Department filed its complaint in 2024, TikTok has undergone significant changes to its ownership, management, compliance functions, and privacy practices, implementing extensive measures designed to strengthen safeguards for younger users, improve age-related controls, and enhance parental oversight, according to the department's statement.",
+    "The Justice Department noted that the claims resolved in the settlement are allegations only, with no determination of liability. TikTok has not admitted wrongdoing as part of the resolution."
+  ],
+  "sources": [
+    {
+      "title": "U.S. Department of Justice",
+      "url": "https://www.justice.gov/opa/pr/justice-department-secures-400m-settlement-tiktok-and-bytedance-resolve-childrens-privacy"
+    },
+    {
+      "title": "The New York Times",
+      "url": "https://www.nytimes.com/2026/08/21/technology/tiktok-settlement-justice-department.html"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/policy/technology/6044396-doj-tiktok-privacy-fine/"
+    },
+    {
+      "title": "Washington Examiner",
+      "url": "https://www.washingtonexaminer.com/news/justice/4696859/doj-tiktok-pay-government-settlement-child-privacy-act-illegal-information-collecting/"
+    }
+  ],
+  "event_utc": "2026-08-21T12:00:00Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-21T23:55:25Z",
+    "sources_cited": 4,
+    "sources_live_checked": 2
+  },
+  "also_reported_by": [
+    {
+      "outlet": "The St Kitts Nevis Observer",
+      "headline": "United States: Justice Department Secures $400M Settlement with TikTok and ByteDance to Resolve Children\u2019s Privacy Litigation - The St Kitts Nevis Observer"
+    },
+    {
+      "outlet": "Deadline",
+      "headline": "TikTok To Pay $400M In Justice Department Settlement Over Children\u2019s Privacy - Deadline"
+    }
+  ]
+}

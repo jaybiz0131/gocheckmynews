@@ -8773,5 +8773,74 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-21",
+  "approved": 5,
+  "rejected": [
+   {
+    "id": "c014",
+    "headline": "Supreme Court Temporarily Allows White House Ballroom Construction to Continue",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief exists for this story. The instructions state: 'The writer's hard rule was: no fact exists outside the brief.' With no brief provided, every factual claim in the draft is unverified against source documentation. The draft contains multiple specific claims: that Chief Justice Roberts issued the order, that the project costs $400 million, that it concerns a White House ballroom, and that it involves a Trump administration initiative. Without a brief to trace these claims back to, the entire draft violates the core rule that facts must be sourced through the research process. The draft cannot be approved without a brief to validate its claims."
+    ]
+   },
+   {
+    "id": "c262",
+    "headline": "Pentagon updates casualty database on Iran war, reports 750+ wounded",
+    "category": "accuracy",
+    "reasons": [
+     "The brief's open_questions section explicitly flags that 'The headline and snippet reference Iran war beginning in \"late February 2026\"\u2014this is a future date relative to the story's first_seen timestamp of August 2026. Clarification is needed on the actual conflict timeline.' The draft presents 'late February 2026' as a straightforward fact without acknowledging this temporal inconsistency or uncertainty. A date presented as settled fact that the brief marks as unresolved is a smuggled claim.",
+     "The draft states 'The casualty figures are compiled from two tracking categories: Operation Epic Fury and the Overseas Operations category, per The Hill.' However, the brief's open_questions note that 'whether the 750+ figure includes only wounded or also killed in action' is unverified, and the data point merely says figures 'are combined from' these categories. The draft presents the categorization as verified fact when the source text was not provided and the mechanism remains unclear per the brief."
+    ]
+   },
+   {
+    "id": "c081",
+    "headline": "Texas appeals court reduces $50M Sandy Hook judgment against Alex Jones to $1.5M",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The reasoning behind the Texas court's reduction from $50 million to $1.5 million is not detailed in available reporting.' This sentence narrates the absence of information (the reasoning is absent from reporting). Per the instruction that 'the writer is forbidden from narrating absence,' this violates the rule against paraphrasing open_questions into the prose. The brief's open_questions explicitly note 'The specific reasoning for the reduction from $50M to $1.5M is not present in the fetched text,' meaning the writer should omit this absence rather than state it."
+    ]
+   },
+   {
+    "id": "c011",
+    "headline": "Albany Woman Charged with Attempting to Provide Material Support to ISIS and Plotting Capitol Attack",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief was provided for this story. The instruction states: 'every draft fact must then trace to the draft's own cited sources or be rejected.' The draft cites three sources (DOJ, NPR, Washington Post), but I cannot verify the facts against those sources because the source URLs are not accessible for verification in this review. The critical factual claims\u2014Bowie's age (35), location (Albany), the specific charges (material support to ISIS, Capitol attack plot), and her court appearance\u2014cannot be traced to provided brief data_points. Without access to verify against the actual source content, facts cannot be confirmed as accurate per the rule: 'A fact in the draft that is not in the brief is SMUGGLED and the draft is REJECTED.'",
+     "The draft mentions 'alleged plot' language which is appropriate for an active case, but without source verification available, the entire factual foundation is unverifiable."
+    ]
+   },
+   {
+    "id": "c117",
+    "headline": "Navy Discusses Renaming USS Doris Miller Aircraft Carrier After Trump",
+    "category": "balance",
+    "reasons": [
+     "The brief explicitly notes the bear_case contains one substantive item: 'The Guardian source text provided is truncated navigation markup without substantive reporting content, preventing extraction of any counterclaim or bear case material from that outlet.' This signals that the brief's own research identified the existence of counter-argument or alternative framing in reporting, but could not extract it. The open_questions also signal gaps: 'Has the White House or Defense Department made an official public statement confirming or denying the renaming discussions?' and 'Has any Navy or Defense Department official publicly commented on the rationale for considering the name change?'",
+     "The draft presents the renaming discussion as a straightforward factual report without any counter-evidence or official denial. It includes only the NBC News reporting and the framing of what Doris Miller accomplished. The brief's angle explicitly frames this as a controversy ('raising questions about how the military honors heroism and whose legacies it commemorates'), yet the draft reads as a neutral recitation of facts favoring the Miller narrative.",
+     "Critically, the draft quotes no statement from Defense Department, Navy, or White House officials defending or explaining the proposed change. It does not present any rationale for the renaming beyond the factual announcement of the discussion. A reader is left with only the heroism narrative and no official voice explaining the Trump administration's reasoning, which creates an imbalanced picture.",
+     "The sentence 'The Navy did not immediately respond to requests for comment on the potential name change, NBC News reports' acknowledges silence but does not constitute balance; it is a record of non-response, not a counterargument."
+    ]
+   },
+   {
+    "id": "c115",
+    "headline": "DHS confirms only 185 non-citizens on Nevada voter rolls after initial claim of 15,903",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The precise criteria DHS is using to review the remaining names, the timeline for completion, or the reasons for the discrepancy between the preliminary allegation and the confirmed count are not addressed in available reporting.' This sentence violates the no-narration-of-absence rule: it restates open_questions as though documenting what reporting does not contain, which amounts to fabricating absence. The brief itself documents that the source is truncated and bear_case explicitly notes 'The source text provided is severely truncated.' The writer is forbidden from narrating this gap in their own voice.",
+     "The draft also lacks any counter-evidence or bear_case material. The brief's bear_case notes that DHS denials or counterclaims are absent from the source, but this is a source failure, not a narrative failure. However, the bare-bones three-paragraph structure with only one side of the story present, combined with the absence-narration problem, leaves the piece too thin and exposed. A story this short with this serious a data collapse (15,903 to 185) and this much unresolved (14,000+ names) reads as rumor-laundering without any official defense of the allegation or explanation of the methodology."
+    ]
+   },
+   {
+    "id": "c085",
+    "headline": "SNAP food aid enrollment drops 13% in 12 months, steeper than government estimates",
+    "category": "compliance",
+    "reasons": [
+     "The brief explicitly flags 'boundary_required: true' and 'boundary_ok: false' with reason: 'this story turns on a version, date range or threshold but the brief carries no boundary block.' This is a hard compliance failure. The draft presents a 13% decline over a 12-month period as fact without any qualifying timestamp, context window, or official boundary-marking language (e.g., 'between [date] and [date]' or 'as of [date]'). The brief itself is thin (source_chars: 639, bear_case cites truncated/paywalled sources), and the data_points lack timestamps that would anchor the claim. Without boundary language, a reader has no way to know when this decline began, when it ended, or whether the 12 months is a rolling figure or a fixed period. This is essential context for a data claim of this magnitude.",
+     "Additionally, the draft states facts that the brief itself does not confirm: 'Work requirements and provisions of President Trump's spending bill are cited as contributing factors' appears in the data_points, but the brief's bear_case and open_questions reveal the sources are severely compromised (paywalled, truncated). The draft presents these as established fact without hedging language like 'reportedly' or 'according to reporting' that would match the sourcing weakness."
+    ]
+   }
+  ]
  }
 ]
