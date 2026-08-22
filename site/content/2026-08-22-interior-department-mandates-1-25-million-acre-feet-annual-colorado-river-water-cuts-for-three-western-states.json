@@ -1,0 +1,69 @@
+{
+  "id": "c266",
+  "slug": "interior-department-mandates-1-25-million-acre-feet-annual-colorado-river-water-cuts-for-three-western-states",
+  "kind": "brief",
+  "title": "Interior Department mandates 1.25 million acre-feet annual Colorado River water cuts for three Western states",
+  "dek": "The U.S. Department of the Interior announced mandatory reductions of 1.25 million acre-feet of Colorado River water annually for two years beginning in 2027 for California, Nevada, and Arizona, with possible additional cuts over the next decade. Arizona bears the largest cut at 760,000 acre-feet, while federal officials warned of potential future reductions as drought persists.",
+  "date": "2026-08-22",
+  "published_utc": "2026-08-22T09:57:12Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 2,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The Interior Department mandated a 1.25 million acre-feet annual water reduction for California, Nevada, and Arizona for 2027-2028, with Arizona losing 760,000 acre-feet, California 440,000 acre-feet, and Nevada 50,000 acre-feet.",
+  "bottom_line": "The two-year mandate provides near-term stability but leaves the long-term Colorado River allocation unresolved. Watch the states' ability to negotiate a permanent agreement by October, when current rules expire, and whether Lake Powell and Lake Mead water levels warrant even deeper cuts before 2029.",
+  "human_take": "",
+  "body": [
+    "The U.S. Department of the Interior announced Friday a reduction of 1.25 million acre-feet of Colorado River water annually for two years beginning in 2027 for the Lower Basin states of California, Nevada, and Arizona. The DOI warned that it could order additional cuts over the next 10 years, according to ABC News.",
+    "Arizona will see the largest reduction at 760,000 acre-feet, California will face a reduction of 440,000 acre-feet, and Nevada will lose 50,000 acre-feet, based on a voluntary agreement negotiated by those states in May, per ABC News. The DOI's operating guidelines also encourage the three states to \"voluntarily conserve and store at least 700,000 acre-feet of water over the two-year period to protect the system, in addition to the 1.25 million acre-feet per year of reductions,\" according to ABC.",
+    "The mandate breaks a stalemate that had left the seven Colorado River Basin states unable to reach consensus on sharing the river's water for the long term. Current rules governing the use of the river's water are set to expire in October, according to CBS News. Last winter saw the worst snowpack on record for the Colorado River Basin, and Lake Mead recently plummeted to its lowest level since it began filling nine decades ago, with Lake Powell reaching the same benchmark about a week later, CBS reported. The combined storage of Lake Mead and Lake Powell is the lowest it has been in nearly seven decades, according to CBS.",
+    "Secretary of the Interior Doug Burgess stated: \"Forty million people, millions of acres of farmland and ranchland, industries that power the American West, and some of our nation's fastest growing metropolitan areas depend on the Colorado River,\" per ABC News. The Colorado River serves as a water supply source to an estimated 35 million to 40 million people, according to the Bureau of Reclamation, per CBS News.",
+    "The DOI will try to keep Lake Powell at or above 3,510 feet, which is 20 feet above the point at which Glen Canyon Dam could no longer generate hydropower, according to ABC News. If the water in Lake Powell falls just 33 more feet, the reservoir will no longer meet the water levels needed to generate hydroelectric power, meaning the water cannot move through the dam into the Colorado River, CBS reported.",
+    "The agency did not mandate reductions to the Upper Basin states, including Colorado, Utah, Wyoming and New Mexico, as it does not have the same legal authority over the upper part of the Colorado River. However, it is asking those states to agree to operate the Flaming Gorge, Navajo and Aspinall reservoirs in order to send water down and protect Glen Canyon Dam, according to ABC. Neighboring Mexico will reduce its intake by 250,000 acre-feet under a U.S.-Mexico treaty, per CBS News.",
+    "The cuts are better than the worst-case scenario the federal government proposed in July, when it suggested the Lower Basin could face up to 3 million acre-feet of cuts per year, according to ABC. Andrea Travnicek, Interior's Assistant Secretary of Water and Science, stated: \"These decisions provide a water management strategy for Basin stakeholders to respond to the prolonged drought by incorporating flexible tools and voluntary actions while leaving room for consensus agreements,\" per ABC. Travnicek also said: \"We've been in this 26-year prolonged drought period. We continue to see a prolonged drought in our future. So continuing to work together as a whole within the basin is going to be extremely important,\" according to CBS.",
+    "Tom Buschatzke, Arizona Department of Water Resources director, stated: \"For 2027 and 2028, the reductions that are now memorialized here will provide substantial stability for folks. We'll continue to negotiate and figure out how we're going to operate over a longer-term period, which is what we all want,\" per CBS News. JB Hamby, California's chief Colorado River negotiator, said the plan brings \"some badly needed near-term certainty at a moment of extraordinary risk,\" though he called it \"a bridge, not a permanent solution,\" according to CBS. Kyle Roerink, senior adviser at the conservation group Great Basin Water Network, noted that efforts to build a new airport and shopping malls and some public land sales have not progressed in Southern Nevada, and further cuts could slow real estate development in metro Las Vegas, per CBS reporting."
+  ],
+  "sources": [
+    {
+      "title": "abcnews.com",
+      "url": "https://abcnews.com/US/federal-government-orders-steep-colorado-river-water-cuts/story?id=135856655"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/colorado-river-drastic-water-cuts-california-nevada-arizona-drought/"
+    }
+  ],
+  "event_utc": "2026-08-22T02:15:57Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-22T09:57:12Z",
+    "sources_cited": 2,
+    "sources_live_checked": 2
+  },
+  "also_reported_by": [
+    {
+      "outlet": "Maven's Notebook",
+      "headline": "COLORADO RIVER: Interior Department Finalizes Plans for 2027-2028 Colorado River Operations - Maven's Notebook"
+    },
+    {
+      "outlet": "ABC4 Utah",
+      "headline": "Interior Department finalizes Colorado River plan, prescribes minimum water level for Lake Powell - ABC4 Utah"
+    },
+    {
+      "outlet": "Havasu News",
+      "headline": "Interior Department sets deep Arizona water cuts under new Colorado River plan - Havasu News"
+    },
+    {
+      "outlet": "The Hill",
+      "headline": "Interior spares California, Arizona, Nevada from most dramatic short-term Colorado River water cuts - The Hill"
+    },
+    {
+      "outlet": "Quiver Quantitative",
+      "headline": "Press Release: Juan Ciscomani Responds to Interior Department\u2019s Colorado River Plan - Quiver Quantitative"
+    },
+    {
+      "outlet": "The Desert Review",
+      "headline": "Interior Department finalizes New Colorado River Operating Rules for 2027-2028 - The Desert Review"
+    }
+  ]
+}

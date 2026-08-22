@@ -8842,5 +8842,58 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-22",
+  "approved": 6,
+  "rejected": [
+   {
+    "id": "c007",
+    "headline": "U.S.-Canada trade talks collapse; 50% tariffs take effect on $20 billion Canadian goods",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Canadian Prime Minister Mark Carney announced that Canada would \"match those tariffs dollar for dollar to protect our workers and businesses,\"' but the brief data_point attributes this quote to Carney saying 'Canada will match those tariffs dollar for dollar to protect our workers and businesses.' The draft presents this as an announcement by Carney, while the brief only confirms NPR reported it; the draft does not clarify whether this is a direct quote, paraphrase, or reported statement, creating ambiguity about source.",
+     "The draft refers to 'Secretary of the Interior Doug Burgess' but the brief does not include this name or any Interior Secretary in the trade negotiation context. This appears to be an error\u2014the story is about U.S.-Canada trade negotiations, not Interior Department policy. Tracing this claim back to the brief reveals no such figure or statement in any data_point.",
+     "Critical factual claim appears outside brief: The draft opens with 'Trade negotiations between the U.S. and Canada failed to reach agreement before a midnight Friday deadline' but the brief's core_claim and data_points do not specify the day of the week or time of day. The draft later says 'effective Saturday' but no data_point confirms Saturday specifically\u2014only that tariffs became effective 'early Saturday' per NPR. The exact timing detail ('midnight Friday deadline') is not in the brief and is smuggled into the draft."
+    ]
+   },
+   {
+    "id": "c021",
+    "headline": "Russian strikes kill at least 2 in Ukraine; day after deadly shopping mall attack",
+    "category": "accuracy",
+    "reasons": [
+     "The draft calculates a total death toll ('at least 22 Ukrainian civilians') in the bottom_line that is not explicitly stated in the brief. The brief's data_points show: 2 killed Saturday (one in Kyiv warehouse, one in Zaporizhzhia), 16 killed Friday at mall, 6 killed Friday across Ukraine (4 in Mykolaiv including 3 children, 2 in Kharkiv), and 17 killed Thursday in Kyiv = 41 total. The draft's '22' figure does not appear in the research brief and appears to be derived from a partial sum (16 + 6) that excludes Thursday's 17 deaths. This is a smuggled arithmetic claim that does not trace to the brief.",
+     "The brief's data_point on Zaporizhzhia states 'a Russian drone killed one man and wounded four people,' but the draft also includes in the body a separate claim from a BBC data_point: 'Three people injured by a drone strike on a city minibus in Zaporizhzhia.' The draft conflates or double-counts Zaporizhzhia incidents without clarifying whether these are the same event or separate events, creating factual ambiguity."
+    ]
+   },
+   {
+    "id": "c009",
+    "headline": "Supreme Court temporarily allows Trump ballroom construction to continue",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief exists for this story. The instruction states 'the writer's hard rule was: no fact exists outside the brief.' With no brief provided, there is no research foundation to verify any claims in the draft. The single sentence of body copy contains multiple factual claims (that Chief Justice Roberts issued a stay, that it was issued Friday, that it allows construction to proceed, that the Supreme Court is considering the full case) that cannot be traced to any research document. The drafting protocol requires rejection when facts cannot be verified against a research brief.",
+     "The draft is extraordinarily thin\u2014a single sentence of body copy\u2014but the issue is not length; it is that without a brief, the factual claims are unverified against GoCheckMyNews's research standard."
+    ]
+   },
+   {
+    "id": "c244",
+    "headline": "Pentagon reports more than 750 U.S. service members wounded in Iran conflict",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'according to news reporting citing the department's casualty database' but the brief's open_questions explicitly note: 'The fetched Google News RSS source provides only HTML/JavaScript boilerplate with no readable article text; the data_points derive from the snippet alone.' The draft implies access to substantive reporting that the brief shows does not exist in the sources provided.",
+     "The draft claims 'The Pentagon updated its records this week' but this is drawn from a Google News RSS snippet that could not be verified; the brief notes 'the primary source document (Pentagon casualty database or press release) is not included in the briefing material.' No direct Pentagon source exists in the brief to confirm the timing or nature of the update.",
+     "The draft says casualty figures 'are described as reported rather than confirmed through direct access to the Pentagon's official casualty statement or database documentation'\u2014this is accurate to the brief's limits, but the opening sentence presents the 750+ figure as 'reported' by the Pentagon when it is actually reported by news outlets citing unclear sources. The attribution structure misrepresents the chain of custody."
+    ]
+   },
+   {
+    "id": "c076",
+    "headline": "SNAP enrollment declines 13% in 12 months, outpacing government projections",
+    "category": "accuracy",
+    "reasons": [
+     "The bottom_line contains a sentence that violates the rule against narrating absence: 'the gap between the official estimate and the observed rate, and the relative contribution of each policy change to disenrollment, remain unreported.' This restates open_questions as if they are facts the story failed to find, rather than acknowledging what the sources actually carry. The brief's open_questions are known unknowns; the draft should not present them as missing reportorial work.",
+     "The draft also includes in the body: 'The specific government estimate that the 13% figure exceeds, the exact provisions driving the largest share of disenrollment, the total number of people who have left the program, and any regional or demographic breakdown of those disenrolled are not detailed in available reporting.' This violates the same rule\u2014it narrates absence rather than staying within what the brief provides."
+    ]
+   }
+  ]
  }
 ]
