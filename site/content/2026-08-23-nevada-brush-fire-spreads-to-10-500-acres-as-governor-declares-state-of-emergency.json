@@ -1,0 +1,42 @@
+{
+  "id": "c138",
+  "slug": "nevada-brush-fire-spreads-to-10-500-acres-as-governor-declares-state-of-emergency",
+  "kind": "brief",
+  "title": "Nevada brush fire spreads to 10,500 acres as governor declares state of emergency",
+  "dek": "The Hawk Fire near Reno burned more than 10,500 acres on August 22, 2026, forcing evacuations of approximately 1,000 homes. Gov. Joe Lombardo declared a state of emergency for Washoe County as about 400 firefighters battled wind-driven flames that closed a hospital and major highway.",
+  "date": "2026-08-23",
+  "published_utc": "2026-08-23T15:54:10Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 7,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The Hawk Fire exploded to more than 10,500 acres and threatened approximately 1,000 homes near Reno, Nevada, on August 22, 2026, prompting a state of emergency declaration.",
+  "bottom_line": "Firefighting operations continued overnight with three helicopters in the air as crews sought to contain the fire's northeast advance and protect residential areas. Watch for updates on evacuation compliance and structure damage counts, and whether the lower fire weather threat for the West on Sunday translates to slowing the fire's growth rate.",
+  "human_take": "",
+  "body": [
+    "The Hawk Fire near Reno burned more than 10,500 acres as of Saturday evening, August 22, 2026, threatening approximately 1,000 homes in and around the Somersett residential community. Nevada Gov. Joe Lombardo declared a state of emergency for Washoe County as officials ordered new evacuations for areas including neighborhoods north of Somersett Parkway to Robb Drive, and areas north of West 7th Street to North McCarran Boulevard.",
+    "About 1,000 additional homes were placed in a \"Warning, GET SET\" zone, meaning residents were told to be ready to leave on short notice. Reno Mayor Hillary Schieve urged compliance with evacuation orders, stating: \"If you have been told to evacuate, please don't wait! Structures have already been burned in this fire and your life is more important than a building.\"",
+    "About 400 firefighters and other personnel from local, state and federal agencies were working the fire Saturday evening, both on the ground and from the air, according to Fox News reporting. Three helicopters were set to fly overnight as crews worked to protect homes and other property. The fire was moving northeast as of Saturday evening, per ABC News reporting.",
+    "Strong, gusty winds, low humidity and dry vegetation helped fuel the flames, according to the Truckee Meadows Fire Protection District. Truckee Meadows Fire and Rescue Chief Richard Edwards stated: \"The Hawk Fire is a very dynamic incident for us as it's being driven by the winds. The wind-driven fires move very rapidly into our residential areas, creating a lot of challenges for our firefighters to save homes and protect lives.\"",
+    "The fire's expansion forced wider infrastructure disruptions. Northwest Specialty Hospital in Reno announced Sunday that it was evacuating patients from the facility \"out of an abundance of caution,\" with the statement noting that \"patients have been safely transported to appropriate locations where their care will continue without interruption, no patients or staff remain in the building,\" according to ABC News. Northern Nevada Health Systems temporarily closed the emergency room at North Valleys north of Reno due to evacuations. Thousands of customers were without power and part of U.S. Highway 395 was closed, per ABC News reporting.",
+    "Washoe County Sheriff Darin Balaam stated that officials were keeping a close eye on the fire near a Washoe County correctional facility, noting: \"The safety and security of every incarcerated individual, as well as our staff, remains a top priority. We will continue to evaluate conditions and respond accordingly.\" Gov. Lombardo stated: \"This is an active and rapidly evolving situation, and I urge everyone in the affected areas to remain vigilant and follow the direction of local officials.\"",
+    "The fire weather threat was lower for the West as of early Sunday, but remained near-elevated for parts of the Northwest into the northern Rockies, according to ABC News."
+  ],
+  "sources": [
+    {
+      "title": "Fox News",
+      "url": "https://www.foxnews.com/us/nevada-brush-fire-spreads-10500-acres-governor-declares-state-emergency"
+    },
+    {
+      "title": "abcnews.com",
+      "url": "https://abcnews.com/US/fast-growing-hawk-fire-explodes-2500-acres-spurs/story?id=135876227"
+    }
+  ],
+  "event_utc": "2026-08-23T12:18:27Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-23T15:54:10Z",
+    "sources_cited": 2,
+    "sources_live_checked": 2
+  }
+}

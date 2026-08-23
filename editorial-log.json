@@ -9085,5 +9085,51 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-23",
+  "approved": 5,
+  "rejected": [
+   {
+    "id": "c071",
+    "headline": "U.S. imposes 50% tariffs on $20 billion in Canadian goods after trade talks collapse",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief was provided for this story, making it impossible to verify that facts trace to the brief per the hard rule. The instruction states: 'no fact exists outside the brief' and 'if the brief was thin (thin=true or few data_points), a tight short story is the CORRECT output.' Here, the absence of a brief means the entire story cannot be verified against research.",
+     "The draft cites sources (NYT, The Hill, Washington Examiner) but the approval instruction requires facts to trace to a DATA_POINT in the brief, not directly to external sources. Without a brief, there is no data_point layer to validate against.",
+     "Critical facts in the lead\u2014'50 percent tariffs on $20 billion in Canadian goods,' 'trade negotiations with Canada broke down,' 'Mark Carney, signaled they would retaliate dollar for dollar,' 'September 8' retaliation date\u2014have no corresponding data_points to anchor them."
+    ]
+   },
+   {
+    "id": "c055",
+    "headline": "Justice Department announces $400 million settlement with TikTok over children's privacy",
+    "category": "accuracy",
+    "reasons": [
+     "The brief flags the core claim as 'announced-not-verified' with confidence label explicitly set to that tier. The draft presents the settlement as fact without the qualifier language required by the hard rule: 'Confidence labels must survive: a brief claim marked \"unconfirmed\" or \"announced-not-verified\" must read that way in the prose.'",
+     "The draft's opening sentence 'The Justice Department announced a $400 million settlement with TikTok for unlawful collection of children's data' reads as a settled fact. The brief's single data_point is labeled 'announced-not-verified,' meaning the settlement amount and structure have been announced but not independently verified. The draft must signal this uncertainty.",
+     "The brief notes: 'the fetched source text is a page skeleton with no substantive reporting, leaving the claim unverified in the provided material.' This is a direct flag that the source does not actually carry the reported facts. The draft should not present unverified announcements as confirmed events."
+    ]
+   },
+   {
+    "id": "c003",
+    "headline": "Body camera footage reviewed in federal agent shooting during mental health crisis",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief was provided for this draft. The approval instructions state: 'every draft fact must then trace to the draft's own cited sources or be rejected.'",
+     "The draft cites a single NPR URL as its source, but the approver has no access to that source's content to verify the claims: that Neal's family was shown body camera footage, that Neal's attorney characterized the shooting as unjustified, or that Neal was experiencing a mental health crisis.",
+     "Critical facts about the incident (who shot Neal, whether they were a federal agent, whether it was a mental health crisis) cannot be verified against the source document provided to the approver.",
+     "Without the source text or a research brief mapping claims to data points, this draft cannot be approved under the hard rule that 'no fact exists outside the brief.'"
+    ]
+   },
+   {
+    "id": "c217",
+    "headline": "Pentagon fires editor-in-chief and publisher of Stars and Stripes",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The dismissals occurred on Friday, following a CBS Sunday Morning report in July about editorial independence concerns' but the brief's open_questions section explicitly notes that 'The specific editorial independence concerns that prompted the July CBS report are also not specified in current reporting.' The draft presents a causal relationship between the CBS report and the dismissals as established fact when the brief indicates the source material does not contain these specifics. This goes beyond what the brief supports.",
+     "The draft includes the sentence 'The particular editorial independence concerns that prompted the July CBS report are also not specified in current reporting' which violates the rule against narrating absence. Per the approval instructions: 'a sentence that does (restating open_questions, \"the absence of\", \"remains unreported\") is category \"accuracy\".'"
+    ]
+   }
+  ]
  }
 ]
