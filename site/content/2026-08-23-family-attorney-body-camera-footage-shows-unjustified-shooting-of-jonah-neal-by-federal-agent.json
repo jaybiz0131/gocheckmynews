@@ -1,0 +1,38 @@
+{
+  "id": "c001",
+  "slug": "family-attorney-body-camera-footage-shows-unjustified-shooting-of-jonah-neal-by-federal-agent",
+  "kind": "brief",
+  "title": "Family attorney: body camera footage shows unjustified shooting of Jonah Neal by federal agent",
+  "dek": "Jonah Neal's family attorney says body camera footage shows a federal Homeland Security Investigations agent unjustifiably shot the 25-year-old during a mental health crisis in Memphis in May 2026. The attorney observed the mother telling agents her son needed help, and one agent audibly saying Neal held a knife, not a firearm, seconds before the shooting.",
+  "date": "2026-08-23",
+  "published_utc": "2026-08-23T09:57:31Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 11,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Family attorney Andre Wharton told NPR that body camera footage shows a federal agent shot 25-year-old Jonah Neal without justification during a mental health crisis, with Neal's mother telling agents he needed help and an agent audibly stating Neal had a knife, not a gun, moments before the shot.",
+  "bottom_line": "The Tennessee Bureau of Investigation's ongoing investigation will determine whether the shooting meets legal standards for use of force. Watch for the completion of that investigation, any charging decision from the Shelby County District Attorney, and whether other families' claims produce additional body camera evidence with similar conclusions about training and response protocols.",
+  "human_take": "",
+  "body": [
+    "Body camera footage reviewed by the family of Jonah Neal shows a federal agent unjustifiably shot the 25-year-old during a mental health crisis in Memphis in late May 2026, according to attorney Andre Wharton, who viewed the video with Neal's mother.",
+    "Neal was shot inside his home after his mother called 911 on May 20 after finding him holding her handgun and threatening suicide. The agent who opened fire worked for Homeland Security Investigations, part of Immigration and Customs Enforcement, one of several federal agencies sent to Memphis at the direction of President Trump and Tennessee Governor Bill Lee to address local crime.",
+    "The Shelby County District Attorney's Office showed the body camera footage, recorded from the perspective of a second agent, not the one who fired. According to Wharton's observation of the footage, Neal's mother could be heard in the video telling federal agents that her son was experiencing a mental crisis and he needed help. Federal agents were positioned at the apartment front door while Neal was at a significant distance when the shooting occurred. In the footage, Wharton said, one federal agent audibly stated that Neal was not wielding a firearm but rather a knife. Seconds later, a second agent opened fire.",
+    "Wharton told NPR that the response was \"out of proportion with what they were facing\" and appeared to show a \"lack of good training and experience.\" He stated, \"The response that we were able to observe was just totally inconsistent with good law enforcement.\" At a press conference on Saturday, Neal's mother Jessica asserted that her son did not harm anyone leading up to the shooting, saying, \"My son did not hurt anybody. And, within 30 seconds, she decided his life was not worth it.\" Neal's grandmother Cindy Leachman Aldridge added that her grandson was \"not a lowlife, not a lawbreaker\" and stated, \"We're not giving up. We're gonna have justice.\"",
+    "Neal is one of five people who have been shot by a member of the Memphis Safe Task Force since it began last fall, according to NPR reporting. Four of the five incidents, including Neal's, turned deadly, per state data. Wharton is representing the families of two other victims of federal agent-involved shootings, including Tyrin Johnson, who was fatally shot by National Guard troops on July 5.",
+    "The Tennessee Bureau of Investigation declined to comment on the body camera footage, citing an ongoing investigation. The Shelby County District Attorney's Office did not respond to NPR's request to review the footage. State authorities have provided limited information about the shootings, including the names of the task force members who opened fire and whether they remain on duty.",
+    "The White House defended the task force's record. Spokesperson Lauren Bis told NPR the task force has made more than 11,000 arrests and seized more than 2,000 firearms, and stated, \"The Task Force has driven down violent crime in a city that had been failed by extreme Democrats soft on crime policies.\""
+  ],
+  "sources": [
+    {
+      "title": "NPR",
+      "url": "https://www.npr.org/2026/08/23/nx-s1-5936573/memphis-task-force-shooting-video-jonah-neal"
+    }
+  ],
+  "event_utc": "2026-08-23T09:00:00Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-23T09:57:31Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}
