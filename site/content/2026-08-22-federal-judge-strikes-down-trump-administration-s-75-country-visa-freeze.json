@@ -1,0 +1,76 @@
+{
+  "id": "c070",
+  "slug": "federal-judge-strikes-down-trump-administration-s-75-country-visa-freeze",
+  "kind": "brief",
+  "title": "Federal Judge Strikes Down Trump Administration's 75-Country Visa Freeze",
+  "dek": "U.S. District Judge Jeannette A. Vargas ruled the State Department's policy suspending immigrant visa issuance for nationals of 75 countries was contrary to law and exceeded Secretary of State Marco Rubio's statutory authority. The policy, announced in January, targeted countries deemed at high risk of producing immigrants dependent on public benefits. The judge found it imposed a nationality-based ban and usurped consular officers' statutory role in visa eligibility determinations.",
+  "date": "2026-08-22",
+  "published_utc": "2026-08-22T23:53:19Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 2,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "A federal judge ruled the Trump administration's freeze on immigrant visas for nationals of 75 countries violated immigration law by imposing a categorical nationality-based ban, vacating all denials based solely on that policy.",
+  "bottom_line": "Watch for whether the State Department appeals the decision or attempts to reissue visa denials on different legal grounds. The ruling does not prohibit nationality-based immigration restrictions through legislation or new policy frameworks, only this particular administrative freeze as applied.",
+  "human_take": "",
+  "body": [
+    "U.S. District Judge Jeannette A. Vargas issued a 61-page opinion ruling the State Department's policy suspending immigrant visa issuance for nationals of 75 countries was \"contrary to law and was issued in excess of Secretary Rubio's statutory authority,\" according to ABC News reporting. The policy, announced in January, had instructed U.S. embassies and consulates to suspend immigrant visa adjudications while the State Department reassessed its vetting procedures. The State Department stated the pause was intended to \"prevent the entry of foreign nationals who would take welfare and public benefits.\"",
+    "The 75-country list spans Africa, Latin America, the Caribbean, Eastern Europe, Southeast Asia, and the Middle East, per Fox News. Judge Vargas found the directive effectively imposed a nationality-based ban on immigrants from nearly 40% of the world's countries. Under the policy, even applicants who passed individual consular review and demonstrated they would not become dependent on public benefits were still refused visas if they came from one of the designated countries.",
+    "Vargas wrote in her opinion, per Fox News: \"While the Policy permits consular officers to exercise their normal functions up to a point, whatever determinations they make as to eligibility for the applicants subject to the Policy are ultimately irrelevant. The outcome is predetermined. The visa will be refused.\" She concluded: \"The Policy thus displaces consular officers from the role Congress assigned them in the visa issuance process.\"",
+    "The judge found the policy conflicted with federal immigration law, which gives consular officers \"exclusive authority and discretion\" to determine whether an immigrant is eligible for a visa, per ABC News. Vargas ruled: \"The Policy, which categorically prohibits the issuance of immigrant visas based upon the nationality of the applicant, represents a direct abrogation of this statutory scheme.\" She distinguished this case from the Supreme Court's 2018 ruling upholding the first-term travel ban, noting that prior decision involved presidential authority over border entry, while this case centered on whether the State Department could refuse visas to applicants otherwise eligible under law, per Fox News.",
+    "The Trump administration had argued the refusals were lawful because consular officers formally issued them under Section 221(g) of the Immigration and Nationality Act, an existing visa refusal provision. Vargas rejected that rationale. \"The Government engages in what is best described as an exercise in Orwellian logic,\" she wrote, per Fox News, because the government had failed to identify a law allowing an officer to deny a visa to an applicant already found eligible.",
+    "The lawsuit was brought by the Catholic Legal Immigration Network Inc., African Communities Together, five prospective employment-based immigrants, and six U.S. citizens seeking to bring family members to the country, per Fox News. Anna Gallagher, executive director of the Catholic Legal Immigration Network Inc., said the suspension had \"separated spouses, parents, and children who were simply following the legal immigration process,\" according to ABC News.",
+    "The ruling vacates visa denials based solely on the 75-country freeze and returns those cases to the government for further proceedings. It does not invalidate visa denials based on other independent grounds of ineligibility. The State Department did not immediately respond to requests for comment and has not indicated whether it will appeal, per ABC News."
+  ],
+  "sources": [
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/homenews/administration/6045057-federal-judge-blocks-trump-visa-ban/"
+    },
+    {
+      "title": "abcnews.com",
+      "url": "https://abcnews.com/Politics/judge-strikes-trump-administration-policy-suspended-immigrant-visas/story?id=135862935"
+    },
+    {
+      "title": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/politics/federal-judge-vacates-trump-policy-that-suspended-processing-of-immigration-visas-from-75-countries"
+    },
+    {
+      "title": "Fox News",
+      "url": "https://www.foxnews.com/politics/federal-judge-blasts-rubio-75-country-visa-freeze-orwellian-strikes-down-policy"
+    }
+  ],
+  "event_utc": "2026-08-22T15:38:14Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-22T23:53:19Z",
+    "sources_cited": 4,
+    "sources_live_checked": 3
+  },
+  "also_reported_by": [
+    {
+      "outlet": "Kurdistan24",
+      "headline": "Federal Judge Strikes Down Trump's Immigrant Visa Ban, Iraq Among 75 Affected Countries - Kurdistan24"
+    },
+    {
+      "outlet": "Radio Jamaica News Online",
+      "headline": "US Judge Strikes Down Blanket Visa Ban For Immigrants From 75 Countries - Radio Jamaica News Online"
+    },
+    {
+      "outlet": "SNJ Today",
+      "headline": "Judge Strikes Down Visa Suspension That Hit Nationals From 75 Countries, Calling Policy \u2018Contrary to Law\u2019 - SNJ Today"
+    },
+    {
+      "outlet": "Modern Ghana",
+      "headline": "\u200eUS Judge Strikes Down Trump's 75-Country Visa Freeze, Restoring Hope for Thousands of African Families \u200e - Modern Ghana"
+    },
+    {
+      "outlet": "KSLM Radio",
+      "headline": "Federal Judge Strikes Down Trump Administration's 75-Country Visa Suspension - KSLM Radio"
+    },
+    {
+      "outlet": "Voice of Nigeria",
+      "headline": "US Judge Strikes Down President Trump\u2019s Visa Suspension - Voice of Nigeria"
+    }
+  ]
+}

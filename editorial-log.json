@@ -8954,5 +8954,57 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-22",
+  "approved": 5,
+  "rejected": [
+   {
+    "id": "c008",
+    "headline": "U.S. Imposes 50% Tariffs on $20B Canadian Goods; Canada Pledges Retaliatory Tariffs Starting Sept. 8",
+    "category": "accuracy",
+    "reasons": [
+     "The draft attributes a quote to Prime Minister Carney ('Canada will match those tariffs dollar for dollar to protect our workers and businesses') that does not appear in the brief's data_points. The brief contains a paraphrased summary of this claim but the exact quote is not sourced to any data_point.",
+     "The draft states Canada's retaliatory tariffs are 'effective the Tuesday after Labour Day' and later 'set for Sept. 8,' but the brief's core_claim and data_points specify the date as 'Sept. 8' without confirming Sept. 8 is the Tuesday after Labour Day. The draft should not assert a calendar equivalence not verified in the source material.",
+     "The draft presents Greer's response as containing a specific quote about 'new demands and walk backs of other commitments' but the brief's data_point (claim 13) shows Greer's actual quote includes the phrase 'Despite the U.S. offer to Canada to receive the best treatment of any major exporter to our market, new demands and walk backs of other commitments by Canada have upended the careful balance reached in the past days.' The draft paraphrases this selectively and omits the opening clause about 'best treatment,' altering the framing of the U.S. position."
+    ]
+   },
+   {
+    "id": "c019",
+    "headline": "Rescuers dig through Ukraine mall wreckage as Zelensky condemns 'despicable' Russian strike",
+    "category": "accuracy",
+    "reasons": [
+     "Draft states 'According to BBC reporting, Russian attacks killed at least 6 civilians in separate strikes across the country: 4 in Mykolaiv, including 3 children, and 2 in Kharkiv.' However, the brief explicitly notes 'no brief exists for this story; every draft fact must then trace to the draft's own cited sources or be rejected.' The only source provided is a single BBC URL. Without access to verify that URL's content, and given the instruction that facts must trace either to a brief (which does not exist) or be verified from cited sources, this story cannot be approved. The writer has no research brief to anchor claims to, and the desk cannot verify the article's factual assertions against the source without seeing the source material itself.",
+     "The structure of a story with no supporting brief creates liability: every single fact\u2014death toll (16), injured count (130+), missing persons (4), locations cited, casualty counts by region\u2014must be individually traceable to the single source, and the approver has no evidence that verification occurred."
+    ]
+   },
+   {
+    "id": "c021",
+    "headline": "Stars and Stripes editor fired after CBS interview on censorship concerns",
+    "category": "accuracy",
+    "reasons": [
+     "The draft cites BBC News as the source for Slavin's firing and the CBS interview, but provides only one URL (BBC article). The critical claim that Slavin 'believes the termination followed a CBS interview' and that his remarks 'appear to have centered on editorial independence' cannot be verified against the single source provided. The draft attributes beliefs and interpretations to Slavin ('Slavin's characterization of his termination as a response to those specific comments') without establishing what Slavin actually said on record or to whom. The CBS interview itself is asserted but not sourced. Without access to the brief or multiple sources establishing what Slavin stated directly, the draft presents inference and belief as fact."
+    ]
+   },
+   {
+    "id": "c010",
+    "headline": "REJECTED: No research brief provided",
+    "category": "accuracy",
+    "reasons": [
+     "This is a meta-rejection (the draft itself is a rejection notice). It cannot be published as news content. The body is a statement about why the story cannot be drafted, not reporting. The URLs provided in sources are dated 2026, which creates temporal impossibility for verification. No research brief was provided, and per protocol, every fact must trace to either a brief or verified sources; the draft correctly identifies this failure but is not itself a publishable article."
+    ]
+   },
+   {
+    "id": "c052",
+    "headline": "Hong Kong convicts activists for Tiananmen vigils under national security law",
+    "category": "accuracy",
+    "reasons": [
+     "The draft omits a key data point present in the brief: the detail about Chow's courtroom reaction ('Chow smiled as the verdict was read out') and Lee's emotional response (showing 'little emotion as he made a heart gesture and folded his hands to show his gratitude'). These are verified details from the source that provide important context about the defendants' composure during the verdict and should be included.",
+     "The draft states 'In a separate case in 2021, Chow was arrested for allegedly inciting public participation in that year's vigil' but the brief specifies he was arrested in 'June 2021'\u2014a detail from the verified source that should be included if mentioned at all.",
+     "The draft omits the brief's data point that 'Chinese authorities described the HKA as a 'toxic tumour''\u2014a significant quote from the verified record that would strengthen the context around the prosecution.",
+     "The draft fails to include Chow's 2021 statement ('I am prepared to be arrested. That is how Hong Kong is now. I am willing to pay the price for fighting for democracy.'), which is a verified data point providing important context about the defendants' intent and mindset going into this case."
+    ]
+   }
+  ]
  }
 ]
