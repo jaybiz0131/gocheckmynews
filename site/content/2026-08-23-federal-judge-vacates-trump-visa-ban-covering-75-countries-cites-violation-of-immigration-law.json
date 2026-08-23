@@ -1,0 +1,48 @@
+{
+  "id": "c065",
+  "slug": "federal-judge-vacates-trump-visa-ban-covering-75-countries-cites-violation-of-immigration-law",
+  "kind": "brief",
+  "title": "Federal judge vacates Trump visa ban covering 75 countries, cites violation of immigration law",
+  "dek": "U.S. District Judge Jeannette Vargas struck down the Trump administration's policy suspending immigrant visa issuance to 75 countries, ruling it violated federal immigration law and exceeded Secretary of State authority. The ruling vacates the ban and requires reconsideration of visa denials made solely under the policy.",
+  "date": "2026-08-23",
+  "published_utc": "2026-08-23T00:06:54Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 2,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Judge Vargas found that the policy violated the Immigration and Nationality Act of 1952, which prohibits discrimination based on nationality in immigrant visa issuance, and exceeded Secretary of State Marco Rubio's legal authority.",
+  "bottom_line": "The State Department has not indicated whether it intends to appeal the ruling. The decision requires visa cases denied solely under the policy to be reconsidered, but the timeline for those reconsiderations and the total number of affected cases remain unclear. Watch for whether the administration will attempt to craft a modified policy that addresses the judge's legal objections.",
+  "human_take": "",
+  "body": [
+    "U.S. District Judge Jeannette A. Vargas struck down the Trump administration's policy suspending immigrant visa issuance to 75 countries in a 61-page decision issued Friday, August 22, 2026. The ruling found the policy violated federal immigration law and exceeded the legal authority of Secretary of State Marco Rubio.\nThe State Department announced the policy in January 2026, stating it was halting immigrant visas to citizens of Afghanistan, Brazil, Yemen and dozens of other countries because the administration determined people from those nations were likely to need public assistance. According to ABC News, the State Department said in January the pause was intended to \"prevent the entry of foreign nationals who would take welfare and public benefits\" and that the policy would \"remain active until the U.S. can ensure that new immigrants will not extract wealth from the American people.\"\nJudge Vargas found that the policy violated the Immigration and Nationality Act of 1952, which prohibits discrimination based on nationality in the issuance of immigrant visas. According to NPR's reporting, the judge wrote \"In many ways, this is not a challenging case\" and stated that the Trump administration's policy banned certain people from receiving immigrant visas \"based solely on their nationality.\" Vargas emphasized that the policy would have barred the U.S. government from issuing immigrant visas even in cases where consular officers individually assessed applicants and determined they were likely to be self-sufficient in the U.S., per NPR. The judge noted that a U.S. diplomatic cable instructed consulates to refuse immigrant visas to applicants who had already been approved but whose printed visas had not yet left the consulate, according to NPR.\nUnder federal immigration law, consular officers possess \"exclusive authority and discretion\" to determine whether an immigrant is eligible for a visa, per ABC News. Judge Vargas ruled that the policy \"categorically prohibits the issuance of immigrant visas based upon the nationality of the applicant\" and \"represents a direct abrogation of this statutory scheme,\" according to ABC News. Vargas determined the policy was \"contrary to law\" and exceeded Secretary Rubio's authority, per NPR.\nThe judge's ruling vacated the visa ban and also set aside visa denials that were based solely on the policy. According to ABC News, the ruling requires those cases to be reconsidered by consular officers under normal immigration laws.\nA State Department spokesperson told NPR the Trump administration is \"protecting the American people by upholding the highest standards of screening and vetting of visa applicants\" and that the administration does not comment on ongoing litigation. When the policy was announced, per ABC News, a State Department spokesman claimed it was designed to prevent \"those who would extract wealth from the American people\" and to \"deem ineligible potential immigrants who would become a public charge on the United States.\"\nSusan Welber, supervising attorney at The Legal Aid Society, which represented plaintiffs, said the 75-country visa ban was \"premised on a fiction\" that residents of the targeted nations are likely to use public resources if they come to the U.S. Anna Gallagher, executive director of the Catholic Legal Immigration Network, stated \"The suspension of lawful visa processing across 75 countries separated spouses, parents, and children who were simply following the legal immigration process.\" Antionette Dozier, senior attorney for Western Center on Law & Poverty representing the network, said the ruling \"means a return to fair, case-by-case review, and a chance to be reunited with their loved ones\" and stated \"No administration gets to override the law because it deems an applicant's nationality unacceptable.\"\nThis ruling comes after the Supreme Court upheld the constitutional right to birthright citizenship in June 2026, rejecting an executive order Trump signed that tried to bar citizenship for babies born in the U.S. to parents who either entered the country illegally or who are living and working here legally with temporary visas, per NPR. The Trump executive order on birthright citizenship never went into effect because lower court judges ruled it unconstitutional."
+  ],
+  "sources": [
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/homenews/administration/6045057-federal-judge-blocks-trump-visa-ban/"
+    },
+    {
+      "title": "NPR",
+      "url": "https://www.npr.org/2026/08/22/nx-s1-5941765/trump-immigration-visa-ban-75-countries"
+    },
+    {
+      "title": "abcnews.com",
+      "url": "https://abcnews.com/Politics/judge-strikes-trump-administration-policy-suspended-immigrant-visas/story?id=135862935"
+    },
+    {
+      "title": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/politics/federal-judge-vacates-trump-policy-that-suspended-processing-of-immigration-visas-from-75-countries"
+    },
+    {
+      "title": "Fox News",
+      "url": "https://www.foxnews.com/politics/federal-judge-blasts-rubio-75-country-visa-freeze-orwellian-strikes-down-policy"
+    }
+  ],
+  "event_utc": "2026-08-22T15:38:14Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-23T00:06:54Z",
+    "sources_cited": 5,
+    "sources_live_checked": 3
+  }
+}
