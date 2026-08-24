@@ -9298,5 +9298,38 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-24",
+  "approved": 6,
+  "rejected": [
+   {
+    "id": "c003",
+    "headline": "Sean Grayson, Ex-Deputy Convicted in Sonya Massey Shooting, Dies in Prison",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief was provided for this story. The approval instruction states: 'no brief exists for this story; every draft fact must then trace to the draft's own cited sources or be rejected.' The draft cites three news sources (NBC News, NPR, CBS News) but provides no URLs or direct quotes to verify against those sources. Without access to the source material itself or a research brief, facts cannot be verified. The claim that 'Grayson was diagnosed with Stage 3 colon cancer in 2023, one of his attorneys said previously' cannot be traced to the cited sources as presented, nor can the central claim of his death be verified as reported by these outlets from the information provided. The draft must be rejected because its factual claims cannot be verified against the sources it cites."
+    ]
+   },
+   {
+    "id": "c168",
+    "headline": "Former NIAID Adviser Pleads Guilty to Concealing Records on COVID-19 Origins",
+    "category": "compliance",
+    "reasons": [
+     "The bottom_line contains an advocacy-adjacent characterization that exceeds the desk's role. The phrase 'Morens's guilty plea to concealing records represents an admission on a contested question' presents a legal judgment ('admission') and then immediately hedges it with 'on a contested question' in a way that reads as the desk adopting a position on what the plea means\u2014namely, that it settles something. The instruction forbids 'a verdict on which side is correct.' The plea is a fact; what it proves about origins is contested, and the draft should not characterize the plea as settling or admitting to contested substance.",
+     "The brief's angle states: 'A senior federal health official's admission of guilt for hiding records about pandemic origins settles a contested question.' This is the writer's interpretation, not the desk's. The draft has absorbed this framing into its voice. The bottom_line repeats it: 'Morens's guilty plea to concealing records represents an admission on a contested question, though the identities and statements of other officials involved in the origins communications remain a subject of ongoing public debate.' This reads as the desk endorsing the angle's framing rather than reporting the fact neutrally.",
+     "While the draft does add appropriate hedge language ('The case enters the evidentiary record; interpretation of its significance for pandemic origins and federal transparency falls to independent fact-checkers and public discourse'), this does not cure the earlier adoption of the brief's interpretive frame in the bottom_line."
+    ]
+   },
+   {
+    "id": "c066",
+    "headline": "$400 million TikTok settlement announced by Justice Department over children's privacy",
+    "category": "clarity",
+    "reasons": [
+     "The brief is marked 'thin': true and notes the source text is 'incomplete and does not carry sufficient detail to build a full brief.' The draft correctly declines to narrate absent information and acknowledges the gaps. However, the entire story amounts to 119 words announcing a settlement amount and immediately stating that the sourced reporting contains no detail on violations, scope, or obligations. The opening sentence reports the settlement, but the second paragraph\u2014which is 40% of the body\u2014is meta-commentary that the story lacks the facts to explain what happened. This is not a story; it is a notice that no story can be written from the source. A reader receives only a dollar figure and a confession of incompleteness. The bottom_line correctly points forward to watch for real documents, but publishing a story that is mostly an explanation of why it cannot be a story fails the red-team test: this draft would embarrass the desk as filler that should have held for a fuller brief.",
+     "The story opens with 'announced Friday' but provides no date context for a reader to understand when Friday is or place the announcement in time. A thin story must be especially precise on when events occurred; vague temporal framing compounds the thinness."
+    ]
+   }
+  ]
  }
 ]

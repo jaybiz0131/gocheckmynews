@@ -1,0 +1,41 @@
+{
+  "id": "c235",
+  "slug": "five-people-and-multiple-animals-found-dead-on-rural-oregon-property-suspect-located-dead-in-washington",
+  "kind": "brief",
+  "title": "Five People and Multiple Animals Found Dead on Rural Oregon Property; Suspect Located Dead in Washington",
+  "dek": "Benjamin Charles Parker, 36, was identified as the suspect in the deaths of five people and several domestic animals found on a rural property near Forest Grove, Oregon on Saturday. Parker was found dead in his vehicle in Enumclaw, Washington on Sunday, believed to have died by suicide, according to NBC News reporting.",
+  "date": "2026-08-24",
+  "published_utc": "2026-08-24T11:13:22Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 9,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Five people and multiple animals were found dead on a rural property outside Forest Grove, Oregon; the identified suspect was found dead in Washington state.",
+  "bottom_line": "The investigation into the homicides is effectively closed with Parker's death, though the identities of the five victims remain unconfirmed. The motive and the precise nature of Parker's relationship to the victims are not stated in available reporting and may not be disclosed as the case concludes.",
+  "human_take": "",
+  "body": [
+    "Benjamin Charles Parker, 36, was identified as the suspect in the killings of five people and several domestic animals found on a rural property near Forest Grove, Oregon, according to NBC News reporting. Officers from the Enumclaw Police Department located Parker's vehicle in Enumclaw, Washington and found him deceased inside on Sunday. It is believed he died by suicide, per NBC News.",
+    "Sheriff's personnel responded Saturday morning to a 911 call about a vehicle fire in unincorporated Washington County, outside the city of Forest Grove, approximately 25 miles west of Portland. At the scene, they found the bodies of five people and several domestic animals. Washington County Sheriff Caprice Massey told reporters: \"I will say that in my 22 years here, I have not been a part of or witnessed a scene quite this complex involving this type of an investigation.\"",
+    "Detectives do not believe the homicide was random. According to Sheriff Massey's statement reported by NBC News, they believe Parker \"was known to the subjects.\" However, the identities of the five victims have not been confirmed, according to Washington County Sheriff's Detective Shannon Wilde, who said authorities are \"trying to confirm the identities of the victims.\" The number and types of animals killed are not specified in the available reporting.",
+    "Wilde described the scene at a news conference Sunday as a \"large scene\" on a rural property with other homes around and \"a lot of vegetation.\" Enumclaw is a small city in Washington state, approximately 190 miles northeast of the property where the bodies were discovered. According to the sheriff's office, there is no continued threat to the public."
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/news/us-news/suspect-quintuple-homicide-rural-property-portland-found-dead-rcna594055"
+    }
+  ],
+  "event_utc": "2026-08-24T02:19:35Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-24T11:13:22Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "also_reported_by": [
+    {
+      "outlet": "NewsCord",
+      "headline": "Benjamin Charles Parker Found Dead After Quintuple Homicide Near Forest Grove, Oregon: 11 outlets compared - NewsCord"
+    }
+  ]
+}
