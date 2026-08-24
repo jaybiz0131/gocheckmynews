@@ -1,0 +1,74 @@
+{
+  "id": "c250",
+  "slug": "hawk-fire-near-reno-forces-90-000-evacuations-state-of-emergency-declared",
+  "kind": "brief",
+  "title": "Hawk Fire near Reno forces 90,000 evacuations; state of emergency declared",
+  "dek": "A fast-moving wildfire that began Saturday in western Nevada has grown to more than 23 square miles, prompting authorities to order some 42,000 residents to evacuate immediately and place an additional 45,000 in evacuation warning zones near Reno. The fire has destroyed homes, injured at least six people, and prompted Gov. Joe Lombardo to declare a state of emergency and mobilize the Nevada National Guard.",
+  "date": "2026-08-24",
+  "published_utc": "2026-08-24T15:24:29Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 4,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Authorities ordered approximately 42,000 residents to evacuate as the fire spread across more than 23 square miles near Reno, with an additional 45,000 in warning zones.",
+  "bottom_line": "The Hawk Fire had zero containment as of Sunday evening, with authorities expecting continued high-intensity fire activity over the following 12 hours as shifting winds complicated containment efforts. Watch for updated destruction counts, final evacuation totals, and whether officials announce specific findings on the fire's human cause.",
+  "human_take": "",
+  "body": [
+    "A fast-moving wildfire that began Saturday in western Nevada has grown to more than 23 square miles as it spread across the Peavine Peak area of the Humboldt-Toiyabe National Forest, forcing tens of thousands from their homes. Authorities ordered some 42,000 residents to evacuate immediately as the fire's perimeter expanded, with an additional 45,000 people placed in evacuation warning zones. Reno, Nevada's largest city outside metro Las Vegas, has more than 280,000 residents.",
+    "The fire moved exceptionally fast Saturday night, jumping over fire trucks and making it difficult for responders to reach hot spots while residents attempted to leave. Per NBC News reporting, a fast-moving wildfire in western Nevada prompted a state of emergency and the evacuations near Reno. According to CBS News, shifting winds challenged firefighters trying to contain the blaze, with officials observing \"extreme fire behavior\" as gusts pushed flames through dry brush Sunday evening.",
+    "Authorities stated that \"over the next 12 hours, the fire is expected to continue to make moderate to high intensity runs in pockets of dense fuels,\" and urged residents to be prepared to stay away for several days. Washoe County Sheriff Darin Balaam said, \"Please get out if you can right now,\" describing how changing winds sent flames in different directions: \"It was extremely confusing.\" Per the official record, the fire had zero containment as of Sunday.",
+    "At least six people were injured, according to CBS News, including three first responders and three civilians. Officials stated the fire was \"human-caused\" but did not provide details on how they reached that conclusion or whether it was intentionally set or accidental. Officials said some structures were damaged or destroyed, but did not give specific numbers. Nearly 10,000 customers were without power in Washoe County on Sunday, down from 60,000 on Saturday. Portions of U.S. Route 395, a major north-south highway, were closed.",
+    "Gov. Joe Lombardo declared a state of emergency in Washoe County and mobilized the Nevada National Guard to support firefighting with two helicopter crews and 60 troops to help police evacuated neighborhoods. Some 800 fire personnel also responded. The Reno-Sparks Convention Center opened to evacuees, though pets could not be brought there. Two hospitals evacuated patients, and the sheriff's office kept watch on whether to evacuate the county jail. The Reno-Stead Airport closed to commercial flights but remained open for firefighting and military aircraft; Reno-Tahoe International was unaffected.",
+    "Casinos in Reno offered discounts on hotel rooms to evacuees. The University of Nevada, which has 20,000 undergraduates who moved into housing this weekend, was just outside the evacuation zone Sunday. Months of dry weather and a record lack of snow this past winter across the American West have created prime fire conditions. Earlier this month, wildfires in eastern Washington state forced the evacuation of 60,000 people in the Spokane area. Three wildfires north of Reno had previously forced more than 13,000 residents from their homes. On Saturday alone, 15 new fires popped up across Nevada, per CBS News reporting."
+  ],
+  "sources": [
+    {
+      "title": "today.com",
+      "url": "https://www.today.com/video/crews-battle-nevada-fire-millions-across-us-under-heat-alerts-268756549846"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/out-of-control-hawk-fire-in-reno-nevada-keeping-tens-of-thousands-evacuated/"
+    }
+  ],
+  "event_utc": "2026-08-24T11:12:04Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-24T15:24:29Z",
+    "sources_cited": 2,
+    "sources_live_checked": 2
+  },
+  "update_of": "hawk-fire-near-reno-forces-90-000-to-evacuate-as-blaze-tops-15-000-acres",
+  "also_reported_by": [
+    {
+      "outlet": "Marin Independent Journal",
+      "headline": "Map: Hawk Fire evacuation near Reno - Marin Independent Journal"
+    },
+    {
+      "outlet": "Reno Gazette Journal",
+      "headline": "Reno Hawk Fire updates Monday: Classes canceled; community meeting set - Reno Gazette Journal"
+    },
+    {
+      "outlet": "KRCR",
+      "headline": "PHOTOS: Hawk Fire tears through Reno area as officials say blaze was human-caused - KRCR"
+    },
+    {
+      "outlet": "Washington Times",
+      "headline": "5 questions about the Hawk Fire in Reno, Nevada - Washington Times"
+    },
+    {
+      "outlet": "Forbes",
+      "headline": "90,000 In Hawk Fire Evacuation Zone\u2014What To Know About Reno Blaze - Forbes"
+    },
+    {
+      "outlet": "KTVU",
+      "headline": "Fast-moving Hawk Fire burns over 15,000 acres near downtown Reno - KTVU"
+    }
+  ],
+  "boundary": {
+    "affected": "Some 42,000 residents have been ordered evacuated as the \"GO NOW\" zone expanded. An additional 45,000 people were in the adjacent evacuation warning zone.",
+    "fixed": "not specified in source texts",
+    "user_action": "Washoe County Sheriff Darin Balaam said: \"Please get out if you can right now.\" Authorities urged people to be prepared to stay away for several days.",
+    "advisory_url": "https://www.cbsnews.com/news/out-of-control-hawk-fire-in-reno-nevada-keeping-tens-of-thousands-evacuated/"
+  }
+}

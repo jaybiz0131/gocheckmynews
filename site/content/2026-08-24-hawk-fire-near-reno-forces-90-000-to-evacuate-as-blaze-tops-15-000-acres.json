@@ -84,5 +84,6 @@
     "fixed": "The sources do not provide specific geographic boundaries, model numbers, or lot codes for the affected area.",
     "user_action": "42,000 people have been ordered to 'go now'; another 45,000 have been told to 'be ready to evacuate' and should stay alert and have 'go bags' prepared.",
     "advisory_url": "No official first-party emergency management URL provided in source texts; evacuation information referenced as coming from local officials and Sheriff Darin Balaam of Washoe County."
-  }
+  },
+  "superseded_by": "hawk-fire-near-reno-forces-90-000-evacuations-state-of-emergency-declared"
 }
