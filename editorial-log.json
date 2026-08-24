@@ -9526,5 +9526,88 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-24",
+  "approved": 3,
+  "rejected": [
+   {
+    "id": "c007",
+    "headline": "Supreme Court pauses lower court ruling on Trump's mail voting order as hurdles loom",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states the order was 'issued in March' but the brief provides no timestamp for when Trump issued the executive order. This is a fact not found in the research brief.",
+     "The draft claims the order 'calls for...directs the U.S. Postal Service to deliver mail-in ballots only to voters on those lists.' The brief's data point says 'USPS is supposed to deliver mail-in ballots only to people on those lists,' which is paraphrase-compatible, but the draft's phrasing 'directs' presents it as a direct mandate, while the brief's 'supposed to' reflects the order's language, not established fact of implementation.",
+     "The draft states 'The order has not directly affected eligible absentee voters' ability to cast ballots by mail to date, per NPR.' The brief says 'has so far not directly affected eligible absentee voters' option to cast ballots by mail.' The word 'ability' vs. 'option' is a material difference\u2014'ability' is a factual claim about capacity, while 'option' is about availability/choice. The brief supports the latter, not the former."
+    ]
+   },
+   {
+    "id": "c008",
+    "headline": "Treasury Secretary Scott Bessent unveils new U.S. economic sanctions to isolate Iran",
+    "category": "accuracy",
+    "reasons": [
+     "The brief note explicitly states 'no brief exists for this story; every draft fact must then trace to the draft's own cited sources or be rejected.' The instruction set requires all facts to trace to the research brief OR for stories without a brief, to the draft's own cited sources. However, the instruction states: 'a fact in the draft that is not in the brief is SMUGGLED and the draft is REJECTED.' Since there is no brief, the story cannot meet the requirement that facts exist within the approved research structure.",
+     "Without a research brief, the draft cannot be verified against the desk's standard of pre-publication research validation. The sources are cited but not verified in a brief; the approval system requires briefing."
+    ]
+   },
+   {
+    "id": "c106",
+    "headline": "Trump hits back at Carney, threatens to hike auto, truck, metals tariffs to 50%",
+    "category": "accuracy",
+    "reasons": [
+     "The brief note states 'no brief exists for this story; every draft fact must then trace to the draft's own cited sources or be rejected.' Without a research brief, the story cannot meet the core requirement that facts are validated through the editorial research process before drafting.",
+     "The draft identifies Mark Carney as 'Canadian Prime Minister' but the brief does not exist to verify this title or recent context. The hard rule is that no fact exists outside the brief; without a brief, no fact can be approved."
+    ]
+   },
+   {
+    "id": "c012",
+    "headline": "Sean Grayson, ex-deputy convicted in Sonya Massey shooting, dies in prison",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief exists for this story. The instruction states 'every draft fact must then trace to the draft's own cited sources or be rejected.' The draft cites NBC News, NPR, and CBS News as sources but provides no source URLs or accessible source text. Without a brief or verifiable source text, the facts cannot be traced: (1) that Grayson died in prison, (2) that he was diagnosed with Stage 3 colon cancer in 2023, (3) that the cause of death remains unclear. These are factual claims about a named individual in a criminal case that require on-record verification.",
+     "The draft asserts conviction ('convicted of fatally shooting Sonya Massey') without a brief or cited court record to verify the verdict, verdict date, or charge outcome.",
+     "The bottom_line describes 'existing legal record or convictions related to the Massey shooting' without a brief establishing what those are."
+    ]
+   },
+   {
+    "id": "c072",
+    "headline": "Taiwan charges nine, including Nvidia and Super Micro staffers, in AI server smuggling case",
+    "category": "accuracy",
+    "reasons": [
+     "The brief notes the source text is 'truncated HTML (appears to be a navigation menu fragment) and does not contain the full article content.' The brief's own open_questions state: 'The source text provided is truncated HTML...specific details about the charges, the alleged smuggling scheme, individual defendant identities, sentencing exposure, and prior related enforcement actions are not available in the fetched text' and 'No statement from Nvidia, Super Micro, the defendants, or their legal representatives is included.'",
+     "The draft makes three factual claims: (1) 'nine people Monday' charged, (2) charges involved 'employees of Nvidia and Super Micro Computer,' (3) 'illegally exporting high-end AI servers to mainland China.' All three trace to PBS NewsHour data points in the brief, but the brief explicitly states the PBS source is truncated and incomplete. The writer cannot verify whether 'nine' is correct, whether these were Nvidia/Super Micro employees (not contractors or agents), or details of the alleged export scheme when the source is a navigation fragment.",
+     "The draft presents charges as settled fact without noting that a truncated source prevents full verification, creating liability exposure if details in the published sources differ from the draft's characterization."
+    ]
+   },
+   {
+    "id": "c256",
+    "headline": "FTC Requires Redfin and Zillow to Unwind Deal Restricting Apartment Listings",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The FTC announced a settlement requiring Redfin and Zillow to remove anticompetitive provisions' but the brief's data_points show only CBS News reported this; no primary FTC source or official statement is cited. The draft attributes the settlement facts to 'reporting by CBS News' in the lead but then switches to 'the FTC alleged' and 'the FTC said' without attribution in subsequent paragraphs, presenting secondary reporting as direct agency statements.",
+     "The draft claims 'Redfin will be required to reenter the market with more home listings' as settled fact. The brief shows this is what 'the FTC said' per CBS News reporting\u2014reported allegation, not confirmed settlement term. No primary settlement document or FTC official statement is sourced to verify the specific requirements imposed.",
+     "The lead states the case 'was scheduled to go to trial at a district court in Virginia' but the brief data_point says 'the FTC reached a deal with Zillow the morning the case was scheduled to go to trial'\u2014this implies Redfin's role in timing is unspecified in the source. The phrasing obscures whether Redfin was also part of the trial scheduling or settlement timing."
+    ]
+   },
+   {
+    "id": "c109",
+    "headline": "Trump administration reassigns all USCIS anti-fraud officers to South African refugee screening and voter investigation",
+    "category": "accuracy",
+    "reasons": [
+     "The brief itself flags critical gaps: 'The source text provided is truncated HTML markup and does not contain the full article body.' The brief's open_questions explicitly note the sourced reporting is incomplete\u2014no full article text was available to verify the core claim.",
+     "The draft presents as fact 'The Trump administration has reassigned all officers in the US Citizenship and Immigration Services Fraud Detection and National Security Directorate' without noting that the only source (Guardian article) was not fully fetched or verified. The brief shows the source_chars field contains 6000 characters of truncated markup, not a complete article.",
+     "The draft's own body admits uncertainty ('No official USCIS statement or timeline for the reassignment is available from the sourced reporting. The specific administrative basis for the order and the number of officers affected remain unconfirmed from the available materials.') but leads with the reassignment as established fact. This inverts the confidence: the lead treats allegations as confirmed, then the body hedges.",
+     "The brief's data_points all carry 'confidence: reported' (not verified-on-chain or verified), and the brief explicitly notes the source was truncated and key details cannot be verified. Publishing from a truncated, unverified source violates the hard rule: facts must trace to the brief, and this brief is admittedly incomplete."
+    ]
+   },
+   {
+    "id": "c036",
+    "headline": "Treasury Secretary Bessent announces US will sever all economic ties with Iran and isolate financial partners",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief exists for this story. The instruction states 'the writer's hard rule was: no fact exists outside the brief.' Without a brief, the sources cited (BBC News links) cannot be verified as valid URLs or as containing the reported claims. The draft makes specific factual assertions\u2014that Bessent announced US will 'sever all economic ties with Iran' and 'isolate any nation that provides financial support to Iran'\u2014but these cannot be traced to a data_point structure. The desk cannot approve a story when it has no research brief to validate against, and the URL formats provided appear to be example/placeholder links rather than verified reporting sources."
+    ]
+   }
+  ]
  }
 ]
