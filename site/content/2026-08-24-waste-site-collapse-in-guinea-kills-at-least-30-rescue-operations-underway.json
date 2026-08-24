@@ -1,0 +1,35 @@
+{
+  "id": "c030",
+  "slug": "waste-site-collapse-in-guinea-kills-at-least-30-rescue-operations-underway",
+  "kind": "brief",
+  "title": "Waste site collapse in Guinea kills at least 30; rescue operations underway",
+  "dek": "A mound of rubbish at a major waste site in Conakry, Guinea collapsed onto nearby homes after heavy rain, killing at least 30 people and injuring 22 others. Rescue operations involving military personnel are ongoing. The same site experienced a collapse in 2017 that killed 10 people.",
+  "date": "2026-08-24",
+  "published_utc": "2026-08-24T00:06:41Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 9,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "At least 30 people were killed when a rubbish mound at Conakry's main waste site collapsed onto neighboring homes after heavy rain.",
+  "bottom_line": "The final death toll will emerge as rescue operations conclude. Watch for official Guinean government statements on whether structural assessments or safety measures were implemented at the site since 2017, and for any investigation into how the waste mound was permitted to grow to a height that posed such acute danger to neighboring homes.",
+  "human_take": "",
+  "body": [
+    "A mound of rubbish at a major waste site in Conakry, Guinea collapsed onto nearby homes, killing at least 30 people. According to BBC reporting, the collapse occurred at about 02:00 local time following heavy rain overnight in the city's Dar-es-Salam area. Another 22 people were injured, including six seriously.",
+    "Rescue operations began immediately. According to BBC reporting, significant resources and personnel, including the military, have been deployed to search for survivors. Rescuers are using excavators to comb through the scattered rubbish at the site. Neighborhood leader Lancine Sylla told local media: \"We have pulled out 18 bodies that were taken to the morgue.\"",
+    "The human cost is stark. One woman told local media her five children had died in the disaster. According to BBC reporting, there are fears that the death toll will rise further as rescue efforts continue.",
+    "The collapse marks the second major failure at the site. Another landslide at the waste site killed 10 people in 2017, according to BBC reporting. No details are available on what structural or maintenance measures, if any, were undertaken at the site between the 2017 collapse and Friday's disaster."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c4g3g36z7p6o?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "event_utc": "2026-08-23T18:17:37Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-24T00:06:41Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}
