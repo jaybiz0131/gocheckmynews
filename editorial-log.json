@@ -9609,5 +9609,39 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-24",
+  "approved": 8,
+  "rejected": [
+   {
+    "id": "c008",
+    "headline": "Treasury announces new Iran sanctions campaign with threats to third-party trading partners",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief exists for this story. Per the hard rule, no fact exists outside the brief. The draft cites sources but the approver cannot verify facts against a research brief that was not provided. The entire draft must be rejected because there is no brief to validate against.",
+     "Additionally, the draft contains vague attributions ('according to reporting from multiple outlets,' 'according to reporting from the sources covering the announcement') that do not trace to specific claims in any research documentation.",
+     "The phrase 'characterized as an escalation' and 'characterized the campaign as an escalation' appears twice with different framings, and claims like Iran's 'seismic manner' response and the 'economic D-Day' characterization lack specific attribution to named sources within the draft body itself."
+    ]
+   },
+   {
+    "id": "c067",
+    "headline": "South Carolina Republicans return to polls for fourth election to fill Senate seat",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states Republicans will vote 'to participate in a special Senate GOP primary runoff' but omits the critical fact from the brief that they are voting to 'replace the late U.S. Sen. Lindsey Graham on the fall general election ballot.' The reason for the vacancy and the context of whom is being replaced are essential facts that the brief contains but the draft omits.",
+     "The brief identifies Lindsey Graham as 'late,' indicating he has passed away, which is a material fact that explains the entire electoral cycle. The draft's omission of Graham's name and the fact of his death leaves readers without crucial context for understanding why this special election is occurring.",
+     "The brief's open_questions flag that source text is truncated and candidate names, vote counts, and specific dates are missing from the fetched source. The draft provides no candidate information, no specific vote counts, and only the vague temporal reference 'Tuesday' without a date, which is inadequate for a breaking news election story."
+    ]
+   },
+   {
+    "id": "c074",
+    "headline": "Taiwan charges nine over alleged AI server exports to China",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'employees of Nvidia and Super Micro Computer were among those charged' as a factual claim. The brief's single data_point says only that nine people were charged for illegal exports, with the source being a PBS NewsHour article. The draft treats Nvidia and Super Micro employee involvement as established fact, but the brief does not confirm that employees of those specific companies were charged\u2014it only says that PBS reported the charges. The draft is attributing to PBS a level of specificity about corporate affiliation that the brief does not verify. The draft should either attribute the Nvidia/Super Micro detail explicitly to PBS or remove it if the underlying source does not confirm it."
+    ]
+   }
+  ]
  }
 ]

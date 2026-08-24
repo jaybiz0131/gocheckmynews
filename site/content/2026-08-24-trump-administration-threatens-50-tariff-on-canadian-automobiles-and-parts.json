@@ -1,0 +1,67 @@
+{
+  "id": "c107",
+  "slug": "trump-administration-threatens-50-tariff-on-canadian-automobiles-and-parts",
+  "kind": "brief",
+  "title": "Trump Administration Threatens 50% Tariff on Canadian Automobiles and Parts",
+  "dek": "The Trump administration is threatening a 50% tariff on Canadian automobiles and parts, set to take effect in January. The move escalates an ongoing trade dispute between the two countries. Minneapolis Federal Reserve President Kashkari has warned the tariff dispute could extend U.S. inflation.",
+  "date": "2026-08-24",
+  "published_utc": "2026-08-24T22:09:55Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 4,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Trump administration threatens 50% tariff on Canadian automobiles and parts, effective January.",
+  "bottom_line": "The tariff is set to take effect in January, contingent on no resolution in negotiations. Watch whether the U.S. and Canada reach a new trade agreement or whether either country adjusts the proposed rate before implementation.",
+  "human_take": "",
+  "body": [
+    "The Trump administration is threatening to impose a 50% tariff on automobiles and parts imported from Canada, with the measure set to take effect in January, according to reporting by the Wall Street Journal and CBS News. The move marks an escalation in the trade dispute between the two countries and reflects the collapse of ongoing negotiations.\nThe tariff threat comes as negotiations between the U.S. and Canada have stalled. According to the sources, the administration has signaled the tariff would apply to both finished vehicles and automotive components.\nThe sources covering the announcement include the Wall Street Journal, CBS News, and the Guardian. The tariff would represent a significant shift in trade policy between the neighboring countries and carries potential economic consequences for both U.S. and Canadian automakers and consumers."
+  ],
+  "sources": [
+    {
+      "title": "The Wall Street Journal",
+      "url": "https://www.wsj.com/economy/trade/trump-threatens-50-tariff-on-automobiles-and-parts-from-canada-83c10448?mod=rss_worldnews"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/trump-canadian-automotive-steel-tariffs/"
+    },
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/2026/aug/24/canada-tariff-increase-trump-auto"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/video/breaking-down-scott-bessents-comments-canada-tariffs-mark-carney/"
+    },
+    {
+      "title": "The Wall Street Journal",
+      "url": "https://www.wsj.com/opinion/donald-trump-auto-tariffs-50-percent-canada-ford-motors-7111dadb?mod=rss_worldnews"
+    }
+  ],
+  "event_utc": "2026-08-24T18:27:00Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-24T22:09:55Z",
+    "sources_cited": 5,
+    "sources_live_checked": 3
+  },
+  "update_of": "minneapolis-fed-president-kashkari-warns-canada-tariff-dispute-could-extend-u-s-inflation",
+  "also_reported_by": [
+    {
+      "outlet": "Road &amp; Track",
+      "headline": "Trump\u2019s Latest Tariff Threat Could Hit Canadian Cars, Trucks, and Auto Parts with 50% Levy - Road &amp; Track"
+    },
+    {
+      "outlet": "Carscoops",
+      "headline": "Trump Threatens 50% Tariffs On Canadian Cars, Ontario Threatens To Cut The Power (Updated) - Carscoops"
+    },
+    {
+      "outlet": "Trucks, Parts, Service",
+      "headline": "Trump announces 50% tariffs on Canadian trucks and auto parts effective Jan. 1 - Trucks, Parts, Service"
+    },
+    {
+      "outlet": "\u041c\u0435\u0436\u0430. \u041d\u043e\u0432\u0438\u043d\u0438 \u0423\u043a\u0440\u0430\u0457\u043d\u0438.",
+      "headline": "Trump Threatens 50% Tariffs on Canadian Vehicles and Auto Parts - \u041c\u0435\u0436\u0430. \u041d\u043e\u0432\u0438\u043d\u0438 \u0423\u043a\u0440\u0430\u0457\u043d\u0438."
+    }
+  ]
+}
