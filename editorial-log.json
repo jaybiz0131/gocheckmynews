@@ -9131,5 +9131,70 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-23",
+  "approved": 3,
+  "rejected": [
+   {
+    "id": "c006",
+    "headline": "Federal judge strikes down Trump's 75-country visa ban as illegal discrimination",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief exists for this story, per the input. The instruction is absolute: 'no fact exists outside the brief.' The draft contains multiple factual claims with zero research backing: the judge's ruling, the policy rationale, the legal grounds cited, all unsourced beyond a single NPR URL that is not verified against actual content in this exercise.",
+     "The draft asserts specific legal findings ('violated anti-discrimination law and exceeded the Secretary of State's statutory authority') without a brief to anchor them. A court ruling is a matter of public record but the desk's contract requires research brief documentation for every fact.",
+     "This story cannot be salvaged by cutting sentences because the entire premise\u2014a federal judge striking down a visa ban\u2014rests on a brief that does not exist. Without research documentation, the story must die."
+    ]
+   },
+   {
+    "id": "c072",
+    "headline": "Trump Administration releases two-year Colorado River operating plan with water cuts for lower basin",
+    "category": "accuracy",
+    "reasons": [
+     "Brief explicitly states 'data_points: []' (empty list) and 'thin: true' with only corrupted source material and open questions indicating no actual data were fetched.",
+     "Draft opens with 'mandates water cuts' but brief contains zero data_points confirming specific cuts exist, their magnitude, timeline, or allocation formula. This is a SMUGGLED fact\u2014stated as settled but unbacked by research.",
+     "Draft's own third paragraph admits 'Detailed information on the magnitude of the cuts, the timeline for implementation, and state-by-state allocation changes was not available in the fetched source material'\u2014this is the writer acknowledging the brief is empty, then publishing anyway with a confident lede that assumes the cuts exist and are mandated.",
+     "The open_questions in brief confirm source texts are corrupted (PBS is 'SVG path data') or truncated. No verification possible.",
+     "Draft cannot stand because the core claim ('mandates water cuts') is not documented in the brief's data_points. The story rests on an unverified central premise."
+    ]
+   },
+   {
+    "id": "c005",
+    "headline": "Family attorney says body camera footage shows federal agent's Memphis shooting was unjustified",
+    "category": "accuracy",
+    "reasons": [
+     "No brief exists for this story. The instruction states 'every draft fact must then trace to the draft's own cited sources or be rejected.' The draft cites only one NPR URL but provides multiple claims without on-record sourcing in the body: the characterization that body camera footage shows an 'unjustified shooting' is presented as the family attorney's position, but no direct quote or attribution to a statement is provided. The phrase 'The family's attorney characterized the footage as showing an unjustified shooting' and 'The family's assertion that the footage shows an unjustified shooting represents their legal position' both present the attorney's judgment without verifiable attribution to on-record statements in the NPR piece.",
+     "The draft makes claims about 'the appropriateness of police response protocols during mental health crises and the use of force standards that apply to federal agents on task forces' without sourcing these as part of NPR's reporting or as statements from the family/attorney.",
+     "Without access to the source material and without a brief to anchor claims, the draft cannot be verified to meet the hard rule: 'no fact exists outside the brief.' Here, no brief exists, so every sentence must stand on quoted or explicitly attributed reporting. Several sentences are paraphrased positions without clear on-record attribution."
+    ]
+   },
+   {
+    "id": "c207",
+    "headline": "Sean Grayson, convicted in killing of Sonya Massey, dies in prison",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states: 'According to NBC News reporting, Grayson had been diagnosed with Stage 3 colon cancer in 2023, a fact cited by his defense attorney at sentencing in January 2026.' However, the brief's corresponding data_point says 'Grayson was diagnosed with Stage 3 colon cancer in 2023, according to defense attorney Mark Wykoff at sentencing in January.' The draft incorrectly attributes this to sentencing in January 2026. The brief data_point does not specify a year for sentencing, but it appears from context and other data_points that sentencing occurred in January 2026. The draft's phrasing is technically correct but creates ambiguity. More critically, the draft earlier states Grayson had been 'battling Stage 4 colon cancer' (attributed to his attorney Daniel L. Fultz in the CBS reporting), then later says he was diagnosed with 'Stage 3' cancer in 2023. The brief contains both claims: Stage 4 from CBS (data_point 6: 'Grayson had been battling Stage 4 colon cancer') and Stage 3 from NBC (data_point 21: 'Grayson was diagnosed with Stage 3 colon cancer in 2023'). The draft does not reconcile these conflicting claims or note the discrepancy between Stage 3 (2023 diagnosis) and Stage 4 (current status at death). This is an accuracy problem: the draft presents both as fact without explaining the progression or the source conflict."
+    ]
+   },
+   {
+    "id": "c049",
+    "headline": "Ukrainian mall strike kills 16, leaves 4 missing as rescue efforts continue",
+    "category": "accuracy",
+    "reasons": [
+     "The draft cites 'BBC reporting' as the source for the death toll (16), injury count (130), and missing persons (4), but no research brief was provided for this story. The instruction is explicit: 'every draft fact must then trace to the draft's own cited sources or be rejected.' The draft lists a BBC URL as a source, but the approver cannot verify the facts against that source document itself\u2014only against a research brief. Without a brief to validate against, and given that the facts in the draft cannot be traced to research methodology (only to a hyperlink the approver cannot inspect), this is a smuggled fact pattern.",
+     "The draft presents a death toll and injury count with no confidence label or qualifying language ('according to reports,' 'reported by,' etc.) that would signal this is preliminary information from an ongoing incident. The facts read as settled."
+    ]
+   },
+   {
+    "id": "c093",
+    "headline": "House Democratic leader Jeffries met privately with Trump adviser Kushner",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Jared Kushner, the president's son-in-law and special envoy' as settled fact, but the brief data_point describes him as 'a close relative of Trump's' without the term 'son-in-law.' The draft has upgraded the relationship description beyond what the brief supports. The first sentence also describes Kushner as 'special envoy' without the fuller title from the brief ('special envoy for peace missions'); this is a minor omission but the phrasing reads as complete rather than simplified.",
+     "The draft states 'Kushner currently serves as special envoy for peace missions, focused largely on the Middle East and the Russia-Ukraine war, alongside another special envoy, Steve Witkoff' in paragraph 4, which is accurate to the brief. However, the opening sentence uses a shortened form that could mislead a reader about the scope of his role. This is a consistency problem within the same story.",
+     "The bear_case in the brief includes critical detail: 'NBC News source was granted anonymity without being authorized to speak about the private meeting and did not share details about when it took place or what was discussed, leaving the specifics of the collaboration unconfirmed.' This bear_case item does not appear in the draft. The draft presents the meeting, the location (Manhattan), the topics (housing, immigration, cost of living), and Jeffries's statement without flagging that an anonymous source and unconfirmed details are in tension with confidence claims."
+    ]
+   }
+  ]
  }
 ]

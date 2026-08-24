@@ -1,0 +1,64 @@
+{
+  "id": "c227",
+  "slug": "kyle-kirkwood-wins-first-ever-indycar-race-on-washington-s-pennsylvania-avenue",
+  "kind": "brief",
+  "title": "Kyle Kirkwood wins first-ever IndyCar race on Washington's Pennsylvania Avenue",
+  "dek": "The Freedom 250 Grand Prix, the first IndyCar race held on Washington D.C. streets, took place Sunday on a track running down Pennsylvania Avenue between the Capitol and White House. Kyle Kirkwood, racing for Andretti Global, started second but took the lead on the opening lap and held it to win. Cars reached speeds near 180 mph during the weekend.",
+  "date": "2026-08-23",
+  "published_utc": "2026-08-23T23:53:33Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 10,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Kyle Kirkwood won the Freedom 250 Grand Prix, the first-ever IndyCar race held on downtown Washington D.C. streets, which featured the longest straightaway running down Pennsylvania Avenue between the Capitol and the White House.",
+  "bottom_line": "The Freedom 250 marked a unique moment in American motorsport and civic space, bringing professional racing to the nation's capital for the 250th birthday. Whether this remains a singular event or becomes a recurring fixture depends on IndyCar's future interest and local appetite for the disruption the race brings.",
+  "human_take": "",
+  "body": [
+    "Kyle Kirkwood won the Freedom 250 Grand Prix on Sunday, August 23, 2026, in the first IndyCar race held on Washington D.C. streets, marking a once-in-a-generation motorsport event staged down Pennsylvania Avenue between the Capitol and the White House as part of the nation's 250th anniversary celebration.",
+    "Kirkwood, a Florida native racing for Andretti Global, started second but took the lead on the opening lap with a move around the outside of pole-sitter and championship leader Alex Palou in front of the National Archives, according to NBC News reporting. He completed 147 laps and stated in a postrace interview: \"You can't even put it in words. This is incredible. Man, that was a hard race. One hundred forty-seven laps. I'm out of breath right now.\"",
+    "The race course included seven corners and stretched past the D.C. courthouse and the Smithsonian's National Air and Space Museum, with cars reaching top speeds of about 180 mph during the weekend. President Donald Trump waved the green flag to start the race, and Transportation Secretary Sean Duffy waved the checkered flag at the finish, per NBC News reporting. Before the race, Trump took a lap of honor in the armored presidential limousine nicknamed \"The Beast,\" and the administration arranged an Air Force One flyover. Seven waves of military flyovers preceded the race, capped with a pass from all six branches of the military with a B-2 bomber as the centerpiece, according to NBC News reporting.",
+    "The event emerged from negotiations between President Trump and D.C. Mayor Muriel Bowser, who joined forces in January to launch the race on short notice. Congress rejected an originally planned loop around the Capitol because of advertising restrictions on Capitol grounds. Trump issued an executive order green-lighting the modified course after it became clear Congress would reject the original plan. Trump told Fox Sports: \"We were going around the Capitol, but this turned out to be a better track, and so now we see the Capitol. You see it right behind you. And I want everyone to be safe, and I want the people to have a good time.\"",
+    "Kirkwood's victory involved a chaotic final stretch. Driver David Malukas told NBC News: \"I think out of any track we've been to, this is the most distracting, especially coming out from that back straightaway. They're leading into the Capitol building.\" Malukas crashed one turn later on Lap 37, bringing out a caution flag. On the restart, Palou received a drive-through penalty for a pit stop infringement, ending his hopes of victory. Palou later hit the wall and broke his front wing, falling to the back. With three races left this season, Palou still leads the championship standings, per NBC News reporting, while Kirkwood, who took a chunk out of Palou's lead in D.C., remains distant second.",
+    "The race weekend drew corporate sponsors including Boeing, Starlink, Delta, Amazon, and Shell, according to NBC News reporting. D.C. Mayor Muriel Bowser estimated attendance at 140,000 for each day of the weekend and sold the event as a way to showcase the city and boost the economy. However, road closures and disruptions irked many locals. The federal courthouse canceled all hearings Friday ahead of the race, and flights in and out of National Airport were paused for several hours to accommodate the flyovers, stranding some commuters and forcing businesses to close as streets shut down for the weekend.",
+    "Official comments have previewed the potential for the race to become an annual spectacle, but IndyCar has no plans to return to Washington for another race, per NBC News reporting."
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/politics/trump-administration/kyle-kirkwood-wins-indycar-race-downtown-dc-us-250th-birthday-rcna593532"
+    }
+  ],
+  "event_utc": "2026-08-23T20:09:38Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-23T23:53:33Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "also_reported_by": [
+    {
+      "outlet": "ESPN",
+      "headline": "Kyle Kirkwood wins IndyCar Freedom 250 on streets of D.C. - ESPN"
+    },
+    {
+      "outlet": "NBC News",
+      "headline": "Kyle Kirkwood wins IndyCar race in downtown D.C. celebrating U.S. 250th birthday - NBC News"
+    },
+    {
+      "outlet": "Yahoo Sports",
+      "headline": "Kyle Kirkwood Wins Inaugural IndyCar Freedom 250 in Washington, D.C. - Yahoo Sports"
+    },
+    {
+      "outlet": "The New York Times",
+      "headline": "American Kyle Kirkwood wins IndyCar\u2019s Freedom 250 in Washington, D.C. - The New York Times"
+    },
+    {
+      "outlet": "FOX Sports",
+      "headline": "FINAL LAPS: Kyle Kirkwood takes checkered flag at Freedom 250 Grand Prix \ud83c\udfc1 INDYCAR on FOX - FOX Sports"
+    },
+    {
+      "outlet": "CBS News",
+      "headline": "Kyle Kirkwood wins Freedom 250 Grand Prix IndyCar race in the streets of Washington, D.C., after Trump kicks off race - CBS News"
+    }
+  ]
+}

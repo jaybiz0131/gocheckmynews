@@ -1,0 +1,53 @@
+{
+  "id": "c009",
+  "slug": "u-s-imposes-50-tariffs-on-20b-in-canadian-goods-canada-announces-matching-retaliation",
+  "kind": "brief",
+  "title": "U.S. imposes 50% tariffs on $20B in Canadian goods; Canada announces matching retaliation",
+  "dek": "The Trump administration began enforcing 50% tariffs on $20 billion worth of Canadian products including dairy, beverages, cement, and hockey equipment after trade negotiations collapsed. Canada announced matching retaliatory tariffs targeting American steel, dairy, appliances, agricultural equipment, pulp and paper, and electronics, set to take effect the Tuesday after Labour Day. Both sides blamed each other for the breakdown.",
+  "date": "2026-08-23",
+  "published_utc": "2026-08-23T23:53:33Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 2,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Fifty-percent tariffs on $20 billion in Canadian goods took effect after Friday night negotiations fell apart before a midnight deadline.",
+  "bottom_line": "U.S. imposed 50% tariffs on $20 billion in Canadian goods; Canada announced matching retaliation for September 8, marking a major trade escalation between neighbors.",
+  "human_take": "",
+  "body": [
+    "Trade negotiations between the United States and Canada collapsed Friday night before a midnight deadline, triggering an immediate enforcement of 50% tariffs on $20 billion worth of Canadian products, according to NPR's reporting. The tariffs apply to dairy products, alcoholic beverages, cement, and hockey equipment, according to NPR.",
+    "Canada has announced it will match those tariffs dollar for dollar, targeting American sectors including steel, dairy, appliances, agricultural equipment, pulp and paper, and electronics, per Prime Minister Mark Carney's statement to NPR. The retaliatory tariffs are set to take effect the Tuesday after Labour Day, per Carney's announcement.",
+    "U.S. Customs and Border Protection issued a bulletin to businesses Friday warning that its officers would ensure importers complied with the new rates starting immediately after the deadline passed, according to NPR. Earlier this week, the United States had agreed to provide tariff reductions on steel, aluminum, autos, and lumber to Canada, and had offered supply chain coordination on aerospace, critical minerals cooperation, enforcement against imports produced with forced labor, and the announcement of formal U.S.-Mexico-Canada Agreement (USMCA) negotiations, according to NPR reporting.",
+    "At a press conference Saturday, Carney said, \"You're at war when you get attacked. We got attacked,\" according to NPR. Carney blamed the U.S. for the collapse, saying, \"Last-minute changes in the U.S. proposed terms were unfair, uneconomic, and called into question the reliability of any deal,\" per NPR. In a social media statement, Carney said important progress had been made in recent weeks toward improving Canada's position but that progress did not meet Canada's objectives, according to NPR.",
+    "U.S. Trade Representative Jamieson Greer presented a different account. Greer said Canada had \"declined to finalize the trade deal under the terms agreed earlier this week,\" according to NPR. Greer stated, \"Despite the U.S. offer to Canada to receive the best treatment of any major exporter to our market, new demands and walk backs of other commitments by Canada have upended the careful balance reached in the past days,\" per NPR reporting.",
+    "President Trump posted on social media, \"Canada wants the benefits of being a State, without being one!!! They have also charged our great farmers, for many years, massive amounts of Tariffs. No more!!!\" according to NPR.",
+    "The Bottom Line: The tariff standoff marks a major trade escalation between the world's largest trading partners, with enforcement now in effect and Canadian retaliation set for early September. Watch whether either side signals willingness to return to negotiations before the second round of tariffs takes effect, or whether the dispute deepens into other policy domains."
+  ],
+  "sources": [
+    {
+      "title": "NPR",
+      "url": "https://www.npr.org/2026/08/22/nx-s1-5941584/us-canada-tariffs"
+    },
+    {
+      "title": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/economy/what-to-know-about-trumps-tariffs-on-canadian-goods-that-just-went-into-effect"
+    },
+    {
+      "title": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/economy/what-to-know-about-trumps-50-tariffs-on-canadian-goods-that-just-went-into-effect"
+    }
+  ],
+  "event_utc": "2026-08-22T04:36:27Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-23T23:53:33Z",
+    "sources_cited": 3,
+    "sources_live_checked": 2
+  },
+  "update_of": "u-s-tariffs-on-20-billion-in-canadian-goods-take-effect-canada-announces-matching-retaliation-for-september-8",
+  "also_reported_by": [
+    {
+      "outlet": "Yahoo! Finance Canada",
+      "headline": "US imposes 50% tariffs on $20 billion worth of Canadian products. Canada says it will retaliate - Yahoo! Finance Canada"
+    }
+  ]
+}
