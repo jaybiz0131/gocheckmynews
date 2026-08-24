@@ -1,0 +1,86 @@
+{
+  "id": "c001",
+  "slug": "treasury-announces-sweeping-iran-sanctions-as-tehran-warns-of-retaliation",
+  "kind": "brief",
+  "title": "Treasury Announces Sweeping Iran Sanctions as Tehran Warns of Retaliation",
+  "dek": "Treasury Secretary Scott Bessent announced new U.S. economic sanctions on Iran targeting networks across multiple regions, calling the measures \"Operation Economic Outcast.\" Iran's security chief vowed \"seismic\" retaliation and threatened to block oil tanker transit through the Persian Gulf.",
+  "date": "2026-08-24",
+  "published_utc": "2026-08-24T17:49:09Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 1,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The Treasury Department announced sanctions targeting brokers, companies, and shadow fleet vessels across the UAE, Hong Kong, China, Singapore, Switzerland, and Europe to disrupt Iran's oil revenue and starve the Islamic Revolutionary Guard Corps of funding.",
+  "bottom_line": "Bessent's announcement deepens U.S. economic pressure on Iran at a moment when ordinary Iranians are already facing severe economic hardship, while Rezaei's threats to block Persian Gulf oil shipments raise the risk of global energy disruption. Watch whether Iran follows through on targeting tankers and how international markets respond to the threat of further oil supply constraints.",
+  "human_take": "",
+  "body": [
+    "The U.S. Treasury Department announced new economic sanctions targeting Iran on August 24, escalating financial pressure on the regime as part of what the Trump administration calls \"Operation Economic Outcast.\"",
+    "Treasury Secretary Scott Bessent said the measures aim to isolate Iran economically. \"Our objective is to sever every economic lifeline that sustains this tyrannical regime until Tehran stands alone,\" according to Bessent's statement reported by NPR. President Trump characterized the sanctions as an \"economic D-Day,\" per NPR's reporting.",
+    "The sanctions target networks of brokers, companies, and shadow fleet vessels operating across the United Arab Emirates, Hong Kong, China, Singapore, Switzerland, and Europe, according to a Treasury Department statement obtained by NPR. These entities have been transporting Iranian oil and channeling revenue to the Islamic Revolutionary Guard Corps-Qods Force and other regime elements. China historically buys about 90 percent of Iran's oil exports, according to Bessent's criticism reported by NPR.",
+    "The announcement preceded significant economic disruption within Iran. The Iranian rial fell to a record low in anticipation of the sanctions, per NPR. The Iranian economy was already contracting before the sanctions announcement, with inflation reaching nearly 90 percent according to Iran's Statistical Center, reported by NPR. Ordinary Iranians have begun buying food on credit because they lack sufficient cash, and lifesaving medicines like insulin have become too expensive for many, according to an NPR-interviewed 30-year-old Iranian woman.",
+    "Iran has faced U.S. sanctions for nearly 50 years, stretching back to the 1979 Islamic Revolution. As recently as June, the U.S. imposed penalties on entities helping Iran evade existing financial restrictions. A months-long U.S. naval blockade has cut off most goods flowing into Iran from outside, per NPR's reporting.",
+    "In response, Iran's security chief Mohsen Rezaei vowed retaliation in an interview on state television over the weekend. Rezaei, a former commander of Iran's paramilitary Revolutionary Guard and current military adviser to Supreme Leader Mojtaba Khamenei, said Iran would respond in a \"seismic manner\" to what he characterized as economic warfare, according to NPR. He warned that countries partnering in the new restrictions would be considered enemies and targets of Iran. Rezaei specifically threatened to further target oil tankers transiting the Persian Gulf on the Omani side of the Strait of Hormuz, warning that \"not even a single drop of oil will leave the region,\" per NPR.",
+    "Energy exports from the Gulf region have already suffered the largest disruption in their history because of the war and Iran's closure of the Strait of Hormuz, according to NPR. A former U.S. diplomat involved in Iran nuclear negotiations, Alan Eyre, told NPR that the U.S. has already targeted \"the low-hanging fruit, the mid-hanging fruit, the high-hanging fruit, the tree,\" and questioned whether additional sanctions would be effective, according to NPR's reporting.",
+    "The escalation comes nearly six months into a U.S. and Israeli conflict with Iran. Iran has launched attacks on U.S. bases in Jordan and Gulf countries including the UAE, Kuwait, and Saudi Arabia, with several resulting in serious injuries and fatalities, per NPR. Economic pain and high cost of living drove Iranian street protests earlier this year that were met with a deadly government crackdown, reported by NPR."
+  ],
+  "sources": [
+    {
+      "title": "NPR",
+      "url": "https://www.npr.org/2026/08/24/g-s1-139743/treasury-secretary-scott-bessent-to-unveil-new-economic-sanctions-on-iran"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/video-clips/6046874-watch-live-scott-bessent-sanctions-iran-war/"
+    },
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/now/video/bessent-announces-new-iranian-sanctions-in-operation-economic-outcast-268773957580"
+    },
+    {
+      "title": "Washington Examiner",
+      "url": "https://www.washingtonexaminer.com/policy/defense/4698318/watch-live-bessent-announces-new-iran-sanctions/"
+    },
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/live/2026/aug/24/hakeem-jeffries-jared-kushner-democrats-midterm-elections-donald-trump-iran-war-sanctions-latest-news-updates"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-sanctions-strait-of-hormuz/"
+    }
+  ],
+  "event_utc": "2026-08-24T12:26:00Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-24T17:49:09Z",
+    "sources_cited": 6,
+    "sources_live_checked": 3
+  },
+  "update_of": "us-treasury-secretary-announces-economic-isolation-strategy-on-iran",
+  "also_reported_by": [
+    {
+      "outlet": "\u041c\u0435\u0436\u0430. \u041d\u043e\u0432\u0438\u043d\u0438 \u0423\u043a\u0440\u0430\u0457\u043d\u0438.",
+      "headline": "Trump Announces Sweeping Economic Operation Against Iran and Warns Supporters - \u041c\u0435\u0436\u0430. \u041d\u043e\u0432\u0438\u043d\u0438 \u0423\u043a\u0440\u0430\u0457\u043d\u0438."
+    },
+    {
+      "outlet": "gCaptain",
+      "headline": "Trump Treasury Issues Sweeping Iran Oil Waiver, Marking Sharp Break From 'Maximum Pressure' - gCaptain"
+    },
+    {
+      "outlet": "Bitcoin World",
+      "headline": "Trump Announces Sweeping New Economic Sanctions On Iran, Vows Maximum Pressure - Bitcoin World"
+    },
+    {
+      "outlet": "Bitcoin Magazine",
+      "headline": "U.S. Treasury Sanctions Iran's Largest Crypto Exchange In Sweeping Economic Warfare Push - Bitcoin Magazine"
+    },
+    {
+      "outlet": "ITTC Network",
+      "headline": "US Treasury Targets Iran\u2019s Shadow Banking Network in Sweeping New Sanctions Crackdown - ITTC Network"
+    },
+    {
+      "outlet": "Kurdistan24",
+      "headline": "U.S. Treasury Launches Largest Sanctions Package on Iran Since 2018 - Kurdistan24"
+    }
+  ]
+}

@@ -9471,5 +9471,60 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-24",
+  "approved": 5,
+  "rejected": [
+   {
+    "id": "c155",
+    "headline": "Trump Threatens 50% Tariffs on Canadian Autos and Steel",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief exists for this story. The draft cites three sources (NBC News, The Hill, Fox News), but the instruction requires every fact in the draft to trace to either a data_point in the brief OR to the draft's own cited sources when no brief exists. The draft makes specific factual claims (Trump threatened 50% tariffs on Canadian autos and steel on August 24) that cannot be verified against the provided sources without access to their full text. The desk cannot approve a story without verifiable source tracing. Additionally, the Fox News URL appears unrelated to the tariff story (it concerns a vulnerable GOP senator), suggesting source citations may be inaccurate."
+    ]
+   },
+   {
+    "id": "c005",
+    "headline": "Sean Grayson, ex-deputy convicted in Sonya Massey shooting, dies in prison",
+    "category": "accuracy",
+    "reasons": [
+     "The draft asserts facts that cannot be verified against the sourced material provided. The sources listed (NBC News, NPR, The Guardian, Fox News) are URLs with placeholder structures and future dates (2026), which are not authentic sources that can be checked. Without access to verifiable source material and with a brief that explicitly states 'no brief exists for this story; every draft fact must then trace to the draft's own cited sources or be rejected,' the core facts cannot be validated: (1) that Grayson died, (2) the circumstances of death, (3) the cancer diagnosis in 2023, (4) the 20-year sentence. The draft cannot stand without independently verifiable sources."
+    ]
+   },
+   {
+    "id": "c251",
+    "headline": "Father of USS Lincoln sailor detained by immigration authorities, family says",
+    "category": "accuracy",
+    "reasons": [
+     "The draft contains a factual discrepancy regarding the ship name. The title and body refer to 'USS Lincoln,' but the sourced material (CBS News URL) references 'USS Abraham Lincoln.' The story does not clarify which vessel is correct or explain the naming inconsistency. Additionally, the brief note requires all facts trace to cited sources, but the sources provided (NBC, CBS URLs) are placeholder structures without verifiable content, making independent confirmation of key facts impossible: the sailor's name (Joshua Aviles vs. the article's reference to 'Luis Manuel Aviles' in one URL) and the detention details. The draft cannot be approved when the sourced material cannot be accessed and internal consistency on basic identifiers fails."
+    ]
+   },
+   {
+    "id": "c037",
+    "headline": "U.S. Treasury Secretary Announces 'Greatest Financial Offensive' Against Iran",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief exists for this story. The instruction states 'every draft fact must then trace to the draft's own cited sources or be rejected.' The draft cites only one BBC source, but the critical claims\u2014that Bessent 'announced' severing 'all economic ties' and that he used the phrase 'greatest financial offensive'\u2014cannot be verified without access to the actual BBC article. The draft presents these as direct factual statements without conditional language. Without a brief to establish confidence levels and without being able to verify the claims in the cited source itself, the story cannot be approved.",
+     "The draft makes a specific claim that Bessent described measures as 'the greatest financial offensive' (in quotation marks, implying a direct quote) but provides no way to verify this quote matches the source material."
+    ]
+   },
+   {
+    "id": "c235",
+    "headline": "House Democratic Leader Jeffries met privately with Trump adviser Kushner",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief was provided for this story, which means all facts must trace to the cited sources or be rejected per the approval protocol. The draft cites only one source (ABC News article URL), but the approval system requires verification that facts in the draft actually appear in that source. Without access to the source document itself, I cannot verify that the meeting occurred, that it was private, that Kushner is described as 'an outside adviser to President Trump,' or that the three policy areas (housing, immigration, cost-of-living) are accurately reported. The protocol states: 'Trace every number, name, date, vote count, dollar figure, and factual claim in the draft back to a data_point in the brief.' With no brief and no source text provided for inspection, verification is impossible."
+    ]
+   },
+   {
+    "id": "c096",
+    "headline": "Five people and multiple animals found dead on rural Oregon property, suspect found dead in Washington",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief was provided for this story, which means all facts must trace to the cited sources or be rejected per the approval protocol. The draft cites NBC News and the Guardian, but without access to those source documents themselves, I cannot verify that five people were found dead, that multiple animals were found dead, that the location was a rural property in Oregon, or that a suspect was found dead in Washington. The approval system requires that facts be traceable to evidence; citation URLs alone do not constitute verification without the ability to inspect the content. The protocol is explicit: 'no fact exists outside the brief,' and when no brief exists, facts must be verifiable in the cited sources, which are not provided for inspection."
+    ]
+   }
+  ]
  }
 ]
