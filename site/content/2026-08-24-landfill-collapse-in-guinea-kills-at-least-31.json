@@ -1,0 +1,37 @@
+{
+  "id": "c040",
+  "slug": "landfill-collapse-in-guinea-kills-at-least-31",
+  "kind": "brief",
+  "title": "Landfill collapse in Guinea kills at least 31",
+  "dek": "A mound of rubbish at a major waste site in Conakry, Guinea collapsed onto nearby homes early Sunday, killing at least 31 people and injuring 22 others. The collapse followed heavy rain overnight and occurred in the Dar-es-Salam area. The government had ordered residents to evacuate and announced the landfill's closure for August 23, yet residents remained in proximity to the site.",
+  "date": "2026-08-24",
+  "published_utc": "2026-08-24T10:21:07Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 11,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "At least 31 people were killed when a rubbish mound collapsed onto homes in Guinea's capital after heavy rain, with rescue operations involving military personnel and fears the toll may rise.",
+  "bottom_line": "Rescue operations remain focused on locating survivors. The official death toll and the status of ongoing searches will be key indicators of the disaster's final scope. Watch for government statements on the causes of the collapse and any enforcement actions taken in the weeks before the scheduled closure.",
+  "human_take": "",
+  "body": [
+    "At least 31 people have been killed after a mound of rubbish at a major waste site collapsed onto nearby homes in Conakry, Guinea's capital, according to BBC reporting. The collapse occurred at about 02:00 local time on Sunday following heavy rain overnight in the Dar-es-Salam area. Another 22 people were injured, including six seriously.\nSignificant resources and personnel, including the military, were deployed to search for survivors. Neighbourhood leader Lancine Sylla said \"We have pulled out 18 bodies that were taken to the morgue.\" One woman told local media her five children had died in the disaster. There are fears that the death toll will rise further as rescue operations continue.\nHealth Minister Kha\u00effit\u00e9 Sall said the injured would receive free medical care and assured families of government support. Prime Minister Mamadou Oury Bah visited the scene to assess the situation and oversee search efforts.\nThe collapse is not the first at the site. Guinea experienced a similar landslide tragedy in 2017, when 10 people were killed at the same location. Before this week's disaster, the government had ordered people living close to the site to move, but many residents chose to remain.\nOpposition figure and former Prime Minister Cellou Dalein Diallo called the accident \"a tragedy that plunges us into dismay.\" He added, \"This tragedy is all the more worrying because the closure of the landfill had been announced for this Sunday, 23 August.\""
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c4g3g36z7p6o"
+    },
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c4g3g36z7p6o?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "event_utc": "2026-08-24T09:03:43Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-24T10:21:07Z",
+    "sources_cited": 2,
+    "sources_live_checked": 2
+  },
+  "update_of": "waste-site-collapse-in-guinea-kills-at-least-30-rescue-operations-underway"
+}

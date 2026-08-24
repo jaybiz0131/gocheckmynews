@@ -1,0 +1,88 @@
+{
+  "id": "c005",
+  "slug": "hawk-fire-near-reno-forces-90-000-to-evacuate-as-blaze-tops-15-000-acres",
+  "kind": "brief",
+  "title": "Hawk Fire near Reno forces 90,000 to evacuate as blaze tops 15,000 acres",
+  "dek": "The Hawk Fire has grown to more than 15,000 acres in the Sierra Nevada foothills since Saturday, forcing 42,000 residents to evacuate immediately and another 45,000 to prepare to leave. The fire, confirmed as human-caused, has injured at least six people and is being battled by some 800 emergency responders.",
+  "date": "2026-08-24",
+  "published_utc": "2026-08-24T10:21:07Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 1,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Some 42,000 people in Reno have been forced to evacuate, and another 45,000 have been told to prepare to leave, with the fire reaching the edge of the University of Nevada campus.",
+  "bottom_line": "The fire's containment timeline depends on weather conditions, particularly wind patterns, which officials say remain unpredictable. A shift toward calmer conditions or reduced wind speeds would materially alter the evacuation timeline and threat assessment for the University of Nevada campus.",
+  "human_take": "",
+  "body": [
+    "The Hawk Fire has grown to more than 15,000 acres in the foothills of the Sierra Nevada mountains since officials first received reports just after 11 a.m. Pacific Time on Saturday, according to NPR's reporting. The fast-moving blaze has forced immediate evacuation of 42,000 people in Reno and prompted another 45,000 residents to prepare to leave, with the evacuation zone reaching the edge of the University of Nevada campus by Sunday.",
+    "Red flag fire conditions, fueled by warm temperatures, low humidity and strong winds, have complicated containment efforts. According to Shane Akerson, a battalion chief with the Truckee Meadows Fire Protection District and one of three incident commanders for the Hawk Fire, the fire was human caused, though the investigation into the specific circumstances remains active.",
+    "At least six people, including three first responders and three civilians, have been injured, per NPR's reporting. Some 800 emergency responders are battling the blaze. Officials say people evacuating should be prepared to stay away from their homes for several days, as unpredictable winds continue to complicate firefighting operations. The Reno-Sparks Convention Center is receiving evacuees, with hundreds of people having spent Saturday night there.",
+    "Governor Joe Lombardo has activated the National Guard and declared a state of emergency in Washoe County, which includes Reno and parts of Lake Tahoe. The Hawk Fire is the third major wildfire to hit northern Nevada in recent weeks. The Bug Fire, which began August 8 just north of the Hawk Fire, has burned nearly 94,000 acres and is now around 94 percent contained, according to NPR. The Stallion Fire, which started two days later, is now 98 percent contained after claiming just over 40,000 acres.",
+    "Nationally, more than 7.7 million acres have burned in the U.S. this year, the largest year-to-date total in a decade, according to data from the National Interagency Fire Center cited by NPR. Firefighters are currently working to contain 79 large fires in 18 states."
+  ],
+  "sources": [
+    {
+      "title": "NPR",
+      "url": "https://www.npr.org/2026/08/23/g-s1-139729/thousands-forced-to-evacuate-parts-of-reno-nevada-as-new-wildfire-rages"
+    },
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/2026/aug/23/wildfire-reno-nevada-hawk-fire"
+    },
+    {
+      "title": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/nation/human-caused-wildfire-approaches-reno-nevada-forcing-thousands-of-evacuations"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/video/hawk-fire-videos-show-reno-nevada-blaze/"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/hawk-fire-reno-nevada-evacuations/"
+    },
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/videos/cy0zr8lkr8lo?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "event_utc": "2026-08-23T18:22:15Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-24T10:21:07Z",
+    "sources_cited": 6,
+    "sources_live_checked": 3
+  },
+  "also_reported_by": [
+    {
+      "outlet": "Reno Gazette Journal",
+      "headline": "Hawk Fire Sunday update: 15K acres; Reno-Sparks schools closed Monday - Reno Gazette Journal"
+    },
+    {
+      "outlet": "KTVU",
+      "headline": "Fast-moving Hawk Fire burns over 15,000 acres near downtown Reno - KTVU"
+    },
+    {
+      "outlet": "KSNV",
+      "headline": "Hawk Fire grows to 10,522 acres northwest of Reno; 0% contained - KSNV"
+    },
+    {
+      "outlet": "FOX5 Vegas",
+      "headline": "Reno\u2019s uncontained Hawk Fire was caused by humans, authorities say - FOX5 Vegas"
+    },
+    {
+      "outlet": "KTVN",
+      "headline": "Hawk Fire burns 15,000+ acres; 10,000 without power; human-caused | Fire Watch | 2news.com - KTVN"
+    },
+    {
+      "outlet": "This Is Reno",
+      "headline": "Nearly 90,000 affected by Hawk Fire evacuations - This Is Reno"
+    }
+  ],
+  "boundary": {
+    "affected": "Residents in evacuation zones near Reno, Nevada in Washoe County, including those within the zone reaching the edge of the University of Nevada campus.",
+    "fixed": "The sources do not provide specific geographic boundaries, model numbers, or lot codes for the affected area.",
+    "user_action": "42,000 people have been ordered to 'go now'; another 45,000 have been told to 'be ready to evacuate' and should stay alert and have 'go bags' prepared.",
+    "advisory_url": "No official first-party emergency management URL provided in source texts; evacuation information referenced as coming from local officials and Sheriff Darin Balaam of Washoe County."
+  }
+}
