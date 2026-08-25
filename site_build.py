@@ -366,6 +366,12 @@ def load_content():
                 continue
             c = json.load(open(os.path.join(CONTENT, fn), encoding="utf-8"))
             c.setdefault("slug", slugify(c.get("title", "")))
+            # Derived, not stored, so stories published before the flag existed are
+            # labelled too. Editions are excluded: a daily wrap cites the day's stories and
+            # is not a single-outlet claim.
+            if "developing" not in c:
+                c["developing"] = ((not _is_wrap(c)) and len(c.get("sources") or []) < 2
+                                   and not c.get("also_reported_by"))
             items.append(c)
     # newest first by date then id
     # newest date first; within a date, the editor's rank (1 = lead); unranked (intro,
@@ -598,12 +604,26 @@ def render_body(body):
     return "\n".join(out)
 
 
-def verdict_badge(verdict):
+def verdict_badge(verdict, item=None):
+    """The verdict, plus a developing flag when the story rests on a single outlet.
+
+    Ported from the crypto desk 2026-08-17. The two labels say different things and both
+    matter: "Verified" means the verifier checked the claims against the sources that
+    existed, "Developing" means only one outlet has carried it yet. Showing only the first
+    is the part that oversells, and an audit flagged reading "VERIFIED" directly above "no
+    independent outlet had corroborated it" as a contradiction the reader has to reconcile.
+    A story with corroboration is NOT developing whatever its citation count: the badge
+    discloses resting on one outlet's word, not a thin sources list."""
+    out = ""
     if verdict == "VERIFIED":
-        return '<span class="badge verified">Verified</span>'
-    if verdict in ("NEEDS-HUMAN-REVIEW", "REVIEW"):
-        return '<span class="badge review">Editor reviewed</span>'
-    return ""
+        out = '<span class="badge verified">Verified</span>'
+    elif verdict in ("NEEDS-HUMAN-REVIEW", "REVIEW"):
+        out = '<span class="badge review">Editor reviewed</span>'
+    if item is not None and item.get("developing"):
+        out += ('<span class="badge developing" title="Only one outlet has carried this so '
+                'far. The desk publishes it as developing rather than corroborated.">'
+                'Developing, single source</span>')
+    return out
 
 
 def sig_block():
@@ -672,7 +692,7 @@ def share_row(url, title):
 
 def render_article(item, all_items=None):
     dateline = fmt_date(item.get("date"))
-    badge = verdict_badge(item.get("verdict"))
+    badge = verdict_badge(item.get("verdict"), item)
     tag = f'<span class="tag">{esc(item.get("category","news"))}</span>' if item.get("category") else ""
     topic_chips = "".join(f'<span class="tag topic">{esc(t)}</span>' for t in tags_for(item))
     ribbon = ""
@@ -815,7 +835,7 @@ def render_article(item, all_items=None):
 # ---- cards / index / archive -------------------------------------------------
 
 def card(item):
-    badge = verdict_badge(item.get("verdict"))
+    badge = verdict_badge(item.get("verdict"), item)
     tag = f'<span class="tag">{esc(item.get("category","news"))}</span>' if item.get("category") else ""
     tag += "".join(f'<span class="tag topic">{esc(t)}</span>' for t in tags_for(item)[:2])
     href = f'/articles/{esc(item["slug"])}.html'
@@ -1020,7 +1040,7 @@ def render_news(items, dateline):
     if live:
         lead = live[0]
         rest = live[1:]
-        badge = verdict_badge(lead.get("verdict"))
+        badge = verdict_badge(lead.get("verdict"), lead)
         lead_tags = tags_for(lead)
         tag = (f'<span class="tag topic">{esc(lead_tags[0])}</span>' if lead_tags
                else f'<span class="tag">{esc(lead.get("category", "news"))}</span>')
@@ -1107,7 +1127,7 @@ def render_home(items, dateline):
                      f'<span class="hero-kick"><span class="kicker">Lead story</span>{lead_mark}'
                      f'{spectrum_chip(lead)}</span>'
                      f'<h3>{esc(lead.get("title"))}</h3>{dek_html}'
-                     f'<span class="hl-meta">{verdict_badge(lead.get("verdict"))}'
+                     f'<span class="hl-meta">{verdict_badge(lead.get("verdict"), lead)}'
                      f'<span class="dateline">{fmt_when(lead)}</span></span></a>')
         # The Bottom Line rides shotgun: the day's summary as the hero square beside the
         # lead, replacing the standalone band lower on the page.
@@ -1339,6 +1359,13 @@ def render_about(dateline):
   <p>We are not an advocacy shop, a partisan outlet, or an advice column, and nothing here
      is political advocacy, legal advice, or financial advice. We report what happened and,
      carefully, what it may mean. What you do with that is yours.</p>
+
+  <h2>Who writes this</h2>
+  <p>Stories carry the byline <b>Charles Independence</b>. That is the desk's shared
+     byline, not an individual: it marks work produced to this desk's standards rather
+     than claiming a particular person wrote it. On a site whose whole argument is that
+     nothing here is dressed up, that is worth saying plainly. Where a human take appears,
+     it is labelled as one.</p>
 
   <h2>Contact the desk</h2>
   <p class="operator">This website is operated by Go Check My Brands LLC, a South Carolina limited liability company. Contact: hello@gocheckmynews.com.</p>
