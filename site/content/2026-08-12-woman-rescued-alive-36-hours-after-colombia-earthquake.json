@@ -1,65 +1,65 @@
 {
-  "id": "c034",
-  "slug": "woman-rescued-alive-36-hours-after-colombia-earthquake",
-  "kind": "brief",
-  "title": "Woman rescued alive 36 hours after Colombia earthquake",
-  "dek": "Daniela Largo, a 32-year-old woman, was pulled alive from beneath four concrete slabs in Pereira, Colombia, after a 36-hour entrapment following a 7.4-magnitude earthquake. A 10-hour rescue operation involving firefighters and disaster response teams extracted her on August 12, 2026. At least 188 people have died in the earthquake, with hundreds remaining missing.",
-  "date": "2026-08-12",
-  "published_utc": "2026-08-12T12:06:13Z",
-  "category": "news",
+ "id": "c034",
+ "slug": "woman-rescued-alive-36-hours-after-colombia-earthquake",
+ "kind": "brief",
+ "title": "Woman rescued alive 36 hours after Colombia earthquake",
+ "dek": "Daniela Largo, a 32-year-old woman, was pulled alive from beneath four concrete slabs in Pereira, Colombia, after a 36-hour entrapment following a 7.4-magnitude earthquake. A 10-hour rescue operation involving firefighters and disaster response teams extracted her on August 12, 2026. At least 188 people have died in the earthquake, with hundreds remaining missing.",
+ "date": "2026-08-12",
+ "published_utc": "2026-08-12T12:06:13Z",
+ "category": "news",
+ "verdict": "VERIFIED",
+ "rank": 6,
+ "author": "The GoCheckMyNews Desk",
+ "key_fact": "Largo was rescued alive after 36 hours trapped under rubble, requiring a two-tunnel excavation operation beneath four concrete slabs, offering a rare moment of hope amid the disaster.",
+ "bottom_line": "Largo's extraction marks an exception rather than a trend: the vast majority of people pulled from rubble in the first 72 hours of earthquakes do not survive. Watch for updates on the remaining trapped and missing in both Pereira and Cali, and track whether rescue operations yield additional survivors or shift toward recovery of the deceased.",
+ "human_take": "",
+ "body": [
+  "A 32-year-old woman was pulled alive from beneath four concrete slabs in Pereira, Colombia, on August 12, 2026, after 36 hours of entrapment following a 7.4-magnitude earthquake that struck on Monday at 07:34 local time. The 10-hour rescue operation offered a rare moment of survival in a disaster that has claimed at least 188 lives and left hundreds more missing, according to BBC News.",
+  "Daniela Largo was pulled from beneath a collapsed building in the city of Pereira, per BBC News. Firefighters reached her via a tunnel they dug below the concrete slabs under which she had been buried. The rescue required a coordinated effort: local firefighters aided by colleagues deployed from the capital, Bogota, and the disaster response team of the national police force had to dig two tunnels to reach Largo, according to BBC News. Through one opening, dug from above, emergency workers were able to provide Largo with oxygen. It was only through a second tunnel, dug from below, that emergency workers were able to free her, per BBC News. Emergency workers located Largo with the help of a small camera, according to BBC News.",
+  "Largo's mother told AFP news agency that a local resident had heard her daughter cry out for help from beneath the rubble, enabling the rescue effort to locate her. At home, according to her mother's account carried by BBC News, Largo's 12-year-old son was waiting for her.",
+  "The earthquake's epicenter was near the village of San Jose del Palmar, in Choco province. Seismometers nearest the epicenter registered shaking lasting between 90 seconds and two minutes. There have been more than 100 aftershocks since the main earthquake, according to BBC News. The death toll and scale of damage remain severe. At least 188 people have died in the earthquake, according to official figures, and hundreds remain missing, per BBC News. In Pereira, 79 people are confirmed to have died, the second-highest number after Cali, where 95 are dead, according to figures by the Association of Colombian Capital Cities (Asocapitales). In Pereira, at least 92 buildings collapsed. In Pereira, fifteen people are known to be trapped and another 37 have been reported missing, according to Asocapitales.",
+  "Cali remains the hardest hit. In Cali, Colombia's third most populous city, more than 200 people remained trapped as of 16:00 local time on Tuesday, according to BBC News. Cali's mayor declared a night-time curfew and said that soldiers would be on patrol in the worst-hit areas of Cali. Cali's mayor stated: We need to ensure that the rescue work can be carried out safely, adding that there was still hope of finding more people alive and everyone would do their utmost to free those trapped, per BBC News. In Cali, 87 people have been rescued so far, according to BBC News.",
+  "Colombian President Abelardo de la Espriella celebrated Largo's rescue on social media, describing it as news which fills us with hope, per BBC News."
+ ],
+ "sources": [
+  {
+   "title": "BBC News",
+   "url": "https://www.bbc.co.uk/news/articles/cz7d2e5wlgno?at_medium=RSS&at_campaign=rss"
+  }
+ ],
+ "event_utc": "2026-08-12T11:28:02Z",
+ "verification": {
   "verdict": "VERIFIED",
-  "rank": 6,
-  "author": "The GoCheckMyNews Desk",
-  "key_fact": "Largo was rescued alive after 36 hours trapped under rubble, requiring a two-tunnel excavation operation beneath four concrete slabs, offering a rare moment of hope amid the disaster.",
-  "bottom_line": "Largo's extraction marks an exception rather than a trend: the vast majority of people pulled from rubble in the first 72 hours of earthquakes do not survive. Watch for updates on the remaining trapped and missing in both Pereira and Cali, and track whether rescue operations yield additional survivors or shift toward recovery of the deceased.",
-  "human_take": "",
-  "body": [
-    "A 32-year-old woman was pulled alive from beneath four concrete slabs in Pereira, Colombia, on August 12, 2026, after 36 hours of entrapment following a 7.4-magnitude earthquake that struck on Monday at 07:34 local time. The 10-hour rescue operation offered a rare moment of survival in a disaster that has claimed at least 188 lives and left hundreds more missing, according to BBC News.",
-    "Daniela Largo was pulled from beneath a collapsed building in the city of Pereira, per BBC News. Firefighters reached her via a tunnel they dug below the concrete slabs under which she had been buried. The rescue required a coordinated effort: local firefighters aided by colleagues deployed from the capital, Bogota, and the disaster response team of the national police force had to dig two tunnels to reach Largo, according to BBC News. Through one opening, dug from above, emergency workers were able to provide Largo with oxygen. It was only through a second tunnel, dug from below, that emergency workers were able to free her, per BBC News. Emergency workers located Largo with the help of a small camera, according to BBC News.",
-    "Largo's mother told AFP news agency that a local resident had heard her daughter cry out for help from beneath the rubble, enabling the rescue effort to locate her. At home, according to her mother's account carried by BBC News, Largo's 12-year-old son was waiting for her.",
-    "The earthquake's epicenter was near the village of San Jose del Palmar, in Choco province. Seismometers nearest the epicenter registered shaking lasting between 90 seconds and two minutes. There have been more than 100 aftershocks since the main earthquake, according to BBC News. The death toll and scale of damage remain severe. At least 188 people have died in the earthquake, according to official figures, and hundreds remain missing, per BBC News. In Pereira, 79 people are confirmed to have died, the second-highest number after Cali, where 95 are dead, according to figures by the Association of Colombian Capital Cities (Asocapitales). In Pereira, at least 92 buildings collapsed. In Pereira, fifteen people are known to be trapped and another 37 have been reported missing, according to Asocapitales.",
-    "Cali remains the hardest hit. In Cali, Colombia's third most populous city, more than 200 people remained trapped as of 16:00 local time on Tuesday, according to BBC News. Cali's mayor declared a night-time curfew and said that soldiers would be on patrol in the worst-hit areas of Cali. Cali's mayor stated: We need to ensure that the rescue work can be carried out safely, adding that there was still hope of finding more people alive and everyone would do their utmost to free those trapped, per BBC News. In Cali, 87 people have been rescued so far, according to BBC News.",
-    "Colombian President Abelardo de la Espriella celebrated Largo's rescue on social media, describing it as news which fills us with hope, per BBC News."
-  ],
-  "sources": [
-    {
-      "title": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/cz7d2e5wlgno?at_medium=RSS&at_campaign=rss"
-    }
-  ],
-  "event_utc": "2026-08-12T11:28:02Z",
-  "verification": {
-    "verdict": "VERIFIED",
-    "checked_utc": "2026-08-12T12:06:13Z",
-    "sources_cited": 1,
-    "sources_live_checked": 1
+  "checked_utc": "2026-08-12T12:06:13Z",
+  "sources_cited": 1,
+  "sources_live_checked": 1
+ },
+ "update_of": "baby-rescued-alive-from-rubble-after-7-0-colombia-earthquake",
+ "also_reported_by": [
+  {
+   "outlet": "AP News",
+   "headline": "Woman rescued after being trapped for 36 hours under collapsed building following Colombia quake - AP News"
   },
-  "update_of": "baby-rescued-alive-from-rubble-after-7-0-colombia-earthquake",
-  "also_reported_by": [
-    {
-      "outlet": "AP News",
-      "headline": "Woman rescued after being trapped for 36 hours under collapsed building following Colombia quake - AP News"
-    },
-    {
-      "outlet": "Al Jazeera",
-      "headline": "Woman rescued after 36 hours under rubble in Colombia - Al Jazeera"
-    },
-    {
-      "outlet": "Reuters",
-      "headline": "Woman, kitten pulled alive from Colombia quake debris 36 hours in - Reuters"
-    },
-    {
-      "outlet": "Yahoo",
-      "headline": "Woman pulled alive from rubble 36 hours after Colombia quake - Yahoo"
-    },
-    {
-      "outlet": "Modern Ghana",
-      "headline": "Woman rescued after 36 hours under rubble in Colombia | #AJ shorts - Modern Ghana"
-    },
-    {
-      "outlet": "CTV News",
-      "headline": "Woman rescued from rubble in Colombia after 36 hours - CTV News"
-    }
-  ],
-  "superseded_by": "woman-pulled-alive-from-rubble-36-hours-after-colombia-earthquake"
+  {
+   "outlet": "Al Jazeera",
+   "headline": "Woman rescued after 36 hours under rubble in Colombia - Al Jazeera"
+  },
+  {
+   "outlet": "Reuters",
+   "headline": "Woman, kitten pulled alive from Colombia quake debris 36 hours in - Reuters"
+  },
+  {
+   "outlet": "Yahoo",
+   "headline": "Woman pulled alive from rubble 36 hours after Colombia quake - Yahoo"
+  },
+  {
+   "outlet": "Modern Ghana",
+   "headline": "Woman rescued after 36 hours under rubble in Colombia | #AJ shorts - Modern Ghana"
+  },
+  {
+   "outlet": "CTV News",
+   "headline": "Woman rescued from rubble in Colombia after 36 hours - CTV News"
+  }
+ ],
+ "superseded_by": null
 }

@@ -1,66 +1,66 @@
 {
-  "id": "c256",
-  "slug": "hawaii-under-a-hurricane-warning-as-tropical-storm-lala-takes-aim",
-  "kind": "brief",
-  "title": "Hawaii under a hurricane warning as Tropical Storm Lala takes aim",
-  "dek": "Tropical Storm Lala is forecast to strengthen to hurricane strength and make landfall on Hawaii's Big Island by Saturday, with a hurricane warning in effect. The National Hurricane Center warns of up to 25 inches of rain, 3-foot storm surge, and life-threatening flooding. Hawaii last experienced a hurricane landfall in 1992.",
-  "date": "2026-08-15",
-  "published_utc": "2026-08-15T13:01:16Z",
-  "category": "news",
+ "id": "c256",
+ "slug": "hawaii-under-a-hurricane-warning-as-tropical-storm-lala-takes-aim",
+ "kind": "brief",
+ "title": "Hawaii under a hurricane warning as Tropical Storm Lala takes aim",
+ "dek": "Tropical Storm Lala is forecast to strengthen to hurricane strength and make landfall on Hawaii's Big Island by Saturday, with a hurricane warning in effect. The National Hurricane Center warns of up to 25 inches of rain, 3-foot storm surge, and life-threatening flooding. Hawaii last experienced a hurricane landfall in 1992.",
+ "date": "2026-08-15",
+ "published_utc": "2026-08-15T13:01:16Z",
+ "category": "news",
+ "verdict": "VERIFIED",
+ "rank": 3,
+ "author": "The GoCheckMyNews Desk",
+ "key_fact": "A hurricane warning is in effect for Hawaii's Big Island as Tropical Storm Lala is expected to strengthen to hurricane strength and arrive Saturday, potentially bringing up to 25 inches of rain and 3-foot storm surge.",
+ "bottom_line": "Lala is on track to bring hurricane-force winds and potentially catastrophic rainfall to Hawaii by Saturday; Gov. Green has mobilized the National Guard and declared a state of emergency. Watch for updated National Hurricane Center forecasts through Saturday morning that will refine the track and intensity, and for post-landfall damage assessments and casualty reports. The track remains subject to change; any northward shift would increase impacts on the smaller islands including Oahu.",
+ "human_take": "",
+ "body": [
+  "A hurricane warning is in effect for Hawaii's Big Island as Tropical Storm Lala is expected to strengthen to hurricane strength and reach the islands by Saturday, according to the National Hurricane Center. In a worst-case scenario, the storm could deliver up to 25 inches of rain to the Big Island, along with a storm surge as high as 3 feet and life-threatening rip currents, per the National Hurricane Center's latest advisory.",
+  "As of Saturday morning local time, Lala was located about 140 miles southeast of South Point, Hawaii and 350 miles southeast of Honolulu, moving west-northwest at 13 mph with maximum sustained winds near 65 mph, according to the hurricane center. A tropical storm becomes a hurricane when its maximum sustained winds reach 74 mph. The center forecast hurricane conditions to hit Hawaii by Saturday local time, with the core of Lala passing the Big Island on Saturday and then reaching south of the smaller islands on Sunday.",
+  "Rainfall is expected to range from 8 to 12 inches across Maui and the Big Island, with maximum totals of 25 inches possible across the Big Island, according to the National Hurricane Center. The rest of the islands are forecast to receive 4 to 6 inches with maximum amounts of 8 inches. The National Weather Service warning coordination meteorologist John Bravender noted that \"Even though the track shows it passing south of the islands, the tropical storm force winds will extend north and could impact all the islands.\" The Miami-based hurricane center warned that wind speeds could be significantly higher in elevated areas and on the windward sides of slopes and mountains.",
+  "Tropical storm warnings are in place for Maui County, which includes Maui, Lanai, Molokai and Kahoolawe, as well as Oahu and Kauai County, which includes Kauai and Ni'ihau. Hurricane conditions are forecast for the Big Island on Saturday, with tropical storm conditions expected in Maui County by Saturday night and possible in Oahu and Kauai County by Sunday morning.",
+  "Hawaii Gov. Josh Green declared a state of emergency Thursday and said \"This is a very serious storm. We have not had a hurricane make landfall in quite some time. So none of us really have experienced this really in, you know, the last couple of decades.\" He warned that Hawaii will see \"an incredible amount of water,\" cautioning residents and visitors to prepare for heavy flooding and the possibility of major power outages. Green acknowledged uncertainty in the exact track, stating: \"We're hoping that it's going to be sufficiently far south that we just get the periphery of the storm, but, no promises, we've seen storms turn.\"",
+  "State and local officials have begun preparations. The state's National Guard was prepared to support emergency response efforts as of Friday. Most areas of Volcanoes National Park on the Big Island were set to close to visitors by Friday afternoon ahead of the storm's arrival. All school-sponsored extracurricular activities over the weekend are canceled. The Hawaii Department of Education has not yet decided whether schools will open on Monday.",
+  "Hawaii County Mayor Kimo Alameda told CBS News Friday morning: \"We're not exempt from these extreme weather conditions. So we've been here before, and messages have already gone out. But this could look like a big one.\" The rainfall is expected to produce life-threatening flooding and mudslides, especially in areas of steep terrain.",
+  "The last hurricane to make landfall in Hawaii was Hurricane Iniki in 1992, which struck as a powerful Category 4 and was responsible for six deaths and 3 billion dollars in damage."
+ ],
+ "sources": [
+  {
+   "title": "cbsnews.com",
+   "url": "https://www.cbsnews.com/news/tropical-storm-lala-big-island-hawaii-hurricane-track/"
+  }
+ ],
+ "event_utc": "2026-08-15T12:07:13Z",
+ "verification": {
   "verdict": "VERIFIED",
-  "rank": 3,
-  "author": "The GoCheckMyNews Desk",
-  "key_fact": "A hurricane warning is in effect for Hawaii's Big Island as Tropical Storm Lala is expected to strengthen to hurricane strength and arrive Saturday, potentially bringing up to 25 inches of rain and 3-foot storm surge.",
-  "bottom_line": "Lala is on track to bring hurricane-force winds and potentially catastrophic rainfall to Hawaii by Saturday; Gov. Green has mobilized the National Guard and declared a state of emergency. Watch for updated National Hurricane Center forecasts through Saturday morning that will refine the track and intensity, and for post-landfall damage assessments and casualty reports. The track remains subject to change; any northward shift would increase impacts on the smaller islands including Oahu.",
-  "human_take": "",
-  "body": [
-    "A hurricane warning is in effect for Hawaii's Big Island as Tropical Storm Lala is expected to strengthen to hurricane strength and reach the islands by Saturday, according to the National Hurricane Center. In a worst-case scenario, the storm could deliver up to 25 inches of rain to the Big Island, along with a storm surge as high as 3 feet and life-threatening rip currents, per the National Hurricane Center's latest advisory.",
-    "As of Saturday morning local time, Lala was located about 140 miles southeast of South Point, Hawaii and 350 miles southeast of Honolulu, moving west-northwest at 13 mph with maximum sustained winds near 65 mph, according to the hurricane center. A tropical storm becomes a hurricane when its maximum sustained winds reach 74 mph. The center forecast hurricane conditions to hit Hawaii by Saturday local time, with the core of Lala passing the Big Island on Saturday and then reaching south of the smaller islands on Sunday.",
-    "Rainfall is expected to range from 8 to 12 inches across Maui and the Big Island, with maximum totals of 25 inches possible across the Big Island, according to the National Hurricane Center. The rest of the islands are forecast to receive 4 to 6 inches with maximum amounts of 8 inches. The National Weather Service warning coordination meteorologist John Bravender noted that \"Even though the track shows it passing south of the islands, the tropical storm force winds will extend north and could impact all the islands.\" The Miami-based hurricane center warned that wind speeds could be significantly higher in elevated areas and on the windward sides of slopes and mountains.",
-    "Tropical storm warnings are in place for Maui County, which includes Maui, Lanai, Molokai and Kahoolawe, as well as Oahu and Kauai County, which includes Kauai and Ni'ihau. Hurricane conditions are forecast for the Big Island on Saturday, with tropical storm conditions expected in Maui County by Saturday night and possible in Oahu and Kauai County by Sunday morning.",
-    "Hawaii Gov. Josh Green declared a state of emergency Thursday and said \"This is a very serious storm. We have not had a hurricane make landfall in quite some time. So none of us really have experienced this really in, you know, the last couple of decades.\" He warned that Hawaii will see \"an incredible amount of water,\" cautioning residents and visitors to prepare for heavy flooding and the possibility of major power outages. Green acknowledged uncertainty in the exact track, stating: \"We're hoping that it's going to be sufficiently far south that we just get the periphery of the storm, but, no promises, we've seen storms turn.\"",
-    "State and local officials have begun preparations. The state's National Guard was prepared to support emergency response efforts as of Friday. Most areas of Volcanoes National Park on the Big Island were set to close to visitors by Friday afternoon ahead of the storm's arrival. All school-sponsored extracurricular activities over the weekend are canceled. The Hawaii Department of Education has not yet decided whether schools will open on Monday.",
-    "Hawaii County Mayor Kimo Alameda told CBS News Friday morning: \"We're not exempt from these extreme weather conditions. So we've been here before, and messages have already gone out. But this could look like a big one.\" The rainfall is expected to produce life-threatening flooding and mudslides, especially in areas of steep terrain.",
-    "The last hurricane to make landfall in Hawaii was Hurricane Iniki in 1992, which struck as a powerful Category 4 and was responsible for six deaths and 3 billion dollars in damage."
-  ],
-  "sources": [
-    {
-      "title": "cbsnews.com",
-      "url": "https://www.cbsnews.com/news/tropical-storm-lala-big-island-hawaii-hurricane-track/"
-    }
-  ],
-  "event_utc": "2026-08-15T12:07:13Z",
-  "verification": {
-    "verdict": "VERIFIED",
-    "checked_utc": "2026-08-15T13:01:16Z",
-    "sources_cited": 1,
-    "sources_live_checked": 1
+  "checked_utc": "2026-08-15T13:01:16Z",
+  "sources_cited": 1,
+  "sources_live_checked": 1
+ },
+ "update_of": null,
+ "also_reported_by": [
+  {
+   "outlet": "Hawaii News Now",
+   "headline": "Tropical Storm Lala forecast to bring hurricane conditions to Hawaii Island Saturday - Hawaii News Now"
   },
-  "update_of": "hurricane-warning-issued-for-hawaii-s-big-island-as-tropical-storm-lala-approaches",
-  "also_reported_by": [
-    {
-      "outlet": "Hawaii News Now",
-      "headline": "Tropical Storm Lala forecast to bring hurricane conditions to Hawaii Island Saturday - Hawaii News Now"
-    },
-    {
-      "outlet": "CBS News",
-      "headline": "Hawaii under a hurricane warning as Tropical Storm Lala takes aim. Maps show its path. - CBS News"
-    },
-    {
-      "outlet": "ClickOnDetroit",
-      "headline": "Tracking Tropical Storm Lala; Hurricane Warnings in effect for the State of Hawaii - ClickOnDetroit | WDIV Local 4"
-    },
-    {
-      "outlet": "Hawaii County.gov",
-      "headline": "Hawai\u02bbi County Announces Additional Closures for Tropical Storm Lala - Hawaii County.gov"
-    },
-    {
-      "outlet": "The Spokesman-Review",
-      "headline": "Hawaii could face historic hurricane landfall from Tropical Storm Lala - The Spokesman-Review"
-    },
-    {
-      "outlet": "Newsweek",
-      "headline": "Tropical Storm Lala Spaghetti Models As Hawaii Set To Be Hit In Hours - Newsweek"
-    }
-  ]
+  {
+   "outlet": "CBS News",
+   "headline": "Hawaii under a hurricane warning as Tropical Storm Lala takes aim. Maps show its path. - CBS News"
+  },
+  {
+   "outlet": "ClickOnDetroit",
+   "headline": "Tracking Tropical Storm Lala; Hurricane Warnings in effect for the State of Hawaii - ClickOnDetroit | WDIV Local 4"
+  },
+  {
+   "outlet": "Hawaii County.gov",
+   "headline": "Hawai\u02bbi County Announces Additional Closures for Tropical Storm Lala - Hawaii County.gov"
+  },
+  {
+   "outlet": "The Spokesman-Review",
+   "headline": "Hawaii could face historic hurricane landfall from Tropical Storm Lala - The Spokesman-Review"
+  },
+  {
+   "outlet": "Newsweek",
+   "headline": "Tropical Storm Lala Spaghetti Models As Hawaii Set To Be Hit In Hours - Newsweek"
+  }
+ ]
 }

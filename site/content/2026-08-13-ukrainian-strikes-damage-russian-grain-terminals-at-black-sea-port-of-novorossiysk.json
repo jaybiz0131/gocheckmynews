@@ -1,65 +1,65 @@
 {
-  "id": "c041",
-  "slug": "ukrainian-strikes-damage-russian-grain-terminals-at-black-sea-port-of-novorossiysk",
-  "kind": "brief",
-  "title": "Ukrainian strikes damage Russian grain terminals at Black Sea port of Novorossiysk",
-  "dek": "Ukraine launched drone and missile strikes on Russia's Novorossiysk port on August 13, 2026, damaging two major grain export terminals and hitting the Black Sea naval base. Three people, including an eight-year-old child, were killed, and 24 injured. Russia is the world's largest wheat exporter.",
-  "date": "2026-08-13",
-  "published_utc": "2026-08-13T11:12:19Z",
-  "category": "news",
+ "id": "c041",
+ "slug": "ukrainian-strikes-damage-russian-grain-terminals-at-black-sea-port-of-novorossiysk",
+ "kind": "brief",
+ "title": "Ukrainian strikes damage Russian grain terminals at Black Sea port of Novorossiysk",
+ "dek": "Ukraine launched drone and missile strikes on Russia's Novorossiysk port on August 13, 2026, damaging two major grain export terminals and hitting the Black Sea naval base. Three people, including an eight-year-old child, were killed, and 24 injured. Russia is the world's largest wheat exporter.",
+ "date": "2026-08-13",
+ "published_utc": "2026-08-13T11:12:19Z",
+ "category": "news",
+ "verdict": "VERIFIED",
+ "rank": 2,
+ "author": "The GoCheckMyNews Desk",
+ "key_fact": "Two major grain export terminals were damaged in a Ukrainian strike on Novorossiysk; exports for August could fall more than half compared to the same month over the last five years, according to a Moscow-based analytics company.",
+ "bottom_line": "The strike accelerates the maritime war's toll on global grain supplies already stressed by mutual attacks on shipping and ports. Watch whether the redirected cargo routes can absorb Russian grain at comparable volumes and costs, and whether Ukraine escalates further strikes on Russian export infrastructure or Russia retaliates against Ukrainian civilian targets.",
+ "human_take": "",
+ "body": [
+  "Ukraine launched a drone and missile strike on Russia's Novorossiysk port on August 13, 2026, damaging two major grain export terminals and striking the last major Russian naval base on the Black Sea, according to BBC News. Three people, including an eight-year-old child, were killed, and another 24 injured in the overnight attack, per local officials cited by the BBC.",
+  "President Volodymyr Zelensky said Kyiv had launched rockets, jet and naval drones in what he called a 'unique operation' to strike the Russian base. He did not mention grain terminals in his statement. Ukraine's military later said four Russian warships, including two frigates, were hit, according to the BBC. Russia has not commented on the strike, per the BBC's reporting.",
+  "Two major grain trading companies confirmed damage to their terminals. One company told Russia's TASS news agency that its terminal had been hit; another told Reuters and Russian outlet RBK that its facility had been damaged, according to BBC News. The Russian agriculture ministry announced on Wednesday that it was working to redirect cargo flows to ports in the Baltic and Caspian Seas as well as land routes, 'taking into account current logistical constraints,' per BBC News citing the ministry statement.",
+  "The strike damaged pipelines in Novorossiysk, suspending the city's water supply and triggering an emergency situation declaration on Wednesday. In the surrounding Krasnodar region, a man was killed by drone debris, and 'several hundred drones' struck overnight, with dozens of buildings damaged, according to regional Governor Veniamin Kondratyev cited by the BBC. Most of Russia's Black Sea fleet is docked in Novorossiysk after being forced to vacate Sevastopol in the Russian-occupied Crimean peninsula.",
+  "Russia is the world's largest wheat exporter. Together, Russia and Ukraine account for a significant share of global grain trade, particularly for buyers in North Africa, the Middle East, and parts of Asia, per BBC News. According to a Moscow-based analytics company cited by the BBC, exports for August could fall by more than half compared to the same month over the last five years due to disruption in the Black and Azov seas. In July 2026, the Ukrainian Agribusiness Club reported a 23 percent decrease in exports, per the BBC.",
+  "Moscow launched aerial overnight strikes that killed at least 11 civilians in Ukraine between Tuesday and Wednesday, with the majority killed when Russia hit the southern city of Zaporizhzhia with ballistic missiles and glide bombs, according to BBC News. In an interview with CNN, Zelensky said Ukraine would need a tenth of the current U.S. stockpile of interceptor missiles to stop all Russian ballistic missile attacks, and that five percent of the stockpile would get Ukraine through winter. Zelensky stated that this year Ukraine has two and a half times fewer interceptors than it did in 2025, while 'Russia has two times more ballistic missiles per month than they had before.'",
+  "Russian foreign ministry spokeswoman Maria Zakharova accused Ukraine on Wednesday of carrying out strikes on Russian grain and agricultural infrastructure, resulting in a hike in global food prices and growing grain shortages. Zakharova said Russia would continue striking 'facilities that Ukraine's armed forces use on the Black Sea to destabilise the navigation situation' until 'the full elimination of threats to security projected to the Sea of Azov and the Black Sea.' The 2022 Black Sea Grain Initiative, under which Russia agreed to lift its blockade on Ukraine's agricultural exports, did not last after Moscow resumed attacks on vessels using maritime corridors to Odesa the following year, per BBC News."
+ ],
+ "sources": [
+  {
+   "title": "BBC News",
+   "url": "https://www.bbc.co.uk/news/articles/c5y49xp2wrno?at_medium=RSS&at_campaign=rss"
+  }
+ ],
+ "event_utc": "2026-08-13T03:28:56Z",
+ "verification": {
   "verdict": "VERIFIED",
-  "rank": 2,
-  "author": "The GoCheckMyNews Desk",
-  "key_fact": "Two major grain export terminals were damaged in a Ukrainian strike on Novorossiysk; exports for August could fall more than half compared to the same month over the last five years, according to a Moscow-based analytics company.",
-  "bottom_line": "The strike accelerates the maritime war's toll on global grain supplies already stressed by mutual attacks on shipping and ports. Watch whether the redirected cargo routes can absorb Russian grain at comparable volumes and costs, and whether Ukraine escalates further strikes on Russian export infrastructure or Russia retaliates against Ukrainian civilian targets.",
-  "human_take": "",
-  "body": [
-    "Ukraine launched a drone and missile strike on Russia's Novorossiysk port on August 13, 2026, damaging two major grain export terminals and striking the last major Russian naval base on the Black Sea, according to BBC News. Three people, including an eight-year-old child, were killed, and another 24 injured in the overnight attack, per local officials cited by the BBC.",
-    "President Volodymyr Zelensky said Kyiv had launched rockets, jet and naval drones in what he called a 'unique operation' to strike the Russian base. He did not mention grain terminals in his statement. Ukraine's military later said four Russian warships, including two frigates, were hit, according to the BBC. Russia has not commented on the strike, per the BBC's reporting.",
-    "Two major grain trading companies confirmed damage to their terminals. One company told Russia's TASS news agency that its terminal had been hit; another told Reuters and Russian outlet RBK that its facility had been damaged, according to BBC News. The Russian agriculture ministry announced on Wednesday that it was working to redirect cargo flows to ports in the Baltic and Caspian Seas as well as land routes, 'taking into account current logistical constraints,' per BBC News citing the ministry statement.",
-    "The strike damaged pipelines in Novorossiysk, suspending the city's water supply and triggering an emergency situation declaration on Wednesday. In the surrounding Krasnodar region, a man was killed by drone debris, and 'several hundred drones' struck overnight, with dozens of buildings damaged, according to regional Governor Veniamin Kondratyev cited by the BBC. Most of Russia's Black Sea fleet is docked in Novorossiysk after being forced to vacate Sevastopol in the Russian-occupied Crimean peninsula.",
-    "Russia is the world's largest wheat exporter. Together, Russia and Ukraine account for a significant share of global grain trade, particularly for buyers in North Africa, the Middle East, and parts of Asia, per BBC News. According to a Moscow-based analytics company cited by the BBC, exports for August could fall by more than half compared to the same month over the last five years due to disruption in the Black and Azov seas. In July 2026, the Ukrainian Agribusiness Club reported a 23 percent decrease in exports, per the BBC.",
-    "Moscow launched aerial overnight strikes that killed at least 11 civilians in Ukraine between Tuesday and Wednesday, with the majority killed when Russia hit the southern city of Zaporizhzhia with ballistic missiles and glide bombs, according to BBC News. In an interview with CNN, Zelensky said Ukraine would need a tenth of the current U.S. stockpile of interceptor missiles to stop all Russian ballistic missile attacks, and that five percent of the stockpile would get Ukraine through winter. Zelensky stated that this year Ukraine has two and a half times fewer interceptors than it did in 2025, while 'Russia has two times more ballistic missiles per month than they had before.'",
-    "Russian foreign ministry spokeswoman Maria Zakharova accused Ukraine on Wednesday of carrying out strikes on Russian grain and agricultural infrastructure, resulting in a hike in global food prices and growing grain shortages. Zakharova said Russia would continue striking 'facilities that Ukraine's armed forces use on the Black Sea to destabilise the navigation situation' until 'the full elimination of threats to security projected to the Sea of Azov and the Black Sea.' The 2022 Black Sea Grain Initiative, under which Russia agreed to lift its blockade on Ukraine's agricultural exports, did not last after Moscow resumed attacks on vessels using maritime corridors to Odesa the following year, per BBC News."
-  ],
-  "sources": [
-    {
-      "title": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/c5y49xp2wrno?at_medium=RSS&at_campaign=rss"
-    }
-  ],
-  "event_utc": "2026-08-13T03:28:56Z",
-  "verification": {
-    "verdict": "VERIFIED",
-    "checked_utc": "2026-08-13T11:12:19Z",
-    "sources_cited": 1,
-    "sources_live_checked": 1
+  "checked_utc": "2026-08-13T11:12:19Z",
+  "sources_cited": 1,
+  "sources_live_checked": 1
+ },
+ "update_of": null,
+ "also_reported_by": [
+  {
+   "outlet": "Yahoo",
+   "headline": "Major Russian grain export terminals hit in Ukraine Black Sea port attack - Yahoo"
   },
-  "update_of": "ukraine-strikes-russian-grain-terminals-at-black-sea-port-of-novorossiysk",
-  "also_reported_by": [
-    {
-      "outlet": "Yahoo",
-      "headline": "Major Russian grain export terminals hit in Ukraine Black Sea port attack - Yahoo"
-    },
-    {
-      "outlet": "The Kyiv Independent",
-      "headline": "Moldova offers rail lifeline for Ukrainian food exports as Russia chokes Black Sea trade - The Kyiv Independent"
-    },
-    {
-      "outlet": "The Hindu",
-      "headline": "Overnight Ukrainian blitz damages Russia's Black Sea naval stronghold, Zelenskyy says - The Hindu"
-    },
-    {
-      "outlet": "The Daily Reporter",
-      "headline": "An overnight Ukrainian blitz damages Russia\u2019s Black Sea naval stronghold, Zelenskyy says - The Daily Reporter - Greenfield Indiana"
-    },
-    {
-      "outlet": "Kyiv Post",
-      "headline": "Ukraine Strikes Russia\u2019s \u2018Last\u2019 Black Sea Fleet Stronghold in Novorossiysk - Kyiv Post"
-    },
-    {
-      "outlet": "Euromaidan Press",
-      "headline": "Ukraine and Moldova discuss rail corridor for grain amid Russian Black Sea attacks - Euromaidan Press"
-    }
-  ]
+  {
+   "outlet": "The Kyiv Independent",
+   "headline": "Moldova offers rail lifeline for Ukrainian food exports as Russia chokes Black Sea trade - The Kyiv Independent"
+  },
+  {
+   "outlet": "The Hindu",
+   "headline": "Overnight Ukrainian blitz damages Russia's Black Sea naval stronghold, Zelenskyy says - The Hindu"
+  },
+  {
+   "outlet": "The Daily Reporter",
+   "headline": "An overnight Ukrainian blitz damages Russia\u2019s Black Sea naval stronghold, Zelenskyy says - The Daily Reporter - Greenfield Indiana"
+  },
+  {
+   "outlet": "Kyiv Post",
+   "headline": "Ukraine Strikes Russia\u2019s \u2018Last\u2019 Black Sea Fleet Stronghold in Novorossiysk - Kyiv Post"
+  },
+  {
+   "outlet": "Euromaidan Press",
+   "headline": "Ukraine and Moldova discuss rail corridor for grain amid Russian Black Sea attacks - Euromaidan Press"
+  }
+ ]
 }

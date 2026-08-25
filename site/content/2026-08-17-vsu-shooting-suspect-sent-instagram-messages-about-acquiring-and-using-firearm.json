@@ -1,38 +1,38 @@
 {
-  "id": "c269",
-  "slug": "vsu-shooting-suspect-sent-instagram-messages-about-acquiring-and-using-firearm",
-  "kind": "brief",
-  "title": "VSU shooting suspect sent Instagram messages about acquiring and using firearm",
-  "dek": "Camron Harris, 19, charged in a Virginia State University shooting that wounded five people, sent Instagram messages saying 'I'm tryna find the gun' and 'We js got the shootin,' according to court documents.",
-  "date": "2026-08-17",
-  "published_utc": "2026-08-17T23:55:02Z",
-  "category": "news",
+ "id": "c269",
+ "slug": "vsu-shooting-suspect-sent-instagram-messages-about-acquiring-and-using-firearm",
+ "kind": "brief",
+ "title": "VSU shooting suspect sent Instagram messages about acquiring and using firearm",
+ "dek": "Camron Harris, 19, charged in a Virginia State University shooting that wounded five people, sent Instagram messages saying 'I'm tryna find the gun' and 'We js got the shootin,' according to court documents.",
+ "date": "2026-08-17",
+ "published_utc": "2026-08-17T23:55:02Z",
+ "category": "news",
+ "verdict": "VERIFIED",
+ "rank": 3,
+ "author": "The GoCheckMyNews Desk",
+ "key_fact": "Court documents reveal that the alleged suspect in the VSU shooting sent Instagram messages discussing acquiring a firearm and carrying out the attack in real time.",
+ "bottom_line": "Harris faces multiple felony charges and remains in custody. The court record does not identify the other people Harris messaged, those referenced in the deleted group chat, or whether they have been charged. Questions also remain about the nature of the dispute that preceded the alleged shooting threat.",
+ "human_take": "",
+ "body": [
+  "Camron Harris, 19, who is alleged to have opened fire at Virginia State University on Saturday, sent Instagram messages in which he discussed acquiring a firearm and carrying out the shooting in real time, according to court documents cited by NBC News.",
+  "Police were called to the historically Black university in Ettrick, near Petersburg, around 1:30 a.m. Saturday for reports of gunfire. The early-morning shooting critically injured a 21-year-old man. A 17-year-old boy, a 23-year-old man, a 19-year-old woman, and a 20-year-old VSU student sustained non-life-threatening injuries, per NBC News reporting.",
+  "Harris was found Saturday afternoon hiding in a closet in a women's dorm room. Officers located a firearm, several cartridge casings, and vehicles and structures that had been struck, according to court documents. Harris has been charged with multiple counts of use of a firearm and malicious wounding. Harris is not a student at the school.",
+  "Investigators obtained Instagram messages between Harris and another person in which he is alleged to have discussed finding a gun and shooting at the school. In one exchange, when a person asked Harris whether he heard the gunfire, Harris responded 'It was us,' per court documents. When someone else asked whether Harris wanted to go for a walk, Harris responded 'I'm tryna find the gun.' That person responded 'wait' with cat-laughing emojis, and Harris said 'Oh yes,' prompting the person to write back 'Lemme help you,' according to court documents. Harris then sent a photo of a gun followed by the message 'We js got the shootin,' per court documents.",
+  "Harris had also posted an Instagram Story of the VSU campus shortly before the shooting. Prior to the attack, police received information that Harris and another person had a verbal dispute earlier in the day, and that Harris had told someone he intended to return to the school and shoot. A second person told police they heard a man named Camron was planning to shoot because of an earlier argument.",
+  "Detectives pinged Harris's phone and found he was at the school. Harris confirmed to a detective that the Instagram account belonged to him and said no one else uses it. Harris denied possessing a firearm and allowed the detective to examine his phone, though the detective later observed photographs of a firearm that matched the one sent in his Instagram messages. Harris mentioned a group chat on his Instagram page that included other people associated with the shooting, but the app had been deleted from his phone. It is not clear whether Harris has an attorney."
+ ],
+ "sources": [
+  {
+   "title": "nbcnews.com",
+   "url": "https://www.nbcnews.com/news/us-news/virginia-state-university-shooting-suspect-sent-instagram-chat-saying-rcna592972"
+  }
+ ],
+ "event_utc": "2026-08-17T20:04:46Z",
+ "verification": {
   "verdict": "VERIFIED",
-  "rank": 3,
-  "author": "The GoCheckMyNews Desk",
-  "key_fact": "Court documents reveal that the alleged suspect in the VSU shooting sent Instagram messages discussing acquiring a firearm and carrying out the attack in real time.",
-  "bottom_line": "Harris faces multiple felony charges and remains in custody. The court record does not identify the other people Harris messaged, those referenced in the deleted group chat, or whether they have been charged. Questions also remain about the nature of the dispute that preceded the alleged shooting threat.",
-  "human_take": "",
-  "body": [
-    "Camron Harris, 19, who is alleged to have opened fire at Virginia State University on Saturday, sent Instagram messages in which he discussed acquiring a firearm and carrying out the shooting in real time, according to court documents cited by NBC News.",
-    "Police were called to the historically Black university in Ettrick, near Petersburg, around 1:30 a.m. Saturday for reports of gunfire. The early-morning shooting critically injured a 21-year-old man. A 17-year-old boy, a 23-year-old man, a 19-year-old woman, and a 20-year-old VSU student sustained non-life-threatening injuries, per NBC News reporting.",
-    "Harris was found Saturday afternoon hiding in a closet in a women's dorm room. Officers located a firearm, several cartridge casings, and vehicles and structures that had been struck, according to court documents. Harris has been charged with multiple counts of use of a firearm and malicious wounding. Harris is not a student at the school.",
-    "Investigators obtained Instagram messages between Harris and another person in which he is alleged to have discussed finding a gun and shooting at the school. In one exchange, when a person asked Harris whether he heard the gunfire, Harris responded 'It was us,' per court documents. When someone else asked whether Harris wanted to go for a walk, Harris responded 'I'm tryna find the gun.' That person responded 'wait' with cat-laughing emojis, and Harris said 'Oh yes,' prompting the person to write back 'Lemme help you,' according to court documents. Harris then sent a photo of a gun followed by the message 'We js got the shootin,' per court documents.",
-    "Harris had also posted an Instagram Story of the VSU campus shortly before the shooting. Prior to the attack, police received information that Harris and another person had a verbal dispute earlier in the day, and that Harris had told someone he intended to return to the school and shoot. A second person told police they heard a man named Camron was planning to shoot because of an earlier argument.",
-    "Detectives pinged Harris's phone and found he was at the school. Harris confirmed to a detective that the Instagram account belonged to him and said no one else uses it. Harris denied possessing a firearm and allowed the detective to examine his phone, though the detective later observed photographs of a firearm that matched the one sent in his Instagram messages. Harris mentioned a group chat on his Instagram page that included other people associated with the shooting, but the app had been deleted from his phone. It is not clear whether Harris has an attorney."
-  ],
-  "sources": [
-    {
-      "title": "nbcnews.com",
-      "url": "https://www.nbcnews.com/news/us-news/virginia-state-university-shooting-suspect-sent-instagram-chat-saying-rcna592972"
-    }
-  ],
-  "event_utc": "2026-08-17T20:04:46Z",
-  "verification": {
-    "verdict": "VERIFIED",
-    "checked_utc": "2026-08-17T23:55:02Z",
-    "sources_cited": 1,
-    "sources_live_checked": 1
-  },
-  "update_of": "suspect-arrested-in-virginia-state-university-shooting-that-injured-five"
+  "checked_utc": "2026-08-17T23:55:02Z",
+  "sources_cited": 1,
+  "sources_live_checked": 1
+ },
+ "update_of": "five-injured-in-shooting-at-virginia-state-university-suspect-arrested-after-12-hour-search"
 }

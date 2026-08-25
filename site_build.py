@@ -30,27 +30,148 @@ import sys
 from urllib.parse import quote
 
 RETIRED_ARTICLES = {
-    # DUPLICATE SLUGS, one story published two or three times (crawl audit 2026-08-25).
-    # Each survivor is the fullest version: most words, most sources. The redundant
-    # slugs 301 to it via the _redirects file this map generates, so the link equity and
-    # any existing inbound link follow the story instead of splitting across copies.
-    # These three pairs were verified by hand; the corpus holds many more candidates and
-    # a bulk retirement is deliberately NOT done here, because the same matcher that
-    # finds them also paired an EU trade investigation with a Google antitrust fine.
+    "19-year-old-arrested-in-virginia-state-university-shooting-five-injured":
+        "five-injured-in-shooting-at-virginia-state-university-suspect-arrested-after-12-hour-search",
+    "2-powerful-earthquakes-hit-indonesia-on-same-day-at-least-47-dead":
+        "two-powerful-earthquakes-strike-indonesia-within-hours-killing-at-least-47",
+    "7-1-magnitude-earthquake-strikes-southern-japan-rescue-operations-ongoing-at-collapsed-shopping-mall":
+        "japan-earthquake-kills-at-least-18-rescue-operations-underway-in-collapsed-buildings",
+    "7-1-magnitude-earthquake-strikes-southern-japan-rescue-operations-underway-in-kashima":
+        "japan-earthquake-kills-at-least-18-rescue-operations-underway-in-collapsed-buildings",
+    "7-1-magnitude-earthquake-strikes-southern-japan-tsunami-alerts-later-lifted":
+        "japan-earthquake-kills-at-least-18-rescue-operations-underway-in-collapsed-buildings",
+    "anthropic-ai-created-fake-profiles-and-attempted-github-intrusion-during-uk-safety-testing":
+        "uk-ai-safety-institute-reports-anthropic-model-created-fake-profiles-in-attempted-github-breach",
+    "arson-suspect-in-spokane-area-wildfire-had-prior-manslaughter-conviction":
+        "arson-suspect-arrested-in-spokane-wildfires-has-prior-manslaughter-conviction",
+    "british-columbia-declares-state-of-emergency-as-fast-moving-wildfire-forces-20-000-to-evacuate":
+        "bald-range-wildfire-in-british-columbia-doubles-in-size-forces-20-000-to-evacuate",
     "cia-director-ratcliffe-makes-unannounced-moscow-trip-for-unspecified-talks":
         "cia-director-ratcliffe-makes-unannounced-trip-to-moscow",
+    "drug-resistant-fungus-candida-auris-confirmed-in-3-437-u-s-cases-across-27-states":
+        "drug-resistant-fungus-candida-auris-detected-in-3-437-cases-across-27-u-s-states",
+    "ex-kentucky-student-athlete-pleads-guilty-to-manslaughter-in-infant-death":
+        "former-kentucky-student-athlete-pleads-guilty-to-manslaughter-in-infant-death",
+    "ex-southern-water-ceo-and-three-others-charged-over-alleged-water-quality-test-manipulation":
+        "ex-southern-water-ceo-and-three-others-charged-over-alleged-manipulation-of-water-quality-tests",
+    "fast-moving-wildfire-forces-evacuation-of-more-than-20-000-in-british-columbia":
+        "bald-range-wildfire-in-british-columbia-doubles-in-size-forces-20-000-to-evacuate",
+    "federal-judge-lifts-block-on-somalia-tps-termination-despite-finding-compelling-case-for-plaintiffs":
+        "federal-judge-lifts-stay-on-somalia-tps-termination-clearing-path-for-deportations",
+    "federal-judge-lifts-stay-on-somalia-tps-termination-citing-supreme-court-ruling":
+        "federal-judge-lifts-stay-on-somalia-tps-termination-clearing-path-for-deportations",
+    "federal-judge-rejects-maxwell-s-bid-to-overturn-conviction-and-warns-against-further-appeals":
+        "judge-rejects-ghislaine-maxwell-s-bid-to-overturn-conviction-and-warns-against-further-appeals",
+    "five-people-and-multiple-animals-found-dead-on-rural-oregon-property-suspect-found-dead-in-washington":
+        "five-people-and-multiple-animals-found-dead-on-rural-oregon-property-suspect-located-dead-in-washington",
+    "five-shot-at-virginia-state-university-multiple-suspects-at-large":
+        "five-injured-in-shooting-at-virginia-state-university-suspect-arrested-after-12-hour-search",
+    "five-shot-at-virginia-state-university-one-in-critical-condition":
+        "five-injured-in-shooting-at-virginia-state-university-suspect-arrested-after-12-hour-search",
+    "five-wounded-in-shooting-at-virginia-state-university-suspect-arrested-after-12-hour-search":
+        "five-injured-in-shooting-at-virginia-state-university-suspect-arrested-after-12-hour-search",
+    "five-wounded-in-virginia-state-university-shooting-multiple-suspects-at-large":
+        "five-injured-in-shooting-at-virginia-state-university-suspect-arrested-after-12-hour-search",
+    "former-u-s-marine-released-from-russian-detention-after-four-years":
+        "former-u-s-marine-held-in-russia-for-more-than-four-years-released",
+    "hawaii-under-hurricane-warning-as-tropical-storm-lala-approaches-big-island":
+        "hawaii-under-a-hurricane-warning-as-tropical-storm-lala-takes-aim",
+    "hawk-fire-near-reno-forces-90-000-to-evacuate-as-blaze-tops-15-000-acres":
+        "hawk-fire-near-reno-forces-90-000-evacuations-state-of-emergency-declared",
+    "houthis-claim-red-sea-tanker-attacks-as-us-launches-12th-night-of-iran-strikes":
+        "houthis-claim-red-sea-tanker-attacks-as-us-strikes-iran-for-12th-consecutive-night",
+    "hurricane-warning-issued-for-hawaii-s-big-island-as-tropical-storm-lala-approaches":
+        "hawaii-under-a-hurricane-warning-as-tropical-storm-lala-takes-aim",
+    "indonesia-earthquake-kills-51-displaces-5-000-on-island-of-flores":
+        "7-7-magnitude-earthquake-kills-at-least-51-in-indonesia-thousands-displaced",
+    "israel-reestablishes-kadim-settlement-in-west-bank-with-30-families":
+        "israel-re-establishes-west-bank-settlement-kadim-with-30-families-reversing-2005-evacuation",
+    "israeli-airstrikes-in-southern-lebanon-kill-11-lebanese-health-authorities-say":
+        "israeli-strikes-in-lebanon-kill-11-health-officials-say",
+    "israeli-settlers-set-fire-to-mosques-vandalize-property-in-west-bank-villages":
+        "israeli-settlers-set-fire-to-mosques-damage-property-in-west-bank-villages",
+    "judge-blocks-trump-administration-from-scrapping-fbi-headquarters-move-to-maryland":
+        "judge-blocks-trump-administration-from-moving-fbi-headquarters-to-dc-office-building",
+    "judge-lifts-block-on-trump-administration-s-somalia-tps-termination-citing-supreme-court-constraints":
+        "federal-judge-lifts-stay-on-somalia-tps-termination-clearing-path-for-deportations",
+    "justice-department-authorizes-military-to-detain-migrants-for-trespassing-on-border-defense-zones":
+        "justice-department-authorizes-military-to-detain-migrants-for-trespassing-near-border",
+    "magnitude-7-7-earthquake-kills-51-in-indonesia-displaces-thousands":
+        "7-7-magnitude-earthquake-kills-at-least-51-in-indonesia-thousands-displaced",
+    "magnitude-7-7-earthquake-kills-at-least-53-in-indonesia-thousands-displaced":
+        "magnitude-7-7-earthquake-kills-53-displaces-thousands-on-indonesia-s-flores-island",
+    "massive-wildfires-force-330-000-evacuations-across-france-and-spain-bordeaux-wine-region-threatened":
+        "wildfires-force-330-000-evacuations-across-france-and-spain-as-one-blaze-becomes-largest-in-decades",
+    "nancy-kassebaum-baker-first-woman-senator-elected-in-own-right-dies-at-94":
+        "nancy-kassebaum-baker-first-woman-elected-to-senate-without-spouse-s-seat-dies-at-94",
+    "record-danube-lows-force-hungary-s-only-nuclear-plant-offline-as-heatwave-peaks":
+        "record-low-danube-forces-hungary-s-only-nuclear-plant-offline",
+    "rep-chuck-edwards-drops-re-election-bid-after-house-censure-recommendation":
+        "rep-chuck-edwards-withdraws-from-re-election-after-ethics-censure-recommendation",
+    "settlers-attack-mosques-and-property-in-west-bank-following-deadly-clash":
+        "israeli-settlers-set-fire-to-mosques-damage-property-in-west-bank-villages",
+    "six-killed-in-west-bank-shooting-accounts-conflict-on-who-began-violence":
+        "four-palestinians-and-two-israelis-killed-in-west-bank-shooting-accounts-conflict-on-who-began-violence",
+    "south-korea-records-highest-temperature-on-record-42-5-degrees-celsius":
+        "south-korea-records-highest-temperature-on-record-at-42-5-c-as-heatwave-claims-at-least-19-lives",
+    "south-korea-records-highest-temperature-on-record-at-42-5c-19-deaths-attributed-to-heatwave":
+        "south-korea-records-highest-temperature-on-record-at-42-5-c-as-heatwave-claims-at-least-19-lives",
+    "spain-deploys-military-to-ceuta-border-after-60-000-migrants-cross-34-die":
+        "60-000-migrants-cross-into-spain-s-ceuta-in-24-hours-34-deaths-reported",
+    "supreme-court-declines-trump-s-second-appeal-in-carroll-defamation-case":
+        "supreme-court-declines-trump-s-second-appeal-in-e-jean-carroll-sexual-abuse-case",
+    "supreme-court-declines-trump-s-second-appeal-in-e-jean-carroll-case-5m-verdict-stands":
+        "supreme-court-declines-trump-s-second-appeal-in-e-jean-carroll-sexual-abuse-case",
+    "suspect-arrested-in-virginia-state-university-shooting-that-injured-five":
+        "five-injured-in-shooting-at-virginia-state-university-suspect-arrested-after-12-hour-search",
+    "suspect-arrested-in-virginia-state-university-shooting-that-left-five-injured-one-critically":
+        "five-injured-in-shooting-at-virginia-state-university-suspect-arrested-after-12-hour-search",
+    "suspect-arrested-in-virginia-state-university-shooting-that-wounded-five":
+        "five-injured-in-shooting-at-virginia-state-university-suspect-arrested-after-12-hour-search",
+    "the-u-s-just-had-its-hottest-month-on-record":
+        "noaa-confirms-contiguous-u-s-set-record-for-hottest-month-ever-in-july",
+    "tommy-john-pioneer-of-elbow-surgery-that-transformed-baseball-dies-at-83":
+        "former-mlb-pitcher-tommy-john-dies-at-age-83",
+    "trump-administration-can-t-scrap-plan-to-move-fbi-headquarters-to-md-judge-rules":
+        "judge-blocks-trump-administration-from-moving-fbi-headquarters-to-dc-office-building",
+    "trump-administration-sets-10-12-5-tariffs-on-60-countries-covering-nearly-all-us-imports":
+        "trump-administration-imposes-10-12-5-tariffs-on-60-countries-covering-99-4-of-us-imports",
+    "trump-conditions-saudi-nuclear-deal-on-israel-recognition":
+        "trump-ties-u-s-saudi-nuclear-deal-to-israeli-recognition",
+    "trump-threatens-to-withdraw-blanche-nomination-and-resubmit-after-gop-senators-leave-office":
+        "trump-threatens-to-temporarily-withdraw-blanche-s-ag-nomination-until-cornyn-and-tillis-leave-office",
+    "trump-threatens-to-withdraw-blanche-nomination-until-dissenting-senators-leave-office":
+        "trump-threatens-to-temporarily-withdraw-blanche-s-ag-nomination-until-cornyn-and-tillis-leave-office",
+    "trump-threatens-to-withdraw-blanche-nomination-until-gop-senators-leave-office":
+        "trump-threatens-to-temporarily-withdraw-blanche-s-ag-nomination-until-cornyn-and-tillis-leave-office",
+    "u-s-investigating-whether-iranian-actors-were-behind-cyberattacks-on-minnesota-water-systems":
+        "u-s-investigating-iranian-attribution-in-cyberattack-on-minnesota-water-systems",
+    "u-s-marine-released-from-russian-prison-after-four-years":
+        "former-u-s-marine-held-in-russia-for-more-than-four-years-released",
+    "ukraine-replaces-army-commander-syrskyi-with-drapatyi-as-military-leadership-shifts":
+        "ukraine-removes-military-commander-syrskyi-appoints-drapatyi",
+    "ukraine-strikes-russian-grain-terminals-at-black-sea-port-of-novorossiysk":
+        "ukrainian-strikes-damage-russian-grain-terminals-at-black-sea-port-of-novorossiysk",
+    "ukrainian-strike-hits-russian-grain-export-terminals-at-black-sea-port":
+        "ukrainian-strikes-damage-russian-grain-terminals-at-black-sea-port-of-novorossiysk",
+    "us-inflation-eases-as-food-and-fuel-costs-cool":
+        "july-cpi-inflation-eases-to-3-4-down-from-3-5-in-june",
     "us-removes-syria-from-state-sponsors-of-terrorism-list-after-47-years":
         "trump-administration-removes-syria-from-u-s-terrorism-sponsor-list-after-47-years",
     "us-removes-syria-from-terrorism-sponsor-list-after-47-years":
         "trump-administration-removes-syria-from-u-s-terrorism-sponsor-list-after-47-years",
+    "us-strikes-iran-for-11th-night-trump-threatens-underground-nuclear-site":
+        "us-launches-11th-consecutive-strike-on-iran-trump-threatens-nuclear-site-attack",
+    "wildfire-advances-to-nine-miles-from-bordeaux-as-france-spain-face-record-evacuations":
+        "wildfire-advances-to-nine-miles-from-bordeaux-amid-record-evacuations-across-western-europe",
+    "wildfires-force-330-000-evacuations-across-france-and-spain":
+        "wildfires-force-330-000-evacuations-across-france-and-spain-as-one-blaze-becomes-largest-in-decades",
+    "woman-pulled-alive-from-rubble-36-hours-after-colombia-earthquake":
+        "woman-rescued-alive-36-hours-after-colombia-earthquake",
     "zelensky-accuses-russia-of-north-korean-missile-use-says-no-evidence-presented":
         "ukraine-reports-north-korean-missiles-used-in-russian-strike-on-zaporizhzhia",
     "zelensky-accuses-russia-of-using-north-korean-ballistic-missiles":
         "ukraine-reports-north-korean-missiles-used-in-russian-strike-on-zaporizhzhia",
-    "us-inflation-eases-as-food-and-fuel-costs-cool":
-        "july-cpi-inflation-eases-to-3-4-down-from-3-5-in-june",
-    "spain-deploys-military-to-ceuta-border-after-60-000-migrants-cross-34-die":
-        "60-000-migrants-cross-into-spain-s-ceuta-in-24-hours-34-deaths-reported",
 }
 
 

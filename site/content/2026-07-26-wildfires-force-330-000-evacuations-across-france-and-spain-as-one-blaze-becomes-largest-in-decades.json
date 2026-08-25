@@ -1,42 +1,42 @@
 {
-  "id": "c013",
-  "slug": "wildfires-force-330-000-evacuations-across-france-and-spain-as-one-blaze-becomes-largest-in-decades",
-  "kind": "brief",
-  "title": "Wildfires Force 330,000 Evacuations Across France and Spain as One Blaze Becomes Largest in Decades",
-  "dek": "Over 330,000 people have been evacuated from wildfires spanning France and Spain as a single fire in southwestern France burns 42,000 hectares, one of the largest forest fires in France since World War Two. Deaths have been reported, and conditions are forecast to worsen.",
-  "date": "2026-07-26",
-  "published_utc": "2026-07-26T11:48:08Z",
-  "category": "news",
-  "verdict": "VERIFIED",
-  "rank": 2,
-  "author": "The GoCheckMyNews Desk",
-  "key_fact": "More than 330,000 people evacuated across France and Spain; France's active fire has burned 42,000 hectares, ranking among the largest forest fires in the country since 1945.",
-  "bottom_line": "The fires are now spreading across borders and overwhelming resources in both countries, with officials explicitly stating containment capacity is exceeded. Watch for containment timelines as weather conditions evolve Sunday and beyond, casualties and evacuation counts as the emergency develops, and whether the scale of need prompts additional EU-level disaster response mechanisms to activate.",
-  "human_take": "",
-  "body": [
-    "More than 330,000 people have been evacuated from wildfires spreading across France and Spain, per BBC reporting on July 26. France has been the hardest hit, with one active fire consuming 42,000 hectares, a scale that ranks it among the largest forest fires the country has experienced since World War Two.",
-    "In southwestern France, the Gironde region has seen the most intense activity. Overnight into Sunday, approximately 55,000 people were evacuated from villages south of Bordeaux as the fire approached the region's outer edge, roughly 15 kilometers from Bordeaux's wider metropolitan area and 25 to 30 kilometers from the city's center. According to BBC reporting, Bordeaux's Mayor Thomas Cazenave downplayed the possibility of the city itself being evacuated. Across the broader southwest, more than 220,000 people have been evacuated since the fires intensified. France has burned 98,000 hectares total across all fires since the year began, per BBC data.",
-    "The rescue effort in Gironde involves 2,500 firefighters including a Swiss team, 1,500 military personnel, and almost 1,200 police and gendarmes. Captain Nicolas Braz, leading the firefighting operation, told BBC the fire had created 'its own winds, complete with whirlwinds,' describing conditions as 'erratic and unmanageable.' France's Interior Minister Laurent Nunez said Sunday the situation remained 'very unfavourable' and the wildfire was 'moving erratically towards the Bordeaux metropolitan area.' A 60-kilometer stretch of the A63 motorway leading to Spain has been closed. President Emmanuel Macron said France would 'rebuild' and his government would 'be there for as long as is needed.'",
-    "Dry vegetation and brisk winds are accelerating the fire's spread. Conditions are forecast to worsen Sunday, with high temperatures and low humidity expected to allow further advancement. The final stage of the Tour de France, scheduled for Paris on Sunday, was shortened from 133 kilometers to 89 kilometers to allow security forces to redeploy to firefighting efforts.",
-    "In Spain, fires continue across multiple regions. More than 90,000 people have been evacuated from areas around Madrid and \u00c1vila, per BBC reporting. A new fire front opened near Valencia overnight into Sunday. Valencia's regional President Juanfran P\u00e9rez Llorca said late Saturday, 'The fire is beyond our capacity to extinguish.' Pilar Bernabe, the central government's delegate to Valencia, said conditions in the region were likely to worsen throughout Sunday. Late Saturday, at least eight municipalities near Toledo were ordered to evacuate, though the number of people involved was unclear. Spain's Prime Minister Pedro Sanchez said 'difficult hours lie ahead' but noted 'positive' indications overnight toward containing the blaze. He also said there needed to be 'a major public pact on the climate emergency.' Madrid's regional president Isabel D\u00edaz Ayuso described the situation as the 'worst fire in the history of the region.'",
-    "Three deaths have been reported. Earlier in the week, two firefighters were killed fighting the blaze near Bordeaux. On Saturday, one civilian was killed in a smaller fire in the Valencia region.",
-    "Government officials from multiple countries issued statements of support. German Chancellor Friedrich Merz called the situation a tragedy, and leaders from the Netherlands, Italy, and the United Kingdom expressed solidarity with those affected."
-  ],
-  "sources": [
-    {
-      "title": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/clyj8k4nn5jo"
-    },
-    {
-      "title": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/clyj8k4nn5jo?at_medium=RSS&at_campaign=rss"
-    }
-  ],
-  "verification": {
-    "verdict": "VERIFIED",
-    "checked_utc": "2026-07-26T11:48:08Z",
-    "sources_cited": 2,
-    "sources_live_checked": 2
+ "id": "c013",
+ "slug": "wildfires-force-330-000-evacuations-across-france-and-spain-as-one-blaze-becomes-largest-in-decades",
+ "kind": "brief",
+ "title": "Wildfires Force 330,000 Evacuations Across France and Spain as One Blaze Becomes Largest in Decades",
+ "dek": "Over 330,000 people have been evacuated from wildfires spanning France and Spain as a single fire in southwestern France burns 42,000 hectares, one of the largest forest fires in France since World War Two. Deaths have been reported, and conditions are forecast to worsen.",
+ "date": "2026-07-26",
+ "published_utc": "2026-07-26T11:48:08Z",
+ "category": "news",
+ "verdict": "VERIFIED",
+ "rank": 2,
+ "author": "The GoCheckMyNews Desk",
+ "key_fact": "More than 330,000 people evacuated across France and Spain; France's active fire has burned 42,000 hectares, ranking among the largest forest fires in the country since 1945.",
+ "bottom_line": "The fires are now spreading across borders and overwhelming resources in both countries, with officials explicitly stating containment capacity is exceeded. Watch for containment timelines as weather conditions evolve Sunday and beyond, casualties and evacuation counts as the emergency develops, and whether the scale of need prompts additional EU-level disaster response mechanisms to activate.",
+ "human_take": "",
+ "body": [
+  "More than 330,000 people have been evacuated from wildfires spreading across France and Spain, per BBC reporting on July 26. France has been the hardest hit, with one active fire consuming 42,000 hectares, a scale that ranks it among the largest forest fires the country has experienced since World War Two.",
+  "In southwestern France, the Gironde region has seen the most intense activity. Overnight into Sunday, approximately 55,000 people were evacuated from villages south of Bordeaux as the fire approached the region's outer edge, roughly 15 kilometers from Bordeaux's wider metropolitan area and 25 to 30 kilometers from the city's center. According to BBC reporting, Bordeaux's Mayor Thomas Cazenave downplayed the possibility of the city itself being evacuated. Across the broader southwest, more than 220,000 people have been evacuated since the fires intensified. France has burned 98,000 hectares total across all fires since the year began, per BBC data.",
+  "The rescue effort in Gironde involves 2,500 firefighters including a Swiss team, 1,500 military personnel, and almost 1,200 police and gendarmes. Captain Nicolas Braz, leading the firefighting operation, told BBC the fire had created 'its own winds, complete with whirlwinds,' describing conditions as 'erratic and unmanageable.' France's Interior Minister Laurent Nunez said Sunday the situation remained 'very unfavourable' and the wildfire was 'moving erratically towards the Bordeaux metropolitan area.' A 60-kilometer stretch of the A63 motorway leading to Spain has been closed. President Emmanuel Macron said France would 'rebuild' and his government would 'be there for as long as is needed.'",
+  "Dry vegetation and brisk winds are accelerating the fire's spread. Conditions are forecast to worsen Sunday, with high temperatures and low humidity expected to allow further advancement. The final stage of the Tour de France, scheduled for Paris on Sunday, was shortened from 133 kilometers to 89 kilometers to allow security forces to redeploy to firefighting efforts.",
+  "In Spain, fires continue across multiple regions. More than 90,000 people have been evacuated from areas around Madrid and \u00c1vila, per BBC reporting. A new fire front opened near Valencia overnight into Sunday. Valencia's regional President Juanfran P\u00e9rez Llorca said late Saturday, 'The fire is beyond our capacity to extinguish.' Pilar Bernabe, the central government's delegate to Valencia, said conditions in the region were likely to worsen throughout Sunday. Late Saturday, at least eight municipalities near Toledo were ordered to evacuate, though the number of people involved was unclear. Spain's Prime Minister Pedro Sanchez said 'difficult hours lie ahead' but noted 'positive' indications overnight toward containing the blaze. He also said there needed to be 'a major public pact on the climate emergency.' Madrid's regional president Isabel D\u00edaz Ayuso described the situation as the 'worst fire in the history of the region.'",
+  "Three deaths have been reported. Earlier in the week, two firefighters were killed fighting the blaze near Bordeaux. On Saturday, one civilian was killed in a smaller fire in the Valencia region.",
+  "Government officials from multiple countries issued statements of support. German Chancellor Friedrich Merz called the situation a tragedy, and leaders from the Netherlands, Italy, and the United Kingdom expressed solidarity with those affected."
+ ],
+ "sources": [
+  {
+   "title": "BBC News",
+   "url": "https://www.bbc.co.uk/news/articles/clyj8k4nn5jo"
   },
-  "superseded_by": "wildfires-force-330-000-evacuations-across-france-and-spain"
+  {
+   "title": "BBC News",
+   "url": "https://www.bbc.co.uk/news/articles/clyj8k4nn5jo?at_medium=RSS&at_campaign=rss"
+  }
+ ],
+ "verification": {
+  "verdict": "VERIFIED",
+  "checked_utc": "2026-07-26T11:48:08Z",
+  "sources_cited": 2,
+  "sources_live_checked": 2
+ },
+ "superseded_by": null
 }

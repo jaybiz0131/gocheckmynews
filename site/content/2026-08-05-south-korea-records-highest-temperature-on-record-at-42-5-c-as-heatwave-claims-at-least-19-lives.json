@@ -1,37 +1,37 @@
 {
-  "id": "c049",
-  "slug": "south-korea-records-highest-temperature-on-record-at-42-5-c-as-heatwave-claims-at-least-19-lives",
-  "kind": "brief",
-  "title": "South Korea records highest temperature on record at 42.5\u00b0C as heatwave claims at least 19 lives",
-  "dek": "South Korea hit 42.5\u00b0C in the southern city of Yangsan on Sunday, its highest temperature since modern record keeping began. At least 19 people have died during the heatwave. Seoul is under a severe heat warning for the first time under a government alert system established this year.",
-  "date": "2026-08-05",
-  "published_utc": "2026-08-05T12:20:37Z",
-  "category": "news",
+ "id": "c049",
+ "slug": "south-korea-records-highest-temperature-on-record-at-42-5-c-as-heatwave-claims-at-least-19-lives",
+ "kind": "brief",
+ "title": "South Korea records highest temperature on record at 42.5\u00b0C as heatwave claims at least 19 lives",
+ "dek": "South Korea hit 42.5\u00b0C in the southern city of Yangsan on Sunday, its highest temperature since modern record keeping began. At least 19 people have died during the heatwave. Seoul is under a severe heat warning for the first time under a government alert system established this year.",
+ "date": "2026-08-05",
+ "published_utc": "2026-08-05T12:20:37Z",
+ "category": "news",
+ "verdict": "VERIFIED",
+ "rank": 4,
+ "author": "The GoCheckMyNews Desk",
+ "key_fact": "42.5\u00b0C recorded in Yangsan on Sunday, marking South Korea's all-time temperature record since modern records began.",
+ "bottom_line": "South Korea's record temperature stands as the highest confirmed since modern records began. The heatwave's trajectory and broader implications for the region remain to be reported as conditions develop and the government's response unfolds.",
+ "human_take": "",
+ "body": [
+  "South Korea recorded a high of 42.5\u00b0C in the southern city of Yangsan on Sunday, according to BBC reporting, marking the country's highest temperature since modern record keeping began.",
+  "The extreme heat has claimed at least 19 lives during the heatwave, according to authorities cited by the BBC.",
+  "Seoul is now under a severe heat warning for the first time under an alert system the government established this year to respond to rising temperatures. The capital's placement under the highest alert level signals the unprecedented nature of the current conditions and reflects the new administrative framework designed to classify and manage extreme heat events.",
+  "The brief notes that open questions remain about the scope of the fatalities across the country, the expected duration of the heatwave, the specific gap between this record and the previous high, and what public health or infrastructure measures have been deployed in response. These details were not confirmed in the available source material."
+ ],
+ "sources": [
+  {
+   "title": "BBC News",
+   "url": "https://www.bbc.co.uk/news/videos/c935ng9n2klo?at_medium=RSS&at_campaign=rss"
+  }
+ ],
+ "event_utc": "2026-08-05T11:30:39Z",
+ "verification": {
   "verdict": "VERIFIED",
-  "rank": 4,
-  "author": "The GoCheckMyNews Desk",
-  "key_fact": "42.5\u00b0C recorded in Yangsan on Sunday, marking South Korea's all-time temperature record since modern records began.",
-  "bottom_line": "South Korea's record temperature stands as the highest confirmed since modern records began. The heatwave's trajectory and broader implications for the region remain to be reported as conditions develop and the government's response unfolds.",
-  "human_take": "",
-  "body": [
-    "South Korea recorded a high of 42.5\u00b0C in the southern city of Yangsan on Sunday, according to BBC reporting, marking the country's highest temperature since modern record keeping began.",
-    "The extreme heat has claimed at least 19 lives during the heatwave, according to authorities cited by the BBC.",
-    "Seoul is now under a severe heat warning for the first time under an alert system the government established this year to respond to rising temperatures. The capital's placement under the highest alert level signals the unprecedented nature of the current conditions and reflects the new administrative framework designed to classify and manage extreme heat events.",
-    "The brief notes that open questions remain about the scope of the fatalities across the country, the expected duration of the heatwave, the specific gap between this record and the previous high, and what public health or infrastructure measures have been deployed in response. These details were not confirmed in the available source material."
-  ],
-  "sources": [
-    {
-      "title": "BBC News",
-      "url": "https://www.bbc.co.uk/news/videos/c935ng9n2klo?at_medium=RSS&at_campaign=rss"
-    }
-  ],
-  "event_utc": "2026-08-05T11:30:39Z",
-  "verification": {
-    "verdict": "VERIFIED",
-    "checked_utc": "2026-08-05T12:20:37Z",
-    "sources_cited": 1,
-    "sources_live_checked": 1
-  },
-  "update_of": "south-korea-records-highest-temperature-on-record-42-5-degrees-celsius",
-  "superseded_by": "south-korea-records-highest-temperature-on-record-at-42-5c-19-deaths-attributed-to-heatwave"
+  "checked_utc": "2026-08-05T12:20:37Z",
+  "sources_cited": 1,
+  "sources_live_checked": 1
+ },
+ "update_of": null,
+ "superseded_by": null
 }

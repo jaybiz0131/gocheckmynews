@@ -1,63 +1,63 @@
 {
-  "id": "c242",
-  "slug": "magnitude-7-7-earthquake-kills-at-least-38-off-eastern-indonesia-magnitude-6-9-aftershock-follows",
-  "kind": "brief",
-  "title": "Magnitude 7.7 earthquake kills at least 38 off eastern Indonesia; magnitude 6.9 aftershock follows",
-  "dek": "A magnitude 7.7 earthquake struck off the coast of eastern Indonesia on August 15, 2026, killing at least 38 people according to Indonesia's National Disaster Management Agency. A magnitude 6.9 aftershock hit hours later. Tsunami warnings were issued and later expired.",
-  "date": "2026-08-15",
-  "published_utc": "2026-08-15T11:58:19Z",
-  "category": "news",
+ "id": "c242",
+ "slug": "magnitude-7-7-earthquake-kills-at-least-38-off-eastern-indonesia-magnitude-6-9-aftershock-follows",
+ "kind": "brief",
+ "title": "Magnitude 7.7 earthquake kills at least 38 off eastern Indonesia; magnitude 6.9 aftershock follows",
+ "dek": "A magnitude 7.7 earthquake struck off the coast of eastern Indonesia on August 15, 2026, killing at least 38 people according to Indonesia's National Disaster Management Agency. A magnitude 6.9 aftershock hit hours later. Tsunami warnings were issued and later expired.",
+ "date": "2026-08-15",
+ "published_utc": "2026-08-15T11:58:19Z",
+ "category": "news",
+ "verdict": "VERIFIED",
+ "rank": 7,
+ "author": "The GoCheckMyNews Desk",
+ "key_fact": "A magnitude 7.7 earthquake struck off eastern Indonesia on August 15, 2026, killing at least 38 people, per the National Disaster Management Agency.",
+ "bottom_line": "Indonesia's disaster management agency will continue to assess casualties and coordinate recovery efforts across Flores island and surrounding areas. Watch for updates on the final death toll, structural damage assessments, and any additional aftershocks in the coming days.",
+ "human_take": "",
+ "body": [
+  "A magnitude 7.7 earthquake struck off the coast of eastern Indonesia shortly before 5 a.m. local time on August 15, 2026, killing at least 38 people, according to Indonesia's National Disaster Management Agency (BNPB). A magnitude 6.9 earthquake hit the same region hours later, per the U.S. Geological Survey.",
+  "The epicenter was located approximately 60 kilometers north-northwest of Ende in Indonesia's Flores region at a depth of about 10 kilometers, according to USGS. The earthquake was strongly felt across the province of East Nusa Tenggara. At least six others were injured and two more are missing, according to the Associated Press. The agency initially reported two deaths before the toll rose to at least 38.",
+  "Indonesia's Meteorology, Climatology and Geophysics Agency issued a tsunami warning, alerting residents to stay away from beaches and calling for evacuation. The warnings later expired, per the Associated Press. About 2,000 residents in the Nagekeo Regency on Flores island carried out self-evacuation as a precautionary measure after the earthquake and in response to the early tsunami alert.",
+  "A series of strong aftershocks followed the initial quake, including a magnitude 6.1 earthquake and a magnitude 5.9 earthquake also north of Ende, according to USGS. Emergency crews, including members of the Indonesian National Armed Forces, conducted evacuations and assessed damage. Photos from the area showed damage to buildings.",
+  "The death toll discrepancy between the initial BNPB statement of two deaths and the later figure of at least 38 has not been explained in available accounts. The extent of structural damage beyond photographic evidence and whether the magnitude 6.9 aftershock caused additional casualties or injuries remain unclear."
+ ],
+ "sources": [
+  {
+   "title": "abcnews.com",
+   "url": "https://abcnews.com/International/2-dead-after-powerful-77-earthquake-strikes-off/story?id=135664681"
+  }
+ ],
+ "event_utc": "2026-08-15T11:52:05Z",
+ "verification": {
   "verdict": "VERIFIED",
-  "rank": 7,
-  "author": "The GoCheckMyNews Desk",
-  "key_fact": "A magnitude 7.7 earthquake struck off eastern Indonesia on August 15, 2026, killing at least 38 people, per the National Disaster Management Agency.",
-  "bottom_line": "Indonesia's disaster management agency will continue to assess casualties and coordinate recovery efforts across Flores island and surrounding areas. Watch for updates on the final death toll, structural damage assessments, and any additional aftershocks in the coming days.",
-  "human_take": "",
-  "body": [
-    "A magnitude 7.7 earthquake struck off the coast of eastern Indonesia shortly before 5 a.m. local time on August 15, 2026, killing at least 38 people, according to Indonesia's National Disaster Management Agency (BNPB). A magnitude 6.9 earthquake hit the same region hours later, per the U.S. Geological Survey.",
-    "The epicenter was located approximately 60 kilometers north-northwest of Ende in Indonesia's Flores region at a depth of about 10 kilometers, according to USGS. The earthquake was strongly felt across the province of East Nusa Tenggara. At least six others were injured and two more are missing, according to the Associated Press. The agency initially reported two deaths before the toll rose to at least 38.",
-    "Indonesia's Meteorology, Climatology and Geophysics Agency issued a tsunami warning, alerting residents to stay away from beaches and calling for evacuation. The warnings later expired, per the Associated Press. About 2,000 residents in the Nagekeo Regency on Flores island carried out self-evacuation as a precautionary measure after the earthquake and in response to the early tsunami alert.",
-    "A series of strong aftershocks followed the initial quake, including a magnitude 6.1 earthquake and a magnitude 5.9 earthquake also north of Ende, according to USGS. Emergency crews, including members of the Indonesian National Armed Forces, conducted evacuations and assessed damage. Photos from the area showed damage to buildings.",
-    "The death toll discrepancy between the initial BNPB statement of two deaths and the later figure of at least 38 has not been explained in available accounts. The extent of structural damage beyond photographic evidence and whether the magnitude 6.9 aftershock caused additional casualties or injuries remain unclear."
-  ],
-  "sources": [
-    {
-      "title": "abcnews.com",
-      "url": "https://abcnews.com/International/2-dead-after-powerful-77-earthquake-strikes-off/story?id=135664681"
-    }
-  ],
-  "event_utc": "2026-08-15T11:52:05Z",
-  "verification": {
-    "verdict": "VERIFIED",
-    "checked_utc": "2026-08-15T11:58:19Z",
-    "sources_cited": 1,
-    "sources_live_checked": 1
+  "checked_utc": "2026-08-15T11:58:19Z",
+  "sources_cited": 1,
+  "sources_live_checked": 1
+ },
+ "also_reported_by": [
+  {
+   "outlet": "BBC",
+   "headline": "Powerful 7.7-magnitude earthquake kills at least 38 in Indonesia - BBC"
   },
-  "also_reported_by": [
-    {
-      "outlet": "BBC",
-      "headline": "Powerful 7.7-magnitude earthquake kills at least 38 in Indonesia - BBC"
-    },
-    {
-      "outlet": "AP News",
-      "headline": "Magnitude 7.7 earthquake strikes off Indonesia's coast, killing at least 38 and toppling buildings - AP News"
-    },
-    {
-      "outlet": "KTVU",
-      "headline": "Magnitude 7.7 earthquake strikes off coast of Indonesia - KTVU"
-    },
-    {
-      "outlet": "Boston Herald",
-      "headline": "Magnitude 7.7 earthquake strikes off coast of Indonesia and tsunami warning issued - Boston Herald"
-    },
-    {
-      "outlet": "The Jerusalem Post",
-      "headline": "At least 38 killed, tsunami warning lifted after magnitude 7.7 earthquake strikes Indonesia - The Jerusalem Post"
-    },
-    {
-      "outlet": "Yahoo",
-      "headline": "7.7-Magnitude Earthquake Leaves At Least 38 Dead and 13 Injured in Indonesia - Yahoo"
-    }
-  ],
-  "superseded_by": "2-powerful-earthquakes-hit-indonesia-on-same-day-at-least-47-dead"
+  {
+   "outlet": "AP News",
+   "headline": "Magnitude 7.7 earthquake strikes off Indonesia's coast, killing at least 38 and toppling buildings - AP News"
+  },
+  {
+   "outlet": "KTVU",
+   "headline": "Magnitude 7.7 earthquake strikes off coast of Indonesia - KTVU"
+  },
+  {
+   "outlet": "Boston Herald",
+   "headline": "Magnitude 7.7 earthquake strikes off coast of Indonesia and tsunami warning issued - Boston Herald"
+  },
+  {
+   "outlet": "The Jerusalem Post",
+   "headline": "At least 38 killed, tsunami warning lifted after magnitude 7.7 earthquake strikes Indonesia - The Jerusalem Post"
+  },
+  {
+   "outlet": "Yahoo",
+   "headline": "7.7-Magnitude Earthquake Leaves At Least 38 Dead and 13 Injured in Indonesia - Yahoo"
+  }
+ ],
+ "superseded_by": "two-powerful-earthquakes-strike-indonesia-within-hours-killing-at-least-47"
 }

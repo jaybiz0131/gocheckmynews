@@ -1,37 +1,37 @@
 {
-  "id": "c040",
-  "slug": "israeli-settlers-set-fire-to-mosques-damage-property-in-west-bank-villages",
-  "kind": "brief",
-  "title": "Israeli settlers set fire to mosques, damage property in West Bank villages",
-  "dek": "Two mosques in West Bank villages were set on fire by Israeli settlers, and cars and property were vandalized, according to BBC reporting. The attacks followed a deadly clash near Tal two days earlier that killed four Palestinians and two Israelis. The Israeli military said it deployed troops and would investigate.",
-  "date": "2026-07-26",
-  "published_utc": "2026-07-26T20:33:01Z",
-  "category": "news",
+ "id": "c040",
+ "slug": "israeli-settlers-set-fire-to-mosques-damage-property-in-west-bank-villages",
+ "kind": "brief",
+ "title": "Israeli settlers set fire to mosques, damage property in West Bank villages",
+ "dek": "Two mosques in West Bank villages were set on fire by Israeli settlers, and cars and property were vandalized, according to BBC reporting. The attacks followed a deadly clash near Tal two days earlier that killed four Palestinians and two Israelis. The Israeli military said it deployed troops and would investigate.",
+ "date": "2026-07-26",
+ "published_utc": "2026-07-26T20:33:01Z",
+ "category": "news",
+ "verdict": "VERIFIED",
+ "rank": 7,
+ "author": "The GoCheckMyNews Desk",
+ "key_fact": "Settlers set fire to two mosques in Qusra and Kour and vandalized cars and property in West Bank villages, with graffiti including the word 'revenge' sprayed on mosque walls, per the mayor of Qusra and BBC reporting.",
+ "bottom_line": "The attacks illustrate the cycle of escalation following the Tal clash, with both sides accusing the other of provocation. The next indicator to watch is whether the Israeli police investigation yields findings that clarify what triggered the initial clash and whether enforcement action follows against the settlers accused of the mosque fires.",
+ "human_take": "",
+ "body": [
+  "Israeli settlers set fire to two mosques and vandalized cars and property in West Bank villages in what appeared to be coordinated retaliation following a deadly clash that left four Palestinians and two Israelis dead, according to BBC reporting.",
+  "The attacks targeted the villages of Qusra and Kour, where settlers spray painted graffiti including the word \"revenge\" on mosque walls, according to Abdul Azim Wadi, mayor of Qusra. One of the mosques attacked, in Qusra, was still under construction. Cars were vandalized, property stolen, and hate graffiti was painted on walls in the two villages.",
+  "The incidents occurred two days after a clash between settlers and Palestinians near the village of Tal, according to BBC reporting. That confrontation resulted in four Palestinian deaths and two Israeli deaths. Both sides accused the other of provoking the violence in the Tal clash, leaving the cause of the initial deadly encounter in dispute.",
+  "The Israeli military said troops were sent to Qusra and that police would investigate and collect evidence at the scene. Israeli Prime Minister Benjamin Netanyahu responded to the Tal incident by vowing to take \"powerful action,\" including the possible demolition of the homes of two Palestinians allegedly involved in that clash. The Israel Defense Forces also carried out raids and arrested dozens of Palestinians in what it called a \"counter-terrorism\" operation.",
+  "The attacks are part of a broader pattern of escalating settler violence in the West Bank. According to BBC reporting, there has been a sharp increase in settler attacks in recent months, particularly since the Hamas-led attacks on Israel on October 7, 2023, and the subsequent war waged by Israel against Hamas in Gaza. Per UN data cited by BBC, 1,114 Palestinians have been killed in the West Bank since the Gaza war began, the vast majority by the Israeli Defense Forces, with at least 35 deaths involving attacks by settlers. The UN also reports 41 Israelis, including civilians and security personnel, have been killed in Palestinian attacks or during Israeli military operations in the West Bank in the same period.",
+  "Israel has built hundreds of settlements housing 700,000 Jews since it occupied the West Bank and East Jerusalem during the 1967 Middle East war, according to BBC reporting. An estimated 3.3 million Palestinians live alongside Israeli settlers in the West Bank. The Israeli settlements are illegal under international law, per BBC reporting, and BBC notes that settler violence has been encouraged by far-right elements in the current Israeli government."
+ ],
+ "sources": [
+  {
+   "title": "BBC News",
+   "url": "https://www.bbc.co.uk/news/articles/cjrv77gl4deo?at_medium=RSS&at_campaign=rss"
+  }
+ ],
+ "verification": {
   "verdict": "VERIFIED",
-  "rank": 7,
-  "author": "The GoCheckMyNews Desk",
-  "key_fact": "Settlers set fire to two mosques in Qusra and Kour and vandalized cars and property in West Bank villages, with graffiti including the word 'revenge' sprayed on mosque walls, per the mayor of Qusra and BBC reporting.",
-  "bottom_line": "The attacks illustrate the cycle of escalation following the Tal clash, with both sides accusing the other of provocation. The next indicator to watch is whether the Israeli police investigation yields findings that clarify what triggered the initial clash and whether enforcement action follows against the settlers accused of the mosque fires.",
-  "human_take": "",
-  "body": [
-    "Israeli settlers set fire to two mosques and vandalized cars and property in West Bank villages in what appeared to be coordinated retaliation following a deadly clash that left four Palestinians and two Israelis dead, according to BBC reporting.",
-    "The attacks targeted the villages of Qusra and Kour, where settlers spray painted graffiti including the word \"revenge\" on mosque walls, according to Abdul Azim Wadi, mayor of Qusra. One of the mosques attacked, in Qusra, was still under construction. Cars were vandalized, property stolen, and hate graffiti was painted on walls in the two villages.",
-    "The incidents occurred two days after a clash between settlers and Palestinians near the village of Tal, according to BBC reporting. That confrontation resulted in four Palestinian deaths and two Israeli deaths. Both sides accused the other of provoking the violence in the Tal clash, leaving the cause of the initial deadly encounter in dispute.",
-    "The Israeli military said troops were sent to Qusra and that police would investigate and collect evidence at the scene. Israeli Prime Minister Benjamin Netanyahu responded to the Tal incident by vowing to take \"powerful action,\" including the possible demolition of the homes of two Palestinians allegedly involved in that clash. The Israel Defense Forces also carried out raids and arrested dozens of Palestinians in what it called a \"counter-terrorism\" operation.",
-    "The attacks are part of a broader pattern of escalating settler violence in the West Bank. According to BBC reporting, there has been a sharp increase in settler attacks in recent months, particularly since the Hamas-led attacks on Israel on October 7, 2023, and the subsequent war waged by Israel against Hamas in Gaza. Per UN data cited by BBC, 1,114 Palestinians have been killed in the West Bank since the Gaza war began, the vast majority by the Israeli Defense Forces, with at least 35 deaths involving attacks by settlers. The UN also reports 41 Israelis, including civilians and security personnel, have been killed in Palestinian attacks or during Israeli military operations in the West Bank in the same period.",
-    "Israel has built hundreds of settlements housing 700,000 Jews since it occupied the West Bank and East Jerusalem during the 1967 Middle East war, according to BBC reporting. An estimated 3.3 million Palestinians live alongside Israeli settlers in the West Bank. The Israeli settlements are illegal under international law, per BBC reporting, and BBC notes that settler violence has been encouraged by far-right elements in the current Israeli government."
-  ],
-  "sources": [
-    {
-      "title": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/cjrv77gl4deo?at_medium=RSS&at_campaign=rss"
-    }
-  ],
-  "verification": {
-    "verdict": "VERIFIED",
-    "checked_utc": "2026-07-26T20:33:01Z",
-    "sources_cited": 1,
-    "sources_live_checked": 1
-  },
-  "update_of": "israeli-settlers-set-fire-to-mosques-vandalize-property-in-west-bank-villages"
+  "checked_utc": "2026-07-26T20:33:01Z",
+  "sources_cited": 1,
+  "sources_live_checked": 1
+ },
+ "update_of": null
 }

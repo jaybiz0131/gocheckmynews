@@ -1,45 +1,45 @@
 {
-  "id": "c331",
-  "slug": "trump-threatens-to-temporarily-withdraw-blanche-s-ag-nomination-until-cornyn-and-tillis-leave-office",
-  "kind": "brief",
-  "title": "Trump threatens to temporarily withdraw Blanche's AG nomination until Cornyn and Tillis leave office",
-  "dek": "President Trump said he would consider withdrawing Todd Blanche's attorney general nomination temporarily if two Republican senators do not vote for his confirmation, then resubmit it after they leave office in January. The move exposes a deadlock over Trump's IRS settlement, which created a $1.776 billion anti-weaponization fund that senators want formally killed in writing, and audit protections that extend to Trump and his family.",
-  "date": "2026-07-30",
-  "published_utc": "2026-07-30T16:17:44Z",
-  "category": "news",
-  "verdict": "VERIFIED",
-  "rank": 4,
-  "author": "The GoCheckMyNews Desk",
-  "key_fact": "Trump posted on Truth Social that he has no objection to temporarily withdrawing Blanche's name if Senators John Cornyn and Thom Tillis do not vote yes, and would resubmit the nomination after they leave office.",
-  "bottom_line": "President threatens to withdraw AG nominee Todd Blanche's nomination temporarily to circumvent Republican holdouts Cornyn and Tillis; material shift in confirmation strategy reported across major outlets.",
-  "human_take": "",
-  "body": [
-    "President Trump said he would consider withdrawing Todd Blanche's attorney general nomination temporarily if two Republican senators block his confirmation, then resubmit it after they leave office in January, according to a post on Truth Social reported by CBS News on July 30.",
-    "The threat marks an escalation in a confirmation fight stalled over Trump's settlement with the Internal Revenue Service. Two GOP senators, John Cornyn of Texas and Thom Tillis of North Carolina, have withheld support pending changes to the terms of that settlement, creating a bottleneck that now threatens the Justice Department's leadership.",
-    "In his Truth Social post, Trump stated: \"I have no objection to temporarily withdrawing Todd's name, if they do not do the right thing, and putting him back after Cornyn and Tillis are out of office.\" Trump also said Blanche \"will remain, in any event, as Acting\" attorney general, per CBS News reporting.",
-    "The Senate Judiciary Committee delayed its vote on advancing Blanche's nomination late Wednesday, per CBS News. A single Republican no vote would block the nomination from advancing out of committee. Cornyn told reporters he is not prepared to vote yes without an agreement on the IRS settlement terms. Per NBC News reporting from July 30, Cornyn has demanded the Justice Department formally put in writing that the so-called anti-weaponization fund, worth $1.776 billion under the settlement agreement, will not be restored. He has also demanded changes to settlement provisions that protect Trump, his family members, and his companies from future IRS audits.",
-    "Cornyn received an updated offer from the Justice Department Wednesday night and sent back a counter proposal, per CBS News. He told reporters: \"if this were just between me and Todd Blanche, we would have worked this out,\" but added he is getting pushback from \"higher ups\" at the White House. Tillis expressed similar optimism about a resolution, telling reporters per NBC News that Blanche is \"negotiating in good faith, but it's clear that the approval to get this done is above his pay grade.\" Tillis said he needed to reach \"finance guys\" at the White House, indicating the obstruction lies with other administration officials.",
-    "Cornyn's stated concern centers on the audit protections. He told reporters, per CBS News: \"We want to make sure that it remains dead, and that the president isn't given any immunity from future audits that the ordinary taxpayer would not enjoy.\" In a post on X, Cornyn asserted: \"POTUS is mistaken if he believes concerns about the provisions in his tax lawsuit settlement are limited to me and Senator Tillis,\" suggesting broader Republican discomfort with the settlement terms.",
-    "During his Senate Judiciary Committee hearing, Blanche testified, per NBC News, that the anti-weaponization fund \"is dead\" and that audit protections do not extend beyond the parties to the lawsuit. He testified the settlement \"doesn't cover any government entity except the IRS.\" Cornyn's team proposed \"some additional paper\" to commit Blanche to his sworn testimony, and Cornyn said that if the Justice Department agreed, his concerns would be satisfied.",
-    "Cornyn lost his primary election to Trump-endorsed Texas Attorney General Ken Paxton, and Tillis is retiring at the end of his term. In his Truth Social post, Trump stated that Cornyn and Tillis' \"political careers have been ended by my action,\" per NBC News reporting.",
-    "The Bottom Line: Blanche remains as acting attorney general even as his confirmation stalls, but Trump's threat to withdraw and resubmit suggests this standoff could last until the new Senate session. Watch whether Cornyn and Tillis accept the DOJ's counter proposal, and whether Trump follows through on the withdrawal threat if they do not."
-  ],
-  "sources": [
-    {
-      "title": "cbsnews.com",
-      "url": "https://www.cbsnews.com/news/trump-todd-blanche-nomination-attorney-general-cornyn-tillis/"
-    },
-    {
-      "title": "nbcnews.com",
-      "url": "https://www.nbcnews.com/politics/donald-trump/trump-threatens-pull-todd-blanches-ag-nomination-gop-holdouts-leave-of-rcna590054"
-    }
-  ],
-  "event_utc": "2026-07-30T16:14:04Z",
-  "verification": {
-    "verdict": "VERIFIED",
-    "checked_utc": "2026-07-30T16:17:44Z",
-    "sources_cited": 2,
-    "sources_live_checked": 2
+ "id": "c331",
+ "slug": "trump-threatens-to-temporarily-withdraw-blanche-s-ag-nomination-until-cornyn-and-tillis-leave-office",
+ "kind": "brief",
+ "title": "Trump threatens to temporarily withdraw Blanche's AG nomination until Cornyn and Tillis leave office",
+ "dek": "President Trump said he would consider withdrawing Todd Blanche's attorney general nomination temporarily if two Republican senators do not vote for his confirmation, then resubmit it after they leave office in January. The move exposes a deadlock over Trump's IRS settlement, which created a $1.776 billion anti-weaponization fund that senators want formally killed in writing, and audit protections that extend to Trump and his family.",
+ "date": "2026-07-30",
+ "published_utc": "2026-07-30T16:17:44Z",
+ "category": "news",
+ "verdict": "VERIFIED",
+ "rank": 4,
+ "author": "The GoCheckMyNews Desk",
+ "key_fact": "Trump posted on Truth Social that he has no objection to temporarily withdrawing Blanche's name if Senators John Cornyn and Thom Tillis do not vote yes, and would resubmit the nomination after they leave office.",
+ "bottom_line": "President threatens to withdraw AG nominee Todd Blanche's nomination temporarily to circumvent Republican holdouts Cornyn and Tillis; material shift in confirmation strategy reported across major outlets.",
+ "human_take": "",
+ "body": [
+  "President Trump said he would consider withdrawing Todd Blanche's attorney general nomination temporarily if two Republican senators block his confirmation, then resubmit it after they leave office in January, according to a post on Truth Social reported by CBS News on July 30.",
+  "The threat marks an escalation in a confirmation fight stalled over Trump's settlement with the Internal Revenue Service. Two GOP senators, John Cornyn of Texas and Thom Tillis of North Carolina, have withheld support pending changes to the terms of that settlement, creating a bottleneck that now threatens the Justice Department's leadership.",
+  "In his Truth Social post, Trump stated: \"I have no objection to temporarily withdrawing Todd's name, if they do not do the right thing, and putting him back after Cornyn and Tillis are out of office.\" Trump also said Blanche \"will remain, in any event, as Acting\" attorney general, per CBS News reporting.",
+  "The Senate Judiciary Committee delayed its vote on advancing Blanche's nomination late Wednesday, per CBS News. A single Republican no vote would block the nomination from advancing out of committee. Cornyn told reporters he is not prepared to vote yes without an agreement on the IRS settlement terms. Per NBC News reporting from July 30, Cornyn has demanded the Justice Department formally put in writing that the so-called anti-weaponization fund, worth $1.776 billion under the settlement agreement, will not be restored. He has also demanded changes to settlement provisions that protect Trump, his family members, and his companies from future IRS audits.",
+  "Cornyn received an updated offer from the Justice Department Wednesday night and sent back a counter proposal, per CBS News. He told reporters: \"if this were just between me and Todd Blanche, we would have worked this out,\" but added he is getting pushback from \"higher ups\" at the White House. Tillis expressed similar optimism about a resolution, telling reporters per NBC News that Blanche is \"negotiating in good faith, but it's clear that the approval to get this done is above his pay grade.\" Tillis said he needed to reach \"finance guys\" at the White House, indicating the obstruction lies with other administration officials.",
+  "Cornyn's stated concern centers on the audit protections. He told reporters, per CBS News: \"We want to make sure that it remains dead, and that the president isn't given any immunity from future audits that the ordinary taxpayer would not enjoy.\" In a post on X, Cornyn asserted: \"POTUS is mistaken if he believes concerns about the provisions in his tax lawsuit settlement are limited to me and Senator Tillis,\" suggesting broader Republican discomfort with the settlement terms.",
+  "During his Senate Judiciary Committee hearing, Blanche testified, per NBC News, that the anti-weaponization fund \"is dead\" and that audit protections do not extend beyond the parties to the lawsuit. He testified the settlement \"doesn't cover any government entity except the IRS.\" Cornyn's team proposed \"some additional paper\" to commit Blanche to his sworn testimony, and Cornyn said that if the Justice Department agreed, his concerns would be satisfied.",
+  "Cornyn lost his primary election to Trump-endorsed Texas Attorney General Ken Paxton, and Tillis is retiring at the end of his term. In his Truth Social post, Trump stated that Cornyn and Tillis' \"political careers have been ended by my action,\" per NBC News reporting.",
+  "The Bottom Line: Blanche remains as acting attorney general even as his confirmation stalls, but Trump's threat to withdraw and resubmit suggests this standoff could last until the new Senate session. Watch whether Cornyn and Tillis accept the DOJ's counter proposal, and whether Trump follows through on the withdrawal threat if they do not."
+ ],
+ "sources": [
+  {
+   "title": "cbsnews.com",
+   "url": "https://www.cbsnews.com/news/trump-todd-blanche-nomination-attorney-general-cornyn-tillis/"
   },
-  "superseded_by": "trump-threatens-to-withdraw-blanche-nomination-and-resubmit-after-gop-senators-leave-office"
+  {
+   "title": "nbcnews.com",
+   "url": "https://www.nbcnews.com/politics/donald-trump/trump-threatens-pull-todd-blanches-ag-nomination-gop-holdouts-leave-of-rcna590054"
+  }
+ ],
+ "event_utc": "2026-07-30T16:14:04Z",
+ "verification": {
+  "verdict": "VERIFIED",
+  "checked_utc": "2026-07-30T16:17:44Z",
+  "sources_cited": 2,
+  "sources_live_checked": 2
+ },
+ "superseded_by": null
 }
