@@ -30,6 +30,19 @@ import sys
 from urllib.parse import quote
 
 RETIRED_ARTICLES = {
+    # DUPLICATE SLUGS, one story published two or three times (crawl audit 2026-08-25).
+    # Each survivor is the fullest version: most words, most sources. The redundant
+    # slugs 301 to it via the _redirects file this map generates, so the link equity and
+    # any existing inbound link follow the story instead of splitting across copies.
+    # These three pairs were verified by hand; the corpus holds many more candidates and
+    # a bulk retirement is deliberately NOT done here, because the same matcher that
+    # finds them also paired an EU trade investigation with a Google antitrust fine.
+    "cia-director-ratcliffe-makes-unannounced-moscow-trip-for-unspecified-talks":
+        "cia-director-ratcliffe-makes-unannounced-trip-to-moscow",
+    "us-removes-syria-from-state-sponsors-of-terrorism-list-after-47-years":
+        "trump-administration-removes-syria-from-u-s-terrorism-sponsor-list-after-47-years",
+    "us-removes-syria-from-terrorism-sponsor-list-after-47-years":
+        "trump-administration-removes-syria-from-u-s-terrorism-sponsor-list-after-47-years",
     "zelensky-accuses-russia-of-north-korean-missile-use-says-no-evidence-presented":
         "ukraine-reports-north-korean-missiles-used-in-russian-strike-on-zaporizhzhia",
     "zelensky-accuses-russia-of-using-north-korean-ballistic-missiles":
@@ -67,9 +80,7 @@ DESC = ("GoCheckMyNews is an independent daily news desk built with one intentio
         "what actually happened and keep the facts honest. Every story is checked against "
         "its sources before it runs, and every cited outlet carries a published bias and "
         "factual rating, shown with attribution. Never advocacy, never advice.")
-FAMILY_DESC = ("GoCheckMyNews is the news, checked: a daily desk that verifies every story "
-               "against the official public record and outlets across the political "
-               "spectrum before it runs. Every story, sourced. Every source, rated.")
+FAMILY_DESC = ("Independent news, verified against primary sources before it publishes, with every story's sourcing shown. No hot takes, no advocacy.")
 NFA = ("GoCheckMyNews reports events. It does not editorialize and it does not advise. "
        "Nothing here is political advocacy, legal advice, or financial advice.")
 YEAR = "2026"
@@ -581,7 +592,8 @@ MOTION_JS = (
 
 
 def shell(title, desc, active, body, dateline, body_class="", path="/", noindex=False,
-          brand="site", og_type="website", schema_extra="", og_image=None):
+          brand="site", og_type="website", schema_extra="", og_image=None,
+          canonical_path=None):
     fonts = ('<link rel="preconnect" href="https://fonts.googleapis.com">'
              '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
              '<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600;700&family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">')
@@ -593,7 +605,11 @@ def shell(title, desc, active, body, dateline, body_class="", path="/", noindex=
     # og:url disagree with the URL people actually share. Both are fixed by naming the
     # form the site actually serves and links. If Pretty URLs is ever disabled, this must
     # revert with it, or every canonical will point at a 404.
-    url = ORIGIN + (path[:-5] if path.endswith(".html") else path)
+    # CANONICAL MAY POINT ELSEWHERE (crawl audit 2026-08-25): a composite page whose
+    # unique content already lives on its own URL should name that URL rather than
+    # compete with it. Everything else keeps the self-referential canonical.
+    _cp = canonical_path or path
+    url = ORIGIN + (_cp[:-5] if _cp.endswith(".html") else _cp)
     site_name = NAME
     # Home only: the hero band's poster is the LCP element (the video is preload="none"
     # by design), so hint the browser to fetch it first.
@@ -877,7 +893,10 @@ def render_article(item, all_items=None):
          "datePublished": item.get("published_utc") or item.get("date"),
          "dateModified": item.get("published_utc") or item.get("date"),
          "author": {"@type": "Organization", "name": NAME, "url": ORIGIN + "/news.html"},
-         "publisher": {"@type": "Organization", "name": FAMILY, "url": ORIGIN + "/"}},
+         # ONE PUBLISHER IDENTITY (crawl audit 2026-08-25): the article names the same
+         # @id the homepage Organization block defines, so a crawler resolves both to
+         # one entity instead of reading a fresh Organization on every page.
+         "publisher": {"@id": ORIGIN + "/#publisher"}},
         {"@type": "BreadcrumbList", "itemListElement": [
             {"@type": "ListItem", "position": 1, "name": "Latest", "item": ORIGIN + "/news.html"},
             {"@type": "ListItem", "position": 2, "name": item.get("title"), "item": url}]}
@@ -1144,6 +1163,25 @@ def render_news(items, dateline):
     return shell(f"Latest news - {NAME}", DESC, "Latest", body, dateline, path="/news.html")
 
 
+
+def home_schema():
+    """Organization + WebSite for the homepage.
+
+    Article pages have carried NewsArticle and BreadcrumbList since launch and /news now
+    carries CollectionPage, but the HOMEPAGE, the page a crawler reaches first and the one
+    that should establish who publishes everything else, emitted no structured data at all
+    (crawl audit 2026-08-25). The publisher block here is the same identity the article
+    schema names, so the two agree."""
+    org = {"@type": "NewsMediaOrganization", "@id": ORIGIN + "/#publisher",
+           "name": FAMILY, "url": ORIGIN + "/",
+           "logo": {"@type": "ImageObject", "url": ORIGIN + "/og-image.png"},
+           "description": FAMILY_DESC}
+    site = {"@type": "WebSite", "@id": ORIGIN + "/#website", "url": ORIGIN + "/",
+            "name": FAMILY, "publisher": {"@id": ORIGIN + "/#publisher"}}
+    return ('<script type="application/ld+json">'
+            + json.dumps({"@context": "https://schema.org", "@graph": [org, site]},
+                         ensure_ascii=False) + "</script>")
+
 def render_home(items, dateline):
     """The GoCheckMyNews front door, built for the RETURNING reader: today's headlines,
     the editions, and the storylines the desk is tracking. The brand pitch lives below the
@@ -1307,7 +1345,7 @@ def render_home(items, dateline):
      no paid promotion, and never advice. Everything here is free, and every source is
      linked.</p>
 </section></main>""" + newsletter()
-    return shell(f"{FAMILY} - The news, checked.", FAMILY_DESC, "Home", body, dateline, path="/")
+    return shell(f"{FAMILY} - The news, checked.", FAMILY_DESC, "Home", body, dateline, path="/", schema_extra=home_schema())
 
 
 def render_archive(items, dateline):
