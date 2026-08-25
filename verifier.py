@@ -78,8 +78,8 @@ def gather_sources(story, mode):
     # entry carries the publisher's own words, the desk verifies and briefs from those,
     # labeled as exactly that. The page always wins when any page was readable, and the
     # fallback never stacks on top of real text, so source_chars stays honest.
-    if checks and all(len(c.get("source_text") or "") < 300 for c in checks) \
-            and len(feed_text) >= 300:
+    if checks and all(len(c.get("source_text") or "") < 200 for c in checks) \
+            and len(feed_text) >= 150:
         checks.append({"url": (story.get("source_urls") or [""])[0], "http_status": None,
                        "source_text": feed_text[:6000], "text_origin": "feed",
                        "fetch_meta": "publisher feed text; no article page was readable",
