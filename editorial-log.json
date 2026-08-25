@@ -9765,5 +9765,46 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-25",
+  "approved": 8,
+  "rejected": [
+   {
+    "id": "c008",
+    "headline": "Trump Imposes 50% Tariffs on Canada; Canada Retaliates With Tariffs Up to 50%",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states Trump 'imposed 50% tariffs on a range of Canadian goods in recent weeks' and later states 'Trump added automobiles, trucks, automotive parts, and steel to the tariff list via a Truth Social post Monday.' This creates ambiguity about timing: did the 50% tariffs on the initial goods (lumber, alcohol, dairy, textiles, etc.) already take effect, or are they announced-but-not-yet-effective? The brief says 'Trump announced 50 percent tariffs on a number of Canadian goods last month' (confidence: reported) but does not specify whether these have taken effect. The draft's opening sentence ('imposed') reads as past-tense action completed, but the distinction between announced/threatened and implemented is not clarified. The brief also flags 'boundary_required: true' and 'boundary_ok: false' with reason 'this story turns on a version, date range or threshold but the brief carries no boundary block' \u2014 indicating the writer did not establish whether tariffs have taken effect or are pending. This is a material factual ambiguity that affects reader understanding of the current state of trade relations.",
+     "The draft identifies 'Canada's Prime Minister Mark Carney' but the brief provides no data point confirming Mark Carney holds the office of Prime Minister of Canada as of August 2026. This is a factual claim (a person's current office) that does not appear in the brief and therefore violates the hard rule that facts must trace to the brief."
+    ]
+   },
+   {
+    "id": "c011",
+    "headline": "Supreme Court clears path for Trump mail-ballot executive order",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief exists for this story. The desk's hard rule states: 'no fact exists outside the brief.' Without a brief, every factual claim in the draft must be verified against the cited sources themselves. The draft cites New York Times and NPR but does not include the actual source URLs in a retrievable format that permits verification. The story makes specific factual claims (6-3 vote, split along ideological lines, the order directs citizenship lists and mail-ballot eligibility determination) that cannot be traced to the research record as required by the approval protocol.",
+     "The absence of a research brief means the draft cannot be approved under the standard that facts must be sourced to a brief's data_points. This violates the foundational editorial requirement."
+    ]
+   },
+   {
+    "id": "c334",
+    "headline": "Trump administration preparing largest-ever mass visa revocation targeting asylum seekers",
+    "category": "accuracy",
+    "reasons": [
+     "The draft claims the action 'would represent the largest mass visa revocation in U.S. history' but the brief does not contain this comparative claim. The brief's core_claim and single data_point make no historical comparison; the writer has smuggled a factual assertion about historical precedent that is not in the research.",
+     "The draft states 'up to 200,000 foreigners' but provides no context about how this figure was determined, what confidence level attaches to it, or whether it is announced-vs-verified. The brief's single data_point is labeled 'reported' confidence but offers no detail on sourcing. A thin brief (thin=true) with one data point on an administration plan should read more cautiously about scale claims."
+    ]
+   },
+   {
+    "id": "c037",
+    "headline": "Sweden seeks to seize Russian-owned estate near naval base",
+    "category": "balance",
+    "reasons": [
+     "The brief contains an empty bear_case array, which means there is no counter-narrative or counterargument present in the source material. However, the draft reads entirely from the Swedish military and government perspective\u2014military justification, security rationale, historical framing\u2014with no acknowledgment of the property owner's position, the husband's response, Russian government reaction, or any legal or political counterargument. The brief's open_questions explicitly state 'Whether the Russian businessman is currently living in Sweden', 'Whether the property owner or Russian government has responded to the expropriation request', and 'What legal mechanism Sweden intends to use for the expropriation and what compensation, if any, will be offered.' The draft presents the military's request as fait accompli without noting that the Swedish government has not yet approved it, that the owners' legal standing or response is unknown, or that no compensation terms are established. This creates a one-sided narrative that reads as advocacy for the seizure rather than reporting of a contested action. A story about property expropriation cannot omit the owner's position and legal rights entirely, especially when that owner is a named individual with dual citizenship."
+    ]
+   }
+  ]
  }
 ]
