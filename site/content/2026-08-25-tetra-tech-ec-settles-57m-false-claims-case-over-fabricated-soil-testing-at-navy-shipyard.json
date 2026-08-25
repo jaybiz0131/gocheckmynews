@@ -1,0 +1,55 @@
+{
+  "id": "c000",
+  "slug": "tetra-tech-ec-settles-57m-false-claims-case-over-fabricated-soil-testing-at-navy-shipyard",
+  "kind": "brief",
+  "title": "Tetra Tech EC settles $57M False Claims case over fabricated soil testing at Navy shipyard",
+  "dek": "Tetra Tech EC Inc. agreed to pay $57 million to settle allegations it fabricated work and falsified soil test data at Hunters Point Naval Shipyard between 2003 and 2014, data the Navy relied on to certify the site safe for redevelopment. Former employees brought the case under the False Claims Act whistleblower provision.",
+  "date": "2026-08-25",
+  "published_utc": "2026-08-25T11:14:07Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 12,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Tetra Tech EC Inc. paid $57 million to resolve False Claims Act allegations it systematically falsified environmental data the Navy used to determine whether Hunters Point Naval Shipyard was safe for public use and redevelopment.",
+  "bottom_line": "The settlement establishes a record of systematic data falsification at a Navy property but does not clarify what remediation work remains or whether the site's actual safety status has been reassessed. Watch for any statement from Tetra Tech or its parent company, and for updates on the City of San Francisco's redevelopment timeline.",
+  "human_take": "",
+  "body": [
+    "Tetra Tech EC Inc., a subsidiary of Tetra Tech Inc., agreed to pay $57 million to settle False Claims Act allegations that it fabricated work and falsified soil test data at Hunters Point Naval Shipyard between 2003 and 2014, according to a Department of Justice announcement.",
+    "Between 2003 and 2014, Tetra Tech was required under Navy contracts to investigate soil and buildings at the San Francisco shipyard and remediate areas with excessive radiation so the property could be transferred to the City of San Francisco for redevelopment. Per the DOJ, the government alleged that Tetra Tech instructed field technicians to discard soil samples collected from potentially contaminated locations, replace the discarded samples with clean soil known to satisfy release criteria, and submit the replaced samples for laboratory analysis. The firm also manipulated scan results in its database to falsely represent that scans taken at different locations were conducted by the same technician at the same time.",
+    "The DOJ stated that Tetra Tech benefited from this misconduct by receiving unearned contract award fees and avoiding obligations to perform additional remediation work, thereby decreasing costs and increasing profits. The Navy relied on the falsified data to determine whether the shipyard was free from harmful radiation.",
+    "The settlement was reached in consolidated qui tam cases, a whistleblower provision of the False Claims Act that permits private parties to file suit on behalf of the United States and share in recovery. The relators, seven former employees and contractors of Tetra Tech, are Arthur R. Jahr III, Elbert G. Bowers, Susan V. Andrews, Archie R. Jackson, Anthony Smith, Donald K. Wadsworth, and Robert McLean. They will receive approximately $11,970,000 from the settlement, per the DOJ.",
+    "The settlement is separate from a prior agreement: the United States recovered an additional $40 million under the Comprehensive Environmental Response, Compensation, and Liability Act (Superfund) in a settlement entered by U.S. District Court for the Northern District of California on July 2, 2025. Assistant Attorney General Brett A. Shumate stated, \"We expect companies contracting with the government to do business honestly and fairly. This settlement demonstrates the Department's continuing commitment to hold accountable those who fail to fulfill their responsibilities in providing services to the U.S. military.\"",
+    "The DOJ noted that the claims resolved by the settlement are allegations only and there has been no determination of liability, preserving Tetra Tech's position that it did not admit wrongdoing by settling."
+  ],
+  "sources": [
+    {
+      "title": "U.S. Department of Justice",
+      "url": "https://www.justice.gov/opa/pr/tetra-tech-ec-inc-agrees-pay-57m-settle-false-claims-act-allegations-falsifying-soil-test"
+    }
+  ],
+  "event_utc": "2026-08-24T12:00:00Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-25T11:14:07Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "also_reported_by": [
+    {
+      "outlet": "TradingView",
+      "headline": "Tetra Tech EC To Pay $57 Million To Settle False Claims Act Allegations, US DOJ Says - TradingView"
+    },
+    {
+      "outlet": "Engineering News-Record",
+      "headline": "Tetra Tech Agrees to $97M Pact to Settle San Francisco Navy Base Cleanup Suit - Engineering News-Record"
+    },
+    {
+      "outlet": "NBC Bay Area",
+      "headline": "Gov. Sues Tetra Tech for Alleged False Claims in Hunters Point Cleanup - NBC Bay Area"
+    },
+    {
+      "outlet": "Traders Union",
+      "headline": "Tetra Tech unit settles False Claims Act case over Hunters Point testing for $57 million - Traders Union"
+    }
+  ]
+}

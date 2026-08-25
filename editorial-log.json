@@ -9643,5 +9643,54 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-25",
+  "approved": 6,
+  "rejected": [
+   {
+    "id": "c082",
+    "headline": "Supreme Court allows Trump mail-ballot order to proceed while legal challenges continue",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief was provided for this story. The instruction states: 'every draft fact must then trace to the draft's own cited sources or be rejected.' The draft contains multiple specific factual claims (6-3 vote, timing before November midterms, specific details about what the order directs) that cannot be verified against a brief. The sources are URLs only with no supporting data_points, confidence levels, or substantive context. Without a brief, the critical claim about the vote margin (6-3), the specific contents of the order, and the lower-court reasoning cannot be traced to verifiable sourced material in the required format. The story cannot be approved without a research brief providing data_point verification."
+    ]
+   },
+   {
+    "id": "c069",
+    "headline": "Canada to announce retaliatory tariffs against U.S. on Tuesday",
+    "category": "accuracy",
+    "reasons": [
+     "The draft contains a confidence label mismatch. Data_point 1 in the brief is marked 'announced-not-verified,' indicating the announcement was made but not yet verified as fact. The draft opens with 'Canada will announce retaliatory tariffs against the United States on Tuesday' written in future tense as settled fact, without signaling the 'announced-not-verified' status. This must be rewritten to reflect that this is an announcement/claim by an official, not a confirmed action. The sentence 'according to an official familiar with the plans who spoke to the Associated Press' attributes the claim but does not clearly mark it as unverified/announced-only.",
+     "The draft lacks any framing that this is an announced intention rather than a confirmed commitment, and fails to carry forward the brief's confidence label distinction between 'announced-not-verified' and 'reported.'"
+    ]
+   },
+   {
+    "id": "c017",
+    "headline": "China vows to resist expanded US sanctions against Iran",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'BBC News notes the trade has declined under what it describes as a US blockade of the Strait of Hormuz' in the sixth paragraph. The brief data point does not mention a 'blockade of the Strait of Hormuz'\u2014it only states 'the trade has declined under the US blockade of the Strait of Hormuz.' The characterization of this as a BBC description rather than fact is not supported by the brief, which presents it as reported (not qualified). This reads as the writer's gloss rather than a fact from the source.",
+     "The draft also includes editorial framing ('laying bare a collision,' 'exposes limits to U.S. sanctions enforcement') that tips toward advocacy voice rather than neutral event reporting. The lead sentence 'laying bare a collision between Washington's isolation strategy and Beijing's energy interests' adopts a voice that frames the standoff as inherent conflict rather than reporting what each party said."
+    ]
+   },
+   {
+    "id": "c117",
+    "headline": "Washington Post ordered to reinstate opinion columnist Karen Attiah",
+    "category": "accuracy",
+    "reasons": [
+     "The draft describes Charlie Kirk as 'described as a then recently killed conservative activist,' but the brief's data_point uses identical language. However, this phrasing is awkward and potentially misleading: it does not clearly establish that Kirk was actually killed or when, and the passive 'described as' construction obscures the basic fact. The reader cannot determine from the draft whether Kirk is deceased or what the actual timeline is. This is a fundamental accuracy problem: the core claim of the story rests on understanding what Attiah's posts were about, and the draft leaves that ambiguous.",
+     "The draft provides only 219 words of body text for a story about a labor arbitration ruling. While the brief itself is thin (true), the draft omits the essential context that readers need to understand the significance: What union protected Attiah? What specifically did her posts say about Kirk? What is the Post's statement or response? The bottom_line acknowledges 'the arbitrator's full reasoning and the Post's next steps are not yet public' but the draft never establishes what IS public beyond the bare ruling. For a story this sparse, the claim structure leaves readers unable to understand the stakes."
+    ]
+   },
+   {
+    "id": "c263",
+    "headline": "Jared Kushner met privately with incoming House Democratic leader Hakeem Jeffries",
+    "category": "accuracy",
+    "reasons": [
+     "The draft cites a CBS News URL as its source, but no research brief was provided and the draft contains no verifiable facts that can be traced to the cited source. The approval instruction states: 'every draft fact must then trace to the draft's own cited sources or be rejected.' The story makes specific factual claims (a meeting occurred, timing relative to midterm elections, Jeffries' positioning as House speaker) that cannot be verified against the provided materials. Without access to the actual CBS News article or a research brief documenting these facts, there is no way to confirm the accuracy of the core narrative."
+    ]
+   }
+  ]
  }
 ]

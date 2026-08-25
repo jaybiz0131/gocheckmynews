@@ -1,0 +1,36 @@
+{
+  "id": "c049",
+  "slug": "us-removes-syria-from-state-sponsors-of-terrorism-list-after-47-years",
+  "kind": "brief",
+  "title": "US removes Syria from state sponsors of terrorism list after 47 years",
+  "dek": "The Trump administration formally removed Syria from its state sponsors of terrorism designation on Monday, lifting sanctions that have restricted investment and trade since 1979. Secretary of State Marco Rubio said the move recognizes Syria's government distancing itself from international terrorism. The removal comes as Ahmad al-Sharaa's transitional administration seeks reintegration into the global economy.",
+  "date": "2026-08-25",
+  "published_utc": "2026-08-25T11:14:07Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 7,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Syria has been removed from the US state sponsors of terrorism list after 47 years, a reversal of policy that provides major sanctions relief and leaves Cuba, North Korea, and Iran as the only three nations on the list.",
+  "bottom_line": "The formal removal clears regulatory barriers to Syria's economic reengagement with the West, but the stability of al-Sharaa's government and regional alignment remain unresolved. Watch for concrete private investment activity in Syria over the next months and any public statements from Israel or Turkey signaling agreement or friction with the U.S. policy shift; either would test whether the administration's diplomatic gambit holds.",
+  "human_take": "",
+  "body": [
+    "The Trump administration formally removed Syria from its list of state sponsors of terrorism on Monday, lifting sanctions and restrictions that have governed U.S. policy toward the country since 1979. The move opens the door to private sector investment in Syria and its reintegration into the global economy, according to the State Department.\nSecretary of State Marco Rubio said the removal recognizes the Syrian government's \"positive actions to fully distance itself from acts of international terrorism.\" Treasury Secretary Scott Bessent stated the action \"will help foster additional investment in Syria to promote political and economic stability,\" while Rubio said it would give Syrians \"a path to prosperity.\"\nThe designation removal lifts financial sanctions, restrictions on U.S. foreign aid, and defense exports and sales that accompanied the state sponsors of terrorism label. It also removes penalties on third parties and countries that trade with the sanctioned state, per the State Department.\nThe removal comes as Ahmad al-Sharaa's transitional government solidifies control following the late-2024 rebel offensive that overthrew former president Bashar al-Assad. Sharaa's Islamist group, Hayat Tahrir al-Sham (HTS), led that offensive and now dominates the administration. According to BBC reporting, Sharaa is a former militant who once carried an American bounty as leader of an al-Qaeda offshoot. HTS was formerly known as al-Nusra Front, al-Qaeda's affiliate in Syria, until Sharaa severed the jihadist network ties in 2016.\nSyrian Foreign Minister Asaad Hassan al-Shaibani called the removal a \"historic step,\" per state-run news agency SANA. He said the government would \"continue working to remove the effects of isolation and create an environment based on transparency, mutual interests and respect.\"\nWith Syria's removal, only Cuba, North Korea, and Iran remain on the U.S. state sponsors of terrorism list, verified in the official record.\nThe administration's move reflects an intent to bring Syria into the U.S. sphere of influence rather than that of Russia or China, according to BBC reporting. However, the same reporting notes that significant risks remain: Syria is \"still far from secure and lacking representative government\" and sits at the center of growing tensions between regional neighbors Israel and Turkey."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c33knmyl0y5o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/policy/international/6047622-trump-removes-syria-sst-designation/"
+    }
+  ],
+  "event_utc": "2026-08-24T19:57:17Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-25T11:14:07Z",
+    "sources_cited": 2,
+    "sources_live_checked": 1
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "c083",
+  "slug": "trump-administration-preparing-largest-mass-visa-revocation-in-us-history",
+  "kind": "brief",
+  "title": "Trump administration preparing largest mass visa revocation in US history",
+  "dek": "The Trump administration is preparing to revoke B1 and B2 visitor visas for up to 200,000 foreigners who have applied for or are seeking asylum status, according to State Department officials. The action, expected to be announced in coming weeks, would mark the largest single mass revocation of visas in U.S. history. The visas targeted were issued between 2016 and 2026.",
+  "date": "2026-08-25",
+  "published_utc": "2026-08-25T11:14:07Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 8,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Up to 200,000 people holding B1 and B2 visitor visas who have applied for or are seeking asylum in the United States may have those visas revoked in what officials say would be the largest mass revocation in U.S. history.",
+  "bottom_line": "The State Department has not yet provided a primary advisory detailing who is affected or how affected individuals can respond; the administration's own statements are the current source of specificity. Watch for the formal announcement in coming weeks and any immediate legal challenge; the scale and speed of the revocation process will be key to understanding the policy's practical reach.",
+  "human_take": "",
+  "body": [
+    "The Trump administration is preparing to revoke B1 and B2 visitor visas for up to 200,000 foreigners who have applied for or are seeking asylum status in the United States, according to State Department officials. The action would mark the largest single mass revocation of visas in U.S. history and is expected to be announced in the coming weeks unless revised or challenged.\nB1 visas are generally issued for business travel and B2 visas for tourism, family visits, or medical care. Applicants for these visas are currently required to affirm they will not apply for asylum and to prove they intend to return to their home countries.\nState Department spokesman Tommy Pigott stated the administration is \"coordinating with DHS to identify and revoke the nonimmigrant visas of foreigners who have come to the United States claiming to be short-term visitors, but then file for asylum to stay here permanently.\" Pigott declined to specify the exact number of visas to be revoked, saying that \"as the process will be ongoing, the number of revocations remains dynamic and will be done on a rolling basis.\"\nAccording to NPR reporting, the visas targeted were issued between 2016 and 2026. The revocations would not necessarily result in immediate deportation; most with pending asylum cases would be recategorized but lose their status as business or tourism travelers, per NPR reporting.\nDeputy Secretary of State Christopher Landau posted on social media that \"people in the US and all over the world are fed up with bogus asylum claims. Asylum isn't supposed to be a loophole to circumvent immigration law.\" Landau cited the case of a Colombian citizen who came to the U.S. in 2015 on a tourist visa and then applied for asylum.\nThe visa revocation action is part of a broader administration immigration enforcement push. In the past 18 months, the State Department has revoked about 175,000 visas for people convicted or accused of crimes ranging from drunken driving to rape and robbery, as well as for people who have spoken out publicly against U.S. policies, particularly in the Middle East, according to NPR reporting. The administration is also moving to crack down on so-called birth tourism, a practice the administration claims foreign pregnant women use to come to the U.S. to give birth so their child will benefit from birthright citizenship."
+  ],
+  "sources": [
+    {
+      "title": "NPR",
+      "url": "https://www.npr.org/2026/08/25/nx-s1-5944058/us-largest-mass-visa-revocation-200-000-foreigners"
+    },
+    {
+      "title": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/politics/u-s-set-for-largest-mass-visa-revocation-in-history-targeting-up-to-200000-foreigners-officials-say"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/homenews/administration/6048047-mass-b1-b2-visa-revocations/"
+    }
+  ],
+  "event_utc": "2026-08-24T20:59:38Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-25T11:14:07Z",
+    "sources_cited": 3,
+    "sources_live_checked": 2
+  },
+  "boundary": {
+    "affected": "foreigners who have applied for or are currently seeking asylum status in the United States with B1 and B2 visas",
+    "fixed": "visas issued between 2016 and 2026",
+    "user_action": "Not specified in available sources",
+    "advisory_url": "Not available in provided source texts"
+  }
+}
