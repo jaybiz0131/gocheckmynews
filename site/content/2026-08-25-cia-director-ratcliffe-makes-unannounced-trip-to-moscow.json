@@ -1,0 +1,84 @@
+{
+  "id": "c107",
+  "slug": "cia-director-ratcliffe-makes-unannounced-trip-to-moscow",
+  "kind": "brief",
+  "title": "CIA Director Ratcliffe Makes Unannounced Trip to Moscow",
+  "dek": "CIA Director John Ratcliffe traveled to Moscow on an unannounced visit to hold talks with Russian officials, according to multiple sources. The trip, confirmed by flight tracking data and sources with knowledge of the matter, is his first known visit to Russia as CIA director. Neither the U.S. nor Russian governments has commented on the purpose of the talks.",
+  "date": "2026-08-25",
+  "published_utc": "2026-08-25T16:17:14Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 1,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "CIA Director John Ratcliffe flew to Moscow in an unannounced visit to hold talks, departing from Joint Base Andrews in Maryland on Sunday and landing at Vnukovo International Airport after routing through Riga, Latvia, according to NBC News reporting and flight tracking data.",
+  "bottom_line": "Neither government has explained the visit's purpose or Ratcliffe's interlocutor in Moscow, leaving open whether the trip concerns Ukraine negotiations, bilateral intelligence matters, or prisoner-exchange discussions. Official confirmation of the meeting's aims, or lack thereof, will determine whether this represents a new diplomatic channel or routine intelligence liaison work.",
+  "human_take": "",
+  "body": [
+    "CIA Director John Ratcliffe flew to Moscow to hold talks with Russian officials in an unannounced visit, according to NBC News reporting. The trip marks his first known travel to Russia as CIA director.",
+    "A source with knowledge of the matter confirmed that Ratcliffe met with someone in Moscow but declined to say whom he met with or the focus of the talks, per NBC News. Flight tracking data from FlightRadar24 showed a U.S. military Boeing C-17A Globemaster III transport plane, flight number RCH4555, departed from Joint Base Andrews in Maryland on Sunday just before 5 p.m. ET, routed to Riga, Latvia, and then approached Vnukovo International Airport in Moscow just after 10 a.m. local time on Tuesday morning, according to NBC News and ABC News reporting. The plane departed Moscow on Tuesday afternoon, according to flight radar data.",
+    "CBS News reported that a U.S. military Boeing C-17A Globemaster III transport plane was spotted at a Moscow airport along with a U.S. diplomatic motorcade. Two support aircraft, a C-130 cargo plane and a C-40, landed in Riga for the same mission, according to NBC News.",
+    "The CIA declined to comment on Ratcliffe's visit, per NBC News. When asked, Kremlin spokesman Dmitry Peskov said he did not have information about the aircraft. U.S. military officials, the White House, the U.S. Embassy in Moscow, and the Russian Embassy in Washington did not immediately respond to questions about the flight's mission, according to NBC News.",
+    "Ratcliffe has made high-level diplomatic trips before. He visited Venezuela in January to meet with the interim president, per NBC News reporting, about two weeks after the U.S. military seized President Nicolas Maduro in a raid in Caracas. He also traveled to Cuba in May to meet with government leaders and was the highest-ranking Trump administration official to visit the island, according to NBC News.",
+    "According to CBS News reporting, Ratcliffe has maintained contact with Russian intelligence counterparts. The CIA played a role in the April 2025 release of U.S.-Russian dual national Ksenia Karelina, whose case Ratcliffe personally negotiated, CBS News reported. The CIA was also involved in the 2024 prisoner exchange that secured the release of Wall Street Journal reporter Evan Gershkovich and Marine veteran Paul Whelan, per CBS News.",
+    "CBS News noted that former CIA Director William Burns traveled to Moscow in November 2021, when he met with senior Russian officials and spoke directly with President Vladimir Putin to warn him against invading Ukraine. According to CBS News, U.S.-mediated peace talks with Ukraine remain mostly stalled, with the sides still far apart on core issues."
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/world/russia/mystery-us-military-plane-lands-moscow-rcna594262"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/cia-director-john-ratcliffe-russia-secret-trip/"
+    },
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/2026/aug/25/cia-director-john-ratcliffe-moscow-russia"
+    },
+    {
+      "title": "abcnews.com",
+      "url": "https://abcnews.com/International/cia-director-john-ratcliffe-moscow-meetings-sources/story?id=135928388"
+    },
+    {
+      "title": "The Wall Street Journal",
+      "url": "https://www.wsj.com/world/cia-director-john-ratcliffe-makes-surprise-trip-to-moscow-c1a68fa6"
+    },
+    {
+      "title": "The Wall Street Journal",
+      "url": "https://www.wsj.com/world/cia-director-john-ratcliffe-makes-surprise-trip-to-moscow-c1c68fa6?mod=rss_worldnews"
+    }
+  ],
+  "event_utc": "2026-08-25T11:22:34Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-25T16:17:14Z",
+    "sources_cited": 6,
+    "sources_live_checked": 3
+  },
+  "also_reported_by": [
+    {
+      "outlet": "CBS News",
+      "headline": "CIA Director John Ratcliffe on secret trip in Russia - CBS News"
+    },
+    {
+      "outlet": "Axios",
+      "headline": "CIA director Ratcliffe visits Moscow - Axios"
+    },
+    {
+      "outlet": "WSJ",
+      "headline": "CIA Director John Ratcliffe Makes Surprise Trip to Moscow - WSJ"
+    },
+    {
+      "outlet": "The Guardian",
+      "headline": "CIA director John Ratcliffe reportedly on Moscow visit - The Guardian"
+    },
+    {
+      "outlet": "Kurdistan24",
+      "headline": "CIA Director John Ratcliffe Makes Secret Trip to Moscow - Kurdistan24"
+    },
+    {
+      "outlet": "Daily Sabah",
+      "headline": "CIA chief Ratcliffe makes rare Moscow visit for high-level talks - Daily Sabah"
+    }
+  ]
+}

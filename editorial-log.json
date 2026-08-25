@@ -9724,5 +9724,46 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-25",
+  "approved": 8,
+  "rejected": [
+   {
+    "id": "c008",
+    "headline": "Trump Imposes 50% Tariffs on Canadian Goods, Vehicles, and Steel",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states trade supports 'nearly $2.6 billion a day in goods and services,' but later in the same paragraph states 'Trade between the two countries totaled an estimated $872.3 billion in 2025.' These two figures are in direct conflict. $872.3 billion annually ($2.39 billion daily) does not equal 'nearly $2.6 billion a day.' The brief contains both figures but the draft presents them without reconciliation, creating a factual contradiction that misleads the reader about the scale of bilateral trade.",
+     "The draft does not specify when the tariffs went into effect. The brief's open_questions explicitly flag: 'What is the exact date the tariffs went into effect (the source says over the weekend but does not give the precise date)?' and boundary_required is marked true with boundary_ok marked false. A draft that fails to nail down a concrete date on a story whose core claim centers on tariffs going 'into effect' is missing a core factual anchor the reader needs. The headline says 'announces' but the body says the order was 'expected to affect'\u2014the temporal status of implementation is unclear.",
+     "The brief lists 'boundary_required: true' and 'boundary_ok: false' with reason 'this story turns on a version, date range or threshold but the brief carries no boundary block.' This is a structural problem: the desk has flagged that this story cannot run without a clear implementation date or boundary marker, and the draft does not provide one. The story reads as announcement/expectation rather than as executed policy."
+    ]
+   },
+   {
+    "id": "c011",
+    "headline": "Supreme Court Lifts Block on Trump Mail-Ballot Executive Order",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief was provided for this story. Per instructions, every draft fact must trace to cited sources or be rejected. The draft cites three URLs (NYT, NPR, CBS) but provides no confirmation that these sources exist, contain the reported facts, or support the specific claims made. Without a brief or access to verify the sources, no fact-checking is possible. The instruction states: 'no brief exists for this story; every draft fact must then trace to the draft's own cited sources or be rejected.' The draft cannot be verified against public records or on-the-record statements in the absence of source material access, making approval impossible."
+    ]
+   },
+   {
+    "id": "c324",
+    "headline": "Trump administration preparing largest mass visa revocation in U.S. history",
+    "category": "accuracy",
+    "reasons": [
+     "The draft presents a story built entirely on a single NPR source that was not fully fetched (source_chars: 228 bytes; the brief notes 'the article contains only the caption and no substantive reporting'). The brief explicitly flags the source as thin with an http_status of null and labels the story 'thin: true'. The draft makes three factual claims (up to 200,000 visa revocations; targeting asylum seekers; largest in U.S. history) all marked 'reported' confidence in the brief, meaning they rest on NPR's account alone. The hard rule is: 'no fact exists outside the brief.' The brief's open_questions section documents that the source was 'not fully fetched,' making it impossible to verify whether NPR actually reported these numbers, the scope, or the basis for the claim. Publishing a story on visa revocations from a source that failed to load is publishing on unverified ground. The writer was required to flag this thinness to the desk and did not. A story this dependent on a single thin/incomplete source should not have been drafted as a finished piece."
+    ]
+   },
+   {
+    "id": "c320",
+    "headline": "Hawk Fire near Reno destroys more than 30 structures",
+    "category": "accuracy",
+    "reasons": [
+     "The brief's open_questions section explicitly states: 'The fetched source text is an Amazon Fire tablet product review unrelated to the Hawk Fire story; the NPR URL itself was not successfully fetched.' This means the single sourced data point (more than 30 structures burned) cannot be verified from the available source material. The story is built on a fact the desk cannot confirm against its research brief.",
+     "The brief identifies itself as 'thin: true' with only one unverified data point and multiple critical open questions (acreage, evacuation numbers, cause, timeline, state of emergency declaration). The writer has published a story from a brief that explicitly documents source failure."
+    ]
+   }
+  ]
  }
 ]

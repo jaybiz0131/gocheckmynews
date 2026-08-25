@@ -1,0 +1,54 @@
+{
+  "id": "c050",
+  "slug": "two-deaths-mark-return-of-measles-to-pennsylvania-after-35-year-gap",
+  "kind": "brief",
+  "title": "Two Deaths Mark Return of Measles to Pennsylvania After 35-Year Gap",
+  "dek": "Two unvaccinated people died of measles in Pennsylvania, the first measles deaths in the state in 35 years. The deaths occur as 2,777 measles cases have been reported nationwide in 2026, the highest number in 35 years, amid rising vaccine exemption rates and declining immunization coverage.",
+  "date": "2026-08-25",
+  "published_utc": "2026-08-25T16:17:14Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 6,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Two unvaccinated people died of measles in Pennsylvania, marking the first measles deaths in the state since 1991.",
+  "bottom_line": "The Pennsylvania deaths signal measles reestablishment in a state without endemic disease for decades, driven by declining vaccination rates and rising exemptions. The November determination of whether the U.S. retains measles-eliminated status will be a critical marker of whether current trends reverse or continue to accelerate disease transmission.",
+  "human_take": "",
+  "body": [
+    "Two unvaccinated people died of measles in Pennsylvania, marking the first measles deaths in the state in 35 years. Both lived in Lancaster County, which has been the epicenter of the state's outbreak. The deaths are also the first measles deaths reported in the United States in 2026.\nAs of August 25, Pennsylvania had confirmed 393 measles cases, with 86 diagnosed in the week ending that day. Seventy people have been hospitalized for measles-related complications. The outbreak reflects a national trend: the United States has recorded 2,777 measles cases in 2026, the highest number in 35 years, according to NBC News.\nMeasles spreads rapidly in unvaccinated populations. The measles, mumps, and rubella vaccine, administered in two doses around ages 1 and 5, offers 97% protection against measles, usually for life. However, vaccination rates in key areas have declined significantly. In Lancaster County, the percentage of kindergarten-age students vaccinated against measles fell from 95.5% in 2017 to 87.6% in 2025. Eighty-five percent of kindergarteners in the county are currently vaccinated, well below the 95% threshold needed for herd immunity.\nNationally, vaccine exemptions have increased. During the 2025-26 school year, 4.2% of kindergarteners, approximately 155,000 children, had at least one vaccine exemption, up from 3.6% the previous school year.\nThe majority of measles cases in 2026 have occurred in unvaccinated people. As of August 20, 193 measles patients have been hospitalized nationwide, about 7% of all cases. Last year, three people died of measles: an adult in New Mexico and two young girls in Texas, who were unvaccinated and infected during an outbreak that sickened over 1,000 people, primarily children.\nPennsylvania Secretary of Health Dr. Debra Bogen stated, \"Because measles was largely eliminated in the Commonwealth for more than three decades, people are not familiar with this disease and don't fully understand the potential severity of the illness.\" She added, \"As a physician, I want to make sure that people understand that the MMR vaccine is safe and provides the best protection we have against measles.\"\nThe resurgence occurs as the nation faces policy shifts on childhood vaccination. Earlier this month, President Donald Trump signed an executive order aimed at reducing the number of vaccines recommended for children and calling for the MMR vaccine to be split into three separate shots, according to BBC reporting. Health Secretary Robert F. Kennedy Jr. backed the order.\nThe United States is on track to lose its status as a measles-eliminated nation, a determination that will be made by a panel in November. Canada lost its measles-eliminated status last year."
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/health/health-news/measles-pennsylvania-deaths-two-outbreak-rfk-jr-rcna594296"
+    },
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/2026/aug/25/measles-deaths-pennsylvania"
+    },
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c5yednen30go"
+    },
+    {
+      "title": "The New York Times",
+      "url": "https://www.nytimes.com/2026/08/25/well/measles-deaths-pennsylvania-outbreak.html"
+    },
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c5yednen30go?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "event_utc": "2026-08-25T13:37:24Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-25T16:17:14Z",
+    "sources_cited": 5,
+    "sources_live_checked": 3
+  },
+  "also_reported_by": [
+    {
+      "outlet": "Eurasianet",
+      "headline": "Georgia: Two Deaths Mark Independence Day Protest - Eurasianet"
+    }
+  ]
+}
