@@ -1,0 +1,57 @@
+{
+  "id": "c073",
+  "slug": "consumer-confidence-slips-to-seven-month-low-as-gas-prices-and-inflation-weigh",
+  "kind": "brief",
+  "title": "Consumer Confidence Slips to Seven-Month Low as Gas Prices and Inflation Weigh",
+  "dek": "The Conference Board reported consumer confidence declined to 89.4 in August from 90.2 in July, the lowest level in seven months. The drop reflects elevated gasoline prices above $4 per gallon driven by Iran conflict and five years of elevated inflation dampening economic sentiment.",
+  "date": "2026-08-25",
+  "published_utc": "2026-08-25T17:58:56Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 9,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Consumer confidence hit its lowest point in seven months amid persistent inflation and gas prices above $4 per gallon.",
+  "bottom_line": "The August reading marks a continued deterioration in sentiment from already-weak levels through 2026, with gas prices and inflation fatigue cited as drivers. What to watch: whether September confidence stabilizes at current levels or continues to decline, and how weakening sentiment translates to consumer spending over coming months.",
+  "human_take": "",
+  "body": [
+    "The Conference Board reported Tuesday that U.S. consumer confidence declined to 89.4 in August from 90.2 in July, marking the lowest level in seven months, according to reporting from the Guardian and PBS NewsHour. The drop reflects mounting frustration over elevated gasoline prices and persistent inflation.",
+    "Gasoline prices remain above $4 per gallon due to the ongoing conflict in Iran, according to Guardian reporting. Americans' confidence in the economy has declined amid what the Guardian describes as frustration after five years of elevated inflation.",
+    "Context shows the recent weakness in consumer mood. According to the Guardian, consumer confidence readings were consistently above 100 in late 2024 and early 2025. The sentiment has since softened. The Guardian reports that consumer confidence has been in a lukewarm range since the beginning of 2026, essentially flat.",
+    "Consumer confidence measures track whether Americans believe the economy is expanding or contracting and form one gauge of likely consumer spending behavior."
+  ],
+  "sources": [
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/business/2026/aug/25/us-consumer-confidence-falls"
+    },
+    {
+      "title": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/economy/with-gas-stuck-above-4-u-s-consumer-confidence-falls-to-lowest-level-in-7-months"
+    }
+  ],
+  "event_utc": "2026-08-25T15:56:15Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-25T17:58:56Z",
+    "sources_cited": 2,
+    "sources_live_checked": 0
+  },
+  "also_reported_by": [
+    {
+      "outlet": "CryptoRank",
+      "headline": "Belgium Consumer Confidence Slips to -7 in August as Households Turn More Pessimistic - CryptoRank"
+    },
+    {
+      "outlet": "Bloomberg",
+      "headline": "US Consumer Confidence Slips Amid Widespread Price Worries - Bloomberg"
+    },
+    {
+      "outlet": "Love FM Belize",
+      "headline": "Inflation Rises as Consumer Confidence Slips in Belize - Love FM Belize"
+    },
+    {
+      "outlet": "tippinsights",
+      "headline": "US Consumer Confidence Slips Amid Elevated Gas Prices - tippinsights"
+    }
+  ]
+}

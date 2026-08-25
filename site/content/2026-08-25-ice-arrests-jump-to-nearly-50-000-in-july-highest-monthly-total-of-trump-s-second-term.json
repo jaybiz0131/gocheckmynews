@@ -1,0 +1,66 @@
+{
+  "id": "c072",
+  "slug": "ice-arrests-jump-to-nearly-50-000-in-july-highest-monthly-total-of-trump-s-second-term",
+  "kind": "brief",
+  "title": "ICE Arrests Jump to Nearly 50,000 in July, Highest Monthly Total of Trump's Second Term",
+  "dek": "U.S. Immigration and Customs Enforcement arrested 49,571 people in July 2026, a 15 percent increase from the prior month and the highest single-month total during Trump's second administration, according to data provided to the University of California, Berkeley's Deportation Data Project.",
+  "date": "2026-08-25",
+  "published_utc": "2026-08-25T17:58:56Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 5,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "ICE arrested nearly 50,000 people in July 2026, the highest single monthly total of the Trump second term, continuing a surge that accelerated from February levels.",
+  "bottom_line": "The July arrest numbers indicate the administration's mass deportation operations remain in full force despite the February pullback and the politically charged incidents surrounding them. Watch whether October and November arrest totals continue climbing as the midterm election approaches, and whether further fatal encounters in ICE operations alter the political calculation around enforcement intensity.",
+  "human_take": "",
+  "body": [
+    "U.S. Immigration and Customs Enforcement arrested 49,571 people in July 2026, marking the highest single-month arrest total during President Trump's second administration, according to data analyzed by The Associated Press from records provided by ICE to the University of California, Berkeley's Deportation Data Project.",
+    "The July tally represents a 15 percent increase from the 43,021 arrests in June and a 70 percent jump from February's 29,241, when immigration enforcement numbers had fallen sharply following two fatal ICE shootings in Minnesota and ensuing Democratic protests. Before Trump left office in January, monthly arrests hovered slightly above 8,000.",
+    "The July surge reflects sustained acceleration in the enforcement effort. ICE has been infused with billions of dollars by Congress and has hired 12,000 new deportation officers and investigative agents. The administration loosened restrictions on where and who ICE could arrest, and by December of Trump's second term's first year, monthly arrests had climbed to more than 40,177. The numbers fell in early 2026 but have risen steadily since.",
+    "Texas and Florida accounted for nearly 20,000 of the July arrests, concentrated in states with 287g agreements, formal cooperation arrangements that allow local and state law enforcement to operate as arms of federal immigration enforcement.",
+    "The acceleration comes despite Homeland Security Secretary Markwayne Mullin's pledge in his confirmation hearing earlier this year to keep ICE out of the headlines, suggesting the administration might shift toward less visible enforcement. Mullin's tenure has been marked by multiple fatal shootings of immigrants in ICE encounters. ABC News reports that the figures show Mullin has not shifted the agency from Trump's vision for mass deportations, and that the administration has advanced its agenda by moving from high-profile operations in large cities to arrests drawing less public attention."
+  ],
+  "sources": [
+    {
+      "title": "abcnews.com",
+      "url": "https://abcnews.com/US/wireStory/ice-arrests-jumped-50000-july-highest-monthly-total-135941401"
+    },
+    {
+      "title": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/nation/ice-arrests-jump-to-nearly-50000-in-july-highest-monthly-total-of-trumps-crackdown"
+    }
+  ],
+  "event_utc": "2026-08-25T16:13:11Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-25T17:58:56Z",
+    "sources_cited": 2,
+    "sources_live_checked": 1
+  },
+  "also_reported_by": [
+    {
+      "outlet": "ABC News",
+      "headline": "ICE arrests jumped to nearly 50,000 in July, the highest monthly total of Trump\u2019s second term - ABC News - Breaking News, Latest News and Videos"
+    },
+    {
+      "outlet": "Bozeman Daily Chronicle",
+      "headline": "ICE arrests jumped to nearly 50,000 in July, the highest monthly total of Trump\u2019s second term - Bozeman Daily Chronicle"
+    },
+    {
+      "outlet": "Times Union",
+      "headline": "ICE arrests jumped to nearly 50,000 in July, the highest monthly total of Trump\u2019s second term - Times Union"
+    },
+    {
+      "outlet": "Audacy",
+      "headline": "ICE arrests jumped to nearly 50,000 in July, the highest monthly total of Trump\u2019s second term - Audacy"
+    },
+    {
+      "outlet": "KVUE",
+      "headline": "ICE arrests jumped to nearly 50,000 in July, figures show, the highest monthly total of Trump\u2019s second term - KVUE"
+    },
+    {
+      "outlet": "Ottumwa Courier",
+      "headline": "ICE arrests jumped to nearly 50,000 in July, figures show, the highest monthly total of Trump\u2019s second term - Ottumwa Courier"
+    }
+  ]
+}
