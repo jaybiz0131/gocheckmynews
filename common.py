@@ -154,6 +154,21 @@ def distinct_publishers(refs):
     return len(out)
 
 
+
+def og_description(html_body):
+    """The page's own og:description / twitter:description, or ''. The publisher's own
+    one-line summary of their own story, served in the same response (owner audit
+    2026-08-25)."""
+    import html as _h
+    for pat in (r'<meta[^>]+property=["\']og:description["\'][^>]+content=["\']([^"\']{40,})',
+                r'<meta[^>]+content=["\']([^"\']{40,})["\'][^>]+property=["\']og:description["\']',
+                r'<meta[^>]+name=["\']twitter:description["\'][^>]+content=["\']([^"\']{40,})'):
+        m = re.search(pat, html_body or "", re.I)
+        if m:
+            return _h.unescape(m.group(1)).strip()
+    return ""
+
+
 def extract_article_text(html_body, cap=6000):
     """Readability-lite article extraction, stdlib only. Prefers the <article> block if the
     page has one, else collects <p> contents; strips tags/scripts, unescapes entities, and
