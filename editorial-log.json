@@ -9806,5 +9806,53 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-25",
+  "approved": 8,
+  "rejected": [
+   {
+    "id": "c013",
+    "headline": "Supreme Court allows Trump to pursue mail voting limits, for now",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief exists for this story. The instruction states 'every draft fact must then trace to the draft's own cited sources.' The draft claims the Supreme Court made a '6-3 decision' and that the order 'creates state citizenship lists,' but these facts cannot be verified against the cited sources without access to them. The draft is too sparse and the core factual claims cannot be traced to available documentation.",
+     "The draft asserts 'The Supreme Court has lifted a lower-court block' and 'A lower court had blocked the order before the Supreme Court intervened,' but provides no detail on the timing, the nature of the lower-court ruling, or the procedural history. Without a research brief, these claims remain unverified.",
+     "The claim that the executive order 'creates state citizenship lists' is presented as fact but is not substantiated in the draft body itself\u2014it appears only in the lede with no explanation or source attribution inline."
+    ]
+   },
+   {
+    "id": "c010",
+    "headline": "US and Canada locked in escalating tariff exchange as trade negotiations collapse",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'President Trump's 50% tariffs on Canadian goods went into effect early Saturday' but the brief's data_point says 'The U.S. tariffs on Canadian products went into effect early Saturday, following weeks of trade negotiations that broke down.' The draft then immediately says 'following trade negotiations that broke down late Friday,' which contradicts the timeline in the source (brief says 'weeks' of negotiations broke down, not a single late-Friday event). The draft conflates the breakdown timing with the tariff effective date.",
+     "The draft attributes the quote 'We could not accept what the U.S. had offered, nor could we give what they asked' to Carney's explanation for pulling the deal, but does not clarify that the brief's corresponding data_point shows Carney also said 'We have recognised from the beginning that America has changed, and that we will not return to our old relationship.' The draft's framing of Carney's quote without the full context of his broader statement about changed U.S.-Canada relations misrepresents his position.",
+     "The draft includes material about Ford's 2025 TV ad with Ronald Reagan, but the brief's data_point on this says 'In 2025, Ford's Ontario ran a TV ad during the MLB World Series broadcast featuring Ronald Reagan speaking against tariffs, which incensed Trump.' This occurred in 2025, over a year before the current tariff events. The draft embeds this 2025 historical detail in the midst of current events (Aug 2026) without clear temporal separation, creating reader confusion about chronology.",
+     "The draft states Trump 'threatened to rename Lake Ontario \"Lake America,\"' and 'On Tuesday morning, Trump threatened to rename Lake Ontario \"Lake America,\" according to NBC News.' This is presented as a serious threat, but the brief identifies no data_point substantiating this claim beyond NBC News attribution. The claim relies on a single source and reads as frivolous banter rather than policy, yet is elevated to equal weight with substantive trade policy in the narrative."
+    ]
+   },
+   {
+    "id": "c029",
+    "headline": "At Least One in Four Former NFL Players Who Died 2016-2021 Had CTE",
+    "category": "compliance",
+    "reasons": [
+     "Bottom line contains language that reads as advocacy and judgment: 'validating decades of research' adopts a verdict on the evidentiary weight rather than reporting what the study found. The desk cannot narrate validation; it reports findings.",
+     "The phrase 'establishing that cumulative head trauma from youth through professional levels is the primary driver' in the brief's angle does not appear as reported fact in the draft body\u2014it is left as the desk's interpretive framing in the bottom line, which violates the no-advocacy rule. The draft should state only what the study found and what Daneshvar said; the interpretive weight is not the desk's to assign.",
+     "Bottom line prediction 'Watch for whether the NFL responds with new practice restrictions or equipment standards' is forward-looking but the preceding sentence ('validating decades of research') crosses from event reporting into editorial judgment about the research's significance.",
+     "The story itself is sound on facts and attribution; the liability problem lives only in the bottom_line."
+    ]
+   },
+   {
+    "id": "c331",
+    "headline": "Trump administration preparing mass visa revocation targeting asylum applicants",
+    "category": "accuracy",
+    "reasons": [
+     "The draft claims 'the largest mass visa revocation in U.S. history' but the brief's data_point carries only 'reported' confidence on the 200,000 figure itself. The superlative claim about historical scale is not present in the brief and represents new information the writer has added without sourcing.",
+     "The draft states 'The relationship between visa status and asylum eligibility is a complex legal question' but this is narrative assertion about legal complexity, not a sourced fact from the brief. The brief correctly flags this as an open question, not as settled information to be narrated.",
+     "The draft says 'No official statement from the administration explaining the rationale for linking asylum applicants to visa revocation has been reported' \u2014 this is the writer narrating the absence of something, which violates the rule against summarizing what is not in the record. The brief's open_questions capture what is unknown; the draft should not rephrase unknowns as declarative statements about what 'has not been reported.'"
+    ]
+   }
+  ]
  }
 ]
