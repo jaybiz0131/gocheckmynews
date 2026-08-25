@@ -1,0 +1,37 @@
+{
+  "id": "c048",
+  "slug": "trump-administration-removes-syria-from-u-s-terrorism-sponsor-list-after-47-years",
+  "kind": "brief",
+  "title": "Trump administration removes Syria from U.S. terrorism sponsor list after 47 years",
+  "dek": "The State Department formally delisted Syria from the U.S. list of state sponsors of terrorism on August 24, 2026, removing a major sanctions barrier that had been in place since 1979. The move recognizes Ahmad al-Sharaa's government and his Islamist group Hayat Tahrir al-Sham, which led the 2024 overthrow of Bashar al-Assad. The delisting leaves Cuba, North Korea, and Iran as the only remaining countries on the list.",
+  "date": "2026-08-25",
+  "published_utc": "2026-08-25T13:37:02Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 10,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Syria was removed from the U.S. state sponsors of terrorism list after 47 years on August 24, 2026, according to BBC reporting.",
+  "bottom_line": "The delisting completes the Trump administration's diplomatic pivot toward Syria's new government and removes the primary sanctions obstacles to economic integration. Watch for investment flows into Syria and for any escalation of Israeli or Turkish military operations that could test whether the administration's stated commitment to Syria's stability holds if regional tensions spike.",
+  "human_take": "",
+  "body": [
+    "The Trump administration formally removed Syria from the U.S. list of state sponsors of terrorism on August 24, 2026, according to BBC reporting, ending a designation that had been in place since 1979. The delisting removes one of the primary sanctions barriers to Syria's reintegration into the global economy and signals U.S. willingness to support Ahmad al-Sharaa's government that took power after the 2024 overthrow of Bashar al-Assad.\nThe state sponsor of terrorism designation carries financial sanctions, restrictions on U.S. foreign aid and defense exports, and penalties on entities and other countries that trade with the sanctioned state, per BBC reporting. The removal is the latest step in a broader U.S. diplomatic realignment toward Syria's new leadership.\nU.S. Secretary of State Marco Rubio justified the move as recognition of the Syrian government's \"positive actions to fully distance itself from acts of international terrorism,\" according to BBC reporting. Treasury Secretary Scott Bessent said the delisting would \"help foster additional investment in Syria to promote political and economic stability.\" Rubio stated the move would give Syrians \"a path to prosperity.\"\nAl-Sharaa, who leads the transitional administration, was once designated by the U.S. as a terrorist and had an American bounty on his head as leader of an al-Qaeda offshoot before severing ties with the jihadist network in 2016, per BBC reporting. His Hayat Tahrir al-Sham (HTS), formerly known as al-Nusra Front, was also removed from the U.S. list of global terrorist organizations. HTS led the rebel offensive in late 2024 that overthrew al-Assad and now dominates the transitional administration.\nThe Trump administration has moved quickly to embrace al-Sharaa's government. , and the administration's shift began in July when the delisting was initially flagged, according to BBC reporting.\nSyrian Foreign Minister Asaad Hassan al-Shaibani characterized the delisting as a \"historic step\" through state-run news agency SANA, per BBC reporting. He stated Syria would \"continue working to remove the effects of isolation and create an environment based on transparency, mutual interests and respect.\" The delisting also followed U.S. moves last year to revoke HTS's designation as a Foreign Terrorist Organization and to remove al-Sharaa from its list of Specially Designated Global Terrorists.\nThe removal leaves only three countries on the state sponsors of terrorism list: Cuba, North Korea, and Iran. BBC reporting notes that significant risks remain in Syria, which \"is still far from secure and lacking representative government. It is also at the centre of growing tensions between its neighbours Israel and Turkey.\""
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c33knmyl0y5o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/policy/international/6047622-trump-removes-syria-sst-designation/"
+    }
+  ],
+  "event_utc": "2026-08-24T19:57:17Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-25T13:37:02Z",
+    "sources_cited": 2,
+    "sources_live_checked": 1
+  },
+  "update_of": "us-removes-syria-from-state-sponsors-of-terrorism-list-after-47-years"
+}

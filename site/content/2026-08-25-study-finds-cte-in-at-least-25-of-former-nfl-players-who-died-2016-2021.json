@@ -1,0 +1,80 @@
+{
+  "id": "c011",
+  "slug": "study-finds-cte-in-at-least-25-of-former-nfl-players-who-died-2016-2021",
+  "kind": "brief",
+  "title": "Study finds CTE in at least 25% of former NFL players who died 2016-2021",
+  "dek": "Peer-reviewed research published in The British Medical Journal documented chronic traumatic encephalopathy in at least one-quarter of former NFL players who died between 2016 and 2021, a rate far exceeding prevalence in the general population. The study examined 235 donated brains and estimated the true range of CTE prevalence could span from 24.5% to 97.7% when accounting for players whose brains were not donated.",
+  "date": "2026-08-25",
+  "published_utc": "2026-08-25T13:37:02Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 7,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "At least 25% of the 235 former NFL players who donated their brains for study between 2016 and 2021 had confirmed CTE, with 91.4% of all donated brains showing the disease.",
+  "bottom_line": "The study documents the highest measured rate of CTE in deceased former NFL players, but leaves open the full scope of exposure among players whose brains were not donated for research. What the league will do with findings that point to a prevalence range spanning from one-quarter to nearly all players in the cohort remains to be seen.",
+  "human_take": "",
+  "body": [
+    "A peer-reviewed study published in The British Medical Journal found that at least 25% of former NFL players who died between 2016 and 2021 had chronic traumatic encephalopathy (CTE), according to CBS News reporting. The finding represents the highest documented prevalence of CTE in former football players measured to date and far exceeds the rate in the general population, where community brain bank studies show CTE affects less than 1% of people, per CBS News.",
+    "CTE is a degenerative brain disease associated with repeated head impacts. It can only be definitively diagnosed after death by examining brain tissue. The condition has long been a focal point in debates over the safety of professional football.",
+    "The study was conducted by researchers at Mass General Brigham, Boston University, and the Concussion and CTE Foundation. According to CBS News, 235 former NFL players donated their brains to the research. Among those donated brains, 215, or 91.4%, showed evidence of CTE.",
+    "The research came during a period when 878 former NFL players died, according to CBS News, which cited this as the highest donation period. Researchers estimated that when accounting for players who did not donate their brains, the true prevalence of CTE among all former players who died during those years could range between 24.5% and 97.7%, per CBS News.",
+    "Daniel Daneshvar, lead author of the study and chair of physical medicine and rehabilitation at Mass General Brigham, stated according to CBS News: \"To find that somewhere between 24.5% and 97.7% of NFL players from that time period had this progressive brain disease is a wake-up call for the NFL and scientific communities.\" Daneshvar is also an associate professor at Harvard Medical School, per CBS News.",
+    "Among the donated brains that showed CTE, 61.3% of those former players met clinical criteria for dementia, according to CBS News.",
+    "An NFL spokesperson responded to the research by stating, per CBS News, that the league \"continuously strives to make the game of football safer, including by implementing strategies to reduce concussions and head impacts.\" The spokesperson also stated that \"The NFL remains committed to ensuring that the NFL community has access to a robust, and expanding, set of resources to enhance their physical and mental wellbeing.\""
+  ],
+  "sources": [
+    {
+      "title": "NPR",
+      "url": "https://www.npr.org/2026/08/25/nx-s1-5943168/cte-nfl-concussions-deaths-study"
+    },
+    {
+      "title": "The New York Times",
+      "url": "https://www.nytimes.com/2026/08/25/us/nfl-cte-brain-disease.html"
+    },
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/sport/2026/aug/25/study-reports-that-one-in-four-former-nfl-players-suffer-from-degenerative-brain-disease-cte"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/video/nearly-25-of-nfl-players-who-died-from-2016-to-2021-had-cte-new-study-shows/"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/cte-ex-nfl-players-at-least-1-in-4-had-it-who-died-2016-to-2021-study/"
+    }
+  ],
+  "event_utc": "2026-08-25T09:00:00Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-25T13:37:02Z",
+    "sources_cited": 5,
+    "sources_live_checked": 2
+  },
+  "also_reported_by": [
+    {
+      "outlet": "ESPN",
+      "headline": "Study: At least 25% of NFL players in sample had CTE - ESPN"
+    },
+    {
+      "outlet": "CBS News",
+      "headline": "At least 1-in-4 ex-NFL players who died from 2016 to 2021 had CTE, study finds - CBS News"
+    },
+    {
+      "outlet": "The Guardian",
+      "headline": "Study finds that one in four former NFL players suffers from degenerative brain disease CTE - The Guardian"
+    },
+    {
+      "outlet": "Yahoo Sports",
+      "headline": "At least 25% of former NFL players who died from 2016-2021 had CTE, according to new study - Yahoo Sports"
+    },
+    {
+      "outlet": "NBC Sports",
+      "headline": "New study finds at least 24.5 percent of NFL players who died from 2016 to 2021 had CTE - NBC Sports"
+    },
+    {
+      "outlet": "Medical Xpress",
+      "headline": "At least 1 in 4 former NFL players who died between 2016 and 2021 had CTE, study finds - Medical Xpress"
+    }
+  ]
+}

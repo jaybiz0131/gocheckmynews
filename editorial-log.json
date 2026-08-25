@@ -9692,5 +9692,37 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-25",
+  "approved": 6,
+  "rejected": [
+   {
+    "id": "c051",
+    "headline": "Trump announces 50% auto tariffs for January 2027 as Canada signals hardened negotiating stance",
+    "category": "accuracy",
+    "reasons": [
+     "No brief exists for this story. The draft cites BBC News and National Review as sources, but the approver cannot verify any facts against a research brief. Without a brief, every factual claim must be independently verifiable from the cited sources themselves, which are not provided for inspection. The specific claims\u2014Trump announced 50% auto tariffs for January 2027, Mark Carney accused Trump of seeking to destroy Canada's auto industry, Carney said negotiations require the US to adopt the 'right attitude'\u2014cannot be verified against the source URLs provided, which are links only. The draft fails the hard rule: facts must trace to research materials the approver can assess.",
+     "The draft attributes a statement to 'Canadian public figure Mark Carney' calling Trump's tariff policy an attempt to 'destroy Canada's auto industry,' but provides no official position, on-record attribution clarity, or confirmation that Carney made this statement as reported. Without a brief, the approver cannot establish confidence in this characterization."
+    ]
+   },
+   {
+    "id": "c085",
+    "headline": "Trump Administration Preparing Mass Visa Revocation Targeting Up to 200,000 Asylum Applicants",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief was provided for this story. The instructions state that when no brief exists, 'every draft fact must then trace to the draft's own cited sources or be rejected.' The draft cites three sources (PBS NewsHour, The Hill, NPR) but provides no URLs or timestamps that can be verified. The critical claim\u2014that the Trump administration is 'preparing to revoke the visas of up to 200,000 foreigners'\u2014cannot be traced to a verifiable source in the materials provided. Without a brief and without accessible source URLs, the facts cannot be confirmed to exist in the cited reporting."
+    ]
+   },
+   {
+    "id": "c077",
+    "headline": "South Carolina Republicans vote in runoff to replace late Senator Lindsey Graham",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Ralph Norman came in third during the June gubernatorial primary, garnering statewide name recognition' but the brief data point says 'He came in third during the June gubernatorial primary, garnering statewide name recognition, according to PBS NewsHour reporting.' This is a factual error: Norman came in third in the Senate primary (not gubernatorial primary\u2014those are two separate elections). A gubernatorial primary is for governor; Norman was running in a Senate race. This is a category error that could mislead readers about which office he previously sought.",
+     "The draft does not clearly establish the actual runoff date as August 27, 2026. The brief's open_questions flag notes 'The exact date of the runoff election is not explicitly stated as August 27, 2026; the sources refer only to 'Tuesday' in coverage dated August 24-25, 2026.' The draft's opening states the runoff 'voted on August 27, 2026' as fact, but the brief itself expresses uncertainty about this date. This is a fact presented without sufficient sourcing confidence."
+    ]
+   }
+  ]
  }
 ]

@@ -1,0 +1,65 @@
+{
+  "id": "c084",
+  "slug": "supreme-court-lifts-lower-court-block-on-trump-mail-ballot-executive-order-in-6-3-decision",
+  "kind": "brief",
+  "title": "Supreme Court lifts lower-court block on Trump mail-ballot executive order in 6-3 decision",
+  "dek": "The Supreme Court voted 6-3 to lift a Massachusetts judge's injunction blocking key provisions of Trump's executive order on mail-in ballots. The ruling clears the way for federal voter eligibility rules and Postal Service mail-ballot tracking ahead of November 2026 midterms, though a separate block on ballot withholding provisions remains in place.",
+  "date": "2026-08-25",
+  "published_utc": "2026-08-25T13:37:02Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 2,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "In a 6-3 ideological split, the Supreme Court lifted an injunction that had blocked the Trump administration from implementing federal voter eligibility rules and USPS mail-ballot tracking requirements in California and 22 other states.",
+  "bottom_line": "The Supreme Court's decision unblocks implementation of federal ballot tracking but stops short of endorsing the policy's ultimate constitutionality. The most aggressive provision of the order, ballot withholding, remains blocked in separate litigation, and states including California have signaled they will file new legal challenges. Watch whether the USPS rule proves administratively feasible for states to implement before November 2026, and whether courts revisit the order's legality if implementation produces demonstrable harm.",
+  "human_take": "",
+  "body": [
+    "The Supreme Court voted 6-3 along ideological lines to lift an injunction blocking key provisions of Trump's executive order on mail-in ballots, clearing the path for the administration to implement new federal voter eligibility rules and Postal Service mail-ballot tracking requirements ahead of the November 2026 midterm elections.",
+    "The ruling removes a block that U.S. District Judge Indira Talwani, based in Massachusetts, had imposed in June to prevent the executive order's provisions from taking effect in California and 22 other states. The court also granted a similar application filed by Alabama and 11 other states that sought to proceed with the order's implementation.",
+    "At the center of the dispute are provisions that seek to establish a federal list of eligible voters and require the U.S. Postal Service to deliver mail-in ballots only to people on those lists, according to NBC News. The Postal Service finalized a rule on Friday, before the Supreme Court's decision, that imposes new tracking requirements on states that use U.S. mail to distribute ballots. Under the rule, states must collect and report voter names and home addresses attached to unique barcodes on every mail-in ballot, and state election authorities must input this information into a federal ballot mail portal before ballots enter the mail stream, per ABC News. The Postal Service stated it will not deliver ballots to any state not in compliance with these changes.",
+    "In its unsigned opinion, the conservative-majority court stated: \"The court's disposition of this application does not mean that any measure taken by the Government to implement the order will necessarily be lawful. On that score, time will tell.\" The court also noted that \"If the Postal Service's final rule harms the states, they may challenge that rule,\" according to ABC News. Solicitor General D. John Sauer had told the court that neither the Postal Service nor other agencies had determined the full scope of implementation, making it premature for courts to rule on the issue.",
+    "The Postal Service emphasized that it will not perform voter eligibility verification or refuse to transmit ballots from individuals not on state-provided lists, according to Sauer's filing. The rule does not include citizenship verification, military and disability exceptions, or the most aggressive element of Trump's original March executive order: the authority to withhold ballots from voters deemed ineligible. That specific provision remains blocked nationwide by a ruling in a separate case by the same Massachusetts judge.",
+    "Dissenting justices challenged the majority's reasoning. Justice Sonia Sotomayor, joined by Justice Elena Kagan, wrote that the court's decision \"does not address whether the President's attempts to interfere with states' administration of the November 2026 elections are lawful. Nor does it suggest that the Executive Branch has any constitutional or statutory authority to implement the President's directives.\" Writing separately, Justice Ketanji Brown Jackson accused the majority of \"taking its eye off the ball\" by focusing on technical legal arguments rather than, in her view, confronting the administration's larger objective \"to secure our imprimatur for its effort to foment chaos ahead of the November elections.\"",
+    "State officials who challenged the order signaled continuing legal opposition. New York Attorney General Letitia James called the decision \"a painful setback, but it will not be the final word.\" California Governor Gavin Newsom announced on X: \"Following today's SCOTUS ruling, California WILL SUE again to BLOCK Trump's attack on mail-in voting! Every eligible voter gets a mail-in ballot here, and we'll fight to keep it that way.\" Jonathan Diaz, director of voting advocacy for the bipartisan nonprofit Campaign Legal Center, raised a broader concern: \"If the administration can determine who is American enough to register to vote, who can prove it sufficiently, then they would have a lot of power to shape the electorate,\" per ABC News.",
+    "The White House spokesperson Lauren Bis responded to the ruling with a statement: \"This Administration will continue to lawfully enact the agenda President Trump was elected on, which includes the safety and security of our elections.\""
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/politics/supreme-court/supreme-court-hands-preliminary-win-trump-mail-ballots-executive-order-rcna590120"
+    },
+    {
+      "title": "abcnews.com",
+      "url": "https://abcnews.com/US/usps-makes-new-rules-mail-ballots/story?id=135879673"
+    },
+    {
+      "title": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/politics/supreme-court-clears-the-way-for-trump-mail-voting-order-ahead-of-midterms"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/regulation/court-battles/6047813-supreme-court-trump-executive-order-mail-voting/"
+    },
+    {
+      "title": "The Wall Street Journal",
+      "url": "https://www.wsj.com/world/asia/supreme-court-rules-on-trumps-mail-in-ballot-order-9fd77f1a?mod=rss_worldnews"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/regulation/court-battles/6048109-justice-jackson-election-chaos-dissent/"
+    }
+  ],
+  "event_utc": "2026-08-24T21:02:46Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-25T13:37:02Z",
+    "sources_cited": 6,
+    "sources_live_checked": 2
+  },
+  "boundary": {
+    "affected": "California and 22 other states that had challenged the executive order provisions in the Massachusetts court case, plus Alabama and 11 other states that filed a similar application",
+    "fixed": "The requirement for the USPS to verify voting eligibility of each person receiving a mail ballot and withhold ballots from anyone not on a government list remains blocked in a different legal case and is not affected by this ruling",
+    "user_action": "States must collect and report basic voter information (name and home address) attached to a unique barcode on every mail-in ballot distributed, and state election authorities must input this information into a 'federal ballot mail portal' before the ballot is accepted into the mail stream; the USPS will not deliver ballots to any state not in compliance with these changes",
+    "advisory_url": "https://abcnews.com/US/usps-makes-new-rules-mail-ballots/story?id=135879673"
+  }
+}
