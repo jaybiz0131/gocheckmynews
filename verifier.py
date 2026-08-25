@@ -42,10 +42,12 @@ def gather_sources(story, mode):
     # corroborating outlet further down the list is fetchable. Failures are still recorded
     # (fail-closed: the verifier sees exactly what could not be confirmed).
     fetched_ok = 0
+    feed_text = str(story.get("feed_text") or "")
     for url in (story.get("source_urls", []) or [])[:6]:
         if fetched_ok >= 3:
             break
-        code, page = common.fetch_page(url)
+        m = common.fetch_page_meta(url)
+        code, page = m["status"], (m["body"] or m["error"])
         text = common.extract_article_text(page) if code == 200 else ""
         # The Guardian serves reduced markup to non-browser fetches, so its scrape comes
         # back thin or blocked. With GUARDIAN_API_KEY set, the outlet's own API supplies
@@ -54,13 +56,36 @@ def gather_sources(story, mode):
             api_text = common.guardian_api_text(url)
             if len(api_text) > len(text):
                 text, code = api_text, 200
+        diag = (f"status={m['status']} final={str(m['final_url'])[:120]} "
+                f"ctype={str(m['content_type'])[:40]} bytes={m['bytes']} "
+                f"extract={len(text)}")
+        if len(text) < 200:
+            # THE LOG NAMES THE CAUSE (owner report 2026-08-25): "0 chars" was the whole
+            # diagnostic while a 403 challenge, a 429, a JS shell and a timeout all
+            # looked identical. One slot of these lines names the dominant blocker.
+            common.gh("warning", f"source fetch thin: {diag} :: {url}")
         if text:
             checks.append({"url": url, "http_status": code, "source_text": text,
+                           "text_origin": "page", "fetch_meta": diag,
                            "text_excerpt": text[:1500]})
             fetched_ok += 1
         else:
             checks.append({"url": url, "http_status": code, "source_text": "",
-                           "text_excerpt": page})
+                           "text_origin": "page", "fetch_meta": diag,
+                           "text_excerpt": f"(unreadable: {diag})"})
+    # PUBLISHER'S OWN FEED TEXT, ONLY WHEN NO PAGE COULD BE READ (owner report
+    # 2026-08-25): when every article page came back unreadable but the story's feed
+    # entry carries the publisher's own words, the desk verifies and briefs from those,
+    # labeled as exactly that. The page always wins when any page was readable, and the
+    # fallback never stacks on top of real text, so source_chars stays honest.
+    if checks and all(len(c.get("source_text") or "") < 300 for c in checks) \
+            and len(feed_text) >= 300:
+        checks.append({"url": (story.get("source_urls") or [""])[0], "http_status": None,
+                       "source_text": feed_text[:6000], "text_origin": "feed",
+                       "fetch_meta": "publisher feed text; no article page was readable",
+                       "text_excerpt": ("(no article page could be read; what follows is "
+                                        "the publisher's own feed text for this story) "
+                                        + feed_text)[:1500]})
     return checks
 
 
@@ -100,6 +125,11 @@ def run(client=None):
     cfg = common.load_config()
     editor = common.read_out("editor.json")
     ranked = editor["ranked"]
+    # the cluster carries the publisher's feed text for the fallback in gather_sources
+    try:
+        _clusters = {c.get("id"): c for c in common.read_out("items.json").get("clusters", [])}
+    except Exception:
+        _clusters = {}
     client = client or llmlib.Client(cfg)
     system = common.load_prompt("verifier.md")
     enriched = []
@@ -108,7 +138,9 @@ def run(client=None):
             "id": s["id"], "headline": s["headline"], "why_it_matters": s["why_it_matters"],
             "category": s.get("category", "other"), "confidence": s.get("confidence", "medium"),
             "source_urls": s.get("source_urls", []),
-            "source_checks": gather_sources(s, client.mode),
+            "source_checks": gather_sources(
+                {**s, "feed_text": _clusters.get(s["id"], {}).get("feed_text", "")},
+                client.mode),
         })
     # Persist the full extractions for the researcher (one fetch serves both stages).
     common.write_out("source_texts.json", {
