@@ -1,0 +1,66 @@
+{
+  "id": "c092",
+  "slug": "july-pce-inflation-unchanged-at-3-7-exceeding-forecasts-and-pressuring-fed-policy",
+  "kind": "brief",
+  "title": "July PCE inflation unchanged at 3.7%, exceeding forecasts and pressuring Fed policy",
+  "dek": "The Personal Consumption Expenditures price index, the Federal Reserve's preferred inflation measure, remained flat at 3.7% annually in July, matching June and exceeding economist predictions of 3.6%. Core PCE rose to 3.3%, also above the 3.2% forecast. Elevated energy costs and consumer spending weakness signal ongoing economic headwinds.",
+  "date": "2026-08-26",
+  "published_utc": "2026-08-26T14:28:38Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 2,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "PCE inflation held at 3.7% in July, matching June and exceeding the 3.6% economist forecast, while remaining 1.7 percentage points above the Federal Reserve's 2% target.",
+  "bottom_line": "Warsh's Jackson Hole address Friday will signal the Fed's next move on rates given the flat inflation reading and weakening goods consumption. If energy prices ease, the path to lower PCE inflation becomes clearer; if they remain elevated, the Fed faces sustained pressure to defend its 2% target.",
+  "human_take": "",
+  "body": [
+    "The Personal Consumption Expenditures price index, the Federal Reserve's preferred inflation gauge, held at a 3.7% annual pace in July, unchanged from June and hotter than the 3.6% annual increase economists polled by FactSet had predicted, CBS News reports.",
+    "Core PCE, which excludes more volatile energy and food prices, rose at an annual rate of 3.3% in July, according to CBS News, exceeding the 3.2% pace economists had forecast. Core PCE was unchanged from June, per CBS News reporting. Both measures remain well above the Federal Reserve's 2% inflation target.",
+    "PCE has eased after reaching a three-year peak in May, according to CBS News, but the stalled progress in July signals persistent price pressures. Heather Long, chief economist at Navy Federal Credit Union, said \"The United States still has an inflation problem. PCE inflation came in hotter than expected,\" per CBS News. Long cited impacts of the Iran war, noting \"$4 gas and $5.60 diesel,\" according to CBS News reporting. The Iran war has pushed up oil and gas prices, eating into consumers' budgets and putting pressure on household spending, CBS News reports.",
+    "Consumer spending on goods declined by $49.9 billion, while spending on services increased by $86.2 billion, per CBS News. The U.S. economy expanded at a 1.5% clip in the second quarter, a sluggish reading in line with the Commerce Department's first estimate, according to CBS News.",
+    "Fed officials have held interest rates steady so far this year, although some have signaled openness to raising rates to tame inflation, per CBS News. Fed Chair Kevin Warsh is scheduled to deliver an address in Jackson Hole, Wyoming, on Friday, according to CBS News. Bret Kenwell, eToro U.S. investment analyst, wrote that \"inflation is still too high for comfort, and investors will be watching to see whether Fed Chair Kevin Warsh uses Friday's Jackson Hole speech to address how policymakers plan to bring it back toward the Fed's long-term target,\" per CBS News reporting."
+  ],
+  "sources": [
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/july-pce-inflation-index-federal-reserve/"
+    },
+    {
+      "title": "The New York Times",
+      "url": "https://www.nytimes.com/2026/08/26/business/economy/inflation-pce.html"
+    }
+  ],
+  "event_utc": "2026-08-26T13:17:29Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-26T14:28:38Z",
+    "sources_cited": 2,
+    "sources_live_checked": 1
+  },
+  "also_reported_by": [
+    {
+      "outlet": "CBS News",
+      "headline": "July PCE inflation index held at 3.7% annual pace, slightly hotter than expected - CBS News"
+    },
+    {
+      "outlet": "NCHStats",
+      "headline": "PCE Inflation Stayed at 3.7% in July as Core Prices Came In Hotter Than Expected - NCHStats"
+    },
+    {
+      "outlet": "Yahoo! Finance Canada",
+      "headline": "July PCE shows muted inflation gains. Is the data calm enough to avoid Fed rate hikes? - Yahoo! Finance Canada"
+    },
+    {
+      "outlet": "IndexBox",
+      "headline": "PCE Inflation Stays at 3.7% in July, Above Expectations | Fed's Preferred Gauge - News and Statistics - IndexBox"
+    },
+    {
+      "outlet": "Chosunbiz",
+      "headline": "US July PCE inflation tops forecast at 3.7%, pressures Fed on rates - CHOSUNBIZ - Chosunbiz"
+    },
+    {
+      "outlet": "FXStreet",
+      "headline": "The July PCE price deflators, the Fed\u2019s preferred inflation gauge, are on tap - FXStreet"
+    }
+  ]
+}
