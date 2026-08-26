@@ -9915,5 +9915,54 @@
     ]
    }
   ]
+ },
+ {
+  "date": "2026-08-26",
+  "approved": 7,
+  "rejected": [
+   {
+    "id": "c198",
+    "headline": "Nurse and political newcomer wins Oklahoma Democratic Senate runoff",
+    "category": "accuracy",
+    "reasons": [
+     "The draft calculates a financial disadvantage ratio ('160-to-1 financial advantage') that does not appear in the brief. The brief states Hern 'at one point reached nearly $10 million' and Thomas 'raised just shy of $60,000,' but the brief does not calculate or state a ratio. The writer has introduced a new mathematical claim not in the research.",
+     "The bottom_line contains '160-to-1 financial advantage' which is a derived calculation: $10 million divided by $60,000 equals approximately 166.67:1, but this specific ratio formulation is not in the brief and represents the writer adding analytical interpretation beyond the sourced data."
+    ]
+   },
+   {
+    "id": "c001",
+    "headline": "Justice Department emergency-schedules three potent opioid compounds",
+    "category": "compliance",
+    "reasons": [
+     "The draft contains the sentence 'consular officers apply the enforcement discretion standard' in the bottom_line, but the brief's open_questions explicitly note that 'The mechanism by which incidental trace levels would be determined in testing or verification is not explained.' This phrasing suggests a clarity or application method that the source does not provide. More critically, the boundary_ok field is false with explicit reasons that the affected/fixed statements do not appear verbatim in the advisory, indicating the story may be introducing framing not present in the source document.",
+     "The entire bottom_line reads as predictive analysis ('Watch for how consular officers apply...whether the unresolved scientific questions...lead to enforcement disputes') rather than looking forward to what would validate or invalidate the core claim. The line also contains 'The distinction between incidental and intentional addition may prove difficult to sustain in practice'\u2014this is analytical judgment about enforcement difficulty, not a factual claim from the brief, and it edges toward advocacy for skepticism about the policy."
+    ]
+   },
+   {
+    "id": "c118",
+    "headline": "State Department pauses all immigrant visa applications",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The Trump administration paused all US immigrant visa applications starting in early August' as the lead fact. The brief's data_points say 'All US immigrant visa applications have been paused by the Trump administration' (confidence: reported) and 'The agency launched the initiative at all embassies and consulates in early August' (confidence: reported). However, the brief itself is marked 'thin: true' with only one source (The Guardian) and only 838 source characters. A pause on ALL immigrant visa applications is an extraordinary claim. The brief does not provide corroborating data points (no wire service confirmation, no second source, no official statement beyond a State Department official quoted by The Guardian). This is a single-source report of a major policy action. The desk's liability rules require: 'A REPUTATIONALLY DAMAGING CLAIM ABOUT A NAMED PERSON NEEDS MORE THAN ONE SOURCE' and by extension, a sweeping policy claim with major economic and humanitarian implications presented as fact (not as 'reports say' or 'The Guardian reports') on a single secondary source violates the accuracy standard."
+    ]
+   },
+   {
+    "id": "c085",
+    "headline": "ICE arrests reach nearly 50,000 in July, highest monthly total of Trump's second term",
+    "category": "accuracy",
+    "reasons": [
+     "The draft cites PBS NewsHour as the sole source, but no research brief was provided and the PBS URL is not included in the draft's sources list. The drafting rule states: 'no fact exists outside the brief.' With no brief provided, every fact must trace to the draft's own cited sources. The PBS NewsHour claims cannot be verified against the sources field, which is empty of URLs. The story cannot be approved without traceable sourcing.",
+     "The claim that 12,000 new deportation officers and agents were hired appears in the draft body but is not supported by any URL in the sources list. A factual claim about personnel hiring must have an explicit source."
+    ]
+   },
+   {
+    "id": "c300",
+    "headline": "Federal judge rejects Ghislaine Maxwell's motion to overturn conviction",
+    "category": "accuracy",
+    "reasons": [
+     "The draft contains a factual claim about a federal judge rejecting Maxwell's motion, her 2021 conviction, and her 20-year sentence. No research brief was provided. The drafting rule requires all facts to trace either to a brief's data_points or, when no brief exists, to the draft's own cited sources with URLs. The draft cites only 'https://www.cbsnews.com/news/ghislaine-maxwell-judge-conviction-sentence/' without providing the article content or confirming the specific facts against it. The story is too thin to verify and cannot proceed without either the brief or confirmation that the CBS News URL contains these specific details."
+    ]
+   }
+  ]
  }
 ]

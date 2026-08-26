@@ -1,0 +1,66 @@
+{
+  "id": "c092",
+  "slug": "two-candidates-named-dan-sullivan-advance-to-alaska-senate-general-election",
+  "kind": "brief",
+  "title": "Two Candidates Named Dan Sullivan Advance to Alaska Senate General Election",
+  "dek": "Incumbent Republican Sen. Dan Sullivan, Republican Daniel J. Sullivan Jr. (a retired teacher), and Democrat Mary Peltola advanced from Alaska's all-party primary to the general election, per NBC News projection. Federal prosecutors are investigating whether the second Sullivan's candidacy is part of a conspiracy to confuse voters.",
+  "date": "2026-08-26",
+  "published_utc": "2026-08-26T10:17:20Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 3,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "NBC News projects that incumbent Sen. Dan Sullivan, Daniel J. Sullivan Jr., and Mary Peltola will appear in Alaska's Senate general election, which uses ranked-choice voting where voters can rank all three candidates.",
+  "bottom_line": "The general election outcome will depend partly on how ranked-choice voting distributes Daniel J. Sullivan's votes if he finishes third or fourth. Watch for the results of the federal grand jury investigation and any charges that might clarify whether the candidacy was coordinated.",
+  "human_take": "",
+  "body": [
+    "NBC News projects that incumbent Republican Sen. Dan Sullivan, Republican Daniel J. Sullivan Jr., and Democrat Mary Peltola will advance from Alaska's all-party primary to the November general election. Alaska's election system uses ranked-choice voting where the top four candidates from the primary, regardless of party affiliation, advance to a general election in which voters rank candidates by preference, per NBC News reporting.\nDaniel J. Sullivan, listed on the ballot as Daniel J. Sullivan Jr. with no party affiliation by Alaska's Division of Elections, is a retired teacher from the island community of Petersburg, per CBS News reporting. He sued for ballot access after a state elections official rejected his candidacy on the grounds that he filed with intent to confuse voters; a judge invalidated that decision, and the state Supreme Court ultimately ordered him eligible for the ballot, CBS reports. The incumbent is listed as Dan S. Sullivan, Republican incumbent, per CBS News.\nRepublicans have criticized Daniel J. Sullivan's candidacy as a potential ploy to confuse voters. Daniel J. Sullivan has denied the allegation. According to NBC News, the incumbent senator's campaign and Republican allies have argued that Daniel J. Sullivan is a Democratic plant, noting that he only recently registered as a Republican and received help with his campaign launch from a Democratic consultant. NBC reports that Daniel J. Sullivan told The New York Times he registered as a Republican because his previous political party, the Alaska Independence Party, no longer exists.\nState and federal prosecutors are investigating whether Daniel J. Sullivan's candidacy is part of a conspiracy to confuse voters, per NBC News reporting. A grand jury issued subpoenas last week to compel information from witnesses related to the Daniel J. Sullivan campaign, NBC reports.\nMary Peltola, a former state legislator and city council member, became the first Alaska Native to represent the state in Congress when she won a statewide special election in 2022 and then a full term months later, per NBC News. Peltola lost her seat after one term by 3 percentage points in 2024, running well ahead of Vice President Kamala Harris at the top of the Democratic ticket, NBC reports.\nIncumbent Sen. Dan Sullivan was first elected to the Senate in 2014, defeating a Democratic incumbent, and re-elected in 2020; he is a former Marine who has touted his work for veterans and the state's fishing industry, per NBC reporting. President Trump carried Alaska by double digits in each of the last three presidential elections, NBC reports. Trump endorsed incumbent Sen. Sullivan for reelection and called Daniel J. Sullivan's candidacy an attempt to trick voters, per CBS News. Daniel J. Sullivan criticized the incumbent for embracing Trump's endorsement and said the president was more interested in raising tariffs on allies than in lowering the cost of groceries, housing, and energy, CBS reports.\nIncumbent Sen. Sullivan and Peltola are the leading candidates in the race after raising the most money and having statewide name recognition, per CBS News. Alaska's ranked-choice voting system means candidates who finish third or fourth in the general election can play a crucial role in deciding the eventual winner if their supporters rank other choices beyond them, CBS reports. Democrats have targeted Alaska as an opportunity to flip a seat since well before the same-name issue consumed the race, per NBC News."
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/politics/2026-election/second-dan-sullivan-makes-general-election-alaskas-senate-race-rcna593464"
+    },
+    {
+      "title": "The New York Times",
+      "url": "https://www.nytimes.com/2026/08/26/us/politics/dan-sullivan-alaska-senate-midterms.html"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/dan-sullivan-same-name-advances-alaska-us-senate-primary/"
+    }
+  ],
+  "event_utc": "2026-08-26T04:07:39Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-26T10:17:20Z",
+    "sources_cited": 3,
+    "sources_live_checked": 2
+  },
+  "also_reported_by": [
+    {
+      "outlet": "\u041c\u0435\u0436\u0430. \u041d\u043e\u0432\u0438\u043d\u0438 \u0423\u043a\u0440\u0430\u0457\u043d\u0438.",
+      "headline": "Two Candidates Named Dan Sullivan Reach Alaska Senate Ballot, Raising Republican Concerns - \u041c\u0435\u0436\u0430. \u041d\u043e\u0432\u0438\u043d\u0438 \u0423\u043a\u0440\u0430\u0457\u043d\u0438."
+    },
+    {
+      "outlet": "ABC News",
+      "headline": "Trump accuses Democrats of 'trickery' over candidate with same name as Alaska Sen. Dan Sullivan - ABC News - Breaking News, Latest News and Videos"
+    },
+    {
+      "outlet": "Straight Arrow",
+      "headline": "In confusing Alaska election, some clarity: Dan Sullivan endorses Dan Sullivan over Dan Sullivan - Straight Arrow"
+    },
+    {
+      "outlet": "NBC News",
+      "headline": "Sen. Dan Sullivan\u2019s same-named challenger sues to stay in Alaska primary race - NBC News"
+    },
+    {
+      "outlet": "CBS News",
+      "headline": "Man with same name as Alaska Sen. Dan Sullivan can appear on primary ballot, state's Supreme Court rules - CBS News"
+    },
+    {
+      "outlet": "The Washington Post",
+      "headline": "Two Dan Sullivans will be on the ballot in Alaska - The Washington Post"
+    }
+  ]
+}
