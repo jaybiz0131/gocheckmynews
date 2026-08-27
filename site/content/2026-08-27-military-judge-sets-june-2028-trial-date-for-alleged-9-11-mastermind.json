@@ -1,0 +1,52 @@
+{
+  "id": "c043",
+  "slug": "military-judge-sets-june-2028-trial-date-for-alleged-9-11-mastermind",
+  "kind": "brief",
+  "title": "Military judge sets June 2028 trial date for alleged 9/11 mastermind",
+  "dek": "Air Force Lt. Col. Michael Schrama set June 5, 2028, as the trial date for Khalid Sheikh Mohammed, the alleged architect of the September 11 attacks, rejecting prosecutors' proposed January 2027 start date. Mohammed has awaited trial since his 2008 charging at Guantanamo Bay, where he has been held since 2006. The trial will involve four co-defendants accused of conspiring in the 2001 attacks.",
+  "date": "2026-08-27",
+  "published_utc": "2026-08-27T05:00:18Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 3,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "A military judge set a June 5, 2028 trial date for Khalid Sheikh Mohammed, rejecting a January 2027 prosecution proposal and allowing 18 additional months for procedural resolution.",
+  "bottom_line": "The 2028 trial date ends a 20-year legal limbo for one of the most closely watched national security prosecutions. Watch for whether pretrial proceedings resolve the torture-evidence disputes and what the judge's extended timeline ultimately reveals about the legal obstacles to prosecuting detainees held under the CIA's interrogation program.",
+  "human_take": "",
+  "body": [
+    "Air Force Lt. Col. Michael Schrama, a military commissions judge, set June 5, 2028, as the trial date for Khalid Sheikh Mohammed, the alleged architect of the September 11 attacks, according to NBC News. The judge rejected prosecutors' proposed January 2027 start date, allowing approximately 18 additional months for what he characterized as necessary procedural matters.",
+    "Mohammed is accused of orchestrating the plot to crash hijacked planes into the World Trade Center in New York and the Pentagon on September 11, 2001, killing 2,977 people. He will be prosecuted alongside three others: Walid bin Attash, Ali Abdul Aziz Ali, and Mustafa Ahmed al-Hawsawi. Mohammed is accused of conceiving the idea of training pilots to fly commercial planes into buildings and presenting those plans to Osama bin Laden, leader of al-Qaeda.",
+    "Mohammed was captured in Pakistan in March 2003 and transferred to the U.S. naval base at Guantanamo Bay, Cuba, in 2006. He was charged with war crimes in 2008 and has awaited trial for 18 years. A potential plea agreement that would have given him a life sentence without possibility of parole was reached after two years of negotiation and signed by an official appointed by then-Defense Secretary Lloyd Austin, according to BBC News. However, a split federal appeals court last summer threw out the agreement, leaving Mohammed to face trial with the possibility of execution.",
+    "Defense lawyers have argued that delays stem from what they say are the government's efforts to conceal details of torture used against detainees at secret CIA prisons before they were transferred to Guantanamo Bay. According to NBC News, a 2014 Senate report found that the CIA employed what it termed \"enhanced interrogation techniques\" against Mohammed and other conspirators, including waterboarding Mohammed 183 times in what was described as \"a series of near-drownings.\"",
+    "Mohammed has previously stated he planned 2001's \"9/11 operation from A-to-Z,\" according to BBC News."
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/politics/national-security/military-trial-date-set-alleged-mastermind-sept-11-attacks-ksm-rcna594621"
+    },
+    {
+      "title": "Washington Examiner",
+      "url": "https://www.washingtonexaminer.com/news/justice/4702230/trial-set-9-11-mastermind-khalid-sheikh-mohammed/"
+    },
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/czezg2p50rxo"
+    },
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/video/judge-sets-2028-trial-for-alleged-9-11-mastermind-268924485851"
+    },
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/czezg2p50rxo?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "event_utc": "2026-08-26T22:40:09Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-27T05:00:18Z",
+    "sources_cited": 5,
+    "sources_live_checked": 3
+  }
+}

@@ -1,64 +1,5 @@
 [
  {
-  "date": "2026-07-21",
-  "approved": 6,
-  "rejected": [
-   {
-    "id": "c103",
-    "headline": "Defense Secretary Hegseth Requests $88 Billion for Iran Operations",
-    "category": "compliance",
-    "reasons": [
-     "The bottom_line states 'The funding request marks a critical Senate vote on the conflict's continuation. The committee's decision will determine whether operations can proceed as planned' \u2014 this reads as a prediction about future Senate action presented as fact, not as a watch point. The draft should clarify that a vote is pending, not that it will determine continuation.",
-     "The bottom_line statement 'while commodity price impacts will likely shape the political environment around the vote' is a predictive assertion about political effects that goes beyond reporting what happened. This is analysis presented as the desk's own judgment rather than attributed reporting.",
-     "The phrase 'The funding request marks a critical Senate vote' implies advocacy-adjacent framing ('critical' signals importance in a way that pressures toward a particular stance). The story should be neutral on whether the vote is critical or routine."
-    ]
-   },
-   {
-    "id": "c083",
-    "headline": "Trump Administration Withholds $1 Billion in Medicaid Funding From California and Minnesota",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'The withholding freezes federal health payments to the two Democratic-led states' \u2014 the characterization of the states as 'Democratic-led' does not appear in the brief's data_points and is not sourced inline. This is smuggled editorial framing that colors the story toward a partisan lens without attribution.",
-     "The bottom_line states the action 'may face legal challenge on procedural grounds' \u2014 this is legal prediction/advice not supported by the brief's data_points. The brief's open_questions include whether the action will face challenge, but the draft presents the prediction as settled analysis."
-    ]
-   },
-   {
-    "id": "c062",
-    "headline": "French lawmakers pass ban on social media for children under 15",
-    "category": "clarity",
-    "reasons": [
-     "The draft is extremely thin (176 words) and provides almost no substantive reporting on a major legislative vote. The brief itself is thin, but the draft fails to extract even basic details from the two sources listed. The body consists of only two sentences of actual reporting plus context; critical implementation details (platforms covered, enforcement, penalties, effective date, exceptions) are relegated to the bottom_line as 'to be clarified' rather than being reported as unknown unknowns. The draft reads as a stub rather than a complete story and would embarrass the desk against sources claiming to have reported this vote. A thin brief requires tight execution, not abdication; this draft abdicates.",
-     "The draft acknowledges 'Critical details remain to be clarified' in the bottom_line, which suggests reporting gaps the writer did not attempt to fill. If those outlets reported those details, they belong in the body; if they didn't, the bottom_line should flag them as open questions, not as unresolved reporting obligations."
-    ]
-   },
-   {
-    "id": "c091",
-    "headline": "New Jersey: software glitch registered 6,600 noncitizens to vote, fewer than 400 cast ballots",
-    "category": "accuracy",
-    "reasons": [
-     "The draft's second paragraph states 'The brief does not establish when the glitch was identified, what triggered its discovery, which specific elections the noncitizen voters participated in, whether any of the ballots cast were flagged or removed from results, or what procedural safeguards failed to catch the registration anomaly earlier.' This sentence appears in the body of a published draft, not in a research memo or internal document. A finished article cannot include meta-commentary about what the brief does or does not establish; this violates the no-fabrication, finished-prose rule and reads as the writer speaking directly to the editor rather than to the reader. It is compliance failure: the writer has left working notes in the draft."
-    ]
-   },
-   {
-    "id": "c196",
-    "headline": "Jay Clayton advances from Senate Intelligence Committee on party-line vote",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states Clayton 'currently serves as U.S. Attorney for the Southern District of New York' but the brief data_point 5 says he 'is U.S. attorney for the Southern District of New York.' The use of 'currently' suggests an active ongoing role, but given that he is being confirmed as DNI, this tense is misleading about his present status. More critically, the brief does not confirm whether Clayton remains in this post or has stepped aside pending confirmation.",
-     "The draft claims 'the nation's 18 intelligence agencies' but this specific number does not appear in the brief's data_points. This is a smuggled fact not sourced to the research."
-    ]
-   },
-   {
-    "id": "c133",
-    "headline": "U.S. to manufacture Ukrainian-designed drone boats domestically",
-    "category": "accuracy",
-    "reasons": [
-     "The draft contains no data_points in the brief to support it. The brief lists zero data_points (empty array), meaning the core claim 'The United States will manufacture Ukrainian-designed drone boats domestically for the first time' is unverified in the research. The writer has smuggled the announcement itself as fact without any sourced confirmation in the brief. The brief explicitly marks it as 'thin: true' with no substantive reporting to back the claim\u2014only open questions. The draft reads as if the deal is confirmed, but the brief contains no confirmed data to that effect."
-    ]
-   }
-  ]
- },
- {
   "date": "2026-07-22",
   "approved": 8,
   "rejected": [
@@ -9926,6 +9867,76 @@
     "reasons": [
      "The brief explicitly flags that the Federal Register source URL 'returned only a CAPTCHA screen; the full text of the temporary scheduling order and regulatory analysis are therefore not accessible and cannot be audited against the DOJ press release.' This creates an unresolved audit gap: the brief identifies that a primary source document cited in the sources array cannot be accessed, meaning key claims cannot be verified against the full regulatory record. This is a compliance failure because the desk cannot defend the story against factual challenge if a cited source is inaccessible.",
      "The draft presents the DOJ's characterization of the compounds as 'potent mu-opioid receptor agonists' and the public-health rationale for emergency scheduling without noting the brief's open questions about the evidence basis: 'What evidence or data led the DEA to conclude that MGPI, MGM-15, and MGM-16 pose an imminent hazard to public safety\u2014how many poisonings, deaths, or emergency department visits are documented?' The brief marks all data_points as 'announced-not-verified,' meaning the DOJ made these claims but they have not been independently confirmed. The draft should carry some signal of that uncertainty, but it does not. Presenting announced claims as settled fact when the brief marks them unverified is a compliance failure."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-08-27",
+  "approved": 4,
+  "rejected": [
+   {
+    "id": "c024",
+    "headline": "Meta agrees to $17 billion settlement in multi-state child safety lawsuit",
+    "category": "compliance",
+    "reasons": [
+     "The draft presents Meta's preservation of personalized recommendations and targeted advertising as the desk's own analytical conclusion ('This means the underlying profit mechanism...persists despite the settlement') rather than as attributed analysis. The prior sentence correctly attributes Weiser's statement, but the follow-up sentence adopts the framing as fact without attribution, violating the rule that contested characterizations of business impact must remain in quoted voice or explicitly attributed.",
+     "The phrase 'deliberately endangered children' appears in the draft body as the desk's own characterization ('allegations the company deliberately endangered children') without sufficient clarity that this is the plaintiffs' allegation, not an established fact. The brief's data point frames this as the accusation that prompted the lawsuit; the draft should preserve that distinction more clearly to avoid implying the desk is endorsing the characterization as proven."
+    ]
+   },
+   {
+    "id": "c025",
+    "headline": "Glacial collapse triggers catastrophic flooding in Nepal-Tibet border region; hundreds missing",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'leaving 558 missing in Tibet' but the brief's data point specifies this figure comes from 'Chinese state broadcaster CCTV reported that at least 558 people were believed to be missing on the Tibet side.' The draft strips the attribution and confidence qualifier ('believed to be missing' per CCTV). This presents a secondary-source report as unmediated fact; readers cannot assess the reliability of the figure without knowing it comes from Chinese state media rather than from verified cross-border confirmation.",
+     "The phrase 'killing at least 162 people in Nepal and leaving 558 missing in Tibet' creates a false parallel structure suggesting equivalent confirmed figures for both sides, when in fact only the Nepal death toll (162) is confirmed; the Tibet figure (558) is reported by one state broadcaster as believed missing. The draft should maintain that distinction.",
+     "The draft attributes the USGS quote correctly but does not acknowledge that the brief identifies this as a later determination: 'additional analysis...led to the determination.' The initial misidentification as a 4.4 earthquake is reported but the timeline and reasoning for the correction is somewhat unclear in the draft. However, the attribution is present and the quote is accurate, so this is a minor clarity issue, not an accuracy failure."
+    ]
+   },
+   {
+    "id": "c161",
+    "headline": "CIA Director Ratcliffe made unannounced Moscow trip to warn Russia against NATO attack",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief was provided for this story. The instructions state: 'the writer's hard rule was: no fact exists outside the brief.' Without a brief, every factual claim in the draft must be independently verifiable from the cited sources. The draft cites five source URLs, but these cannot be validated by the approval system. A draft without a brief or verifiable sources cannot be approved under the stated process.",
+     "The draft asserts specific facts (Ratcliffe traveled to Moscow unannounced, he warned about NATO attacks, new intelligence assessments indicate Russia could attack NATO, the warning came from the CIA Director personally) that require a research brief to establish their sourcing and confidence level. Without the brief, there is no evidentiary record to trace these claims against."
+    ]
+   },
+   {
+    "id": "c021",
+    "headline": "Federal judge lifts injunction on Trump mail-in voting order; states file new lawsuit",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'clearing the way for the U.S. Postal Service to implement a rule restricting ballot delivery' but the brief data point says 'The USPS can for now continue with its final rule.' The word 'implement' implies initiation; 'continue' implies the rule was already in effect. This is a material shift in the timeline and status of the rule.",
+     "The draft characterizes the Supreme Court's action as having 'contributed to the current legal confusion,' which is interpretive commentary not present in the brief. The brief states only that the Court 'dismissed the original case...because the Postal Service rule had not yet been finalized'\u2014a factual holding, not an assessment of confusion.",
+     "The brief's open_questions section explicitly flags that the judge's name, case name, docket number, and whether the injunction lifting is permanent or temporary are unknown. The draft does not signal this uncertainty; it presents the lifting as a definitive fact without caveats about scope or permanence, which could mislead readers about the legal status."
+    ]
+   },
+   {
+    "id": "c119",
+    "headline": "Immigration enforcement averaged 1,500 daily arrests in July, record pace for Trump's second term",
+    "category": "accuracy",
+    "reasons": [
+     "The brief's core_claim states 'The Trump administration arrested 50,000 people in July 2026' but the draft never mentions this monthly total. Instead it only reports the daily average (1,500 per day). The brief's own open_questions section notes the discrepancy: '~1,500 per day \u00d7 ~31 days = ~46,500' versus the stated '50,000.' The draft avoids the total figure entirely, which suggests the writer noticed the inconsistency but did not resolve it in the brief before drafting.",
+     "The draft asserts the figures 'represent a record pace of enforcement activity for Trump's second term' but the brief does not provide comparative data to prior months or years in Trump's second term. The brief's open_questions ask 'What constitutes a record compared to prior months or years under Trump's second term?'\u2014flagging this as unverified. The draft states it as fact.",
+     "The brief notes that the source text 'cuts off mid-sentence' and the fetched source is incomplete (664 characters, marked 'thin'). A draft should not assert confident conclusions from truncated source material. The confidence label on all three data points is 'reported,' which is appropriate, but the draft's framing\u2014'record pace,' shifts in operational approach\u2014goes beyond what the truncated source can support."
+    ]
+   },
+   {
+    "id": "c265",
+    "headline": "Meta Agrees to $18 Billion Settlement Over Child Safety Claims",
+    "category": "compliance",
+    "reasons": [
+     "The bottom_line makes a reputational judgment about Meta's settlement ('protects Meta's core business model') that reads as editorial verdict rather than neutral reporting. The phrase 'The settlement protects Meta's core business model by avoiding existential penalties' adopts a critical framing that is not attributed to any source in the brief. This is advocacy in the desk's own voice about the meaning and effect of the settlement."
+    ]
+   },
+   {
+    "id": "c325",
+    "headline": "Measles death in Pennsylvania marks first fatality from disease in 35 years",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief exists for this story. Per instructions, every fact in the draft must trace to a data_point in the brief. The draft contains multiple factual claims\u2014Pennsylvania infant death from measles, first fatality in 35 years, two measles deaths in the US in the same week, MMR vaccine details, infant vulnerability timeline\u2014that cannot be verified against a brief because none was provided. A single source URL (NBC News) is listed but the story cannot be evaluated against source content without a brief's data_points and confidence labels. The draft is unsalvageable without the brief."
     ]
    }
   ]

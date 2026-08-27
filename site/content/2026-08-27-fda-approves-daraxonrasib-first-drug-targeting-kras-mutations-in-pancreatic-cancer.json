@@ -1,0 +1,54 @@
+{
+  "id": "c059",
+  "slug": "fda-approves-daraxonrasib-first-drug-targeting-kras-mutations-in-pancreatic-cancer",
+  "kind": "brief",
+  "title": "FDA approves daraxonrasib, first drug targeting KRAS mutations in pancreatic cancer",
+  "dek": "The FDA approved daraxonrasib (Rasonque), made by Revolution Medicines, on Wednesday for advanced pancreatic cancer. In a 500-patient trial, median survival was 13.2 months compared to 6.6-6.7 months with chemotherapy. The drug targets KRAS mutations present in over 90 percent of pancreatic tumors.",
+  "date": "2026-08-27",
+  "published_utc": "2026-08-27T05:00:18Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 10,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Median survival on daraxonrasib reached 13.2 months versus 6.6-6.7 months on chemotherapy in a late-stage trial of 500 patients with metastatic pancreatic cancer.",
+  "bottom_line": "The approval extends survival for patients with metastatic pancreatic cancer, though the median of 13.2 months remains below what would constitute long-term remission. Watch whether insurance coverage, out-of-pocket costs, and access programs determine how widely the drug reaches eligible patients, and whether other companies successfully adopt the molecular-glue approach to target KRAS mutations in other cancer types.",
+  "human_take": "",
+  "body": [
+    "The FDA approved daraxonrasib on Wednesday, a first-in-class treatment for advanced pancreatic cancer that targets mutations in the KRAS gene, which drives 90 percent of tumors in the disease. The drug, sold under the brand name Rasonque and made by Revolution Medicines of Redwood City, California, comes to a disease that kills more than half its diagnosed patients within three months and carries a five-year survival rate of 13 percent.",
+    "In a 500-patient late-stage trial involving patients whose metastatic cancer no longer responded to prior treatment, those taking the daily pill lived a median of 13.2 months compared to 6.6 to 6.7 months for patients on chemotherapy, according to reporting by BBC News and CBS News. The FDA approved the drug six months ahead of its regulatory deadline. Angelo de Claro, director of the FDA's Oncology Center of Excellence, stated the approval reflected that the drug \"showed unprecedented results in an area of high unmet need.\"",
+    "RAS gene mutations normally regulate cell growth. Scientists long considered KRAS mutations undruggable because the mutated proteins had a structure that made drugs difficult to attach to them. Revolution Medicines' approach uses what CBS News describes as a molecular glue to bind with multiple KRAS subtypes. The company is studying the technology for other cancers, including lung cancer.",
+    "About 67,000 people are diagnosed with pancreatic cancer in the United States each year, according to reporting citing the American Cancer Society, with more than 52,000 dying from the disease annually. The disease carries the highest mortality rate of all major cancers. In 2025, the FDA granted daraxonrasib Breakthrough Therapy designation, a status reserved for treatments for serious conditions that warrant expedited review.",
+    "The most common side effects reported were rash, diarrhea, nausea, fatigue, vomiting, and mouth sores. According to BBC News, 44 percent of patients on daraxonrasib experienced severe side effects, compared to 57.5 percent of those treated with chemotherapy in the trial. A one-month supply of Rasonque costs approximately $39,800, per CBS News reporting.",
+    "Former U.S. Senator Ben Sasse of Nebraska, who announced his diagnosis with stage-four pancreatic cancer in December, enrolled in a clinical trial of daraxonrasib. Speaking to 60 Minutes in April, Sasse said the drug had been extremely effective, describing a 76 percent reduction in tumor volume over four months and \"much, much less pain\" than he had when diagnosed. Doctors had initially given him a \"three- to four-month life expectancy,\" but Sasse stated: \"I am on extended time already.\"",
+    "Dr. Celine Gounder, CBS News medical correspondent, noted that \"Scientists have been calling RAS 'undruggable' for the last 40 years, and now finally, we have a drug for it.\" Dr. Andrew Coveler of Fred Hutch Cancer Center called it \"one of the most anticipated approvals,\" adding that \"This medicine is not a cure but a significant improvement.\""
+  ],
+  "sources": [
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/fda-approves-pancreatic-cancer-drug-daraxonrasib-could-extend-patients-lives/"
+    },
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/clyq4ge4wk9o"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/policy/healthcare/6052834-fda-approves-pancreatic-cancer-drug/"
+    },
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/clyq4ge4wk9o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/video/doctor-explains-what-fdaa-approval-of-pancreatic-cancer-drug-could-mean-for-patients/"
+    }
+  ],
+  "event_utc": "2026-08-26T17:50:34Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-27T05:00:18Z",
+    "sources_cited": 5,
+    "sources_live_checked": 3
+  }
+}
