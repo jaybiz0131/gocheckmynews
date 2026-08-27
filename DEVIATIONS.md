@@ -30,3 +30,20 @@ content-derived. SITE_BUILD_NOW pins the clock for deterministic replays. Tensio
 surfaced here rather than resolved silently: a static page can present a stale stack
 between builds, and the accepted bound is the existing rebuild rhythm (slot publishes,
 breaking runs, the 12:00 UTC refresh); no extra builds were added to tighten it.
+
+### D2 (2026-08-27): /sources.html hidden, not deleted
+
+Owner call: the full outlet table doubles as the desk's reading list, and the owner
+wants that competitive surface off the public site for now. The charter names
+/sources.html as the honest fine print behind the credibility chips, so this is a
+real tension, surfaced here rather than resolved silently.
+
+What changed: a single SOURCES_PAGE flag in site_build.py (False) removes the page
+from the nav, the footer, the sitemap, and the build output; every in-copy link to
+it degrades to plain text; and the old URL 302s to /standards.html so nothing
+dead-ends. What did NOT change: the renderer (render_sources_page), the credibility
+table (site/data/credibility.json), the quarterly re-verification duty, and the
+chips themselves all stay, and every story keeps the inline attribution line naming
+AllSides and Media Bias/Fact Check as the ratings' owners. That inline line is what
+keeps the chips honest while the long-form fine print is dark. Flip the flag to True
+to restore the whole surface in one build.

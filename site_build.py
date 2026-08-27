@@ -208,13 +208,23 @@ YEAR = "2026"
 MONTHS = ["", "January", "February", "March", "April", "May", "June", "July", "August",
           "September", "October", "November", "December"]
 
+# /sources.html HIDDEN (owner call 2026-08-27): the full outlet table doubles as the
+# desk's reading list, and the owner wants it off the public site for now. One flag
+# gates the whole surface: the nav and footer entries, every in-copy link, the sitemap
+# row, the page itself, and a temporary redirect for the old URL. Nothing is deleted --
+# the renderer, credibility.json, and the chips all stay, and the chips keep their
+# inline attribution on every story. Flip to True to restore everything at once.
+# See DEVIATIONS.md D2.
+SOURCES_PAGE = False
+
 # The lanes sit in the nav so the identity is visible to a reader in one glance and to a
-# crawler on every page. Sources stays: it is the desk's differentiator.
+# crawler on every page.
 NAV = [("Home", "/index.html"), ("The Edition", "/news.html"),
        ("Government", "/sections/government.html"),
        ("Public Safety", "/sections/public-safety.html"),
-       ("Disasters", "/sections/disasters.html"),
-       ("Sources", "/sources.html"), ("About", "/about.html")]
+       ("Disasters", "/sections/disasters.html")] + \
+      ([("Sources", "/sources.html")] if SOURCES_PAGE else []) + \
+      [("About", "/about.html")]
 
 
 # ---- helpers -----------------------------------------------------------------
@@ -616,6 +626,12 @@ def newsletter():
 </div></section>"""
 
 
+def sources_link(text):
+    """An anchor to /sources.html while the page is published; the bare text while it is
+    hidden (SOURCES_PAGE above), so no page ever links to a URL that is not built."""
+    return f'<a href="/sources.html">{text}</a>' if SOURCES_PAGE else text
+
+
 def trust_block():
     return f"""<section class="trust"><div class="wrap">
   <div class="sec-head"><h2>The desk's promise</h2><span class="bar"></span></div>
@@ -623,7 +639,7 @@ def trust_block():
   outlets deliberately spread across the political spectrum, audit every one against its
   sources, and surface only what genuinely matters, with the spin and the hype stripped out.
   Sources are linked on every story, every outlet carries its published
-  <a href="/sources.html">bias and factual rating</a>, and nothing here is ever advocacy
+  {sources_link("bias and factual rating")}, and nothing here is ever advocacy
   or advice.</p>
 </div></section>"""
 
@@ -634,9 +650,9 @@ def footer(brand="site"):
                     # About and Archive live in the masthead nav; repeating them here gave
                     # every page two links to each and helped invert the link graph. The
                     # footer keeps what the nav does not carry.
-                    [("How we work", "/method.html"),
-                     ("How we rate sources", "/sources.html"),
-                     ("Standards & corrections", "/standards.html"),
+                    [("How we work", "/method.html")]
+                    + ([("How we rate sources", "/sources.html")] if SOURCES_PAGE else [])
+                    + [("Standards & corrections", "/standards.html"),
                      ("Privacy", "/privacy.html"), ("Terms", "/terms.html"),
                      ("Contact", "mailto:desk@gocheckmynews.com"),
                      ("RSS", "/feed.xml")])
@@ -945,9 +961,12 @@ def render_article(item, all_items=None):
             for s in srcs)
         legend = ""
         if CRED_DOMAINS:
+            # the attribution sentence stays even while /sources.html is hidden: the
+            # chips are third-party ratings and must say whose they are on the story
             legend = ('<p class="cred-note">Outlet ratings are the public AllSides and '
-                      'Media Bias/Fact Check charts\' calls, not ours. '
-                      '<a href="/sources.html">How we rate sources</a>.</p>')
+                      'Media Bias/Fact Check charts\' calls, not ours.'
+                      + (' <a href="/sources.html">How we rate sources</a>.'
+                         if SOURCES_PAGE else '') + '</p>')
         # SINGLE-SOURCE DISCLOSURE (owner directive 2026-07-31): when only one outlet has
         # carried a development, say so plainly beside the sourcing. This is a factual note
         # about THIS story, not process talk: a reader deserves to know a claim rests on one
@@ -1462,7 +1481,7 @@ def render_home(items, dateline):
      actually happened and keep the facts honest. Every story is checked against the official
      public record and outlets deliberately spread across the political spectrum, with the
      spin and the hype stripped out. Every cited outlet carries its published
-     <a href="/sources.html">bias and factual rating</a>, shown with attribution. No advocacy,
+     {sources_link("bias and factual rating")}, shown with attribution. No advocacy,
      no paid promotion, and never advice. Everything here is free, and every source is
      linked.</p>
 </section></main>""" + newsletter()
@@ -1574,8 +1593,9 @@ def render_method(items, dateline):
         here than anyone's account of it.</li>
     <li><b>More than one side of the story.</b> Our intake is deliberately spread across the
         political spectrum, so the desk is not reading one side alone. Outlets carry a published
-        bias and factual rating, shown with attribution;
-        <a href="/sources.html">how we rate sources</a> explains whose ratings those are. News
+        bias and factual rating, shown with attribution{
+        '; <a href="/sources.html">how we rate sources</a> explains whose ratings those are'
+        if SOURCES_PAGE else ''}. News
         corroborated across several lanes gets more prominence than news carried by one.</li>
     <li><b>A second look before publication.</b> Stories are checked against the sources they
         cite, by a pass separate from the one that assembled them. Work that does not hold up
@@ -1658,8 +1678,9 @@ def render_about(dateline):
      Sponsorship never buys coverage; see <a href="/method.html">how we work</a>.</p>
 
   <div class="callout"><b>Read next:</b> <a href="/method.html">How we work</a>, the
-    the standards every story has to clear. <a href="/sources.html">How we rate
-    sources</a>, whose ratings the credibility chips carry. Or <a href="/standards.html">our
+    standards every story has to clear.{
+    ' <a href="/sources.html">How we rate sources</a>, whose ratings the credibility'
+    ' chips carry.' if SOURCES_PAGE else ''} Or <a href="/standards.html">our
     standards and corrections policy</a>.</div>
   <p class="nfa">{esc(NFA)}</p>
 </section></main>"""
@@ -1686,8 +1707,9 @@ def render_standards(dateline):
   <p>Cited outlets render with a credibility chip where we have a rating for them: its coarse bias lane and factual
      grade per the public AllSides and Media Bias/Fact Check charts. Those ratings belong to
      those organizations, not to us; we transcribe them, attribute them, and re-check them
-     periodically. A domain we have not seeded renders as unrated, honestly. The full table and
-     the reasoning live at <a href="/sources.html">how we rate sources</a>. A story whose
+     periodically. A domain we have not seeded renders as unrated, honestly.{
+     ' The full table and the reasoning live at'
+     ' <a href="/sources.html">how we rate sources</a>.' if SOURCES_PAGE else ''} A story whose
      corroboration spans three or more bias lanes carries a "corroborated across the
      spectrum" marker on its card.</p>
 
@@ -2254,7 +2276,8 @@ def build():
     w("method.html", render_method(items, dateline))
     w("about.html", render_about(dateline))
     w("standards.html", render_standards(dateline))
-    w("sources.html", render_sources_page(dateline))
+    if SOURCES_PAGE:
+        w("sources.html", render_sources_page(dateline))
     w("privacy.html", render_privacy(dateline))
     w("terms.html", render_terms(dateline))
     w("404.html", render_404(dateline))
@@ -2299,7 +2322,8 @@ def build():
 
     # sitemap (indexable pages only; 404/thanks are noindex), robots, netlify 404 redirect
     locs = ["/", "/news.html"] + [f"/sections/{sl}.html" for sl, _t, _n, _g, _b in SECTIONS] + [
-            "/archive.html", "/bottom-line.html", "/method.html", "/sources.html",
+            "/archive.html", "/bottom-line.html", "/method.html"] + \
+           (["/sources.html"] if SOURCES_PAGE else []) + [
             "/about.html", "/standards.html", "/privacy.html", "/terms.html"]
     # SPLIT SITEMAP (2026-08-25). Search Console showed 207 of 369 submitted articles
     # still uncrawled: a new domain gets a small crawl budget and a single flat sitemap
@@ -2384,10 +2408,14 @@ def build():
     # /rss.xml is the address readers and aggregators try first; the desk publishes at
     # /feed.xml, so alias rather than leave a 404 (2026-08-13 audit).
     rss_alias = "/rss.xml  /feed.xml  301\n"
+    # While /sources.html is hidden (SOURCES_PAGE above), send the old URL to the
+    # standards page, which keeps the attribution language. 302, not 301: the hide is
+    # meant to be reversible, and a permanent redirect would teach caches otherwise.
+    sources_alias = "" if SOURCES_PAGE else "/sources.html  /standards.html  302\n"
     redirects = "".join(f"/articles/{old}.html  /articles/{new}.html  301\n"
                         f"/articles/{old}  /articles/{new}  301\n"
                         for old, new in sorted(RETIRED_ARTICLES.items()))
-    w("_redirects", rss_alias + redirects + "/*  /404.html  404\n")
+    w("_redirects", rss_alias + sources_alias + redirects + "/*  /404.html  404\n")
     # THE EDITION (owner spec 2026-08-03, chassis extension per the approved crypto
     # build): the composed front replaces the Latest tab at its own URL; back issues
     # under /edition/. Written LAST so the composed front wins the /news.html route.
