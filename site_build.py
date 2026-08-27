@@ -229,6 +229,11 @@ NAV = [("Home", "/index.html"), ("The Edition", "/news.html"),
 
 # ---- helpers -----------------------------------------------------------------
 
+try:
+    import family_modules as _fam
+except ImportError:      # resolver absent: articles simply carry no module
+    _fam = None
+
 def esc(s):
     return (str(s or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
             .replace('"', "&quot;"))
@@ -996,6 +1001,17 @@ def render_article(item, all_items=None):
     # 2026-07-30). The corrections path survives in the footer's standards link, which is
     # what that block's "Report an error" was for.
     trail = ""
+    # ONE tool module, and only when the headline says the story is about it.
+    # Media pages carry no affiliate links: this routes to a consumer site,
+    # which owns the monetized surface. Attribution is computed here at build
+    # time, so the site ships no extra client script.
+    tool_html = ""
+    if _fam is not None:
+        _m = _fam.tool_module("news", item.get("slug", ""), _fam.story_text(item))
+        if _m:
+            tool_html = (f'<aside class="tool-module"><p class="tm-k">Practical next step</p>'
+                         f'<p><a href="{esc(_m["url"])}" rel="noopener">{esc(_m["text"])}</a>'
+                         f' at {esc(_m["site_name"])}, our sister site. Free, no account.</p></aside>')
     author = esc(item.get("author", "The GoCheckMyNews Desk"))
     body = f"""<main class="wrap narrow">
   <article class="article">
@@ -1013,6 +1029,7 @@ def render_article(item, all_items=None):
     {sig_block()}
     {share_row(ORIGIN + f"/articles/{item['slug']}", item.get("title") or "")}
     {trail}
+    {tool_html}
     {src_html}
     {rel_html}
     <p class="nfa">{esc(NFA)}</p>
