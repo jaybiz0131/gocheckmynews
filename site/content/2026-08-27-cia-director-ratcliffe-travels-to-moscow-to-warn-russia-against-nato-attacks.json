@@ -1,0 +1,65 @@
+{
+  "id": "c106",
+  "slug": "cia-director-ratcliffe-travels-to-moscow-to-warn-russia-against-nato-attacks",
+  "kind": "brief",
+  "title": "CIA Director Ratcliffe travels to Moscow to warn Russia against NATO attacks",
+  "dek": "CIA Director John Ratcliffe made an unannounced trip to Moscow on Tuesday, according to reporting by the Wall Street Journal and CBS News, to warn Russia against attacking NATO member states. President Trump later described the trip as 'semi-routine' and denied it was motivated by concerns about Russian plans to test NATO resolve or by negotiations over Iran sanctions.",
+  "date": "2026-08-27",
+  "published_utc": "2026-08-27T15:17:53Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 2,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Ratcliffe flew from Andrews Air Force Base in Maryland to Moscow on a government transport plane to convey a warning about NATO attacks, per Guardian reporting of Wall Street Journal and CBS News accounts.",
+  "bottom_line": "The CIA director's unannounced Moscow trip and the Trump administration's subsequent downplaying of its purpose leave open what specific intelligence or diplomatic concerns prompted the mission and how Moscow responded. Watch for any official U.S. or Russian statements clarifying the meeting's scope and outcomes.",
+  "human_take": "",
+  "body": [
+    "CIA Director John Ratcliffe made an unannounced trip to Moscow on Tuesday to warn Russia against attacking NATO member states, according to reporting by the Wall Street Journal and CBS News cited by the Guardian.",
+    "Ratcliffe flew from Andrews Air Force Base in Maryland on a government transport plane to carry out the diplomatic mission, per Guardian reporting of the Wall Street Journal and CBS News accounts. The trip took place amid U.S. intelligence assessments that Moscow could seek to test the NATO alliance, according to the same reporting.",
+    "President Trump addressed the trip in an interview with conservative radio host Glenn Beck on Wednesday. When Beck asked whether the visit was in response to fears that Putin planned to test NATO resolve or to secure Moscow's cooperation for intensified U.S. sanctions on Iran, Trump responded \"None of the above\" and characterized the speculation as \"crazy,\" according to Guardian reporting. Trump described the trip itself as \"semi-routine.\"",
+    "The visit marks direct engagement between the CIA and Russian officials on the question of NATO security at a moment of elevated U.S.-Russia tension. The specifics of what Ratcliffe conveyed, whom he met with in Moscow, and the substance of any responses remain unreported in the available accounts."
+  ],
+  "sources": [
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/live/2026/aug/27/cia-moscow-nato-ratcliffe-rutte-colby-trump-paxton-voting-latest-news-updates"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/policy/international/6054850-cia-director-moscow-nato-warning/"
+    }
+  ],
+  "event_utc": "2026-08-27T14:56:31Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-27T15:17:53Z",
+    "sources_cited": 2,
+    "sources_live_checked": 1
+  },
+  "also_reported_by": [
+    {
+      "outlet": "WSJ",
+      "headline": "Exclusive | CIA Chief\u2019s Surprise Moscow Trip Was to Warn Russia Not to Attack NATO - WSJ"
+    },
+    {
+      "outlet": "Radio Free Europe/Radio Liberty",
+      "headline": "CIA Chief's Moscow Trip Meant To Warn Russia Off Baltic Attack, Sources Say - Radio Free Europe/Radio Liberty"
+    },
+    {
+      "outlet": "Axios",
+      "headline": "CIA director Ratcliffe visits Moscow - Axios"
+    },
+    {
+      "outlet": "CBS News",
+      "headline": "CIA Director John Ratcliffe met Russian intel counterparts on secretive visit to Moscow, Kremlin says - CBS News"
+    },
+    {
+      "outlet": "The Guardian",
+      "headline": "CIA director John Ratcliffe reportedly on Moscow visit - The Guardian"
+    },
+    {
+      "outlet": "Al Jazeera",
+      "headline": "Kremlin denies US talks amid reports CIA Director Ratcliffe in Russia - Al Jazeera"
+    }
+  ]
+}

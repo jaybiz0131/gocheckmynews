@@ -1,47 +1,6 @@
 [
  {
   "date": "2026-07-22",
-  "approved": 8,
-  "rejected": [
-   {
-    "id": "c141",
-    "headline": "UK Inflation Falls to 2.6%, Lowest in 15 Months",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'The data may influence the Bank of England's monetary policy path and household spending outlook as cost-of-living pressures moderate.' This claim does not appear in the brief's data_points or bear_case. The brief contains an open_question about 'What specific policy response, if any, does the Bank of England signal in light of this data?' but the draft presents influence on policy as fact rather than as a pending question. This is a smuggled inference not grounded in the research."
-    ]
-   },
-   {
-    "id": "c130",
-    "headline": "Trump administration approves nuclear deal with Saudi Arabia permitting uranium enrichment",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'The Trump administration has approved a nuclear agreement with Saudi Arabia' as a settled fact, but the brief provides no data_point confirming the deal was actually approved\u2014only that it was announced or proposed. The brief's core_claim uses 'approves' but the data_points are marked 'reported' with zero source_chars, indicating the source text was not provided or verified. The draft presents an unverified announcement as accomplished fact.",
-     "The draft claims 'The agreement grants Saudi Arabia access to uranium enrichment technology' as definitive policy, but this is not confirmed in any data_point in the brief. The brief explicitly lists as open_questions 'What are the specific terms of the nuclear agreement?' and 'What limits, if any, are placed on Saudi uranium enrichment capability?'\u2014indicating these details are not established in the source material."
-    ]
-   },
-   {
-    "id": "c085",
-    "headline": "Arizona Republican Nominates State Representative for Secretary of State",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states Kolodin 'defeated a more moderate Republican candidate in the primary contest' but the brief's open_questions explicitly note 'The identity and record of the moderate Republican opponent is not named or detailed in available sources.' The writer smuggled a characterization ('more moderate') without source support.",
-     "The draft's angle references 'A candidate known for contesting 2020 election results' but this claim does not appear in any data_point in the brief. The brief itself flags this in open_questions: 'The source text was not provided; the precise claims about Kolodin contesting 2020 results cannot be verified.' This is a material fact introduced outside the brief."
-    ]
-   },
-   {
-    "id": "c038",
-    "headline": "Pentagon Seeks $87 Billion for Iran War as Hegseth Cites $37.5 Billion Cost to Date",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'American soldiers die' in the opening paragraph context ('As the US war with Iran rages and American soldiers die') but this phrasing appears in the brief's angle, not as a fact in the data_points. The actual soldier deaths are named later (four service members identified by name), but the opening invocation of unnamed deaths dying is advocacy language, not reported fact.",
-     "The draft references 'anti-war protesters' disrupting the hearing ('The hearing was disrupted several times by anti-war protesters') but this claim is in the brief's data_points as marked 'reported.' However, the draft does not mention protesters at all\u2014this fact from the brief was omitted, creating imbalance, but the reason for rejection is that the draft's opening tone ('American soldiers die') editorializes beyond what is in the reported record."
-    ]
-   }
-  ]
- },
- {
-  "date": "2026-07-22",
   "approved": 6,
   "rejected": [
    {
@@ -9937,6 +9896,49 @@
     "category": "accuracy",
     "reasons": [
      "No research brief exists for this story. Per instructions, every fact in the draft must trace to a data_point in the brief. The draft contains multiple factual claims\u2014Pennsylvania infant death from measles, first fatality in 35 years, two measles deaths in the US in the same week, MMR vaccine details, infant vulnerability timeline\u2014that cannot be verified against a brief because none was provided. A single source URL (NBC News) is listed but the story cannot be evaluated against source content without a brief's data_points and confidence labels. The draft is unsalvageable without the brief."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-08-27",
+  "approved": 6,
+  "rejected": [
+   {
+    "id": "c272",
+    "headline": "Meta reaches settlement with state attorneys general on child safety",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The settlement stands as the largest enforcement action of its kind against a social media company' in the bottom_line. This claim does not appear in the brief's data_points. The brief's angle says the settlement 'represents the largest enforcement action over children's digital welfare to date,' but this is a characterization by the brief-writer, not a sourced fact from the reporting. The draft presents this as established fact without attribution.",
+     "The source material provided (NBC News Today video) does not appear to carry this comparative claim based on the brief's data_points. The desk cannot publish a comparative superlative that is not in the sourced reporting."
+    ]
+   },
+   {
+    "id": "c060",
+    "headline": "RFK Jr.'s Senate testimony contradicted by his own letters, newly obtained documents show",
+    "category": "compliance",
+    "reasons": [
+     "The draft contains a reputationally damaging allegation against a named individual (RFK Jr. gave contradictory sworn testimony) that appears to rest on a single source. The brief lists Guardian and AP as the reporting outlets, but the draft's only usable sources are the Guardian URL and a PBS NewsHour link. The brief's open_questions note: 'The PBS NewsHour source text is truncated and does not provide additional details beyond the Guardian article; full reporting from that outlet is not retrievable from the provided text.' This means the desk effectively has one primary source (Guardian) for the core allegation of testimony contradiction.",
+     "The draft should either include corroborating reporting from the AP independent of the Guardian (wire-service sourcing would suffice), or this allegation against a named official must be rejected. The instructions require: 'A REPUTATIONALLY DAMAGING CLAIM ABOUT A NAMED PERSON NEEDS MORE THAN ONE SOURCE. A specific allegation of misconduct against a named individual carried on a single secondary source is category compliance.'"
+    ]
+   },
+   {
+    "id": "c009",
+    "headline": "Ratko Mladic, Convicted Genocide Architect, Dies at 84 in UN Prison",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Mladic's death ends his 15-year imprisonment' in the bottom_line, but the brief data shows he 'had been in custody since 2011' (per CBS) and 'After the Bosnian war, he went on the run for 16 years until he was finally tracked down in rural Serbia in 2011' (per BBC). From 2011 to 2026 is 15 years, which is correct, but the draft conflates this with the total span from indictment to death without clarity. More critically, the draft refers to this imprisonment duration as a standalone fact without the context that he spent 16 years as a fugitive AFTER the war ended before 2011 capture\u2014a material omission that misrepresents the timeline.",
+     "The draft states in the opening: 'Ratko Mladic, the Bosnian Serb general convicted of orchestrating atrocities that killed over 100,000 people during the 1990s Bosnian conflict.' The brief data point states 'The conflict left more than 100,000 people dead and over 1 million homeless' (CBS, reported confidence). The draft attributes this figure to Mladic personally ('killed over 100,000 people'), but the sourced claim is about total casualties of the entire conflict, not deaths directly attributable to Mladic's orchestration. This is a material misattribution that overstates his individual culpability in the phrasing."
+    ]
+   },
+   {
+    "id": "c033",
+    "headline": "Yayoi Kusama, Japanese Artist Known for Polka-Dot Infinity Rooms, Dies at 97",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief was provided for this story. The instruction states: 'the writer's hard rule was: no fact exists outside the brief.' Without a brief, every factual claim in the draft must be verifiable against cited sources, but the approval process is designed to check draft against brief, not draft against external URLs. The desk cannot verify facts without the research documentation that should accompany this story.",
+     "The draft contains specific factual claims (death at age 97, career spanning seven decades, descriptions of infinity rooms and polka-dot aesthetic as signature work) that cannot be cross-referenced to data_points with confidence labels as required by the approval process.",
+     "The absence of a brief makes it impossible to verify whether confidence labels (if any existed) match how claims are presented in the draft, and whether the bear_case (if any) survived into the prose."
     ]
    }
   ]
