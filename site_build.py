@@ -2411,7 +2411,11 @@ def build():
     # While /sources.html is hidden (SOURCES_PAGE above), send the old URL to the
     # standards page, which keeps the attribution language. 302, not 301: the hide is
     # meant to be reversible, and a permanent redirect would teach caches otherwise.
-    sources_alias = "" if SOURCES_PAGE else "/sources.html  /standards.html  302\n"
+    # Both spellings: Netlify's pretty-URL pass advertised the page as /sources, so the
+    # extensionless form is the one in the wild, same as the retired-article pairs below.
+    sources_alias = ("" if SOURCES_PAGE else
+                     "/sources.html  /standards.html  302\n"
+                     "/sources  /standards.html  302\n")
     redirects = "".join(f"/articles/{old}.html  /articles/{new}.html  301\n"
                         f"/articles/{old}  /articles/{new}  301\n"
                         for old, new in sorted(RETIRED_ARTICLES.items()))
