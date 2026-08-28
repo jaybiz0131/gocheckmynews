@@ -2361,8 +2361,15 @@ def build():
     def _clean(p):
         return ORIGIN + (p[:-5] if p.endswith(".html") else p)
 
-    def _urlset(paths):
-        body = "\n".join(f"  <url><loc>{esc(_clean(p))}</loc></url>" for p in paths)
+    def _urlset(paths, dated=None):
+        """dated: optional {path: YYYY-MM-DD}. A sitemap without lastmod gives a
+        crawler no reason to revisit an archive of 335 URLs, which is most of
+        this site. Articles carry their own publication date, so use it."""
+        def row(p):
+            lm = (dated or {}).get(p)
+            return ("  <url><loc>%s</loc><lastmod>%s</lastmod></url>" % (esc(_clean(p)), lm)) if lm \
+                   else ("  <url><loc>%s</loc></url>" % esc(_clean(p)))
+        body = "\n".join(row(p) for p in paths)
         return ('<?xml version="1.0" encoding="UTF-8"?>\n'
                 '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
                 + body + "\n</urlset>\n")
@@ -2370,8 +2377,11 @@ def build():
     # priority: the hub pages a reader starts from, plus the newest N stories
     prio = locs + [f"/articles/{i['slug']}.html" for i in arts_sorted[:PRIORITY_N]]
     archive = [f"/articles/{i['slug']}.html" for i in arts_sorted[PRIORITY_N:]]
-    w("sitemap-priority.xml", _urlset(prio))
-    w("sitemap-archive.xml", _urlset(archive))
+    # W4-7: date every article entry from its own published date
+    _dated = {f"/articles/{i['slug']}.html": (i.get("date") or "")[:10]
+              for i in arts_sorted if (i.get("date") or "")[:10]}
+    w("sitemap-priority.xml", _urlset(prio, _dated))
+    w("sitemap-archive.xml", _urlset(archive, _dated))
     w("sitemap.xml",
       '<?xml version="1.0" encoding="UTF-8"?>\n'
       '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
