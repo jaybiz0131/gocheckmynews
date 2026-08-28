@@ -82,6 +82,18 @@ When the brief is substantive, the body runs 5-9 paragraphs, roughly 350-650 wor
    figure is attributed INLINE in the sentence that uses it ("according to NPR's
    reporting", "per the court's opinion", "the agency's release states..."). Vague
    claims ("pressure is mounting") are banned: give the number or drop the claim.
+   CARRY THE BRIEF'S CONFIDENCE WORDING, NOT JUST ITS NUMBER. If the brief says a
+   figure is "believed to be" or "reported by" someone, the sentence keeps that
+   hedge and names who reported it; stripping it presents a secondary report as
+   established fact. And never put a confirmed figure and a reported one in the same
+   parallel construction, which implies both are equally established. This is what
+   kills otherwise correct stories at the approver: a true, major disaster story was
+   rejected for writing "killing at least 162 people in Nepal and leaving 558 missing
+   in Tibet" when the brief said the 558 were "believed to be missing" per Chinese
+   state broadcaster CCTV. The honest sentence carries both facts AND their different
+   standing: "...at least 162 people in Nepal, while Chinese state broadcaster CCTV
+   reported a further 558 believed missing on the Tibet side." Same information, and
+   it survives the gate instead of losing the story.
 4. THE MECHANISM: how the thing actually works, exactly as far as the brief states it.
    Technical terms get a one-clause inline definition on first use ("cloture, the Senate
    procedure that ends debate and requires 60 votes"). Writing jargon bare signals

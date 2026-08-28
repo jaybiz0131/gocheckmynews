@@ -247,6 +247,13 @@
     "max_items": 10
    },
    {
+    "name": "Google News: international disasters",
+    "tier": "mixed",
+    "url": "https://news.google.com/rss/search?q=flood+OR+earthquake+OR+landslide+OR+glacier+OR+cyclone+OR+typhoon+OR+%22death+toll%22+when:2d&hl=en-US&gl=US&ceid=US:en",
+    "note": "DISCOVERY ONLY (added 2026-08-28 after a confirmed miss). Every disaster feed this desk carried was US-only or Atlantic-only: NHC Atlantic, NWS US alerts, InciWeb US wildfires, and a US public-safety query. A major disaster outside the United States could therefore only arrive through the general national feeds, where it competes with everything else inside a 40-item cap, and one was missed for two days: the Nepal-Tibet glacial collapse (400+ dead, ~1,400 missing, 47 Americans) ran on CNN, NPR, CBS and Al Jazeera from 26 Aug and never reached the desk. This query returned 92 items on that flood when tested. Same discovery-only terms as the other Google News feeds: aggregator links are google.com redirects, so a tiered directly-citable outlet must still supply the source before anything publishes.",
+    "max_items": 10
+   },
+   {
     "name": "NWS Active Alerts (severe and extreme)",
     "tier": "primary",
     "max_items": 15,

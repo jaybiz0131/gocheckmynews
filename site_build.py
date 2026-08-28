@@ -30,6 +30,9 @@ import sys
 from urllib.parse import quote
 
 RETIRED_ARTICLES = {
+    # owner report 2026-08-28: same death, same day, the fuller telling survives
+    "king-harald-v-of-norway-dies-at-89-after-35-year-reign":
+        "king-harald-v-of-norway-dies-at-89-after-35-year-reign-son-becomes-king-haakon-viii",
     "19-year-old-arrested-in-virginia-state-university-shooting-five-injured":
         "five-injured-in-shooting-at-virginia-state-university-suspect-arrested-after-12-hour-search",
     "2-powerful-earthquakes-hit-indonesia-on-same-day-at-least-47-dead":
