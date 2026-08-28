@@ -1,0 +1,58 @@
+{
+  "id": "c101",
+  "slug": "federal-judge-blocks-trump-mail-ballot-regulation-ahead-of-november-midterms",
+  "kind": "brief",
+  "title": "Federal judge blocks Trump mail-ballot regulation ahead of November midterms",
+  "dek": "U.S. District Judge Indira Talwani issued a 14-day temporary restraining order blocking enforcement of a U.S. Postal Service regulation implementing Trump's executive order requiring tracking of mail-in ballots against federal voter eligibility lists.",
+  "date": "2026-08-28",
+  "published_utc": "2026-08-28T12:15:59Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 3,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Judge Talwani found the regulation likely unlawful because the president cannot insert the federal government into elections without express congressional authorization, and that states lack the time and resources to comply before the November 2026 midterms.",
+  "bottom_line": "The temporary restraining order holds for 14 days, but the ruling is almost certain to be appealed to the Supreme Court, where the outcome remains uncertain. The core question, presidential versus state authority over elections, will likely be resolved by the high court before mail ballots are sent out, and the Supreme Court's decision on an earlier phase of this litigation suggests skepticism of the lower court's speed, not necessarily the merits.",
+  "human_take": "",
+  "body": [
+    "U.S. District Judge Indira Talwani issued a 14-day temporary restraining order Thursday blocking enforcement of a new U.S. Postal Service regulation implementing President Trump's executive order on mail-in ballots, according to Fox News.",
+    "The executive order, issued in March 2026, directed the U.S. Postal Service to track mail-in ballots and potentially reject those submitted by people not on a federal list of eligible voters. Under the regulation, the Postal Service stated it will not accept outbound mail ballots if states do not submit required recipient information through its portal and meet the rule's envelope and barcode requirements, per Fox News.",
+    "Judge Talwani wrote that the regulation is most likely unlawful because the president cannot insert the federal government into elections without the express authorization of Congress, according to NBC News. She found that \"plaintiffs likely to succeed on the merits of their claims,\" per NBC News. The judge noted that the administration had not offered \"any evidence regarding fraudulent absentee or mail-in voting,\" according to NBC News. A 2025 report by the Brookings Institution cited by Fox News found mail-in voting fraud in only about four cases out of every 10 million mail ballots cast, covering general elections from 2016 through 2022.",
+    "Judge Talwani concluded that states \"have neither time nor funds\" to meet the necessary requirements, including updating election management systems and training staff members, making compliance \"practically impossible\" before the 2026 midterms, per NBC News. Nearly one-third of Americans vote by mail, according to Fox News.",
+    "The Postal Service argues the rule does not determine voter eligibility or compare submissions with state voter rolls, and that states retain control over who may vote by mail, per Fox News. Democrats and voting rights groups counter that the regulation and Trump's order are unconstitutional, arguing that the Constitution grants states, as well as Congress in some cases, the authority to establish election rules, with neither the president nor the Postal Service holding that power, per Fox News.",
+    "While the Postal Service regulation is now blocked, a provision of the executive order requiring the Department of Homeland Security to compile lists of eligible voters and send them to states remains in effect, according to NBC News. In a separate decision Wednesday, Judge Talwani lifted an earlier injunction she had imposed that blocked vital elements of Trump's executive order in a related case.",
+    "New York Attorney General Letitia James stated, per NBC News: \"This rule is a clear attempt by the federal government to interfere in elections it has no power to control. Today, a federal court halted it before this administration could wreak havoc on our elections.\"",
+    "A hearing in the case is scheduled for September 3, 2026, according to Fox News. The Supreme Court found on Monday that Judge Talwani had acted too hastily in ruling on the executive order but did not weigh in on whether the underlying proposal or the Postal Service regulation is lawful, per NBC News."
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/politics/2026-election/judge-blocks-trumps-postal-service-regulation-mail-ballots-rcna594692"
+    },
+    {
+      "title": "Fox News",
+      "url": "https://www.foxnews.com/politics/federal-judge-blocks-trump-mail-ballot-order-midterms"
+    },
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/2026/aug/28/federal-judge-halts-trump-executive-order-mail-voting-midterms"
+    },
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/live/2026/aug/28/donald-trump-mail-voting-tariffs-canada-space-nasa-march-on-washington-latest-news-updates"
+    }
+  ],
+  "event_utc": "2026-08-28T01:56:20Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-28T12:15:59Z",
+    "sources_cited": 4,
+    "sources_live_checked": 3
+  },
+  "update_of": "supreme-court-lifts-lower-court-block-on-trump-mail-ballot-executive-order-in-6-3-decision",
+  "boundary": {
+    "affected": "Mail-in ballots in the November 2026 midterm elections",
+    "fixed": "Not specified in sources",
+    "user_action": "Not specified\u2014this is an order blocking implementation, not a directive to end users",
+    "advisory_url": "None; this is a judicial order, not an issuer's advisory notice"
+  }
+}

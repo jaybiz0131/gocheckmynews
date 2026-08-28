@@ -1,56 +1,6 @@
 [
  {
   "date": "2026-07-22",
-  "approved": 7,
-  "rejected": [
-   {
-    "id": "c060",
-    "headline": "Trump threatens to destroy Iranian civilian infrastructure for attacks in Strait of Hormuz",
-    "category": "compliance",
-    "reasons": [
-     "The phrase 'marks an escalation in military rhetoric against Iran' and 'The threat targets civilian infrastructure' read as the desk's own judgment/framing rather than neutral reporting. The brief itself flags the angle as advocacy ('marks a dangerous escalation'), but the draft should present the fact of the threat without adopting the characterization of what it 'marks.' This is editorial voice bleeding into ostensibly neutral reporting.",
-     "The sentence 'The conflict with Iran has been described as unpopular and lacking a clear resolution path' attributes the characterization to PBS, but the brief's open_questions section indicates the source text is truncated HTML with no substantive reporting copy present. This cannot be confirmed in the fetched material and should not appear as reported fact."
-    ]
-   },
-   {
-    "id": "c084",
-    "headline": "Dubai logistics firm and UAE announce port system to bypass Strait of Hormuz",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'A Dubai-based logistics firm and the United Arab Emirates announced a deal' but the brief's single data point identifies the firm as 'A Dubai-based logistics giant'\u2014a material difference in description. The draft weakens the characterization without source justification.",
-     "The draft claims the firm is unnamed in available reporting ('The deal's specifics, including the firm's name...are not detailed in available reporting'), but the brief does not confirm this gap; the source_chars count of 0 indicates the brief itself contains no source text excerpt to verify whether the name was actually withheld or simply not extracted. This represents an unverified editorial judgment presented as fact about what the source does or does not contain."
-    ]
-   },
-   {
-    "id": "c106",
-    "headline": "Tropical storm Bertha makes landfall in Louisiana with 45 mph winds",
-    "category": "accuracy",
-    "reasons": [
-     "The draft opens by attributing the National Hurricane Center data to 'the Guardian' reporting, but states the information came from 'the US National Hurricane Center as reported by the Guardian.' This is a correct attribution chain, but the draft's third paragraph states 'The available reporting does not specify whether the catastrophic flooding in Kentucky and West Virginia is directly caused by Bertha or stems from separate weather systems'\u2014this is not a fact in the brief. The brief's open_questions include this exact question, meaning the ambiguity was already noted as unresolved in the research. The draft should not present this as a discovery about what 'available reporting' shows; it should acknowledge it as an open question from the source. This reads as the writer adding interpretive commentary not grounded in a data point.",
-     "The draft's bottom_line states 'Bertha's movement inland and the ongoing flooding situation in Kentucky and West Virginia will determine whether additional evacuations or emergency declarations are necessary'\u2014this reads as projection/prediction (what will determine future action) rather than forward-looking analysis of what to watch. It crosses into speculative territory that the brief does not support with specific evidence about evacuation timelines or declaration triggers."
-    ]
-   },
-   {
-    "id": "c245",
-    "headline": "CDC confirms record 4,173 cyclosporiasis cases nationwide since May",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'This outbreak surpasses all previous annual totals for the illness in the United States' in the bottom_line, but the brief's open_questions explicitly flag that 'What previous annual total for cyclosporiasis cases does this 4,173 figure surpass?' is unconfirmed. The draft presents a comparison (surpassing previous totals) as fact when the brief does not provide the historical baseline data required to verify this claim.",
-     "The draft's opening claim 'constitutes the largest on record for this foodborne parasitic illness' traces to the brief's core_claim, but the bottom_line extends this to 'surpasses all previous annual totals' without that specific data point in the brief. A year-by-year comparison is not the same as 'largest on record' and cannot be asserted without the historical figures."
-    ]
-   },
-   {
-    "id": "c086",
-    "headline": "Trump administration expected to finalize U.S.-Saudi Arabia nuclear agreement",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states the deal 'is expected to deepen U.S.-Saudi ties for decades to come' but omits the brief's characterization that the deal 'remains controversial'\u2014a material factual claim in the brief (data_point: 'controversial deal') that should appear in the prose to represent the full sourced record."
-    ]
-   }
-  ]
- },
- {
-  "date": "2026-07-22",
   "approved": 10,
   "rejected": [
    {
@@ -9909,6 +9859,71 @@
     "reasons": [
      "Draft incorrectly rejects the story as unsalvageable based on a misapplication of the two-source rule. The brief shows all data points trace to a single source (Guardian), and the Associated Press reference in the brief is cited as the outlet that 'obtained letters' jointly with the Guardian\u2014this is collaborative reporting of the same investigation, not independent corroboration. The desk's rule requires independent sourcing for reputationally damaging allegations; collaborative wire/partner reporting counts as sufficient. The allegation (false sworn testimony about vaccine involvement in Samoa visit) is documented in the primary source material obtained by both outlets reporting together. This is not a case requiring a second independent news organization's separate investigation; it is a major story with solid sourcing that should be drafted, not rejected.",
      "The draft's own reasoning contradicts the compliance rule: it states 'The PBS NewsHour link in the brief is noted as truncated and does not provide independent corroboration beyond the Guardian's reporting,' but the desk's rule does not require that secondary outlets independently investigate\u2014it requires the initial allegation not rest on a single secondary source. Here the allegation rests on documents obtained by the Guardian and AP jointly and reported on the record. This is sufficient sourcing."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-08-28",
+  "approved": 5,
+  "rejected": [
+   {
+    "id": "c127",
+    "headline": "Iran conflict enters sixth month amid questions over Trump administration strategy",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief exists for this story. The desk rule is: no fact exists outside the brief. Every factual claim in the draft must trace to a data_point in a research brief, or if no brief exists, the writer must cite on-record primary sources or wire-service reporting that the desk can verify. The sources listed are a Washington Post article (accessible), a Google News RSS feed (not a primary source; it aggregates), and another Google News RSS feed. Google News links are not acceptable primary sources\u2014they are index pages. The core claims\u2014that there is a U.S.-Iran military conflict six months old, that it is 'eroding public support,' that 'concrete diplomatic pathways forward remain unclear'\u2014cannot be traced to verifiable reporting because the sources are either paywalled (WaPo) or non-primary (Google News aggregator feeds). The draft asserts as fact that 'the administration faces constrained options' and that the conflict is 'a defining feature of Trump's second term' without citing specific reporting that says so, or the citations are to inaccessible Google News aggregations.",
+     "The phrase 'According to Google News reporting' is itself a category error. Google News is an aggregator, not a news organization and not a reporting entity. Attributing claims to 'Google News reporting' presents an index as a source.",
+     "The draft's own body acknowledges: 'The exact nature of diplomatic overtures or military strategy adjustments at this six-month juncture is not detailed in available reporting examined by this desk.' This is narration of absence, which violates the rule against a story that restates open_questions in the draft's own voice. The desk reports what is said; it does not narrate what is not in the record.",
+     "The central factual claim\u2014that a U.S.-Iran military conflict has 'entered its sixth month'\u2014is stated as settled fact but is not independently verifiable from the sources provided, because those sources are either paywalled or aggregator links. No primary sourcing trail exists in the submission."
+    ]
+   },
+   {
+    "id": "c110",
+    "headline": "Florida grand jury determines DeSantis administration diverted $10 million from Medicaid settlement",
+    "category": "accuracy",
+    "reasons": [
+     "The brief itself documents that the source material is 'truncated/corrupted and does not contain the full grand jury report or findings' and marks the story 'thin: true' with only 214 source_chars recovered. The brief's own open_questions state: 'The source text provided is truncated/corrupted and does not contain the full grand jury report or findings; critical details on the mechanism of the scheme, specific officials involved, procedural basis for the grand jury's authority, and rationale for declining indictment are not present in the fetched source.'",
+     "A reputationally damaging claim about named individuals in an ongoing matter (the characterization of DeSantis administration officials as having executed a 'sophisticated scheme') rests on a single secondary source (The Guardian) whose text is inaccessible/truncated. The rule requires more than one source for a reputationally damaging claim about a named person. CBS News link is to video (not examined text) and The Hill link is cited but not verified. The Guardian article is the primary textual source, and it is corrupted in the brief record.",
+     "The draft correctly flags that 'No indictments were issued' and 'The available reporting does not provide detailed information about the specific officials involved, the grand jury's stated rationale for declining to indict...' This transparency about limits in the record is good practice, but it does not solve the core problem: the draft is publishing an allegation of a 'sophisticated scheme' of $10 million misappropriation against a named public official (the DeSantis administration) when the sourcing is demonstrably incomplete and the brief itself confirms the source is truncated. The story cannot be published as drafted because the evidentiary base is broken.",
+     "The brief's bear_case is empty, which is correct\u2014the brief is not required to present counter-evidence if none exists. But the draft's own caveats ('not detailed in available reporting,' 'does not provide detailed information,' 'does not contain the full text') are a red flag that the story is being published on insufficient evidence. A grand jury finding of a scheme without indictments is newsworthy, but only if the reporting is complete enough to allow readers to understand what was found and why. The truncated source violates that threshold."
+    ]
+   },
+   {
+    "id": "c057",
+    "headline": "Jury begins deliberating in Lindsay Clancy murder trial",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief was provided for this story. The instructions state 'every draft fact must then trace to the draft's own cited sources or be rejected.' However, the draft cites URLs (npr.org, bbc.co.uk, cbsnews.com, nytimes.com) but provides no actual article text or research brief data points to verify against. The URLs alone are not sufficient evidence that the facts in the draft (closing arguments concluded, jury began deliberations, verdict expected within days) appear in those sources. Without access to the source content or a research brief, the story cannot be verified.",
+     "The desk rule is absolute: 'no fact exists outside the brief.' A draft without a brief and without quoted or directly verifiable source text cannot be approved. The writer was required to provide research brief data points; their absence is a hard failure."
+    ]
+   },
+   {
+    "id": "c075",
+    "headline": "U.S. Patriot missile stocks in Europe at critical levels, officials say",
+    "category": "accuracy",
+    "reasons": [
+     "The brief's core_claim names 'President Trump's war with Iran' as the driver of the shortage. The draft states 'the shortage is largely driven by military operations related to Iran' without naming Trump or the administration. This is a softening of the brief's specific attribution. However, the real problem is deeper: the brief explicitly states 'The source text provided is truncated (contains only SVG path code); the full article text is not available.' This means the research team could not verify the original source.",
+     "The draft presents as fact that the shortage is 'largely driven by military operations related to Iran,' but the brief itself flags this as an open question in verification. The brief's confidence label is 'reported,' but the research note reveals the source was not actually readable to the research team. The writer has smuggled a claim the brief could not substantiate into the draft as if it were verified.",
+     "Additionally, the brief's bear_case is empty, and the draft contains no counter-evidence or alternative perspective on whether the shortage claim or its cause is disputed. With no bear_case in the brief and no counter-argument in the draft, the story reads one-sided, but that is not the primary failure here: the accuracy failure is that a claim derived from an unreadable source is presented as fact."
+    ]
+   },
+   {
+    "id": "c76",
+    "headline": "Kennedy Center board votes to add Trump's name; court extends deadline as judge questions legal strategy",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states the board voted to rename the facility 'President Donald J. Trump and John F. Kennedy Memorial Center for the Performing Arts,' but the brief data_points indicate this renaming vote occurred 'in late last year' (not 'this month'). The brief distinguishes between the late-2025 renaming vote and the current month's vote on the two front-facade inscriptions. The draft conflates these two separate board actions.",
+     "The draft does not clarify that the board's current vote was specifically on two inscriptions ('Renovated and Restored by President Donald J. Trump' and conditionally 'Endowed by the Trump Kennedy Center Fund'), not on renaming the entire facility. The renaming to 'President Donald J. Trump and John F. Kennedy Memorial Center for the Performing Arts' was a separate prior action per the brief."
+    ]
+   },
+   {
+    "id": "c107",
+    "headline": "FDA approves three updated COVID-19 vaccines targeting XFG variant",
+    "category": "accuracy",
+    "reasons": [
+     "The brief's open_questions section explicitly flags that 'The Guardian URL is listed as a source but no text from it was provided; what additional reporting does it carry?' This signals the Guardian source was not actually consulted or verified by the research team. The draft cites The Hill for all factual claims, but the brief lists The Guardian as a source without providing its content, creating a liability if The Guardian's reporting contradicts or modifies the claims.",
+     "The brief is marked 'thin: true' with minimal data_points and open_questions that reveal significant gaps in sourcing. The draft presents facts as settled (e.g., 'Insurance coverage for the updated vaccines remains unclear') when the brief's own open_questions show uncertainty about what insurers have actually said and whether coverage details are truly unresolved or simply unreported. The draft cannot distinguish between 'coverage is genuinely unresolved' and 'the desk has not yet reported on coverage decisions.'"
     ]
    }
   ]

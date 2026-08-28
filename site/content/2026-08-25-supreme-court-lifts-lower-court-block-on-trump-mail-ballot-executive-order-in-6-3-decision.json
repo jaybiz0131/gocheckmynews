@@ -61,5 +61,6 @@
     "fixed": "The requirement for the USPS to verify voting eligibility of each person receiving a mail ballot and withhold ballots from anyone not on a government list remains blocked in a different legal case and is not affected by this ruling",
     "user_action": "States must collect and report basic voter information (name and home address) attached to a unique barcode on every mail-in ballot distributed, and state election authorities must input this information into a 'federal ballot mail portal' before the ballot is accepted into the mail stream; the USPS will not deliver ballots to any state not in compliance with these changes",
     "advisory_url": "https://abcnews.com/US/usps-makes-new-rules-mail-ballots/story?id=135879673"
-  }
+  },
+  "superseded_by": "federal-judge-blocks-trump-mail-ballot-regulation-ahead-of-november-midterms"
 }

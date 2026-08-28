@@ -1,0 +1,74 @@
+{
+  "id": "c056",
+  "slug": "judge-strikes-down-pentagon-s-supply-chain-designation-of-anthropic-as-first-amendment-retaliation",
+  "kind": "brief",
+  "title": "Judge strikes down Pentagon's supply-chain designation of Anthropic as First Amendment retaliation",
+  "dek": "U.S. District Judge Rita Lin struck down the Trump administration's February 2026 designation of AI firm Anthropic as a supply-chain risk, finding it was retaliation for the company's refusal to allow military use of its Claude model for surveillance and autonomous weapons.",
+  "date": "2026-08-28",
+  "published_utc": "2026-08-28T12:15:59Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 2,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Judge Lin wrote in her 59-page opinion that the government's contemporaneous statements and actions confirm the blacklisting \"were based on a desire to make a public example out of Anthropic for its 'arrogance' in criticizing the government, not based on any articulable basis to believe that Anthropic would actually sabotage its model.\"",
+  "bottom_line": "Judge Lin's ruling narrows the government's ability to invoke national security as justification for targeting corporate critics, but the decision faces likely appeal to the Supreme Court. The outcome will shape whether companies can condition military contracts on ethical guardrails for AI systems or whether national security trumps such restrictions.",
+  "human_take": "",
+  "body": [
+    "U.S. District Judge Rita Lin of San Francisco issued a 59-page ruling Thursday evening finding that the Trump administration's designation of AI firm Anthropic as a supply-chain risk violated the First Amendment and due process by punishing the company for its refusal to allow military use of its Claude model.\nIn February 2026, the Pentagon designated Anthropic as a supply-chain risk, a designation typically reserved for companies based in countries that pose a national security threat. According to the BBC, it marked the first time an American company had been publicly designated as such. The designation followed Anthropic's public refusal to allow the military to use Claude for surveillance or autonomous weapons systems. The Claude-maker stated its models were not reliable enough to be safely used in weapons systems, and opposed use for domestic surveillance as a violation of rights.\nJudge Lin wrote that \"the empty invocation of national security is not a blank check to punish and retaliate against government critics.\" She found the designation unlawful, stating that \"Anthropic does not meet the legal definition of a 'supply chain risk,'\" per CBS News. In the same ruling, Lin permanently barred the Trump administration from enforcing the designation and invalidated a February social media post by Defense Secretary Pete Hegseth stating that no military contractors are allowed to conduct \"any commercial activity with Anthropic.\" According to CBS News, the February post led to a broader boycott of the AI firm even among military contractors using Anthropic for non-military-related work.\nIn her opinion, Lin wrote: \"This appears to be classic First Amendment retaliation.\"\nThe government had argued that Anthropic's tough negotiating stance and push for AI restrictions raised concerns about potential \"future sabotage\" through a \"kill switch\" in its software. Judge Lin found this concern \"entirely unfounded,\" pointing to evidence offered by Anthropic that it does not have the ability to maintain backdoor access to its systems, per CBS News. Lin noted that the fears of sabotage are difficult to reconcile with the government's continued interest in collaborating with Anthropic on advanced AI models.\nAccording to the BBC, the Pentagon said at the time that private companies should not be able to constrain military action. The White House characterized Anthropic as \"a radical left, woke company\" attempting to control military activity and argued the military was beholden to the U.S. Constitution, \"not any woke AI company's terms of service,\" per the BBC.\nJudge Lin reversed several other federal agencies' efforts to cut off Anthropic following a Truth Social post by President Trump ordering the government to \"IMMEDIATELY CEASE all use of Anthropic's technology.\" Lin said those moves were not authorized by law and constituted \"a retaliatory act, taken without due process, meant to punish Anthropic for its protected speech,\" per CBS News. The judge wrote that \"the decision to publicly broadcast Anthropic's punishment via social media, even before the formal, administrative process of making the necessary findings to designate Anthropic a supply chain risk had begun, makes little sense except as an attempt to swiftly make a public example of Anthropic for daring to criticize the Administration.\"\nAnthropicCEO Dario Amodei told CBS News in February he has a \"patriotic\" desire to work with the military but maintained two absolute \"red lines\": using Claude to conduct mass surveillance of Americans, and using it to power autonomous weapons that can target people without human input. Amodei argued Claude is not accurate enough for autonomous weapons and that mass surveillance could clash with American values. The military countered that federal laws and internal policies already prevent domestic mass surveillance, per CBS News.\nAn Anthropic spokesperson said, according to CBS News: \"We welcome the court's ruling that this supply chain risk designation was unlawful. We remain focused on working productively with the government to harness AI for our national security so all Americans benefit from this technology.\""
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cm2q7z5mlrmo"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/judge-rules-trump-administration-illegally-punished-ai-firm-anthropic/"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/policy/technology/6056436-judge-rules-pentagon-anthropic-blacklist-illegal/"
+    },
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/technology/2026/aug/28/us-court-rules-pentagon-anthropic-ban-illegal-trump-claude-ai"
+    },
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cm2q7z5mlrmo?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "event_utc": "2026-08-28T03:03:39Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-28T12:15:59Z",
+    "sources_cited": 5,
+    "sources_live_checked": 3
+  },
+  "also_reported_by": [
+    {
+      "outlet": "Daily Journal",
+      "headline": "Judge signals Anthropic likely to prevail in First Amendment fight with Pentagon - Daily Journal"
+    },
+    {
+      "outlet": "Tech Times",
+      "headline": "Pentagon's Anthropic Case 'Gotten Worse,' Judge Signals; First Amendment Stakes for All AI Companies - Tech Times"
+    },
+    {
+      "outlet": "Washington Technology",
+      "headline": "Judge blocks DOD's ban on Anthropic, calls it First Amendment retaliation - Washington Technology"
+    },
+    {
+      "outlet": "CNBC",
+      "headline": "Anthropic wins preliminary injunction in DOD fight as judge cites 'First Amendment retaliation' - CNBC"
+    },
+    {
+      "outlet": "First Amendment Watch",
+      "headline": "Federal Judge Temporarily Blocks the Pentagon From Branding AI Firm Anthropic a Supply Chain Risk - First Amendment Watch"
+    },
+    {
+      "outlet": "Crypto Briefing",
+      "headline": "US judge rules Pentagon's blacklist of Anthropic unlawful, calls it First Amendment retaliation - Crypto Briefing"
+    }
+  ]
+}
