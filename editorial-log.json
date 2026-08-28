@@ -1,65 +1,6 @@
 [
  {
   "date": "2026-07-22",
-  "approved": 6,
-  "rejected": [
-   {
-    "id": "c095",
-    "headline": "U.S. and Saudi Arabia Expected to Announce Nuclear Cooperation Deal",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'U.S. companies to operate a domestic enrichment facility on Saudi soil' but the brief's data_point says 'run nuclear power for the Saudis on Saudi soil'\u2014these are different things (enrichment facility vs. power operation). The draft conflates uranium enrichment with nuclear power generation.",
-     "The draft references 'tens of billions of dollars over 30 years' as a single figure, but the brief separates these: one data_point says 'billions of dollars' (WSJ), another says '30 years' and 'tens of billions of dollars' (WSJ). The draft has merged attribution.",
-     "The draft states the deal 'would permit the kingdom to develop uranium enrichment capability within its borders' but the brief's core claim and data_points carefully use conditional language ('may be allowed', 'following a joint study'). The draft presents a conditional outcome as a direct permit."
-    ]
-   },
-   {
-    "id": "c149",
-    "headline": "Trump Threatens Strikes on Iranian Power Plants, Bridges if Ships Targeted",
-    "category": "balance",
-    "reasons": [
-     "The brief contains a bear_case array that is empty, yet the brief's open_questions identify fundamental missing context about legal basis, ally/adversary interpretation, and specific triggering circumstances. The draft's bottom_line correctly flags these gaps, but the body presents Trump's threat without any counter-voice, qualifier, or context about the absence of detail. A two-sentence story on a military escalation threat with no context on how this fits into prior statements or policy is underweight for the stakes; the draft reads as threat-laundering rather than reporting.",
-     "The phrase 'latest indication the president is planning to escalate the conflict' adopts interpretive voice (that this is part of a plan to escalate) rather than sticking to the fact of the statement itself. This is the Wall Street Journal's framing, not GoCheckMyNews's reporting."
-    ]
-   },
-   {
-    "id": "c254",
-    "headline": "Carney signals intensified US-Canada trade talks after Trump tariffs",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'Canadian Prime Minister Mark Carney' but the brief and reporting do not confirm Carney holds the office of Prime Minister. This is a significant factual error that goes beyond what the brief supports. The draft presents Carney in an official capacity without verification of his current title."
-    ]
-   },
-   {
-    "id": "c116",
-    "headline": "Fifth Death Confirmed in NYC Legionnaires Outbreak; 82 Cases Reported",
-    "category": "accuracy",
-    "reasons": [
-     "The sentence 'According to reporting, an official identified as Mamdani has stated that the source of exposure has been eliminated' presents Mamdani's belief as stated fact without attribution of confidence level. The brief marks this claim as 'reported' confidence, but the phrasing 'has stated' and 'has been eliminated' read as definitive rather than as an official's claim or belief. Should read: 'An official identified as Mamdani stated the source of exposure was eliminated, though this has not been independently verified' or similar language reflecting the confidence label."
-    ]
-   },
-   {
-    "id": "c117",
-    "headline": "Tornadoes and Record Flooding Strike Kentucky and West Virginia",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'Several people were injured' but the brief data_point only confirms 'Several people were injured' as 'reported' confidence. The draft then later states 'No specific casualty figures...are available' which contradicts the earlier confident statement about injuries. The contradiction signals the injury figure is not clearly sourced in the reporting available and should not appear as stated fact in the opening paragraphs."
-    ]
-   },
-   {
-    "id": "c182",
-    "headline": "Five House Democrats cross party lines on transgender sports amendment to defense bill",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states the amendment bans transgender students from competing on 'girls' sports teams at schools run by the Department of War.' The brief consistently refers to 'Department of War\u2013run schools' or 'Department of War' (DoW), but the draft introduces 'Department of War' without the standard abbreviation context and later uses 'Department of Defense Education Activity schools' in the Mace quote. This conflation is problematic: the brief's data_point 3 specifies 'schools run by the Department of War (DoW)' and data_point 8 refers to 'Department of War-run schools,' but the Mace quote in data_point 10 uses 'Department of Defense Education Activity schools'\u2014a different entity. The draft should either clarify this is the same institution or note the terminology difference from the source quote, as written it reads as though two different school systems are being discussed.",
-     "The draft states 'All four senior leaders in the House Democratic Caucus, including Minority Leader Hakeem Jeffries, voted no.' The brief's data_point 9 says 'All four senior leaders in the House Democratic Caucus, including Minority Leader Hakeem Jeffries, D-N.Y., voted against the amendment.' The draft omits the state designation (D-N.Y.) that appears in the brief, which is a minor omission but the brief includes it consistently for other named officials; however, this is stylistic rather than factual error. The more serious issue: the draft never explicitly names the other three senior leaders. Data_point 9 claims 'all four' but only Jeffries is named in the draft. The brief does not provide the names of the other three, so the draft cannot name them either\u2014but as written, it implies four senior leaders were identified when only one is named, which is misleading.",
-     "The draft includes a second quote from Mace: 'Men are not women. Men will never become women. Yet male athletes are stealing medals, invading locker rooms, and putting girls in the hospital, all in the name of gender ideology. Our NDAA amendment would end this nonsense.' The brief's data_point 10 attributes this exact quote to Mace and credits it 'according to Fox News' in the draft. However, the draft also states in the preceding paragraph: 'Mace said the amendment would \"ban biological males from competing against biological women in Department of Defense Education Activity schools,\" stating that \"our warfighters' daughters deserve better than this.\" In a prepared statement, according to Fox News, Mace said...' This structure correctly attributes the longer quote to a prepared statement via Fox News, but it creates an impression of multiple distinct Mace statements when the brief provides only two quotes from the same source. The attribution is technically present but the framing ('Mace said... stating that... In a prepared statement, according to Fox News, Mace said') is awkwardly layered and could be read as padding the Mace voice without additional fact-checking."
-    ]
-   }
-  ]
- },
- {
-  "date": "2026-07-22",
   "approved": 5,
   "rejected": [
    {
@@ -9927,6 +9868,64 @@
     "category": "accuracy",
     "reasons": [
      "The draft states 'Beyond confirmation of the incident, details on the cause of the fire, extent of damage, any injuries, or investigation findings are not available in current reporting.' This is a narration of absence that violates the rule against the desk describing what is missing from the record. The writer is forbidden from restating open_questions as prose. The brief's open_questions section documents that these details are not in the source; the draft may not editorialize that absence into the narrative itself. If the story cannot be built from what the brief contains, it should not run."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-08-28",
+  "approved": 7,
+  "rejected": [
+   {
+    "id": "c113",
+    "headline": "Florida grand jury documents alleged $10M diversion from Medicaid settlement to foundation linked to DeSantis's wife",
+    "category": "accuracy",
+    "reasons": [
+     "The brief explicitly flags 'thin: true' and 'source_chars: 214' indicating critically truncated source material. The brief states: 'The fetched Guardian source text is truncated/corrupted and does not contain the full article body.'",
+     "The draft presents a specific allegation of misappropriation of $10 million tied to DeSantis and his wife, characterized as a 'sophisticated scheme.' This is a reputationally damaging claim about a named public official. The brief notes only ONE source (The Guardian) and flags that even that source text is corrupted/truncated.",
+     "The desk's rule requires: 'A REPUTATIONALLY DAMAGING CLAIM ABOUT A NAMED PERSON NEEDS MORE THAN ONE SOURCE. A specific allegation of misconduct against a named individual carried on a single secondary source is category \"compliance.\"' This story violates that rule: it relies on a single source (The Guardian) that the research itself acknowledges is incomplete.",
+     "The brief's open_questions state: 'no DeSantis administration response, legal defense, or detailed explanation of the grand jury's findings is present in the available text.' Publishing without obtaining official response to a specific allegation of misappropriation is a liability exposure, not a reporting constraint."
+    ]
+   },
+   {
+    "id": "c115",
+    "headline": "U.S. Navy transfers funds from payroll to cover Iran conflict costs",
+    "category": "accuracy",
+    "reasons": [
+     "The brief's first data_point states 'Trump's war on Iran has driven the US military into a severe financial crisis,' framed as the Guardian's characterization. The draft removes the attribution to Trump specifically and presents the conflict as simply 'ongoing' without naming who initiated it, creating a factual gap between source and draft.",
+     "The brief flags a 'six-month conflict' in the core_claim, but the draft never specifies the duration or timeframe of the conflict. This omission leaves readers unable to assess the temporal scope of the crisis.",
+     "The bottom_line asks 'whether Congress will provide supplemental appropriations' but this question does not appear in the brief's open_questions or data_points, representing a new editorial speculation beyond the source material.",
+     "The draft states the Navy 'transfers' (present tense, ongoing) but does not establish from the source whether these are past transfers, ongoing transfers, or a pattern. The tense ambiguity obscures what the Guardian actually reported."
+    ]
+   },
+   {
+    "id": "c267",
+    "headline": "23 states sue to block Trump administration family planning grant restrictions",
+    "category": "accuracy",
+    "reasons": [
+     "The draft asserts 'strip federal funding from states and providers unless they align with the administration's stated political views and priorities' as a direct claim, but the brief's data_point says the states 'allege' this. The draft removes the allegation hedge and presents the states' characterization as settled fact.",
+     "The draft states the lawsuit 'represents a direct challenge to the administration's authority to reshape grant eligibility based on ideological criteria rather than service delivery metrics.' This framing\u2014that the changes ARE ideologically motivated rather than substantively justified\u2014is editorial judgment not carried as quoted speech from the states' pleading. It adopts the plaintiffs' vocabulary as the desk's own narration.",
+     "The bottom_line predicts the 'outcome will determine the scope of executive authority to attach political criteria to grant programs,' which frames the administration's position as having 'attached political criteria' as a premise. This is the plaintiffs' allegation, not established fact, and should not run in the desk's voice.",
+     "The brief's open_questions explicitly note that 'The sourced text does not provide the administration's response or defense of the grant program changes.' The draft provides zero counter-evidence or administration perspective, violating balance expectations even when bear_case is empty (the desk must present named parties' actual positions, not just plaintiffs' allegations)."
+    ]
+   },
+   {
+    "id": "c116",
+    "headline": "USPS Implements Trump Mail-Ballot Rules for Midterm Elections",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The new requirements are part of Trump administration efforts to restrict mail-in voting in the midterms' as a definitive assertion in the draft's own narration. The brief marks this claim as 'reported' (Guardian's framing), not verified fact. The desk's voice must not adopt the characterization 'restrict' as its own verdict; it should attribute this framing to the Guardian or present it as the administration's stated intent without endorsement.",
+     "The draft claims 'The administration has also sought to impose new rules requiring state election leaders to submit their voter rolls for inspection' without qualification. The brief marks this as 'reported' from a single source (Guardian). The desk should either attribute this to the Guardian explicitly or mark it as the administration's stated goal, not as established fact.",
+     "The draft contains no attribution structure for the contested characterization of these policies as 'restrictions.' This violates the CONTESTED TERMINOLOGY rule (owner ruling 2026-08-21): when a story touches politically charged framing ('restrict,' 'oversight,' etc.), the desk reports what named people SAID, in quotes, with attribution; the narration itself stays neutral."
+    ]
+   },
+   {
+    "id": "c182",
+    "headline": "Wheat Hits Three-Year High as Black Sea Tensions Tighten",
+    "category": "accuracy",
+    "reasons": [
+     "The draft asserts 'Escalating Russia-Ukraine tensions in the Black Sea strangle exports from one of the globe's most important grain-growing regions' as fact in the desk's voice. The brief confirms this is reported by WSJ, but it does not include attribution in the draft. More critically, 'strangle' is the WSJ's characterization, and per the CONTESTED TERMINOLOGY rule, when a politically charged verb or framing appears in a single source, it should be attributed to that source in the draft, not adopted as the desk's own narration.",
+     "The draft reads in the voice of causal certainty ('tensions...are strangling exports') without clear attribution that this causal claim comes from the WSJ reporting. The brief's open_questions include 'What are the exact price level wheat has reached' and 'Which specific transactions or disruptions in the Black Sea are causing the export strain?' \u2014 the latter signals the brief itself is uncertain about the causal mechanism. The draft presents causation as settled."
     ]
    }
   ]

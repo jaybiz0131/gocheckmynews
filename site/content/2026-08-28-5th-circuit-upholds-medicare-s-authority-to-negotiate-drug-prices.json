@@ -1,0 +1,33 @@
+{
+  "id": "c281",
+  "slug": "5th-circuit-upholds-medicare-s-authority-to-negotiate-drug-prices",
+  "kind": "brief",
+  "title": "5th Circuit upholds Medicare's authority to negotiate drug prices",
+  "dek": "The U.S. Court of Appeals for the 5th Circuit rejected a pharmaceutical industry lawsuit challenging Medicare's power to negotiate drug prices directly. The court found that drugmakers have no entitlement to sell their products to Medicare at a price of their choosing.",
+  "date": "2026-08-28",
+  "published_utc": "2026-08-28T01:26:48Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 7,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "A federal appeals court affirmed Medicare's legal authority to negotiate drug prices against a challenge from the pharmaceutical industry.",
+  "bottom_line": "The ruling settles a constitutional question about Medicare's scope and affirms the program's power to impose negotiated prices rather than accept manufacturer-set rates. Watch for any appeal to the Supreme Court, which would be the next venue for the pharmaceutical industry to contest the decision.",
+  "human_take": "",
+  "body": [
+    "The U.S. Court of Appeals for the 5th Circuit has rejected a lawsuit filed by pharmaceutical industry representatives challenging Medicare's authority to negotiate drug prices directly with manufacturers, according to reporting by The Hill.",
+    "The appellate court affirmed a prior ruling that upheld the federal program's negotiation power. In its decision, the court found that drugmakers are not entitled to sell their products to Medicare at a price they would prefer, establishing a legal precedent that narrows industry claims to pricing control in federal insurance negotiations."
+  ],
+  "sources": [
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/policy/healthcare/6055400-fifth-circuit-rejects-phrma-lawsuit/"
+    }
+  ],
+  "event_utc": "2026-08-27T18:52:33Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-28T01:26:48Z",
+    "sources_cited": 1,
+    "sources_live_checked": 0
+  }
+}
