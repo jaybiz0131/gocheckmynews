@@ -82,6 +82,22 @@ EXCLUDE = re.compile(
 #   - a bare verb is not a topic. "evacuat*" matched wildfires in France, a
 #     landfill collapse in Guinea, and a helicopter crash, none of which a storm
 #     readiness check serves. Storm words now have to be storm words.
+#
+# WILDFIRE IS DELIBERATELY ABSENT, and this is a content gap rather than a
+# trigger gap. Do not "fix" it by adding evacuat* or wildfire here.
+# Hurricane preparation and wildfire evacuation are opposite problems. Hurricane
+# readiness assumes days of warning: shelter in place, harden the house, stock
+# up. Wildfire evacuation is minutes to hours: go-bag, leave now. Storm's
+# flagship destination is a 14-question "is your home storm-ready" assessment,
+# and handing that to someone whose neighbourhood is evacuating is a trust break
+# at the moment trust matters most. Partial overlap in the supply calculator and
+# the FEMA risk data does not rescue it, because the module points at the
+# hurricane assessment.
+# US wildfire stories therefore earn no module today. The fix is a real wildfire
+# path on Storm (defensible space, go-bag, PSPS and generator, air quality,
+# insurance non-renewal), which is a Q4 content decision. When that exists, add
+# a "wildfire" category here pointing at it, not at the storm assessment.
+# (Owner ruling, 2026-08-28.)
 #   - a mention is not a subject. "recalled" is how baseball moves a player up
 #     from Triple-A, so a recall needs product or safety context to count.
 CATEGORY_PATTERNS = [
