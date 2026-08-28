@@ -1,0 +1,50 @@
+{
+  "id": "c008",
+  "slug": "kkr-to-pay-record-250m-penalty-for-hart-scott-rodino-violations",
+  "kind": "brief",
+  "title": "KKR to Pay Record $250M Penalty for Hart-Scott-Rodino Violations",
+  "dek": "The Justice Department announced a proposed $250 million settlement with KKR & Co. GP LLC for repeatedly violating federal premerger antitrust review requirements on at least 16 transactions between 2021 and 2022. The penalty is the largest civil fine ever assessed under the Hart-Scott-Rodino Antitrust Improvements Act.",
+  "date": "2026-08-28",
+  "published_utc": "2026-08-28T00:35:28Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 10,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "KKR faces a $250 million penalty for evading premerger antitrust review on at least 16 transactions, more than 20 times any prior HSR penalty.",
+  "bottom_line": "The settlement awaits court approval under the Tunney Act's comment period. Watch for whether KKR contests the proposed judgment, how the private equity and M&A sectors respond to enforcement this aggressive, and whether the DOJ pursues similar actions against other large firms with high-volume merger activity.",
+  "human_take": "",
+  "body": [
+    "KKR & Co. GP LLC, one of the world's largest investment firms with over $744 billion in assets under management, has agreed to pay a $250 million civil penalty to resolve allegations that it repeatedly violated federal premerger antitrust review requirements, according to the Justice Department. The announced penalty is the largest civil fine ever assessed under the Hart-Scott-Rodino Antitrust Improvements Act, more than 20 times any prior HSR penalty obtained by the DOJ.",
+    "The Hart-Scott-Rodino Act requires parties to transactions above a certain size to submit a premerger filing to the Department of Justice's Antitrust Division and the Federal Trade Commission before completing the deal. Per the Justice Department's complaint, KKR evaded that scrutiny on at least 16 separate transactions during 2021 and 2022, a period when the firm was required to make more than 100 premerger filings under the Act.",
+    "According to the Justice Department, KKR's violations took three forms. The firm altered documents in HSR filings for at least eight transactions, systematically omitted required documents in filings for at least 10 transactions, and failed to make any HSR filing at all for at least two transactions.",
+    "The HSR Act authorizes civil penalties for violations at more than $50,000 per day per violation. The proposed $250 million settlement still requires court approval under the Tunney Act process, which allows public comment on proposed final judgments in antitrust cases.",
+    "Associate Attorney General Stanley E. Woodward Jr. stated in the DOJ announcement that the penalty sends a message that \"the Department is committed to vigorous enforcement of the Act,\" adding that \"Companies that disregard their legal obligations will face serious consequences.\" The Justice Department did not provide a statement from KKR in the press release, and the open questions section of the source material notes that KKR's response or any statement from its counsel was not included in the announcement."
+  ],
+  "sources": [
+    {
+      "title": "U.S. Department of Justice",
+      "url": "https://www.justice.gov/opa/pr/kkr-agrees-pay-record-250m-penalty-serial-violations-federal-premerger-review-law"
+    }
+  ],
+  "event_utc": "2026-08-26T12:00:00Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-28T00:35:28Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "also_reported_by": [
+    {
+      "outlet": "Fieldfisher",
+      "headline": "Private Equity Under Scrutiny \u2013 Record KKR Penalty Highlights Growing Merger Control Filing Risks - Fieldfisher"
+    },
+    {
+      "outlet": "Forex Factory",
+      "headline": "KKR Agrees to Pay Record $250M Penalty for Serial Violations of Federal Premerger Review Law - Forex Factory"
+    },
+    {
+      "outlet": "Benzinga",
+      "headline": "KKR Hit With $250 Million Penalty Over Antitrust Violations (UPDATED) - Benzinga"
+    }
+  ]
+}

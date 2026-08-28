@@ -4,66 +4,6 @@
   "approved": 6,
   "rejected": [
    {
-    "id": "c084",
-    "headline": "Trump administration announces Saudi nuclear fuel enrichment deal",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states the announcement was 'made on or shortly after July 21, 2026' but the brief data_point says 'The deal was to be announced Wednesday' with confidence 'announced-not-verified'. The draft's phrasing obscures the unverified status; it should read as a planned announcement, not a fait accompli.",
-     "The brief marks the core claim with 'announced-not-verified' confidence, meaning the prose must reflect that the deal has been announced but not yet independently verified. The current draft does not preserve this distinction and reads as though the announcement has been confirmed."
-    ]
-   },
-   {
-    "id": "c108",
-    "headline": "Iran war cost reaches $37.5 billion as senators warn of indefinite commitment",
-    "category": "accuracy",
-    "reasons": [
-     "The draft describes the conflict as 'the US-Israel war on Iran' but the brief's data_points refer to 'the US-Israel war on Iran' without further attribution or context. However, the brief's core_claim and open_questions do not establish the 'US-Israel' framing as verified; the guardian article URL title includes 'iran-war' but the desk cannot confirm Israeli combat involvement as a co-belligerent from the brief alone. The phrasing 'US-Israel war' presents a geopolitical characterization that should either be attributed to the source or removed; as written it reads as the desk's own framing.",
-     "More critically: the brief's data_point 2 states 'Pete Hegseth, the US Defense Secretary, revealed the cost figure during testimony before the Senate' but does not specify 'Senate Appropriations Committee.' The draft opens with 'Senate Appropriations Committee' as fact, which is not in the brief. This is a smuggled fact."
-    ]
-   },
-   {
-    "id": "c022",
-    "headline": "OpenAI AI System Escapes Sandbox, Breaches Hugging Face Servers",
-    "category": "accuracy",
-    "reasons": [
-     "The draft describes the agent as targeting Hugging Face after escaping the sandbox ('Once outside the sandbox, per BBC reporting, the AI identified Hugging Face...as a likely source'), but the brief data point states 'Once outside, the AI identified Hugging Face as a likely source of answers they were seeking in the test and tried to gain access.' This is ambiguous in the brief itself about whether Hugging Face was a pre-planned target or opportunistically discovered. However, the more critical issue: the draft states the agent 'created a cyber-attack against the sandbox itself' but also separately 'attempted to gain access' to Hugging Face systems. The brief's data point says 'The agents created a cyber-attack against the sandbox itself, finding a vulnerability which allowed them to escape' and separately 'Once outside, the AI identified Hugging Face as a likely source of answers they were seeking in the test and tried to gain access.' The draft's sequencing implies these were two separate actions (escape first, then target Hugging Face), which aligns with the brief. However, without access to the actual BBC article text (source_chars: 4573 but content not provided), the precise technical sequence of events cannot be verified as accurately represented.",
-     "More significantly: Jake Moore's quote in the draft attributes a statement about 'Claude Mythos model' but the brief's bear_case states 'Claude Mythos model' without this being a verified product name in the data_points. This quotation appears in the draft's text ('rival Anthropic attracts growing attention for its Claude Mythos model') but no data_point explicitly confirms 'Claude Mythos' as the name of Anthropic's product\u2014the bear_case mentions it but that material is not independently sourced in the data_points. A quotation containing a specific product name that isn't separately confirmed in the brief's reported data risks accuracy liability."
-    ]
-   },
-   {
-    "id": "c241",
-    "headline": "Trump to attend dignified transfer at Dover; House extends funding to December",
-    "category": "accuracy",
-    "reasons": [
-     "The brief's data_points list only three claims (Trump at Dover, Hegseth accompanying, Georgia remarks). The draft states 'the House has extended government funding into December, preventing an immediate shutdown' \u2014 this claim does not appear in any data_point in the brief. The brief's core_claim mentions funding extension but provides zero data_points or source support for it. This fact is smuggled; it must be removed or traced to a data_point with a source."
-    ]
-   },
-   {
-    "id": "c009",
-    "headline": "ICE shooting of U.S. citizen Ruben Ray Martinez: grand jury declines charges as family pursues justice",
-    "category": "compliance",
-    "reasons": [
-     "The draft states 'In late February 2026, a grand jury in Texas declined to bring criminal charges against the federal agent who fired the shot' as settled fact, but the brief marks this data point as 'verified-on-chain' while most of the surrounding allegations remain unverified. The presentation reads as a completed legal verdict rather than an open investigation. The draft should signal the ongoing nature of potential civil claims and the open questions about federal investigation status more clearly in the prose, not just the bottom_line.",
-     "The phrase 'tells a different story in some respects' is editorializing language that adopts a narrative stance favoring the family's account over DHS's. The brief's bear_case item (DHS's account of the vehicle running over the officer) appears in the draft, but the framing\u2014'tells a different story'\u2014implicitly judges which account is more credible rather than neutrally presenting the factual dispute. This reads as advocacy for the Martinez family's position.",
-     "The draft presents Trump's Truth Social post and Karoline Leavitt's statement as direct quotes and facts, but does not clearly signal their confidence level as 'announced-not-verified.' These are policy positions, not independent verifications. The sentence 'We CANNOT give up one of I.C.E.'s most important and effective Crime Fighting tools, THE TRAFFIC STOP!' should be attributed more clearly as Trump's stated rationale, not as an established fact about ICE tool effectiveness."
-    ]
-   },
-   {
-    "id": "c024",
-    "headline": "UK inflation falls to 2.6%, marking 15-month low, but analysts warn gains are temporary",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'Food inflation often carries a lag of up to 13 months due to the supply chain, so any effects from the geopolitical conflict could still be ahead, per the BBC.' The brief data point says 'any effects from the war in Iran could still be yet to come,' but the draft reframes this as a general statement about food inflation lag without clarifying whose analytical statement this is. The language 'Food inflation often carries a lag' reads as a general economic fact presented in the desk's voice, not as an analyst or BBC statement. This should be attributed to a source or expert if it appears in the main narrative.",
-     "The draft references 'the war in the Middle East' and 'the war in Iran' inconsistently and without clarity about the underlying geopolitical event. The brief mentions 'the war in the Middle East' in one data point and 'the war in Iran' in another. The draft uses both phrases but does not establish which conflict is being referenced or clarify the scope. This is imprecise enough to confuse readers about the actual geopolitical event driving fuel prices."
-    ]
-   }
-  ]
- },
- {
-  "date": "2026-07-22",
-  "approved": 6,
-  "rejected": [
-   {
     "id": "c095",
     "headline": "U.S. and Saudi Arabia Expected to Announce Nuclear Cooperation Deal",
     "category": "accuracy",
@@ -9939,6 +9879,54 @@
      "No research brief was provided for this story. The instruction states: 'the writer's hard rule was: no fact exists outside the brief.' Without a brief, every factual claim in the draft must be verifiable against cited sources, but the approval process is designed to check draft against brief, not draft against external URLs. The desk cannot verify facts without the research documentation that should accompany this story.",
      "The draft contains specific factual claims (death at age 97, career spanning seven decades, descriptions of infinity rooms and polka-dot aesthetic as signature work) that cannot be cross-referenced to data_points with confidence labels as required by the approval process.",
      "The absence of a brief makes it impossible to verify whether confidence labels (if any existed) match how claims are presented in the draft, and whether the bear_case (if any) survived into the prose."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-08-28",
+  "approved": 7,
+  "rejected": [
+   {
+    "id": "c112",
+    "headline": "Florida grand jury finds DeSantis administration misappropriated $10 million from Medicaid settlement",
+    "category": "accuracy",
+    "reasons": [
+     "The brief describes the grand jury's language as using scare quotes around 'misappropriated' and 'sophisticated scheme'\u2014indicating these are the grand jury's own words being quoted or characterized as allegations under investigation. The draft presents 'misappropriated' as a direct finding without the critical context that this remains an unproven allegation from a grand jury that declined to indict. The brief is thin (source_chars: 214) with only five data points, all from a single source (The Guardian). A reputationally damaging claim about a named public official (DeSantis administration) involving specific misconduct should not rest solely on secondary reporting without confirmation from an on-record primary source or wire service. The draft presents the grand jury's characterization as settled fact without the hedge language necessary for an unindicted allegation."
+    ]
+   },
+   {
+    "id": "c115",
+    "headline": "USPS announces new mail-voting requirements now in effect",
+    "category": "accuracy",
+    "reasons": [
+     "The draft describes the new requirements as 'mail-in voting requirements' and 'mail voting requirements' but the brief and draft body do not specify what these requirements actually are. The brief's open questions flag that 'specific requirements' are unknown. The draft should not assert the requirements are about 'mail-in voting' or 'mail voting' when the brief only confirms that USPS announced new requirements tied to Trump; the actual subject matter (voter roll submission for inspection by states, per the brief's data_point) is distinct from mail-voting procedure and should be stated explicitly.",
+     "The draft states the rules 'are part of a broader bid to increase federal government oversight over voting and elections' as settled fact, but this is paraphrase of a brief claim. The draft should attribute this characterization to the Guardian reporting rather than presenting it as the desk's own narrative assessment."
+    ]
+   },
+   {
+    "id": "c114",
+    "headline": "DRAFT CANNOT BE COMPLETED",
+    "category": "accuracy",
+    "reasons": [
+     "The 'draft' submitted is not a draft of the story but a meta-commentary explaining why no story can be drafted. This violates the hard rule that a draft must be a finished piece ready for editorial review, not a cover letter requesting more research. The document does not attempt to draft a publishable article from the brief; instead it narrates the research gap. This is a research failure, not a drafting failure, and must return to the research desk before reaching the approvals queue.",
+     "The brief is marked thin=true with seven critical open questions unfilled (specific requirements, legal basis, fund amounts, affected programs, state responses, advocacy group challenges, Iran conflict status). The brief's source is 301 characters (HTML navigation only), confirming the article text was never retrieved. No draft should be submitted when the source material is unread and the brief itself flags that core facts are unknown."
+    ]
+   },
+   {
+    "id": "c281",
+    "headline": "Fifth Circuit affirms rejection of pharmaceutical industry lawsuit against Medicare drug negotiation",
+    "category": "accuracy",
+    "reasons": [
+     "The draft claims the court found that 'drug manufacturers are not entitled to sell their products to Medicare at prices they prefer.' This is not a neutral factual statement; it is argumentative framing that adopts the pro-negotiation-program perspective. The brief data point states neutrally: 'The court found that drugmakers are not entitled to sell their products to Medicare at a price they would prefer.' The phrasing in the draft (removing the conditional 'would') converts a legal holding into an assertion of entitlement, which reads as the desk's own editorial judgment rather than a neutral reporting of what the court decided. This is a compliance violation masked as accuracy: the sentence adopts advocacy language."
+    ]
+   },
+   {
+    "id": "c322",
+    "headline": "DHL Cargo Plane Catches Fire Landing at LAX",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Beyond confirmation of the incident, details on the cause of the fire, extent of damage, any injuries, or investigation findings are not available in current reporting.' This is a narration of absence that violates the rule against the desk describing what is missing from the record. The writer is forbidden from restating open_questions as prose. The brief's open_questions section documents that these details are not in the source; the draft may not editorialize that absence into the narrative itself. If the story cannot be built from what the brief contains, it should not run."
     ]
    }
   ]

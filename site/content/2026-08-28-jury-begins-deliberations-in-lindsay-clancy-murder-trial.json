@@ -1,0 +1,84 @@
+{
+  "id": "c051",
+  "slug": "jury-begins-deliberations-in-lindsay-clancy-murder-trial",
+  "kind": "brief",
+  "title": "Jury begins deliberations in Lindsay Clancy murder trial",
+  "dek": "A Massachusetts jury entered deliberations after five weeks of testimony in the case of Lindsay Clancy, a 36-year-old former nurse accused of strangling her three children in January 2023. The jury may consider first-degree murder, second-degree murder, involuntary manslaughter, or not guilty by reason of insanity. The defense argues Clancy suffered from postpartum psychosis; prosecutors contend she knew right from wrong.",
+  "date": "2026-08-28",
+  "published_utc": "2026-08-28T00:35:28Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 7,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "A jury of nine women and three men began deliberations on Thursday after closing arguments in which the prosecution and defense presented sharply opposing theories about Clancy's mental state at the time of the killings.",
+  "bottom_line": "The verdict hinges on whether the jury believes Clancy's mental illness prevented her from knowing right from wrong, or whether she retained that capacity despite severe postpartum psychosis. A guilty verdict on any murder count would result in a significant prison sentence; an insanity finding would result in psychiatric commitment. The outcome will clarify how Massachusetts courts apply the legal standard for insanity in cases involving postpartum mental health crises.",
+  "human_take": "",
+  "body": [
+    "A jury of nine women and three men entered deliberations on Thursday in the Massachusetts trial of Lindsay Clancy, a 36-year-old former nurse charged with three counts of first-degree murder in the deaths of her children on January 24, 2023. The jury must weigh prosecution and defense theories about whether Clancy intentionally killed her three children or was unable to appreciate the nature of her actions due to mental illness.",
+    "Clancy is accused of strangling her children, Cora (5), Dawson (3), and Callan (eight months old), using fitness bands at the family home in Duxbury, Massachusetts, according to BBC News reporting. After the killings, she jumped from a second-floor window and was paralyzed by the fall. She has attended trial in a wheelchair.",
+    "The defense argues Clancy was suffering from postpartum psychosis, a rare condition involving hallucinations and delusions. Clancy's attorney, Kevin Reddington, told the jury in closing arguments: \"This young lady is not guilty of the killing of her children because she was suffering from a disease and defect.\" Per BBC News, Reddington pointed to evidence that Clancy had checked herself into a psychiatric hospital just days before the deaths, had been put on over a dozen medications during treatment, and had contacted a suicide hotline and emergency room seeking help. Reddington also noted that Clancy's mother-in-law testified Clancy had been \"begging for help,\" describing weight loss, anxiety, sadness, and insomnia. Clancy's husband, Patrick, told jurors her \"big spiral\" began about a month before the deaths.",
+    "The prosecution concedes Clancy was mentally ill but argues she retained the ability to distinguish right from wrong. Prosecutor Jennifer Sprague told the jury that Clancy could \"tell the difference between right and wrong at the time of the killings,\" according to BBC News. Sprague argued that \"it's not the system or the DSM that caused her to strangle her kids\" and contended that Clancy had hidden thoughts of harming her children from medical professionals despite appearing to have \"an abundance of care.\" Prosecutors also alleged, per BBC News, that Clancy intentionally sent her husband out on errands to ensure he would not be home when the killings occurred.",
+    "The trial lasted five weeks and involved testimony from more than 10 expert witnesses for both sides. Prosecution psychiatrist Jennifer Tufts, who saw Clancy over a dozen times across five months, testified she observed no signs of psychosis and found \"no serious signs that her safety or anyone else's safety was at risk,\" according to BBC News. On cross-examination, Reddington pressed Tufts on medical notes describing Clancy's condition, prompting Tufts to respond, \"I don't care what it says. I know what I meant.\" Reddington also questioned prosecution expert Avram Mack on whether postpartum psychosis qualifies as a recognized diagnosis; BBC News reports the American Psychiatric Association views it only as a proposed illness, and Mack avoided calling it a recognized diagnosis.",
+    "Under Massachusetts law, a first-degree murder conviction carries a mandatory life sentence without parole. The jury was also instructed it could find Clancy guilty of second-degree murder (committed with malice or extreme recklessness but without prior planning) or involuntary manslaughter (causing death through extreme carelessness), per BBC News. If the jury finds Clancy not guilty by reason of insanity, she would not be released but sent to a psychiatric hospital, where she could potentially remain for life. The jury completed its first day of deliberations on Thursday and is set to return on Friday."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cg7mlmg475go?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c33keeyyv70o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/2026/aug/27/lindsay-clancy-closing-jury-deliberations"
+    },
+    {
+      "title": "NPR",
+      "url": "https://www.npr.org/2026/08/27/nx-s1-5945773/jury-begins-to-deliberate-after-closing-statements-in-lindsay-clancy-trial"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/video/day-1-deliberations-lindsay-clancy-murder-trial-ends-without-verdict/"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/live-updates/lindsay-clancy-trial-live-updates-closing-arguments/"
+    }
+  ],
+  "event_utc": "2026-08-27T17:00:15Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-28T00:35:28Z",
+    "sources_cited": 6,
+    "sources_live_checked": 3
+  },
+  "update_of": "jury-in-lindsay-clancy-trial-now-allowed-to-consider-manslaughter-charge",
+  "also_reported_by": [
+    {
+      "outlet": "ABC News",
+      "headline": "Lindsay Clancy trial: Jury deliberations will resume Friday - ABC News - Breaking News, Latest News and Videos"
+    },
+    {
+      "outlet": "Scripps News",
+      "headline": "Jury ends first day of deliberations without verdict in Lindsay Clancy trial - Scripps News"
+    },
+    {
+      "outlet": "PBS",
+      "headline": "WATCH: Jury deliberates in Lindsay Clancy trial after hearing closing arguments - PBS"
+    },
+    {
+      "outlet": "FOX 13 Seattle",
+      "headline": "Jury deciding verdict in Lindsay Clancy murder trial - FOX 13 Seattle"
+    },
+    {
+      "outlet": "Spectrum News",
+      "headline": "Jury begins deliberating in Lindsay Clancy murder trial - Spectrum News"
+    },
+    {
+      "outlet": "LAmag",
+      "headline": "Lindsay Clancy Trial Goes to Jury After Closing Arguments - LAmag"
+    }
+  ]
+}
