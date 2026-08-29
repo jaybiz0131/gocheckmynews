@@ -30,6 +30,10 @@ import sys
 from urllib.parse import quote
 
 RETIRED_ARTICLES = {
+    # owner ruling 2026-08-29: same deal, same morning; the 11:08Z telling is fuller
+    # (453w against 302w) and carries the joint-venture terms the thinner one omits
+    "trump-announces-u-s-control-of-65-billion-barrels-of-venezuelan-oil":
+        "trump-announces-u-s-majority-control-of-venezuela-s-65-billion-barrels-of-proven-oil-reserves",
     # owner report 2026-08-28: same death, same day, the fuller telling survives
     "king-harald-v-of-norway-dies-at-89-after-35-year-reign":
         "king-harald-v-of-norway-dies-at-89-after-35-year-reign-son-becomes-king-haakon-viii",
