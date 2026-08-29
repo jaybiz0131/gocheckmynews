@@ -1,75 +1,6 @@
 [
  {
   "date": "2026-07-23",
-  "approved": 5,
-  "rejected": [
-   {
-    "id": "c119",
-    "headline": "House passes second war powers resolution directing Trump to withdraw from Iran conflict",
-    "category": "accuracy",
-    "reasons": [
-     "The draft contains a meta-paragraph ('The brief does not specify the vote count, identify which Republicans defected...') that breaks the wall between research and prose. This is not reporting; it is editorial commentary about the brief's limitations and has no place in the finished article. The brief exists to inform reporting, not to be discussed in the story itself.",
-     "The phrase 'The measure is described as \"largely symbolic,\"' cites a characterization from the brief's bear_case, but the draft provides no outlet attribution. The brief shows this came from Guardian reporting, but the draft leaves it floating. Every characterization must be attributed inline to the source."
-    ]
-   },
-   {
-    "id": "c023",
-    "headline": "Oil prices breach $100 per barrel as Middle East conflict escalates",
-    "category": "compliance",
-    "reasons": [
-     "The sentence 'Yet he also committed to \"restoring price stability\" in the wake of Middle East conflict impacting prices, signaling focus on controlling inflation rather than prioritizing rate cuts despite President Trump's demands for reductions in borrowing costs' uses the phrase 'despite President Trump's demands' in a way that reads as editorial judgment about whose interests conflict. The draft should present what Warsh said and what Trump said separately, without the desk adopting a framing that positions them as opposed forces. This crosses from reporting into voice and analysis.",
-     "The bottom_line uses 'Watch for...' language which is directional/advisory in tone. The bottom_line should project forward on what would invalidate or confirm the claim, not direct reader attention like a forecasting tool. This reads prescriptively rather than analytically."
-    ]
-   },
-   {
-    "id": "c221",
-    "headline": "FDA investigates newly identified cyclospora outbreak cluster sickening at least 72 people",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'Cyclospora, a parasitic infection spread through contaminated food or water, typically causes diarrhea, loss of appetite, and abdominal cramping.' This factual claim about the disease's typical symptoms is not present in the brief's data_points. The brief does not include medical descriptions of cyclospora symptoms; the writer has smuggled in independent medical information not sourced to the research.",
-     "The draft states 'The presence of multiple simultaneous clusters suggests the foodborne illness is circulating through multiple supply chains or products.' This is analytical interpretation and inference, not a fact from the brief. The brief makes no such causal claim about what multiple clusters suggest about supply chains. This is the writer editorializing beyond sourced material."
-    ]
-   },
-   {
-    "id": "c117",
-    "headline": "House passes Iran war powers resolution; four Republicans vote yes",
-    "category": "balance",
-    "reasons": [
-     "The brief's bear_case is empty, but the draft presents the vote as 'four Republicans voting in favor' without acknowledging the substantial Republican opposition (208 votes against). The framing 'four Republican defections suggest some party-line fissures' reads as if this is meaningful fracture when the data shows unified Republican opposition (208-4). The draft should present the vote breakdown neutrally without adopting the Democratic framing of this as significant defection."
-    ]
-   },
-   {
-    "id": "c281",
-    "headline": "Appeals court temporarily blocks revocation of Haitian temporary protected status",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states the appeals court order delays enforcement 'at least through Monday' but the brief data_point only says 'at least another few days'\u2014the specific day (Monday) is not in the brief and represents new information smuggled into the draft.",
-     "The draft identifies the court as 'a federal appeals court' but the source URL slug 'dc-circuit' indicates it is the D.C. Circuit Court of Appeals specifically. This is factual information available in the source that should be named.",
-     "The draft claims 'The Hill reporting does not detail the grounds the appeals court cited for the temporary block or identify which court issued the order' but then cites reasoning not in the brief's data_points. The writer is editorializing about what the source lacks rather than sticking to what it contains."
-    ]
-   },
-   {
-    "id": "c013",
-    "headline": "Chinese woman wins Fields Medal for first time in award's 90-year history",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'Wang Hong conducted her graduate study in France before earning her mathematics PhD from MIT' but the brief data_point states 'Wang Hong graduated from Peking University, then continued post-graduate study in France before finishing her mathematics PhD at MIT.' The draft omits the Peking University undergraduate origin, which is a material omission of the sourced educational sequence.",
-     "The draft refers to 'American John Pardon' and 'Canadian Jacob Tsimerman' but the brief identifies them simply as '2026 Fields Medalists' without nationality confirmation in the data_points. The draft adds nationality attributions not present in the sourced brief."
-    ]
-   },
-   {
-    "id": "c180",
-    "headline": "Johnson endorses ban on lawmaker-staff dating amid Capitol misconduct cases",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'Reps. Tony Gonzales and Eric Swalwell are expected to face expulsion votes' but the data_point in the brief specifies 'Reps. Tony Gonzales, R-Texas, and Eric Swalwell, D-Calif., are expected to face expulsion votes this week over sexual misconduct allegations if they do not resign.' The draft removes the temporal qualifier 'this week,' which is a material fact about timing sourced in the brief.",
-     "The draft characterizes Gallego's relationships as 'allegedly engaged in consensual sexual relationships' but then states he 'stated that he would not engage in gossip regarding the allegations but did not deny them.' This creates ambiguity about whether the relationships are confirmed consensual or unconfirmed allegations. The brief's data_point reads 'The New York Post reported that Gallego had allegedly engaged in consensual sexual relationships,' preserving the 'allegedly' qualifier around the entire claim including the consensual nature. The draft's framing risk reading as though the fact of the relationships is settled and only the characterization is being reported."
-    ]
-   }
-  ]
- },
- {
-  "date": "2026-07-23",
   "approved": 6,
   "rejected": [
    {
@@ -9917,6 +9848,44 @@
      "The sources listed (NPR, ABC News, CBS News URLs) cannot be verified as containing the specific claims made in the draft without access to those sources.",
      "The story makes specific factual claims: that Clancy is 'accused of killing her three small children,' that 'Prosecution and defense closing statements have been completed,' that 'Clancy's attorney described her as \"scared and sad.\"' Without a brief to anchor these facts or ability to verify the source URLs, these claims cannot be confirmed to originate from the cited outlets.",
      "The approval process requires that facts either come from a brief (which this story lacks) or be independently verifiable from sources provided. A story with no brief and unverifiable source citations violates the hard rule that 'no fact exists outside the brief.'"
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-08-29",
+  "approved": 9,
+  "rejected": [
+   {
+    "id": "c248",
+    "headline": "Trump DOJ appeals judge's block on USPS mail-ballot regulations",
+    "category": "accuracy",
+    "reasons": [
+     "The brief is marked 'thin': true with only 3 data_points and minimal source material (368 characters). The draft is extremely short (3 paragraphs) and does not provide the foundational details needed for a reader to understand the story. Critically, the draft does not answer: What specific USPS mail-in ballot regulations were blocked? What was the judge's stated reason for the block? What legal authority does the DOJ cite in the appeal? The brief's open_questions flag these exact gaps, indicating the sources available did not provide these details.",
+     "The draft's bottom_line references 'the judge's stated reason for blocking them' and 'the legal grounds for the USPS rules,' presenting these as knowable watch-points, but the brief itself does not contain what those grounds were. The bottom_line is asking readers to watch for information the brief confirms was not in the sourced reporting. This violates the rule that the desk never narrates absence\u2014a sentence that restates open_questions as though they are answerable watch-points is category 'accuracy' when the brief confirms they were not answered.",
+     "The draft cites The Hill but provides no specifics on what The Hill reported about the USPS regulations, the judge's reasoning, or the legal theory. A reader cannot assess the story's accuracy because the draft does not state any of the core factual claims beyond the bare procedural fact that an appeal was filed."
+    ]
+   },
+   {
+    "id": "c047",
+    "headline": "Crown Prince Haakon Becomes King After Harald V Dies at 89",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief exists for this story. Per instructions, every fact must trace to the draft's own cited sources.",
+     "The draft cites PBS NewsHour and BBC World as sources but provides no URLs or quoted material that would allow verification of the specific claims: Crown Prince Haakon becoming King Haakon VIII, Harald V's age at death (89), reign length (35 years), or the motto attribution to his great-grandfather.",
+     "The sources field lists three URLs but the draft body contains no inline attribution to specific reporting or quotes that would document these facts. The claim about the motto dating to his great-grandfather is not quoted or attributed inline to either source.",
+     "Without a brief to establish what the sources support, and without the draft providing quotations or detailed attribution that would allow desk verification against the URLs listed, the factual content cannot be verified as written."
+    ]
+   },
+   {
+    "id": "c082",
+    "headline": "Judge Rules Pentagon's Measures Against Anthropic Violated First Amendment",
+    "category": "accuracy",
+    "reasons": [
+     "The brief is marked 'thin: true' and the open_questions field explicitly states: 'The PBS source text provided is truncated and does not contain the full article text; critical details about the judge's reasoning, the specific measures taken against Anthropic, the nature of Anthropic's criticism, and the legal basis for the ruling are unavailable from the fetched source.'",
+     "The draft makes a definitive claim that 'A federal judge issued a written order on Thursday night finding that the Pentagon acted illegally by punishing AI company Anthropic for its criticism,' but the brief's data_point for this claim is labeled 'reported' (not 'verified-on-chain') and the source itself is truncated.",
+     "The brief's open_questions include: 'What specific Pentagon measures against Anthropic are referenced in the ruling?' and 'What was the legal basis for the judge's First Amendment finding?' These critical gaps mean the core legal claim (illegal punishment for speech, First Amendment violation) cannot be verified from the available source material.",
+     "The draft presents as settled fact what the brief identifies as incompletely sourced reporting. A truncated source that does not contain the full reasoning or details of a court ruling on a First Amendment matter is not sufficient to publish a story asserting a definitive legal judgment."
     ]
    }
   ]

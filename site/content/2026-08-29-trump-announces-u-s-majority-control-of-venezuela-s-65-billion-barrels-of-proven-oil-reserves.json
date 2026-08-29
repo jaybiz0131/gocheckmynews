@@ -1,0 +1,53 @@
+{
+  "id": "c014",
+  "slug": "trump-announces-u-s-majority-control-of-venezuela-s-65-billion-barrels-of-proven-oil-reserves",
+  "kind": "brief",
+  "title": "Trump announces U.S. majority control of Venezuela's 65 billion barrels of proven oil reserves",
+  "dek": "President Trump announced Friday that the U.S. has entered an agreement granting majority control of more than 65 billion barrels of Venezuela's proven oil reserves through a partnership with private business. Secretary of State Marco Rubio said the deal will bring nearly $100 billion in private investment and lower U.S. gas prices. The official agreement text has not been released, and its legal and constitutional standing in Venezuela remains unclear.",
+  "date": "2026-08-29",
+  "published_utc": "2026-08-29T11:08:41Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 2,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "President Trump announced Friday that the U.S. had entered into an agreement with Venezuela to take majority control of the country's 65 billion barrels of proven oil reserves at no cost to American taxpayers.",
+  "bottom_line": "The deal's enforceability and legal standing depend on Venezuela's own constitutional framework and the full terms of the accord, which have not been made public. Watch for the release of the official agreement text, clarity on the private operator identity, and any Venezuelan legal challenges to the arrangement.",
+  "human_take": "",
+  "body": [
+    "President Trump announced Friday that the U.S. had entered into an agreement with Venezuela to take majority control of more than 65 billion barrels of the country's proven oil reserves. Trump wrote on Truth Social that the deal was reached \"at no cost to the American Taxpayer\" through a partnership involving Secretary of State Marco Rubio, Secretary of Defense Pete Hegseth, Venezuela's interim President Delcy Rodriguez, and private business.\nTrump stated that the transaction \"more than doubles American Oil Reserves\" and said it would \"substantially lower Gas Prices for all Americans.\" According to the U.S. Energy Information Administration cited by NBC News, Venezuela holds an estimated 303 billion barrels of crude oil in the ground, representing approximately 17 percent of the world's supply. Unlike other regions where geologists must search for untapped reserves, Venezuela's reserves are largely mapped and known, though dilapidated infrastructure has limited the country's production to about 1 percent of global oil output.\nRubio stated on X that the agreement demonstrates \"how President Trump's bold foreign policy is driving America First wins: securing stable reserves and low-cost oil in our Hemisphere and lowering gas prices here at home.\" He added that the deal will bring nearly $100 billion in private investment to Venezuela, support thousands of high-paying jobs, and drive economic reconstruction. Venezuela's interim President Rodriguez hailed the agreement as supporting the nation's economic revival and, according to the BBC, stated the deal calls for development of 17 strategic oil fields with investment of more than $100 billion and more than $209 billion in taxes for the Venezuelan state.\nA U.S. official told CBS News, per BBC reporting, that the U.S. government will retain 55 percent control of a joint venture with an \"experienced private operator in Venezuela.\" Rodriguez granted the venture a 100-year concession to operate in the oil fields, the official added. Trump had previously asked U.S. oil firms to invest at least $100 billion to restore Venezuela's oil industry.\nIn the hours after that raid, Trump said his administration would run Venezuela until a \"safe, proper and judicious transition\" could take place and that the U.S. would indefinitely control the sale of the country's oil. Trump has claimed rights to Venezuela's oil, citing prior Venezuelan seizures of American assets and platforms.\nHowever, critical details remain absent. The official text of the agreement between Washington and Caracas has not been released. The BBC reported that \"it is unclear whether the Venezuela agreement could face legal and constitutional challenges in the South American nation,\" noting that such an arrangement for direct U.S. government control over a foreign country's sovereign national resources would be wider in scope than U.S. control over Iraq's oil revenues after Saddam Hussein's ouster in 2003."
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/world/venezuela/us-entered-deal-venezuela-take-control-65-billion-barrels-oil-reserves-rcna594966"
+    },
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cx2zlwe7qj1o"
+    },
+    {
+      "title": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/politics/trump-says-u-s-has-entered-deal-with-venezuela-to-control-65-billion-barrels-of-its-oil-reserves"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/homenews/administration/6058643-trump-says-he-secured-majority-u-s-control-of-large-slice-of-venezuelas-oil-reserve/"
+    },
+    {
+      "title": "The Wall Street Journal",
+      "url": "https://www.wsj.com/business/energy-oil/trump-administration-in-advanced-talks-for-stake-in-venezuelan-oil-fields-819546d3?mod=rss_worldnews"
+    },
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/2026/aug/28/trump-venezuela-oil-agreement"
+    }
+  ],
+  "event_utc": "2026-08-28T23:34:36Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-29T11:08:41Z",
+    "sources_cited": 6,
+    "sources_live_checked": 3
+  },
+  "update_of": "trump-announces-u-s-control-of-65-billion-barrels-of-venezuelan-oil"
+}

@@ -1,0 +1,70 @@
+{
+  "id": "c040",
+  "slug": "white-house-teleprompter-operator-fined-for-insider-betting-on-trump-speeches",
+  "kind": "brief",
+  "title": "White House Teleprompter Operator Fined for Insider Betting on Trump Speeches",
+  "dek": "Gabriel Perez, a White House technical assistant and teleprompter operator since 2016, was ordered to pay $172,000 (profits plus penalty) for using non-public information about Trump's speeches to place bets on prediction markets. The Commodity Futures Trading Commission called it insider trading. Perez was also banned from trading on prediction markets for three years.",
+  "date": "2026-08-29",
+  "published_utc": "2026-08-29T11:08:41Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 9,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Perez made approximately $107,500 in profit on bets placed between December 2025 and February 2026 on what words and phrases would appear in Trump's speeches, using advance access to those speeches in his job.",
+  "bottom_line": "The fine marks a rare enforcement action on prediction market insider trading involving a federal staffer, but leaves open whether other White House personnel engaged in similar betting and whether the practice is more widespread. Watch for whether the White House implements additional controls on staff access to non-public information or tightens ethics guidance around prediction markets.",
+  "human_take": "",
+  "body": [
+    "Gabriel Perez, a White House technical assistant and teleprompter operator since 2016, was ordered to pay $172,000 for using non-public information about Trump's speeches to place bets on prediction markets, the Commodity Futures Trading Commission announced. The CFTC called it a case of insider trading and banned Perez from trading on prediction markets for three years.\nPerez made approximately $107,500 in profit on bets placed between December 2025 and February 2026 on what words and phrases would appear in Trump's speeches, per CBS News reporting. The order requires him to surrender $107,539.02 in profits and pay a $65,000 civil penalty. The CFTC cited Perez's \"exemplary cooperation\" in reducing the penalty from what it could have been.\nPerez placed the bets through Kalshi, a prediction markets platform, trading what the CFTC called \"presidential mention market contracts, which are event contracts reflecting words or phrases the President may use during his speeches.\" In his position, Perez had access to presidential speeches prior to delivery and \"misappropriated that information in breach of his duty of trust and confidence,\" according to the CFTC, as reported by CBS News.\nKalshi's surveillance systems detected unusual trading activity in March. A Kalshi spokesperson said the company investigated after its systems detected trades that did not adhere to typical buying and selling patterns.  Kalshi froze Perez's account, locking more than $90,000 in profits on the platform.\nIn July, White House press secretary Karoline Leavitt called the trades a breach of ethics and \"deeply unfortunate and frankly a disgrace.\"  In March, the White House Management Office had sent a letter to White House aides telling them not to place bets on prediction markets with nonpublic information.\nPublic records on LegiStorm show Perez worked for the Trump administration during the president's first and second terms, holding roles as a technical adviser and teleprompter operator. In January 2025, he started as a technical adviser for the White House Office. Kalshi's lead lawyer Bobby DeNault said in a post on X: \"It doesn't matter who you are: violate our rules or federal law and you will face the consequences.\""
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/politics/white-house/trump-teleprompter-operator-ordered-pay-172k-prediction-bets-kalshi-rcna594976"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/ex-white-house-teleprompter-operator-fined-insider-bets-kalshi-gabriel-perez/"
+    },
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c4gj2dl4x52o"
+    },
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c4gj2dl4x52o?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "event_utc": "2026-08-29T01:59:09Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-29T11:08:41Z",
+    "sources_cited": 4,
+    "sources_live_checked": 3
+  },
+  "also_reported_by": [
+    {
+      "outlet": "Newsradio WTAM 1100",
+      "headline": "Trump Teleprompter Operator Fined $172k For Kalshi Bets - Newsradio WTAM 1100"
+    },
+    {
+      "outlet": "Mshale",
+      "headline": "White House Teleprompter Operator Accused Of Betting On Trump Speeches Pokemon Deluxe Character Guide (uIBLVyXtqZ) - Mshale"
+    },
+    {
+      "outlet": "The New York Times",
+      "headline": "White House Teleprompter Operator Bet on Trump Speeches, Kalshi Says - The New York Times"
+    },
+    {
+      "outlet": "Deadline",
+      "headline": "White House Teleprompter Operator Suspended After Banking Around $100K From Bets On Trump Speeches - Deadline"
+    },
+    {
+      "outlet": "WSJ",
+      "headline": "White House Teleprompter Operator Probed Over Alleged Bets on Trump Speeches - WSJ"
+    },
+    {
+      "outlet": "Beijing Times",
+      "headline": "CFTC Fines Ex-White House Teleprompter Operator $65,000 for Trading on Trump Speeches - Beijing Times"
+    }
+  ]
+}
