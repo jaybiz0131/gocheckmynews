@@ -227,7 +227,11 @@ NAV = [("Home", "/index.html"), ("The Edition", "/news.html"),
        ("Public Safety", "/sections/public-safety.html"),
        ("Disasters", "/sections/disasters.html")] + \
       ([("Sources", "/sources.html")] if SOURCES_PAGE else []) + \
-      [("About", "/about.html")]
+      [("Archive", "/archive.html"), ("About", "/about.html")]
+# /archive was ORPHANED (owner audit 2026-08-29): the page is built and full of content,
+# it is the desk's own link to every story it has ever published, and nothing on the site
+# linked to it. Both sibling desks link theirs. A crawler that cannot reach a page from
+# the navigation treats it as unimportant, and a reader cannot reach it at all.
 
 
 # ---- helpers -----------------------------------------------------------------
@@ -440,19 +444,46 @@ TAG_RULES = [
     ("technology", r"\b(artificial intelligence|\bai\b|cyberattack\w*|data breach|"
                    r"ransomware|hacker\w*|hacked|software|semiconductor\w*|chipmaker\w*|"
                    r"social media|encryption)\b"),
+    # OBITUARIES ARE NOT HEALTH STORIES (owner audit 2026-08-29). With no rule of
+    # their own, "hospitalized" and "died after a long illness" matched the health
+    # vocabulary, so King Harald and Yayoi Kusama filed under health and Tim Curry
+    # and Ratko Mladic under nothing at all. Placed BEFORE health so a tie breaks
+    # toward the death rather than the hospital it happened in.
+    ("obituaries", r"\b(dies|died|dead)\b[^.]{0,20}\bat \d+|\bobituar\w+|\bpassed away\b|\bposthumous\w*"),
     ("health", r"\b(outbreak\w*|virus\w*|vaccine\w*|cdc|fda|hospital\w*|patients|"
                r"disease\w*|epidemic|measles|flu season)\b"),
 ]
 _TAG_RES = [(tag, re.compile(pat, re.I)) for tag, pat in TAG_RULES]
 
 
+# What a story is ABOUT lives in its headline; the body merely mentions things (owner
+# audit 2026-08-29). Scoring one flat bag of title-plus-body let incidental mentions
+# outvote the subject, and the tags went visibly wrong: obituaries of King Harald and
+# Tim Curry filed under "technology", Mladic and Kusama under "health", a WNBA injury
+# under "soccer", an NHL trade request under "nfl". A body hit still counts, it just
+# cannot outrank the headline: title, dek and key_fact carry the weight, and a tag that
+# appears ONLY in the body has to clear a real threshold before it labels the story.
+_HEAD_WEIGHT = 6
+_BODY_MIN = 2
+
+
 def tags_for(item):
     body = item.get("body") or []
-    text = " ".join([item.get("title") or "", item.get("dek") or "",
-                     item.get("key_fact") or ""] +
-                    [p if isinstance(p, str) else "" for p in body])
-    scored = [(len(rx.findall(text)), i, tag)
-              for i, (tag, rx) in enumerate(_TAG_RES) if rx.search(text)]
+    head = " ".join([item.get("title") or "", item.get("dek") or "",
+                     item.get("key_fact") or ""])
+    body_text = " ".join(p if isinstance(p, str) else "" for p in body)
+    scored = []
+    for i, (tag, rx) in enumerate(_TAG_RES):
+        h = len(rx.findall(head))
+        b = len(rx.findall(body_text))
+        if not h and b < _BODY_MIN:
+            continue          # a single passing mention is not what the story is about
+        # A HEADLINE HIT ALWAYS OUTRANKS BODY VOLUME. Capping the body's contribution
+        # below one headline hit is the whole point: an obituary whose body mentions the
+        # hospital nine times is still an obituary, and before this cap it filed as health.
+        score = h * _HEAD_WEIGHT + min(b, _HEAD_WEIGHT - 1)
+        if score:
+            scored.append((score, i, tag))
     scored.sort(key=lambda t: (-t[0], t[1]))
     return [t[2] for t in scored[:3]]
 
@@ -2446,6 +2477,18 @@ def build():
     sources_alias = ("" if SOURCES_PAGE else
                      "/sources.html  /standards.html  302\n"
                      "/sources  /standards.html  302\n")
+    # A REDIRECT TO A 404 IS WORSE THAN NO REDIRECT (owner audit 2026-08-29, ported from
+    # the crypto desk where it shipped: a survivor slug transcribed from a truncated
+    # console listing left a 301 pointing at nothing for a day). Every survivor must
+    # actually render, and this fails the build loudly if one does not.
+    _rendered = {i.get("slug") for i in items if i.get("slug")}
+    _dangling = sorted(v for v in set(RETIRED_ARTICLES.values()) if v not in _rendered)
+    if _dangling:
+        for v in _dangling:
+            print(f"::error::RETIRED_ARTICLES points at a survivor that does not exist: "
+                  f"{v} (the retired URLs mapped to it would 301 into a 404)")
+        raise SystemExit(f"site: {len(_dangling)} dangling redirect target(s); fix "
+                         f"RETIRED_ARTICLES before shipping")
     redirects = "".join(f"/articles/{old}.html  /articles/{new}.html  301\n"
                         f"/articles/{old}  /articles/{new}  301\n"
                         for old, new in sorted(RETIRED_ARTICLES.items()))
