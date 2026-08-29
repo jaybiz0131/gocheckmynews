@@ -1,0 +1,48 @@
+{
+  "id": "c143",
+  "slug": "trump-signs-order-to-establish-u-s-space-academy",
+  "kind": "brief",
+  "title": "Trump signs order to establish U.S. Space Academy",
+  "dek": "President Trump signed an executive order on August 28, 2026, to create a new U.S. Space Academy to train personnel for the Space Force, NASA, and the civilian space industry. A White House commission led by NASA Administrator Jared Isaacman has 120 days to propose the academy's leadership structure, curriculum, and organizational details. Trump said he will choose a location \"very shortly.\"",
+  "date": "2026-08-29",
+  "published_utc": "2026-08-29T00:05:24Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 9,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Trump signed an executive order creating the U.S. Space Academy at NASA's Johnson Space Center in Houston, with a White House commission chaired by NASA Administrator Jared Isaacman tasked to deliver detailed proposals within 120 days.",
+  "bottom_line": "The academy's detailed architecture remains undefined pending the 120-day commission timeline, and its location is still undecided. Watch for the commission's proposal and whether the academy integrates existing military training or operates as a new standalone institution, which will determine how quickly personnel training can scale to support expanded space operations.",
+  "human_take": "",
+  "body": [
+    "President Trump signed an executive order on Friday, August 28, 2026, to create the U.S. Space Academy, a new military academy to train personnel for the U.S. Space Force, NASA, and the civilian space industry. Trump announced the decision at NASA's Johnson Space Center in Houston.\nThe executive order creates a White House commission chaired by NASA Administrator Jared Isaacman with a 120-day deadline to submit to Trump a proposal for the academy's leadership structure, curriculum, and organizational details. Trump said he would choose a location for the academy \"very shortly.\" Senator Ted Cruz of Texas is lobbying for the academy to be located in his state, according to CBS News.\nTrump framed the academy as a response to rapid growth in the Space Force and commercial space industry, plus expanded ambitions for lunar and deep-space missions. He stated: \"It's clear that we need to educate and train an entire generation of skilled service members, engineers, civil operators and everything else to do what we have to do.\" Trump compared the planned Space Academy to West Point, Annapolis, Air Force Academy, and Coast Guard academies.\nAt the same event, Trump awarded the Congressional Space Medal of Honor to the Artemis II crew, Reid Wiseman, Christina Koch, Victor Glover, and Jeremy Hansen, who flew around the moon earlier in 2026. The Artemis II mission helped set the stage for a lunar landing in 2028.\nJeremy Hansen is the second foreign national to receive the medal, after Israeli astronaut Ilan Ramon, who was a member of Columbia's final crew. Trump is the sixth sitting president to call astronauts in space; he became the first to place the call from NASA's Mission Control Center. The Artemis II crew presented Trump with his own NASA flight jacket during the event.\nAstronaut Jack Hathaway, a U.S. Navy officer who graduated from the Naval Academy, expressed support for the new Space Academy. Astronaut Jessica Meir, the current space station mission commander, said the crew \"will continue doing our best to inspire all of the bright minds and the next generation as well.\" CBS News reports that it is unclear what kind of access the civilian spaceflight industry will have to the federal academy."
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/politics/trump-administration/trump-space-academy-nasa-military-rcna594870"
+    },
+    {
+      "title": "The Washington Post",
+      "url": "https://www.washingtonpost.com/politics/2026/08/28/trump-announces-creation-us-space-academy/"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/homenews/administration/6057898-donald-trump-establishes-us-space-academy/"
+    },
+    {
+      "title": "Washington Examiner",
+      "url": "https://www.washingtonexaminer.com/news/white-house/4704575/trump-executive-order-creates-us-space-academy/"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/trump-signs-executive-order-to-create-a-us-space-academy/"
+    }
+  ],
+  "event_utc": "2026-08-28T17:17:28Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-29T00:05:24Z",
+    "sources_cited": 5,
+    "sources_live_checked": 3
+  }
+}

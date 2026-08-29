@@ -1,0 +1,80 @@
+{
+  "id": "wrap-md-2026-08-29",
+  "slug": "afternoon-brief-2026-08-29",
+  "kind": "brief",
+  "title": "The Afternoon Brief: Fed chair tests markets, courts block two Trump orders, Norway crowns new king",
+  "dek": "Fed Chair Warsh addressed Jackson Hole as inflation sits above target and bond markets roil. Federal judges blocked Trump's mail-ballot rule and struck down the Pentagon's blacklisting of AI firm Anthropic. King Harald V of Norway died, succeeded by his son.",
+  "date": "2026-08-29",
+  "published_utc": "2026-08-29T00:23:31Z",
+  "category": "daily edition",
+  "rank": -2,
+  "author": "GoCheckMyNews",
+  "key_fact": "Three separate domains, monetary policy, election administration, and national security speech controls, saw friction between executive action and judicial review, while economic data and geopolitical events reshaped the landscape from Moscow to Nepal to Oslo.",
+  "bottom_line": "Federal courts blocked two Trump administration regulatory actions on First Amendment and constitutional grounds, while the Fed chair tested market confidence at Jackson Hole amid elevated inflation and bond turbulence. A glacier collapse in Nepal killed hundreds; Norway crowned a new king after 35 years. The common thread was authority tested: whether courts could restrain executive action, whether the Fed could restore credibility without forward guidance, and whether disaster response mechanisms would hold across borders. Watch for appeals of the Anthropic and mail-ballot rulings to the Supreme Court, for Warsh's bond market response in real time, for casualty updates and the Nepal barrier lake threat, and for the Fed's September rate decision.",
+  "human_take": "",
+  "body": [
+    "The day's dominant thread was tension between government authority and restraint: the Fed chair's credibility test, two federal court decisions that blocked Trump administration actions, and a glacier collapse that killed hundreds. The orders blocked by courts and the Fed's communications challenge share a common feature: actors facing skepticism about whether their stated reasoning matches their real intent.",
+    "Fed Chair Kevin Warsh addressed the Jackson Hole economic conference on August 28 with inflation at 3.4 percent, well above the Federal Reserve's 2 percent target. His speech came as bond yields surged to decade-high levels, with market analysts citing his July news conference as a major driver of the turbulence. Evercore analysts told NBC News that \"Warsh has ground to make up after his July press conference failed to articulate a coherent strategy for ensuring inflation returns to target and hit his credibility.\" The Fed is widely expected to hold interest rates steady at its September meeting, but Cleveland Federal Reserve President Beth Hammack voted to raise rates in July, stating per NBC News: \"I believe it's time to act. I think we've seen inflation above target for too long.\" Warsh has resisted providing forward guidance on future policy moves; UBS economists told NBC News they do not expect forward guidance in his Jackson Hole speech. The Treasury announced plans to buy back at least $4 billion of long-dated government debt in an effort to stabilize markets.",
+    "Two federal judges on Thursday blocked Trump administration regulatory actions, each on grounds that the stated purpose masked political retaliation. U.S. District Judge Rita Lin of San Francisco issued a 59-page opinion finding that the Pentagon's February 2026 designation of AI firm Anthropic as a supply-chain risk violated the First Amendment. Anthropic had publicly refused to allow military use of its Claude model for surveillance or autonomous weapons. Judge Lin wrote that \"the empty invocation of national security is not a blank check to punish and retaliate against government critics\" and found the designation unlawful, permanently barring its enforcement. She noted that the government's fears of future sabotage through a software \"kill switch\" were \"entirely unfounded\" and that the decision to broadcast Anthropic's punishment via social media before formal administrative process began \"makes little sense except as an attempt to swiftly make a public example of Anthropic.\" In a separate case, U.S. District Judge Indira Talwani issued a 14-day temporary restraining order blocking enforcement of a U.S. Postal Service regulation implementing Trump's March 2026 executive order on mail-in ballots. The regulation would have required states to submit recipient information through a federal portal and meet envelope and barcode requirements or face the Postal Service refusing to accept outbound mail ballots. Judge Talwani found the regulation likely unlawful because the president cannot insert the federal government into elections without express congressional authorization, and that states lacked the time and resources to comply before November 2026.",
+    "On the economic and regulatory front, the U.S. Court of Appeals for the 5th Circuit rejected a pharmaceutical industry lawsuit challenging Medicare's authority to negotiate drug prices directly, affirming that drugmakers have no entitlement to sell products to Medicare at a price of their choosing. Meanwhile, the Justice Department announced a $250 million settlement with KKR & Co. GP LLC for violating federal premerger antitrust review requirements on at least 16 transactions between 2021 and 2022, the largest civil fine ever assessed under the Hart-Scott-Rodino Antitrust Improvements Act. Walmart agreed to pay $50 million to settle allegations that its pharmacies illegally filled thousands of invalid opioid and controlled substance prescriptions since June 2013, with the government alleging that Walmart's compliance team prioritized sales over drug enforcement obligations.",
+    "International developments moved swiftly. A glacier collapse on the Nepal-Tibet border on Wednesday triggered catastrophic floods and landslides that killed at least 579 people in Nepal and 5 in Tibet, with approximately 2,000 people unaccounted for. The impact registered magnitude 5.2 and sent debris 62 miles downstream. Officials warn of secondary flooding from a barrier lake holding 2.5 million cubic meters of water. In Europe, King Harald V of Norway died peacefully at 6:35 a.m. on August 28 at age 89, ending a 35-year reign as Europe's oldest living monarch. His son, Crown Prince Haakon, 53, succeeds him as King Haakon VIII.",
+    "On national security, CIA Director John Ratcliffe made an unannounced trip to Moscow on Tuesday, according to Wall Street Journal and CBS News reporting, to warn Russia against attacking NATO member states. Ratcliffe flew from Andrews Air Force Base in Maryland on a government transport plane. President Trump later described the trip as \"semi-routine\" and denied it was motivated by concerns about Russian plans to test NATO resolve or by negotiations over Iran sanctions.",
+    "In Massachusetts, a jury entered deliberations on Thursday in the trial of Lindsay Clancy after five weeks of testimony. A judge has allowed the jury to consider a manslaughter charge alongside first-degree murder, second-degree murder, and not guilty by reason of insanity. The jury of nine women and three men must weigh prosecution and defense theories about whether Clancy, a 36-year-old former nurse, intentionally killed her three children in January 2023 or was unable to appreciate the nature of her actions due to postpartum psychosis, which affects 1 to 2 per 1,000 women after delivery.",
+    "President Trump signed an executive order on August 28 to create a U.S. Space Academy to train personnel for the Space Force, NASA, and the civilian space industry. A White House commission chaired by NASA Administrator Jared Isaacman has 120 days to propose the academy's leadership structure, curriculum, and organizational details. Trump announced the decision at NASA's Johnson Space Center in Houston and said he would choose a location \"very shortly.\" At the same event, Trump awarded the Congressional Space Medal of Honor to the Artemis II crew: Reid Wiseman, Christina Koch, Victor Glover, and Jeremy Hansen.",
+    "Further afield, Ratko Mladic, convicted of genocide and war crimes during the 1990s Bosnian conflict and sentenced to life imprisonment, died at age 84 in UN detention at The Hague. His conviction was upheld on appeal in 2021. He had been in custody since his 2011 capture after 16 years as a fugitive."
+  ],
+  "sources": [
+    {
+      "title": "CIA Director Ratcliffe travels to Moscow to warn Russia against NATO attacks",
+      "url": "/articles/cia-director-ratcliffe-travels-to-moscow-to-warn-russia-against-nato-attacks.html"
+    },
+    {
+      "title": "Jury in Lindsay Clancy trial now allowed to consider manslaughter charge",
+      "url": "/articles/jury-in-lindsay-clancy-trial-now-allowed-to-consider-manslaughter-charge.html"
+    },
+    {
+      "title": "5th Circuit upholds Medicare's authority to negotiate drug prices",
+      "url": "/articles/5th-circuit-upholds-medicare-s-authority-to-negotiate-drug-prices.html"
+    },
+    {
+      "title": "Fed Chair Warsh addresses Jackson Hole amid inflation and bond market turmoil",
+      "url": "/articles/fed-chair-warsh-addresses-jackson-hole-amid-inflation-and-bond-market-turmoil.html"
+    },
+    {
+      "title": "Federal judge blocks Trump mail-ballot regulation ahead of November midterms",
+      "url": "/articles/federal-judge-blocks-trump-mail-ballot-regulation-ahead-of-november-midterms.html"
+    },
+    {
+      "title": "Judge strikes down Pentagon's supply-chain designation of Anthropic as First Amendment retaliation",
+      "url": "/articles/judge-strikes-down-pentagon-s-supply-chain-designation-of-anthropic-as-first-amendment-retaliation.html"
+    },
+    {
+      "title": "Jury begins deliberations in Lindsay Clancy murder trial",
+      "url": "/articles/jury-begins-deliberations-in-lindsay-clancy-murder-trial.html"
+    },
+    {
+      "title": "King Harald V of Norway dies at 89 after 35-year reign; son becomes King Haakon VIII",
+      "url": "/articles/king-harald-v-of-norway-dies-at-89-after-35-year-reign-son-becomes-king-haakon-viii.html"
+    },
+    {
+      "title": "KKR to Pay Record $250M Penalty for Hart-Scott-Rodino Violations",
+      "url": "/articles/kkr-to-pay-record-250m-penalty-for-hart-scott-rodino-violations.html"
+    },
+    {
+      "title": "Ratko Mladic, Convicted Bosnian Serb Commander, Dies at 84",
+      "url": "/articles/ratko-mladic-convicted-bosnian-serb-commander-dies-at-84.html"
+    },
+    {
+      "title": "Glacier collapse triggers catastrophic Nepal-Tibet border floods; 600+ dead, thousands missing",
+      "url": "/articles/glacier-collapse-triggers-catastrophic-nepal-tibet-border-floods-600-dead-thousands-missing.html"
+    },
+    {
+      "title": "Trump signs order to establish U.S. Space Academy",
+      "url": "/articles/trump-signs-order-to-establish-u-s-space-academy.html"
+    },
+    {
+      "title": "Walmart to Pay $50 Million Over Illegal Opioid Prescriptions",
+      "url": "/articles/walmart-to-pay-50-million-over-illegal-opioid-prescriptions.html"
+    }
+  ]
+}

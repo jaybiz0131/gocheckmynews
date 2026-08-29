@@ -1,0 +1,59 @@
+{
+  "id": "c002",
+  "slug": "walmart-to-pay-50-million-over-illegal-opioid-prescriptions",
+  "kind": "brief",
+  "title": "Walmart to Pay $50 Million Over Illegal Opioid Prescriptions",
+  "dek": "The U.S. Department of Justice and DEA announced a $50 million settlement with Walmart on August 28, 2026, resolving allegations that Walmart pharmacies illegally filled thousands of invalid opioid and controlled substance prescriptions since June 2013. The government alleged Walmart's compliance team prioritized sales over drug enforcement obligations and that pharmacists knowingly filled prescriptions from suspected pill mills.",
+  "date": "2026-08-29",
+  "published_utc": "2026-08-29T00:05:24Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 10,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Walmart's compliance team allegedly ignored thousands of refusal-to-fill reports from its own pharmacists documenting suspicious prescriber behavior, with one director citing sales goals as a higher priority than analyzing suspicious patterns.",
+  "bottom_line": "The settlement marks another enforcement action in the retail pharmacy sector over opioid distribution. The memorandum of agreement sets new compliance monitoring and reporting mechanisms at Walmart and provides a model for what regulators may expect from other chain pharmacies subject to similar scrutiny.",
+  "human_take": "",
+  "body": [
+    "Walmart has agreed to pay $50 million to settle federal allegations that its pharmacies illegally filled thousands of invalid opioid and controlled substance prescriptions over more than a decade, the U.S. Department of Justice and DEA announced on August 28, 2026. The settlement resolves claims that violations of the Controlled Substances Act occurred at Walmart locations since June 2013.",
+    "The government alleged that Walmart's compliance team and individual pharmacists knowingly filled prescriptions they should have refused. According to the Justice Department, members of Walmart's compliance team knew certain prescribers were operating as pill mills but filled invalid prescriptions from those prescribers anyway. Walmart pharmacists also allegedly filled prescriptions they knew were invalid when written by known pill mill operators or when prescriptions carried obvious red flags such as dangerous drug combinations, repeated fills of high-dose opioids, or early refill requests for often-abused controlled substances.",
+    "Walmart's own pharmacists reported egregious prescriber conduct to the company's corporate compliance team through thousands of refusal-to-fill forms, according to the Justice Department. However, the government alleged that Walmart's compliance team did not prioritize analysis of those reports. A director on Walmart's compliance team acknowledged in an email that rather than analyzing the refusal-to-fill reports, the team viewed driving sales and patient awareness as a far better use of its time, per the DOJ statement.",
+    "The original government complaint was filed in December 2020 and amended in 2022 in U.S. District Court for the District of Delaware. The settlement requires Walmart to enter into a memorandum of agreement with the DEA addressing its future obligations in dispensing controlled substances. Under the agreement, Walmart must establish a hotline for employees and patients to report suspected illegal dispensing, proactively monitor its pharmacies' dispensing patterns to identify potentially illegal activity, and establish a process to evaluate prescribers suspected of illegal prescribing.",
+    "Associate Attorney General Stanley Woodward stated: Congress enacted laws to promote responsibility and accountability for companies dispensing controlled substances to protect Americans, and the Justice Department will vigorously enforce pharmacies' obligations under those protections. The case was handled by attorneys from the Justice Department's Civil Division and U.S. Attorneys' Offices in Delaware, Eastern North Carolina, Middle Florida, and Eastern New York.",
+    "The Justice Department noted in its statement that the claims resolved by the settlement are allegations only and that there has been no determination of liability."
+  ],
+  "sources": [
+    {
+      "title": "U.S. Department of Justice",
+      "url": "https://www.justice.gov/opa/pr/walmart-agrees-pay-50-million-illegally-filling-unlawful-opioid-prescriptions"
+    }
+  ],
+  "event_utc": "2026-08-28T12:00:00Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-29T00:05:24Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "also_reported_by": [
+    {
+      "outlet": "Riverside County District Attorney's Office",
+      "headline": "WALMART TO BE ORDERED TO PAY $7.5 MILLION FOR ENVIRONMENTAL VIOLATIONS - Riverside County District Attorney's Office"
+    },
+    {
+      "outlet": "Retail TouchPoints",
+      "headline": "CFPB Sues Walmart for Illegal Payment Practices that Allegedly Cost Drivers $10 Million - Retail TouchPoints"
+    },
+    {
+      "outlet": "Waste360",
+      "headline": "Walmart to Pay $7.5 Million in Lawsuit over Improper Hazardous Waste Disposal - Waste360"
+    },
+    {
+      "outlet": "Newsweek",
+      "headline": "Walmart Agrees to Pay $7.5 Million to Resolve Hazardous Waste Charges - Newsweek"
+    },
+    {
+      "outlet": "The New York Times",
+      "headline": "Walmart Agrees to Pay $3.1 Billion to Settle Opioid Lawsuits (Published 2022) - The New York Times"
+    }
+  ]
+}

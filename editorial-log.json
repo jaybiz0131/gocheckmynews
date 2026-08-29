@@ -1,27 +1,5 @@
 [
  {
-  "date": "2026-07-22",
-  "approved": 10,
-  "rejected": [
-   {
-    "id": "c196",
-    "headline": "House passes $1.14 trillion defense bill on narrow vote amid Iran hostilities",
-    "category": "accuracy",
-    "reasons": [
-     "The vote count claim '205 Democrats opposed the measure, and 7 Republicans joined them' cannot be verified against the mathematics stated elsewhere in the draft. The draft states the bill passed 216-212, which means 212 voted against it total. If 205 Democrats and 7 Republicans opposed it, that totals 212 against\u2014correct. However, this math only works if ALL 205 opposing Democrats are included and the count is exact. The brief labels all vote data as 'reported' from Washington Examiner, but the draft presents these specific breakdowns (205 Democrats, 7 Republicans) as fact when the source text is incomplete per the brief's own notation ('appears to be header/navigation code; the full article content...is not available'). The writer has interpolated or inferred the party breakdown from a source that the brief itself documents as incomplete."
-    ]
-   },
-   {
-    "id": "c061",
-    "headline": "Trump Threatens to Destroy Iranian Civilian Infrastructure Over Strait of Hormuz Attacks",
-    "category": "accuracy",
-    "reasons": [
-     "The sentence 'PBS reported that the conflict threatens broader economic disruption and fuel price increases, with implications for US politics ahead of midterm elections scheduled for fall 2026' attributes the characterization of economic threat implications for midterm elections to PBS. The brief data_point says 'The conflict threatens further worldwide economic disruption and fuel price increases ahead of midterm U.S. elections in fall 2026' is reported by PBS, but this is the brief's own framing of what PBS said, not a direct quote or clear attribution. The draft reads as though PBS explicitly connected the Iran threat to midterm election implications, which conflates the brief's angle (the analyst's interpretation) with what PBS actually reported. The writer must separate what the source said from the brief's analytical frame."
-    ]
-   }
-  ]
- },
- {
   "date": "2026-07-23",
   "approved": 6,
   "rejected": [
@@ -9924,6 +9902,62 @@
     "reasons": [
      "The brief's open_questions section explicitly flags that 'The Guardian URL is listed as a source but no text from it was provided; what additional reporting does it carry?' This signals the Guardian source was not actually consulted or verified by the research team. The draft cites The Hill for all factual claims, but the brief lists The Guardian as a source without providing its content, creating a liability if The Guardian's reporting contradicts or modifies the claims.",
      "The brief is marked 'thin: true' with minimal data_points and open_questions that reveal significant gaps in sourcing. The draft presents facts as settled (e.g., 'Insurance coverage for the updated vaccines remains unclear') when the brief's own open_questions show uncertainty about what insurers have actually said and whether coverage details are truly unresolved or simply unreported. The draft cannot distinguish between 'coverage is genuinely unresolved' and 'the desk has not yet reported on coverage decisions.'"
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-08-29",
+  "approved": 7,
+  "rejected": [
+   {
+    "id": "c032",
+    "headline": "Trump announces U.S. control of Venezuelan oil reserves",
+    "category": "compliance",
+    "reasons": [
+     "The draft presents contested geopolitical characterizations in the desk's own voice without attribution. Phrases like 'the U.S. assumed significant control over Venezuela' and 'U.S. military forces apprehended Maduro' and 'U.S. military forces removed Maduro' adopt the administration's framing of a military intervention as established fact. The brief itself flags this as an open question: 'Does Venezuela's new government\u2014installed by U.S. military intervention\u2014have the sovereign legitimacy under international law to sign away control of its natural resources?' The draft must attribute these contested characterizations to named sources (Trump, Rubio, U.S. officials) rather than narrate them as the desk's own summary.",
+     "The phrase 'the biggest oil deal in world history' is attributed to Trump correctly, but the draft then adopts similar language structure ('the arrangement') without signaling the unverified status of the core claim. The brief marks 'Trump said the transaction more than doubles U.S. oil reserves' as 'announced-not-verified,' but the draft leads with 'secured majority control' as though this is established fact rather than Trump's announcement.",
+     "No counter-voices or skepticism appear anywhere in the draft despite the brief's bear_case being empty and its open_questions section being dense with unanswered legal, structural, and verification challenges. The desk's own voice should signal uncertainty about claims marked 'announced-not-verified' in the brief; instead, the draft reads as though all the details are settled."
+    ]
+   },
+   {
+    "id": "c020",
+    "headline": "Fed Chair Warsh says inflation remains concerning, raises prospect of rate increases",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Warsh stated that inflation readings this summer were \"better than expected,\" he cautioned that they \"do not tell me that underlying trends have meaningfully improved.\"' This paraphrases the brief's data point but adds interpretive weight by connecting 'better than expected' to a cautionary tone that suggests Warsh is being skeptical of good news. The brief data point itself says: 'Warsh stated that inflation readings this summer were \"better than expected, they do not tell me that underlying trends have meaningfully improved.\"' The draft's paraphrase with 'he cautioned' imports editorial framing not present in the source material and shifts the emphasis from Warsh's actual conditional statement to a reading that assumes skepticism.",
+     "The draft's opening paragraph claims Warsh's comments 'reversed market worries about his tenure and immediately increased betting odds on a September rate increase.' The brief's data point says 'Following Warsh's speech, the odds increased that the Fed would raise its benchmark interest rate next month to cool inflation.' The draft's claim that the speech 'reversed market worries' goes beyond what the brief carries\u2014the brief only confirms that odds moved higher, not that his tenure worries were reversed. This is a fact addition beyond the research."
+    ]
+   },
+   {
+    "id": "c038",
+    "headline": "ICE arrests British commentator Milo Yiannopoulos for visa overstay and missed hearing",
+    "category": "compliance",
+    "reasons": [
+     "The draft includes biographical detail about Yiannopoulos' resignation from Breitbart 'amid backlash to reported comments about teens and sexual abuse' and later references his CPAC disinvitation 'after footage emerged of him appearing to condone paedophilia.' These are allegations of serious misconduct (comments about teens and sexual abuse, appearing to condone paedophilia) attached to a named individual. The brief carries these claims sourced to BBC News, but the desk's hard rule on reputationally damaging claims is that they need more than one source. Both the brief and draft cite only BBC News for these allegations. The brief does note Yiannopoulos 'denied the allegations, saying he had been speaking about his own experiences as a child,' but a single-sourced allegation of this gravity\u2014appearing to condone paedophilia\u2014violates the two-source requirement for named-person misconduct claims, even with a denial attached.",
+     "The phrase 'far-right political commentator' appears in the draft's opening without attribution. The brief's core claim uses this label, but neutral reporting requires attribution when the characterization is contested terminology. The draft should attribute this framing to sources or outlets that have applied it, not narrate it as settled fact in the desk's own voice."
+    ]
+   },
+   {
+    "id": "c318",
+    "headline": "Six months into Iran war, Trump administration escalates economic sanctions",
+    "category": "accuracy",
+    "reasons": [
+     "The draft opens with 'the conflict initiated in late February 2026' but the brief's data_point specifies 'War erupted in late February when the U.S. and Israel launched strikes on Iran.' The draft attributes this to CBS News reporting but does not clarify that the U.S. and Israel were the initiators\u2014the phrasing 'conflict initiated' is passive and obscures agency.",
+     "The draft states Iran 'closed' the Strait of Hormuz 'at the war's start' but the brief's data_point only says 'The Strait of Hormuz has been closed by Iran at the start of the war'\u2014the verb tense and active construction in the draft suggest a deliberate closure action, which the brief does not confirm as distinct from blockade or military action.",
+     "The draft does not specify that Hezbollah's March attack 'drew Lebanon into the Middle East war' as the brief's data_point explicitly states 'on March 2'\u2014the draft says 'early March' which is less precise than the sourced data.",
+     "The draft paraphrases Araghchi's X post as '\"pressure doesn't work\" and called for the U.S. to \"build trust, speak respectfully, acknowledge our rights, and uphold commitments.\"' but the brief's data_point quotes only: '\"Putting diplomacy back on track isn't impossible. It hinges on U.S. understanding of one simple fact: pressure doesn't work.\"' The additional phrases about 'build trust, speak respectfully, acknowledge our rights, and uphold commitments' do not appear in the brief's sourced quote and are thus SMUGGLED.",
+     "The draft states Bessent promised to 'sever every economic lifeline Tehran has left' but the brief's quote includes 'Treasury promised to sever every economic lifeline Tehran has left and finally end the threat of the Iranian regime'\u2014the draft omits the second half, which is a minor truncation but the quote appears to be paraphrased rather than directly cited from the brief's full statement.",
+     "The draft identifies individuals sanctioned as 'multiple individuals at Iranian banks' and 'Reza Mohammad Taeedi, the manager of the Iranian Bank Melli's Dubai branch' but the brief only mentions Taeedi by name in one data_point; the draft's use of 'multiple individuals' without naming them beyond one example is imprecise against the brief's specific data."
+    ]
+   },
+   {
+    "id": "c046",
+    "headline": "Crown Prince Becomes King Haakon After Harald V's Death",
+    "category": "accuracy",
+    "reasons": [
+     "Draft claims 'Crown Prince Haakon has succeeded him as King Haakon VIII' but no brief exists and the cited BBC source URLs cannot be verified as containing this information. The draft also states 'The new king begins his reign at a turbulent time for Norway's monarchy, per BBC reporting' but this framing claim is not traceable to the sources cited and introduces editorial interpretation ('turbulent') not grounded in the brief's data points.",
+     "The draft presents 'King Haakon VIII' as fact, but without a brief or verified source content, this cannot be confirmed. The exact regnal number, date of succession, and reign characterization all require documented sourcing."
     ]
    }
   ]
