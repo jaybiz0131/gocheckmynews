@@ -1,0 +1,61 @@
+{
+  "id": "c079",
+  "slug": "six-months-into-u-s-israel-campaign-iran-war-shows-no-end-in-sight",
+  "kind": "brief",
+  "title": "Six months into U.S.-Israel campaign, Iran war shows no end in sight",
+  "dek": "Today marks six months since the U.S. and Israel launched strikes on Iran. President Trump previously said the conflict would last only weeks. Buildings across the country remain in ruins, and parents in the southern city of Minab continue to grieve more than 100 children killed when their school was bombed on the first day of the war.",
+  "date": "2026-08-29",
+  "published_utc": "2026-08-29T04:18:17Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 11,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Six months have passed since the start of the U.S.-Israel military campaign against Iran, far longer than President Trump predicted when he said the conflict would last a matter of weeks.",
+  "bottom_line": "The war that Trump said would end in weeks has now lasted half a year with no stated endpoint. What happens next in the conflict, and whether diplomatic talks emerge or military operations escalate further, will shape whether this becomes a grinding stalemate or a conflict that approaches resolution.",
+  "human_take": "",
+  "body": [
+    "Today marks six months since the U.S. and Israel launched strikes on Iran, according to PBS NewsHour reporting. The conflict has persisted far longer than the timeline its architect projected. President Trump said the conflict would last a matter of weeks, PBS NewsHour reports, but hostilities remain ongoing with no resolution announced.",
+    "Half a year on, the physical scars of the war's earliest days remain visible across the country, with buildings still in ruins, according to PBS NewsHour reporting. The human toll of the opening strikes was immediate and severe. In the southern city of Minab, more than 100 children were killed when their school was bombed on the war's first day, PBS NewsHour reports. Khadijeh Ahmadizadeh, a bereaved mother from Minab, said in an interview carried by PBS NewsHour: \"They have left a pain in the heart of Minab that will never go away. They think that now six months have passed that our hearts have grown cold, but they haven't at all. It's getting worse. This pain is so heavy. The children left with so many dreams.\"",
+    "Regional military activity continued on the six-month milestone. Israel carried out a rare airstrike in the occupied West Bank today, killing a Hamas operative and two of his accomplices, according to Israeli claims reported by PBS NewsHour. The militant group confirmed that the target was a member and condemned the attack, PBS NewsHour reports."
+  ],
+  "sources": [
+    {
+      "title": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/show/news-wrap-friday-marks-6-months-since-iran-war-started"
+    },
+    {
+      "title": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQaVVydWs1UDJyTnZqQk5yNkZScGdWUmJyYU9uejIzZWlhTUtSTlNTYkZxeVg4WTVaSWJGX0JyT1FRTFNpREJPS3E4elh2SUNIb01MWEF5OXdFWnRxaHZVdXJyWGNUc2lvUnFJekJNZmhvNlpnbHVua0ZZR1pmcmp4OThiSm0zWkpNZ3A2bkl2bDh1Zw?oc=5"
+    }
+  ],
+  "event_utc": "2026-08-28T22:50:14Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-29T04:18:17Z",
+    "sources_cited": 2,
+    "sources_live_checked": 1
+  },
+  "update_of": "iran-threatens-attack-in-response-to-u-s-sanctions-expansion",
+  "also_reported_by": [
+    {
+      "outlet": "Norwalk Hour",
+      "headline": "The US and Israel tried to topple Iran\u2019s government. Six months on, new leaders are defying them - Norwalk Hour"
+    },
+    {
+      "outlet": "NewsCord",
+      "headline": "U.S. And Israel Strikes On Iran Reach Costly Stalemate After Six Months: how 22 outlets framed it - NewsCord"
+    },
+    {
+      "outlet": "Ottumwa Courier",
+      "headline": "The US and Israel tried to topple Iran\u2019s government. Six months on, new leaders are defying them - Ottumwa Courier"
+    },
+    {
+      "outlet": "SRN News",
+      "headline": "The U.S.\u2013Israel War with Iran Reaches Six Months as Trump Pushes Toward Economic Pressure Strategy - SRN News"
+    },
+    {
+      "outlet": "The Spec",
+      "headline": "The US and Israel tried to topple Iran\u2019s government. Six months on, new leaders are defying them - The Spec"
+    }
+  ]
+}
