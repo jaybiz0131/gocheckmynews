@@ -1,0 +1,13 @@
+{
+  "_comment": "Corpus defects that predate the integrity canary (verify_pipeline._corpus_integrity_canary). Reported but not blocking. This file should only ever SHRINK: remove an entry when the underlying record is fixed. A defect not listed here fails the build.",
+  "recorded": "2026-08-28",
+  "known": [
+    "circular:cia-director-ratcliffe-makes-unannounced-moscow-trip|cia-director-ratcliffe-makes-unannounced-trip-to-moscow",
+    "circular:king-harald-v-of-norway-dies-at-89-after-35-year-reign-son-becomes-king-haakon-viii|king-harald-v-of-norway-dies-at-89-after-35-year-reign-son-becomes-king-haakon-viii",
+    "slug:bald-range-wildfire-in-british-columbia-doubles-in-size-forces-20-000-to-evacuate",
+    "slug:cia-director-ratcliffe-makes-unannounced-trip-to-moscow",
+    "slug:justice-department-secures-400m-settlement-with-tiktok-and-bytedance-over-children-s-privacy-violations",
+    "slug:nancy-kassebaum-baker-first-woman-elected-to-senate-without-spouse-s-seat-dies-at-94",
+    "slug:trump-orders-pentagon-to-scale-back-joint-exercises-with-south-korea"
+  ]
+}
