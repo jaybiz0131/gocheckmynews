@@ -1,0 +1,67 @@
+{
+  "id": "c021",
+  "slug": "fed-chair-warsh-signals-inflation-remains-elevated-market-raises-rate-hike-odds-to-60-percent",
+  "kind": "brief",
+  "title": "Fed Chair Warsh signals inflation remains elevated, market raises rate hike odds to 60 percent",
+  "dek": "Federal Reserve Chair Kevin Warsh stated at Jackson Hole on August 28 that inflation is running above the Fed's 2 percent target and there is still work to do. After his speech, investors shifted their odds on a September interest rate increase from about one-third to about 60 percent, according to interest rate futures markets.",
+  "date": "2026-08-29",
+  "published_utc": "2026-08-29T00:56:48Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 3,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Warsh said 'Inflation is running above our 2 percent target' and 'There is still work to do,' and he is not ruling out raising interest rates to address it.",
+  "bottom_line": "Market expectations for a September rate hike are now significantly elevated, but Warsh has not committed to one. Watch for the Fed's next meeting after Jackson Hole and any additional inflation data released before then, which will signal whether the odds implied by the market will hold or whether Warsh's \"not ruling it out\" framing masks continued hesitation about actual hikes.",
+  "human_take": "",
+  "body": [
+    "Federal Reserve Chair Kevin Warsh said at Jackson Hole on August 28 that inflation is running above the Fed's 2 percent target and \"there is still work to do,\" underscoring the central bank's continued focus on prices even as questions persist about whether that commitment will translate to policy action.\nWarsh stated that \"the responsibility for 65 months of sustained elevated inflation sits squarely with the Central Bank.\" He said \"we must be confident that underlying inflation is moving to our objective, clearly and at sufficient speed. Otherwise, we have work to do.\" He also noted that the labor market looks \"stable\" and said this made prices \"more concerning.\" Regarding recent inflation data, Warsh said summer readings were \"better than expected, they do not tell me that underlying trends have meaningfully improved.\"\nWarsh said he is not committed to a rate hike but is not ruling it out, signaling the Fed views ongoing concerns about inflation as real. The chief tool for tackling inflation is rate hikes, Warsh underscored. He also stated that financial conditions or borrowing conditions right now do not seem \"particularly restrictive,\" which matters because the Fed believes it will have to restrain lending and slow the economy to bring inflation down.\nBefore Warsh's speech, investors in interest rate futures markets were pricing in about a one-third chance of an interest rate increase next month; after his speech, that probability moved to about 60 percent, according to Nick Timiraos, Wall Street Journal chief economics correspondent.\nThe Fed had cut interest rates at six meetings over the prior two years.\nWarsh reiterated his preference for what he called a \"quieter Fed,\" moving away from former Fed Chair Jerome Powell's use of \"forward guidance.\" Warsh said \"if markets rely materially on the Fed's guidance and the Fed relies on market prices, we are all more likely to be blinded to new developments, more likely to be caught unprepared for a turn of events, and more likely to commit errors in policymaking.\""
+  ],
+  "sources": [
+    {
+      "title": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/show/fed-chair-warsh-not-ruling-out-interest-rate-hike-amid-inflation-concerns"
+    },
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/business/economy/trumps-kevin-warsh-jackson-hole-inflation-rcna594135"
+    },
+    {
+      "title": "NPR",
+      "url": "https://www.npr.org/2026/08/28/nx-s1-5947903/federal-reserve-inflation-jackson-hole-interest-rates"
+    }
+  ],
+  "event_utc": "2026-08-28T16:05:40Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-29T00:56:48Z",
+    "sources_cited": 3,
+    "sources_live_checked": 2
+  },
+  "update_of": "fed-chair-warsh-addresses-jackson-hole-amid-inflation-and-bond-market-turmoil",
+  "also_reported_by": [
+    {
+      "outlet": "Yahoo Finance",
+      "headline": "Warsh to Make First Jackson Hole Speech as Fed Chair - Yahoo Finance"
+    },
+    {
+      "outlet": "ABC News",
+      "headline": "Fed Chair Warsh signals rate hikes may be needed with inflation still elevated - ABC News - Breaking News, Latest News and Videos"
+    },
+    {
+      "outlet": "C-SPAN",
+      "headline": "Fed Chair Warsh Speaks at the Federal Reserve Bank of Kansas City - C-SPAN"
+    },
+    {
+      "outlet": "NPR",
+      "headline": "The stakes are high as Kevin Warsh is set to give his first major speech as Fed Chair - NPR"
+    },
+    {
+      "outlet": "Forbes",
+      "headline": "Fed Chair Kevin Warsh Says Inflation Still Too High In First Jackson Hole Speech - Forbes"
+    },
+    {
+      "outlet": "Spectrum News",
+      "headline": "Fed Chair Warsh says inflation still too high, interest rates may need to be raised - Spectrum News"
+    }
+  ]
+}

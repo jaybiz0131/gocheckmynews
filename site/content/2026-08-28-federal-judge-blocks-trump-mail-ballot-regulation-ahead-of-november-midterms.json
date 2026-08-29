@@ -54,5 +54,6 @@
     "fixed": "Not specified in sources",
     "user_action": "Not specified\u2014this is an order blocking implementation, not a directive to end users",
     "advisory_url": "None; this is a judicial order, not an issuer's advisory notice"
-  }
+  },
+  "superseded_by": "federal-judge-blocks-trump-mail-ballot-rule-for-second-time"
 }

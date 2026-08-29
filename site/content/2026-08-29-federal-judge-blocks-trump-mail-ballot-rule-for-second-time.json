@@ -1,0 +1,41 @@
+{
+  "id": "c137",
+  "slug": "federal-judge-blocks-trump-mail-ballot-rule-for-second-time",
+  "kind": "brief",
+  "title": "Federal Judge Blocks Trump Mail-Ballot Rule for Second Time",
+  "dek": "U.S. District Judge Indira Talwani issued a 14-day temporary restraining order Thursday blocking key sections of a USPS mail-in voting rule, marking the second judicial block of the Trump administration's effort to tighten mail-ballot procedures ahead of November midterms. The Justice Department appealed the block to the 1st Circuit within 24 hours.",
+  "date": "2026-08-29",
+  "published_utc": "2026-08-29T00:56:48Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 7,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The blocked rule would have mandated specific envelope standards, state voter registration, and portal enrollment before states could send mail ballots, procedures now frozen by court order with the midterm election weeks away.",
+  "bottom_line": "The temporary restraining order remains in effect for 14 days, but the 1st Circuit appeal could move quickly given the election timeline. If the appeals court upholds Talwani's block, the rule would remain suspended; if reversed, it could take effect with minimal time for states to implement new procedures or revert to prior practices.",
+  "human_take": "",
+  "body": [
+    "A federal judge in Massachusetts has blocked the Trump administration's mail-in voting rule for the second time, freezing key provisions just weeks before November midterm elections and escalating the legal dispute over which voting procedures will govern the race.\nU.S. District Judge Indira Talwani, an Obama appointee, issued a 14-day temporary restraining order Thursday blocking sections of a USPS rule that would have imposed new standards on how states handle mail ballots. The Justice Department notified the court less than 24 hours later that the administration is appealing to the U.S. Court of Appeals for the 1st Circuit.\nAccording to the Washington Examiner's reporting, the blocked provisions would mandate specific envelope standards for ballots, require state voter registration through a federal USPS portal, and prevent states from sending ballots to voters who do not comply with the new envelope or portal requirements. The rule also directs states to notify USPS at least 90 days before the November 3 midterm elections if they intend to submit mail-in and absentee voter rolls under the new regulation.\nPer the Washington Examiner, the USPS rule implements guidelines from President Donald Trump's executive order on mail-in voting security, including specific voter barcodes for ballot envelopes.\nThis is the second judicial rejection of the rule. Judge Talwani initially blocked the measure in July when it was still a proposed rule, but the Supreme Court ruled that initial block premature, handing the Trump administration a temporary win. After USPS issued the final rule last week, 24 states filed a lawsuit challenging it, according to the Washington Examiner. Talwani ruled on Wednesday that USPS violated her preliminary injunction from August 11 by issuing the final rule despite her order, though she did not block its publication at that time.\nWith the 1st Circuit appeal underway and the midterm election date fixed, the outcome will determine whether the new mail-ballot procedures take effect or revert to existing state practices."
+  ],
+  "sources": [
+    {
+      "title": "Washington Examiner",
+      "url": "https://www.washingtonexaminer.com/news/justice/4704703/trump-administration-appeal-second-block-mail-voting-order-usps/"
+    },
+    {
+      "title": "The Washington Post",
+      "url": "https://www.washingtonpost.com/politics/2026/08/27/judge-issues-new-block-trumps-sweeping-restrictions-mail-in-voting/"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/regulation/court-battles/6058494-trump-administration-fast-tracks-midterm-voting/"
+    }
+  ],
+  "event_utc": "2026-08-28T19:41:21Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-29T00:56:48Z",
+    "sources_cited": 3,
+    "sources_live_checked": 3
+  },
+  "update_of": "federal-judge-blocks-trump-mail-ballot-regulation-ahead-of-november-midterms"
+}

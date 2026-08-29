@@ -1,0 +1,70 @@
+{
+  "id": "c191",
+  "slug": "military-judge-throws-out-khalid-sheikh-mohammed-s-2007-confession-in-9-11-case",
+  "kind": "brief",
+  "title": "Military judge throws out Khalid Sheikh Mohammed's 2007 confession in 9/11 case",
+  "dek": "Lt. Col. Michael Schrama ruled Friday that Khalid Sheikh Mohammed's 2007 statements to investigators were involuntary and inadmissible in the 9/11 case. Schrama set a June 2028 trial date for Mohammed and three co-defendants, rejecting prosecutors' request for a January 2027 start.",
+  "date": "2026-08-29",
+  "published_utc": "2026-08-29T00:56:48Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 5,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "A military judge ruled that the alleged 9/11 mastermind's 2007 confession was involuntary, removing a centerpiece of evidence from the prosecution's case.",
+  "bottom_line": "The suppression of Mohammed's confession extends an already two-decade legal process and narrows the prosecution's evidentiary foundation for trial in June 2028. Watch for the prosecution's response and any indication of what alternative evidence they will pursue.",
+  "human_take": "",
+  "body": [
+    "Lt. Col. Michael Schrama, a military judge, ruled Friday that statements made by Khalid Sheikh Mohammed to investigators in 2007 were not given voluntarily and threw the confessions out of the 9/11 case, according to Fox News. The ruling removes a significant piece of evidence from the prosecution's case against the alleged 9/11 mastermind, who has been held at Guantanamo Bay since 2003.",
+    "Schrama set a trial date of June 2028 for Mohammed and three co-defendants: Walid Muhammad Salih Mubarak bin Attash, Mustafa Ahmed Adam al Hawsawi, and Ali Abdul Aziz Ali, per Fox News. The judge rejected a prosecution request to open the trial in January 2027, saying it would leave too little time for the resolution of pretrial evidentiary and compliance motions.",
+    "In 2024, Mohammed, bin Attash, and al-Hawsawi agreed to admit their roles in the September 11, 2001 attacks in exchange for life sentences and avoidance of the death penalty, according to Fox News. The plea agreement stipulated that the men answer any questions the families of the victims have about the attacks. The September 11 attacks killed nearly 3,000 people, per Fox News. The Biden administration subsequently withdrew the agreement following criticism from many families of victims, resulting in additional litigation.",
+    "The advocacy group 9/11 Families United declined to comment on Friday's ruling, according to Fox News."
+  ],
+  "sources": [
+    {
+      "title": "Fox News",
+      "url": "https://www.foxnews.com/us/judge-throws-out-khalid-sheikh-mohammeds-9-11-confession-already-long-wait-trial"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/homenews/administration/6058530-trump-denies-nyct-terror-attack-ban/"
+    },
+    {
+      "title": "Fox News",
+      "url": "https://www.foxnews.com/media/cbc-releases-policy-change-after-controversy-about-refusing-refer-9-11-terrorist-attacks"
+    }
+  ],
+  "event_utc": "2026-08-28T20:08:41Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-29T00:56:48Z",
+    "sources_cited": 3,
+    "sources_live_checked": 2
+  },
+  "update_of": "military-judge-sets-june-2028-trial-date-for-alleged-9-11-mastermind",
+  "also_reported_by": [
+    {
+      "outlet": "Al Jazeera",
+      "headline": "Trial for 9/11 accused, including Khalid Sheikh Mohammed, set for June 2028 - Al Jazeera"
+    },
+    {
+      "outlet": "New York Post",
+      "headline": "Judge axes Khalid Sheikh Mohammed\u2019s confession in long-delayed 9/11 terror case \u2014 in major blow to feds - New York Post"
+    },
+    {
+      "outlet": "AP News",
+      "headline": "Military judge sets June 2028 trial date for alleged Sept. 11 mastermind Khalid Sheikh Mohammed - AP News"
+    },
+    {
+      "outlet": "TRT World",
+      "headline": "US judge tosses alleged 9/11 plotter Khalid Sheikh Mohammed's confessions, citing CIA 'coercion' - TRT World"
+    },
+    {
+      "outlet": "Washington Examiner",
+      "headline": "Judge rules Khalid Sheikh Mohammed confession was involuntary and excludes it from 9/11 case - Washington Examiner"
+    },
+    {
+      "outlet": "The Journal Record",
+      "headline": "9/11 accused mastermind Khalid Sheikh Mohammed to face trial in 2028 - The Journal Record"
+    }
+  ]
+}
