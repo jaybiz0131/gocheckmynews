@@ -1,0 +1,52 @@
+{
+  "id": "c174",
+  "slug": "minnesota-supreme-court-rejects-lindell-s-recount-challenge-in-gop-primary",
+  "kind": "brief",
+  "title": "Minnesota Supreme Court rejects Lindell's recount challenge in GOP primary",
+  "dek": "The Minnesota Supreme Court rejected Mike Lindell's bid to force a recount of the Republican gubernatorial primary, upholding his 11-point loss to Lisa Demuth. Chief Justice Natalie E. Hudson ruled in a six-page decision that Lindell's claim 'fails on the merits' and that he had confused the purpose of a manual recount with an election contest.",
+  "date": "2026-08-30",
+  "published_utc": "2026-08-30T17:47:32Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 7,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Mike Lindell lost the Republican gubernatorial primary by 11 points on August 11 and his subsequent recount challenge was rejected by the state's highest court.",
+  "bottom_line": "Lindell's court challenge to the primary results is exhausted in Minnesota state court. The decision establishes that under Minnesota law, the scope of a recount is limited to verifying vote tallies under existing procedures, not investigating alleged systemic anomalies.",
+  "human_take": "",
+  "body": [
+    "Mike Lindell, the MyPillow chief executive, lost his bid to force a recount of Minnesota's Republican gubernatorial primary after the state's highest court rejected his claim as legally unfounded. According to the Washington Examiner, Lindell finished 11 points behind Minnesota House Speaker Lisa Demuth on August 11, then filed a lawsuit seeking a full statewide recount of both the Democratic and Republican primary races.",
+    "Chief Justice Natalie E. Hudson issued a six-page ruling on behalf of the Minnesota Supreme Court, according to the Washington Examiner. The court found that Lindell's recount request, which sought to record votes for every candidate and check for what he called anomalies in the ballots, \"confused the purpose of a manual recount with an election contest,\" per Hudson's written decision.",
+    "Lindell had requested the recount \"to ensure that there are no anomalies in the ballots, whether the votes cast are for the Democratic or Republican primaries,\" according to the Washington Examiner account of his filing. The Minnesota Secretary of State declined to conduct a recount under Lindell's specified parameters, prompting him to sue and claim the rejection violated state law.",
+    "Hudson ruled that the Secretary of State and the State Canvassing Board committed no wrongful act by following the procedures set forth in Minnesota election law, per the Washington Examiner.",
+    "In a press release quoted by the Washington Examiner, Lindell stated: \"One of the few good election laws Minnesota does have is that as a candidate, I have the right to completely audit and hand count every ballot in the state, and I am going to exercise that right to full extent of the law.\" He added that even if the recount did not overturn his primary loss, he believed it would be \"the gateway to getting rid of these electronic voting machines,\" noting that \"132 countries have banned these machines already.\"",
+    "The court's rejection closes the path for Lindell to contest his primary defeat through Minnesota's judicial system, though no information about potential appeals or further legal action is available from the court's decision."
+  ],
+  "sources": [
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/regulation/court-battles/6059439-minnesota-court-rejects-lindell-recount/"
+    },
+    {
+      "title": "Washington Examiner",
+      "url": "https://www.washingtonexaminer.com/news/campaigns/state/4705499/minnesota-supreme-court-mike-lindell-recount/"
+    }
+  ],
+  "event_utc": "2026-08-30T11:52:42Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-30T17:47:32Z",
+    "sources_cited": 2,
+    "sources_live_checked": 1
+  },
+  "update_of": "minnesota-supreme-court-rejects-mike-lindell-s-bid-to-recount-gop-primary",
+  "also_reported_by": [
+    {
+      "outlet": "CBS News",
+      "headline": "Court rejects Mike Lindell's recount request for GOP primary in Minnesota governor's race - CBS News"
+    },
+    {
+      "outlet": "5 EYEWITNESS NEWS",
+      "headline": "'An extraordinary situation': Minnesota GOP questions Mike Lindell's residency ahead of primary - 5 EYEWITNESS NEWS"
+    }
+  ]
+}

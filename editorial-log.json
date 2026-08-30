@@ -1,71 +1,6 @@
 [
  {
   "date": "2026-07-24",
-  "approved": 5,
-  "rejected": [
-   {
-    "id": "c118",
-    "headline": "Brent crude oil prices top $100 per barrel amid Middle East tensions with Iran",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'Brent crude oil prices topped $100 per barrel for the first time since May 2026' but the brief data_point says 'first time oil prices have breached $100 per barrel since May (2026)' without specifying May of which year. The draft's phrasing implies May 2026 (same year as the reporting date of July 24, 2026), but this is ambiguous in the brief and should not be stated as definitive without clarity. The brief source_chars is 0, indicating the actual NYT article text was not provided to verify the exact temporal claim."
-    ]
-   },
-   {
-    "id": "c096",
-    "headline": "US military conducts 13th consecutive night of strikes on Iran over Red Sea shipping",
-    "category": "compliance",
-    "reasons": [
-     "The brief data_point on the stated purpose of strikes is labeled 'announced-not-verified' confidence level, meaning Central Command's claim about degrading Iran's ability to threaten vessels is an announcement, not verified fact. The draft presents this as a straightforward statement of what the strikes 'are stated to be designed to' but the confidence label requires the prose to reflect the unverified status more clearly. The phrase 'per Central Command's account' partially addresses this but given the 'announced-not-verified' label, the draft should more explicitly signal that this is Central Command's assertion without independent verification."
-    ]
-   },
-   {
-    "id": "c021",
-    "headline": "Rubio Signals U.S. Willingness to Help End Ukraine War but Cautions on Timeline",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'three-day closed-door talks at the ASEAN gathering began Tuesday' but if the meeting was July 23 (Thursday), then Tuesday would be July 21. The brief data_point says 'Three days of closed-door talks at the ASEAN gathering started Tuesday' but does not specify the date of Tuesday. The draft's attribution to NPR is correct, but the timeline as written (Tuesday start + Thursday meeting = mid-week conclusion) conflicts with a three-day duration. This is either a factual error in the draft's timeline setup or an unverified interpretation of when the talks began relative to the stated meeting date."
-    ]
-   },
-   {
-    "id": "c022",
-    "headline": "Federal Judge Forces Justice Department to Withdraw Subpoenas for New York Times Journalists",
-    "category": "compliance",
-    "reasons": [
-     "The draft's bottom_line reads: 'Judge Subramanian's ruling enforced existing legal precedent and Justice Department policy against the government's claim that attorney general approval overrides First Amendment protections.' This statement presents the desk's own judgment about which legal principle is correct ('enforced...against') rather than reporting what the judge held. The phrasing adopts a verdict tone that could read as advocacy for the judicial outcome. The bottom_line should forward-look on what happens next and what would test the ruling, not adjudicate between competing legal theories in the desk's voice.",
-     "The draft characterizes the government's conduct as containing 'mistakes' (the phone record secrecy order and subpoenas of journalists' family members) without sufficient skepticism about whether those were truly mistakes or intentional strategy. The data_points attribute the 'mistake' and 'honest mistake' language to Buckley's own statements, which the draft does relay, but the cumulative framing\u2014two apologies in quick succession, both labeled 'honest mistake'\u2014risks reading as the desk accepting the government's characterization rather than reporting what was said."
-    ]
-   },
-   {
-    "id": "c117",
-    "headline": "Pentagon's casualty count for Iran war changes; military officials offer conflicting explanations",
-    "category": "compliance",
-    "reasons": [
-     "The phrase 'When the Pentagon changes such figures, the public and Congress typically expect a clear, consistent explanation for the shift' reads as the desk's own normative judgment about what should happen, not as reporting of fact or sourced opinion. This is advocacy disguised as observation.",
-     "The sentence 'That silence leaves the public and press relying on conflicting versions of a basic wartime fact' is also advocacy\u2014a verdict on the Pentagon's conduct framed in the desk's voice rather than as a documented consequence reported from the record."
-    ]
-   },
-   {
-    "id": "c126",
-    "headline": "India's largest student protest in years targets Modi government over exam leaks and job quality",
-    "category": "compliance",
-    "reasons": [
-     "The sentence 'Together, these grievances expose a pipeline broken at multiple points, from education through employment' is the desk's interpretive judgment, not reporting. The brief does not contain a data point asserting the pipeline is 'broken'; the draft adopts a frame without sourcing it.",
-     "The phrase 'forcing the Modi government to respond to demands it had not anticipated' in the body is advocacy framing\u2014characterizing government as forced and surprised. The brief's angle uses 'forcing' as a premise, but the draft should report what happened, not adopt the protest side's framing as fact."
-    ]
-   },
-   {
-    "id": "c031",
-    "headline": "France orders evacuation of peninsula as hundreds flee wildfires by boat",
-    "category": "accuracy",
-    "reasons": [
-     "The draft introduces Spain's Interior Minister Fernando Grande-Marlaska declaring a national emergency on Friday with specific fire locations (Villa del Prado, San Mart\u00edn de Valdeiglesias, Burgohondo), but this is not a data_point in the brief. The brief's bear_case is empty and open_questions do not mention Spain. This is smuggled information\u2014the writer added facts about Spain's emergency that do not appear in the research brief, violating the hard rule that no fact exists outside the brief."
-    ]
-   }
-  ]
- },
- {
-  "date": "2026-07-24",
   "approved": 6,
   "rejected": [
    {
@@ -9830,6 +9765,66 @@
     "reasons": [
      "The draft states in the opening: 'Iran's Supreme Leader Mojtaba Khamenei issued a written message' \u2014 but the brief does not contain the first name 'Mojtaba' in any data_point. The brief only refers to 'Khamenei.' The draft has introduced a first name that is not supported by the research brief. This is a direct identification of a named person and violates the hard rule that facts must trace back to the brief.",
      "The draft refers to 'Khamenei has not been seen in public since being injured in U.S.-Israeli airstrikes six months ago that launched the Iran war, which killed his father and previous supreme leader, Ayatollah Ali Khamenei.' This creates ambiguity about whether Khamenei's father and the previous supreme leader are the same person or different people. The brief's data_point states: 'Khamenei has not been seen in public since being injured in U.S.-Israeli airstrikes six months ago that launched the Iran war, killing his father and previous supreme leader, Ayatollah Ali Khamenei.' The phrasing is unclear in both, but the draft does not resolve the ambiguity and could mislead readers about Iranian succession."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-08-30",
+  "approved": 6,
+  "rejected": [
+   {
+    "id": "c108",
+    "headline": "STORY KILLED AT VERIFICATION GATE",
+    "category": "accuracy",
+    "reasons": [
+     "The draft itself identifies the fatal problem: no research brief was provided, making verification impossible. The two sources listed cannot be verified as authentic source documents. The Washington Post URL contains a future publication date (2026-08-30) and formatting inconsistent with standard WaPo structure. The Google News RSS feed URLs are not readable source documents and the contents cannot be verified. Core claims cannot be traced to any provided primary source material. The draft's own statement that 'citing classified material contents without explanation of how a classified document's contents became public or were reported creates accuracy and compliance risk' correctly identifies why this story cannot run. This is a story held at verification gate, not a draft to approve or reject on the merits\u2014but since it is submitted for approval, the decision is rejection on accuracy grounds: unverifiable sources and unconfirmed classified allegations."
+    ]
+   },
+   {
+    "id": "c39",
+    "headline": "Milo Yiannopoulos deported by ICE after visa overstay",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states Yiannopoulos 'was deported from the United States to the UK on Friday' as a flat fact, but the brief's corresponding data_point is marked 'announced-not-verified' confidence. Per the compliance rule, unverified claims must read with appropriate hedging in the prose.",
+     "The draft presents the DHS statement 'Yiannopoulos was an illegal alien from the United Kingdom' and details about him flying in May 2019 and overstaying as settled fact, but these are all marked 'announced-not-verified' in the brief. The prose should signal this status.",
+     "The draft states 'Laura Loomer, who has feuded with Yiannopoulos, reported taking credit for his arrest' and later 'According to Loomer, DHS told her Yiannopoulos is never allowed to return to the United States, though this claim remains unconfirmed.' The first part of the Loomer claim is marked 'reported' (confidence sufficient), but the re-entry ban claim is marked 'unconfirmed' and is correctly hedged in the draft. However, the opening sentence 'was deported...on Friday' needs the same hedging treatment since it too is 'announced-not-verified.'"
+    ]
+   },
+   {
+    "id": "c224",
+    "headline": "Ferry capsizes off northern Cyprus with nearly 270 aboard; at least 7 dead",
+    "category": "accuracy",
+    "reasons": [
+     "No brief was provided for this story. The instruction states: 'every draft fact must then trace to the draft's own cited sources or be rejected.' The draft cites a single source (CBS News URL) but does not quote or directly attribute any of its factual claims to that source by page or passage. The reader cannot verify whether the CBS article actually reports 'nearly 270 passengers and crew,' 'at least 7 confirmed dead,' the August 30 date, or the other details. Without a brief to validate against and without inline attribution to the specific source passage, the factual claims are unverifiable."
+    ]
+   },
+   {
+    "id": "c042",
+    "headline": "Trump announces U.S. majority control of Venezuela's 65 billion barrels of oil",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'the U.S. has entered an agreement with Venezuela granting the U.S. 55% control' as a settled fact. The brief's data_point 8 says the venture 'was granted' a concession 'according to a U.S. official,' and data_point 14 explicitly states 'The official text of the agreement between Washington and Caracas has not been published.' The draft presents an announced claim as verified fact without qualification. This is especially problematic given that the entire story rests on an unverified agreement whose text does not exist in the public record.",
+     "The draft includes 'U.S. special forces captured Venezuela's former President Nicol\u00e1s Maduro in January, ostensibly to face trial on drug charges in New York' without attribution or qualifier. This is a reputationally damaging claim about a specific named individual (that he was captured in a military raid on alleged drug charges). The brief's data_point 4 attributes this only to BBC reporting that 'The U.S. captured Venezuela's then-President Nicol\u00e1s Maduro in January ostensibly to stand trial on drug charges in New York.' The draft drops the 'ostensibly' qualifier in one instance and presents the capture as fact without attribution, moving it into the desk's own voice. 'Ostensibly' must appear in the draft text when the claim appears, or this sentence must be cut entirely."
+    ]
+   },
+   {
+    "id": "c225",
+    "headline": "Six months into U.S.-Iran conflict, shipping paralyzed and no exit visible",
+    "category": "accuracy",
+    "reasons": [
+     "The draft opens with 'Six months into a military conflict between the U.S., Israel, and Iran, the war shows no signs of abating.' This framing presents the existence and duration of a 'war' as established fact. The brief's data_point 1 states only 'The war between the U.S., Israel, and Iran began six months ago' with confidence marked 'reported'\u2014meaning it is sourced to CBS News, not independently verified. The draft should attribute this framing to the source ('According to CBS News, six months into...' or similar) rather than narrate it as desk fact.",
+     "The draft states 'Iran's ongoing threat to attack ships without coordination with Tehran has kept traffic to a minimum in the waterway.' This phrasing is contradictory and unclear. The brief's data_point 12 says 'Iran's ongoing threat to attack ships without coordination with Tehran has kept traffic to a minimum in the Strait of Hormuz.' The phrase 'without coordination with Tehran' is ambiguous\u2014does it mean Iran threatens to attack ships that lack coordination with Tehran, or does it mean Iran makes threats without coordinating them internally? The draft repeats the source language but does not clarify the meaning. More critically, this sentence does not trace cleanly to the source material: it appears to be a rewording of a claim that itself may be unclear or may require attribution to a specific speaker (Adm. Cooper? Trump? CBS analysis?). The desk cannot run an unclear claim even if it is sourced."
+    ]
+   },
+   {
+    "id": "c216",
+    "headline": "FBI revises hiring standards, no longer disqualifies applicants for prostitution, theft from employer",
+    "category": "accuracy",
+    "reasons": [
+     "No brief exists for this story. The rule states: 'every draft fact must then trace to the draft's own cited sources or be rejected.' The draft cites a single CBS News video URL but provides no quoted or attributed detail from it to verify. The claim that the FBI 'no longer automatically disqualifies applicants who admitted to hiring prostitutes or stealing from an employer' is unverified against the cited source. Without access to the video content and without any direct quotation or specific attribution to a named official in the draft, there is no way to confirm this fact traces to the source.",
+     "The draft's second sentence claims 'The policy change comes following the retirement, resignation, and termination of scores of FBI agents during the second Trump administration.' This claim does not appear in the brief and is not attributed inline to any source in the draft. It reads as causal speculation ('comes following') without being sourced to any official statement or news report cited.",
+     "The story is too thin and unsourced to publish. No attribution, no quotations, no verifiable connection to the URL provided."
     ]
    }
   ]

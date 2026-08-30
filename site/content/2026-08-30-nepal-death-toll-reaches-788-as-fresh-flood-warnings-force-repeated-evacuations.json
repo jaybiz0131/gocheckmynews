@@ -1,0 +1,47 @@
+{
+  "id": "c223",
+  "slug": "nepal-death-toll-reaches-788-as-fresh-flood-warnings-force-repeated-evacuations",
+  "kind": "brief",
+  "title": "Nepal death toll reaches 788 as fresh flood warnings force repeated evacuations",
+  "dek": "A glacial bedrock collapse in the Himalayan region triggered catastrophic flash floods Wednesday, killing at least 788 in Nepal with 2,502 missing, and 16 dead with 546 missing on the Chinese side. Fresh flood warnings issued Sunday as water levels rose in the Bhotekoshi River, forcing repeated evacuations of survivors already traumatized by the initial disaster.",
+  "date": "2026-08-30",
+  "published_utc": "2026-08-30T17:47:32Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 1,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Nepal's death toll had climbed to 788 with 2,502 missing as of Sunday, per CBS News reporting, with Chinese authorities reporting 16 deaths and 546 missing on their side of the border.",
+  "bottom_line": "Rescuers face a compounding crisis as renewed flood warnings force fresh evacuations of an already traumatized population with over 3,000 unaccounted for across Nepal and China. Watch for updated casualty counts and whether the second surge in water flow produces additional fatalities, which would reshape assessments of the disaster's total human cost.",
+  "human_take": "",
+  "body": [
+    "Fresh flood warnings sent residents scrambling Sunday as water levels rose in Nepal's Bhotekoshi River, days after a catastrophic glacial collapse triggered flash floods that have killed at least 788 people in Nepal and left 2,502 missing, according to CBS News reporting. On the Chinese side of the border, authorities reported 16 deaths and 546 missing.",
+    "The initial disaster struck Wednesday when bedrock underneath a glacier high in the Himalayan region collapsed, taking part of the glacier with it. Scientists who studied satellite images said the rockfall was so extreme that it registered as magnitude 5.2, according to CBS News reporting. Chinese authorities informed their Nepalese counterparts of increased water flow upstream Sunday, prompting emergency evacuation alerts as the humanitarian crisis deepens.",
+    "The renewed threat compounds an already dire situation for survivors. Govind Shreshta, a resident, told CBS News: \"Sometimes they say a flood is coming, then we have to run again to higher ground, even at night. There is also rain... It's really difficult for me. I have a 72-year-old father and 70-year-old mom. I must carry them and I am exhausted.\" Sharmila Tamang, a Dhading resident, said: \"Everything is finished. Nothing is left. Not even our home.\"",
+    "The scale of destruction extends across critical infrastructure. A power plant severely damaged by the floods serves over 20,000 people across four districts, disrupting water and electricity access for thousands already struggling with emergency conditions.",
+    "International response has begun mobilizing. The U.S. State Department's Tommy Pigott said Sunday that 85 Americans remain unaccounted for in Nepal, while 9 have been safely evacuated. The State Department reported no confirmed U.S. citizen deaths at this time and activated $3.6 million in emergency humanitarian assistance, including up to three months of food for up to 10,000 households. Malaysia's Prime Minister Anwar Ibrahim announced his country will send a search-and-rescue team to assist with relief efforts and evacuate affected Malaysians, while pledging $1 million in financial aid. Chinese state media reported 261 foreigners missing in Tibet, including over a hundred Nepalis and others from around the world.",
+    "Nepal's foreign minister Shisir Khanal framed the disaster within a climate accountability debate, stating: \"Despite having only 0.1% contribution to the global emissions, people of Nepal have become major victims of climate change.\" Scientists cautioned that it is too early to draw a direct connection between global warming and Wednesday's catastrophe, per CBS News reporting. However, scientists said that as Earth's temperature rises because of human activities such as burning oil, gas and coal, the chances of such disasters increase, especially in the Himalayan mountains, which are warming considerably faster than many other parts of the world.",
+    "Rescue operations continue against worsening conditions and dwindling hope of finding those still missing. The repeated evacuation orders, while necessary, have left survivors in a state of sustained trauma as authorities struggle to balance preparedness with the psychological toll of continuous displacement."
+  ],
+  "sources": [
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/nepal-flooding-warning-death-toll-rescue/"
+    },
+    {
+      "title": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9ocXFaN1VYLTc2X01QV1dQb3MwRHZRd0hvZ1Q5b0ZFbFdOcF9IMTNXWUUtbE50R2RpYkNzWXZpQURqUUpfMFlaYTJHenBrcDM2QW5CZG1aRE0yMlM2N0ZKWjNnd0hOV2VLUldZOW9oNFpJQzMtYkxVNUxR?oc=5"
+    },
+    {
+      "title": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZENEUjFiOTFZTk1HbnZjS1NlMDNBT09uanZtR3Zqb0tZdFhrRF9NU3I0Sk1BUVJTTXd6X09RWXZVUWhJOVVwNXk3UFlyejgzZzRhRE9aY2FUQ3FXbGpYVzZfMFNzYndVRHVRZVJWbjlKOVNSOE5qVWtQaTlYREFmaWw3SWtGRkJSdm9oQ3hKV252VmpHeGZlRXFybXVyZ3ZQS2xmSkhpcUlqZ1XSAb8BQVVfeXFMT0hCYXJ5aDFWSnE2MTJGS1h5cDEta3VGZjdpdkVSQ2J5eU1oM29nNVJMZHpqYWctanZDS1liYjV6V0V5YndHUDV0M3ZpNUVpWm1yNDRxbUwxRk5pQXdJMHRsODBQWld5cW5qYW9QVEdHOEN6YjNaWGRDdUFWTS1Zc0tEcDlSX2FwV2EwRFZIS3BfZGZVVVJUbVJMbEVaZXkzSHpNS0cweXQySWwzS3lzVG1WZzFIeGNuVmR5QUlsems?oc=5"
+    }
+  ],
+  "event_utc": "2026-08-30T15:49:38Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-30T17:47:32Z",
+    "sources_cited": 3,
+    "sources_live_checked": 1
+  },
+  "update_of": "nepal-flood-death-toll-reaches-675-over-2-400-missing"
+}
