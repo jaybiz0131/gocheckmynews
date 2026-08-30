@@ -1,63 +1,6 @@
 [
  {
   "date": "2026-07-23",
-  "approved": 6,
-  "rejected": [
-   {
-    "id": "c148",
-    "headline": "Trump ties Saudi nuclear deal to Israel normalization",
-    "category": "accuracy",
-    "reasons": [
-     "The brief contains zero data_points. The draft makes specific factual claims (Trump has attached a condition, it ties to the Abraham Accords framework, it is a 30-year agreement) that cannot be traced to any sourced data point in the research brief. The writer has smuggled facts beyond what the brief supports. With no data_points provided, the brief itself is unusable for publication and the draft cannot be verified against research."
-    ]
-   },
-   {
-    "id": "c083",
-    "headline": "Amish Shah wins Democratic primary in Arizona against DCCC-backed rival",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'The primary result marks another defeat for the party establishment as Democratic voters reject Washington leadership's preferred candidates' and 'Shah's victory continues a pattern in which primary voters have moved against the DCCC's endorsed candidates.' The brief contains only ONE data point about a pattern ('This is another defeat to the DCCC as more voters reject the preferences of party leaders in Washington'), which itself is framed as reported from PBS but does not specify what prior defeats constitute the pattern. The draft presents this as an established, documented pattern without identifying the prior cases, converting a single-election claim into a generalized trend unsupported by the brief's data. The brief explicitly lists as an open question: 'What prior DCCC-backed defeats are referenced as part of the trend?' indicating the pattern is not confirmed in the source.",
-     "The draft's framing in the second paragraph ('The primary result marks another defeat for the party establishment') adopts PBS's reported language but reads as the desk's own verdict on what the result 'marks'\u2014a causal claim about what voters are 'rejecting' that goes beyond the fact that Shah won and the DCCC backed another candidate. This crosses into interpretation not grounded in the brief's data points."
-    ]
-   },
-   {
-    "id": "c100",
-    "headline": "DOJ Withdraws Subpoenas to New York Times Journalists",
-    "category": "accuracy",
-    "reasons": [
-     "The brief explicitly states 'source_texts for this story are empty; only the snippet is available' and lists as an open_question that 'No details on the judge's specific questions, the DOJ's stated reasoning for withdrawal, the names of the journalists subpoenaed' are available. The draft's claim that 'A federal judge raised questions about how the government handled the subpoenas' is presented as a definitive fact, but the brief does not support this level of specificity\u2014it says only that a judge 'questioned' the handling, and the brief's own open_questions indicate the source text is truncated. This fact cannot be traced to a confirmed data_point in the brief.",
-     "The draft states 'The subpoenas were connected to reporting the Times published on a Qatari jet.' This is confirmed in the brief's angle but appears in no data_point; the brief has zero data_points listed. The writer is drafting from an angle and open_questions, not from sourced facts."
-    ]
-   },
-   {
-    "id": "c122",
-    "headline": "Minnesota Man Sentenced to Life for Killing State House Speaker",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'Boelter admitted to politically motivated killings and shootings, though the sources do not provide details on other victims or the specific charges filed against him.' This acknowledges a gap but then presents 'politically motivated killings and shootings' as fact. The brief's data_points confirm 'Boelter admitted to politically motivated killings and shootings' (reported confidence), but the open_questions flag that 'No information is available on: the specific charges filed, the names of any other victims mentioned in the shootings beyond Hortman and her husband.' The draft treats 'shootings' (plural, undefined victims) as established when the brief itself marks this as unknown. The phrase 'though the sources do not provide details' does not cure the liability risk of naming unknown victims.",
-     "The draft states 'The case drew significant attention in Minnesota after the attacks on a top Democratic state legislator.' The brief does not contain a data_point supporting 'drew significant attention'; this is narrative inference, not sourced fact."
-    ]
-   },
-   {
-    "id": "c124",
-    "headline": "Trump administration poised to announce new tariffs as prior 10% global rate expires",
-    "category": "compliance",
-    "reasons": [
-     "The draft states 'Trump's tariff policy suffered what was characterized as a damaging blow in February' without attribution. The brief data_point says 'Trump's tariffs policy suffered a damaging blow in February' with 'reported' confidence from The Guardian, but the draft's phrasing 'what was characterized as' creates ambiguity about whether this is the outlet's characterization or the desk's judgment. This must be clearly attributed inline to The Guardian to avoid reading as the desk's own verdict on whether the blow was actually 'damaging'."
-    ]
-   },
-   {
-    "id": "c079",
-    "headline": "FDA investigates cyclospora outbreak tied to food products including Taco Bell locations",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'Sources have reported links to food products served at Taco Bell' but the brief's core_claim says 'sources reporting links to food products including those served at Taco Bell' and provides no data_point specifically confirming the Taco Bell link. The single data_point in the brief is only about the FDA not yet identifying specific products. The Taco Bell claim appears in the brief's core_claim but is not supported by any data_point with a source URL, timestamp, and confidence label. This fact cannot be verified against the research and should not appear in the draft."
-    ]
-   }
-  ]
- },
- {
-  "date": "2026-07-23",
   "approved": 4,
   "rejected": [
    {
@@ -9852,6 +9795,59 @@
     "category": "accuracy",
     "reasons": [
      "The brief explicitly states 'no brief exists for this story; every draft fact must then trace to the draft's own cited sources or be rejected.' The draft cites only one source (NPR) but makes multiple unsourced factual claims: (1) 'nearly 50,000 arrests in July 2026' is stated as fact but the NPR link is not verified as containing this number; (2) 'highest monthly total of Trump's second term' is a comparative claim requiring verification against prior months' data not cited; (3) 'expansion of ICE operations to new venues signals a broadening of where agents conduct detention and arrest activities, extending beyond traditional workplace and home raids to public spaces' is interpretive framing not directly attributed to NPR reporting; (4) 'The scope of operations, now reaching airports and courthouses, exposes a wider range of immigrants to potential detention, regardless of prior criminal history or legal proceedings' contains the phrase 'regardless of prior criminal history or legal proceedings' which is not attributed to any source and reads as the desk's own analytical assertion rather than a reported fact. Without access to the NPR article itself, the core numerical claim and the comparative claim cannot be verified against the single cited source."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-08-30",
+  "approved": 6,
+  "rejected": [
+   {
+    "id": "c087",
+    "headline": "Ferry carrying nearly 270 people capsizes off northern Cyprus; at least 7 dead, 24 missing",
+    "category": "accuracy",
+    "reasons": [
+     "No brief exists for this story. Per instructions, every draft fact must trace to the draft's own cited sources.",
+     "The draft cites two sources but provides no detail that would allow verification. The body states '7 deaths have been confirmed, with 24 people still missing' but does not attribute these numbers inline to either source.",
+     "The draft is extremely thin (three sentences total) and provides no context: location specifics, time of incident, cause, nationality of passengers, rescue response, or any detail beyond raw casualty counts.",
+     "Without a brief or inline source attribution for the casualty figures, the approver cannot verify that the cited sources actually carry these numbers. The draft fails the basic accountability requirement: facts must be traceable."
+    ]
+   },
+   {
+    "id": "c179",
+    "headline": "NASA launches Nancy Grace Roman Space Telescope to search for exoplanets and probe dark matter",
+    "category": "accuracy",
+    "reasons": [
+     "No brief exists for this story. Per instructions, every draft fact must trace to the draft's own cited sources.",
+     "The draft states the telescope cost $4.3 billion but does not attribute this figure inline to any source.",
+     "The draft states the telescope 'is expected to discover tens of thousands of exoplanets' but does not attribute this projection inline to any source.",
+     "The draft states dark energy and dark matter 'together comprise over 95 percent of the universe' in the bottom_line, but does not attribute this figure to any source.",
+     "Four sources are listed, but no facts in the draft are tied to them with inline attribution. The approver cannot verify that these figures are accurate or that they appear in the cited sources. This is a complete break of the traceability rule."
+    ]
+   },
+   {
+    "id": "c244",
+    "headline": "Trump administration deports 100+ people to eight African nations in third-country expansion",
+    "category": "compliance",
+    "reasons": [
+     "The phrase 'obliterate the global refugee protection system' is Alma David's characterization (a loaded advocacy claim), not an objective fact. The draft presents this as her quoted statement, which is correct. However, the opening sentence of the body contains problematic framing: 'Over a 10-day period, the Trump administration sent more than 100 deportees from Afghanistan, Cuba, Nicaragua, Iran, Nepal, Turkey, Venezuela, and African nations to eight countries across Africa.' This phrasing ambiguously groups the deportees' countries of origin (Afghanistan, Cuba, etc.) with 'African nations,' making it unclear whether some of the deportees came from Africa. The brief's data_point clarifies: 'In addition to Afghans, Cubans and Nicaraguans, the ICE flights included deportees from Iran, Nepal, Turkey and Venezuela, as well as African detainees who are not from the nations where they were sent.' The draft's wording could mislead readers into thinking the list of origin countries is complete or categorical, when in fact there were 'African detainees' as well. Additionally, the contested political terminology 'illegal alien' appears in the DHS quote, which is appropriate as attribution, but the draft should ensure this quote is presented clearly as DHS's own framing, not the desk's. The quote is properly attributed to DHS, so this passes. However, the opening sentence's ambiguity about deportee origins is a material accuracy problem."
+    ]
+   },
+   {
+    "id": "c206",
+    "headline": "Walmart settles DOJ opioid lawsuit for $50 million",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states the lawsuit 'alleged its pharmacies filled hundreds of thousands of illegal prescriptions for controlled substances' but the brief data point says 'The lawsuit claims Walmart's pharmacies filled hundreds of thousands of illegal prescriptions for controlled substances.' The brief does not specify that these were opioid prescriptions specifically in the lawsuit allegations\u2014that framing appears in the brief's angle/editorial framing, not in the verified data point. The draft title says 'opioid lawsuit' and the body says 'illegal prescriptions for controlled substances' which is narrower than 'opioid prescriptions.' This is a factual claim about what the lawsuit alleged that is not clearly supported in the brief's data_points as written."
+    ]
+   },
+   {
+    "id": "c088",
+    "headline": "Michigan Democratic Senate nominee apologizes for synagogue attack response",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief exists for this story. The instruction states: 'every draft fact must then trace to the draft's own cited sources or be rejected.' The draft cites four URLs but provides no actual quotations, specific details, dates, or verifiable facts that can be traced to those sources. The sources are listed but their content is not provided for verification. The core claims (El-Sayed's apology, timing in March, target audience as Jewish Democratic Caucus, the framing about repairing relationships) cannot be verified against the brief or against quoted/attributed material in the draft itself. Without a brief and without inline attribution or direct quotes in the draft body, every factual claim fails the traceability requirement."
     ]
    }
   ]
