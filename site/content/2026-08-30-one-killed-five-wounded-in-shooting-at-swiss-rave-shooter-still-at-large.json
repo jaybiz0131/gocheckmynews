@@ -1,0 +1,42 @@
+{
+  "id": "c027",
+  "slug": "one-killed-five-wounded-in-shooting-at-swiss-rave-shooter-still-at-large",
+  "kind": "brief",
+  "title": "One killed, five wounded in shooting at Swiss rave; shooter still at large",
+  "dek": "A 22-year-old woman was killed and five others wounded in a shooting at a rave in Aarau, Switzerland, early Sunday, August 30, 2026. The perpetrator or perpetrators remain unidentified. Police have launched a large-scale search involving cross-border cooperation with German authorities.",
+  "date": "2026-08-30",
+  "published_utc": "2026-08-30T14:30:52Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 10,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "A 22-year-old woman was fatally shot and five others injured at a rave in Aarau, Switzerland; the shooter remains at large.",
+  "bottom_line": "Police have established a cross-border manhunt with German authorities but have disclosed no leads on the perpetrator or motive. The coming days will show whether surveillance footage from the event, witness accounts, or ballistic analysis yields identifying information about those responsible.",
+  "human_take": "",
+  "body": [
+    "A 22-year-old woman was killed and five others wounded in a shooting at a rave in Aarau, Switzerland, early Sunday, August 30, 2026, as authorities launched a large-scale manhunt with no suspect yet identified.",
+    "The woman died from her injuries at the scene of the \"Aarau Rave VOL. 7\" event, held at the Schachen area horse-racing track. According to BBC News, the victim was an Italian national. The five wounded, per Fox News reporting, consisted of four men and another woman, all between the ages of 24 and 27, and all residents of Switzerland.",
+    "Police spokesman Pascal Wenzel told SRF that authorities were alerted to the shooting shortly after 2:30 a.m., minutes after the event had been scheduled to end at 2 a.m. Per BBC News, police received an initial report of shots fired at the Schachen race track at approximately 02:30 local time (00:30 GMT). At a news conference Sunday afternoon, police spokesman Bernhard Graser stated the force had \"no information about the perpetrator(s) or their motive\" and said those responsible \"were not believed to be in Aarau anymore.\"",
+    "A large area surrounding the horse-racing track, swimming pool and nearby sports field was cordoned off as police searched the area. The response included police officers, firefighters, emergency medical services, a cantonal disaster-response unit, and a Swiss military Super Puma helicopter, according to SRF reporting cited by Fox News. BBC News reported that an AFP journalist observed armed officers deployed on the highway up to 30 kilometers from the site. Police in neighboring Germany assisted with the search as part of routine cross-border cooperation, a spokesman in Freiburg told German news agency dpa, according to SRF.",
+    "Aarau, home to approximately 23,000 people, is located roughly 46 kilometers west of Zurich and less than 40 kilometers from the German border. Organizers had expected up to 3,500 people to attend the rave. An eyewitness told Blick that he \"suddenly heard the gunshots\" minutes after the music stopped at 02:30, initially believing them to be fireworks, and said he was told to hide by a man and a woman, the latter of whom was then shot.",
+    "Swiss DJ Tekibo, who performed at the rave, wrote on Instagram that what happened was \"absolutely heartbreaking\" and said raves should be places of freedom and safety. He also said he had lost an \"important friend,\" though SRF reported it was not clear whom he was referring to. Another performer said the incident occurred \"straight after our set,\" according to a post on social media reported by BBC. Olivier Grein, whose firm Agency Events AG organised the event, said the company was \"shaken\" and would do all it could to support the police investigation.",
+    "Switzerland has one of the highest rates of gun ownership in Europe, according to BBC reporting, although violent shootings are rare and tighter controls were introduced in recent years. Police appealed to witnesses to provide investigators with videos or photographs from the event and established an information line for relatives and eyewitnesses. The investigation and search operation remained ongoing."
+  ],
+  "sources": [
+    {
+      "title": "Fox News",
+      "url": "https://www.foxnews.com/world/switzerland-rave-shooting-kills-1-injures-5-police-hunt-responsible"
+    },
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c9qr750je1go?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "event_utc": "2026-08-30T11:58:32Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-30T14:30:52Z",
+    "sources_cited": 2,
+    "sources_live_checked": 2
+  }
+}

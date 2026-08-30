@@ -1,0 +1,77 @@
+{
+  "id": "c003",
+  "slug": "nasa-launches-nancy-grace-roman-space-telescope-mission-begins-search-for-exoplanets-and-dark-matter",
+  "kind": "brief",
+  "title": "NASA launches Nancy Grace Roman Space Telescope; mission begins search for exoplanets and dark matter",
+  "dek": "NASA successfully launched the $4.3 billion Nancy Grace Roman Space Telescope on August 30, 2026, aboard a SpaceX Falcon Heavy rocket from Kennedy Space Center. The observatory will detect exoplanets, map dark matter and dark energy, and survey billions of stars and galaxies.",
+  "date": "2026-08-30",
+  "published_utc": "2026-08-30T14:30:52Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 3,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "NASA's $4.3 billion Nancy Grace Roman Space Telescope launched successfully on August 30, 2026, beginning a mission to detect exoplanets and measure dark matter.",
+  "bottom_line": "Roman is now in transit to L2 with 100 days of travel ahead. The mission's success hinges on the deployment and calibration of both instruments once it reaches its destination, with initial scientific observations expected months after arrival.",
+  "human_take": "",
+  "body": [
+    "NASA successfully launched the Nancy Grace Roman Space Telescope on August 30, 2026, aboard a SpaceX Falcon Heavy rocket at 7:26 a.m. EDT from Pad 39A at Kennedy Space Center. According to CBS News, this was the 13th flight of a Falcon Heavy, which generates a combined 3.7 million pounds of thrust.",
+    "The two side boosters shut down and separated 2.5 minutes after liftoff, then flipped around and flew back to on-target landings at Cape Canaveral Space Force Station, per CBS News. The central core stage shut down and fell into the Atlantic after using all its propellant. The 18,000-pound telescope itself was released to fly on its own 31 minutes after liftoff.",
+    "Roman is bound for Lagrange Point No. 2, about a million miles on the opposite side of Earth from the sun. According to CBS News, it will take about 100 days to reach L2, where the James Webb Space Telescope is also stationed. The mission cost $4.3 billion and launched nearly a year ahead of schedule and within budget, per the Washington Examiner.",
+    "The telescope is equipped with two main instruments. The first is a 300-megapixel wide-field camera whose field of view is more than 100 times wider than that of NASA's Hubble Space Telescope, according to the Washington Examiner. Per the Washington Examiner, Roman's wide-field infrared camera matches Hubble's sensitivity but is 1,000 times faster. A month of Milky Way observations by Roman would take Hubble a century to complete, according to senior project scientist Julie McEnery as reported by the Washington Examiner.",
+    "The second instrument is an advanced coronagraph equipped with deformable mirrors that can block out the glare of a star to detect the vastly dimmer light reflected from the atmosphere of an orbiting planet, per CBS News. Roman's coronagraph is expected to detect Jupiter-size planets orbiting Earth-like stars.",
+    "Over its mission, Roman is expected to catalog some 20 billion stars and 2 billion or more individual galaxies, according to CBS News. The telescope is also expected to catalog tens of thousands of supernova blasts. Some 6,200 exoplanets have been discovered to date, according to CBS News, and by the end of Roman's mission, that number is expected to climb well above 100,000.",
+    "NASA science chief Nicky Fox said, according to CBS News, \"Roman is going to revolutionize the way we look at our universe. It is going to measure dark matter, which is like the fabric of the universe; it's the thing you can't see, but we know it's there.\" Senior project scientist Julie McEnery said, per CBS News, \"We're probably not going to confirm the standard model of how the universe works. We're very likely to demonstrate that our standard model is wrong, and to set ourselves on a path to figuring out how does our universe really work.\"",
+    "Roman is NASA's first space telescope to be named after a woman, according to the Washington Examiner. Nancy Grace Roman was NASA's first chief astronomer and died in 2018 at age 93. The telescope's primary mirror is nearly 8 feet in diameter and is actually surplus from spy satellites, per the Washington Examiner. The National Reconnaissance Office donated two leftover mirrors to NASA more than a decade ago, with the second mirror still in storage. The telescope is designed to be refueled, meaning if a robotic tanker becomes available in the coming decade, that could extend its life, according to the Washington Examiner."
+  ],
+  "sources": [
+    {
+      "title": "NPR",
+      "url": "https://www.npr.org/2026/08/30/nx-s1-5948814/launch-nancy-grace-roman-space-telescope-nasa"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/nasa-launches-roman-space-telescope-explore-hidden-universe/"
+    },
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/video/nasa-launches-its-next-generation-space-telescope-269068357947"
+    },
+    {
+      "title": "Washington Examiner",
+      "url": "https://www.washingtonexaminer.com/policy/space/4705507/nasa-roman-space-telescope-launch/"
+    }
+  ],
+  "event_utc": "2026-08-30T10:30:00Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-30T14:30:52Z",
+    "sources_cited": 4,
+    "sources_live_checked": 2
+  },
+  "also_reported_by": [
+    {
+      "outlet": "NASA (.gov)",
+      "headline": "NASA\u2019s Dark Universe-Seeking Nancy Grace Roman Space Telescope Launches - NASA (.gov)"
+    },
+    {
+      "outlet": "SpaceX",
+      "headline": "Roman Space Telescope Mission - SpaceX"
+    },
+    {
+      "outlet": "Engadget",
+      "headline": "How To Watch The Nancy Grace Roman Space Telescope's Launch - Engadget"
+    },
+    {
+      "outlet": "NASA Science (.gov)",
+      "headline": "Dr. Nancy Grace Roman (1925-2018) - NASA Science (.gov)"
+    },
+    {
+      "outlet": "Space",
+      "headline": "Inside the Nancy Grace Roman Space Telescope, NASA's next great observatory - Space"
+    },
+    {
+      "outlet": "The New York Times",
+      "headline": "NASA\u2019s Nancy Grace Roman Telescope Promises a Breakthrough in Cosmic Exploration - The New York Times"
+    }
+  ]
+}

@@ -1,55 +1,6 @@
 [
  {
   "date": "2026-07-23",
-  "approved": 7,
-  "rejected": [
-   {
-    "id": "c014",
-    "headline": "House passes war powers resolution to end Iran conflict for second time",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'Rep. Pramila Jayapal of Washington, who led the effort, stated the vote sends President Trump \"a clear message that Congress will not continue to tolerate what she described as an \\'illegal war.\\'\"' However, the brief's data_point attributes this to 'Rep. Pramila Jayapal, D-Wash.' without the 'she described as' parenthetical framing. The draft introduces a characterization ('what she described as') not present in the source brief, which risks inflating the claim's directness.",
-     "The draft quotes Jayapal saying Trump won his election by promising to end forever wars, but the brief data_point states 'Jayapal noted that Trump won his election by promising to end forever wars.' The draft presents this as a direct quote when the brief only attributes the claim as a note/observation without quotation marks, suggesting the actual quote may not exist or may be paraphrased differently in the source."
-    ]
-   },
-   {
-    "id": "c024",
-    "headline": "Brent crude tops $100 a barrel as Middle East conflict escalates",
-    "category": "compliance",
-    "reasons": [
-     "The bottom_line contains language that reads as financial/investment advice: 'Central banks face a narrowing window: they must decide whether to hold rates steady despite energy headwinds, or tighten further if energy shocks feed into broader price growth.' This prescriptive framing ('must decide') in the forward-looking section violates the no-advice rule. The bottom_line should present what to watch, not counsel policymakers on decision-making.",
-     "The draft contains speculative language that borders on market prediction: 'The next major trigger will be whether Middle East tensions de-escalate or further military action drives prices higher.' This reads as predictive analysis rather than reporting what conditions would invalidate the core claim, and combined with the energy-price-watch framing, creates cumulative compliance risk around financial commentary."
-    ]
-   },
-   {
-    "id": "c120",
-    "headline": "Minnesota man sentenced to life for killings of Democratic lawmaker Melissa Hortman and her husband",
-    "category": "compliance",
-    "reasons": [
-     "The draft characterizes the killings as 'politically motivated' in the body paragraph but the brief's data_point labels this claim as 'reported'\u2014meaning it comes from the source, not established fact. The phrasing 'The killings were characterized as politically motivated, per Guardian US' correctly attributes the characterization, but the bottom_line then asks 'Questions remain about Boelter's stated motive, any ideological basis for the attacks' which contradicts the earlier statement that the killings were characterized as politically motivated. This creates an internal liability: if the source characterizes them as politically motivated, asking whether there is an ideological basis reads as the desk casting doubt on a reported fact or inviting readers to disbelieve the source's own characterization. The bottom_line must either accept the reported characterization or flag it as unconfirmed; it cannot do both."
-    ]
-   },
-   {
-    "id": "c106",
-    "headline": "EU imposes antitrust fine on Google over search engine practices",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'The EU accused Google of anti-competitive business practices related to search' but the brief contains no data_point confirming the specific nature of the accusation beyond 'anti-competitive business practices related to search.' The core_claim and data_points do not detail what practices were targeted. The draft then asserts in the bottom_line 'Critical reporting gaps remain: the exact fine amount, specific practices targeted, and Google's response are not confirmed in available sources'\u2014which acknowledges the gap but then includes unconfirmed material ('The action comes at a tense moment for trans-Atlantic trade relations, per the New York Times') as fact. If the brief itself flags open_questions about the fine amount and specific practices, the draft cannot assert these as settled facts. The statement 'major antitrust fine' lacks a dollar figure in the brief (open_question asks 'What is the exact amount of the fine'); presenting a fine as 'major' without a number is advocacy disguised as reporting."
-    ]
-   },
-   {
-    "id": "c123",
-    "headline": "5.0-magnitude earthquake strikes Texas panhandle",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'the strongest seismic event in the area since 1900' but the brief data_point says 'the strongest quake to hit the area since 1900.' The draft's phrasing introduces ambiguity about whether this is the strongest 'seismic event' (which could include smaller tremors) versus the strongest 'quake' (magnitude). The brief is precise; the draft softens the claim with 'event' rather than matching the source language 'quake,' introducing potential factual slippage.",
-     "The draft calculates '126 years' in the bottom_line ('the strongest tremor in 126 years') based on the timestamp 2026-07-23 and the brief's 'since 1900.' However, 2026 minus 1900 equals 126 years only if the calculation assumes the current year is exactly 2026. This is a smuggled inference about the current date that does not appear in the brief or source reporting and adds a derived fact not in the research."
-    ]
-   }
-  ]
- },
- {
-  "date": "2026-07-23",
   "approved": 6,
   "rejected": [
    {
@@ -9847,6 +9798,60 @@
     "category": "accuracy",
     "reasons": [
      "No research brief exists for this story. The instruction requires that every draft fact must trace to either a research brief's data_points or to the draft's own cited sources. The draft cites only NPR as a source but provides no research brief. The draft makes specific factual claims (nearly 50,000 arrests in July, highest monthly total of Trump's second term, expansion to airports and courthouses) that require verification against the NPR article. Without either a brief or the ability to access and verify the cited source, approval would constitute blind acceptance of unverified claims."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-08-30",
+  "approved": 7,
+  "rejected": [
+   {
+    "id": "c252",
+    "headline": "Death toll from Nepal mudslide and flash flood reaches 750; 2,500 reported missing",
+    "category": "accuracy",
+    "reasons": [
+     "The draft cites 'NBC's Janis Mackey Frayer reporting on ongoing operations' but the body contains no detail about what Frayer reported, when, or what operations she described. The brief's data_point simply states 'NBC's Janis Mackey Frayer reported on the rescue efforts' without embedding her reporting into the narrative; the draft treats her byline as a fact when no substantive content from her coverage is present.",
+     "The brief flags as an open_question that 'the sources do not specify which geographic region of Nepal was affected' and 'no identification of the specific date the disaster occurred.' The draft opens by stating 'a catastrophic mudslide and flash flood in Nepal' without location, date, or regional detail, then immediately pivots to rescue efforts. This reads as the desk narrating the absence of detail rather than reporting what is sourced\u2014a violation of the rule against narrating absence.",
+     "The story is extraordinarily thin (brief confirms thin: true, source_chars: 1940). Two sentences of body text, one of which is a reporter attribution with no content, cannot sustain even a short story without appearing to launder a headline onto a single video clip."
+    ]
+   },
+   {
+    "id": "c113",
+    "headline": "Military leaders warn Hegseth against extending Iran war operations",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief was provided for this story. The approval instruction states 'every draft fact must then trace to the draft's own cited sources.' The draft cites two sources: a Washington Post URL and a Google News RSS feed. The Google News RSS feed is not a readable source document and cannot be verified. The Washington Post URL appears to be a fabricated/future-dated URL (dated 2026-08-30, which is a future date relative to current context, and the headline in the URL does not match the draft's title structure typical of WaPo). The core claims\u2014that Pentagon officials are cautioning Hegseth, that a classified assessment exists warning about readiness erosion, that operations are six months in with no clear endpoint, that military leaders are divided\u2014cannot be verified against the provided sources.",
+     "The draft presents a 'classified assessment' as fact without indicating confidence level or explaining how a classified document's contents are being reported. This is a potential accuracy/compliance issue: classified material cited without explanation of how it became public creates liability."
+    ]
+   },
+   {
+    "id": "c075",
+    "headline": "Postal Service Rule Could Bar Millions From Voting By Mail",
+    "category": "accuracy",
+    "reasons": [
+     "The brief identifies this story as 'thin' (thin: true) with minimal data_points. The brief's open_questions explicitly flag critical missing information: the name and jurisdiction of the judge, what constitutes 'noncompliant' states, the specific rule text, whether it is preliminary injunctive relief, and which states are affected. The draft provides none of this information. A reader finishing this draft cannot answer any of the open_questions and does not have sufficient factual grounding to understand the scope or mechanics of the ruling.",
+     "The draft's first sentence claims a 'Trump administration postal rule' existed, but the brief does not establish what rule was issued, by what authority, or when. The phrase 'states the administration deemed noncompliant' is vague enough to be misleading without specifics.",
+     "The draft cites only the New York Times but does not provide any facts from the Times article beyond the existence of a ruling and its partisan implication. The draft reads as a skeleton\u2014the bare bones are present but no meat substantiates them.",
+     "Most critically: the draft's second paragraph introduces a new claim not in the brief's data_points: 'The ruling could disproportionately affect Democrats and many battleground elections.' The brief DOES include this as a data_point, BUT it is marked 'confidence: reported'\u2014meaning it is a reported claim, not a verified fact. The draft presents it as a straightforward consequence ('could disproportionately affect') without signaling that this is an interpretive claim from the article, not a settled outcome. This crosses into potential advocacy: implying partisan harm from a ruling without attribution or confidence qualification."
+    ]
+   },
+   {
+    "id": "c206",
+    "headline": "Meta settles Texas child safety case for $1 billion",
+    "category": "accuracy",
+    "reasons": [
+     "Draft contains a factual claim not in the brief: 'Meta agreed to pay $1 billion and implement new child safety regulations on its platforms as part of a settlement with the state of Texas, according to The Hill.' The brief's data_points separate these into two claims, both marked 'reported' confidence. The draft presents both as settled, sourced fact. However, the open_questions in the brief include 'What specific child safety regulations will Meta be required to implement?' and 'On what date was the settlement reached?' and 'What was the basis of Texas's legal action against Meta?'\u2014indicating the source reporting was preliminary or incomplete on implementation details. The draft states this as accomplished fact ('will implement') without acknowledging the uncertainty about specifics that the brief's open_questions flag. The brief's open_questions also ask whether regulations apply only in Texas or nationwide, and about 'conditions, timelines, or monitoring mechanisms'\u2014none of which appear in the draft. The story is too thin to publish without those details, and the draft does not signal they are unknown.",
+     "The draft lacks a date for the settlement announcement. The brief's timestamp is '2026-08-30T10:57:18Z' but the draft provides no date at all, creating ambiguity about when this news broke.",
+     "Brief marks this story 'thin: true' with only 158 source characters and two core data_points. The draft is 98 words of body text covering a $1 billion settlement affecting millions of users. The brevity is defensible IF the story is merely announcing the settlement; but the lack of a date, the absence of any reporting on what 'new child safety regulations' means, and the unstated basis of Texas's action make this story unpublishable as written. It reads as placeholder text, not finished reporting."
+    ]
+   },
+   {
+    "id": "c289",
+    "headline": "ICE arrests surge to nearly 50,000 in July amid expanded enforcement",
+    "category": "accuracy",
+    "reasons": [
+     "The brief explicitly states 'no brief exists for this story; every draft fact must then trace to the draft's own cited sources or be rejected.' The draft cites only one source (NPR) but makes multiple unsourced factual claims: (1) 'nearly 50,000 arrests in July 2026' is stated as fact but the NPR link is not verified as containing this number; (2) 'highest monthly total of Trump's second term' is a comparative claim requiring verification against prior months' data not cited; (3) 'expansion of ICE operations to new venues signals a broadening of where agents conduct detention and arrest activities, extending beyond traditional workplace and home raids to public spaces' is interpretive framing not directly attributed to NPR reporting; (4) 'The scope of operations, now reaching airports and courthouses, exposes a wider range of immigrants to potential detention, regardless of prior criminal history or legal proceedings' contains the phrase 'regardless of prior criminal history or legal proceedings' which is not attributed to any source and reads as the desk's own analytical assertion rather than a reported fact. Without access to the NPR article itself, the core numerical claim and the comparative claim cannot be verified against the single cited source."
     ]
    }
   ]

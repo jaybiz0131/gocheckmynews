@@ -1,0 +1,62 @@
+{
+  "id": "c182",
+  "slug": "minnesota-supreme-court-rejects-mike-lindell-s-bid-to-recount-gop-primary",
+  "kind": "brief",
+  "title": "Minnesota Supreme Court rejects Mike Lindell's bid to recount GOP primary",
+  "dek": "Minnesota's highest court rejected Mike Lindell's demand for a full statewide recount of the Aug. 11 GOP gubernatorial primary, which he lost to Lisa Demuth by 45,000 votes. Lindell vowed to appeal to the U.S. Supreme Court and said he would pursue an independent investigation using voting data from all 87 counties.",
+  "date": "2026-08-30",
+  "published_utc": "2026-08-30T14:30:52Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 8,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Chief Justice Natalie E. Hudson ruled that the state's recount plan, which would count ballots cast only for Lindell and Demuth, follows state law and does not constitute wrongdoing by state officials.",
+  "bottom_line": "The U.S. Supreme Court's response to Lindell's appeal, if he files one, will signal whether federal courts will entertain recount demands based on claims of voting machine anomalies that state courts have already rejected. Lindell's independent county-level data investigation may or may not produce public findings; any such results will test whether state-level scrutiny validates or contradicts the approved recount's outcome.",
+  "human_take": "",
+  "body": [
+    "Minnesota's Supreme Court on Saturday rejected Mike Lindell's demand for a full recount of the Aug. 11 Republican gubernatorial primary, which he lost to Lisa Demuth by 45,000 votes, according to NBC News. Chief Justice Natalie E. Hudson wrote in a six-page ruling that the Minnesota secretary of state's office and State Canvassing Board were \"not committing any wrongful act, omission, or error\" as Lindell claimed.\nLindell had initially pledged to pay an estimated $825,000 to cover a full hand recount and audit but refused to pay on Monday, the state's deadline, after learning the recount would only count ballots cast for either Lindell or Demuth. He then sued the Minnesota secretary of state's office and State Canvassing Board on Monday, claiming they pulled a \"bait-and-switch\" by not counting ballots for all seven candidates in the Republican field. The Minnesota secretary of state's office said in a statement Tuesday that the recount plan, approved by the State Canvassing Board on Aug. 18, \"follows state law and administrative rules on recount procedures and is consistent with previous recount plans.\"\nHudson's ruling explained that under the approved plan, ballots would be sorted between Democratic and Republican primaries, then Republican ballots separated into three piles: one for Lindell, one for Demuth, and one for all other candidates. Hudson wrote that \"after all votes are sorted and counted, Lindell would know whether he is the winner over Demuth\" and that \"all ballots, in all piles, would be counted and subject to challenge.\" She also wrote that \"Lindell's focus on alleged anomalies confuses the purpose of a manual recount with an election contest.\"\nLindell told NBC News on Saturday he plans to appeal the ruling to the U.S. Supreme Court. He told NBC News he would not be satisfied with anything less than a full hand recount of all ballots in the Minnesota gubernatorial primary races, arguing there were \"anomalies\" due to use of electronic voting machines. He told NBC News Saturday: \"I'm willing to pay even more money. I don't care what it costs.\"\nIn a press release reported by the Washington Examiner, Lindell stated: \"One of the few good election laws Minnesota does have is that as a candidate, I have the right to completely audit and hand count every ballot in the state, and I am going to exercise that right to full extent of the law.\" He added: \"Even if this recount and audit does not overturn my election for governor of Minnesota, I believe this is the gateway to getting rid of these electronic voting machines. One hundred and thirty-two countries have banned these machines already. The United States should be setting the standard for elections, instead we are the worst in the world.\"\nLindell has faced legal consequences in other election-related cases. According to NBC News, he was found to have defamed a former employee of Dominion Voting Systems in June 2025, a claim he has denied. In another defamation case, NBC News reports that Lindell has refused to pay $56,369 in sanctions to voting machine company Smartmatic USA Corp., and because he has not paid the original sanctions, he now owes more than the original amount in court fees. Lindell told NBC News this month that he still does not intend to pay either the fees or sanctions in the Smartmatic case."
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/politics/2026-election/minnesota-supreme-court-rejects-mike-lindells-bid-recount-gop-gubernat-rcna595080"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/regulation/court-battles/6059439-minnesota-court-rejects-lindell-recount/"
+    },
+    {
+      "title": "Washington Examiner",
+      "url": "https://www.washingtonexaminer.com/news/campaigns/state/4705499/minnesota-supreme-court-mike-lindell-recount/"
+    }
+  ],
+  "event_utc": "2026-08-30T03:07:04Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-30T14:30:52Z",
+    "sources_cited": 3,
+    "sources_live_checked": 3
+  },
+  "also_reported_by": [
+    {
+      "outlet": "NBC News",
+      "headline": "Minnesota Supreme Court rejects Mike Lindell\u2019s bid to recount GOP gubernatorial primary - NBC News"
+    },
+    {
+      "outlet": "The Economic Times",
+      "headline": "Mike Lindell challenges Minnesota GOP primary loss as state Supreme Court rejects recount bid - The Economic Times"
+    },
+    {
+      "outlet": "CBS News",
+      "headline": "Republican Party of Minnesota concerned over governor candidate Mike Lindell's residency status - CBS News"
+    },
+    {
+      "outlet": "5 EYEWITNESS NEWS",
+      "headline": "'An extraordinary situation': Minnesota GOP questions Mike Lindell's residency ahead of primary - 5 EYEWITNESS NEWS"
+    },
+    {
+      "outlet": "SSBCrack",
+      "headline": "Minnesota Supreme Court Rejects Mike Lindell\u2019s Recount Bid After GOP Primary Loss - SSBCrack"
+    }
+  ]
+}

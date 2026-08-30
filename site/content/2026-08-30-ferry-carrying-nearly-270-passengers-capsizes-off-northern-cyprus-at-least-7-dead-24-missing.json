@@ -1,0 +1,70 @@
+{
+  "id": "c090",
+  "slug": "ferry-carrying-nearly-270-passengers-capsizes-off-northern-cyprus-at-least-7-dead-24-missing",
+  "kind": "brief",
+  "title": "Ferry carrying nearly 270 passengers capsizes off northern Cyprus; at least 7 dead, 24 missing",
+  "dek": "A catamaran-style ferry operating between northern Cyprus and Turkey capsized on August 30, 2026, after taking in water just 15 minutes after departure. At least 7 people died and 237 were rescued, with 24 still missing.",
+  "date": "2026-08-30",
+  "published_utc": "2026-08-30T14:30:52Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 1,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "A ferry carrying nearly 270 passengers and crew capsized off northern Cyprus on August 30, 2026, killing at least 7 people, with 237 rescued and 24 missing.",
+  "bottom_line": "The death toll is described as 'at least seven' in the sources, leaving open the possibility of additional confirmed fatalities. The focus now shifts to completing the search for the 24 missing people and determining the exact cause of the rapid water intake, which occurred in adverse weather only 15 minutes after the ferry departed.",
+  "human_take": "",
+  "body": [
+    "A catamaran-style ferry carrying nearly 270 passengers and crew capsized off the coast of northern Cyprus on Sunday, August 30, 2026. According to ABC News citing Northern Cyprus Prime Minister Unal Ustel, at least 7 people have died in the incident.",
+    "The ferry, operated by Filo Denizcilik, was traveling from the port of Kyrenia in the breakaway north of ethnically divided Cyprus to the Turkish port of Tasucu in Mersin province. The vessel began taking in water approximately 15 minutes after departure, according to Northern Cyprus PM Ustel, prompting a distress call. The ship was taking in water about 7.5 kilometers (4 nautical miles) off the coast, per Turkish state broadcaster TRT as reported by ABC News.",
+    "Rescue operations recovered 237 people from the water, according to the Northern Cyprus PM. A search was underway for 24 additional people reported missing, as of the time of the initial reports on August 30.",
+    "The ferry sank off the coast of Diana beach on Cyprus' northern coast, according to Kyrenia Mayor Murat Senkul as cited by ABC News. The vessel faced adverse weather conditions at the time of the emergency, according to Northern Cyprus PM Ustel.",
+    "At least 7 deaths have been confirmed so far in what marks a significant maritime casualty in the eastern Mediterranean. The ongoing search operation involves recovery of survivors and location of the missing passengers and crew."
+  ],
+  "sources": [
+    {
+      "title": "abcnews.com",
+      "url": "https://abcnews.com/International/wireStory/ferry-carrying-260-passengers-capsizes-off-northern-cyprus-136067969"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/ferry-passengers-capsizes-northern-cyprus/"
+    },
+    {
+      "title": "The New York Times",
+      "url": "https://www.nytimes.com/2026/08/30/world/europe/cyprus-ferry-capsizes-turkey.html"
+    }
+  ],
+  "event_utc": "2026-08-30T13:14:48Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-30T14:30:52Z",
+    "sources_cited": 3,
+    "sources_live_checked": 2
+  },
+  "also_reported_by": [
+    {
+      "outlet": "France 24",
+      "headline": "Ferry carrying more than 250 passengers capsizes off northern Cyprus - France 24"
+    },
+    {
+      "outlet": "NBC News",
+      "headline": "Ferry carrying nearly 270 passengers and crew capsizes off northern Cyprus - NBC News"
+    },
+    {
+      "outlet": "WPXI",
+      "headline": "Ferry carrying nearly 270 passengers and crew capsizes off northern Cyprus - WPXI"
+    },
+    {
+      "outlet": "The News International",
+      "headline": "Ferry carrying 270 people capsizes off North Cyprus coast; At least one dead - The News International"
+    },
+    {
+      "outlet": "News Mobile",
+      "headline": "Cyprus Ferry Carrying 270 Passengers Capsizes Off Kyrenia Coast, Rescue Underway - News Mobile"
+    },
+    {
+      "outlet": "Hindustan Times",
+      "headline": "Ferry boat with around 270 passengers capsizes off North Cyprus: Report | World News - Hindustan Times"
+    }
+  ]
+}

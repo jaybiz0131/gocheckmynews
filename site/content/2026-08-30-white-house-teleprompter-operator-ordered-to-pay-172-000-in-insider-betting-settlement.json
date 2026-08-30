@@ -1,0 +1,45 @@
+{
+  "id": "c042",
+  "slug": "white-house-teleprompter-operator-ordered-to-pay-172-000-in-insider-betting-settlement",
+  "kind": "brief",
+  "title": "White House teleprompter operator ordered to pay $172,000 in insider betting settlement",
+  "dek": "Gabriel Perez, a former White House teleprompter operator, was ordered by the CFTC to pay $172,000 for using advance knowledge of presidential speeches to place profitable bets on prediction markets between December 2025 and February 2026. The case exposed vulnerabilities in prediction-market integrity.",
+  "date": "2026-08-30",
+  "published_utc": "2026-08-30T14:30:52Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 12,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Gabriel Perez, a White House teleprompter operator, was ordered to surrender $107,539 in profits and pay a $65,000 civil penalty for trading on nonpublic knowledge of Trump speeches on Kalshi prediction markets.",
+  "bottom_line": "The settlement closes the regulatory phase but leaves open whether the White House will implement broader controls on staff access to prediction markets or restrict which personnel can hold certain information. Watch for updates on whether other staff members are under investigation or whether the incident prompts changes to White House ethics policies.",
+  "human_take": "",
+  "body": [
+    "Gabriel Perez, a former White House teleprompter operator, was ordered by the Commodity Futures Trading Commission to pay more than $172,000 for using advance knowledge of President Trump's speeches to place bets on prediction markets, according to reporting from BBC News and ABC News.\nThe CFTC said Perez would have to surrender profits of $107,539.02 and pay a civil penalty of $65,000. Perez made trades on Kalshi, a prediction markets platform, concerning what the US president would say during addresses between December 2025 and February 2026. The CFTC said Perez had \"misappropriated\" his prior knowledge of Trump's speeches to place bets \"in breach of his duty of trust and confidence,\" according to BBC reporting. ABC News reported that CFTC investigators discovered Perez placed bets on more than a dozen Trump speeches over the three-month period, .\nIn his position as a technical assistant to the president operating Trump's teleprompter since 2016, Perez had access to presidential speeches prior to delivery. Per ABC News, he generated over $107,500 in profits from the trades. The CFTC reduced its civil penalty due to Perez's \"exemplary co-operation\" with the investigation, according to BBC reporting. Perez has been banned from trading for three years.\nThe trading activity was discovered when Kalshi's analysts noticed unusual betting on \"mention markets\" in March. Kalshi used account data to find that the user had been a federal employee operating White House teleprompters, and reported the activity to the regulator, per BBC News. ABC News reported that Perez sat for an interview with regulators and acknowledged some of the trades. The CFTC alerted federal prosecutors in Manhattan, who declined to open a criminal investigation, per ABC News.\nIn July, then-White House press secretary Karoline Leavitt said Perez was on unpaid leave and would not return to his post. In March, the White House issued an internal memo warning staff against using nonpublic information to place bets on prediction markets, according to ABC News. In July, the White House Management Office sent a letter to aides telling them not to place bets on prediction markets, per BBC reporting.\nABC News first reported last month that Perez was accused of making tens of thousands of dollars by placing bets on Trump's speeches and was in talks with federal regulators to settle. Kalshi has a policy against users trading based on information obtained as part of their jobs, per ABC News. In June, Kalshi updated its policies to require users to disclose their place of employment. Kalshi's lead lawyer Bobby DeNault wrote on X: \"It doesn't matter who you are: violate our rules or federal law and you will face the consequences,\" according to BBC reporting. The White House has not yet commented on the settlement, per BBC News."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c4gj2dl4x52o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/2026/aug/29/former-white-house-teleprompter-operator-fined-kalshi"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/homenews/administration/6058917-white-house-teleprompter-speech-bets-fined/"
+    },
+    {
+      "title": "abcnews.com",
+      "url": "https://abcnews.com/Politics/white-house-teleprompter-operator-172000-settle-cftc-probe/story?id=136048028"
+    }
+  ],
+  "event_utc": "2026-08-29T07:11:04Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-30T14:30:52Z",
+    "sources_cited": 4,
+    "sources_live_checked": 3
+  },
+  "update_of": "white-house-teleprompter-operator-fined-for-insider-betting-on-trump-speeches"
+}
