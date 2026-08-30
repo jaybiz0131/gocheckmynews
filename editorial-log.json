@@ -1,83 +1,6 @@
 [
  {
   "date": "2026-07-23",
-  "approved": 4,
-  "rejected": [
-   {
-    "id": "c289",
-    "headline": "European Commission fines Google approximately \u20ac890 million for anticompetitive app practices",
-    "category": "accuracy",
-    "reasons": [
-     "The brief's open_questions flag an unresolved discrepancy: 'the snippet mentions \u20ac460 million but the header says \u20ac890 million; the source text is absent so this discrepancy cannot be resolved.' The draft states \u20ac890 million as fact without noting this conflict. The fine amount is the lead fact of the story and cannot be published when the source material itself contains an unreconciled contradiction.",
-     "The brief is marked 'thin: true' with 'source_chars: 0', meaning no actual source text was captured. The draft claims The Hill reported specific violations (self-preferencing in Search, app store restrictions) but provides no way to verify these facts exist in the source. The rule is: no fact exists outside the brief. Facts must trace to the source, not just to the brief's data_points. With zero source characters, this cannot be verified."
-    ]
-   },
-   {
-    "id": "c124",
-    "headline": "US House passes second war powers resolution directing Trump to withdraw from Iran conflict",
-    "category": "accuracy",
-    "reasons": [
-     "The brief explicitly flags: 'The provided source text is incomplete and contains only navigation/metadata fragments; the actual article body does not appear in the fetched source text.' The brief is marked 'thin: true' with source_chars: 1630 (metadata only, no article body). The draft presents as fact claims about the resolution's passage, its symbolic nature, and oil price drivers, but the source material does not contain the article body needed to verify any of these claims. A fact without verifiable source text is smuggled; the draft cannot run until the source is actually available."
-    ]
-   },
-   {
-    "id": "c268",
-    "headline": "Senate Republicans block Iran war powers resolution amid GOP concerns over casualties",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'The specific names of Republican senators expressing these concerns are not yet public, and their precise statements on the record have not been detailed.' This is NOT a data point in the brief. The brief lists four data_points, none of which mention that names are unavailable or that statements haven't been detailed. The writer is adding editorial commentary about what is missing from the reporting rather than sticking to what the brief contains.",
-     "The draft includes the sentence 'The full text of the resolution and its specific provisions also remain unclear from available reporting.' This is not in any data_point in the brief. Again, the writer is edorializing about gaps in reporting rather than reporting from the brief.",
-     "The open_questions section of the brief is not to be reported; it documents gaps for the desk. The draft violates the core rule: 'no fact exists outside the brief.' These editorial asides about what is unknown are smuggled commentary, not reported facts."
-    ]
-   },
-   {
-    "id": "c043",
-    "headline": "Houthis strike Saudi tankers in Red Sea as U.S. launches 12th night of Iran strikes",
-    "category": "accuracy",
-    "reasons": [
-     "The draft contains a factual claim not in the brief: 'The blockade and attacks have the potential to widen the war between the U.S., Israel, and Iran, and to further disrupt global energy supplies and maritime trade.' This exact phrasing appears in the brief's bear_case as an analyst observation, not as a reported fact. The draft presents it as settled reporting without attribution to analysis or forecasting; it reads as the desk's own judgment about potential consequences.",
-     "The draft states 'a vital waterway described as effectively closed' regarding the Strait of Hormuz. The brief data_point says 'The IRGC said a tanker caught fire following an explosion in a mined route in the Strait of Hormuz, a vital waterway in the Gulf that is effectively closed.' The phrasing 'effectively closed' is attributed in the brief to the IRGC's characterization (or BBC's paraphrase of it); the draft removes the attribution, presenting it as fact rather than as a claim from an interested party."
-    ]
-   },
-   {
-    "id": "c106",
-    "headline": "Ukraine's Military Leadership in Flux as Zelensky Reverses Course",
-    "category": "accuracy",
-    "reasons": [
-     "The brief contains zero data_points and explicitly marks 'thin: true' with 'source_chars: 0', indicating no substantive sourced information exists. The draft cites 'reporting from the New York Times' but the brief provides no data_points to support any factual claims about what Zelensky reversed, which general was involved, or what catalyst prompted the change. The entire draft is built on unsourced assertions that do not trace to the brief's research record.",
-     "The draft presents 'President Volodymyr Zelensky has reversed a recent unpopular decision' as established fact, but the brief contains no data_points confirming this reversal occurred or was unpopular. This is a smuggled fact\u2014the writer invented evidentiary ground the brief does not provide.",
-     "The claim that the move 'signals a shift in the country's wartime command structure' and references to 'Policy changes at the level of military leadership' lack any data_point support in the brief."
-    ]
-   },
-   {
-    "id": "c120",
-    "headline": "Tropical Storm Bertha Reaches Texas After Louisiana Landfall",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'Forecasters warn of coastal flooding, heavy rain, and dangerous surf conditions as the storm tracks west' and attributes this to 'reporting from the National Hurricane Center,' but the brief's data_points only support 'Forecasters warn of US coastal flooding, heavy rain and dangerous surf as the storm tracks west' sourced to Guardian US. The draft invents an attribution to the National Hurricane Center that is not supported by the brief's data.",
-     "The draft claims 'The trajectory places multiple Gulf Coast states under threat of weather impacts within hours of reporting,' which is the writer's analytical framing and not present in any data_point in the brief. This is a smuggled conclusion."
-    ]
-   },
-   {
-    "id": "c078",
-    "headline": "Former JPMorgan executive Jes Staley interviewed over Epstein ties",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'Staley has faced mounting questions over years about his relationship with Epstein' but then immediately follows with 'The closed-door nature of Thursday's interview leaves unspecified who conducted the questioning, what authority initiated the interview...' This creates a self-contradiction: the draft acknowledges it cannot establish basic facts about the interview (who, what authority, what legal process) yet presents the interview as a documented event worthy of reporting. The brief itself is thin and the sourced reporting appears limited to the fact of an interview occurring; the draft's framing that this marks 'a moment of accountability' (from the angle) is unsupported by facts the draft itself admits are missing. The story smuggles advocacy framing ('mounting questions,' 'accountability,' 'scrutiny') without establishing what legal or investigative process actually occurred or what Staley is being questioned about. This reads as rumor-laundering of a closed-door event."
-    ]
-   },
-   {
-    "id": "c220",
-    "headline": "Justice Department updates religious liberty guidance for federal agencies",
-    "category": "balance",
-    "reasons": [
-     "The angle in the brief reads as advocacy ('A Trump administration DOJ revises Obama-era religious liberty policy to align with conservative Supreme Court decisions, reshaping how federal agencies balance religious freedom against other legal obligations'), adopting language that frames the update as a partisan shift. The draft does not present any counter-perspective or bear case on this framing. No statement appears from civil rights groups, LGBTQ+ organizations, or critics who might view the guidance as narrowing protections. The brief flags this as a thin story with unanswered open questions about how the guidance 'balances religious expression against other legal protections,' yet the draft presents the update as straightforward expansion without any tension or opposing view. The draft should either include a substantive counter-argument (what concerns does the update raise?) or acknowledge that no such response is available in the reporting. As written, it reads in the angle's voice without editorial distance."
-    ]
-   }
-  ]
- },
- {
-  "date": "2026-07-23",
   "approved": 7,
   "rejected": [
    {
@@ -9870,6 +9793,60 @@
     "reasons": [
      "No research brief was provided for this story, yet the instruction is absolute: 'the writer's hard rule was: no fact exists outside the brief.' Without a brief, every factual claim must trace to the sources listed in the draft itself. The draft cites only BBC articles but provides no direct quotes, specific dates, or verifiable facts from those sources. The brief field explicitly states 'no brief exists for this story; every draft fact must then trace to the draft's own cited sources or be rejected.' The draft body contains claims that cannot be verified against the source URLs provided (the sources are URLs only, not source documents). This violates the core rule that all facts must be traceable to research material provided to the approver.",
      "The draft lacks any specific facts\u2014no date of death, no age confirmation beyond '89', no direct quotes from the inaugural speech, no statement of what those 'priorities' or 'policy shifts' might be. A story with this little concrete detail, submitted without a brief and with only URLs as sourcing, cannot be approved because the approver cannot verify any claim."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-08-30",
+  "approved": 7,
+  "rejected": [
+   {
+    "id": "c014",
+    "headline": "Death toll from Nepal-Tibet border floods exceeds 600; thousands missing",
+    "category": "accuracy",
+    "reasons": [
+     "The headline states 'Death toll from Nepal-Tibet border floods exceeds 600' as a definitive fact. The brief's open_questions section explicitly notes: 'The sourced text does not specify the total death toll figure referenced in the headline as exceeding 600; only that it \"continues to rise\". The exact current death toll number is not provided in the available source texts.' The specific number 600+ does not appear in the brief's data_points.",
+     "The draft states 'A glacier-triggered flooding disaster' in the opening paragraph. The brief's open_questions states: 'The trigger mechanism (glacier-triggered floods) is stated in the story's why_it_matters but does not appear in the source texts themselves.' This claim is not sourced to the brief's data_points.",
+     "The brief explicitly flags that 'The WSJ source URL is listed but its text was not fetched or provided' and 'The sourced text does not specify the total death toll figure.' The story cannot be supported by incomplete source verification."
+    ]
+   },
+   {
+    "id": "c013",
+    "headline": "Russian strike kills 37 in warehouse near Kyiv",
+    "category": "accuracy",
+    "reasons": [
+     "The brief's open_questions explicitly states: 'The source text provided from PBS NewsHour contains only HTML markup and no substantive reporting content; the actual article text was not successfully fetched or provided.' The draft is built entirely on unverified source material.",
+     "The brief notes 'The NPR source URL is listed but its text was not provided.' One of two sources cannot be verified.",
+     "The brief flags 'The nature and contents of the warehouse (whether it was a weapons depot as the headline states, or what it stored) is not confirmed in the source text provided.' The draft identifies it as 'a Ukrainian warehouse' without specification, which is acceptable, but the entire factual foundation rests on source material the brief confirms was not successfully retrieved.",
+     "Multiple critical open questions in the brief remain unresolved in source material: 'No Ukrainian official statements or confirmations of the death toll are quoted or cited in the available source material' and 'No information is given about whether Russia has claimed responsibility or issued any statement about the strike.' The story cannot be published when source texts were not fetched."
+    ]
+   },
+   {
+    "id": "c075",
+    "headline": "Federal judge blocks Trump administration from deporting students for Israel criticism",
+    "category": "accuracy",
+    "reasons": [
+     "The brief explicitly states: 'no brief exists for this story; every draft fact must then trace to the draft's own cited sources or be rejected.' The instruction field in the brief itself flags that this story has no research brief and all facts must be independently verifiable from the three sources cited in the draft.",
+     "The approval system is designed to compare drafts against research briefs. When no brief exists, the draft cannot be evaluated under the established protocol. The approver lacks the research brief necessary to verify that facts in the draft are not smuggled from outside the sourced record.",
+     "Without a brief, there is no way to confirm whether the draft contains facts, claims, or characterizations that go beyond what the three cited sources actually report.",
+     "The story makes specific factual claims (Judge No\u00ebl Wise, Stanford student newspaper report, First Amendment ruling) that cannot be traced against a research brief to confirm accuracy, confidence levels, or proper attribution."
+    ]
+   },
+   {
+    "id": "c270",
+    "headline": "Military judge invalidates Khalid Sheikh Mohammed's 2007 confession in 9/11 prosecution",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief exists for this story. The instruction requires that every draft fact must trace to either a research brief's data_points or to the draft's own cited sources. The draft cites only CBS News as a source, but provides no research brief. The approver cannot verify whether facts in the draft are accurate to the CBS article without access to the article text itself. The draft makes specific factual claims (that a military judge 'threw out' a 2007 confession, that this is from the 'Guantanamo tribunal case', that Mohammed is 'accused of developing the plot to crash planes into the Pentagon and World Trade Center') that require verification against primary reporting. Without either a brief or the ability to access and verify the cited source, approval would constitute blind acceptance of unverified claims."
+    ]
+   },
+   {
+    "id": "c316",
+    "headline": "ICE arrests reach highest monthly total of Trump's second term in July",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief exists for this story. The instruction requires that every draft fact must trace to either a research brief's data_points or to the draft's own cited sources. The draft cites only NPR as a source but provides no research brief. The draft makes specific factual claims (nearly 50,000 arrests in July, highest monthly total of Trump's second term, expansion to airports and courthouses) that require verification against the NPR article. Without either a brief or the ability to access and verify the cited source, approval would constitute blind acceptance of unverified claims."
     ]
    }
   ]
