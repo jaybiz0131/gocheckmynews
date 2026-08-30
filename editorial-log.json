@@ -1,64 +1,6 @@
 [
  {
   "date": "2026-07-23",
-  "approved": 6,
-  "rejected": [
-   {
-    "id": "c122",
-    "headline": "House Passes Second War Powers Resolution on Iran",
-    "category": "accuracy",
-    "reasons": [
-     "The brief is marked 'thin: true' with only 6 data_points covering bare facts. The draft omits critical details from the brief that are required for accuracy: the specific vote margin/count is listed as an open_question in the brief, yet the draft provides no vote numbers at all. The brief's open_questions explicitly ask 'What is the specific vote count in the House on the resolution?' and 'Which four Republican lawmakers voted in support?'\u2014neither appears in the draft, which is appropriate given they are unknown. However, the draft states 'The resolution is described as largely symbolic, implying limited enforcement power should the administration refuse to comply' without a source attribution inline. This paraphrasing of the brief's 'reported' confidence claim must be attributed. The draft reads as the desk's framing ('implying') rather than as reported fact.",
-     "The draft states the measure 'comes amid renewed fighting that has driven oil prices to their highest levels' but this specific causal linkage between 'renewed fighting' and 'oil prices to their highest levels' is not in the brief's data_points for this story. The brief's core_claim and angle focus on Congressional resistance to Iran operations, not oil prices. This appears to be smuggled context from another brief (c023) and is REJECTED as introduced fact."
-    ]
-   },
-   {
-    "id": "c057",
-    "headline": "Nicaragua set to vote on barring opposition parties from elections",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'Murillo was named as Ortega's \"co-president\" in February 2025, following a constitutional reform passed unanimously by the National Assembly in November 2025 when Ortega was four years into his five-year term.' This is internally contradictory: Murillo cannot have been named co-president in February 2025 if the constitutional reform enabling that role was not passed until November 2025. The brief data shows the reform was passed in November 2025, but the timeline of when Murillo was actually named co-president is incoherent as written. The writer smuggled in a timeline contradiction not present in the source material."
-    ]
-   },
-   {
-    "id": "c148",
-    "headline": "House passes measure to restrain Trump on Iran",
-    "category": "accuracy",
-    "reasons": [
-     "The draft contains no data_points in the brief (data_points: []), yet presents the core claim as fact: 'The House passed a measure to restrain Trump's military authority regarding Iran.' With zero sourced data and the brief explicitly marked 'thin: true' and 'source_chars: 0', this claim cannot be verified against research. The draft acknowledges details are 'unverified' but still states the measure passed as settled fact.",
-     "The angle about 'revealing potential divisions in party unity' is editorial framing unsupported by any data_point about actual party votes or positions in the brief.",
-     "The entire body reads as speculation ('tests Republican willingness,' 'revealing potential divisions') rather than reporting of facts from the brief. With no sourced facts available, the draft should either be killed or flagged as awaiting verification, not published as-is."
-    ]
-   },
-   {
-    "id": "c119",
-    "headline": "At least two missing in West Virginia after flash floods",
-    "category": "accuracy",
-    "reasons": [
-     "The brief states 'source_chars: 6000' but notes the source text is 'mostly HTML markup and formatting code' with substantive article content 'not fully readable.' The open_questions confirm 'the source text provided is mostly HTML markup.' Despite this, the draft presents facts as verified: 'At least two people are unaccounted for,' '500 National Guard members,' 'all 55 counties.' These facts cannot be traced to readable source material per the brief itself.",
-     "The brief's confidence labels show all five data_points marked 'reported,' not 'verified-on-chain.' A story built entirely on unverifiable source text violates the hard rule that facts must trace to research; this one cannot, by the brief's own admission."
-    ]
-   },
-   {
-    "id": "c013",
-    "headline": "Chinese woman wins Fields Medal for first time; two Chinese scholars claim prize simultaneously",
-    "category": "accuracy",
-    "reasons": [
-     "Draft states 'Wang Hong became the first Chinese woman to win the Fields Medal' but brief data point names her as 'Hong Wang' in the list of four recipients. The name order is reversed in the draft opening versus the brief's identification. This is a factual error on the primary subject's name."
-    ]
-   },
-   {
-    "id": "c123",
-    "headline": "House Judiciary Committee refers former Trump prosecutor Jack Smith for criminal investigation",
-    "category": "accuracy",
-    "reasons": [
-     "Draft states Jordan alleged Smith made false statements 'when he answered questions under oath last December during his testimony before the House Judiciary Committee on January 22.' This is internally contradictory: it cannot be both 'last December' and 'January 22' simultaneously. The brief data point says 'answered questions under oath last December' and separately notes 'testified before the House Judiciary Committee about his investigations into President Trump on January 22.' The draft conflates two separate events without clarity on dates, creating factual confusion about when the alleged false statements occurred."
-    ]
-   }
-  ]
- },
- {
-  "date": "2026-07-23",
   "approved": 4,
   "rejected": [
    {
@@ -9886,6 +9828,48 @@
      "The draft makes a definitive claim that 'A federal judge issued a written order on Thursday night finding that the Pentagon acted illegally by punishing AI company Anthropic for its criticism,' but the brief's data_point for this claim is labeled 'reported' (not 'verified-on-chain') and the source itself is truncated.",
      "The brief's open_questions include: 'What specific Pentagon measures against Anthropic are referenced in the ruling?' and 'What was the legal basis for the judge's First Amendment finding?' These critical gaps mean the core legal claim (illegal punishment for speech, First Amendment violation) cannot be verified from the available source material.",
      "The draft presents as settled fact what the brief identifies as incompletely sourced reporting. A truncated source that does not contain the full reasoning or details of a court ruling on a First Amendment matter is not sufficient to publish a story asserting a definitive legal judgment."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-08-30",
+  "approved": 8,
+  "rejected": [
+   {
+    "id": "c279",
+    "headline": "Military judge throws out Khalid Sheikh Mohammed confession in 9/11 case",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief exists for this story. The approval instruction states: 'every draft fact must then trace to the draft's own cited sources or be rejected.' The draft cites only one source (CBS News URL) but provides no link to verify the claims made. The writer cannot patch facts from research; without a brief or verifiable sourcing, the story cannot be approved. The entire piece rests on unverified claims about a military judge ruling and the invalidation of a confession."
+    ]
+   },
+   {
+    "id": "c229",
+    "headline": "DOJ appeals federal judge's block on mail-ballot regulations",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'a federal judge in Boston issued the late-night ruling Thursday barring the Trump administration's mail voting changes' but the brief contains no information about what changes were barred, what the judge's legal reasoning was, or what the substantive dispute entails. The opening sentence creates an impression of factual substance that the brief does not carry. The draft then acknowledges in the bottom_line that 'the specific provisions blocked by the judge, the legal grounds for the block, and the administration's claimed injury remain unreported.' This is a direct contradiction: the lead sentence asserts facts as settled when the desk's own bottom_line admits they are unknown. A reader would be misled by the narrative authority of the opening.",
+     "The phrase 'mail voting changes' appears nowhere in the brief and is not elaborated; it is new characterization introduced by the writer without source support for what changed or how."
+    ]
+   },
+   {
+    "id": "c128",
+    "headline": "Texas governor halts state funding for Flock roadside cameras",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Flock cameras capture license plate data from roadside readers' but the brief does not contain this technical description. The brief says only that 'Flock roadside cameras' exist and that 'the network has drawn scrutiny over how access to the database is controlled and monitored'\u2014but does not explain how they work or what data they capture. This is new information smuggled into the draft.",
+     "The draft presents as fact that Abbott's decision 'reflects bipartisan concern about the surveillance technology' but the brief contains no evidence of bipartisanship; it only says the angle is 'A Republican governor joins bipartisan concerns.' Joining concerns does not constitute proof those concerns exist or are expressed by named actors. The brief itself does not carry evidence of the bipartisan nature beyond the angle framing.",
+     "The sentence 'The Hill reported that The Texas Tribune was preparing to publish an investigation into Flock cameras around the time of Abbott's announcement, suggesting the timing may reflect emerging evidence of problems with the system's use' uses The Hill as a source for what The Texas Tribune was doing, but attributes causality ('suggesting the timing may reflect') in the draft's own voice rather than through a source. The draft editorializes the relationship between the two events without brief support for that inference."
+    ]
+   },
+   {
+    "id": "c022",
+    "headline": "Haakon VIII Becomes King of Norway After Death of Harald V",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief was provided for this story, yet the instruction is absolute: 'the writer's hard rule was: no fact exists outside the brief.' Without a brief, every factual claim must trace to the sources listed in the draft itself. The draft cites only BBC articles but provides no direct quotes, specific dates, or verifiable facts from those sources. The brief field explicitly states 'no brief exists for this story; every draft fact must then trace to the draft's own cited sources or be rejected.' The draft body contains claims that cannot be verified against the source URLs provided (the sources are URLs only, not source documents). This violates the core rule that all facts must be traceable to research material provided to the approver.",
+     "The draft lacks any specific facts\u2014no date of death, no age confirmation beyond '89', no direct quotes from the inaugural speech, no statement of what those 'priorities' or 'policy shifts' might be. A story with this little concrete detail, submitted without a brief and with only URLs as sourcing, cannot be approved because the approver cannot verify any claim."
     ]
    }
   ]

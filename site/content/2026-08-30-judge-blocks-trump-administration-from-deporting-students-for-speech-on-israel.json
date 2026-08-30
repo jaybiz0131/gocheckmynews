@@ -1,0 +1,47 @@
+{
+  "id": "c077",
+  "slug": "judge-blocks-trump-administration-from-deporting-students-for-speech-on-israel",
+  "kind": "brief",
+  "title": "Judge blocks Trump administration from deporting students for speech on Israel",
+  "dek": "U.S. District Judge No\u00ebl Wise ruled Friday that the Trump administration violated the First and Fifth Amendments by threatening to deport noncitizen students for protected speech criticizing Israel. The decision came in a lawsuit brought by The Stanford Daily, whose noncitizen reporters had self-censored over deportation fears.",
+  "date": "2026-08-30",
+  "published_utc": "2026-08-30T01:37:18Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 7,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Judge Wise found that visa revocation as punishment for speech supporting Palestinians or criticizing Israel creates an unconstitutional chilling effect on free expression.",
+  "bottom_line": "Judge Wise's injunction blocks the administration from using visa revocation as retaliation for protected speech, but the ruling's geographic scope and whether it applies nationwide remain open. The Justice Department's options for appeal or compliance will shape how the administration enforces visa policy moving forward.",
+  "human_take": "",
+  "body": [
+    "A federal judge has ruled that the Trump administration cannot deport noncitizen students based on their protected speech criticizing Israel or supporting Palestinians. U.S. District Judge No\u00ebl Wise, in a 90-page opinion issued Friday, found that the policy violates both the First Amendment and the Fifth Amendment.",
+    "The ruling came in a lawsuit brought by The Stanford Daily, the student newspaper at Stanford University, which challenged the administration's enforcement practices. According to CBS News, the suit was filed in August 2025 after noncitizen opinion writers at the publication reported that they had \"self-censored because of their rational concern about the ongoing danger of deportation for expression\" of what the administration could deem \"anti-Israel\" viewpoints.",
+    "Judge Wise wrote that the government's approach amounted to constitutional censorship. \"Freedom of speech is illusory if we are only 'free' to express complementary views about the government and its leaders,\" she stated in the opinion, according to CBS News. She further wrote that \"the government has offered a chilling message regarding protected speech: speak out against Israel or in support of Palestinians and we will revoke your visa and deport you.\"",
+    "The judge found that noncitizen students at Stanford had documented real harms from the threat. At The Stanford Daily, lawfully present noncitizens have quit, withheld articles, refused assignments, requested articles be taken down, and asked for anonymity due to fear of adverse immigration consequences, according to reporting by CBS News.",
+    "Judge Wise noted broader constitutional concerns in her ruling. She wrote that \"noncitizens have the same First Amendment rights as citizens\" and that the government had left them to \"guess what the U.S. foreign policy was at any given moment and on any given subject.\" She also cited instances in which immigration authorities appeared to have targeted speech in March 2025 against people engaging in expression supporting Palestinians and criticizing Israel's actions, as well as retaliation against people critical of Charlie Kirk after the Turning Point USA co-founder was assassinated in September 2025.",
+    "The State Department has disputed the premise of the ruling. According to the Washington Examiner, State Department spokeswoman Tammy Bruce said during a 2025 press conference that the department \"specifically revokes visas every day in order to secure America's borders.\" In a statement to the Washington Examiner, a State Department spokesperson said: \"A visa is a privilege, not a right. The United States is under no obligation to admit or suffer the presence of individuals who subvert our laws and deny our citizens their Constitutional rights.\" Secretary of State Marco Rubio has been vocal in saying that \"no one has a right to a student visa.\" A State Department spokesperson told the Washington Examiner the department does not comment on pending or ongoing litigation.",
+    "George Porteous, editor-in-chief of The Stanford Daily, responded to the ruling on X, stating: \"The reporters in our newsroom shouldn't have to fear that writing a story will result in their deportation. Today's victory means they won't have to.\" Conor Fitzpatrick, an attorney with the Foundation for Individual Rights and Expression, which brought the lawsuit, said: \"In America, free speech doesn't just belong to the people who say things the government agrees with.\" The Justice Department did not respond to a request for comment, according to CBS News."
+  ],
+  "sources": [
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/trump-cannot-deport-students-for-criticizing-israel-federal-judge-rules/"
+    },
+    {
+      "title": "Washington Examiner",
+      "url": "https://www.washingtonexaminer.com/news/justice/4705394/judge-us-cannot-deport-noncitizen-students-criticize-israel/"
+    },
+    {
+      "title": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/nation/trump-cannot-deport-students-for-criticizing-israel-judge-rules"
+    }
+  ],
+  "event_utc": "2026-08-29T18:14:48Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-30T01:37:18Z",
+    "sources_cited": 3,
+    "sources_live_checked": 2
+  },
+  "update_of": "federal-judge-blocks-trump-mail-ballot-rule-for-second-time"
+}
