@@ -4,65 +4,6 @@
   "approved": 6,
   "rejected": [
    {
-    "id": "c012",
-    "headline": "US and Iran extend strikes as conflict nears four months, Trump threatens escalation",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'The conflict has persisted for nearly four months without reported movement toward settlement' in the bottom_line, but the brief does not provide a start date for the conflict or confirm the duration. The core_claim says 'approaches its fourth month,' but this is not the same as 'nearly four months' and the brief's open_questions explicitly ask 'How long has the US-Iran conflict been active\u2014the story says fourth month but does not give a start date.' The writer has asserted duration as fact without brief support.",
-     "The draft references 'Senate Republicans expressing concern' in the bottom_line ('The brief's sources do not carry substantive Iranian response...') but no such statement about Senate Republicans appears anywhere in the brief's data_points or sources. This is smuggled material not present in the research."
-    ]
-   },
-   {
-    "id": "c011",
-    "headline": "Oil surges to $100 per barrel as Trump imposes tariffs on 59 countries and EU",
-    "category": "accuracy",
-    "reasons": [
-     "The draft title and opening state the tariffs apply to '59 countries' but the brief data_points and core_claim specify '59 countries and the European Union'\u2014the EU is a separate entity from the 59 countries. The title should read '59 countries and the EU' to match the brief's framing.",
-     "The draft states tariffs 'cover more than 99% of US imports but exempt major categories including energy and many foods, according to NPR.' However, the brief's data_point on this says only 'Major categories like energy and many foods will remain exempt from the tariffs.' The phrase 'will remain exempt' suggests these exemptions were already in place or confirmed; the draft's phrasing 'but exempt' reads as a factual statement of what is actually happening. This crosses into presentation of a qualified/announced claim as settled fact when the source says 'remain exempt' (future/continuing exemption, not necessarily confirmed current state).",
-     "The draft claims 'The House approved a non-binding resolution yesterday to remove US forces from the war in Iran' and 'The resolution marked the second such rebuke from the House since the war began.' However, the brief's data_point says 'The non-binding resolution reflects lawmakers' disapproval of a war they did not vote to authorize and marked the second such rebuke passed by the House since the war began.' The brief does not state the resolution is specifically to 'remove US forces'\u2014only that it reflects disapproval. The draft has added specificity ('to remove US forces') that is not in the brief."
-    ]
-   },
-   {
-    "id": "c229",
-    "headline": "Iran claims strikes on US assets in Gulf allies; denies peace proposal",
-    "category": "accuracy",
-    "reasons": [
-     "The draft presents three claims as factual: (1) Iran claimed responsibility for attacks on US assets in Bahrain, Jordan, and Kuwait; (2) strikes targeted Sheikh Isa Air Base in Bahrain; (3) Iran denied reports of a new peace proposal. However, the brief's open_questions explicitly state: 'The source text provided is largely website template code; the article body beyond the headline and snippet is not accessible. No substantive detail on Iran's statement, the alleged peace proposal, casualty figures, or US response is available in the fetched text' and 'No confirmation whether the strikes actually occurred or details of their scope and targets beyond the snippet.' The draft cites claims as sourced from the Washington Examiner, but the brief documentation shows the source material was not fully retrievable. Writing draft sentences that treat inaccessible or unverified claims as settled fact violates the hard rule that facts must trace to brief data_points with verifiable sourcing."
-    ]
-   },
-   {
-    "id": "c013",
-    "headline": "US allies reject Trump's forced labor rationale for new tariffs",
-    "category": "accuracy",
-    "reasons": [
-     "Data point 9 states 'former Prime Minister Keir Starmer negotiated a better U.S. trade deal' and data point 10 mentions 'King Charles III obtained a U.S. tariff on Scotch whisky reduction to zero when he visited the White House in April,' but neither claim appears in the draft body. The writer omitted these sourced facts entirely rather than integrating or excluding them consistently.",
-     "Data point 12 claims 'Japan's Chief Cabinet Secretary Minoru Kihara said his country had been reassured by the Trump administration that they would not be slapped with more tariffs,' but the draft only includes Kihara's statement of regret without the reassurance claim, creating an incomplete picture of Japan's position as briefed."
-    ]
-   },
-   {
-    "id": "c186",
-    "headline": "Federal judge temporarily blocks Trump visa policy targeting content moderation advocacy",
-    "category": "accuracy",
-    "reasons": [
-     "Data points 18-19 report that 'A federal judge in Boston ruled against the Trump administration's $100,000 fee for H-1B visas' and 'The administration is appealing the H-1B visa fee decision,' but these claims do not appear in the draft. The writer omitted sourced facts about a separate visa fee case that the source material contained, violating the rule that facts in the brief must either appear in the draft or be deliberately excluded with consistency.",
-     "The draft title states the policy targets 'content moderation advocacy,' but the brief's core claim and data points describe the policy as targeting those involved in content moderation work or organizations\u2014a narrower framing than 'advocacy' implies. This paraphrasing shifts the scope of what the policy actually restricts."
-    ]
-   },
-   {
-    "id": "c102",
-    "headline": "INSUFFICIENT DATA: Return to research queue",
-    "category": "accuracy",
-    "reasons": [
-     "The draft body itself is a rejection memo, not a story. The instructions state the draft should contain title, body, bottom_line, sources\u2014a publishable article. This entry is a meta-commentary on insufficient research and cannot be approved as editorial output. Return to research queue before submission to approvals."
-    ]
-   }
-  ]
- },
- {
-  "date": "2026-07-24",
-  "approved": 6,
-  "rejected": [
-   {
     "id": "c104",
     "headline": "Oil prices surge past $100 per barrel amid renewed Iran fighting",
     "category": "accuracy",
@@ -9825,6 +9766,75 @@
      "No brief exists for this story. The rule states: 'every draft fact must then trace to the draft's own cited sources or be rejected.' The draft cites a single CBS News video URL but provides no quoted or attributed detail from it to verify. The claim that the FBI 'no longer automatically disqualifies applicants who admitted to hiring prostitutes or stealing from an employer' is unverified against the cited source. Without access to the video content and without any direct quotation or specific attribution to a named official in the draft, there is no way to confirm this fact traces to the source.",
      "The draft's second sentence claims 'The policy change comes following the retirement, resignation, and termination of scores of FBI agents during the second Trump administration.' This claim does not appear in the brief and is not attributed inline to any source in the draft. It reads as causal speculation ('comes following') without being sourced to any official statement or news report cited.",
      "The story is too thin and unsourced to publish. No attribution, no quotations, no verifiable connection to the URL provided."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-08-30",
+  "approved": 5,
+  "rejected": [
+   {
+    "id": "c103",
+    "headline": "DRAFT REJECTED: UNABLE TO VERIFY SOURCES",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief exists for this story. The instruction requires: 'no fact exists outside the brief.' Without a brief, there is no authoritative source material to trace facts against.",
+     "The draft itself is a rejection memo, not a news story. It identifies the source URLs as unverifiable (Google News RSS feeds, inaccessible URLs) and explicitly states it cannot be drafted.",
+     "The desk's hard rule is that facts come from research briefs with verified sources. A draft with no brief and no verifiable sources cannot be approved, and publishing a rejection memo is not a news product."
+    ]
+   },
+   {
+    "id": "c066",
+    "headline": "DRAFT REJECTED: INSUFFICIENT SOURCE DETAIL",
+    "category": "accuracy",
+    "reasons": [
+     "The brief is marked thin: true with only two data_points, both vague and unspecific: 'A judge temporarily blocked the agency from implementing a strict new rule' and 'The policy could disproportionately affect Democrats and many battleground elections.' Neither data_point identifies the judge, the specific rule provisions, the legal basis, affected states, voter impact, or timeline.",
+     "The brief itself flags seven open_questions, indicating critical facts are unknown or unverified: judge's identity and jurisdiction, specific rule text, legal reasoning, affected states, and evidence of differential impact.",
+     "The source URL (New York Times) is flagged as inaccessible in the draft's own rejection statement. Without readable source material, no facts can be verified against a primary record.",
+     "The draft itself is a holding rejection, not a publishable story. A story cannot be built from a brief this thin and unspecific without smuggling in facts from outside the brief to fill gaps."
+    ]
+   },
+   {
+    "id": "c012",
+    "headline": "Ferry capsizes off northern Cyprus; at least 7 dead, 24 missing",
+    "category": "accuracy",
+    "reasons": [
+     "The draft contains no research brief. The instruction states 'every draft fact must then trace to the draft's own cited sources or be rejected.' The draft cites CBS News and BBC News as sources but provides no hyperlinks that can be verified, no timestamps, and no specifics about what those outlets reported. The facts in the body (7 dead, 24 missing, August 30, 2026, northern Cyprus, nearly 270 passengers and crew) cannot be traced to the stated sources because the URLs are present but the actual source material is not available for verification in this review context. This violates the hard rule that facts must be traceable to research or source material."
+    ]
+   },
+   {
+    "id": "c037",
+    "headline": "Milo Yiannopoulos deported for visa overstay",
+    "category": "compliance",
+    "reasons": [
+     "The draft attributes Laura Loomer's claim about Yiannopoulos being 'NEVER allowed to come back to the United States ever again' to DHS, but the brief shows this is Loomer's own statement on X. The phrasing 'according to DHS' misrepresents the source of that claim and creates liability by suggesting a government legal pronouncement rather than a social media statement from a third party.",
+     "The description of Marjorie Taylor Greene as 'the former Republican congresswoman' who 'fell out with Trump and resigned from office' goes beyond what the brief carries. The brief states she 'fell out with Trump and became a fierce critic before resigning from office,' but the draft reverses the causal order and omits 'fierce critic' descriptor that would clarify the nature of the rift. More importantly, the brief does not specify that her falling out with Trump directly caused her to resign; the draft's phrasing ('fell out...and resigned') implies causation not present in the source.",
+     "The phrase 'British commentator Milo Yiannopoulos, 41, was deported from the United States by Immigration and Customs Enforcement on Friday, August 29, according to the Department of Homeland Security' technically traces to the brief, but the draft then states 'He was arrested on August 27 after arriving at Louis Armstrong New Orleans International Airport' without attribution. The brief shows arrest on August 27 is from DHS via BBC, so attribution should be inline."
+    ]
+   },
+   {
+    "id": "c070",
+    "headline": "China Reports 261 Foreign Nationals Missing in Tibet Flood",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief exists for this story. Per the approval protocol, every fact in the draft must trace to a data_point in a research brief OR to the draft's own cited sources. The draft cites NYT and a Google News RSS feed. The NYT URL provided (nytimes.com/2026/08/30/world/asia/tibet-nepal-flood-death-toll-china.html) is a URL only, not a brief data_point, and cannot be verified as containing the claimed facts (261 missing foreigners from 23 countries, Chinese authority disclosure, prior lack of transparency). The Google News RSS URL is an aggregator link, not a primary source. Without a research brief to anchor the facts, and without access to verify the sourced URLs contain the claimed information, the specific figures (261 foreigners, 23 countries) and the framing (Chinese transparency disclosure) cannot be confirmed to meet the desk's fact-sourcing standard."
+    ]
+   },
+   {
+    "id": "c083",
+    "headline": "Michigan Senate Nominee El-Sayed Apologizes for Synagogue Attack Comments",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief exists for this story. The draft makes several specific factual claims: (1) El-Sayed made comments in March in response to an attack on a Michigan synagogue; (2) those comments were controversial; (3) he has now apologized to the Jewish Democratic Caucus; (4) the apology addresses his initial response to a hate crime. None of these claims are anchored in a research brief. The draft cites four outlets (ABC News, Washington Post, The Hill, Guardian) but provides only URLs, not verified source material. Without a research brief or verified access to those sources, the specific facts\u2014particularly what the original March comments were, what controversy they sparked, and whether the apology was direct or indirect\u2014cannot be confirmed. A story about a sensitive allegation tied to antisemitism requires sourced clarity; URLs alone do not meet the desk's standard."
+    ]
+   },
+   {
+    "id": "c038",
+    "headline": "King Haakon VIII Delivers First Speech as Norway's New Monarch",
+    "category": "accuracy",
+    "reasons": [
+     "The draft contains a factual claim that cannot be verified against any research brief or confirmed source material: that King Haakon VIII is Norway's new monarch following the death of his father King Harald V at age 89. As of the knowledge cutoff for this system, Harald V is still the reigning King of Norway and Haakon (Crown Prince Haakon) has not succeeded to the throne. The BBC URL provided does not confirm this event occurred. Without a research brief to establish these facts as true, and with the claim appearing to describe an event that has not occurred in the public record, the draft asserts a false premise. This is an accuracy failure at the story's foundation."
     ]
    }
   ]

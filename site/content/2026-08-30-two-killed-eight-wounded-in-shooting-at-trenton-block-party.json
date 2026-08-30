@@ -1,0 +1,54 @@
+{
+  "id": "c052",
+  "slug": "two-killed-eight-wounded-in-shooting-at-trenton-block-party",
+  "kind": "brief",
+  "title": "Two killed, eight wounded in shooting at Trenton block party",
+  "dek": "A shooting at a block party in Trenton, New Jersey, early Sunday killed a 33-year-old woman and a 42-year-old man, and wounded eight others ranging in age from 23 to 43. Multiple shooters fired into a crowd of about 100 people; more than 50 spent shell casings were recovered at the scene.",
+  "date": "2026-08-30",
+  "published_utc": "2026-08-30T18:47:57Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 7,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Two killed and eight wounded at a Trenton block party shooting early Sunday, with investigators recovering more than 50 spent shell casings.",
+  "bottom_line": "The investigation remains active with no arrests announced. Authorities are treating the case as one involving multiple shooters; the identities and motives of those responsible, along with the relationship of victims to the gathering, remain under investigation.",
+  "human_take": "",
+  "body": [
+    "Two people died and eight were wounded in a shooting at a block party on the 100 block of Locust Street in the Wilbur section of East Trenton around 12:25 a.m. on Sunday, according to the Mercer County prosecutor's office.",
+    "A 33-year-old woman and a 42-year-old man died from their injuries. Eight other victims, two men and six women ranging in age from 23 to 43, were treated for their injuries and have been stabilized, per the prosecutor's office.",
+    "Multiple shooters walked up to the block party and opened fire into a crowd of approximately 100 people, according to the prosecutor's office. Investigators recovered more than 50 spent shell casings at the scene, and multiple vehicles were struck by gunfire.",
+    "Trenton Mayor Reed Gusciora characterized the gathering as \"a large, unauthorized adult gathering involving hundreds of people on a residential street.\" The mayor said one of those killed was attempting to turn his life around after incarceration and had recently been recognized for his commitment to positive change.",
+    "Mayor Gusciora stated, \"This is not about criminalizing people for gathering together,\" emphasizing the distinction between authorized and unauthorized gatherings, particularly when firearms are present.",
+    "The Mercer County Prosecutor's Office Homicide Task Force is investigating the shooting. New Jersey Gov. Mikie Sherrill said she has been briefed on the incident, and her office indicated that Attorney Jennifer Davenport is in touch with local officials.",
+    "No suspects have been identified or arrested as of the available reporting."
+  ],
+  "sources": [
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/trenton-new-jersey-mass-shooting-locust-street/"
+    },
+    {
+      "title": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/world/1-dead-and-5-wounded-in-a-shooting-at-a-rave-in-switzerland"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/switzerland-aarau-rave-shooting/"
+    },
+    {
+      "title": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbFRJMzEwbmNISzlfVlprSDdqX0xSUFhQZjVoMzA3WExLS01hVTRRTFFheGV2cHFsVnpoeTlXQjJ1aU1Zbm5rRDVVODdFdktfTEdJWENyUF9HcUtwX0MwMjhBNHpOZF9rbDBIdFBxVTVLM2cyZFpONDRYRHFUWVN5UFQtUElfLW81bTdEN2x2SDlkTnRud0w40gGcAUFVX3lxTE1qTGlrdUNtLXk2eDhiYjhIRDJoS0dENTNVYm8xUGZURHUwbklzV0EydUcyWWk5NHZpLVJWODhkT1pnR3pjZkZGZW5uT0FkWUo0Q3I0RHJKeXd5c3RfYU5hajJTZlJjbUVRNGEtMkVTc1NQX2g2ckdLNGZyUFpGR2VFSi1mc24yNFlwb2VmQVkwNjRyZ0FZQ19uQ3dMVw?oc=5"
+    },
+    {
+      "title": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWTZFVjFNZzNVaE5EbVpSbk9lZmNwdXFDdmY2dTZKeHg0MGhBUHhXSHdLV2ItcG9VbnJmYVpHSXR0WVduanBYdG9HekhEMk1jT3ZzZlh0WGNrdEJ4U1FiRXdRWmZsQTd5akJqWjlFX20yeTNERzU3Q0FpZnExeVpPZmJWV1p0OEpYTU1ZZVVjN01EMXlPN1Y3U0lmeHNwWVRubk0w0gGrAUFVX3lxTE14T2UwT05mR3Q2aldXenByclRjY1Bhb3E4alhhNWctY1RwM0FyNUx4MEJRVkJXRjVwZWI4VHE1QzZnU2wyVHpVcGhMQXJtbDlhOGl2ZTV6bGI1SmZLcW9iVEhxOEdHNlpVOWtkRnlXbTIyMEhXV1pmZjhISWdhdGlGWm04UTRFOU5JblVqUHl4eUJFbm9MRW9ZZXBEdzEyWGQ2endjaUItT2NHcw?oc=5"
+    }
+  ],
+  "event_utc": "2026-08-30T15:55:44Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-30T18:47:57Z",
+    "sources_cited": 5,
+    "sources_live_checked": 2
+  }
+}
