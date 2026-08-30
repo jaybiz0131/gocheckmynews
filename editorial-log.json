@@ -1,82 +1,5 @@
 [
  {
-  "date": "2026-07-23",
-  "approved": 4,
-  "rejected": [
-   {
-    "id": "c080",
-    "headline": "Jobless claims fall to 187,000, lowest level in 55 years",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'Weekly jobless claims serve as a real-time measure of labor market layoffs' and 'A sustained decline in claims signals employers are retaining workers and fewer people are losing their jobs.' These are explanatory claims about what jobless claims measure and what they signal. The brief contains no data_point supporting this definitional or interpretive material\u2014it only documents the 187,000 figure, the 55-year low, and the historical layoff statement. The writer has smuggled in explanatory framing that is not in the brief.",
-     "The brief's open_questions flag that 'the provided source text is truncated/corrupted (contains only HTML/SVG markup, not article body)' and that 'No information on seasonal adjustments, methodology, or how this compares to preceding weeks' claims' is available. The draft presents the figure as definitive without any hedge or caveat about source material limitations, violating the accuracy standard when the brief itself documents source corruption."
-    ]
-   },
-   {
-    "id": "c149",
-    "headline": "Trump ties Saudi nuclear deal to Israel normalization",
-    "category": "accuracy",
-    "reasons": [
-     "The draft claims 'Trump publicly conditioned a 30-year civilian nuclear agreement with Saudi Arabia on the kingdom's normalization of relations with Israel under the Abraham Accords framework.' The brief's open_questions explicitly state: 'The source_texts array is empty; no direct quotes, official statements, or detailed reporting from either the WSJ or Washington Post articles are available for verification' and 'Trump's exact language and framing of the condition are not provided.' The draft presents this as a clean, definitive statement when the brief documents that the underlying source material cannot be verified from the provided material.",
-     "The brief notes 'source_chars: 0' and flags that no article bodies are available. The writer has constructed a narrative about Trump's condition and its implications ('explicit linkage between nuclear proliferation policy and Middle East peace terms') without access to the actual reporting, violating the hard rule that facts must trace to the brief's data_points, which themselves depend on source verification."
-    ]
-   },
-   {
-    "id": "c150",
-    "headline": "House passes war powers measure on Iran strikes; Senate effort fails",
-    "category": "accuracy",
-    "reasons": [
-     "The draft claims 'Trump resumed strikes against Iran this month' and structures the story around 'the first legislative test of congressional appetite to constrain executive military action since Trump resumed strikes against Iran this month.' The brief's open_questions include 'How many nights of Iran strikes has Trump ordered (the snippet says 12+ but source text is unavailable to verify the precise number)?' This indicates the source material itself is corrupted or unavailable ('source_chars: 0'). The draft presents the Iran strikes as established fact when the brief documents that source verification is impossible.",
-     "The brief flags critical open questions: 'What was the exact vote count in the House? Which four Republicans voted for the resolution? What specific language or constraints does the resolution contain? Why did the Senate fail to advance its measure?' The draft provides none of these specifics and presents the House passage and Senate failure as a clean narrative when the brief shows the underlying source material is not available for verification (source_chars: 0)."
-    ]
-   },
-   {
-    "id": "c100",
-    "headline": "U.S. withdraws subpoenas issued to New York Times journalists",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'The subpoenas were related to reporting on Air Force One security, according to the Times account.' The brief's only data point on subject matter says the subpoenas were 'related to reporting on Air Force One security' with confidence 'reported', but this is a paraphrase of the brief's own language, not traced to a specific claim the source actually made. The brief itself contains zero source characters (source_chars: 0) and marks this as a 'thin' brief, meaning the actual Times article content was not captured. The draft should not present Air Force One as the confirmed subject matter without the brief demonstrating the source material supports it.",
-     "The draft characterizes the judge's concerns as having 'raised questions about the government's handling' but does not specify what those concerns were. The brief lists as an open question: 'What specific judicial concerns did the federal judge raise about DOJ's handling?' The draft reads as though a judicial action occurred but omits the substance entirely, which is appropriate given the thin brief, but the phrasing 'raised questions' is vague enough to imply clarity the source did not provide."
-    ]
-   },
-   {
-    "id": "c088",
-    "headline": "Houthis attack Saudi tankers as U.S. strikes Iran for 12th consecutive night",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states: 'The U.S. carried out its 12th consecutive night of strikes across Iran.' The brief's data point says: 'The U.S. carried out a 12th night of strikes across Iran' with confidence 'reported'. The word 'consecutive' does not appear in the brief's data point. This is an added qualifier not present in the sourced claim and constitutes smuggled information beyond the brief. The source material captured (source_chars: 221, very thin) may or may not support 'consecutive,' but the writer cannot add that descriptor without it appearing in the brief first."
-    ]
-   },
-   {
-    "id": "c123",
-    "headline": "Minnesota man sentenced to life for killing Democratic state House Speaker",
-    "category": "accuracy",
-    "reasons": [
-     "Draft states 'The sentencing closes a major criminal justice case less than a year and a half after the attack,' but the brief data_point says 'a little over a year after the political attacks.' These are materially different timeframes and the draft's language is not supported by the brief.",
-     "Draft states Boelter 'pleaded guilty to the killings' but the brief only confirms he 'pleaded guilty to killing a top Democratic lawmaker and her husband'\u2014the draft uses 'killings' (plural noun) whereas the brief uses 'killing' (singular noun form), a subtle shift that could imply multiple separate offenses rather than a single dual homicide. The distinction matters legally.",
-     "The brief's open_questions note that 'The source text provided is truncated and contains only HTML navigation structure with no actual article content,' meaning the Guardian URL provided has not yielded verifiable content. The draft presents all claims as 'according to the Guardian' but the source cannot be verified to contain the reported facts."
-    ]
-   },
-   {
-    "id": "c274",
-    "headline": "Democratic-led states sue over conditions on FEMA disaster relief funds",
-    "category": "accuracy",
-    "reasons": [
-     "Draft states conditions 'relate to immigration enforcement and electoral policies' but the brief's data_point says the states 'allege the conditions are without authority and relate to elections and immigration enforcement.' The draft presents this as fact when the brief frames it as allegation by the states. Without the 'allege' framing, the draft reads as the desk asserting the conditions are immigration- and electoral-policy-related rather than reporting the states' claim.",
-     "Brief note_source_chars shows 0, and open_questions list five critical unknowns including 'What are the specific conditions attached to the FEMA grants?' and 'Which states are named as plaintiffs.' The brief is explicitly thin. The draft provides almost no detail beyond the core claim and reads more like a headline summary than a reportable story given how little the source actually contained."
-    ]
-   },
-   {
-    "id": "c087",
-    "headline": "Amish Shah Wins Arizona Democratic Primary Against Party Establishment Pick",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'Shah's win represents another defeat to the Democratic Congressional Campaign Committee, as more voters reject the preferences of party leaders in Washington.' This claim goes beyond the brief's data_points. The brief's third data_point attributes this exact claim to PBS NewsHour, but the draft does not explicitly attribute it as reporting; it reads as the writer's own inference from a pattern ('another defeat' implies knowledge of multiple defeats beyond what the brief establishes). The brief establishes only that Shah won and the DCCC backed his rival\u2014not that this is part of a 'broader pattern' of DCCC losses or that voters are systematically rejecting Washington endorsements. The draft's second paragraph extends this into 'a broader pattern in the 2026 election cycle: Democratic voters in contested districts are rejecting Washington-backed endorsements' without sourced evidence of that pattern in the brief."
-    ]
-   }
-  ]
- },
- {
   "date": "2026-07-24",
   "approved": 5,
   "rejected": [
@@ -9848,6 +9771,65 @@
     "category": "accuracy",
     "reasons": [
      "No research brief exists for this story. The instruction states: 'every draft fact must then trace to the draft's own cited sources or be rejected.' The draft cites four URLs but provides no actual quotations, specific details, dates, or verifiable facts that can be traced to those sources. The sources are listed but their content is not provided for verification. The core claims (El-Sayed's apology, timing in March, target audience as Jewish Democratic Caucus, the framing about repairing relationships) cannot be verified against the brief or against quoted/attributed material in the draft itself. Without a brief and without inline attribution or direct quotes in the draft body, every factual claim fails the traceability requirement."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-08-30",
+  "approved": 5,
+  "rejected": [
+   {
+    "id": "c048",
+    "headline": "NASA Launches Nancy Grace Roman Space Telescope",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief exists for this story. Per the contract, every fact in the draft must trace to either a data_point in a research brief OR be verifiable in the draft's own cited sources. The draft cites four news sources but the approver is instructed to judge against a research brief. With no brief provided, the factual claims cannot be verified against desk research standards: the 4.3 billion dollar cost, the specific mission objectives, the scale of the survey (hundreds of millions of stars and billions of galaxies), and the calibration timeline are all unverified against the desk's research record."
+    ]
+   },
+   {
+    "id": "c083",
+    "headline": "Ferry Capsizes Off Northern Cyprus; At Least 7 Dead, 24 Missing",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief exists for this story. Per the contract, every fact in the draft must trace to either a data_point in a research brief OR be verifiable in the draft's own cited sources. The draft makes specific factual claims\u2014ferry capacity (nearly 270), death toll (at least 7), missing count (24)\u2014but provides no research brief to verify these figures and no inline attribution to the news sources cited. The sources are listed but not attributed within the body prose, leaving no chain of evidence for the reader or desk to verify the facts."
+    ]
+   },
+   {
+    "id": "c252",
+    "headline": "Chicago mass shooting kills 1, injures at least 9 on South Side",
+    "category": "accuracy",
+    "reasons": [
+     "The draft headline and opening state 'injured at least 9' and 'injured at least nine others,' but the brief's core_claim and data_points consistently state 'at least 10 individuals were hit by gunfire.' The brief data point explicitly says 'At least 10 individuals were hit by gunfire in the shooting.' The draft math (1 dead + 6 in good condition + 3 unknown = 10 total) actually adds up to 10 victims, not 9 injured. The headline and lead both undercount the victims by one."
+    ]
+   },
+   {
+    "id": "c202",
+    "headline": "Walmart settles DOJ lawsuit for $50 million over pharmacy controls",
+    "category": "accuracy",
+    "reasons": [
+     "Brief is marked thin=true with only 4 data_points from a single source (The Hill via snippet). The draft reproduces only those 4 facts and adds no independent reporting.",
+     "The open_questions list in the brief includes 'How many prescriptions specifically were allegedly filled illegally?' yet the draft claims 'hundreds of thousands of illegal prescriptions' without that figure appearing in any data_point. The brief's core_claim says 'filled hundreds of thousands of illegal prescriptions' but no data_point supports that specific number.",
+     "This is a SMUGGLED FACT: 'hundreds of thousands' appears in the brief's core_claim (a summary statement) but not in any data_point sourced to The Hill. The draft inherited it from the brief's angle/claim but has no independent sourcing to The Hill's snippet for that figure.",
+     "The story cannot run on a single source with a thin brief; the missing figure is unverified against the actual article text."
+    ]
+   },
+   {
+    "id": "c001",
+    "headline": "Ontario premier installs Lake Ontario sign after Trump renames it Lake America",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Khamenei has not been seen in public since being injured in U.S.-Israeli airstrikes six months ago that launched the Iran war, which killed his father and previous supreme leader, Ayatollah Ali Khamenei' \u2014 but this conflates two different people. The brief's data_point says the airstrikes 'killed his father and previous supreme leader, Ayatollah Ali Khamenei,' making it ambiguous whether the father and previous supreme leader are the same person or two people. The draft reads as if Mojtaba Khamenei's father was the previous supreme leader, but does not clarify this relationship. This is a factual claim about succession and family relationships that the brief does not cleanly establish, and the draft's phrasing could mislead readers about Iran's leadership structure.",
+     "The draft identifies the Supreme Leader as 'Mojtaba Khamenei' but the brief's data_points refer to 'Khamenei' without the first name, and the opening attribution is to 'Iran's Supreme Leader Mojtaba Khamenei.' This is a significant identification claim: if Mojtaba is the correct first name of the current Supreme Leader, it must be verified in the brief's sourcing. The brief does not explicitly confirm 'Mojtaba' as the current Supreme Leader's first name in any data_point \u2014 it only uses 'Khamenei.' The draft has added a first name that does not appear in the research brief."
+    ]
+   },
+   {
+    "id": "c250",
+    "headline": "Iran's supreme leader calls for Gulf unity against shared adversary",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states in the opening: 'Iran's Supreme Leader Mojtaba Khamenei issued a written message' \u2014 but the brief does not contain the first name 'Mojtaba' in any data_point. The brief only refers to 'Khamenei.' The draft has introduced a first name that is not supported by the research brief. This is a direct identification of a named person and violates the hard rule that facts must trace back to the brief.",
+     "The draft refers to 'Khamenei has not been seen in public since being injured in U.S.-Israeli airstrikes six months ago that launched the Iran war, which killed his father and previous supreme leader, Ayatollah Ali Khamenei.' This creates ambiguity about whether Khamenei's father and the previous supreme leader are the same person or different people. The brief's data_point states: 'Khamenei has not been seen in public since being injured in U.S.-Israeli airstrikes six months ago that launched the Iran war, killing his father and previous supreme leader, Ayatollah Ali Khamenei.' The phrasing is unclear in both, but the draft does not resolve the ambiguity and could mislead readers about Iranian succession."
     ]
    }
   ]
