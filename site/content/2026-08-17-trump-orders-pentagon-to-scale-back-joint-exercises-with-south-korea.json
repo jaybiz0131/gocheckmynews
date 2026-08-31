@@ -54,5 +54,12 @@
     "checked_utc": "2026-08-17T00:02:26Z",
     "sources_cited": 6,
     "sources_live_checked": 3
-  }
+  },
+  "merged_from": [
+    {
+      "id": "c013",
+      "title": "Trump orders Pentagon to scale back joint exercises with South Korea",
+      "published_utc": "2026-08-16T22:39:19Z"
+    }
+  ]
 }

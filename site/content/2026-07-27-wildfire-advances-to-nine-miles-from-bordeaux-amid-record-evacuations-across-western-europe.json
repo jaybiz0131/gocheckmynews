@@ -1,40 +1,40 @@
 {
- "id": "c014",
- "slug": "wildfire-advances-to-nine-miles-from-bordeaux-amid-record-evacuations-across-western-europe",
- "kind": "brief",
- "title": "Wildfire advances to nine miles from Bordeaux amid record evacuations across Western Europe",
- "dek": "A major wildfire in the Gironde region of France has advanced to within 15 kilometers of Bordeaux. Some 220,000 people have been evacuated in France and over 100,000 in Spain amid record fire activity and heat. President Macron called it the toughest crisis since World War Two.",
- "date": "2026-07-27",
- "published_utc": "2026-07-27T21:32:38Z",
- "category": "news",
- "verdict": "VERIFIED",
- "rank": 2,
- "author": "The GoCheckMyNews Desk",
- "key_fact": "A wildfire in the Gironde region is now nine miles from the city of Bordeaux, with 220,000 evacuated in France and 100,000+ in Spain as the region faces record heat and fire activity.",
- "bottom_line": "The fire's trajectory hinges on weather conditions over the next 72 hours, particularly wind direction and the severity of the predicted Tuesday heatwave. If winds shift toward Bordeaux or intensify, or if heat prevents firefighting operations, evacuations from the city itself become likely. The critical measure to watch: whether firefighters can establish and hold firebreaks south of the city, or whether the fire continues its advance.",
- "human_take": "",
- "body": [
-  "One of multiple wildfires burning in France has advanced to within 15 kilometers (nine miles) of the south-western city of Bordeaux, prompting preparations for potential mass evacuations as the region braces for intensifying conditions. Thomas Cazenave, mayor of Bordeaux, said he is \"bracing for all eventualities\" and stated that \"We are preparing to accommodate a large number of people should further evacuations be ordered.\"",
-  "The scale of displacement is already historic. Some 220,000 people have been evacuated in France and more than 100,000 in Spain, where fires are burning \"uncontrolled\" west of Madrid. Another intense heatwave predicted for Tuesday could further hamper firefighting efforts, according to BBC reporting.",
-  "President Emmanuel Macron visited the fire-ravaged Gironde region and described the country as facing a \"completely unprecedented wildfire,\" calling it the \"toughest since World War Two.\" Interior Minister Laurent N\u00fa\u00f1ez said the fire \"has a life of its own.\" Jerome Steffe, mayor of Cestas, a town south of Bordeaux that evacuated 17,000 residents during the night two days ago, told the BBC this \"will be the fire of the century.\"",
-  "In the Cestas region alone, 42,000 hectares (103,000 acres) of land have burned and 240 houses have been destroyed, per BBC reporting. Steffe said the fire is no longer moving as quickly, but his teams have \"won only a small battle\" and the risk remains from flying embers or a sudden change in wind direction. Macron warned that \"temperatures are set to rise again, the wind is still present, and therefore we must remain humble.\"",
-  "French Prime Minister S\u00e9bastien Lecornu warned the country \"is going through an unprecedented fire season,\" with 116,085 hectares (286,852 acres) burned and 13,566 fire starts recorded since January. He revealed that nine out of 10 fires \"are human-caused and most arise from carelessness: a cigarette butt, a barbecue, work carried out without precaution.\" However, not all fires are accidents. Lecornu noted that some are deliberately set, and since July 6, 162 arrests have taken place. Macron said a smaller fire in the Landes region had been contained, but the fight continued in neighbouring Gironde.",
-  "Wildfires are burning in several other French regions, including Var and Landes, and also in Haute-Corse on the island of Corsica. Spain entered its fifth day of a national emergency on Monday because of raging wildfires west of Madrid, with the fire now affecting more than 27,000 hectares. Satellite images captured on July 24 and 26 show how the fire spread over two days after several blazes in the Almorox, Villa del Prado, and San Mart\u00edn de Valdeiglesias areas merged into one large fire. Local Spanish officials have warned that the region faces the \"worst fires in its history.\"",
-  "The underlying driver is accelerating climate change. According to the Copernicus Climate Change Service, climate change is driving up temperatures around the world, with Europe the fastest warming continent, heating up twice as fast as the global average. Climate change is causing increased summer heatwaves, greater pressure on Europe's water supply, and more intense wildfires."
- ],
- "sources": [
-  {
-   "title": "BBC News",
-   "url": "https://www.bbc.co.uk/news/articles/ckg34128nvpo?at_medium=RSS&at_campaign=rss"
-  }
- ],
- "event_utc": "2026-07-27T20:34:55Z",
- "verification": {
+  "id": "c014",
+  "slug": "wildfire-advances-to-nine-miles-from-bordeaux-amid-record-evacuations-across-western-europe",
+  "kind": "brief",
+  "title": "Wildfire advances to nine miles from Bordeaux amid record evacuations across Western Europe",
+  "dek": "A major wildfire in the Gironde region of France has advanced to within 15 kilometers of Bordeaux. Some 220,000 people have been evacuated in France and over 100,000 in Spain amid record fire activity and heat. President Macron called it the toughest crisis since World War Two.",
+  "date": "2026-07-27",
+  "published_utc": "2026-07-27T21:32:38Z",
+  "category": "news",
   "verdict": "VERIFIED",
-  "checked_utc": "2026-07-27T21:32:38Z",
-  "sources_cited": 1,
-  "sources_live_checked": 1
- },
- "update_of": "wildfires-force-330-000-evacuations-across-france-and-spain-as-one-blaze-becomes-largest-in-decades",
- "superseded_by": "european-wildfires-force-330-000-evacuations-as-heat-wave-threatens-firefighting-efforts"
+  "rank": 2,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "A wildfire in the Gironde region is now nine miles from the city of Bordeaux, with 220,000 evacuated in France and 100,000+ in Spain as the region faces record heat and fire activity.",
+  "bottom_line": "The fire's trajectory hinges on weather conditions over the next 72 hours, particularly wind direction and the severity of the predicted Tuesday heatwave. If winds shift toward Bordeaux or intensify, or if heat prevents firefighting operations, evacuations from the city itself become likely. The critical measure to watch: whether firefighters can establish and hold firebreaks south of the city, or whether the fire continues its advance.",
+  "human_take": "",
+  "body": [
+    "One of multiple wildfires burning in France has advanced to within 15 kilometers (nine miles) of the south-western city of Bordeaux, prompting preparations for potential mass evacuations as the region braces for intensifying conditions. Thomas Cazenave, mayor of Bordeaux, said he is \"bracing for all eventualities\" and stated that \"We are preparing to accommodate a large number of people should further evacuations be ordered.\"",
+    "The scale of displacement is already historic. Some 220,000 people have been evacuated in France and more than 100,000 in Spain, where fires are burning \"uncontrolled\" west of Madrid. Another intense heatwave predicted for Tuesday could further hamper firefighting efforts, according to BBC reporting.",
+    "President Emmanuel Macron visited the fire-ravaged Gironde region and described the country as facing a \"completely unprecedented wildfire,\" calling it the \"toughest since World War Two.\" Interior Minister Laurent Núñez said the fire \"has a life of its own.\" Jerome Steffe, mayor of Cestas, a town south of Bordeaux that evacuated 17,000 residents during the night two days ago, told the BBC this \"will be the fire of the century.\"",
+    "In the Cestas region alone, 42,000 hectares (103,000 acres) of land have burned and 240 houses have been destroyed, per BBC reporting. Steffe said the fire is no longer moving as quickly, but his teams have \"won only a small battle\" and the risk remains from flying embers or a sudden change in wind direction. Macron warned that \"temperatures are set to rise again, the wind is still present, and therefore we must remain humble.\"",
+    "French Prime Minister Sébastien Lecornu warned the country \"is going through an unprecedented fire season,\" with 116,085 hectares (286,852 acres) burned and 13,566 fire starts recorded since January. He revealed that nine out of 10 fires \"are human-caused and most arise from carelessness: a cigarette butt, a barbecue, work carried out without precaution.\" However, not all fires are accidents. Lecornu noted that some are deliberately set, and since July 6, 162 arrests have taken place. Macron said a smaller fire in the Landes region had been contained, but the fight continued in neighbouring Gironde.",
+    "Wildfires are burning in several other French regions, including Var and Landes, and also in Haute-Corse on the island of Corsica. Spain entered its fifth day of a national emergency on Monday because of raging wildfires west of Madrid, with the fire now affecting more than 27,000 hectares. Satellite images captured on July 24 and 26 show how the fire spread over two days after several blazes in the Almorox, Villa del Prado, and San Martín de Valdeiglesias areas merged into one large fire. Local Spanish officials have warned that the region faces the \"worst fires in its history.\"",
+    "The underlying driver is accelerating climate change. According to the Copernicus Climate Change Service, climate change is driving up temperatures around the world, with Europe the fastest warming continent, heating up twice as fast as the global average. Climate change is causing increased summer heatwaves, greater pressure on Europe's water supply, and more intense wildfires."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/ckg34128nvpo?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "event_utc": "2026-07-27T20:34:55Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-07-27T21:32:38Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "update_of": "wildfires-force-330-000-evacuations-across-france-and-spain-as-one-blaze-becomes-largest-in-decades",
+  "superseded_by": "wildfires-force-330-000-evacuations-across-france-and-spain-as-one-blaze-becomes-largest-in-decades"
 }

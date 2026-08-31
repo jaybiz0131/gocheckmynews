@@ -39,8 +39,19 @@ RETIRED_ARTICLES = {
         "king-harald-v-of-norway-dies-at-89-after-35-year-reign-son-becomes-king-haakon-viii",
     "19-year-old-arrested-in-virginia-state-university-shooting-five-injured":
         "five-injured-in-shooting-at-virginia-state-university-suspect-arrested-after-12-hour-search",
+    # re-pointed 2026-08-31 (dupe audit): the old target was itself retired below;
+    # a redirect must land on a page, never on another redirect
     "2-powerful-earthquakes-hit-indonesia-on-same-day-at-least-47-dead":
-        "two-powerful-earthquakes-strike-indonesia-within-hours-killing-at-least-47",
+        "indonesia-earthquake-kills-at-least-47-rescue-operations-underway-on-flores",
+    # dupe audit 2026-08-31: same-day retelling of the first-day toll story
+    "two-powerful-earthquakes-strike-indonesia-within-hours-killing-at-least-47":
+        "indonesia-earthquake-kills-at-least-47-rescue-operations-underway-on-flores",
+    # dupe audit 2026-08-31: the 51-toll telling was superseded within 2 hours and
+    # the same-day recovery piece retold the 53 toll the survivor already carries
+    "7-7-magnitude-earthquake-kills-at-least-51-in-indonesia-thousands-displaced":
+        "magnitude-7-7-earthquake-kills-53-displaces-thousands-on-indonesia-s-flores-island",
+    "rescuers-in-indonesia-recover-more-bodies-in-earthquake-aftermath-raising-death-toll-to-53":
+        "magnitude-7-7-earthquake-kills-53-displaces-thousands-on-indonesia-s-flores-island",
     "7-1-magnitude-earthquake-strikes-southern-japan-rescue-operations-ongoing-at-collapsed-shopping-mall":
         "japan-earthquake-kills-at-least-18-rescue-operations-underway-in-collapsed-buildings",
     "7-1-magnitude-earthquake-strikes-southern-japan-rescue-operations-underway-in-kashima":
@@ -55,6 +66,15 @@ RETIRED_ARTICLES = {
         "bald-range-wildfire-in-british-columbia-doubles-in-size-forces-20-000-to-evacuate",
     "cia-director-ratcliffe-makes-unannounced-moscow-trip-for-unspecified-talks":
         "cia-director-ratcliffe-makes-unannounced-trip-to-moscow",
+    # dupe audit 2026-08-31: near-identical same-day headline mis-chained as an
+    # update; pure retelling of the 6-source original
+    "cia-director-ratcliffe-makes-unannounced-moscow-trip":
+        "cia-director-ratcliffe-makes-unannounced-trip-to-moscow",
+    # dupe audit 2026-08-31: two later retellings of the same 330,000 figure
+    "european-wildfires-force-330-000-evacuations-as-heat-wave-threatens-firefighting-efforts":
+        "wildfires-force-330-000-evacuations-across-france-and-spain-as-one-blaze-becomes-largest-in-decades",
+    "france-orders-fresh-evacuations-as-wildfires-displace-330-000-across-europe":
+        "wildfires-force-330-000-evacuations-across-france-and-spain-as-one-blaze-becomes-largest-in-decades",
     "drug-resistant-fungus-candida-auris-confirmed-in-3-437-u-s-cases-across-27-states":
         "drug-resistant-fungus-candida-auris-detected-in-3-437-cases-across-27-u-s-states",
     "ex-kentucky-student-athlete-pleads-guilty-to-manslaughter-in-infant-death":
@@ -89,8 +109,9 @@ RETIRED_ARTICLES = {
         "houthis-claim-red-sea-tanker-attacks-as-us-strikes-iran-for-12th-consecutive-night",
     "hurricane-warning-issued-for-hawaii-s-big-island-as-tropical-storm-lala-approaches":
         "hawaii-under-a-hurricane-warning-as-tropical-storm-lala-takes-aim",
+    # re-pointed 2026-08-31 (dupe audit): old target itself retired; no 301 chains
     "indonesia-earthquake-kills-51-displaces-5-000-on-island-of-flores":
-        "7-7-magnitude-earthquake-kills-at-least-51-in-indonesia-thousands-displaced",
+        "magnitude-7-7-earthquake-kills-53-displaces-thousands-on-indonesia-s-flores-island",
     "israel-reestablishes-kadim-settlement-in-west-bank-with-30-families":
         "israel-re-establishes-west-bank-settlement-kadim-with-30-families-reversing-2005-evacuation",
     "israeli-airstrikes-in-southern-lebanon-kill-11-lebanese-health-authorities-say":
@@ -103,8 +124,9 @@ RETIRED_ARTICLES = {
         "federal-judge-lifts-stay-on-somalia-tps-termination-clearing-path-for-deportations",
     "justice-department-authorizes-military-to-detain-migrants-for-trespassing-on-border-defense-zones":
         "justice-department-authorizes-military-to-detain-migrants-for-trespassing-near-border",
+    # re-pointed 2026-08-31 (dupe audit): old target itself retired; no 301 chains
     "magnitude-7-7-earthquake-kills-51-in-indonesia-displaces-thousands":
-        "7-7-magnitude-earthquake-kills-at-least-51-in-indonesia-thousands-displaced",
+        "magnitude-7-7-earthquake-kills-53-displaces-thousands-on-indonesia-s-flores-island",
     "magnitude-7-7-earthquake-kills-at-least-53-in-indonesia-thousands-displaced":
         "magnitude-7-7-earthquake-kills-53-displaces-thousands-on-indonesia-s-flores-island",
     "massive-wildfires-force-330-000-evacuations-across-france-and-spain-bordeaux-wine-region-threatened":
@@ -143,6 +165,10 @@ RETIRED_ARTICLES = {
         "judge-blocks-trump-administration-from-moving-fbi-headquarters-to-dc-office-building",
     "trump-administration-sets-10-12-5-tariffs-on-60-countries-covering-nearly-all-us-imports":
         "trump-administration-imposes-10-12-5-tariffs-on-60-countries-covering-99-4-of-us-imports",
+    # dupe audit 2026-08-31: pre-announcement piece retold by the signed-agreement
+    # story the next morning
+    "trump-administration-to-announce-nuclear-agreement-with-saudi-arabia":
+        "us-signs-nuclear-cooperation-agreement-allowing-saudi-arabia-uranium-enrichment",
     "trump-conditions-saudi-nuclear-deal-on-israel-recognition":
         "trump-ties-u-s-saudi-nuclear-deal-to-israeli-recognition",
     "trump-threatens-to-withdraw-blanche-nomination-and-resubmit-after-gop-senators-leave-office":
@@ -970,6 +996,10 @@ def render_article(item, all_items=None):
         ribbon += (f'<div class="callout"><b>Update.</b> This story develops our earlier '
                    f'reporting: <a href="/articles/{esc(item["update_of"])}.html">'
                    f'{esc(prev_title)}</a>.</div>')
+    # aging loop (corrections.py) and manual reconciliations both write item["corrected"].
+    if (item.get("corrected") or "").strip():
+        ribbon += (f'<div class="callout corrected"><b>Correction.</b> '
+                   f'{esc(destyle(item["corrected"]))}</div>')
     # THE BOUNDARY PANEL sits ABOVE the prose, unlike every other panel on the page, because
     # it answers the only question a reader of a security advisory has before they will read
     # anything else: am I affected. Values are the vendor's own words, copied through the
@@ -2251,8 +2281,19 @@ def same_event_on_disk(item, window_h=DEDUPE_WINDOW_H, content=None):
             other = json.load(open(path, encoding="utf-8"))
         except Exception:
             continue
-        if other.get("example") or other.get("slug") == item.get("slug"):
+        if other.get("example"):
             continue
+        if other.get("slug") == item.get("slug"):
+            # skip-self ONLY for the item's own {date}-{slug}.json (a re-ingest of
+            # the same run). An identical slug in a DIFFERENT dated file is the
+            # strongest duplicate signal there is: article URLs carry no date, so
+            # both files collide at one /articles/{slug}.html address and whichever
+            # globs last wins the page. Three such pairs shipped live (TikTok
+            # settlement, South Korea exercises, Bald Range) through the old
+            # unconditional skip.
+            if os.path.basename(path) == f"{item.get('date')}-{item.get('slug')}.json":
+                continue
+            return path, other, "merge"
         if str(other.get("id") or "").startswith("wrap-") or \
                 other.get("category") == "daily edition":
             continue

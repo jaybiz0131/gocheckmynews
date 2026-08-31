@@ -46,6 +46,14 @@
     {
       "title": "The Wall Street Journal",
       "url": "https://www.wsj.com/world/cia-director-john-ratcliffe-makes-surprise-trip-to-moscow-c1c68fa6?mod=rss_worldnews"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/policy/national-security/6049802-cia-director-ratcliffe-moscow-visit/"
+    },
+    {
+      "title": "The Washington Post",
+      "url": "https://www.washingtonpost.com/national-security/2026/08/25/cia-director-moscow-rare-unannounced-trip/"
     }
   ],
   "event_utc": "2026-08-25T11:22:34Z",
@@ -81,5 +89,13 @@
       "headline": "Video CIA Director John Ratcliffe in Moscow for meetings, sources say - ABC News - Breaking News, Latest News and Videos"
     }
   ],
-  "superseded_by": "cia-director-ratcliffe-makes-unannounced-moscow-trip"
+  "superseded_by": "cia-director-ratcliffe-travels-to-moscow-to-warn-russia-against-nato-attacks",
+  "merged_from": [
+    {
+      "id": "c028",
+      "title": "CIA Director Ratcliffe makes unannounced Moscow trip",
+      "published_utc": "2026-08-25T23:55:37Z"
+    }
+  ],
+  "updated_utc": "2026-08-25T23:55:37Z"
 }

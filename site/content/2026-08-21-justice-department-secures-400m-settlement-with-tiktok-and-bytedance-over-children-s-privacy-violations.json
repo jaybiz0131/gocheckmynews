@@ -36,6 +36,14 @@
     {
       "title": "Washington Examiner",
       "url": "https://www.washingtonexaminer.com/news/justice/4696859/doj-tiktok-pay-government-settlement-child-privacy-act-illegal-information-collecting/"
+    },
+    {
+      "title": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/nation/tiktok-reaches-400-million-settlement-with-justice-department-over-childrens-privacy"
+    },
+    {
+      "title": "Fox News",
+      "url": "https://www.foxnews.com/media/todd-blanche-vows-come-after-bad-actors-following-400m-tiktok-settlement"
     }
   ],
   "event_utc": "2026-08-21T12:00:00Z",
@@ -54,5 +62,13 @@
       "outlet": "Deadline",
       "headline": "TikTok To Pay $400M In Justice Department Settlement Over Children\u2019s Privacy - Deadline"
     }
-  ]
+  ],
+  "merged_from": [
+    {
+      "id": "c001",
+      "title": "Justice Department Secures $400M Settlement with TikTok and ByteDance Over Children's Privacy Violations",
+      "published_utc": "2026-08-22T23:53:19Z"
+    }
+  ],
+  "updated_utc": "2026-08-22T23:53:19Z"
 }

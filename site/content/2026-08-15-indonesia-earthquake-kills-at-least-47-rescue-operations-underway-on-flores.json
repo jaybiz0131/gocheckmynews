@@ -26,6 +26,10 @@
     {
       "title": "BBC News",
       "url": "https://www.bbc.co.uk/news/articles/c3v00w5ylw9o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/indonesia-earthquake-tsunami-warning/"
     }
   ],
   "event_utc": "2026-08-15T21:49:12Z",
@@ -55,6 +59,13 @@
     {
       "outlet": "India Today",
       "headline": "Indonesia Flores earthquake kills 47 as small tsunamis hit coastal villages - India Today"
+    }
+  ],
+  "merged_from": [
+    {
+      "id": "c248",
+      "title": "Two powerful earthquakes strike Indonesia within hours, killing at least 47",
+      "published_utc": "2026-08-15T17:30:15Z"
     }
   ]
 }
