@@ -66,7 +66,12 @@ def fetch_page_meta(url, timeout=25):
     try:
         req = urllib.request.Request(url, headers={"User-Agent": UA})
         with urllib.request.urlopen(req, timeout=timeout) as r:
-            raw = r.read(200000)
+            # 600KB, not 200KB (Kyiv-strike audit 2026-08-31): a live PBS NewsHour
+            # article runs ~262KB with its first closing </p> past byte 221,560, so
+            # the old cap cut every PBS page before its prose closed and extraction
+            # yielded title+SVG junk. The desk then killed a true story it had
+            # ingested because neither cited page could be read.
+            raw = r.read(600000)
             meta.update(status=r.getcode(), final_url=r.geturl() or url,
                         content_type=r.headers.get("Content-Type", ""),
                         bytes=len(raw), body=raw.decode("utf-8", "replace"))
@@ -118,6 +123,31 @@ def guardian_api_text(url, cap=6000):
         body = ((data.get("response", {}) or {}).get("content", {}) or {}) \
             .get("fields", {}).get("bodyText", "")
         return re.sub(r"\s+", " ", body).strip()[:cap]
+    except Exception:
+        return ""
+
+
+def npr_text_fallback(url, cap=6000):
+    """Full article text for a www.npr.org story via NPR's own text-only site,
+    https://text.npr.org/<id> (keyless; serves the desk UA, verified 2026-08-31).
+    npr.org itself tarpits the desk's bot UA (the Kyiv-strike audit reproduced a 40s+
+    timeout on a page a browser UA got in 3.7s), so the scrape path times out or comes
+    back thin while the outlet's own text mirror carries the published prose. Same
+    honest-fetch posture as guardian_api_text: the outlet's own alternate surface, our
+    UA, no disguises. Returns '' for any non-NPR URL or any failure, so every caller
+    can treat this as a best-effort upgrade."""
+    try:
+        parsed = urllib.parse.urlparse(url)
+        host = parsed.netloc.lower()
+        if host not in ("npr.org", "www.npr.org"):
+            return ""
+        m = re.match(r"^/\d{4}/\d{2}/\d{2}/([^/]+)(?:/|$)", parsed.path)
+        if not m:
+            return ""
+        code, body = fetch_page(f"https://text.npr.org/{m.group(1)}")
+        if code != 200:
+            return ""
+        return extract_article_text(body, cap=cap)
     except Exception:
         return ""
 
@@ -186,6 +216,17 @@ def extract_article_text(html_body, cap=6000):
     m = re.search(r"(?is)<article[^>]*>(.*?)</article>", body)
     scope = m.group(1) if m else body
     paras = re.findall(r"(?is)<p[^>]*>(.*?)</p>", scope)
+    open_split = False
+    if not paras:
+        # A capped fetch can truncate a page before its first closing </p> (PBS
+        # closes its prose past 220KB), leaving open <p> tags with no closed pair;
+        # the text between consecutive open tags is the same prose. Each segment
+        # still faces the per-line boilerplate cut, and the joined result faces
+        # the sentence-density gate below, so a truncated JS shell stays empty.
+        parts = re.split(r"(?is)<p\b[^>]*>", scope)
+        if len(parts) > 1:
+            paras = parts[1:]
+            open_split = True
     if not paras and m is None:
         # No <p> tags at all (some CMSes): fall back to the naive strip of the whole page.
         text = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", body)).strip()
@@ -203,6 +244,12 @@ def extract_article_text(html_body, cap=6000):
             if len(t) >= 40:  # boilerplate lines (menus, "Share this", bylines) run shorter
                 out.append(t)
         text = "\n".join(out)
+        # the open-tag segments carry whatever markup sat between paragraphs, so the
+        # same sentence-density gate as the naive strip applies to them
+        if open_split and len(text) > 400 and (
+                text.count(". ") + text.count("! ") + text.count("? ")
+                ) < max(3, len(text) // 400):
+            text = ""
     if len(text) < 400:
         ld = ldjson_article_body(html_body)
         if len(ld) > len(text):

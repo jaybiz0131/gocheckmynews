@@ -162,7 +162,7 @@ def belts(article_body, dek, bottom_line):
     return problems
 
 
-def check(client, obj, stories, boards, extras=None):
+def check(client, obj, stories, boards, extras=None, edition_date=None):
     """Independent trace check: every specific fact must come from the inputs.
 
     CALIBRATION (2026-07-26): three straight days of good editions died here on false
@@ -182,7 +182,23 @@ def check(client, obj, stories, boards, extras=None):
 
     `extras` carries any additional permitted inputs the edition was WRITTEN from
     (e.g. the jurisdiction tracker): auditing against fewer inputs than the writer had
-    rejects legitimate claims as unverifiable, which cost the 2026-08-12 midday slot."""
+    rejects legitimate claims as unverifiable, which cost the 2026-08-12 midday slot.
+
+    `edition_date` is the slot-anchored ISO date of the edition itself. The 2026-08-30
+    Sunday brief shipped calling itself a Friday because the checker was never told the
+    edition's own day and the calibration whitelisted any weekday matching an input
+    dateline, which is exactly what a wrong "today is Friday" looks like when
+    Friday-dated stories fill the window."""
+    day_line = ""
+    if edition_date:
+        try:
+            _edn = datetime.date.fromisoformat(edition_date).strftime("%A")
+            day_line = (f"\n\nEDITION DATE (computed, authoritative): the edition's own "
+                        f"date is {edition_date}, a {_edn}; a weekday presented as the "
+                        f"edition's current day that is not {_edn} is a contradicted "
+                        f"fact.")
+        except ValueError:
+            pass
     user = ("Audit this daily edition against its ONLY permitted inputs. Return every "
             "PROBLEM you find. A problem is exactly one of: a specific fact (number, "
             "name, date, event, outcome) that is ABSENT from the inputs; a specific fact "
@@ -192,7 +208,9 @@ def check(client, obj, stories, boards, extras=None):
             "(a) the same date or number in a different format ('July 15' vs '15 July "
             "2026'; '60,000' vs 'nearly 60,000'); (b) sums or combinations of input "
             "numbers when the edition labels them as combined or in total; (c) a weekday "
-            "reference consistent with an input story's own dateline; (d) paraphrase of "
+            "reference to a PAST event consistent with that story's own dateline (a "
+            "weekday presented as the edition's own current day is NOT protected and "
+            "must match the edition date); (d) paraphrase of "
             "an event the inputs carry; (e) phrasing that could be more precise but is "
             "not wrong. Connecting and synthesizing the inputs is allowed and expected; "
             "when two inputs differ because one is newer, the newer figure governs and "
@@ -212,7 +230,8 @@ def check(client, obj, stories, boards, extras=None):
             + "\n\nINPUT STORIES:\n" + json.dumps(stories, indent=1)
             + "\n\nINPUT BOARDS:\n" + json.dumps(boards, indent=1)
             + (("\n\nADDITIONAL PERMITTED INPUTS:\n" + json.dumps(extras, indent=1))
-               if extras else ""))
+               if extras else "")
+            + day_line)
     KINDS = {"absent", "contradicted", "advice", "register"}
 
     # EVIDENCE IS VERIFIED, NOT TRUSTED (2026-08-12, same evening as the derived
@@ -368,8 +387,6 @@ def check(client, obj, stories, boards, extras=None):
         if p["kind"] == "absent":
             _rat = str(p.get("why", "") or p.get("evidence", ""))
             _rs = [x for x in re.split(r"(?<=[.!?])\s+", _rat.strip()) if x]
-            _fsa = " " + " ".join(re.sub(r"[^a-z0-9]+", " ",
-                                          (_rs[-1] if _rs else "").lower()).split()) + " "
             _NEGA = (" does not match ", " do not match ", " not supported ",
                      " cannot be verified ", " not establish ", " conflicts ",
                      " no match ", " not carried ", " not in the inputs ",
@@ -380,10 +397,27 @@ def check(client, obj, stories, boards, extras=None):
                      " matches the edition ", " supported by the inputs ",
                      " the inputs support ", " claims match ", " is correct ",
                      " is accurate ", " statement is accurate ",
-                     " statements are accurate ", " claims are accurate ")
-            if not any(t in _fsa for t in _NEGA) and any(t in _fsa for t in _POSA):
+                     " statements are accurate ", " claims are accurate ",
+                     # verdicts stated up front in brackets or in the evidence
+                     # field (crypto desk, editions audit 2026-08-31): "[Not a
+                     # problem per rules (e)...]", "[No actionable problem; ...]",
+                     # "[No problem found; claim supported by input board.]"
+                     " not a problem per rules ", " no actionable problem ",
+                     " claim supported by input board ", " correctly states ")
+            # THE VERDICT CAN LEAD AS WELL AS CLOSE (2026-08-31, ported from the
+            # crypto editions audit): checker items state their no-problem verdict
+            # up front in brackets or in the evidence field, where the
+            # final-sentence read could not see it. First sentence, final sentence
+            # and evidence are all examined; the negation veto applies per string.
+            def _na(s):
+                return " " + " ".join(re.sub(r"[^a-z0-9]+", " ",
+                                             str(s).lower()).split()) + " "
+            _cands = [_na(_rs[-1] if _rs else ""), _na(_rs[0] if _rs else ""),
+                      _na(p.get("evidence", ""))]
+            if any(not any(t in c for t in _NEGA) and any(t in c for t in _POSA)
+                   for c in _cands):
                 print(f"::notice::wrapcheck: dropped self-refuting 'absent' item whose "
-                      f"own reasoning ends by asserting the inputs carry it "
+                      f"own reasoning or evidence asserts the inputs carry it "
                       f"({str(p.get('claim'))[:80]!r})")
                 continue
         # ORDER-INDEPENDENT (owner report 2026-08-19). The sliding verbatim window could
@@ -467,6 +501,16 @@ def check(client, obj, stories, boards, extras=None):
         days = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday",
                 "Saturday", "Sunday")
         seen, lines = set(), []
+        # the edition's own day rides every legend unconditionally: a bare weekday
+        # claiming to be "today" carries no ISO date for the loop below to catch
+        if edition_date:
+            try:
+                lines.append(
+                    f"the edition's own date is {edition_date}, a "
+                    f"{days[datetime.date.fromisoformat(edition_date).weekday()]}, and "
+                    f"any weekday presented as the edition's current day must be that")
+            except ValueError:
+                pass
         for ds in re.findall(r"\b20\d\d-\d\d-\d\d\b", " ".join(excerpts)):
             if ds in seen:
                 continue
@@ -673,7 +717,18 @@ def main():
     cfg = common.load_config()
     client = llmlib.Client(cfg)
     system = common.load_prompt("wrap.md")
-    user = (f"edition: {edition}\n\ntodays_stories:\n{json.dumps(stories, indent=1)}\n\n"
+    # THE WRITER IS TOLD WHAT DAY IT IS (2026-08-31 audit): the Sunday 2026-08-30
+    # morning brief shipped titled "A Friday of..." because the prompt never stated
+    # the edition's own date and the model inferred "today" from the input stories'
+    # datelines, which on a slow Sunday were dominated by Friday reporting. Computed
+    # from the slot-anchored `date`, never a fresh now(), so midnight-drift anchoring
+    # is preserved.
+    day_name = datetime.date.fromisoformat(date).strftime("%A")
+    user = (f"edition: {edition}\n"
+            f"edition_date: {day_name}, {date} (this is today; any weekday word "
+            f"describing the edition's own day must be {day_name}; input stories may "
+            f"describe earlier days by their own datelines)\n\n"
+            f"todays_stories:\n{json.dumps(stories, indent=1)}\n\n"
             + (f"desk_boards:\n{json.dumps(boards, indent=1)}\n\n" if boards else
                "desk_boards: (unavailable this run)\n\n")
             + (("earlier_editions_today (UPDATE and EXTEND, never repeat; lead with what "
@@ -707,7 +762,7 @@ def main():
     for attempt in (1, 2):
         ok, reasons = (True, [])
         if client.mode == "live":
-            ok, reasons = check(client, obj, stories, boards or {})
+            ok, reasons = check(client, obj, stories, boards or {}, edition_date=date)
         if ok:
             break
         if attempt == 2:

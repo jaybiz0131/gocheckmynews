@@ -273,6 +273,12 @@
     "max_items": 15,
     "url": "https://feeds.npr.org/1003/rss.xml",
     "note": "Fix 1: dedicated US-domestic lane (the homepage feed skews politics/world). Verification run 2026-08-03: its lead item was the Washington wildfires story."
+   },
+   {
+    "name": "Al Jazeera",
+    "tier": "major",
+    "url": "https://www.aljazeera.com/xml/rss/all.xml",
+    "note": "International-breaking lane with fetchable article pages (added 2026-08-31, Kyiv-strike audit: the Myla ammunition-depot strike cluster died because both configured sources, PBS and NPR, were structurally unreadable to the desk's fetcher, and every outlet carrying rich fetchable copy was absent from this list). Verified serving 200 with 25 items to the desk UA."
    }
   ],
   "keywords_note": "Optional per-feed 'keywords' gate: high-volume feeds keep only items matching a keyword in headline+snippet, so they cannot flood the editor. Items matching a 'narratives' watchlist entry always pass the gate. The news desk currently runs ungated; the editor's ranking plus the balance spread is the filter. Add gates if any single feed starts flooding intake.",
@@ -437,6 +443,20 @@
      "khamenei",
      "iranian"
     ]
+   },
+   {
+    "name": "Russia-Ukraine war",
+    "keywords": [
+     "kyiv",
+     "kharkiv",
+     "odesa",
+     "zelensky",
+     "russian strike",
+     "missile barrage",
+     "drone attack",
+     "ammunition depot"
+    ],
+    "note": "Added 2026-08-31 (Kyiv-strike audit): the desk actively owns this beat (published Ukraine stories 8/13 and 8/16) yet carried no watchlist entry for it, so the Myla ammunition-depot strike ranked with no narrative tag and was never retried after its sources proved unreadable."
    }
   ]
  },

@@ -56,6 +56,13 @@ def gather_sources(story, mode):
             api_text = common.guardian_api_text(url)
             if len(api_text) > len(text):
                 text, code = api_text, 200
+        # npr.org tarpits the desk's bot UA (page fetch times out where a browser
+        # gets the article in seconds); NPR's own text-only mirror serves the same
+        # story to this UA, keyless. No-op for every non-NPR URL.
+        if len(text) < 400:
+            npr_text = common.npr_text_fallback(url)
+            if len(npr_text) > len(text):
+                text, code = npr_text, 200
         diag = (f"status={m['status']} final={str(m['final_url'])[:120]} "
                 f"ctype={str(m['content_type'])[:40]} bytes={m['bytes']} "
                 f"extract={len(text)}")
