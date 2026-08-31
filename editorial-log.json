@@ -1,82 +1,6 @@
 [
  {
   "date": "2026-07-25",
-  "approved": 4,
-  "rejected": [
-   {
-    "id": "c079",
-    "headline": "Trump sets new tariffs on trading partners, covering nearly all U.S. imports",
-    "category": "balance",
-    "reasons": [
-     "The bear_case in the brief includes Freeland's statement that the U.S. is 'beating up more fiercely on its allies, on its close friends, than it is on the countries to which it is antagonistic' and her warning about long-term weakening of the country. The draft omits this key framing point, which changes how readers understand the nature of the objection to the tariffs\u2014the draft presents Freeland's critique as economic (inflation, consumer tax) but drops the strategic/alliance argument that occupies substantial space in the brief's bear_case.",
-     "The brief's bear_case also flags Freeland's statement that 'inflation is still high in the United States, and these policies are keeping it there.' The draft quotes her saying tariffs are 'one of the things that is driving inflation' but omits the explicit claim about current high inflation levels, softening the bear_case impact."
-    ]
-   },
-   {
-    "id": "c78",
-    "headline": "SOURCE MATERIAL UNAVAILABLE - STORY CANNOT BE DRAFTED",
-    "category": "accuracy",
-    "reasons": [
-     "The draft itself acknowledges that source material is unavailable and corrupted (HTML metadata fragments only, no article text). The brief's 'thin: true' flag and 'source_chars: 115' confirm the source is unusable. This story cannot be published as-is because there are zero data_points in the brief\u2014no facts to trace back to sourced claims. The draft is a meta-commentary on the brief's failure, not a story. The desk must reject and require full article text or re-reporting before any draft can be approved."
-    ]
-   },
-   {
-    "id": "c022",
-    "headline": "ICC member states vote to remove chief prosecutor Karim Khan",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'Trump's administration has brought sanctions against Khan and a dozen other ICC staff in retaliation for warrants the court issued for Israeli officials and investigations into U.S. personnel in Afghanistan.' This claim appears in the body but is not present as a standalone data point in the brief's data_points array until item 21, which is listed AFTER the Venezuela section in the draft. The sequential placement in the draft suggests this context should have appeared earlier when discussing U.S. pressure, but more critically, the timing and relationship of these sanctions to Khan's removal is unclear from the source attribution\u2014the draft does not clarify whether these sanctions preceded or followed the vote, creating potential ambiguity about causation.",
-     "The draft quotes Israel's ambassador Danny Danon at length characterizing Khan's actions as a 'political witch hunt' and 'politically motivated arrest warrant,' presenting this as his statement. However, the brief's bear_case lists Danon's characterization, meaning this is the opposing side's framing, not neutral reporting. The draft presents Danon's political interpretation without sufficient contextualization that this is one party's contested characterization of the prosecutor's actions, not an independent assessment. This reads as adoption of Israeli framing rather than neutral attribution."
-    ]
-   },
-   {
-    "id": "c125",
-    "headline": "Judge rules FDA restrictions on mifepristone are arbitrary and capricious",
-    "category": "clarity",
-    "reasons": [
-     "The brief is marked 'thin': true with only 3 data_points and 6000 source_chars. The draft is extremely sparse (2 paragraphs, ~180 words) even for a thin brief. While brevity is not inherently a failure, the bottom_line admits critical information is missing: 'The specifics of which FDA restrictions the judge found arbitrary remain unclear.' This is a core fact\u2014WHICH restrictions were ruled arbitrary\u2014and the draft does not retrieve it from the source. The writer's own bottom_line confession that key details are unavailable suggests the source reporting itself was insufficient, but the draft should either contain more specifics or explicitly signal in the body (not just the lede) that those details are not yet available. As written, it reads incomplete rather than strategically tight. The second paragraph ('The ruling marks a rare judicial challenge...') adds no new information from the source and functions as throat-clearing rather than forward stakes."
-    ]
-   },
-   {
-    "id": "c105",
-    "headline": "Paramount agrees to freeze merger pending antitrust ruling",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'Multiple states have filed an antitrust lawsuit challenging the transaction' but the brief contains only one data point confirming the freeze and does not specify which states or that multiple states filed. This fact is not traceable to the brief's sourced data.",
-     "The draft claims 'blocking it from proceeding while litigation moves forward' as a direct causal mechanism, but the brief only confirms the freeze pending court review\u2014whether states' actions legally block it or Paramount voluntarily agreed is not established in the brief's single sourced claim."
-    ]
-   },
-   {
-    "id": "c124",
-    "headline": "Appeals court rejects Trump's $100,000 H-1B visa fee",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states the three-judge panel 'consisted of Democratic appointees' as a direct factual claim, but the brief's confidence label on this data point is 'reported'\u2014meaning it comes from Guardian US reporting, not verified independently. The sentence reads as settled fact rather than attributed reporting and could invite liability if the appointee information is incomplete or contested.",
-     "The draft claims 'The decision blocks a Trump administration attempt to expand immigration policy restrictions through the visa fee mechanism' using language that characterizes the fee as an 'attempt' to restrict immigration, which reads as editorial framing rather than neutral reporting of what the court found."
-    ]
-   },
-   {
-    "id": "c109",
-    "headline": "Taiwan Steps Up Planning to Resist a Chinese Blockade at Sea",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'No additional operational details on the specific military exercises, concrete security measures, timelines, or evidence of Chinese blockade-related maneuvers are available from the source material at this time.' This is a meta-commentary about what is NOT in the sources, which itself is not a fact from the brief and reads as editorial hedging rather than reporting. The brief contains only one data point; the draft should report that fact cleanly without apologizing for the brief's limitations.",
-     "The draft presents the Taiwan blockade-resistance planning as confirmed fact, but the brief marks all claims as 'reported' confidence only, not verified. The prose should reflect this uncertainty more clearly."
-    ]
-   },
-   {
-    "id": "c021",
-    "headline": "Democrats Approve New Primary Calendar, Putting South Carolina First in 2028",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'Committee member David McDonald argued: \"The place to start is in the West. The place to start is in Nevada...\"' but the brief's data point attributes this quote to a 'Committee member' without specifying the name as David McDonald. The draft has invented or assumed the speaker's identity beyond what the brief supports.",
-     "The draft claims 'Nearly one in four registered voters in South Carolina is Black, according to state voting data cited by NPR' but attributes this to 'state voting data cited by NPR'\u2014the brief credits 'state voting data' without specifying that NPR cited it. This is a minor but real divergence from the sourcing chain provided in the brief."
-    ]
-   }
-  ]
- },
- {
-  "date": "2026-07-25",
   "approved": 6,
   "rejected": [
    {
@@ -9813,6 +9737,63 @@
     "category": "compliance",
     "reasons": [
      "Draft marked boundary_required=true but carries no boundary block explaining the scope or date range of the weather events being tracked. The story spans multiple weather systems with overlapping timing (Tropical Depression Five, Dolly remnants, EP95, Utah flash flood warning, Idaho red flag warning for September 1). Without a boundary note clarifying what the story covers and what it does not (e.g., whether future tropical warnings are included, whether the flash flood warning expired during the writing window), readers cannot assess the currency or completeness of the advisory information. This is a compliance failure on the desk's stated structure requirement."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-08-31",
+  "approved": 6,
+  "rejected": [
+   {
+    "id": "c037",
+    "headline": "At Least 15 Missing After Flash Flood Strikes Grand Canyon Near Phantom Ranch (August 31, 2026)",
+    "category": "accuracy",
+    "reasons": [
+     "The brief data point states 'Grand Canyon National Park is ranked the fourth-most visited national park in the U.S., with 4,430,653 recreational visits in 2025,' but this claim does not appear in the draft. More critically, the draft states the Transcanyon Waterline 'serves roughly 1,600 residents of Grand Canyon Village and 6 million annual visitors' (attributed to The Guardian), but this is a separate claim from the brief's statement that 'The pipeline project serves 6 million visitors a year and roughly 1,600 residents of Grand Canyon Village.' The draft correctly attributes this to The Guardian. However, the opening paragraph states 'forcing the evacuation of at least 62 visitors by helicopter from remote sections inaccessible by vehicle,' which traces correctly to CBS News. The draft also states 'nearly 850 medical service incidents' and '230 search and rescue efforts' in 2025 per NBC News, which traces correctly. The core facts hold, but the fourth-most-visited park ranking in the brief data is not carried into the story without attribution\u2014this is acceptable as the story does not claim to report this. No accuracy failure on the facts present."
+    ]
+   },
+   {
+    "id": "c115",
+    "headline": "Federal judge authorizes forced feeding of defendant in National Guard shooting case",
+    "category": "accuracy",
+    "reasons": [
+     "The brief states Lakanwal 'refused food and water beginning in June' but the draft says 'refused food and water beginning in June and was moved to a D.C. hospital on July 9'. The brief's data_point says 'Starting in July, Lakanwal refused to eat' (Washington Examiner source), creating a contradiction between sources in the brief itself. The draft uses the June date without attribution and without acknowledging the conflicting report from one of the sourced outlets. This is a factual claim that requires precision given its centrality to the forced-feeding timeline.",
+     "The draft states 'striking Beckstrom and U.S. Air Force Staff Sgt. Andrew Wolfe...in the head' as a definitive fact. The brief's data_point from Washington Examiner says 'striking Beckstrom and Wolfe in the head,' but the CBS data_point says only that he 'fatally shooting West Virginia Army National Guard Spc. Sarah Beckstrom and critically wounding U.S. Air Force Staff Sgt. Andrew Wolfe.' The head-shot detail is sourced to one outlet only (Washington Examiner). This is a specific allegation of how the shooting occurred and needs clarity on sourcing."
+    ]
+   },
+   {
+    "id": "c260",
+    "headline": "NBC News publishes election analysis video from Massachusetts primary",
+    "category": "accuracy",
+    "reasons": [
+     "The brief explicitly flags that the source URL is not accessible ('http_status: null') and that 'no actual video content or analysis was retrieved.' The draft claims as fact that NBC News 'published video' and that the video 'offered viewers a behind-the-scenes look,' but the source was never confirmed to be live or accessible. Publishing a story about a video that the reporting team could not verify exists is a factual liability.",
+     "The brief identifies multiple open_questions including 'The video URL is not accessible (http_status: null); no actual video content or analysis was retrieved.' This is not an open question about interpretation\u2014it is a flag that the core source is unverified. A draft asserting a published video as fact when the source link is dead violates the hard rule that facts must trace to verified sources.",
+     "The entire story is built on a single unverified source. The brief flags this as 'thin: true' and notes that 'Specific vote totals, candidate names, or results from the Massachusetts primary are not provided in the source text.' There is no secondary sourcing and the primary source itself could not be accessed. This does not meet the standard for publication."
+    ]
+   },
+   {
+    "id": "c044",
+    "headline": "US and Iran trade strikes for first time in weeks (August 30)",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief exists for this story. The instruction states 'every draft fact must then trace to the draft's own cited sources or be rejected.' The draft cites BBC News and CBS News as sources for the Larak Island strike, but these are URLs only (not accessed for verification by this system). However, the critical problem is that the draft makes specific factual claims (location: Larak Island; casualties: two killed, two injured; Iranian response: ballistic missiles to Jordan and UAE) that cannot be verified against the provided source URLs without access to their content. The approval system cannot confirm these facts match the cited sources. Additionally, the sources list includes Google News RSS feeds and generic news aggregator links that do not constitute primary sourcing for military strikes. A story about a direct U.S. military strike on Iranian territory requires verification that the facts in the draft match what the cited outlets actually reported."
+    ]
+   },
+   {
+    "id": "c047",
+    "headline": "Kalshi permanently bans George Santos for life over State of the Union betting (August 31)",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief exists for this story. The draft makes specific factual claims (Kalshi ban amount: $71,356; status: first lifetime ban; Santos placed wagers on his own State of the Union attendance) that must trace to the cited sources. Without access to verify the content of the NBC News, PBS NewsHour, Guardian, BBC News, and CBS News articles cited, the system cannot confirm these facts match what those outlets reported. The draft characterizes Santos's conduct as 'insider information' and compares it to 'insider trading in a betting context'\u2014terminology that requires verification that the cited sources themselves use this framing, not that the writer is introducing it independently. A story about a named individual being permanently banned and fined, with allegations of rule-breaking, requires that every specific claim (amount, characterization, allegation) be verifiable against the stated sources."
+    ]
+   },
+   {
+    "id": "c033",
+    "headline": "Metropolitan Museum cancels John Galliano exhibition after backlash over antisemitic conviction",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief exists for this story. The draft cites four sources (BBC, CBS, NBC, NYT) but provides only two sentences of content. Every fact in the draft must trace to the cited sources or be rejected. The draft's core claim\u2014that the Met canceled a Galliano retrospective due to backlash over a '2011 conviction for making antisemitic remarks'\u2014cannot be verified against the sources provided because no source text or data points are available for inspection. A 2011 conviction is a specific factual claim that requires verification; without access to the sources, this fact cannot be confirmed as accurate and the draft is unsalvageable."
     ]
    }
   ]

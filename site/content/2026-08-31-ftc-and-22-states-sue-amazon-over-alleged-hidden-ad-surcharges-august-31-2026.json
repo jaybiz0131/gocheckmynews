@@ -1,0 +1,67 @@
+{
+  "id": "c077",
+  "slug": "ftc-and-22-states-sue-amazon-over-alleged-hidden-ad-surcharges-august-31-2026",
+  "kind": "brief",
+  "title": "FTC and 22 States Sue Amazon Over Alleged Hidden Ad Surcharges (August 31, 2026)",
+  "dek": "Federal and state prosecutors filed suit August 31, 2026, alleging Amazon secretly inflated ad prices in its search auctions through undisclosed surcharges over seven years, overcharging more than 1 million advertisers tens of billions of dollars. Amazon disputes the claim, saying advertisers adjust bids based on real performance, not auction mechanics.",
+  "date": "2026-08-31",
+  "published_utc": "2026-08-31T21:26:43Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 1,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The FTC and 22 state attorneys general allege Amazon extracted more than $20 billion in hidden surcharges from advertising customers by charging winners their own bid price roughly 80 percent of the time while claiming they would pay only one cent more than the second-place bidder.",
+  "bottom_line": "The August 31 complaint initiates a major test of whether the FTC can prove systematic deception in how Amazon's auction mechanics functioned versus how advertisers believed they functioned. A core question for discovery and trial will be whether the evidence of internal Amazon deliberation about raising hidden charges and testing advertiser detection thresholds can survive Amazon's defense that real-world bid adjustments by advertisers should have insulated them from harm.",
+  "human_take": "",
+  "body": [
+    "The Federal Trade Commission and 22 state attorneys general sued Amazon on August 31, 2026, alleging the company systematically deceived millions of small businesses and brands about how its search advertising auctions worked, secretly inflating prices through undisclosed surcharges over seven years and extracting tens of billions of dollars.\nThe lawsuit targets the core of Amazon's advertising business, which according to the Washington Examiner represents the third-largest digital advertising business worldwide and amassed over $68 billion in advertising revenue last year. The states joining the FTC are Alaska, Arizona, California, Colorado, Florida, Idaho, Illinois, Indiana, Iowa, Kentucky, Louisiana, Maryland, Nebraska, New Jersey, New York, North Carolina, Oklahoma, Pennsylvania, Rhode Island, South Carolina, Vermont, and Washington. Texas filed a similar lawsuit separately.\nAccording to CBS News reporting, Amazon told advertisers they would pay only \"one cent more\" than the second-place bidder in auctions but charged the winners their own bid price approximately 80 percent of the time. Per the Washington Examiner, Amazon quietly changed its auction rules in 2019 to include an undisclosed surcharge. Plaintiffs estimate, per the Washington Examiner, that more than $20 billion was \"illegally extracted\" from Amazon's advertising customers. CBS News reports the surcharges affected more than 1 million Amazon brands and sellers, while the Washington Examiner cites roughly 1.2 million advertising customers.\nInternal Amazon documents, per CBS News, suggest the retailer was aware that advertisers were bidding based on their belief they were participating in a true second-price auction, but employees allegedly discussed raising prices while \"hoping that advertisers don't notice and decrease bids or ad spend.\" According to CBS News reporting, Amazon allegedly tested how much it could increase hidden charges without being detected by advertisers. The lawsuit states, per CBS News, that \"Amazon takes great pains to actively conceal from customers the fact that it inflates its purported auction prices. As Amazon's confidence that its advertising customers are unaware of its conduct has grown, it has substantially increased its hidden surcharges.\"\nFTC Chairman Andrew N. Ferguson stated, according to CBS News, that \"when one of the world's largest online retailers engages in unfair and deceptive conduct, the impact can be staggering. Amazon has millions of advertising customers who were misled into paying significantly higher prices. These higher costs were largely passed on to American consumers.\" The Washington Examiner quotes Ferguson saying the arrangement \"betrayed advertisers' trust and extracted billions of dollars at their expense\" because \"Amazon imposed this elaborate scheme on Americans for a simple reason: it wanted more money.\"\nNew York Attorney General Letitia James stated, according to CBS News, that the FTC and states are seeking a court order to bar Amazon from pursuing the \"illegal scheme\" and to require the company to pay penalties, restitution, and other damages. The complaint was filed in the Western District of Washington, where Amazon's main headquarters is based, per the Washington Examiner.\nAmazon disputes the allegations. The company stated to CBS News that the lawsuit \"misguided\" and said: \"The FTC's claim fundamentally misunderstands how advertisers operate. Advertisers adjust bids based on real-world performance, not descriptions of auction mechanics.\" Per CBS News, Amazon reports that average winning bids for sponsored product ads dropped 50 percent from 2019 to 2025. The company stated, according to CBS News, that \"even accepting the FTC's flawed premise that advertisers do not adjust bids, we estimate they saved over $8 billion from 2021 to 2025 as a result of Amazon prioritizing ad relevancy over selecting ads on bid price alone.\"\nAmazon is separately heading to trial in February 2027 as part of a sweeping federal antitrust case led by the FTC and 17 states, in which plaintiffs accuse the company of undermining competition by inflating prices and exerting its \"monopoly power\" over third-party sellers, per the Washington Examiner."
+  ],
+  "sources": [
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/ftc-22-states-sue-amazon-alleged-ad-scheme/"
+    },
+    {
+      "title": "The New York Times",
+      "url": "https://www.nytimes.com/2026/08/31/technology/ftc-amazon-lawsuit-ad-prices.html"
+    },
+    {
+      "title": "Washington Examiner",
+      "url": "https://www.washingtonexaminer.com/news/justice/4706792/ftc-lawsuit-amazon-advertisers-hidden-surcharges/"
+    }
+  ],
+  "event_utc": "2026-08-31T20:00:35Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-31T21:26:43Z",
+    "sources_cited": 3,
+    "sources_live_checked": 2
+  },
+  "update_of": "ftc-and-22-states-accuse-amazon-of-secretly-inflating-ad-prices-in-auctions-august-31-2026",
+  "also_reported_by": [
+    {
+      "outlet": "CBS News",
+      "headline": "FTC and 22 states sue Amazon over alleged secret ad surcharge scheme - CBS News"
+    },
+    {
+      "outlet": "Axios",
+      "headline": "FTC, 22 states sue Amazon over deceptive advertising practices - Axios"
+    },
+    {
+      "outlet": "Reuters",
+      "headline": "Amazon sued by FTC, 22 US states over advertising practices - Reuters"
+    },
+    {
+      "outlet": "Yahoo Finance",
+      "headline": "FTC and 22 states sue Amazon over alleged secret ad surcharge scheme - Yahoo Finance"
+    },
+    {
+      "outlet": "PPC Land",
+      "headline": "FTC and 22 states sue Amazon over 20 billion in hidden ad surcharges - PPC Land"
+    },
+    {
+      "outlet": "Washington Examiner",
+      "headline": "FTC and 22 states sue Amazon over alleged \u2018hidden surcharges\u2019 for advertisers - Washington Examiner"
+    }
+  ]
+}

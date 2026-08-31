@@ -1,0 +1,59 @@
+{
+  "id": "c046",
+  "slug": "supreme-court-allows-trump-s-400-million-white-house-ballroom-construction-to-proceed",
+  "kind": "brief",
+  "title": "Supreme Court allows Trump's $400 million White House ballroom construction to proceed",
+  "dek": "The Supreme Court on August 31, 2026, blocked lower court rulings that had halted the aboveground portion of a $400 million White House ballroom project. The unsigned majority opinion held that the National Trust for Historic Preservation, which sued to stop the work, likely lacks legal standing to challenge the project. Chief Justice John Roberts dissented, joined by the three liberal justices, arguing the construction is likely unlawful.",
+  "date": "2026-08-31",
+  "published_utc": "2026-08-31T21:26:43Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 4,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The Supreme Court voted 5-4 on August 31, 2026, allowing construction of the ballroom to continue, ruling that the National Trust for Historic Preservation likely lacks standing to sue.",
+  "bottom_line": "The Supreme Court avoided ruling on the president's substantive authority to build the ballroom without congressional approval. The case will return to lower courts, where the National Trust may pursue challenges on the merits now that the standing barrier has fallen; the construction timeline projects completion in August 2028.",
+  "human_take": "",
+  "body": [
+    "The Supreme Court voted 5-4 on August 31, 2026, allowing construction of a $400 million White House ballroom project to move forward, overturning lower court orders that had halted the above-ground work. The unsigned majority ruling rested on a narrow procedural ground: that the National Trust for Historic Preservation, which brought the legal challenge, likely lacks legal standing to sue.",
+    "In an unsigned opinion, the court stated: \"Today, we do not pass upon the legality of the government's East Wing project. We conclude only that, based on the submissions before us, the government is likely to prevail in showing that the Trust lacks ... standing to challenge the project in federal court.\" The court explicitly did not address whether the president possesses constitutional or statutory authority to undertake the construction without congressional approval.",
+    "The National Trust had argued that federal law requires the \"express authority of Congress\" before the government can build on federal land in Washington, D.C. The Trump administration countered that other provisions of federal law authorize the president to undertake improvements on White House grounds. The majority concluded the Trust had no legal standing to raise these disputes, stating: \"To the contrary, we have repeatedly held that mere offense, disagreement, or distaste does not qualify as a concrete and particularized injury.\"",
+    "The Trust's case hinged on a declaration filed by member Alison Hoagland, a preservationist based in Washington and a board trustee. Hoagland stated in her declaration that she regularly walks by the White House and would \"suffer both professional and personal injuries, including to my aesthetic, cultural and historical interests, if a ballroom of the proposed form and scale were constructed.\" The majority found this insufficient to establish legal standing.",
+    "Chief Justice John Roberts, joined by the three liberal justices, dissented sharply. Roberts wrote that \"Construction of the ballroom has proceeded apace for the better part of a year. That construction is likely unlawful.\" He argued that Hoagland does possess standing as a historic preservationist, since she can be \"aesthetically injured in a concrete, particularized way by the transformation of a historic building that she frequently enjoys.\" The dissent emphasized that the construction had already reached 65 percent completion as of August 24, 2026, per court filings by the administration, with a 250-person crew working 20 hours daily, seven days a week.",
+    "The Supreme Court's decision came after an interim ruling by Chief Justice Roberts on August 21, 2026, that had similarly favored the administration. A federal judge in April had ordered a halt to above-ground construction, though permitting underground work to continue. The U.S. Court of Appeals for the District of Columbia Circuit upheld that decision on August 7, 2026, with two judges appointed by Democratic presidents finding the project was for Congress to decide and \"not a matter for Executive self-help.\" A third panel member, appointed by Trump, had sided with the administration on the standing question.",
+    "According to court documents, the ballroom covers 90,000 square feet (8,400 square meters). The framework is expected to be completed in November, with much of the facade finished by April 2027 and full completion slated for August 2028. The administration has said the $400 million cost will be funded entirely by private donations, though that assertion has been disputed. Court filings indicate Secret Service funds have already been directed to cover some security enhancements. The overall plan includes an extensive underground component with secure locations and medical facilities the administration has said are needed for security.",
+    "Solicitor General D. John Sauer argued to the justices that the decision halting work was \"extraordinary and unlawful\" and that completing the project was \"vitally required by national security.\" The National Trust's lawyers accused the White House of attempting to \"outrun the courts\" by accelerating construction."
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/politics/supreme-court/supreme-court-allows-trump-move-forward-white-house-ballroom-construct-rcna594097"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/regulation/court-battles/6061878-trump-wins-ballroom-construction-lawsuit/"
+    },
+    {
+      "title": "The Washington Post",
+      "url": "https://www.washingtonpost.com/politics/2026/08/31/supreme-court-clears-way-work-white-house-ballroom-now/"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/homenews/administration/6060538-live-updates-trump-iran-house-spending-cr/"
+    },
+    {
+      "title": "abcnews.com",
+      "url": "https://abcnews.com/Politics/scotus-greenlights-white-house-ballroom-construction/story?id=136097757"
+    },
+    {
+      "title": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/politics/supreme-court-allows-white-house-to-continue-construction-on-trumps-400-million-ballroom"
+    }
+  ],
+  "event_utc": "2026-08-31T20:05:19Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-31T21:26:43Z",
+    "sources_cited": 6,
+    "sources_live_checked": 3
+  }
+}
