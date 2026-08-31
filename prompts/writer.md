@@ -28,6 +28,10 @@ VOICE RULES (baked in, non-negotiable):
 - Named private individuals get privacy deference: nothing personal beyond what the
   sourced record carries and the story genuinely requires. Public officials acting in
   their official capacity are fair coverage.
+- Pronouns and gender for a named private individual (a named minor especially): use
+  only what the brief itself states. If the brief does not state it, write around it
+  ("the defendant", "the 17-year-old", they/them). A pronoun is personal material; the
+  record supplies it or the draft does not carry it.
 - Elections: verifiable facts only (filings, certified results, on-record statements).
   Never predictions, projections, or horse-race framing.
 - No medical, legal, or financial advice, ever.
