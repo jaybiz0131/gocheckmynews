@@ -1,0 +1,82 @@
+{
+  "id": "c042",
+  "slug": "about-15-missing-after-flash-flood-strikes-phantom-ranch-in-grand-canyon-62-evacuated-august-29-2026",
+  "kind": "brief",
+  "title": "About 15 missing after flash flood strikes Phantom Ranch in Grand Canyon; 62 evacuated (August 29, 2026)",
+  "dek": "A flash flood struck Bright Angel Canyon and Phantom Ranch in Grand Canyon National Park on August 29, 2026, at approximately 2:30 p.m. local time, leaving approximately 15 people missing and prompting evacuation of 62 others. Nearly all footbridges spanning Bright Angel Creek were destroyed.",
+  "date": "2026-08-31",
+  "published_utc": "2026-08-31T01:34:45Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 2,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Approximately 15 people remain missing after a flash flood in the Bright Angel Canyon and Phantom Ranch area of Grand Canyon National Park on August 29, 2026. Sixty-two people have been evacuated and no injuries have been reported, though additional storms are forecast.",
+  "bottom_line": "The National Park Service is asking the public for information about anyone who was in the affected area on August 29. With additional rain forecast through Monday, further evacuations and searches may be hampered by the same weather conditions that produced the initial flood.",
+  "human_take": "",
+  "body": [
+    "A flash flood swept through Bright Angel Canyon and the Phantom Ranch area of Grand Canyon National Park at approximately 2:30 p.m. local time on August 29, 2026, leaving approximately 15 people missing or unaccounted for, according to the National Park Service. The NPS initially reported more than 20 people thought missing but later revised the figure down to approximately 15. Sixty-two people have been evacuated as of Sunday morning from the affected area, with no injuries reported so far. Additional evacuations from Phantom Ranch and the Cottonwood Campground are expected.",
+    "Phantom Ranch is accessible only by hiking, rafting, or mule transport and has been a coveted Grand Canyon destination since opening in 1922. The flood caused significant damage to infrastructure throughout Bright Angel Canyon. Nearly all footbridges spanning Bright Angel Creek were destroyed, eliminating hiker access across the creek. Certain Colorado River crossings were closed while damage is assessed, and Colorado River traffic was shut down because of the risk of floating debris.",
+    "The National Park Service asked for information about anyone who may have been hiking or backpacking along Bright Angel Creek, staying at Phantom Ranch or the Bright Angel Campground, or traveling on the North Kaibab Trail between the North Kaibab Trailhead and Phantom Ranch, or in an area known as the Box north of Phantom Ranch. Park staff and the Arizona Department of Public Safety are continuing evacuation and response operations to account for people who may have been in the affected corridor.",
+    "One evacuee, Nikki Baggs, 41, said she and two friends had just dropped off their belongings at a cabin in Phantom Ranch when they ventured out to enjoy the weather. Before they knew it, water was sweeping through the area. It was a beautiful day and then people were screaming and running, Baggs said. She and her friends headed toward higher ground and sat at a picnic table before rangers yelled for them to run again to a different ledge. They waited with others for hours before being evacuated at approximately 9:30 p.m. local time.",
+    "The NPS statement said the flash flood resulted in significant impacts to infrastructure throughout Bright Angel Canyon. The agency is continuing to assess damage to trails, bridges, utilities, facilities, and other infrastructure. Officials warned that more thunderstorms and heavy rain are possible Sunday and Monday, raising the threat of additional flash flooding, debris flows, and rockfall. The Bright Angel Trail is the most popular hike in the Grand Canyon. The Grand Canyon itself receives about five million visitors annually."
+  ],
+  "sources": [
+    {
+      "title": "Fox News",
+      "url": "https://www.foxnews.com/us/urgent-search-underway-more-than-dozen-people-after-grand-canyon-flash-flood"
+    },
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/news/us-news/20-missing-grand-canyon-extreme-flash-flooding-rcna595197"
+    },
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/nightly-news/video/more-than-a-dozen-people-feared-missing-in-grand-canyon-flash-floods-269077573735"
+    },
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/clylkjyez1do?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/2026/aug/30/grand-canyon-flash-flood-arizona-people-missing-evacuated"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/video/several-missing-dozens-evacuated-amid-sudden-grand-canyon-flooding/"
+    }
+  ],
+  "event_utc": "2026-08-30T21:00:38Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-31T01:34:45Z",
+    "sources_cited": 6,
+    "sources_live_checked": 3
+  },
+  "also_reported_by": [
+    {
+      "outlet": "CBS News",
+      "headline": "Grand Canyon flash floods leave around 15 missing as dozens are evacuated, park officials say - CBS News"
+    },
+    {
+      "outlet": "ABC7 New York",
+      "headline": "Grand Canyon flooding: Flash flood hits Bright Angel Creek leading to Colorado River, forcing Phantom Ranch evacuation - ABC7 New York"
+    },
+    {
+      "outlet": "KJZZ",
+      "headline": "At least 20 people missing after Grand Canyon flash flood near Bright Angel Canyon, Phantom Ranch - KJZZ"
+    },
+    {
+      "outlet": "The New York Times",
+      "headline": "15 People May Be Missing at Grand Canyon After Flash Flood - The New York Times"
+    },
+    {
+      "outlet": "FOX Weather",
+      "headline": "15 unaccounted for after sudden Grand Canyon flooding wreaks havoc, forces dozens to be airlifted - FOX Weather"
+    },
+    {
+      "outlet": "NBC News",
+      "headline": "At least 15 missing at Grand Canyon after extreme flash flooding - NBC News"
+    }
+  ]
+}

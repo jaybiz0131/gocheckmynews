@@ -34,6 +34,14 @@
     {
       "title": "news.google.com",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZENEUjFiOTFZTk1HbnZjS1NlMDNBT09uanZtR3Zqb0tZdFhrRF9NU3I0Sk1BUVJTTXd6X09RWXZVUWhJOVVwNXk3UFlyejgzZzRhRE9aY2FUQ3FXbGpYVzZfMFNzYndVRHVRZVJWbjlKOVNSOE5qVWtQaTlYREFmaWw3SWtGRkJSdm9oQ3hKV252VmpHeGZlRXFybXVyZ3ZQS2xmSkhpcUlqZ1XSAb8BQVVfeXFMT0hCYXJ5aDFWSnE2MTJGS1h5cDEta3VGZjdpdkVSQ2J5eU1oM29nNVJMZHpqYWctanZDS1liYjV6V0V5YndHUDV0M3ZpNUVpWm1yNDRxbUwxRk5pQXdJMHRsODBQWld5cW5qYW9QVEdHOEN6YjNaWGRDdUFWTS1Zc0tEcDlSX2FwV2EwRFZIS3BfZGZVVVJUbVJMbEVaZXkzSHpNS0cweXQySWwzS3lzVG1WZzFIeGNuVmR5QUlsems?oc=5"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/nepal-flash-flood-death-missing-americans-rescue/"
+    },
+    {
+      "title": "The New York Times",
+      "url": "https://www.nytimes.com/2026/08/30/world/asia/nepal-floods-mass-burials-missing.html"
     }
   ],
   "event_utc": "2026-08-30T15:49:38Z",
@@ -43,5 +51,13 @@
     "sources_cited": 3,
     "sources_live_checked": 1
   },
-  "update_of": "nepal-flood-death-toll-reaches-675-over-2-400-missing"
+  "update_of": "nepal-flood-death-toll-reaches-675-over-2-400-missing",
+  "updated_utc": "2026-08-31T01:34:45Z",
+  "merged_from": [
+    {
+      "id": "c071",
+      "title": "Nepal flood death toll reaches 788 with 2,502 missing; international tunnel rescue teams arrive (August 31, 2026)",
+      "published_utc": "2026-08-31T01:34:45Z"
+    }
+  ]
 }
