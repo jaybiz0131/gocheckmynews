@@ -1,0 +1,84 @@
+{
+  "id": "c224",
+  "slug": "potential-tropical-cyclone-five-brings-tropical-storm-threat-to-texas-and-louisiana-coasts-september-1",
+  "kind": "brief",
+  "title": "Potential Tropical Cyclone Five brings tropical storm threat to Texas and Louisiana coasts September 1",
+  "dek": "The National Hurricane Center issued its first forecast advisory for Potential Tropical Cyclone Five on August 31, positioning the system in the northern Gulf of Mexico with maximum sustained winds of 30 knots. Tropical storm warnings are in effect from Port Bolivar, Texas, to the Vermilion/Cameron Parish Line, Louisiana. The system is forecast to approach the upper Texas and southwestern Louisiana coasts on Tuesday, September 1, with possible flash flooding and coastal flooding.",
+  "date": "2026-08-31",
+  "published_utc": "2026-08-31T18:05:22Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 12,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Potential Tropical Cyclone Five had maximum sustained winds of 30 knots at 1500 UTC on August 31 and is forecast to move onshore between 24 to 36 hours from that time, with strengthening possible before landfall.",
+  "bottom_line": "Residents in the warning zone have roughly 24 to 36 hours to prepare for potential tropical storm conditions beginning September 1. The National Hurricane Center will issue updates every six hours; the next advisory at 2100 UTC on August 31 will clarify whether the system shows signs of better organization, which could signal whether strengthening ahead of landfall exceeds current forecasts.",
+  "human_take": "",
+  "body": [
+    "The National Hurricane Center issued its first forecast advisory for Potential Tropical Cyclone Five on August 31 at 1500 UTC, positioning the system in the northern Gulf of Mexico near 27.8 degrees north latitude and 91.0 degrees west longitude. The center's position is accurate within 45 nautical miles, according to the National Hurricane Center.",
+    "At the time of the advisory, the system carried maximum sustained winds of 30 knots with gusts to 40 knots, and an estimated minimum central pressure of 1013 millibars. The system was moving toward the west-northwest at 4 knots, according to the National Hurricane Center.",
+    "Tropical storm warnings are in effect from Port Bolivar, Texas, to the Vermilion/Cameron Parish Line, Louisiana. The National Hurricane Center forecasts the system to approach the upper Texas and southwestern Louisiana coasts on Tuesday, September 1, with the center predicted to move onshore between 24 to 36 hours from the August 31 advisory time. The 12-hour forecast calls for maximum winds of 35 knots, the 24-hour forecast 40 knots, and the 36-hour forecast 35 knots as the system moves inland, according to the National Hurricane Center.",
+    "The system is located over sea surface temperatures greater than 30 degrees Celsius with fairly weak deep-layer shear, conditions that could support strengthening. The National Hurricane Center notes that 'some strengthening is expected before the system reaches the coast on Tuesday,' though the system's small size makes it 'prone to quicker intensity changes.' The initial intensity of 30 knots is described by forecasters as 'possibly generous,' reflecting uncertainty about the system's actual organization.",
+    "The disturbance was formerly tracked as AL97 over the northern Gulf of Mexico and produces a small area of showers and thunderstorms with modest signs of organization, according to the National Hurricane Center's discussion. Overnight scatterometer data indicated the circulation lacked definition on the western side, and the center remains elongated and ill-defined.",
+    "Heavy rain will impact parts of the upper Texas coast through east-central Texas into far southwestern Louisiana on Tuesday and Wednesday, with flash flooding likely, especially in urban areas, according to the National Hurricane Center. Minor to moderate coastal flooding is also possible along the upper Texas and southwestern Louisiana coasts. Specific probability estimates for wind impacts at key locations show Cameron, Louisiana, with a 24 percent probability of 34-knot winds between 12 UTC Monday and 00 UTC Tuesday and a 1 percent probability of 50-knot winds over that period. Galveston, Texas, has a 7 percent probability of 34-knot winds in that window, rising to 26 percent by 12 UTC Tuesday, with a 2 percent probability of 50-knot winds by 12 UTC Tuesday, according to the National Hurricane Center.",
+    "The National Hurricane Center's official track forecast lies near consensus guidance and within the center of the guidance envelope, according to forecaster Reinhart. The next advisory was scheduled for August 31 at 2100 UTC."
+  ],
+  "sources": [
+    {
+      "title": "nhc.noaa.gov",
+      "url": "https://www.nhc.noaa.gov/text/refresh/MIATCMAT5+shtml/311455.shtml"
+    },
+    {
+      "title": "nhc.noaa.gov",
+      "url": "https://www.nhc.noaa.gov/text/refresh/MIAPWSAT5+shtml/311455.shtml"
+    },
+    {
+      "title": "nhc.noaa.gov",
+      "url": "https://www.nhc.noaa.gov/text/refresh/MIATCDAT5+shtml/311456.shtml"
+    },
+    {
+      "title": "api.weather.gov",
+      "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6d8348e19e377e683e99b485cb0dc6be1720c6b5.001.1.cap"
+    },
+    {
+      "title": "api.weather.gov",
+      "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fd4ed90f98f86a296da3e6e424d5de6659f1f2e4.002.1.cap"
+    },
+    {
+      "title": "api.weather.gov",
+      "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fd4ed90f98f86a296da3e6e424d5de6659f1f2e4.001.1.cap"
+    }
+  ],
+  "event_utc": "2026-08-31T14:55:32Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-31T18:05:22Z",
+    "sources_cited": 6,
+    "sources_live_checked": 3
+  },
+  "also_reported_by": [
+    {
+      "outlet": "FOX Weather",
+      "headline": "Tropical Storm Warnings issued for Texas, Louisiana as PTC Five targets the Gulf Coast - FOX Weather"
+    },
+    {
+      "outlet": "Click2Houston",
+      "headline": "5 things to do tonight to prepare for Potential Tropical Cyclone Five in Houston - Click2Houston"
+    },
+    {
+      "outlet": "WDSU",
+      "headline": "Gulf Watch: PTC Five forms, churns towards Texas, SW Louisiana; What New Orleans can expect - WDSU"
+    },
+    {
+      "outlet": "WESH",
+      "headline": "Tracking Potential Tropical Cyclone Five: Maps, spaghetti models - WESH"
+    },
+    {
+      "outlet": "KBTX News 3",
+      "headline": "Potential Tropical Cyclone Five forms in the Gulf - KBTX News 3"
+    },
+    {
+      "outlet": "Live 5 News",
+      "headline": "TROPICS: Potential Tropical Cyclone Five expected to strengthen into Edouard Monday night - Live 5 News"
+    }
+  ]
+}

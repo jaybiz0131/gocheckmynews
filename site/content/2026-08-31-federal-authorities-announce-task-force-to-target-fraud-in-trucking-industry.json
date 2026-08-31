@@ -1,0 +1,51 @@
+{
+  "id": "c001",
+  "slug": "federal-authorities-announce-task-force-to-target-fraud-in-trucking-industry",
+  "kind": "brief",
+  "title": "Federal Authorities Announce Task Force to Target Fraud in Trucking Industry",
+  "dek": "Eight U.S. Attorneys joined the Department of Justice, Transportation, and Homeland Security to announce an interagency task force targeting fraud in commercial trucking. The agencies reported removing 28,000 drivers for English proficiency failures and canceling over 30,000 illegally issued licenses in the past 18 months.",
+  "date": "2026-08-31",
+  "published_utc": "2026-08-31T18:05:22Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 7,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Over the past 18 months, federal authorities removed 28,000 drivers from commercial trucking for failing English proficiency requirements and forced states to cancel over 30,000 licenses they determined were illegally issued to foreign drivers, according to the Department of Justice announcement.",
+  "bottom_line": "The enforcement actions address English proficiency requirements and licensing standards for commercial drivers, but the regulatory and legal authority for removing drivers based on language proficiency alone, and the breakdown of how many removed drivers were illegal aliens versus citizens or lawful residents, remain unspecified in the official announcement.",
+  "human_take": "",
+  "body": [
+    "Eight U.S. Attorneys, the Department of Justice, and the Departments of Transportation and Homeland Security announced a coordinated federal effort on August 31, 2026, targeting what they describe as fraud and unqualified drivers in the commercial trucking industry.\nThe joint effort, called the Joint Task Force Crossroads of America, unites U.S. Attorney's Offices in Illinois, Indiana, Michigan, and Ohio with state and local law enforcement, federal agencies including the FBI, DEA, HSI, ICE, and ATF, and transportation regulators. Attorney General Todd Blanche stated in the announcement that the task force aims to address what he called exploitation of America's trucking industry by foreigners and illegal aliens.\nOver the past 18 months, the Department of Transportation reported removing 28,000 drivers from roadways for failing to meet English proficiency requirements. The department also announced forcing states to cancel over 30,000 commercial driver's licenses it determined were illegally issued to foreign drivers, and removing over 8,000 training schools from the Federal Motor Carrier Safety Administration registry.\nDepartment of Transportation Secretary Sean P. Duffy, Department of Homeland Security Secretary Markwayne Mullin, FMCSA Administrator Derek Barrs, and   Brady said Americans have a right to feel safe on roadways and criticized the previous administration for what he called turning a blind eye to what he described as criminal enterprises allowing unqualified drivers to obtain licenses.\nThe announcement featured Marcus Coleman and his daughter Dalilah, who was critically injured in a 2024 crash involving a driver the agency identified as an illegal alien. The specific details of three enforcement actions and the closure of 110 truck-driving schools announced by FMCSA were not included in the available source material.\nThe task force builds on a partnership announced in July between the Transportation and Homeland Security departments to address what both called fraudulent and illegal practices in commercial driver's license training schools. The Justice Department and participating U.S. Attorneys' Offices framed the effort as a public safety response to highway fatalities."
+  ],
+  "sources": [
+    {
+      "title": "U.S. Department of Justice",
+      "url": "https://www.justice.gov/opa/pr/us-attorneys-and-department-justice-join-departments-transportation-and-homeland-security"
+    }
+  ],
+  "event_utc": "2026-08-31T12:00:00Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-31T18:05:22Z",
+    "sources_cited": 1,
+    "sources_live_checked": 2
+  },
+  "also_reported_by": [
+    {
+      "outlet": "Mayer Brown",
+      "headline": "President Signs Executive Order Creating Fraud Task Force, Continuing Recent Expansion of Fraud Enforcement Agenda | Insights - Mayer Brown"
+    },
+    {
+      "outlet": "Department of Transportation (.gov)",
+      "headline": "U.S. Transportation Secretary Duffy, U.S. Homeland Security Secretary Mullin, White House Fraud Task Force, &amp; Top U.S. Attorneys Launch Historic Interagency Effort to Crack Down on Fraud in Trucking Industry | US Department of Transportation - Department of Transportation (.gov)"
+    },
+    {
+      "outlet": "U.S. Department of Housing and Urban Development (HUD) (.gov)",
+      "headline": "HUD Secretary Scott Turner and DOI Secretary Doug Burgum Announce Joint Task Force To Use Federal Lands for Affordable Housing | HUD.gov / U.S. Department of Housing and Urban Development - U.S. Department of Housing and Urban Development (HUD) (.gov)"
+    },
+    {
+      "outlet": "Manhattan District Attorney's Office",
+      "headline": "D.A. Bragg Announces Major Expansion of Construction Fraud Task Force - Manhattan District Attorney's Office"
+    }
+  ],
+  "update_of": "justice-department-announces-multi-agency-trucking-industry-fraud-crackdown"
+}

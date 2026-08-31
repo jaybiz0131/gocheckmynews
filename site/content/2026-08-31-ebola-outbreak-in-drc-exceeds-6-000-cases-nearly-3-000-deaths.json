@@ -1,0 +1,58 @@
+{
+  "id": "c302",
+  "slug": "ebola-outbreak-in-drc-exceeds-6-000-cases-nearly-3-000-deaths",
+  "kind": "brief",
+  "title": "Ebola Outbreak in DRC Exceeds 6,000 Cases, Nearly 3,000 Deaths",
+  "dek": "The Democratic Republic of Congo faces its worst Ebola outbreak on record, with confirmed cases exceeding 6,000 and nearly 3,000 deaths. The Bundibugyo strain is spreading faster than any prior Ebola epidemic, according to UN Secretary-General Antonio Guterres, and has no approved vaccine or treatment.",
+  "date": "2026-08-31",
+  "published_utc": "2026-08-31T18:05:22Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 9,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The DRC Ministry of Communications reported 6,041 confirmed Ebola cases, 2,911 deaths, and 1,366 recoveries, making it the fastest-spreading Ebola epidemic ever recorded according to UN Secretary-General Antonio Guterres, driven by the Bundibugyo strain for which no approved vaccine or treatment exists.",
+  "bottom_line": "The absence of an approved vaccine or treatment for the Bundibugyo strain, combined with armed conflict and healthcare worker strikes in the eastern provinces, creates conditions in which the outbreak continues to spread faster than containment efforts can respond. The critical measure will be whether supply chains, staffing, and vaccination programs can be established and sustained despite ongoing insecurity.",
+  "human_take": "",
+  "body": [
+    "The Ebola outbreak in the Democratic Republic of Congo has surpassed 6,000 confirmed cases and nearly 3,000 deaths, making it the worst outbreak the country has experienced and spreading faster than any prior Ebola epidemic on record, according to reporting on a UN statement.\nThe DRC Ministry of Communications reported 6,041 confirmed cases, 2,911 deaths, and 1,366 recoveries, with 619 patients either in isolation or hospitalized. United Nations Secretary-General Antonio Guterres described the current outbreak as the fastest-spreading Ebola epidemic ever recorded.\nThe outbreak is caused by the Bundibugyo strain of Ebola, for which there is currently no approved vaccine or treatment. Cases are concentrated in the eastern provinces of the DRC, where densely populated areas face insecurity stemming from armed conflict, displacement, and pre-existing humanitarian crises.\nHealthcare workers are struggling to contain the spread. Persons continue to be infected with the virus faster than frontline workers can track and respond to new cases, according to the available reporting.\nMultiple operational crises are compounding the outbreak. Healthcare workers went on strike in early August to protest unpaid wages and dire working conditions. Airport closures and flight restrictions are disrupting the provision of healthcare and blocking the flow of staff, diagnostics, referrals, and supply chains, according to Doctors Without Borders.\nUganda was declared free of the Ebola virus on August 28, 2026, after reporting no new cases for 42 days."
+  ],
+  "sources": [
+    {
+      "title": "aljazeera.com",
+      "url": "https://www.aljazeera.com/news/2026/8/31/over-6000-ebola-cases-confirmed-in-drc-as-death-toll-nears-3000?traffic_source=rss"
+    }
+  ],
+  "event_utc": "2026-08-31T16:24:20Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-31T18:05:22Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "also_reported_by": [
+    {
+      "outlet": "Direct Relief",
+      "headline": "Ebola Outbreak Deaths Exceed 1,000 - Direct Relief"
+    },
+    {
+      "outlet": "Global Biodefense",
+      "headline": "Ebola Outbreak Surpasses 1,000 Cases, Becoming Second Largest on Record - Global Biodefense"
+    },
+    {
+      "outlet": "Outbreak News Today",
+      "headline": "Ebola in DRC: 'The evolution of this epidemic has exceeded our gravest expectations' - Outbreak News Today"
+    },
+    {
+      "outlet": "Dem\u00f3crata",
+      "headline": "The Ebola outbreak in the DRC exceeds 2,860 deaths and confirmed infections approach 6,000. - Dem\u00f3crata"
+    },
+    {
+      "outlet": "Infectious Disease Special Edition",
+      "headline": "Ebola Bundibugyo Outbreak Exceeds 1100 Cases Uganda DRC - Infectious Disease Special Edition"
+    },
+    {
+      "outlet": "India News Network",
+      "headline": "Ebola Outbreak in DRC Surpasses 5,500 Cases, Urgent Action Needed - India News Network"
+    }
+  ]
+}

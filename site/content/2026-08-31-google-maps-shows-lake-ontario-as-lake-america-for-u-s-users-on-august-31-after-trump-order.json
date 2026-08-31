@@ -1,0 +1,74 @@
+{
+  "id": "c021",
+  "slug": "google-maps-shows-lake-ontario-as-lake-america-for-u-s-users-on-august-31-after-trump-order",
+  "kind": "brief",
+  "title": "Google Maps shows Lake Ontario as 'Lake America' for U.S. users on August 31 after Trump order",
+  "dek": "President Trump issued an executive order August 29 directing the Interior Department to rename Lake Ontario to Lake America. Google Maps complied August 31, displaying the new name to U.S. users while Canadian users continue to see Lake Ontario. Ontario Premier Doug Ford responded with a lakeshore sign reading 'Lake Ontario Now and Always.'",
+  "date": "2026-08-31",
+  "published_utc": "2026-08-31T18:05:22Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 10,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Google updated its maps to show 'Lake America' for U.S. users on August 31, following Trump's Thursday executive order and citing the U.S. Geographic Names Information System (GNIS) as its policy basis.",
+  "bottom_line": "Apple's Maps app response remains unconfirmed as of Monday, though Burgum's statement suggests the company is under pressure to comply. The immediate stakes hinge on whether other major U.S. mapping services and federal agencies adopt 'Lake America' in their official databases, or whether the change remains confined to Google's consumer-facing product.",
+  "human_take": "",
+  "body": [
+    "Google updated its Maps application on Saturday, August 31, to display Lake Ontario as 'Lake America' for users in the United States, according to PBS NewsHour. Users in Canada continue to see 'Lake Ontario,' while those outside both countries see both names.",
+    "The change follows an executive order President Trump signed Thursday directing Interior Secretary Doug Burgum to rename the lake and update the U.S. Geographic Names Information System (GNIS), the official government map database. Google said in a blog post Saturday that it bases map names on assignments made by GNIS, according to PBS.",
+    "The executive order came as trade negotiations between the United States and Canada collapsed last week, with each side blaming the other for derailing three days of intensive talks. The Trump administration has imposed billions of dollars in added tariffs on Canadian goods, and Canada has reciprocated.",
+    "The lake-renaming mirrors a precedent from 2025, when Trump ordered the Gulf of Mexico renamed the Gulf of America, and Google complied in the same manner. Burgum told Fox News on Monday that 'the president has reached out to Apple directly' regarding the same change on Apple Maps, saying 'I'm sure we may be seeing that change coming up soon,' according to BBC News.",
+    "Ontario Premier Doug Ford unveiled a large sign by the lakeshore on Saturday reading 'Lake Ontario Now and Always' in both English and French. When asked by American TV host George Stephanopoulos on Sunday whether Canadians would adopt the new name, Ford responded: 'No one's going to call it Lake of America. It's been Lake Ontario for hundreds of years. It's going to continue being Lake Ontario.'",
+    "MapQuest, an American mapping service, stated on Friday in a Facebook post that 'we're not changing it,' per BBC News. The service subsequently unveiled a tool allowing users to change the lake's name to any label they choose and share their creations. MapQuest then rose to the top of the most-downloaded free applications on the Apple App Store in Canada as of Monday morning, according to BBC.",
+    "Ontario-based utility companies including Hydro One, Hydro Ottawa, and the Liquor Board of Ontario briefly displayed the name Lake America on their maps over the weekend, which use third-party mapping services. Hydro One stated on Sunday it was working with its vendor to correct the issue, according to BBC News.",
+    "Ford told reporters that the lake's name, which is more than 400 years old and derives from an indigenous word, would remain unchanged in Canada. The names of four of the Great Lakes, including Ontario, originate from indigenous terms."
+  ],
+  "sources": [
+    {
+      "title": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/nation/lake-ontario-now-called-lake-america-on-google-maps-for-u-s-users-after-trump-ordered-name-change"
+    },
+    {
+      "title": "The Washington Post",
+      "url": "https://www.washingtonpost.com/politics/2026/08/31/google-unveils-lake-america-us-users/"
+    },
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c2l80eq5lxno?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "event_utc": "2026-08-30T22:38:24Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-31T18:05:22Z",
+    "sources_cited": 3,
+    "sources_live_checked": 3
+  },
+  "also_reported_by": [
+    {
+      "outlet": "AP News",
+      "headline": "Lake Ontario now called Lake America on Google Maps for US users after Trump ordered name change - AP News"
+    },
+    {
+      "outlet": "CNET",
+      "headline": "Google Maps Relabels Lake Ontario After Trump\u2019s Executive Order - CNET"
+    },
+    {
+      "outlet": "9to5Mac",
+      "headline": "Apple Maps still shows Lake Ontario as Google Maps changes name - 9to5Mac"
+    },
+    {
+      "outlet": "Lifehacker",
+      "headline": "These Google Maps Alternatives Still Call It \u2018Lake Ontario\u2019 (for Now) - Lifehacker"
+    },
+    {
+      "outlet": "The Independent",
+      "headline": "Google Maps accused of bending knee to Trump with \u2018Lake America\u2019 name change - The Independent"
+    },
+    {
+      "outlet": "MS NOW",
+      "headline": "Google Maps renames Lake Ontario to Lake America - MS NOW"
+    }
+  ],
+  "update_of": "ontario-premier-ford-erects-lake-ontario-now-and-always-sign-against-trump-renaming-on-august-30"
+}

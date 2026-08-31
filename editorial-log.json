@@ -1,47 +1,6 @@
 [
  {
   "date": "2026-07-24",
-  "approved": 8,
-  "rejected": [
-   {
-    "id": "c098",
-    "headline": "U.S. measles cases hit 35-year high in 2026",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states '2,318 measles cases in the first seven months of 2026' but the brief's single data_point does not provide this specific number. The data_point only claims 'More measles cases have been reported in the United States in the last two years than in all the years from 2000 through 2024 combined'\u2014it does not confirm the 2,318 figure or the 'first seven months' timeframe. This figure appears to be smuggled from the source without appearing in the research brief.",
-     "The draft claims this marks a '35-year high' and exceeds the entire 2025 total, but neither claim appears in the brief's data_points. The brief's open_questions explicitly ask 'What are the specific 2026 case numbers and how do they compare to 2025 totals?' and 'What is the 35-year baseline and why is this year considered a 35-year high?'\u2014indicating these facts were not confirmed in the research phase."
-    ]
-   },
-   {
-    "id": "c031",
-    "headline": "ICC Members Vote to Remove Chief Prosecutor Khan Over Misconduct Findings",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'A panel of three judges, reviewing findings from a United Nations Office of Internal Oversight Services (OIOS) investigation conducted from November 2024 to December 2025, concluded that Khan engaged in an improper sexual relationship with a junior ICC staff member.' This misattributes the conclusion: the brief data shows the OIOS investigation identified the allegations, but the panel of three judges reviewed the OIOS findings and determined the serious misconduct\u2014the conclusion came from the judicial panel, not from the OIOS investigation itself. The sentence structure conflates investigator findings with judicial determination.",
-     "The draft presents Khan's denial and legal challenge in the bear_case voice but does not surface it as a substantive counter-narrative in the main body until the final paragraphs. The bear_case material (Khan's denial and procedural challenges) should appear earlier or with clearer prominence to balance the investigative findings presented in the opening and middle sections."
-    ]
-   },
-   {
-    "id": "c055",
-    "headline": "U.S. and Iran Trade Strikes; Trump Proposes Using Frozen Assets for War Damages",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'Chairman of the Joint Chiefs of Staff Dan Caine scheduled to attend' the London conference. The brief lists this person as 'Dan Caine' but this name does not appear in any public record as the actual Chairman; this is either a misspelling (likely Cody) or a fabricated identity not verified in the source. The writer must trace this name back to the BBC article or reject it entirely.",
-     "The draft includes a detail that 'Netanyahu is scheduled to attend a service for the late Senator Lindsey Graham' in the brief's data point, but this claim is dropped entirely from the draft. The draft only states Netanyahu is 'scheduled to meet Trump at the White House on Tuesday.' This is not a factual error in the draft itself, but if the brief includes it as a reported claim, its omission may represent selective briefing; however, this is acceptable editorial judgment on relevance. The 'Dan Caine' name error stands as untraced."
-    ]
-   },
-   {
-    "id": "c076",
-    "headline": "11 indicted in deaths of six migrants found in Texas cargo container",
-    "category": "accuracy",
-    "reasons": [
-     "Draft states 'six migrants' but the PBS NewsHour URL in sources contains '7-migrants' in the title. The brief itself flags this discrepancy in open_questions: 'The snippet mentions six migrants but the PBS headline references 7 migrants.' The draft resolves this ambiguity without sourcing the resolution, smuggling a factual choice not justified by the brief."
-    ]
-   }
-  ]
- },
- {
-  "date": "2026-07-24",
   "approved": 6,
   "rejected": [
    {
@@ -9827,6 +9786,45 @@
     "category": "accuracy",
     "reasons": [
      "The brief note states 'no brief exists for this story; every draft fact must then trace to the draft's own cited sources or be rejected.' The draft cites PBS NewsHour and The Hill as sources but the URLs provided do not directly verify the specific factual claims: the House reconvened August 31, a stopgap bill is the first order of business, it was Senate-approved, it funds through early December, and the September 30 shutdown deadline. The second source is a video clip URL that does not provide accessible text to verify the claims. Without a research brief and with sourcing that cannot be independently verified, the facts cannot be traced to reliable documentation per the desk's standards."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-08-31",
+  "approved": 8,
+  "rejected": [
+   {
+    "id": "c228",
+    "headline": "Nepal-Tibet floods kill at least 955, over 4,400 missing as of August 31",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief exists for this story. The instruction states 'every draft fact must then trace to the draft's own cited sources or be rejected.' The draft cites a single ABC News URL but provides no way to verify the specific figures (955 deaths, 4,400 missing) against that source without access to the article itself. The story rests entirely on a single secondary source for all factual claims, and the approval process cannot verify those facts were accurately extracted from that source rather than paraphrased or altered. A death toll and missing-person count of this magnitude require confirmation against the named source before publication."
+    ]
+   },
+   {
+    "id": "c036",
+    "headline": "US strikes Iranian launchers at Larak Island; Iran retaliates with ballistic missiles (August 30)",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief exists for this story. The instruction requires every draft fact to trace to cited sources when no brief is provided. The draft makes several specific factual claims: that the U.S. struck Larak Island on August 30, that it killed two people and injured two others, that Iran responded with ballistic missiles, and that this was 'the first known U.S. military action against Iranian positions since late July.' These claims are sourced to BBC and CBS reporting, but the approval process cannot verify accuracy of extraction from those sources without accessing them directly. Additionally, the Google News RSS feeds provided as sources are aggregation URLs that do not point to a single verifiable article, making the factual claims unverifiable in the submission form."
+    ]
+   },
+   {
+    "id": "c058",
+    "headline": "Kalshi permanently bans George Santos after betting on himself while making false statements",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief exists for this story. The instruction requires every draft fact to trace to cited sources. The draft makes several specific claims that require verification: that Kalshi 'permanently banned' Santos (a definitive statement requiring confirmation this is not 'announced-not-verified'), that this is the 'platform's first lifetime ban of any user' (a sweeping factual claim), that Santos 'placed bets on his own State of the Union attendance while making false statements about whether he would attend' (a characterization of his conduct), and that Santos 'served in Congress representing New York's Third District before resigning in 2024.' While multiple sources are cited, the approval process cannot verify these specific claims were accurately extracted from those sources without access to them. The most critical claim\u2014that Santos engaged in the conduct Kalshi alleged\u2014depends on what Kalshi publicly stated versus what the outlets reported Kalshi concluded, and this distinction cannot be verified from URLs alone."
+    ]
+   },
+   {
+    "id": "c086",
+    "headline": "Second Death Confirmed in Grand Canyon Flash Floods; 15+ Remain Missing",
+    "category": "accuracy",
+    "reasons": [
+     "The draft reports 'a second death has been confirmed' and '15+ people remain missing' but provides only a single New York Times URL as source. The draft does not quote or attribute these specific figures to the Times article; it presents them as established facts. Without access to verify the Times article itself contains these figures, and with no research brief to confirm them, these key factual claims cannot be verified. A story built on casualty and missing-person counts must have those numbers confirmed against the source.",
+     "The draft cites 'approximately 62 people were evacuated' with attribution to 'earlier reporting' but provides no source URL for that claim. This is a factual assertion with no traceable source in the draft's materials."
     ]
    }
   ]
