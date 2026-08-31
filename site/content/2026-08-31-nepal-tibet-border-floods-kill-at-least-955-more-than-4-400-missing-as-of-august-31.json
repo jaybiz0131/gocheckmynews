@@ -1,0 +1,36 @@
+{
+  "id": "c228",
+  "slug": "nepal-tibet-border-floods-kill-at-least-955-more-than-4-400-missing-as-of-august-31",
+  "kind": "brief",
+  "title": "Nepal-Tibet border floods kill at least 955, more than 4,400 missing as of August 31",
+  "dek": "Flash floods triggered by a landslide at the Nepal-Tibet border on August 28 have killed at least 955 people, with more than 4,400 reported missing. Hundreds of workers remain trapped in hydropower tunnels as rescue operations continue; at least 85 Americans are among those unaccounted for.",
+  "date": "2026-08-31",
+  "published_utc": "2026-08-31T17:13:48Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 2,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "At least 955 confirmed dead (939 in Nepal, 16 on Tibetan side); more than 4,400 missing; hundreds trapped in hydro tunnels; 301 rescued in three days.",
+  "bottom_line": "Rescue operations in the hydropower tunnels and the broader flood zone will determine whether the missing count continues to decline as more people are found or evacuated. The final death toll will track recovery work in the coming weeks; the trigger mechanism (what caused the initial landslide at that specific location and time) remains open to investigation.",
+  "human_take": "",
+  "body": [
+    "A catastrophic flash flood at the Nepal-Tibet border has killed at least 955 people as of August 31, with more than 4,400 still reported missing, according to official counts reported by ABC News. At least 939 bodies had been recovered in Nepal, while Xinhua News Agency reported at least 16 confirmed dead on the Tibetan side, with another 546 people missing there.",
+    "The flooding began on August 28 at around 8:40 a.m. local time in the northern Rasuwa district along the border. Nepali officials reported the disaster was triggered by a landslide approximately 12 miles northeast of the Rasuwagadhi border post. The U.S. Geological Survey registered a 5.2-magnitude landslide on the same day, with the initial glacier located on a cliff about 16,000 feet high; the debris avalanche slid down 6,000 feet on the slope before becoming a wall of ice, water and debris that inundated the Trishuli River valley. The destruction extended at least 62 miles downriver into Nepal, according to ABC News analysis of verified video and satellite images, burying buildings and damaging bridges and roadways.",
+    "Hundreds of workers are among those missing in hydropower tunnels in the region. Nepal's National Disaster Management Authority reported that 301 people have been rescued from the tunnels over the preceding three days. An official told ABC News that the missing count declined from initial reports on Monday morning local time due to a combination of finding more bodies, rescuing more people and families reporting they had found missing relatives.",
+    "At least 85 Americans were among the missing as of August 30, according to State Department spokesperson Tommy Pigott, reported by ABC News. Nine Americans had been evacuated by that date, up from five on Friday. The State Department activated USD 3.6 million in emergency humanitarian assistance that includes up to three months of emergency food for up to 10,000 flood-affected households. The U.S. Embassy in Kathmandu warned Americans against all travel to the affected region due to flood damage, disrupted transportation and communications, ongoing search-and-rescue and recovery operations, and the risk of additional flooding and landslides."
+  ],
+  "sources": [
+    {
+      "title": "abcnews.com",
+      "url": "https://abcnews.com/International/nepal-tibet-flood-death-toll-surpasses-900-officials/story?id=136081207"
+    }
+  ],
+  "event_utc": "2026-08-31T15:56:40Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-31T17:13:48Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "update_of": "about-15-missing-after-flash-flood-strikes-phantom-ranch-in-grand-canyon-62-evacuated-august-29-2026"
+}

@@ -44,6 +44,26 @@
     {
       "title": "cbsnews.com",
       "url": "https://www.cbsnews.com/video/several-missing-dozens-evacuated-amid-sudden-grand-canyon-flooding/"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/homenews/state-watch/6060286-grand-canyon-flash-floods-missing/"
+    },
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/news/us-news/grand-canyon-search-continues-15-missing-flash-flood-destruction-1-dea-rcna595301"
+    },
+    {
+      "title": "NPR",
+      "url": "https://www.npr.org/2026/08/31/nx-s1-5949409/at-least-15-people-missing-after-grand-canyon-flash-flood"
+    },
+    {
+      "title": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/nation/1-dead-and-several-missing-or-unaccounted-for-after-grand-canyon-flash-flood-park-service-says"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/policy/energy-environment/6060426-more-storms-possible-after-grand-canyon-flash-flood-killed-1-and-left-15-missing/"
     }
   ],
   "event_utc": "2026-08-30T21:00:38Z",
@@ -78,5 +98,14 @@
       "outlet": "NBC News",
       "headline": "At least 15 missing at Grand Canyon after extreme flash flooding - NBC News"
     }
-  ]
+  ],
+  "updated_utc": "2026-08-31T17:13:48Z",
+  "merged_from": [
+    {
+      "id": "c031",
+      "title": "At least 2 dead, approximately 15 missing after Grand Canyon flash flood on August 31",
+      "published_utc": "2026-08-31T17:13:48Z"
+    }
+  ],
+  "superseded_by": "nepal-tibet-border-floods-kill-at-least-955-more-than-4-400-missing-as-of-august-31"
 }

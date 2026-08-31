@@ -4,66 +4,6 @@
   "approved": 6,
   "rejected": [
    {
-    "id": "c097",
-    "headline": "Measles cases in U.S. last two years exceed all reported cases from 2000 through 2024 combined",
-    "category": "accuracy",
-    "reasons": [
-     "The core claim states measles cases in the last two years exceed all cases from 2000-2024 combined, but the brief shows source_chars: 0 with a note 'The source text is empty.' The draft presents this as fact ('according to New York Times reporting') when the fetched source material contains no actual text to verify the claim. The writer has smuggled a fact that cannot be traced to available source material."
-    ]
-   },
-   {
-    "id": "c119",
-    "headline": "Largest cyclosporiasis outbreak on record expands to nine states with 11,500+ cases",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'more than 11,500 people suspected to have been sickened this summer' but the brief's open_questions flag a discrepancy: 'The headline states \"CDC investigates 7,400 cases\" but the snippet and article text reference \"more than 11,500 suspected cases\"\u2014which figure is current and what accounts for the discrepancy?' The writer has adopted one figure (11,500) without acknowledging this unresolved conflict in the source material. The brief marks the source as thin and only 2,019 characters; the writer has no basis to choose between competing figures from Guardian reporting.",
-     "The draft states the outbreak 'has been linked to contaminated iceberg lettuce' as fact, but the brief's open_questions include 'What is the confirmed source of the contamination (the snippet mentions \"iceberg lettuce\" but this is not verified in the provided source text)?' The iceberg lettuce link is not confirmed in the brief's data_points\u2014only mentioned as unverified in an open question. Presenting it as settled fact violates the accuracy standard."
-    ]
-   },
-   {
-    "id": "c264",
-    "headline": "Romania shoots down unidentified drone near Black Sea in first NATO airspace incident",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'This is the first time Romania as a NATO member state has shot down a drone in its own airspace' but the brief data_point says 'This marks the first time the NATO state has shot down a drone in its own airspace.' The draft adds 'as a NATO member state'\u2014a qualifier not in the brief. The brief does not claim this is NATO's first such action, only Romania's. The draft's next sentence states 'marking the first time Romania as a NATO member has shot down a drone in its own airspace, according to The Hill' and later the bottom_line says 'This is the first air defense action of its kind by a NATO member in its own airspace'\u2014conflating Romania's first action with NATO's first action. These are distinct claims; the draft smuggled the NATO-wide claim without source support in the brief."
-    ]
-   },
-   {
-    "id": "c057",
-    "headline": "US and Iran trade strikes as June ceasefire collapses into military escalation",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'Iran carried out drone strikes on US military facilities across the Middle East on the 13th consecutive night of American attacks' but the brief data_point says 'Iran says it carried out drone strikes' and 'Iran claims it launched attacks'\u2014the draft presents Iran's claims as established fact without the qualifier that these are Iranian assertions. The confidence label is 'reported' but the prose reads as verified.",
-     "The draft includes two data_points not traced to the brief: (1) 'Israeli Prime Minister Benjamin Netanyahu is scheduled to meet with Trump at the White House on Tuesday' (data_point 21) and (2) 'Netanyahu is scheduled to attend a service for the late Senator Lindsey Graham. Ukrainian President Volodymyr Zelensky is expected to meet with Trump the same day' (data_point 22) appear in the brief but do not appear in the draft body. While these are in the brief, they are unrelated to the core story of US-Iran escalation and their absence from the draft is not a violation, but their presence in the brief without use raises a question of editorial judgment rather than accuracy violation. However, the main accuracy issue stands: the draft treats reported claims as fact."
-    ]
-   },
-   {
-    "id": "c100",
-    "headline": "Iran Conflict and Trump Tariffs Create Dual Economic Pressure on U.S. Growth",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'Renewed fighting with Iran is sending oil and gas prices soaring' and 'the Trump administration has announced new global tariffs,' but neither claim specifies that these are reported by the New York Times in the manner required by the brief's data_points. The draft attributes the conflict claim only in a parenthetical attribution ('According to reporting by the New York Times') but then proceeds to discuss the tariffs and dual shock without attributing them to the same source.",
-     "The draft asserts 'New tariffs raise the cost of imported goods, from appliances to clothing to automobiles' as a mechanistic fact without sourcing. This claim goes beyond what the brief's data_point states ('could push prices higher'), moving from reported possibility to presented certainty.",
-     "The final paragraph of the body ('The brief does not specify...') is a meta-commentary that violates the hard rule: no fact exists outside the brief. This sentence itself is not a fact from the brief and constitutes the writer commenting on the research rather than reporting from it."
-    ]
-   },
-   {
-    "id": "c121",
-    "headline": "Judge Orders Pentagon to Explain Testosterone Policy Disparity Between Troops",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'Defense Secretary Pete Hegseth has championed a plan to screen older soldiers for testosterone deficiencies and offer them hormone treatment,' but the brief's data_point describes the policy as 'controversial.' The draft omits the confidence label and presents the policy as established fact rather than as reported/controversial.",
-     "The final paragraph of the body ('The brief does not indicate...') is a meta-commentary that violates the hard rule. This sentence is not a fact from the brief and constitutes writer commentary on the research rather than reporting.",
-     "The draft characterizes the policy's constitutional status by stating it 'raises constitutional equal protection questions' without attributing this legal analysis to the court order or the Guardian reporting. The brief provides no data_point supporting an independent assertion of what constitutional question is at stake\u2014only that the judge ordered an explanation of the differential treatment."
-    ]
-   }
-  ]
- },
- {
-  "date": "2026-07-24",
-  "approved": 6,
-  "rejected": [
-   {
     "id": "c048",
     "headline": "Russian ballistic missiles kill 10 at Ukrainian drone exhibition near Kyiv",
     "category": "accuracy",
@@ -9832,6 +9772,69 @@
     "category": "accuracy",
     "reasons": [
      "The draft's title claims Markey 'Counters Moulton's Age Argument with Youth Endorsements and Policy Record' and the body repeatedly emphasizes Markey's youth endorsements\u2014but the brief does not contain any data_points confirming youth endorsements for Markey. The draft states 'Markey has won the endorsement of the High School Democrats of America and the College Democrats of America'\u2014this exact claim appears in the brief's data_points. However, the draft also claims 'as well as backing from U.S. Representative Alexandria Ocasio-Cortez of New York and New York City Mayor Zohran Mamdani.' The brief data_point says 'Markey has the backing of U.S. Rep. Alexandria Ocasio-Cortez of New York and New York City Mayor Zohran Mamdani'\u2014but Zohran Mamdani is identified in the brief as 'New York City Mayor,' while he is in fact a New York State Senator, not NYC Mayor. This is a factual error in the brief that the draft uncritically reproduced. Additionally, the draft's bottom_line states 'Primary results on August 30 will resolve whether Markey's youth endorsements and policy record overcome Moulton's framing' but the primary election occurs on August 30, 2026, and this story was written before results were known, making the statement prophetic rather than reportorial. The bottom_line reads as a prediction of what the outcome will 'resolve,' which violates the compliance rule against election predictions presented as fact."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-08-31",
+  "approved": 6,
+  "rejected": [
+   {
+    "id": "c032",
+    "headline": "U.S. and Iran trade strikes for first time in weeks",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief exists for this story. The draft cites BBC News, CBS News, and Google News RSS feeds, but provides no direct links to verify the core facts. The instruction states 'every draft fact must then trace to the draft's own cited sources' when no brief exists. The Google News RSS links are obfuscated and unverifiable. Critical facts\u2014the August 30 strike on Larak Island, the casualty count (two killed, two injured), the Iranian ballistic missile response targeting Jordan and UAE bases, and the characterization of a 'six-month conflict'\u2014cannot be independently verified from the sources provided. The draft presents specific military actions and casualty figures as fact without traceable sourcing.",
+     "The draft claims Iran 'retaliated with ballistic missiles targeting bases in Jordan and the United Arab Emirates' but provides no verifiable source link to confirm this escalation. This is a high-stakes factual claim about active military operations that requires transparent, direct sourcing.",
+     "The phrase 'breaks a pause in direct exchanges' and 'first confirmed direct strike by U.S. forces on Iranian positions in several weeks' are presented as settled fact, but the sourcing (Google News RSS articles and generic news outlet names) does not permit desk verification of these temporal claims."
+    ]
+   },
+   {
+    "id": "c056",
+    "headline": "Massachusetts primary: Democratic ideological divide on ballot",
+    "category": "accuracy",
+    "reasons": [
+     "The draft is self-aware that it lacks essential information and explicitly states the brief 'does not include the names of the candidates, the office being contested, or the election date.' This is not a valid story. The writer has correctly identified that the brief is too thin to produce a publishable article, but then published the self-acknowledgment as the draft body itself. This is a structural failure: the draft should either contain a story (names, office, policy details, results) or be rejected before arrival at approval.",
+     "The core claim in the brief ('Massachusetts Democrats are voting in a primary contest between the party's moderate and progressive wings, with top progressives backing the incumbent') cannot be reported in reader-facing prose without the candidate names, election date, and specific progressive endorsements. A sentence like 'top progressives are backing the incumbent' is unattributed and meaningless without knowing who the incumbent is or which progressives said so.",
+     "The body of the draft confesses to missing information rather than reporting a story. Sentences like 'The brief provided to the desk does not include...' and 'The PBS report also does not specify...' are meta-commentary on sourcing failure, not journalism. This reads as a rejection memo, not a draft."
+    ]
+   },
+   {
+    "id": "c004",
+    "headline": "Lionel Messi announces retirement from Argentina national team at 39",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Messi scored 98 goals and added 38 assists across 142 matches for Argentina' but the brief data_point 22 states 'Messi has scored 125 goals in 207 appearances for Argentina, making him the country's all-time leading scorer and most-capped player.' These are contradictory figures. The brief carries two different goal totals from two sources (NBC says 98 goals in 142 matches; BBC says 125 goals in 207 appearances). The draft used the NBC figure without noting the discrepancy or flagging that sources differ. This is an accuracy failure: the writer chose one sourced figure over another without disclosure, and a reader seeing only the 98-goal stat is being given incomplete information from a brief that contains conflicting data.",
+     "The draft does not mention that Messi was awarded the FIFA World Cup Silver Ball in 2026, which appears in brief data_point 26. The draft states he won the Golden Ball in 2014 and 2022 and the Silver Boot in 2022, but omits the 2026 Silver Ball award, which is verifiable sourced information the brief carries."
+    ]
+   },
+   {
+    "id": "c066",
+    "headline": "Iceland voters reject referendum to restart EU membership negotiations",
+    "category": "accuracy",
+    "reasons": [
+     "The draft is built almost entirely on two thin sources (Washington Examiner and PBS NewsHour with only 535 source_chars) with minimal reporting. The brief itself is marked 'thin: true' and lists five open_questions that indicate the sources lack essential context about why the vote divided Iceland, what the actual political arguments were, and what comes next. The story as drafted reads as pure result reporting with a single sentence of context ('Opposition parties took a victory lap'), leaving readers with no understanding of the substantive issues, the geopolitical backdrop, or the internal political divisions the brief's angle claims exist.",
+     "The draft states 'Opposition parties took a victory lap over the result, celebrating the fact that Iceland would not sit at the negotiating table with the European Union' but provides no direct quotes from opposition parties, no identification of which parties, and no specifics on what they said or why they celebrated. This is not paraphrase; it is narration of events the sources do not clearly report. The brief's data_point says opposition parties 'took a victory lap over the fact that Iceland would not even sit at the negotiating table'\u2014already vague\u2014and the draft repeats this without adding any sourced substance."
+    ]
+   },
+   {
+    "id": "c118",
+    "headline": "HOLD: STORY REQUIRES VERIFIED RESEARCH BRIEF",
+    "category": "accuracy",
+    "reasons": [
+     "The draft itself is a rejection notice, not a story. It contains no reportable facts, no news event, and no content to evaluate against a brief. The 'draft' is a meta-commentary on the approval process and does not constitute a submittable article. There is no brief to trace facts against, and the body describes procedural failures rather than reporting an event.",
+     "The sources cited (a future-dated Washington Post URL and a Google News RSS feed) are not verifiable source documents per the desk's own standards as stated in the draft text itself. A story cannot be approved when it acknowledges its own sources are unusable."
+    ]
+   },
+   {
+    "id": "c296",
+    "headline": "NASA launches Nancy Grace Roman Space Telescope on deep space mission",
+    "category": "accuracy",
+    "reasons": [
+     "The draft cites only a single NPR source (https://www.npr.org/2026/08/30/nx-s1-5949326/the-nancy-grace-roman-telescope-begins-its-journey-into-deep-space) but this URL appears fabricated or future-dated (NPR article IDs do not follow this format). The desk requires verifiable source documents that can be independently read and checked.",
+     "No research brief exists for this story, meaning every fact must trace to cited sources that are readable and verifiable. The NPR URL provided cannot be verified as real, creating a chain-of-custody problem: facts exist, but they rest on sources the desk cannot check.",
+     "Without a brief and with unverifiable sources, the desk has no way to confirm the launch date (August 30, 2026), the telescope's name, its cost ($4.3 billion), or any other specific claim."
     ]
    }
   ]
