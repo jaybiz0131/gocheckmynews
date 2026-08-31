@@ -1,0 +1,66 @@
+{
+  "id": "c062",
+  "slug": "moulton-says-80-year-old-markey-too-old-for-another-senate-term-cites-lack-of-ai-knowledge",
+  "kind": "brief",
+  "title": "Moulton says 80-year-old Markey too old for another Senate term, cites lack of AI knowledge",
+  "dek": "U.S. Representative Seth Moulton, 47, challenged incumbent Senator Ed Markey, 80, during a debate over the senator's 2027 term, directly questioning Markey's grasp of artificial intelligence platforms. When asked whether he uses AI tools like Claude or ChatGPT, Markey said he uses \"whatever comes up\" on his devices. Moulton called Markey's answer \"potentially disqualifying.\"",
+  "date": "2026-08-31",
+  "published_utc": "2026-08-31T17:43:43Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 6,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Markey said during the debate he uses \"whatever is inside of my iPhone or my iPad, whatever comes up\" and doesn't know \"what companies my iPad may be using,\" when asked about AI platforms like Claude or ChatGPT.",
+  "bottom_line": "The Massachusetts primary on Tuesday will test whether Massachusetts Democratic voters weigh policy record and voting consistency over generational turnover, or whether Moulton's argument that modern crises require modern leadership carries among both young and older Democrats. The outcome will signal how the 2026 midterms balance seniority and tenure against generational renewal.",
+  "human_take": "",
+  "body": [
+    "U.S. Representative Seth Moulton, 47, directly challenged incumbent Senator Ed Markey's age and technological competence during a debate over Markey's 2027 Senate term, framing the race as a generational choice ahead of Tuesday's Massachusetts primary.\nWhen asked during the debate whether he uses AI platforms like Claude or ChatGPT in his work, Markey responded that he uses \"whatever is inside of my iPhone or my iPad, whatever comes up\" and added that he doesn't know \"what companies my iPad may be using.\" Moulton seized on the answer, telling him: \"Senator, if you don't even know what you're using on your phone or your iPad, like this is why we need a new generation of leaders to regulate these technologies.\" Moulton called Markey's loose grasp of the technology \"potentially disqualifying.\"\nMarkey, who entered Congress 50 years ago, would be 86 at the end of another term. Moulton has emphasized Markey's age throughout the race, calling for \"generational change\" and age limits for members of Congress.\nMarkey pushed back at the debate, saying, \"It doesn't make any difference whether it's called Siri or it's called Claude,\" and emphasized that familiarity with individual AI products was less important than putting safeguards around the technology. He pointed to legislation he has introduced to regulate AI's effects on children, workers, civil rights, and the environment. Markey voted in 2002 against the creation of the Department of Homeland Security, which later led to the creation of U.S. Immigration and Customs Enforcement, a vote his supporters cite as evidence of early progressivism.\nYet the generational framing has fractured young Massachusetts Democrats. Markey won the endorsement of the High School Democrats of America and the College Democrats of America.  Matt Kelly, president of the UMass Lowell College Democrats, conceded that Markey \"stumbled\" when asked about his use of AI, but said he cares less about whether Markey knows how to use the latest technology than whether he understands how to govern it. \"Just because he has a younger face doesn't mean that he has younger ideas,\" Kelly said.\nMilan van Dam, a 17-year-old who serves as national chair of the High School Democrats of America, said generational leadership is \"less about an age on a Wikipedia page\" than the ideas a candidate represents and their consistency through time. Abby Shadden, a 21-year-old Emmanuel College student, pointed to Markey's co-authorship of the Green New Deal and his early support for Medicare for All as examples of progressive policy positions. \"There is this idea that younger people are just automatically more progressive when, in this case, it is very much not true,\" Shadden said.\nKelly said Markey's push for greater regulation of data centers matters more to him than the senator's awkward answer about AI, citing a proposed data center in Lowell that has generated opposition from some residents over its potential impact on the community. Molly Blander, an 18-year-old incoming Tufts University freshman, cited Moulton's work to establish 988 as the national suicide and crisis lifeline as an example of the kind of response she wants to see for modern problems. \"Social media has created a modern mental health problem, so we need modern solutions,\" Blander said."
+  ],
+  "sources": [
+    {
+      "title": "abcnews.com",
+      "url": "https://abcnews.com/Politics/wireStory/moulton-sen-markey-80-term-young-massachusetts-democrats-136068403"
+    },
+    {
+      "title": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/politics/in-massachusetts-u-s-senate-race-challenger-moulton-says-markey-80-is-too-old-for-another-term-young-democrats-are-divided"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/homenews/campaign/6060059-markey-leading-moulton-poll/"
+    }
+  ],
+  "event_utc": "2026-08-30T19:12:34Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-31T17:43:43Z",
+    "sources_cited": 3,
+    "sources_live_checked": 2
+  },
+  "also_reported_by": [
+    {
+      "outlet": "PBS",
+      "headline": "In Massachusetts U.S. Senate race, challenger Moulton says Markey, 80, is too old for another term. Young Democrats are divided - PBS"
+    },
+    {
+      "outlet": "Newsweek",
+      "headline": "Seth Moulton\u2019s Chances of Defeating 80-Year-Old Ed Markey: Final Polls - Newsweek"
+    },
+    {
+      "outlet": "Toronto Star",
+      "headline": "Moulton says Sen. Markey, 80, is too old for another term. Young Massachusetts Democrats are divided - Toronto Star"
+    },
+    {
+      "outlet": "Traverse City Record-Eagle",
+      "headline": "Moulton says Sen. Markey, 80, is too old for another term. Young Massachusetts Democrats are divided - Traverse City Record-Eagle"
+    },
+    {
+      "outlet": "ABC News",
+      "headline": "Moulton says Sen. Markey, 80, is too old for another term. Young Massachusetts Democrats are divided - ABC News - Breaking News, Latest News and Videos"
+    },
+    {
+      "outlet": "KSAT",
+      "headline": "Moulton says Sen. Markey, 80, is too old for another term. Young Massachusetts Democrats are divided - KSAT"
+    }
+  ]
+}

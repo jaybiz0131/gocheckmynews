@@ -1,63 +1,6 @@
 [
  {
   "date": "2026-07-24",
-  "approved": 6,
-  "rejected": [
-   {
-    "id": "c048",
-    "headline": "Russian ballistic missiles kill 10 at Ukrainian drone exhibition near Kyiv",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'At least 15 people were killed across Ukraine in Russian attacks on July 24' but the brief's first data point says 'At least 15 people killed in Russian attacks on Ukraine overall on July 24, 2026, including 10 dead in ballistic missile strikes on a drone exhibition near Kyiv.' The draft presents this as a standalone figure at the end without clarity that the 10 at the exhibition are part of the 15 total, creating potential confusion about the actual death count.",
-     "The draft includes a paragraph about Zelensky traveling to the US, meeting Trump on Tuesday, and attending Senator Lindsey Graham's funeral. The brief data point says Trump ally Laura Loomer 'interviewed Zelensky, who stated he intends to go to the funeral of US Senator Lindsey Graham on the same day as his planned meeting with Trump.' The draft omits the crucial detail that Laura Loomer was in Kyiv and conducted this interview, and presents Zelensky's statements about his schedule without that context, which changes the sourcing attribution."
-    ]
-   },
-   {
-    "id": "c114",
-    "headline": "Six killed in West Bank shooting; accounts conflict on who initiated violence",
-    "category": "accuracy",
-    "reasons": [
-     "The brief contains only one data point confirming the death toll (four Palestinians and two Israelis). All other claims in the draft\u2014that accounts conflict on who initiated violence, that the specific sequence of events remains undetailed, that Israel deployed troops as a response, that deployment scope/positioning is unspecified\u2014are not present in the brief and therefore constitute smuggled facts written outside the research.",
-     "The draft's framing that 'Official accounts from Israeli and Palestinian authorities conflict' is presented as fact, but the brief contains no data point establishing what these conflicting accounts are or that they even exist in the source material. This is a major factual claim unsupported by the research."
-    ]
-   },
-   {
-    "id": "c119",
-    "headline": "Cyclosporiasis outbreak expands to nine states with 11,500 suspected cases",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'This is the largest cyclosporiasis outbreak on record in the United States' as a definitive fact, but the brief data_point reads 'This is the largest cyclosporiasis outbreak on record' without the 'in the United States' qualifier. The draft has added geographic specificity not present in the sourced claim.",
-     "The draft claims 'Cyclosporiasis, a parasitic infection, can cause explosive diarrhea and other gastrointestinal symptoms, per The Guardian.' The brief only confirms 'Cyclosporiasis can cause explosive diarrhea' as the sourced claim. The addition of 'parasitic infection' as a defining characteristic and 'other gastrointestinal symptoms' beyond explosive diarrhea extends beyond what the brief supports and should be verified against the source."
-    ]
-   },
-   {
-    "id": "c075",
-    "headline": "Teen pleads guilty to all 55 counts in 2024 Apalachee High School shooting that killed four",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'The shooting, which occurred nearly two years ago, killed two students and two teachers' but the brief's timestamp is 2026-07-24 and refers to a '2024 shooting,' which would be roughly 1.5-2 years prior depending on the month in 2024. The phrasing 'nearly two years ago' is imprecise given the brief's own language ('2024') and creates factual ambiguity about timing that the brief does not resolve. The brief explicitly notes 'What is the exact date of the shooting' as an open question, meaning the writer cannot assert temporal claims beyond what the source provides."
-    ]
-   },
-   {
-    "id": "c76",
-    "headline": "UNABLE TO DRAFT: Source material inaccessible",
-    "category": "accuracy",
-    "reasons": [
-     "The draft is presented as an inability-to-draft notice rather than a news story. The brief confirms the source material is inaccessible (source_chars: 312, only metadata available). The draft correctly identifies this as a blocker, but it should not be submitted as a 'draft' for approval\u2014it is a routing instruction to research. This violates the output contract: the desk does not approve meta-commentary about missing sources as finished editorial product."
-    ]
-   },
-   {
-    "id": "c97",
-    "headline": "UNABLE TO DRAFT: Source material contains no data points",
-    "category": "accuracy",
-    "reasons": [
-     "The draft is presented as an inability-to-draft notice rather than a news story. The brief confirms data_points is empty and source_chars is 0\u2014no substantive content exists. Like c76, this is a routing instruction to research, not a finished draft. It should not be submitted for approval as editorial product."
-    ]
-   }
-  ]
- },
- {
-  "date": "2026-07-24",
   "approved": 8,
   "rejected": [
    {
@@ -9835,6 +9778,55 @@
      "The draft cites only a single NPR source (https://www.npr.org/2026/08/30/nx-s1-5949326/the-nancy-grace-roman-telescope-begins-its-journey-into-deep-space) but this URL appears fabricated or future-dated (NPR article IDs do not follow this format). The desk requires verifiable source documents that can be independently read and checked.",
      "No research brief exists for this story, meaning every fact must trace to cited sources that are readable and verifiable. The NPR URL provided cannot be verified as real, creating a chain-of-custody problem: facts exist, but they rest on sources the desk cannot check.",
      "Without a brief and with unverifiable sources, the desk has no way to confirm the launch date (August 30, 2026), the telescope's name, its cost ($4.3 billion), or any other specific claim."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-08-31",
+  "approved": 7,
+  "rejected": [
+   {
+    "id": "c036",
+    "headline": "U.S. strikes Iranian positions on Larak Island; Iran retaliates with ballistic missiles (August 30)",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief exists for this story. The instruction requires: 'every draft fact must then trace to the draft's own cited sources or be rejected.' The draft cites BBC News and CBS News URLs, but those are RSS feed links and news aggregators\u2014not primary source documents that can be verified by the desk. The critical facts (U.S. strike on Larak Island August 30, Iranian ballistic missile response, 4,000 U.S. personnel in Jordan, two killed and two injured on Larak Island, one-month pause in direct military action) cannot be independently verified from the URLs provided. Without a research brief containing data_points with specific source verification, and with only aggregator/RSS links as citation, these facts are unverified.",
+     "The draft presents casualty figures ('killed two people and injured two others') and troop strength ('approximately 4,000 U.S. military personnel') as confirmed facts traced only to news aggregators, not to primary or on-record sources documented in a brief."
+    ]
+   },
+   {
+    "id": "c227",
+    "headline": "Nepal-Tibet border floods kill at least 955; more than 4,400 missing (August 31)",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief exists for this story. The instruction requires: 'every draft fact must then trace to the draft's own cited sources or be rejected.' The draft cites a single ABC News URL, but provides no research brief with data_points documenting the sourcing of: the 955 death toll, 4,400 missing persons, 85 unaccounted Americans, hundreds trapped in hydropower tunnels, or the timeline ('began last week'). Without a brief showing where each fact was verified and with what confidence, these figures cannot be validated.",
+     "The draft presents specific casualty and missing-person counts as fact ('at least 955 people', 'more than 4,400 people remain missing', 'approximately 85 Americans') without a research brief data_point structure to document sourcing confidence or verification status."
+    ]
+   },
+   {
+    "id": "c059",
+    "headline": "Massachusetts Democrats voting in primary between progressive and moderate wings",
+    "category": "accuracy",
+    "reasons": [
+     "The brief's open_questions explicitly state: 'The source text does not name the candidates or specify which side represents which ideology.' The draft violates this by narrating the contest in the abstract ('progressive and moderate wings', 'top progressives backing one of the candidates') without naming Ed Markey or Seth Moulton, despite the core_claim in the brief identifying them by name. The brief's core_claim contains information the draft does not carry from the source: the specific candidate names and their ideological positioning. The draft has omitted identifiable facts present in the brief data structure.",
+     "The draft states 'The outlet reports that top progressives are backing one of the candidates in the race' without naming who the candidate is or which position they represent. The brief's core_claim specifies Markey (progressive incumbent) vs. Moulton (moderate challenger), but the draft abstracts these into unnamed 'wings,' creating ambiguity the brief does not contain. This is a loss of factual specificity that violates the rule that facts must trace to the brief or be rejected; here the brief contains specificity the draft erased."
+    ]
+   },
+   {
+    "id": "c087",
+    "headline": "Grand Canyon flash flood kills 2, leaves more than a dozen unaccounted for",
+    "category": "accuracy",
+    "reasons": [
+     "The brief note states 'no brief exists for this story; every draft fact must then trace to the draft's own cited sources or be rejected.' The draft cites two sources: a New York Times URL and a Google News RSS feed. The Google News RSS URL is not a direct source document and does not provide verifiable access to the underlying reporting. The Times URL is cited but cannot be verified as containing the specific claims (2 dead, 62 evacuated, more than a dozen unaccounted for, August 29 date, Phantom Ranch location). Without a research brief to anchor facts, and with one source being an RSS aggregation rather than a direct outlet URL, the factual claims cannot be traced to reliable primary sourcing per the desk's standards."
+    ]
+   },
+   {
+    "id": "c066",
+    "headline": "House returns from recess with stopgap spending bill as top priority (August 31, 2026)",
+    "category": "accuracy",
+    "reasons": [
+     "The brief note states 'no brief exists for this story; every draft fact must then trace to the draft's own cited sources or be rejected.' The draft cites PBS NewsHour and The Hill as sources but the URLs provided do not directly verify the specific factual claims: the House reconvened August 31, a stopgap bill is the first order of business, it was Senate-approved, it funds through early December, and the September 30 shutdown deadline. The second source is a video clip URL that does not provide accessible text to verify the claims. Without a research brief and with sourcing that cannot be independently verified, the facts cannot be traced to reliable documentation per the desk's standards."
     ]
    }
   ]

@@ -1,0 +1,38 @@
+{
+  "id": "c000",
+  "slug": "ohio-state-to-pay-2-1-million-over-china-affiliation-nondisclosure-in-federal-research-grants",
+  "kind": "brief",
+  "title": "Ohio State to Pay $2.1 Million Over China Affiliation Nondisclosure in Federal Research Grants",
+  "dek": "Ohio State University agreed to pay $2.1 million to resolve allegations it failed to disclose employee affiliations with China and receipt of Chinese government support in NASA and NSF grant applications from November 2012 to August 2023. The settlement addresses a compliance gap in foreign funding disclosure required by federal law since 2011.",
+  "date": "2026-08-31",
+  "published_utc": "2026-08-31T17:43:43Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 11,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Ohio State failed to disclose employee PRC affiliations and support to NASA and NSF despite federal law requiring such disclosure and despite Faculty Activity Reports internally documenting those ties since 2014.",
+  "bottom_line": "",
+  "human_take": "",
+  "body": [
+    "Ohio State University agreed to pay 2.1 million dollars to resolve allegations that it failed to disclose employee affiliations with and support from the People's Republic of China in federal research funding applications, according to a U.S. Department of Justice announcement on August 31, 2026.",
+    "The settlement covers NASA and NSF grants that provided funding to the university from November 2012 to August 2023. Federal law has prohibited the use of grant funds for collaborations with the PRC, PRC universities, or PRC-owned companies since 2011. NASA and NSF required OSU to disclose any foreign government support received by principal investigators or co-investigators on grant applications.",
+    "According to the Justice Department, Faculty Activity Reports submitted to OSU starting in 2014 identified employee affiliations with PRC universities and state-run research organizations, but OSU did not disclose this information to NASA or NSF. In 2019, OSU learned that a principal investigator on NASA grants was a participant in China's Thousand Talents Program, a recruitment program established by the PRC to attract individuals with knowledge or access to foreign technology and intellectual property. OSU did not notify NASA or NSF of this affiliation until four years later, in 2023. The Justice Department also identified additional OSU employees working on those grants who were affiliated with, collaborated with, or received funding from the PRC.",
+    "The settlement was reached through coordinated effort by the Justice Department's Civil Division, Commercial Litigation Branch, and Fraud Section, along with NASA's Office of Inspector General, the NSF Office of Inspector General, and the FBI. The matter was handled by Fraud Section Senior Trial Counsel Christopher Reimer.",
+    "Assistant Attorney General Brett A. Shumate of the Justice Department's Civil Division stated: \"American universities that benefit from the federal government's support for scientific research and advancement must fully disclose all foreign funding in their grant applications.\" Robert Steinau, Senior Official at NASA's Office of Inspector General, said: \"Together with the Department of Justice and NASA, we have secured a major financial recovery on behalf of the American public. The settlement and accompanying compliance agreement send a clear message: We will not tolerate institutions that conceal foreign ties and compromise national security.\"",
+    "Acting Inspector General Megan E. Wallace of the National Science Foundation added: \"Federal agencies rely on grant recipients, including colleges and universities, to fully disclose their funding sources and personnel commitments, including foreign support. When recipients fail to make those disclosures, they undermine the integrity of the federal grant process and can put taxpayer dollars and U.S. research interests at risk.\"",
+    "The Justice Department noted that the settlement does not constitute an admission of liability by OSU. According to the DOJ press release, \"the claims resolved by the settlement are allegations only and there has been no determination of liability.\""
+  ],
+  "sources": [
+    {
+      "title": "U.S. Department of Justice",
+      "url": "https://www.justice.gov/opa/pr/ohio-state-university-agrees-21m-settlement-resolve-allegations-it-failed-disclose-employees"
+    }
+  ],
+  "event_utc": "2026-08-31T12:00:00Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-31T17:43:43Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}

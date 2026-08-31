@@ -1,0 +1,85 @@
+{
+  "id": "c058",
+  "slug": "kalshi-permanently-bans-george-santos-after-he-made-false-statements-about-state-of-the-union-attendance-while-placing-bets",
+  "kind": "brief",
+  "title": "Kalshi permanently bans George Santos after he made false statements about State of the Union attendance while placing bets",
+  "dek": "The prediction market platform Kalshi permanently banned former Congressman George Santos on August 31 after finding he made false statements about his State of the Union attendance while betting against himself. Santos was fined $71,356, more than four times his $17,839.57 in winnings. A federal regulator had already imposed a three-year trading ban and a $35,000 settlement in July.",
+  "date": "2026-08-31",
+  "published_utc": "2026-08-31T17:43:43Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 4,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Kalshi's Compliance Department determined Santos made false statements about his State of the Union attendance with intent to manipulate contract prices, and that these statements did manipulate prices.",
+  "bottom_line": "Whether prediction markets can police themselves against insiders remains unresolved. Kalshi's enforcement action shows the platform can identify and penalize manipulation after the fact, but the Santos case and the subsequent teleprompter operator case raise questions about whether detection comes too late to protect ordinary traders from information asymmetries built into markets where participants have privileged access.",
+  "human_take": "",
+  "body": [
+    "Prediction market platform Kalshi issued its first-ever lifetime ban against former U.S. Congressman George Santos on August 31 after determining he manipulated market prices through false statements about whether he would attend the 2026 State of the Union address while betting on the outcome.",
+    "Kalshi's Compliance Department found that Santos made false statements about his State of the Union attendance with intent to manipulate contract prices, and that these statements did manipulate prices, according to NBC News. The platform fined Santos $71,356, more than four times the $17,839.57 he made from his wagers, citing his lack of cooperation with the investigation as justification for the extra penalties. Santos is barred from both direct and indirect access to Kalshi's platform.",
+    "Between February 12 and February 25, Santos traded on a contract titled \"Who will attend the State of the Union?\" and on whether he would attend the event. In February, Santos posted on X that he planned to attend Trump's State of the Union, saying \"I'm gonna be in the gallery\" in a video. After Santos's posts, contract prices moved in a direction favorable to his positions, which allowed him to make over $17,500, according to CBS News. In March, Santos said on his podcast: \"I guess people lost money. Some people made unexpected money. That's to show you how fragile these markets are.\"",
+    "In July, Santos agreed to pay $35,000 to settle a federal Commodity Futures Trading Commission investigation into his suspicious trades. The CFTC found that Santos had made a series of material misrepresentations and omissions in his social media posts about whether he would attend the State of the Union while placing bets on his own attendance, and imposed a three-year trading ban on him.",
+    "Santos, a former Republican congressman from New York, pleaded guilty in 2024 to federal charges including wire fraud, identity theft and money laundering. He was sentenced to seven years in prison and ordered to pay almost $374,000 in restitution and over $200,000 in forfeiture. Trump commuted Santos' sentence after he had been behind bars for three months.",
+    "Santos mocked the ban on X Monday, saying \"thanks for the lifetime ban from your gambling platform. Let's see how much longer you guys are around for.\" His attorney Joseph Murray said Santos chose a prompt resolution to \"put this matter behind\" him and had not admitted any wrongdoing, stating \"He chose a prompt, practical resolution, rather than protracted, costly litigation, and that choice should not be mistaken for admission of any wrongdoing, because it is not one.\"",
+    "On Monday, Kalshi issued three other enforcement actions against people running for public office who bet on their own candidacy. In August, the CFTC ordered a former White House teleprompter operator to pay $172,000 after the agency found that he made more than $100,000 on Kalshi bets related to presidential speeches that he had prior access to before they were delivered."
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/politics/congress/kalshi-ban-george-santos-rcna595318"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/policy/technology/6061177-kalshi-bans-george-santos/"
+    },
+    {
+      "title": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/politics/kalshi-permanently-bans-ex-congressman-george-santos-for-life-after-concluding-he-likely-was-insider-trading"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/george-santos-kalshi-lifetime-ban/"
+    },
+    {
+      "title": "Washington Examiner",
+      "url": "https://www.washingtonexaminer.com/news/crime/4706320/kalshi-bans-george-santos-for-life/"
+    },
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/now/video/kalshi-permanently-bans-george-santos-after-he-secretly-bet-on-himself-269105221531"
+    }
+  ],
+  "event_utc": "2026-08-31T15:33:10Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-31T17:43:43Z",
+    "sources_cited": 6,
+    "sources_live_checked": 3
+  },
+  "update_of": "kalshi-issues-first-ever-lifetime-ban-against-george-santos-for-market-manipulation-on-august-31",
+  "also_reported_by": [
+    {
+      "outlet": "WSJ",
+      "headline": "Ex-Congressman George Santos Receives Kalshi\u2019s First-Ever Lifetime Ban - WSJ"
+    },
+    {
+      "outlet": "The New York Times",
+      "headline": "Kalshi Permanently Bars George Santos From the Platform - The New York Times"
+    },
+    {
+      "outlet": "CNBC",
+      "headline": "Kalshi permanently bans former GOP Rep. George Santos over illegal trading - CNBC"
+    },
+    {
+      "outlet": "CBS News",
+      "headline": "Kalshi bans ex-congressman George Santos for life after suspicious trades - CBS News"
+    },
+    {
+      "outlet": "The Washington Post",
+      "headline": "Kalshi bans former GOP congressman George Santos for life - The Washington Post"
+    },
+    {
+      "outlet": "WLWT",
+      "headline": "Kalshi bans ex-Congressman George Santos for life after concluding he likely was insider trading - WLWT"
+    }
+  ]
+}
