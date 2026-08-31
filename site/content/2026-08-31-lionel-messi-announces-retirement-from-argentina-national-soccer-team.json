@@ -1,0 +1,78 @@
+{
+  "id": "c006",
+  "slug": "lionel-messi-announces-retirement-from-argentina-national-soccer-team",
+  "kind": "brief",
+  "title": "Lionel Messi Announces Retirement from Argentina National Soccer Team",
+  "dek": "Lionel Messi, 39, announced his retirement from Argentina's national soccer team on August 31, 2026, ending a 20-year international career. According to NBC News, Messi played 207 matches and scored 125 goals for Argentina, making him the country's all-time leading scorer. He finished with 21 World Cup goals across six World Cups and added 68 assists in his 207 international appearances.",
+  "date": "2026-08-31",
+  "published_utc": "2026-08-31T21:03:39Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 12,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Lionel Messi, 39, announced his retirement from Argentina's national team on August 31, 2026, after 20 years and 207 matches, closing his international career two months after Argentina lost the 2026 World Cup final to Spain.",
+  "bottom_line": "Messi's retirement closes an era for Argentina's national team at 39 and leaves the succession to emerging talent. The sources contain a statistical discrepancy: NBC News reports conflicting figures internally (142 matches with 98 goals in the headline versus 207 matches with 125 goals in the article body), while PBS and NPR confirm the higher figures of 207 matches and 125 goals. Readers checking the sources should verify the statistics against the National Team's official record.",
+  "human_take": "",
+  "body": [
+    "Lionel Messi, 39, announced his retirement from Argentina's national soccer team on August 31, 2026, ending a 20-year international career. Messi posted his announcement on Instagram, stating: \"It was a decision that hurt, and still hurts, deep in the soul, but I understand that it's time.\"\nHe competed in six World Cups. In the 2026 World Cup, he scored eight goals and added four assists before Argentina lost to Spain 1-0 in the final in New Jersey, with Ferran Torres scoring the decisive goal in extra time. Messi finished with 21 World Cup goals total, one behind France's Kylian Mbapp\u00e9, who became the all-time leading World Cup scorer with 22 goals.\nMessi wrote his retirement letter on July 21, two days after the World Cup final. He delayed publishing the announcement because his father, Jorge Messi, was facing health issues that eventually claimed his life on August 8 in Rosario. In his letter, Messi wrote: \"I've given it my all; I have nothing left to give, and besides, there are some truly great young players coming up who deserve their spot.\" He also stated: \"There's not much time left, and chapters are coming to a close, and this is one that hurts me deeply. I love, have loved, and will always love being on the national team.\"\nMessi said: \"I swear to you that I always gave it my all, not just in these last few years when we won everything, but before that too; I always fought and left everything on the field for this jersey, to bring you joy and make you feel proud to be Argentine through football.\" He concluded: \"I leave with the peace of mind and pride of having given you, along with my teammates, moments we once only dreamed of. Experiencing this with you was incredible. I love you all.\"\nArgentina won the World Cup in 2022, four years before Messi's retirement announcement, after he led the team to the final in 2014. Messi also won Copa America titles in 2021 and 2024, making the recent World Cup loss his second consecutive major final defeat. Argentina coach Lionel Scaloni said during the recent World Cup: \"He is pure history. History. A legend.\"\nMessi briefly retired from Argentina duty in 2016 after a penalty miss in the Copa America final shootout loss to Chile. Weeks after that announcement, he reversed course, stating: \"I see there are many problems in Argentinian football and I don't intend to create another one. I don't want to cause any damage, I've always tried to do just the opposite, to help all that I can.\" Messi continues to play professionally for Major League Soccer club Inter Miami, where he is the two-time defending Most Valuable Player. According to PBS reporting, over the weekend before his retirement announcement, he scored four times in a 7-1 Inter Miami victory over CF Montreal."
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/sports/soccer/lionel-messi-argentina-soccer-national-team-world-cup-retire-rcna595342"
+    },
+    {
+      "title": "The New York Times",
+      "url": "https://www.nytimes.com/2026/08/31/world/americas/lionel-messi-retirement-soccer-argentina.html"
+    },
+    {
+      "title": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/nation/lionel-messi-says-hes-retiring-from-playing-for-argentina"
+    },
+    {
+      "title": "NPR",
+      "url": "https://www.npr.org/2026/08/31/nx-s1-5950427/lionel-messi-retires-international-soccer"
+    },
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/now/video/lionel-messi-announces-retirement-from-argentina-soccer-team-269107781703"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/lionel-messi-retiring-argentina-national-soccer-team/"
+    }
+  ],
+  "event_utc": "2026-08-31T15:41:14Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-08-31T21:03:39Z",
+    "sources_cited": 6,
+    "sources_live_checked": 3
+  },
+  "also_reported_by": [
+    {
+      "outlet": "The Washington Post",
+      "headline": "Soccer great Lionel Messi announces retirement from Argentina\u2019s national team - The Washington Post"
+    },
+    {
+      "outlet": "NBC News",
+      "headline": "Lionel Messi announces retirement from Argentina national soccer team - NBC News"
+    },
+    {
+      "outlet": "CBS Sports",
+      "headline": "Lionel Messi announces international retirement: Argentina star won 2022 World Cup and was runner up in 2026 - CBS Sports"
+    },
+    {
+      "outlet": "Yahoo Sports",
+      "headline": "Lionel Messi Announces Retirement From Argentina National Team - Yahoo Sports"
+    },
+    {
+      "outlet": "NBC 6 South Florida",
+      "headline": "Lionel Messi announces retirement from Argentina national team - NBC 6 South Florida"
+    },
+    {
+      "outlet": "The Guardian",
+      "headline": "Argentina\u2019s Lionel Messi retires from international football: \u2018This hurts me a lot\u2019 - The Guardian"
+    }
+  ]
+}

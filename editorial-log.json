@@ -1,65 +1,5 @@
 [
  {
-  "date": "2026-07-24",
-  "approved": 6,
-  "rejected": [
-   {
-    "id": "c056",
-    "headline": "US and Iran escalate strikes as June ceasefire collapses",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'Ukraine's air force spokesman said three ballistic missiles were fired at the exhibition, with only one intercepted.' This sentence appears in the fourth paragraph mid-discussion of US strikes on Iran, not in the context of the Ukraine exhibition. It is contextually misplaced and creates confusion about which conflict it refers to. The brief data_points make clear this claim belongs to story c048 (the Kyiv drone exhibition), not c056 (US-Iran escalation). This is a smuggled fact from a different story's brief.",
-     "The draft contains information about Netanyahu meeting Trump, Zelensky meeting Trump, and a Lindsey Graham service that do not appear in the brief's data_points for c056. These are factual claims without sourcing to the provided brief."
-    ]
-   },
-   {
-    "id": "c101",
-    "headline": "Wildfires force tens of thousands from homes in France and Spain",
-    "category": "accuracy",
-    "reasons": [
-     "Title claims 'tens of thousands' forced from homes, but no numerical figure appears in the brief's data_points. The core_claim and angle reference 'tens of thousands' but the only sourced data_points are: (1) Cap Ferret evacuation ordered, (2) fires west of Madrid closing in. No data_point supports a specific evacuation count. The title smuggles a number that is not in the research."
-    ]
-   },
-   {
-    "id": "c099",
-    "headline": "Measles Cases Hit 35-Year High, Surpassing 2025 Total by Mid-2026",
-    "category": "accuracy",
-    "reasons": [
-     "The draft claims 'The number already exceeds the entire 2025 case total' but the brief contains no data point specifying the 2025 total case count. This fact is smuggled\u2014it appears nowhere in the data_points and cannot be verified against the brief.",
-     "The draft states 'Confirmed cases span 43 states' but the brief's core_claim says '43 states now reporting cases'\u2014a material difference between confirmed cases and reporting. The draft uses the brief's language but without precision about what 'reporting' means.",
-     "The draft explicitly acknowledges 'The brief provided does not contain state-by-state case breakdowns, specific vaccination rate declines, demographic data on who is contracting measles, or information on hospitalizations and deaths' within its own body text. This self-aware admission that critical context is missing does not cure the liability problem: the story presents a 35-year high without the context needed to assess severity or causation, and the brief's angle explicitly cites 'declining vaccination rates' as the driver\u2014a claim unsupported by any data_point in the brief itself."
-    ]
-   },
-   {
-    "id": "c189",
-    "headline": "Colt Gray Pleads Guilty to Murder in Georgia School Shooting",
-    "category": "compliance",
-    "reasons": [
-     "The draft includes the sentence: 'Breanna Schermerhorn and two of Mason's sisters asked the judge for a sentence of life without parole.' This is a victim family's advocacy for a particular outcome in an active sentencing proceeding. While victim statements are factually part of the record and properly attributed, framing their request for a specific sentence as a reported fact (rather than as part of their statement) adopts the tone of advocacy. The sentence should either attribute the request explicitly to their statements ('Breanna Schermerhorn and two of Mason's sisters told the judge they sought a sentence of life without parole') or be removed. As written, it reads as the desk endorsing or highlighting a particular sentencing outcome.",
-     "The phrase 'The case of his father's conviction and sentencing, occurring one week after the son's plea, underscores the broader investigation into how warning signs were assessed and acted upon' in the bottom_line contains interpretive judgment ('underscores') that is not supported by fact and reads as the desk's own editorial voice rather than a forward-looking statement of what to watch. The bottom_line should state what will happen next or what evidence would invalidate the reporting, not what the sequence of events 'underscores.'"
-    ]
-   },
-   {
-    "id": "c110",
-    "headline": "India's Government Agrees to Compensate Families in Exam Leak Case as Student Protests Continue",
-    "category": "accuracy",
-    "reasons": [
-     "The draft cites a New York Times article as the sole source, but the brief's open_questions explicitly state 'The source text is empty; no detail on...' This indicates the source material provided zero substantive information beyond the headline. The draft contains multiple claims presented as fact that cannot be traced to actual reporting: 'compensation families affected by a major exam leak', 'demonstrators are pressing for a broader institutional change: the resignation of India's education minister', 'The education minister has not publicly responded to calls for resignation'. These facts do not appear in the brief's data_points and the brief itself flags that no detail was available on the education minister's identity, the exam leak nature/scale, or the protesters' composition. The writer has fabricated details beyond what the research provided.",
-     "The draft presents 'Gen Z student-led protests' and framing as established fact, but the brief's open_questions ask 'No detail on what 'Gen Z cockroach' protests refers to or the origin of that framing', indicating this terminology was not explained or verified in the source material. The draft simplifies 'cockroach janta' to generic 'Gen Z' without the briefing support."
-    ]
-   },
-   {
-    "id": "c077",
-    "headline": "11 People Indicted in Deaths of Six Migrants Found in Texas Rail Container",
-    "category": "accuracy",
-    "reasons": [
-     "The brief's open_questions explicitly flag a contradiction: 'The PBS headline mentions '7 migrants' while The Guardian and the snippet reference 'six people'\u2014which is the accurate victim count?' The draft states 'six migrants' but does not acknowledge or resolve this discrepancy between sources. A factual inconsistency between the two cited sources about the core number of victims (6 vs. 7) must be addressed in the draft or the story is presenting unverified information as settled.",
-     "The draft claims 'six migrants, from Honduras and Mexico, including a 14-year-old boy, were discovered in a shipping container at a rail yard near the US-Mexico border' but the brief's data_point says 'Six migrants from Honduras and Mexico, including a 14-year-old boy, were found dead in a rail cargo container in Texas in May.' The PBS source URL in the draft's sources list says '7-migrants' in the headline, creating an internal contradiction. The writer has selected the Guardian's count (6) without flagging the PBS discrepancy, violating the rule that facts must trace cleanly to the brief, and the brief itself contains an unresolved source conflict."
-    ]
-   }
-  ]
- },
- {
   "date": "2026-07-25",
   "approved": 4,
   "rejected": [
@@ -9825,6 +9765,54 @@
     "reasons": [
      "The draft reports 'a second death has been confirmed' and '15+ people remain missing' but provides only a single New York Times URL as source. The draft does not quote or attribute these specific figures to the Times article; it presents them as established facts. Without access to verify the Times article itself contains these figures, and with no research brief to confirm them, these key factual claims cannot be verified. A story built on casualty and missing-person counts must have those numbers confirmed against the source.",
      "The draft cites 'approximately 62 people were evacuated' with attribution to 'earlier reporting' but provides no source URL for that claim. This is a factual assertion with no traceable source in the draft's materials."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-08-31",
+  "approved": 7,
+  "rejected": [
+   {
+    "id": "c059",
+    "headline": "Teen charged with murder for livestreaming San Diego mosque shooting and publishing attackers' manifesto",
+    "category": "compliance",
+    "reasons": [
+     "The draft refers to the defendant as 'she' and 'her' throughout, but the brief never specifies the defendant's gender. The brief uses only neutral pronouns and descriptors like 'the defendant' and 'a 17-year-old.' Introducing gender identity about a named minor involved in a sensitive criminal case without explicit confirmation in the sourced brief introduces personal material beyond what the record carries and story requires, violating the desk's compliance standard for named minors."
+    ]
+   },
+   {
+    "id": "c044",
+    "headline": "US strikes Iranian launchers; Iran retaliates with ballistic missiles at Jordan and UAE bases",
+    "category": "accuracy",
+    "reasons": [
+     "No research brief was provided for this story. The hard rule is that no fact exists outside the brief. The draft contains multiple factual claims that cannot be verified against a research brief: the location of Larak Island 'in the Strait of Hormuz,' the strike date of August 30, casualty figures ('killed two people and injured two others'), the targeting of 'launcher systems,' and Iran's retaliatory strikes on 'U.S. military bases in Jordan and the United Arab Emirates.' Without a brief data_point structure to trace these facts to, the story cannot be approved under the desk's standard that every fact must derive from the research record."
+    ]
+   },
+   {
+    "id": "c033",
+    "headline": "Metropolitan Museum cancels planned 2027 John Galliano exhibition after public backlash",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states Galliano had a '2011 conviction for making antisemitic remarks,' but no research brief exists for this story. The instruction states 'every draft fact must then trace to the draft's own cited sources or be rejected.' The offending claim about a 2011 conviction is not verifiable against the cited sources from the draft itself without access to those URLs. This is a specific criminal allegation about a named person that requires verification; the phrasing 'conviction' is a legal verdict that must trace to an on-record source. Without a brief to anchor this claim and without ability to verify it independently in the source list provided, this fact is smuggled.",
+     "The draft claims 'No statement from the Met regarding the specific reasons for the cancellation or institutional deliberation was available in the accessible reporting.' This violates the rule against narrating absence: the writer is forbidden from stating what was not reported, as this reads as an inference about what exists but was hidden, rather than a fact from the sources. This sentence should be cut entirely."
+    ]
+   },
+   {
+    "id": "c047",
+    "headline": "Kalshi permanently bans George Santos after alleged insider trading on State of the Union bets",
+    "category": "accuracy",
+    "reasons": [
+     "The draft contains the phrase 'Santos likely engaged in insider trading' and 'Kalshi concluded that Santos likely engaged in insider trading,' presenting as alleged fact a regulatory conclusion that appears in the sourced reporting. However, the critical issue is the phrasing: 'likely engaged' is a confidence qualification that should be attributed precisely as Kalshi framed it in their official determination. Without a research brief to verify how the sources characterize this allegation (as Kalshi's finding, as alleged, as concluded-but-not-proven), the draft risks misrepresenting the regulatory status. The word 'likely' appears to soften what may have been a definitive Kalshi determination or, conversely, may flatten a more cautious finding. This is a criminal allegation (insider trading) against a named person on a secondary regulatory source (Kalshi's platform action) without on-record primary sourcing (e.g., Kalshi's official statement or SEC determination), which requires either a brief or direct quote attribution in the prose itself.",
+     "The draft states 'The platform's investigation identified the pattern of bets placed in connection with Santos's undisclosed knowledge about his actual attendance plans, coupled with public statements that contradicted his betting positions.' This is a detailed account of Kalshi's investigative findings presented as fact without direct quotation or explicit attribution to Kalshi's official statement. Without a brief to anchor these specifics, the draft has smuggled investigative conclusions into its own narration rather than attributing them clearly to the source's reporting of Kalshi's position."
+    ]
+   },
+   {
+    "id": "c232",
+    "headline": "National Hurricane Center Tracks Tropical Depression Five in Northern Gulf; Severe Weather Threatens Southwest on August 31",
+    "category": "compliance",
+    "reasons": [
+     "Draft marked boundary_required=true but carries no boundary block explaining the scope or date range of the weather events being tracked. The story spans multiple weather systems with overlapping timing (Tropical Depression Five, Dolly remnants, EP95, Utah flash flood warning, Idaho red flag warning for September 1). Without a boundary note clarifying what the story covers and what it does not (e.g., whether future tropical warnings are included, whether the flash flood warning expired during the writing window), readers cannot assess the currency or completeness of the advisory information. This is a compliance failure on the desk's stated structure requirement."
     ]
    }
   ]
