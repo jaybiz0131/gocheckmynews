@@ -1,68 +1,6 @@
 [
  {
   "date": "2026-07-25",
-  "approved": 6,
-  "rejected": [
-   {
-    "id": "c129",
-    "headline": "India's Gen Z Student Protesters Force Education Minister's Resignation",
-    "category": "accuracy",
-    "reasons": [
-     "The brief explicitly states 'The source text is empty; no details are available' and has zero source_chars. The draft contains multiple specific factual claims (resignation, exam paper leaks, protest scale, social media organizing, government concessions) that cannot be traced to any data_points in the brief. The writer has fabricated a complete narrative from a sourceless brief.",
-     "The core_claim itself is unverified ('secured the resignation' and 'government concessions') with open_questions explicitly stating these details are unavailable. The draft presents these as accomplished facts rather than alleged or announced-not-verified.",
-     "The draft's framing ('concrete victory', 'force high-level government personnel changes') reads as interpretation and advocacy on an unverified premise."
-    ]
-   },
-   {
-    "id": "c085",
-    "headline": "Major Wildfires Force Hundreds of Thousands to Evacuate in Spain and France",
-    "category": "accuracy",
-    "reasons": [
-     "The brief has zero source_chars and lists only one data_point ('Hundreds of thousands of people...were forced to evacuate or told to remain indoors') with 'reported' confidence. The draft contains multiple unsourced specific claims: 'major wildfires spread across southern France and Spain,' 'fires produced hazardous smoke,' 'evacuation orders forced families, tourists, and seasonal workers to leave homes, hotels, and vacation sites,' and 'peak summer season.' These details appear nowhere in the brief's single data_point and violate the hard rule that facts must trace to the brief.",
-     "The brief's open_questions explicitly flag that 'Number and scale of individual wildfires not specified,' 'Timeline for evacuation orders or expected duration of sheltering not provided,' and 'Current status of fires or containment efforts not detailed in source.' The draft treats these unknowns as established facts rather than gaps."
-    ]
-   },
-   {
-    "id": "c083",
-    "headline": "Iran Ceasefire Deal Collapses Into Military Escalation",
-    "category": "accuracy",
-    "reasons": [
-     "The draft's second paragraph states Trump 'threatened a \"massive\" escalation' with attribution to 'the Times reporting', but the brief's data_point specifies the confidence level is 'reported'\u2014meaning it comes from the Times article. The draft presents this as a fact without any hedging language appropriate to a single-source claim about a threat/statement that could be verified independently. The attribution is present but the confidence framing is weak.",
-     "The opening sentence claims the agreement 'rapidly deteriorated into 13 consecutive days of tit-for-tat military strikes' as though this is a settled fact, but the brief marks this as 'reported' confidence\u2014meaning it is dependent on a single article and readers cannot verify the count independently. The draft should signal this is NYT's reporting of the escalation, not an independently confirmed count.",
-     "The draft's third paragraph is problematic: it begins 'The brief does not detail...' This is a red flag. The writer is editorializing about the brief's limitations rather than working within them. This paragraph reads as the writer flagging gaps rather than reporting what is known. This violates the hard rule that 'no fact exists outside the brief'\u2014the writer should not be calling attention to what the brief lacks; they should write what it contains."
-    ]
-   },
-   {
-    "id": "c015",
-    "headline": "Maine Democrats Nominate Troy Jackson to Challenge Susan Collins",
-    "category": "accuracy",
-    "reasons": [
-     "The draft includes a direct quote from Jackson: 'This campaign is powered by people who are sick of watching billionaires and corporations buy influence while working families get screwed. Together, we're building the grassroots movement it will take to defeat Susan Collins and give Maine a senator who answers to working people.' The brief's data_point lists this statement but provides no source URL or confirmation that it is a direct, verified quote from Jackson. A fabricated or misquoted statement in the draft is an accuracy failure. The quote must be verifiable in the NPR source or not included.",
-     "The draft repeats the fundraising comparison twice (paragraph 3: 'Jackson's campaign reported raising more than $1 million since he announced his run' and final paragraph: 'Jackson has reported $1 million in total haul since beginning his campaign, while Collins holds an $11 million cash advantage'). This is not a factual error but it signals sloppy construction. More critically, the final paragraph uses 'with just over 100 days until the election' without a source date. If voting ends November 3, the reader cannot verify '100 days' without knowing the article date. This is an unattributed time-dependent claim.",
-     "The draft states 'he has faced minimal public pushback from Maine state leaders, per NPR' but the brief's bear_case includes 'Whether Jackson can command the same level of enthusiasm that Platner garnered over the past year remains an open question, even to some Mainers who plan to cast their ballot for him.' This is a contradiction: the draft implies Jackson has faced little criticism, but the brief flags that his enthusiasm level versus Platner's is an open question. The draft should acknowledge that his durability as a candidate is unproven, not that he has faced minimal pushback."
-    ]
-   },
-   {
-    "id": "c080",
-    "headline": "Investigation: Trump's Push for Faster Air Force One Delivery Led to Cost Overruns and Safety Cuts",
-    "category": "accuracy",
-    "reasons": [
-     "The brief contains zero data_points. The core_claim states the investigation 'found that President Trump's push...resulted in cost overruns and trade-offs in safety features,' but there are no supporting facts, numbers, or details in the data_points array. The draft repeats the core_claim almost verbatim ('A New York Times investigation found that President Trump's push...resulted in cost overruns and trade-offs in safety features') but has no concrete facts to back it. The second paragraph of the draft admits this: 'The investigation does not specify which safety features were traded off, the extent of the cost overruns, the original delivery timeline versus Trump's accelerated target, or the sources behind the findings.' This is the writer again editorializing about gaps in the brief rather than reporting what is known. The draft should either contain verifiable details from the brief or be rejected for insufficient sourcing.",
-     "The draft's second sentence states 'The investigation does not specify...' This is a critical error: the writer is telling readers what the NYT investigation didn't report, rather than reporting what it did. This reads as the draft admitting the story is too thin to publish. If the brief has no data_points, the draft cannot credibly claim to cover a 'New York Times investigation' without specifics\u2014it is reporting on the existence of an investigation, not the investigation's findings."
-    ]
-   },
-   {
-    "id": "c097",
-    "headline": "Former FDA official accuses Trump administration of mishandling cyclospora outbreak",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states Yiannas 'accused the Trump administration of near-catastrophic mismanagement' in the opening paragraph, but the brief's data_point says he 'accused the Trump administration of near-catastrophic mismanagement of a cyclospora outbreak'\u2014the draft's language omits 'of a cyclospora outbreak,' creating ambiguity about what mismanagement he accused them of. More critically, the second paragraph then says 'Yiannas's specific criticisms of the federal response remain undetailed in available reporting,' which contradicts the confident accusation in the lead. The lead presents the accusation as established fact while the body immediately acknowledges the specifics are unknown\u2014this is a structural accuracy problem that smuggles uncertainty into the headline claim."
-    ]
-   }
-  ]
- },
- {
-  "date": "2026-07-25",
   "approved": 4,
   "rejected": [
    {
@@ -9699,6 +9637,37 @@
     "category": "accuracy",
     "reasons": [
      "The draft states 'Trump demolished the historic East Wing of the executive residence in autumn 2025' as a past event. Today is September 1, 2026, so this is a historical fact that traces to the brief. However, the draft reports this Supreme Court ruling as having occurred on 'August 31' (stated in opening: 'The Supreme Court ruled 5-4 on August 31'), which was yesterday relative to today September 1, 2026. The brief's data point timestamp is '2026-08-31T22:38:24Z', confirming the ruling occurred on August 31, 2026. This is accurate and within the rule allowing past events. The critical accuracy issue is different: the draft contains a claim about 'an alleged assassination attempt at the White House Correspondents' Association dinner in April 2026' that is presented in Trump's own words/reasoning but the brief lists this as a single data point from BBC without independent confirmation of the assassination attempt itself. The source material reports Trump's stated justification, but the phrasing 'alleged assassination attempt' in the draft reads as the desk's characterization rather than clearly attributed to Trump's claim. This is a named-person reputational claim (the attempt itself) sourced to a single secondary outlet (BBC), which requires either attribution clarity or an additional source per the compliance rule."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-09-01",
+  "approved": 5,
+  "rejected": [
+   {
+    "id": "c000",
+    "headline": "Justice Department monitors Massachusetts primary election on September 1",
+    "category": "accuracy",
+    "reasons": [
+     "The draft reports the Massachusetts primary election as having already occurred ('The U.S. Department of Justice's Civil Rights Division deployed monitors to polling sites across Massachusetts on September 1'), but the brief timestamp shows 2026-09-01T12:00:00Z for the DOJ data and the election was scheduled for that date. Today is 2026-09-01. The draft uses past tense throughout ('deployed', 'Polls opened', 'closed') as though the election is complete. The brief's data points use future/present language ('is monitoring', 'will be available'), indicating the monitoring was announced in advance of election day. The draft should report this as an ongoing or imminent event, not as concluded. The final paragraph stating 'Polls opened at 7 a.m. ET and closed at 8 p.m. ET' is written as accomplished fact when the election may still be in progress or has only just concluded on the current date."
+    ]
+   },
+   {
+    "id": "c100",
+    "headline": "John Ternus Becomes Apple CEO, Replacing Tim Cook",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'John Ternus became Apple's chief executive on September 1, 2026' as a past event, but today is September 1, 2026. The instructions specify that a draft reporting an event dated after today as having already happened is an accuracy REJECT. The brief's data_point confirms the event occurred 'on Tuesday' with timestamp 2026-09-01, but the brief itself is marked 'thin: true' with only 2 data_points and 223 source characters. The event has occurred today, but the phrasing in past tense when reporting same-day events requires careful handling: the draft should frame this as occurring today or 'on Tuesday' without the completed narrative tone. The draft reads as though reporting a settled historical fact rather than a same-day event."
+    ]
+   },
+   {
+    "id": "c366",
+    "headline": "Hurricane Watch issued for Louisiana and Texas coasts as Tropical Storm Edouard approaches, September 1",
+    "category": "accuracy",
+    "reasons": [
+     "The bottom_line states 'The restraining order and warning alerts establish September 4 (Wednesday morning) as the endpoint for the most severe impacts' \u2014 but this story is about weather alerts and tropical storm warnings, not a legal restraining order. There is no restraining order mentioned anywhere in the draft or brief. This sentence appears to be text copied from story c077 and mistakenly included here.",
+     "The draft reports the alerts as being issued 'at 6:53 AM CDT on September 1' which matches the brief's timestamp. However, the draft then writes about impacts 'through Wednesday morning' which is accurate to the brief data (window of concern through Wednesday morning). The 'restraining order' reference is entirely out of place and creates false information."
     ]
    }
   ]

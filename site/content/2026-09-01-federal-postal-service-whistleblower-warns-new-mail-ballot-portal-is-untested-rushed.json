@@ -1,0 +1,36 @@
+{
+  "id": "c077",
+  "slug": "federal-postal-service-whistleblower-warns-new-mail-ballot-portal-is-untested-rushed",
+  "kind": "brief",
+  "title": "Federal Postal Service whistleblower warns new mail ballot portal is untested, rushed",
+  "dek": "A federal USPS whistleblower disclosed to Senator Richard Blumenthal that the agency's new mail-voting portal, built to implement President Trump's executive order restricting mail ballots, was rushed and untested, with a verification system that could delay or block ballot delivery. A federal judge has issued a temporary restraining order blocking implementation while the case continues.",
+  "date": "2026-09-01",
+  "published_utc": "2026-09-01T15:33:37Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 10,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The whistleblower alleged the Postal Service built a complex mail ballot portal in three months that would normally take a year or more, with a verification process requiring zero scanning failures across hundreds of ballots per batch, risking thousands of ballot delays.",
+  "bottom_line": "Judge Talwani's 14-day restraining order expires by Wednesday, September 4. The Justice Department's appeal and the Supreme Court's earlier signal suggest the rule could move toward implementation despite the court's concerns. Whether the Postal Service can operationally launch the portal without the mass ballot delays the whistleblower warned of will determine whether millions of mail voters face delivery failures in the midterm election cycle.",
+  "human_take": "",
+  "body": [
+    "A federal Postal Service official disclosed to Democratic Senator Richard Blumenthal on September 1 that the agency's newly built mail-voting portal faces significant operational risks, according to lawyers with Whistleblower Aid representing the official. The whistleblower alleged the system is untested and will have substantial operating problems when released, given its rushed development timeline.\nThe order directed the Postal Service to build a Federal Ballot Mail Portal through which state election officials must submit voter names, addresses, and unique barcodes printed on mail ballot envelopes. According to the whistleblower's account reported by CBS News and PBS NewsHour, the portal underwent development starting June 15, was halted on June 25 after a court order from U.S. District Judge Indira Talwani, then restarted on July 29.\nThe core concern involves the Postal Service's verification standard. According to CBS News reporting on the whistleblower's statement, mail workers will scan a sample of approximately 400 ballots out of 10,000 or more per batch. If even a single barcode fails to scan or information does not match the portal database, the entire batch is rejected and returned to state election officials. Whistleblower Aid stated this zero-percent failure rate policy is \"entirely unforgiving\" and \"could delay ballots by the thousands in repeated verification cycles, and thus prevent states from mailing enormous numbers of ballots,\" per the PBS account.\nWhistleblower Aid summarized the allegation this way, according to PBS: \"The apparently sloppy and rushed manner in which the Federal Ballot Mail Portal and supporting IT systems are being built poses significant risk. Potentially millions of American voters may not receive their mail-in ballot this election cycle in a timely manner, or at all.\" The statement contended that the Postal Service attempted to build a system in three months that would normally require a year or more, sometimes in defiance of the judge's orders halting work.\nOn August 21, the Postal Service released its final rule outlining implementation. Judge Talwani issued a 14-day restraining order against implementation on Thursday night, August 29. On August 30, the judge found the Postal Service had violated her earlier order by continuing work on the final rule but imposed no sanctions. On Monday, August 31, Talwani issued a ruling refusing to lift the restraining order while allowing the Postal Service to continue developing the portal, provided it did not force states to use it. The Justice Department has appealed the decision, according to CBS News reporting. The Supreme Court's conservative majority last week found the preliminary injunction blocking implementation was premature and overruled the lower court judge, momentarily clearing the way for the portal's implementation, per PBS.\nSenator Blumenthal, in a letter to Postmaster General David Steiner dated Monday, wrote that the agency's implementation has been \"perilously rushed and potentially unlawful.\" He characterized the Postal Service's actions as \"sabotage\" and stated that the whistleblower's allegations show that \"USPS lacks the technical or operational capability needed to effectively implement the EO's provisions in a way that safeguards every citizen's right to vote in the upcoming midterm elections,\" according to CBS News.\nDavid Becker, executive director and founder of the Center for Election Innovation and Research, warned according to CBS News that the new rules \"would undoubtedly create a tremendous number of hoops that are completely unnecessary and do nothing for election integrity.\" Election officials have already warned that the new system could not be implemented before the first mail ballots begin going out Friday in North Carolina, per PBS.\nThe Trump administration has framed the executive order as a commonsense measure to combat fraud. Trump claimed when signing the order in March that \"the cheating on mail-in voting is legendary.\" However, according to CBS News, Trump's administration has not put forth evidence of widespread voter fraud, and Trump himself has cast ballots in Florida elections by mail. A Brookings Institution report published in 2025 found that mail voting fraud occurred in only about four cases out of every 10 million mail ballots cast, per PBS reporting. According to CBS News, more than 29 percent of all voters in 2024 cast their ballots through the mail."
+  ],
+  "sources": [
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/whistleblower-postal-service-new-mail-ballot-system/"
+    },
+    {
+      "title": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/politics/whistleblower-postal-services-work-to-comply-with-trump-order-is-rushed-and-sloppy"
+    }
+  ],
+  "event_utc": "2026-09-01T14:19:57Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-01T15:33:37Z",
+    "sources_cited": 2,
+    "sources_live_checked": 2
+  }
+}
