@@ -1,0 +1,83 @@
+{
+  "id": "c085",
+  "slug": "tropical-storm-edouard-poses-threat-to-louisiana-and-texas-coasts-tropical-storm-warnings-in-effect",
+  "kind": "brief",
+  "title": "Tropical Storm Edouard poses threat to Louisiana and Texas coasts; tropical storm warnings in effect",
+  "dek": "Tropical Storm Edouard, carrying maximum sustained winds of 45 knots, was centered near 29.4N 93.3W as of September 1, 1500 UTC, according to the National Hurricane Center. Tropical storm warnings were in effect for parts of Louisiana and Texas, with 3 to 9 inches of rain expected.",
+  "date": "2026-09-01",
+  "published_utc": "2026-09-01T18:35:27Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 10,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The National Hurricane Center forecast Edouard to move inland over southeastern Texas on Tuesday night and rapidly weaken, with maximum sustained winds expected to drop to 25 knots by September 2 at 1200 UTC.",
+  "bottom_line": "The storm's rapid inland movement and forecast dissipation by September 3 suggest a short window of impact; the precise rainfall distribution and any localized flooding will depend on the track as Edouard makes landfall on September 2.",
+  "human_take": "",
+  "body": [
+    "The National Hurricane Center issued Forecast Advisory Number 5 for Tropical Storm Edouard on September 1. As of 1500 UTC (September 1), the storm's center was located near 29.4N 93.3W with maximum sustained winds of 45 knots and gusts to 55 knots, according to the National Hurricane Center. The position was accurate within 20 nautical miles, and the estimated minimum central pressure was 1000 MB.",
+    "Edouard was moving toward the northwest at 7 knots. Tropical storm warnings were in effect from Texas' Port Bolivar to Louisiana's Vermilion/Cameron Parish Line, according to CBS News. Per CBS News reporting, Edouard had maximum sustained winds near 50 mph with higher gusts.",
+    "Rainfall posed a significant threat. According to CBS News, 3 to 6 inches of rain was expected along the Texas coast and inland, with some areas possibly receiving up to 9 inches. Heavy rain could produce flash flooding, especially in low-lying and urban areas, CBS News reported. A hurricane watch that had been issued earlier was discontinued on Tuesday, as was a storm surge watch for parts of Texas and southwest Louisiana, though the National Hurricane Center warned that coastlines could still see rising water levels and possible flooding.",
+    "The National Hurricane Center forecast the storm to move inland over southeastern Texas on Tuesday night and rapidly weaken, according to CBS News. The storm was moving at about 8 mph on a northwest path on Tuesday afternoon. By forecast valid time September 2 at 0000 UTC, the National Hurricane Center projected the center near 30.2N 94.2W inland with maximum winds of 40 knots and gusts to 50 knots. By September 2 at 1200 UTC, the center was forecast near 31.2N 95.2W in a post-tropical or inland state with maximum winds of 25 knots and gusts to 35 knots. The National Hurricane Center forecast dissipation by September 3 at 0000 UTC.",
+    "Per CBS News, Edouard is the fifth tropical storm of the 2026 Atlantic hurricane season."
+  ],
+  "sources": [
+    {
+      "title": "nhc.noaa.gov",
+      "url": "https://www.nhc.noaa.gov/text/refresh/MIATCMAT5+shtml/011444.shtml"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/tropical-storm-warning-louisiana-texas-gulf-coast/"
+    },
+    {
+      "title": "nhc.noaa.gov",
+      "url": "https://www.nhc.noaa.gov/text/refresh/MIAPWSAT5+shtml/011445.shtml"
+    },
+    {
+      "title": "nhc.noaa.gov",
+      "url": "https://www.nhc.noaa.gov/text/refresh/MIATCDAT5+shtml/011446.shtml"
+    },
+    {
+      "title": "nhc.noaa.gov",
+      "url": "https://www.nhc.noaa.gov/text/refresh/MIATCUAT5+shtml/011657.shtml"
+    },
+    {
+      "title": "nhc.noaa.gov",
+      "url": "https://www.nhc.noaa.gov/text/refresh/MIATCPAT5+shtml/011748.shtml"
+    }
+  ],
+  "event_utc": "2026-09-01T14:44:53Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-01T18:35:27Z",
+    "sources_cited": 6,
+    "sources_live_checked": 3
+  },
+  "update_of": "hurricane-watch-issued-september-1-for-louisiana-and-texas-coasts",
+  "also_reported_by": [
+    {
+      "outlet": "FOX Weather",
+      "headline": "Tropical Storm Edouard is making landfall, slamming Texas and Louisiana with heavy rain and flash flooding - FOX Weather"
+    },
+    {
+      "outlet": "The Guardian",
+      "headline": "Tropical Storm Edouard strengthens as it bears down on Texas and Louisiana - The Guardian"
+    },
+    {
+      "outlet": "Naples Daily News",
+      "headline": "Tropical Storm Edouard news in 60 seconds, landfall expected later today - Naples Daily News"
+    },
+    {
+      "outlet": "EL PA\u00cdS English",
+      "headline": "Tropical Storm Edouard is moving toward Texas and Louisiana, bringing a risk of heavy rain and flooding - EL PA\u00cdS English"
+    },
+    {
+      "outlet": "KHGI",
+      "headline": "Tropical Storm Edouard heads toward Texas-Louisiana coast - KHGI"
+    },
+    {
+      "outlet": "NBC Bay Area",
+      "headline": "Tropical Storm Edouard forms near Texas and Louisiana - NBC Bay Area"
+    }
+  ]
+}

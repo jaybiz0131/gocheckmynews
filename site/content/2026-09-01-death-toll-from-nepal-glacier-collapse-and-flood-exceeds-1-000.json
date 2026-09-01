@@ -1,0 +1,70 @@
+{
+  "id": "c078",
+  "slug": "death-toll-from-nepal-glacier-collapse-and-flood-exceeds-1-000",
+  "kind": "brief",
+  "title": "Death toll from Nepal glacier collapse and flood exceeds 1,000",
+  "dek": "At least 1,003 people have died in Nepal from a glacial collapse and resulting floods on August 26, with 3,916 still missing, including 583 foreign nationals, according to Nepal's disaster agency. Rescue operations face severe obstacles from destroyed roads and landslides, with roughly 500 workers believed trapped in hydropower tunnels.",
+  "date": "2026-09-01",
+  "published_utc": "2026-09-01T18:35:27Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 2,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Nepal's disaster agency confirmed 1,003 deaths on the Nepal side of the August 26 disaster, with 3,916 missing; China reported 16 deaths and 546 missing.",
+  "bottom_line": "Death toll in Nepal-Tibet border disaster crosses 1,000 with thousands still missing; major humanitarian catastrophe with ongoing rescue operations.",
+  "human_take": "",
+  "body": [
+    "The death toll from a glacial collapse and resulting floods on the Nepal-Tibet border on August 26 has exceeded 1,000, with thousands still missing and rescue operations facing severe logistical barriers in mountainous terrain.",
+    "Nepal's disaster agency reported 1,003 deaths counted on the Nepal side, with 3,916 people missing, including 583 foreign nationals. China's authorities reported 16 deaths and 546 missing, including 261 foreigners, according to PBS NewsHour. At least 11,814 people have been rescued so far, per Nepalese authorities.",
+    "The disaster began when a glacial collapse sent large amounts of rock, ice and meltwater into valleys below, triggering powerful floods downstream, according to PBS reporting. Scientists studying satellite imagery said the collapse appears to have involved the failure of bedrock beneath a glacier in the Himalayan region. The rockfall was powerful enough to register as a magnitude 5.2 seismic event. Floodwaters swept away homes, buildings, roads and bridges and carried mud and rocks downstream.",
+    "Rescue operations are constrained by the disaster's reach. Landslides, destroyed roads and widespread damage are cutting off remote areas and hampering rescue efforts. About 900 workers are missing from 12 hydropower projects, with roughly 500 believed to be trapped in tunnels, according to local authorities. Brig. Gen. Raja Ram Basnet, Nepal's army spokesperson, said teams assisted by foreign experts were working at several hydropower projects. Emergency crews used helicopters and other aircraft to reach stranded communities in areas where roads and bridges have been destroyed.",
+    "On the Chinese side, rescue crews scoured areas hit by mudslides, particularly around the Gyirong Port border crossing, which was destroyed. Police in Kathmandu worked in heavy rain on September 1 to bury dozens of bodies in multiple trenches next to a forested area. Authorities in Nepal are preserving DNA samples, photographing distinguishing facial features and recording other identifying details for bodies. Each body is assigned a reference number to help families identify and claim the remains later.",
+    "International assistance is underway. China's Foreign Ministry spokesperson Guo Jiakun said a second batch of relief supplies was being sent to Nepal, including drones, DNA testing and water purification equipment. Chinese DNA testing experts will help Nepal identify bodies, according to China's Foreign Ministry. Nepal's Prime Minister Balendra Shah said the disaster highlighted the need for action to combat climate change, stating: \"This incident has indicated that the risks we face in the Himalayan region are increasing with climate change.\"",
+    "Helicopter pilot Bimal Sharma, conducting rescue and relief missions, described the devastation in Timure, a border town close to Tibet: \"It felt like I was flying over an entirely different landscape.\"",
+    "The Bottom Line: Rescue teams working to extract roughly 500 trapped hydropower workers will be the immediate test of whether the death toll can be stabilized or whether it continues to climb as remote areas are reached. The number of missing who are found alive versus deceased will determine the final human cost of the disaster."
+  ],
+  "sources": [
+    {
+      "title": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/world/nepals-death-toll-from-glacier-collapse-and-flood-exceeds-1000"
+    },
+    {
+      "title": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQYzM2eXZHNlAtNllHNlpsYldnQ2xtdjhiTkxaUW92cExCWmhnWll5eUl1aVVBN2tnUGw4eG9VbmFENmhoUmZRM0lRZ043VHZiM3liSkFhY1RzVEx2am1hX1lsQi1vajliSDhUV05NN1FNMzVFZnN2OUhFdjNPMHo0UzNXSkwtTnVUZ2lGSzhhWDdyNUh6cWFlUTZiMy1Ia3ZHN0pseDhVRjBpY0ZBWTBmS2czUjJ6X0ZZVkZLaHpXQl9uLVpvRW40cA?oc=5"
+    }
+  ],
+  "event_utc": "2026-09-01T17:40:53Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-01T18:35:27Z",
+    "sources_cited": 2,
+    "sources_live_checked": 3
+  },
+  "update_of": "death-toll-from-nepal-tibet-border-floods-exceeds-1-000-thousands-still-missing",
+  "also_reported_by": [
+    {
+      "outlet": "ABC7 Bay Area",
+      "headline": "Death toll tops 1,000 after Nepal flooding, as search continues for thousands - ABC7 Bay Area"
+    },
+    {
+      "outlet": "Al Jazeera",
+      "headline": "Death toll from devastating floods in Nepal and China surpasses 1,000 - Al Jazeera"
+    },
+    {
+      "outlet": "WBMA",
+      "headline": "Death toll tops 1,000 in Nepal floods as 80 Americans remain missing - WBMA"
+    },
+    {
+      "outlet": "KOMO",
+      "headline": "Death toll tops 1,000 in Nepal floods as 80 Americans remain missing - KOMO"
+    },
+    {
+      "outlet": "The Jerusalem Post",
+      "headline": "Death toll in Nepal flood tops 1,000 as Nepal rescuers reach remote areas in search - The Jerusalem Post"
+    },
+    {
+      "outlet": "WPLG Local 10",
+      "headline": "Death toll rises to over 1,000 after Nepal floods - WPLG Local 10"
+    }
+  ]
+}

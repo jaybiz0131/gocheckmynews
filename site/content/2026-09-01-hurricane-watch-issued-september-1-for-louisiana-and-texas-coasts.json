@@ -81,5 +81,6 @@
     "fixed": "Not specified in the source texts.",
     "user_action": "Move to safe shelter before the wind becomes hazardous. Remain sheltered in a safe location. Do not venture outside. Do not return to evacuated areas until flood waters completely recede and the all-clear is given by local officials.",
     "advisory_url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b9d2f334b4e17cdb489664abf31fdcbf3f04ccbc.001.1.cap"
-  }
+  },
+  "superseded_by": "tropical-storm-edouard-poses-threat-to-louisiana-and-texas-coasts-tropical-storm-warnings-in-effect"
 }
