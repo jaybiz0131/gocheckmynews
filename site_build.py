@@ -974,7 +974,7 @@ def share_row(url, title):
 </script>"""
 
 
-def render_article(item, all_items=None):
+def render_article(item, all_items=None, hubs=None):
     dateline = fmt_date(item.get("date"))
     badge = verdict_badge(item.get("verdict"), item)
     tag = f'<span class="tag">{esc(item.get("category","news"))}</span>' if item.get("category") else ""
@@ -1068,6 +1068,18 @@ def render_article(item, all_items=None):
                      f'<span class="mut"> &middot; {fmt_when(rel)}</span></li>')
     if rel_html:
         rel_html = f'<div class="related"><h2>Related stories</h2><ul>{rel_html}</ul></div>'
+    # Full coverage pointers: the storyline hubs this article is a chapter of,
+    # matched by the same tracking machinery the hubs are built from. Capped at
+    # two so the module stays a pointer, never a second tag row.
+    cov_html = ""
+    if hubs and not item.get("example") and not item.get("superseded_by") \
+            and not _is_wrap(item):
+        mine = [h for h in hubs if tracking_match(item, h["rx"])][:2]
+        if mine:
+            cov_html = ('<div class="tracking"><span class="lab">Full coverage</span>'
+                        + "".join(f'<a class="chip" href="/coverage/{esc(h["slug"])}.html">'
+                                  f'{esc(h["name"])}</a>' for h in mine)
+                        + '</div>')
     # NO PER-STORY CHECK TRAIL. This used to render a "How this story was checked" block on
     # every article, naming the desk's automated verifier, its independent approver, and how
     # many cited pages were fetched live. That is the process, published once per story, and
@@ -1105,6 +1117,7 @@ def render_article(item, all_items=None):
     {trail}
     {tool_html}
     {src_html}
+    {cov_html}
     {rel_html}
     <p class="nfa">{esc(NFA)}</p>
   </article>
@@ -1413,7 +1426,7 @@ def home_schema():
             + json.dumps({"@context": "https://schema.org", "@graph": [org, site]},
                          ensure_ascii=False) + "</script>")
 
-def render_home(items, dateline):
+def render_home(items, dateline, hubs=None):
     """The GoCheckMyNews front door, built for the RETURNING reader: today's headlines,
     the editions, and the storylines the desk is tracking. The brand pitch lives below the
     information, not above it."""
@@ -1533,9 +1546,18 @@ def render_home(items, dateline):
     except Exception:
         watch = []
     _tracking_match = tracking_match
+    _hub_for = {h["name"]: h["slug"] for h in (hubs or [])}
     for n in watch:
         kws = n.get("keywords") or []
         if not kws:
+            continue
+        # A storyline with a coverage hub sends its chip there instead of at the
+        # newest chapter: the hub leads with that chapter anyway, and the evergreen
+        # URL is the one worth teaching readers and crawlers alike.
+        _hslug = _hub_for.get((n.get("name") or "").strip())
+        if _hslug:
+            chips.append(f'<a class="chip" href="/coverage/{esc(_hslug)}.html">'
+                         f'{esc(n.get("name", ""))}</a>')
             continue
         rx = re.compile(r"\b(?:" + "|".join(re.escape(k) for k in kws) + r")\b", re.I)
         cands = [i for i in live if not i.get("superseded_by") and _tracking_match(i, rx)]
@@ -1579,8 +1601,17 @@ def render_home(items, dateline):
     return shell(f"{FAMILY} - The news, checked.", FAMILY_DESC, "Home", body, dateline, path="/", schema_extra=home_schema())
 
 
-def render_archive(items, dateline):
+def render_archive(items, dateline, hubs=None):
     live = [i for i in items if not i.get("example") and not i.get("superseded_by")]
+    # Full coverage up top: the storyline hubs are where a researcher should start,
+    # one evergreen page per narrative, before the day-by-day listing.
+    cov = ""
+    if hubs:
+        _chips = "".join(f'<a class="chip" href="/coverage/{esc(h["slug"])}.html">'
+                         f'{esc(h["name"])}</a>' for h in hubs)
+        cov = (f'<div class="sec-head"><h2>Full coverage</h2><span class="bar"></span></div>'
+               f'<div class="tracking" style="margin:0 0 18px">{_chips}'
+               f'<span class="mut">one hub per storyline the desk keeps filing on</span></div>')
     if live:
         # group by day, newest first (items are already sorted): a researcher scans by date
         days = []
@@ -1597,11 +1628,71 @@ def render_archive(items, dateline):
         inner = ('<div class="empty"><span class="k">Archive is empty</span>'
                  '<p style="margin:.6em 0 0">No stories have been approved and published yet.</p></div>')
     body = f"""<main class="wrap"><h1 class="sr-only">GoCheckMyNews archive</h1><section class="sec">
-    <div class="sec-head"><h2>Archive</h2><span class="bar"></span></div>
+    {cov}<div class="sec-head"><h2>Archive</h2><span class="bar"></span></div>
     {inner}
   </section></main>"""
     return shell(f"Archive - {NAME}", "Every published GoCheckMyNews story.", "Archive", body,
                  dateline, path="/archive.html")
+
+
+# ---- coverage hubs -----------------------------------------------------------
+
+# THE EVERGREEN LAYER (consolidation program 2026-09-01). Search Console keeps
+# declining to crawl the article long tail: a new domain gets a small crawl budget
+# and a commodity news story decays in days. A storyline the desk keeps filing on
+# is the page that ACCUMULATES value instead, so each narratives.watchlist entry
+# with enough published chapters gets a hub at /coverage/<slug> that the homepage
+# chip, the articles and the archive all point into. Hubs key off the watchlist
+# ONLY; the topic-tag vocabulary stays a labelling system, never a page.
+COVERAGE_MIN = 3
+
+
+def coverage_hubs(items):
+    """Watchlist narratives with >= COVERAGE_MIN published chapters, each carrying
+    its matching stories newest first. Matching is tracking_match, the same
+    machinery the homepage chips trust, with the same exclusions (no examples, no
+    wraps, no superseded chapters: the survivor carries the reporting)."""
+    try:
+        watch = json.load(open(os.path.join(HERE, "config.json"),
+                               encoding="utf-8")).get("narratives", {}).get("watchlist", [])
+    except Exception:
+        watch = []
+    hubs, seen = [], set()
+    for n in watch:
+        kws = n.get("keywords") or []
+        name = (n.get("name") or "").strip()
+        if not kws or not name:
+            continue
+        rx = re.compile(r"\b(?:" + "|".join(re.escape(k) for k in kws) + r")\b", re.I)
+        matches = [i for i in items
+                   if not i.get("example") and not _is_wrap(i)
+                   and not i.get("superseded_by") and tracking_match(i, rx)]
+        if len(matches) < COVERAGE_MIN:
+            continue
+        matches.sort(key=lambda i: i.get("published_utc") or i.get("date") or "",
+                     reverse=True)
+        slug = slugify(name)
+        if slug in seen:
+            print(f"coverage: hub {name!r} skipped; slug {slug!r} already taken")
+            continue
+        seen.add(slug)
+        hubs.append({"name": name, "slug": slug, "rx": rx, "stories": matches})
+    return hubs
+
+
+def render_coverage(hub, dateline):
+    intro = (f'Every story the desk has published on {esc(hub["name"])}, newest first. '
+             f'This page updates with each new development.')
+    body = f"""<main class="wrap"><section class="page">
+  <span class="kicker">Full coverage</span>
+  <h1>{esc(hub["name"])}</h1>
+  <p class="lede">{intro}</p>
+  <div class="grid">{"".join(card(i) for i in hub["stories"])}</div>
+</section></main>"""
+    return shell(f'{hub["name"]} - {NAME}',
+                 f'Full coverage of {hub["name"]}: every GoCheckMyNews story on the '
+                 f'storyline, newest first.',
+                 "", body, dateline, path=f'/coverage/{hub["slug"]}.html')
 
 
 # ---- section hubs ------------------------------------------------------------
@@ -2602,9 +2693,12 @@ def build():
         os.makedirs(os.path.dirname(path), exist_ok=True)
         open(path, "w", encoding="utf-8").write(html)
 
-    w("index.html", render_home(items, dateline))
+    hubs = coverage_hubs(items)
+    w("index.html", render_home(items, dateline, hubs))
     w("news.html", render_news(items, dateline))
-    w("archive.html", render_archive(items, dateline))
+    w("archive.html", render_archive(items, dateline, hubs))
+    for _h in hubs:
+        w(f"coverage/{_h['slug']}.html", render_coverage(_h, dateline))
     for _slug, _title, _nav, _tags, _blurb in SECTIONS:
         w(f"sections/{_slug}.html",
           render_section(_slug, _title, _nav, _tags, _blurb, items, dateline))
@@ -2619,7 +2713,8 @@ def build():
     w("thanks.html", render_thanks(dateline))
     for it in items:
         _render_og_card(it)  # build-time per-article share card (fail-open) -> PUBLISH/og/
-        w(os.path.join("articles", f"{it['slug']}.html"), render_article(it, all_items=items))
+        w(os.path.join("articles", f"{it['slug']}.html"),
+          render_article(it, all_items=items, hubs=hubs))
     w("bottom-line.html", render_bottom_line_history(items, dateline))
     w("feed.xml", render_feed(items))
 
@@ -2667,11 +2762,32 @@ def build():
     # crawled whole. For a news desk RECENCY is the honest priority signal: the desk has
     # no quality score, and inventing one to rank its own work would be a worse lie than
     # a flat sitemap. Everything stays listed; only the ordering of attention changes.
+    # SITEMAP AGING (consolidation program 2026-09-01). The split alone was not
+    # enough: Google still declined the long tail, and commodity news older than
+    # two months earns no crawl. So the sitemap goes on a diet. Articles older
+    # than ARCHIVE_DAYS leave it entirely (they stay live, linked and
+    # redirect-protected; they are just no longer advertised for crawl), and
+    # superseded chapters leave both tiers: their URLs 301 to the survivor, and a
+    # sitemap should never advertise a redirect.
     arts = [it for it in items if not it.get("example")]
-    arts_sorted = sorted(arts, key=lambda i: i.get("published_utc") or i.get("date") or "",
+    n_superseded = sum(1 for it in arts if it.get("superseded_by"))
+    arts_sorted = sorted([it for it in arts if not it.get("superseded_by")],
+                         key=lambda i: i.get("published_utc") or i.get("date") or "",
                          reverse=True)
     PRIORITY_N = 30
-    prio_slugs = {i["slug"] for i in arts_sorted[:PRIORITY_N]}
+    ARCHIVE_DAYS = 60
+    _site_now = _build_now()
+
+    def _age_days(it):
+        dt = _parse_utc(it)
+        # unparseable publish moment reads as ancient, so it ages out rather than
+        # riding the archive tier with no honest lastmod
+        return (_site_now - dt).total_seconds() / 86400.0 if dt else 1e9
+
+    prio_arts = arts_sorted[:PRIORITY_N]
+    older = arts_sorted[PRIORITY_N:]
+    archive_arts = [it for it in older if _age_days(it) <= ARCHIVE_DAYS]
+    n_aged = len(older) - len(archive_arts)
 
     def _clean(p):
         return ORIGIN + (p[:-5] if p.endswith(".html") else p)
@@ -2689,14 +2805,24 @@ def build():
                 '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
                 + body + "\n</urlset>\n")
 
-    # priority: the hub pages a reader starts from, plus the newest N stories
-    prio = locs + [f"/articles/{i['slug']}.html" for i in arts_sorted[:PRIORITY_N]]
-    archive = [f"/articles/{i['slug']}.html" for i in arts_sorted[PRIORITY_N:]]
+    # priority: the pages a reader starts from, the evergreen /coverage/ hubs
+    # (the SEO asset the diet exists to feed), plus the newest N stories
+    cov_paths = [f"/coverage/{h['slug']}.html" for h in hubs]
+    prio = locs + cov_paths + [f"/articles/{i['slug']}.html" for i in prio_arts]
+    archive = [f"/articles/{i['slug']}.html" for i in archive_arts]
     # W4-7: date every article entry from its own published date
     _dated = {f"/articles/{i['slug']}.html": (i.get("date") or "")[:10]
               for i in arts_sorted if (i.get("date") or "")[:10]}
+    # a hub's lastmod is its newest chapter's date: the page changed when the desk
+    # last filed on the storyline
+    for _h in hubs:
+        _d = (_h["stories"][0].get("date") or "")[:10]
+        if _d:
+            _dated[f"/coverage/{_h['slug']}.html"] = _d
     w("sitemap-priority.xml", _urlset(prio, _dated))
     w("sitemap-archive.xml", _urlset(archive, _dated))
+    print(f"sitemap: priority {len(prio)} ({len(cov_paths)} hubs), archive {len(archive)}, "
+          f"aged out {n_aged}, superseded excluded {n_superseded}")
     w("sitemap.xml",
       '<?xml version="1.0" encoding="UTF-8"?>\n'
       '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
