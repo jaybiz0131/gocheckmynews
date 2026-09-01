@@ -1,0 +1,52 @@
+{
+  "id": "c123",
+  "slug": "house-passes-continuing-resolution-through-december-11-avoiding-shutdown-weeks-before-midterms",
+  "kind": "brief",
+  "title": "House passes continuing resolution through December 11, avoiding shutdown weeks before midterms",
+  "dek": "The House voted 370-48 on September 1 to pass a continuing resolution funding the government through December 11, 2026, sending the bill to President Trump. The Senate had already approved the measure on August 8. The vote clears Congress's main pre-election legislative task weeks before the November midterms.",
+  "date": "2026-09-01",
+  "published_utc": "2026-09-01T23:35:26Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 1,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "House passed the continuing resolution 370-48, with only 19 Republicans and 29 Democrats voting against it, providing broad bipartisan support for the stopgap measure.",
+  "bottom_line": "The December 11 deadline leaves less than three months for Congress to negotiate and pass 12 separate appropriations bills before the fiscal year ends on September 30, 2027, or another continuing resolution becomes necessary. Whether power shifts after the November election will determine which party controls those final negotiations and what spending priorities shape federal operations into 2027.",
+  "human_take": "",
+  "body": [
+    "The House voted 370-48 on September 1 to pass a continuing resolution funding the government through December 11, 2026, clearing the chamber's main pre-election legislative task and sending the measure to President Trump. The Senate had already approved the measure on August 8, per ABC News reporting.\nThe nearly four-to-one margin signals broad bipartisan support for the stopgap funding, with only 19 Republicans and 29 Democrats voting against it, per The Guardian. The vote averts a government shutdown that would have occurred at the end of September without new appropriations, per The Guardian's reporting.\nThe continuing resolution keeps federal spending at current levels, according to The Guardian. The bill includes a delay until December 11 on a White House Office of Management and Budget rule that Democrats said would allow the Trump administration to cancel grants at any time for any reason, per The Guardian.\nDemocrats rejected President Trump's call for a $1.5 trillion military budget, a spike from the $1 trillion Congress allocated for defense this year, per NBC News. Funding the government requires 60 Senate votes to break a filibuster, a threshold that made bipartisan agreement necessary despite Republicans controlling both chambers and the White House, per NBC News.\nIn July, the House passed its own continuing resolution that would have authorized spending through December 4, but most Democrats rejected it because it funded immigration enforcement agencies without including new guardrails on their conduct, per The Guardian. The Senate never took up that version, per The Guardian.\nHouse Appropriations Committee Chair Tom Cole, R-Okla., said he wants to finish all 12 annual appropriations bills before year-end, but told NBC News he remains uncertain whether that is achievable. Cole stated that the midterm election 'has a tremendous impact' and 'Everybody's calculations will change. Everybody's point of view will change. It'll have an enormous impact about what happens for the balance of the year.' Rep. Rosa DeLauro, D-Conn., said she hopes to lead the Appropriations Committee again if Democrats win the House, and told NBC News her priority is finalizing a full government funding deal before 2027 begins. DeLauro said, per NBC News: 'The midterm election will have an effect, but the goal is that we need to pass appropriations bills before the end of the year. That is a bipartisan view of where we need to go with the committee, and so that's what we are going to press for. Let's get to the finish line.'\nCole accused Democrats of blocking a deal partly to weaken politically vulnerable Sen. Susan Collins, R-Maine, who chairs the Senate Appropriations Committee, per NBC News. Speaker Mike Johnson said, per ABC News: 'House Republicans are in charge here, and we're continuing to do the grown-up thing and make sure we get the job done. And we're happy that we just passed that continuing resolution to fund the government through early December, and then we'll continue through the process after the election. But there will be no government shutdown. You can thank Republicans for our leadership in getting that done.'\nLast year saw a 43-day government shutdown, the longest in U.S. history, per ABC News. That shutdown centered on disagreement over extension of Affordable Care Act subsidies, which Democrats pushed for while Trump and Republicans refused to negotiate until the government reopened, per ABC News. After the shutdown ended, no agreement was reached to keep cost offsets going, per The Guardian. Earlier this year, some government agencies shut down briefly after Democrats held up funding for the Department of Homeland Security to protest federal agent killings of two U.S. citizens in Minneapolis during an immigration enforcement drive, per The Guardian. A bipartisan agreement subsequently funded DHS operations exclusive of agencies involved in Trump's mass deportation push, per The Guardian. Republicans then passed a party-line bill allocating funding to Immigration and Customs Enforcement and Customs and Border Protection for the duration of Trump's presidency with no reforms to immigration enforcement, per The Guardian."
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/politics/congress/house-votes-pass-short-term-funding-bill-prevent-shutdown-election-rcna595350"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/homenews/house/6063667-house-government-funding-cr-shutdown-midterms/"
+    },
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/2026/sep-01/house-bill-prevents-government-shutdown"
+    },
+    {
+      "title": "abcnews.com",
+      "url": "https://abcnews.com/Politics/house-passes-funding-bill-avoiding-shutdown-ahead-midterm/story?id=136122214"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/policy/healthcare/6064552-hemp-ban-delayed-house-funding-bill/"
+    },
+    {
+      "title": "Washington Examiner",
+      "url": "https://www.washingtonexaminer.com/news/house/4708581/hemp-ban-delay-house-passes-stopgap-funding-bill/"
+    }
+  ],
+  "event_utc": "2026-09-01T18:06:15Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-01T23:35:26Z",
+    "sources_cited": 6,
+    "sources_live_checked": 3
+  }
+}

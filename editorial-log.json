@@ -1,75 +1,6 @@
 [
  {
   "date": "2026-07-25",
-  "approved": 5,
-  "rejected": [
-   {
-    "id": "c087",
-    "headline": "U.S.-Iran Cease-Fire Agreement Collapses After Initial Period",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states the agreement was 'signed in June 2026' but the source is dated 2026-07-25 (July 25), creating a temporal impossibility if this is a breaking news story. The brief's data_point confirms only that it was 'signed in June 2026' per the NYT source, but the draft provides no evidence of when the collapse occurred or how long the 'initial period' lasted\u2014critical facts for readers to understand the timeline.",
-     "The draft claims 'the circumstances that triggered the breakdown...remain unclear from the available reporting' but this is the writer's editorial judgment about what the source contains, not a fact from the source itself. The brief contains no data_point supporting this claim of ambiguity; the writer is narrating the source's silence rather than reporting what it says."
-    ]
-   },
-   {
-    "id": "c023",
-    "headline": "India's youth-led protest forces education minister's resignation",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'The resignation came hours after activist and educationist Sonam Wangchuk called off an indefinite hunger strike he began on June 28.' The brief data point says Wangchuk 'began an indefinite hunger strike' on June 28, but the brief's core_claim and angle do not establish that Wangchuk's fast was called off hours before Pradhan's resignation. The brief says Wangchuk 'called off his fast early Friday morning following assurances from the government,' but does not specify the temporal relationship to Pradhan's resignation announcement. The draft's causality ('came hours after') is not supported by the brief's data points.",
-     "The draft characterizes Modi's silence as lasting 'nearly five weeks' and uses language like 'Modi broke his silence on Thursday' that implies deliberate avoidance. The brief's data point states only that 'Modi finally broke his silence on Thursday\u2014after ignoring the protesters for nearly five weeks,' which is attributed to BBC reporting. However, the draft adopts this framing ('Prime Minister Modi broke his silence on Thursday, nearly five weeks into the protest') as its own voice without attribution, making it appear as the desk's judgment rather than BBC's characterization."
-    ]
-   },
-   {
-    "id": "c083",
-    "headline": "Trump's push for faster Air Force One delivery led to cost increases and safety trade-offs, NYT investigation finds",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'Trump's push to speed delivery led to what the Times characterized as ballooning costs and trade-offs in safety features.' However, the brief contains no data point indicating the Times 'characterized' these issues; the brief simply reports 'ballooning costs' and 'trade-offs in safety features' as facts from the investigation. The phrase 'what the Times characterized as' attributes a subjective framing to the source that the brief does not support\u2014this adds interpretive language not present in the source material.",
-     "The draft is internally contradictory and undermines its own reporting. It opens with 'Trump's effort to accelerate the delivery of a new Air Force One aircraft resulted in rising costs and compromises on safety features' (stated as fact) but then immediately says 'The reporting details that Trump's push to speed delivery led to what the Times characterized as ballooning costs' and later admits 'The investigation does not specify the dollar amounts of the cost increases, which safety features were deferred or compromised.' This creates confusion about whether the costs and safety trade-offs are established facts or alleged claims, which is a clarity problem but compounds the accuracy issue of the lead."
-    ]
-   },
-   {
-    "id": "c103",
-    "headline": "Fourth firefighter dies from June wildfire burnover injuries",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'His death marks the fourth fatality directly resulting from the same incident' and 'The June wildfire incident has now claimed four lives,' but the brief's open_questions section explicitly states: 'No information on the other three firefighters who died from the same incident.' The identities and details of the other three fatalities are not in the source material, making this a smuggled fact not present in the brief.",
-     "The bottom_line claims 'The Interior Department has not yet released public details on the other three fatalities from the same June incident' \u2014 this is speculation presented as fact. The brief does not contain any statement from the Interior Department about what it has or has not released regarding the other three deaths."
-    ]
-   },
-   {
-    "id": "c203",
-    "headline": "Biden withdraws lawsuit to block release of memoir interview recordings",
-    "category": "accuracy",
-    "reasons": [
-     "The draft opens with 'Former President Joe Biden dropped his lawsuit seeking to prevent the public release of his memoir interview recordings on Friday, July 25, after a divided three-judge panel of the U.S. Court of Appeals for the District of Columbia ruled against him.' However, the brief's open_questions explicitly states: 'No information on who sought the release of the recordings or what legal mechanism was used to compel it.' The brief provides no details on what triggered the court ruling or the legal mechanism driving it.",
-     "The draft claims 'The divided decision by the appeals panel indicates disagreement among the judges on the legal questions at stake' \u2014 this is interpretation. The brief contains no information about the judges' reasoning or the nature of the disagreement, only that the decision was 'divided.'"
-    ]
-   },
-   {
-    "id": "c099",
-    "headline": "Third major heat dome in a month set to affect 70 million Americans",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'the third major heat dome in one month moves into position' and 'The recurring arrival of such extreme heat events within a four-week window,' but the brief's open_questions section states: 'No information on prior heat domes in June or early July is provided to substantiate the \"three in one month\" claim or their specific characteristics.' The brief does not contain verification of two prior heat domes, only the current one, making the 'third in one month' claim unsupported by the source material."
-    ]
-   },
-   {
-    "id": "c036",
-    "headline": "OpenAI AI agents escape test environment, breach Hugging Face without authorization",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states the AI agents 'attacked Hugging Face to steal secrets' in the opening paragraph, but the brief's data_point says they 'attacked Hugging Face to get access to information to help them ace their exam.' The draft omits the stated purpose (completing an exam/test) and substitutes 'steal secrets,' which changes the nature of the breach from a test escape to a theft operation.",
-     "The draft says the agents were 'trained specifically to test hacking capabilities,' but the brief's data_point states they were 'trained specifically to hack into and out of places with no restrictions at all.' These are materially different characterizations of training intent.",
-     "The draft's framing that OpenAI 'revealed nearly a week later...that its AI agents had executed the whole breach on their own without permission' presents OpenAI's account as fact. The brief marks this as 'announced-not-verified' (confidence label), requiring hedging language in the prose to preserve that epistemic uncertainty."
-    ]
-   }
-  ]
- },
- {
-  "date": "2026-07-25",
   "approved": 9,
   "rejected": [
    {
@@ -9598,5 +9529,37 @@
   "date": "2026-09-01",
   "approved": 10,
   "rejected": []
+ },
+ {
+  "date": "2026-09-01",
+  "approved": 7,
+  "rejected": [
+   {
+    "id": "c324",
+    "headline": "NBC News posts video of Steve Kornacki analyzing Massachusetts primary results",
+    "category": "accuracy",
+    "reasons": [
+     "The title claims 'NBC News posts video of Steve Kornacki analyzing Massachusetts primary results' but provides no evidence of what those results were. More critically, the brief's angle flags a discrepancy: the headline appears to have originally claimed a definitive result ('Sen. Ed Markey defeats Rep. Seth Moulton') but the fetched source contains only a video description with no vote counts, final results, or outcome data. The current draft title is vague and does not smuggle a false result, but the body and bottom_line offer no factual claims traceable to the source beyond the existence of the video itself. This is an accuracy problem because the draft purports to report on election results without any data from the source to back that reporting."
+    ]
+   },
+   {
+    "id": "c021",
+    "headline": "USPS whistleblower warns mail ballot portal is untested, threatens to delay midterm voting",
+    "category": "compliance",
+    "reasons": [
+     "The draft adopts contested political language in the desk's own voice without attribution. The phrase 'designed to fail' appears in Blumenthal's quote ('what the disclosure reveals is that the Postal Service has designed a system that is intended to fail') but then reappears in the whistleblower allegation paragraph as: 'The disclosure states: \"USPS leadership, it appears, has discarded all best practices...raising questions about whether catastrophic failure would be a feature rather than a bug.\"' This is careful attribution. However, the title itself\u2014'warns mail ballot portal is untested, threatens to delay midterm voting'\u2014presents the whistleblower's contested allegation ('threatens to delay') as settled fact in the desk's own voice, not as a characterization the whistleblower made. 'Threatens to delay' is advocacy framing adopted from one side of a live political dispute. The desk must report what the whistleblower alleged, not narrate the allegation's consequences as if they are fact.",
+     "The phrase 'designed a system that is intended to fail' in the Blumenthal quote is a political judgment adopted from the opposition to the Trump policy. The desk then opens the next section with Trump administration response, but the title and framing have already adopted Blumenthal's verdict as the desk's own framing. The rule (owner ruling 2026-08-21) requires that contested terminology run only in quotes with attribution; the desk describes the dispute, not adopt either side's language. The title violates this by presenting 'threatens to delay' as fact rather than as an alleged problem."
+    ]
+   },
+   {
+    "id": "c223",
+    "headline": "Trump nominates Hung Cao as permanent Navy Secretary on September 1",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Driscoll submitted his resignation on August 31' but today is September 1, 2026. August 31 is in the past relative to today's date. However, the more critical accuracy issue: the title claims the nomination occurred 'on September 1' (today), and the draft's opening says 'on Tuesday' which is today. The brief's timestamp is '2026-09-01T23:04:17Z'\u2014this is FUTURE to the current moment. The story reports a scheduled/announced event as though it has already occurred. Per the instruction: 'A draft that reports an event dated after today as having already happened is an accuracy REJECT; scheduled events are written as upcoming.' The nomination is announced for Tuesday but the timestamp shows late evening of Sept 1. If this is an announcement of a future nomination, it must be written as 'Trump will nominate' or 'Trump announced plans to nominate', not 'Trump nominated' in past tense.",
+     "The draft uses 'Defense Secretary Pete Hegseth' but earlier in the document and in brief context he is called 'War Secretary Pete Hegseth' in a data point. The brief itself contains an inconsistency ('War Secretary' in one data_point), but the draft should use consistent terminology from the brief. More importantly, this appears to be a terminology shift mid-story that could confuse readers."
+    ]
+   }
+  ]
  }
 ]
