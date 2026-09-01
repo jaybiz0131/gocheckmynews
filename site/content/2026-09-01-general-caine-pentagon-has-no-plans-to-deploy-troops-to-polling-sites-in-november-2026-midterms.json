@@ -1,0 +1,42 @@
+{
+  "id": "c103",
+  "slug": "general-caine-pentagon-has-no-plans-to-deploy-troops-to-polling-sites-in-november-2026-midterms",
+  "kind": "brief",
+  "title": "General Caine: Pentagon has no plans to deploy troops to polling sites in November 2026 midterms",
+  "dek": "General Dan Caine, chair of the Joint Chiefs of Staff, told Senator Elissa Slotkin in a letter that the Pentagon has no plans to send military personnel or National Guard members to polling places during the November 2026 midterm elections. Caine stated he has not received and does not anticipate receiving unlawful orders regarding military involvement in the elections. Defense Secretary Pete Hegseth has not yet responded to Slotkin's request for a similar confirmation.",
+  "date": "2026-09-01",
+  "published_utc": "2026-09-01T02:02:17Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 11,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "General Dan Caine stated in writing to Senator Elissa Slotkin that 'the Joint Force has no plans to send Federal military personnel or Federalized members of the National Guard to polling places during the 2026 elections' and 'no plans to use such personnel to seize ballots, voting machines, or other election-related material.'",
+  "bottom_line": "Caine's explicit written commitment stands until either Hegseth provides his own response or circumstances force clarification of the military's role. The absence of a Defense Secretary confirmation leaves the administration's election-week posture incomplete.",
+  "human_take": "",
+  "body": [
+    "General Dan Caine, chair of the Joint Chiefs of Staff, told Senator Elissa Slotkin in a letter that the Pentagon has no plans to deploy military personnel or National Guard members to polling places during the November 2026 midterm elections. 'The Joint Force has no plans to send Federal military personnel or Federalized members of the National Guard to polling places during the 2026 elections,' Caine wrote, according to the Guardian. In the same letter, Caine stated there are 'no plans to use such personnel to seize ballots, voting machines, or other election-related material.'",
+    "Caine added: 'I have neither received nor anticipate receiving any unlawful order concerning the role of the Joint Force in the upcoming November 2026 midterm elections,' per the Guardian's reporting.",
+    "Senator Elissa Slotkin, a Democrat who serves on the Senate armed services and homeland security committees, requested written confirmation from both Caine and Defense Secretary Pete Hegseth. Slotkin sought the letters after Donald Trump urged Republicans to 'nationalize' elections and said he had not ruled out sending Guard members or immigration enforcement agents to the polls, according to the Guardian. As of the reporting date, Slotkin's office had not yet received a reply from Hegseth; the senator had asked both men to respond by August 28, 2026.",
+    "Federal law prohibits the deployment of armed federal forces to election locations unless 'necessary to repel armed enemies of the United States,' according to the Guardian. If any element of the military were to get involved in elections, it would likely be the National Guard under state control, per the reporting.",
+    "Slotkin noted that Trump contemplated using the military to seize voting machines after his loss in 2020, according to the Guardian. Trump deployed the National Guard to cities against the wishes of Democratic leaders and deployed active-duty Marines to Los Angeles during his immigration crackdown in 2025, per the Guardian's account. During an April 2026 congressional hearing, Slotkin asked Defense Secretary Pete Hegseth if he would follow orders to seize ballots. Hegseth called the question a 'gotcha hypothetical,' but said: 'I've never been ordered to do anything illegal, and I won't,' according to the Guardian.",
+    "White House chief of staff Susie Wiles denied in a Vanity Fair interview that Trump would use the military to suppress voting in the midterms, according to the Guardian. The Pentagon did not immediately respond to an email from the Guardian asking for the status of Hegseth's response to Slotkin as of the reporting date.",
+    "In 2020, General Mark Milley, then chair of the Joint Chiefs of Staff, responded to a similar letter from Slotkin, stating: 'I believe deeply in the principle of an apolitical U.S. military. In the event of a dispute over some aspect of the elections, by law U.S. courts and the U.S. Congress are required to resolve any disputes, not the U.S. military,' according to the Guardian."
+  ],
+  "sources": [
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/2026/aug/31/military-troops-polling-sites-midterms"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/policy/defense/6062392-caine-denies-military-election-intervention/"
+    }
+  ],
+  "event_utc": "2026-08-31T21:09:36Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-01T02:02:17Z",
+    "sources_cited": 2,
+    "sources_live_checked": 1
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "c006",
+  "slug": "commerce-department-removes-political-interference-language-from-census-bureau-scientific-integrity-policy",
+  "kind": "brief",
+  "title": "Commerce Department removes political-interference language from Census Bureau scientific integrity policy",
+  "dek": "On August 19, 2026, the Commerce Department revised its scientific integrity policy, removing language that banned attempts to shape data collection and statistical analysis for political purposes. The revision came one day after the Census Bureau issued a report on non-U.S. citizen voting tied to a Trump-aligned think tank. Former Census Bureau officials say the changes weaken protections ahead of the 2030 census, which will redistribute political representation and federal funding.",
+  "date": "2026-09-01",
+  "published_utc": "2026-09-01T02:02:17Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 10,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The Commerce Department removed the requirement that scientific findings 'are not suppressed, delayed, or altered for political purposes' from its January 2025 policy on August 19, 2026, one day after the Census Bureau published a report with claims about non-U.S. citizen voting from researchers with ties to a Trump-aligned think tank.",
+  "bottom_line": "The removal of explicit anti-interference language occurs as the Census Bureau prepares for the 2030 national head count that will shape representation and federal spending for a decade. Whether the revised policy is interpreted by career staff as permission for political influence in census operations will become apparent as the 2030 count moves forward.",
+  "human_take": "",
+  "body": [
+    "The Commerce Department revised its scientific integrity policy on August 19, 2026, striking language that explicitly banned political interference in data collection and statistical analysis. The revision came one day after the Census Bureau issued a report containing claims about non-U.S. citizen voting from a team with ties to a think tank founded by officials from President Trump's first administration.",
+    "According to NPR's analysis of text posted on the Commerce Department's website, the January 2025 policy contained requirements that scientific findings at Commerce Department agencies 'are not suppressed, delayed, or altered for political purposes and are not subjected to inappropriate influence.' The August 2026 revision removed the statement that 'protection from inappropriate influence' is among the 'hallmarks of scientific integrity.'",
+    "The revised policy applies to all agencies under the Commerce Department, including the National Oceanic and Atmospheric Administration and the Bureau of Economic Analysis. The 2018 law known as the Trust Regulation requires that statistical agencies 'determine the policies and practices that ensure objectivity of its statistical activities' and produce data that is 'impartial and free from undue influence and the appearance of undue influence,' per NPR's reporting.",
+    "Nancy Potok, former deputy director of the Census Bureau, told NPR that the removal of political-interference language constitutes 'a major change that eliminates the guardrails against political interference in the statistical and scientific data products of the department.' Potok stated: 'The fact that there is a conscious effort to revise the department administrative orders and not incorporate things that are in the Trust Regulation, instead of going in the other direction, is definitely troubling and needs some explanation.'",
+    "Former Census Bureau Director Robert Santos said the timing raised concerns about the Census Bureau report released August 18. 'It's entirely possible that this was done to reconcile the Department of Commerce and the administration's own actions by publishing an external partisan document about voting on the Census Bureau website. The publishing exemplifies inappropriate influence. It was not transparent, and it didn't even include career staff experts,' Santos stated to NPR.",
+    "Beth Jarosz, vice president of the Association of Public Data Users, told NPR: 'There's room for interference because the way that the new rule is structured leaves lots of opportunities to put pressure on staff to act in a certain way, to decide things in a certain way or to come to certain conclusions. It certainly seems like the guardrails, if they are still there at all, they are much weaker than they used to be.' The revised policy also sets up a new system for investigating alleged violations with a reduced role for the department's lawyers, per NPR's reporting.",
+    "The 2030 census is set to be used to redistribute political representation and federal funding to communities for the next decade. In June 2026, the Trump administration banned the Census Bureau from using a data privacy protection technique the agency had used for decades. That ban has delayed the release of new estimates from the American Community Survey and may reduce the statistics the Census Bureau can release about local areas and small populations, including rural communities, according to NPR. The Trump administration's slashing of the federal workforce has also fueled a brain drain of statisticians, economists and other expert civil servants at the Census Bureau, per NPR's reporting.",
+    "The Commerce Department and Census Bureau did not respond to requests for comment from NPR."
+  ],
+  "sources": [
+    {
+      "title": "NPR",
+      "url": "https://www.npr.org/2026/08/31/nx-s1-5948057/department-commerce-census-bureau-scientific-integrity"
+    }
+  ],
+  "event_utc": "2026-08-31T22:24:12Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-01T02:02:17Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}
