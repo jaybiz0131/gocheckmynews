@@ -1,0 +1,85 @@
+{
+  "id": "c366",
+  "slug": "hurricane-watch-issued-september-1-for-louisiana-and-texas-coasts",
+  "kind": "brief",
+  "title": "Hurricane Watch Issued September 1 for Louisiana and Texas Coasts",
+  "dek": "The National Weather Service Lake Charles issued a Hurricane Watch on September 1 at 6:53 AM CDT for parts of the Louisiana and Texas coasts, with Tropical Storm Edouard bringing potential storm surge of 3 to 5 feet, wind gusts to 45 mph, and additional rainfall of 2 to 4 inches.",
+  "date": "2026-09-01",
+  "published_utc": "2026-09-01T15:14:16Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 9,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Storm surge threat could exceed 3 feet above ground in surge-prone areas through Wednesday morning, with wind potential reaching 58 to 73 mph considering forecast uncertainty.",
+  "bottom_line": "Storm surge inundation and wind impacts are most imminent through Wednesday morning. Communities should verify their evacuation status with local officials and monitor NWS updates for timing and intensity changes as Edouard approaches.",
+  "human_take": "",
+  "body": [
+    "The National Weather Service Lake Charles issued a Hurricane Watch on September 1 at 6:53 AM CDT for parts of the Louisiana and Texas coasts, including Nederland, Port Arthur, Sabine Pass, and Sea Rim State Park. The watch is in response to Tropical Storm Edouard, which poses threats of significant wind damage, storm surge, and flooding rain.",
+    "Peak storm surge inundation in the Hurricane Watch area is forecast at 3 to 5 feet above ground in surge-prone areas, with the window of concern extending through Wednesday morning. The potential for storm surge flooding greater than 3 feet above ground exists in parts of the affected zone. Wind gusts in the Hurricane Watch area are forecast to reach 45 mph, with the possibility of winds reaching 58 to 73 mph when forecast uncertainty in track, size, and intensity is considered. The wind threat has increased from the previous assessment.",
+    "A Flood Watch is in effect for the region, with additional rainfall amounts of 2 to 4 inches expected, with locally higher amounts possible. The NWS forecasts potential for moderate flooding rain. The situation is unfavorable for tornadoes.",
+    "Wind impacts from the hurricane-strength portion of the storm include potential damage to roofing and siding materials, damage to porches, awnings, carports, and sheds, and window, door, and garage door failures in some buildings. Mobile homes may be damaged, especially if unanchored. Unsecured lightweight objects can become dangerous projectiles. Several large trees may snap or be uprooted, with greater numbers in areas where trees are shallow-rooted. Several fences and roadway signs may be blown over. Some roads may become impassable from large debris, more so in urban or heavily wooded places. A few bridges, causeways, and access routes may become impassable. Scattered power and communications outages are expected, with greater prevalence in areas with above-ground lines.",
+    "A Tropical Storm Warning has been issued for Cameron, Creole, and Grand Chenier, with peak winds in that area forecast at 10 to 15 mph with gusts to 25 mph, and potential winds of 39 to 57 mph considering forecast uncertainty. Rainfall in the Tropical Storm Warning area is forecast at 1 to 3 additional inches, with locally higher amounts. A Storm Surge Warning has also been issued for the same communities. The NWS advises affected residents to move to safe shelter before winds become hazardous and to remain sheltered in a safe location without venturing outside."
+  ],
+  "sources": [
+    {
+      "title": "api.weather.gov",
+      "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b9d2f334b4e17cdb489664abf31fdcbf3f04ccbc.001.1.cap"
+    },
+    {
+      "title": "api.weather.gov",
+      "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b9d2f334b4e17cdb489664abf31fdcbf3f04ccbc.004.2.cap"
+    },
+    {
+      "title": "api.weather.gov",
+      "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b9d2f334b4e17cdb489664abf31fdcbf3f04ccbc.004.1.cap"
+    },
+    {
+      "title": "api.weather.gov",
+      "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b9d2f334b4e17cdb489664abf31fdcbf3f04ccbc.001.2.cap"
+    },
+    {
+      "title": "api.weather.gov",
+      "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b9d2f334b4e17cdb489664abf31fdcbf3f04ccbc.005.1.cap"
+    },
+    {
+      "title": "api.weather.gov",
+      "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b9d2f334b4e17cdb489664abf31fdcbf3f04ccbc.003.3.cap"
+    }
+  ],
+  "event_utc": "2026-09-01T11:53:00Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-01T15:14:16Z",
+    "sources_cited": 6,
+    "sources_live_checked": 3
+  },
+  "update_of": "potential-tropical-cyclone-five-brings-tropical-storm-threat-to-texas-and-louisiana-coasts-september-1",
+  "also_reported_by": [
+    {
+      "outlet": "104.5 WOKV",
+      "headline": "Buresh Blog: September averages... La Nina Watch... Hurricane Katrina 20 years ago - 104.5 WOKV"
+    },
+    {
+      "outlet": "The Weather Channel",
+      "headline": "Hurricane, Storm Surge Watch Issued as Florence Targets Carolinas With Flooding, Destructive Winds - The Weather Channel"
+    },
+    {
+      "outlet": "WDWMagic",
+      "headline": "Tornado Watch Issued for Walt Disney World Area as Hurricane Helene Approaches Florida - WDWMagic"
+    },
+    {
+      "outlet": "St. Thomas Source",
+      "headline": "Hurricane Watch Issued for VI, Fiona Expected to Be at Closest Point by 6PM - St. Thomas Source"
+    },
+    {
+      "outlet": "Traveling Lifestyle",
+      "headline": "Hurricane Watch and Storm Surge Warning Issued for Texas and Louisiana as Conditions Worsen - Traveling Lifestyle"
+    }
+  ],
+  "boundary": {
+    "affected": "Nederland, Port Arthur, Sabine Pass, Sea Rim State Park (Hurricane Watch); Cameron, Creole, Grand Chenier (Tropical Storm Warning and Storm Surge Warning)",
+    "fixed": "Not specified in the source texts.",
+    "user_action": "Move to safe shelter before the wind becomes hazardous. Remain sheltered in a safe location. Do not venture outside. Do not return to evacuated areas until flood waters completely recede and the all-clear is given by local officials.",
+    "advisory_url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b9d2f334b4e17cdb489664abf31fdcbf3f04ccbc.001.1.cap"
+  }
+}

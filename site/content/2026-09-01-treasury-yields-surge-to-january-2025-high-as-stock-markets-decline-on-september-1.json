@@ -1,0 +1,64 @@
+{
+  "id": "c325",
+  "slug": "treasury-yields-surge-to-january-2025-high-as-stock-markets-decline-on-september-1",
+  "kind": "brief",
+  "title": "Treasury Yields Surge to January 2025 High as Stock Markets Decline on September 1",
+  "dek": "U.S. 10-year Treasury yields rose to approximately 4.79 percent on September 1, their highest level since January 2025, as stock markets opened sharply lower amid expectations the Federal Reserve will raise interest rates to combat persistent inflation. The S&P 500 opened 0.7 percent lower and the Nasdaq declined 1.3 percent.",
+  "date": "2026-09-01",
+  "published_utc": "2026-09-01T15:14:16Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 3,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The 10-year Treasury yield reached 4.79 percent on September 1, the highest level since January 2025, signaling expectations for higher interest rates ahead.",
+  "bottom_line": "The Federal Reserve's next policy decision will signal whether the central bank agrees with its chairman that inflation remains a concern or with Treasury officials that productivity growth will contain price pressures. The outcome will determine whether the current yield levels persist or begin to decline.",
+  "human_take": "",
+  "body": [
+    "The yield on the 10-year Treasury note hit its highest level since January 2025 on Tuesday, September 1, 2026, rising to approximately 4.79 percent, according to NBC News. The move came as stock markets opened sharply lower on expectations the Federal Reserve will raise interest rates to combat persistent inflation.",
+    "The S&P 500 opened 0.7 percent lower, nearing its one-month low, while the tech-heavy Nasdaq declined 1.3 percent. The price of Brent crude rose 2 percent to more than $92 per barrel, its highest level in about a week, per NBC News reporting. A British government agency reported that a tanker had been struck late Monday off the coast of Oman.",
+    "Federal Reserve Chairman Kevin Warsh indicated last week that the central bank is uncomfortable with the current rate of inflation. Warsh said business investment, led by AI spending, and consumer demand remain brisk. By raising the cost to banks to borrow money, the Federal Reserve can slow the rate of inflation by effectively slowing economic growth, according to NBC News' explanation of monetary policy.",
+    "Matthew Klein, author of The Overshoot newsletter, argues rising government bond yields are on balance a sign of reinvigorated economic health after more than a decade of sluggish growth, driven by investments in artificial intelligence and increased government spending. Klein stated: \"Today's rates are obviously too high only if inflation and growth are both poised to slow sharply from here. That is certainly possible, but it would (probably) only happen if the U.S. fell into a downturn.\"",
+    "Treasury Secretary Scott Bessent dismissed concerns about rising bond yields Monday, arguing that measured over the course of President Donald Trump's entire second term, they are flat. Bessent said on CNBC he believes U.S. productivity growth is poised to neutralize concerns about rising inflation. Bessent characterized high global prices as a temporary supply shock tied to geopolitical tensions, stating: \"We will get on the other side of the Iran conflict.\"",
+    "The bond yield surge extends beyond the United States. Japanese benchmark bond yields hit a record high, and 30-year U.K. government bonds reached their highest level since 1998, according to NBC News reporting.",
+    "Peter Boockvar, chief investment officer of One Point BFG Wealth Partners, noted the market shift, writing: \"Another global rise in interest rates and do stocks now finally care? I think it's for sure gaining more attention.\""
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/business/markets/bond-yields-stocks-oil-prices-inflation-fears-rcna595519"
+    }
+  ],
+  "event_utc": "2026-09-01T14:34:02Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-01T15:14:16Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "also_reported_by": [
+    {
+      "outlet": "BusinessToday Malaysia",
+      "headline": "Gold Slides Over 1% As Treasury Yields Surge, Fed Rate Fears Bite - BusinessToday Malaysia"
+    },
+    {
+      "outlet": "\uc544\uc2dc\uc544\uacbd\uc81c",
+      "headline": "Despite Trump's Warning, U.S. Treasury Yields Surge Again, Pressuring Stock Markets - \uc544\uc2dc\uc544\uacbd\uc81c"
+    },
+    {
+      "outlet": "CNBC",
+      "headline": "10-year Treasury yield rises to highest since January 2025 as surging oil rekindles inflation fear - CNBC"
+    },
+    {
+      "outlet": "TradingKey",
+      "headline": "30-Year Treasury Yield Surges to 2007 High. Morgan Stanley Sees Major US Stock Correction - TradingKey"
+    },
+    {
+      "outlet": "Wolf Street",
+      "headline": "Long-Term Treasury Yields Surge, Wipe Out Effect of Bessent\u2019s Hocus-Pocus Treasury Buybacks in 2 Days. Bond Market Not to Be Played With - Wolf Street"
+    },
+    {
+      "outlet": "NAI500",
+      "headline": "U.S. Treasury Yields Surge Across the Curve: Can the Stock Bull Market Sustain? - NAI500"
+    }
+  ]
+}

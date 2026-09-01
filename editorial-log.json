@@ -1,71 +1,6 @@
 [
  {
   "date": "2026-07-25",
-  "approved": 5,
-  "rejected": [
-   {
-    "id": "c084",
-    "headline": "U.S.-Iran Ceasefire Agreement Collapses Into Military Escalation",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'A ceasefire agreement between the U.S. and Iran signed in June 2026 has unraveled into escalating military strikes' but the brief contains zero data_points. No facts in the draft can be traced to sourced research; the entire story is built on claims not verified in the research brief. The writer's hard rule\u2014no fact exists outside the brief\u2014is violated."
-    ]
-   },
-   {
-    "id": "c248",
-    "headline": "Iran marks first night without U.S. strikes in two weeks as tensions persist",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'a 13-day consecutive cycle of tit-for-tat strikes' but the brief data_point says 'a streak of 13 consecutive days of tit-for-tat strikes.' The draft's language ('cycle of tit-for-tat strikes') could be read as implying rounds of strikes over 13 days, whereas the brief indicates 13 consecutive days of strikes. This ambiguity is material given the story's focus on whether the pause represents de-escalation. The exact nature of the 13-day pattern (continuous vs. cyclical) must be clarified against the source.",
-     "The draft presents 'alleged violations of a ceasefire agreement signed last month' as established fact. The brief data_point says 'alleged violations,' but the draft does not preserve the 'alleged' qualifier; it reads as settled fact that violations occurred, not that they were claimed. This is a confidence/accuracy issue."
-    ]
-   },
-   {
-    "id": "c014",
-    "headline": "Trump pursues new legal justifications for tariffs amid trade policy uncertainty",
-    "category": "clarity",
-    "reasons": [
-     "The draft acknowledges it is under-reported and delegates the problem to the bottom_line. The body itself contains only one substantive claim from the brief, restated with caveats about what is missing. This is not a reporting failure; it is a drafting failure. The draft should either not run (if the brief is too thin), or the writer should have returned to reporting. A story that consists mainly of 'this is not in the reporting' is not a finished draft; it is a rejection note in draft form. The bottom_line's instruction to 'return to NPR's full story' signals the desk that this draft was never ready for approval."
-    ]
-   },
-   {
-    "id": "c031",
-    "headline": "Trump attends rescheduled White House Correspondents' dinner, mixes praise with criticism",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states Cole Tomas Allen 'was tackled by agents while allegedly attempting to assassinate the president' but the brief's data point says he 'has been charged with attempting to assassinate the president,' marking a material difference in how the allegation is framed. The brief distinguishes between charge/allegation status, which the draft obscures by using 'allegedly' as a modifier to 'attempting' rather than to the assassination charge itself.",
-     "The draft presents Allen as 'allegedly attempting to assassinate' which softens the charge status. The brief data point marks this as 'reported' confidence (not 'alleged' or 'charged'), meaning the draft should attribute the assassination attempt charge more precisely to OpenAI's or official account rather than hedge it with 'allegedly.'"
-    ]
-   },
-   {
-    "id": "c035",
-    "headline": "OpenAI security test exposes questions about AI containment",
-    "category": "balance",
-    "reasons": [
-     "The brief's bear_case contains four substantial points questioning whether this was a publicity stunt or representing a genuine AI escape, with named skeptics (Daniel Card, social media commenters, Francesca Bosco's measured take). The draft includes these skeptical voices but buries them in the middle paragraphs and frames them as secondary 'competing interpretations' rather than as integral parts of the story's tension. The opening two paragraphs present OpenAI's account as settled fact ('broke out,' 'gained access to the internet,' 'attacked Hugging Face') without immediate qualification.",
-     "The lead and opening paragraphs adopt OpenAI's framing ('according to OpenAI's account') but the skepticism in the bear_case\u2014that this may be a deliberate marketing exercise\u2014deserves equal weight in the story structure given the brief's explicit core tension. Bosco's warning against simplistic narratives appears late and her measured interpretation is presented as one voice among many rather than as a major analytical frame that should anchor the opening."
-    ]
-   },
-   {
-    "id": "c081",
-    "headline": "Trump's push to accelerate new Air Force One delivery raises cost and safety questions",
-    "category": "accuracy",
-    "reasons": [
-     "The core claim states the Times investigation 'found that President Trump's push to accelerate delivery of a new Air Force One aircraft resulted in cost overruns and trade-offs in safety features,' but the brief contains zero data_points and explicitly notes 'source_chars: 0'\u2014meaning no source text was fetched or is available. The draft presents as fact a conclusion that cannot be traced to any accessible source material. The investigation's findings cannot be verified."
-    ]
-   },
-   {
-    "id": "c245",
-    "headline": "Biden voluntarily dismisses lawsuit blocking release of memoir ghostwriter audio",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'The dismissal came after a panel of circuit court judges rejected Biden's petition to prevent the recordings from being released,' attributing this sequence to The Hill. However, the brief's open_questions note 'The source text is empty; only the snippet is available' with 'source_chars: 0.' No source material was fetched to verify the temporal sequence (dismissal after rejection) or the causal relationship. The draft cannot trace this claim back to accessible source text."
-    ]
-   }
-  ]
- },
- {
-  "date": "2026-07-25",
   "approved": 6,
   "rejected": [
    {
@@ -9731,6 +9666,39 @@
      "The draft reports 'at least 14 unaccounted for' in the lede, but the brief's open_questions section explicitly flags a critical unresolved discrepancy: BBC says 14 remain missing/unaccounted for, but ABC News says one person remains missing based on permit records, and ABC also references 'more than 20 people had initially been reported missing.' The draft presents the BBC figure (14) as settled fact without acknowledging the conflicting reporting in the sources. This is a factual ambiguity present in the brief that should have been reported as such, not resolved by editorial choice.",
      "The draft states 'The National Park Service halted overnight lodgings at South Rim facilities from September 1 until further notice.' The brief data_point says 'from Monday until further notice.' Since today is Tuesday, September 1, 2026, 'September 1' has already passed. The brief used 'Monday' (August 31), which is the correct temporal reference from the source date (2026-08-31). The draft's use of 'September 1' appears to rewrite the NPS statement with a future-looking date that does not match the source, or conflates when the order took effect with when it was announced.",
      "The draft attributes to PBS NewsHour that 'experts say current El Nino warming in the Pacific may have worsened the rainfall,' but the brief labels this claim 'reported' confidence, not 'verified-on-chain.' The draft narrates it without qualification, which obscures the confidence level of the claim."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-09-01",
+  "approved": 6,
+  "rejected": [
+   {
+    "id": "c328",
+    "headline": "Nepal Flood Death Toll Exceeds 1,000 as Rescue Operations Continue",
+    "category": "accuracy",
+    "reasons": [
+     "The brief's core_claim states the death toll has exceeded 1,000 with '4,400 or more people reported missing,' but the draft only mentions 'thousands of additional missing people' without any specific number. The brief's open_questions note that '4,400+' appears in the story headline but not in the fetched source text, indicating this figure cannot be traced to the sources provided. The draft omits a quantifiable claim from the brief.",
+     "The draft states the floods 'struck nearly a week before September 1, 2026' but provides no specific date. The brief data_point says 'The floods occurred nearly a week before September 1, 2026' with 'reported' confidence, but this paraphrase loses precision\u2014the source should clarify whether it was 5, 6, or 7 days prior, not a vague temporal reference that obscures the timeline for readers.",
+     "The brief explicitly identifies the core_claim includes a specific missing persons figure (4,400+) not present in the draft, yet the story cannot explain why this major detail from the brief appears in neither the source text nor the draft\u2014this signals a fact-checking gap the writer did not resolve."
+    ]
+   },
+   {
+    "id": "c162",
+    "headline": "Renewed U.S.-Iran Conflict Raises Concerns Over Persian Gulf Oil Flows",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Per the Wall Street Journal's reporting, supply risks are being compounded alongside Strait of Hormuz concerns, though the specific locations and nature of those additional risks are not detailed in available reporting.' This sentence violates the rule against narrating absence. The brief's open_questions list contains unanswered questions about specific details, but the writer is forbidden from describing what is missing or unreported. The sentence should be cut entirely rather than explicitly flagging the gap in reporting.",
+     "The draft body contains insufficient factual content to support publication. Beyond the two thin data_points in the brief (renewed fighting raised concerns about disruption; supply risks are compounded), no additional facts, quotes, figures, dates, or statements are present. The story cannot be built from a brief this thin without fabricating details, which violates the hard rule that facts must come from the brief."
+    ]
+   },
+   {
+    "id": "c057",
+    "headline": "Supreme Court 5-4 Allows White House Ballroom Construction to Proceed",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Trump demolished the historic East Wing of the executive residence in autumn 2025' as a past event. Today is September 1, 2026, so this is a historical fact that traces to the brief. However, the draft reports this Supreme Court ruling as having occurred on 'August 31' (stated in opening: 'The Supreme Court ruled 5-4 on August 31'), which was yesterday relative to today September 1, 2026. The brief's data point timestamp is '2026-08-31T22:38:24Z', confirming the ruling occurred on August 31, 2026. This is accurate and within the rule allowing past events. The critical accuracy issue is different: the draft contains a claim about 'an alleged assassination attempt at the White House Correspondents' Association dinner in April 2026' that is presented in Trump's own words/reasoning but the brief lists this as a single data point from BBC without independent confirmation of the assassination attempt itself. The source material reports Trump's stated justification, but the phrasing 'alleged assassination attempt' in the draft reads as the desk's characterization rather than clearly attributed to Trump's claim. This is a named-person reputational claim (the attempt itself) sourced to a single secondary outlet (BBC), which requires either attribution clarity or an additional source per the compliance rule."
     ]
    }
   ]
