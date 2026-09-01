@@ -1,0 +1,54 @@
+{
+  "id": "c010",
+  "slug": "whistleblower-alleges-usps-mail-voting-system-is-technically-flawed-and-rushed",
+  "kind": "brief",
+  "title": "Whistleblower Alleges USPS Mail-Voting System Is Technically Flawed and Rushed",
+  "dek": "An anonymous federal whistleblower has alleged that the U.S. Postal Service is rushing an untested online system to implement a Trump administration order on mail voting, claiming the system could reject ballots in bulk and disrupt mail-in voting during the midterms.",
+  "date": "2026-09-01",
+  "published_utc": "2026-09-01T14:17:20Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 2,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "A whistleblower submitted allegations to Democratic Senator Richard Blumenthal on August 31 or September 1, 2026, claiming USPS began serious development on the portal in June with a target launch of September 1, leaving less than three months for a system that typically takes nine to 12 months.",
+  "bottom_line": "The 1st U.S. Circuit Court of Appeals decision on the Trump administration's appeal will determine whether the mail-voting system must be paused or can proceed. The outcome directly affects whether USPS will implement the ballot verification process the whistleblower describes during the midterms.",
+  "human_take": "",
+  "body": [
+    "An anonymous federal whistleblower has alleged that the U.S. Postal Service is building a technically flawed online system under compressed timelines to implement President Trump's March executive order restricting mail voting, according to reporting by NPR, NBC News, and the Washington Examiner on September 1, 2026.\nThe whistleblower, represented by Whistleblower Aid, submitted the complaint to Democratic Senator Richard Blumenthal around August 31. According to NBC News, the whistleblower claims USPS did not begin serious development of the Federal Ballot Mail Portal until June, giving itself less than three months to complete a system that would ordinarily require nine to 12 months to build. Per NPR's reporting, USPS leadership has discarded best practices and accelerated the project to meet a September 1 implementation date, which corresponds to the official start of mail voting for the midterms.\nThe Trump administration's March order directs the federal government to create centralized lists of citizens and requires USPS to transmit mail ballots only to individuals on those lists. Trump has defended the directive as a way to curb illegal voting by non-citizens, which studies and audits show is extremely rare. Trump himself has voted by mail.\nThe whistleblower's primary concern centers on the system's verification process. According to NPR, USPS has set an unusual zero-percent failure policy for verifying that mail-in ballots meet the requirements of the new rule.  The whistleblower stated to NPR that this verification process could delay ballots by the thousands in repeated verification cycles and prevent states from mailing enormous numbers of ballots.\nFederal courts have blocked implementation of the USPS rule. A federal judge in Boston issued a temporary restraining order after finding the plan likely illegal, according to NPR, because the mailing agency has no authority to control voting by mail. The Trump administration appealed to the 1st U.S. Circuit Court of Appeals. On August 31, a federal court permitted USPS to continue building the portal only if states are not required to participate, per NBC News reporting. The administration is appealing that ruling while the requirement remains paused.\nNBC News reports that USPS and the White House declined to respond to requests for comment on the whistleblower's allegations. Senator Blumenthal, speaking to reporters and per multiple outlets, described the disclosure as mind-boggling and called the USPS plan fatally flawed, stating the Postal Service has designed a system intended to fail. He urged Postmaster General David Steiner to abandon what he called an \"ill-conceived, unconscionable plan.\""
+  ],
+  "sources": [
+    {
+      "title": "NPR",
+      "url": "https://www.npr.org/2026/09/01/nx-s1-5950869/trump-mail-in-voting-usps"
+    },
+    {
+      "title": "The New York Times",
+      "url": "https://www.nytimes.com/2026/09/01/us/politics/whistle-blower-voting-by-mail.html"
+    },
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/politics/elections/whistleblower-usps-systems-mail-ballots-flawed-rcna595361"
+    },
+    {
+      "title": "Washington Examiner",
+      "url": "https://www.washingtonexaminer.com/news/white-house/4707582/usps-work-adhere-trump-mail-in-order-rushed-sloppy-whistleblower/"
+    }
+  ],
+  "event_utc": "2026-09-01T10:00:00Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-01T14:17:20Z",
+    "sources_cited": 4,
+    "sources_live_checked": 3
+  },
+  "also_reported_by": [
+    {
+      "outlet": "MS NOW",
+      "headline": "\u2018Rushed, risky and haphazard\u2019: Whistleblower account of USPS mail ballot process alarms Democratic lawmaker - MS NOW"
+    },
+    {
+      "outlet": "SSBCrack",
+      "headline": "Whistleblower Alleges Major Flaws in Postal Service's Mail Ballot System Ahead of Midterms - SSBCrack"
+    }
+  ]
+}

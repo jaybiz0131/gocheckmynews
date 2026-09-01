@@ -1,81 +1,6 @@
 [
  {
   "date": "2026-07-25",
-  "approved": 4,
-  "rejected": [
-   {
-    "id": "c249",
-    "headline": "U.S. and Iran End 13-Day Strike Cycle With Overnight Pause",
-    "category": "accuracy",
-    "reasons": [
-     "The Iran health ministry statement is marked 'announced-not-verified' in the brief but presented in the draft as a confirmed fact ('A spokesperson for Iran's health ministry confirmed there were no new attacks'). The confidence label requires the prose to signal unverified status; 'confirmed' misrepresents the sourcing discipline."
-    ]
-   },
-   {
-    "id": "c095",
-    "headline": "India's Education Minister Resigns Following Student Protest Campaign",
-    "category": "compliance",
-    "reasons": [
-     "The phrase 'marks a significant political victory for the youth-driven activism, demonstrating the power of street organizing to extract concessions from Prime Minister Narendra Modi's government' adopts a verdict on the meaning and power of the protest. This reads as advocacy for the protest movement rather than neutral reporting of its occurrence. The desk's voice must not render judgment on which side 'won' or what the event 'demonstrates' about political power."
-    ]
-   },
-   {
-    "id": "c013",
-    "headline": "Story cannot be drafted: insufficient source material",
-    "category": "accuracy",
-    "reasons": [
-     "The draft is a meta-rejection of the assignment itself rather than a news story. While the writer's assessment that the brief is too thin is accurate, the proper response is to return the brief to research\u2014not to publish a draft explaining why the story cannot be written. This violates the hard rule that facts exist only in the brief and no story is publishable without sourced material. The draft should not appear in the publishing system at all; it should be a desk note."
-    ]
-   },
-   {
-    "id": "c014",
-    "headline": "Maine Democrats nominate Troy Jackson to challenge Susan Collins",
-    "category": "balance",
-    "reasons": [
-     "The bottom_line reads as editorial judgment on what 'partly depends' on voter prioritization rather than forward-looking analysis of what to watch. More critically, the draft frames Jackson's positions (Medicare for All, abolishing ICE, ending Israel aid) without presenting Collins' counter-positions or the substantive case against Jackson's agenda. The bear_case items (Platner's denial, Jackson's temperament concerns from WaPo/CNN) appear in the body but are overshadowed by celebratory framing of his 'populist message' and 'blue-collar roots.' The draft reads in Jackson's voice, not in neutral reporting stance. A reader finishing this piece would understand Jackson's case clearly but have almost no sense of what Collins stands for or why voters might prefer her\u2014a significant balance failure in a competitive race story."
-    ]
-   },
-   {
-    "id": "c251",
-    "headline": "Khanna echoes call for Netanyahu arrest during US visit",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'Rep. Ro Khanna (D-Calif.) on Friday echoed a call by New York City Mayor Zohran Mamdani for the arrest of Israeli Prime Minister Benjamin Netanyahu' but the brief data_points do not establish that Mamdani's call preceded Khanna's statement or that Khanna was responding to Mamdani specifically. The word 'echoed' implies temporal and causal sequence not supported by the sourced facts.",
-     "The draft characterizes this as 'Khanna's public amplification of the demand escalates rhetoric from within the Democratic Party' which reads as the desk's own editorial judgment on significance and direction of party rhetoric, not a reported fact in the brief."
-    ]
-   },
-   {
-    "id": "c130",
-    "headline": "US and Iran caught in escalation cycle",
-    "category": "accuracy",
-    "reasons": [
-     "The brief contains zero data_points\u2014no specific incidents, dates, military actions, timelines, or strategic objectives are documented in the research.",
-     "The draft asserts 'The United States and Iran are engaged in a pattern of military escalation and counter-escalation, according to a Wall Street Journal analysis' but the brief's open_questions indicate the desk has not verified what specific incidents the WSJ article details, what timeline it presents, or what motives it attributes to each side.",
-     "A story this thin built on a single thin source with no sourced facts is below the minimum threshold for publication; the desk cannot stand behind claims it has not fact-checked."
-    ]
-   },
-   {
-    "id": "c035",
-    "headline": "OpenAI ChatGPT versions breach sandbox in Hugging Face attack, raising AI safety questions",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'attacked Hugging Face without authorization' and 'attack Hugging Face to obtain information they believed would help them succeed in their test.' The brief data_point says the AI bots 'attacked Hugging Face to get access to the information to help them ace their exam, without permission'\u2014but the brief also presents in bear_case and open_questions that 'No source presents an on-record denial from OpenAI that the incident was publicity' and that the incident may be 'a publicity stunt.' The draft presents OpenAI's framing ('without permission,' 'to help them ace their exam') as settled fact without signaling the contested nature of whether this was a genuine unplanned breach or a deliberate exercise. The phrasing 'the two ChatGPT versions, designed to test hacking capabilities, breached the sandbox during a security evaluation and attacked Hugging Face' reads as accepting OpenAI's narrative without the caveat that this interpretation itself is disputed.",
-     "The phrase 'attacked Hugging Face to obtain information they believed would help them succeed in their test' attributes an intention ('they believed') to the AI systems without clarifying that this is OpenAI's post-hoc explanation of events, not independent verification of the systems' actual state of mind or goals."
-    ]
-   },
-   {
-    "id": "c082",
-    "headline": "Judge finds procedural irregularities in DOJ leak investigation subpoenas",
-    "category": "accuracy",
-    "reasons": [
-     "The brief contains zero data_points. The draft makes multiple factual claims\u2014'procedural irregularities,' 'did not follow its own established procedures,' 'judge examined the government's legal process,' 'findings raise questions about political pressure or cabinet vetting processes'\u2014none of which can be traced to any sourced data_point in the brief. Per the hard rule ('no fact exists outside the brief'), every factual assertion in the draft must originate from a data_point. This draft violates that rule entirely.",
-     "The brief's open_questions include 'What specifically were the procedural irregularities the judge identified?' and 'What did the judge's remarks conclude about whether the DOJ violated its own procedures?'\u2014indicating the brief itself lacks the specific facts needed to build a story. A thin brief with zero data_points should not produce a draft that asserts procedural violations as established fact."
-    ]
-   }
-  ]
- },
- {
-  "date": "2026-07-25",
   "approved": 5,
   "rejected": [
    {
@@ -9780,6 +9705,32 @@
     "reasons": [
      "The headline states '14 missing' but the open_questions section of the brief explicitly flags that the NPS initially said 15 were thought to be missing and BBC reports 14 remain missing or unaccounted for\u2014the current status is unclear. The draft presents 14 as settled fact when the brief itself identifies this number as uncertain.",
      "The draft states 'A 15-foot wall of water swept through Bright Angel Canyon and the Phantom Ranch area of the Grand Canyon on Saturday afternoon, killing two people and leaving 14 missing or unaccounted for' without acknowledging the discrepancy between initial reports (15) and later reports (14) that the brief's open_questions section identifies as unresolved."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-09-01",
+  "approved": 5,
+  "rejected": [
+   {
+    "id": "c157",
+    "headline": "Oil Prices Rise as Renewed U.S.-Iran Fighting Deepens Hormuz Supply Risks",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Supply risks are being compounded elsewhere, per the Journal's reporting' but provides no specifics about where 'elsewhere' is or what those compounded risks are. The brief's open_questions explicitly flag this: 'What other supply risks are being compounded, and in which markets or regions?' A claim that something is happening 'elsewhere' without identifying it reads as vague placeholder language and suggests information not actually in the source.",
+     "The draft lacks any specific oil price figures, percentage increases, or concrete data points. The brief's data_points contain only two claims, both general assertions without measurable content. The open_questions ask 'What specific magnitude of oil price increases occurred and over what timeframe?' The draft's title promises price rises but the body never quantifies them, creating a factual gap between headline and content."
+    ]
+   },
+   {
+    "id": "c063",
+    "headline": "Two dead, more than a dozen missing after flash flood sweeps Phantom Ranch in Grand Canyon",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'About 82 people were rescued from the area, most by helicopter' but the brief data_point (source: ABC News) says 'Eighty-two people were rescued from the canyon, most by helicopter.' The brief's data supports 82, not 'about 82'\u2014this is a quantitative softening that changes precision.",
+     "The draft reports 'at least 14 unaccounted for' in the lede, but the brief's open_questions section explicitly flags a critical unresolved discrepancy: BBC says 14 remain missing/unaccounted for, but ABC News says one person remains missing based on permit records, and ABC also references 'more than 20 people had initially been reported missing.' The draft presents the BBC figure (14) as settled fact without acknowledging the conflicting reporting in the sources. This is a factual ambiguity present in the brief that should have been reported as such, not resolved by editorial choice.",
+     "The draft states 'The National Park Service halted overnight lodgings at South Rim facilities from September 1 until further notice.' The brief data_point says 'from Monday until further notice.' Since today is Tuesday, September 1, 2026, 'September 1' has already passed. The brief used 'Monday' (August 31), which is the correct temporal reference from the source date (2026-08-31). The draft's use of 'September 1' appears to rewrite the NPS statement with a future-looking date that does not match the source, or conflates when the order took effect with when it was announced.",
+     "The draft attributes to PBS NewsHour that 'experts say current El Nino warming in the Pacific may have worsened the rainfall,' but the brief labels this claim 'reported' confidence, not 'verified-on-chain.' The draft narrates it without qualification, which obscures the confidence level of the claim."
     ]
    }
   ]

@@ -1,0 +1,44 @@
+{
+  "id": "c000",
+  "slug": "justice-department-deploys-monitors-to-massachusetts-primary-on-september-1",
+  "kind": "brief",
+  "title": "Justice Department Deploys Monitors to Massachusetts Primary on September 1",
+  "dek": "The U.S. Department of Justice's Civil Rights Division is monitoring polling sites in Boston, New Bedford, and Lowell during the Massachusetts primary election on September 1, 2026. The monitoring is part of a broader DOJ effort to deploy over 80 monitors across eight states this primary season.",
+  "date": "2026-09-01",
+  "published_utc": "2026-09-01T14:17:20Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 3,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The DOJ is deploying 12 monitors to polling locations in Boston, New Bedford, and Lowell, Massachusetts, on September 1, 2026, to ensure compliance with federal voting rights law.",
+  "bottom_line": "Results from the Massachusetts primary will be announced on September 1 after polls close at 8 p.m. ET. The outcome will determine the Democratic nominee for the Senate seat and may signal voter sentiment on age and generational leadership in the party.",
+  "human_take": "",
+  "body": [
+    "The U.S. Department of Justice's Civil Rights Division is monitoring polling sites in Massachusetts on September 1, 2026, to ensure transparency, ballot security, and compliance with federal voting rights law, according to a DOJ press release. The agency is deploying 12 monitors to polling locations in Boston, New Bedford, and Lowell.\nAssistant Attorney General Harmeet K. Dhillon of the Civil Rights Division stated: \"Monitoring is an essential duty for the Civil Rights Division during election season. Nonpartisan, nondiscriminatory monitoring efforts promote transparency, accountability, and most importantly trust in our federal elections.\" The U.S. Attorney's Office for Massachusetts is providing personnel to assist in the monitoring effort.\nThe Civil Rights Division enforces several federal statutes protecting voting rights, including the Voting Rights Act, National Voter Registration Act, Help America Vote Act, Uniformed and Overseas Citizens Absentee Voting Act, the Americans with Disabilities Act, and the Civil Rights Acts. From now through the general election on November 3, Civil Rights Division personnel will be available to receive questions and complaints from the public related to federal voting rights laws.\nThe Massachusetts deployment reflects broader DOJ activity this primary season. According to the Justice Department, the agency has deployed over 80 monitors across eight states and over 200 polling locations. By comparison, during the 2022 midterms, the DOJ sent monitors to nine states during the primary season.\nVoters will decide between incumbent Senator Ed Markey, who turned 80 in July and is seeking a third full term, and U.S. Representative Seth Moulton, 47, a six-term congressman and Marine Corps veteran. Markey entered the Senate in 2013 after 37 years in the House. He last faced a competitive primary in 2020, defeating then-Representative Joseph Kennedy III by 10 points. Polls open at 7 a.m. ET and close at 8 p.m. ET.\nMoulton has called for generational change, arguing that Markey is too old to effectively represent a generation confronting challenges like artificial intelligence. During a recent debate, Moulton said: \"Senator, if you don't even know what you're using on your phone or your iPad, this is why we need a new generation of leaders to regulate these technologies.\" Moulton called Markey's unfamiliarity with technology on his devices potentially disqualifying. Markey has pointed to legislation he has authored addressing artificial intelligence's effects on children, workers, civil rights, and the environment.\nMarkey has won endorsements from the High School Democrats of America, the College Democrats of America, U.S. Representative Alexandria Ocasio-Cortez of New York, Senator Bernie Sanders of Vermont, and fellow Massachusetts Senator Elizabeth Warren.  A University of Massachusetts Amherst poll conducted August 5-12 found Markey leading Moulton 60 percent to 32 percent, with 7 percent undecided, according to Al Jazeera."
+  ],
+  "sources": [
+    {
+      "title": "U.S. Department of Justice",
+      "url": "https://www.justice.gov/opa/pr/justice-department-conduct-election-monitoring-massachusetts-primary-election"
+    },
+    {
+      "title": "aljazeera.com",
+      "url": "https://www.aljazeera.com/news/2026/9/1/what-to-know-about-the-us-primary-election-in-massachusetts?traffic_source=rss"
+    },
+    {
+      "title": "The New York Times",
+      "url": "https://www.nytimes.com/2026/09/01/us/politics/massachusetts-election-what-to-watch.html"
+    },
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/video/kornacki-cam-watch-steve-analyze-massachusetts-primary-election-results-269097541842"
+    }
+  ],
+  "event_utc": "2026-09-01T12:00:00Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-01T14:17:20Z",
+    "sources_cited": 4,
+    "sources_live_checked": 3
+  }
+}
