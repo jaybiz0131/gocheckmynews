@@ -1,71 +1,6 @@
 [
  {
   "date": "2026-07-26",
-  "approved": 5,
-  "rejected": [
-   {
-    "id": "c021",
-    "headline": "France and Spain face massive wildfires, 330,000+ evacuated",
-    "category": "accuracy",
-    "reasons": [
-     "Draft states 'More than 330,000 people have been evacuated' but the brief's core_claim states 'More than 340,000 people have been evacuated.' The brief itself notes in open_questions that the source contains a discrepancy ('more than 340,000' vs 'more than 330,000'), but the writer chose the lower figure without explanation. The brief's core_claim is the authoritative summary and the draft contradicts it."
-    ]
-   },
-   {
-    "id": "c091",
-    "headline": "Federal appeals court upholds block on Trump mail-in voting order",
-    "category": "compliance",
-    "reasons": [
-     "The draft reads as advocacy for one side of a contested election policy. Sentences like 'denies the Trump administration a key election administration victory' and 'preserves looser mail-in voting access' adopt a frame that assumes stricter mail-in voting is what the administration wanted and that preserving access is the loss. The draft should present the court's ruling and its effects neutrally without characterizing it as a 'victory' denied to one side. The angle in the brief itself ('denying the Trump administration a key election administration victory') is framing language that should not appear in the prose as the desk's own judgment.",
-     "The statement 'where control of both the House and Senate is at stake' is presented as fact but the brief data_point is merely that control 'is up for grabs'\u2014this is not meaningfully different, but the phrasing in the draft could read as emphasizing the stakes in advocacy voice rather than stating the factual context."
-    ]
-   },
-   {
-    "id": "c188",
-    "headline": "India's education minister resigns after weeks of student protests over exam leaks",
-    "category": "accuracy",
-    "reasons": [
-     "The draft refers to 'The Cockroach Janta Party' as 'a youth movement' and describes it mobilizing protests, but the brief data_point states the party 'challenged Prime Minister Narendra Modi's handling of youth unemployment' and 'called for an end to the weekslong effort to oust the minister.' The phrase 'called for an end to the extended effort to remove the minister' in the draft body contradicts the brief's claim that the party called for the minister's removal. The draft presents this as the party opposing the removal effort, when the brief indicates the opposite.",
-     "The sentence 'The movement called for an end to the extended effort to remove the minister' directly contradicts the brief angle and data, which indicate the Cockroach Janta Party mobilized to force the resignation. This is a material inversion of the factual record."
-    ]
-   },
-   {
-    "id": "c185",
-    "headline": "Federal judge blocks Illinois laws giving undocumented immigrants in-state tuition",
-    "category": "accuracy",
-    "reasons": [
-     "Second sentence states 'The federal court's ruling blocks those provisions' as definitive fact, but the brief contains no data_point confirming the ruling actually blocked the provisions\u2014only that the judge ruled them 'unconstitutional and invalid.' The distinction between a ruling and its implementation/blocking is material and not in the source.",
-     "Third sentence characterizes this as 'a legal victory for the Trump administration's immigration enforcement agenda'\u2014this reads as advocacy/framing rather than neutral reporting of fact. The brief presents angle as Trump-favorable, but the draft's voice adopts that frame as the desk's own judgment rather than attributed reporting."
-    ]
-   },
-   {
-    "id": "c222",
-    "headline": "Israel detains more than 70 in West Bank sweep after deadly clashes",
-    "category": "compliance",
-    "reasons": [
-     "Second sentence states 'troops searched more than 300 locations during the operation, detaining individuals it described in categories not fully specified in available reporting.' This phrasing\u2014'categories not fully specified'\u2014is a meta-commentary on the gaps in the source, not a fact from the source. The draft is editorializing about what the reporting lacks rather than reporting what was reported. This reads as the writer's analysis, not the story."
-    ]
-   },
-   {
-    "id": "c227",
-    "headline": "Trump announces double-digit tariffs on 60 trading partners",
-    "category": "compliance",
-    "reasons": [
-     "Second paragraph states 'The tariffs could pose electoral risk for Republican candidates if they depress economic conditions and voter turnout before midterms, according to reporting on Democratic strategy to attack the trade policy's economic impact.' This is a conditional prediction ('could pose risk if') presented as a factual claim attributed to reporting, but no data_point in the brief supports a conditional electoral risk forecast. The brief angle mentions 'potential electoral risk,' but the draft's conditional construction ('could...if') reads as speculation/projection, which violates the compliance rule against election predictions presented as fact."
-    ]
-   },
-   {
-    "id": "c131",
-    "headline": "Van strikes Berlin Pride crowd; one dead, 16-plus injured",
-    "category": "compliance",
-    "reasons": [
-     "The sentence 'Police said the suspect has ties to Islamic extremist groups' presents an allegation about an ongoing investigation (suspect at large, case unresolved) without the hedge language required by liability standards. The draft should read 'Police said the suspect has alleged ties to Islamic extremist groups' or similar, to preserve the distinction between police assertion and established fact in an active case."
-    ]
-   }
-  ]
- },
- {
-  "date": "2026-07-26",
   "approved": 3,
   "rejected": [
    {
@@ -9550,6 +9485,38 @@
      "The draft states the vote occurred 'Tuesday' but does not establish what Tuesday or provide a date. The brief's data_points are timestamped 2026-09-01, which was a Monday. If the vote occurred on Tuesday 2026-09-02 (today, per the instruction), it is future tense and should be written as 'will vote' or 'is scheduled to vote.' If it occurred on an earlier Tuesday, the specific date must be stated. The current phrasing is ambiguous and potentially inaccurate.",
      "The draft refers to Krause's statement as giving voters 'the opportunity to exercise their right to vote,' but the brief's data_point quotes him as giving them 'the opportunity to exercise their Democratic right.' The draft's version omits 'Democratic' and changes the meaning of the quoted statement.",
      "The draft attributes the census figures to 'ABC News,' but the brief's data_point cites the figures as '2025 U.S. Census figures cited by ABC News.' The draft should clarify these are census figures that ABC News cited, not ABC News' own figures, to avoid suggesting ABC News generated the demographic breakdown."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-09-02",
+  "approved": 4,
+  "rejected": [
+   {
+    "id": "c345",
+    "headline": "U.S. strikes Iran; Iran responds with missiles and drones on U.S. bases across Middle East",
+    "category": "accuracy",
+    "reasons": [
+     "The draft reports events dated September 1-2, 2026 as having already occurred. Today is September 2, 2026. The strikes on September 2 are being reported as completed past-tense events ('Iran responded', 'the Islamic Revolutionary Guard Corps said it carried out'). While September 1 strikes can be reported as past, September 2 events occurring on the current date must be written as developing/ongoing or attributed to time-stamped announcements, not as settled historical fact. The draft opens with 'exchanged military strikes on September 1 and 2' in simple past tense, treating current-day events as concluded.",
+     "The claims about Minab (more than 150 killed at an elementary school) and Lamerd (at least 21 killed at a sport hall) are attributed to Baghaei's statement per the brief, but the draft presents them as reported facts without sufficient distancing: 'According to Al Jazeera's reporting, in Minab, U.S. forces struck an elementary school, killing more than 150 people, and in Lamerd, U.S. forces hit a sport hall, killing at least 21 people.' These are Iranian government claims about U.S. conduct, not independently verified facts. The brief's own data_points mark them as 'reported' confidence level. The phrasing should clarify that these are Iranian claims, not established facts: 'Iran claimed' or 'Baghaei said' rather than presenting them as direct reporting."
+    ]
+   },
+   {
+    "id": "c070",
+    "headline": "Army Secretary Dan Driscoll resigns following clashes with Defense Secretary Hegseth",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Parnell fired the editor and publisher of Stars and Stripes' but the brief's data point says 'Parnell fired the editor and publisher of the independent (but government-funded) publication Stars and Stripes.' The draft omits the qualification that Stars and Stripes is government-funded, which is material context for understanding whether this was censorship of a state publication or a private one. More critically, the brief does not confirm that the editor AND publisher were fired\u2014it says 'the editor and publisher' were terminated, which is ambiguous on whether both roles held by one person or two separate people. The draft reads it as two people fired when the brief's phrasing is unclear. This is an accuracy failure: the draft states a fact not clearly in the brief."
+    ]
+   },
+   {
+    "id": "c110",
+    "headline": "Trump nominates Hung Cao for permanent Navy Secretary on September 1",
+    "category": "accuracy",
+    "reasons": [
+     "The draft title and opening state the nomination occurred on 'September 1' but today is Wednesday, September 2, 2026. A past-tense report of an event dated after today is an accuracy error. The brief's core_claim and data_points confirm the event date as 'Tuesday' (September 1), which has passed, making the tense correct; however, the draft's phrasing 'announced on September 1' in the title as a descriptor of a past event is acceptable. The real error: the draft omits a critical data point from the brief that directly affects the story's newsworthiness: 'Army Secretary Dan Driscoll submitted his resignation this week amid widespread reports of tension between him and Defense Secretary Pete Hegseth' (data_point 14, reported confidence). This is a significant related personnel development in the defense leadership that contextualizes the Cao nomination and was carried in the same Guardian reporting. Its absence is a material omission of sourced information the brief explicitly identified.",
+     "The draft states 'some, including Democrats in Congress, believe Trump has been overtaxing the Navy' but the brief data_point 15 is dated 2026-09-02 (today), which is after the September 1 nomination event. The draft does not flag this as a more recent development or statement; it reads as if part of the contemporaneous reporting around the nomination. The temporal framing is unclear and risks reader confusion about when this claim was made relative to the nomination announcement."
     ]
    }
   ]

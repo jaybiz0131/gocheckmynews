@@ -1,0 +1,37 @@
+{
+  "id": "c013",
+  "slug": "ice-detainee-dies-within-hours-of-admission-in-northern-mariana-islands-facility",
+  "kind": "brief",
+  "title": "ICE detainee dies within hours of admission in Northern Mariana Islands facility",
+  "dek": "Lianyong Wei, 51, was pronounced dead on August 23 at approximately 7:30 a.m. local time, less than 24 hours after being taken into ICE custody at a facility in the Northern Mariana Islands. Wei's death marks the 57th detainee death under Trump's second term, with 24 occurring since January 2026. The cause of death remains under investigation.",
+  "date": "2026-09-02",
+  "published_utc": "2026-09-02T11:45:31Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 6,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Wei died within hours of ICE intake, marking the 57th detainee death under Trump's second term, as the administration eliminated Biden-era reporting on post-release deaths.",
+  "bottom_line": "The investigation into Wei's cause of death will likely inform questions about screening and medical protocols at the Saipan facility. Whether DHS discloses compliance with the 12-hour screening requirement, or provides the results of its death investigation, will be material to assessing whether regulatory standards were met.",
+  "human_take": "",
+  "body": [
+    "Lianyong Wei, 51, was pronounced dead on August 23 at approximately 7:30 a.m. local time at a detention facility in the Northern Mariana Islands, less than 24 hours after being taken into ICE custody. Wei's death marks the 57th detainee death under President Trump's second term, according to NPR's review of ICE detainee death notifications, with 24 of those deaths occurring since January 1, 2026.",
+    "Wei was arrested by the Commonwealth of the Northern Mariana Islands Department of Public Safety on August 21 after allegedly attacking a family in their home. A day later, on August 22, Wei was taken into ICE custody, according to NPR's reporting. Wei's legal immigration status had ended in 2019.",
+    "Wei was held at the Saipan facility, which is run by the Northern Mariana Islands Department of Corrections. On August 23, Wei was found unresponsive during morning checks by a corrections officer and was immediately transported to the Commonwealth Health Care Corporation Emergency Room, where life-sustaining interventions were initiated, according to an ICE statement reported by NPR. Wei was pronounced dead at approximately 7:30 a.m.",
+    "Under Department of Homeland Security regulations, all immigrant detainees must receive a basic health screening within 12 hours of intake. DHS declined to respond to NPR's requests to verify that Wei had undergone such a screening. When asked about medical care, DHS responded with standard language: \"Comprehensive medical care is provided from the moment individuals arrive and throughout the entirety of their stay,\" per NPR's reporting.",
+    "Wei's official cause of death remains under investigation. The brief carries additional cases that illustrate broader detention facility concerns. According to NPR's reporting, Jose Chajon-Raxon, a Guatemalan man detained at Newark, New Jersey's Delaney Hall Detention Center on July 18, experienced \"seizure-like activity\" a day after intake, requiring emergency medical care and hospitalization. DHS said Chajon-Raxon was released from ICE custody on July 22. NPR reports that Chajon-Raxon is the third person to experience a medical emergency at Delaney Hall since it reopened in May 2025. Also according to NPR: Prisciliano Trejo, 29, was held at the Stewart Detention Center in Georgia while suffering from leukemia. Trejo's family told the Detention Watch Network he requested medical help on July 6, but that request was not approved for eight days. By July 15, Trejo had fallen into a coma, and ICE released him from custody that same day. Trejo died on July 24.",
+    "In June, the Trump administration eliminated a Biden-era policy requiring ICE to report deaths occurring within 30 days of release from custody. DHS officials told NPR: \"Per ICE policy, when an individual is no longer in ICE custody, then ICE will no longer be responsible for monitoring or reviewing deaths that may occur.\" DHS added: \"This is common sense. ICE is not responsible when an individual passes away weeks after leaving their custody.\""
+  ],
+  "sources": [
+    {
+      "title": "NPR",
+      "url": "https://www.npr.org/2026/09/02/nx-s1-5953128/ice-detention-death-lianyong-wei"
+    }
+  ],
+  "event_utc": "2026-09-02T09:00:00Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-02T11:45:31Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}

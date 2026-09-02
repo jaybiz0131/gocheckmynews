@@ -57,12 +57,17 @@
     "sources_cited": 6,
     "sources_live_checked": 3
   },
-  "updated_utc": "2026-09-02T01:21:41Z",
+  "updated_utc": "2026-09-02T11:45:31Z",
   "merged_from": [
     {
       "id": "c016",
       "title": "House passes continuing resolution through December 11, averting shutdown ahead of midterms",
       "published_utc": "2026-09-02T01:21:41Z"
+    },
+    {
+      "id": "c269",
+      "title": "House passes government funding through December 11, avoiding pre-election shutdown",
+      "published_utc": "2026-09-02T11:45:31Z"
     }
   ]
 }
