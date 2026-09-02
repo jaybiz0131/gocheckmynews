@@ -1,0 +1,35 @@
+{
+  "id": "c000",
+  "slug": "doj-reverses-28-year-old-interpretation-requiring-all-state-agencies-to-report-undocumented-immigrants",
+  "kind": "brief",
+  "title": "DOJ reverses 28-year-old interpretation, requiring all state agencies to report undocumented immigrants",
+  "dek": "The Department of Justice's Office of Legal Counsel issued a legal opinion on September 1, 2026, clarifying that all state agencies must report individuals known to be unlawfully present in the United States to the Department of Homeland Security when a state participates in federal welfare programs. The opinion withdraws a 1998 Clinton-era interpretation that limited the requirement to agencies directly administering benefits.",
+  "date": "2026-09-02",
+  "published_utc": "2026-09-02T18:56:23Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 12,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The DOJ Office of Legal Counsel reversed a 28-year-old interpretation of welfare law, requiring all state agencies in any jurisdiction receiving TANF funds (exceeding $16.4 billion annually) to report known undocumented immigrants to federal immigration authorities.",
+  "bottom_line": "The ruling takes effect prospectively with no retroactive penalties, but federal agencies are now authorized to revise all TANF and SSI grant agreements to incorporate the new reporting standard. States that fail to comply with the expanded requirement may lose access to $16.4 billion in annual federal funding.",
+  "human_take": "",
+  "body": [
+    "The Department of Justice's Office of Legal Counsel issued a legal opinion on September 1, 2026, clarifying that all state agencies must report individuals known to be unlawfully present in the United States to the Department of Homeland Security when a state participates in federal welfare programs. The opinion withdraws a Clinton-era interpretation from 1998 that construed the reporting requirement much more narrowly, under which only the specific state agencies administering Temporary Assistance for Needy Families (TANF) or Supplemental Security Income (SSI) were required to provide information to federal immigration authorities.",
+    "All fifty states, the District of Columbia, and several U.S. territories currently participate in TANF and SSI. Federal TANF funding grants exceed $16.4 billion annually. The statutory basis for the requirement is the Personal Responsibility and Work Opportunity Reconciliation Act of 1996, which defines \"State\" broadly, according to the DOJ statement.",
+    "Assistant Attorney General T. Elliot Gaiser stated: \"Congress wrote this requirement plainly. When a state chooses to participate in TANF, it accepts the obligation to report illegal aliens in the United States. Tax dollars intended to help vulnerable Americans should not perversely encourage illegal entry into the United States, but rather should reinforce our laws and our borders.\" Deputy Assistant Attorney General Joshua Craddock said: \"Our clarification does not impose new obligations on states. It simply restores the original meaning of the statute Congress enacted and ensures that DHS receives the information it is legally entitled to. States that accept TANF funding must abide by federal law, and failure to comply may lead to serious consequences, including loss of program funding.\"",
+    "The DOJ statement asserts that the new opinion restores rather than creates the original meaning of the statute. The opinion applies prospectively, and the DOJ stated that states will not face retroactive penalties for past reliance on the 1998 interpretation. Federal agencies may rely on the OLC's advice to update TANF and SSI grant agreements and compliance processes to reflect the correct legal standard moving forward, per the DOJ statement."
+  ],
+  "sources": [
+    {
+      "title": "U.S. Department of Justice",
+      "url": "https://www.justice.gov/opa/pr/justice-department-clarifies-duty-states-report-known-illegal-aliens-under-welfare-reform"
+    }
+  ],
+  "event_utc": "2026-09-02T12:00:00Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-02T18:56:23Z",
+    "sources_cited": 1,
+    "sources_live_checked": 3
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "c126",
+  "slug": "tiger-woods-pleads-no-contest-to-reckless-driving-receives-five-year-license-suspension",
+  "kind": "brief",
+  "title": "Tiger Woods pleads no contest to reckless driving, receives five-year license suspension",
+  "dek": "Tiger Woods pleaded no contest to reckless driving on September 2 in Martin County court in connection with his March 27 rollover crash, according to court records verified by the Guardian. Woods received a five-year driver's license suspension, a $1,000 fine for reckless driving, and a $500 fine for refusing to submit to a drug test. The original DUI charge was dropped.",
+  "date": "2026-09-02",
+  "published_utc": "2026-09-02T18:56:23Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 10,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Tiger Woods pleaded no contest to willful and wanton reckless driving on September 2, 2026, and was adjudicated guilty, receiving a five-year driver's license suspension.",
+  "bottom_line": "Woods is barred from driving for five years with no exception for work or emergency hardship. The decision to replace the DUI charge with reckless driving hinged on prosecutors' determination that the forensic infrastructure to prove drug impairment beyond reasonable doubt was insufficient, even with prescription opioids found in his possession and toxicologists consulted.",
+  "human_take": "",
+  "body": [
+    "Tiger Woods pleaded no contest to willful and wanton reckless driving on Wednesday, September 2, 2026, in Martin County court, according to court records verified by the Guardian. Woods was adjudicated guilty and received a five-year driver's license suspension and a $1,000 fine. He also pleaded no contest to refusing to submit to a lawful test and was fined $500 on that count. Woods received a concurrent five-year license suspension on a careless-driving citation and agreed not to seek a hardship exemption during the suspension. Court records show Woods paid $2,131.44 in fines and costs.\nThe crash occurred on March 27, 2026, in Hobe Sound near Jupiter Island on a residential road with a 30 mph speed limit. According to Martin County Sheriff John Budensiek, Woods was driving a Land Rover that overturned after he attempted to overtake a truck on a narrow two-lane road shortly before 2 p.m. The truck had been slowing to turn into a driveway when Woods approached at what Budensiek described as a \"high rate of speed.\" Woods' vehicle clipped a trailer, veered off and came to rest on its driver's side. Woods was alone in the vehicle and was not injured. He told officers he had been looking down at his phone to change the radio station when the collision occurred, per the Guardian.\nAt the scene, deputies said Woods appeared impaired. A breath test showed no alcohol in Woods' system. Woods refused to provide a urine sample for drug testing. Woods told investigators he had taken several medications earlier that day, including drugs for high blood pressure and cholesterol, ibuprofen, and the prescription painkiller Vicodin, according to court filings cited by the Guardian. Court filings also detailed Woods speaking of \"10 to 15 drones\" equipped with GoPro cameras flying over his home and car about an hour after the crash, and Woods telling an officer he had \"just been talking to the president\" before trailing off. The documents did not identify which president Woods was referring to, although Donald Trump said later that day that he had spoken with Woods following the crash.\nProsecutors had originally charged Woods with driving under the influence with property damage. Under that charge, had Woods fought the case and been convicted, he could have faced up to a year in county jail, according to NBC News. Instead, prosecutors dropped the DUI charge and pursued the reckless driving plea. State Attorney Thomas Bakkedahl characterized the case as \"a particularly difficult DUI to prove.\" Bakkedahl said proving impairment from drugs rather than alcohol is difficult, and the lack of a urine test meant prosecutors \"don't know what exactly was in his bloodstream\" at the time of the accident, per CBS News.\nTwo forensic toxicologists who reviewed the case said they believed there was \"insufficient proof\" of Woods' impairment, according to Bakkedahl. The toxicologists said Woods likely had a tolerance to hydrocodone, so he was not impaired by its use, leaving prosecutors unable to prove a DUI, per CBS News. Bakkedahl said Woods' defense would have been able to provide explanations for behaviors like difficulty walking, citing past injuries Woods had sustained. While Woods admitted to taking painkillers, records showed they were prescribed medications and that the golfer was taking them as instructed, Bakkedahl said. At a news conference after the hearing, Bakkedahl stated: \"Of all the people in the world who should not get behind the wheel of the car, it's the gentleman who is one of the most recognizable faces on the planet,\" per NBC News. Bakkedahl said he was unsure if Woods would be allowed to drive a golf cart under the terms of the deal.\nDays after his arrest in March, Woods announced that he would step away from golf \"to seek treatment and focus on my health.\" A judge granted Woods permission to travel abroad to enter an inpatient treatment facility. In June, Woods made his first public appearance after treatment when he introduced the PGA Tour's plans to revamp its schedule for 2028, per CBS News. Woods has not competed in an official PGA Tour event since July 2024, according to the Guardian.\nWoods is an 82-time winner on the PGA Tour and is tied with Sam Snead for the most victories in tour history, per the Guardian. He is a 15-time major champion who last won a major at the 2019 Masters, his fifth title at Augusta National. In 1997, Woods became the first person of Black heritage to win the Masters, per CBS News. Woods was arrested on a DUI charge in south Florida in 2017 after police found him asleep behind the wheel of a damaged vehicle. He pleaded guilty to reckless driving in that case, saying he had taken a problematic combination of prescription medications."
+  ],
+  "sources": [
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/sport/2026/sep/02/tiger-woods-change-plea-dui-florida-crash"
+    },
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/news/us-news/tiger-woods-reaches-plea-deal-reckless-driving-case-rcna595681"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/tiger-woods-pleads-no-contest-reckless-driving-charge-florida-dui-case/"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/video/tiger-woods-pleads-no-contest-in-rollover-crash-dui-case/"
+    }
+  ],
+  "event_utc": "2026-09-02T13:25:32Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-02T18:56:23Z",
+    "sources_cited": 4,
+    "sources_live_checked": 3
+  },
+  "boundary": {
+    "affected": "Tiger Woods, age 50, who pleaded no contest to willful and wanton reckless driving on September 2, 2026.",
+    "fixed": "No driver's license suspension exemption permitted during the five-year suspension period.",
+    "user_action": "Woods agreed not to seek a hardship exemption during the suspension.",
+    "advisory_url": "https://www.theguardian.com/sport/2026/sep/02/tiger-woods-change-plea-dui-florida-crash"
+  }
+}
