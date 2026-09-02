@@ -504,5 +504,9 @@
    }
   }
  },
- "top_n_note": "Raised 8 -> 12 (owner directive 2026-08-20, 'we have to get the news out'). The editor ranks top_n stories per run and roughly half die at the approver, so 8 capped a run at about 4 published and pushed real news below the line: the day the desk missed an overnight missile barrage and a ballistic-missile launch it also ranked only 8 candidates. Budget headroom is real, a typical run costs $0.15-0.30 against a $1.50 fail-closed cap, and the cap still governs."
+ "top_n_note": "Raised 8 -> 12 (owner directive 2026-08-20, 'we have to get the news out'). The editor ranks top_n stories per run and roughly half die at the approver, so 8 capped a run at about 4 published and pushed real news below the line: the day the desk missed an overnight missile barrage and a ballistic-missile launch it also ranked only 8 candidates. Budget headroom is real, a typical run costs $0.15-0.30 against a $1.50 fail-closed cap, and the cap still governs.",
+ "edition": {
+  "fallback_digest": true,
+  "note": "EDITION FLOOR (family audit 2026-09-02): when the synthesis fails its gates after the deterministic sentence cuts and the Sonnet rescue, wrap.py publishes a plain digest built only from the desk's own published, verified stories (edition_repair.digest_edition) so the slot is served, the recovery net stops re-firing the whole pipeline, and the reader gets the day's verified news. Set false to restore fail-closed-to-silence."
+ }
 }
