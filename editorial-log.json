@@ -1,95 +1,6 @@
 [
  {
   "date": "2026-07-26",
-  "approved": 3,
-  "rejected": [
-   {
-    "id": "c075",
-    "headline": "Trump Administration Halts Iran Escalation as Missile Stockpiles Deplete",
-    "category": "accuracy",
-    "reasons": [
-     "The draft presents the core claim as fact ('The Trump administration has postponed planned military escalation') when the brief marks it 'announced-not-verified'. The brief's confidence label requires the prose to signal uncertainty; the draft reads as settled fact with no hedge.",
-     "The draft states 'The pause marks the second consecutive day without new escalatory actions' but this claim does not appear in the brief's data_points. This is a smuggled fact written beyond the research."
-    ]
-   },
-   {
-    "id": "c035",
-    "headline": "Berlin Pride Attack Kills One, Injures 16; Suspect With Islamist Ties Sought",
-    "category": "compliance",
-    "reasons": [
-     "The draft states 'German media outlets reported that Abdul B. is a supporter of the Islamic State group who unsuccessfully attempted to join the organization in the past' without the 'reported' hedge or attribution to the outlets in the sentence itself. This is allegation language that should carry explicit attribution to the sourcing outlet, not just the desk's indirect paraphrase.",
-     "The bottom_line uses 'raise questions about how he remained a threat despite intervention' which reads as a verdict on a pending investigation and the adequacy of prior de-radicalization efforts. This crosses into analysis of culpability for the attack that goes beyond reporting what is known, and into a judgment that is inappropriate given no arrest has been made and no motive established."
-    ]
-   },
-   {
-    "id": "c128",
-    "headline": "Ukrainian Survivors Document Sexual Violence in Russian Camps",
-    "category": "accuracy",
-    "reasons": [
-     "The brief contains zero data_points and explicitly flags 'source_chars: 0', indicating no source material was available to the researcher. The draft makes multiple factual claims presented as reported fact: 'survivors are documenting instances of abuse in camps controlled by Russian forces' and 'the pattern of survivor testimony points to a coordinated strategy' - but the brief provides no specific survivor accounts, camp locations, details of abuse, or evidence of coordination. These claims are smuggled beyond the research provided.",
-     "The draft states 'systematic sexual violence is being employed as a deliberate warfare tactic' as a factual conclusion, but the brief marks this as the core_claim (unverified assertion) and the brief's open_questions explicitly ask 'What evidence has been documented and by whom? No documentation sources are cited.' The draft presents an unconfirmed claim as settled fact, violating the confidence label requirement."
-    ]
-   },
-   {
-    "id": "c083",
-    "headline": "TPS Termination Clears Way for Mass Work Authorization Loss",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'A Supreme Court ruling has enabled the Trump administration to end Temporary Protected Status (TPS)' as a completed fact, but the brief's data_point uses confidence label 'reported' and the source material has zero characters (source_chars: 0). The brief's open_questions include 'What was the specific reasoning or constitutional basis of the Supreme Court's ruling?' - indicating the ruling itself may not be fully verified in the available source. A major constitutional ruling requires confirmation, not assumption from a thin/empty source.",
-     "The draft asserts as fact that 'Healthcare is among the industries identified as facing particular labor challenges' with attribution to NYT, but no specific industries are named in the brief's data_points. The brief only states generically that 'Industries including healthcare face immediate labor disruption' with confidence 'reported'. The draft cannot cite specificity (healthcare as identified/particular) beyond what the brief provides."
-    ]
-   },
-   {
-    "id": "c024",
-    "headline": "Israeli settlers attack West Bank villages after deadly clash",
-    "category": "compliance",
-    "reasons": [
-     "Bottom line contains advocacy language: 'The effectiveness of police investigation and whether home demolitions proceed as threatened will indicate the extent to which settler actions trigger consequences equal to those imposed on Palestinians' reads as a judgment that consequences should be 'equal' and implies a normative verdict rather than neutral observation of what will signal.",
-     "Bottom line states 'no reported arrests of settlers' as fact, but the brief's open_questions explicitly ask 'Have there been arrests of settlers in connection with the mosque attacks and vandalism?' indicating this is unconfirmed information that should not appear as settled fact."
-    ]
-   },
-   {
-    "id": "c078",
-    "headline": "Maine Democratic Senate nominee replaced",
-    "category": "accuracy",
-    "reasons": [
-     "Brief contains zero source material: data_points is an empty array, source_chars is 0, and open_questions notes 'No source text provided; unable to verify core claim.' The writer correctly identified this as unwritable, but the piece should not have been submitted as a draft. This is a research desk failure, not a writer failure, but the draft cannot be approved because no facts have been traced to source material."
-    ]
-   },
-   {
-    "id": "c136",
-    "headline": "Brazil Blocks U.S. Officials' Visas Over Election-Interference Concerns",
-    "category": "accuracy",
-    "reasons": [
-     "Brief contains zero data_points and explicitly flags open_questions about which U.S. officials applied, whether delegation was Trump-authorized, Brazil's specific stated evidence, timing, and official statements. Draft presents core claim as settled fact ('Brazil has denied visa applications') without confidence qualifier despite brief's inability to verify the delegation's authorization, scope, or Brazil's actual stated rationale.",
-     "Draft states 'The stated rationale signals a shift in how countries frame electoral sovereignty' and 'Brazilian officials have apparently determined that a U.S. delegation's visit could amplify concerns'\u2014these are interpretive claims about Brazilian intent and reasoning that do not appear in the data_points and exceed what the brief's open_questions allow the writer to assert.",
-     "Draft opens with 'according to the Wall Street Journal' but then proceeds to make analytical claims about what Brazil's position 'reflects' and 'represents' without returning to source attribution, blending reported fact with unattributed inference."
-    ]
-   },
-   {
-    "id": "c102",
-    "headline": "UK Prime Minister Burnham Signals Willingness to Publicly Challenge Trump",
-    "category": "accuracy",
-    "reasons": [
-     "Brief's third data_point is truncated mid-sentence ('Wes Streeting, the new defence secretary, said he did not believe the Trump administration was [text cut off in source]'), yet draft states 'Defense Secretary Wes Streeting, appointed under Burnham, also addressed the incoming Trump administration in the same interview, though the full scope of his comments is not available in the reported text.' This acknowledges unavailable source text but then proceeds to quote the truncated claim as fact.",
-     "Draft claims Burnham has made statements about 'policy areas in which such disagreement might emerge,' but open_questions explicitly note 'No specific policy areas in which Burnham has signaled disagreement with Trump are named in the available source text.' The draft should not present context-specific policy disagreements as part of Burnham's record when the brief confirms none are sourced.",
-     "Draft characterizes Burnham's stance as 'a departure from the traditional posture of automatic alignment that has historically characterized UK-U.S. relations' without source attribution for this historical claim; this is analysis the brief does not support."
-    ]
-   },
-   {
-    "id": "c092",
-    "headline": "Bundibugyo Ebola Returns to Eastern Congo Border, 20 Years After Discovery",
-    "category": "accuracy",
-    "reasons": [
-     "Brief's open_questions note 'The New York Times source text was not fetched; the full article is not available.' Brief explicitly states 'thin: true' and 'source_chars: 0,' meaning the brief is built on zero sourced text. Draft's entire factual structure rests on claims attributed to the Times (virus name, 2007 discovery date, return to eastern Congo border, halting of border life) that cannot be verified against the source because the source was never retrieved.",
-     "Draft states 'first identified in the Ugandan town of Bundibugyo in 2007' as fact, but the brief's data_point says 'was first discovered in the town in 2007' without confirming the year matches. The discrepancy between 'identified' and 'discovered' is minor, but the brief cannot confirm either claim because source text was not fetched.",
-     "Draft presents epidemiological context ('Bundibugyo Ebola is one of several known Ebola virus species, each named for the location of its first confirmed outbreak') that does not appear in any data_point and assumes knowledge the brief explicitly flags as unverified."
-    ]
-   }
-  ]
- },
- {
-  "date": "2026-07-26",
   "approved": 8,
   "rejected": [
    {
@@ -9517,6 +9428,29 @@
     "reasons": [
      "The draft title and opening state the nomination occurred on 'September 1' but today is Wednesday, September 2, 2026. A past-tense report of an event dated after today is an accuracy error. The brief's core_claim and data_points confirm the event date as 'Tuesday' (September 1), which has passed, making the tense correct; however, the draft's phrasing 'announced on September 1' in the title as a descriptor of a past event is acceptable. The real error: the draft omits a critical data point from the brief that directly affects the story's newsworthiness: 'Army Secretary Dan Driscoll submitted his resignation this week amid widespread reports of tension between him and Defense Secretary Pete Hegseth' (data_point 14, reported confidence). This is a significant related personnel development in the defense leadership that contextualizes the Cao nomination and was carried in the same Guardian reporting. Its absence is a material omission of sourced information the brief explicitly identified.",
      "The draft states 'some, including Democrats in Congress, believe Trump has been overtaxing the Navy' but the brief data_point 15 is dated 2026-09-02 (today), which is after the September 1 nomination event. The draft does not flag this as a more recent development or statement; it reads as if part of the contemporaneous reporting around the nomination. The temporal framing is unclear and risks reader confusion about when this claim was made relative to the nomination announcement."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-09-02",
+  "approved": 6,
+  "rejected": [
+   {
+    "id": "c267",
+    "headline": "U.S. strikes IRGC targets in Iran as Trump signals he is not forcing negotiations",
+    "category": "accuracy",
+    "reasons": [
+     "The brief is marked 'thin: true' with only 4 core data_points and minimal source material (source_chars: 380). The brief's open_questions explicitly flag that 'Trump's exact remarks about not forcing Iran to negotiate are not included in the fetched source material.' The draft presents as fact: 'Trump stated he is \"not trying to force Iran to the negotiating table,\"' with a direct quote. This quote does not appear in any data_point in the brief. The brief does not carry Trump's exact words; the draft smuggled them in. A fact not in the brief cannot be published.",
+     "The draft's second paragraph rests entirely on a claim ('Trump stated he is...') that the brief explicitly acknowledges was not retrieved in the source material. The entire analytical frame of the story depends on a quote the research did not capture."
+    ]
+   },
+   {
+    "id": "c283",
+    "headline": "House passes continuing resolution on September 1, funding government through December 11",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The Senate had initially passed the measure on August 8' but today is Wednesday, September 2, 2026. August 8 is in the past, so the phrasing 'initially passed' is correct. However, the statement 'the measure moved to President Trump's desk for signature' followed by 'The measure's passage to the President's desk will determine whether the government remains funded' in the bottom_line creates a temporal ambiguity. The draft reports the House vote as completed (past tense: 'passed on September 1') but then says the measure 'moved to President Trump's desk' without clarity on whether it has arrived there or remains in transit. The bottom_line's phrasing 'The measure's passage to the President's desk will determine' suggests it has not yet reached the desk, contradicting the body's 'moved to.' This is an accuracy problem: the draft does not make clear the status of the measure as of publication. The brief data points say it 'was sent to President Donald Trump's desk for signature' (past tense, verified-on-chain or reported), indicating it has been sent. The body should match that clarity."
     ]
    }
   ]
