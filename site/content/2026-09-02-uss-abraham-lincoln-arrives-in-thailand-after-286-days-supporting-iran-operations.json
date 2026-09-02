@@ -1,0 +1,71 @@
+{
+  "id": "c121",
+  "slug": "uss-abraham-lincoln-arrives-in-thailand-after-286-days-supporting-iran-operations",
+  "kind": "brief",
+  "title": "USS Abraham Lincoln arrives in Thailand after 286 days supporting Iran operations",
+  "dek": "The USS Abraham Lincoln aircraft carrier arrived in Laem Chabang, Thailand on September 2 after 286 days at sea in support of U.S.-Israeli military operations against Iran. The ship and its escort vessels are docking for the first time since the deployment began in November 2025, giving nearly 5,000 sailors and Marines their first shore leave in more than nine months.",
+  "date": "2026-09-02",
+  "published_utc": "2026-09-02T15:11:14Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 11,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The USS Abraham Lincoln arrived in Thailand on September 2 after 286 days at sea, marking its first full port stop since deployment began in November 2025 to support military operations against Iran.",
+  "bottom_line": "The investigation into reported attempted suicides aboard the USS Abraham Lincoln remains open and its findings will clarify whether mental health crises were isolated or systemic during the extended deployment. The ship is scheduled to return to home port after the Thailand stop; the full timeline for that return and any policy changes regarding future carrier deployment lengths remain unannounced.",
+  "human_take": "",
+  "body": [
+    "The USS Abraham Lincoln aircraft carrier pulled into Laem Chabang Port in Chonburi province, eastern Thailand on Wednesday, September 2, ending 286 days at sea. According to NBC News, it was the ship's first full port stop since the deployment began in November 2025, supporting U.S.-Israeli military operations against Iran.",
+    "Approximately 5,000 sailors and Marines disembarked and are expected to spend a four-day \"rest and relaxation\" stop in the region. Each service member will receive three \"liberty days\" and one day of duty aboard the ship, per NBC News. The USS Frank E. Petersen Jr. destroyer docked in nearby Sriracha and the guided-missile cruiser USS Robert Smalls went to Map Ta Phut in neighboring Rayong province.",
+    "Rear Admiral Robert E. Loughran, commander of Carrier Strike Group 3, stated: \"Our arrival in Laem Chabang provides a well-deserved opportunity for our sailors and Marines to rest and recharge. It also underscores the strong and enduring partnership and alliance between the United States and Thailand.\" According to NBC News, officials in Pattaya estimate the visit will inject approximately $3 million into the local economy.",
+    "The extended deployment has left visible marks on the carrier. NBC News reported that paint has worn off the 1,092-foot warship and rust is visible on the exposed metal. Captain Dan Keeler, the ship's commanding officer, told the Guardian that the carrier \"looks like a dirty car in a parking lot.\" He also stated: \"I don't know how to say it other than there's a disconnect between reporting back home and what's happening on the ship.\" When asked about crew complaints, Keeler compared them to \"sending kids off to college for the first time\" and said the ship \"did get caught up in an election cycle and got thrown around like a football.\"",
+    "Keeler acknowledged supply constraints during the deployment. According to the Guardian, he stated that fresh fruit and vegetables stopped being served and that supplies of soap and toothpaste had to be rationed carefully to ensure every sailor could receive some. When asked about reports of attempted suicides aboard the ship, Keeler declined to comment, citing an open investigation.",
+    "When the Guardian asked Keeler about comments from the U.S. president claiming the 270-day deployment was \"not nearly long enough,\" Keeler told the outlet \"the president speaks for himself.\" Ethan Johnson, a cook on the USS Higgins, stated: \"We joined the military, it's not a cruise ship\" and said there was plenty of meat and vegetables aboard his vessel, per the Guardian. The crew appeared to be directed not to speak to journalists about reported living conditions, according to the Guardian's reporting."
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/world/asia/uss-abraham-lincoln-arrives-thailand-extended-iran-deployment-rcna595651"
+    },
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/world/2026/sep/02/uss-abraham-lincolns-crew-arrive-thailand-after-record-stint-at-sea"
+    },
+    {
+      "title": "today.com",
+      "url": "https://www.today.com/video/uss-lincoln-finally-docks-after-record-middle-east-deployment-269200453646"
+    }
+  ],
+  "event_utc": "2026-09-02T04:24:12Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-02T15:11:14Z",
+    "sources_cited": 3,
+    "sources_live_checked": 3
+  },
+  "also_reported_by": [
+    {
+      "outlet": "Navy Times",
+      "headline": "USS Abraham Lincoln to dock in Thailand next week, Thai official says - Navy Times"
+    },
+    {
+      "outlet": "Forbes",
+      "headline": "USS Abraham Lincoln Arrives In Thailand After Marathon Middle East Deployment - Forbes"
+    },
+    {
+      "outlet": "Fort Bragg Advocate-News",
+      "headline": "The USS Abraham Lincoln arrives in Thailand following its Middle East deployment - Fort Bragg Advocate-News"
+    },
+    {
+      "outlet": "San Diego Union-Tribune",
+      "headline": "San Diego-based USS Abraham Lincoln arrives in Thailand for first port call in 9 months - San Diego Union-Tribune"
+    },
+    {
+      "outlet": "WIBW",
+      "headline": "USS Abraham Lincoln arrives in Thailand after its extended grueling deployment in Iran - WIBW"
+    },
+    {
+      "outlet": "FOX 9 Minneapolis-St. Paul",
+      "headline": "USS Abraham Lincoln arrives in Thailand following lengthy deployment - FOX 9 Minneapolis-St. Paul"
+    }
+  ]
+}

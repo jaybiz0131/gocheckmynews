@@ -1,48 +1,6 @@
 [
  {
   "date": "2026-07-26",
-  "approved": 8,
-  "rejected": [
-   {
-    "id": "c070",
-    "headline": "U.S. and Iran pause military strikes for second day as ammunition constraints shape strategy",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'President Trump put off plans to escalate the fighting partly because of dwindling stockpiles of interceptor missiles, according to American officials.' However, the brief marks this as the only substantive claim and it comes from the NYT source with 'reported' confidence. The draft then adds 'The specific scope of the stockpile depletion, the timeline for resupply, and whether other factors beyond ammunition availability are driving the delay remain unaddressed in available reporting'\u2014this is editorial commentary inserted by the writer, not information from the brief. The brief does not contain any data_point stating that these specifics 'remain unaddressed'; the writer has manufactured this framing. Additionally, the brief's bear_case is empty, indicating no counterargument was available in the source, yet the draft presents the ammunition constraint as a one-sided narrative without acknowledging other possible drivers of the pause that were not reported.",
-     "The draft's opening ('The U.S. and Iran have paused military strikes for a second straight day, according to reporting by the New York Times') attributes the pause claim to the NYT, but the brief data_point does not include contextual framing about whether this pause is unprecedented, how long prior pauses lasted, or what triggered them. The angle in the brief hints at deeper context ('temporary halt in active conflict'), but the draft provides no bear_case or counternarrative about why the pause may not be strategically significant. The brief lists six open_questions including 'What triggered the initial military escalation' and 'What is Iran's stated position on the pause'\u2014all absent from the draft, which suggests the brief itself is thin and the draft correctly mirrors that thinness, but the writer's interpretive statement about 'material constraints' and 'sustainability' goes beyond what the two data_points support."
-    ]
-   },
-   {
-    "id": "c175",
-    "headline": "Hawaii lieutenant governor indicted on bribery charges in COVID contract case",
-    "category": "accuracy",
-    "reasons": [
-     "The brief's open_questions note states: 'The source text provided is incomplete (appears to be HTML boilerplate/navigation code rather than article content).' This means the researcher could not verify the contents of the Washington Examiner piece. The brief contains six data_points marked 'reported' but the source_chars field is 0, indicating no source text was actually captured. The draft makes six specific factual claims (12 counts, criminal conspiracy to commit bribery, falsifying candidate committee reports, COVID-19 contracts, campaign contributions, 10 years prison) that are all drawn from the brief's data_points\u2014but those data_points were never verified against actual source material. This violates the core rule: facts must be traceable to the brief, but the brief itself has no verified source text. The desk cannot approve a draft built on unverified source data.",
-     "The draft states 'If convicted on the most serious counts, Luke faces up to 10 years in prison,' which is sourced to the brief's data_point claiming '10-year prison sentence.' However, the brief's own open_questions reveal the researcher flagged critical missing information: 'the specific nature of the COVID-19 contracts, the identities of alleged co-conspirators, the investigative timeline, Luke's response or plea status, the grand jury's basis for the charges, or procedural next steps such as arraignment date.' The draft presents allegations as established fact without the qualification that they are unverified allegations in an ongoing case. The sentence 'The indictment places a sitting state lieutenant governor under criminal jeopardy' is appropriate, but the next sentence ('raises questions about the integrity of pandemic-era contracting in Hawaii') edges into interpretive framing not supported by verified source detail."
-    ]
-   },
-   {
-    "id": "c082",
-    "headline": "Europe Faces New Heat Wave Amid Ongoing Wildfire Crisis",
-    "category": "accuracy",
-    "reasons": [
-     "The draft asserts 'hundreds of thousands to evacuate' as fact, but the brief contains zero data_points and explicitly marks the story as 'thin: true' with no source characters. This figure is SMUGGLED\u2014it appears nowhere in the research brief and violates the hard rule that no fact exists outside the brief.",
-     "The draft repeatedly acknowledges uncertainty ('not yet confirmed', 'remain to be reported', 'remain uncertain') which is appropriate given the thin brief, but then opens with a definitive claim about evacuation numbers that has no research backing. The writer cannot patch thin research with hedging prose; the story should either be killed or the opening claim removed entirely."
-    ]
-   },
-   {
-    "id": "c122",
-    "headline": "Wall Street Journal Documents Allegations of Systematic Sexual Torture in Russian Camps",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'A Wall Street Journal investigation has documented allegations' and refers to 'documented testimony from victims' and 'documented victim accounts,' but the brief contains zero data_points. The writer has fabricated specific claim attribution\u2014'documented' appears in the draft but no actual documentation, evidence counts, camp locations, victim numbers, or command structure details appear in the research brief. The story is marked 'thin: true' with no source characters, meaning the research cannot support the assertion that the WSJ investigation 'documented' anything specific.",
-     "The draft asserts that sexual violence in armed conflict 'can constitute a crime against humanity or a war crime under international law'\u2014this is legal analysis presented as the desk's own judgment, not attributed to any sourced legal authority. Category: compliance. The brief contains no legal analysis and the desk cannot provide it."
-    ]
-   }
-  ]
- },
- {
-  "date": "2026-07-26",
   "approved": 5,
   "rejected": [
    {
@@ -9451,6 +9409,34 @@
     "category": "accuracy",
     "reasons": [
      "The draft states 'The Senate had initially passed the measure on August 8' but today is Wednesday, September 2, 2026. August 8 is in the past, so the phrasing 'initially passed' is correct. However, the statement 'the measure moved to President Trump's desk for signature' followed by 'The measure's passage to the President's desk will determine whether the government remains funded' in the bottom_line creates a temporal ambiguity. The draft reports the House vote as completed (past tense: 'passed on September 1') but then says the measure 'moved to President Trump's desk' without clarity on whether it has arrived there or remains in transit. The bottom_line's phrasing 'The measure's passage to the President's desk will determine' suggests it has not yet reached the desk, contradicting the body's 'moved to.' This is an accuracy problem: the draft does not make clear the status of the measure as of publication. The brief data points say it 'was sent to President Donald Trump's desk for signature' (past tense, verified-on-chain or reported), indicating it has been sent. The body should match that clarity."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-09-02",
+  "approved": 4,
+  "rejected": [
+   {
+    "id": "c272",
+    "headline": "U.S. military strikes Iran targets as regional conflict enters sixth month",
+    "category": "accuracy",
+    "reasons": [
+     "All factual claims trace to the brief: strike date (Sept 2), target types (IRGC installations, air defense, radar, maritime, mine-laying, communications), CENTCOM announcement, sixth-month conflict timeline.",
+     "Confidence level 'reported' is appropriate throughout; no unconfirmed claims presented as settled.",
+     "Bottom line appropriately flags unresolved details (damage, casualties, strategic rationale, Trump statement context) without narrating absence as fact.",
+     "No advocacy, advice, or liability violations present.",
+     "Story is brief but proportionate to thin brief; no hidden facts beyond sourced material.",
+     "the draft dates September 2, 2026 as a Tuesday; September 2, 2026 is a Wednesday"
+    ]
+   },
+   {
+    "id": "c017",
+    "headline": "ICE detainee dies within hours of admission to Saipan facility",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Chajon-Raxon is the third person to die after experiencing a medical emergency at Delaney Hall since it reopened in May 2025.' This claim appears in the brief as stated, but the brief simultaneously contains an open_question: 'It is unclear if Chajon-Raxon died on July 22 (the day he was released from ICE custody); DHS officials did not respond to inquiries.' The draft presents Chajon-Raxon's death as a closed fact ('the third person to die') while the source material and brief both flag uncertainty about whether and when he died. A reputational claim about facility deaths cannot rest on an unresolved data point.",
+     "The draft states 'Chajon-Raxon is the third person to die after experiencing a medical emergency at Delaney Hall since it reopened in May 2025' without the epistemic hedge present in the brief's data_point: 'It is unclear if Chajon-Raxon died on July 22 (the day he was released from ICE custody).' Presenting this as settled fact when the brief marks it unresolved is an accuracy violation."
     ]
    }
   ]
