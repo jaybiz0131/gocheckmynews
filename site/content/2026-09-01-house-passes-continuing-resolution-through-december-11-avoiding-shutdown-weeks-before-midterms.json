@@ -40,6 +40,14 @@
     {
       "title": "Washington Examiner",
       "url": "https://www.washingtonexaminer.com/news/house/4708581/hemp-ban-delay-house-passes-stopgap-funding-bill/"
+    },
+    {
+      "title": "NPR",
+      "url": "https://www.npr.org/2026/09/01/nx-s1-5951536/house-government-funding-vote-midterms"
+    },
+    {
+      "title": "aljazeera.com",
+      "url": "https://www.aljazeera.com/news/2026/9/1/us-house-passes-funding-bill-to-avert-government-shutdown-ahead-of-midterms?traffic_source=rss"
     }
   ],
   "event_utc": "2026-09-01T18:06:15Z",
@@ -48,5 +56,13 @@
     "checked_utc": "2026-09-01T23:35:26Z",
     "sources_cited": 6,
     "sources_live_checked": 3
-  }
+  },
+  "updated_utc": "2026-09-02T01:21:41Z",
+  "merged_from": [
+    {
+      "id": "c016",
+      "title": "House passes continuing resolution through December 11, averting shutdown ahead of midterms",
+      "published_utc": "2026-09-02T01:21:41Z"
+    }
+  ]
 }

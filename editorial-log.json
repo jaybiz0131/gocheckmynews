@@ -1,38 +1,5 @@
 [
  {
-  "date": "2026-07-25",
-  "approved": 9,
-  "rejected": [
-   {
-    "id": "c023",
-    "headline": "India's Education Minister resigns after five-week student protest over exam integrity and jobs",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'the Cockroach Janta Party called off its five-week occupation at Jantar Mantar in New Delhi' but the brief shows no data_point confirming the protest location was Jantar Mantar or that it was an 'occupation' in that specific form. The draft presents these details as fact from the brief when they are not explicitly included in the data_points.",
-     "The draft attributes to BBC reporting the statement that 'it is clear the protests have dealt a severe blow to the prime minister's personal brand and his aura of invincibility' (paragraph 4), but this claim appears in the brief as data_point 17 which says 'it is clear that the protests have dealt a severe blow...' This reads as editorial analysis presented as BBC reporting rather than an attributed judgment.",
-     "The draft includes the detail about CJP founder Abhijeet Dipke being 'a 30-year-old political communications strategist and former student at Boston University' screaming 'We have done it' from the stage. While this appears in brief data_point 4, the draft never mentions this founder by name or includes this quote, so this is internally consistent, but the omission of the founder's identity is a material gap given the personalization of the movement."
-    ]
-   },
-   {
-    "id": "c102",
-    "headline": "Troy Jackson wins Maine Democratic Senate nomination after original candidate withdraws",
-    "category": "accuracy",
-    "reasons": [
-     "The draft claims 'roughly 100 days remaining until the general election' but no data_point in the brief specifies the number of days until the general election. The brief timestamp is 2026-07-25; the draft presents a specific figure ('roughly 100 days') not sourced to the brief.",
-     "The bottom_line references 'statements from Jackson on education reform or other campaign planks' as a watch item, but no data_point in the brief mentions education reform or Jackson's campaign planks. This watch item introduces new information not derived from the brief, violating the hard rule that facts/expectations must trace to the research brief."
-    ]
-   },
-   {
-    "id": "c101",
-    "headline": "More than 1 million children lost SNAP food benefits after One Big Beautiful Bill Act",
-    "category": "balance",
-    "reasons": [
-     "The brief's angle explicitly frames this as 'a policy change tied to Trump administration legislation' with questions about 'welfare reform' and 'legislative safeguards,' but the draft presents no counter-argument from the administration, congressional sponsors, or USDA defending the bill's rationale or disputing the harm characterization. The brief carries an empty bear_case, yet the draft's framing ('stripped food assistance,' 'vulnerable population,' opening with loss as the lead story) reads entirely in one direction without presenting the case that proponents might make for the policy change. A story sourced to The Guardian (left-leaning per AllSides) about a Trump administration policy, with no administration voice or competing frame, violates the balance requirement to present what each side says without adopting either voice."
-    ]
-   }
-  ]
- },
- {
   "date": "2026-07-26",
   "approved": 5,
   "rejected": [
@@ -9558,6 +9525,31 @@
     "reasons": [
      "The draft states 'Driscoll submitted his resignation on August 31' but today is September 1, 2026. August 31 is in the past relative to today's date. However, the more critical accuracy issue: the title claims the nomination occurred 'on September 1' (today), and the draft's opening says 'on Tuesday' which is today. The brief's timestamp is '2026-09-01T23:04:17Z'\u2014this is FUTURE to the current moment. The story reports a scheduled/announced event as though it has already occurred. Per the instruction: 'A draft that reports an event dated after today as having already happened is an accuracy REJECT; scheduled events are written as upcoming.' The nomination is announced for Tuesday but the timestamp shows late evening of Sept 1. If this is an announcement of a future nomination, it must be written as 'Trump will nominate' or 'Trump announced plans to nominate', not 'Trump nominated' in past tense.",
      "The draft uses 'Defense Secretary Pete Hegseth' but earlier in the document and in brief context he is called 'War Secretary Pete Hegseth' in a data point. The brief itself contains an inconsistency ('War Secretary' in one data_point), but the draft should use consistent terminology from the brief. More importantly, this appears to be a terminology shift mid-story that could confuse readers."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-09-02",
+  "approved": 5,
+  "rejected": [
+   {
+    "id": "c141",
+    "headline": "U.S. military strikes Iranian targets in response to Strait of Hormuz attacks",
+    "category": "accuracy",
+    "reasons": [
+     "The draft presents the core facts from a single data point in the brief (one Washington Post report) as established fact without any qualifying language. The brief's open_questions show the sourced record is extremely thin: no specifics on targets struck, weapons used, damage assessment, nature or timing of Iranian attacks, casualty figures, or strategic objective. The draft's framing\u2014'The U.S. military carried out strikes against Iranian targets' and 'The strikes represent the latest exchange in an escalating tit-for-tat sequence'\u2014reads as settled narrative when the brief itself marks this as 'thin: true' with only 237 source_chars and a single data point. The characterization of this as part of an 'escalating tit-for-tat sequence' extends beyond what the single source supports and risks presenting an unverified conflict narrative as fact.",
+     "The second paragraph states 'The Strait of Hormuz, through which roughly one-third of global maritime oil traffic transits' is not in the brief and cannot be traced to the provided sources. This is a new fact smuggled into the draft."
+    ]
+   },
+   {
+    "id": "c296",
+    "headline": "Tarrant County, Texas votes to cut polling locations ahead of 2026 midterms",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states the vote occurred 'Tuesday' but does not establish what Tuesday or provide a date. The brief's data_points are timestamped 2026-09-01, which was a Monday. If the vote occurred on Tuesday 2026-09-02 (today, per the instruction), it is future tense and should be written as 'will vote' or 'is scheduled to vote.' If it occurred on an earlier Tuesday, the specific date must be stated. The current phrasing is ambiguous and potentially inaccurate.",
+     "The draft refers to Krause's statement as giving voters 'the opportunity to exercise their right to vote,' but the brief's data_point quotes him as giving them 'the opportunity to exercise their Democratic right.' The draft's version omits 'Democratic' and changes the meaning of the quoted statement.",
+     "The draft attributes the census figures to 'ABC News,' but the brief's data_point cites the figures as '2025 U.S. Census figures cited by ABC News.' The draft should clarify these are census figures that ABC News cited, not ABC News' own figures, to avoid suggesting ABC News generated the demographic breakdown."
     ]
    }
   ]
