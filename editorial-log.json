@@ -1,78 +1,6 @@
 [
  {
   "date": "2026-07-27",
-  "approved": 5,
-  "rejected": [
-   {
-    "id": "c041",
-    "headline": "Three killed, multiple injured in shooting at Seattle food festival",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'Four of the injured were taken to hospital in stable condition, while a fifth declined hospitalization' but the brief data point says 'Four of the injured were taken to hospital in a stable condition, while a fifth chose not to.' The draft adds the qualifier 'declined hospitalization' which is not in the brief and implies a medical judgment not present in the source material.",
-     "The draft states Mayor Wilson 'condemned the shooting as an \"act of horrific violence\"' and includes an extended direct quote starting with 'Impacted families are living through the worst moment of their lives...' However, the brief has Wilson's quote as 'act of horrific violence' separately from the longer statement. The draft merges these into a single condemning statement without making clear these may be multiple separate statements or attributing them with sufficient precision to the source record."
-    ]
-   },
-   {
-    "id": "c002",
-    "headline": "France and Spain battle major wildfires ahead of fourth heat wave",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'More than 300,000 people have been forced to evacuate their homes across both countries' in the lede, but the brief data point states 'More than 250,000 people evacuated in France due to wildfires; over 220,000 residents evacuated in the Gironde region alone.' These numbers do not support the 300,000 figure for both countries combined at the point in the story where it is stated. The brief's data point on total evacuations states 'The devastating wildfires in Spain and France have forced more than 300,000 people to evacuate their homes,' but this appears later in the brief's data points and the Spain-specific numbers (60,000 + 100,000 + 75,000 impacted/evacuated = up to 235,000) combined with France's 250,000+ do not cleanly establish the 300,000 figure as verified in the lead without additional calculation or source verification not present in the brief."
-    ]
-   },
-   {
-    "id": "c186",
-    "headline": "Compounded GLP-1 drugs raise safety concerns among doctors and FDA",
-    "category": "accuracy",
-    "reasons": [
-     "The draft body contains a paragraph ('The brief does not specify...') that explicitly acknowledges the absence of core data points from the research brief, then presents regulatory concerns as fact without those data points. This violates the hard rule that facts must trace to the brief's data_points.",
-     "The draft states 'compounded medications do not undergo the same clinical trials, manufacturing standardization, or quality assurance processes' as fact, but the brief contains zero data_points supporting this claim. The brief is marked 'thin: true' with empty data_points array.",
-     "The draft asserts 'The FDA and medical professionals worry that without these guardrails, patients may face inconsistent dosing, purity issues, or contamination' without citing a single data point from the brief to support these specific concerns.",
-     "The single source provided (The Hill URL) has zero character count in the brief (source_chars: 0), indicating the source was never actually reviewed or data extracted from it. The draft fabricates regulatory analysis from a brief containing no extracted data."
-    ]
-   },
-   {
-    "id": "c050",
-    "headline": "India's education minister resigns after youth-led protests; rare setback for Modi government",
-    "category": "balance",
-    "reasons": [
-     "The brief's bear_case explicitly notes: 'The sources do not include any statement from the Modi government, Minister Pradhan, or government allies defending the resignation or offering a counter-narrative to the protest framing.' The draft contains no counter-narrative, no government statement, and no alternative framing\u2014it presents the protest account as the sole narrative voice throughout.",
-     "The draft reads entirely in the voice of protest advocates ('the erosion of a meritocratic pathway they were promised,' 'a systemic betrayal') without offsetting government or ministerial perspective. A story relying on a single source (BBC) with no contradictory or defensive official statement constitutes one-sided framing of a political resignation.",
-     "The open_questions identify whether 'the government intends to implement...reforms' and what structural changes lie ahead\u2014these are material unknowns that should have prompted either conditional language ('the government has not yet announced whether...') or explicit acknowledgment of the silence. Instead, the draft presents youth grievances as established fact without noting the absence of official response."
-    ]
-   },
-   {
-    "id": "c077",
-    "headline": "Ukrainian Attacks in Crimea Deprive Towns of Power and Water",
-    "category": "accuracy",
-    "reasons": [
-     "The brief contains zero data_points. The draft presents multiple factual claims (\"Ukrainian attacks in Crimea\", \"drone strikes\", \"power and water supplies in towns\", \"towns without power and water\") that cannot be traced to any sourced data in the brief. Per hard rule: no fact exists outside the brief.",
-     "The draft states 'the brief does not address Russian military responses' and 'raises questions about whether economic and humanitarian pressure can alter Putin's calculus'\u2014these are the writer's own reasoning, not from the brief's data or open_questions, which is smuggled analysis."
-    ]
-   },
-   {
-    "id": "c109",
-    "headline": "67 boat strikes. 221 dead. The cocaine hasn't slowed, officials report.",
-    "category": "compliance",
-    "reasons": [
-     "The draft presents a factual dispute between the president's claims and intelligence agencies' findings without attribution discipline. The opening sentence 'The administration's own intelligence agencies have concluded that Operation Southern Spear...has failed' reads as the desk's verdict on a contradiction, not as reported fact. The framing 'contradicts public claims from the president that the operation has virtually ended drug trafficking' adopts an advocacy posture (government failure/dishonesty narrative) rather than reporting what each side says without verdict.",
-     "The statement 'The contradiction raises questions about either the operation's tactical design or the accuracy of public messaging' is the writer's own analysis presented as news judgment, not sourced from the brief."
-    ]
-   },
-   {
-    "id": "c065",
-    "headline": "Can a Progressive Win in a Purple State? Abdul El-Sayed Wants to Find Out.",
-    "category": "compliance",
-    "reasons": [
-     "The draft's title and framing ('Can a Progressive Win in a Purple State?') poses a normative question as though testing an open empirical puzzle, which reads as editorial framing rather than reported fact. The brief's core_claim is that the primary 'will test' this\u2014a forward-looking characterization of what observers say, not a desk-authored question.",
-     "The second paragraph states the race 'is being framed as' and 'is being positioned as' but then the draft shifts to definitive voice: 'The race is also being positioned as a preview of the 2028 presidential primary, where these same divisions are expected to structure candidate recruitment and donor strategies nationally.' This reads as the desk's own political prediction/analysis, not reported characterization.",
-     "The draft avoids any counter-narrative or bear_case. There is no data on El-Sayed's viability, opponent name, or realistic assessment of progressive performance in Michigan\u2014all left as open_questions\u2014yet the draft frames the race as a definitive test of progressive viability without caveat that this framing comes from advocates, not from evidence."
-    ]
-   }
-  ]
- },
- {
-  "date": "2026-07-27",
   "approved": 6,
   "rejected": [
    {
@@ -9325,6 +9253,56 @@
      "The draft states 'U.S. missiles struck Iran's southern coast on the night of September 2' but today is Thursday, 2026-09-03. A strike on the night of September 2 is past tense and appropriate. However, the phrasing 'on the night before the reporting date' in the brief's data_point references 2026-09-02T22:55:26Z as the timestamp, confirming the event occurred before today. This is correct.",
      "The critical accuracy problem: the draft includes reporting about 'a wedding' as context for casualties ('one strike hit a home overlooking the Strait of Hormuz, killing at least four people including two children'). However, the brief's data_point describes this as 'one strike hit a home' with no mention of a wedding. The open_questions section states 'The Guardian source text does not contain reporting on the Iran-U.S. military conflict' and confirms 'Full scope of damage and casualty figures from Iran's perspective remain unclear.' The draft's reference to a wedding in relation to this strike is not present in any data_point and appears to be smuggled information or a confusion with another incident. The only mention of 'wedding' in the brief is in data_point 5 about the communications tower: 'A regional source told PBS News that the U.S. military was targeting and hit a communications tower in the neighborhood where the wedding was held'\u2014but the body of the draft does not mention this wedding context at all, only that people and children died. This omission of the wedding detail (which explains why civilians were present) weakens the civilian casualty framing but is not itself smuggled; however, the reader cannot tell from the draft whether this was a civilian area or an event venue.",
      "More directly: the draft's sourcing appears thin. It cites PBS NewsHour and The Guardian, but the brief's open_questions note explicitly: 'The Guardian source text does not contain reporting on the Iran-U.S. military conflict; it covers an unrelated Congressional investigation.' The draft cannot rely on The Guardian for any of this content. The second source is not actually carrying the reporting claimed."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-09-03",
+  "approved": 6,
+  "rejected": [
+   {
+    "id": "c119",
+    "headline": "Justice Department Reverses 28-Year-Old Policy on State Reporting of Undocumented Immigrants",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states the opinion was issued 'on September 3, 2026' but the brief core_claim and timestamp (2026-09-02T20:02:39Z) indicate it was issued on Tuesday, September 2, 2026. The date in the draft is incorrect.",
+     "The draft claims 'A 2000 federal regulation had required a formal legal finding confirmed by immigration authorities before a state could be said to have such knowledge' but the brief data_point states 'A 2,000 federal regulation' (which appears to be a typo in the brief for 2000). This is a minor issue but the draft's correction of the apparent typo is acceptable. However, the date discrepancy is a hard accuracy failure."
+    ]
+   },
+   {
+    "id": "c108",
+    "headline": "Billionaire Leon Black sues House Oversight Committee over Epstein subpoenas, September 3",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Black's challenge blocks him from a scheduled deposition the committee intended to hold on September 3.' This reads as though the deposition was scheduled for September 3 and the lawsuit filed on September 3 blocked it. However, the brief and draft both indicate the lawsuit was filed on September 3 (today, per the instructions) and Comer stated the deposition 'is moving forward this morning.' The phrasing creates ambiguity about whether the deposition actually occurred or was prevented. The draft later reports 'Comer stated the committee's deposition \"is moving forward this morning for the record and there will be an empty chair for Mr. Black.\"' This indicates the deposition proceeded despite the lawsuit, contradicting the opening implication that the lawsuit blocked it.",
+     "The draft says Garcia 'accused Black of having \"funded Epstein's abuse and trafficking of women.\"' This is a serious allegation of criminal complicity presented as fact from a single source (a politician's statement). The brief shows this statement comes only from Garcia's September 3 statement per The Guardian. This is a reputationally damaging claim about a named individual carried on a single secondary source (Garcia's quote, not independent reporting or court filings). It requires either attribution as Garcia's characterization or removal, as it implies Black funded trafficking rather than reporting what Garcia said Black did."
+    ]
+   },
+   {
+    "id": "c149",
+    "headline": "Story cannot be published: source material does not match headline",
+    "category": "accuracy",
+    "reasons": [
+     "The draft itself is a meta-commentary stating no story can be drafted because the source material does not support the headline. This is not a publishable news story; it is a research failure note. The body reads as internal research documentation, not journalism. The core problem is upstream (source fetch), not a drafting error that can be fixed by cutting sentences. The brief explicitly confirms: 'Source text does not address Iran's military actions, Trump's warning, or any retaliation mentioned in the headline.' No facts in this draft trace to the brief's data_points because the brief contains only facts about a Jeffries-Kushner meeting, not Iran military action. Publishing this as a story would be publishing research debris, not news."
+    ]
+   },
+   {
+    "id": "c270",
+    "headline": "Mine safety official drops legal challenge after Trump firing, September 2",
+    "category": "accuracy",
+    "reasons": [
+     "The draft claims Marvit 'moved on September 2' to drop his legal challenge, but the brief's data_point states he 'moved to voluntarily drop his legal challenge on Wednesday,' and the brief's timestamp is 2026-09-03 (today is Thursday, September 3). Wednesday relative to today (Thursday) is September 2, so that checks out\u2014BUT the draft then says 'September 2' as a fact-claim when the source timestamp is September 3 and the brief only says 'Wednesday.' The draft is presenting a specific date (September 2) that is not explicitly in the data_point; the brief says 'Wednesday' (confidence 'reported'). A one-day discrepancy in a legal filing date is material and the draft has invented precision. Additionally, the bottom_line makes a claim not in the brief: 'the first documented case of a federal official abandoning a legal defense based on the recent Supreme Court expansion of firing authority.' The brief does not state this is the 'first documented case' across the federal workforce\u2014that is a characterization the writer added. The brief's open_questions note that the source text does not provide 'the specific Supreme Court ruling,' yet the bottom_line presents the expansion as established fact in the desk's own voice, and the body references it as proven context ('citing the Supreme Court's expansion of presidential firing power') without attribution to Marvit or the source. This blurs what is reported vs. what is asserted."
+    ]
+   },
+   {
+    "id": "c269",
+    "headline": "Two Democrats defect to Republicans as Jeffries faces party discipline question, September 3, 2026",
+    "category": "accuracy",
+    "reasons": [
+     "The draft names only one defector fully (Jared Golden) and leaves the second defector's name incomplete ('Marie according to reporting from The Hill'), making it impossible for readers to know who the second defector is. The brief itself notes this as an open question: 'What is the second defector's full name (source text cuts off)?' The writer cannot publish a story identifying two named individuals when one name is incomplete; this is not publishable as written.",
+     "The draft states 'Two Democratic representatives voted with Republicans on floor measures' without specifying what measures those were. The brief's open_questions flag this: 'What specific GOP-backed measures did the two Democrats help advance?' A reader cannot evaluate the significance of the defection without knowing what votes triggered it.",
+     "The sentence 'The move has split the Democratic caucus between members calling for punishment and those warning that harsh discipline could backfire ahead of the 2026 midterm elections' attributes the split to 'The Hill' via in-article attribution, but the brief shows the data_point 'Jeffries is facing pressure from the left to punish' and 'Some in the Democratic party are urging restraint' are both marked 'reported' confidence, not verified-on-chain. More critically, the draft provides no names, quotes, or specific attribution for who is calling for what\u2014the brief's open_questions explicitly ask: 'Which Democrats and which party factions are calling for punishment vs. restraint\u2014specific names and quotes?' Without these, the claim reads as the desk's own characterization, not sourced reporting."
     ]
    }
   ]

@@ -1,0 +1,36 @@
+{
+  "id": "c172",
+  "slug": "thirty-new-lawsuits-claim-openai-executives-prioritized-image-over-safety-in-canadian-shooting-september-2",
+  "kind": "brief",
+  "title": "Thirty new lawsuits claim OpenAI executives prioritized image over safety in Canadian shooting, September 2",
+  "dek": "New lawsuits filed on September 2 allege that OpenAI's public relations team, led by Chief Global Affairs Officer Chris Lehane, overrode safety recommendations from the company's threat assessment team to alert Canadian police about an alleged shooter's violent ChatGPT conversations. The allegations concern a February 2026 mass shooting in Tumbler Ridge, British Columbia, that killed six people and injured two dozen others. OpenAI disputes the claims about internal decision-making.",
+  "date": "2026-09-03",
+  "published_utc": "2026-09-03T14:45:04Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 12,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Thirty new complaints were filed on September 2 alleging that OpenAI's global affairs team overruled its Intelligence and Investigations team's recommendation to alert Canadian police about an alleged shooter's flagged violent ChatGPT conversations.",
+  "bottom_line": "The court will now adjudicate whether the new complaints survive a motion to dismiss and whether the original April lawsuits proceed in federal court or are transferred to British Columbia. The central factual dispute is whether OpenAI's Intelligence and Investigations team made a formal recommendation to alert police in June 2025, and if so, who decided not to follow it and why.",
+  "human_take": "",
+  "body": [
+    "Thirty new complaints were filed against OpenAI and CEO Sam Altman on September 2 in San Francisco federal court by people present at the Tumbler Ridge mass shooting in British Columbia. The plaintiffs, including students, teachers, and a principal, allege that OpenAI's public relations team overrode safety recommendations to alert law enforcement about an alleged shooter's violent ChatGPT conversations.\nThe allegations center on the company's response to flagged activity. According to NPR, in June 2025, OpenAI's automated systems flagged an account belonging to 18-year-old Jesse Van Rootselaar for \"gun violence activity and planning,\" and OpenAI deactivated the account. NPR reports that when OpenAI's Intelligence and Investigations team reviewed the flagged conversations, they determined the conversations \"posed a credible threat of gun violence against real people\" and recommended the company alert the Royal Canadian Mounted Police.\nJay Edelson, the lead attorney representing victims and families, told NPR: \"The new complaints show the larger impact and how many people's lives were really destroyed, all based on decisions made by people at OpenAI.\" Edelson characterized Lehane's concerns this way, per NPR: \"Instead of focusing on what's safe for the community, he's focused on, what are the political and public relations fallout going to be if this becomes public?\"\nThe shooting itself was severe. According to NPR, Van Rootselaar killed five students and a teacher before killing herself. Around two dozen others were injured. Authorities later learned that Van Rootselaar had also killed her mother and an 11-year-old half-brother at their home prior to coming to the school.\nOpenAI disputes the allegations about its internal decision-making structure. Chief Strategy Officer Jason Kwon issued an emailed statement, per NPR: \"It's absolutely false to say Chris Lehane was involved with our original referral decision, or that our investigators report to him in any way.\" Kwon stated, according to NPR: \"It's also completely untrue to say that the people at the center of these challenging decisions do not prioritize safety, or that there are 'political' or 'public relations' factors at play.\"\nKwon told NPR that OpenAI's Intelligence and Investigations team and legal department report to him, not to Lehane, and that they \"work hard to define standards and processes for when to report cases to law enforcement and to apply those standards to really difficult and complex situations.\" Kwon added, per NPR: \"The professionals working on these teams choose to do this incredibly difficult work because they care so deeply about keeping people safe. They come to work every day knowing that they may have to make a decision that they'll think about for the rest of their lives.\"\nThese new complaints follow an earlier round of lawsuits. In April 2026, families of seven victims injured or killed in the shooting sued OpenAI and Altman for failing to notify law enforcement. On September 2, the same day the new complaints were filed, OpenAI asked the court to dismiss the original April lawsuits, arguing the cases would be better heard in British Columbia, per NPR.\nVan Rootselaar created a second ChatGPT account after the first was deactivated and continued to have conversations with ChatGPT, per NPR. OpenAI says it was not aware of the second account until after the shooting in February. In prior statements about the Tumbler Ridge lawsuits, OpenAI said it had a \"zero tolerance\" policy for using its tools to assist in committing violence and stated: \"When conversations indicate an imminent and credible risk of harm to others, we notify law enforcement.\""
+  ],
+  "sources": [
+    {
+      "title": "NPR",
+      "url": "https://www.npr.org/2026/09/02/nx-s1-5953021/openai-tumbler-ridge-mass-shooting"
+    },
+    {
+      "title": "The Wall Street Journal",
+      "url": "https://www.wsj.com/us-news/law/openai-lawsuits-mount-over-canadian-school-shooting-ca24c762?mod=rss_worldnews"
+    }
+  ],
+  "event_utc": "2026-09-02T12:22:42Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-03T14:45:04Z",
+    "sources_cited": 2,
+    "sources_live_checked": 1
+  }
+}
