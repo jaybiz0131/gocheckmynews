@@ -1,0 +1,58 @@
+{
+  "id": "c096",
+  "slug": "three-dead-including-suspect-and-others-injured-in-minneapolis-apartment-building-shooting",
+  "kind": "brief",
+  "title": "Three dead, including suspect, and others injured in Minneapolis apartment building shooting",
+  "dek": "Two civilians and a suspect were killed, and six others including three police officers were injured in a shooting at a downtown Minneapolis apartment building on September 2, 2026. Police responded to a report of gunfire around 4:36 p.m. and officers encountered victims and additional gunfire as they entered the high-rise building.",
+  "date": "2026-09-03",
+  "published_utc": "2026-09-03T01:25:15Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 2,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Two civilians and the suspected shooter were killed; three police officers were among six others injured in a shooting at a downtown Minneapolis apartment building on September 2.",
+  "bottom_line": "The circumstances of the suspect's death remain undisclosed, as do the identities of those killed and the timeline of events inside the building. These details will be central to understanding how the incident unfolded and the police response.",
+  "human_take": "",
+  "body": [
+    "Two civilians and a suspect were killed, and six others including three police officers were injured in a shooting at a downtown Minneapolis apartment building on September 2.",
+    "Police responded to a report of one person shot at 15 East Grant Street at around 4:36 p.m., according to NBC News. Additional 911 callers reported hearing more gunfire after the initial report. Responding officers entered the high-rise apartment building and \"encountered victims and heard additional gunfire.\" Officers followed the sound of gunfire to an upper floor of the building and \"encountered a haze that significantly limited their visibility,\" per NBC News reporting.",
+    "Three officers were injured in total; two were shot. One shot officer was in surgery Wednesday evening; the other suffered a gunshot wound to the leg that was not life-threatening. A third officer was being evaluated for a different injury that was not life-threatening, according to NBC News. Four other people with apparent gunshot wounds were taken to the hospital, where one died. An additional person died at the scene, per NBC News reporting.",
+    "The suspected shooter is also dead. According to NBC News, it is unknown how the suspect died. The identity of the suspect has not been released, nor have the identities of the two civilians killed been disclosed.",
+    "Police Sergeant Garrett Parten said: \"This afternoon, a tragic scene has unfolded that has impacted numerous lives.\" A witness told KARE reporter that after leaving the building she heard \"lots of more shots\" and \"probably heard 25 to 30 shots\" after leaving the building because \"there were multiple officers who had went in and entered.\"",
+    "The city government told people to avoid a multi-block area that included Loring Park. The city later said that the area was secure and that there was no further threat to the public, according to NBC News. Minnesota Governor Tim Walz said: \"Minnesota is praying for our first responders.\"",
+    "The federal Bureau of Alcohol, Tobacco, Firearms and Explosives in St. Paul said it was responding to the scene. FBI Director Kash Patel said on X that the FBI was aware and that its personnel was responding, stating \"We will offer any and all resources necessary to assist local authorities.\" The Hennepin County Medical Center said it did not have conditions available for the injured patients, per NBC News reporting."
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/news/us-news/multiple-people-officers-shot-minneapolis-rcna595798"
+    },
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/video/minneapolis-shooting-suspect-is-dead-multiple-people-injured-269250629977"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/homenews/state-watch/6067788-2-people-killed-suspect-dead-after-shooting-in-minneapolis-apartment-building/"
+    },
+    {
+      "title": "The New York Times",
+      "url": "https://www.nytimes.com/2026/09/02/us/shooting-minneapolis-downtown.html"
+    },
+    {
+      "title": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPcW94dWlQT09saFl0TWw5b3pqWk5iS3lMOTBwUFEzZ3NpZ2xsaGxqSDJlVGx5UDNWS1JzRTNiU2VsaEVTV1J5T281dzhIVDFqN2c3WmVjVk1HSEd4aGRZNlcyaVB2ZUxFVkRXMGFzdHUwR05UZVE1MFk1MFAyOW5oSU1hRDBPN1IzRWhBeEhkbHo3cmVwRmlrNzlxYU9EbkVSTE5ZdmxQWTNpR0VOWXJCY05VNXVaUDhDX1pLeU41M2RiT1U3V2ZtRmEzd1FEc0lwWnJHSkJyVTM5dGstTmd6VkpadWxVUWNxS2pIVVl3cURfME5mUFYwdEhVT3QyZnk3a1JZelgyWUoxZmN1d1cwY3lwUzRITlk3UGc?oc=5"
+    },
+    {
+      "title": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVWk3UGtZejVzRS1SVzZ5eGJncGFLckJQeXpEY2Zmd0V3eVlMenZGcXlfakFsdzVCcTNIcG5PZ2pjWEt6SzVMcmduaFY2cy1PeUFlRFlyWDk2dFFBdWlsZUIxNFBtUEJsNnFLZ082bDZ3VXJwcXBaVGY0SXRySVNUMFlXYkdXejlKLU4xSkhCWGhwNTljOE80WU9ocHFiMUdCUmVIU0tzR0JPcXNs?oc=5"
+    }
+  ],
+  "event_utc": "2026-09-02T22:52:43Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-03T01:25:15Z",
+    "sources_cited": 6,
+    "sources_live_checked": 3
+  }
+}

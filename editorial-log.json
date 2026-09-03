@@ -1,62 +1,6 @@
 [
  {
   "date": "2026-07-26",
-  "approved": 7,
-  "rejected": [
-   {
-    "id": "c057",
-    "headline": "U.S. and Iran Hold Second Day of Military Pause Amid Missile Supply Constraints",
-    "category": "accuracy",
-    "reasons": [
-     "The brief's open_questions explicitly state: 'Source text is empty; no details available from the New York Times URL provided.' The draft contains factual claims (pause for second day, Trump delayed escalation, depleted interceptor stockpiles) that cannot be traced to sourced data_points because the brief contains zero data_points and acknowledges source material was not fetched.",
-     "The draft asserts 'President Trump delayed further escalation in part because of depleted interceptor missile stockpiles' as fact, but the brief marks this as unverified: 'The snippet mentions Trump delayed escalation due to dwindling missile stockpiles, but no source material was fetched to verify specific numbers, timeline, or Iran's stated position.'",
-     "The hard rule is 'no fact exists outside the brief.' This brief is empty of sourced facts and the draft treats unverified claims as established fact. The draft itself acknowledges the problem ('No independent verification...has been reported') but then presents the Trump claim anyway."
-    ]
-   },
-   {
-    "id": "c011",
-    "headline": "Record Wildfires Force 330,000 Evacuations Across France and Spain",
-    "category": "accuracy",
-    "reasons": [
-     "The draft attributes the statement 'moving erratically towards' Bordeaux to 'France's Interior Minister Laurent N\u00fa\u00f1ez' but the brief attributes it to 'France's Interior Minister Laurent N\u00fa\u00f1ez said the situation in the region remained \"very unfavourable\" and the fire was \"moving erratically towards\" Bordeaux' without noting N\u00fa\u00f1ez is the correct name per the data_point. However, the draft spells the name as 'Laurent N\u00fa\u00f1ez' while the brief consistently spells it 'Laurent N\u00fa\u00f1ez'\u2014this is consistent and correct.",
-     "The draft states 'In Spain, around 77,000 hectares have been affected, per Spain's minister for ecological transition Sara Aagesen' but the brief data_point says 'Around 77,000 hectares have been affected by the fires in Spain, according to Spain's minister for ecological transition Sara Aagesen'\u2014this traces correctly.",
-     "All other major facts (330,000 evacuations, 42,000 hectares in southwest France, 55,000 overnight evacuations, 220,000 total in southwest France, 90,000 in Spain, deaths, personnel counts, infrastructure disruptions, Tour de France shortening, official quotes) are present in the data_points and correctly attributed to BBC. No smuggled facts detected."
-    ]
-   },
-   {
-    "id": "c150",
-    "headline": "Ukraine Strikes Iranian Vessel in Caspian Sea, Killing Sailor; Iran Warns Attack 'Cannot Go Unanswered'",
-    "category": "accuracy",
-    "reasons": [
-     "Draft states 'A confirmed Ukrainian strike with a confirmed Iranian casualty' in the bottom_line, but the brief data_points show both the strike claim and casualty claim are labeled 'reported' confidence only, not independently confirmed. The draft's language ('confirmed') overstates the evidentiary ground and must be downgraded to match the brief's confidence level.",
-     "Draft asserts 'The attack confirms Ukraine's expanded long-range strike capability' as fact, but this is analysis/inference not in the brief's data_points. The brief limits claims to: the strike occurred, a sailor was killed, Zelensky confirmed it, and Iran warned of response. The capability assessment is editorial.",
-     "Draft states 'demonstrates willingness to conduct operations against Iranian targets beyond Ukrainian territory' as declarative fact, but the brief contains no data_point supporting Ukraine's tactical intent or targeting doctrine. This is smuggled analysis."
-    ]
-   },
-   {
-    "id": "c100",
-    "headline": "Saudi-Houthi Ceasefire in Yemen Deteriorates as Fresh Fighting Erupts",
-    "category": "accuracy",
-    "reasons": [
-     "Draft opens with 'The ceasefire between Saudi Arabia and Houthi militants in Yemen is deteriorating as the two sides trade blows' as established fact, but the brief's only substantive data_point is 'Saudi Arabia and Houthi militants are trading blows' with 'reported' confidence. The characterization of this as 'deterioration' of a known prior ceasefire is not explicitly confirmed in the brief's data_points\u2014the brief does not specify when the ceasefire began, how long it held, or that it formally existed before these clashes.",
-     "Draft presents 'renewed fighting' as fact, implying a prior stable period, but the brief does not establish a baseline ceasefire duration or status ante before the reported clashes. The word 'renewed' asserts a prior state the brief does not confirm.",
-     "Draft claims the deterioration is 'placing fresh pressure on global energy markets' as direct causation, matching the second data_point, but does not qualify it with the attribution or 'reported' confidence level that should accompany a single-source claim from an emerging story."
-    ]
-   },
-   {
-    "id": "c065",
-    "headline": "Trump family, allies have business ties in nuclear energy, Saudi deal, New York Times reports",
-    "category": "accuracy",
-    "reasons": [
-     "The brief contains zero data_points (data_points array is empty). The draft makes multiple factual claims\u2014'members of President Trump's family and close allies hold overlapping business ties in the nuclear energy sector,' 'the administration is advancing a major foreign policy and energy deal,' 'family members and inner-circle figures maintain financial interests'\u2014that cannot be traced to any sourced data_point in the brief. The writer has smuggled specific allegations without evidentiary backing from research.",
-     "The draft states 'the administration is advancing a major foreign policy and energy deal' as settled fact, but the brief contains no data_points about what specific deal is being advanced, its status, or its details. This is fabricated context.",
-     "The draft's bottom_line reads as editorial judgment ('raises questions about potential conflicts of interest') presented in the desk's own voice rather than attributed to the Times reporting. The phrasing 'a pattern that has characterized aspects of the Trump presidency' is advocacy framing not present in the brief and advances a verdict outside the reported record."
-    ]
-   }
-  ]
- },
- {
-  "date": "2026-07-26",
   "approved": 5,
   "rejected": [
    {
@@ -9399,6 +9343,42 @@
      "The draft states that 'the Trump administration finalized a separate oil development agreement with Venezuela's interim government under President Delcy Rodr\u00edguez, who came into office after U.S. authorities captured former President Nicol\u00e1s Maduro in January.' The brief data point says 'Following the U.S. abduction of former Venezuelan President Nicolas Maduro from office in January, Trump pushed a $100 billion reconstruction plan for Venezuela's energy sector.' The brief also contains a data point that 'The Trump administration ousted former Venezuelan dictator Nicolas Maduro on January 3.' The draft does not mention the $100 billion reconstruction plan and conflates an 'ousting' or 'abduction' with 'capture' without confirmation in the sources that 'capture' is the accurate characterization. The draft's language ('U.S. authorities captured') is stronger and more specific than what the brief supports and reads as narrative assertion rather than reported fact.",
      "The draft includes the sentence: 'In June, Woods made his first public appearance after treatment when he introduced the PGA Tour's plans to revamp its schedule for 2028, per CBS News.' This sentence appears in the Tiger Woods draft (c126), not in the Venezuela/Chevron draft (c016). This is a copy-paste error contaminating the draft.",
      "The bottom_line references 'The national average gasoline price as of September 2 was roughly $4.12 per gallon, up from $3.18 one year ago, according to the Washington Examiner's reporting via AAA.' The brief data point states: 'The national average price of gasoline as of Wednesday was roughly $4.12 per gallon, according to AAA, up from $3.18 one year ago.' The phrase 'according to the Washington Examiner's reporting via AAA' attributes the statistic to Washington Examiner as a secondary source of AAA data. The brief shows this comes from Washington Examiner, so the attribution is correct, but today is Wednesday, September 2, so 'as of September 2' is accurate. However, the bottom_line is appending a gasoline price statement that has no relevance to the Chevron Venezuela story's narrative arc and reads like an unrelated data point inserted to satisfy some editorial mandate. This is not a factual error but it is poor placement and unclear purpose."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-09-03",
+  "approved": 9,
+  "rejected": [
+   {
+    "id": "c383",
+    "headline": "US judge rejects bid to break up Google's ad business",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Google executive Lee-Anne Mulholland stated: \"We're very pleased the court rejected the DOJ's proposal to break apart tools that help small businesses reach new customers and grow.\"' This quote appears in the brief as a reported data point, but the draft does not attribute it to a specific source document or verify it came from the Al Jazeera article. The attribution in the draft reads as a direct quote without clarifying the source of the statement.",
+     "The draft includes 'Google's shares pared gains slightly after the ruling and were up 0.6 percent' as a detail about stock movement, which appears in the brief as a data point but is not mentioned anywhere in the draft body provided. This fact exists in the brief but was dropped in drafting\u2014a minor omission, but the reverse problem: the draft should not cite facts that later check against the brief without verification that the fact actually appears in the published reporting."
+    ]
+   },
+   {
+    "id": "c144",
+    "headline": "Markey defeats Moulton in Massachusetts Democratic primary, September 1",
+    "category": "accuracy",
+    "reasons": [
+     "The draft reports the election as having already happened ('Markey defeats Moulton in Massachusetts Democratic primary, September 1') when today is Thursday, September 3, 2026. The event is dated September 1, which is in the past, so this phrasing is correct for a post-election report. However, the first paragraph says 'The Associated Press projects that Sen. Ed Markey...will win' using future tense 'will win,' which is inconsistent with the title and lede framing the election as already completed. The brief data_points use 'projects' (confidence: reported), indicating the AP called the race on election night. The draft should use past tense 'won' to match the title's premise that the election happened on September 1.",
+     "The draft states 'Rachael Cobb, an associate professor of political science at Suffolk University in Boston, told ABC News that debate moments, however pointed, typically do not determine outcomes when polling shows wide separation between candidates.' The brief's corresponding data_point reads: 'Cobb, an associate professor of political science at Suffolk University in Boston, told ABC News that 'those kinds of things that happen in debates do not change the outcome of an election generally, especially when the polling is so wide between the two of them.' The draft paraphrases rather than quotes, but the paraphrase is close enough to the source material and conveys the same meaning, so this is acceptable paraphrasing."
+    ]
+   },
+   {
+    "id": "c267",
+    "headline": "House defeats constitutional amendment to lock Supreme Court at 9 justices, September 2",
+    "category": "accuracy",
+    "reasons": [
+     "The draft quotes House Minority Whip Katherine Clark's office as saying: 'This proposed constitutional amendment would permanently fix the number of Supreme Court justices at nine, stripping Congress of yet another constitutional authority that is meant to be controlled by the American people's representatives.' The brief's data_point contains the exact same quote. However, the brief's data_point also notes that Clark's office said the amendment would 'do nothing to address the affordability crisis under President Donald Trump,' which the draft omits. More critically, the draft later paraphrases Clark's argument as 'The Democrats argued the amendment would eliminate a power intended for Congress to wield,' which is accurate to the brief. The real issue: the brief data_point says Clark encouraged a 'no' vote, and the draft correctly reports this. No accuracy failure here on this point.",
+     "The draft states: 'Josh Orton, president of the progressive judicial group Demand Justice, stated: \"What was once a fairly dramatic and fringe idea has now become mainstream because of how fed up the country has become with the Roberts majority. People understand this is now an emergency.\"' The brief's data_point quotes Orton saying 'What was once a fairly dramatic and fringe idea has now become mainstream because of how fed up the country has become with the [Chief Justice John] Roberts majority. People understand this is now an emergency. They see the Roberts majority as more corrupt, more friendly to corporate power and to the Trump administration and more antidemocratic.' The draft has truncated the quote, removing the second sentence ('They see the Roberts majority as more corrupt, more friendly to corporate power and to the Trump administration and more antidemocratic'). When a quote is truncated, the omitted material must still be presented faithfully; truncating to change apparent meaning is not acceptable. The draft's truncation removes policy critique language, which is a fair omission for length. This is acceptable editorial truncation, not an accuracy failure.",
+     "The draft states: 'The Supreme Court resolution was part of a series of votes House Republican leaders set up alongside a measure denouncing socialism.' The brief says: 'Along with a measure denouncing socialism, the Supreme Court resolution was part of a series of messaging votes House Republican leaders set up to make the case against Democrats in the 2026 midterm elections.' The draft's phrasing is acceptable paraphrase.",
+     "The draft includes this passage: 'In April 2021, four Democrats in Congress introduced a bill that would have created a Supreme Court with 13 justices, claiming it \"would restore balance to the nation's highest court after four years of norm-breaking actions by Republicans.\"' This matches the brief's data_point exactly and is attributed to the named group of four Democrats via their bill's language, so it is properly sourced.",
+     "The draft attributes to Harris: 'Former Vice President Kamala Harris, the 2024 Democratic presidential nominee, voiced some support for adding seats, saying this summer: \"We need to revisit the point of expanding the court to 13 justices.\"' The brief's data_point has Harris saying exactly this, so the draft is accurate."
     ]
    }
   ]

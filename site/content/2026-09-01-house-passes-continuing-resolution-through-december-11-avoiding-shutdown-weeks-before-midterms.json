@@ -57,7 +57,7 @@
     "sources_cited": 6,
     "sources_live_checked": 3
   },
-  "updated_utc": "2026-09-02T11:45:31Z",
+  "updated_utc": "2026-09-03T01:25:15Z",
   "merged_from": [
     {
       "id": "c016",
@@ -68,6 +68,11 @@
       "id": "c269",
       "title": "House passes government funding through December 11, avoiding pre-election shutdown",
       "published_utc": "2026-09-02T11:45:31Z"
+    },
+    {
+      "id": "c310",
+      "title": "House passes continuing resolution on September 1, extending government funding to December 11",
+      "published_utc": "2026-09-03T01:25:15Z"
     }
   ]
 }

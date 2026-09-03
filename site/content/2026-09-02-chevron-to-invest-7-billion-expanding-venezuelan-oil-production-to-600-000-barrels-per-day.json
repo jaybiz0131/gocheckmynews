@@ -28,6 +28,10 @@
     {
       "title": "The Hill",
       "url": "https://thehill.com/policy/energy-environment/6063579-chevron-expands-venezuela-oil-production/"
+    },
+    {
+      "title": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/world/u-s-oil-giant-chevron-confirms-it-will-expand-operations-in-venezuela"
     }
   ],
   "event_utc": "2026-09-02T11:58:53Z",
@@ -36,5 +40,13 @@
     "checked_utc": "2026-09-02T14:45:09Z",
     "sources_cited": 3,
     "sources_live_checked": 2
-  }
+  },
+  "updated_utc": "2026-09-03T01:25:15Z",
+  "merged_from": [
+    {
+      "id": "c021",
+      "title": "Chevron commits $7 billion to expand Venezuelan oil production to 600,000 barrels daily",
+      "published_utc": "2026-09-03T01:25:15Z"
+    }
+  ]
 }
