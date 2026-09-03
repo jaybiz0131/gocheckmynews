@@ -1,0 +1,36 @@
+{
+  "id": "c105",
+  "slug": "house-passes-israel-boycott-penalties-bill-237-169",
+  "kind": "brief",
+  "title": "House passes Israel boycott penalties bill, 237-169",
+  "dek": "The House passed the Protect Economic and Academic Freedom Act on September 3 by a 237-169 vote, requiring federally funded universities to certify they do not boycott Israel or restrict students from participating in Israeli programs. Thirty-three Democrats joined Republicans; two Republicans opposed. The bill now heads to the Senate.",
+  "date": "2026-09-03",
+  "published_utc": "2026-09-03T21:05:20Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 12,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Universities receiving federal funding for international study and foreign language programs must certify annually they do not restrict students participating in Israeli programs or Israeli students in on-campus programs.",
+  "bottom_line": "The Senate will decide whether to pass the bill; if it does and Trump signs, the question becomes whether federal courts will uphold the certification requirement or strike it down as conditioning funds on suppressed speech. The False Claims Act provision could trigger the first wave of litigation once the law takes effect.",
+  "human_take": "",
+  "body": [
+    "The U.S. House of Representatives passed the Protect Economic and Academic Freedom Act on September 3 by a 237-169 vote, according to the Guardian. The bill requires federally funded universities to certify annually that they do not participate in boycotts of Israel or restrict students from participating in Israeli academic programs. Thirty-three Democrats voted in favor; only two Republicans opposed.\nUnder the measure, institutions receiving federal funds for international study and foreign language programs must certify that they do not impose restrictions on students participating in programs in Israel, or on students from Israel participating in on-campus programs. The bill bars universities from pulling out of \"conferences, teaching exchanges, cultural exchanges, study abroad programs, joint research, and other collaborative educational activities\" with U.S. partners, per Reason magazine's reporting.\nRepublican chair of the House education committee Tim Walberg stated: \"This legislation is about a simple principle: our colleges and universities should not discriminate against Israel, Israeli institutions or Israeli students, and federal taxpayer dollars should never support institutions that engage in such discrimination.\" Democratic co-sponsor Josh Gottheimer, representing New Jersey, described the proposal as \"narrow and tailored\" and necessary to combat antisemitism.\nOpposition centers on First Amendment grounds. Bobby Scott, the top Democrat on the education committee, stated: \"No college or university has embraced the BDS movement anyway. So, we should combat antisemitism wherever it occurs, but we should not do so by punishing protected speech or conflating a student's view with university policies.\" Jenin Younes, president of the American-Arab Anti-Discrimination Committee, stated: \"The Supreme Court has made clear that the government cannot condition its funding on suppression of First Amendment-protected activity. Courts also recognise that boycotts constitute such activity.\"\nThe International Court of Justice ruled in 2024 that Israeli settlements in the West Bank, including East Jerusalem, \"have been established and are being maintained in violation of international law.\"\nLara Friedman, president of the Foundation for Middle East Peace, points out that the bill would create grounds for lawsuits under the False Claims Act against universities accused of boycotting U.S. partners. The congressional report attached to the bill argues that the First Amendment \"protected the expressive activities accompanying a boycott, not the commercial decision itself to refuse to do business with a particular entity.\" Robert McCaw, CAIR's government affairs director, called the proposal \"a blatant attempt to hold American students' financial futures hostage in order to shield the Israeli government and entities operating under Israeli law from peaceful economic pressure.\"\nAfter the October 7 attack and Israel's invasion of Gaza, student and faculty groups at some universities intensified calls for boycott, according to the Guardian, though they were largely unsuccessful. Several American student councils have voted to cut ties with Israel in response to the war, including at Yale University and several University of California campuses, but none of those schools followed through, per Reason magazine. The two Republicans who voted against the bill, Thomas Massie and Warren Davidson, have been critical of Washington's Middle East policy.\nThe measure now goes to the Senate for consideration and would require approval from President Donald Trump to become law."
+  ],
+  "sources": [
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/2026/sep/03/israel-boycott-university-ban-bill"
+    },
+    {
+      "title": "aljazeera.com",
+      "url": "https://www.aljazeera.com/news/2026/9/3/advocates-decry-us-house-vote-to-defund-universities-that-boycott-israel?traffic_source=rss"
+    }
+  ],
+  "event_utc": "2026-09-03T16:15:49Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-03T21:05:20Z",
+    "sources_cited": 2,
+    "sources_live_checked": 3
+  }
+}
