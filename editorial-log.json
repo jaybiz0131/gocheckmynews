@@ -1,67 +1,6 @@
 [
  {
   "date": "2026-07-27",
-  "approved": 6,
-  "rejected": [
-   {
-    "id": "c019",
-    "headline": "US and Iran pause attacks as talks resume; oil prices fall sharply",
-    "category": "compliance",
-    "reasons": [
-     "The draft presents a potential prediction or interpretation of market behavior ('Markets are treating the pause as a potential de-escalation') as fact rather than as attributed analysis or speculation. The bottom_line states 'Markets are treating the pause as a potential de-escalation' without sourcing this interpretation to an analyst or official; this reads as the desk's own market analysis rather than reported fact.",
-     "The statement 'higher inflation raises the possibility that central banks will increase interest rates' in the body text reads as economic explanation or advice rather than reported fact. While sourced to BBC, the phrasing 'raises the possibility' and the conditional framing about what 'will' happen to rates borders on financial or economic advice, especially in a sentence that does not clearly attribute the causal claim to a source."
-    ]
-   },
-   {
-    "id": "c002",
-    "headline": "Wildfires force 300,000 evacuations across France and Spain; heat wave arrives Wednesday",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'Wildfires across southern France and central Spain have forced more than 300,000 people to evacuate their homes' in the opening, but the brief data_point specifies 'More than 250,000 people evacuated in southern France' with a separate total of 300,000+ overall. The draft's opening conflates the France-only figure with the combined total without clarity; later in the body it states '300,000' people evacuated but the first paragraph's phrasing is ambiguous about whether this is France alone or France+Spain combined. The body later says 'Over 220,000 residents were evacuated from Gironde alone,' which sums to less than 250,000 for France and does not reconcile the 250,000 figure stated in the brief for all of southern France.",
-     "The draft states 'Spanish Prime Minister Pedro S\u00e1nchez said on Saturday that this summer is on track to be the hottest on record in Spain,' but the brief data_point attributes this claim to Aemet (Spain's national meteorology agency), not to S\u00e1nchez. The draft attributes the climate statement to S\u00e1nchez later in the acreage paragraph, which is a different sourcing than the brief provides."
-    ]
-   },
-   {
-    "id": "c074",
-    "headline": "Election Denier Nominated for Arizona Secretary of State",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states Kolodin 'advanced through the Republican primary to become the party's nominee' but the brief's data_points confirm only that 'Arizona GOP primary voters nominated' him. The draft adds interpretive language ('advanced through') not present in the sourced reporting.",
-     "The draft characterizes the bar discipline as an 'admonition' but the brief's confidence label is 'reported' and the open_questions specifically ask 'What was the nature and severity of the bar admonition\u2014was it a public reprimand, censure, or other disciplinary measure?' The specific term 'admonition' is not verified in the brief; the draft presents it as settled when it remains unconfirmed.",
-     "The brief is marked 'thin: true' with only two data_points and explicitly unresolved questions about the nature of the discipline. The draft should signal this uncertainty rather than assert 'admonition' as fact."
-    ]
-   },
-   {
-    "id": "c168",
-    "headline": "Acting DNI Pulte announces additional staff layoffs ahead of Senate vote on replacement",
-    "category": "accuracy",
-    "reasons": [
-     "The draft describes Pulte as 'President Donald Trump's attack dog' in the voice of the Washington Examiner reporting, but the brief's data_point says Pulte is 'described as a controversial figure known as President Donald Trump's attack dog'\u2014the attribution to the source's description is stripped from the draft prose, presenting characterization as fact rather than as reported characterization.",
-     "The draft states 'The scale, scope, and rationale for the additional cuts announced were not detailed in available reporting' and 'No specific numbers of personnel affected or targeted divisions have been disclosed'\u2014these are acknowledgments of gaps, but the open_questions in the brief indicate the source itself is heavily truncated (519 characters, marked 'thin: true'), raising a liability question about whether the story should run at all given how little the underlying reporting contains."
-    ]
-   },
-   {
-    "id": "c111",
-    "headline": "Pentagon and DEA: Operation Southern Spear hasn't slowed cocaine trafficking",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'Pentagon and DEA analysts have concluded the military operation has not slowed cocaine entering the United States' as fact, but the brief marks this as 'reported' confidence only\u2014meaning it comes from Washington Post reporting, not verified agency conclusions. The prose should flag this as reported assessment, not settled fact.",
-     "The draft claims the Pentagon and DEA assessments 'stand in direct contradiction to administration claims' in the bottom_line, but the brief contains no data_point establishing what the administration's specific claim was or how it directly contradicts the agency view. The first data_point says the president claims the operation 'virtually ended' trafficking; the second says analysts conclude it 'has not slowed' it. These are not presented as direct contradictions in the brief itself\u2014only as a gap. The draft overstates the conflict."
-    ]
-   },
-   {
-    "id": "c175",
-    "headline": "Trump administration pauses Iran operations amid munitions depletion reports",
-    "category": "balance",
-    "reasons": [
-     "The brief's bear_case\u2014Representative Waltz's statement that people leaking munitions shortages 'deserve to be in jail'\u2014appears in the draft but is buried mid-story and framed only as a dispute about disclosure impropriety, not as a substantive counter to the munitions depletion claim itself. The bear_case suggests Waltz is not denying the facts but attacking the leakers; the draft presents this accurately but fails to give it weight proportionate to its role as the only official pushback to the reported munitions shortage. A reader finishing this story would believe the munitions depletion is settled fact with only a process objection from one official.",
-     "The draft opens with 'according to the Washington Examiner' for the pause claim and then immediately pivots to 'Multiple news outlets...are reporting' the munitions shortage cause, which reads as aggregating outlets to validate a single-source claim. The brief's data_point attributes both the pause AND the munitions depletion explanation to the Washington Examiner article alone. The draft's framing of 'multiple news outlets' reporting suggests independent confirmation when the brief shows all facts flow from one source, which overstates evidentiary weight."
-    ]
-   }
-  ]
- },
- {
-  "date": "2026-07-27",
   "approved": 4,
   "rejected": [
    {
@@ -9303,6 +9242,58 @@
      "The draft names only one defector fully (Jared Golden) and leaves the second defector's name incomplete ('Marie according to reporting from The Hill'), making it impossible for readers to know who the second defector is. The brief itself notes this as an open question: 'What is the second defector's full name (source text cuts off)?' The writer cannot publish a story identifying two named individuals when one name is incomplete; this is not publishable as written.",
      "The draft states 'Two Democratic representatives voted with Republicans on floor measures' without specifying what measures those were. The brief's open_questions flag this: 'What specific GOP-backed measures did the two Democrats help advance?' A reader cannot evaluate the significance of the defection without knowing what votes triggered it.",
      "The sentence 'The move has split the Democratic caucus between members calling for punishment and those warning that harsh discipline could backfire ahead of the 2026 midterm elections' attributes the split to 'The Hill' via in-article attribution, but the brief shows the data_point 'Jeffries is facing pressure from the left to punish' and 'Some in the Democratic party are urging restraint' are both marked 'reported' confidence, not verified-on-chain. More critically, the draft provides no names, quotes, or specific attribution for who is calling for what\u2014the brief's open_questions explicitly ask: 'Which Democrats and which party factions are calling for punishment vs. restraint\u2014specific names and quotes?' Without these, the claim reads as the desk's own characterization, not sourced reporting."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-09-03",
+  "approved": 5,
+  "rejected": [
+   {
+    "id": "c006",
+    "headline": "Gloria Steinem, pioneering feminist icon, dies at 92 on September 3",
+    "category": "accuracy",
+    "reasons": [
+     "the draft dates September 3, 2026 as a Wednesday; September 3, 2026 is a Thursday"
+    ]
+   },
+   {
+    "id": "c094",
+    "headline": "Federal judge blocks Trump's birthright citizenship order on September 2",
+    "category": "accuracy",
+    "reasons": [
+     "The draft body states the ruling was issued 'on Wednesday, September 2' but the brief's data_point says 'issued a 35-page ruling on Wednesday' with timestamp '2026-09-03T10:41:00Z'. Today is Thursday, September 3. A Wednesday in early September 2026 would be September 2, so the date reference is internally consistent with 'Wednesday,' but the timestamp in the brief points to when the article was published/updated (September 3 at 10:41 AM). The draft should clarify whether the ruling was issued September 2 or September 3, as the brief's timestamp creates ambiguity that the draft does not resolve.",
+     "The draft states Trump 'signed the initial executive order on January 20, 2025, his first day in office,' but this fact does not appear in the brief's data_points. The brief data_point says 'Trump signed an executive order on his first day of his second term (January 20, 2025)' \u2014 which is sourced and carries the claim, but the draft adds the gloss 'his first day in office' without the source's explicit framing. This is a minor paraphrase that survives, but note it adds 'his first day in office' which, while true, adds interpretive weight not in the source.",
+     "The draft reports White House spokesperson Lauren Bis and Attorney General Todd Blanche quotes as the bear_case, which is correct per the brief. However, the draft does not include any of the substantive bear_case material about the administration's view that the order is 'consistent with the holdings and analysis set forth by the Supreme Court' until the final paragraph. The brief's bear_case includes three separate points; the draft only quotes Bis and Blanche but does not frame or unpack why those quotes constitute the opposing argument. The bear_case is present but under-developed and not clearly signaled as the other side of the argument."
+    ]
+   },
+   {
+    "id": "c096",
+    "headline": "Nvidia to acquire Hugging Face for $12.93 billion",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states the deal is a future announcement ('Nvidia announced plans to acquire'), but per the brief's confidence label 'announced-not-verified' and the timestamp 2026-09-03, this is an announced but unconfirmed transaction. The language 'announced plans' is appropriate, but the opening sentence's framing that Nvidia 'announced plans to acquire' without any hedge on verification status violates the rule that confidence labels must survive in prose. The brief marks this 'announced-not-verified,' signaling readers should understand this is a stated intention not yet independent fact. The draft does not carry that disciplinary language.",
+     "The cyberattack claim ('The deal comes after Hugging Face was the victim of an autonomous cyberattack carried out by hundreds of OpenAI models in July') is marked 'reported' confidence in the brief but presented as settled fact in the draft without attribution. The phrase 'autonomous cyberattack carried out by hundreds of OpenAI models' is extraordinary and requires source attribution inline to signal it is reported allegation, not verified event. An allegation that OpenAI models attacked Hugging Face carries reputational weight and must be attributed to its reporter."
+    ]
+   },
+   {
+    "id": "c276",
+    "headline": "GOP senators express frustration with Defense Secretary Hegseth over Pentagon turnover and Iran strategy",
+    "category": "accuracy",
+    "reasons": [
+     "The draft claims 'GOP senators are concerned about the lack of a clear plan for ending the Iran war' as a general statement without naming which senators or providing any specific evidence beyond a data point marked 'reported' with truncated source text. The brief's open_questions explicitly flag 'Which GOP senators are most vocally critical' as unresolved. The draft presents a generalized concern as fact without the disciplinary naming required by the desk's rule: a reputationally loaded criticism of an administration policy (absence of Iran strategy) attributed only to an unnamed bloc ('GOP senators') reads as the desk's own verdict, not reported positions. Either name the senators on record or mark this as contested.",
+     "The draft states 'The administration has also failed to reach out to Democrats' as unattributed fact. 'Failed to reach out' is a judgment, and the brief's source text is truncated ('snippet'). This requires attribution to the named source of the complaint (which Democratic senators? which reporting outlet made this claim?) to avoid reading as the desk's verdict on the administration's conduct."
+    ]
+   },
+   {
+    "id": "c266",
+    "headline": "Two Democrats vote with Republicans on procedural measure; Jeffries responds",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Two Democrats voted with Republicans on a GOP-backed procedural measure during a House floor vote on Thursday, September 3' as a completed past action. The brief's data point says Jeffries 'was scheduled to speak Thursday morning' (future/scheduled language), indicating the vote had not yet occurred or had just occurred at the time of reporting. The draft treats a scheduled or in-progress event as already concluded without confidence that the vote actually happened.",
+     "The draft claims 'The defection prompted House Minority Leader Hakeem Jeffries to address the caucus' as a definitive past action. The brief states only that Jeffries 'was scheduled to speak,' not that he did speak or that his speech was a response to the defection. This conflates a scheduled event with a confirmed occurrence.",
+     "The bottom_line correctly identifies that 'The identities of the two defecting Democrats, their stated reasons for the vote, and the specific measures at issue remain unreported,' but the body presents those same unknowns as established fact ('Two Democrats voted,' 'breaking party ranks on the action,' 'The defection prompted'). The body should hedge these claims or be cut entirely."
     ]
    }
   ]
