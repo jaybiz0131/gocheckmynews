@@ -1,0 +1,36 @@
+{
+  "id": "c006",
+  "slug": "democrats-demand-dhs-release-39-6-million-in-election-security-funds-with-midterms-two-months-away",
+  "kind": "brief",
+  "title": "Democrats demand DHS release $39.6 million in election security funds with midterms two months away",
+  "dek": "Senators Alex Padilla and Rep. Joseph Morelle have called on Homeland Security to restore over $39.6 million in congressionally appropriated election security funds, citing cuts that left the Election Infrastructure Information Sharing and Analysis Center unable to provide free services to state and local election offices. The lawmakers cited concerns about foreign interference and cyberattacks as the midterm election approaches.",
+  "date": "2026-09-03",
+  "published_utc": "2026-09-03T18:06:59Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 11,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Two Democratic lawmakers are demanding the Trump administration release $39.6 million in congressionally mandated election security funds two months before the midterm election, citing cuts that forced a free intelligence service to a paid membership model that 'under-resourced communities' cannot afford.",
+  "bottom_line": "The outcome depends on whether DHS and CISA respond to the demand and, if so, whether they justify the withholding or commit to releasing the funds. States must determine whether they can absorb the loss of the free intelligence service in the final nine weeks before election day.",
+  "human_take": "",
+  "body": [
+    "Senators Alex Padilla of California and Rep. Joseph Morelle of New York have authored a letter demanding the Trump administration restore over $39.6 million in election security funds that were withheld from the fiscal year 2026 DHS Appropriations bill passed in April. The lawmakers say the money must reach states and local election offices with the midterm election occurring in two months.\nAccording to NPR, the letter was addressed to Homeland Security Secretary Markwayne Mullin and acting head of the Cybersecurity and Infrastructure Security Agency (CISA) Nick Anderson. Padilla is the ranking member of the Senate Rules Committee and Morelle is the ranking member on the Committee on House Administration.\nPer NPR, the lawmakers wrote: \"With the midterm elections occurring in two months, we write with grave concern that time is running out to assist state and local election officials in protecting our elections from cyber and mis-and disinformation threats.\"\nThe letter cites the March 2025 funding cuts to the Election Infrastructure Information Sharing and Analysis Center, a voluntary resource that had provided free intelligence to state, local, tribal and territorial election offices on how hostile actors target election infrastructure. According to NPR, after the cuts the Center was only able to offer limited services through a paid membership model, which \"under-resourced communities\" cannot afford.\nPadilla and Morelle pointed to the removal of hundreds of CISA personnel and what they described as attempts by the Trump administration to slash the agency's budget as compounding the concern. Per NPR, the lawmakers wrote: \"This is particularly disturbing at a time when our nation is at war with the Republic of Iran, which has reportedly engaged in sophisticated cybersecurity attacks, including on water infrastructure in the United States and nuclear energy facilities in the United Kingdom. Russia, China, and other foreign and non-state actors also have significant cyber and online election interference capabilities, which are likely increasing with advances in artificial intelligence.\"\nAccording to NPR, Adrian Fontes, secretary of state of Arizona, stated: \"DHS is actively sabotaging elections by not funding these programs. Their failures mirror that of the administration pushing USPS to implement a rule that would sabotage mail voting.\"\nDHS and CISA did not respond to NPR's request for comment as of publication.\nPer NPR, while hackers have not managed to breach voting machines at scale, hack-and-leak and disinformation campaigns on social media have garnered widespread attention and influenced media coverage. The article notes that concerns over foreign election meddling spiked during the 2016 presidential election when U.S. intelligence concluded Russia attempted to interfere, including by leaking damaging information about Hillary Clinton to sway voters in favor of Donald Trump.\nAccording to NPR, President Trump dedicated significant federal resources to casting doubt on the intelligence community's 2016 assessments and to promoting his false claims of election fraud in 2020, most recently in July during a primetime speech on election vulnerabilities in which no new evidence was offered."
+  ],
+  "sources": [
+    {
+      "title": "NPR",
+      "url": "https://www.npr.org/2026/09/03/nx-s1-5954541/election-security-midterms-dhs-democrats"
+    },
+    {
+      "title": "NPR",
+      "url": "https://www.npr.org/2026/09/03/g-s1-141784/up-first-newsletter-election-security-venezuela-oil-lindsay-clancy-gloria-steinem"
+    }
+  ],
+  "event_utc": "2026-09-03T09:00:00Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-03T18:06:59Z",
+    "sources_cited": 2,
+    "sources_live_checked": 2
+  }
+}

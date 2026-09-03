@@ -1,0 +1,49 @@
+{
+  "id": "c070",
+  "slug": "federal-judge-weighs-extending-ban-on-usps-mail-ballot-rule-70-days-before-midterms",
+  "kind": "brief",
+  "title": "Federal judge weighs extending ban on USPS mail ballot rule, 70 days before midterms",
+  "dek": "U.S. District Court Judge Indira Talwani is deciding whether to extend a block on Trump administration mail ballot regulations affecting millions of voters. The judge stated she has no details on how the Postal Service will implement the rule, and the temporary ban expires next week as states begin mailing ballots. The administration has signaled it will appeal to the Supreme Court.",
+  "date": "2026-09-03",
+  "published_utc": "2026-09-03T18:06:59Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 9,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "With the midterm election 70 days away, Judge Talwani imposed a temporary restraining order last week on the Trump administration's mail ballot regulations and is now deciding whether to extend it, citing lack of implementation details from the Postal Service.",
+  "bottom_line": "Judge Talwani's decision on whether to extend the temporary ban could reach the Supreme Court within days, where the conservative majority declined to address the legal merits when it previously froze her June decision. The clock turns on Friday when mail ballots begin shipping in North Carolina and other states, making the timing of any judicial ruling consequential for millions of voters.",
+  "human_take": "",
+  "body": [
+    "U.S. District Court Judge Indira Talwani is deciding whether to extend a prohibition on mail ballot regulations issued under a Trump administration executive order, with the midterm election 70 days away and states about to begin mailing ballots to voters.",
+    "On August 27, Talwani issued a temporary restraining order blocking implementation of the Postal Service rule for 14 days. That order expires next week. The judge has indicated she will rule as soon as possible on whether to extend it through preliminary injunction, a longer-term block that could remain in place through the November election.",
+    "According to PBS NewsHour, Talwani stated during hearings on September 3: \"We are 70 days from the election and I have nothing from the USPS about how this will happen.\" The judge expressed concern that states have already printed ballots and envelopes designed under prior requirements. Per PBS, Talwani gave the Justice Department until 3 p.m. on September 3 to submit details on how the Postal Service would implement the new rule.",
+    "The regulation, published by the Postal Service in late August just before a Supreme Court ruling, requires mail ballots to carry individualized unique bar codes and mandates that states submit voter names and addresses to an online USPS portal before ballots are sent. Per PBS and CBS News, the portal was still inactive as of early September, and most election offices had already printed materials under the old design.",
+    "According to PBS, North Carolina will begin mailing ballots on September 5 (Friday). CBS News reports that ballots will go out in several other states around mid-September, per the Center for Election Innovation and Research.",
+    "The administration has contended the changes are relatively minor and legal. According to PBS, Justice Department lawyer Michael Velchik told Talwani that the federal government is offering states the choice to opt into the system. Per PBS, the Postal Service has yet to identify a single state that has opted in.",
+    "Democrats and voting rights groups argue the president lacks authority to set election rules, a power designated in the Constitution to the states and, in some cases, Congress. Per PBS, election officials counter that compliance is logistically impossible given the timeline. According to a whistleblower report made public this week, cited by PBS, the Postal Service requirements could lead to millions of mail ballots never being sent, including a mechanism where a single barcode error in a batch can reject tens of thousands of legitimate ballots.",
+    "According to CBS News, Talwani wrote in her August 27 decision: \"The states have neither time nor funds to design new mail ballots, seek approval of the new designs, order production of mail ballots, update their own election management systems, train election officials to use the USPS portal, and upload citizen data to the portal, all before the midterms.\" The judge called the regulation \"likely unconstitutional\" and \"practically impossible\" to comply with for the November election.",
+    "When Texas, which is defending the rule alongside 11 other Republican-led states, suggested that Talwani allow compliance to be optional in each state, CBS News reports that Talwani responded: \"So we're going to do a test run on this election?\" and stated, \"We're not playing an intellectual puzzle game. We're talking about people's right to vote.\" Per CBS, she later asked: \"How does USPS holding up the ballots help you? You want the voters in your state to be disenfranchised?\"",
+    "According to PBS, the Justice Department indicated it will most likely seek emergency relief from the Supreme Court by the end of the week if Talwani extends the ban. Per PBS, a lawyer for the Justice Department said that if Talwani does not issue a decision on preliminary injunction immediately, they will bypass the federal appeals court and ask the Supreme Court to intervene directly."
+  ],
+  "sources": [
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/2026/sep/03/federal-judge-usps-mail-ballot-changes"
+    },
+    {
+      "title": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/politics/federal-judge-considers-whether-to-extend-ban-against-u-s-postal-service-mail-voting-changes"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/postal-service-mail-voting-rules-block/"
+    }
+  ],
+  "event_utc": "2026-09-03T14:50:58Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-03T18:06:59Z",
+    "sources_cited": 3,
+    "sources_live_checked": 3
+  }
+}

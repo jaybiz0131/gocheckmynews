@@ -1,67 +1,6 @@
 [
  {
   "date": "2026-07-27",
-  "approved": 4,
-  "rejected": [
-   {
-    "id": "c74",
-    "headline": "Trump administration seeks Supreme Court intervention on mail-in voting order",
-    "category": "accuracy",
-    "reasons": [
-     "The brief contains zero data_points. The draft makes multiple factual claims unsourced in the brief: 'The Trump administration has petitioned the Supreme Court', 'A lower court had previously blocked the executive order', 'the administration is now asking the Supreme Court to overturn that decision'. These facts do not appear in any data_point and violate the hard rule that no fact exists outside the brief. The writer has smuggled information not verified in research.",
-     "The draft states 'the specific provisions of the order and the lower court's reasoning for blocking it were not detailed in the available reporting'\u2014but the brief itself lists these as open_questions, meaning the source material does not contain this information. The draft should not claim to have checked reporting it did not receive."
-    ]
-   },
-   {
-    "id": "c113",
-    "headline": "Man Convicted in Idaho College Student Killings Seeks to Withdraw Guilty Plea",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'Kohberger broke into a six-bedroom house as part of the incident' as established fact. However, the brief lists this as a data_point with confidence 'reported'\u2014meaning sourced but not independently verified. The draft presents this detail without qualification, when it should carry cautionary framing given the thin sourcing and the fact that this is an alleged detail in an ongoing legal matter where Kohberger is now challenging his conviction. This reads as settled fact when the source base is single-outlet reporting on an active appeal."
-    ]
-   },
-   {
-    "id": "c118",
-    "headline": "Prosecutors Present Final Texts of Slain 14-Year-Old Before She Went to Singer's Home",
-    "category": "compliance",
-    "reasons": [
-     "The angle in the brief describes the prosecution's evidence as 'creating a narrative of premeditation that the jury will weigh against the defendant's account.' The draft, however, uses language that echoes this interpretive framing: 'The evidence framework relies on three elements: Rivas Hernandez's initiation of contact with D4vd, her travel to his residence, and the permanent silence of her phone from that point forward.' This characterization of what 'the evidence framework relies on' adopts the prosecution's narrative voice and interpretive logic rather than neutrally reporting what was presented. The draft should report what prosecutors presented without endorsing their characterization of what that evidence 'relies on' or implies. Additionally, 'her travel to his residence' presented as a framing element risks reading as advocacy for the prosecution's case logic rather than neutral reporting of what occurred."
-    ]
-   },
-   {
-    "id": "c072",
-    "headline": "ICE extends no-bid contract for major Texas detention facility",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'The reporting does not specify the facility's name' and other details, but then uses these missing facts to structure the story as though they are known. This is accurate self-awareness but the story itself reads as if facts exist when they do not.",
-     "The phrase 'The decision represents a choice to maintain detention capacity despite reform advocates' demands' is advocacy framing (choosing one side's characterization) rather than neutral reporting of what ICE did.",
-     "The draft twice notes what is NOT in the reporting (facility name, contract value, duration, nature of abuses, statutory basis) but then proceeds to report the story anyway. This is a red flag: if the brief itself marks these as open_questions and the reporting does not answer them, the story should not be written or should be structured around the gaps, not elided past them."
-    ]
-   },
-   {
-    "id": "c235",
-    "headline": "EPA exempts isolated data center power plants from acid rain pollution limits",
-    "category": "compliance",
-    "reasons": [
-     "The phrase 'The move reflects administration priorities around AI infrastructure expansion and data center development' is editorializing the administration's intent and motivation without attribution. The brief does not source this characterization; it is the writer's inference presented as fact.",
-     "The draft uses 'deregulating pollution controls' in the angle section and 'exemption removes that requirement' in the body, which frames the EPA action as a removal of protection. This is advocacy language that adopts the environmental critics' framing without presenting a counter-case. The brief has an empty bear_case, but a story on a deregulation decision must still present the administration's rationale or acknowledge that it was not reported\u2014not adopt the opponent's language as neutral.",
-     "The bottom_line reads as predictive analysis ('The practical scope and environmental implications depend on...') which ventures into speculation rather than what the reporting established."
-    ]
-   },
-   {
-    "id": "c115",
-    "headline": "DOJ dismisses charges against California union leader arrested at ICE protest",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'David Huerta, president of a California service workers union' but the brief's data_point says 'David Huerta is the president of Service Employees (union affiliation incomplete in source text).' The draft completes an incomplete source claim, adding information not in the brief.",
-     "The draft says 'The specific charges and the date of the arrest are not detailed in available reporting' but then reports the story as though the core facts are solid. This self-aware gap-noting is again accurate but the story should not be published when the brief itself marks these as open_questions and the source is incomplete.",
-     "The phrase 'The decision marks another instance of a high-profile prosecution of a protest participant being abandoned by the government' is advocacy language characterizing a pattern and tone ('abandoned') not sourced to the brief. It adopts a critical narrative frame."
-    ]
-   }
-  ]
- },
- {
-  "date": "2026-07-27",
   "approved": 7,
   "rejected": [
    {
@@ -9294,6 +9233,40 @@
      "The draft states 'Two Democrats voted with Republicans on a GOP-backed procedural measure during a House floor vote on Thursday, September 3' as a completed past action. The brief's data point says Jeffries 'was scheduled to speak Thursday morning' (future/scheduled language), indicating the vote had not yet occurred or had just occurred at the time of reporting. The draft treats a scheduled or in-progress event as already concluded without confidence that the vote actually happened.",
      "The draft claims 'The defection prompted House Minority Leader Hakeem Jeffries to address the caucus' as a definitive past action. The brief states only that Jeffries 'was scheduled to speak,' not that he did speak or that his speech was a response to the defection. This conflates a scheduled event with a confirmed occurrence.",
      "The bottom_line correctly identifies that 'The identities of the two defecting Democrats, their stated reasons for the vote, and the specific measures at issue remain unreported,' but the body presents those same unknowns as established fact ('Two Democrats voted,' 'breaking party ranks on the action,' 'The defection prompted'). The body should hedge these claims or be cut entirely."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-09-03",
+  "approved": 6,
+  "rejected": [
+   {
+    "id": "c029",
+    "headline": "Nvidia Announces $12.9 Billion Acquisition of Hugging Face, September 3",
+    "category": "accuracy",
+    "reasons": [
+     "The draft reports the Nvidia-Hugging Face deal as a completed announcement ('Nvidia announced plans to acquire'), but the brief data_points and core_claim use 'agreed to acquire' language from BBC reporting. More critically, the draft omits a significant data_point from the brief: 'Hugging Face recently made headlines after rogue AI agents that escaped a testing environment appeared on its platform, raising questions about AI safety and oversight.' This is a material fact present in the brief that the writer excluded entirely.",
+     "The draft states 'per BBC News' repeatedly as attribution for facts that are sourced to BBC, but also attributes facts to 'BBC News reporting' that may derive from other outlets listed in the draft's sources (NYT, etc.). The attribution granularity is acceptable, but the omission of the rogue AI agents safety incident is a factual gap that undermines accuracy against the brief."
+    ]
+   },
+   {
+    "id": "c100",
+    "headline": "Musk's America PAC Reports $800,000 in Midterm Campaign Spending, September 3",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Federal Election Commission filings disclosed on September 3' but the brief data_point says 'America PAC spending was disclosed in a filing with the Federal Election Commission on Wednesday night.' Today is Thursday, September 3, 2026. If the disclosure occurred 'Wednesday night,' that would be September 2, not September 3. The draft's date attribution is inaccurate relative to the brief's timeline.",
+     "The draft refers to 'the Texas Senate race is between Republican nominee Paxton and Democratic state Representative James Talarico' but provides no first name for Paxton. The brief data_point states 'The Texas Senate race is between Republican nominee Paxton and Democratic state Rep. James Talarico'\u2014also incomplete, but the draft should match or clarify. This is a minor ambiguity but combined with the date issue creates an accuracy problem.",
+     "The fourth source listed (Washington Post URL about Secret Service security procedures) appears unrelated to the America PAC spending story and is not cited anywhere in the draft body. While this may be a research artifact, it signals incomplete source reconciliation."
+    ]
+   },
+   {
+    "id": "c082",
+    "headline": "Chevron confirms $7 billion investment to more than double Venezuelan oil production",
+    "category": "accuracy",
+    "reasons": [
+     "The draft reports 'Chevron confirmed on September 3' that it has been assigned additional acreage and plans the investment. However, the data_point in the brief states 'Chevron confirmed Wednesday that it has been assigned additional acreage' with a timestamp of '2026-09-02T21:39:57Z' (September 2, not September 3). Today is Thursday, September 3, 2026, making September 2 'yesterday' not 'today.' The draft misreports the date of Chevron's confirmation.",
+     "The draft states 'Energy Secretary Chris Wright, who was in Caracas on September 3, stated per PBS' and then quotes Wright making statements. However, the data_points cite Wright's statements with timestamp '2026-09-02T21:39:57Z' (September 2). The draft places Wright in Caracas and attributing statements to him on September 3, but the sourced statements are dated September 2. This is a factual discrepancy about when Wright made these statements."
     ]
    }
   ]
