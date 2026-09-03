@@ -1,75 +1,5 @@
 [
  {
-  "date": "2026-07-26",
-  "approved": 5,
-  "rejected": [
-   {
-    "id": "c056",
-    "headline": "U.S. and Iran Hold Fire for Second Day as Diplomacy Resumes",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states Iran killed 'four American soldiers' but the brief contains conflicting data: one data_point says 'killing four American soldiers' (reported confidence) while another says 'killing at least three at a base in Jordan' (reported confidence). The draft presents the higher number as settled fact without acknowledging the discrepancy in the sourced record.",
-     "The draft claims 'Thousands of people have been killed across the Middle East since the US-Israeli war with Iran began in February' appears nowhere in the body but is present in the brief's data_points with 'reported' confidence. This material fact about total war casualties is smuggled into the story without appearing in the draft body, violating the hard rule that facts must trace from research to draft."
-    ]
-   },
-   {
-    "id": "c158",
-    "headline": "Hawaii lieutenant governor indicted on bribery charges in COVID contract case",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states charges are 'tied to an alleged scheme in which the lieutenant governor allegedly sought to secure COVID-19 testing contracts in exchange for campaign contributions,' but the brief's open_questions explicitly note: 'The source text provided is truncated/corrupted and does not contain substantive reporting beyond the headline and snippet; no detailed facts about the scheme, timeline, specific contract details, Luke's response, or procedural next steps are available in the fetched source material.' The writer has no factual basis in the brief for the specific nature of the scheme (testing vs. other contracts, mechanism of exchange). The brief contains only bare data_points listing the charges and general allegation; the draft adds specificity ('COVID-19 testing contracts') that exceeds what the truncated source material supports.",
-     "The brief explicitly states 'No details about the investigation timeline or how the grand jury reached its indictment are provided' and identifies the source as corrupted/truncated. A story this thin with this little sourcing should not be published; the desk has insufficient material to verify even the basic facts beyond the charges themselves."
-    ]
-   },
-   {
-    "id": "c072",
-    "headline": "Former FDA chief questions Taylor Farms' request for White House intervention on recall",
-    "category": "accuracy",
-    "reasons": [
-     "The brief's open_questions explicitly state: 'The source text provided is truncated/corrupted and contains only navigation metadata; no substantive reporting text is available' and lists seven open questions that cannot be answered from available source material, including 'No statement from Taylor Farms or White House officials is present in the available source material.' The writer has no verified factual basis for the core claims. The draft presents as reporting a statement by Gottlieb and an allegation about Taylor Farms seeking White House intervention, but the source is too corrupted to confirm either fact independently. No other corroborating source is listed."
-    ]
-   },
-   {
-    "id": "c065",
-    "headline": "Supreme Court ruling clears path for Trump administration to end Temporary Protected Status for ~1 million workers",
-    "category": "accuracy",
-    "reasons": [
-     "The brief contains only one data_point with minimal detail ('A recent Supreme Court ruling cleared the way...'), yet the draft presents the ruling as established fact without any attribution qualifier like 'according to reporting' or similar language in the opening sentence. The brief's own open_questions section flags that 'What is the full text or ruling rationale of the Supreme Court decision?' is unknown, suggesting the decision itself may not be fully documented in the source.",
-     "The draft states 'A recent Supreme Court ruling has cleared the way' as an unqualified assertion, but the brief shows thin=true with source_chars=0, indicating the source material is extremely sparse or unavailable. The writer has no sourced detail about the ruling itself to report\u2014only that reporting exists. This violates the rule that no fact exists outside the brief."
-    ]
-   },
-   {
-    "id": "c075",
-    "headline": "New Jersey governor signs law banning surveillance pricing in retail",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'The practice targets pricing at individuals using their browsing history, purchase patterns, location, income level, and other personal data points collected by retailers.' This detailed explanation of the practice does not appear in any data_point in the brief. The brief contains no data_point describing what data points are used for surveillance pricing or how the practice works mechanically. The writer has added a definition and explanation that is not in the source material provided in the brief.",
-     "The draft states 'Surveillance pricing allows stores to charge higher prices to customers identified as less price-sensitive while offering lower prices to others for the same item, often without the buyer's knowledge or consent.' This specific mechanism (higher to less price-sensitive, lower to others) is not documented in any data_point in the brief and represents smuggled information not sourced to the brief."
-    ]
-   },
-   {
-    "id": "c064",
-    "headline": "[STORY CANNOT BE PUBLISHED WITHOUT VERIFIED FACTS]",
-    "category": "accuracy",
-    "reasons": [
-     "The draft body is a meta-commentary about itself rather than a news story. The entire draft reads as internal editorial notes ('This story was flagged as NEEDS-HUMAN-REVIEW') rather than reporting facts from the brief.",
-     "The brief explicitly contains zero data_points and zero sourced claims (data_points: [], source_chars: 0), yet the draft is written as if it is explaining why the story cannot run rather than attempting to write the story from available facts. No facts exist in the brief to trace; the draft should have been rejected at research stage, not drafted at all.",
-     "The draft violates the hard rule: 'no fact exists outside the brief.' Here, no facts exist inside the brief either. The draft should never have been submitted for approval."
-    ]
-   },
-   {
-    "id": "c151",
-    "headline": "Ukrainian Drone Attack Kills Iranian Sailor; Tehran Vows Retaliation",
-    "category": "accuracy",
-    "reasons": [
-     "The draft's third paragraph ('The brief does not specify...') is meta-commentary about the brief itself, not reporting. This reads as internal editorial notes, not published prose, and violates the form requirement.",
-     "The draft smuggles in a qualification about Iran's retaliation threat being 'unspecified and unconfirmed' in the bottom_line that does not appear in the brief's data_points. The brief states Iran vowed the attack 'cannot go unanswered' but does not label this as unconfirmed; the draft adds a confidence judgment not sourced to the brief.",
-     "The phrase 'killing at least one Iranian sailor' appears in the draft but the brief data_point says 'An Iranian sailor was killed' (singular, not 'at least one'). The draft added hedging language not present in the source claim."
-    ]
-   }
-  ]
- },
- {
   "date": "2026-07-27",
   "approved": 5,
   "rejected": [
@@ -9379,6 +9309,22 @@
      "The draft states: 'The Supreme Court resolution was part of a series of votes House Republican leaders set up alongside a measure denouncing socialism.' The brief says: 'Along with a measure denouncing socialism, the Supreme Court resolution was part of a series of messaging votes House Republican leaders set up to make the case against Democrats in the 2026 midterm elections.' The draft's phrasing is acceptable paraphrase.",
      "The draft includes this passage: 'In April 2021, four Democrats in Congress introduced a bill that would have created a Supreme Court with 13 justices, claiming it \"would restore balance to the nation's highest court after four years of norm-breaking actions by Republicans.\"' This matches the brief's data_point exactly and is attributed to the named group of four Democrats via their bill's language, so it is properly sourced.",
      "The draft attributes to Harris: 'Former Vice President Kamala Harris, the 2024 Democratic presidential nominee, voiced some support for adding seats, saying this summer: \"We need to revisit the point of expanding the court to 13 justices.\"' The brief's data_point has Harris saying exactly this, so the draft is accurate."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-09-03",
+  "approved": 9,
+  "rejected": [
+   {
+    "id": "c067",
+    "headline": "U.S. strikes Iran's coast, killing at least 18; Iran attacks American bases across Gulf",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'U.S. missiles struck Iran's southern coast on the night of September 2' but today is Thursday, 2026-09-03. A strike on the night of September 2 is past tense and appropriate. However, the phrasing 'on the night before the reporting date' in the brief's data_point references 2026-09-02T22:55:26Z as the timestamp, confirming the event occurred before today. This is correct.",
+     "The critical accuracy problem: the draft includes reporting about 'a wedding' as context for casualties ('one strike hit a home overlooking the Strait of Hormuz, killing at least four people including two children'). However, the brief's data_point describes this as 'one strike hit a home' with no mention of a wedding. The open_questions section states 'The Guardian source text does not contain reporting on the Iran-U.S. military conflict' and confirms 'Full scope of damage and casualty figures from Iran's perspective remain unclear.' The draft's reference to a wedding in relation to this strike is not present in any data_point and appears to be smuggled information or a confusion with another incident. The only mention of 'wedding' in the brief is in data_point 5 about the communications tower: 'A regional source told PBS News that the U.S. military was targeting and hit a communications tower in the neighborhood where the wedding was held'\u2014but the body of the draft does not mention this wedding context at all, only that people and children died. This omission of the wedding detail (which explains why civilians were present) weakens the civilian casualty framing but is not itself smuggled; however, the reader cannot tell from the draft whether this was a civilian area or an event venue.",
+     "More directly: the draft's sourcing appears thin. It cites PBS NewsHour and The Guardian, but the brief's open_questions note explicitly: 'The Guardian source text does not contain reporting on the Iran-U.S. military conflict; it covers an unrelated Congressional investigation.' The draft cannot rely on The Guardian for any of this content. The second source is not actually carrying the reporting claimed."
     ]
    }
   ]

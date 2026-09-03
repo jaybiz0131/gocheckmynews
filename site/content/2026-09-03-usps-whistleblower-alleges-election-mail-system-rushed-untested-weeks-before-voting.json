@@ -1,0 +1,38 @@
+{
+  "id": "c070",
+  "slug": "usps-whistleblower-alleges-election-mail-system-rushed-untested-weeks-before-voting",
+  "kind": "brief",
+  "title": "USPS whistleblower alleges election mail system rushed, untested weeks before voting",
+  "dek": "A whistleblower represented by Whistleblower Aid says the U.S. Postal Service is deploying a new election mail system that has not been adequately tested and was developed in roughly eight weeks instead of one to two years. The system has a zero percent failure tolerance at each checkpoint and failed testing, according to the whistleblower's attorney.",
+  "date": "2026-09-03",
+  "published_utc": "2026-09-03T13:51:28Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 10,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The whistleblower, represented by Whistleblower Aid's David Kligerman, alleges USPS is rushing an untested election mail portal into use weeks before the September election, risking ballot delays or ballots not being counted.",
+  "bottom_line": "The Postal Service faces a federal court order permitting continued work on the portal on a voluntary basis with states. Whether independent auditing or testing of the system occurs before the September election, and whether the states using the portal encounter the failures the whistleblower describes, will determine whether the allegations reflect a genuine risk to ballot processing.",
+  "human_take": "",
+  "body": [
+    "A whistleblower inside the U.S. Postal Service is alleging the agency is deploying a new system for handling election mail that has not been adequately tested and was completed in approximately eight weeks instead of the one to two years such systems typically require, according to the whistleblower's attorney.",
+    "The unnamed whistleblower is represented by David Kligerman, senior vice president and special counsel at Whistleblower Aid. The whistleblower was positioned close enough to decision-making to understand how the system works and see across its operations, according to Kligerman's account reported by PBS NewsHour.",
+    "According to the whistleblower, the new system requires zero percent failure at each process checkpoint, meaning any single mistake would cause all ballots in a batch to be sent back. The system is complex, requires multiple subsystems to communicate with one another, and failed when tested, according to the whistleblower's allegations reported by Kligerman to PBS NewsHour.",
+    "The Postal Service previously faced a federal court injunction requiring it to halt work on the system. According to the whistleblower's account, USPS itself acknowledged that work was proceeding in violation of an earlier injunction and temporarily stopped work. Work resumed during the injunction period without any change in circumstances, the whistleblower contends. A U.S. district court order issued this week expressly confirmed that the Postal Service may continue its work to establish the portal and communicate with states regarding design standards on a voluntary basis, according to reporting from PBS NewsHour.",
+    "The Postal Service stated: \"This work has at all times been conducted in a manner consistent with court orders. Importantly, in an order issued by the U.S. district court this week, the court expressly confirmed that the Postal Service may continue its work to establish the portal and communicate with states regarding design standards on a voluntary basis.\" According to the whistleblower's account reported by Kligerman, USPS rushed the system out for the September election date and issued notice that states can experiment with it to become familiar with it.",
+    "The whistleblower's allegations remain unconfirmed by independent technical audits or public assessment. Kligerman told PBS NewsHour the whistleblower had access to the system and its decision-making, but the specific technical failures and timeline details come only from the whistleblower's account."
+  ],
+  "sources": [
+    {
+      "title": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/show/whistleblowers-attorney-details-concerns-over-usps-mail-in-ballot-system"
+    }
+  ],
+  "event_utc": "2026-09-02T22:40:19Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-03T13:51:28Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "update_of": "federal-postal-service-whistleblower-warns-new-mail-ballot-portal-is-untested-rushed"
+}

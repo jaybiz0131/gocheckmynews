@@ -1,0 +1,44 @@
+{
+  "id": "c092",
+  "slug": "federal-judge-blocks-trump-s-latest-order-limiting-birthright-citizenship-september-2-2026",
+  "kind": "brief",
+  "title": "Federal judge blocks Trump's latest order limiting birthright citizenship (September 2, 2026)",
+  "dek": "U.S. District Judge Deborah Boardman blocked President Trump's August 6, 2026 executive order limiting birthright citizenship on September 2, ruling it unconstitutional under the 14th Amendment. The ruling marks the second judicial block of a Trump birthright citizenship order in a year.",
+  "date": "2026-09-03",
+  "published_utc": "2026-09-03T13:51:28Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 5,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Judge Deborah Boardman issued a 35-page ruling on September 2 blocking the August order, finding it almost certainly unconstitutional and citing a June 2026 Supreme Court ruling against Trump's earlier 2025 order.",
+  "bottom_line": "The administration has signaled it will appeal. The case's path to the Supreme Court and whether that court will accept a third review of Trump's birthright citizenship orders will determine whether the constitutional question of executive authority over the 14th Amendment's citizenship guarantee reaches final resolution.",
+  "human_take": "",
+  "body": [
+    "U.S. District Judge Deborah Boardman issued a 35-page ruling on September 2 blocking President Trump's August 6, 2026 executive order that sought to limit who could become a U.S. citizen after being born in the country. Boardman wrote that the order \"is almost certainly unconstitutional\" under the 14th Amendment's Citizenship Clause.\nThis marks the second judicial block of a Trump birthright citizenship order within a year. Boardman cited the U.S. Supreme Court's June 2026 ruling that blocked Trump's initial 2025 executive order on the same subject. In her ruling, Boardman wrote: \"This Court must, once again, preliminarily enjoin enforcement of the President's most recent attempt to strip the right to citizenship from them.\"\nThe August order focused on restricting birthright citizenship to certain groups, including those born to parents deemed \"alien enemies\" of the United States or who work for foreign embassies. Boardman noted the distinction from the broader 2025 order when she stated of the August version: \"This is different. This is unprecedented.\" In a broader passage, she wrote: \"Since his second term in office began on January 20, 2025, the President has tried, through Executive Order, to upend our country's longstanding tradition of birthright citizenship and eliminate, for large swaths of Americans, the right to citizenship by birth, a right enshrined in the Citizenship Clause of the Fourteenth Amendment.\"\nLast week, Boardman had denied a request from CASA Inc., a nonprofit organization in Maryland, to block the August order on a technical ground: the original complaint had cited Trump's 2025 order rather than the August order. This ruling addressed that procedural obstacle.\nThe State Department has proposed requiring parents to provide proof of their own citizenship or immigration status when applying for passports for their children."
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/politics/white-house/federal-judge-blocks-trumps-latest-order-limiting-birthright-citizensh-rcna595794"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/regulation/court-battles/6067819-judge-blocks-trump-birthright-order/"
+    },
+    {
+      "title": "The New York Times",
+      "url": "https://www.nytimes.com/2026/09/02/us/politics/judge-trump-birthright-citizenship.html"
+    },
+    {
+      "title": "The Washington Post",
+      "url": "https://www.washingtonpost.com/politics/2026/09/03/judge-blocks-trumps-latest-attempt-limit-birthright-citizenship/"
+    }
+  ],
+  "event_utc": "2026-09-02T23:17:49Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-03T13:51:28Z",
+    "sources_cited": 4,
+    "sources_live_checked": 1
+  }
+}
