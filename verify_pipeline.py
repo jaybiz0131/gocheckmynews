@@ -23,9 +23,10 @@ a live notify-only check that never blocks a run.
     Any deviation -> ::error:: + exit 1.
 
   LAYER 2  live source check (NOTIFY-ONLY, exit 3 on content mismatch, never blocks a run).
-    Fetches each configured RSS feed and asserts HTTP 200 + looks-like-a-feed. A broken feed
-    -> ::error:: + exit 3 (CI marks it failed / opens an issue) but never blocks. A network
-    error -> ::warning:: only.
+    Fetches each configured RSS feed and asserts HTTP 200 + looks-like-a-feed + carries at
+    least one item or entry (an empty channel is a dead lane, retried once before it counts).
+    A broken feed -> ::error:: + exit 3 (CI marks it failed / opens an issue) but never
+    blocks. A network error -> ::warning:: only.
 
 USAGE
   python3 verify_pipeline.py canary     # Layer 1 only (exit 0 pass / 1 fail)
@@ -37,6 +38,7 @@ import inspect
 import glob
 import json
 import os
+import re
 import sys
 import time
 import urllib.request
@@ -1017,6 +1019,19 @@ def _json_source_ok(name, url, body):
     return True
 
 
+def _feed_item_count(body):
+    """Count RSS <item> / Atom <entry> elements in a lowercased feed body. Regex, not
+    ElementTree: this check must never throw on a malformed document, and a feed that
+    uses a namespace prefix it never declares hard-fails a real parse (see
+    aggregate._declare_missing_namespaces) while still carrying readable items.
+
+    The optional prefix group is load-bearing: aggregate parses namespaced tags
+    (aggregate._tag strips the namespace), so <atom:entry> is a real story here. The
+    trailing character class is what keeps '</item>', '<itemprop' and the RSS 1.0
+    <items> sequence block out of the count."""
+    return len(re.findall(r"<(?:[a-z0-9_.-]+:)?(?:item|entry)[\s/>]", body))
+
+
 def layer2_sources():
     cfg = common.load_config()
     fails = []
@@ -1026,7 +1041,11 @@ def layer2_sources():
             req = urllib.request.Request(url, headers={"User-Agent": common.UA})
             with urllib.request.urlopen(req, timeout=30) as r:
                 code = r.getcode()
-                head = r.read(2000).decode("utf-8", "replace").lower()
+                # Whole body, not the first 2000 bytes: the head proves the SHAPE, only the
+                # full body can prove the feed still carries items. These are small feeds,
+                # roughly 25 per desk, so the extra bytes cost nothing.
+                body = r.read().decode("utf-8", "replace").lower()
+                head = body[:2000]
         except Exception as e:
             gh("warning", f"sources: '{name}' fetch failed ({url}): {e} -- soft warning only, NOT failing")
             continue
@@ -1061,12 +1080,51 @@ def layer2_sources():
             gh("error", f"sources: '{name}' -> {why}; {fb_note}: {url}")
             fails.append({"feed": name, "url": url, "status": why, "fallback": fb_note})
             continue
-        if not ("<rss" in head or "<feed" in head or "<rdf" in head or "<?xml" in head):
+        if f.get("format"):
+            # A source that declares a non-RSS format gets the check that matches what
+            # aggregate actually reads. _json_source_ok was written for this in the same
+            # breath as the docstring explaining why, and then never called: the Federal
+            # Register has failed the RSS shape test on every run since, so this layer
+            # reported a red every week for a correctly configured source. Wired in
+            # 2026-09-03, the day the zero-item check landed, because a permanently red
+            # check is exactly what would bury a real empty-feed alert.
+            if not _json_source_ok(name, url, body):
+                fails.append({"feed": name, "url": url,
+                              "status": f"declares format={f['format']} but failed its "
+                                        f"shape check", "fallback": "n/a"})
+        elif not ("<rss" in head or "<feed" in head or "<rdf" in head or "<?xml" in head):
             gh("error", f"sources: '{name}' did not look like an RSS/Atom feed: {url}")
             fails.append({"feed": name, "url": url,
                           "status": "HTTP 200 but not feed-shaped", "fallback": "n/a"})
         else:
-            print(f"LAYER 2 sources: OK '{name}' -> HTTP 200, feed-shaped.")
+            # A feed-shaped body is not a live feed. On 2026-09-03 all four Google News
+            # lanes on the sports desk served a valid channel carrying ZERO items in
+            # production (they had each carried 12 an hour earlier) and this check called
+            # them healthy, because it only ever read the first 2000 bytes and looked for
+            # a tag. An empty feed is as dead as a 404 to the reader.
+            items = _feed_item_count(body)
+            if items == 0:
+                # Empty can be transient, which is exactly what those lanes did, so it gets
+                # the same two attempts the fallback probe above gets before anything is
+                # called a failure.
+                time.sleep(3)
+                try:
+                    rreq = urllib.request.Request(url, headers={"User-Agent": common.UA})
+                    with urllib.request.urlopen(rreq, timeout=30) as rr:
+                        if rr.getcode() == 200:
+                            items = _feed_item_count(
+                                rr.read().decode("utf-8", "replace").lower())
+                except Exception:
+                    pass
+            if items == 0:
+                gh("error", f"sources: '{name}' -> HTTP 200 and feed-shaped but carried no "
+                            f"items on two attempts: {url}")
+                fails.append({"feed": name, "url": url,
+                              "status": "HTTP 200 but zero items",
+                              "fallback": "re-read 3s later, still empty"})
+            else:
+                print(f"LAYER 2 sources: OK '{name}' -> HTTP 200, feed-shaped, "
+                      f"{items} item(s).")
     if fails:
         # Machine-readable failure list: the verify workflow's flag issue names the
         # feeds from this file instead of sending the owner into the run logs.
