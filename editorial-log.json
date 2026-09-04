@@ -1,64 +1,6 @@
 [
  {
   "date": "2026-07-28",
-  "approved": 6,
-  "rejected": [
-   {
-    "id": "c292",
-    "headline": "U.S. and Iran pause military strikes while holding talks on Strait of Hormuz",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'The U.S. and Iran have paused military strikes while holding talks aimed at reopening the Strait of Hormuz' but the brief's data_point only confirms 'The U.S. and Iran hold fire amid work on a deal to reopen the Strait of Hormuz.' The phrase 'paused military strikes' implies prior strikes occurred; the brief does not establish this factual predicate. Without confirmation of preceding military strikes, the characterization reads as smuggled context not in the sourced record.",
-     "The draft describes the talks as 'conditional suspension of hostilities dependent on negotiation progress,' but this characterization does not appear in the brief's data_points. The brief only confirms Trump's quote about 'going back to doing what we were doing' and that a military buildup continues\u2014neither of which explicitly defines the suspension as 'conditional' in those terms. This is paraphrase that exceeds the sourced claim."
-    ]
-   },
-   {
-    "id": "c085",
-    "headline": "Zelensky to meet Trump in Washington; will attend Graham funeral",
-    "category": "clarity",
-    "reasons": [
-     "Draft is extremely thin (2 data points, 3 sentences in body) even accounting for thin brief. The body provides no context, no stakes articulation, and reads as throat-clearing rather than news. Opening sentence names event without stakes. Given brief's open_questions expose significant information gaps (topics, timing details, Graham funeral context, current state of relations), the draft should either be longer and substantive or rejected as insufficient. As written, it fails the quality bar: a reader learns only that two people will meet, with no explanation of why this matters or when it happens."
-    ]
-   },
-   {
-    "id": "c125",
-    "headline": "Johnson & Johnson to pay $5.5 billion to settle talc cancer lawsuits",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'Johnson & Johnson announced Monday it will pay an estimated $5.5 billion to resolve approximately 76,000 lawsuits alleging its talc products caused ovarian cancer' but the brief's data_point says the settlement 'covers approximately 76,000 claims alleging ovarian cancer was caused by talc products'\u2014the brief does not specify that all 76,000 claims are ovarian cancer claims. The draft overstates specificity. More critically, the brief contains an open_question: 'Does J&J admit liability or deny wrongdoing in the settlement agreement?' This is material to how the settlement should be characterized. The draft avoids stating whether J&J admits liability, which is correct caution given the brief's silence, but the phrasing 'claimants alleging the company failed to adequately warn consumers' presents plaintiff allegations as fact without noting J&J's position on those allegations. The draft should either attribute the warning-failure claim to plaintiffs/source or note that J&J's liability stance is not yet confirmed."
-    ]
-   },
-   {
-    "id": "c123",
-    "headline": "South Korea's Stock Market Falls to Three-Month Low as Chip Stocks Decline",
-    "category": "balance",
-    "reasons": [
-     "Brief's core_claim explicitly mentions 'Chinese competition' as a driver of the sell-off alongside AI company borrowing concerns, but the draft omits Chinese competition entirely. The angle states investors are reassessing due to 'debt AI companies are taking on...combined with emerging competitive pressure from China,' yet the draft never mentions China or Chinese competitors.",
-     "Brief identifies 'Chinese competition' in open_questions as a critical unknown, signaling it is part of the reported story; draft's complete omission of this angle represents material loss of the reported record."
-    ]
-   },
-   {
-    "id": "c007",
-    "headline": "Netanyahu Meets Trump in First Encounter Since Iran War Began",
-    "category": "accuracy",
-    "reasons": [
-     "Draft states 'the two leaders jointly launched a war against Iran in February 2026' as fact in the opening. Brief's data_point says the claim is 'reported' confidence only\u2014not verified. The headline and lede adopt the framing as settled fact without qualification, presenting an announced/reported claim as established history.",
-     "The characterization 'jointly launched' overstates the sourced record: the brief reports they 'presented a united front' and 'touting their respective militaries as acting in lockstep,' which is rhetoric reporting, not confirmation of a jointly-decided war launch. Draft's definitive framing exceeds the sourced record's confidence level."
-    ]
-   },
-   {
-    "id": "c088",
-    "headline": "Fauci, in Private Diary, Reflected on Covid's Origins and His Own Fame",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'The diary contains Fauci's reflections on COVID-19's origins and his personal experience with fame and celebrity during the pandemic' but the brief's data_points only confirm that the diary 'contains Fauci's reflections on COVID-19's origins' and separately 'contains Fauci's reflections on his own fame and personal celebrity during the pandemic.' The draft conflates these as unified content about 'his personal experience with fame and celebrity during the pandemic' which is not supported. The brief shows only that the diary contains these reflections generally; the draft implies they are connected narratively.",
-     "The draft presents 'potentially revealing how he weighed competing hypotheses about the virus's emergence' as a fact about what the diary shows, but this is inference/speculation. The brief only reports that the diary 'contains Fauci's reflections on COVID-19's origins'\u2014not what conclusions he reached or how he 'weighed' hypotheses. This is smuggled analysis beyond the brief."
-    ]
-   }
-  ]
- },
- {
-  "date": "2026-07-28",
   "approved": 5,
   "rejected": [
    {
@@ -9260,6 +9202,28 @@
     "reasons": [
      "The draft body states 'The flow of goods and services out of the U.S. increased by $17.4 billion from June to July 2026,' but this is not what the brief's data_point claims. The data_point says 'The flow of goods and services out of the U.S. increased by $17.4 billion from June to July 2026,' which is identical phrasing, but the actual fact being reported is that the DEFICIT increased by $17.4 billion, not that exports increased. A deficit is the gap between imports and exports; saying 'the flow out of the U.S. increased' is misleading and could describe either an increase in exports (which would narrow the deficit) or an increase in imports (which would widen it). The brief's data_point is itself imprecise, but the draft repeats it without clarification, creating potential reader confusion about what actually happened.",
      "More critically: The brief contains no open questions about sector or partner breakdown because the sources do not contain that information. The bottom_line reads: 'Clarity on which sectors or trading partners drove the jump would clarify whether the widening reflects post-tariff adjustment or underlying structural shifts.' This violates the core rule against narrating absence. The writer is explicitly forbidden from saying 'X remains unreported' or 'clarity would help' about data gaps; the bottom_line signals to readers that this reporting is incomplete in a way that the desk's rules prohibit. A bottom_line must look forward to what will invalidate the claim or change the story, not retrospectively note what the sources did not contain."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-09-04",
+  "approved": 7,
+  "rejected": [
+   {
+    "id": "c112",
+    "headline": "House passes bill penalizing universities that boycott Israel, September 3",
+    "category": "accuracy",
+    "reasons": [
+     "the draft dates September 3, 2026 as a Wednesday; September 3, 2026 is a Thursday"
+    ]
+   },
+   {
+    "id": "c037",
+    "headline": "Rescue teams search tunnels for survivors after Nepal-Tibet border floods, September 3",
+    "category": "accuracy",
+    "reasons": [
+     "The draft claims 'survivors are believed to be trapped inside tunnels along the Trishuli River' but the brief's open_questions section explicitly states 'The source text does not specify how many survivors rescuers believe are trapped in the tunnels.' The draft asserts a specific belief without sourcing it to the brief\u2014this is a smuggled fact. The writer has inserted a definitive claim of trappedness that the brief does not carry."
     ]
    }
   ]

@@ -1,0 +1,62 @@
+{
+  "id": "c012",
+  "slug": "ice-officer-charged-with-false-statements-in-january-shooting-of-venezuelan-immigrant",
+  "kind": "brief",
+  "title": "ICE Officer Charged With False Statements in January Shooting of Venezuelan Immigrant",
+  "dek": "A federal grand jury indicted ICE officer Christian Castro on Wednesday, September 3, for making false statements to the FBI about a January 14 shooting in Minneapolis. Castro shot Venezuelan immigrant Julio Cesar Sosa-Celis through a closed door; surveillance footage contradicted Castro's claim that Sosa-Celis attacked him.",
+  "date": "2026-09-04",
+  "published_utc": "2026-09-04T01:20:15Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 7,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Surveillance footage contradicted Castro's sworn account that Sosa-Celis attacked him before the shooting.",
+  "bottom_line": "Castro faces six counts in federal court for the false statements charge while Minnesota pursues state assault and false reporting charges. The outcome of the separate civil rights investigation and the administration's reasoning for prioritizing false statement charges over civil rights violations remain unresolved.",
+  "human_take": "",
+  "body": [
+    "A federal grand jury indicted ICE officer Christian Castro on Wednesday with making false statements to the FBI about the January 14, 2026 shooting of Venezuelan immigrant Julio Cesar Sosa-Celis in north Minneapolis. Castro allegedly shot Sosa-Celis in the leg through a closed door during an operation that was part of Operation Metro Surge, a broad immigration crackdown in Minnesota.\nAccording to NPR's reporting, Castro initially claimed under oath that Sosa-Celis attacked him. Surveillance footage contradicted that account. The Justice Department had initially charged Sosa-Celis with assault related to the confrontation, but later dropped the charges after determining that the officers involved had made untruthful statements.\nCastro faces a six-count federal indictment related to the shooting, according to BBC reporting. He is also facing state-level assault charges in Minnesota. The federal charges relate narrowly to false statements made to investigators rather than the shooting itself. A federal judge in Texas ruled against Minnesota's request to keep Castro in jail pending his extradition, and Castro was released from jail in Texas last week despite the extradition warrant from Minnesota prosecutors.\nRobin Wolpert, attorney for Sosa-Celis, issued a statement: \"Although the evidence strongly supports civil rights charges, the federal government has grossly undercharged this case.\" Wolpert said Castro \"lied to cover up the fact that he shot my client through the door of an occupied house without a self-defense justification.\" According to NBC News, a separate investigation into whether Castro should face civil rights charges is ongoing.\nMinnesota's top prosecutor Keith Ellison, per BBC reporting, welcomed the federal charges but said the indictment does \"not reflect the full seriousness of the violent crimes that he is charged with in Minnesota.\" Minnesota's top prosecutor's office stated the state case against Castro would continue regardless of the federal prosecution.\nAccording to NPR, federal immigration officers have shot at more than 20 people under the Trump administration's immigration crackdown. In July, ICE came under fire after the deadly shooting of two immigrants, Lorenzo Salgado Araujo in Texas and Johan Sebasti\u00e1n Dur\u00e1n Guerrero in Maine. In both cases, neither the target of arrest nor the officers involved were wearing body cameras, according to the agency's account cited by NPR."
+  ],
+  "sources": [
+    {
+      "title": "NPR",
+      "url": "https://www.npr.org/2026/09/03/nx-s1-5955654/justice-department-charges-castro-ice-officer"
+    },
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/news/us-news/federal-prosecutors-charge-ice-officer-lying-investigators-shooting-ve-rcna595975"
+    }
+  ],
+  "event_utc": "2026-09-03T18:14:53Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-04T01:20:15Z",
+    "sources_cited": 2,
+    "sources_live_checked": 3
+  },
+  "also_reported_by": [
+    {
+      "outlet": "Bloomberg Law News",
+      "headline": "ICE Officer Charged With False Statements for Minnesota Shooting - Bloomberg Law News"
+    },
+    {
+      "outlet": "WSJ",
+      "headline": "ICE Officer Charged With Lying About Shooting - WSJ"
+    },
+    {
+      "outlet": "Law Commentary",
+      "headline": "ICE Officer Charged With Lying About Minneapolis Shooting After Video Contradicts Federal Account - Law Commentary"
+    },
+    {
+      "outlet": "The New Republic",
+      "headline": "ICE Officer Charged With Lying to Investigators After Shooting Someone - The New Republic"
+    },
+    {
+      "outlet": "NewsCord",
+      "headline": "DOJ Charges ICE Officer Christian Castro With Lying About Minneapolis Shooting Of Julio Cesar Sosa-Celis - NewsCord"
+    },
+    {
+      "outlet": "Mediaite",
+      "headline": "Just In: ICE Officer Charged With Lying To Investigators In Lead Up to Shooting Death - Mediaite"
+    }
+  ]
+}

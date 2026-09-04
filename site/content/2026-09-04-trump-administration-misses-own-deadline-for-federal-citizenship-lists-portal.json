@@ -1,0 +1,32 @@
+{
+  "id": "c008",
+  "slug": "trump-administration-misses-own-deadline-for-federal-citizenship-lists-portal",
+  "kind": "brief",
+  "title": "Trump Administration Misses Own Deadline for Federal Citizenship Lists Portal",
+  "dek": "The Trump administration announced it will miss its own September 4 deadline to publish state-by-state citizenship lists on a federal portal. Instead of meeting the 60-day-before-Election requirement, the Justice Department told courts it would give 48 hours notice before launching. Multiple lawsuits challenge the accuracy and legality of the data-sharing plan.",
+  "date": "2026-09-04",
+  "published_utc": "2026-09-04T01:20:15Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 10,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The administration will not meet its own 60-day-before-Election deadline (September 4, 2026) for publishing the citizenship lists and will instead notify legal challengers 48 hours before launch.",
+  "bottom_line": "The 48-hour notice strategy deviates sharply from the 60-day statutory window the executive order itself required. As midterms approach on November 5, the timing of the portal launch, the outcomes of pending litigation, and whether states adopt the lists to avoid federal investigation remain unresolved.",
+  "human_take": "",
+  "body": [
+    "The Trump administration announced it will not meet its self-imposed September 4 deadline to publish state-by-state citizenship lists on a federal portal. Instead, according to NPR, Department of Justice attorneys told opposing counsel in two separate lawsuits that they would provide 48 hours notice to plaintiffs' counsel before the portal was launched, shifting from the deadline that aligned with the 60-day-before-Election requirement.\nPresident Trump signed an executive order on March 31 that directs U.S. Citizenship and Immigration Services and the Social Security Administration to create \"State Citizenship Lists\" of individuals the agencies believe are citizens in each state. The executive order specified the lists be sent to state officials \"no fewer than 60 days before each regularly scheduled Federal election.\" The United States has never attempted to create a comprehensive list of American citizens before this administration, according to NPR. Maintaining voter lists is the constitutional responsibility of states, not the federal government.\nA lower court had blocked implementation of key parts of the March 31 executive order in 23 states and Washington, D.C. The Supreme Court stayed that injunction late last month, opening the door for the plan to be implemented. According to a June 8 implementation memo authored by USCIS director Joseph Edlow that NPR cites, a portal for state election officials was to be available around June 30. That deadline passed without the portal launching. A domain for the portal has been secured, and according to court filings, the site was briefly live in recent days with a landing page stating \"Coming Soon.\"\nMultiple organizations have filed legal challenges. The privacy group Electronic Privacy Information Center, along with Protect Democracy and Citizens for Responsibility and Ethics in Washington, filed a motion on Thursday asking a federal judge in Maryland to block the administration from creating and publishing the citizenship lists. According to NPR, the motion argues the administration's plans to share Americans' personal data between agencies and disseminate it to states violates the Privacy Act, the Social Security Act, and the Administrative Procedures Act. Under the Privacy Act, federal agencies must give the public 30 days notice and opportunity to comment before collecting and disseminating Americans' personal data for a new purpose.\nThe EPIC lawsuit argues the government does not have access to accurate, up-to-date information on American citizens. Social Security's citizenship data often is not updated when people naturalize, according to NPR. The SAVE data system, operated by USCIS, frequently does not include records for people who became citizens as minors when their parents naturalized. Jules Torti, counsel at the nonprofit Protect Democracy, stated to NPR: \"We know that these lists are going to be based on really inaccurate data\" and \"the risk of disenfranchisement here is really, really palpable.\" Torti added it is \"deeply concerning\" that the administration is still moving forward but no longer meeting the deadline, saying the delay means \"additional chaos, additional confusion for the state election officials and just for voters.\"\nThe executive order directs the U.S. attorney general to prioritize investigating and prosecuting state and local officials who issue federal ballots to anyone not eligible to vote. Torti told NPR this creates pressure on states to use the lists: \"States here have a strong incentive to actually try to avoid federal investigation.\"\nLawyers representing Democratic party groups challenged the March 31 executive order in a lawsuit filed in April. According to NPR, Democratic lawyers accused the administration of failing to notify the court or parties about its plans to move forward and asked the judge to require the federal government to give immediate updates about implementation.\nThe Department of Homeland Security is ramping up its efforts to analyze state voter rolls with the goal of identifying potential noncitizens who are registered to vote. Last week, ICE published a request for information on a federal procurement site seeking vendors who can compile public voter rolls and voter history files from all 50 states, Washington, D.C., and U.S. territories. According to NPR, the request seeks vendors \"to support Homeland Security Investigations (HSI) fraud detection and data segmentation activities.\"\nPrevious audits have found instances of noncitizens casting ballots to be incredibly rare, according to NPR. Neither the Department of Justice nor the Department of Homeland Security responded to NPR's request for comment."
+  ],
+  "sources": [
+    {
+      "title": "NPR",
+      "url": "https://www.npr.org/2026/09/03/nx-s1-5955822/voting-citizenship-lists-dhs-uscis-lawsuit"
+    }
+  ],
+  "event_utc": "2026-09-03T23:59:35Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-04T01:20:15Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}
