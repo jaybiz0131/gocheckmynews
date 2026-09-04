@@ -1,0 +1,65 @@
+{
+  "id": "c252",
+  "slug": "trump-administration-proposes-stripping-tax-exempt-status-from-schools-with-race-based-aid-programs",
+  "kind": "brief",
+  "title": "Trump administration proposes stripping tax-exempt status from schools with race-based aid programs",
+  "dek": "The Treasury Department and IRS proposed a regulation on September 3, 2026, that would revoke tax-exempt status from private schools and colleges offering targeted aid to students based on race, effective after May 2027. The rule could affect up to 18,000 education institutions.",
+  "date": "2026-09-04",
+  "published_utc": "2026-09-04T15:08:41Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 11,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "A new regulation proposed by the Trump administration's Treasury Department and IRS on September 3, 2026, would strip tax-exempt status from private schools and colleges that offer aid programs targeting students by race, with the rule taking effect after May 2027.",
+  "bottom_line": "The regulation requires a notice-and-comment period before finalization. What schools count as offering impermissible race-based aid, how they can modify programs to comply, and whether the rule survives legal challenge will determine its practical impact on the higher education sector.",
+  "human_take": "",
+  "body": [
+    "The Treasury Department and IRS proposed a new regulation on Thursday, September 3, 2026, that would revoke tax-exempt status from private schools and colleges offering targeted aid to students based on race. If finalized, the rule would take effect after May 2027.",
+    "According to NPR's reporting, the regulation is broadly aimed at ending policies or programs that help students because of their race, and specifically identifies such benefits in admissions, scholarships, and facilities as incompatible with tax-exempt status. The Treasury Department and IRS estimate that up to 18,000 private schools, colleges, and other education institutions could be affected by the proposal.",
+    "Treasury Secretary Scott Bessent stated: \"Schools rebranding race-based preferences as equitable, inclusive, or diversity-enhancing does not change their discriminatory nature.\" IRS Chief Executive Officer Frank J. Bisignano said: \"Today's proposed regulations put institutions on notice and schools that continue to engage in racial discrimination should expect to lose that status.\"",
+    "Private universities have been exempt from many taxes for more than a century because they provide a public good, according to NPR's reporting. That benefit saves many universities millions of dollars every year. In the 1970s, Bob Jones University, a small Christian school in South Carolina, lost tax-exempt status over a ban on interracial dating and marriage on campus. The Supreme Court upheld the IRS's decision to deny the school its exemption. The school has since ended the ban and regained tax-exempt status in 2017.",
+    "Trump threatened to cut tax-exempt status for Harvard University last year during his battle with the nation's oldest college, per NPR's reporting. Harvard officials said there was no legal basis for doing so and argued it would force cuts to financial aid and crucial medical research. Trump officials say any favoritism in medical school admissions violates Title IV of the Civil Rights Act of 1964, a federal law that forbids discrimination in education and was created to fight segregation and its impact. The Justice Department has separately opened investigations into several medical schools that it accuses of favoring Black and Hispanic students in admissions.",
+    "Opposition emerged from higher education organizations. Mike Gavin, Alliance for Higher Education president and CEO, stated: \"The administration's latest rules changes are its most blatant attack to keep working class Americans and people of color from accessing higher education and a better life. By claiming that efforts to increase fair opportunity for all students are discriminatory, the administration is trying to gaslight the American people into believing that up is down and black is white.\" Marjorie Hass, president of the Council of Independent Colleges, said the change would most likely impact donations, which are often earmarked for scholarships. Tim Powers, a vice president of the National Association of Independent Colleges and Universities, stated: \"Our institutions are committed to complying with applicable civil rights laws and maintaining safe and supportive campuses free from discrimination. However, the proposed rule may create new compliance burdens and legal uncertainties for institutions of higher education that are already operating in line with existing nondiscrimination rules.\"",
+    "According to NPR's reporting, scores of universities have shut down or rebranded their DEI offices and ended scholarships and clubs designed for minority students under pressure from the White House. Preston Cooper, a senior fellow who studies higher education policy at the conservative American Enterprise Institute, noted that both political parties have long viewed nonprofit status as requiring \"a really high bar to mess with.\" A decade ago, before Trump first became president, it was conservative colleges whose leaders were worrying about losing nonprofit status, with religious leaders raising concerns that Christian schools could someday lose accreditation or tax-exempt status over their codes of conduct barring same-sex relationships."
+  ],
+  "sources": [
+    {
+      "title": "NPR",
+      "url": "https://www.npr.org/2026/09/04/g-s1-141947/trump-administration-pushes-to-remove-tax-exemption-for-private-colleges-with-dei-policies"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/homenews/administration/6070210-trump-ends-private-school-tax-exemptions/"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/homenews/administration/6070277-jd-vance-sept-11-memorial/"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/homenews/administration/6071024-donald-trump-praises-maria-bartiromo-departure/"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/regulation/court-battles/6071017-ice-agent-indicted-minnesota-shooting/"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/homenews/administration/6071430-benjamin-southworth-arrested-trump/"
+    }
+  ],
+  "event_utc": "2026-09-03T21:02:29Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-04T15:08:41Z",
+    "sources_cited": 6,
+    "sources_live_checked": 1
+  },
+  "update_of": "trump-administration-misses-own-deadline-for-federal-citizenship-lists-portal",
+  "boundary": {
+    "affected": "private schools, colleges and other education institutions offering targeted help to students based on their race in admissions, scholarships and facilities",
+    "fixed": "institutions without such race-based programs; rule takes effect after May 2027",
+    "user_action": "Schools that continue to use discriminatory practices will no longer receive the benefits of federal tax-exempt status",
+    "advisory_url": "None provided in source text; this is a proposed regulation requiring additional notice and comment period"
+  }
+}

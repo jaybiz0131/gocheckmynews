@@ -1,93 +1,6 @@
 [
  {
   "date": "2026-07-28",
-  "approved": 3,
-  "rejected": [
-   {
-    "id": "c327",
-    "headline": "Trump meets Netanyahu as U.S. and Iran maintain military pause in Middle East negotiations",
-    "category": "accuracy",
-    "reasons": [
-     "The sentence 'Ukraine has stated it wants to avoid escalation with Iran, according to CBS News and AFP reporting' is problematic: the brief data_point says 'Ukraine says it wants to avoid escalation with Iran' but does not explain how Ukraine is a party to U.S.-Iran negotiations or why Ukraine avoiding escalation with Iran is relevant to the Strait of Hormuz deal. This claim appears smuggled or contextually incoherent\u2014it is stated as fact without sufficient grounding in the brief's sourced record.",
-     "The bottom_line makes a causal prediction ('The military pause between the U.S. and Iran will hold only if both parties maintain restraint') that reads as analysis or forecast rather than a forward-looking watch statement. This crosses into advocacy/prediction territory that exceeds the brief's factual record."
-    ]
-   },
-   {
-    "id": "c330",
-    "headline": "Trump meets with Netanyahu and Zelenskyy at White House on same day",
-    "category": "accuracy",
-    "reasons": [
-     "The claim 'The meetings occurred ahead of Sen. Lindsey Graham's funeral' in the draft contradicts the brief's data_point that says 'Both Netanyahu and Zelenskyy attended Sen. Lindsey Graham's funeral' and 'The meetings occurred ahead of Sen. Lindsey Graham's funeral.' The brief's own data_point 6 signals the meetings were ahead of the funeral, but the draft body states 'Both Netanyahu and Zelenskyy were in the United States to attend Sen. Lindsey Graham's funeral, which provided the diplomatic occasion for the back-to-back White House meetings'\u2014this reads as if the funeral was the reason they were present and then they met Trump, not that they met Trump and then attended the funeral. The temporal sequence in the draft is reversed or ambiguous relative to the brief.",
-     "The draft acknowledges in paragraph 3 that the brief carries 'no detail on which foreign policy issues were discussed in each meeting' but paragraph 1 states 'Both leaders discussed foreign policy issues with Trump, per CBS News' as though it is a substantive fact rather than an undetailed assertion. The sourced claim is so thin it does not support the narrative weight given to it."
-    ]
-   },
-   {
-    "id": "c072",
-    "headline": "Florida executes ex-police officer as state execution pace accelerates nationally",
-    "category": "accuracy",
-    "reasons": [
-     "The brief itself flags a critical corruption issue: 'The source text provided is corrupted (contains SVG code and typography fragments); the identity of the ex-police officer executed, the date and time of execution, details of the second execution scheduled for the same day, the jurisdiction over which Florida's execution pace is measured, and specific counts of executions by state since 2025 are not recoverable from the fetched source.' The draft states as fact 'Florida executed an ex-police officer convicted of murder on July 28, 2026, marking the first of two lethal injections scheduled for a single day' and claims Florida 'has carried out nearly half of all state executions nationwide' since 2025. The brief acknowledges only one data_point (the nearly-half claim) is recoverable; the source is corrupted. The draft cannot be verified against a corrupted source and should not have been drafted until source integrity is restored."
-    ]
-   },
-   {
-    "id": "c074",
-    "headline": "Spain's largest recorded wildfire forces firefighters to shift tactics",
-    "category": "accuracy",
-    "reasons": [
-     "The draft claims firefighters are 'deprioritizing direct firefighting efforts' and 'rather than attempting to contain or extinguish the blaze' but the brief's source text is incomplete/corrupted and does not contain the full article content to verify these specific tactical descriptions. The brief itself flags this as an open question: 'The provided source text is incomplete (appears to be corrupted HTML/navigation elements); the full content of the PBS NewsHour article describing specific firefighter tactics...is not available in the source text.' A fact cannot be traced to the brief when the brief itself lacks the underlying source material.",
-     "The draft presents specific tactical shifts ('deprioritizing direct firefighting,' 'focusing on evacuations and property protection,' 'concentrating resources on moving people to safety') as established fact, but the brief contains only three thin data_points with minimal detail and explicitly notes the source is incomplete. The writer has fabricated specificity beyond what the brief provides."
-    ]
-   },
-   {
-    "id": "c320",
-    "headline": "Senate advances Russia and Iran sanctions bill named after late Sen. Lindsey Graham",
-    "category": "accuracy",
-    "reasons": [
-     "The draft names 'Sens. Richard Blumenthal, Darline Graham, Katie Britt, Jeanne Shaheen, Jim Risch, and Roger Wicker' as issuing a joint statement, but the brief data_point lists 'Darline Graham' while no such senator exists in the U.S. Senate (likely intended to be either a typo or a misreading). This name appears to be smuggled in from the source without verification against the actual Senate record. The writer should have caught or flagged this anomaly rather than reproducing it."
-    ]
-   },
-   {
-    "id": "c092",
-    "headline": "ICE Arrests Visa Overstay Cases at Airports",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states ICE is 'conducting arrests of visa overstay cases at airports' and mentions 'spouses of American citizens and tech workers with pending applications,' but the brief explicitly flags 'No source text provided; article content unavailable' and lists zero data_points. No factual claim in the draft can be traced to sourced evidence in the brief.",
-     "The source URL (https://www.nytimes.com/2026/07/28/us/ice-arrests-airports-visa-overstay.html) is a future-dated placeholder; no actual reporting is available to verify any fact asserted in the draft."
-    ]
-   },
-   {
-    "id": "c271",
-    "headline": "Trump Administration Rule Eliminates Asylum Interviews Before Deportation Court",
-    "category": "accuracy",
-    "reasons": [
-     "The draft asserts 'effective Tuesday' but the brief provides a timestamp of 2026-07-28 without specifying what 'Tuesday' means or confirming that date. The phrase 'effective Tuesday' is vague and unverifiable against the sourced reporting.",
-     "The draft states the rule 'was put into effect without undergoing notice-and-comment rulemaking' as fact, but the brief's corresponding data_point labels this as 'reported' (not verified). The draft presents an unconfirmed claim as settled fact.",
-     "The draft specifies 'credible fear interview' as the process being eliminated, but the brief's data_point says officers will 'funnel migrants into immigration court'\u2014a paraphrase, not the same procedural description. The draft adds technical terminology not present in the sourced claim."
-    ]
-   },
-   {
-    "id": "c267",
-    "headline": "Mediators Report Progress in U.S.-Iran Ceasefire Negotiations",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'Both American and Iranian forces have paused attacks' as a fact, but the brief labels this data_point 'reported'\u2014meaning it is unconfirmed. The draft presents an unverified claim without hedging language.",
-     "The draft says 'mediators report progress in negotiations toward a potential ceasefire,' but the brief's corresponding data_point says 'Mediators report progress'\u2014a narrower claim. The draft adds 'toward a potential ceasefire' which reads as interpretation beyond what the sourced reporting contains.",
-     "The source URL (https://thehill.com/homenews/5994769-us-iran-ceasefire-negotiations-progress/) is a future-dated placeholder with 'content unavailable' flagged in the brief. No actual article text exists to verify any of the six factual claims in the draft."
-    ]
-   },
-   {
-    "id": "c273",
-    "headline": "Apple reclaims most valuable company title from Nvidia",
-    "category": "accuracy",
-    "reasons": [
-     "Draft states Apple's market cap reached $4.99 trillion 'on Monday' but the brief's data_point specifies 'as of midday Tuesday.' The draft's timeline is inaccurate relative to the sourced information.",
-     "Draft omits the specific timing qualifier from the brief ('midday Tuesday') and presents the figure without temporal clarity, creating factual ambiguity about when the milestone was achieved."
-    ]
-   }
-  ]
- },
- {
-  "date": "2026-07-28",
   "approved": 4,
   "rejected": [
    {
@@ -9200,6 +9113,29 @@
     "category": "accuracy",
     "reasons": [
      "the draft dates September 5, 2026 as a Friday; September 5, 2026 is a Saturday"
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-09-04",
+  "approved": 10,
+  "rejected": [
+   {
+    "id": "c054",
+    "headline": "Gloria Steinem, pioneering feminist writer and Ms. magazine co-founder, dies at 92",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states Ms. magazine was co-founded 'in 1971' but the brief's data_point #24 states it was founded 'in 1972.' The BBC source (data_point #8) says 'before founding Ms. magazine in 1972,' which contradicts the 1971 date in the draft. This is a factual error that must trace back to the brief.",
+     "The draft contains a lengthy block quote from Steinem's 2015 Fresh Air interview about attempting suicide via horseback riding and throwing herself down stairs ('I had been doing all of the foolish things...I did [throw myself down stairs]'). This quote does not appear in the brief's data_points. Data_point #30 from NPR references Steinem's desperation and her statement about the consequences of pregnancy ('it would be to the wrong person; it would be to a life that wasn't mine, that wasn't mine at all'), but the specific detailed quote about riding horseback and throwing herself down stairs is not in the brief and represents smuggled information. The writer may not introduce quotes not carried in the research brief."
+    ]
+   },
+   {
+    "id": "c129",
+    "headline": "ICE agent charged with false statements in nonfatal Minneapolis shooting",
+    "category": "accuracy",
+    "reasons": [
+     "The brief contains only one data_point: 'The case is the first known instance of the Justice Department seeking to prosecute a federal immigration officer for actions taken during the Minneapolis operation.' The draft's opening sentence states 'The Justice Department has charged an ICE agent with making false statements to investigators in connection with a nonfatal shooting incident during a Minneapolis operation, per reporting from the Washington Post.' This charge (false statements related to a nonfatal shooting) is a factual claim NOT present in the brief's single data_point. The brief does not specify the charge (false statements) or that it involved a shooting. The draft has smuggled a specific charge allegation\u2014'making false statements in connection with a nonfatal shooting'\u2014that is not carried in the research brief. The writer was bound by the hard rule: no fact exists outside the brief. This charge detail must come from the source, but the approver cannot verify facts against a URL; the charge is a critical factual element not in the brief."
     ]
    }
   ]
