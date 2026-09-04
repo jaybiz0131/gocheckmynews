@@ -1,0 +1,53 @@
+{
+  "id": "c016",
+  "slug": "germany-s-far-right-afd-leads-saxony-anhalt-polls-ahead-of-september-6-vote",
+  "kind": "brief",
+  "title": "Germany's Far-Right AfD Leads Saxony-Anhalt Polls Ahead of September 6 Vote",
+  "dek": "The far-right Alternative for Germany (AfD) is polling at 41% in Sunday's Saxony-Anhalt state election, well ahead of the Christian Democratic Union at 23%. A victory would make the AfD the first far-right party to lead a German state government since World War II. The party's 35-year-old candidate Ulrich Siegmund has built a large social media following but the party's platform includes forced deportations and associations with neo-Nazi figures.",
+  "date": "2026-09-04",
+  "published_utc": "2026-09-04T18:27:38Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 7,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The AfD leads Saxony-Anhalt polls at 41% heading into Sunday's election, which would mark the first far-right party to lead a German state government since WWII if it wins.",
+  "bottom_line": "Sunday's election will determine whether the AfD gains its first state leadership position and whether the pattern in Thuringia repeats, where other parties unite to exclude it despite its plurality. If AfD gains power, watch whether the party's governance matches Siegmund's social media messaging or its classified extremist platform.",
+  "human_take": "",
+  "body": [
+    "The far-right Alternative for Germany (AfD) is polling at 41% in Saxony-Anhalt heading into Sunday's state election, well ahead of Chancellor Friedrich Merz's Christian Democratic Union at 23%. A victory would make the AfD the first far-right party to lead a German state government since World War II. The party's campaign has been powered in part by a 35-year-old former marketing professional, Ulrich Siegmund, whose social media presence has reached massive scale: he has almost half as many followers on TikTok as people eligible to vote in the state.\nSiegmund's polished public image contrasts sharply with the party's official positions and history.\nSiegmund's close party associates include former officials from the \"Heimattreuen Deutschen Jugend,\" a neo-Nazi youth organization that was banned in 2009. In 2023, Siegmund was at the \"Potsdam meeting,\" a gathering of German and other far-right figures where Austrian anti-immigration extremist Martin Sellner presented his \"master plan\" for \"remigration,\" envisioning asylum seekers, non-Germans living legally in the country, and German nationals with immigrant backgrounds being expelled. A version of this plan has become central to AfD Saxony-Anhalt's platform, which calls for a \"deportation and remigration offensive\" with more detention centers and new tight limits on migration. In a recent TikTok post, Siegmund stated: \"it is unacceptable that our doctors are leaving for Switzerland, Norway, or elsewhere because they cannot tolerate the conditions here, while we bring in doctors from India or other places to replace them.\" The AfD's platform states that \"culturally foreign\" health workers often fail to meet German medical standards and \"endanger patient well-being.\"\nThe party has also taken revisionist positions on German history. Hans-Thomas Tillschneider, a leading state AfD politician, has spoken disparagingly of \"memorial site stuff\" and criticized a \"guilt-laden\" approach to German history. Der Spiegel magazine's August cover branded Siegmund \"Germany's most dangerous man,\" noting his combination of a winning demeanor, a realistic chance of gaining power of a state, and a radical platform.\nSiegmund and other AfD figures argue the classification is politically motivated. Siegmund has said he would only lead a full AfD government, ruling out any coalition with other parties. To govern alone, the AfD would need to win an absolute majority, which current polls do not confirm. All other major German parties have ruled out forming a coalition with the AfD. In neighboring Thuringia's 2024 state election, the AfD won more seats than any other party but not a governing majority, and other parties agreed to work together without the AfD, so the party is not part of the state administration despite having the most lawmakers.\nAt the federal level, the AfD is also polling first in Germany. Migration has been a dominant topic of debate in Magdeburg, the capital of Saxony-Anhalt with about 244,000 people, fueled by a 2024 attack on its Christmas market in which a doctor originally from Saudi Arabia drove his vehicle into revelers. Scholar Marcel Lewandowsky, who researches democracy resilience, argues that \"the greatest share of AfD voters is pro-democracy\" and \"also believes democracy is not functioning in Germany.\" He contends the AfD promises voters \"real\" democracy, a pledge with which other political parties struggle to compete. Lewandowsky notes that when other parties defend democracy against the AfD, they \"seem like the establishment that doesn't want to share their state, their government, their institutions with the silent majority which the AfD claims to represent.\"\nSome voters who initially supported the party have changed course after examining its actual policies. Hannes Kreschel, a 23-year-old law student and former AfD supporter, says that when he read the party's policies, he realized \"this is not the country I would like to live in\" and that \"I would like to live in an open country which is friendly and not full of hate.\" Kreschel has posted exchanges from AfD campaign rallies on social media where he confronts campaign staff with facts about the party's policies. He recently posted a video of AfD campaigners asking him to leave an election rally. The AfD was founded in 2013 largely as a protest movement against the European Union but has since shifted far to the right."
+  ],
+  "sources": [
+    {
+      "title": "NPR",
+      "url": "https://www.npr.org/2026/09/04/nx-s1-5946404/germany-far-right-election"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/afd-germany-saxony-anhalt-election-europe-far-right/"
+    }
+  ],
+  "event_utc": "2026-09-04T10:00:00Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-04T18:27:38Z",
+    "sources_cited": 2,
+    "sources_live_checked": 2
+  },
+  "update_of": "germany-s-far-right-afd-leads-polls-for-september-6-saxony-anhalt-election",
+  "also_reported_by": [
+    {
+      "outlet": "Reuters",
+      "headline": "Germany's AfD eyes Saxony-Anhalt win as first step toward federal power - Reuters"
+    },
+    {
+      "outlet": "JFeed",
+      "headline": "AfD Eastern Germany: Far-Right Party Leads in Polls - JFeed"
+    }
+  ],
+  "boundary": {
+    "affected": "Not applicable - this is an election story, not a product recall or safety advisory with a defined scope of affected parties.",
+    "fixed": "Not applicable",
+    "user_action": "Not applicable",
+    "advisory_url": "Not applicable"
+  }
+}

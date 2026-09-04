@@ -1,0 +1,64 @@
+{
+  "id": "c090",
+  "slug": "trump-threatens-to-halt-trade-unless-federal-reserve-cuts-interest-rates",
+  "kind": "brief",
+  "title": "Trump Threatens to Halt Trade Unless Federal Reserve Cuts Interest Rates",
+  "dek": "President Trump posted on social media on September 4, 2026, threatening to halt trade with countries that maintain a trade deficit with the United States unless the Federal Reserve lowers interest rates. Trump cited August's strong jobs report as justification for cuts. Federal Reserve Chairman Kevin Warsh, Trump's appointee, has separately signaled the possibility of a rate hike rather than a cut.",
+  "date": "2026-09-04",
+  "published_utc": "2026-09-04T18:27:38Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 12,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Trump posted on Truth Social: 'LOWER THE RATE OR I'LL STOP TRADING WITH COUNTRIES WITH WHICH WE HAVE A DEFICIT,' directing the appeal at Federal Reserve Chairman Kevin Warsh.",
+  "bottom_line": "The Fed's decision at its September 15-16 meeting will clarify whether Warsh moves toward the rate hike he signaled in Jackson Hole or pivots in response to Trump's trade threat. The outcome will test whether the central bank maintains its independence from political pressure and whether Trump follows through on trade threats that could disrupt major economic relationships.",
+  "human_take": "",
+  "body": [
+    "President Trump posted on Truth Social on Friday, September 4, 2026, threatening to halt trade with countries with which the United States maintains a trade deficit unless the Federal Reserve cuts interest rates. \"LOWER THE RATE OR I'LL STOP TRADING WITH COUNTRIES WITH WHICH WE HAVE A DEFICIT,\" Trump wrote. In the same post, he directed an appeal at Federal Reserve Chairman Kevin Warsh, writing: \"The Fed Board, with its great new leader, must get smart - BE PATRIOTS for a change.\"",
+    "Trump cited August's strong jobs report as justification for the Fed to cut interest rates. The United States runs a trade deficit with dozens of countries, including Mexico, Canada, and China. According to conventional monetary policy wisdom, lowering interest rates can stimulate economic growth but risks worsening inflation.",
+    "Federal Reserve Chairman Kevin Warsh, whom Trump appointed, suggested the possibility of a rate hike during a speech at a summit in Jackson Hole, Wyoming, late last week. Inflation remains well above the Federal Reserve's target of 2 percent. The Federal Reserve committee responsible for setting interest rate targets will meet on September 15-16 and announce whether the body will hike, maintain, or lower the current rate."
+  ],
+  "sources": [
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/live/2026/sep/04/missouri-supreme-court-congressional-district-map-mail-in-voting-us-canada-trade-war-executive-orders-latest-news-updates"
+    },
+    {
+      "title": "The New York Times",
+      "url": "https://www.nytimes.com/2026/09/04/business/economy/trump-trade-threats-fed-rate-cuts.html"
+    }
+  ],
+  "event_utc": "2026-09-04T18:06:46Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-04T18:27:38Z",
+    "sources_cited": 2,
+    "sources_live_checked": 3
+  },
+  "also_reported_by": [
+    {
+      "outlet": "The New York Times",
+      "headline": "Trump Threatens to Halt Some Trade Unless the Fed Cuts Rates - The New York Times"
+    },
+    {
+      "outlet": "Kurdistan24",
+      "headline": "Trump Threatens Trade War on Deficit Countries If Fed Refuses to Cut Rates - Kurdistan24"
+    },
+    {
+      "outlet": "the deep dive",
+      "headline": "Trump Threatens Global Trade Halt Unless Fed Cuts Rates - the deep dive"
+    },
+    {
+      "outlet": "CoinGape",
+      "headline": "Breaking: Trump Demands Fed Rate Cut, Threatens To Halt Trade With Deficit Nations - CoinGape"
+    },
+    {
+      "outlet": "bloomingbit",
+      "headline": "Trump Says Fed Should Cut Rates Despite Strong Jobs Report, Threatens to Halt Trade With Deficit Nations - bloomingbit"
+    },
+    {
+      "outlet": "International Business Times",
+      "headline": "Trump Just Demanded The Fed Cut Interest Rates. He Threatened With Trade Measures Otherwise. - International Business Times"
+    }
+  ]
+}

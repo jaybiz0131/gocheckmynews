@@ -1,82 +1,5 @@
 [
  {
-  "date": "2026-07-28",
-  "approved": 4,
-  "rejected": [
-   {
-    "id": "c078",
-    "headline": "Wildfires displace approximately 330,000 people across France and Spain",
-    "category": "clarity",
-    "reasons": [
-     "The draft acknowledges that 'details on the number of active fires, total acreage burned, specific fire locations, and containment status remain unclear' but then offers no information about these critical facts. The brief's open_questions list eight specific unknowns; the draft should either secure answers to them or be rewritten to avoid promising clarity it cannot deliver. As written, it reads as filler rather than reporting.",
-     "The bottom_line projects outcomes ('final toll on infrastructure,' 'timeline for residents' return') without any data about current containment, weather, or resources. It violates the guidance that bottom_line must avoid 'only time will tell' framing and should flag what would validate or invalidate the story. This reads as placeholder text."
-    ]
-   },
-   {
-    "id": "c330",
-    "headline": "Trump meets separately with Zelenskyy and Netanyahu at White House",
-    "category": "accuracy",
-    "reasons": [
-     "The phrase 'since the U.S. and Israel launched the war with Iran' is not present in the brief data_points. The brief states this was 'their first known face-to-face meeting since the U.S. and Israel launched the war with Iran,' but that claim appears to be smuggled from outside the research. The brief does not confirm that a U.S.-Israel war with Iran occurred or is ongoing; it only contextualizes the meeting as occurring after such an event, using reported language. The draft presents this as a confirmed fact in the narrative voice rather than as a reported claim, creating accuracy and liability exposure on a geopolitical assertion.",
-     "The bottom_line states 'the substance of their discussion and any potential policy alignments undisclosed' and 'What Trump and Netanyahu agreed to, if anything, regarding Iran strategy and Netanyahu's political future will become clearer'\u2014but no bear_case exists in the brief to support these framings. The absence of a readout is reported; speculation about what was 'agreed to' exceeds the brief's scope and reads as projection rather than reporting."
-    ]
-   },
-   {
-    "id": "c332",
-    "headline": "Apalachee High School shooter Colt Gray sentenced to life without parole",
-    "category": "accuracy",
-    "reasons": [
-     "The draft attributes a specific judge quote to 'Judge Nicholas Primm stated in sentencing, according to NBC News' with the exact text 'Your plan was not hastily hatched. It was a slow boil, simmering one in a year's time. You savored the thought of it. You visualized it, and you fantasized about it.' However, the brief's data_point lists this as confidence 'verified-on-chain' from NBC News, not a confidence label that would justify the phrasing used. More critically, the draft also includes the quote 'You do not seem to be tormented by what you did, you seem to relish following in the footsteps of the murderers you idolize... You aren't racked with guilt. You're proud of yourself.' This specific quote appears in the brief's data_points with verification confidence 'verified-on-chain' from NBC News, but does NOT appear in the draft body at all\u2014it was omitted entirely. The draft instead uses different Primm quotes that are in the brief. The accuracy issue is not with quotes included but with selective quoting that changes emphasis without noting what was left out."
-    ]
-   },
-   {
-    "id": "c273",
-    "headline": "Mediators report progress in U.S.-Iran ceasefire talks as both sides pause strikes",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'Mediators from Qatar and Pakistan reported progress in ceasefire negotiations between the U.S. and Iran' but the brief's data_point says 'Mediators in U.S.-Iran war negotiations reported progress in a potential ceasefire after both American and Iranian forces paused attacks'\u2014the term 'war negotiations' in the brief is a material escalation from 'ceasefire negotiations' in the draft. This is a paraphrase that alters the factual framing: the brief describes an ongoing U.S.-Iran war with pause-related ceasefire talks; the draft describes ceasefire talks between the parties without establishing the war context that the brief's language implies.",
-     "The draft is extremely thin (only two substantive paragraphs) relative to what the brief flags as open questions about 'specific progress,' 'what constitutes the pause,' 'which other forces,' 'timeline,' and 'what prior strikes prompted this.' The brief explicitly marks thin=true, but the draft's sparseness is so severe\u2014it contains no dates, no direct quotes from mediators, no detail on any 'progress' beyond the word itself\u2014that it reads as incomplete reporting rather than a finished draft. A thin brief can support a tight story, but this omits all concrete details that would establish credibility for the core claim."
-    ]
-   },
-   {
-    "id": "c223",
-    "headline": "Federal Judge Blocks Minnesota Prediction Market Ban as Federally Preempted",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'The CFTC has filed similar preemption challenges against six other states' but the brief data_point says 'The CFTC has countersued each state,' which is a different legal mechanism. The draft should use the source's language or clarify the legal action taken.",
-     "The draft characterizes Ben Sperry's title as 'senior scholar at the International Center for Law & Economics' but the brief identifies him as 'senior scholar of innovation policy and lead counsel at the International Center for Law & Economics'\u2014omitting 'lead counsel' is a material detail that changes his standing on this technical legal question."
-    ]
-   },
-   {
-    "id": "c269",
-    "headline": "Sen. Paul Releases Over 1,000 Pages of Fauci Journal Entries",
-    "category": "accuracy",
-    "reasons": [
-     "The draft presents 'over 1,000 pages of Dr. Anthony Fauci's journal entries' as fact, but the brief explicitly flags in open_questions that the source article content was unavailable and the source_chars value is 0, meaning no actual text from the Hill article was reviewed. The writer cannot verify this core claim. The draft should either note the limitation (e.g., 'according to reporting') or be rejected as smuggled information.",
-     "The draft states the entries 'address Fauci's thoughts on COVID origins uncertainty, media attention he received, and his relationship with President Trump' without a source text to confirm these specific topics were actually in the release. This too falls outside the brief's verified data."
-    ]
-   },
-   {
-    "id": "c335",
-    "headline": "DOJ invokes never-before-used secretive court to pursue deportation of suspected terrorist",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states Eric Lee said the court's use 'represents a precedent \"no president has wanted to set.\"' but the brief data_point quotes him as saying 'It's a precedent that no president has wanted to set.' The draft paraphrases and recontextualizes the quote in a way that changes its meaning\u2014the original is Lee's own assessment; the draft frames it as a finding about the court's use generally. This misrepresents the sourced claim.",
-     "The draft characterizes Aram Gavoor as 'a former national security attorney at the Civil Division' but the brief identifies him as 'a former national security attorney at the Civil Division who previously published an article on the history of the Alien Terrorist Removal Court.' The draft omits his specific expertise on this court, which materially weakens the attribution of his defense of the court structure."
-    ]
-   },
-   {
-    "id": "c011",
-    "headline": "Ukraine negotiator: 'We have the upper hand'",
-    "category": "accuracy",
-    "reasons": [
-     "The draft quotes Kyslytsya as saying 'We have the upper hand' in the title but the brief data_point states he said Ukraine has 'the leverage to force Russia into serious negotiations.' These are not equivalent claims\u2014'upper hand' is broader and more militarily assertive than 'leverage to force negotiations.' The title puts a paraphrase in quotes as if it were a direct quote from the source, which is a misrepresentation of what was actually said.",
-     "The draft is substantially thinner than the brief warrants. The brief lists 5 data_points but the draft uses only 2 (Kyslytsya's role and the leverage quote). The draft body is a single sentence that adds no new reporting beyond the header. For a story this thin, the approach may be defensible on brevity grounds, but combined with the quote misrepresentation in the title, the draft reads as headline-driven rather than fact-driven."
-    ]
-   }
-  ]
- },
- {
   "date": "2026-07-29",
   "approved": 7,
   "rejected": [
@@ -9136,6 +9059,29 @@
     "category": "accuracy",
     "reasons": [
      "The brief contains only one data_point: 'The case is the first known instance of the Justice Department seeking to prosecute a federal immigration officer for actions taken during the Minneapolis operation.' The draft's opening sentence states 'The Justice Department has charged an ICE agent with making false statements to investigators in connection with a nonfatal shooting incident during a Minneapolis operation, per reporting from the Washington Post.' This charge (false statements related to a nonfatal shooting) is a factual claim NOT present in the brief's single data_point. The brief does not specify the charge (false statements) or that it involved a shooting. The draft has smuggled a specific charge allegation\u2014'making false statements in connection with a nonfatal shooting'\u2014that is not carried in the research brief. The writer was bound by the hard rule: no fact exists outside the brief. This charge detail must come from the source, but the approver cannot verify facts against a URL; the charge is a critical factual element not in the brief."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-09-04",
+  "approved": 8,
+  "rejected": [
+   {
+    "id": "c073",
+    "headline": "Labor Inspector General Report Documents Misconduct Allegations Against Former Labor Secretary Chavez-DeRemer",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states the report is '38-page' but the brief data_point specifies it is a '44-page report.' This is a direct factual discrepancy that must trace back to the brief."
+    ]
+   },
+   {
+    "id": "c092",
+    "headline": "Trump Envoys Kushner and Witkoff Set for Moscow and Kyiv Visit on September 5-6",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states the conflict is 'now in its fifth year,' but the brief data_point 7 describes it as a '4-year, 6-month-old war.' These are materially different time references. As of September 4, 2026, a war that began in February 2022 would be 4 years and 7 months old, not five years. The brief's language ('4-year, 6-month-old') is the sourced claim; the draft's 'fifth year' is either a new fact or a mathematical error not in the brief.",
+     "The draft uses the phrase 'hairbrained demands' in paraphrase when describing Putin's negotiating position. The brief data_point 8 quotes the opinion piece using 'hairbrained,' but the draft's body text removes the quotation marks and presents this loaded descriptor in the desk's own voice as if it is the desk's characterization of Putin's demands, not a quoted opinion. Under the contested-terminology rule (owner ruling 2026-08-21), the desk does not adopt either side's loaded phrasing as its own unquoted description. The word 'hairbrained' (meaning absurd, reckless) is a value judgment that must remain attributed to the opinion piece, not narrated as fact."
     ]
    }
   ]

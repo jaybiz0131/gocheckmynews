@@ -1,0 +1,52 @@
+{
+  "id": "c015",
+  "slug": "us-diesel-prices-hit-record-5-85-per-gallon-as-iran-war-disrupts-oil-supplies",
+  "kind": "brief",
+  "title": "US diesel prices hit record $5.85 per gallon as Iran war disrupts oil supplies",
+  "dek": "US average diesel prices reached $5.85 per gallon on September 4, 2026, surpassing the previous record from the 2022 Ukraine crisis, according to the American Automobile Association. The spike follows the Iran conflict that began in late February 2026 and has disrupted global oil supplies. Higher diesel costs ripple through food, shipping, and agriculture sectors.",
+  "date": "2026-09-04",
+  "published_utc": "2026-09-04T18:27:38Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 2,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "US diesel prices hit an all-time record of $5.85 per gallon on September 4, 2026, driven by the six-month Iran war and the closure of the Strait of Hormuz, a waterway through which one-fifth of the world's oil normally passes.",
+  "bottom_line": "Diesel prices will remain volatile depending on the trajectory of the Iran conflict and the pace of the Venezuela oil project. The coming weeks will show whether food and shipping price increases, delayed by existing contracts, begin reaching store shelves before the November midterm elections.",
+  "human_take": "",
+  "body": [
+    "US average diesel prices reached $5.85 per gallon on September 4, 2026, an all-time high, according to the BBC and the American Automobile Association. That is up sharply from $3.71 one year earlier and represents a breach of the previous record set during the 2022 Ukraine crisis, BBC reported.\nThe Iran conflict, which began in late February 2026, has disrupted global oil supplies through closure of the Strait of Hormuz, a waterway through which one-fifth of the world's oil is normally transported, BBC stated. Brent crude trading reached more than $95 per barrel on September 4, up from roughly $70 before the war began, according to PBS NewsHour.  Regional variation is sharp: in Washington state, average diesel prices stand at $6.81 per gallon, up from $5.03 one year ago, BBC reported. Western states pay significantly more diesel per gallon than elsewhere due to tax differences and distance from US oil producers, BBC noted.\nRegular gasoline prices also rose. The average price for regular gasoline was $4.15 per gallon as of September 4, compared with $3.20 at this time last year, per the American Automobile Association as reported by PBS. Gas has never been above $4 per gallon on Labor Day before 2026, PBS stated. The last time US saw comparable fuel prices was June 2022, when diesel reached nearly $5.82 per gallon, PBS noted. When adjusted for inflation, that 2022 diesel record of $5.82 would equal about $6.56 in 2026 dollars, PBS reported. The 2008 financial crisis diesel peak of about $4.74 per gallon would be approximately $7.20 in 2026 dollars, PBS stated.\nDiesel powers the supply chain: commercial vehicles such as trucks, trains, boats, buses, farming vehicles, and construction vehicles all rely on it, BBC reported. Fuel accounts for roughly 15% to 30% of the total cost of food, according to the Independent Grocers Alliance, a grouping of 7,500 global supermarkets, as cited by PBS. Early costs from fuel shocks get absorbed along the supply chain through existing freight contracts and retailer margins before reaching store shelves, but as contracts reprice and fuel surcharges take hold, more cost reaches consumers, per Michigan State University food economics professor David Ortega, as reported by PBS. In July 2026, overall US grocery prices were up 2.7% compared to July 2025, but seafood prices rose 7% and fresh fruit rose 4.9%, PBS reported. Items needing refrigeration during transport are often first to see price rises from fuel costs, Ortega stated.\nSupply chains have already begun adjusting. In April 2026, Amazon rolled out a temporary 3.5% fuel and logistics surcharge on some third-party sellers, PBS reported. United Parcel Service, FedEx, and the United States Postal Service moved to add fees on some packages they ship, PBS noted. Prices cooled during hopes for peace earlier in summer 2026, but oil renewed its climb as fighting escalated between the US and Iran, according to PBS.\nDiesel has been more expensive than gasoline for decades, and its price rises faster during energy crises due to tighter diesel supply, less flexibility in demand, and diesel's central position in global commerce, PBS reported.  The Venezuela deal announced Saturday includes what Interim Venezuela President Delcy Rodr\u00edguez described as \"an investment of more than $100 billion (\u00a3373.9 billion) and more than $209 billion in taxes\" for Venezuela. The US government will retain 55% control of a joint venture with \"an experienced private operator in Venezuela,\" per US official reporting, BBC stated.\nThe price spike has intensified voter frustration. Reuters/Ipsos polling shows Trump's approval rating fell to 33% as of September 2026, and just 31% of Americans approve of the Iran conflict, BBC reported. AP-NORC polling in summer 2026 showed two out of three US adults disapproved of how Trump handled the economy, PBS reported. Donald Trump pledged to \"substantially lower Gas Prices for all Americans\" through the Venezuela oil deal, BBC reported."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c7903r0grx0o"
+    },
+    {
+      "title": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/nation/u-s-diesel-prices-hit-a-record-high-pushing-up-transportation-costs-for-a-long-list-of-goods"
+    },
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c7903r0grx0o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "NPR",
+      "url": "https://www.npr.org/2026/09/04/g-s1-141972/up-first-newsletter-usps-mail-in-voting-irs-schools-christian-castro"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/business/6071247-diesel-prices-record-high-iran-war/"
+    },
+    {
+      "title": "aljazeera.com",
+      "url": "https://www.aljazeera.com/economy/2026/9/4/diesel-price-hits-all-time-high-in-us-amid-iran-war-woes?traffic_source=rss"
+    }
+  ],
+  "event_utc": "2026-09-04T10:52:56Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-04T18:27:38Z",
+    "sources_cited": 6,
+    "sources_live_checked": 3
+  }
+}

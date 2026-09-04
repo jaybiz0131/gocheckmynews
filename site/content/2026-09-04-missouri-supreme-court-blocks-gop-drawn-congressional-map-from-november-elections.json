@@ -42,6 +42,14 @@
     {
       "title": "Guardian US",
       "url": "https://www.theguardian.com/us-news/live/2026/sep/04/missouri-supreme-court-congressional-district-map-mail-in-voting-us-canada-trade-war-executive-orders-latest-news-updates"
+    },
+    {
+      "title": "The Washington Post",
+      "url": "https://www.washingtonpost.com/politics/2026/09/03/court-throws-out-missouri-congressional-map-helping-democrats-keep-seat/"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/homenews/administration/6070786-trump-condemns-missouri-redistricting-ruling/"
     }
   ],
   "event_utc": "2026-09-03T22:04:34Z",
@@ -58,12 +66,17 @@
       "url": "https://www.nbcnews.com/politics/2026-election/missouri-supreme-court-rules-gop-drawn-map-cant-used-november-election-rcna595688"
     }
   ],
-  "updated_utc": "2026-09-04T14:35:31Z",
+  "updated_utc": "2026-09-04T18:27:38Z",
   "merged_from": [
     {
       "id": "c102",
       "title": "Missouri Supreme Court blocks GOP congressional map from November elections",
       "published_utc": "2026-09-04T14:35:31Z"
+    },
+    {
+      "id": "c119",
+      "title": "Missouri Supreme Court Blocks GOP Map, Orders Voter Referendum",
+      "published_utc": "2026-09-04T18:27:38Z"
     }
   ]
 }
