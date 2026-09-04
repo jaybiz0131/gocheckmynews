@@ -49,6 +49,22 @@
     {
       "title": "Guardian US",
       "url": "https://www.theguardian.com/books/gallery/2026/sep/03/gloria-steinem-a-life-in-pictures"
+    },
+    {
+      "title": "NPR",
+      "url": "https://www.npr.org/2026/09/03/nx-s1-5955479/gloria-steinem-fresh-air"
+    },
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/clyeq3ngwe4o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "NPR",
+      "url": "https://www.npr.org/2026/09/03/nx-s1-5955579/gloria-steinem-tributes"
+    },
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/commentisfree/2026/sep/03/gloria-steinem-us-feminist-movement"
     }
   ],
   "event_utc": "2026-09-03T09:55:50Z",
@@ -111,12 +127,17 @@
       "url": "https://www.cbsnews.com/video/journalist-and-feminist-trailblazer-gloria-steinem-dies-at-92/"
     }
   ],
-  "updated_utc": "2026-09-03T18:06:59Z",
+  "updated_utc": "2026-09-04T14:35:31Z",
   "merged_from": [
     {
       "id": "c007",
       "title": "Gloria Steinem, pioneering feminist journalist, dies at 92",
       "published_utc": "2026-09-03T18:06:59Z"
+    },
+    {
+      "id": "c051",
+      "title": "Gloria Steinem, feminist pioneer, dies at 92",
+      "published_utc": "2026-09-04T14:35:31Z"
     }
   ]
 }

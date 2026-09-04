@@ -1,0 +1,50 @@
+{
+  "id": "c121",
+  "slug": "u-s-added-162-000-jobs-in-august-wage-growth-lags-inflation",
+  "kind": "brief",
+  "title": "U.S. added 162,000 jobs in August; wage growth lags inflation",
+  "dek": "The U.S. economy added 162,000 jobs in August 2026, exceeding economist forecasts, while the unemployment rate held at 4.1%. Wage growth remained at 3.1% year-over-year, below the 3.4% inflation rate recorded in July, leaving workers' real purchasing power under pressure.",
+  "date": "2026-09-04",
+  "published_utc": "2026-09-04T14:35:31Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 2,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "August payroll gains of 162,000 jobs more than doubled economists' consensus forecast of 53,000 to 65,000, but wage growth at 3.1% continues to trail inflation.",
+  "bottom_line": "The September 11 inflation report will likely determine whether the Federal Reserve tilts toward a rate hike at its September 16 meeting despite strong August payroll gains. The gap between wage growth and price growth will shape the debate over whether this labor-market strength is sustainable or economically extractive for workers.",
+  "human_take": "",
+  "body": [
+    "The U.S. economy added 162,000 jobs in August 2026, more than double the number economists surveyed by Dow Jones had expected, according to NBC News reporting. The unemployment rate remained unchanged at 4.1%, per the same reporting.",
+    "The strong August payroll number arrives as policymakers weigh competing signals about the economy's direction: robust job creation suggests labor-market resilience, but wage growth remains subdued even as price pressures persist.",
+    "August's employment gain stands well above the monthly average of 80,000 jobs tracked so far this year, according to NBC News. June payroll gains were revised upward by 11,000 roles to 31,000 total, while July saw a sharper revision: the initially reported loss of 23,000 jobs was revised up by 44,000 to a net gain of 21,000, per NBC News reporting. Within August's total, food services and bars added 59,000 jobs and local government education added 42,000 as teachers returned to school, according to CBS News. Construction gained 22,000 roles. Information technology employment declined by 23,000, with losses concentrated in computing infrastructure, data processing and web hosting, per NBC News.",
+    "Wage growth, measured as average hourly earnings, remained at 3.1% year-over-year in August, unchanged from July, according to NBC News. CBS News notes this marks the lowest wage growth rate since May 2021. By contrast, inflation in July ran at 3.4% annually, per NBC News reporting, leaving real wage growth negative. Wells Fargo's Jennifer Timmerman, quoted in NBC News reporting, called wage growth \"the fly in the ointment,\" noting that \"with oil prices poised to nudge inflation higher, real wages remain vulnerable during the balance of the year.\" Brent crude traded around $95 per barrel on Friday, September 4, having risen nearly 20 percent since August 4, according to NBC News.",
+    "President Donald Trump characterized the report as \"great\" in a social media post and called for the Federal Reserve to \"lower the interest rates\" immediately, stating the Fed and newly installed chairman Kevin Warsh \"must get smart\" and \"be patriots,\" according to NBC News reporting. Warsh said at Jackson Hole, Wyoming, per Guardian reporting, \"We must be confident that underlying inflation is moving to our objective, clearly and at sufficient speed. Otherwise, we have work to do.\" Economists quoted in Guardian reporting expect at least one interest rate hike from the Federal Reserve before year's end. CBS News reports the Fed's rate decision is set for September 16, and the August inflation data will not be released until September 11.",
+    "The payroll firm ADP reported private companies added only 38,000 jobs in August, lower than initial expectations and the lowest month for new jobs since January, per Guardian reporting. Outplacement firm Challenger, Gray & Christmas reported that layoffs have been 41 percent lower than cuts announced by this time last year, according to Guardian reporting. Yet economists quoted in Guardian reporting have noted the labor market appears stalled in a \"slow hire, slow fire\" state, with the number of people quitting their jobs remaining flat, suggesting workers feel less confident about their ability to find another position. A separate Bureau of Labor Statistics report from earlier in the week showed job openings and layoffs had changed little in July.",
+    "August's number is not reflective of job growth writ large this year, which tracks at approximately 80,000 roles per month. That is well above 2025's monthly average of 10,000 jobs but below the monthly means for 2023 and 2024, per NBC News reporting. Economists cautioned, per NBC News, that August employment data often faces seasonal revisions later in the year."
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/business/economy/august-jobs-report-trump-inflation-rcna595974"
+    },
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/business/2026/sep/04/august-economy-jobs-report"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/august-jobs-report-us-labor-market/"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/business/6069875-august-jobs-data-us-economy-trump-administration/"
+    }
+  ],
+  "event_utc": "2026-09-04T09:00:40Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-04T14:35:31Z",
+    "sources_cited": 4,
+    "sources_live_checked": 3
+  }
+}

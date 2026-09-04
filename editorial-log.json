@@ -1,63 +1,6 @@
 [
  {
   "date": "2026-07-28",
-  "approved": 6,
-  "rejected": [
-   {
-    "id": "c093",
-    "headline": "Record Evacuations as Wildfires Advance Across France and Spain",
-    "category": "accuracy",
-    "reasons": [
-     "The brief explicitly states 'The source text is unavailable; the number of active fires is not provided' and 'source_chars': 0, indicating the actual New York Times article was not accessed during research. The three data_points in the brief all carry 'confidence': 'reported', but without access to the source material, these cannot be verified as accurately paraphrased from the actual article. The draft presents factual claims (330,000 evacuations, 40\u00b0C heatwave arriving Wednesday, compressed firefighting window) that trace to brief data_points sourced from an inaccessible article\u2014this violates the hard rule that facts must trace to research, not to unaccessible sources. The brief's own open_questions acknowledge the source material gap."
-    ]
-   },
-   {
-    "id": "c087",
-    "headline": "Iran Signals Reluctance to Resume Negotiations as Military Pause Continues",
-    "category": "accuracy",
-    "reasons": [
-     "The brief states 'source_chars': 0 and the open_questions section explicitly lists 'What specific statements or actions has Iran taken to signal reluctance to resume talks, beyond analysts' assessments?' and 'How long has the military strike pause been in effect?'\u2014indicating the New York Times source was not accessible during research. The draft opens with 'Iran's leaders are betting they can endure more pain than President Trump can, according to New York Times reporting,' but this claim originates from an inaccessible source. The brief contains only two data_points and both are sparse and confidence-labeled 'reported' from an article that was never accessed (source_chars: 0). The draft presents geopolitical analysis (Iran's calculation about waiting out Trump's political timeline, leverage via Strait of Hormuz) sourced to material that research did not actually review, violating the hard rule that all facts trace to verified research."
-    ]
-   },
-   {
-    "id": "c069",
-    "headline": "Senate set to vote on Jay Clayton for director of national intelligence",
-    "category": "compliance",
-    "reasons": [
-     "The draft reads as advocacy in its framing and language. The opening paragraph presents Clayton's expected confirmation as a fait accompli that 'split[s] along party lines,' establishing a foregone conclusion rather than reporting an event. The third paragraph uses loaded framing ('unusual moment,' 'declined to state a basic fact') that adopts a judgment about Clayton's conduct rather than attributing that interpretation to a source. The bottom_line statement ('The Senate will signal its tolerance for confirmation of intelligence leadership that declines to affirm certified electoral results') presents an interpretive verdict about what the Senate's vote will mean, rather than reporting what will happen and what to watch. This reads as the desk's own editorial voice, not neutral event reporting.",
-     "The brief identifies a bear_case as empty, but the draft itself invokes the 'bear case' through its language choices (e.g., 'declined to state a basic fact') without presenting any counter-argument or alternative framing from Republicans. A story that relies on one interpretive frame without acknowledging complexity is a compliance violation when it reads this adversarial."
-    ]
-   },
-   {
-    "id": "c250",
-    "headline": "Early voting begins in Wisconsin Democratic governor primary",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'party infighting may benefit democratic socialist state Rep. Francesca Hong' and that 'Internal Democratic division...creates an opening for an unconventional candidate.' However, the brief's open_questions note explicitly that 'no source text was fetched from The Hill URL' and 'The claim that infighting could advantage Hong is analytical but unsourced; no quantitative polling or strategic analysis from named sources backs it.' The writer has smuggled an analytical claim about the relationship between party division and Hong's electoral prospects that is not in the research brief. No fact in the draft establishes what 'party infighting' exists, what form it takes, or how it benefits Hong. This is a violation of the hard rule: no fact exists outside the brief.",
-     "The draft's third paragraph claims 'Hong's candidacy in a five-way Democratic field marks the presence of a democratic socialist competitor in a race for statewide office in a swing state. The outcome of the Democratic primary will shape the party's general election positioning in Wisconsin.' These are analytical assertions about significance and political strategy that go beyond what the brief supplies as reported fact."
-    ]
-   },
-   {
-    "id": "c346",
-    "headline": "Nasdaq-100 enters correction as chip and memory stocks plunge globally",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states: 'Evercore technology analyst Mark Mahaney said that despite investor jitters, cloud demand appears relentless, and positive earnings results so far in the quarter have supported the market.' The brief data point attributes the cloud demand quote to Mahaney but attributes the earnings surprise statement to 'HSBC's Max Kettner' in a separate data point. The draft conflates these two separate analyst statements into one attribution to Mahaney, misattributing Kettner's analysis.",
-     "The draft states: 'Even excluding Alphabet's results, the average earnings surprise is well in excess of the post-COVID-19 pandemic average, per Mahaney.' The brief attributes this claim to 'HSBC's Max Kettner,' not Mahaney. This is a factual misattribution that changes the source authority for the claim."
-    ]
-   },
-   {
-    "id": "c178",
-    "headline": "Sen. Paul releases Fauci documents ahead of Senate testimony on COVID origins",
-    "category": "balance",
-    "reasons": [
-     "The brief contains an empty bear_case array, indicating no counter-evidence or opposing perspective was provided to the writer. The draft presents Paul's allegations and interpretations as the primary narrative without including responses from Fauci, the named scientists, or official denials. The draft acknowledges in a meta-comment ('The brief does not include responses...') that such responses are absent, but this acknowledgment does not fulfill the balance requirement\u2014it merely documents the gap. A draft that lays out serious allegations of conspiracy and cover-up without any counter-voice or official response reads as advocacy for Paul's narrative. The final paragraph attempting to signal limitations does not substitute for actual balance in the prose itself."
-    ]
-   }
-  ]
- },
- {
-  "date": "2026-07-28",
   "approved": 3,
   "rejected": [
    {
@@ -9198,6 +9141,65 @@
      "The draft states Steinem 'worked as a waitress' at the Playboy Club, but the brief's data_point specifies she 'worked undercover as a Playboy Bunny.' These are materially different roles with different public meanings. The brief is explicit; the draft has altered the historical fact.",
      "The death is marked 'announced-not-verified' in the brief (confidence label), but the draft presents it as settled fact with no qualification. Per the rules, confidence labels must survive into prose\u2014'announced-not-verified' claims must read as such.",
      "The draft attributes Clinton's quote about Title IX and Roe to a paraphrase of what 'Clinton added,' but the brief carries the full verified quote showing Clinton made a more extensive statement than the paraphrase captures. The paraphrase is acceptable, but it should not imply Clinton said only what the paraphrase contains when the brief shows she said more."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-09-04",
+  "approved": 6,
+  "rejected": [
+   {
+    "id": "c047",
+    "headline": "VP Vance dismisses Iran wedding strike reports as untrustworthy",
+    "category": "compliance",
+    "reasons": [
+     "The draft opens with and repeatedly uses Vance's phrase 'sometimes things happen' as a framing device, including in the title ('VP Vance dismisses Iran wedding strike reports as untrustworthy'). However, Vance's full quote is: 'What I can say with 100% confidence is that, unlike the IRGC, the United States never targets civilians in combat. We never will do that. We never have done that, and unfortunately, obviously, sometimes things happen.' The phrase 'sometimes things happen' is a direct Vance quote and is properly attributed in the body. The problem is that the draft's angle in the brief states the story is about 'a pattern of US officials minimizing or disputing reports of civilian harm' and the draft title/framing emphasizes Vance's dismissal and skepticism. The bottom line states 'Centcom's pending investigation into the Kuhestak strike will determine the US's official account of civilian harm; the pattern of prior incidents suggests any findings may arrive months later and involve revisions upward from initial denials.' This reads as advocacy against the US position\u2014the desk is narrating a pattern of 'minimizing' and predicting 'revisions upward' as though it is editorializing about US credibility rather than reporting what sources say. The beat itself\u2014a critical examination of civilian casualty patterns\u2014is reportable, but the bottom line's predictive judgment about future findings ('revisions upward') goes beyond what the brief supports and reads as the desk's own verdict.",
+     "Additionally, the draft's presentation of the weapons-expert analysis is sound, but the framing of Vance's skepticism as targeted at the Red Crescent (which the brief clarifies is 'independent of Tehran') when Vance actually said he was skeptical of 'Iranian state media' is a subtle misrepresentation. The draft correctly clarifies this in one sentence ('The Iranian Red Crescent is a member of the International Red Cross and Red Crescent Movement that operates independently of Tehran'), but the lead-up framing of Vance as dismissing 'reports'\u2014without initially clarifying which reports and from which sources\u2014could mislead a reader into thinking Vance disputed the Red Crescent directly."
+    ]
+   },
+   {
+    "id": "c109",
+    "headline": "Federal Judge Blocks Trump's August Executive Order on Birthright Citizenship, September 3, 2026",
+    "category": "accuracy",
+    "reasons": [
+     "All factual claims trace to brief data_points: judge name, date, page count, executive order restrictions, Supreme Court ruling, plaintiff organizations, quoted statements, concerns about 'alien enemy' designation, Venezuelan deportations, lack of implementation guidelines all confirmed.",
+     "Confidence levels preserved: all claims marked 'reported' in brief appear as reported facts in draft.",
+     "No advocacy: draft presents judge's ruling and concerns neutrally without editorializing.",
+     "Balance: brief carry_case is empty (bear_case: []); draft correctly contains no counter-evidence paragraph.",
+     "Bottom_line looks forward to appeal and litigation without summarizing.",
+     "No em dashes, fabricated quotes, or human_take; liability disclaimer present.",
+     "Story is a one-sided ruling (judge blocks order) so absence of administration response is not a narrative failure.",
+     "the draft dates September 3, 2026 as a Wednesday; September 3, 2026 is a Thursday"
+    ]
+   },
+   {
+    "id": "c008",
+    "headline": "U.S. Diesel Prices Hit Record High of $5.85 per Gallon, September 4, 2026",
+    "category": "compliance",
+    "reasons": [
+     "Bottom_line contains political information outside the brief: 'The Trump administration's approval rating stands at 33 percent, per BBC reporting of recent Reuters/Ipsos polling, with only 31 percent of Americans approving of the Iran conflict.' This statement appears in the brief as a data_point but is used in the bottom_line as forward-looking analysis, which violates the rule that bottom_line must look forward to watch-items and invalidation scenarios, not political polling. The polling figures are factually sourced, but their placement in a bottom_line that frames them as operative to the story's outcome (rather than as part of the current-events reporting in the body) reads as political commentary on Trump's political position.",
+     "The angle in the brief explicitly states 'the timing threatens to reverse stabilizing food inflation and complicates Trump's political position ahead of November midterms as voter anxiety over affordability peaks'\u2014this is advocacy framing (the angle is the desk's interpretation, not a neutral framework). The draft body does not editorialize, but the bottom_line adopts this political frame by citing approval ratings as though they are part of what determines the story's trajectory, which is a compliance violation: the desk does not judge which political outcomes matter.",
+     "the draft dates September 2, 2026 as a Tuesday; September 2, 2026 is a Wednesday"
+    ]
+   },
+   {
+    "id": "c091",
+    "headline": "At Least 100 Killed as Houthis Intensify Fighting Near Bab al-Mandab Strait, September 4, 2026",
+    "category": "accuracy",
+    "reasons": [
+     "Brief explicitly marks itself thin: true, with source_chars: 486 (far below threshold for adequate sourcing). The brief's own open_questions state: 'The fetched Al Jazeera source text provides only a headline and two brief sentences; the New York Times source text was not retrieved. No context on casualty breakdown, specific location names beyond 'port city near Bab al-Mandab,' identity of Yemeni government forces, or historical background on the conflict is present in the sources.'",
+     "The draft body contains only 107 words of reporting across four sentences. The brief acknowledges that the source material does not provide: specific location name, casualty breakdown, mechanism of fighting, statement from any party, or explicit date confirmation beyond inference.",
+     "Draft states 'since Thursday' but the brief notes 'The specific date referenced as 'Thursday' is not explicitly stated; it is inferred from the story's first_seen timestamp.' The draft is reporting an inferred date as a sourced fact.",
+     "The core claim is so thin and the sourcing so sparse (one Al Jazeera video feed headline with two sentences retrieved; NYT source not fetched) that the story cannot clear the accuracy bar. A reader would have no way to verify the casualty count, location, or even confirm what 'Thursday' means in absolute terms. This is not a 'short story from thin brief' (which would be correct); this is too thin to publish."
+    ]
+   },
+   {
+    "id": "c063",
+    "headline": "Trump administration appeals to Supreme Court to lift mail voting block as North Carolina ballots begin September 5",
+    "category": "accuracy",
+    "reasons": [
+     "the draft dates September 5, 2026 as a Friday; September 5, 2026 is a Saturday"
     ]
    }
   ]
