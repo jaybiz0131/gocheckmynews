@@ -1,64 +1,6 @@
 [
  {
   "date": "2026-07-28",
-  "approved": 5,
-  "rejected": [
-   {
-    "id": "c089",
-    "headline": "Massive wildfires force 330,000+ evacuations across France and Spain ahead of extreme heat",
-    "category": "accuracy",
-    "reasons": [
-     "Draft states 'temperatures spike to 104 degrees Fahrenheit in some areas' as a certainty, but the brief data_point says 'expected to reach 104 degrees Fahrenheit'\u2014the draft removes the conditional language ('expected') and presents a forecast as fact. This is not a paraphrase; it's a confidence level violation."
-    ]
-   },
-   {
-    "id": "c255",
-    "headline": "U.S. diplomats walk out of UN Security Council meeting during French remarks",
-    "category": "accuracy",
-    "reasons": [
-     "The draft claims 'The walkout came after France's mission in Geneva criticized the U.S. vote against the reappointment of the UN human rights body's high commissioner, Volker T\u00fcrk, reported on Saturday.' This creates a causal sequence ('came after...criticized') that is not supported by the brief. The brief establishes only that France criticized the U.S. vote on Saturday and that a walkout occurred Monday; it does not state that the Saturday criticism caused the Monday walkout. The draft smuggles a causal relationship not present in the source material."
-    ]
-   },
-   {
-    "id": "c064",
-    "headline": "Senate expected to vote on Jay Clayton's nomination as director of national intelligence",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'During his confirmation hearing two weeks prior to the expected vote, Clayton repeatedly refused to say that former President Joe Biden won the 2020 election' as a reported fact. The brief's data_point for this claim shows confidence level 'reported' but the open_questions explicitly flag 'What were Clayton's specific statements or non-statements during the hearing on the 2020 election outcome?' indicating the source text provided was truncated and the specific nature of his statements is not actually confirmed in the source. The draft presents this as settled fact when the brief itself marks it as incompletely sourced."
-    ]
-   },
-   {
-    "id": "c240",
-    "headline": "Wisconsin opens early voting in five-candidate Democratic gubernatorial primary",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'State Rep. Francesca Hong, a democratic socialist, is among the five candidates' without the qualifier present in the brief. The brief's data_point reads 'State Rep. Francesca Hong, a democratic socialist, is among the candidates and may have an edge due to party infighting.' The draft omits the 'may have an edge due to party infighting' claim entirely\u2014this is not paraphrase, it is selective omission of a sourced claim. Additionally, the draft then states 'The presence of multiple candidates with different ideological backgrounds signals potential fractures within the state Democratic Party'\u2014this signals/inference language goes beyond what the source provides and reads as the writer's own analysis rather than reported fact."
-    ]
-   },
-   {
-    "id": "c206",
-    "headline": "FBI seeks AI to predict threats for watch list now tracking domestic dissent",
-    "category": "balance",
-    "reasons": [
-     "The brief identifies zero bear_case items, yet the draft is written in advocacy voice throughout. Phrases like 'raising civil liberties concerns,' 'pre-crime surveillance,' 'pre-crime system,' and the framing of predictive modeling as inherently problematic adopt a civil liberties activist posture rather than neutral reporting. The draft presents the FBI's expanded mission as established fact without quoting or attributing the counterargument that such surveillance might deter actual threats.",
-     "The draft frames the watch list as an unambiguous failure ('undetected needles in a haystack') without presenting the FBI's operational rationale or defending the scale and scope of the list. A neutral brief would require the desk to present what the FBI says the list accomplishes, not what critics say it fails at.",
-     "The title 'FBI seeks AI to predict threats for watch list now tracking domestic dissent' conflates two separable facts (AI procurement + mission expansion) in a way that presupposes wrongdoing. Neutral framing would separate the tools from the policy debate."
-    ]
-   },
-   {
-    "id": "c244",
-    "headline": "Federal judge orders Trump to turn over financial documents in BBC defamation case",
-    "category": "accuracy",
-    "reasons": [
-     "The draft describes the BBC's claim as 'a documentary editing error caused monetary damages to Trump' but the brief data_point states only 'claiming a poor documentary edit caused monetary damages to Trump.' The word 'error' presupposes a factual basis the source does not establish; 'poor edit' is the plaintiff's allegation, not a documented fact. The draft has paraphrased in the direction of the plaintiff's framing.",
-     "The brief's open_questions explicitly flag 'What is the factual basis of the BBC's defamation claim\u2014what specific edit or statement is alleged to have caused damages?' as unanswered. The draft makes no effort to answer this; it simply states the allegation as shorthand without drilling into what the BBC actually claims happened. The source_chars value of 0 indicates the source material provided no detail, yet the draft presents the claim as settled.",
-     "The draft is thin and lacks specifics that would normally support a defamation allegation (what was edited, what was said, how damages were quantified), but the brief itself is explicitly marked 'thin: true' with minimal data_points. The appropriate response to a thin brief is either to reject or to write an even tighter story that acknowledges the limits of available information; this draft neither rejects the story nor signposts the gaps."
-    ]
-   }
-  ]
- },
- {
-  "date": "2026-07-28",
   "approved": 6,
   "rejected": [
    {
@@ -9224,6 +9166,38 @@
     "category": "accuracy",
     "reasons": [
      "The draft claims 'survivors are believed to be trapped inside tunnels along the Trishuli River' but the brief's open_questions section explicitly states 'The source text does not specify how many survivors rescuers believe are trapped in the tunnels.' The draft asserts a specific belief without sourcing it to the brief\u2014this is a smuggled fact. The writer has inserted a definitive claim of trappedness that the brief does not carry."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-09-04",
+  "approved": 7,
+  "rejected": [
+   {
+    "id": "c046",
+    "headline": "VP Vance dismisses Iranian casualty reports from airstrike, says 'things happen'",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Australia sent a 15-member team of state emergency operatives to Nepal on Friday' but the brief data_point says 'Australia sent a team of drone specialists to Nepal on Friday.' These are contradictory characterizations of the same team. The draft uses 'state emergency operatives' while the brief says 'drone specialists.' The writer has smuggled in a different description than what the brief carries."
+    ]
+   },
+   {
+    "id": "c328",
+    "headline": "August Jobs Report Expected to Show Continued Weak Hiring",
+    "category": "compliance",
+    "reasons": [
+     "The title and opening paragraphs present the August jobs report as an expectation for a future event ('due Friday at 8:30 a.m. ET'), but the draft then shifts into reporting language that reads as though the report's contents are known facts rather than forecasts. Phrases like 'is expected to show' and 'economists surveyed...expect' maintain proper conditional framing, but the bottom_line contains predictive language that crosses into financial advice: 'Friday's report will reveal whether the consensus forecast of 53,000 jobs holds or whether private sector data pointing lower proves predictive' and 'the September 11 inflation release will show whether the 20% surge in oil prices since early August translates into renewed price pressure.' This reads as guidance on what data points to watch for investment or economic decision-making, which violates the financial advice boundary."
+    ]
+   },
+   {
+    "id": "c50",
+    "headline": "Gloria Steinem, pioneering feminist and activist, dies at 92",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states Steinem 'worked as a waitress' at the Playboy Club, but the brief's data_point specifies she 'worked undercover as a Playboy Bunny.' These are materially different roles with different public meanings. The brief is explicit; the draft has altered the historical fact.",
+     "The death is marked 'announced-not-verified' in the brief (confidence label), but the draft presents it as settled fact with no qualification. Per the rules, confidence labels must survive into prose\u2014'announced-not-verified' claims must read as such.",
+     "The draft attributes Clinton's quote about Title IX and Roe to a paraphrase of what 'Clinton added,' but the brief carries the full verified quote showing Clinton made a more extensive statement than the paraphrase captures. The paraphrase is acceptable, but it should not imply Clinton said only what the paraphrase contains when the brief shows she said more."
     ]
    }
   ]

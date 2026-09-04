@@ -49,7 +49,7 @@
     "sources_cited": 6,
     "sources_live_checked": 3
   },
-  "consolidated": "This story was updated in place with a better-sourced account of the same event, carrying 6 sources against the original 6. The earlier version was headlined “Three dead, including suspect, and others injured in Minneapolis apartment building shooting”. The URL and publication time are unchanged.",
+  "consolidated": "This story was updated in place with a better-sourced account of the same event, carrying 6 sources against the original 6. The earlier version was headlined \u201cThree dead, including suspect, and others injured in Minneapolis apartment building shooting\u201d. The URL and publication time are unchanged.",
   "superseded_sources": [
     {
       "title": "nbcnews.com",
@@ -83,5 +83,6 @@
       "title": "Minneapolis shooting kills 2, wounds 6 others including 3 police officers",
       "published_utc": "2026-09-03T18:06:59Z"
     }
-  ]
+  ],
+  "continued_by": "suspect-in-downtown-minneapolis-mass-shooting-was-facing-eviction"
 }

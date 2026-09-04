@@ -1,0 +1,43 @@
+{
+  "id": "c088",
+  "slug": "two-workers-rescued-alive-from-nepal-hydropower-tunnel-nine-days-after-devastating-flood",
+  "kind": "brief",
+  "title": "Two workers rescued alive from Nepal hydropower tunnel, nine days after devastating flood",
+  "dek": "Two construction workers were pulled alive from the Trishuli-3A hydropower tunnel in Nepal on September 4, nine days after an August 26 flood killed over 1,200 people across Nepal and Tibet. The rescue raised hope that more of the hundreds still missing in hydropower tunnels could be found alive.",
+  "date": "2026-09-04",
+  "published_utc": "2026-09-04T11:46:17Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 2,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Sanjay Shah, 30, and Kabir Maharjan, 45, were rescued from the main tunnel at the Trishuli 3A hydropower construction site on September 4, marking the first survivors pulled from hydropower stations in Nepal after the disaster.",
+  "bottom_line": "The critical threshold is whether rescue teams locate more survivors in the main tunnel at Trishuli-3A or the other hydropower sites, or if conditions shift to recovery operations. The toll of missing workers across Nepal's hydropower projects remains above 500.",
+  "human_take": "",
+  "body": [
+    "Two construction workers were pulled alive from the main tunnel at the Trishuli-3A hydropower plant in Nepal on Friday, September 4, nine days after a catastrophic flood swept through the Himalayan region on August 26. The rescue marked the first survivors recovered from hydropower construction sites across Nepal in the wake of the disaster.",
+    "The two men, identified by Nepal's minister of home affairs Sudan Gurung as Sanjay Shah, 30, a mechanical foreman, and Kabir Maharjan, 45, a mechanical supervisor, emerged from a muddy opening in the tunnel early Friday morning. Video released by Nepal's Ministry of Energy showed Shah being helped to his feet by rescuers and carried toward a helicopter, his hand raised. Maharjan, covered in mud, pressed his hands together in prayer as emergency workers placed him on a stretcher. The Nepali Army said both men were receiving medical treatment and would be transferred to a hospital in Kathmandu.",
+    "The August 26 flood, believed to have been triggered by the partial collapse of a glacier, killed more than 1,200 people in Nepal and devastated entire communities as water, rock, and mud raced down valleys. The disaster left more than 5,000 people missing across Nepal and Chinese-controlled Tibet. Tens of thousands have been displaced in Nepal. China reported 21 people killed and 541 missing on the Tibet side.",
+    "About 115 workers were believed to have been trapped in the main tunnel at Trishuli-3A, and at least 557 workers remain missing from the project overall, per Al Jazeera's reporting. An army spokesperson reported that one of the survivors told rescuers more people remain alive inside the tunnel. The Nepali Army said search and rescue operations are ongoing.",
+    "The rescue offered a rare point of hope. Maharjan's brother, Amir, told the AFP news agency: \"I am so happy, my heart is lighter.\" Nepal's Communication Minister Bikram Timilsina said officials remain hopeful more workers will be rescued, writing on social media: \"We are waiting for the rescue of more and more people.\"",
+    "Nepal has largely refused international help in the recovery, though Australia sent a 15-member team of state emergency operatives to the country on Friday at Nepal's government's request. Thirty-six Australian citizens remain missing. Jeremy Fewtrell, commissioner of Fire and Rescue New South Wales, said: \"We are still holding out hope that people might still be surviving in some sort of locations and hopefully this team can help locate any of those people.\"",
+    "At least 1,287 people have been confirmed killed in Nepal, according to Al Jazeera's reporting."
+  ],
+  "sources": [
+    {
+      "title": "aljazeera.com",
+      "url": "https://www.aljazeera.com/news/2026/9/4/nepal-search-teams-rescue-two-workers-from-hydropower-tunnel?traffic_source=rss"
+    },
+    {
+      "title": "The New York Times",
+      "url": "https://www.nytimes.com/2026/09/04/world/asia/nepal-flood-tunnel-rescue-operation-trishuli.html"
+    }
+  ],
+  "event_utc": "2026-09-04T09:09:11Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-04T11:46:17Z",
+    "sources_cited": 2,
+    "sources_live_checked": 1
+  },
+  "update_of": "rescue-efforts-continue-as-nepal-china-flood-death-toll-surpasses-1-270-september-3-2026"
+}

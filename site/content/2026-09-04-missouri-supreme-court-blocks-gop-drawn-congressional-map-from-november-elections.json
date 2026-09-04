@@ -1,0 +1,40 @@
+{
+  "id": "c327",
+  "slug": "missouri-supreme-court-blocks-gop-drawn-congressional-map-from-november-elections",
+  "kind": "brief",
+  "title": "Missouri Supreme Court blocks GOP-drawn congressional map from November elections",
+  "dek": "The Missouri Supreme Court ruled Thursday that the state's new GOP-drawn congressional redistricting map cannot be used in November 2026 elections. Instead, voters will decide the map's fate via a ballot referendum on November 5, and the November election will proceed under the previous district lines, preserving a Democratic-held seat.",
+  "date": "2026-09-04",
+  "published_utc": "2026-09-04T11:46:17Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 5,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The court blocked the Republican-drawn map designed to unseat Rep. Emanuel Cleaver, a Democrat, and ordered the November election under the old districts, setting up a voter referendum on the new map's adoption.",
+  "bottom_line": "The US Supreme Court's decision on whether to accept Hanaway's appeal will determine if the November referendum proceeds. If approved by voters in November, the new map could take effect 30 days later, potentially reshaping the state's delegation in future cycles.",
+  "human_take": "",
+  "body": [
+    "The Missouri Supreme Court ruled Thursday that the state's new GOP-drawn congressional redistricting map cannot be used in the November 2026 elections. Instead, the fall election will proceed under the previous district lines, and voters will decide the map's fate via a ballot referendum on November 5.",
+    "The new map was designed to draw one of Missouri's two congressional Democrats, Rep. Emanuel Cleaver, out of his seat. Under the ruling, Cleaver will now seek re-election in his old district, which skews heavily Democratic. He won by almost 24 percentage points there in 2024. The redesigned 5th District, struck down Thursday, was drawn so that Trump would have won by more than 17 points in 2024.",
+    "Judge Ginger K. Gooch ruled in writing that Missouri Secretary of State Denny Hoskins and those acting with him \"are restrained and enjoined from implementing, using, or mandating the use of the congressional redistricting in HB 1 for the November 2026 general election or at any other time thereafter unless and until HB 1 is approved by the voters at the November 2026 general election and takes effect 30 days thereafter.\"",
+    "The advocacy group People Not Politicians Missouri gathered more than 300,000 signatures to force a veto referendum after the state redrawn its congressional map in 2025 at the urging of President Donald Trump. Secretary of State Hoskins refused to certify the referendum, saying it was unconstitutional. People Not Politicians Missouri appealed to the state Supreme Court, which heard arguments on Wednesday. The ruling comes just days before September 8, the state's deadline to finalize its ballot for the general election.",
+    "Rep. Cleaver said in a post on social media: \"More than 305,000 Missourians demanded a say in who will represent them in the halls of Congress. Despite the cynical and deeply shameful attempt to silence many of our neighbors, the people fought back and won,\" and added that \"democracy prevails.\"",
+    "Missouri Attorney General Catherine Hanaway vowed to appeal the decision to the US Supreme Court, arguing in a statement: \"Never before in American history has a court overturned a congressional map after a primary and before a general election. This unprecedented decision clearly violates federal law and has thrust our state into a full-fledged constitutional crisis.\" She added: \"We are confident that the federal courts will not allow every Missouri voter to be disenfranchised, which is what today's decision does.\" The Republican National Committee said it is \"evaluating every option to challenge this decision, and we will not stop fighting for Missouri voters.\"",
+    "Trump criticized the ruling in a Truth Social post, calling it \"horrible, ridiculous, and unConstitutional.\" He wrote: \"The Election Process, as usual, is being disturbed in America! Missouri must be able to use the map that was in effect just a couple of months ago, in the Primary.\" The state ran its August primary election using the Republican-drawn map.",
+    "House Democratic Leader Hakeem Jeffries celebrated the decision, referencing the US Supreme Court's May decision to uphold a Virginia Supreme Court decision that eliminated a voter-approved congressional map that would have expanded Democratic-leaning districts. Jeffries said: \"We are watching closely to determine if they apply the same standard here, or choose to do the bidding of the Republican Party again.\" People Not Politicians executive director Richard von Glahn said: \"This victory reaches beyond Missouri. In a year when map-drawing has become a national weapon, courts across the country are watching what happens here. A Missouri win for the referendum is a signal that the people still hold the power.\"",
+    "Missouri is one of a handful of Republican-led states that took up mid-decade redistricting efforts at Trump's urging to shore up the party's narrow House majority. The last time one of Missouri's maps was considered by a voter referendum was in 1922, after the Republican-led state Legislature redrew the districts. Voters in 1922 rejected the new map."
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/politics/2026-election/missouri-supreme-court-rules-gop-drawn-map-cant-used-november-election-rcna595688"
+    }
+  ],
+  "event_utc": "2026-09-03T22:04:34Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-04T11:46:17Z",
+    "sources_cited": 1,
+    "sources_live_checked": 3
+  }
+}
