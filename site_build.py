@@ -254,7 +254,10 @@ SOURCES_PAGE = False
 # crawler on every page.
 NAV = [("Home", "/index.html"), ("The Edition", "/news.html"),
        ("Government", "/sections/government.html"),
+       ("World", "/sections/world.html"),
+       ("Business", "/sections/business.html"),
        ("Public Safety", "/sections/public-safety.html"),
+       ("Health", "/sections/health.html"),
        ("Disasters", "/sections/disasters.html")] + \
       ([("Sources", "/sources.html")] if SOURCES_PAGE else []) + \
       [("Archive", "/archive.html"), ("About", "/about.html")]
@@ -752,7 +755,7 @@ def masthead(active, dateline, brand="site"):
     parameter is kept for the shared call sites; every page renders the same masthead."""
     nav = "".join(
         f'<a href="{esc(href)}"{" class=active" if label == active else ""}>{esc(label)}</a>'
-        for label, href in NAV)
+        for label, href in NAV if label not in NAV_UTILITY)
     fam = f'<a class="mh-family" href="{FAMILY_HUB}">A GoCheckMy site</a>'
     # wordmark: "GoCheckMy" in the shared ink color, the site name ("Sports"/"News")
     # in the site color and italic (owner directive 2026-07-24)
@@ -775,7 +778,11 @@ if(e){{e.textContent=new Date().toLocaleDateString("en-US",{{month:"long",day:"n
   </div>
   {brand_row}
 </div></header>
-<nav class="mh-nav"><div class="wrap">{nav}</div></nav>"""
+<nav class="mh-nav"><div class="wrap" id="lane-rail">{nav}</div></nav>
+<script>(function(){{var r=document.getElementById("lane-rail");if(!r)return;
+var a=r.querySelector("a.active");if(!a)return;
+var want=a.offsetLeft-(r.clientWidth-a.offsetWidth)/2;
+r.scrollLeft=Math.max(0,Math.min(want,r.scrollWidth-r.clientWidth));}})();</script>"""
 
 
 def newsletter():
@@ -819,7 +826,8 @@ def footer(brand="site"):
                     # About and Archive live in the masthead nav; repeating them here gave
                     # every page two links to each and helped invert the link graph. The
                     # footer keeps what the nav does not carry.
-                    [("How we work", "/method.html")]
+                    [("Archive", "/archive.html"), ("About", "/about.html"),
+                     ("How we work", "/method.html")]
                     + ([("How we rate sources", "/sources.html")] if SOURCES_PAGE else [])
                     + [("Standards & corrections", "/standards.html"),
                      ("Privacy", "/privacy.html"), ("Terms", "/terms.html"),
@@ -1817,6 +1825,11 @@ def render_coverage(hub, dateline):
 # not what the desk publishes. Narrowing the editorial mix is a bigger bet that should
 # follow evidence these hubs help, and unlike a hub, a narrowed archive cannot be undone.
 # (slug, page title, nav label, tags, blurb)
+# THE RAIL IS LANES, NOTHING ELSE (2026-09-04). Home, The Edition, Archive, About and
+# Sources are not sections; they render in the masthead and the footer so the rail keeps
+# its scroll width for places to read.
+NAV_UTILITY = frozenset({"Home", "Latest", "The Edition", "Archive", "About", "Sources"})
+
 SECTIONS = [
     ("government", "Government &amp; Courts", "Government", ("government", "courts", "politics"),
      "Actions of record: what officials, agencies and courts actually did, sourced to the "
@@ -1827,7 +1840,33 @@ SECTIONS = [
     ("disasters", "Disasters &amp; Weather", "Disasters", ("disasters",),
      "Hurricanes, wildfires, floods and quakes: what happened, who is affected, and what "
      "officials have told people to do."),
+    # World is head-anchored at the tag level, so a domestic story that merely mentions a
+    # country does not land here; see _HEAD_ANCHORED_TAGS.
+    ("world", "World", "World", ("world",),
+     "Conflict, diplomacy and events beyond the United States, sourced to the official "
+     "record and on-record statements."),
+    # ONE LANE, NOT TWO. Economy and Business are 25 and 18 stories, thin separately and
+    # not a line readers draw: a tariff is both. Together they are a real section for one
+    # nav slot.
+    ("business", "Business &amp; Economy", "Business", ("business", "economy"),
+     "Companies, markets and the economy: what was decided, what it costs, and who it "
+     "lands on."),
+    ("health", "Health", "Health", ("health",),
+     "Outbreaks, regulators and the health system, sourced to official statements and "
+     "published data."),
 ]
+
+
+# A LANE THE READER CANNOT CLICK DOES NOT EXIST. Ported from the sports desk 2026-09-04;
+# this desk never had it. SECTIONS and NAV are separate hand-maintained lists, which is
+# exactly how this desk shipped an /archive nothing linked to. Fails the import rather
+# than the deploy, so the mismatch surfaces the moment someone adds a lane.
+_nav_hrefs = {h for _l, h in NAV}
+_unreachable = [slug for slug, *_rest in SECTIONS
+                if f"/sections/{slug}.html" not in _nav_hrefs]
+if _unreachable:
+    raise SystemExit("site_build: section(s) missing from NAV and therefore unreachable: "
+                     + ", ".join(_unreachable))
 
 
 def section_items(items, tags):
