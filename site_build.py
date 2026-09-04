@@ -446,20 +446,62 @@ def spectrum_chip(item):
 # every story (old and new) gets them without touching the pipeline. Order = priority;
 # a story keeps at most 3.
 TAG_RULES = [
+    # AGENCIES BY NAME, for the same reason the world lane needed countries: a story about
+    # the executive branch names the department, not the phrase "federal agency". "DHS
+    # defends investigating critic", "Trump administration preparing largest mass visa
+    # revocation" and "Federal Authorities Announce Task Force" all filed as nothing.
     ("government", r"\b(white house|executive order\w*|federal agenc\w*|shutdown|"
                    r"congress\w*|senate|house of representatives|house vote\w*|"
-                   r"legislation|regulation\w*|cabinet|governor\w*|statehouse\w*)\b"),
+                   r"legislation|regulation\w*|cabinet|governor\w*|statehouse\w*|"
+                   r"administration|\bdhs\b|homeland security|\bice\b|\bfbi\b|\bcia\b|"
+                   r"\bnsa\b|\bepa\b|\bfema\b|\birs\b|\bdoj\b|justice department|"
+                   r"state department|defense department|pentagon|treasury department|"
+                   r"interior department|labor department|education department|"
+                   r"health and human services|\bhhs\b|\busda\b|\bfaa\b|\bfcc\b|\bftc\b|"
+                   r"coast guard|secret service|federal authorities|federal government|"
+                   r"agency official\w*)\b"),
+    # A story about a court says "judge", "trial", "sentenced" or "convicted" far more often
+    # than "certiorari": the Maxwell ruling and the 9/11 trial-date order both filed as
+    # nothing under the old list.
     ("courts", r"\b(supreme court|scotus|certiorari|appeals court|circuit court|"
                r"district court|ruling\w*|injunction\w*|indict\w*|lawsuit\w*|"
-               r"plaintiff\w*|verdict\w*|oral argument\w*)\b"),
+               r"plaintiff\w*|verdict\w*|oral argument\w*|judge\w*|trial date|on trial|"
+               r"mistrial|convict\w*|acquit\w*|sentenc\w*|plea deal|pleads? guilty|"
+               r"prosecutor\w*|defendant\w*|subpoena\w*|false claims act)\b"),
     ("economy", r"\b(federal reserve|fomc|inflation|interest rate\w*|rate (?:cut|hike)\w*|"
                 r"jobs report|unemployment|gdp|tariff\w*|cpi|recession|treasur\w*)\b"),
+    # THE PATTERN KNEW THE VOCABULARY AND NOT THE PLACES (2026-09-04), the same shape as
+    # the 2026-08-25 fix below and as the sports desk knowing "quarterback" but not
+    # "Packers". A story about a country names the country and rarely says "foreign
+    # minister": "Kushner Meets Hamas Leader in Egypt", "Ferry capsizes off northern
+    # Cyprus" and "Tourist plane crashes near Nazca Lines in Peru" all filed as nothing.
+    #
+    # AMBIGUOUS NAMES STAY OUT, the rule the sports desk applies to school and club names:
+    # Georgia is a US state, Jordan is a person, Chad and Turkey are ordinary words. Their
+    # stories are caught by the vocabulary terms instead.
     ("world", r"\b(united nations|nato|ceasefire|foreign minist\w*|embassy|embassies|"
-              r"sanction\w*|treaty|treaties|middle east|ukraine|taiwan|refugee\w*)\b"),
+              r"sanction\w*|treaty|treaties|middle east|refugee\w*|"
+              r"ukraine|taiwan|iran|iranian|israel|israeli|gaza|hamas|hezbollah|houthi\w*|"
+              r"russia|russian|kremlin|moscow|china|chinese|beijing|north korea|south korea|"
+              r"japan|japanese|indonesia|philippines|vietnam|pakistan|india|afghanistan|"
+              r"iraq|syria|lebanon|yemen|saudi arabia|qatar|\buae\b|egypt|libya|sudan|"
+              r"ethiopia|nigeria|kenya|venezuela|colombia|brazil|argentina|mexico|canada|"
+              r"cuba|haiti|peru|chile|cyprus|greece|germany|german|france|french|italy|"
+              r"spain|spanish|poland|sweden|norway|denmark|netherlands|dutch|belgium|"
+              r"switzerland|austria|hungary|romania|serbia|croatia|australia|new zealand|"
+              r"thailand|myanmar|bangladesh|nepal|sri lanka|malaysia|singapore|"
+              r"european union|\beu\b|brussels|tehran|jerusalem|kyiv|west bank|"
+              r"strait of hormuz|red sea|south china sea)\b"),
     ("politics", r"\b(election\w*|campaign\w*|midterm\w*|ballot\w*|primar(?:y|ies)|"
                  r"poll\w*|candidate\w*|voter\w*|caucus\w*)\b"),
+    # A corporate story is usually a company DOING something, not an earnings call:
+    # "Walmart to pay $50 million" and "JPMorgan Chase Commits $750 Billion" carried no
+    # tag. Corporate ACTIONS, not a list of company names that would go stale.
     ("business", r"\b(earnings|merger\w*|acquisition\w*|ipo|bankruptc\w*|antitrust|"
-                 r"layoff\w*|stockholder\w*|shareholder\w*|ceo)\b"),
+                 r"layoff\w*|stockholder\w*|shareholder\w*|ceo|class action|"
+                 r"price-fixing|market share|chief executive|board of directors|"
+                 r"(?:fined|fines|settles|settled|agrees to pay|to pay|commits|pledges)"
+                 r"\s+(?:a\s+)?(?:record\s+)?[$\u20ac\u00a3])\b"),
     # BEATS THE DESK COVERS BUT COULD NOT TAG (2026-08-25). 98 of 325 stories carried no
     # tag at all, which meant no topic chip for the reader AND no related-stories block,
     # so a quarter of the archive was a dead end with nothing linking onward from it. The
@@ -468,9 +510,14 @@ TAG_RULES = [
     ("public safety", r"\b(shooting\w*|shot dead|gunman|homicide\w*|manhunt|stabbing\w*|"
                       r"arrested|charged with|police|sheriff|kidnapp\w*|assault\w*|"
                       r"found dead|standoff|hostage\w*)\b"),
+    # Transport catastrophes and slow-onset disasters were both missing: a ferry capsizing,
+    # a charter plane crash and an avalanche are the same beat as a hurricane. "crash" is
+    # qualified by its vehicle so a market crash cannot match.
     ("disasters", r"\b(hurricane\w*|tropical storm|wildfire\w*|earthquake\w*|flood\w*|"
                   r"tornado\w*|evacuat\w*|landfall|magnitude|typhoon\w*|mudslide\w*|"
-                  r"derailment|explosion\w*)\b"),
+                  r"derailment|explosion\w*|avalanche\w*|capsiz\w*|heat ?wave|drought|"
+                  r"famine|blizzard|(?:plane|aircraft|jet|helicopter|ferry|bus|train|"
+                  r"charter) crash\w*|crash(?:es|ed) (?:near|into|off|at))\b"),
     ("technology", r"\b(artificial intelligence|\bai\b|cyberattack\w*|data breach|"
                    r"ransomware|hacker\w*|hacked|software|semiconductor\w*|chipmaker\w*|"
                    r"social media|encryption)\b"),
@@ -485,6 +532,9 @@ TAG_RULES = [
 ]
 _TAG_RES = [(tag, re.compile(pat, re.I)) for tag, pat in TAG_RULES]
 
+# Tags that only count when the match is in the headline, dek or key fact. See tags_for.
+_HEAD_ANCHORED_TAGS = frozenset({"world"})
+
 
 # What a story is ABOUT lives in its headline; the body merely mentions things (owner
 # audit 2026-08-29). Scoring one flat bag of title-plus-body let incidental mentions
@@ -497,7 +547,34 @@ _HEAD_WEIGHT = 6
 _BODY_MIN = 2
 
 
+# TAGS ARE PURE AND THEY ARE COMPUTED O(n^2) (2026-09-04). related_stories asks for the
+# tags of every candidate against every item, so a 483-story corpus makes ~233,000
+# tags_for calls in one build. At 3.5ms each that is fourteen minutes, and the build has
+# to finish inside Netlify's limit. The function is a pure read of fields that do not
+# change during a build, so it is memoised on the story's own id. This was found by the
+# build blowing past ten minutes right after the tag rules were widened: the quadratic
+# call pattern was always here, the longer patterns only made each call expensive enough
+# to notice.
+_TAGS_CACHE = {}
+
+
 def tags_for(item):
+    # SLUG, NOT ID. "id" is a per-run sequence number and it repeats: c001 appears 13
+    # times in the sports corpus, so keying on it served one story's tags to twelve
+    # others. Measured before it shipped: 231 of 483 stories got the wrong tags. A
+    # shallow key is not an identity, which is the rule this desk keeps relearning.
+    _ck = item.get("slug")
+    if _ck is not None:
+        _hit = _TAGS_CACHE.get(_ck)
+        if _hit is not None:
+            return _hit
+    _res = _tags_for_uncached(item)
+    if _ck is not None:
+        _TAGS_CACHE[_ck] = _res
+    return _res
+
+
+def _tags_for_uncached(item):
     body = item.get("body") or []
     head = " ".join([item.get("title") or "", item.get("dek") or "",
                      item.get("key_fact") or ""])
@@ -508,6 +585,14 @@ def tags_for(item):
         b = len(rx.findall(body_text))
         if not h and b < _BODY_MIN:
             continue          # a single passing mention is not what the story is about
+        # WHERE A STORY HAPPENS IS A HEADLINE FACT (2026-09-04). Once the world rule
+        # learned country names, any domestic story whose body mentioned a country twice
+        # filed as world: US Treasury yields, a NOAA heat record, a Michigan Senate
+        # nominee. 37 of 153 world tags were body-only and most of those were wrong. A
+        # story about somewhere says so in the headline, dek or key fact; a story that
+        # merely mentions a country in passing is not a world story.
+        if not h and tag in _HEAD_ANCHORED_TAGS:
+            continue
         # A HEADLINE HIT ALWAYS OUTRANKS BODY VOLUME. Capping the body's contribution
         # below one headline hit is the whole point: an obituary whose body mentions the
         # hospital nine times is still an obituary, and before this cap it filed as health.
