@@ -243,13 +243,23 @@ jobs:
         if: always()
         run: python3 dupe_audit.py || true
 
+      # IS EVERY SOURCE ACTUALLY SERVING? Advisory, never a gate (source_health.py
+      # always exits 0). The scoreboard ran baseball-only for days and three working
+      # intake lanes were retired as dead, both because a permanent source failure and
+      # a quiet night produced identical output. This annotates only REGRESSIONS
+      # against the committed baseline, so a standing problem stays quiet and a feed
+      # that changed state overnight is the thing that speaks.
+      - name: Source health (did any feed change state since the last run?)
+        if: always()
+        run: python3 source_health.py --quiet || true
+
       - name: Commit and push published content (deploys the site)
         id: publish
         if: steps.key.outputs.have_key == 'true' && steps.guard.outputs.serve == 'true'
         run: |
           git config user.name "Jack Berno"
           git config user.email "297991518+jaybiz0131@users.noreply.github.com"
-          git add site/content editorial-log.json
+          git add site/content editorial-log.json site/data/source_health.json
           if git diff --cached --quiet; then
             echo "::notice::No new stories to publish (nothing VERIFIED or all already live)."
             echo "pushed=false" >> "$GITHUB_OUTPUT"
