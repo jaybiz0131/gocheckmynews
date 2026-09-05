@@ -1,0 +1,68 @@
+{
+  "id": "c009",
+  "slug": "u-s-strikes-three-iranian-oil-tankers-after-iran-targets-navy-warships-military-says",
+  "kind": "brief",
+  "title": "U.S. strikes three Iranian oil tankers after Iran targets Navy warships, military says",
+  "dek": "U.S. forces struck three Iranian oil tankers on Saturday, September 5, in retaliation after Iran's Islamic Revolutionary Guard Corps launched ballistic missiles at two U.S. Navy ships in the Persian Gulf. No American personnel were harmed in the Iranian attacks, and the crew of one tanker was evacuated before the U.S. strike. The action marks an escalation in tit-for-tat military operations between the two nations.",
+  "date": "2026-09-05",
+  "published_utc": "2026-09-05T20:44:43Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 1,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "U.S. forces permanently disabled two crude oil carriers (the M/T Downy near Kharg Island and the M/T Stark 1 near Jask) and destroyed a third vessel (the M/T Kylo in the Gulf of Oman) in retaliation for Iranian missile attacks on American warships.",
+  "bottom_line": "The strike on Iranian oil tankers marks a shift from military-to-military targeting toward deliberate damage to Iran's economic capacity. Kharg Island's role as the backbone of Iran's oil trade infrastructure, combined with CENTCOM's explicit statement about targeting Iran's \"limited and exposed oil fleet,\" signals a new phase in the conflict where energy infrastructure is now a direct target, not a protected asset. The impact on global oil markets and what the next Iranian response will be remains unresolved.",
+  "human_take": "",
+  "body": [
+    "U.S. forces struck three Iranian oil tankers on Saturday in retaliation after Iran launched ballistic missiles at two U.S. Navy ships in the Persian Gulf, according to NBC News. A U.S. aircraft carrier and guided missile destroyer evaded the Iranian attacks, and no American personnel were harmed.",
+    "The strike represents a direct escalation in tit-for-tat military action between the two nations, moving from targeting military assets to striking economic infrastructure. U.S. forces permanently disabled two crude oil carriers: the M/T Downy off the coast of Kharg Island and the M/T Stark 1 near Jask, per NBC News. A third vessel, the M/T Kylo near the Gulf of Oman, was destroyed. The Kylo was not carrying oil at the time, and its crew was directed to abandon the vessel before American forces struck it in multiple locations, NBC News reported.",
+    "Adm. Brad Cooper, the commander of CENTCOM, stated: \"If you shoot at two of our ships, we will impose an even higher economic cost, taking out three of yours. We will not hesitate to defend American forces, and if necessary, destroy Iran's limited and exposed oil fleet,\" according to NBC News.",
+    "Kharg Island, located 15 miles off the coast of Iran in the Persian Gulf, plays a central role in the country's oil industry and has military capabilities including air defenses and buried mines, NBC News reported. U.S. forces struck military targets on the island in March but deliberately spared its oil infrastructure at that time. President Donald Trump said then that the U.S. could target the energy facilities if Iran continued interfering with shipping through the Strait of Hormuz, per NBC News.",
+    "Iran's Foreign Ministry strongly condemned the U.S. strikes, calling them \"illegal and aggressive\" and accusing Washington of waging a naval blockade and economic war against Iran, according to NBC News. In a statement carried by Iranian state media IRIB, Iran's Foreign Ministry said the attacks violated the United Nations Charter and constituted a war crime and a threat to international peace and commercial shipping. No casualties were reported from the Iranian tanker hit, according to Iran's semiofficial Tasnim news agency, as cited by NBC News.",
+    "The strikes came nearly a week after the U.S. and Iran resumed attacks following a month of relative calm, per NPR. At least five people were killed earlier in the week during a U.S. bombardment of southern Iran, and one strike hit a wedding, NPR reported. The U.S. statement said the tankers were part of a shadow network helping to fund Iran's Revolutionary Guard and its armed proxies in the region, according to NPR. The conflict began with U.S. and Israeli attacks on February 28, NPR reported, and both sides have sought to inflict both military and economic pain, with negotiations having collapsed."
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/world/iran/us-strikes-3-iranian-oil-tankers-iran-targets-rcna596222"
+    },
+    {
+      "title": "NPR",
+      "url": "https://www.npr.org/2026/09/05/nx-s1-5959159/us-iran-warships-targeted"
+    },
+    {
+      "title": "aljazeera.com",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/5/us-says-it-hit-three-iranian-oil-tankers-after-attacks-on-warships?traffic_source=rss"
+    },
+    {
+      "title": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/world/u-s-military-hits-3-iranian-oil-tankers-after-saying-navy-ships-were-targeted-with-missiles"
+    },
+    {
+      "title": "The New York Times",
+      "url": "https://www.nytimes.com/2026/09/05/world/middleeast/iran-us-kharg-oil-tanker-attack.html"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-diesel-gas-prices-labor-day/"
+    }
+  ],
+  "event_utc": "2026-09-05T14:20:40Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-05T20:44:43Z",
+    "sources_cited": 6,
+    "sources_live_checked": 3
+  },
+  "update_of": "us-diesel-prices-hit-record-5-85-per-gallon-as-iran-war-disrupts-oil-supplies",
+  "also_reported_by": [
+    {
+      "outlet": "NBC News",
+      "headline": "U.S. strikes 3 Iranian oil tankers after Iran targets Navy warships, military says - NBC News"
+    },
+    {
+      "outlet": "NDTV",
+      "headline": "Video | Iran War | CENTCOM Hits 3 Iranian Oil Tankers After Saying Navy Warships Were Targeted With Missiles - NDTV"
+    }
+  ]
+}
