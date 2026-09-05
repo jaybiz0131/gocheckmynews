@@ -1,0 +1,35 @@
+{
+  "id": "c323",
+  "slug": "trump-administration-announces-5-voter-fraud-prosecutions-ahead-of-midterms",
+  "kind": "brief",
+  "title": "Trump administration announces 5 voter fraud prosecutions ahead of midterms",
+  "dek": "Federal prosecutors announced five voter fraud cases on Friday, September 4, filed in Pennsylvania, New Jersey, and Wisconsin, as part of the administration's election-integrity push before the 2026 midterms. The cases involve alleged noncitizen voting and aiding and abetting; charging documents were not yet available. This follows a major administration effort to obtain voter registration records from states.",
+  "date": "2026-09-05",
+  "published_utc": "2026-09-05T00:29:59Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 4,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Five voter fraud prosecutions were announced on September 4, 2026, ahead of the midterms, after a massive federal effort to identify noncitizen voters.",
+  "bottom_line": "The scale of cases announced contrasts with the scale of the administration's effort to obtain voter registration data from states. Whether these five prosecutions represent the early stages of a larger wave of cases or the full yield of the records-gathering effort will become clear as the midterm campaign advances.",
+  "human_take": "",
+  "body": [
+    "Federal prosecutors announced five voter fraud prosecutions on September 4, 2026, in swing-state areas as part of the Trump administration's election-integrity enforcement strategy heading into the 2026 midterms. Cases were filed in Pennsylvania, New Jersey, and Wisconsin, per NBC News reporting.",
+    "Katya Rodriguez, 30 years old, was arrested at an apartment in Harrisburg, Pennsylvania and charged with a felony, according to NBC News; Homeland Security Investigations agents released video of the arrest. In Pennsylvania's Middle District, Thomas Holtzman, 68 years old, and Marisol Guzman, 50 years old, were indicted by a federal grand jury. Guzman is alleged to have illegally voted in the 2024 election, and Holtzman, an American citizen, was charged with aiding and abetting in connection with his wife's voting, per NBC reporting. Mercedes Alexandra Cardoso, a lawful permanent resident from Ecuador living in New Jersey, faces a misdemeanor charge for \"voting as an alien\" for allegedly voting in person during the June 2024 primary election, according to NBC News. Jesus Javier Jurado Garcia, 25 years old, originally from Mexico, allegedly voted as a noncitizen in the 2022 election in Wisconsin and faces a misdemeanor \"voting as an alien\" charge, per NBC reporting. Charging documents in the Rodriguez, Holtzman, and Guzman cases were not available at the time of reporting, per NBC News.",
+    "Attorney General Todd Blanche stated: \"The integrity of our elections, which are fundamental to democracy, should be of utmost importance to every American. It is a cherished right for eligible American citizens, and only eligible American citizens, to vote for their representatives in government. Election fraud is a serious crime, and it is the duty of the Department of Justice to treat it as such.\" FBI Director Kash Patel stated that \"election integrity for the American people is one of the top priorities for this FBI\" and that the bureau would \"not hesitate to use all available resources to investigate every credible allegation of election fraud and illegal voting.\"",
+    "NBC News reports that the Trump administration has struggled during both terms to bring cases showing evidence of significant voter fraud, despite a massive effort in the second term to obtain voter registration records from states in an attempt to determine if noncitizens were registered. Trump repeatedly made false claims that he won the 2020 election and also falsely claimed he won the popular vote in 2016, per NBC reporting. Trump faced federal criminal charges for his efforts to overturn his 2020 loss in the lead-up to the January 6 attack on the Capitol, which were dismissed after he won the 2024 election, according to NBC News. Democrats have launched an \"unprecedented\" effort to combat potential disruption of the 2026 election, per NBC reporting."
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/politics/justice-department/trump-administration-rolls-5-voter-fraud-prosecutions-ahead-midterms-rcna596089"
+    }
+  ],
+  "event_utc": "2026-09-04T21:37:54Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-05T00:29:59Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}

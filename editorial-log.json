@@ -1,55 +1,6 @@
 [
  {
   "date": "2026-07-29",
-  "approved": 7,
-  "rejected": [
-   {
-    "id": "c018",
-    "headline": "Saudi Arabia joins US in strikes on Iran-backed militias in Iraq",
-    "category": "balance",
-    "reasons": [
-     "The draft presents the narrative in the US-Centcom framing almost entirely without the bear_case counterweight. The Iranian defence official's denial that Iran directed the drone attacks and warning about 'major miscalculation' appears only in one paragraph late in the story. The PMF's framing of the strikes as 'an extremely serious escalation and a violation of Iraq's sovereignty, targeting its official security institutions' should be more prominent to show the other side's position that this is aggression, not response. The lede and first third adopt Centcom's characterization of events ('ending a three-day pause', 'attempted surprise attack', 'strong response') without equal weight to the Iranian/PMF position that Saudi and US actions are the escalation. A reader relying on the opening paragraphs would not understand that Iran disputes responsibility or that the targeted forces view themselves as defending Iraqi sovereignty."
-    ]
-   },
-   {
-    "id": "c310",
-    "headline": "Senate advances Russia and Iran sanctions bill named for deceased Sen. Graham",
-    "category": "accuracy",
-    "reasons": [
-     "The draft attributes a statement to Zelenskyy that does not match the brief's quoted version. The draft reads: 'We're thankful to senators and we're thankful for this discussion. The discussion was with details on how to help Ukraine. We are thankful that this bill puts very important sanctions pressure on Russia. It is very important and really gives, it's not only about money, how to stop financing this war, but it's also a big signal to Europe, big signal to Ukraine, big support of our people.' The brief's data_point includes substantially more text including 'So I'm very thankful that god bless we will have positive results.' The draft truncates the quote mid-thought, which is a material alteration of the source record. Either quote the brief's full text or paraphrase without selective ellipsis."
-    ]
-   },
-   {
-    "id": "c050",
-    "headline": "Zelensky and Netanyahu meet Trump seeking military support amid ongoing conflicts",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'Zelensky and Netanyahu held separate meetings with President Trump at the White House' but the brief's first data point says 'Zelensky and Netanyahu attended the funeral of Senator Lindsey Graham, who died earlier in the month.' The draft does not mention the funeral context; it presents the White House meetings as the primary framing without establishing where or how these meetings occurred in relation to the funeral attendance cited in the brief.",
-     "The draft includes the sentence 'The BBC notes that domestic Patriot production would shore up Zelensky's approval rating following recent protests over his decision to oust a popular defense minister' which attributes this analysis to BBC. This fact appears in the brief as a data point but the draft's phrasing ('The BBC notes') misrepresents the sourcing\u2014it reads as BBC editorial analysis rather than reported fact, creating ambiguity about whether this is a stated reason from Zelensky or an independent BBC assessment not clearly rooted in the reporting."
-    ]
-   },
-   {
-    "id": "c348",
-    "headline": "Two Democrats advance to runoff in Georgia special election to succeed late Rep. David Scott",
-    "category": "accuracy",
-    "reasons": [
-     "Body paragraph 5 contains a typo: 'Blir's background' should be 'Blair's background'. This is a factual error in naming that affects accuracy even if minor.",
-     "The draft states 'the remainder of Scott's current term' but the brief and earlier text specify the seat is 'for the remainder of 2026.' The phrasing 'current term' is ambiguous and potentially inaccurate since Scott has died; it should say 'his term' or 'the 2026 term' to match the brief's clarity."
-    ]
-   },
-   {
-    "id": "c033",
-    "headline": "Trump administration bans new Chinese humanoid robot imports citing national security risks",
-    "category": "balance",
-    "reasons": [
-     "The brief's bear_case contains three substantive Chinese government rejections of the security rationale (politicization, groundless pretexts, rejection of theft allegations), but the draft presents these objections only in a single paragraph late in the story. The objections are squeezed into one block without integration into the framing of the national security claims, making the counter-narrative appear tacked-on rather than part of the initial presentation of facts.",
-     "The opening frames the ban as addressing genuine 'unacceptable risks' via FCC characterization, then presents detailed US security concerns (surveillance, commandeering, data theft) for three paragraphs before China's rebuttal appears. This structural imbalance means readers encounter the US rationale as established fact before learning China disputes the entire premise. The draft should either lead with the contested nature of these claims or integrate the bear_case earlier to maintain balance in how competing claims are presented."
-    ]
-   }
-  ]
- },
- {
-  "date": "2026-07-29",
   "approved": 2,
   "rejected": [
    {
@@ -9082,6 +9033,30 @@
     "reasons": [
      "The draft states the conflict is 'now in its fifth year,' but the brief data_point 7 describes it as a '4-year, 6-month-old war.' These are materially different time references. As of September 4, 2026, a war that began in February 2022 would be 4 years and 7 months old, not five years. The brief's language ('4-year, 6-month-old') is the sourced claim; the draft's 'fifth year' is either a new fact or a mathematical error not in the brief.",
      "The draft uses the phrase 'hairbrained demands' in paraphrase when describing Putin's negotiating position. The brief data_point 8 quotes the opinion piece using 'hairbrained,' but the draft's body text removes the quotation marks and presents this loaded descriptor in the desk's own voice as if it is the desk's characterization of Putin's demands, not a quoted opinion. Under the contested-terminology rule (owner ruling 2026-08-21), the desk does not adopt either side's loaded phrasing as its own unquoted description. The word 'hairbrained' (meaning absurd, reckless) is a value judgment that must remain attributed to the opinion piece, not narrated as fact."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-09-05",
+  "approved": 6,
+  "rejected": [
+   {
+    "id": "c317",
+    "headline": "Trump sends envoys to Ukraine and Russia this weekend to attempt peace talks (September 5, 2026)",
+    "category": "accuracy",
+    "reasons": [
+     "The draft reports a future event as already happening. The title states 'Trump sends envoys to Ukraine and Russia this weekend' and the bottom_line references 'September 6 and 7, 2026' as scheduled dates. Today is September 5, 2026. The events described (visits happening 'this weekend') are scheduled for the future and should be written in prospective tense throughout. The opening paragraph uses past tense ('announced...will travel') which is correct, but multiple sentences in the body present these as completed or certain future actions without the appropriate conditional language for events not yet occurred."
+    ]
+   },
+   {
+    "id": "c352",
+    "headline": "Trump Repeats Warning of Imminent U.S. Attack on Iran's Pickaxe Mountain",
+    "category": "accuracy",
+    "reasons": [
+     "Draft states 'Trump repeated a warning on September 5, 2026' but the brief's data_point says 'Trump repeated an earlier warning...very soon' without specifying when September 5 remarks occurred or confirming they happened today. The source URL is a liveblog dated 2026/9/5 but the draft treats the event as already complete on today's date (Saturday, 2026-09-05). A live event reporting from a liveblog updated during the day creates ambiguity about whether this happened or is happening; the draft should specify timing more carefully or use present tense for live coverage.",
+     "The brief includes a data_point stating 'Trump called US strikes intermittent' and 'Trump said just 18 Americans had been killed' but these claims appear only in the brief's point labeled as from the 2026-09-04 video, yet the draft attributes them to 'recent remarks reported by Al Jazeera on September 4' while also stating Trump 'repeated a warning on September 5.' The chronology conflates the September 4 video remarks with September 5 liveblog coverage without clarity on which quotes come from which date.",
+     "Draft states 'Thousands of Iranians have been killed' sourcing to Al Jazeera September 5 liveblog, but this casualty figure is not independently verifiable from the sources provided and the brief does not itemize a specific casualty count for Iranian deaths, only stating 'thousands' as a general reference in the angle. The precision claim about Iranian deaths lacks a clear sourced figure."
     ]
    }
   ]
