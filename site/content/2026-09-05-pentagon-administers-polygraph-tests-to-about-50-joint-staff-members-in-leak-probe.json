@@ -1,0 +1,58 @@
+{
+  "id": "c078",
+  "slug": "pentagon-administers-polygraph-tests-to-about-50-joint-staff-members-in-leak-probe",
+  "kind": "brief",
+  "title": "Pentagon Administers Polygraph Tests to About 50 Joint Staff Members in Leak Probe",
+  "dek": "The Pentagon subjected approximately 50 members of the Joint Staff to polygraph tests last month as part of an unprecedented leak investigation, according to reporting by Al Jazeera. The inquiry focused on classified disclosures about dwindling U.S. ammunition reserves and operations involving Iran. Legal and military experts say the scale of the investigation is unprecedented in modern U.S. military history.",
+  "date": "2026-09-05",
+  "published_utc": "2026-09-05T13:02:09Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 9,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "About 50 members of the Joint Staff underwent polygraph tests in an inquiry into leaks of classified information about U.S. munitions stocks and Iran operations, according to Al Jazeera's reporting.",
+  "bottom_line": "The investigation has not yet produced public evidence of identified suspects or personnel actions. The Pentagon's legal authority for administering the polygraph tests and their legally binding status remain unaddressed in available reporting.",
+  "human_take": "",
+  "body": [
+    "The Pentagon subjected approximately 50 members of the Joint Staff to polygraph tests last month in what legal and military experts describe as an unprecedented leak investigation, according to Al Jazeera's reporting. The inquiry targeted civilian and military personnel suspected of disclosing classified details to reporters, particularly concerning dwindling U.S. ammunition reserves.\nNews outlets published several reports last month highlighting severe drops in key weapons supplies, including long-range missiles and Patriot air defense interceptors. U.S. officials pushed back on those reports, according to Al Jazeera, insisting their weapons stockpiles were more than sufficient.\nThe Joint Staff, which consists of between 1,500 and 2,000 military and civilian staff, plays a key role in coordinating operational strategy, policy, and war planning with combat commands globally. Sources familiar with the inquiry told the New York Times, according to Al Jazeera's reporting, that the aggressive push was designed not only to identify individuals behind the disclosures but also to deter potential future leakers.\nPentagon spokesperson Sean Parnell stated that the department takes leaks of national security information \"extremely seriously and investigates accordingly\" and that \"Securing classified information is critical to ensuring the security of the United States and of our troops deployed around the world,\" according to Al Jazeera.\nOperating alongside a tight circle of close aides, Hegseth has ousted or blocked the promotions of at least 80 generals, admirals, and senior officials during his tenure, per Al Jazeera. The Pentagon has launched multiple leak probes in response to media coverage of Hegseth's leadership, even as he faced criticism for sharing sensitive operational details in a Signal group chat, according to the outlet.\nLast month the Defense Department fired the top editor and publisher of Stars and Stripes, an independent, government-funded military news publication, according to Al Jazeera. Staff members said the Stars and Stripes firings were direct retaliation for stories detailing deteriorating conditions on board the aircraft carrier USS Abraham Lincoln, per Al Jazeera's reporting. Trump has backed Hegseth, publicly praising his performance as \"fantastic,\" according to the outlet.\nActive military operations involving Iran have severely strained U.S. weapon reserves, causing internal debates over the broader direction of the conflict, Al Jazeera reported. Trump has repeatedly pushed officials to crack down on unauthorized disclosures and has publicly branded critical media coverage regarding munition shortages and the administration's handling of the conflict in Iran as \"treasonous,\" according to Al Jazeera."
+  ],
+  "sources": [
+    {
+      "title": "aljazeera.com",
+      "url": "https://www.aljazeera.com/news/2026/9/5/pentagon-polygraphs-military-staff-over-media-leaks-report?traffic_source=rss"
+    },
+    {
+      "title": "The New York Times",
+      "url": "https://www.nytimes.com/2026/09/04/us/politics/pentagon-staff-polygraph-tests.html"
+    }
+  ],
+  "event_utc": "2026-09-05T02:08:40Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-05T13:02:09Z",
+    "sources_cited": 2,
+    "sources_live_checked": 1
+  },
+  "also_reported_by": [
+    {
+      "outlet": "The New York Times",
+      "headline": "In Major Leak Hunt, Pentagon Gives Polygraph Tests to Joint Staff Members - The New York Times"
+    },
+    {
+      "outlet": "Free Press Kashmir",
+      "headline": "Pentagon tests about 50 Joint Staff members in Iran war leak probe - Free Press Kashmir"
+    },
+    {
+      "outlet": "Firstpost",
+      "headline": "Pentagon conducts polygraph tests of 50 Joint Staff members amid surge in press leaks: Report - Firstpost"
+    },
+    {
+      "outlet": "teleSUR English",
+      "headline": "U.S. Pentagon to Probe Leak of Iran-War Arsenal Data - teleSUR English"
+    },
+    {
+      "outlet": "Mediaite",
+      "headline": "Leakers Tell New York Times the Pentagon Administered Polygraph Tests in Search for Leakers: Report - Mediaite"
+    }
+  ]
+}

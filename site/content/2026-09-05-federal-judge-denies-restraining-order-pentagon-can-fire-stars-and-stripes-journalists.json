@@ -1,0 +1,66 @@
+{
+  "id": "c103",
+  "slug": "federal-judge-denies-restraining-order-pentagon-can-fire-stars-and-stripes-journalists",
+  "kind": "brief",
+  "title": "Federal judge denies restraining order; Pentagon can fire Stars and Stripes journalists",
+  "dek": "U.S. District Judge Trevor McFadden ruled on September 4 that the Pentagon can proceed with firing three Stars and Stripes employees: publisher Max Lederer, editor-in-chief Erik Slavin, and reporter Lara Korte. McFadden found the government likely did not violate the journalists' First Amendment rights. The firings followed CBS News interviews and an article detailing problems aboard the USS Abraham Lincoln.",
+  "date": "2026-09-05",
+  "published_utc": "2026-09-05T13:02:09Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 8,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Federal Judge Trevor McFadden denied a restraining order and found the Pentagon likely did not violate the First Amendment rights of three Stars and Stripes journalists fired after giving CBS News interviews.",
+  "bottom_line": "The case will now proceed beyond the restraining order phase, with discovery and potential trial ahead. The outcome of this case and the two other pending lawsuits will determine whether Stars and Stripes can maintain its traditionally independent editorial role under Pentagon oversight, or whether the government can use employment terminations to control the content the newspaper publishes.",
+  "human_take": "",
+  "body": [
+    "U.S. District Judge Trevor McFadden issued a 24-page ruling on September 4, denying a restraining order and finding the Pentagon likely did not violate the First Amendment rights of three Stars and Stripes journalists. The ruling allows the Department of Defense to proceed with firing publisher Max Lederer, editor-in-chief Erik Slavin, and reporter Lara Korte.\nThe three employees were given separation notices in August and placed on administrative leave. The alleged insubordination for Slavin and Korte was related to interviews they gave to CBS News for \"CBS Sunday Morning\" that aired in July. In the CBS interview, Korte said she worked for Stars and Stripes, \"not for the Pentagon, not for any administration, not for any policymaker.\"\nThe firings took place shortly after Stars and Stripes published an article on August 11 detailing flagging mental health concerns and food and water shortages aboard the USS Abraham Lincoln aircraft carrier. According to the lawsuit, Pentagon officials ordered Lederer to issue separation notices to Slavin and Korte a day after the USS Abraham Lincoln story ran. Lederer declined to present the separation notices and opted to resign, but was fired before he could do so.\nJudge McFadden found that Korte and Slavin's speech was likely given in their capacity as Stars and Stripes employees, not as private citizens. The judge wrote: \"At bottom, on the current record, Plaintiffs' real complaint seems to be that they were victims of a cruel bait-and-switch. They are being fired for giving pre-approved interviews on their paper's behalf in which they largely toed the company line.\"\nThe journalists' attorney Taryn Wilgus Null argued that the clients were appearing as sources, not as reporters, for the CBS piece and were speaking \"on matters of public concern\" outside of their official duties. Justice Department lawyer Brett Covington countered that all three journalists routinely did interviews as part of their normal duties and noted the CBS interview took place at Stars and Stripes headquarters with other employees visible in the background. Covington cited an email from Korte in which she wrote she would \"rather eat glass\" than allow the federal government to tell her what she could or couldn't write. Covington told the court the USS Abraham Lincoln story publication was unrelated to the firings and that the termination process started more than a month before the story ran.\nMcFadden stated: \"Plaintiffs argue that their termination will chill the protected expression of themselves and others at Stripes. Plaintiffs have failed to demonstrate a chill here.\"\nLederer announced his retirement after the Pentagon installed a new deputy publisher without his knowledge. The Pentagon partially funds Stars and Stripes. Defense Secretary Pete Hegseth is among the lawsuit's named defendants. At least two other lawsuits have accused the Pentagon of interfering with Stars and Stripes's editorial integrity and independence: Pulitzer-winning reporters Susan Dardarian and William Church sued the Pentagon in June, and the publication's former ombudsman Jacqueline Smith also sued in June."
+  ],
+  "sources": [
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/judge-allows-pentagon-fire-stars-stripes-journalists/"
+    },
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/2026/sep-04/judge-pentagon-stars-and-stripes"
+    },
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/2026/sep/04/judge-pentagon-stars-and-stripes"
+    }
+  ],
+  "event_utc": "2026-09-04T22:27:00Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-05T13:02:09Z",
+    "sources_cited": 3,
+    "sources_live_checked": 2
+  },
+  "also_reported_by": [
+    {
+      "outlet": "CNN",
+      "headline": "Federal judge allows Pentagon to fire three Stars and Stripes journalists - CNN"
+    },
+    {
+      "outlet": "The Guardian",
+      "headline": "Judge refuses to block Pentagon from firing Stars and Stripes journalists - The Guardian"
+    },
+    {
+      "outlet": "Courthouse News",
+      "headline": "Federal judge won't stop Pentagon firing of Stars and Stripes journalists - Courthouse News"
+    },
+    {
+      "outlet": "Politico",
+      "headline": "Judge refuses to block Pentagon from firing Stars and Stripes staffers over CBS interview - Politico"
+    },
+    {
+      "outlet": "CBS News",
+      "headline": "Judge lets Pentagon move forward with firing Stars and Stripes journalists - CBS News"
+    },
+    {
+      "outlet": "Gulf Coast News and Weather",
+      "headline": "Federal judge allows Pentagon to fire three Stars and Stripes journalists - Gulf Coast News and Weather"
+    }
+  ]
+}
