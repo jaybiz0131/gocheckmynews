@@ -1,67 +1,5 @@
 [
  {
-  "date": "2026-07-29",
-  "approved": 6,
-  "rejected": [
-   {
-    "id": "c093",
-    "headline": "Saudi Arabia Enters U.S.-Iran Conflict With Military Strikes in Iraq",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'Saudi Arabia has conducted military strikes in Iraq, marking its first direct combat role in the U.S.-Iran conflict now five months into hostilities' but the brief contains only one data point claiming Saudi strikes occurred (confidence: 'reported'). The specific claim that this is the 'first direct combat role' and that the conflict is 'five months into hostilities' are not present in the brief's data_points; they appear to be smuggled information not sourced to the brief.",
-     "The draft states 'The reported strikes indicate coordination between U.S. and Saudi military forces' but this detail does not appear in the brief's single data point, which only confirms strikes occurred. This is additional information beyond the brief.",
-     "The brief explicitly flags in open_questions: 'What is the confirmed duration and scope of the broader U.S.-Iran conflict referenced as 5 months old?' indicating the 5-month duration is unconfirmed, yet the draft presents it as fact without qualification."
-    ]
-   },
-   {
-    "id": "c325",
-    "headline": "Yemen's Minister Alleges Iran is Aiding Houthi Toll Scheme in Red Sea",
-    "category": "compliance",
-    "reasons": [
-     "The phrase 'Al-Eryani called the alleged effort, per CBS News, a dangerous escalation' presents the minister's characterization ('dangerous escalation') as part of the news report without maintaining proper distance. This language appears to adopt the minister's framing rather than report it as his statement. The word 'alleged' modifies 'effort' but not the minister's own characterization of it as 'dangerous,' which reads as the desk endorsing the severity claim.",
-     "The draft states 'The allegations represent the first public attribution of direct IRGC involvement in Houthi maritime operations' but the brief does not contain this claim in its data_points. This is a conclusion smuggled beyond the brief's sourced material.",
-     "The brief explicitly notes in bear_case: 'No counter-argument or denial is presented in the source text' and in open_questions: 'Iran's response to these allegations is not included in the source.' The draft's final sentence ('Iran has not publicly responded to the allegations') acknowledges absence of response, but the story structure\u2014allegations stacked without counterargument\u2014tilts toward advocacy of the allegations' credibility. A brief flagged as having zero bear_case should either be rejected or restructured to flag the unilateral sourcing; the current framing risks reading as rumor-laundering if the allegations prove unfounded."
-    ]
-   },
-   {
-    "id": "c031",
-    "headline": "Fauci invokes Fifth Amendment at Senate hearing on Covid origins",
-    "category": "accuracy",
-    "reasons": [
-     "The sentence 'Fauci received a pre-emptive pardon from President Joe Biden covering actions between 2014 and 2025, according to the BBC' is not supported by the brief. The brief data_point states the pardon was from 'former President Joe Biden', but the draft presents Biden as the current president at the time of writing, creating a factual ambiguity about temporal context that changes the meaning of the pardon's import.",
-     "The draft states Trump 'removed his security protection last year' but does not clarify the temporal reference point or verify this fact is in the brief. The brief's data_point says 'Trump last year removed Fauci's security protection,' which depends on when 'last year' was written\u2014the draft's use of this phrasing without clarification introduces ambiguity about whether this is still accurate.",
-     "The draft includes a statement about Trump's social media posts ('I said from the beginning that the Virus came from the Wuhan Laboratory in China. Fauci strongly disagreed, always trying to protect China.') which appears in the brief as a data_point, but the brief is a BBC-sourced story and Trump's social media posts are not mentioned in the provided sources list (only BBC URLs). This fact traces to the brief but the sourcing chain is unclear."
-    ]
-   },
-   {
-    "id": "c333",
-    "headline": "Four women allege Jared Leto committed sexual crimes against them as teenagers",
-    "category": "accuracy",
-    "reasons": [
-     "The sentence 'Fauci has previously denied wrongdoing and said he has been \"plagued\" by allegations of sexual misconduct for years while denying all of it' is factually incorrect and appears to be copy-paste error from the c031 draft. The subject is Jared Leto, not Anthony Fauci. This is a critical accuracy failure\u2014the wrong person's denial is attributed in the article about Leto's allegations.",
-     "The draft references Leto winning an Oscar but the brief data_point specifies he won in 2014 as 'best supporting actor' for 'Dallas Buyers Club'\u2014the draft says 'Academy Award winner for his supporting role in \"Dallas Buyers Club\"' which is accurate but the temporal specificity (2014) in the brief is not included, though this is minor compared to the Fauci error."
-    ]
-   },
-   {
-    "id": "c097",
-    "headline": "Bipartisan Senate bill would grant Trump authority to impose tariffs on Russian energy importers",
-    "category": "accuracy",
-    "reasons": [
-     "The brief contains one single data_point: 'A bipartisan bill in the Senate would allow President Trump to impose tariffs on the biggest importers of Russian energy.' The draft expands this to multiple claims not in the brief: 'The bill's structure would grant the president authority to act unilaterally' (unconfirmed mechanism), 'This mechanism connects economic tools...to executive foreign policy judgment' (interpretive leap beyond the reported fact), and 'Tariff authority has been a contested area of executive power, with courts and Congress historically debating the scope of presidential action' (historical context not in brief). The writer has smuggled interpretive framing and unstated assumptions into the story beyond what the research supports."
-    ]
-   },
-   {
-    "id": "c272",
-    "headline": "Pentagon Warns Iran Conflict Has Halved U.S. Patriot Interceptor Stockpile",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'The inventory stood at 2,330 units before the escalation, meaning current stocks fall below approximately 1,165.' This is a mathematical inference not present in the brief. The brief data_point says the stockpile was 'more than halved,' which is consistent with the draft's statement, but the draft then calculates a specific number (1,165) as the current level, implying precision beyond what the source reported. The brief's open_questions explicitly ask 'What is the current exact count of remaining Patriot interceptors after the depletion?' indicating this specific figure is not confirmed in the source. The draft should not present a calculated inference as a derived fact.",
-     "The phrase 'A Pentagon analysis warns the situation creates operational risk should the Trump administration return to full-scale warfare' presents a conditional future scenario as a direct Pentagon finding. The brief's data_point says the analysis 'could put U.S. forces at risk should the Trump administration return to full-scale war'\u2014a hypothetical conditional. The draft's phrasing ('creates risk should...') flattens this into a more definitive claim than the source supports."
-    ]
-   }
-  ]
- },
- {
   "date": "2026-07-30",
   "approved": 5,
   "rejected": [
@@ -9009,6 +8947,44 @@
     "reasons": [
      "The draft states 'The Labor Department's Office of Inspector General, led by former Republican Congressman Anthony D'Esposito of New York, released findings on September 4' but does not establish from the brief when the report was released or what day the findings were made public. The brief's single source is from 'https://www.npr.org/2026/09/04/nx-s1-5958601/labor-department-inspector-general-secretary-chavez-deremer' with timestamp 2026-09-04, confirming the findings were made public on that date. However, the draft's opening sentence presents a factual claim about who leads the OIG and when findings were released that cannot be verified as accurate against the source material provided in the brief\u2014the brief does not contain any data_point confirming D'Esposito's role or the September 4 release date specifically.",
      "More critically: The draft attributes to Oberheiden a complete quote about Chavez-DeRemer's service and pride in her tenure: 'While some, with or without their own agenda, may not have liked the way she managed the Department, Secretary Chavez-DeRemer looks back with the same pride of having served President Trump's Administration and the American workers.' However, the brief's data_point for this quote only includes: 'said: \"While some, with or without their own agenda, may not have liked the way she managed the Department, Secretary Chavez-DeRemer looks back with the same pride of having served President Trump's Administration and the American workers.\"' The draft has split this across two sentences and attributed part of it differently than appears in the brief, creating ambiguity about what Oberheiden actually said versus editorial paraphrase."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-09-05",
+  "approved": 6,
+  "rejected": [
+   {
+    "id": "c009",
+    "headline": "U.S. strikes 3 Iranian oil tankers after Iran targets Navy warships, September 5",
+    "category": "accuracy",
+    "reasons": [
+     "the draft dates September 5, 2026 as a Friday; September 5, 2026 is a Saturday"
+    ]
+   },
+   {
+    "id": "c040",
+    "headline": "Judge declares mistrial in Lindsay Clancy murder case after jury deadlocks 11-1",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states the jury 'deliberated for six days' in the opening but later states 'The jury had deliberated for seven days total' in the same paragraph. The brief clearly states both: 'The jury deliberated for six days before reporting deadlock' (data_point 2) and 'The jury deliberated for seven days total, signaling three times that they were deadlocked' (data_point 27). The draft contains conflicting information about the same fact within itself, creating reader confusion about which number is correct."
+    ]
+   },
+   {
+    "id": "c014",
+    "headline": "Data centers emerge as rare bipartisan campaign issue in 2026 midterms",
+    "category": "compliance",
+    "reasons": [
+     "The bottom_line projects an election outcome ('If candidates who run hard against data centers win decisively') and frames it as a prediction about future political behavior ('the issue's staying power in politics will extend well beyond 2026'). This reads as a political prediction presented as analytical fact rather than a forward-looking question. Per desk rule: an election prediction presented as fact is compliance rejection. The bottom_line should ask what to watch for, not project what will happen."
+    ]
+   },
+   {
+    "id": "c067",
+    "headline": "Two rescued in Nepal 10 days after August 26 floods",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Rescue teams pulled two more people alive from debris in Nepal on Saturday, September 5, ten days after devastating floods killed at least 1,300 and left over 5,000 missing.' However, the brief's data_point states the floods occurred on August 26. September 5 is 10 days after August 26, which is mathematically correct; however, the opening sentence creates ambiguity about whether September 5 was when the rescues happened. More critically, the draft opening does not clearly establish that today is Saturday, September 5, 2026\u2014the reader encounters an event dated 'Saturday, September 5' without the year, and the instruction states 'Today is Saturday, 2026-09-05.' The draft body later clarifies 'Saturday, September 5' for the woman's rescue but the opening creates temporal confusion. However, the more substantive accuracy issue: The draft states 'Rescue teams pulled two more people alive from debris' in the opening, but the core_claim states 'five people alive from debris and a hydropower tunnel.' The brief data shows two rescues on September 5 (the man from tunnel, the woman from house), but three were pulled from Trishuli (two on Sept 4, one on Sept 5). The opening sentence's 'two more' is literally accurate for September 5 only, but the overall story structure and core claim indicate five total survivors from this operation. The lead should clarify whether it is reporting only Saturday's rescues or the cumulative total. This is a clarity problem masking an accuracy problem: the reader cannot immediately determine the story's scope."
     ]
    }
   ]

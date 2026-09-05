@@ -1,0 +1,70 @@
+{
+  "id": "c070",
+  "slug": "us-added-162-000-jobs-in-august-2026-unemployment-rate-holds-at-4-1",
+  "kind": "brief",
+  "title": "US added 162,000 jobs in August 2026, unemployment rate holds at 4.1%",
+  "dek": "The U.S. economy added 162,000 jobs in August 2026, exceeding economist expectations of at least 50,000 new jobs, while the unemployment rate held steady at 4.1%, according to Bureau of Labor Statistics data. The gain comes as wage growth continues to lag inflation at 3.4 percent.",
+  "date": "2026-09-05",
+  "published_utc": "2026-09-05T17:34:01Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 4,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The unemployment rate remained at 4.1%, down from a peak of 4.5% in November 2025.",
+  "bottom_line": "Fed Chair Warsh's next policy signal and the September jobs report will indicate whether the labor market can sustain this pace while inflation remains above the Fed's 2 percent target. A sustained pattern of weak private-sector hiring alongside persistent inflation could force the Fed toward rate increases that would cool job growth, creating the opposite pressure from what Trump is demanding.",
+  "human_take": "",
+  "body": [
+    "The U.S. economy added 162,000 jobs in August 2026, exceeding economist expectations, while the unemployment rate held steady at 4.1%, according to Bureau of Labor Statistics data reported by the Guardian and PBS NewsHour. The unemployment rate has declined from its most recent peak of 4.5% in November 2025.\nEconomists had predicted gains would be at least 50,000 new jobs, according to the Guardian reporting. The job market delivered gains in August that were significantly larger than this consensus forecast. Private companies, however, added only 38,000 jobs, lower than initial expectations and the lowest monthly gain for new jobs since January, per Guardian reporting.\nJob growth has decelerated from earlier in the year. Job growth in March was 214,000. Job growth in July was initially reported as a loss of 23,000, then revised upward by 44,000 to a gain of 21,000. Job growth in June was initially reported as 20,000, then revised upward to 31,000, according to the Guardian.\nManufacturing added 16,000 jobs in July 2026, the strongest gain in three years, per PBS NewsHour reporting. Leisure and hospitality saw the strongest gains in August, according to PBS. The economy is characterized as a \"no-hire, no-fire\" state with neither growth nor contractions in jobs, per Guardian analysis.\nLayoffs have been going down and are 41 percent lower than cuts announced by this time last year, according to outplacement firm Challenger, Gray & Christmas, the Guardian reports. The number of people quitting their jobs remained flat in July 2026, suggesting workers are feeling less confident about their ability to find another job, per the Guardian.\nThe annual inflation rate went from 2.4 percent in February to 3.4 percent in July 2026, according to the Guardian. In May 2026, price increases reached 4.2 percent, the highest rate since 2023.\nU.S. Treasury bond yields have been going up since the start of the Iran war, the Guardian reports. Economists are expecting at least one interest rate hike from the U.S. Federal Reserve before the end of 2026. Fed Chair Kevin Warsh gave his debut speech at the Fed's Jackson Hole symposium in Wyoming, stating: \"We must be confident that underlying inflation is moving to our objective, clearly and at sufficient speed. Otherwise, we have work to do.\"\nDonald Trump celebrated the August job figures on Truth Social and threatened to \"stop trading with countries with which we have a deficit\" if the Fed does not lower interest rates, writing: \"A STRONG COUNTRY MEANS A LOWER INTEREST RATE, IT'S A BETTER CREDIT. Very simple.\" Companies affected by AI automation concerns are not hiring, particularly in information technology and professional services, despite overall job gains, per PBS commentary."
+  ],
+  "sources": [
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/business/2026/sep/04/august-economy-jobs-report"
+    },
+    {
+      "title": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/show/why-the-u-s-job-market-remains-resilient-in-face-of-global-pressures-and-inflation"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/newsletters/business-economy/6072471-us-economy-adds-162000-jobs-in-august/"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/homenews/administration/6070974-live-updates-trump-mail-ballots-jobs-midterms/"
+    }
+  ],
+  "event_utc": "2026-09-04T12:40:44Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-05T17:34:01Z",
+    "sources_cited": 4,
+    "sources_live_checked": 2
+  },
+  "also_reported_by": [
+    {
+      "outlet": "CNBC",
+      "headline": "U.S. payrolls rose 162,000 in August, much more than expected; unemployment rate at 4.1% - CNBC"
+    },
+    {
+      "outlet": "NewsCord",
+      "headline": "U.S. Employers Add 162,000 Jobs in August, Keeping Unemployment Rate at 4.1%: how 18 outlets framed it - NewsCord"
+    },
+    {
+      "outlet": "NBC News",
+      "headline": "U.S. economy adds 162,000 jobs in August, unemployment rate at 4.1% - NBC News"
+    },
+    {
+      "outlet": "Hunt Scanlon Media",
+      "headline": "U.S. Adds 162,000 Jobs in August as Unemployment Holds at 4.1 Percent - Hunt Scanlon Media"
+    },
+    {
+      "outlet": "Briefs Finance",
+      "headline": "U.S. Adds 162,000 Jobs in August as Unemployment Holds at 4.1% - Briefs Finance"
+    },
+    {
+      "outlet": "Quiver Quantitative",
+      "headline": "U.S. Adds 162,000 Jobs in August, Unemployment Holds at 4.1% - Quiver Quantitative"
+    }
+  ]
+}
