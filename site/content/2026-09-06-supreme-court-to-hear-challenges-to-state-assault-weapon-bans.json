@@ -1,0 +1,42 @@
+{
+  "id": "c181",
+  "slug": "supreme-court-to-hear-challenges-to-state-assault-weapon-bans",
+  "kind": "brief",
+  "title": "Supreme Court to Hear Challenges to State 'Assault Weapon' Bans",
+  "dek": "The Supreme Court has agreed to hear challenges to rifle bans imposed by Connecticut and Cook County, Illinois. The cases will test whether the Second Amendment protects the right to own AR-15-style and similar semiautomatic rifles. Americans own over 30 million such rifles, commonly for self-defense, hunting, and target shooting. The decision could invalidate restrictions in a dozen states.",
+  "date": "2026-09-06",
+  "published_utc": "2026-09-06T12:54:32Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 10,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The Supreme Court will hear cases challenging whether the Second Amendment protects the right to possess AR-15-style and similar semiautomatic rifles, per Reason reporting.",
+  "bottom_line": "The Court's decision will turn on how the justices apply Bruen's historical test to semiautomatic rifles manufactured after 1868. The outcome will determine whether states can restrict the nation's most common rifle type or must allow civilian possession, with cascading effects on gun law nationwide.",
+  "human_take": "",
+  "body": [
+    "The Supreme Court has agreed to hear a pair of cases involving rifle restrictions imposed by Connecticut and Cook County, Illinois, according to Reason reporting. The central question is whether the Second Amendment protects the right to possess AR-15-style and similar semiautomatic rifles.",
+    "A dozen states have enacted bans on firearms described as \"assault weapons.\" These bans typically prohibit a long list of gun models and firearms that meet specified criteria, including semiautomatic rifles that accept detachable magazines and have specified features such as folding stocks, pistol grips, and barrel shrouds, per Reason. The bans encompass AR-15-style rifles, which are among the most popular guns sold in the United States.",
+    "Americans own more than 30 million AR-15-style rifles, according to Reason reporting. Americans commonly report using these rifles for lawful purposes such as self-defense, hunting, and target shooting.",
+    "Under the constitutional test established by the Supreme Court's 2022 ruling in New York State Rifle and Pistol Association v. Bruen, Connecticut and Cook County have the burden of showing their laws are consistent with the nation's historical tradition of firearm regulation, per Reason. To pass the Bruen test, the states must cite historical analogs that are relevantly similar in motivation and scope. Cook County invokes strict historical regulations on gunpowder, fire-prevention measures, as historical justification for banning rifle features such as adjustable stocks and muzzle compensators, according to Reason. The plaintiffs in Cook County argue that history demonstrates only arms that are both dangerous and unusual may be banned.",
+    "In District of Columbia v. Heller (2008), the Supreme Court said the Second Amendment applies to bearable arms that are in common use for lawful purposes like self-defense, per Reason. Four justices have indicated they are inclined to view assault weapon bans as unconstitutional, while two others are at least willing to question political judgments about the sort of danger that justifies gun restrictions, according to Reason reporting."
+  ],
+  "sources": [
+    {
+      "title": "Reason",
+      "url": "https://reason.com/2026/09/06/scotus-takes-up-assault-weapon-bans/"
+    }
+  ],
+  "event_utc": "2026-09-06T10:00:25Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-06T12:54:32Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "also_reported_by": [
+    {
+      "outlet": "NewsCord",
+      "headline": "U.S. Supreme Court Agrees To Hear Challenges To AR-15 Assault Weapons Bans In Connecticut And Cook County - NewsCord"
+    }
+  ]
+}
