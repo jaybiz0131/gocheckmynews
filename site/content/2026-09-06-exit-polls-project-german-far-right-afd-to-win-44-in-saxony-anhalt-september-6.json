@@ -1,0 +1,61 @@
+{
+  "id": "c001",
+  "slug": "exit-polls-project-german-far-right-afd-to-win-44-in-saxony-anhalt-september-6",
+  "kind": "brief",
+  "title": "Exit Polls Project German Far-Right AfD to Win 44% in Saxony-Anhalt, September 6",
+  "dek": "Exit polls from Sunday's Saxony-Anhalt election show Germany's far-right AfD party projected to win approximately 44% of the vote, far ahead of the center-right CDU at 18.4-18.5%. The result would represent more than double the AfD's showing five years prior in the 2.1 million-person state. Exit polls suggest the AfD falls marginally short of an absolute majority needed to govern alone, and Germany's other major parties have long ruled out any cooperation with the party.",
+  "date": "2026-09-06",
+  "published_utc": "2026-09-06T17:41:52Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 1,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Exit polls project the AfD at approximately 44% in Saxony-Anhalt, which would be the strongest far-right result in any German state since World War II.",
+  "bottom_line": "Final vote tallies will clarify whether the AfD secured an absolute majority or must seek a coalition partner willing to defy Germany's mainstream parties' long-standing refusal to govern with the far-right. If the AfD falls short and cannot secure partners, the state faces a political impasse with no clear path to government formation.",
+  "human_take": "",
+  "body": [
+    "Exit polls from Sunday's state election in Saxony-Anhalt project Germany's far-right AfD party to win approximately 44% of the vote, far ahead of the center-right CDU at 18.4% to 18.5%, according to reporting from BBC News and NPR. The result would mark the strongest showing for a far-right party in any German state since World War II.",
+    "No far-right party has governed a German state since the end of World War II. If confirmed, the result would give the AfD potential control over powers including policing, local education, and culture in the state of 2.1 million people. The AfD's performance represents more than double its showing five years ago in the same region.",
+    "Exit polls put the AfD marginally short of the absolute majority needed to govern alone, per NPR. The Left Party was projected to finish third with approximately 9%, while the center-left Social Democrats and Greens were on course to remain in the state legislature with roughly 8% to 9% each. It remained unclear whether the BSW party would reach the 5% threshold required to win seats.",
+    "The state AfD has been classified by the Office for the Protection of the Constitution as a \"confirmed far-right extremist\" organization since 2023, according to CBS News. The classification assessment states the party's core positions violate fundamental principles of Germany's constitution and are \"substantially permeated by the racist ideology of ethnopluralism.\" The party seeks \"an ethnoculturally homogeneous national population\" and calls for the exclusion of people based on origin or religion, per the intelligence agency's determination.",
+    "Ulrich Siegmund, the AfD's 35-year-old candidate for state governor, told ARD that \"we have written history,\" according to NPR. Siegmund has stated he would only lead a full AfD government, ruling out any coalition. He has accused the state intelligence agency of being politically weaponized against his party. If his party wins power, it would consider abolishing or restructuring the state intelligence agency, according to CBS News.",
+    "Siegmund attended the 2023 \"Potsdam meeting,\" a gathering of German and other far-right figures where Austrian anti-immigration extremist Martin Sellner presented his \"master plan\" for \"remigration,\" per CBS News. That concept, as described by the AfD's platform in Saxony-Anhalt, envisions asylum seekers, non-Germans living legally in the country, and German nationals with immigrant backgrounds deemed to have failed to assimilate all being expelled. The state party calls for a \"deportation and remigration offensive,\" with more detention centers to handle people destined for deportation. It has dismissed suggested immigration caps of around 200,000 as too high.",
+    "Germany's other major parties have long ruled out any cooperation with the AfD, creating a potential impasse if the party falls short of an absolute majority. The center-left SPD described the outcome as \"truly dramatic,\" per BBC News. The CDU's national general secretary, Franziska Hoppermann, called it \"a very difficult result for us,\" according to NPR. The CDU has led Saxony-Anhalt for 24 years under Chancellor Friedrich Merz. Sven Schulze, the CDU's state counterpart, conceded victory and said his party would have to deal with the result. Siegmund said the unpopular Merz had been \"a very good campaigner for us,\" according to NPR. The SPD's national leader Lars Klingbeil described the outcome as \"a signal to Berlin.\"",
+    "Turnout in Saxony-Anhalt was notably high at an estimated 78%, per BBC News. The AfD's projected result exceeded earlier opinion polls, according to BBC reporting."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cy4zejgz3z9o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "NPR",
+      "url": "https://www.npr.org/2026/09/06/nx-s1-5955677/german-exit-polls-suggest-far-right-party-has-big-lead-in-regional-election"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/afd-germany-saxony-anhalt-election-europe-far-right/"
+    },
+    {
+      "title": "NPR",
+      "url": "https://www.npr.org/2026/09/06/nx-s1-5955677/german-exit-polls-suggest-far-right-party-big-lead-in-regional-election"
+    }
+  ],
+  "event_utc": "2026-09-06T16:36:48Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-06T17:41:52Z",
+    "sources_cited": 4,
+    "sources_live_checked": 3
+  },
+  "also_reported_by": [
+    {
+      "outlet": "VOA",
+      "headline": "Exit Polls in Netherlands Project Re-election for Rutte - VOA - Voice of America English News"
+    },
+    {
+      "outlet": "EUalive",
+      "headline": "Far-right AfD posts historic German state election win - EUalive"
+    }
+  ]
+}

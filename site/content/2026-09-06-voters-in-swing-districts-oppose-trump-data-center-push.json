@@ -1,0 +1,33 @@
+{
+  "id": "c236",
+  "slug": "voters-in-swing-districts-oppose-trump-data-center-push",
+  "kind": "brief",
+  "title": "Voters in swing districts oppose Trump data center push",
+  "dek": "An NBC News poll found 69% of voters oppose AI data center construction in their communities, including 57% of Republicans. The opposition spans eight swing House districts and two Senate races along Interstate 80 from Nebraska to New Jersey, forcing politicians to reverse earlier support for the projects.",
+  "date": "2026-09-06",
+  "published_utc": "2026-09-06T17:41:52Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 12,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "An NBC News Decision Desk Poll conducted August 20 through September 1 found that 69% of respondents oppose AI data center construction locally, with 45% strongly opposed.",
+  "bottom_line": "The data center opposition emerging in these eight House districts and two Senate races will show whether voter concern translates into electoral consequence or remains a seasonal issue. Election results in Ohio and Pennsylvania will offer the clearest read on whether the backlash constrains how aggressively Republicans can pursue infrastructure expansion in 2027.",
+  "human_take": "",
+  "body": [
+    "An NBC News poll found 69% of voters in key midterm battlegrounds oppose AI data center construction in their communities, creating a political liability for Republicans despite President Trump's advocacy for rapid data center expansion.\n, a region critical to determining which party controls Congress next year. Politicians who once backed data centers are reversing course ahead of November.\nAccording to an NBC News Decision Desk Poll powered by SurveyMonkey, conducted from August 20 through September 1, 69% of respondents oppose AI data center construction in their local area, with 45% saying they \"strongly oppose\" the idea. Among Republicans, 57% oppose data centers in their communities while 43% support them. Democrats oppose them at 81% and independents at 71%, per the same poll.\nTrump wrote in a Truth Social post at the end of August: \"The only reason that communities throughout the U.S.A. should not want Data Centers is if they want to end up being backwards and poor. If they want to be successful and rich, with far lower taxes and jobs all over the place, let Data Reign.\" The framing highlights a core tension: , while Trump and some labor unions emphasize job creation and tax revenue.\nIn concrete races, the issue is reshaping campaigns. In Rep. Marcy Kaptur's Ohio district, the Democratic 22-term incumbent is using data centers against Republican rival Derek Merrin, who cast a 2017 vote in the state Legislature that extended tax breaks to data center companies. Sen. Jon Husted, R-Ohio, seeking to hold his seat against Democratic former Sen. Sherrod Brown, was a full-throated advocate for data centers when he served as the state's lieutenant governor but introduced Senate legislation in July that would require utility companies to charge large-scale data center operators enough to cover the costs of increased electricity and water use. In Pennsylvania, Gov. Josh Shapiro, D-Pa., on the ballot in November, signed new data center regulations in August after having encouraged companies to locate them in his state.\nEven in Trump strongholds, opposition is crossing party lines. Republican county supervisor Dawn Vogel in rural Buchanan County, Iowa, a county that favored Trump 63%-35% in 2024, voted earlier in 2026 for a moratorium temporarily banning data centers from setting up in her county.\nThe bear case emphasizes labor support. National and local labor unions involved in data center construction and maintenance tout them as a boon for workers. According to NBC News, a data center worker said he can make as much as $5,000 in a week, including overtime, at a relatively low-level union job. The worker told the outlet, \"It's helping a lot of people, a lot of work going on, a lot of people benefiting from it.\" Data center workers interviewed by NBC News spoke on condition of anonymity because they have agreed not to discuss their jobs with the media. Rep. Alexandria Ocasio-Cortez, D-N.Y., and Sen. Bernie Sanders, I-Vt., have proposed a national data center moratorium, aligning on the issue with Trump opponents."
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/politics/2026-election/trump-data-centers-voters-key-midterm-races-rcna594914"
+    }
+  ],
+  "event_utc": "2026-09-06T13:00:40Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-06T17:41:52Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "update_of": "trump-administration-announces-5-voter-fraud-prosecutions-ahead-of-midterms"
+}
