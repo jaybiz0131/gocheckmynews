@@ -1,38 +1,6 @@
 [
  {
   "date": "2026-07-30",
-  "approved": 9,
-  "rejected": [
-   {
-    "id": "c139",
-    "headline": "Declassified intelligence contradicts Trump election interference claims on China",
-    "category": "accuracy",
-    "reasons": [
-     "The draft claims 'Declassified intelligence shows China sought personal data for espionage purposes, not election interference' but the brief provides zero data_points and explicitly notes 'source_chars: 0' with the open_question stating 'No source text provided; snippet alone states declassified evidence exists but provides no detail on what the intelligence shows.' The writer has fabricated a factual claim about what the declassified intelligence 'shows' without any sourced evidence in the brief to support it. This violates the hard rule that facts must trace to data_points in the brief.",
-     "The draft presents the declassified finding as established fact ('shows China sought personal data') when the brief itself indicates the source material was never provided to verify this claim. This is smuggled information without research backing."
-    ]
-   },
-   {
-    "id": "c099",
-    "headline": "DOJ invokes rarely-used secret court to pursue deportation of ISIS supporter's mother",
-    "category": "accuracy",
-    "reasons": [
-     "Draft states 'The case marks the first use of the specialized court mechanism in decades' but the brief's core_claim says 'marking the first use of the dormant court mechanism in decades'\u2014a subtle but critical difference. The draft's phrasing suggests this is the first use period; the brief indicates it has been used before but dormant for decades. The brief data_point says 'early test of a court that has never been used before,' which directly contradicts the lead. The writer smuggled ambiguity into a factual claim that should trace cleanly to the source.",
-     "The entire draft relies on only two data_points from the brief, and those data_points themselves contain unresolved contradictions ('never been used before' vs. 'dormant court mechanism in decades'). This ambiguity was not resolved in the draft, leaving readers with unclear facts about whether this court has or has not been invoked previously."
-    ]
-   },
-   {
-    "id": "c327",
-    "headline": "First responders describe scene findings as Clancy trial enters day 3",
-    "category": "accuracy",
-    "reasons": [
-     "The phrase 'on the home where Clancy killed her children' in the Friday visit description reads as a verdict on guilt before trial conclusion. The brief data_point says 'the home where Lindsay Clancy killed her children' with confidence 'reported', but this phrasing presents as established fact rather than allegation. The draft should read 'the home where the deaths occurred' or 'where the children were found' to preserve the presumption of innocence in an ongoing trial."
-    ]
-   }
-  ]
- },
- {
-  "date": "2026-07-30",
   "approved": 4,
   "rejected": [
    {
@@ -8907,6 +8875,37 @@
     "category": "accuracy",
     "reasons": [
      "This draft is itself a meta-commentary declining to publish a story, not a publishable news article. It acknowledges that 'the story's central claims about an Inspur subsidiary circumventing U.S. export controls on Nvidia chips cannot be verified from the fetched source material.' The draft body is an editorial judgment about sourcing inadequacy, not a news narrative based on the research brief. The brief confirms this with core_claim: 'Unable to verify core claim about Inspur subsidiary shipping Nvidia chips; fetched sources do not address the story.' This is not a draft to approve or reject for publication; it is a kill recommendation. Publishing this would mean running a story whose explicit content is that the story cannot be reported."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-09-07",
+  "approved": 5,
+  "rejected": [
+   {
+    "id": "c062",
+    "headline": "Trump administration appeals to Supreme Court on mail-ballot restrictions as voting begins",
+    "category": "compliance",
+    "reasons": [
+     "The draft presents contested characterizations of Trump's 2020 election claims in the desk's own voice rather than attributed to sources. The brief carries these claims as 'reported' confidence, meaning they come from outlets, not from the official record or on-record statements by named individuals. Sentences like 'Trump has falsely blamed mail balloting for his 2020 election loss to Democrat Joe Biden, spreading baseless claims of fraud' and 'Trump has long sought to limit mail voting, even though he himself often uses that method to cast his own ballot' adopt a verdict on contested claims without attribution. These must be rewritten to attribute the characterization to named sources (e.g., 'Democrats and voting rights groups say Trump has falsely blamed mail voting for his 2020 loss') or removed. The desk does not narrate what is 'false' or 'baseless'\u2014it reports what named people said."
+    ]
+   },
+   {
+    "id": "c076",
+    "headline": "Armed man confronts Ohio gubernatorial candidate Amy Acton at Canfield Fair on September 6",
+    "category": "accuracy",
+    "reasons": [
+     "The draft lead and core narrative describe the incident as Havas 'lunged at' or 'approached...and pushed through' Acton, but the brief's data points and the draft's own body text establish that Havas was 'pushing his way through the crowd' as he entered the tent, and that it was the security detail's confrontation with Havas that resulted in two people being knocked to the ground. The draft states 'pushed through a crowd, and was confronted by her security detail...During the confrontation, two people were knocked to the ground,' which correctly attributes the knockdowns to the confrontation (security response), not to a direct lunge at Acton. However, the headline and opening sentences ('approached Ohio Democratic gubernatorial nominee Amy Acton...pushed through a crowd') create ambiguity about whether Havas's pushing knocked people down or whether the security confrontation did. The brief confirms 'Havas did not brandish the weapons or remove them from their holsters.' The draft body text is accurate on the sequence of events, but the framing in the opening is misleading about causation."
+    ]
+   },
+   {
+    "id": "c027",
+    "headline": "Mount Anak Krakatau eruption closes 8 Indonesian airports, strands 170,000 passengers",
+    "category": "accuracy",
+    "reasons": [
+     "the draft dates September 8, 2026 as a Monday; September 8, 2026 is a Tuesday",
+     "the draft dates September 7, 2026 as a Sunday; September 7, 2026 is a Monday"
     ]
    }
   ]

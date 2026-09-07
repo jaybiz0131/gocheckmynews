@@ -1,0 +1,80 @@
+{
+  "id": "c001",
+  "slug": "five-dead-after-amazon-cargo-plane-overruns-runway-at-miami-airport-on-september-6",
+  "kind": "brief",
+  "title": "Five dead after Amazon cargo plane overruns runway at Miami airport on September 6",
+  "dek": "A Boeing 767-300 cargo aircraft operating as 21 Air Flight 7598 overran Runway 30 at Miami International Airport on September 6, 2026, at approximately 2 p.m. ET while landing from San Juan, Puerto Rico. The plane struck multiple vehicles, killing five people and injuring five others. First responders addressed an active fuel leak and complex engine fires.",
+  "date": "2026-09-07",
+  "published_utc": "2026-09-07T01:03:38Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 1,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Five people confirmed dead and five injured after Amazon-branded cargo plane overran runway and struck vehicles at Miami International Airport on September 6, 2026.",
+  "bottom_line": "The NTSB investigation will determine whether mechanical failure, weather, pilot error, or other factors caused the runway overrun. The status of the fuel leak remediation and the complete roster of the dead and injured remain to be confirmed as first responders continue operations.",
+  "human_take": "",
+  "body": [
+    "A Boeing 767-300 cargo aircraft overran Runway 30 at Miami International Airport on September 6, 2026, while landing, struck multiple vehicles, and came to rest in a field adjacent to the airport. Five people were killed and five others injured in the incident, according to NBC News.",
+    "The aircraft, operating as 21 Air Flight 7598, was arriving from Luis Munoz Marin International Airport in San Juan, Puerto Rico, per the Federal Aviation Administration. The crash occurred just before 2 p.m. ET on Sunday while the plane was on approach. Of the five injured, three were in critical condition and taken to a trauma center; two others were transported to a local hospital, per NBC News reporting.",
+    "More than 60 Miami-Dade Fire Rescue units responded to the scene. Miami-Dade Fire Chief Raied Jadallah said firefighters worked to extinguish a complex engine compartment fire using foam from specialized airport firefighting equipment. A technical rescue team conducted what Jadallah described as a complex extrication for people trapped inside the vehicles the plane struck. First responders were addressing an active fuel leak at the crash site. Miami-Dade County Sheriff Rosie Cordero-Stutz confirmed the plane overran Runway 30 and struck multiple vehicles. Miami-Dade County Mayor Daniella Levine Cava said fire and rescue personnel responded within seconds.",
+    "A search-and-rescue operation was launched to retrieve the pilot and co-pilot, who were trapped in the aircraft. About 200 personnel responded to the scene, according to Fox News. County emergency call records, per Fox News, indicate the emergency call was received at approximately 1:55 p.m. ET.",
+    "All runways and taxiways at the airport were closed following the crash. After 5 p.m. ET, two of the four runways had reopened, and the airport was under a ground delay expected to continue through early Monday, per NBC News. Department of Transportation Secretary Sean Duffy issued a statement saying a full ground stop had been issued at Miami International while first responders assessed the scene.",
+    "The Boeing 767-300 was delivered as a passenger jet in 1994 and later converted by a third party for cargo use, per NBC News. Amazon spokesperson Kelly Nantel said the flight was operated by 21 Air and was coming in to land when the incident occurred. Amazon issued a statement: \"We're heartbroken to learn that five people lost their lives in today's incident at Miami International Airport. Our deepest sympathies go out to the families, loved ones, and all those affected by this devastating loss.\" Boeing stated: \"Boeing extends our deepest condolences to the families and loved ones of those who lost their lives in the accident in Miami. Our hearts go out to those injured and affected by this tragedy.\"",
+    "The National Transportation Safety Board has launched a team to investigate. The FAA and NTSB will determine the cause of the crash. Fire officials told Fox News Digital that the fire erupted from the aircraft's engine, but HazMat units were able to safely shut down the engine while addressing the plane's fuel leak."
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/news/us-news/amazon-plane-crash-miami-rcna596369"
+    },
+    {
+      "title": "Fox News",
+      "url": "https://www.foxnews.com/us/amazon-cargo-jet-overruns-miami-airport-runway-triggering-massive-emergency-response"
+    },
+    {
+      "title": "Washington Examiner",
+      "url": "https://www.washingtonexaminer.com/breaking-news/4715572/plane-crashes-miami-international-airport-video-shows/"
+    },
+    {
+      "title": "NPR",
+      "url": "https://www.npr.org/2026/09/06/nx-s1-5959749/amazon-cargo-plane-crashes-at-miami-airport"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/policy/transportation/aviation/6074113-amazon-cargo-plane-sends-up-billowing-cloud-of-smoke-after-overrunning-runway-at-miami-airport/"
+    },
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/videos/c62k8dz8r4lo?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "event_utc": "2026-09-06T19:07:32Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-07T01:03:38Z",
+    "sources_cited": 6,
+    "sources_live_checked": 3
+  },
+  "also_reported_by": [
+    {
+      "outlet": "NPR",
+      "headline": "Five dead after Amazon cargo plane crashes at Miami airport - NPR"
+    },
+    {
+      "outlet": "Financial Times",
+      "headline": "Five killed as Amazon cargo plane overshoots runway in Miami - Financial Times"
+    },
+    {
+      "outlet": "i24NEWS",
+      "headline": "Five Killed In Amazon Cargo Plane Crash At Miami Airport - i24NEWS"
+    },
+    {
+      "outlet": "MercoPress",
+      "headline": "Five dead as a cargo jet operating for Amazon overruns the runway at Miami airport - MercoPress"
+    },
+    {
+      "outlet": "Miami New Times",
+      "headline": "Five confirmed dead after Amazon plane crash at MIA: What to know - Miami New Times"
+    }
+  ]
+}

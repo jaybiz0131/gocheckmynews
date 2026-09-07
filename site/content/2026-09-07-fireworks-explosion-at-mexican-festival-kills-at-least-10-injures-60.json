@@ -1,0 +1,45 @@
+{
+  "id": "c055",
+  "slug": "fireworks-explosion-at-mexican-festival-kills-at-least-10-injures-60",
+  "kind": "brief",
+  "title": "Fireworks explosion at Mexican festival kills at least 10, injures 60+",
+  "dek": "A fireworks detonation during a village festival in central Mexico on September 6, 2026, killed at least 10 people and wounded at least 60. The blast occurred in Santa Mar\u00eda Canchesda in Temascalcingo municipality near a church. Preliminary reports suggest a burning straw bull effigy ignited a larger cache of fireworks stored in the village church, though authorities said the cause remains under investigation.",
+  "date": "2026-09-07",
+  "published_utc": "2026-09-07T01:03:38Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 9,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "At least 10 people were killed and at least 60 wounded when fireworks detonated during a village festival in central Mexico on September 6, per Al Jazeera and PBS reporting.",
+  "bottom_line": "Mexico's Attorney General's Office investigation into the cause of the blast is ongoing. The determination of whether negligence or storage violations contributed to the explosion and the final death toll are pending official findings.",
+  "human_take": "",
+  "body": [
+    "A fireworks explosion during a village festival in central Mexico killed at least 10 people and wounded at least 60 on Saturday evening, September 6, 2026, according to Al Jazeera and PBS reporting.",
+    "The blast occurred in Santa Mar\u00eda Canchesda in the Temascalcingo municipality, approximately 160 kilometers northwest of Mexico City. The explosion happened next to the Nuestra Se\u00f1ora de la Luz church. Temascalcingo is a municipality with 66,000 residents.",
+    "Hundreds of residents and visitors were preparing to watch a fireworks display as part of a religious festival when the explosion occurred. Revelers were carrying a bull made of straw with fireworks sprouting from the effigy as part of a local ritual celebration. According to Al Jazeera, the burning straw bull apparently ignited a larger store of fireworks in the village church. The blast knocked down walls and ignited a fire in the town square. Some people were trapped under falling debris from the explosion.",
+    "Two priests were injured in the blast but are expected to survive, according to Al Jazeera. A local bishop stated that two priests were among those injured, per PBS reporting.",
+    "Mexico's Attorney General's Office said the cause of the explosion has not been determined and an investigation has been opened, according to both Al Jazeera and PBS. This official statement indicates that the preliminary account of the burning bull igniting a fireworks cache remains under investigation and unconfirmed.",
+    "Mexico has experienced multiple deadly fireworks accidents in recent years. In July 2018, an explosion killed 24 people at a fireworks factory in Tultepec, north of Mexico City, according to Al Jazeera. Two years before that incident, 42 people died in another fireworks explosion in a market in the same city. Almost four years ago, a powerful fireworks explosion in a village in Huejutla municipality in the central state of Hidalgo left 17 people injured, per PBS reporting."
+  ],
+  "sources": [
+    {
+      "title": "aljazeera.com",
+      "url": "https://www.aljazeera.com/news/2026/9/6/at-least-10-killed-in-central-mexico-fireworks-blast-during-festival"
+    },
+    {
+      "title": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/world/explosion-of-fireworks-in-central-mexico-kills-at-least-10-injures-64"
+    },
+    {
+      "title": "aljazeera.com",
+      "url": "https://www.aljazeera.com/news/2026/9/6/at-least-10-killed-in-central-mexico-fireworks-blast-during-festival?traffic_source=rss"
+    }
+  ],
+  "event_utc": "2026-09-06T21:08:30Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-07T01:03:38Z",
+    "sources_cited": 3,
+    "sources_live_checked": 3
+  }
+}
