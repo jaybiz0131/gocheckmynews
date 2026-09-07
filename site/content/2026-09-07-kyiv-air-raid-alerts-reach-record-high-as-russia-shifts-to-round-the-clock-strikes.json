@@ -1,0 +1,36 @@
+{
+  "id": "c027",
+  "slug": "kyiv-air-raid-alerts-reach-record-high-as-russia-shifts-to-round-the-clock-strikes",
+  "kind": "brief",
+  "title": "Kyiv air raid alerts reach record high as Russia shifts to round-the-clock strikes",
+  "dek": "Kyiv is experiencing record-high air raid alerts as Russia shifts from primarily nighttime attacks to continuous day-and-night strikes. Since late August 2026, the city has endured an average of 10 alerts per day, disrupting schools, businesses, and transport as Ukraine struggles to defend against faster attack drones.",
+  "date": "2026-09-07",
+  "published_utc": "2026-09-07T12:39:46Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 5,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Kyiv experienced 76 air raid alerts in the seven days from August 27 to September 2, 2026, the highest weekly count since Russia's full-scale invasion began in 2022.",
+  "bottom_line": "The effectiveness of Ukraine's new two-tier warning system and its impact on civilian and economic resilience will become clear as the system is deployed. The pace of Russian drone production and the speed at which Ukraine can develop and deploy higher-velocity interceptor missiles will shape whether the current interception rate of 60 percent can be sustained or improved.",
+  "human_take": "",
+  "body": [
+    "Kyiv is suffering more daily air raid alerts than at any time since Russia's full-scale invasion in 2022, according to BBC Verify analysis of government figures. Since round-the-clock Russian attacks began at the end of August, air raid sirens have sounded across Kyiv's skies on average 10 times a day. In the seven days from Thursday, August 27, Kyiv endured 76 air raid alerts, per BBC reporting. The largest comparable number in 2022 was the week beginning February 27, when there were around 66 alerts, though BBC notes that absolute comparisons with 2022 alert counts are not possible because data gathered in the first few days of the invasion was sometimes incomplete.",
+    "Air raid alerts can last from a few minutes to nearly four and a half hours, and round-the-clock attacks have forced people to head for shelter as many as 13 times a day, according to BBC reporting. Russia used to launch most air attacks at night but has shifted to striking Ukraine's capital during the day. Russia launched 2,800 fast drones in August, almost twice as many as in July, per BBC's account. Newer jet-engine-powered attack drones fly at almost 370 mph (595 km/h), three times as fast as the older Shahed drones driven by propellers, and are harder to shoot down, according to BBC reporting.",
+    "About 60 percent of the drones were being shot down, according to Yurii Ihnat, spokesman for the Ukrainian Air Force, as reported by BBC. Ukraine uses warplanes, anti-aircraft guns and shoulder-launched missiles to try to bring down the jet-powered drones. Ukrainian President Volodymyr Zelensky held an emergency meeting with ministers and commanders to work out how to produce new high-speed missiles that can intercept the faster Russian drones, per BBC. Zelensky said: \"You can all see that the Russians have changed the tactics of their strikes against Ukraine and, since August, have been terrorising our people, our cities and our villages far more intensely.\"",
+    "The escalation is disrupting civilian life. Some metro trains have to stop during an alert because they travel overground across the Dnipro river that bisects the city, according to BBC reporting. Schools face repeated evacuations, and businesses must shut down repeatedly. The government is planning a new, two-tier warning system that allows people to carry on working, travelling and studying depending on the scale of the threat, per BBC. Analysts say Russia's aim is not only to weaken Kyiv's morale but also damage Ukraine's economy by targeting businesses and warehouses, according to BBC reporting.",
+    "There was a brief pause in attacks on Kyiv over the weekend while US envoys were in town for talks about trying to end the war, per BBC's account."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cjdvx9pz44ro?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "event_utc": "2026-09-07T07:03:44Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-07T12:39:46Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}

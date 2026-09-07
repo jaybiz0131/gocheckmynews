@@ -1,0 +1,75 @@
+{
+  "id": "c213",
+  "slug": "u-s-gas-prices-hit-record-high-for-labor-day-weekend-california-tops-6-per-gallon",
+  "kind": "brief",
+  "title": "U.S. gas prices hit record high for Labor Day weekend, California tops $6 per gallon",
+  "dek": "The national average for regular gasoline reached $4.14 per gallon heading into Labor Day weekend 2026, nearly a dollar higher than Labor Day 2025 and above the previous Labor Day record of $3.82 from 2012. Diesel hit $5.90 nationally. California prices regularly exceeded $6 per gallon. Energy Secretary Chris Wright attributed the elevation to Middle East supply disruption and said futures markets forecast lower prices by November.",
+  "date": "2026-09-07",
+  "published_utc": "2026-09-07T12:39:46Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 7,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The national average of $4.14 per gallon for regular gas on Labor Day 2026 is the highest price on that holiday in recorded history according to AAA, driven by supply constraints following U.S. and Israeli attacks on Iran in February.",
+  "bottom_line": "Energy Secretary Wright projects futures prices for November are 35 cents cheaper per gallon than the current spot price, suggesting the market expects relief within the next two months. If prices do not decline by mid-November, that forecast will have failed and the question of when, if ever, supply constraints ease becomes urgent.",
+  "human_take": "",
+  "body": [
+    "The national average price for regular gasoline reached $4.14 per gallon heading into Labor Day weekend and rose to $4.15 per gallon on Labor Day itself, according to CBS News. This marks the highest price ever recorded for that holiday. The price is nearly a dollar higher than Labor Day 2025 and well above the previous Labor Day weekend record of $3.82 from 2012. According to AAA, gas prices have never topped $4 per gallon on Labor Day in recorded history. Californians faced prices regularly exceeding $6 per gallon over the weekend.",
+    "Diesel prices proved even steeper. The national average for diesel hit $5.85 per gallon on Friday, a record, then climbed another five cents to $5.90 on Monday. The national average for regular gas, while at a Labor Day record, remains well below the all-time high of $5.02 per gallon set in June 2022.",
+    "Prices shot up after the U.S. and Israel attacked Iran in February and have not settled down since, per CBS News reporting. The disruption is centered on the Strait of Hormuz, through which crude oil traffic has plunged. Iran has refused to reopen the waterway. Tom Seng, a professor of energy finance at Texas Christian University, stated, \"Everything points to the Iran War and the Strait of Hormuz.\"",
+    "Multiple supply constraints are compounding the pressure. U.S. refineries are working at 98 percent capacity, many in unusually harsh Texas heat. Ukrainian drone attacks on Russian refineries are squeezing diesel supplies. Chinese refiners are seeing declining outputs. Despite these headwinds, Energy Secretary Chris Wright stated on ABC's \"This Week\" on Sunday, \"Yes, they're higher today, but we're doing everything we can to push them down.\"",
+    "Wright offered a more optimistic near-term outlook, citing futures markets. \"If you look at the futures prices, if you wanted to buy today in bulk gasoline for two months out in November, it's about 35 cents cheaper than it is today,\" he said. \"So the marketplace thinks gasoline prices are going to move meaningfully lower.\" The administration has not outlined specific measures beyond the general statement that it is working to increase production.",
+    "The cumulative cost to American households has been substantial. Since the start of the Iran war, higher gas and diesel prices have cost Americans more than $741 per household, according to a tracker from Brown University. On individual fill-ups, consumers face regional variation in pricing. Gas at interstate stations can cost 10 to 15 cents per gallon more than at facilities a short drive down the road."
+  ],
+  "sources": [
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/video/labor-day-weekend-gas-prices-hit-record-high/"
+    },
+    {
+      "title": "abcnews.com",
+      "url": "https://abcnews.com/Business/wireStory/fuel-prices-record-labor-day-high-us-iran-136247961"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/labor-day-gas-prices-record-high/"
+    },
+    {
+      "title": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTkpwRjZfMnc0dWVKRFp2ekJ5SVBDcW5fOFh3by05eWxNMWdxaWwxMl9uY1ZWMlM5bjB0SWYySXlrREdGQl9rVjVZWkRaNDdSSnVsT1FOMWREUk9hS2JhdkxtdDdZUlNHdnIzSkYyRnR5bUtGa1NPWmZ2Wm4tZjQ2NTFsd1pRNnJXTENkWtIBkgFBVV95cUxQZG13b0dTVkw5UVZ6U0lKNFB5VS0tcjFidUtGWVo1UGNkakVabVJKWHB5TkFkaU1mZkx6QnlDMXV4WFNmaVVsdlIwQUJMc0lITU50NlNBLV9mdVRCaGZ0d29ES2VDY1J4V2x1YWg2dW1PcHY2WUJFWnNfaGExME93RWNYLTByMF92M2RJSEV0LUVuQQ?oc=5"
+    }
+  ],
+  "event_utc": "2026-09-07T00:52:07Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-07T12:39:46Z",
+    "sources_cited": 4,
+    "sources_live_checked": 3
+  },
+  "also_reported_by": [
+    {
+      "outlet": "KTLA",
+      "headline": "Southern California Labor Day weekend forecast: 4 risks to watch for as Marie churns off the coast - KTLA"
+    },
+    {
+      "outlet": "Yahoo",
+      "headline": "Mass shooting rocks California city after college football game on Labor Day weekend - Yahoo"
+    },
+    {
+      "outlet": "KCRA",
+      "headline": "Northern California event roundup: Sacramento-area things to do for Labor Day weekend - KCRA"
+    },
+    {
+      "outlet": "USA Today",
+      "headline": "How Labor Day became part of California history - USA Today"
+    },
+    {
+      "outlet": "Sierra Sun Times",
+      "headline": "UCLA Report on State of the Unions on 2026 Labor Day: California Organized Labor Grows Despite Headwinds - Sierra Sun Times"
+    },
+    {
+      "outlet": "NBC Bay Area",
+      "headline": "California gas prices surge during Labor Day weekend - NBC Bay Area"
+    }
+  ]
+}
