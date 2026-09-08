@@ -1,0 +1,40 @@
+{
+  "id": "c238",
+  "slug": "trump-administration-files-3rd-emergency-supreme-court-appeal-on-mail-ballot-restrictions",
+  "kind": "brief",
+  "title": "Trump administration files 3rd emergency Supreme Court appeal on mail ballot restrictions",
+  "dek": "The Trump administration filed an emergency appeal to the U.S. Supreme Court on Sunday, September 6, 2026, seeking to reinstate a USPS rule restricting mail-in ballots, two days after a federal judge blocked it. This marks the third time the administration has escalated the matter to the Court.",
+  "date": "2026-09-08",
+  "published_utc": "2026-09-08T01:21:58Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 8,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "U.S. District Judge Indira Talwani blocked the USPS rule on Friday, September 5, 2026, ruling it would \"threaten disenfranchisement of millions of United States citizens who seek to vote by mail\" less than seventy days before the November 2026 election.",
+  "bottom_line": "The Supreme Court must decide whether to grant the emergency stay and allow the USPS rule to take effect before Alabama and other states complete their ballot mailing processes beginning September 9. The timing and scope of the Court's decision will determine whether the restriction applies to millions of mail voters and how many additional states are affected during ongoing litigation.",
+  "human_take": "",
+  "body": [
+    "The Trump administration filed an emergency appeal to the U.S. Supreme Court on Sunday, September 6, 2026, seeking to reinstate a USPS rule that would restrict mail-in ballots ahead of November's midterm elections, according to NBC News. This marks the third time the administration has escalated the matter to the Court.\nThe appeal came two days after U.S. District Judge Indira Talwani issued an order on Friday, September 5, blocking the administration from carrying out the Trump-directed USPS regulation. Judge Talwani ruled that \"the immediate implementation of the Final Rule issued less than seventy days before the November 2026 election threatens disenfranchisement of millions of United States citizens who seek to vote by mail,\" per NBC News. She stated it was \"likely unlawful and unconstitutional for the federal government to dictate how mail-in ballots are handled.\"\nThe contested USPS rule would allow the postal service to track mail-in ballots and potentially reject ballots sent to and from voters not included in a federal database, according to NBC News. The rule stems from a March executive order signed by President Donald Trump and would require states to upload the name, address, and barcode information of intended ballot recipients to an online portal.\nIn Sunday's filing, Solicitor General John Sauer argued that \"Ballots have already begun to be mailed in North Carolina, and more states will begin the mailing process as the injunction remains in place, including Alabama on September 9 and at least five states the week of September 13,\" per the Guardian. North Carolina became the first state last week to begin sending mail-in ballots less than 60 days before the midterm elections, according to NBC News.\nThe administration argued in its filing that the rule \"requires States to upload the name, address, and barcode information of intended recipients of ballot mail in an online portal, information that election officials would necessarily already possess to send ballot mail under the Rule to those recipients,\" per NBC News. The filing also stated: \"The Rule ensures that States remain responsible for determining voter eligibility and eligibility to vote by mail, and it does not dictate ballot content, mailing or receipt deadlines, or ballot-counting procedures.\"\nThe Trump administration has characterized its plans as \"commonsense measures\" aimed at protecting voting security, according to the Guardian. Nearly one-third of U.S. voters cast their ballots by mail, per the outlet. The USPS has said it stands ready to implement the restrictions if court injunctions are lifted, according to the Guardian.\nDemocratic states and voting rights groups argue the ordered changes are unconstitutional, and state election officials who run elections say there is not enough time to overhaul their systems to meet the new federal directives.\nThe Justice Department withdrew its previous pending request to the Supreme Court after submitting Sunday morning's application related to Talwani's most recent order, according to NBC News."
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/politics/trump-administration/trump-administration-supreme-court-mail-ballot-restrictions-appeal-rcna596346"
+    },
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/2026/sep/06/trump-administration-supreme-court-mail-in-voting"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/video/trump-administration-3rd-supreme-court-appeal-allow-mail-ballot-restrictions/"
+    }
+  ],
+  "event_utc": "2026-09-07T19:55:55Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-08T01:21:58Z",
+    "sources_cited": 3,
+    "sources_live_checked": 3
+  }
+}

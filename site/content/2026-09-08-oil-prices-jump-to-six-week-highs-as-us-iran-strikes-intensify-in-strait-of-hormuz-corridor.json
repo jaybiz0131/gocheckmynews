@@ -1,0 +1,71 @@
+{
+  "id": "c229",
+  "slug": "oil-prices-jump-to-six-week-highs-as-us-iran-strikes-intensify-in-strait-of-hormuz-corridor",
+  "kind": "brief",
+  "title": "Oil prices jump to six-week highs as US-Iran strikes intensify in Strait of Hormuz corridor",
+  "dek": "Brent crude rose to $97 per barrel and US gasoline prices climbed 7 cents in a week amid escalating US-Iran military strikes in the Strait of Hormuz, a chokepoint through which roughly one-fifth of global oil supply passes. US fuel costs are up 39 percent since February, according to Al Jazeera reporting.",
+  "date": "2026-09-08",
+  "published_utc": "2026-09-08T01:21:58Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 3,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Brent crude futures rose to approximately $97 per barrel, a nine percent increase over five days, as the US struck Iranian tankers and Iran's military claimed strikes on US-linked vessels and Saudi facilities.",
+  "bottom_line": "The price moves depend on whether the strikes represent a sustained campaign that will keep shipping volumes reduced, or whether the recent flare-up will stabilize into the lower equilibrium established over the preceding months. The next data point is shipping volume through the Strait over the following week, which will signal whether the market is pricing in temporary disruption or a durable reduction in available supply.",
+  "human_take": "",
+  "body": [
+    "Oil futures and US fuel prices climbed sharply on September 8 as military escalation between the United States and Iran disrupted shipping through the Strait of Hormuz, a waterway carrying roughly one-fifth of the world's oil supply during peacetime, according to Al Jazeera.\nBrent crude, the global benchmark, rose to hover around $97 per barrel on Monday, a nine percent increase over the preceding five days and a 19 percent rise over the preceding month, per Al Jazeera reporting. That level approaches the six-week high of $97.93 reached on July 24. US West Texas Intermediate crude similarly rose to $92.27 per barrel, also a near six-week high, according to Al Jazeera.\nThe price moves reflect reported military strikes by both sides. On Saturday, the US struck three Iranian oil tankers, while Iran's Islamic Revolutionary Guard Corps claimed it had struck three tankers and three US-linked vessels in other areas, per Al Jazeera. On Monday, the Financial Times reported that Saudi Aramco's Jizan facilities were struck for the second time in the last month, citing two people familiar with the matter.\nShipping through the critical chokepoint has declined. According to Kpler, a data analytics platform cited by Al Jazeera, there is an average of 10 commodity ships crossing the Strait each day over the last ten days. That decline in transit volume compounds supply-side pressure from the direct attacks on tankers and infrastructure.\nThe price increases are translating directly into US household costs. According to the American Automobile Association, the average price for a gallon of petrol reached $4.15 nationally on Monday, up 7 cents from $4.08 one week prior. Per Al Jazeera, petrol prices are up from $4.04 a month ago and $2.98 on February 28, when the US and Israel first struck Iran, marking a 39 percent increase since the conflict began. Last week, diesel prices hit all-time highs at $5.85 per gallon, and Monday's average topped $5.90 per gallon, per Al Jazeera.\nAmericans have spent an average of $764.59 per household on fuel since the war began, which is $418.82 more than usual, according to data cited by Al Jazeera from Brown University's Watson School of International and Public Affairs. The AAA forecasted a 20 percent increase in flight costs for the September 5-7 Labor Day weekend compared to the same weekend the prior year, per Al Jazeera.\nUS Central Command announced on Monday that it has redirected a total of 94 commercial ships alleged to have tried to violate , up from 92 the prior day, per CBS News citing the command. Three ships have been disabled and two have been boarded, the command reported. One week earlier, 16 crew members from a Saudi-flagged oil tanker were rescued by Oman's navy after Iran attacked the vessel in the Strait, with two people killed in that strike, per CBS News citing Oman's Maritime Security Center."
+  ],
+  "sources": [
+    {
+      "title": "aljazeera.com",
+      "url": "https://www.aljazeera.com/economy/2026/9/7/oil-prices-surge-as-us-iran-strikes-intensify-in-strait-of-hormuz"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-strait-of-hormuz-oil-gas-price-strikes/"
+    },
+    {
+      "title": "aljazeera.com",
+      "url": "https://www.aljazeera.com/economy/2026/9/7/oil-prices-surge-as-us-iran-strikes-intensify-in-strait-of-hormuz?traffic_source=rss"
+    },
+    {
+      "title": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTnFXXzBnb09PYjFqcEtpZThqbENaLTFVMzhnNF9Fdk5BSUVqMFkzV3czdjZmZ0FiUnVBS2FtNm9sSGxNdFpBSzNsYXo2ZWFTMnhnR04tdno2OUd5bmFHblJzbzJLTzFITlJpYnZiX1VydGthYkJ1dGc2YWVDQ2x5WlV6a2F2cVZSWFJmWVRkYVlPa1VES09GbEk5VG5iM3NzclpRbmVpejhTSDNX?oc=5"
+    }
+  ],
+  "event_utc": "2026-09-07T21:17:12Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-08T01:21:58Z",
+    "sources_cited": 4,
+    "sources_live_checked": 3
+  },
+  "update_of": "u-s-strikes-three-iranian-oil-tankers-after-iran-targets-navy-warships-military-says",
+  "also_reported_by": [
+    {
+      "outlet": "Al Jazeera",
+      "headline": "Oil prices surge as US-Iran strikes intensify in Strait of Hormuz - Al Jazeera"
+    },
+    {
+      "outlet": "Fox News",
+      "headline": "Oil prices remain low; Strait of Hormuz at center of Iran, Oman negotiations - Fox News"
+    },
+    {
+      "outlet": "Modern Diplomacy",
+      "headline": "US-Iran Fire in the Strait of Hormuz: What Happens to Oil, Gold and the Fed\u2019s Next Move - Modern Diplomacy"
+    },
+    {
+      "outlet": "bloomingbit",
+      "headline": "Oil Extends Gains as Iran-Oman Strait of Hormuz Shipping Pact Draws Focus - bloomingbit"
+    },
+    {
+      "outlet": "investingLive",
+      "headline": "Oil prices climb as US-Iran missile strikes keep Hormuz risks elevated - investingLive"
+    },
+    {
+      "outlet": "TradingKey",
+      "headline": "Crude Oil Price Forecast: Escalating US-Iran Tanker Attacks and Strait of Hormuz Risks Push Brent to $120? - TradingKey"
+    }
+  ]
+}
