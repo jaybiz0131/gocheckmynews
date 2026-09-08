@@ -137,7 +137,7 @@ def fetch_page_meta(url, timeout=25, retries=2):
     meta = {"status": None, "final_url": url, "content_type": "", "bytes": 0,
             "body": "", "error": "", "attempts": 0}
     headers = {
-        "User-Agent": UA,
+        "User-Agent": ua_for(url),
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
         "Accept-Language": "en-US,en;q=0.9",
     }
@@ -212,7 +212,7 @@ def guardian_api_text(url, cap=6000):
             return ""
         api = (f"https://content.guardianapis.com/{path}"
                f"?show-fields=bodyText&api-key={urllib.parse.quote(key)}")
-        req = urllib.request.Request(api, headers={"User-Agent": UA})
+        req = urllib.request.Request(api, headers={"User-Agent": ua_for(api)})
         with urllib.request.urlopen(req, timeout=25) as r:
             data = json.loads(r.read().decode("utf-8", "replace"))
         body = ((data.get("response", {}) or {}).get("content", {}) or {}) \

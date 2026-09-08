@@ -205,7 +205,7 @@ def fetch(url, is_json=False, retries=2):
     twice with backoff; every other 4xx is final (a moved or dead feed)."""
     import time as _t
     req = urllib.request.Request(url, headers={
-        "User-Agent": UA,
+        "User-Agent": common.ua_for(url, UA),
         "Accept": "application/json" if is_json else "application/rss+xml, application/xml, text/xml, */*",
         "Accept-Language": "en-US,en;q=0.9"})
     delay = 3.0
@@ -339,7 +339,7 @@ def gather_x(cfg):
     url = x["url"] + "?" + urllib.parse.urlencode(params)
     try:
         req = urllib.request.Request(url, headers={"Authorization": f"Bearer {token}",
-                                                   "User-Agent": UA})
+                                                   "User-Agent": common.ua_for(url, UA)})
         with urllib.request.urlopen(req, timeout=30) as resp:
             data = json.load(resp)
     except Exception as e:
