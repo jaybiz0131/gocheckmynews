@@ -2,21 +2,77 @@
   "id": "c310",
   "slug": "hurricane-warning-issued-for-kauai-on-september-8-as-hurricane-lowell-approaches",
   "kind": "brief",
-  "title": "Hurricane Warning issued for Kauai on September 8 as Hurricane Lowell approaches",
-  "dek": "The National Weather Service Honolulu issued a Hurricane Warning on September 8, 2026 at 2:30 a.m. HST for Hurricane Lowell affecting multiple zones across Kauai. Residents face life-threatening winds of 74 to 110 mph, storm surge of 2 to 4 feet, major flooding rain, and tornado potential.",
+  "title": "Hurricane Lowell Knocks Out Power Across Kauai on September 8",
+  "dek": "Hurricane Lowell's fierce winds and heavy rains struck Hawaii's Kauai island on September 8, 2026, leaving nearly all island utility cooperative members without power. The storm brought flooding and mudslide risks as it moved west of the islands.",
   "date": "2026-09-08",
   "published_utc": "2026-09-08T13:40:23Z",
   "category": "news",
   "verdict": "VERIFIED",
   "rank": 3,
   "author": "The GoCheckMyNews Desk",
-  "key_fact": "Residents in affected Kauai areas must shelter in place immediately; evacuations should be complete and all residents must remain in safe locations away from storm surge flooding.",
-  "bottom_line": "The National Weather Service advisory at https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.70f684e7c76e5b16b3da28b009f8cb731099c2bd.005.1.cap carries the full details of affected areas and conditions. Residents must heed all local emergency management instructions and remain in safe shelter away from storm surge and flood-prone areas through at least early Wednesday morning.",
+  "key_fact": "Nearly all members of the Kauai island utility cooperative lost power after Hurricane Lowell's winds and rains struck the island on Tuesday.",
+  "bottom_line": "Kauai's power restoration timeline remains unclear as the center of Hurricane Lowell moves away; flooding and mudslide risks are expected to persist through Tuesday. Watch whether rainfall totals approach the forecast maximum of 24 inches in affected areas, which would determine the scale of structural and infrastructure damage.",
   "human_take": "",
   "body": [
-    "The National Weather Service Honolulu issued a Hurricane Warning on Tuesday, September 8, 2026 at 2:30 a.m. HST for Hurricane Lowell affecting multiple locations across Kauai. Residents in the warning zones face imminent life-threatening conditions and must complete all preparations and shelter immediately.\nResidents are instructed to now shelter from life-threatening wind and remain in safe locations. The weather service states that last-minute efforts should focus solely on protecting life, as the area is subject to considerable wind damage.\nThe window of storm surge concern extends through early Wednesday morning. The weather service warns that flood preparations and ordered evacuations must be complete, with evacuees in shelters well away from flood-prone zones. Residents are instructed to remain sheltered and not venture outside.\nMajor flooding rain is expected. A Flood Watch is in effect with peak rainfall amounts of 2 to 4 additional inches on western Kauai, with locally higher amounts possible.  The weather service warns that extensive impacts from major rainfall flooding may prompt many evacuations and rescues. Rivers and tributaries may rapidly overflow their banks in multiple places. Flood waters can enter many structures within multiple communities, some becoming uninhabitable or washed away, with many locations where flood waters may cover escape routes.\nA Tornado Watch is in effect, with conditions favorable for tornadoes. The weather service warns of potential for several tornadoes. Residents should stay within shelter and keep informed of the latest tornado situation.\nThe threat to life and property spans all hazards: wind, storm surge, flooding rain, and tornado potential. The wind, storm surge, flooding rain, and tornado threat have remained nearly steady from previous assessment, according to the National Weather Service."
+    "Hurricane Lowell's damaging winds and heavy rains struck Hawaii's western islands on Tuesday, September 8, knocking out power to nearly all members of the Kauai island utility cooperative and bringing the threat of flash floods and mudslides across the state.",
+    "Kauai, home to 73,000 residents, bore the brunt of the storm. Fierce winds downed trees and caused widespread power outages across the island, with the Kauai utility cooperative reporting that nearly all of its members were without power early Tuesday. Across all of Hawaii, about 50,400 customers were without power as of 11 a.m. local time Tuesday, according to utility tracker PowerOutage.us.",
+    "Rainfall and coastal damage mounted rapidly. The small Kauai community of Hanalei had recorded the highest rainfall totals so far, with 17.76 inches of rain, per CBS News. Waves that crashed onto Kauai's southern coast tore apart a road along the coast and pushed piles of sand and lava rocks into a beachside park. Road crews were clearing sand and rocks from a major route along Oahu's western edge after floodwaters topped a coastal highway north of Honolulu.",
+    "The center of the storm passed west of the islands early Tuesday and was moving away, but tropical storm-force winds extended well beyond. At Lihue airport on Kauai, sustained winds measured just above 50 mph, with some wind gusts reaching 80 mph, according to the hurricane center. By late Tuesday morning local time, Lowell had maximum sustained winds of 75 mph and was moving north at 15 mph, centered about 230 miles northwest of Lihue.",
+    "Hurricane warnings for Kauai and Ni'ihau, which has fewer than 100 permanent residents, were no longer in place by Tuesday morning local time. A tropical storm warning was also lifted for Oahu, the state's most populated island with close to 1 million residents. However, flooding and mudslides will continue to be a risk through the day, according to Eric Blake of the National Hurricane Center.",
+    "Rainfall totals could reach up to 24 inches in some areas on Kauai, with Oahu, Maui and the Big Island also expecting large amounts of rain. The hurricane center said Lowell may produce areas of flooding for urban and low-lying regions, with significant flash flooding and mudslides possible across portions of the Big Island. Extensive damage across Kauai prompted crews to use heavy equipment to push trees and debris off the roads. About 300 people were staying in shelters on Kauai. Hawaii Gov. Josh Green closed schools and government offices on the three islands for Tuesday ahead of the storm. Last month, Tropical Storm Lala brushed past Hawaii and stirred up landslides, washing away about 100 homes and causing widespread power outages."
   ],
   "sources": [
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/2026/sep/08/hawaii-hurricane-lowell"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/hurricane-lowell-power-outages-flood-risk/"
+    }
+  ],
+  "event_utc": "2026-09-08T12:30:00Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-08T13:40:23Z",
+    "sources_cited": 6,
+    "sources_live_checked": 3
+  },
+  "update_of": "hawaii-declares-state-of-emergency-as-hurricane-lowell-approaches-impacts-expected-september-9",
+  "also_reported_by": [
+    {
+      "outlet": "The Garden Island",
+      "headline": "Kauai County on watch as Hurricane Lowell nears - The Garden Island"
+    },
+    {
+      "outlet": "Kauai Now",
+      "headline": "Hurricane Lowell bringing dangerous conditions to Kauaʻi County: flash flooding, damaging waves, high winds, possible tornadoes - Kauai Now"
+    },
+    {
+      "outlet": "Hawaii News Now",
+      "headline": "September 6, 2026 Midnight Update: Lowell turning north, Kauai County Tropical Storm &amp; Flood Watch - Hawaii News Now"
+    },
+    {
+      "outlet": "PeachtreeTV",
+      "headline": "Hurricane warning for Kauai County, tropical storm warning for Oahu as Lowell closes in - PeachtreeTV"
+    },
+    {
+      "outlet": "KHON2",
+      "headline": "Tropical Storm Watch issued for Kauai County ahead of Hurricane Lowell - KHON2"
+    },
+    {
+      "outlet": "Beat of Hawaii",
+      "headline": "Hurricane Lowell Warning Upends Kauai Travel With Cancellations And Waivers - Beat of Hawaii"
+    }
+  ],
+  "boundary": {
+    "affected": "Waimea - Barking Sands - Hanapepe (Kauai West), Poipu - Kaleheo (Kauai South), Lihue - Wailua - Anahola (Kauai East)",
+    "fixed": "Not specified in the alert.",
+    "user_action": "Now is the time to shelter from life-threatening wind. Remain sheltered in a safe location. Do not venture outside. Heed any flood watches and warnings. Failure to take action will likely result in serious injury or loss of life.",
+    "advisory_url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.70f684e7c76e5b16b3da28b009f8cb731099c2bd.005.1.cap"
+  },
+  "consolidated": "This story was updated in place with a better-sourced account of the same event, carrying 2 sources against the original 6. The earlier version was headlined “Hurricane Warning issued for Kauai on September 8 as Hurricane Lowell approaches”. The URL and publication time are unchanged.",
+  "superseded_sources": [
     {
       "title": "api.weather.gov",
       "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.70f684e7c76e5b16b3da28b009f8cb731099c2bd.005.1.cap"
@@ -42,44 +98,12 @@
       "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.70f684e7c76e5b16b3da28b009f8cb731099c2bd.008.1.cap"
     }
   ],
-  "event_utc": "2026-09-08T12:30:00Z",
-  "verification": {
-    "verdict": "VERIFIED",
-    "checked_utc": "2026-09-08T13:40:23Z",
-    "sources_cited": 6,
-    "sources_live_checked": 3
-  },
-  "update_of": "hawaii-declares-state-of-emergency-as-hurricane-lowell-approaches-impacts-expected-september-9",
-  "also_reported_by": [
+  "updated_utc": "2026-09-08T23:00:12Z",
+  "merged_from": [
     {
-      "outlet": "The Garden Island",
-      "headline": "Kauai County on watch as Hurricane Lowell nears - The Garden Island"
-    },
-    {
-      "outlet": "Kauai Now",
-      "headline": "Hurricane Lowell bringing dangerous conditions to Kaua\u02bbi County: flash flooding, damaging waves, high winds, possible tornadoes - Kauai Now"
-    },
-    {
-      "outlet": "Hawaii News Now",
-      "headline": "September 6, 2026 Midnight Update: Lowell turning north, Kauai County Tropical Storm &amp; Flood Watch - Hawaii News Now"
-    },
-    {
-      "outlet": "PeachtreeTV",
-      "headline": "Hurricane warning for Kauai County, tropical storm warning for Oahu as Lowell closes in - PeachtreeTV"
-    },
-    {
-      "outlet": "KHON2",
-      "headline": "Tropical Storm Watch issued for Kauai County ahead of Hurricane Lowell - KHON2"
-    },
-    {
-      "outlet": "Beat of Hawaii",
-      "headline": "Hurricane Lowell Warning Upends Kauai Travel With Cancellations And Waivers - Beat of Hawaii"
+      "id": "c106",
+      "title": "Hurricane Lowell Knocks Out Power Across Kauai on September 8",
+      "published_utc": "2026-09-08T23:00:12Z"
     }
-  ],
-  "boundary": {
-    "affected": "Waimea - Barking Sands - Hanapepe (Kauai West), Poipu - Kaleheo (Kauai South), Lihue - Wailua - Anahola (Kauai East)",
-    "fixed": "Not specified in the alert.",
-    "user_action": "Now is the time to shelter from life-threatening wind. Remain sheltered in a safe location. Do not venture outside. Heed any flood watches and warnings. Failure to take action will likely result in serious injury or loss of life.",
-    "advisory_url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.70f684e7c76e5b16b3da28b009f8cb731099c2bd.005.1.cap"
-  }
+  ]
 }

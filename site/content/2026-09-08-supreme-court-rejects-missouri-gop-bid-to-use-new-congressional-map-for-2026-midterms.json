@@ -1,0 +1,59 @@
+{
+  "id": "c071",
+  "slug": "supreme-court-rejects-missouri-gop-bid-to-use-new-congressional-map-for-2026-midterms",
+  "kind": "brief",
+  "title": "Supreme Court rejects Missouri GOP bid to use new congressional map for 2026 midterms",
+  "dek": "Justice Brett Kavanaugh rejected an emergency appeal from Missouri Republicans seeking to implement a new congressional map designed to eliminate a Democratic seat before the November 2026 midterms. The decision preserves a Missouri Supreme Court ruling that upheld a voter referendum blocking the map, leaving the 2022 configuration with six Republican and two Democratic seats in place for the general election.",
+  "date": "2026-09-08",
+  "published_utc": "2026-09-08T23:00:12Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 1,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "A single Supreme Court justice rejected Missouri Republicans' attempt to use a gerrymandered map in the 2026 midterms, marking a rare defeat for Trump-backed redistricting efforts and preserving voter authority over electoral boundaries.",
+  "bottom_line": "High Court blocks GOP bid to implement GOP-drawn map eliminating Democratic seat before midterms; major 2026 election development with cross-spectrum corroboration.",
+  "human_take": "",
+  "body": [
+    "Justice Brett Kavanaugh rejected an emergency appeal from Missouri Republicans on Tuesday, September 8, blocking the state's attempt to use a newly drawn congressional map for the November 2026 midterms. The decision leaves in place a Missouri Supreme Court ruling that halted the map and preserved the state's 2022 configuration with six Republican and two Democratic seats.",
+    "The case centers on a conflict between partisan map-drawing and voter authority. Republican legislators passed a redistricting plan in 2025, part of what NBC News reports was a wave of GOP remapping efforts prompted by President Donald Trump, designed to eliminate one of Missouri's two Democratic-held seats, currently represented by Rep. Emanuel Cleaver.",
+    "A group called People Not Politicians Missouri, led by Richard von Glahn, gathered signatures for a state referendum to block the legislature's map. Missouri Secretary of State Denny Hoskins, a Republican, refused to place the referendum on the ballot, arguing that redistricting plans are not subject to voter veto. The Missouri Supreme Court unanimously disagreed, finding that nothing in state law exempts redistricting from the referendum process and that the petition was \"legal, sufficient and timely.\"",
+    "Under Missouri law, whenever a proposed ballot initiative that overrides the legislature is deemed valid, the enacted law is automatically suspended until voters decide the measure. Hoskins broke with state practice by rejecting the referendum near the deadline on August 4. He appealed to the U.S. Supreme Court, arguing that the state court's ruling violated the Constitution's elections clause, which delegates significant powers to state legislatures in overseeing elections. Hoskins' lawyers told the justices that if the state reverted to the old map, \"hundreds of thousands of Missourians will see their votes in the primary election rendered pointless.\" The August primaries had already been held under the redrawn map.",
+    "Kavanaugh, acting alone without referring the application to the full Supreme Court, rejected the appeal. The Court had previously rejected a similar elections clause argument in a 2023 redistricting case from North Carolina. Lawyers for the referendum supporters argued in court filings that Hoskins was seeking a \"political victory to which he was never entitled under the Missouri Constitution.\"",
+    "President Trump called the Missouri state court decision \"horrible, ridiculous, and unConstitutional.\" State Attorney General Catherine Hanaway immediately pledged to appeal to the Supreme Court after the state ruling. In May, the Supreme Court had rejected a parallel attempt by Democrats in Virginia, who sought to revive their own congressional map that had been approved by voters after the Virginia Supreme Court found legal flaws in the referendum process.",
+    "The Bottom Line: The 2022 map with two Democratic seats remains in force for the November general election. The case illustrates the tension between legislative power over redistricting and voter authority to overturn laws by referendum, a conflict playing out across multiple states heading into the 2026 midterms."
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/politics/supreme-court/rejects-missouri-republicans-request-use-new-congressional-map-midterm-rcna596454"
+    },
+    {
+      "title": "Fox News",
+      "url": "https://www.foxnews.com/politics/scotus-rejects-missouri-gop-bid-use-revised-congressional-map-midterms"
+    },
+    {
+      "title": "The Washington Post",
+      "url": "https://www.washingtonpost.com/politics/2026/09/08/supreme-court-blocks-missouri-congressional-map-favoring-gop/"
+    },
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/2026/sep/08/supreme-court-ruling-missouri-gop-congressional-maps"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/homenews/administration/6075462-live-updates-trump-canada-tariffs-rnc-midterm-convention/"
+    },
+    {
+      "title": "Washington Examiner",
+      "url": "https://www.washingtonexaminer.com/news/supreme-court/4717295/supreme-court-missouri-bid-congressional-map/"
+    }
+  ],
+  "event_utc": "2026-09-08T21:35:18Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-08T23:00:12Z",
+    "sources_cited": 6,
+    "sources_live_checked": 3
+  },
+  "update_of": "trump-administration-files-3rd-emergency-supreme-court-appeal-on-mail-ballot-restrictions"
+}
