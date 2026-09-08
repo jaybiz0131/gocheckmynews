@@ -1,0 +1,72 @@
+{
+  "id": "c021",
+  "slug": "iceland-summons-us-ambassador-after-trump-posts-map-covering-island-with-us-flag-september-8",
+  "kind": "brief",
+  "title": "Iceland Summons US Ambassador After Trump Posts Map Covering Island With US Flag, September 8",
+  "dek": "President Trump posted an image on Truth Social showing Iceland, Canada, Greenland, Mexico, and other territories covered by the US flag and labeled 'United States of America.' Iceland's Foreign Minister called the post 'completely inappropriate' and summoned US Ambassador Billy Long for a formal meeting. The incident reflects Trump's repeated territorial rhetoric about neighboring countries.",
+  "date": "2026-09-08",
+  "published_utc": "2026-09-08T17:33:31Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 9,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Iceland summoned the US ambassador after Trump posted a map depicting Iceland and multiple other countries and territories as part of the United States.",
+  "bottom_line": "The summoning of an ambassador represents formal diplomatic protest, a step typically reserved for serious bilateral friction. Whether Trump intended the map as negotiating leverage, satire, or a genuine proposal remains unstated in the official record; his post carried no caption explaining his intent. The incident tests whether allied governments will treat Trump's territorial rhetoric as actionable threat or rhetorical excess.",
+  "human_take": "",
+  "body": [
+    "Iceland formally summoned the US ambassador on September 8 after President Trump posted a map on Truth Social depicting Iceland, Canada, Greenland, Mexico, and portions of Central America and the Caribbean covered by the American flag and labeled 'United States of America,' according to BBC News reporting.",
+    "The post carried no caption. Per BBC News, Iceland's Foreign Minister \u00deorgerdur Katr\u00edn Gunnarsd\u00f3ttir called the image 'completely inappropriate' and convened US Ambassador Billy Long, who took up the post last month, for a formal meeting. When an ambassador is summoned, it typically means the host country is calling them to express official displeasure with their government's actions.",
+    "The incident extends a pattern of Trump's territorial rhetoric toward US neighbors and territories. According to BBC News reporting, Trump's territorial ambitions have repeatedly strained relations, including his push to acquire Greenland and calls to make Canada the US's 51st state. Trump has described Greenland as necessary to US national security and has pursued the matter repeatedly on social media and in speeches since taking office last year.",
+    "Danish Prime Minister Mette Frederiksen, whose government oversees Greenland, responded directly to the territorial claims. 'The Greenlandic government and the Greenlandic people have said again and again that they do not want to be American,' Frederiksen stated, per BBC News. 'I hope no one is in any doubt about that, either in the United States or the rest of the world.'",
+    "The timing coincided with an EU investment announcement: the European Commission announced a 200 million euro investment in Greenland during a visit by Commission President Ursula von der Leyen and Frederiksen, according to BBC News. The investment will focus on education, internet connectivity, raw materials, and hydropower energy.",
+    "Trump's map post preceded a series of posts depicting the US state of New Mexico rebranded as 'New America,' per BBC News reporting.",
+    "Mexican President Claudia Sheinbaum also responded to the map. 'Mexico is neither nor will be a colony or protectorate of any foreign country,' Sheinbaum wrote on social media, according to BBC News. 'Proudly we are a free, independent, and sovereign nation.'"
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c93ek32pqd2o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/policy/international/6075907-iceland-summons-us-ambassador-trump-post/"
+    },
+    {
+      "title": "The New York Times",
+      "url": "https://www.nytimes.com/2026/09/08/world/europe/iceland-summon-ambassador-trump-map-greenland.html"
+    }
+  ],
+  "event_utc": "2026-09-08T13:29:51Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-08T17:33:31Z",
+    "sources_cited": 3,
+    "sources_live_checked": 1
+  },
+  "also_reported_by": [
+    {
+      "outlet": "Modern Diplomacy",
+      "headline": "Iceland Summons US Ambassador Over Trump\u2019s Flag Map - Modern Diplomacy"
+    },
+    {
+      "outlet": "Kurdistan24",
+      "headline": "Iceland Summons US Ambassador Over Trump Map Showing Island Under US Flag - Kurdistan24"
+    },
+    {
+      "outlet": "\u062a\u0633\u0646\u06cc\u0645",
+      "headline": "Iceland Summons US Ambassador over Trump Map Showing Territories under American Flag - \u062a\u0633\u0646\u06cc\u0645"
+    },
+    {
+      "outlet": "Iceland Review",
+      "headline": "Iceland Summons U.S. Ambassador After Trump Posts Map Showing Iceland Under U.S. Flag - Iceland Review"
+    },
+    {
+      "outlet": "Yahoo News Canada",
+      "headline": "Iceland Summons U.S. Ambassador Over Trump Post Showing U.S. Takeover Map - Yahoo News Canada"
+    },
+    {
+      "outlet": "\u041c\u0435\u0436\u0430. \u041d\u043e\u0432\u0438\u043d\u0438 \u0423\u043a\u0440\u0430\u0457\u043d\u0438.",
+      "headline": "Iceland Summons US Ambassador After Trump Posts Map Showing Island Under American Flag - \u041c\u0435\u0436\u0430. \u041d\u043e\u0432\u0438\u043d\u0438 \u0423\u043a\u0440\u0430\u0457\u043d\u0438."
+    }
+  ]
+}
