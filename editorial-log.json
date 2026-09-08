@@ -1,54 +1,5 @@
 [
  {
-  "date": "2026-07-30",
-  "approved": 7,
-  "rejected": [
-   {
-    "id": "c122",
-    "headline": "Senate Rejects War Powers Resolution on Iran Conflict",
-    "category": "accuracy",
-    "reasons": [
-     "The sentence 'One update flagged alongside the story notes that US economic growth slowed to 1.5 percent in the second quarter of 2026, missing expectations amid Iran war inflation, though this figure is not independently verified in the sourced materials' introduces a fact (US economic growth at 1.5%) that does not appear anywhere in the research brief. This is smuggled information outside the brief's data_points. The writer cannot patch unverified economic data with a disclaimer; it must be removed or traced to a sourced data_point."
-    ]
-   },
-   {
-    "id": "c112",
-    "headline": "Father of Apalachee High School Shooter Sentenced to 15 Years in Prison",
-    "category": "accuracy",
-    "reasons": [
-     "The draft attributes the 15-year sentence to 'Washington Examiner' but the second New York Times source URL (nytimes.com/2026/07/30) is also listed in sources and not cited in the body. One of these sources must be the primary voice; the draft does not clarify which outlet provided the sentencing figure or whether both reported it.",
-     "The draft states Gray 'was sentenced to 15 years' as a settled fact, but the brief marks this data point as 'reported' confidence only. The draft should signal this is the initial reporting, not a finalized court record, given the brief contains no judicial document or official record\u2014only outlet reporting."
-    ]
-   },
-   {
-    "id": "c266",
-    "headline": "CNN Poll Shows Democrats Ahead by 8 Points on Generic Congressional Ballot",
-    "category": "accuracy",
-    "reasons": [
-     "The draft opens with figures attributed to 'CNN poll released Thursday' and 'reporting by the Washington Examiner,' but the sources list only The Hill (https://thehill.com/homenews/campaign/6000626). The Washington Examiner is mentioned in the draft but not in the sources\u2014this is a smuggled source attribution.",
-     "The draft cites 'Washington Examiner' in paragraph 1 but 'The Hill' is the only source URL provided. Either the Washington Examiner URL must be added to sources or the attribution must be changed to The Hill throughout."
-    ]
-   },
-   {
-    "id": "c109",
-    "headline": "DOJ invokes dormant Cold War deportation court for first time",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'The move marks the first-ever invocation of the Cold War-era mechanism' but the brief's data_point says 'The alien terrorist removal court has never been used before' with confidence 'reported'. The draft's language ('first-ever invocation') correctly reflects the claim, but then the body later says 'The dormancy of this court for 30 years reflects its rarity as a legal tool. Its activation now, during the Trump administration, suggests a shift...' This framing suggests activation during Trump administration, but the brief does not specify when the DOJ sought or initiated this case\u2014only that it is the first use. The phrase 'during the Trump administration' in the body is not explicitly sourced in the brief's data_points and reads as the writer's temporal inference rather than reported fact.",
-     "The draft attributes the rollout to 'New York Times reporting' in the opening but then references 'the Times' later in the piece without inline attribution for specific claims (e.g., 'a rotational shutdown regime' sentence attributes to 'the Times' but this is introduced as a new attributional source mid-story for a claim that the brief assigns solely to the NYT). Attribution is present but inconsistent in rigor."
-    ]
-   },
-   {
-    "id": "c083",
-    "headline": "30-Year Mortgage Rate Rises to 6.66% Amid Climbing Borrowing Costs",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states the rate 'marks the highest level the rate has reached in one year,' but the brief's data_points show the rate one year ago (July 30, 2025) was 6.72%, which is higher than the current 6.66%. This contradicts the claim and is not resolved in the brief. The draft presents a fact not supported by the source material provided to the writer."
-    ]
-   }
-  ]
- },
- {
   "date": "2026-07-31",
   "approved": 3,
   "rejected": [
@@ -8790,6 +8741,55 @@
      "The draft reports on September 8 that 'Hurricane Lowell approached Hawaii on September 8 with a hurricane warning' and describes events 'Monday, September 8' as present-tense or past events that have occurred. However, today is Tuesday, September 8, 2026. The article is dated as having been written or reported on September 8, but it narrates Monday the 8th as already past ('approached', 'observed', 'posed'). Since today IS Tuesday Sept 8, Monday Sept 8 cannot exist\u2014this is a date contradiction. The events described should be either happening now (if today is Monday) or already happened (if today is Tuesday and Monday was yesterday). The draft's opening conflates Monday and today as September 8, which is impossible.",
      "The draft states 'Residents began preparations as early as Wednesday' in the context of Hurricane Lowell approaching 'Monday, September 8.' If today is Tuesday, September 8, then Wednesday cannot have preceded these events. This timeline is inverted and impossible. Wednesday would be tomorrow, not in the past.",
      "The draft presents forecast and warning language as having occurred on specific past dates ('Mayor Derek Kawakami urged residents', 'Residents began preparations', 'a manager of Kauai's only Home Depot told NBC News') but these are all written in past tense as though they have already occurred on or before Monday, Sept 8. If we are currently on Tuesday, Sept 8, then Monday's events are past, but Wednesday's are future, making the chronology internally contradictory."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-09-08",
+  "approved": 4,
+  "rejected": [
+   {
+    "id": "c018",
+    "headline": "STORY KILLED: Source material not verified",
+    "category": "accuracy",
+    "reasons": [
+     "The draft is labeled 'STORY KILLED: Source material not verified' and consists entirely of an explanation of why the story cannot proceed. This is not a news draft; it is a meta-commentary on the approval process. The body describes verification gaps and research failures rather than reporting facts from the brief. A killed story should not be submitted for approval as a draft\u2014it should be returned to research or rejected at the source stage. The submission confuses the approval workflow by treating a rejection explanation as a story."
+    ]
+   },
+   {
+    "id": "c268",
+    "headline": "U.S. Air Force weapon systems officer shot down over Iran speaks publicly for first time on September 13",
+    "category": "accuracy",
+    "reasons": [
+     "The title states the interview 'speaks publicly for the first time on September 13,' but today is Tuesday, September 8, 2026. This is a future event. The title frames a scheduled event as though it has already occurred. Per the instruction that 'A draft that reports an event dated after today as having already happened is an accuracy REJECT; scheduled events are written as upcoming,' this title violates that rule. The title should use future tense or 'will air' language."
+    ]
+   },
+   {
+    "id": "c087",
+    "headline": "Three Renoir paintings worth $10.5 million stolen from French museum on September 8, two recovered",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'two of the paintings in the museum garden' were recovered and later 'Police chased the suspects, who dropped two of the paintings in the garden as they fled.' However, the title claims 'two recovered' out of three stolen. The brief data shows: 'Two thieves...took four paintings total' and 'Police chased the suspects, who dropped two of the paintings in the garden as they fled.' The brief also states 'Two of the stolen paintings were found in the museum's garden after the thieves fled.' This creates ambiguity about whether the stolen count is three or four. The draft says 'stole three paintings worth approximately 9 million euros' but also says they 'took four paintings total' and then 'dropped two of the paintings.' If four paintings were taken and two were dropped, then two remain missing\u2014not one. The draft's opening sentence ('stole three paintings') conflicts with its own body text ('took four paintings total'). The title says 'two recovered' which aligns with four taken and two recovered, meaning two remain missing. But the lead sentence says three stolen, which is internally inconsistent with the four-paintings-taken claim in the next paragraph."
+    ]
+   },
+   {
+    "id": "c084",
+    "headline": "Oil nears $100 a barrel as Middle East hostilities disrupt supply routes, September 8",
+    "category": "compliance",
+    "reasons": [
+     "The draft contains a financial price projection attributed to President Trump ('two dollars a gallon') alongside analyst forecasts of $120/barrel without sufficient editorial framing to prevent the piece from reading as investment guidance. The statement 'The gap between Trump's $2 projection and analyst forecasts of $120 marks the volatility investors face' in the bottom_line directly frames price forecasts as investment-relevant information, which violates the financial advice boundary.",
+     "The piece opens with oil price movements and closes with Treasury yield movements in a way that could be read as financial market analysis or implicit advice on energy/bond positioning, especially with the Trump projection included as though it were a credible market variable."
+    ]
+   },
+   {
+    "id": "c275",
+    "headline": "China grants first international journalist access to flood devastation in Tibet",
+    "category": "accuracy",
+    "reasons": [
+     "The brief is marked 'thin: true' with only two data_points and an angle that references 1,300+ deaths and an August 26 flood date. Neither of these facts appears in the data_points or is sourced in the provided URLs. The draft contains no numbers, no death toll, and no specific date for the flood itself.",
+     "The angle states the flood 'killed over 1,300 people' but the open_questions field explicitly notes 'What is the exact death toll from the August 26 flood? The why_it_matters field cites 1,300+ but source texts do not confirm this figure' and 'What date did the flood occur? The snippet references August 26 but source texts do not state it.' The writer was forbidden from using facts outside the brief; the death toll and flood date are in the angle/angle_thoughts but not in verified data_points.",
+     "The draft's bottom_line states 'What Frayer witnessed and reports from the ground will indicate the scale of the devastation and the government's assessment of recovery needs'\u2014this sentences narrates the absence of information about the devastation scale, which violates the rule against restating open_questions as though they are gaps in the published reporting."
     ]
    }
   ]

@@ -1,0 +1,63 @@
+{
+  "id": "c045",
+  "slug": "russia-and-north-korea-open-first-road-bridge-linking-both-countries-september-8",
+  "kind": "brief",
+  "title": "Russia and North Korea open first road bridge linking both countries, September 8",
+  "dek": "Russia and North Korea opened the first road bridge connecting their border across the Tumen River on September 8, 2026, linking the cities of Rason and Khasan. The bridge, which took 495 days to complete, can handle up to 300 vehicles and 2,323 people daily. Officials frame it as a symbol of friendship and civilian commerce, while analysts point to its role in military logistics amid the Ukraine war.",
+  "date": "2026-09-08",
+  "published_utc": "2026-09-08T13:40:23Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 11,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The first direct road link between Russia and North Korea opened on September 8, 2026, after 495 days of construction, following Putin's 2024 visit and a partnership treaty signed that year.",
+  "bottom_line": "The bridge opens as Russia and North Korea deepen military ties amid the Ukraine war. The key measure of its actual purpose will emerge from the traffic flows: cargo manifests and crossing volumes will clarify whether the infrastructure serves civilian commerce as stated or functions primarily as a military supply corridor.",
+  "human_take": "",
+  "body": [
+    "Russia and North Korea opened the first direct road bridge connecting their border on September 8, 2026, according to BBC News reporting. The bridge spans the Tumen River, linking the border cities of Rason and Khasan, and can accommodate up to 300 vehicles and 2,323 people daily, per Russian state news TASS as reported by the BBC.",
+    "The bridge took 495 days to complete, following delays. Construction began in 2025, after an agreement reached during Russian President Vladimir Putin's 2024 visit to North Korea, his first trip to the state in 24 years. That visit resulted in a strategic partnership treaty between Moscow and Pyongyang.",
+    "Russian Prime Minister Mikhail Mishustin, appearing at the opening ceremony via video link, described the bridge as a \"new symbol of friendship\" and said ties between Moscow and Pyongyang were \"at an unprecedented high level.\" He stated the bridge would provide a \"powerful impetus for the further development of trade, economic, scientific, technological and cultural cooperation.\" North Korea's Prime Minister Pak Thae Song called the opening a \"historical event.\"",
+    "Pyongyang state media said the bridge will be used for \"personnel exchanges, tourism and trade.\" The Russian government stated the bridge will initially transport cargo before opening to passenger traffic later this year.",
+    "Ukrainian investigative organization Truth Hounds offered a different assessment, saying the bridge is intended \"primarily to establish a covert military logistics corridor\" to support Russia in the Ukraine war. Truth Hounds noted that under the 2024 strategic partnership treaty, the bridge could enable transport of North Korean military personnel, construction workers, and senior military officials directly to Russia, and could facilitate the flow of Russian technology and resources in the opposite direction. Researchers at South Korea's spy agency estimate that North Korea has already transferred $7 to $14 billion in rockets, missiles, and artillery shells via ships. An estimated 11,000 North Korean troops are actively fighting Ukrainians in Russia, according to reporting cited by the BBC. Around 10,000 North Koreans are also working in Russia's construction sites and logging camps, per a South Korean estimate.",
+    "Victor Cha, a researcher at the Center for Strategic and International Studies, told BBC Verify in May 2026 that \"the speed of construction is a reflection of the volume of trade activity between the two sides\" and that it is \"spurred largely by North Korea's provision of troops, weapons, munitions, and labourers for Putin's war in Ukraine.\" Cha added that \"prior to the war in Ukraine,\" the Russia-North Korea connection \"was one of the sleepiest links between North Korea and its two neighbours.\" Before the bridge's opening, the only road link was a makeshift solution where wooden planks were placed on a rail bridge to allow cars to travel over it. Satellite imagery reported by the BBC in May 2026 showed the kilometre-long bridge alongside new access roads, a border checkpoint, support infrastructure, and parking facilities."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cj9xvg1kz0mo?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "event_utc": "2026-09-08T03:53:27Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-08T13:40:23Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "also_reported_by": [
+    {
+      "outlet": "NPR",
+      "headline": "Russia and North Korea open the first road across their shared border - NPR"
+    },
+    {
+      "outlet": "Al Jazeera",
+      "headline": "Russia and North Korea deepen relations with symbolic road bridge - Al Jazeera"
+    },
+    {
+      "outlet": "NK News",
+      "headline": "Russia, North Korea open their first car bridge in ceremony: state media - NK News"
+    },
+    {
+      "outlet": "T\u00fcrkiye Today",
+      "headline": "Russia, North Korea open first road bridge amid closer military ties - T\u00fcrkiye Today"
+    },
+    {
+      "outlet": "Bozeman Daily Chronicle",
+      "headline": "Russia and North Korea open the first road link across shared border - Bozeman Daily Chronicle"
+    },
+    {
+      "outlet": "AnewZ",
+      "headline": "North Korea and Russia open first road bridge as strategic ties deepen - AnewZ"
+    }
+  ]
+}
