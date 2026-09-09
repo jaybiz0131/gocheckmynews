@@ -1,56 +1,6 @@
 [
  {
   "date": "2026-07-31",
-  "approved": 2,
-  "rejected": [
-   {
-    "id": "c338",
-    "headline": "U.S. investigating whether Iran hacked Minnesota water systems",
-    "category": "clarity",
-    "reasons": [
-     "The draft is self-defeating. The second paragraph states 'CBS News did not report details on which specific water systems are affected, the timeline of alleged intrusions, operational impacts, the investigating agency, the evidence supporting Iranian attribution, or the response measures being taken to secure the systems.' This reads as an admission that the draft has no substance\u2014it reports one fact (an investigation exists) but then enumerates all the critical details missing. A reader learns nothing actionable. The brief is thin (one data point), which calls for a tight story, but this isn't tight\u2014it's hollow. Either provide the details to meet the angle's promise of 'raising immediate questions about resilience,' or reject the brief as insufficiently sourced. A story that amounts to 'something happened, but we don't know what' is not a published product."
-    ]
-   },
-   {
-    "id": "c343",
-    "headline": "Trump announces Hamas agreement to Gaza peace plan with disarmament and phased Israeli withdrawal",
-    "category": "balance",
-    "reasons": [
-     "The draft opens with Trump's announcement and Hamas's agreement as established fact ('announced that Hamas has agreed'), then buries Israeli skepticism deep (paragraph 6 onward). The bear_case in the brief contains four substantive objections: Sa'ar's 'trick' charge with operational critique, Hamas's potential deception, Israeli silence, and unclear timelines. The draft presents Sa'ar's objections but frames them as one Israeli voice, not as the institutional Israeli position. The lede and first three paragraphs read as though the agreement is clinched; Israeli absence from the table gets only a parenthetical reference ('However, Israeli officials have not publicly endorsed the agreement'). A brief that flags 'Israeli silence and Sa'ar's resistance suggest implementation faces immediate obstacles' (bottom_line) requires the draft's opening to reflect that skepticism is not peripheral\u2014it is the story. The current framing treats Israeli pushback as commentary on a done deal, not as evidence the deal is not done. The draft should open on the gap between Trump's/Hamas's claim and Israeli refusal, not on the announcement itself."
-    ]
-   },
-   {
-    "id": "c333",
-    "headline": "Trump threatens to withdraw Blanche AG nomination as GOP senators block confirmation",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'Republican Senators John Cornyn and Thom Tillis are reacting to Trump's statement about potentially withdrawing the nomination' but the brief's data_point says they 'are reacting'\u2014implying a response. The draft provides no evidence of what they actually said or how they reacted. The CBS News URL in the draft is the only source, yet the body admits 'what Cornyn and Tillis have specifically said in response to Trump's threat' is unknown. The draft presents their reaction as fact without sourcing what that reaction is.",
-     "The draft claims 'The Blanche nomination has faced obstruction in the Senate, though the specific dispute between GOP senators and the nominee is not yet publicly detailed.' This frames obstruction as established fact, but the brief's data_point only says the nomination 'has stalled among Senate lawmakers'\u2014'stalled' and 'obstruction' are not the same claim, and 'obstruction' implies deliberate blockage without evidence in the brief."
-    ]
-   },
-   {
-    "id": "c009",
-    "headline": "Trump announces Hamas disarmament deal as U.S. economic growth cools",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'Both claims carry Trump's attribution only; neither has been independently verified by other major news organizations or official sources beyond the administration's announcement.' This is an editorial judgment about verification status that does not appear in the brief's data_points. The brief's confidence labels say 'reported' for both claims, meaning they are reported by NPR\u2014the draft adds a characterization ('attribution only,' 'not independently verified') not present in the source brief.",
-     "The draft says 'Hamas, Israeli officials, and other parties have not yet confirmed or disputed Trump's characterization of the agreement.' This is a new factual claim (about non-confirmation) not in the brief. The brief lists as an open_question whether parties have confirmed or disputed, but the draft states it as established fact that they have not."
-    ]
-   },
-   {
-    "id": "c104",
-    "headline": "Iran Claims Drone Strike on U.S. Base in Kuwait; Kuwait Reports Interceptions",
-    "category": "accuracy",
-    "reasons": [
-     "Draft states 'Iran claims it conducted drone strikes' as settled fact in the lede, but the brief's core_claim only documents what Kuwait reported (detecting/destroying drones) and what Iran claimed. The draft presents Iran's claim without the 'claims' framing until sentence two, creating false equivalence between the two assertions.",
-     "Draft asserts 'the two countries engage in active military conflict across the Gulf region' as background fact, but this framing and context are not in the brief's data_points. This is smuggled context that goes beyond what the research supports.",
-     "Phrase 'if confirmed' in paragraph two contradicts the confidence label: the brief marks both data_points as 'reported,' not 'unconfirmed' or 'announced-not-verified.' The draft adds uncertainty not present in the source material."
-    ]
-   }
-  ]
- },
- {
-  "date": "2026-07-31",
   "approved": 3,
   "rejected": [
    {
@@ -8735,6 +8685,42 @@
      "The brief's core_claim specifies the challenge is from 'a Catholic mother' but the draft refers only to 'a New York woman,' omitting the religious denomination even though it is present in the brief's own data_point. This is a factual understatement, not a paraphrase.",
      "The brief's data_point specifies the child was seeking admission to 'kindergarten,' but the draft uses only the generic term 'school.' This is material detail present in the source that the draft removes without justification.",
      "The brief's open_questions section flags critical unknown facts: 'The source texts provided do not contain the fetched content from the cited Washington Post or The Hill URLs\u2014the texts retrieved are about Missouri redistricting and a historical Supreme Court death, not the vaccine exemption case. No details are available about the mother's name, the child's age, the specific religious grounds claimed, the lower court rulings, or any dissenting opinion.' and 'Whether the Supreme Court declined the case outright (denied certiorari) or ruled on the merits is unclear from the sources provided.' The draft presents the Supreme Court 'rejected' the bid as though a merits ruling occurred ('leaves New York's vaccine requirement for school enrollment in place'), when the brief explicitly flags that it is unclear whether the Court denied certiorari or ruled on the merits. The language 'rejected' and 'resolves' in the draft read as a decision on the merits when that may not be what happened."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-09-09",
+  "approved": 8,
+  "rejected": [
+   {
+    "id": "c296",
+    "headline": "Brent Crude Tops $101 Per Barrel as US-Iran Military Strikes Intensify on September 9",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'military operations between the United States and Iran escalated' on September 9, 2026, but today is September 9, 2026. The data_points reference escalation as occurring during a six-month conflict that is ongoing, not as a new event on this date. The brief's core_claim says the price rise occurred 'amid escalating US-Iran military conflict' but does not establish that escalation occurred on September 9 itself. The draft's phrasing suggests a discrete escalation event on the date of publication that is not supported by the brief.",
+     "The draft references 'Israel, joined by the United States, launched strikes on nuclear sites during a 12-day conflict in June 2025' but the brief's data_point says 'in June 2025' without specifying a 12-day duration in that specific month. The brief states this as the period during which 'the IAEA has not had access to key Iranian nuclear facilities since,' but does not confirm June 2025 was a 12-day conflict; it refers to a broader six-month war ongoing now.",
+     "The draft includes 'The Lebanese army also reported approximately 7,700 Israeli breaches of the June 26, 2026, framework agreement since it was signed through the present date.' This is drawn from the brief's data_point, but the brief itself contains no information about a framework agreement date or its substance. The brief data_point only states 'The Lebanese army said the number of Israeli violations has reached approximately 7,700 breaches from the date of signing the framework agreement on June 26, 2026, up to the present.' This appears to be accurate to the brief, but the context and framing of a 'framework agreement' is not explained and may confuse readers unfamiliar with the conflict.",
+     "The draft's lead states 'Brent crude oil crossed $101 per barrel on Wednesday, September 9' but the brief and all data_points are sourced from CBS News dated 2026-09-09T18:31:55Z, which is the same day. However, the brief states the price 'crossed' it\u2014past tense\u2014implying it has already happened as of the news source timestamp. The draft correctly reports this, but the lead's placement of 'on Wednesday' combined with the publication date today (Wednesday, September 9) creates ambiguity about whether this is an intraday price movement reported in real time or a price that crossed during the trading day. This is minor but the brief does not clarify the timing of when $101 was crossed during Wednesday's trading."
+    ]
+   },
+   {
+    "id": "c085",
+    "headline": "Saudi Arabia's Oil Exports Fall to 13-Year Low as Red Sea Attacks Disrupt Shipping",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The United States struck five Iranian oil tankers in the Gulf of Oman following an attack on an American warship by Iran.' However, the brief's data_point says 'The United States struck five Iranian oil tankers in the Gulf of Oman following an attack on an American warship by Iran' with confidence label 'reported'\u2014meaning it is not verified on-chain. More critically, the brief's open_questions explicitly state: 'The source text does not carry specifics on which or how many Iranian oil tankers the U.S. \"blew up\" beyond the snippet's reference to 5 more tankers. The CBS article does not detail the triggering U.S. military action explicitly.' This signals that the claim about the U.S. striking tankers is not fully sourced or verified in the underlying reporting. A fact drawn from an incomplete or ambiguous source that the brief itself flags as underspecified should not appear as a declarative statement without qualification.",
+     "The brief is marked 'thin': true, with only 4 data_points supporting a story about Saudi export lows. The draft body runs only 3 paragraphs and does not address any of the open_questions the brief identifies, including what the specific 13-year baseline is, what current export volumes are in quantified terms, or how long the disruption is expected to persist. A thin brief requires either a tight story that works within its limits or rejection; this story does neither\u2014it restates the data_points without depth and offers no forward-looking stakes.",
+     "The draft's second paragraph pivots to U.S.-Iran military action without establishing causal or temporal connection to the Saudi export story. The brief's data_points do not show that U.S. strikes on Iranian tankers caused the Saudi export low; the data_point on tanker strikes is separate and appears to be included to show regional escalation context. Presenting them in sequence without explicit connection implies causality that the brief does not establish."
+    ]
+   },
+   {
+    "id": "c270",
+    "headline": "USPS Inspector General to Investigate Mail-Ballot System Allegations",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The investigation centers on a new system that could cause problems in the November midterms' as an assertion by the desk. The brief's data_point 2 carries the same claim with 'reported' confidence from The Hill. However, the brief's open_questions include 'What specific flaws or errors has the whistleblower alleged?' and 'What is the name and operational scope of the new system being reviewed?'\u2014indicating the specifics of the alleged system problems are not established in the source material. The draft presents this detail as settled fact rather than as reported allegation or as part of what remains unknown.",
+     "The draft states the investigation 'signals the allegations have met a threshold of concern warranting formal review' as if this is a fact established in reporting. This inference or interpretation is not present in the brief's data_points. The brief only confirms that the Office of Inspector General announced it will independently examine the allegations; the draft adds commentary about what the announcement 'signals' without sourcing that interpretation."
     ]
    }
   ]

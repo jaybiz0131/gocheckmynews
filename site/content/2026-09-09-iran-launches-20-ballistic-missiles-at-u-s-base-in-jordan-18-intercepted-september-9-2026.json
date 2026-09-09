@@ -1,0 +1,60 @@
+{
+  "id": "c131",
+  "slug": "iran-launches-20-ballistic-missiles-at-u-s-base-in-jordan-18-intercepted-september-9-2026",
+  "kind": "brief",
+  "title": "Iran launches 20 ballistic missiles at U.S. base in Jordan; 18 intercepted, September 9, 2026",
+  "dek": "Iran's Islamic Revolutionary Guard Corps announced it fired missiles at the Al-Azraq airbase in Jordan on September 9, 2026, in response to U.S. attacks on Iranian oil tankers. Jordanian forces reported intercepting 18 of 20 missiles with no casualties reported, though Iran claimed to have struck aircraft and facilities.",
+  "date": "2026-09-09",
+  "published_utc": "2026-09-09T18:49:49Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 2,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Iran fired 20 ballistic missiles at a U.S. base in Jordan; Jordanian forces said they intercepted 18, with two falling in open areas and no casualties.",
+  "bottom_line": "The conflict's widening geography, with Iran striking targets in Jordan rather than only across the Persian Gulf, tests whether U.S. air defenses can sustain current protection levels as the campaign continues. The next indicator will be whether Iran adjusts its tactics after this interception rate, and whether U.S. operations from these bases face operational constraints.",
+  "human_take": "",
+  "body": [
+    "Iran's Islamic Revolutionary Guard Corps announced on September 9, 2026, that it had fired ballistic missiles at the Al-Azraq airbase in Jordan, where U.S. military personnel and assets are stationed. The attack marks the latest escalation in a military campaign that began two weeks earlier with U.S. strikes on Iranian rocket launchers on Larak Island in the Strait of Hormuz.",
+    "The Jordanian Armed Forces reported intercepting 18 of 20 missiles overnight on September 8 and into the morning of September 9, with two missiles falling in open areas. No casualties were reported, according to Al Jazeera.",
+    "The IRGC claimed in a statement reported by the semi-official Tasnim news agency that the missiles had struck \"maintenance, preparation, and deployment sites of F-35, F-16, and F-15 fighter jets, as well as their shelters, inflicting heavy damage on the enemy.\" A Trump administration official, speaking on condition of anonymity to Al Jazeera, disputed this account, saying the Iranian response was \"ineffective against integrated air and missile defences\" and that there were no casualties.",
+    "The Al-Azraq base, formally known as Muwaffaq Salti Air Base and located near Azraq in Jordan's Zarqa governorate, hosts roughly 4,000 U.S. soldiers according to a 2026 U.S. Congressional Research Service report. The base hosts F-35, F-16, and F-15 fighter jets, as Tahani Mustafa, a lecturer in international relations at King's College London, told Al Jazeera. The sprawling installation has two runways and hangars where aircraft can be sheltered, making it strategically important to U.S. operations in the region and a repeated target for Iranian strikes.",
+    "Iran has claimed strikes on the Al-Azraq base more than 10 times between March and September 2026, according to Al Jazeera. The pattern began in early March and intensified on June 10, when Iran claimed to have struck the base as well as U.S. positions in Kuwait and Bahrain after U.S. forces struck Iranian assets in the Strait of Hormuz. On July 17, Iran claimed strikes on U.S. military aircraft at Al-Azraq; U.S. Central Command later confirmed that two service members were killed and one missing in that attack, with four others injured. Authorities in targeted countries have consistently stated that Iranian projectiles were intercepted without significant casualties.",
+    "Jordan hosts U.S. forces at multiple installations across the kingdom under a 2021 defense cooperation agreement granting the U.S. access to 12 military facilities. Beyond Al-Azraq, U.S. soldiers are stationed at King Faisal Air Base in southern Jordan and at Tower 22, a logistics outpost in northeastern Jordan near the Syrian and Iraqi borders. A 2023 Congressional Research Service report noted that Jordanian air bases have been \"particularly important for the U.S. conduct of intelligence, surveillance, target acquisition, and reconnaissance missions in Syria and Iraq,\" and that the U.S. had never officially acknowledged its presence at Muwaffaq Salti before the 2021 agreement, though satellite imagery showed U.S. aircraft there since 2016."
+  ],
+  "sources": [
+    {
+      "title": "aljazeera.com",
+      "url": "https://www.aljazeera.com/news/2026/9/9/what-is-jordans-al-azraq-base-and-why-is-iran-targeting-it?traffic_source=rss"
+    },
+    {
+      "title": "The Washington Post",
+      "url": "https://www.washingtonpost.com/national-security/2026/09/08/us-launches-strikes-5-iranian-oil-tankers-after-latest-attacks-warships/"
+    },
+    {
+      "title": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPYXl5NEhWdWhSUHJZanQ3LU5Jd0dyWHhUN1RYVVROUHFWcnV2WjEwNzl3VWtjX0cxanNGanNUV1NEZGZTeXYwNDh6T0tIT0hQYkVsTzZGNzA0SWlONVZWOEZwRmY1OWdGUmZLMmkyNWt2Uk5fQnFNWVF2ZlBXcmdfdmowSG9fUWJBWFE1MHU1bXdwYUpsb0EwSEVkSjEtYWFvRWpwd2lvdUpZZWdXOWNlRm5wRVV5N1plM1RUMGpXc1BwWTEwcWYyaDZ6emk?oc=5"
+    }
+  ],
+  "event_utc": "2026-09-09T08:33:10Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-09T18:49:49Z",
+    "sources_cited": 3,
+    "sources_live_checked": 2
+  },
+  "update_of": "oil-breaches-100-as-us-iran-military-strikes-escalate-in-gulf-corridor-september-9",
+  "also_reported_by": [
+    {
+      "outlet": "Institute for the Study of War",
+      "headline": "Iran Update, September 3, 2026 - Institute for the Study of War"
+    },
+    {
+      "outlet": "Muslim Network TV",
+      "headline": "Jordan says it destroyed 18 ballistic missiles fired from Iran - Muslim Network TV"
+    },
+    {
+      "outlet": "Critical Threats",
+      "headline": "Iran Update, September 2, 2026 - Critical Threats"
+    }
+  ]
+}

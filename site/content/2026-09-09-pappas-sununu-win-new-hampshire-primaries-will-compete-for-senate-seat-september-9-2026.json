@@ -1,0 +1,71 @@
+{
+  "id": "c064",
+  "slug": "pappas-sununu-win-new-hampshire-primaries-will-compete-for-senate-seat-september-9-2026",
+  "kind": "brief",
+  "title": "Pappas, Sununu win New Hampshire primaries; will compete for Senate seat, September 9, 2026",
+  "dek": "Rep. Chris Pappas (D) and former Sen. John E. Sununu (R) won their respective New Hampshire primary races on September 9, 2026, and will face off in November for an open U.S. Senate seat left vacant by Sen. Jeanne Shaheen's decision not to seek reelection.",
+  "date": "2026-09-09",
+  "published_utc": "2026-09-09T18:49:49Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 3,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Rep. Chris Pappas and former Sen. John E. Sununu won their primaries on September 9, 2026, and will compete for New Hampshire's open Senate seat in November.",
+  "bottom_line": "Pappas and Sununu will test whether New Hampshire's recent pattern of favoring Democratic Senate candidates holds or shifts. The race will likely turn on which candidate successfully defines the frame: Sununu's independence from Trump versus Pappas' record as an incumbent seeking higher office.",
+  "human_take": "",
+  "body": [
+    "Rep. Chris Pappas won the Democratic primary and former U.S. Sen. John E. Sununu won the Republican primary in New Hampshire on September 9, 2026, setting the stage for a closely watched Senate race in November. The two will compete for the seat vacated by U.S. Sen. Jeanne Shaheen, who chose not to seek reelection.\nSununu, 61, is a former senator who served one term from 2003 to 2009. He defeated seven other Republicans in the primary, including former U.S. Sen. Scott Brown, according to PBS NewsHour. Trump endorsed Sununu earlier in 2026, despite Sununu's 2024 op-ed calling Trump a \"loser\" and his support for Nikki Haley in the Republican presidential primary. Trump's approval rating in New Hampshire stands at 38%, according to The Guardian. Sununu has criticized Trump's tariff policy, urged Congress to rein in executive power, and questioned the decision to launch military action in Iran, telling New Hampshire Public Radio it was \"a tactical mistake\" to go to war \"without having a plan for protecting the strait of Hormuz.\"\nSununu's father and younger brother are both former governors. Scott Brown, whom Sununu defeated, accused Sununu of \"coasting on his name\" in the campaign. The Republican National Committee called Sununu a \"strong candidate\" who was \"well positioned to beat out Pappas\" in the general election.\nPappas, a four-term incumbent, is giving up his seat in the 1st Congressional District. He defeated four other candidates in the Democratic primary, including Karishma Manzur, described as a democratic socialist. At his victory party, according to PBS NewsHour, Pappas said, \"We've got to turn the page on Donald Trump's reckless leadership, on corruption, on the rigged economy and on costs, and this is not the time to turn it back to a failed politician from the past.\"\nSununu's response, made at his own victory party,\nNew Hampshire has not elected a Republican to the Senate since 2010, when Kelly Ayotte, now the governor, won a seat. Both candidates now have eight weeks before the November general election to make their case to voters. The race carries national significance: Democrats need a net gain of four seats to retake the Senate, and New Hampshire is among a handful of contests that could determine chamber control."
+  ],
+  "sources": [
+    {
+      "title": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/politics/with-sununu-vs-pappas-familiar-names-will-compete-in-new-hampshire-senate-race"
+    },
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/2026/sep/08/new-hampshire-republican-senate-primary"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/homenews/campaign/6077243-pappas-sununu-new-hampshire-primary-takeaways/"
+    },
+    {
+      "title": "The Washington Post",
+      "url": "https://www.washingtonpost.com/politics/2026/09/09/takeaways-new-hampshire-primaries-where-sununu-pappas-won-senate/"
+    }
+  ],
+  "event_utc": "2026-09-09T01:48:09Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-09T18:49:49Z",
+    "sources_cited": 4,
+    "sources_live_checked": 2
+  },
+  "also_reported_by": [
+    {
+      "outlet": "NBC News",
+      "headline": "Republican John Sununu and Democrat Chris Pappas win New Hampshire Senate primaries, setting up battleground race - NBC News"
+    },
+    {
+      "outlet": "CNN",
+      "headline": "Pappas and Sununu will face off for a key Senate seat and other takeaways from New Hampshire\u2019s primaries - CNN"
+    },
+    {
+      "outlet": "The Hill",
+      "headline": "Pappas, Sununu will fight out to succeed Shaheen in New Hampshire Senate race - The Hill"
+    },
+    {
+      "outlet": "CNBC",
+      "headline": "New Hampshire picks Pappas and Sununu in primary for key open Senate seat - CNBC"
+    },
+    {
+      "outlet": "CBS News",
+      "headline": "New Hampshire Senate race set between Chris Pappas and John Sununu after projected primary wins - CBS News"
+    },
+    {
+      "outlet": "New Hampshire Public Radio",
+      "headline": "Pappas, Sununu sweep to victory in U.S. Senate primaries - New Hampshire Public Radio"
+    }
+  ],
+  "update_of": "new-hampshire-primary-elections-test-trump-endorsements-democratic-momentum-on-september-8"
+}

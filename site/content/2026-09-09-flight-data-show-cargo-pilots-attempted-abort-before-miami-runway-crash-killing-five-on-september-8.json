@@ -1,0 +1,58 @@
+{
+  "id": "c014",
+  "slug": "flight-data-show-cargo-pilots-attempted-abort-before-miami-runway-crash-killing-five-on-september-8",
+  "kind": "brief",
+  "title": "Flight Data Show Cargo Pilots Attempted Abort Before Miami Runway Crash, Killing Five on September 8",
+  "dek": "An Amazon cargo plane crashed at Miami International Airport on September 8, 2026, killing five people in a van. Flight data indicate pilots attempted to abort the landing before the aircraft overran the runway. The NTSB is investigating whether the abort came too late and what role weather, pilot decisions, or runway safety systems played.",
+  "date": "2026-09-09",
+  "published_utc": "2026-09-09T18:49:49Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 10,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Flight data from the crashed Amazon cargo plane show the pilots attempted a go-around (landing abort) before the aircraft overran the runway, struck a crew van killing five people, breached the airport perimeter, and hit an SUV on a city street.",
+  "bottom_line": "Investigators interview the pilot and co-pilot on Wednesday as part of the inquiry into why the abort attempt came too late to prevent the runway overrun. The critical unknowns are what the cockpit voice recorder reveals about pilot communications and whether weather briefing or air traffic control direction played a role in the decision to continue rather than abandon the approach earlier.",
+  "human_take": "",
+  "body": [
+    "An Amazon cargo plane crashed at Miami International Airport on September 8, 2026, after pilots attempted to abort a landing that had already become unstable, according to flight data released by investigators Tuesday. The aircraft overran the runway by approximately 1,300 feet, struck a van carrying airport ground crew, breached the airport perimeter fence, and collided with a sport utility vehicle on a city street beyond the airport property.",
+    "Five people died in the van, all employees of Professional Ocean Service Corp., a company contracted to clean aircraft. Five additional people were injured in the crash; two remain in critical condition and one is in stable condition, according to Miami-Dade County Sheriff Rosie Cordero-Stutz. The pilot and co-pilot were released from the hospital.",
+    "NTSB Chairwoman Jennifer Homendy said investigators are examining the cockpit voice recording and flight data to understand the pilots' decision-making in the critical moments before impact. Homendy said investigators want to talk to the pilots before releasing cockpit communications, noting the data suggest \"they briefly attempted to perform a go-around to retry the landing approach before abandoning that and trying to stop the plane.\" Flight data showed the thrust reversers, which help slow an aircraft during landing, were never deployed.",
+    "Former FAA official Mike O'Donnell said the aircraft's landing on its nose and right landing gear first demonstrates an unstable approach. \"A go-around probably should have been executed sooner than that. And it seems like they hesitated,\" O'Donnell said. He added that by the time the crew attempted to abort, \"it may have been too late if there wasn't enough runway left.\" Aviation attorney Mary Schiavo, former Transportation Department Inspector General, suggested from the flight data that \"it almost seems like there was a disagreement between the pilots on what to do.\"",
+    "The aircraft had been in flight for two hours from Puerto Rico when it approached Miami. Storms were active in the area at the time of landing. Experts noted that a strong tail wind may have propelled the plane well beyond its intended landing point, and investigators will examine what weather briefing the pilots received and why air traffic controllers did not reverse the approach to allow the plane to land into a headwind instead.",
+    "The five deceased were identified as Rolando Aleman Leon, 55; Yoel Rodriguez Naranjo, 53; Julio C. Pineda, 75; Carlos Acosta Fajardo, 53; and Javierkys Reyes Quevedo, 47. Professional Ocean Service Corp. said in a statement: \"Our employees are far more than the people who work beside us each day, they are family, and they are deeply loved. Our hearts and prayers are with every employee and every family whose lives have been forever changed.\"",
+    "NTSB Chairwoman Homendy said the agency will examine whether the absence of a specialized system to slow and stop speeding jets at runway ends contributed to the crash. Other experts noted that Miami complied with FAA requirements to provide at least 1,000 feet of cleared buffer space past the runway end. More than 120 U.S. airports have lightweight, crushable material designed to absorb impact energy; the FAA reports such systems have saved around 500 lives. Miami is not among them.",
+    "The 32-year-old Boeing 767, operated by cargo carrier 21 Air based in North Carolina, was originally built to carry passengers and flew for foreign airlines for more than two decades before being converted to cargo service in 2015. Miami regained use of a third runway Tuesday evening after the NTSB released it, though investigators continue documenting evidence at the crash site. More than 225 flights were canceled Sunday and Monday, with hundreds more delayed. The NTSB's final report on cause and recommendations is expected to take a year or more to complete."
+  ],
+  "sources": [
+    {
+      "title": "NPR",
+      "url": "https://www.npr.org/2026/09/09/g-s1-142482/cargo-plane-crash-miami"
+    }
+  ],
+  "event_utc": "2026-09-09T09:09:32Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-09T18:49:49Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "update_of": "amazon-cargo-plane-crashed-at-miami-airport-after-landing-at-high-speed-in-poor-weather-killing-five-ntsb-examining-runway-safety-systems",
+  "also_reported_by": [
+    {
+      "outlet": "Flightradar24",
+      "headline": "How Rotate Turns Flightradar24 Flight Data into Cargo Intelligence - Flightradar24"
+    },
+    {
+      "outlet": "Time Magazine",
+      "headline": "At Least Five Killed in Amazon Cargo Plane Crash in Miami. Here's What We Know So Far - Time Magazine"
+    },
+    {
+      "outlet": "Aviation Week",
+      "headline": "21 Air Crew Attempted Go\u2011Around Before Overrun, NTSB Details Show - Aviation Week"
+    },
+    {
+      "outlet": "Miami International Airport",
+      "headline": "MIA launches Cargo Flight Tracker website - Miami International Airport"
+    }
+  ]
+}

@@ -72,7 +72,7 @@
     },
     {
       "outlet": "Global News",
-      "headline": "‘Utter devastation,’ NTSB investigates fatal Amazon plane crash in Miami - Global News"
+      "headline": "\u2018Utter devastation,\u2019 NTSB investigates fatal Amazon plane crash in Miami - Global News"
     },
     {
       "outlet": "PBS",
@@ -94,5 +94,6 @@
       "title": "Amazon cargo plane attempted go-around before overrunning Miami runway on Sunday",
       "published_utc": "2026-09-09T11:28:33Z"
     }
-  ]
+  ],
+  "superseded_by": "flight-data-show-cargo-pilots-attempted-abort-before-miami-runway-crash-killing-five-on-september-8"
 }
