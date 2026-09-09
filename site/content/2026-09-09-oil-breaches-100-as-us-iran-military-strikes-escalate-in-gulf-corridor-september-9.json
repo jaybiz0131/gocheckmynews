@@ -1,0 +1,71 @@
+{
+  "id": "c017",
+  "slug": "oil-breaches-100-as-us-iran-military-strikes-escalate-in-gulf-corridor-september-9",
+  "kind": "brief",
+  "title": "Oil breaches $100 as US-Iran military strikes escalate in Gulf corridor, September 9",
+  "dek": "The US military reported destroying multiple Iranian tankers in the Gulf of Oman after Iran's Revolutionary Guard attempted to strike a US Navy warship with ballistic missiles. Oil prices breached $100 a barrel amid escalating tit-for-tat military exchanges, with global energy costs rising sharply and inflation concerns mounting.",
+  "date": "2026-09-09",
+  "published_utc": "2026-09-09T11:28:33Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 1,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Brent crude rose above $100 per barrel on September 9 for the first time in months as US-Iran military escalation intensified in the Strait of Hormuz, a corridor carrying roughly one-fifth of global oil shipments.",
+  "bottom_line": "Brent crude will remain above $100 if military strikes persist in or near the Strait of Hormuz. If the blockades end or a ceasefire takes hold, oil could retreat toward pre-conflict levels; continued targeting of tankers and refineries signals further upward pressure on fuel costs globally.",
+  "human_take": "",
+  "body": [
+    "The US military said it destroyed multiple Iranian tankers in the Gulf of Oman on September 8 and 9, according to The Guardian's reporting, after Iran's Islamic Revolutionary Guard Corps targeted a US Navy warship with ballistic missiles over two days. No American personnel were harmed in the Iranian attacks, the warship successfully evaded the strikes, and US Centcom said it directed the crews of the Iranian tankers to abandon ship before the vessels were struck.",
+    "The escalating military exchanges are pushing energy costs sharply higher. Brent crude rose above $100 a barrel on Wednesday morning, September 9, for the first time in months, per NBC News reporting. The Guardian reports Brent crude rose 2.7% to about $100.6 a barrel on Wednesday, while NBC News reports West Texas Intermediate Crude reached around $95 a barrel on similar footing. The spike marks the third time Brent has crossed $100 this year; crude is up more than 60% so far in 2026, according to The Guardian.",
+    "On September 8, the IRGC struck a US military base in Jordan with 20 ballistic missiles, per The Guardian. Jordan's armed forces reported intercepting 18 of the missiles with air-defense systems, with two falling in unpopulated areas and no casualties. Separately, the IRGC said, per The Guardian, that it attacked two US vessels and eight oil tankers in the Gulf and warned crews of tankers near ports in Kuwait and Bahrain to immediately leave their vessels.",
+    "US Secretary of State Marco Rubio said on Tuesday, per The Guardian: \"Iran continues to try to hit US naval ships. And for every time they do that or try to do that, they're going to lose tankers. And I think you'll see that again today.\" The US military said the underwater drone seized by the IRGC was \"defective\" and an older model \"that neither collected sensitive data nor carried any classified sonar or radar equipment,\" according to The Guardian's report.",
+    "Energy prices are rising across markets. NBC News reports US gas prices rose to $4.22 on Wednesday, the highest since early June. The Guardian reports UK petrol reached an average of 166.2p a litre on Tuesday, the highest in four years according to the AA, with UK diesel hitting 187.7p a litre. The Guardian also reports the UK benchmark Dutch gas contract rose nearly 4% to \u20ac78.73 a megawatt hour, the highest since January 2023, and the British gas contract rose by 7.77p to 196.57p a therm, the highest since December 2022.",
+    "Bank of England Governor Andrew Bailey told MPs on Tuesday, per The Guardian, that the latest rise in oil prices was putting pressure on inflation and interest rates, saying \"The risks, I'm afraid, are on the upside. And that's really the risks coming from energy prices.\" The Guardian reports economists in the US are expecting at least one interest rate rise from the Federal Reserve by the end of the year.",
+    "The Strait of Hormuz normally carries about one-fifth of global oil and gas shipments. Iran has maintained a blockade of the Strait since the outbreak of the war more than six months ago, while the US has imposed its own blockade of Iranian ports, per The Guardian. The Guardian reports that on Tuesday, Yemen's Iran-backed Houthis attacked four cities in Saudi Arabia, wounding more than 70 people and setting oil installations ablaze. Saudi Arabia said it would retaliate, reportedly involving dozens of drones and missiles that targeted several oil facilities in the country's south, according to The Guardian.",
+    "China, the world's largest crude importer, increased purchases after a hiatus. The Guardian reports Chinese crude imports recovered to nearly 9 million barrels per day in August, up from the June low of 7.15 million, but still lower than pre-conflict February imports of 12.6 million. Oil prices peaked at $126 in April during the conflict but later fell back amid hopes of a ceasefire, per The Guardian.",
+    "President Trump claimed on social media, per NBC News, that \"oil prices will drop precipitously, like everything else is dropping (but more!), when we WIN the war with Iran\" and that prices could fall to as low as \"two dollars a gallon.\" NBC News reports Trump has shifted to a strategy of squeezing the Iranian economy with the US maritime blockade. The Guardian reports that Trump has struggled to end the war, which has claimed 18 US service members. Iranian authorities have previously put the overall death toll from US and Israeli strikes in the thousands; outside observers, including US-based monitoring groups, have broadly corroborated such figures, per The Guardian."
+  ],
+  "sources": [
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/2026/sep/08/iran-underwater-drone-strait-of-hormuz"
+    },
+    {
+      "title": "The Wall Street Journal",
+      "url": "https://www.wsj.com/world/middle-east/brent-nears-100-as-u-s-iran-escalation-houthi-strikes-deepen-gulf-supply-fears-768ab4db"
+    },
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/business/business-news/oil-hits-100-barrel-middle-east-conflict-intensifies-us-iran-trump-gas-rcna596752"
+    },
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/business/2026/sep/09/oil-prices-rise-iran-war-brent-crude-inflation-higher-interest-rates"
+    },
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cyvznqypz0yo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "The Wall Street Journal",
+      "url": "https://www.wsj.com/world/middle-east/brent-nears-100-as-u-s-iran-escalation-houthi-strikes-deepen-gulf-supply-fears-768ab4db?mod=rss_worldnews"
+    }
+  ],
+  "event_utc": "2026-09-09T01:04:38Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-09T11:28:33Z",
+    "sources_cited": 6,
+    "sources_live_checked": 3
+  },
+  "update_of": "oil-prices-jump-to-six-week-highs-as-us-iran-strikes-intensify-in-strait-of-hormuz-corridor",
+  "also_reported_by": [
+    {
+      "outlet": "Gulf News",
+      "headline": "What UAE residents need to know about the US-Iran conflict this evening, September 7 - Gulf News"
+    },
+    {
+      "outlet": "ET Now",
+      "headline": "Crude Oil Price Today, September 9: Oil rises above $94, hits 3-month high amid US-Iran tensions - Check Brent and WTI prices - ET Now"
+    }
+  ]
+}

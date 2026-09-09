@@ -1,0 +1,36 @@
+{
+  "id": "c183",
+  "slug": "appeals-court-upholds-block-on-irs-sharing-taxpayer-data-with-ice-september-9-2026",
+  "kind": "brief",
+  "title": "Appeals court upholds block on IRS sharing taxpayer data with ICE, September 9, 2026",
+  "dek": "The U.S. Court of Appeals for the District of Columbia upheld an injunction preventing the IRS from sharing taxpayer information with Immigration and Customs Enforcement. The court found the Trump administration's data-sharing policy violated federal tax-confidentiality law enacted after Watergate. The IRS had already shared 47,289 taxpayer records with ICE before the lower-court block took effect.",
+  "date": "2026-09-09",
+  "published_utc": "2026-09-09T11:28:33Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 7,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "A three-judge federal appeals court ruled the IRS violated tax secrecy law by allowing ICE to bulk-request addresses of 1.28 million suspected undocumented immigrants without meeting legal safeguards.",
+  "bottom_line": "The ruling blocks the IRS-ICE data-sharing program prospectively, but the 47,289 records already shared remain in ICE custody. The next move lies with the Trump administration: whether to seek further appeal to the Supreme Court or pursue alternative enforcement methods within the court's constraints.",
+  "human_take": "",
+  "body": [
+    "The U.S. Court of Appeals for the District of Columbia Circuit upheld an injunction on Tuesday blocking the Internal Revenue Service from sharing taxpayer information with Immigration and Customs Enforcement, ruling the Trump administration's data-sharing policy violated federal tax-confidentiality law.",
+    "The three-judge panel found the IRS unlawfully disclosed taxpayer information in response to ICE's request for the last known addresses of 1.28 million suspected undocumented immigrants. The court said the IRS failed to ensure that ICE's requests met the \"stringent conditions\" required under federal tax-confidentiality law adopted after the Watergate scandal, which generally bars the IRS from sharing tax-return information with other federal agencies.",
+    "Circuit Judge Cornelia Pillard, writing for the court, found the IRS procedures violated federal law \"most egregiously\" by not requiring ICE to provide an actual taxpayer address, as the law requires. Pillard wrote that the IRS failed to require ICE to provide a \"specific reason\" why requested information \"is or may be relevant to a qualifying proceeding or investigation,\" and that it \"entirely fails to ensure that ICE lists a federal employee, let alone one personally and directly engaged in a qualifying investigation of a particular taxpayer.\" When ICE requested information on 1.28 million taxpayers in the summer of 2025, ICE identified the same person as the point of contact for every single request. Pillard stated this practice \"automates the review of millions of records without any individual review or any other means of ensuring compliance with the legal prerequisites to releasing each individual taxpayer's information.\"",
+    "Last year, the IRS shared roughly 47,000 taxpayer addresses with ICE under a policy designed to assist President Donald Trump's mass deportation agenda. A lower-court judge blocked the policy, although by that time the IRS had already shared 47,289 taxpayer records with ICE.",
+    "The Trump administration appealed, arguing the ruling hindered federal law enforcement. Responding to that argument, Judge Pillard wrote, \"But that's a gripe with Congress, not the court.\" The court found the data-sharing procedure reduced noncitizens' privacy rights and deprived them of the protections that federal tax law guarantees to all taxpayers. A Department of Homeland Security spokesperson stated the department disagrees with the ruling and \"will continue using every lawful tool available to locate and remove illegal aliens with final orders of removal.\""
+  ],
+  "sources": [
+    {
+      "title": "Fox News",
+      "url": "https://www.foxnews.com/politics/appeals-court-upholds-order-blocking-irs-sharing-taxpayer-data-ice"
+    }
+  ],
+  "event_utc": "2026-09-09T06:45:32Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-09T11:28:33Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}

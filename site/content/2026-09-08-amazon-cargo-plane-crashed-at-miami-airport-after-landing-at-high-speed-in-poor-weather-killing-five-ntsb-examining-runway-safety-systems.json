@@ -47,6 +47,10 @@
     {
       "title": "cbsnews.com",
       "url": "https://www.cbsnews.com/video/officials-investigating-cause-deadly-amazon-cargo-plane-crash-miami/"
+    },
+    {
+      "title": "NPR",
+      "url": "https://www.npr.org/2026/09/09/g-s1-142482/cargo-plane-crash-miami"
     }
   ],
   "event_utc": "2026-09-07T22:14:48Z",
@@ -68,7 +72,7 @@
     },
     {
       "outlet": "Global News",
-      "headline": "\u2018Utter devastation,\u2019 NTSB investigates fatal Amazon plane crash in Miami - Global News"
+      "headline": "‘Utter devastation,’ NTSB investigates fatal Amazon plane crash in Miami - Global News"
     },
     {
       "outlet": "PBS",
@@ -81,6 +85,14 @@
     {
       "outlet": "The Palm Beach Post",
       "headline": "Miami plane crash: NTSB says Amazon plane hit van with 7 people aboard - The Palm Beach Post"
+    }
+  ],
+  "updated_utc": "2026-09-09T11:28:33Z",
+  "merged_from": [
+    {
+      "id": "c007",
+      "title": "Amazon cargo plane attempted go-around before overrunning Miami runway on Sunday",
+      "published_utc": "2026-09-09T11:28:33Z"
     }
   ]
 }

@@ -1,0 +1,36 @@
+{
+  "id": "c100",
+  "slug": "trump-gave-45-000-cash-gifts-to-three-white-house-aides-per-disclosures",
+  "kind": "brief",
+  "title": "Trump gave $45,000 cash gifts to three White House aides, per disclosures",
+  "dek": "Financial disclosure forms show Trump distributed $45,000 in cash to three staff members (Natalie Harp, Margo Martin, Chamberlain Harris) and $20,000 to a fourth (Walt Nauta). The gifts represent roughly one-third of the recipients' annual salaries. Legal experts cited in reporting say the payments may violate federal law.",
+  "date": "2026-09-09",
+  "published_utc": "2026-09-09T11:28:33Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 6,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Trump gave $45,000 in cash to each of three White House aides with $150,000 annual salaries, disclosed in their financial forms published last week.",
+  "bottom_line": "The cash payments and the White House's legal defense rest on interpretations of federal ethics law that legal experts contest. The ongoing question is whether any investigation or enforcement action will follow the disclosure.",
+  "human_take": "",
+  "body": [
+    "President Trump distributed $45,000 in cash as holiday gifts to three White House staff members and $20,000 to a fourth, according to financial disclosure forms published by the administration last week. The payments represent roughly one-third of the annual salaries for three recipients and one-eighth of a fourth's annual compensation.\nExecutive assistant Natalie Harp, communications adviser Margo Martin, and deputy director of Oval Office operations Chamberlain Harris each received $45,000. Director of Oval Office operations Walt Nauta received $20,000. Per the White House's salary disclosure report to Congress, Harp, Martin, and Harris earn $150,000 annually, while Nauta earns $175,000.\nA White House official told reporters the gifts reflect Trump's \"longstanding practice of giving Christmas gifts to people in his orbit, including at times employees and aides, both in government and in his time in the private sector.Harp is known to carry a portable printer to print favorable media coverage and social media posts for the president. Martin started as a White House press assistant and followed Trump to Palm Beach after the 2020 election to help run his media operations before returning to the White House after his 2024 victory. Harris was appointed earlier this year to serve on the U.S. Commission of Fine Arts, which has oversight over the president's White House ballroom project. Nauta previously served as a valet to Trump and, along with Carlos De Oliveira, was charged in 2023 with conspiring with Trump to obstruct an FBI investigation into classified documents."
+  ],
+  "sources": [
+    {
+      "title": "The Washington Post",
+      "url": "https://www.washingtonpost.com/politics/2026/09/08/trump-gave-45000-cash-gifts-natalie-harp-two-other-close-aides/"
+    },
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/2026/sep/09/trump-gift-45000-natalie-harp-white-house-aides"
+    }
+  ],
+  "event_utc": "2026-09-09T02:41:15Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-09T11:28:33Z",
+    "sources_cited": 2,
+    "sources_live_checked": 1
+  }
+}
