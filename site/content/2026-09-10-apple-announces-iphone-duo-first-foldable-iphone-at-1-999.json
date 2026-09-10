@@ -1,0 +1,84 @@
+{
+  "id": "c011",
+  "slug": "apple-announces-iphone-duo-first-foldable-iphone-at-1-999",
+  "kind": "brief",
+  "title": "Apple Announces iPhone Duo, First Foldable iPhone, at $1,999",
+  "dek": "Apple unveiled the iPhone Duo on September 9, a foldable device opening like a book with a 7.6-inch internal screen and 5.4-inch external display. The device starts at $1,999, with preorders beginning October 16 and retail availability October 23. New CEO John Ternus announced the device as the biggest design change to the iPhone since its 2007 debut.",
+  "date": "2026-09-10",
+  "published_utc": "2026-09-10T01:25:16Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 7,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Apple announced the iPhone Duo, a foldable phone priced at $1,999, marking the company's entry into a market long dominated by Samsung and representing the largest design shift to the iPhone since its introduction nearly 20 years ago.",
+  "bottom_line": "The iPhone Duo becomes available on October 23. Whether the device gains traction beyond early adopters and Pro users will determine whether foldables evolve from a niche category, currently 2% of global smartphone sales, into a meaningful share of Apple's revenue and the broader market.",
+  "human_take": "",
+  "body": [
+    "Apple has announced the iPhone Duo, a foldable smartphone that opens like a book into a wide screen, marking the company's entry into a market long led by Samsung and the biggest design change to the iPhone since its 2007 introduction.",
+    "New CEO John Ternus made the announcement at Apple's event in Cupertino, California on Wednesday, September 9, describing the device as one that \"brings an entirely new design while preserving everything you love and expect from iPhone. It gives you the largest display ever on an iPhone while still fitting easily in your pocket.\" When folded, the Duo is about the size of a passport, with a 5.4-inch external screen that comprises roughly 90% of the surface area of an iPhone Pro.",
+    "The iPhone Duo opens to reveal a 7.6-inch internal display that is 50% larger than the iPhone Pro Max, according to NBC News. The device is made of titanium and will initially be available in two colors: star white and night sky. The base price is $1,999 for 256 GB of storage, putting it at a similar price point as Samsung's foldable model, per S&P Global Visible Alpha. Preorders begin October 16, with retail availability on October 23.",
+    "Apple's senior vice president of software engineering Craig Federighi stated that the device can \"use it in any orientation or pose\" and users can \"set it on the table and watch a show hands-free on the outer display without a stand.\" On the larger internal screen, users can view two websites at once, open two apps side by side, or allow content to scale to the larger size, according to NBC News. The device includes an integrated array of magnets for a \"satisfying and secure closure\" when folded. Apple has also brought back Touch ID fingerprint identification on a side-mounted authentication button, rather than continuing with Face ID only.",
+    "The iPhone Duo carries two batteries, one on each side, operating as a unified system. Apple estimates battery life at 31 hours during video playback on the inner screen, 44 hours on the outer display, and 24 hours when using both screens equally, NBC News reports. Ternus took over as CEO at the start of September 2026 from Tim Cook. A mechanical engineer by training, Ternus has spent most of his career at Apple on the product side.",
+    "Analysts are divided on the device's market potential. Dan Ives, partner at Yorkville Ives & Co., told CBS News that \"the foldable could be a major hit for Apple, and this is the right time to go after the new hardware chapter under Ternus.\" Counterpoint principal analyst Varun Mishra projected the iPhone Duo would appeal to iPhone Pro users seeking to upgrade, early adopters, and consumers \"waiting specifically for an iPhone foldable,\" but noted repair costs for foldables can be steep and that the devices may drive higher adoption of AppleCare insurance. However, Jason Snell of Six Colors stated: \"Whether that will appeal to a broad number of people, it's unclear. Folding phones are a solid category, but they're not a huge category. I think Apple will do a lot to popularize it, but even so, I think it's a niche product, and if it's the future of the smartphone, it's probably the far future.\" Philip Michaels, a freelance tech writer, raised concerns about consumer motivation, asking: \"Are people going to be convinced to buy a new phone, particularly when the main driver appears to be software features that are going to be available on current phones?\" Apple shares were down 1.9% in afternoon trading on September 9, lower than when the livestream event began.",
+    "Foldable phone sales currently represent around 2% of all smartphone sales worldwide, per NPR's reporting. Samsung and Huawei have had foldable products on the market since 2019, though early models were plagued with durability problems."
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/tech/apple/apple-foldable-phone-new-fold-18-launch-ceo-john-ternus-rcna596652"
+    },
+    {
+      "title": "NPR",
+      "url": "https://www.npr.org/2026/09/09/nx-s1-5961487/apple-duo-foldable-iphone-john-ternus"
+    },
+    {
+      "title": "The New York Times",
+      "url": "https://www.nytimes.com/2026/09/09/technology/apple-iphone-duo-foldable-phone.html"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/apple-event-today-foldable-iphone/"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/policy/technology/6079703-apple-foldable-phone-launch/"
+    },
+    {
+      "title": "aljazeera.com",
+      "url": "https://www.aljazeera.com/economy/2026/9/9/apple-debuts-1999-passport-shaped-foldable-phone-called-duo?traffic_source=rss"
+    }
+  ],
+  "event_utc": "2026-09-09T17:18:39Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-10T01:25:16Z",
+    "sources_cited": 6,
+    "sources_live_checked": 3
+  },
+  "also_reported_by": [
+    {
+      "outlet": "The New York Times",
+      "headline": "Apple Unveils the iPhone Duo, a Foldable Phone That Costs $1,999 - The New York Times"
+    },
+    {
+      "outlet": "Variety",
+      "headline": "Apple Introduces iPhone Duo, Its First Foldable Smartphone - Variety"
+    },
+    {
+      "outlet": "The Desert Sun",
+      "headline": "Apple unveils foldable iPhone Duo, starting at $1,999 - The Desert Sun"
+    },
+    {
+      "outlet": "Engadget",
+      "headline": "Apple Announces The iPhone Duo, The Company's First Foldable Phone - Engadget"
+    },
+    {
+      "outlet": "MacRumors",
+      "headline": "Apple Announces Foldable 'iPhone Duo' - MacRumors"
+    },
+    {
+      "outlet": "Yahoo Finance",
+      "headline": "Apple debuts its first foldable, the iPhone Duo, priced at $1,999 - Yahoo Finance"
+    }
+  ]
+}

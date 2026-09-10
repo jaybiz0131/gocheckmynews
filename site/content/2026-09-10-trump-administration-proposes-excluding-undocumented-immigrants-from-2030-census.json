@@ -1,0 +1,48 @@
+{
+  "id": "c146",
+  "slug": "trump-administration-proposes-excluding-undocumented-immigrants-from-2030-census",
+  "kind": "brief",
+  "title": "Trump Administration Proposes Excluding Undocumented Immigrants From 2030 Census",
+  "dek": "The Trump administration has proposed changes to the 2030 U.S. Census that would exclude undocumented immigrants from the decennial count used for congressional apportionment and also would eliminate questions about race, ethnicity, and sexual orientation. The proposal resurrects a failed effort from Trump's first term and faces constitutional and legal obstacles.",
+  "date": "2026-09-10",
+  "published_utc": "2026-09-10T01:25:16Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 9,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The Trump administration proposed removing undocumented immigrants and some visa holders from the 2030 census apportionment count, and eliminating census questions on race, ethnicity, and sexual orientation, a departure from census practice dating to 1790 and setting up a likely constitutional and legal battle over which residents count toward representation.",
+  "bottom_line": "Congress must approve any final census questions by April 1, 2027, setting a deadline for legislative action. The constitutional requirement that apportionment counts include \"the whole number of persons\" in each state and the Supreme Court's past rejection of Trump's citizenship question effort will be the legal tests any exclusion must clear.",
+  "human_take": "",
+  "body": [
+    "The Trump administration has proposed sweeping changes to the 2030 U.S. Census that would exclude undocumented immigrants and some visa holders from the count used for congressional apportionment, and would eliminate census questions about race, ethnicity, and sexual orientation.",
+    "In a proposed rule published in the Federal Register on September 9, the Census Bureau announced it was considering changes that would exclude immigrants \"due to their lack of a sufficient tie and allegiance to the United States,\" according to The Guardian. The proposal specifically targets undocumented immigrants and would also exclude \"aliens whose legal status is less durable and indefinite in length than lawful permanent resident status,\" while continuing to count lawful permanent residents. To determine legal status, the Census Bureau noted it is considering using \"its enormously broad access to administrative records\" including data from the U.S. departments of treasury, health and human services, defense, and homeland security, as well as the postal service, per The Guardian's reporting.",
+    "The proposal would mark an unprecedented exclusion from the census apportionment count, which the 14th Amendment requires to include the \"whole number of persons in each state.\" The U.S. census has never left out residents based on immigration status since its inception in 1790, according to NPR. While past counts included specific constitutional instructions about enslaved people and Native Americans, none excluded residents for lack of legal status.",
+    "The administration also proposes discontinuing census questions about \"race, ethnicity, and sexual orientation,\" citing the \"potentially sensitive nature\" of such inquiries and \"the reduced need for or usefulness of this information,\" per The Guardian. The 2020 census did not directly ask about sexual orientation but did ask couples living together to describe their partners as \"opposite-sex\" or \"same-sex,\" according to NPR. Trump's first administration blocked an earlier effort to add a sexual orientation question to the Census Bureau's American Community Survey.",
+    "This represents a reversal of Biden-era changes. The Biden administration in 2024 revised federal racial and ethnic data standards for the first time in more than a quarter-century, introducing new checkboxes for \"Hispanic or Latino\" and \"Middle Eastern or North African\" under a reformatted question.",
+    "The proposal comes months before the administration is required to send a report by April 1 to Congress on proposed question topics for the 2030 census. Congress holds final constitutional authority over the census and its questions. During Trump's first term, the administration attempted to add a citizenship question to the 2020 survey, but the Census Bureau determined the question would reduce participation, and the Supreme Court ultimately ruled against the effort. That effort was abandoned when Joe Biden became president in 2021. Trump also failed to execute an earlier bid to subtract residents without legal status from the 2020 census apportionment count.",
+    "Republican lawmakers in Congress have backed similar proposals in recent years, and some GOP-controlled states have filed lawsuits calling for residents without legal status and those with nonimmigrant visas to be excluded from census numbers. In Missouri, such a change could produce a radical shift in state legislative redistricting that moves political power away from younger, more racially diverse urban areas toward older, whiter rural areas, according to NPR.",
+    "Democrats and civil rights advocates are prepared to challenge the changes. Democrats on the House oversight committee stated: \"The 14th amendment is clear: the census is meant to count ALL people living in the United States. We will fight this.\" Civil rights advocates, researchers, and census supporters warn that eliminating the race question puts at risk federal data used for redistricting, enforcing the Voting Rights Act and other antidiscrimination protections, and informing policymaking. Many census advocates are also concerned that even the proposal itself, regardless of whether it is ultimately adopted, could dampen public participation in the 2030 census, especially among Latino residents whom the Census Bureau has historically undercounted, per NPR. The administration made last-minute changes to a field test of the upcoming census earlier this year, including the use of a citizenship question that the bureau's own research indicates is likely to hurt the count's accuracy.",
+    "Should the Census Bureau proceed with the changes, legal challenges from Democrats and advocacy groups would likely follow. However, a new presidential administration taking office in 2029 could reverse any changes to 2030 census plans."
+  ],
+  "sources": [
+    {
+      "title": "The Washington Post",
+      "url": "https://www.washingtonpost.com/politics/2026/09/09/trump-administration-proposes-changes-census-that-could-exclude-millions/"
+    },
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/2026/sep/09/trump-census-changes-immigrants"
+    },
+    {
+      "title": "NPR",
+      "url": "https://www.npr.org/2026/09/09/nx-s1-5845147/trump-us-census-citizenship-question-race-categories"
+    }
+  ],
+  "event_utc": "2026-09-09T19:21:00Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-10T01:25:16Z",
+    "sources_cited": 3,
+    "sources_live_checked": 2
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "c002",
+  "slug": "federal-agencies-find-uc-berkeley-law-school-discriminates-based-on-race-in-admissions",
+  "kind": "brief",
+  "title": "Federal agencies find UC Berkeley Law School discriminates based on race in admissions",
+  "dek": "The U.S. Justice Department and Department of Education jointly found that UC Berkeley Law School deliberately discriminates against white and Asian applicants in violation of Title VI of the Civil Rights Act and the Supreme Court's 2023 Students for Fair Admissions v. Harvard ruling. The school used race-based grouping in classes and admitted black applicants with significantly lower standardized test scores.",
+  "date": "2026-09-10",
+  "published_utc": "2026-09-10T01:25:16Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 6,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "In 2025, black applicants had 5.8 times higher odds of admission than comparable white applicants at Berkeley Law, and more than one-third of admitted black applicants (37 percent) had LSAT scores below 99 percent of admitted white applicants in 2024 and 2025 combined.",
+  "bottom_line": "Federal agencies find UC Berkeley Law intentionally discriminates against white and Asian applicants, a major enforcement action from Trump administration on affirmative action.",
+  "human_take": "",
+  "body": [
+    "The U.S. Justice Department and Department of Education jointly concluded that UC Berkeley Law School deliberately discriminates against white and Asian applicants in admissions, violating Title VI of the Civil Rights Act and the U.S. Supreme Court's 2023 decision in Students for Fair Admissions v. Harvard.",
+    "Berkeley Law's application asked applicants to specify their racial identity so that admitted students could be \"grouped\" with others of the same \"primary identity\" in class, according to the Justice Department's press release. The enforcement finding rests on admissions statistics showing large disparities in how applicants of different races were treated.",
+    "In 2024 and 2025 combined, half of Berkeley Law's admitted black applicants had LSAT scores that were below 95 percent of the admitted white applicants, per the Department of Justice. More than one-third of admitted black applicants (37 percent) had LSAT scores below 99 percent of admitted white applicants during the same period. In 2025 alone, black applicants had 5.8 times higher odds of admission than comparable white applicants, the Justice Department stated.",
+    "Assistant Attorney General Harmeet K. Dhillon of the Justice Department's Civil Rights Division said: \"Berkeley Law School's deliberate efforts to circumvent the Supreme Court's decision in SFFA demonstrate a complete disregard for the rule of law.\" U.S. Department of Education Assistant Secretary for Civil Rights Kimberly Richey added: \"Title VI is clear: no student should be advantaged or disadvantaged in admissions because of the color of their skin.\"",
+    "The Justice Department indicated it will engage in settlement negotiations with law schools found to have violated Title VI. If those efforts fail, the Department stated it will file suit. The University of California, Berkeley disputed the findings, saying its admissions process complies with the law, according to Washington Examiner reporting.",
+    "The Bottom Line: The Justice Department's enforcement action against Berkeley Law is the first major federal finding of post-SFFA discrimination at a major law school; the outcome of settlement negotiations and whether other institutions face similar investigations will clarify how federal enforcement is shaping admissions practices nationwide."
+  ],
+  "sources": [
+    {
+      "title": "U.S. Department of Justice",
+      "url": "https://www.justice.gov/opa/pr/joint-investigation-us-justice-department-and-us-department-education-finds-uc-berkeley-law"
+    },
+    {
+      "title": "Washington Examiner",
+      "url": "https://www.washingtonexaminer.com/news/justice/4719670/uc-berkeley-law-discriminated-admissions-trump-administration/"
+    }
+  ],
+  "event_utc": "2026-09-09T12:00:00Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-10T01:25:16Z",
+    "sources_cited": 2,
+    "sources_live_checked": 3
+  },
+  "also_reported_by": [
+    {
+      "outlet": "finchannel",
+      "headline": "InvestigationFinds U.C. Berkeley Law School Discriminates Based on Race in Admissions - finchannel"
+    },
+    {
+      "outlet": "Jewish Journal",
+      "headline": "Shame on Berkeley Law School\u2019s Dean Chemerinsky - Jewish Journal"
+    },
+    {
+      "outlet": "OB Rag",
+      "headline": "\u2018I Am Petrified\u2019 : Erwin Chemerinsky, Dean UC Berkeley Law School, Warns of Democracy\u2019s Peril Under Trump - OB Rag"
+    },
+    {
+      "outlet": "Jewish Insider",
+      "headline": "Dept. of Education to probe UC Berkeley Law School over antisemitism allegations - Jewish Insider"
+    }
+  ]
+}
