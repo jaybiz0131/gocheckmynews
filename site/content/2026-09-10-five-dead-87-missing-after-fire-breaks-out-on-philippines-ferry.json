@@ -1,0 +1,74 @@
+{
+  "id": "c023",
+  "slug": "five-dead-87-missing-after-fire-breaks-out-on-philippines-ferry",
+  "kind": "brief",
+  "title": "Five dead, 87 missing after fire breaks out on Philippines ferry",
+  "dek": "A fire erupted Wednesday evening aboard the M/V June Aster off Palawan, Philippines, killing at least five people and leaving 87 missing. According to Philippine coastguard officials, 42 people had been rescued as of Thursday morning, with search and rescue operations ongoing.",
+  "date": "2026-09-10",
+  "published_utc": "2026-09-10T11:51:58Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 10,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "At least five people are confirmed dead and 87 remain missing after a fire broke out on the M/V June Aster ferry off Palawan, Philippines.",
+  "bottom_line": "The search and rescue operation remains active with casualty figures still subject to change as the coastguard continues recovery efforts. Officials have not yet identified the specific cause of the fire.",
+  "human_take": "",
+  "body": [
+    "At least five people are confirmed dead and 87 remain missing after a fire broke out aboard the M/V June Aster ferry off the coast of Palawan, Philippines, according to Al Jazeera's reporting. The blaze erupted at 18:45 local time Wednesday, September 9, approximately 2.2 kilometers (1.3 miles) offshore near Coron, and was still burning as of 11:00 Thursday morning, per BBC News.\nThe ship's manifest listed 134 passengers and crew aboard.\nPreliminary interviews with survivors suggest the fire started in the cargo hold, according to BBC reporting. The coastguard noted that strong currents and thick smoke presented challenges to those working to extinguish the fire. Some passengers were not wearing life vests, the coastguard said. The cause of the fire remains under investigation.\nOne survivor, Roland Lerma, described floating in the sea for two hours before rescue. \"It was cold. If the rescue had been delayed, I would definitely have died,\" Lerma told BBC News.\nCaptain Cayabyab stated that \"this is live data and may change, as our search and rescue operations are ongoing,\" according to Al Jazeera's reporting.  A ferry carrying more than 350 people sank off Baluk-baluk island in January 2026, killing at least 18. In 2023, 31 people died after a fire broke out aboard the MV Lady Mary Joy 3 in the country's southwestern region."
+  ],
+  "sources": [
+    {
+      "title": "aljazeera.com",
+      "url": "https://www.aljazeera.com/news/2026/9/10/five-dead-dozens-missing-in-philippines-ferry-fire"
+    },
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cy4zd4dn9n9o"
+    },
+    {
+      "title": "aljazeera.com",
+      "url": "https://www.aljazeera.com/news/2026/9/10/five-dead-dozens-missing-in-philippines-ferry-fire?traffic_source=rss"
+    },
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/videos/cdr76legmevo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cy4zd4dn9n9o?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "event_utc": "2026-09-10T03:43:18Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-10T11:51:58Z",
+    "sources_cited": 5,
+    "sources_live_checked": 3
+  },
+  "also_reported_by": [
+    {
+      "outlet": "Seatrade Maritime News",
+      "headline": "Five dead, 87 missing in Philippines ferry fire - Seatrade Maritime News"
+    },
+    {
+      "outlet": "SBS",
+      "headline": "Five dead, 87 missing in Philippines ferry fire | Midday News Bulletin 10 September 2026 - SBS"
+    },
+    {
+      "outlet": "Peoples Gazette Nigeria",
+      "headline": "Five people killed, 87 missing in Philippines ferry fire - Peoples Gazette Nigeria"
+    },
+    {
+      "outlet": "Ratopati",
+      "headline": "Ferry Fire in Philippines Kills Five, 87 Missing - Ratopati"
+    },
+    {
+      "outlet": "The Australian",
+      "headline": "Five dead and 87 feared missing after Philippines ferry fire - The Australian"
+    },
+    {
+      "outlet": "Dem\u00f3crata",
+      "headline": "Five deceased and 87 missing after the fire of a boat in the west of the Philippines - Dem\u00f3crata"
+    }
+  ]
+}

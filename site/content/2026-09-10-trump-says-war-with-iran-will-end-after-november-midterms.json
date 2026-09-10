@@ -1,0 +1,60 @@
+{
+  "id": "c005",
+  "slug": "trump-says-war-with-iran-will-end-after-november-midterms",
+  "kind": "brief",
+  "title": "Trump says war with Iran will end after November midterms",
+  "dek": "President Trump told the Republican midterm convention in Dallas on September 9 that the seven-month-old conflict with Iran will end 'very shortly' after the November elections, contradicting his earlier prediction of a four-to-five-week war. He also promised a $5,000 'dividend' to every American adult if Republicans hold both chambers of Congress.",
+  "date": "2026-09-10",
+  "published_utc": "2026-09-10T11:51:58Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 1,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Trump stated at the Dallas convention: 'The war will be over very shortly after the election. They're hanging out for dear life, hoping that we lose, so they can deal with dumb, weak Democrats and they can have their nuclear bomb.'",
+  "bottom_line": "Major foreign policy statement from sitting president about ongoing military conflict; contradicts earlier claims of imminent resolution; has direct bearing on midterm messaging and market expectations.",
+  "human_take": "",
+  "body": [
+    "President Trump told the Republican Midterm Convention in Dallas on September 9 that the seven-month conflict with Iran will conclude \"very shortly after the election,\" linking the war's end to electoral outcomes rather than military or diplomatic milestones.",
+    "The statement reframes a military conflict now widely unpopular with American voters, according to NBC News polling data. Per NBC News, 69 percent of Americans disapprove of Trump's handling of the war, and among Republicans, the share who strongly approve has dropped 18 percentage points since spring and now stands at 30 percent.",
+    "Trump's timeline contradicts his earlier prediction about the conflict. According to NBC News, he had predicted the war would last only four or five weeks when it began. The fighting is now in its seventh month, per NBC News reporting.",
+    "At the convention, Trump defended the military action by asking the audience whether Iran should possess nuclear weapons, articulating the administration's core rationale for the conflict. \"Does anybody here think that Iran should have a nuclear weapon? Anybody?\" Trump said, according to NBC News. He also dramatized public pressure he receives on the war, saying: \"You know, it happens to me all the time. Guys come up, you know, 'I wish you didn't do the war in Iran; gasoline's up.'\" Trump predicted that oil and gas prices would decline once the war ends, per NBC News.",
+    "Democrats characterized the convention as a political liability exercise. Ken Martin, chair of the Democratic National Committee, called it \"a desperate attempt by Republicans to ignore the reality that all of their vulnerable candidates are poised to lose in November\" and called Trump's speech \"disastrous\" and \"rambling,\" according to CBS News.",
+    "At the same event, Trump promised every adult American citizen a $5,000 \"Trump dividend\" if Republicans retain control of both chambers of Congress. Trump did not offer details on how the payments would work or be funded, according to CBS News.",
+    "Some Republicans at the convention acknowledged unease about the war's impact. Jack Etheridge, an alternate delegate from Ohio, told NBC News: \"Any good thing in life is worth waiting for, and so if you put the Iran war and its ultimate conclusion in that context, I think that puts a slightly different light on it.\" Vince Galko, a former top Pennsylvania GOP official, acknowledged that \"higher gas prices brought on by the war have stung\" voters, per reporting in the sources.",
+    "The Bottom Line: Trump has tied the war's conclusion to Republican electoral success in November, leaving unresolved what military objectives or diplomatic conditions would trigger the \"very shortly\" end he promised. The November 3 midterm elections will test whether his framing persuades voters skeptical of both the conflict's necessity and its duration."
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/politics/2026-election/trump-says-war-iran-will-end-after-election-day-rcna596950"
+    },
+    {
+      "title": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/politics/watch-trump-promises-5000-dividend-for-americans-if-gop-wins-midterms"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/homenews/administration/6080107-trump-midterm-convention-dallas-dividends/"
+    },
+    {
+      "title": "The Washington Post",
+      "url": "https://www.washingtonpost.com/politics/2026/09/09/oil-price-spike-iran-attacks-intrudes-gops-midterm-convention/"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/trump-dividends-5000-checks-rnc-midterm-convention/"
+    },
+    {
+      "title": "The New York Times",
+      "url": "https://www.nytimes.com/2026/09/10/us/politics/trump-republican-convention-speech-takeaways.html"
+    }
+  ],
+  "event_utc": "2026-09-10T03:02:24Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-10T11:51:58Z",
+    "sources_cited": 6,
+    "sources_live_checked": 3
+  },
+  "update_of": "iran-launches-20-ballistic-missiles-at-u-s-base-in-jordan-18-intercepted-september-9-2026"
+}

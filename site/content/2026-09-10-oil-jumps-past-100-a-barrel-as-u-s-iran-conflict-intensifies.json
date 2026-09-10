@@ -1,0 +1,63 @@
+{
+  "id": "c072",
+  "slug": "oil-jumps-past-100-a-barrel-as-u-s-iran-conflict-intensifies",
+  "kind": "brief",
+  "title": "Oil jumps past $100 a barrel as U.S.-Iran conflict intensifies",
+  "dek": "Brent crude breached $100 a barrel on September 9 for the first time since July, driven by escalating military strikes and attacks on Middle East oil infrastructure. U.S. benchmark crude gained 2.4 percent to $95.25, and global energy prices spiked across gas and electricity markets.",
+  "date": "2026-09-10",
+  "published_utc": "2026-09-10T11:51:58Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 2,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Brent crude rose by more than 3 percent to top $101 on September 9, marking the first time oil has climbed above $100 since July, according to The Guardian.",
+  "bottom_line": "Oil breach of $100/barrel is economically significant threshold; driven by active Middle East military escalation; directly affects US inflation and midterm political landscape.",
+  "human_take": "",
+  "body": [
+    "Brent crude, the international benchmark for oil prices, rose by more than 3 percent to top $101 on September 9, 2026, for the first time since July, according to The Guardian. U.S. benchmark crude gained 2.4 percent to $95.25 a barrel, per PBS NewsHour.\nThe spike followed a fresh round of military strikes in the Gulf. The U.S. military reported striking five Iranian tankers in response to attempted missile attacks on a Navy warship, according to The Guardian. Tehran had attempted to strike a U.S. Navy warship with ballistic missiles the previous night.\nIran-backed Houthis attacked four cities in Saudi Arabia, wounding more than 70 people and setting oil installations ablaze, according to The Guardian. Bank of America analysts stated in a Tuesday research note that \"reaching a durable deal before the U.S. midterm elections is increasingly unlikely, and it could remain elusive even beyond that,\" per PBS NewsHour.\nGlobal energy markets reacted sharply. UK and mainland Europe gas prices soared on September 9. The benchmark Dutch gas contract rose by almost 4 percent to 78.73 euros a megawatt hour, the highest since January 2023, according to The Guardian. The British gas contract rose by 7.77p to 196.57p a therm, the highest since December 2022, per The Guardian. In the U.S., the average price for a gallon of regular gasoline ticked up 7 cents to hit $4.22, now more than a dollar above the price one year earlier, according to AAA data cited by PBS NewsHour. Diesel prices reached an all-time high and have continued climbing, with the average gallon reaching $5.94 overnight, per PBS NewsHour.\nPetrol at the pump in the UK reached an average of 166.2p a litre on Tuesday, the highest level in four years, according to the motoring organization the AA, per The Guardian. Diesel hit an average of 187.7p, a price last reached in May. Prices for a litre of petrol have risen 4.4p since the August bank holiday, with diesel up 4.1p, per The Guardian.\nBank of England Governor Andrew Bailey said on Tuesday that rising oil prices were putting pressure on inflation and interest rates, stating, per The Guardian: \"The risks, I'm afraid, are on the upside. And that's really the risks coming from energy prices.\" In the U.S., economists expect at least one interest rate rise from the Federal Reserve by year's end, per The Guardian. Households will face further pressure on energy bills when Ofgem's energy price cap rises by 4 percent in October, and according to Andrew Goodwin, chief UK economist at Oxford Economics, the cap could rise by a further 13 percent in January, per The Guardian.\nThe oil price has jumped by a quarter since early August as hopes for a permanent resolution to the six-month-old war faded.  It began climbing again after a memorandum of understanding between the U.S. and Iran fell apart and hostilities restarted, according to The Guardian. Brent has risen above the $100 mark for three periods so far in 2026 and is up more than 60 percent this year, per The Guardian.\nAirline carriers have begun responding to elevated jet fuel costs. Jet fuel has become so expensive that U.S. and international carriers have cut flights while raising fares and fees, according to PBS NewsHour. Negotiations between the U.S. and Iran broke down over control of the Strait of Hormuz, per PBS NewsHour. Iran insists it has the right to set terms and charge fees for ships traveling through the waterway off its coast. The U.S. wants passage to remain free and has used a Navy blockade to block Iran's ports and oil tankers, per PBS NewsHour.\nChina, the world's largest importer of crude, has increased purchases in recent days.  Giovanni Staunovo, a commodity analyst at UBS Global Wealth Management, said, per The Guardian: \"For the direction of crude prices, we are also monitoring Chinese crude imports as a key indicator. It looks like the recovery trend could continue.\"\nBank of America increased its oil price forecast for the second half of the year to $83 a barrel but still expected shipping through the Strait of Hormuz to gradually pick up, per PBS NewsHour. However, if attacks keep a chokehold on traffic through the strait, prices could reach $95 to $120 a barrel, while damage to major energy infrastructure could produce spikes of up to $150 a barrel, according to Bank of America's scenario analysis cited by PBS NewsHour.\nRecent stepped-up attacks by Yemen's Houthis could constrain global oil supplies further because they targeted an alternative shipping route that Saudi Arabia has relied on to transport oil during the war, per PBS NewsHour. Refinery outages in Russia, reduced refining activity elsewhere and sharply declining inventories have pushed diesel and gasoline prices sharply higher globally, per Bank of America analysis cited by PBS NewsHour.\nThe Bottom Line: Oil's return to triple digits for the first time in two months signals that escalating military strikes and supply-route attacks have defeated ceasefire momentum. Bank of America analysts assess a durable deal unlikely before the November 3 midterms, leaving markets sensitive to further attacks on tankers or infrastructure over the next eight weeks."
+  ],
+  "sources": [
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/business/2026/sep/09/oil-prices-rise-iran-war-brent-crude-inflation-higher-interest-rates"
+    },
+    {
+      "title": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/economy/oil-rises-past-100-a-barrel-after-the-latest-wave-of-middle-east-attacks"
+    }
+  ],
+  "event_utc": "2026-09-09T19:09:13Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-10T11:51:58Z",
+    "sources_cited": 2,
+    "sources_live_checked": 3
+  },
+  "update_of": "oil-breaches-100-as-us-iran-military-strikes-escalate-in-gulf-corridor-september-9",
+  "also_reported_by": [
+    {
+      "outlet": "Fortune",
+      "headline": "\u2018We worry now\u2019: Oil tops $100, diesel hits record highs amid Iran war escalation - Fortune"
+    },
+    {
+      "outlet": "Time Magazine",
+      "headline": "Oil Hits $100 a Barrel for First Time Since July as U.S. and Iran Trade Strikes - Time Magazine"
+    },
+    {
+      "outlet": "AP News",
+      "headline": "Oil surges above $100 a barrel as US and Iran launch new attacks, while gasoline prices also jump - AP News"
+    },
+    {
+      "outlet": "ABC News",
+      "headline": "Oil prices climb over $100 per barrel as US war in Iran continues - ABC News - Breaking News, Latest News and Videos"
+    },
+    {
+      "outlet": "Crude Oil Prices Today",
+      "headline": "Oil Holds Above $100 as U.S.-Iran Tanker War Escalates - Crude Oil Prices Today | OilPrice.com"
+    },
+    {
+      "outlet": "The Guardian",
+      "headline": "Oil prices rise above $100 a barrel for first time since July as Iran war escalates - The Guardian"
+    }
+  ]
+}

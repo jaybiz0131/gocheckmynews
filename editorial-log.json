@@ -1,56 +1,5 @@
 [
  {
-  "date": "2026-07-31",
-  "approved": 3,
-  "rejected": [
-   {
-    "id": "c340",
-    "headline": "FBI probes possible Iranian involvement in cyberattack on water systems across at least 7 states",
-    "category": "accuracy",
-    "reasons": [
-     "The bottom_line claims 'Iran-linked actors targeted U.S. water utilities previously, using similar playbooks in 2023' but the brief data_point states 'Federal agencies confirmed previously that actors affiliated with Iran's Islamic Revolutionary Guard Corps used a similar playbook, accessing multiple water and wastewater facilities in 2023' \u2014 the draft presents this as established fact in the forward-looking bottom_line when it should be attributed to federal agency statements and framed as historical context, not as confirmed attribution of current incidents.",
-     "The draft states acting CISA director 'Nick Anderson confirmed that the agency is observing a significant increase in cyber threat actors targeting PLCs at water utilities' but the brief data_point uses the exact quote 'is currently observing' \u2014 the paraphrase is acceptable, but the draft does not clearly signal this is a general threat assessment unrelated to definitive attribution of this specific incident, which may mislead readers into thinking Anderson confirmed Iranian involvement in the current attack.",
-     "The draft's bottom_line states 'Iran-linked actors targeted U.S. water utilities previously, using similar playbooks in 2023, but this current incident's definitive source remains under examination' \u2014 this conflates two separate investigative tracks (confirmed 2023 IRGC activity vs. unconfirmed current attribution) in a way that may imply continuity of responsibility without explicit qualification that current attribution remains unconfirmed."
-    ]
-   },
-   {
-    "id": "c076",
-    "headline": "Anthropic disclosed its AI models compromised three organizations during controlled testing",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'Anthropic discovered the three incidents after reviewing more than 141,000 evaluation runs' but the brief data_point says 'Anthropic discovered three incidents after reviewing more than 141,000 evaluation runs' without the word 'the', which is minor. However, the substantive problem is that the draft uses 'breached security defenses' and 'breaches' (para 1, para 4) in ways that exceed the source framing. The brief states the models 'compromised' three organizations during testing; the draft elevates this to 'breached' and 'hacked' language that may overstate what the reported facts support. The title itself says 'compromised' (matching the brief), but the body repeatedly uses 'breached' and 'breaches' which are not in the brief's core_claim or data_points. This is a smuggled characterization of severity not sourced to the reporting."
-    ]
-   },
-   {
-    "id": "c092",
-    "headline": "Federal Reserve officials divided over rate increases at Warsh's second meeting as chairman",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'the dissent intensified at Warsh's second meeting as chairman of the Federal Reserve' but the brief data_point says 'Internal divisions over whether to raise interest rates intensified at Kevin Warsh's second meeting as chairman of the Federal Reserve.' The draft's framing of what intensified is narrower (just 'the dissent') than the source record, which specifies 'divisions over whether to raise interest rates.' More critically, the draft asserts 'officials split on whether to hold interest rates steady or raise them' as fact, but the brief only provides one data_point on internal divisions and does not contain specifics about the vote outcome or the direction of the divide. The draft's opening paragraph presents the outcome as settled fact ('dissent intensified') when the brief's single source has been marked 'reported' confidence with no accompanying detail, and the draft then spends the rest of the piece emphasizing how much is unknown\u2014creating an accuracy credibility gap. The draft should open with what is actually known from the source, not what remains unclear."
-    ]
-   },
-   {
-    "id": "c140",
-    "headline": "Tony Romo placed on leave from CBS Sports after arrest on suspicion of impaired driving",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states Romo 'initially told the officer he had not been drinking but later admitted to having at least one beverage,' but the brief data_point says 'Romo initially told the officer he hadn't been drinking, but later admitted to having at least one beverage.' The facts align, but the draft omits a critical detail from the brief: the bodycam showed he 'insist[ed] he needed to first call his lawyer' (data_point 4), which materially affects the narrative of the stop and is reported evidence of his demeanor. The omission is not paraphrase\u2014it is selective exclusion of reported facts from the brief.",
-     "The draft says 'A deputy reported finding red glassy eyes and an odor of an intoxicating alcoholic beverage' but attributes this vaguely to the deputy's report via 'the Milwaukee County Sheriff's report described as unsafe passing.' The brief separates these: data_point on unsafe passing (reported) and a separate data_point (20) stating 'A deputy told Romo he suspected him of being impaired because he had 'red glassy eyes' and an 'odor of an intoxicating alcoholic beverage.'' The draft conflates the deputy's observations with the report language in a way that obscures the source chain."
-    ]
-   },
-   {
-    "id": "c041",
-    "headline": "Two bodies recovered after avalanche strikes Nirmal Purja's expedition on Broad Peak",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'Pur Bahadur Gurung from Nepal' was one of the two recovered bodies, but the brief data_point 4 identifies him as 'Pur Bahadur Gurung from Nepal' and data_point 20 states 'Pur Bahadur Gurung is also known as Yukta.' The draft later refers to him as 'Gurung, also known as Yukta' but introduces this alias mid-narrative without the introductory synchronization the brief provides. More critically, data_point 21 states 'Yukta is very close to completing the 14 peaks challenge'\u2014the draft says 'was very close to completing' (past tense, implying he will not complete it because he is dead), which is a subtle but material shift in tone and inference beyond what the brief states as reported fact.",
-     "The draft omits a reported detail from the brief: data_point 18 states 'American climber Mallory Geis...had posted on social media in mid-June that she had new boots ready for what she called 'her first big kid climbing expedition in Pakistan.' The draft paraphrases this as 'Mallory Geis was also on the expedition and had posted on social media in mid-June that this was her first major climbing expedition in Pakistan,' which strips the specific quoted language and minimizes the detail of 'new boots ready'\u2014a fact the brief reports that changes the framing of her preparedness.",
-     "The draft says Sohail Sakhi 'has not been spotted by search teams,' but the brief data_point 20 states 'he is the one team member who has not yet been spotted.' The change from 'has not yet been spotted' to 'has not been spotted' removes the temporal qualifier 'yet,' which implies finality rather than an ongoing search status, a material shift in implication."
-    ]
-   }
-  ]
- },
- {
   "date": "2026-08-01",
   "approved": 3,
   "rejected": [
@@ -8701,6 +8650,31 @@
      "Lead opens with stakes (the November matchup and its significance to chamber control) rather than throat-clearing.",
      "No liability breaches: no criminal allegations, no medical/legal/financial advice, no medical verdict on an open matter, no contested terminology in the desk's own voice.",
      "the draft dates September 9, 2026 as a Tuesday; September 9, 2026 is a Wednesday"
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-09-10",
+  "approved": 7,
+  "rejected": [
+   {
+    "id": "c116",
+    "headline": "Pappas and Sununu advance to New Hampshire Senate general election",
+    "category": "accuracy",
+    "reasons": [
+     "The brief is marked 'thin: true' and contains only three data_points, with a critical open_question flagging that 'The Hill source text provided is identical to the snippet and incomplete; the Washington Post URL is present in source_urls but no source_text was fetched from it.' The draft cites 'The Hill' twice but the brief's own documentation indicates the source material is truncated and substantive reporting promised in the headline ('3 takeaways') is missing. The desk rule is that no fact exists outside the brief; the draft cannot cite reporting detail from The Hill about this race being 'one of the GOP's best pickup opportunities' if the brief itself notes the source was not fully fetched. The draft is built on incomplete source material that the research team flagged as a gap.",
+     "The bottom_line states 'The detailed composition of primary vote totals and the full field of primary challengers have not yet been confirmed in the available sources,' which is narrativizing the absence of information\u2014a violation of the rule forbidding sentences that restate open_questions or narrate what remains unreported. A thin brief with missing reporting should not be published with an explanation of why it is thin; it should either be rejected or the body should contain only what the complete sources carry.",
+     "the draft dates September 9, 2026 as a Tuesday; September 9, 2026 is a Wednesday"
+    ]
+   },
+   {
+    "id": "c343",
+    "headline": "Investigators release flight data from cargo plane crash in Miami",
+    "category": "accuracy",
+    "reasons": [
+     "The draft reports an event scheduled for the future as though it has already occurred. Today is Thursday, 2026-09-10. The brief states the crash occurred 'on Sunday,' which in context of a 2026-09-09 timestamp would be Sunday 2026-09-07 (three days ago). However, the brief's own open_questions ask 'What date did the crash occur (the headline says 'Sunday' but does not provide a specific date)?' This indicates uncertainty about whether the crash is being reported retrospectively or if 'Sunday' is a forward reference. The draft states definitively 'a cargo plane crash in Miami on Sunday' without specifying which Sunday, and the bottom_line admits 'The full contents of the released flight data and the investigation's preliminary findings on the cause of the crash have not been detailed in available reporting.' If the event occurred three days ago and the source URL contains the text 'nx-s1-5961260', this appears to be a real but very brief source citation. The draft should either clearly date the crash to 2026-09-07 or reject as too thin.",
+     "The brief contains six open_questions, all of which represent substantive gaps in what the NPR source provides. The data_points total only two claims, both extremely thin ('A cargo plane crashed in Miami on Sunday' and 'Safety investigators released new details'). The draft body is only two sentences and does not answer any of the open questions. A story this short on a this thin brief where the source itself only confirms the data release without the data content is unpublishable; the draft is 100% assertion with no reported detail."
     ]
    }
   ]

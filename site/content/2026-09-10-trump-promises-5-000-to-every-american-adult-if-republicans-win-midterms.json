@@ -1,0 +1,52 @@
+{
+  "id": "c015",
+  "slug": "trump-promises-5-000-to-every-american-adult-if-republicans-win-midterms",
+  "kind": "brief",
+  "title": "Trump promises $5,000 to every American adult if Republicans win midterms",
+  "dek": "President Trump announced at the Republican midterm convention on September 9 that every adult U.S. citizen would receive a $5,000 'dividend' if Republicans retain control of both chambers of Congress in November. He gave no details on funding or implementation.",
+  "date": "2026-09-10",
+  "published_utc": "2026-09-10T11:51:58Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 3,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Trump promised the payout at the convention in Dallas, stating it would be called the 'Trump dividend,' with no specified funding mechanism or timeline for delivery.",
+  "bottom_line": "Major midterm campaign promise from sitting president with no funding mechanism specified; carried by all major outlets across political spectrum; affects 2026 election messaging.",
+  "human_take": "",
+  "body": [
+    "President Trump announced at the Republican midterm convention in Dallas that every adult U.S. citizen would receive a $5,000 \"dividend\" if Republicans win both chambers of Congress in the November elections. Trump said the money must be spent in the U.S., stating, per BBC News: \"We don't want you going to Canada to spend the money. We don't want you going to China, to Germany. You got to spend the money in the United States of America.\"\nTrump gave no details on how the plan would work or be funded, per BBC News.\nVice President JD Vance suggested the payments could be funded by tariff revenue. Speaking to Fox News, Vance said, per BBC News: \"What the president is talking about is fundamentally a dividend for American workers. We're taking in an extraordinary amount of revenue because the president of the United States is actually standing up to both foreign companies but also foreign countries who've been taking advantage of America's workers.\"\nThe proposal raises legal and budgetary questions. Federal laws prohibit payments intended to influence voting, per BBC News. However, legal experts consulted by news outlets disagreed on whether the pledge would violate those laws. A lawyer in New Mexico, John Day, told BBC News the plan would be legal, constituting a promise made to all adult citizens during a campaign rather than a \"payment to individuals to try to get them to vote in a particular way.\" An election law expert consulted by the New York Times said Trump's promise would be covered by the free-speech protection of the First Amendment, per BBC News.\nIn the U.S. system, Congress authorizes spending, and Trump did not say during his Dallas speech whether he planned to ask Congress for approval for the payments, per BBC News. It is not clear how spending would be monitored to enforce the requirement that money be spent in the U.S., according to BBC News.\nDemocrats labeled the proposal an \"empty promise.\" Ken Martin, chair of the Democratic National Committee, accused Republicans of holding a \"bizarre dog-and-pony show\" to placate the president's \"fragile ego,\" stating per The Guardian: \"Tonight only confirmed that the president is a lame duck failure who is dragging his party toward defeat.\" Democrats questioned whether such a pledge was legal or feasible, per BBC News.\nTrump previously proposed $2,000 cheques to be funded by tariff revenues, per BBC News. In early 2026, more than 1 million U.S. military service members received a \"warrior dividend\" of $1,776, according to PBS NewsHour. In November 2025, Trump had posted on Truth Social that a \"dividend of at least $2,000 a person (not including high income people!) will be paid to everyone\" funded by tariffs, per PBS NewsHour reporting.\nOne former Republican strategist and pollster, Robert Moran, described the promise as a \"novel solution to an interesting problem,\" noting that the historical pattern was for the party of the president to lose seats in Congress during midterm elections, per BBC News.\nThe Bottom Line: Trump's $5,000 pledge hinges on a Republican November 3 victory and relies on tariff revenue that Congress would need to authorize. The absence of implementation details, funding mechanism, or timeline leaves unclear whether the promise is legally binding or simply campaign rhetoric."
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/now/video/trump-claims-u-s-adults-will-get-a-5k-dividend-if-republicans-win-the-midterms-269599301613"
+    },
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/2026/sep/10/first-thing-trump-5000-dollars-promise-republicans-win-midterms"
+    },
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c62kzr1jg0jo"
+    },
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/live/2026/sep/09/donald-trump-rnc-republican-national-convention-jd-vance-midterms-latest-news-updates"
+    },
+    {
+      "title": "aljazeera.com",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/10/trump-every-american-gets-5000-if-republicans-win-house-senate?traffic_source=rss"
+    },
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/2026/sep/09/trump-republican-convention-speech-midterm-elections"
+    }
+  ],
+  "event_utc": "2026-09-10T02:30:38Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-10T11:51:58Z",
+    "sources_cited": 6,
+    "sources_live_checked": 3
+  }
+}
