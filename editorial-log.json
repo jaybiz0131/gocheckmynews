@@ -1,55 +1,6 @@
 [
  {
   "date": "2026-08-01",
-  "approved": 3,
-  "rejected": [
-   {
-    "id": "c340",
-    "headline": "U.S., Israel planning strikes on Iranian energy infrastructure, sources say",
-    "category": "balance",
-    "reasons": [
-     "The draft presents the Israeli coordination claim prominently ('Israeli officials have been notified and are coordinating with the United States, according to multiple U.S. sources') but buries the direct contradiction from an Israeli official at the end of the body in a single sentence. The brief's bear_case\u2014a formal Israeli denial stating 'Israel is unaware of a decision to restart full military operations, nor has been requested of Israel to join any military actions against Iran'\u2014should appear as a substantive counter-paragraph, not as a tail-end contradiction that reads like a correction. This framing makes the story appear to adopt the U.S. sources' narrative as the main line and treat the Israeli denial as a caveat, when the two claims are fundamentally incompatible and deserve equal weight in the body structure."
-    ]
-   },
-   {
-    "id": "c335",
-    "headline": "U.S. investigating possible Iranian cyberattack on water systems across 7 states",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'The FBI has not identified which six additional states beyond Minnesota were affected' in the bottom_line, but the brief contains no data_point confirming the exact number of additional states. The brief's data_point says 'Malicious cyber activity affected technology at water systems in at least seven states this week' and a separate point says 'The FBI reported incidents in \"at least seven states\" but didn\\'t identify them.' The draft smuggles in the specific claim that there are exactly six additional states (implying seven total minus Minnesota) when the sourced record only says 'at least seven' with no breakdown. This is a factual precision not in the brief."
-    ]
-   },
-   {
-    "id": "c083",
-    "headline": "Tens of thousands of migrants cross into Spain's Ceuta; dozens die",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'Tens of thousands of migrants crossed the border from Morocco into Spain's Ceuta enclave, with dozens killed during the chaos of the crossing before most returned to Morocco.' The brief contains only the same four data_points with 'reported' confidence and no attribution details. The draft does not attribute 'dozens killed' to PBS NewsHour inline; it should read 'according to PBS NewsHour, dozens died' or similar. More critically, the body paragraph lacks inline attribution for the claim about Spain rushing troops and resources\u2014this fact appears in the brief but is presented without source attribution in the draft body.",
-     "The draft opens with facts rather than stakes. A stronger lead would establish why this crossing matters (e.g., what it reveals about border fragility or Spain-Morocco relations) before describing the event itself."
-    ]
-   },
-   {
-    "id": "c079",
-    "headline": "U.S. makes visa bond program permanent, affecting mostly African nations",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'The Trump administration published a notice Friday in the Federal Register' but the brief data_point says 'A draft notice was published Friday in the Federal Register.' The draft omits 'draft' \u2014 a material distinction when discussing regulatory notices, as draft vs. final carries different legal weight. This is a factual misstatement not supported by the brief.",
-     "The draft uses the phrase 'which African countries are affected' in the bottom_line as an open question, but does not acknowledge in the body that the brief itself does not specify which countries are affected. The body says the program 'primarily affects African nations' but should note that no outlet reported the specific list of countries, making the policy's scope genuinely opaque."
-    ]
-   },
-   {
-    "id": "c027",
-    "headline": "Labour's Bev Craig elected mayor of Greater Manchester with decisive vote margin",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states Burnham 'became prime minister on July 20' but the brief data_point says he 'became prime minister on 20 June.' This is a factual error of one month\u2014a material discrepancy in a key date that cannot be reconciled as paraphrase.",
-     "The draft states 'Burnham stepped down after winning the Makerfield by-election in June and subsequently becoming prime minister on July 20' which contradicts the brief's sequential claim that he won the by-election in June and then became PM on 20 June (same month, not July). The chronology in the draft is inaccurate."
-    ]
-   }
-  ]
- },
- {
-  "date": "2026-08-01",
   "approved": 4,
   "rejected": [
    {
@@ -8675,6 +8626,40 @@
     "reasons": [
      "The draft reports an event scheduled for the future as though it has already occurred. Today is Thursday, 2026-09-10. The brief states the crash occurred 'on Sunday,' which in context of a 2026-09-09 timestamp would be Sunday 2026-09-07 (three days ago). However, the brief's own open_questions ask 'What date did the crash occur (the headline says 'Sunday' but does not provide a specific date)?' This indicates uncertainty about whether the crash is being reported retrospectively or if 'Sunday' is a forward reference. The draft states definitively 'a cargo plane crash in Miami on Sunday' without specifying which Sunday, and the bottom_line admits 'The full contents of the released flight data and the investigation's preliminary findings on the cause of the crash have not been detailed in available reporting.' If the event occurred three days ago and the source URL contains the text 'nx-s1-5961260', this appears to be a real but very brief source citation. The draft should either clearly date the crash to 2026-09-07 or reject as too thin.",
      "The brief contains six open_questions, all of which represent substantive gaps in what the NPR source provides. The data_points total only two claims, both extremely thin ('A cargo plane crashed in Miami on Sunday' and 'Safety investigators released new details'). The draft body is only two sentences and does not answer any of the open questions. A story this short on a this thin brief where the source itself only confirms the data release without the data content is unpublishable; the draft is 100% assertion with no reported detail."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-09-10",
+  "approved": 6,
+  "rejected": [
+   {
+    "id": "c311",
+    "headline": "Oil surges past $107 per barrel on September 10 as US-Iran conflict intensifies",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states Trump said he would not expect oil prices to fall until 'right after' the November midterm elections. The brief data point says Trump 'did not expect oil prices to fall until \"right after\" the November midterm elections.' However, the brief also contains a data point stating Trump said 'Right after the election, oil prices are going to be tumbling downward. They're going to be tumbling down, and we'll get them down.' The draft repeats this quote verbatim but then later paraphrases it as Trump saying 'he did not expect oil prices to fall until \"right after\" the November midterm elections, despite having said for months that the war would be over quickly.' This creates an internal contradiction: the quote indicates Trump IS claiming prices will fall right after the election, but the paraphrase presents it as Trump saying he does NOT expect them to fall until then. These are opposite meanings. The brief's confidence on this claim is 'reported' for the first framing and 'verified-on-chain' for the quote itself, so the quote's meaning must control. The paraphrase inverts the actual claim."
+    ]
+   },
+   {
+    "id": "c364",
+    "headline": "Trump administration pursues effort to exclude residents from 2030 census count",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The Trump administration is making a new push to exclude millions of U.S. residents from the 2030 census count' but the brief's data_point only says 'The Trump administration is making a new push to exclude millions of U.S. residents from a key census count.' The specification that this is the 2030 census is not in the brief and represents smuggled information beyond what NPR's reporting carries.",
+     "The draft presents the 14th Amendment language and the exclusion effort as established facts without acknowledging that the brief's own open_questions section explicitly asks 'What is the legal basis the administration is claiming for excluding groups the 14th Amendment text appears to include?' This framing implies settled legal interpretation when the brief itself marks it as unclear.",
+     "The draft is extraordinarily thin (2 sentences of body text) for a story tagged 'thin: true' in the brief. While a thin brief justifies a short story, this draft does not add any context or reporting beyond the single NPR mention. It amounts to reporting that something was reported, which fails to meet baseline transparency about what remains unknown."
+    ]
+   },
+   {
+    "id": "c080",
+    "headline": "Denver sues to block ICE agents at voting sites",
+    "category": "accuracy",
+    "reasons": [
+     "The brief identifies Markwayne Mullin as 'Secretary' and the draft states 'Department of Homeland Security and Secretary Markwayne Mullin.' However, Markwayne Mullin is a U.S. Senator from Oklahoma, not Secretary of Homeland Security. The actual DHS Secretary under Trump in 2026 would be Kristi Noem (as of the timeline reflected in other drafts). This is a factual error about a named individual's official position.",
+     "The draft is extremely thin (three data_points, 363 source characters per brief). The brief itself is marked 'thin: true' and lists six open_questions, indicating major gaps in sourcing. The story cannot be adequately reported with this level of information. The draft lacks: details about which polling locations or voting sites ICE agents have been observed at, the scale or frequency of such sightings, specific relief sought, names of the civil rights groups, and the specific statutory text of the 'troops at polls' law. A story this sparse on material facts reads as rumor-reporting rather than news reporting.",
+     "The draft states 'Civil rights groups argue that sightings of ICE agents at polling places are having a chilling effect on voter participation, according to reporting by the New York Times.' This is vague and does not specify which civil rights groups or provide any quantification of the alleged chilling effect. The brief's open_questions note 'No details are provided about which polling locations... the alleged detainments/warrants involved.' The draft does not fill this gap and thus presents an unsubstantiated claim about voter suppression effect without the evidence to support it."
     ]
    }
   ]
