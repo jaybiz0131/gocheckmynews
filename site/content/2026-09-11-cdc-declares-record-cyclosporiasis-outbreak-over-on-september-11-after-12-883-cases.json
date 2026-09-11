@@ -1,0 +1,36 @@
+{
+  "id": "c210",
+  "slug": "cdc-declares-record-cyclosporiasis-outbreak-over-on-september-11-after-12-883-cases",
+  "kind": "brief",
+  "title": "CDC declares record cyclosporiasis outbreak over on September 11 after 12,883 cases",
+  "dek": "The CDC declared the largest cyclosporiasis outbreak in U.S. history officially ended on Friday, September 11. The outbreak, tied to iceberg lettuce grown by Taylor Farms in Mexico, sickened 12,883 people across 21 states since May 1 and killed two people with underlying health conditions, while hundreds were hospitalized.",
+  "date": "2026-09-11",
+  "published_utc": "2026-09-11T22:38:05Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 7,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The CDC's largest-ever cyclosporiasis outbreak, which killed two people and hospitalized hundreds across 21 states, has been declared officially over.",
+  "bottom_line": "The outbreak declaration does not end the CDC's or FDA's investigation into how contamination occurred at Taylor Farms or whether corrective measures have been implemented. The agency's statement that \"the contaminated lettuce is no longer available\" represents supply removal, not root-cause elimination. The five ongoing FDA investigations of other cyclosporiasis clusters will indicate whether this outbreak was an isolated incident or a sign of systemic gaps in imported produce safety.",
+  "human_take": "",
+  "body": [
+    "The Centers for Disease Control and Prevention declared the largest cyclosporiasis outbreak in U.S. history officially ended on Friday, September 11. The outbreak sickened 12,883 people across 21 states since May 1 and was traced to iceberg lettuce grown by Taylor Farms in Mexico, according to the Washington Examiner.\nTwo people with significant underlying health conditions died in Michigan, according to the Examiner. Michigan was among the hardest hit states: the Examiner reports that as of early last month, the state had recorded 11,234 outbreak-related cases and 193 hospitalizations.\nCyclosporiasis is an intestinal infection contracted by consuming food or water contaminated with human feces infected by the cyclospora cayetanensis parasite, according to the Examiner. Symptoms include watery diarrhea, loss of appetite, weight loss, cramping, nausea, vomiting, and fatigue.\nTaylor Farms, a produce giant, recalled multiple lettuce products on July 17, per the Examiner. The company supplied shredded lettuce to Taco Bell, and authorities linked the Taco Bell outbreak at multiple locations to many of the cases. The Examiner reports that the CDC's outbreak page states \"the contaminated lettuce linked to this outbreak is no longer available in stores or restaurants\" and that \"the number of recent infections linked to the outbreak has significantly declined.\"\nThe FDA sent investigators to Mexico to inspect Taylor Farms' operations in August, according to the Examiner. Past cyclosporiasis outbreaks have been tied to imported produce such as raspberries, cilantro, mesclun lettuce, snow peas, and basil, the CDC noted, per the Examiner.\nWhile the Taylor Farms outbreak is declared over, the cyclosporiasis problem persists elsewhere.  The FDA is investigating five outbreaks of cyclosporiasis still under review, per the Examiner's review of the FDA's foodborne illness investigations page."
+  ],
+  "sources": [
+    {
+      "title": "Washington Examiner",
+      "url": "https://www.washingtonexaminer.com/policy/healthcare/4724340/cdc-cyclosporiasis-outbreak-over/"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/newsletters/healthcare/6085623-cdc-declares-cyclospora-outbreak-over/"
+    }
+  ],
+  "event_utc": "2026-09-11T20:57:06Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-11T22:38:05Z",
+    "sources_cited": 2,
+    "sources_live_checked": 1
+  }
+}

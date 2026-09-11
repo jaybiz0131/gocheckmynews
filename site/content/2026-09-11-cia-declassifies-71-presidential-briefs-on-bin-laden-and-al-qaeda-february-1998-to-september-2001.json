@@ -1,0 +1,46 @@
+{
+  "id": "c074",
+  "slug": "cia-declassifies-71-presidential-briefs-on-bin-laden-and-al-qaeda-february-1998-to-september-2001",
+  "kind": "brief",
+  "title": "CIA declassifies 71 presidential briefs on bin Laden and al-Qaeda, February 1998 to September 2001",
+  "dek": "On the 25th anniversary of the attacks, the CIA released 71 declassified presidential daily briefs spanning February 1998 to September 12, 2001, detailing intelligence on Osama bin Laden's operational plans, targeting preferences, and capability development. The briefings tracked bin Laden's interest in attacking the U.S., his network's hijacking preparations, and weapons experimentation, though analysts say the documents do not break new ground on how the attacks were planned or understood.",
+  "date": "2026-09-11",
+  "published_utc": "2026-09-11T22:38:05Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 12,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "A September 1998 CIA briefing stated bin Laden's 'preferred option is to strike the US on its own soil in Washington' and that al-Qaeda 'may fly an explosive-packed airplane into a US city.'",
+  "bottom_line": "The declassified briefs document how U.S. intelligence tracked bin Laden's stated intentions and operational development from 1998 onward, including specific assessments of targeting preference and hijacking preparation. Whether this release changes the public understanding of what officials knew and acted on before September 2001 depends on analysis still emerging from the record itself.",
+  "human_take": "",
+  "body": [
+    "The CIA on September 11, 2026, the 25th anniversary of the attacks, declassified 71 presidential daily briefs documenting U.S. intelligence on Osama bin Laden and al-Qaeda spanning from February 1998 through September 12, 2001. The release represents, according to CIA Director John Ratcliffe, \"the agency's single largest release of declassified presidential daily briefs\" and an \"act of exceptional transparency.\"",
+    "The briefings show U.S. intelligence officials tracking bin Laden's operational intentions, targeting preferences, and weapons development over a three-and-a-half-year period before the hijackings killed nearly 3,000 people. What emerges from the declassified documents is a detailed record of how analysts assessed bin Laden's threat and capability, though intelligence officials contest that the documents offer substantially new insights into the attacks or gaps in pre-9/11 understanding.",
+    "A February 1998 briefing prepared for President Bill Clinton bore the title \"Terrorists seeking WMD capability\" and mentioned \"bin Ladin and other Islamic extremists,\" per PBS NewsHour. An April 1998 document described the Taliban's unwillingness to hand over bin Laden, whom they regarded as their \"guest\" in Afghanistan, noting their \"gratitude for his assistance during the Soviet occupation\" was making them \"reluctant to alienate him by monitoring or controlling his activities,\" according to the Guardian's reporting.",
+    "By July 1998, briefers assessed it \"plausible that Bin Ladin places a high priority on conducting attacks in the United States\" and noted his \"interest in conducting attacks with chemical and biological agents,\" the Guardian reports. Two months later, in September 1998, a briefer wrote that bin Laden's \"preferred option is to strike the US on its own soil in Washington\" and that al-Qaeda \"may fly an explosive-packed airplane into a US city.\" In December 1998, intelligence officials documented that conspirators \"had evaded security checks during a recent trial run at an unidentified New York airport\" and that \"some members of the Bin Ladin network have received hijack training,\" per the Guardian.",
+    "By June 1999, according to intelligence officials cited in the Guardian's reporting, bin Laden's operatives had conducted experiments with explosives infused with radioactive material, or \"dirty bombs,\" to \"increase their energy output.\" Briefs prepared for President George W. Bush in early 2001 focused on bin Laden's \"experimentation by crude means to make and deploy biological agents.\" In August 2001, one month before the attacks, officials wrote of \"suspicious activity in this country consistent with preparations for hijackings or other types of attacks, including recent surveillance of federal buildings in New York\" and noted that the FBI was \"conducting approximately 70 full field investigations throughout the US that it considers Bin Ladin-related,\" the Guardian reports.",
+    "A report from the month before the attacks indicated bin Laden's commitment \"to conduct terrorist attacks in the US,\" noting that the 1998 al-Qaeda attacks on U.S. embassies \"demonstrate that he prepares operations years in advance and is not deterred by setbacks.\" A document from weeks before the attacks detailed how al-Qaeda's \"flexible operational decision making and broad definition of acceptable targets enable the group to adjust plans to changing conditions,\" per PBS NewsHour. The White House also noted on Friday the release of another batch of documents by the National Archives, including interviews with national security officials from the Clinton and Bush administrations, as a product of the commission that investigated the attacks from 2002 to 2004.",
+    "Many of the released documents were redacted to conceal sources' names and other identifying information. The Guardian reports that the released materials \"didn't appear to break any new ground on the planning of the attacks or on US officials' understanding of how they had unfolded,\" suggesting the declassification does not fundamentally alter the historical record or reveal previously unknown intelligence gaps."
+  ],
+  "sources": [
+    {
+      "title": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/politics/cia-releases-dozens-of-presidential-daily-briefs-on-bin-laden-and-al-qaida-before-sept-11"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/video/cia-declassifies-presidential-daily-briefs-leading-up-911-attacks/"
+    },
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/2026/sep/11/cia-releases-presidential-briefs-bin-laden-al-qaida"
+    }
+  ],
+  "event_utc": "2026-09-11T19:58:22Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-11T22:38:05Z",
+    "sources_cited": 3,
+    "sources_live_checked": 3
+  }
+}

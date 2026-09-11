@@ -1,66 +1,6 @@
 [
  {
   "date": "2026-08-02",
-  "approved": 2,
-  "rejected": [
-   {
-    "id": "c184",
-    "headline": "State Department Urges Americans to Consider Leaving Middle East as Conflict Escalates",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'Washington and Tehran have engaged in escalating strikes and counter-strikes since a ceasefire in April aimed at pausing the war fell apart in June.' However, the brief's data_points describe 'a brief reprieve from fighting in June when the U.S. and Iran signed a memorandum of understanding outlining the process for talks to end the war' and 'In early July, Trump declared a ceasefire to be over.' The draft's claim about a ceasefire in April does not appear in the brief's sourced data_points and appears to be SMUGGLED information.",
-     "The draft claims 'The U.S. and Israel began launching their strikes against Iran on February 28,' but this date does not align with the timeline described in the brief's data_points, which reference June ceasefire attempts and July resumption. This specific date (February 28) is not verified in the brief's data_points.",
-     "The bottom_line references 'a reported planned bombing campaign targeting Iranian energy infrastructure' as something to 'watch for,' but the brief's corresponding data_point marks this as 'unconfirmed' (\"The U.S. and Israel were planning what would be one of the harshest bombing campaigns to date against energy infrastructure targets in Iran, according to multiple sources who spoke to CBS News.\"). The draft should flag this as unconfirmed rather than present it as an established fact to monitor."
-    ]
-   },
-   {
-    "id": "c086",
-    "headline": "Three Dead and At Least Two Injured in Shooting at Twin Falls In-N-Out Burger",
-    "category": "compliance",
-    "reasons": [
-     "The draft header indicates 'boundary_required: true' and 'boundary_ok: false' with the reason 'this story turns on a version, date range or threshold but the brief carries no boundary block.' The draft should not have been submitted without a completed boundary block (affected/fixed/user_action/advisory_url) in both the draft and brief. A liability issue exists: this is an ongoing active investigation with preliminary casualty numbers, and the story lacks the required advisory structure to guide affected readers. The draft must include or be rejected until boundary information is provided."
-    ]
-   },
-   {
-    "id": "c021",
-    "headline": "Blast at Moscow restaurant kills at least three, detonation prevented at entrance",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'At least 21 people were injured in the blast, according to CBS News reporting of the National Anti-Terrorism Committee's statement.' However, the brief data point on the same claim cites CBS as the source but the brief also contains a separate data point from ABC News stating '15 injured' and another from BBC (the primary source) stating '21 injured.' The draft selectively attributes only the CBS figure without acknowledging the discrepancy or noting that initial reports differed. This is not a paraphrase problem\u2014it's a failure to trace the fact accurately to what the brief actually carries.",
-     "The draft states the device detonated 'before she could proceed' into the restaurant, but the brief's data point says 'a woman carrying the device attempted to enter the restaurant but was stopped by a security guard' followed by 'The device detonated before she could proceed.' This is technically traceable, but the draft's phrasing ('before she could proceed') could be read as 'before she could proceed further into the building' rather than the brief's meaning ('before she could proceed into the restaurant at all'). The sequence matters for liability: it suggests the guard's action and the detonation timing. The draft should be clearer."
-    ]
-   },
-   {
-    "id": "c017",
-    "headline": "Migrant surge into Spanish enclave fractures EU unity, emergency talks called",
-    "category": "balance",
-    "reasons": [
-     "The brief identifies significant bear_case material: S\u00e1nchez's claim that Spain 'fully restored control' in 48 hours, his assertion that Ceuta is not part of Schengen (making suspensions legally inappropriate), his accusation that other EU states acted from 'prejudice, fake news, ignorance, or political interest,' and his blame of traffickers for misrepresenting a court ruling. The draft includes these Spanish rebuttals but frames them as defensive reactions to criticism rather than presenting them as a substantive counter-narrative. The draft opens with the EU's accusatory framing ('fractures EU unity,' 'suspended,' 'raised travel advisory') and allows Spanish defenses into the story only after establishing the EU's critical frame. A balanced draft would present both the EU's concerns and Spain's counter-evidence with proportionate weight and voice, not subordinate the bear_case to the lead's hostile framing.",
-     "The draft's opening sentence\u2014'The European Union called emergency talks for Tuesday after roughly 60,000 migrants crossed from Morocco into Spain's Ceuta enclave in a 24-hour period on July 30, 2026'\u2014uses causal language ('after') that implies EU action was triggered by the surge itself, rather than by competing interpretations of whether Spain's border control failed. The bear_case supports reading this as a controlled situation that Spain contained; the draft does not allow that reading prominence until later. This is a framing bias, not an omission."
-    ]
-   },
-   {
-    "id": "c078",
-    "headline": "Iran Covertly Planned Strategy to Deter U.S. Military Action, New York Times Reports",
-    "category": "accuracy",
-    "reasons": [
-     "The New York Times source URL is stated to return 'only HTML markup and CSS styling code with no readable article text' in the brief's open_questions section. The draft presents facts from an unverifiable source as reportage ('The New York Times reports that Iran devised a covert plan'). No data_points exist in the brief to back the core claim; the entire story rests on a source that cannot be verified.",
-     "The brief explicitly notes 'The full reporting cannot be verified from the fetched source.' Publishing a story built entirely on unverifiable reporting violates the desk's hard rule that facts must trace to the research brief, and the brief itself cannot confirm the source contains the reported information."
-    ]
-   },
-   {
-    "id": "c183",
-    "headline": "Washington Governor Declares State of Emergency as Wildfires Burn Over 200,000 Acres",
-    "category": "accuracy",
-    "reasons": [
-     "The brief's open_questions note that 'The Washington Examiner source also returns primarily HTML markup rather than full article text; key details on evacuation zones, fire names, number of people evacuated, and specific timeline remain inaccessible.' The four data_points in the brief are marked 'reported' confidence from a source that cannot be verified in its full form.",
-     "The draft presents facts ('more than 200,000 acres burned in 12 large fires', 'Evacuations were ordered throughout Spokane County') as settled facts traced to the Washington Examiner, but the brief itself flags that the source is inaccessible. Per the hard rule, facts must trace to verifiable research; an unverifiable source\u2014even if attributed\u2014cannot anchor factual claims in a draft."
-    ]
-   }
-  ]
- },
- {
-  "date": "2026-08-02",
   "approved": 4,
   "rejected": [
    {
@@ -8613,6 +8553,62 @@
     "category": "accuracy",
     "reasons": [
      "the draft dates September 10, 2026 as a Wednesday; September 10, 2026 is a Thursday"
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-09-11",
+  "approved": 5,
+  "rejected": [
+   {
+    "id": "c164",
+    "headline": "Saudi Arabia Shuts East-West Pipeline After Drone Attack from Iraq, September 11",
+    "category": "accuracy",
+    "reasons": [
+     "The brief contains a data point about Houthis seizing the Red Sea coast and three strategic islands on Friday (September 12, 2026, the day after today's date of September 11). This event is scheduled for tomorrow, not a past event. The draft does not mention this claim at all, which is correct\u2014the draft should not report a future event as having happened. However, the brief's inclusion of this as a confirmed data point with 'reported' confidence creates a factual problem: the brief itself appears to contain forward-dated information that should not be presented as already-occurred fact in any draft written on September 11. The draft correctly omits this, but the brief's data integrity is compromised. This means the brief itself cannot reliably guide the draft. REJECT on grounds that the research base contains a future event presented as past fact.",
+     "Additionally, the draft states 'the energy minister characterized the shutdown as a precautionary measure but did not officially attribute the attack to any specific party,' which accurately reflects the bear_case. However, the opening paragraphs attribute the attack to Iraq-based drones without the same hedging language that appears later, creating a tonal inconsistency that borders on moving between attribution levels within the same story. The phrase 'According to the ministry, the attacks resulted in injuries and material damage' and 'Saudi Arabia's Ministry of Foreign Affairs said the drones originated from Iraq' should carry consistent confidence signaling.",
+     "the draft dates September 11, 2026 as a Thursday; September 11, 2026 is a Friday"
+    ]
+   },
+   {
+    "id": "c092",
+    "headline": "Federal Appeals Court Strikes Down Trump Order Keeping Michigan Coal Plant Open, September 11",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states the court ruled 'on Friday' (September 11) but provides no explicit confirmation in the body that the ruling occurred on September 11. The brief and sources are dated 2026-09-11, but the story's opening says 'The U.S. Court of Appeals for the District of Columbia Circuit on Friday struck down Energy Secretary Chris Wright's emergency order' without clearly anchoring 'Friday' to today's date (September 11). For a reader on September 11 reading 'on Friday,' this is clear, but the phrasing is imprecise for archival clarity. More critically: the draft does not state when Wright initially issued the emergency order or when it was set to expire, creating ambiguity about the timeline.",
+     "The brief's data point states Wright kept the plant open 'through August 2026,' but today's date is September 11, 2026. If the order was set to expire in August and we are now in September, the order has already lapsed. The draft says the court 'struck down' the order, but does not clarify whether the order was already expired by September 11 or whether the court's decision preempted a live order still in effect. This is a critical factual gap that the brief does not resolve. The draft should state the order's expiration date and whether the court acted before or after that date.",
+     "The phrase 'cost about $259 million so far' in the draft traces to The Hill, but the brief does not specify the timeframe over which this cost accrued, leaving ambiguity about whether costs continued after August 2026 or whether this is the cumulative total through the order's expiration."
+    ]
+   },
+   {
+    "id": "c013",
+    "headline": "CDC removed Pennsylvania measles deaths after HHS Secretary Kennedy questioned state determinations",
+    "category": "compliance",
+    "reasons": [
+     "The draft contains loaded language and characterization in the desk's own voice rather than attributed to sources. The phrase 'breaks with decades of federal practice' is the draft's own characterization of the removal as unprecedented, but the brief's data_point uses NPR's language: Kennedy's action is characterized as 'unprecedented intervention' only when attributed to NPR. The draft adopts that framing as its own narration without attribution, creating a compliance problem: contested characterizations of official conduct must stay in source voice.",
+     "The bottom_line contains advocacy-adjacent framing: 'The real test comes when the next major outbreak requires coordination' reads as commentary on stakes and judgment about what matters most, which borders on editorial voice. It also uses 'the erosion of trust' as established fact without grounding it in the brief's data about what actually happened versus expert worry about what could happen.",
+     "The draft states 'The CDC and HHS have not provided a public account of how or why the Pennsylvania deaths were removed from the official record, leaving their version of the dispute unavailable.' This violates the rule against narrating absence. The brief notes the bear_case as 'The CDC and Department of Health and Human Services did not respond to NPR's requests for comment.' The draft has transformed a 'no response to requests' into a narrative claim that they have not provided explanation, and then compounds it by using that absence to imply they have something to hide ('leaving their version unavailable'). This is rumor-laundering."
+    ]
+   },
+   {
+    "id": "c090",
+    "headline": "Saudi Arabia shuts East-West pipeline after drone attack; Houthis threaten Red Sea shipping",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Brent crude fell below $105 per barrel on Friday after trading near $110 overnight, as markets rebounded' but the brief's data_point says 'The price for a barrel of Brent crude fell under $105 after getting near $110 overnight, as markets rebounded on Friday.' The brief does not contain a sourced claim about the crude 'trading near $110 overnight'\u2014this temporal detail about overnight trading is not in the brief and appears to be introduced by the writer.",
+     "The draft attributes the Houthi targeting of the pipeline as fact ('Multiple reports indicate the Iran-backed Houthis also targeted the pipeline') but the brief's bear_case explicitly states 'Saudi authorities did not attribute blame for the pipeline attack\u2014only multiple reports indicate the Iran-backed Houthis were responsible, not a confirmed statement.' The draft removes the disambiguation that this is multiple-report inference, not official confirmation, and presents it in a way that could mislead readers into thinking it was confirmed.",
+     "The draft states 'drones launched from Iraq' as fact in the opening, but the brief's data_point says 'Saudi Arabia's foreign ministry said the pipeline was targeted by several drones launched from Iraq.' The attribution to the foreign ministry's claim is lost in the draft's opening sentence, presenting a contested claim as established fact without source discipline."
+    ]
+   },
+   {
+    "id": "c251",
+    "headline": "House to consider Russia sanctions bill on September 15",
+    "category": "accuracy",
+    "reasons": [
+     "The draft opens with 'The House Rules Committee will meet Monday, September 15' but today is Friday, 2026-09-11. September 15 is four days away, making it a scheduled future event. The draft reports it in past tense with 'will meet', which is correct for a scheduled event. However, the bottom_line states 'The House Rules Committee's Monday meeting sets the procedural calendar' using present tense as though the meeting has occurred or is certain to occur as written. Since the meeting has not yet happened and is only scheduled, this phrasing risks reading as though confirmed, when the brief itself contains only reported scheduling.",
+     "The draft states the bill is 'championed by the late Sen. Lindsey Graham' but the brief data_point says 'The Russia sanctions bill is championed by the late Sen. Lindsey Graham (R-S.C.).' This is accurate to the brief. However, the opening paragraph then states the bill was 'backed by President Trump' without the qualification that this is from the brief\u2014while the data_point supports it, the phrasing 'and backed by President Trump' in the same sentence as Graham creates ambiguity about whether Trump's backing is current and active or historical. The brief offers no temporal qualifier or current statement from Trump on this bill.",
+     "the draft dates September 15, 2026 as a Monday; September 15, 2026 is a Tuesday"
     ]
    }
   ]
