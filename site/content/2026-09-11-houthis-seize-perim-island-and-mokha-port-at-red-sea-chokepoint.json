@@ -1,0 +1,73 @@
+{
+  "id": "c072",
+  "slug": "houthis-seize-perim-island-and-mokha-port-at-red-sea-chokepoint",
+  "kind": "brief",
+  "title": "Houthis seize Perim island and Mokha port at Red Sea chokepoint",
+  "dek": "Iranian-backed Houthi rebels captured Perim island inside the Bab el-Mandeb Strait and the port city of Mokha on September 11, according to military officials from Yemen's internationally recognized government and Houthi sources. The seizure advances territorial control near a critical global shipping chokepoint and threatens Saudi Arabia's oil export alternatives.",
+  "date": "2026-09-11",
+  "published_utc": "2026-09-11T17:18:24Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 1,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The Houthis captured Mayun (Perim) island inside the Bab el-Mandeb Strait, a 28-kilometer-wide passage where the Red Sea meets the Gulf of Aden, and Mokha port 80 kilometers away, per PBS NewsHour reporting.",
+  "bottom_line": "The territorial gains place the Houthis within striking range of one of the world's most important energy chokepoints at a moment when Saudi Arabia has limited alternatives for exporting crude. Whether this translates into sustained disruption of global shipping, or whether existing reroutes absorb the traffic, will determine the scale of economic impact across energy and consumer markets.",
+  "human_take": "",
+  "body": [
+    "Iranian-backed Houthi rebels captured Perim island inside the Bab el-Mandeb Strait and the port city of Mokha on September 11, according to a senior military official with Yemen's internationally recognized government and a Houthi official, both speaking on condition of anonymity. The Bab el-Mandeb Strait, which at its narrowest spans 28 kilometers (17 miles), connects the Red Sea to the Gulf of Aden and ranks among the world's most critical shipping passages.",
+    "The seizure of Perim and Mokha, located 80 kilometers (50 miles) from the strait, extends Houthi territorial control closer to one of the globe's most vital energy corridors. According to PBS NewsHour's reporting, approximately $1 trillion in goods ordinarily pass through the Red Sea annually. Shipping through the Bab al-Mandeb had declined by roughly 60% since the Houthis began attacking some vessels there in late 2023, per the same reporting.",
+    "Saudi Arabia responded with a strike on the Mokha airport the Houthis seized that day; according to PBS NewsHour, there were no reported deaths or damage. In a statement issued Friday, the Houthi armed forces vowed \"escalation for escalation\" in confrontation with Saudi Arabia while declaring that \"maritime navigation is safe for all companies except for Saudi vessels,\" per PBS NewsHour's account.",
+    "Saudi Arabia has increasingly depended on the Red Sea route as an alternative to the Strait of Hormuz, where Iran has been conducting strikes on shipping. The Houthis declared a blockade in July and have been attacking Saudi shipping on the Red Sea since then, per PBS reporting.",
+    "Crude prices surged past $100 a barrel following the territorial capture, according to PBS NewsHour, potentially expanding Tehran's leverage in any future negotiations. A senior military official with Yemen's internationally recognized government, quoted by PBS NewsHour, assessed that Saudi Arabia did not receive clearance from the U.S. to conduct a large-scale air campaign to prevent the Houthi capture of Mokha.",
+    "The escalating conflict threatens to rupture a fragile truce that has largely contained Yemen's civil war since 2022, per PBS NewsHour. That earlier conflict killed approximately 150,000 people and drove many others toward famine. The surge in fighting this past week sent over 46,000 people fleeing their homes, according to the U.N. migration agency.",
+    "Iran's government called for an end to Saudi Arabia's blockade of Houthi-held areas and requested a return to negotiations between Saudi Arabia and the Houthis. A spokesperson for Iran's Revolutionary Guard, per PBS NewsHour, called explicitly for any negotiated settlement with the U.S. to include Yemen, marking the first public reference to that front. The foreign ministers of Iran and Saudi Arabia spoke on September 11 about diplomatic efforts to \"restore stability\" to the region, according to Iranian Foreign Minister Abbas Araghchi, per PBS NewsHour reporting."
+  ],
+  "sources": [
+    {
+      "title": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/world/yemens-iranian-backed-houthis-seize-an-island-in-a-key-strait-opening-a-new-front-in-the-iran-war"
+    },
+    {
+      "title": "aljazeera.com",
+      "url": "https://www.aljazeera.com/news/2026/9/11/yemen-risks-return-to-civil-war-as-iran-backed-houthis-target-vital-oil-shipping-route"
+    },
+    {
+      "title": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPM0JXR25HRTJQajYwc0JCVkd0dnBQdXBiOVRMQjM2RVJYS0gzTmo5Ykg1RGJqYkpVSnBGajJfLWlCYmJWTG5fWlNxcXV3eGN2Z1Jud3VzanpiQ2ZrSzB0bDY3OW5FRzZELVlYMmJfbXpGUXBadWVyOU9Fa0YyYzBqZVByR3BFNnNBdTlGOXlKUGlHaDl0QkJxUmo5LW9SV1htNXlqRy1QNGV6Zw?oc=5"
+    }
+  ],
+  "event_utc": "2026-09-11T15:54:06Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-11T17:18:24Z",
+    "sources_cited": 3,
+    "sources_live_checked": 3
+  },
+  "update_of": "houthis-seize-mokha-and-perim-in-bab-el-mandeb-strait-ending-four-year-truce",
+  "also_reported_by": [
+    {
+      "outlet": "The New York Times",
+      "headline": "Houthis Seize a Key Red Sea Island, Threatening Yet Another Global Oil Route - The New York Times"
+    },
+    {
+      "outlet": "CNBC",
+      "headline": "Houthis reportedly advance to key Red Sea island, further threatening crucial oil choke point - CNBC"
+    },
+    {
+      "outlet": "BBC",
+      "headline": "Houthis take strategic Red Sea island, witnesses say - BBC"
+    },
+    {
+      "outlet": "NewsCord",
+      "headline": "Houthis Seize Mokha and Mayyun Island as Yemen Government Forces Withdraw From Perim Island - NewsCord"
+    },
+    {
+      "outlet": "NBC News",
+      "headline": "Iran-backed Houthis take control of Red Sea coastline, tightening grip on crucial shipping lane - NBC News"
+    },
+    {
+      "outlet": "The Indian Express",
+      "headline": "Houthis seize Perim island in Bab el-Mandeb Strait: Why Red Sea chokepoint matters to Saudi oil - The Indian Express"
+    }
+  ]
+}

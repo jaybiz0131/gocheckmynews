@@ -1,55 +1,5 @@
 [
  {
-  "date": "2026-08-01",
-  "approved": 3,
-  "rejected": [
-   {
-    "id": "c181",
-    "headline": "State Department Warns Americans to Consider Leaving Middle East as Iran Conflict Intensifies",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'The State Department also urged Americans to reconsider travel to or through the region,' but the brief data_point says 'urged Americans to reconsider travel bans to or through the region.' The word 'bans' is missing and changes the meaning; this appears to be a drafting error that misrepresents what the State Department said.",
-     "The draft quotes Trump saying he will be 'hitting them very hard,' but does not attribute this to a specific source outlet inline. The brief attributes it to NBC News reporting, but the draft does not make this attribution transparent.",
-     "The draft includes 'hours after Fox News reported that Trump in a phone call had vowed to use aggressive language toward the country,' but the brief data_point contains the actual quote 'beat the f---ing s--- out of' the country. The draft sanitized the quote without flagging it as paraphrased or softened language, which obscures what was actually said."
-    ]
-   },
-   {
-    "id": "c077",
-    "headline": "HOLD: Source Material Not Retrieved",
-    "category": "accuracy",
-    "reasons": [
-     "The draft is a hold notice, not a story. The brief shows empty data_points and open_questions that state source material could not be retrieved. The desk rule is that 'no fact exists outside the brief.' A hold notice acknowledging source retrieval failure is not a reportable story and violates the mandate to draft from verified sources. The research must return with retrievable sources before a draft can be approved."
-    ]
-   },
-   {
-    "id": "c275",
-    "headline": "Three killed, two injured in active shooter incident in Twin Falls, Idaho",
-    "category": "accuracy",
-    "reasons": [
-     "The draft attributes casualty figures to 'Idaho Falls spokesperson Josh Palmer' but the incident occurred in Twin Falls, Idaho, not Idaho Falls. This is a factual error that changes the official source attribution."
-    ]
-   },
-   {
-    "id": "c155",
-    "headline": "Trump rebukes U.S. Attorney Pirro as DOJ dismisses Reflecting Pool case",
-    "category": "accuracy",
-    "reasons": [
-     "The entire draft is about the Reflecting Pool case (Trump, Pirro, Hearn, contractor failure), but the research brief provided contains only data points about an Ebola outbreak in DR Congo (cases, deaths, Bundibugyo strain, vaccines). No facts in the draft\u2014including Trump's Truth Social posts, Hearn's indictment date, Pirro's role, contractor name Atlantic Industrial Coatings, the $14 million contract, the National Park Service engineer's June 11 email, or Secretary Burgum's statement\u2014appear in the brief's data_points. The brief and draft are completely mismatched. The writer was given a DR Congo Ebola brief but wrote a Reflecting Pool/Hearn story.",
-     "This is a fundamental rule violation: 'no fact exists outside the brief.' Every substantive claim in the draft must trace to a data_point; none do."
-    ]
-   },
-   {
-    "id": "c045",
-    "headline": "Current Ebola outbreak worst ever in DR Congo, WHO says",
-    "category": "accuracy",
-    "reasons": [
-     "The entire draft is about a DR Congo Ebola outbreak (Bundibugyo strain, case counts, deaths, vaccine development), but the research brief provided contains only data points about the Reflecting Pool case (Hearn's indictment, Trump's dismissal criticism, Pirro, contractor failure, Burgum's statement). No facts in the draft\u2014including the 3,605 cases, 1,587 deaths, 44% fatality rate, May 15 declaration date, Ituri province, M23 armed group, Uganda/France/Germany cases, Singapore/UK vaccine trials\u2014appear in the brief's data_points. The brief and draft are completely mismatched. The writer was given a Reflecting Pool brief but wrote a DR Congo Ebola story.",
-     "This is a fundamental rule violation: 'no fact exists outside the brief.' Every substantive claim in the draft must trace to a data_point; none do."
-    ]
-   }
-  ]
- },
- {
   "date": "2026-08-02",
   "approved": 2,
   "rejected": [
@@ -8631,6 +8581,38 @@
     "reasons": [
      "The draft contains a factual claim that does not appear in the brief's data_points: 'A new NBC News poll found that around 70% of voters disapproved of Trump's handling of the Iran war.' This claim appears in the brief's data_points (data_point 20), but it is never attributed in the draft. The draft presents this as part of the narrative without any source attribution, and it is separated from any clear sourcing context. This is a SMUGGLED fact\u2014a polling number inserted without inline attribution to NBC News or any other named outlet. The rule is that every number traces back to research; this one does, but the draft fails to carry the attribution.",
      "The draft's bottom_line states: 'The next several consumer price reports will reveal whether and when that translates to retail prices.' This reads as the desk's own prediction or forecast about what future data will show, not as reporting of what is already known or what sources predict. Bottom_lines must look forward to what to watch or what would invalidate a claim, not forecast the contents of unreleased government reports as though the desk has special knowledge. This is compliance territory: predictions presented as fact."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-09-11",
+  "approved": 5,
+  "rejected": [
+   {
+    "id": "c013",
+    "headline": "Supreme Court rejects GOP-backed Missouri map, state reverts to 2022 districts",
+    "category": "accuracy",
+    "reasons": [
+     "The draft reports the Supreme Court decision as having occurred on 'Thursday' (September 10, 2026), but today is Friday, September 11, 2026. The draft correctly uses future tense 'will hear arguments' for the appellate court, but the main event is dated in the past. A Supreme Court decision issued yesterday is not 'news' in the present tense\u2014it should be dated or framed as 'this week' or use past-tense framing that makes clear timing. The opening sentence 'The U.S. Supreme Court on Thursday rejected...' treats a yesterday-event as breaking news without temporal clarity that would confuse a Friday reader about when this occurred."
+    ]
+   },
+   {
+    "id": "c340",
+    "headline": "Philippines ferry fire death toll rises to 35 after Coast Guard recovery operation, September 11",
+    "category": "accuracy",
+    "reasons": [
+     "Death toll figures are inconsistent between sources cited in the brief. Al Jazeera reports 35 dead; BBC reports 5 dead as of Friday morning with 84 missing. The draft opens with '35' as settled fact, but the brief's open_questions flag notes the discrepancy reflects different recovery phases (Al Jazeera's updated count vs. BBC's earlier count). The draft does not acknowledge this uncertainty or the conflicting figures, presenting a single number as definitive when the sources themselves contradict.",
+     "The draft states 'recovered 30 bodies' in the lead, but later reports 'As of Friday morning, 54 people were still unaccounted for and 43 had been rescued.' The math does not align: if 35 are dead, 43 rescued, and 54 unaccounted for, that is 132 of 134, leaving 2 unaccounted for per the manifest adjustment\u2014but the 30 recovered bodies claim conflicts with the 35 death toll claim in sequence. The brief notes this conflicting accounting across sources.",
+     "The draft attributes the MARINA statement about explosions as fact ('According to a statement from the Maritime Industry Authority citing survivor accounts, two successive explosions were heard') but the brief's open_questions note states 'Whether this was verified or remains preliminary is not stated.' The draft does not flag this as preliminary or survivor-reported; it reads as established fact."
+    ]
+   },
+   {
+    "id": "c154",
+    "headline": "Democratic socialist wins Providence mayoral primary on September 10; governor ousted same night in Rhode Island",
+    "category": "accuracy",
+    "reasons": [
+     "the draft dates September 10, 2026 as a Wednesday; September 10, 2026 is a Thursday"
     ]
    }
   ]

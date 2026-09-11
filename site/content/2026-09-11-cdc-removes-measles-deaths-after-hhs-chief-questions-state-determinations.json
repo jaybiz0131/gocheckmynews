@@ -1,0 +1,37 @@
+{
+  "id": "c010",
+  "slug": "cdc-removes-measles-deaths-after-hhs-chief-questions-state-determinations",
+  "kind": "brief",
+  "title": "CDC removes measles deaths after HHS chief questions state determinations",
+  "dek": "The CDC removed two Pennsylvania measles deaths from its website after HHS Secretary Robert F. Kennedy Jr. questioned the state's cause-of-death determinations. Public health experts warn the move undermines federal-state coordination and trust in disease surveillance as measles cases and vaccination hesitancy rise.",
+  "date": "2026-09-11",
+  "published_utc": "2026-09-11T17:18:24Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 6,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "The CDC removed two Pennsylvania measles deaths from its website after HHS Secretary Robert F. Kennedy Jr. publicly questioned whether the state had correctly attributed those deaths to measles.",
+  "bottom_line": "The measles outbreak continues to grow amid falling vaccination rates. Whether the CDC maintains its deference to state cause-of-death determinations or continues to override state public health officials will shape how disease surveillance works as flu season approaches.",
+  "human_take": "",
+  "body": [
+    "The CDC removed two Pennsylvania measles deaths from its website after Health and Human Services Secretary Robert F. Kennedy Jr. publicly questioned whether the state had correctly attributed those deaths to measles. The move has alarmed public health experts as the worst U.S. measles resurgence in decades grows and vaccination rates decline.",
+    "According to NPR's reporting, the standard protocol has states determine cause of death and report measles cases to the CDC, which typically defers to the state's determination and alerts doctors and health officials nationwide. The removal of the Pennsylvania deaths breaks that pattern and signals a departure from the federal-state coordination that disease surveillance depends on.",
+    "Dr. Anne Zink, a senior fellow at the Yale School of Public Health who previously served as Alaska's chief medical officer and president of the Association for State and Territorial Health Officers, told NPR: \"What we have been seeing, that got amplified even more with these measles cases, is a breakdown in the coordination and trust between states and the federal government.\"",
+    "Kennedy has long questioned vaccines, per NPR's reporting. Two senior CDC officials departed the agency last year over what they characterized as political interference. Dr. Demetre Daskalakis, who resigned as director of the National Center for Immunization and Respiratory Diseases, told NPR: \"We are seeing a pretty compromised CDC and a director who is at best facilitating non-scientific behavior and at worst colluding with non-scientific behavior.\" Dr. Debra Houry, the CDC's former chief medical officer, resigned alongside Daskalakis for the same reasons and told NPR: \"What the director should be doing instead of looking into these disease counts is responding to the outbreak itself.\"",
+    "Dr. Georges Benjamin, who heads the American Public Health Association, stated to NPR: \"We need to have good solid evidence-based national data. And I'm obviously concerned that it will happen again for other infectious diseases. If it happens with flu and with COVID, the question is: Who can we rely on for the data on a national level.\"",
+    "The CDC's new director is Dr. Erica Schwartz, described by NPR as a well-respected physician and attorney with solid public health experience who recently took over after a tumultuous year that has left the CDC demoralized and diminished. Neither the CDC nor the Department of Health and Human Services responded to NPR's repeated requests for comment."
+  ],
+  "sources": [
+    {
+      "title": "NPR",
+      "url": "https://www.npr.org/2026/09/11/nx-s1-5950002/as-diseases-loom-cdcs-response-to-measles-deaths-stirs-fears-about-agencys-reliability"
+    }
+  ],
+  "event_utc": "2026-09-11T15:34:51Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-11T17:18:24Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  }
+}

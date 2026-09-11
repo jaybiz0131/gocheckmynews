@@ -1,0 +1,40 @@
+{
+  "id": "c249",
+  "slug": "u-s-diesel-prices-hit-record-6-05-a-gallon-on-september-11",
+  "kind": "brief",
+  "title": "U.S. diesel prices hit record $6.05 a gallon on September 11",
+  "dek": "National average diesel prices reached $6.05 per gallon on Friday, September 11, up 60% from $3.71 one year earlier, driven by supply constraints from the Iran war and reduced Russian refining capacity, according to CBS News and NPR reporting.",
+  "date": "2026-09-11",
+  "published_utc": "2026-09-11T17:18:24Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 2,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Diesel hit a record national average of $6.05 per gallon on September 11, per AAA data cited by CBS News, up from $3.71 a year ago and $5.85 the prior week.",
+  "bottom_line": "Diesel prices have climbed past historical records in nominal terms, and whether they remain elevated beyond the six-week threshold analysts cite will determine whether consumers see passthrough to grocery, shipping, and retail prices. The gap between inflation-adjusted records and current prices leaves room for further spikes if geopolitical tension persists.",
+  "human_take": "",
+  "body": [
+    "The national average price for diesel fuel reached $6.05 per gallon on Friday, September 11, marking a record high, according to data from AAA cited by CBS News. The price represents an increase of more than 60% from $3.71 a year ago and a jump from $5.85 the prior week, per CBS News reporting.\nDiesel prices have climbed fastest among fuel types because diesel powers the trucks, buses, and trains that move goods across the economy. Ukrainian drone strikes on Russia's energy infrastructure have sharply reduced the country's ability to refine oil, amplifying price pressures, according to CBS News. Ukraine has significantly stepped up the volume of drone strikes on Russian refineries since the start of the year, leading to a fuel shortage, according to the Atlantic Council, per CBS News reporting.\nWhen adjusted for inflation, diesel prices have exceeded Friday's level in prior periods. Ahead of the 2008 financial crisis, diesel hit approximately $4.74 a gallon, equivalent to $7.20 in 2026 dollars, according to NPR. The prior record from 2022 of nearly $5.82 would equate to about $6.56 in 2026 when accounting for inflation, per NPR.\nRegional variation is substantial. In California, diesel was $7.98 per gallon, according to AAA, while GasBuddy reported the national average had already climbed past $6. The national average for regular gasoline sat at $4.29 per gallon on Friday, per AAA, up from $2.98 before the Iran war began on February 28, though still below the 2022 peak of nearly $5.02 nationwide.\nThe Department of Labor noted on Thursday that more than one-third of the jump in goods prices for producers in August was attributable to rising diesel costs, which climbed 24.1% in that month alone, per CBS News. Analysts at S&P Global Energy, quoted by CBS News, said they do not expect global oil production to return to prewar levels by the end of 2027.\nRetailers have largely absorbed surging diesel costs so far this year through existing freight contracts and retailer margins, according to CBS News. But De Haan, quoted by CBS News, identified a critical threshold: \"If [higher diesel] sticks around for probably more than six weeks, you're really going to see more impact trickle down as those large end users are going to be forced to buy in large quantities at some point.\" David Ortega, a food economist at Michigan State University, explained via NPR that \"early on, much of the cost increase gets absorbed along the supply chain through existing freight contracts and retailer margins. But as contracts reprice and fuel surcharges take hold, more of that cost makes its way to the grocery store.\"\nFoods that require refrigeration and travel long distances, such as seafood and fresh produce, face the highest vulnerability to price increases, according to Ortega in NPR's account. In July, overall U.S. grocery prices rose 2.7% compared to a year prior, but seafood prices climbed 7% and fresh fruit prices rose 4.9%, per NPR. De Haan cautioned to CBS News that \"the trickle-down is going to be everywhere, but it's going to be so varied,\" noting that furniture, cars, and their destination charges could all face substantial increases.\nAmazon instituted a temporary 3.5% fuel and logistics surcharge on some third-party sellers in April, according to NPR. United Parcel Service, FedEx, and the United States Postal Service added fees on some packages earlier in the war, citing rising fuel costs, per NPR reporting. Fuel accounts for roughly 15% to 30% of total food costs, according to the Independent Grocers Alliance, per NPR."
+  ],
+  "sources": [
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/rising-diesel-prices-consumer-impact/"
+    },
+    {
+      "title": "NPR",
+      "url": "https://www.npr.org/2026/09/11/g-s1-142842/us-diesel-6-a-gallon"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/policy/energy-environment/6083842-diesel-prices-record-high-iran-war-russia-ukraine-attacks-trump-midterms/"
+    }
+  ],
+  "event_utc": "2026-09-11T12:20:18Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-11T17:18:24Z",
+    "sources_cited": 3,
+    "sources_live_checked": 2
+  }
+}

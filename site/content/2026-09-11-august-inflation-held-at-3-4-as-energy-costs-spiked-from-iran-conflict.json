@@ -1,0 +1,40 @@
+{
+  "id": "c124",
+  "slug": "august-inflation-held-at-3-4-as-energy-costs-spiked-from-iran-conflict",
+  "kind": "brief",
+  "title": "August inflation held at 3.4% as energy costs spiked from Iran conflict",
+  "dek": "U.S. inflation remained flat at 3.4% annualized in August while core inflation, which excludes energy and food, rose to 2.4%, driven by gasoline and fuel price surges following escalation in the Iran war, according to data reported by the Guardian and NBC News on September 11.",
+  "date": "2026-09-11",
+  "published_utc": "2026-09-11T17:18:24Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 3,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Core inflation rose to 2.4% annually in August, up from the prior month, with gasoline accounting for more than one-third of the overall monthly price increase and fuel for heating and power up 52% year-over-year.",
+  "bottom_line": "The Federal Reserve faces a decision on September 16 and 17 with market expectations now tilted heavily toward a rate increase, driven by the core inflation surprise. Whether energy-driven price gains translate into persistent underlying inflation, and how long diesel prices remain elevated at or above their September 11 record, will shape the trajectory of Fed policy into the final months of 2026.",
+  "human_take": "",
+  "body": [
+    "U.S. inflation held steady at 3.4% annualized in August, matching July's rate, according to reports from the Guardian and NBC News released on September 11. Core inflation, which excludes volatile energy and food prices, rose to 2.4% annually, marking an upside surprise that immediately shifted market expectations for Federal Reserve action.\nThe monthly consumer price index rose 0.4% in August, per NBC News. Gasoline prices accounted for more than one-third of the overall monthly increase in the all-items index, according to the Guardian and NBC News. Gasoline rose 27.4% compared with a year earlier, per the Guardian, while NBC News reported the index for gasoline rose 3.9% in August alone. Fuel used for heating and powering homes surged 52% annually, according to the Guardian.\nOn Friday, September 11, the cost of diesel used for trucks, buses, and trains climbed past $6 a gallon for the first time ever, per both outlets. The national average gasoline price sat at $4.29 per gallon Friday, up $1.10 from a year earlier, according to AAA data cited by the Guardian. Gas prices nationally remain elevated by more than 40% since the United States and Israel launched the Iran war on February 28, per NBC News.\nInternational oil benchmarks reflected the pressure. Brent crude, the global price marker, surpassed $108 on Friday, its highest level since May, according to the Guardian, while NBC News reported U.S. crude trading around $100 per barrel and Brent at roughly $105. Those levels stand about 20% higher than mid-August, per NBC News.\nCore inflation's monthly rise of 0.3%, per the Guardian, signals underlying price pressure beyond energy. Shelter costs ticked up 0.3%, per NBC News. Food costs rose 0.1% overall, with food at home flat and food away from home up 0.3%, according to NBC News. Over the last year, the food index has risen 2.7%, per NBC News. Prices of common grocery store essentials, such as meat, poultry, eggs, and dairy, increased from 0.1% to 0.3%, per the Guardian. Lettuce prices continued to fall, likely from ongoing fallout from the cyclosporiasis outbreak, according to the Guardian.\nOther price categories showed mixed movement. Airline fares rose 2.7%, the communications index climbed 2.3%, and used cars, education costs, and educational services increased, per NBC News. Prices of apparel held broadly flat, while indexes measuring vehicle insurance and medical care declined, per NBC News.\nTechnology and communications prices posted a notable acceleration. The category measuring computer software, accessories, and related items has risen 25.4% over the last year, marking its largest yearly increase on record, according to NBC News. In June, Apple hiked prices on a range of products, stating \"The rapid expansion of AI data centers has created an extraordinary surge in demand for memory and storage,\" per NBC News. Similar price increases came from Xbox, Nintendo, Amazon, and computer manufacturers, per NBC News.\nReal average hourly earnings for U.S. workers decreased 0.1% from July to August and declined 0.3% from a year ago, per NBC News, meaning wage growth has not kept pace with price increases.\nThe inflation reading arrived with the Federal Reserve's next policy meeting scheduled for Tuesday and Wednesday, September 16 and 17. Market odds for a rate hike jumped from under 70% to nearly 90% in the minutes following the report's release, per NBC News. Odds for a follow-on hike in October rose to almost 60%, per the same outlet. On Thursday, the average 30-year fixed rate mortgage rose above 7%, per NBC News.\nFed governor Christopher Waller stated, according to the Guardian, \"If inflation comes in hot, I would consider a rate hike,\" and \"If there is continued progress toward our 2% goal, then I am willing to support holding the policy rate at its current level.\" Fed Chair Kevin Warsh said during a speech in Jackson Hole, Wyoming last month that underlying inflation trends had not \"meaningfully improved\" over the summer, per the Guardian. Warsh said \"We must be confident that underlying inflation is moving to our objective, clearly and at sufficient speed. Otherwise, we have work to do,\" per the Guardian.\nStephen Brown, Capital Economics' chief North America economist, said \"The upside surprise to core CPI in August means the Fed looks set to hike next week,\" per NBC News. Heather Long, chief economist at Navy Federal Credit Union, wrote on social media \"America still has an inflation problem,\" per NBC News.\nInterest rates currently sit at a range of 3.5%-3.75%, two percentage points lower than where they stood two years ago, per the Guardian. Inflation reached 9.1%, a 40-year high, in 2022. After the Fed spent the next few years raising rates to a range of 5.25%-5.5%, inflation declined to 2.3% in April 2025, per the Guardian. At the Fed's last board meeting in July, it voted 9-3 to maintain rates, marking the first time in a decade that three board members shared dissent over a policy decision, per the Guardian.\nThe S&P 500 jumped almost 1% following the report, while the Nasdaq Composite spiked higher by 1.3%, per NBC News. Consumer sentiment had dropped to record lows earlier in the summer, per the Guardian."
+  ],
+  "sources": [
+    {
+      "title": "Guardian US",
+      "url": "https://www.theguardian.com/business/2026/sep/11/inflation-august-interest-rates"
+    },
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/business/economy/august-inflation-interest-rates-affordability-rcna597095"
+    },
+    {
+      "title": "The Hill",
+      "url": "https://thehill.com/business/6083146-inflation-rate-cpi-august/"
+    }
+  ],
+  "event_utc": "2026-09-11T12:38:12Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-11T17:18:24Z",
+    "sources_cited": 3,
+    "sources_live_checked": 2
+  }
+}
