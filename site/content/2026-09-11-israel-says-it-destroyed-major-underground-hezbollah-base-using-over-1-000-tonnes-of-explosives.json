@@ -1,0 +1,46 @@
+{
+  "id": "c024",
+  "slug": "israel-says-it-destroyed-major-underground-hezbollah-base-using-over-1-000-tonnes-of-explosives",
+  "kind": "brief",
+  "title": "Israel says it destroyed major underground Hezbollah base using over 1,000 tonnes of explosives",
+  "dek": "Israel's military announced it destroyed a large underground Hezbollah complex in southern Lebanon spanning more than 2km beneath the Ali Taher Ridge. The blast triggered seismic activity equivalent to a magnitude-4.1 earthquake, according to the U.S. Geological Survey. The operation comes despite a ceasefire agreement between Iran and the U.S. and a separate framework between Lebanon and Israel reached in June.",
+  "date": "2026-09-11",
+  "published_utc": "2026-09-11T13:37:27Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 2,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Israel's military detonated over 1,000 tonnes of explosives to destroy two tunnels spanning more than 2km beneath the Ali Taher Ridge in southern Lebanon; the blast registered as a magnitude-4.1 earthquake.",
+  "bottom_line": "Israel occupies roughly 5% of Lebanese territory and continues to conduct major military operations against Hezbollah infrastructure even as the ceasefire framework theoretically limits such operations. The key test of the agreement comes in the coming weeks as the Lebanese army attempts to deploy across the south and Israeli forces face pressure to begin withdrawal.",
+  "human_take": "",
+  "body": [
+    "Israel's military announced it destroyed a large underground Hezbollah complex in southern Lebanon, using over 1,000 tonnes of explosives to demolish two tunnels spanning more than 2km beneath the Ali Taher Ridge, per BBC reporting. The blast registered as a magnitude-4.1 earthquake on the U.S. Geological Survey scale, triggering tremors felt as far away as the coastal city of Saida, 40km to the north, and prompting residents about 6km away in Nabatieh to describe the event as feeling like an earthquake.",
+    "A resident named Ahamed in Nabatieh told the BBC: \"The sky lit up and about 15 seconds later we heard the terrifying sound. The house shook all together as if it was literally an earthquake.\"",
+    "The IDF said the underground infrastructure included a command center used by Hezbollah's Badr unit and contained dozens of rockets, missiles and unmanned aerial vehicles, as well as anti-tank weapons, mines and explosives, per BBC reporting. The IDF stated in a Telegram message: \"This was strategic infrastructure that was constructed over two decades, funded and planned by the Iranian terror regime.\" The military also said \"all of the terrorists who were inside the infrastructure were eliminated or fled\" and that the destruction of the complex completed a mission to destroy eight tunnels and establish a \"security zone\" in the area, though neither claim has been independently verified.",
+    "Israeli forces took control of the Ali Taher Ridge last week after months of fighting with Hezbollah there, per the BBC. The IDF occupies a large swathe of southern Lebanon captured after the conflict resumed in March, following Hezbollah's rocket strike into Israel that was launched in retaliation for a strike that killed Iran's supreme leader on March 2, per BBC reporting.",
+    "The strike comes amid ongoing military operations despite a ceasefire framework. Fighting decreased following a ceasefire deal between Iran and the U.S. in June, alongside a separate agreement between Lebanon and Israel, per the BBC. Under the Lebanon-Israel framework, Hezbollah is expected to disarm, Israeli forces are to withdraw gradually from southern Lebanon, and the Lebanese army is to deploy across the area. Hezbollah was not directly involved in the agreement and has rejected direct negotiations, the BBC reports. Despite the reduction in fighting, Israeli strikes and demolitions in southern Lebanon have continued. Lebanese media reported fresh Israeli strikes elsewhere in the south on Thursday, including Nabatieh al-Fawqa and Mansouri in the Tyre district, per BBC reporting.",
+    "The Lebanese army has increased deployments in areas outside Israeli control, including the southern city of Nabatieh, in efforts to strengthen stability and reassure residents, according to reports by Lebanese television station MTV cited by the BBC.",
+    "Casualty figures from the conflict remain contested. At least 4,362 people have been killed in Lebanon during the conflict, including 395 women and 259 children, according to the Lebanese health ministry, whose figures do not differentiate between combatants and civilians, per the BBC. Israeli authorities report 40 Israeli soldiers and four civilians have been killed. Neither Hezbollah nor the Lebanese government issued an immediate public response to the strike."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c4gl92lw8vpo"
+    },
+    {
+      "title": "The New York Times",
+      "url": "https://www.nytimes.com/2026/09/11/world/middleeast/blast-lebanon-israel-hezbollah-base.html"
+    },
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c4gl92lw8vpo?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "event_utc": "2026-09-11T11:34:07Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-11T13:37:27Z",
+    "sources_cited": 3,
+    "sources_live_checked": 2
+  }
+}

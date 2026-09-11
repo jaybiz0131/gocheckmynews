@@ -1,0 +1,42 @@
+{
+  "id": "c043",
+  "slug": "philippine-rescuers-board-ferry-40-hours-after-fire-began-september-11",
+  "kind": "brief",
+  "title": "Philippine rescuers board ferry 40 hours after fire began, September 11",
+  "dek": "Rescuers boarded the charred MV June Aster ferry on Friday morning, more than 40 hours after a fire erupted Wednesday evening while the vessel was traveling from Manila to Coron. Five people are confirmed dead, 43 have been rescued, and 84 remain missing. Toxic fumes and extreme heat have severely hampered boarding and search operations.",
+  "date": "2026-09-11",
+  "published_utc": "2026-09-11T13:37:27Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 12,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Philippine Coast Guard rescuers finally boarded the burning ferry at approximately 11:30 a.m. local time (03:30 GMT) on Friday, September 11, more than 40 hours after the fire began, despite toxic smoke and high temperatures that posed severe risk to personnel.",
+  "bottom_line": "Rescue operations continue Friday with toxic conditions still blocking deep penetration of the hull. The priority now is reaching the cargo hold where the fire originated. Any significant rise in the confirmed death toll or discovery of additional bodies would substantially alter the scope of this disaster.",
+  "human_take": "",
+  "body": [
+    "More than 40 hours after a fire erupted aboard the MV June Aster ferry traveling from Manila to Coron, Philippine rescuers boarded the charred remains of the vessel on Friday morning. According to BBC News reporting, five people have been found dead, 43 have been rescued and are receiving hospital treatment, and 84 remain missing.",
+    "The ferry caught fire Wednesday evening as it neared its destination in Palawan province. Rescuers were unable to board the hull until approximately 11:30 a.m. local time (03:30 GMT) Friday due to dense smoke and extreme heat from the incomplete burning, which creates toxic concentrations of carbon monoxide.",
+    "Philippine Coast Guard spokeswoman Noemie Cayabyab told the BBC that penetrating the vessel remained the critical obstacle. \"The biggest challenge for us really is to penetrate the ship, as there is still a visible, thick smoke,\" Cayabyab said. She told local media that \"no matter how we try to push through, high temperatures and toxic smoke remain a severe risk to our personnel.\"",
+    "Initially, authorities reported 86 people unaccounted for, but by Friday morning that figure stood at 84. According to BBC News, two passengers whose names appeared on the ship's manifest did not board the vessel. Search teams deployed by the coast guard include divers and nurses, along with one of the coast guard's largest ships. An aerial survey of nearby waters has been conducted, and radio broadcasts to vessels in the area have been issued.",
+    "BBC News reported that preliminary interviews with survivors suggest the fire started in the cargo hold. Rescuers plan to resume firefighting efforts first from that compartment. One survivor, Roland Lerma, 30, told the BBC that passengers were trampling him on the floor during evacuation. He saw children who had jumped into the water but could not see their faces in the darkness. \"It was cold in the sea,\" Lerma said. \"If the rescue had been delayed, I would definitely have died.\"",
+    "Cost Guard observations noted that some passengers were not wearing life vests. The ferry, built in 2002, held valid safety certificates and passed an enforcement inspection in March, according to BBC News. The Philippines' maritime authority is investigating the incident. Investigators are examining potential manifest discrepancies, cargo loading integrity, and crew emergency response protocols, according to the Palawan Daily reporting cited by BBC News. The vessel's operator, Atienza Interisland Ferries, stated: \"Our hearts remain with the affected families, and we will not rest until all individuals are accounted for.\""
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c9dwx97pl5no"
+    },
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c9dwx97pl5no?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "event_utc": "2026-09-11T06:33:15Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-11T13:37:27Z",
+    "sources_cited": 2,
+    "sources_live_checked": 2
+  },
+  "update_of": "the-25th-anniversary-of-9-11-september-11"
+}

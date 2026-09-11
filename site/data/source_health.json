@@ -1,5 +1,5 @@
 {
- "checked_utc": "2026-09-11T00:30:19Z",
+ "checked_utc": "2026-09-11T14:01:58Z",
  "sources": [
   {
    "name": "Federal Reserve",
@@ -52,7 +52,7 @@
    "tier": "major",
    "state": "OK",
    "detail": "HTTP 200",
-   "items": 35,
+   "items": 34,
    "newest_age_h": null,
    "lane_state": "OK"
   },
@@ -63,7 +63,7 @@
    "tier": "major",
    "state": "OK",
    "detail": "HTTP 200",
-   "items": 23,
+   "items": 25,
    "newest_age_h": null,
    "lane_state": "OK"
   },
@@ -85,7 +85,7 @@
    "tier": "major",
    "state": "OK",
    "detail": "HTTP 200",
-   "items": 24,
+   "items": 23,
    "newest_age_h": null,
    "lane_state": "OK"
   },
@@ -107,7 +107,7 @@
    "tier": "major",
    "state": "OK",
    "detail": "HTTP 200",
-   "items": 42,
+   "items": 43,
    "newest_age_h": null,
    "lane_state": "OK"
   },
@@ -118,7 +118,7 @@
    "tier": "major",
    "state": "OK",
    "detail": "HTTP 200",
-   "items": 72,
+   "items": 73,
    "newest_age_h": null,
    "lane_state": "OK"
   },
@@ -228,7 +228,7 @@
    "tier": "major",
    "state": "OK",
    "detail": "HTTP 200",
-   "items": 25,
+   "items": 24,
    "newest_age_h": null,
    "lane_state": "OK"
   },
@@ -250,7 +250,7 @@
    "tier": "mixed",
    "state": "OK",
    "detail": "HTTP 200",
-   "items": 50,
+   "items": 49,
    "newest_age_h": null,
    "lane_state": "OK"
   },
@@ -283,7 +283,7 @@
    "tier": "primary",
    "state": "OK",
    "detail": "HTTP 200",
-   "items": 52,
+   "items": 26,
    "newest_age_h": null,
    "lane_state": "OK"
   },

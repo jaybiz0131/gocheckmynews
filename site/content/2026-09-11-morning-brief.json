@@ -1,0 +1,83 @@
+{
+  "id": "wrap-am-2026-09-11",
+  "slug": "morning-brief-2026-09-11",
+  "kind": "brief",
+  "title": "The Morning Brief: Energy crisis and political fracture converge as markets buckle",
+  "dek": "Oil surged past $107 a barrel on Middle East escalation while central banks raised rates and bond markets sold off globally. In the U.S., political messaging about the conflict and the economy diverged sharply from market reality as voters weigh the midterms.",
+  "date": "2026-09-11",
+  "published_utc": "2026-09-11T14:00:25Z",
+  "category": "daily edition",
+  "rank": -1,
+  "author": "GoCheckMyNews",
+  "key_fact": "A seven-month conflict that neither side appears ready to end is pushing oil prices to levels not seen since summer, driving inflation expectations higher and forcing central banks to tighten policy even as growth slows, a squeeze that will persist through November's U.S. midterm elections.",
+  "bottom_line": "Oil prices breached $107 as Houthi territorial gains tightened control over critical Red Sea shipping; the ECB raised rates and warned inflation will persist through 2027, citing Middle East conflict; global bond yields spiked on tighter policy expectations. Meanwhile, Trump linked the conflict's end to November election outcomes while 69 percent of Americans disapprove of his handling of the war, and primary elections showed voter anger over local governance failures. The Federal Reserve meets next week to set rates; oil prices remaining elevated through the midterms will test Trump's forecast of post-election relief and central banks' ability to tighten policy without triggering slowdown.",
+  "human_take": "",
+  "body": [
+    "The thread running through Friday's news is a collision between an intractable Middle East conflict and the economic calendars of central banks and politicians who cannot wait it out. Oil prices climbed 6 percent to above $107 a barrel on Thursday, driven by Houthi seizures of the Red Sea ports of Mokha and Perim that control critical shipping lanes. The European Central Bank responded by raising its main interest rate to 2.5%, its highest since March 2025, and warned that inflation will not return to target until the end of 2027, a direct citation of Middle East conflict as the culprit. Global bond yields spiked in response: the UK 10-year yield hit 5.37 percent, the highest since 2007; U.S. 10-year Treasuries reached their highest since 2023; and German 30-year yields climbed to their highest since December 2003.",
+    "The Houthi advance marks the end of a four-year tentative ceasefire and signals full-scale conflict resumption in Yemen. The seizure of Mokha and Perim places the Iran-backed forces within 75 kilometers of the Bab al-Mandeb Strait, one of the world's most critical maritime chokepoints through which roughly 12 percent of global seaborne trade flows. The narrowest point of the strait is approximately 19 miles wide. By controlling these positions, the Houthis can project power deeper into the Red Sea and reduce navigable space for commercial shipping. This escalation comes after U.S. military strikes on Iranian tankers and Iranian-backed Houthi attacks on Saudi cities and oil installations, part of a seven-month cycle of attack and response that has defeated earlier ceasefire momentum.",
+    "Bank of America analysts, citing this reality, stated that \"reaching a durable deal before the U.S. midterm elections is increasingly unlikely, and it could remain elusive even beyond that.\" The firm raised its oil price forecast to $83 a barrel for the second half of the year but warned that if attacks continue to choke off traffic through the Strait of Hormuz, prices could reach $95 to $120 a barrel, with damage to major infrastructure potentially spiking prices to $150.",
+    "At home, the political messaging diverged sharply from this market reckoning. President Trump told the Republican Midterm Convention in Dallas on September 9 that the war will end \"very shortly after the election,\" linking resolution to electoral outcomes rather than military or diplomatic milestones. He also promised a $5,000 \"dividend\" to every U.S. adult if Republicans hold the House and Senate, a $1.2 trillion proposal to be funded in part by tariff revenue, according to Vice President JD Vance. Yet polling data showed 69 percent of Americans disapprove of Trump's handling of the conflict, with Republican support dropping significantly from spring levels.",
+    "Elsewhere, primary elections in Rhode Island reflected voter anger over local crises. Helena Foulkes, a former CVS executive who outspent incumbent Dan McKee 3-to-1 on television advertising, defeated the sitting Democratic governor in Rhode Island's primary. McKee became the first sitting governor to lose a primary since 2018, a defeat driven by sustained voter anger over his 2023 decision to close the Washington Bridge. Three years later, that bridge remains under repair, with traffic congestion and commute delays far exceeding initial estimates. In Providence, David Morales, a 27-year-old Democratic Socialist backed by Senator Bernie Sanders, won the Democratic primary for mayor after incumbent Brett Smiley vetoed a rent-stabilization ordinance the city council had passed. Morales pledged to cap annual rent hikes at 4 percent.",
+    "In Hong Kong, a court sentenced three activists to 5 to 7 years in prison for organizing candlelight vigils commemorating the 1989 Tiananmen Square crackdown. Lee Cheuk-yan, 69, a former lawmaker and longtime chair of the Hong Kong Alliance, received seven years; Chow Hang-tung, 41, received seven years and three months; and Albert Ho, 74, received five years and two months. The verdicts, issued under Hong Kong's 2020 national security law, silence the only large-scale public commemoration of the Tiananmen massacre held on Chinese territory. Lee has announced an appeal.",
+    "A fire aboard the MV June Aster ferry off Palawan, Philippines, claimed at least five confirmed dead with 84 people still missing as of Friday morning. Rescuers boarded the charred vessel more than 40 hours after the fire erupted Wednesday evening, delayed by toxic smoke and extreme heat. The ship's manifest listed 134 passengers and crew. Preliminary reports suggest the fire started in the cargo hold, though the cause remains under investigation.",
+    "Friday marked the 25th anniversary of the September 11 terrorist attacks. Ceremonies were held nationwide, but commemorations also surfaced fractures in American life that have widened since the attacks briefly unified the nation. Vice President Vance urged Americans, especially younger generations, to reflect on the sense of commonality felt on September 12, 2001. Yet former Governor George Pataki and other officials acknowledged deep polarization that has grown in the decades since, citing the toxic environmental aftermath still sickening survivors, the 7,000 U.S. service members who died in post-9/11 wars, and the inability of the political system to work toward common ground."
+  ],
+  "sources": [
+    {
+      "title": "ECB raises interest rates to 2.5% and warns Middle East conflict will keep inflation elevated into 2027",
+      "url": "/articles/ecb-raises-interest-rates-to-2-5-on-september-10-warns-middle-east-conflict-will-keep-inflation-elevated-into-2027.html"
+    },
+    {
+      "title": "Five dead, 87 missing after fire breaks out on Philippines ferry",
+      "url": "/articles/five-dead-87-missing-after-fire-breaks-out-on-philippines-ferry.html"
+    },
+    {
+      "title": "Helena Foulkes defeats incumbent Dan McKee in Rhode Island Democratic primary, September 9, 2026",
+      "url": "/articles/helena-foulkes-defeats-incumbent-dan-mckee-in-rhode-island-democratic-primary-september-9-2026.html"
+    },
+    {
+      "title": "Houthis seize Mocha port on September 10, positioning to control Bab al-Mandeb Strait",
+      "url": "/articles/houthis-seize-mocha-port-on-september-10-positioning-to-control-bab-al-mandeb-strait.html"
+    },
+    {
+      "title": "Oil jumps past $100 a barrel as U.S.-Iran conflict intensifies",
+      "url": "/articles/oil-jumps-past-100-a-barrel-as-u-s-iran-conflict-intensifies.html"
+    },
+    {
+      "title": "Trump promises $5,000 dividend to every U.S. adult if Republicans hold midterms",
+      "url": "/articles/trump-promises-5-000-to-every-american-adult-if-republicans-win-midterms.html"
+    },
+    {
+      "title": "Trump says war with Iran will end after November midterms",
+      "url": "/articles/trump-says-war-with-iran-will-end-after-november-midterms.html"
+    },
+    {
+      "title": "Democratic socialist defeats Providence incumbent mayor in primary, September 10",
+      "url": "/articles/democratic-socialist-defeats-providence-incumbent-mayor-in-primary-september-10.html"
+    },
+    {
+      "title": "Hong Kong court sentences three activists to 5-7 years for organizing Tiananmen vigils, September 11",
+      "url": "/articles/hong-kong-court-sentences-three-activists-to-5-7-years-for-organizing-tiananmen-vigils-september-11.html"
+    },
+    {
+      "title": "Houthis seize Mokha and Perim in Bab el-Mandeb Strait, ending four-year truce",
+      "url": "/articles/houthis-seize-mokha-and-perim-in-bab-el-mandeb-strait-ending-four-year-truce.html"
+    },
+    {
+      "title": "Israel says it destroyed major underground Hezbollah base using over 1,000 tonnes of explosives",
+      "url": "/articles/israel-says-it-destroyed-major-underground-hezbollah-base-using-over-1-000-tonnes-of-explosives.html"
+    },
+    {
+      "title": "Oil jumps above $107 a barrel on Middle East tensions; global bond markets sell off on inflation fears (September 10, 2026)",
+      "url": "/articles/oil-jumps-above-107-a-barrel-on-middle-east-tensions-global-bond-markets-sell-off-on-inflation-fears-september-10-2026.html"
+    },
+    {
+      "title": "Philippine rescuers board ferry 40 hours after fire began, September 11",
+      "url": "/articles/philippine-rescuers-board-ferry-40-hours-after-fire-began-september-11.html"
+    },
+    {
+      "title": "The 25th anniversary of 9/11, September 11",
+      "url": "/articles/the-25th-anniversary-of-9-11-september-11.html"
+    }
+  ]
+}
