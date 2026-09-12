@@ -1,0 +1,66 @@
+{
+  "id": "c274",
+  "slug": "saudi-arabia-closes-east-west-pipeline-after-drone-strikes-second-major-export-route-now-compromised",
+  "kind": "brief",
+  "title": "Saudi Arabia closes East-West Pipeline after drone strikes; second major export route now compromised",
+  "dek": "Saudi Arabia closed its critical East-West pipeline after drone attacks launched from Iraq. The 745-mile pipeline handles 4 to 5 percent of global oil supplies and was serving as an alternative to the blocked Strait of Hormuz. The shutdown leaves the world's largest crude exporter with two major export routes compromised simultaneously.",
+  "date": "2026-09-12",
+  "published_utc": "2026-09-12T17:48:46Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 2,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "Saudi Arabia has shut down the East-West Pipeline, which moved 4 to 5 percent of global oil supplies, after it was struck by drones launched from Iraqi territory.",
+  "bottom_line": "The East-West Pipeline's status and timeline for repair remain unconfirmed; damage assessment will determine whether alternative routing can offset the 4 to 5 percent supply loss. Oil markets and geopolitical calculations hinge on whether the Trump administration commits to military support for Saudi operations against the Houthis and whether Iranian coordination of the Yemen campaign becomes openly confirmed.",
+  "human_take": "",
+  "body": [
+    "Saudi Arabia has shut down its critical East-West Pipeline after it was struck by drones launched from Iraq. The 745-mile pipeline, which handles 4 to 5 percent of global oil supplies according to Reuters reporting cited by NBC News, served as an alternative export route to the Strait of Hormuz, through which roughly 20 percent of the world's oil historically passed before the U.S. and Israel engaged in military conflict with Iran beginning in late February.",
+    "The Saudi Energy Ministry confirmed the shutdown on Friday, announcing that drone attacks had resulted in injuries. The ministry stated its teams were \"taking the necessary measures to secure the pipeline and assess its safety.\" Saudi Arabia said that, following a request from Iraq's prime minister, it would not retaliate for now but reserves the right to take all necessary measures to protect its sovereignty, security, and critical facilities, according to a Saudi Foreign Ministry statement.",
+    "An Iraqi military commander was dismissed early on Saturday after investigations confirmed the attacks originated from Iraq. Prime Minister Ali al-Zaidi ordered an investigation into the operations command in Maysan province and dismissed its commander after authorities determined that attacks targeting Saudi Arabia were launched from a site in the province, per NPR reporting. An umbrella group of Iran-backed militias in Iraq denied involvement in the pipeline attacks. Iraq also closed two key border crossings with Iran, according to Iraq's state-run news agency on Saturday.",
+    "The pipeline shutdown coincides with Houthi territorial advances in Yemen. The Houthis captured Perim, an island in the vital Bab el Mandeb Strait, and the historic port city of Mocha this week, followed by an advance on the strategic coastal town of Dhubab. These advances give the Houthis control of both shores of a critical Red Sea chokepoint. A statement issued by Houthi forces on Friday said that \"maritime navigation is safe for all companies except for Saudi vessels,\" vowing to strike Saudi targets \"until the aggression stops and the blockade against our dear people is lifted.\"",
+    "Oil prices ended the week above 100 dollars a barrel for the first time since mid-May. According to the International Energy Agency, Saudi oil exports through the Red Sea port at the pipeline's end have more than doubled since the U.S. and Israel attacked Iran on February 28.",
+    "Regional allies expressed concern. Kuwait, a U.S. ally, warned that the pipeline attack was a \"dangerous escalation that undermines the security and stability of the region.\" Bahrain stressed Saudi Arabia's right to \"take all necessary measures to protect its sovereignty.\" President Donald Trump said on Saturday that everything would \"work out just fine\" when asked about the region on a visit to Ireland. Trump said, without providing evidence, that Iran was \"probably\" behind the pipeline attack. Trump also said the Houthis had contacted the U.S. to stress that they \"don't want to fight with us\" and would \"much prefer not having us involved.\"",
+    "The Yemeni Ministry of Defense said Saturday it had carried out counterattacks against Houthi targets, striking militants, vehicles, and weaponry. The United Nations' International Organization for Migration warned on Friday that at least 46,000 people have been displaced in Yemen since fighting escalated last week, with displacement spanning the west coast and the Taiz governorate as of Thursday. The organization stated the numbers of those displaced are \"alarmingly rising by the hour.\"",
+    "Fawaz Gerges, a professor of international relations at the London School of Economics, said effective Houthi control over the Red Sea coast \"is a game changer,\" potentially giving Iran powerful new leverage in its war with the United States. Gerges stated: \"Far from being really besieged and bleeding, Iran now could easily increase the pain to the U.S. economy and the world economy.\" However, Gerges also noted it \"remains to be seen whether the Houthis can maintain their control of the vast areas of the Red Sea coast, or if they overextended themselves.\" He added that the Trump administration \"now finds itself in a much more difficult position because it gambled that the blockade of Iran would force Iran to accept Trump's conditions. The reverse has happened.\"",
+    "U.S. military personnel are helping Saudi counterparts develop and coordinate targets inside Yemen, according to a U.S. official and a person familiar with the matter. Saudi Crown Prince Mohammad bin Salman is urging President Trump to take military action against the Houthis, per a person familiar with the matter. The president and the crown prince have discussed the recent escalation by the Houthis at least twice in the last 24 hours as of Friday. Iranian President Masoud Pezeshkian said Saturday that Iran would sign an agreement with Oman over a joint route through the Strait of Hormuz on Monday, as part of a deal securing future navigation rights through the strait. However, the Iran-Oman deal is not expected to immediately reopen the waterway without a broader agreement with the U.S., Iran has previously stressed."
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/world/middle-east/saudi-arabia-shutdown-key-pipeline-limits-oil-flow-yemen-houthis-rcna597362"
+    }
+  ],
+  "event_utc": "2026-09-12T10:36:54Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-12T17:48:46Z",
+    "sources_cited": 1,
+    "sources_live_checked": 3
+  },
+  "also_reported_by": [
+    {
+      "outlet": "Financial Times",
+      "headline": "Saudi Arabia shuts East-West pipeline that bypasses Hormuz after attacks - Financial Times"
+    },
+    {
+      "outlet": "NewsCord",
+      "headline": "Saudi Arabia Shuts East-West Oil Pipeline After Drone Attack From Iraq: how 24 outlets framed it - NewsCord"
+    },
+    {
+      "outlet": "Al Jazeera",
+      "headline": "Saudi Arabia says East-West pipeline hit by drones launched from Iraq - Al Jazeera"
+    },
+    {
+      "outlet": "Reuters",
+      "headline": "Saudi Arabia says drones launched from Iraq hit East-West pipeline, holds off on retaliation - Reuters"
+    },
+    {
+      "outlet": "Newsweek",
+      "headline": "Saudi Arabia Shuts East-West Oil Pipeline After Attack - Newsweek"
+    },
+    {
+      "outlet": "Crude Oil Prices Today",
+      "headline": "Drone Strikes Hit Saudi Arabia's Vital East-West Oil Pipeline - Crude Oil Prices Today | OilPrice.com"
+    }
+  ]
+}

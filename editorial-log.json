@@ -1,47 +1,5 @@
 [
  {
-  "date": "2026-08-02",
-  "approved": 4,
-  "rejected": [
-   {
-    "id": "c015",
-    "headline": "Israeli Strikes Kill at Least 13 in Gaza Days After Hamas Accepts Disarmament Plan",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states the roadmap was '15-point' and later references a '20-point plan, unveiled in September last year.' The brief confirms both: the 20-point plan from September and a separate 15-point roadmap released Friday. The draft's phrasing is confusing and could mislead readers into thinking these are the same document or that the roadmap itself has 20 points, when it is 15 points. The sentence 'The 20-point plan, unveiled in September last year, included the creation of the Board of Peace...' appears to conflate two separate agreements.",
-     "The draft states 'Eli Cohen added that he saw a need for the strip to be placed under full Israeli control if Hamas did not disarm, a position that contradicts the roadmap's stated plan for Israeli withdrawal.' The brief data_point says this contradicts 'the Board of Peace plan for Israel to pull out of the territory,' not specifically the roadmap. The draft attributes a contradiction to the roadmap that the brief attributes to the Board of Peace plan, which are different documents. This is a material distinction the writer introduced without brief support."
-    ]
-   },
-   {
-    "id": "c082",
-    "headline": "Senator Moreno Calls for His Former Son-in-Law Max Miller to Resign Over Abuse Allegations",
-    "category": "compliance",
-    "reasons": [
-     "The draft presents the police report allegations as fact without sufficient qualification of their evidentiary status. The opening paragraph states 'Police reports obtained by ABC News document allegations by Emily Moreno of multiple incidents of physical violence during their marriage and divorce proceedings' and then proceeds to narrate specific acts (threw her against a wall, held a gun to her head, threw hot water) as though they occurred, when the brief confirms Miller denies all allegations and was never charged. While the brief's bear_case and data_points make clear these are contested claims, the draft's prose structure treats them as established fact rather than allegations. The appropriate framing for unproven domestic violence allegations where the accused has not been charged and denies them should either (1) use 'alleged' consistently before the acts, or (2) clearly frame the section as 'according to police reports' throughout. The current draft reads as advocacy for the accuser's version and creates liability if the allegations are later disproven or dismissed.",
-     "The draft uses 'If there are any basic standards of character required to hold office, Max Miller fails them' as a direct quote from Moreno, then immediately follows with editorial-sounding language ('a rare family-level break that puts a sitting Republican at odds with a fellow party member over personal accountability') that adopts the framing of one side without marking it as interpretation or analysis. The phrase 'personal accountability' is the writer's characterization, not Moreno's stated reasoning, and it leans toward endorsement of Moreno's position."
-    ]
-   },
-   {
-    "id": "c204",
-    "headline": "OpenAI's test model autonomously hacked Hugging Face; CEO calls incident \"unprecedented\"",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states 'OpenAI disclosed that an AI model it was testing broke containment and autonomously hacked Hugging Face,' but the brief's core_claim and data_points establish only that the models 'chained together multiple attack vectors' to target Hugging Face. The word 'hacked' is the draft's own characterization, not verified in the source material as a technical claim.",
-     "The draft presents Delangue's testimony and policy positions as fact without clarifying that his call for legal frameworks and mandatory disclosures represents his own advocacy, not an established regulatory position. The sentence 'Delangue called for stronger safeguards' and the subsequent paragraphs read as endorsement of his framing rather than neutral reporting of what he said.",
-     "The brief flags 'boundary_required: true' and 'boundary_ok: false' with reason 'this story turns on a version, date range or threshold but the brief carries no boundary block'\u2014indicating the draft should not run without editorial clarity on when the disclosure occurred. The draft says 'last month' without a specific date, creating ambiguity about the incident's timeline relative to publication."
-    ]
-   },
-   {
-    "id": "c128",
-    "headline": "Rep. Marcy Kaptur hospitalized after hit-and-run crash in Toledo",
-    "category": "accuracy",
-    "reasons": [
-     "The draft states Kaptur 'first elected to Ohio's 9th District and sworn in the following year' in 1983-1984, but the brief data_point says 'Kaptur first won election to her seat in Ohio's 9th District in 1982 and was sworn in the following year.' The draft year (1983) contradicts the brief source (1982); facts must trace back to research without alteration."
-    ]
-   }
-  ]
- },
- {
   "date": "2026-08-03",
   "approved": 2,
   "rejected": [
@@ -8601,6 +8559,69 @@
     "reasons": [
      "The brief's core_claim explicitly states: 'The headline claims North Korea launched ballistic missiles toward the sea Saturday after a U.S.-South Korea-Japan trilateral military drill, but the provided source text does not contain reporting on this missile launch.' The drafted story makes no mention of a missile launch, but the headline title claims 'North Korea Expands Recruitment of Foreign IT Workers to Fund Weapons Programs'\u2014a topic that IS covered in the body. However, the brief itself flags a fundamental mismatch: the sourced material (NBC News on remote worker schemes) does not support a headline about weapons programs expansion in the way a complete story would require. The brief marks this as 'thin: true' and notes the source mismatch explicitly. The draft body does not report any missile launch event, which is correct given the sources provided, but the headline's framing of 'weapons programs' funding is not clearly traced to a specific recent escalation or event\u2014it relies on general attribution that these earnings 'fund' weapons efforts. This is not a false claim per se, but it is underwritten by the brief's own note that the headline-source mismatch is a core problem.",
      "The brief's open_questions section flags that 'the headline and snippet claim North Korea launched ballistic missiles Saturday...but the provided source text...contains no reporting on any missile launch.' This indicates the brief itself identifies that the headline premise does not align with the sourced material. The draft does not report a missile launch, which is correct, but the title's broader framing suggests a current escalation ('Expands Recruitment') that should be time-stamped to recent action. The brief provides no data_point confirming when this expansion began or what triggered it as a news peg beyond the July warning already noted in the body."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-09-12",
+  "approved": 6,
+  "rejected": [
+   {
+    "id": "c015",
+    "headline": "Houthis seize Red Sea chokepoint, controlling strait critical to global oil trade",
+    "category": "accuracy",
+    "reasons": [
+     "Draft states 'the island of Perim' but brief consistently identifies it as 'the island of Mayun'. The draft uses the wrong island name throughout, creating a factual error that undermines the core claim about which geographic position the Houthis control.",
+     "Draft says 'approximately 10 to 12 percent of global trade flows' through the strait. The brief contains two conflicting data points: one says '12%' and one says '10th' (10%). The draft's formulation 'approximately 10 to 12 percent' splits the difference but misrepresents the source precision. The brief's data_points show one source said 12%, another said roughly a tenth; the draft should pick one with attribution or note the range more carefully. As written, it suggests both sources agree on a range when they cite different figures.",
+     "Draft attributes the quote from Yahya Saree correctly to the brief, but the statement appears to suggest the Houthis will enforce a blockade only on Saudi vessels. The bear_case explicitly notes this as Houthi framing. The draft's phrasing 'The statement suggests the Houthis intend to selectively target Saudi shipping while permitting other traffic through the strait' adopts interpretive language ('intend to') not present in the quoted statement itself, sliding from reporting what was said into narration of intent."
+    ]
+   },
+   {
+    "id": "c041",
+    "headline": "Philippine ferry fire death toll reaches 76 as rescue efforts continue",
+    "category": "accuracy",
+    "reasons": [
+     "Draft states 'The Philippine Coast Guard has recovered 41 bodies from the wreckage of the MV June Aster ferry, bringing the total death toll to 76.' This is arithmetically incoherent: if 41 bodies were recovered and the total is 76, then 35 bodies must have been recovered previously. The brief's data_point says 'recovered 41 bodies...bringing the total death toll to 76' but does not clarify whether 41 is the additional number recovered on Saturday or the cumulative total recovered. The draft's language strongly implies 41 is the latest recovery (positioned as the act that 'brings' the toll to 76), which would require 35 bodies to have been found before Saturday. This is a factual muddle that misleads the reader about the rescue timeline and current toll.",
+     "Draft says ferry carried '117 passengers and 17 crew members' and later 'More than 130 people were on board.' The math: 117+17=134, which exceeds 'more than 130.' The brief states these numbers separately but the draft presents them in a way that creates an internal inconsistency. The opening paragraph's math (76 dead + 43 survivors + 13 unaccounted = 132) nearly matches 117+17=134, suggesting the numbers are correct but the 'more than 130' phrasing is imprecise or the first sentence is missing context about how many had already been recovered before Saturday."
+    ]
+   },
+   {
+    "id": "c062",
+    "headline": "Federal appeals court blocks Trump administration order forcing Michigan coal plant open, September 11",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'The Campbell plant was scheduled to shut down last year' but the brief and source material indicate the plant was scheduled to retire in May 2025, which is in the future relative to today's date (September 12, 2026). The phrasing 'shut down last year' is inaccurate\u2014May 2025 was in the past, but the wording creates confusion about when the retirement was originally scheduled versus when the DOE order was issued.",
+     "More critically: the draft says the plant 'was scheduled to shut down last year' when the brief states it 'was scheduled to retire' after long planning. The brief data point says 'Campbell plant was scheduled to shut down last year' is not in the brief; the brief says 'The Campbell plant was scheduled to shut down.' The draft's phrasing 'was scheduled to shut down last year' does not appear in the brief's data_points and adds temporal specificity not present in source material provided."
+    ]
+   },
+   {
+    "id": "c109",
+    "headline": "Shelton defeats Tiafoe at US Open to reach final, one win from first U.S. men's Grand Slam title since 2003",
+    "category": "accuracy",
+    "reasons": [
+     "The draft reports the final will occur on 'Sunday, September 15,' but today's date is Saturday, 2026-09-12. September 15 would be a Tuesday, not a Sunday. This is a factual error in the date/day assignment. The match is scheduled for a future date but the day-of-week is wrong, which is an accuracy problem.",
+     "the draft dates September 15, 2026 as a Sunday; September 15, 2026 is a Tuesday"
+    ]
+   },
+   {
+    "id": "c019",
+    "headline": "Anthropic CEO Amodei Calls for AI Development Slowdown; OpenAI's Altman Agrees",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Elon Musk wrote that \"Dario is right,\"' twice (once in paragraph starting 'Elon Musk' and again in the bear_case paragraph), creating redundancy. More critically, the brief's open_questions explicitly flag that the sources do not provide Amodei's full essay text and only reference a 'nearly 4,000-word' piece. The draft presents claims about what Amodei 'said' or 'wrote' regarding specific mechanisms (e.g., 'OpenAI said an AI model went rogue during the Hugging Face incident when the company was testing two AI models') that come from secondary reporting, not from direct quotes of the essay itself. The brief marks many claims as 'reported' confidence, not 'verified-on-chain,' indicating these are outlet summaries of the essay, not primary source text. The draft reads as though the full essay content is known and attributable, when the brief's open_questions make clear it is not.",
+     "The phrase 'Anthropic CEO Amodei Calls for AI Development Slowdown' in the title, paired with the framing of the piece as his primary announcement, obscures that the essay was not made public to the desk itself\u2014the brief shows the information comes through reporting by CBS, NBC, BBC, and The Hill, not from direct access to the 4,000-word essay. The desk cannot verify the essay's claims independently and is republishing outlet summaries as fact.",
+     "The draft cites specific Amodei quotes and proposals (e.g., 'We must slow the pace at which we improve the capabilities of AI models. Progress will still seem fast, and we must make wise use of the time we gain') and attributes them to the essay via outlet attribution, but does not signal that the desk has not verified these against the source document. A quote from a secondary outlet's summary of an essay the desk has not read is a citation that needs clearer framing."
+    ]
+   },
+   {
+    "id": "c220",
+    "headline": "August Inflation Held at 3.4%, Raising Expectations for Fed Rate Hike",
+    "category": "accuracy",
+    "reasons": [
+     "The draft states 'Inflation remains stubbornly elevated amid the war with Iran, with elevated energy costs contributing to the reading.' The brief's data_point says 'Inflation remains stubbornly elevated amid the war with Iran' but provides no breakdown or attribution of *how much* of the inflation is driven by the Iran conflict or energy costs. The draft adds 'with elevated energy costs contributing to the reading' as a fact, but the brief does not provide this data point. This is information not in the brief, making it smuggled.",
+     "The draft's opening sentence claims 'Annual inflation remained unchanged in August at 3.4 percent.' The brief's open_questions flag: 'What is the exact August 2026 inflation figure (the snippet says 3.4% but the source text does not provide a specific number).' The brief itself marks the specific 3.4% figure as uncertain and sourced only to a snippet, not to full article text the desk has verified. The draft presents this figure as settled fact without qualification, despite the brief's own uncertainty about whether the source actually carries it.",
+     "The draft says 'The persistent inflation has raised expectations for a Federal Reserve interest rate hike, per The Hill,' but the brief's data_point says 'The Federal Reserve appears increasingly likely to hike interest rates next week.' The draft softens 'appears increasingly likely' to 'raised expectations,' losing precision and confidence, and does not specify 'next week.' This is paraphrasing that changes the meaning of the source claim."
     ]
    }
   ]

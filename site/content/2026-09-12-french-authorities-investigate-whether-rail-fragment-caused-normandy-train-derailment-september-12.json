@@ -1,0 +1,40 @@
+{
+  "id": "c028",
+  "slug": "french-authorities-investigate-whether-rail-fragment-caused-normandy-train-derailment-september-12",
+  "kind": "brief",
+  "title": "French authorities investigate whether rail fragment caused Normandy train derailment, September 12",
+  "dek": "A passenger train derailed near Rouen in Normandy on Friday, injuring 44 people. A piece of rail was found on the tracks; French officials are investigating whether it caused the crash and how it came to be there.",
+  "date": "2026-09-12",
+  "published_utc": "2026-09-12T17:48:46Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 5,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "A rail fragment was present on tracks near the derailment site, with authorities investigating whether it was deliberately placed, accidental, or the result of maintenance failure.",
+  "bottom_line": "The investigation will determine whether the rail fragment was deliberately placed, fell from another train, or resulted from maintenance failure. Officials have offered no timeline for their findings, and the focus on the fragment's unexplained presence suggests the probe may take weeks.",
+  "human_take": "",
+  "body": [
+    "A passenger train derailed near Rouen in Normandy on Friday evening, injuring 44 people and prompting French authorities to investigate whether a piece of rail found on the tracks caused the crash and how it arrived there.",
+    "According to BBC News reporting, 186 passengers were on board the train operating between Rouen and Caen when it derailed near Cleon, just south of Rouen, shortly before 20:00 local time (18:00 GMT). Forty-four people were treated for injuries, including an 18-year-old woman who was airlifted to hospital in critical condition. Per BBC News, the woman remains hospitalized but her life is no longer in danger; the other victims have either been discharged or are about to be.",
+    "Prosecutor Sebastien Gallois stated, according to BBC News, that the leading theory is that a piece of rail was present on one of the tracks, potentially causing the derailment, with the reason for its presence unknown. The BBC also reports that authorities have yet to comment on media reports that sabotage may have caused the derailment.",
+    "Approximately 140 firefighters and other emergency teams were deployed to the scene, per BBC News. The train's black box has been seized, several interviews are scheduled, and a court-appointed expert has been called in. The train driver tested negative for drugs and alcohol, the BBC reports."
+  ],
+  "sources": [
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c33kp533nn6o"
+    },
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c33kp533nn6o?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "event_utc": "2026-09-12T15:05:53Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-12T17:48:46Z",
+    "sources_cited": 2,
+    "sources_live_checked": 2
+  },
+  "update_of": "train-derails-in-normandy-france-injuring-44-as-authorities-investigate-sabotage"
+}
