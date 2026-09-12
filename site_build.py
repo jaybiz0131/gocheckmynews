@@ -786,20 +786,17 @@ r.scrollLeft=Math.max(0,Math.min(want,r.scrollWidth-r.clientWidth));}})();</scri
 
 
 def newsletter():
-    return f"""<section class="news" aria-label="Newsletter signup"><div class="wrap">
-  <h2>Get the brief</h2>
-  <p>The day's real news, checked against the official public record and outlets across the
-     political spectrum, with every source rated in the open. No advocacy, no rumor mills.
-     One email, on a cadence we can actually keep.</p>
-  <form name="newsletter" method="POST" data-netlify="true" netlify-honeypot="company" action="/thanks.html">
-    <input type="hidden" name="form-name" value="newsletter">
-    <input class="hp" type="text" name="company" tabindex="-1" autocomplete="off" aria-hidden="true">
-    <input type="email" name="email" placeholder="you@email.com" required aria-label="Email address">
-    <button type="submit">Subscribe</button>
-  </form>
-  <p class="fine">Emails are stored by Netlify Forms and used only to send the newsletter.
-     Unsubscribe anytime. See our <a href="/privacy.html">privacy policy</a>. Never advocacy, never advice.</p>
-</div></section>"""
+    """NO EMAIL CAPTURE (family law, reaffirmed by directive v2 2026-09-12).
+
+    The desk collected addresses through Netlify Forms for a newsletter that was
+    never launched, which means it held personal data it had no use for and no
+    schedule to justify. The markup is gone rather than hidden: a form that is
+    display:none still posts if a crawler or a script reaches it.
+
+    Returns empty so every historical call site is a no-op. If a newsletter is
+    ever deliberately approved, rebuild this from the approval, not from here.
+    """
+    return ""
 
 
 def sources_link(text):
@@ -1519,7 +1516,7 @@ def render_news(items, dateline):
     # the promise strip and the newsletter read as the footer beats, never above the
     # journalism; the desk strip is secondary chrome; the news itself is the main landmark
     body = (desk_strip() + '<main class="news-main">' + lead_html + grid
-            + trust_block() + newsletter() + '</main>')
+            + trust_block() + '</main>')
     return shell(f"Latest news - {NAME}", DESC, "Latest", body, dateline, path="/news.html")
 
 
@@ -1786,7 +1783,7 @@ def render_home(items, dateline, hubs=None):
      {sources_link("bias and factual rating")}, shown with attribution. No advocacy,
      no paid promotion, and never advice. Everything here is free, and every source is
      linked.</p>
-</section></main>""" + newsletter()
+</section></main>"""
     return shell(f"{FAMILY} - The news, checked.", FAMILY_DESC, "Home", body, dateline, path="/", schema_extra=home_schema())
 
 
