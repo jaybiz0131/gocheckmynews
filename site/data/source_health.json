@@ -1,5 +1,5 @@
 {
- "checked_utc": "2026-09-11T22:54:19Z",
+ "checked_utc": "2026-09-12T13:22:10Z",
  "sources": [
   {
    "name": "Federal Reserve",
@@ -52,7 +52,7 @@
    "tier": "major",
    "state": "OK",
    "detail": "HTTP 200",
-   "items": 36,
+   "items": 28,
    "newest_age_h": null,
    "lane_state": "OK"
   },
@@ -63,7 +63,7 @@
    "tier": "major",
    "state": "OK",
    "detail": "HTTP 200",
-   "items": 27,
+   "items": 23,
    "newest_age_h": null,
    "lane_state": "OK"
   },
@@ -85,7 +85,7 @@
    "tier": "major",
    "state": "OK",
    "detail": "HTTP 200",
-   "items": 20,
+   "items": 16,
    "newest_age_h": null,
    "lane_state": "OK"
   },
@@ -107,7 +107,7 @@
    "tier": "major",
    "state": "OK",
    "detail": "HTTP 200",
-   "items": 38,
+   "items": 35,
    "newest_age_h": null,
    "lane_state": "OK"
   },
@@ -250,7 +250,7 @@
    "tier": "mixed",
    "state": "OK",
    "detail": "HTTP 200",
-   "items": 48,
+   "items": 43,
    "newest_age_h": null,
    "lane_state": "OK"
   },
@@ -283,7 +283,7 @@
    "tier": "primary",
    "state": "OK",
    "detail": "HTTP 200",
-   "items": 47,
+   "items": 27,
    "newest_age_h": null,
    "lane_state": "OK"
   },

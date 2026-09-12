@@ -28,6 +28,14 @@
     {
       "title": "The Hill",
       "url": "https://thehill.com/business/6083146-inflation-rate-cpi-august/"
+    },
+    {
+      "title": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/august-cpi-report-inflation-fed-rates/"
+    },
+    {
+      "title": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/show/news-wrap-august-inflation-report-shows-consumer-prices-up-3-4"
     }
   ],
   "event_utc": "2026-09-11T12:38:12Z",
@@ -36,5 +44,13 @@
     "checked_utc": "2026-09-11T17:18:24Z",
     "sources_cited": 3,
     "sources_live_checked": 2
-  }
+  },
+  "updated_utc": "2026-09-12T13:08:06Z",
+  "merged_from": [
+    {
+      "id": "c055",
+      "title": "U.S. inflation held at 3.4% in August as energy costs spiked from Middle East conflict",
+      "published_utc": "2026-09-12T13:08:06Z"
+    }
+  ]
 }

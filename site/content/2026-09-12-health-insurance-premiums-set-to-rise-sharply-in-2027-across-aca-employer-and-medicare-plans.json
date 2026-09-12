@@ -1,0 +1,51 @@
+{
+  "id": "c274",
+  "slug": "health-insurance-premiums-set-to-rise-sharply-in-2027-across-aca-employer-and-medicare-plans",
+  "kind": "brief",
+  "title": "Health insurance premiums set to rise sharply in 2027 across ACA, employer, and Medicare plans",
+  "dek": "ACA insurers are proposing average premium increases of 15% for 2027 coverage, while employers expect to raise per-worker health benefit costs by 8.2%, the largest increase since 2003. Medicare beneficiaries face potential prescription drug premium changes after the Trump administration ended a temporary cost-control program.",
+  "date": "2026-09-12",
+  "published_utc": "2026-09-12T13:08:06Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 12,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "ACA insurers are proposing 15% average premium increases for 2027, following a 20% increase in 2026, as healthcare costs rise across all insurance types simultaneously.",
+  "bottom_line": "Open enrollment for 2027 coverage begins in October. The simultaneous increases across ACA, employer, and Medicare systems will test whether the current policy response, including the $500 rebate, can prevent a significant reduction in coverage rates or shift workers toward lower-value plans.",
+  "human_take": "",
+  "body": [
+    "Insurers offering ACA plans are proposing a premium increase of about 15%, on average, for 2027, according to NBC News reporting. For 2026, insurers increased ACA rates by an average of 20%. About 19 million adults buy insurance through the ACA marketplace.",
+    "For individuals without ACA subsidies, the impact will be substantial. According to NBC News, an individual earning $80,000 a year without standard ACA subsidies could see their bronze plan cost rise by roughly $80 a month, adding almost $1,000 to their annual tab. The expiration of enhanced federal subsidies at the end of 2025 led ACA enrollment to fall by about 3 million, per NBC News reporting. Young adults, who are generally healthier and more likely to go without insurance when it becomes too expensive, accounted for a large portion of that decrease.",
+    "On Thursday, the White House promised $500 rebate checks to an estimated 1 million ACA enrollees, alleging they were wrongly overcharged. However, an assistant professor of health policy and management at the University of Pittsburgh, Miranda Yaver, stated that the $500 rebate \"pales in comparison to the increased premiums that marketplace enrollees are facing due to the expiration of the enhanced subsidies.\"",
+    "Employer-sponsored plans face comparable pressure. About 165 million people get health insurance through their jobs. Employers expect the cost of providing health benefits to each worker to rise 8.2%, on average, in 2027, the largest increase since 2003, according to a survey of more than 1,800 employers by Marsh. About two-thirds of large employers (those with 500 or more employees) said they expected to increase how much employees contribute toward their premiums in 2027, per NBC News. A professor of medicine at the Stanford University School of Medicine, Dr. Kevin Schulman, stated that employers can pass cost increases to employees through higher monthly premiums, raised deductibles, benefit changes, or slower wage increases.",
+    "Rising healthcare costs stem in part from higher prices for hospital and other medical care, as well as the increased use of expensive prescription drugs including GLP-1 weight loss medications, according to NBC News. Some Medicare beneficiaries could see changes to their prescription drug premiums after the Trump administration ended a temporary program that helped keep those premiums in check, per NBC News reporting.",
+    "According to Larry Levitt, executive vice president for health policy at KFF, \"Healthcare costs are going up faster than they have in years, and open enrollment is when the healthcare affordability crisis is really going to hit home for people.\""
+  ],
+  "sources": [
+    {
+      "title": "nbcnews.com",
+      "url": "https://www.nbcnews.com/health/health-news/aca-medicare-work-health-insurance-cost-rise-2027-rcna597069"
+    }
+  ],
+  "event_utc": "2026-09-12T11:00:00Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-12T13:08:06Z",
+    "sources_cited": 1,
+    "sources_live_checked": 1
+  },
+  "also_reported_by": [
+    {
+      "outlet": "Truthout",
+      "headline": "ACA and Medicare for All Polls Reveal Voters Back Publicly Funded Health Care - Truthout"
+    },
+    {
+      "outlet": "The American Journal of Managed Care",
+      "headline": "ACA Impact on Medicare Beneficiaries Linked to Reduced Costs, Improved Health - The American Journal of Managed Care"
+    },
+    {
+      "outlet": "Health Affairs",
+      "headline": "The Big Republican Cost-Shift: Massive Cuts To Medicaid And The ACA Will Increase Costs For Older Adults And Medicare - Health Affairs"
+    }
+  ]
+}

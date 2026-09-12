@@ -1,0 +1,66 @@
+{
+  "id": "c043",
+  "slug": "train-derails-in-normandy-france-injuring-44-as-authorities-investigate-sabotage",
+  "kind": "brief",
+  "title": "Train derails in Normandy, France, injuring 44 as authorities investigate sabotage",
+  "dek": "A regional train carrying 186 passengers derailed Friday evening near Cleon in Normandy, injuring 44 people. French authorities found a piece of rail on the track and are investigating whether the accident resulted from sabotage or mechanical failure.",
+  "date": "2026-09-12",
+  "published_utc": "2026-09-12T13:08:06Z",
+  "category": "news",
+  "verdict": "VERIFIED",
+  "rank": 8,
+  "author": "The GoCheckMyNews Desk",
+  "key_fact": "A regional train derailed in Normandy on Friday evening, injuring 44 people, after authorities discovered a piece of rail on the track, prompting an investigation into whether sabotage caused the accident.",
+  "bottom_line": "French prosecutors will need to establish whether the rail on the track was deliberately placed or a result of track degradation. The outcome will determine whether this becomes a sabotage case or a mechanical failure, with implications for public confidence in French rail infrastructure.",
+  "human_take": "",
+  "body": [
+    "A regional train derailed Friday evening near Cleon in the Seine-Maritime department of northwestern France, injuring 44 people and triggering an investigation into whether sabotage caused the accident.",
+    "According to ABC News, the train was operating between Rouen and Caen when it derailed, carrying 186 passengers. BBC reporting indicates three of the train's carriages overturned. One person, an 18-year-old, was airlifted by helicopter to Rouen University Hospital in critical condition, per BBC reporting. Transport Minister Philippe Tabarot said 140 firefighters and other emergency teams were deployed to the scene, and local authorities activated a mass-casualty response plan after the crash occurred shortly before 20:00 (18:00 GMT).",
+    "A piece of rail was found on the track at the derailment site. According to ABC News, a spokeswoman for the French national police communications service, known as SICOP, said that the piece of rail found on the track was \"probably\" linked to the derailment. Investigators are working to establish whether the circumstances were accidental or involved sabotage, ABC News reports. However, the prosecutor's office remained cautious about drawing conclusions, per ABC News, and authorities have not commented on media reports speculating about sabotage.",
+    "A passenger named Louis told ICI Normandie radio about the moment of derailment: \"Suddenly there were a few jolts, and then after about three seconds it got stronger and stronger. I couldn't stay in my seat any more. The windows partially shattered, the stones from the track came into the carriage. It was really shocking. I'm still shaking.\"",
+    "The investigation will determine whether the rail piece was deliberately positioned, detached through deterioration, or resulted from maintenance failure."
+  ],
+  "sources": [
+    {
+      "title": "abcnews.com",
+      "url": "https://abcnews.com/International/wireStory/train-derails-france-injures-44-authorities-investigate-sabotage-136386095"
+    },
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c8d37dm8d8mo"
+    },
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c8d37dm8d8mo?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "event_utc": "2026-09-12T11:48:25Z",
+  "verification": {
+    "verdict": "VERIFIED",
+    "checked_utc": "2026-09-12T13:08:06Z",
+    "sources_cited": 3,
+    "sources_live_checked": 3
+  },
+  "also_reported_by": [
+    {
+      "outlet": "ABC News",
+      "headline": "Train derails in France and injures 44 as authorities investigate possible sabotage - ABC News - Breaking News, Latest News and Videos"
+    },
+    {
+      "outlet": "Global Banking &amp; Finance Review",
+      "headline": "France Train Derailment in Normandy Injures 44, Service Suspended - Global Banking &amp; Finance Review"
+    },
+    {
+      "outlet": "Devdiscourse",
+      "headline": "Derailed Train in Normandy Leaves 44 Injured - Devdiscourse"
+    },
+    {
+      "outlet": "Greek City Times",
+      "headline": "44 Passengers Injured as Train Derails in France - Greek City Times"
+    },
+    {
+      "outlet": "Aaj English TV",
+      "headline": "Train derails in northern France, injuring 44 people - Aaj English TV"
+    }
+  ]
+}
