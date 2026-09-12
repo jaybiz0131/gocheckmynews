@@ -705,3 +705,16 @@ main p a,.lede a,.fine a,.sig-attest a,.cred-note a,.trust-line a,.pc-note a,.ca
   clip:rect(0,0,0,0);white-space:nowrap;border:0}
 
 .badge.developing{background:#FDF3E3;color:#8A5A00;border:1px solid #E9D2A3}
+/* ---- evergreen picks: the front door's direct links to the desk's best work ------ */
+/* Two columns of plain headline links. Deliberately not cards: 25 cards would dominate
+   the homepage, and the job here is to spend internal link equity on articles, not to
+   compete with the lead mosaic for attention. */
+.evergreen{margin:34px 0 8px}
+.eg-list{list-style:none;padding:0;margin:0;column-count:2;column-gap:34px}
+.eg-list li{break-inside:avoid;margin:0 0 9px;padding-left:13px;position:relative;
+  font-size:14.5px;line-height:1.45}
+.eg-list li::before{content:"";position:absolute;left:0;top:.62em;width:5px;height:1px;
+  background:var(--rule)}
+.eg-list a{color:var(--ink);text-decoration:none;border-bottom:1px solid transparent}
+.eg-list a:hover{border-bottom-color:var(--rule);text-decoration:none}
+@media (max-width:720px){.eg-list{column-count:1}}

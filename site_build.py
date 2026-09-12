@@ -1542,6 +1542,78 @@ def home_schema():
             + json.dumps({"@context": "https://schema.org", "@graph": [org, site]},
                          ensure_ascii=False) + "</script>")
 
+# EVERGREEN PICKS (newsroom work order 2026-09-12). The homepage linked the newest
+# stories and the editions; nothing linked the desk's best work, so an article's only
+# inbound link was a related-stories slot on a page nobody crawls either. This is the
+# curated set: 25 articles linked directly from the front door with their own headlines as
+# anchor text.
+#
+# "Best" is scored from what the desk already records rather than invented, because this
+# desk has no quality score and making one up is how a ranking starts lying. Four signals,
+# all of them proxies for SEARCH SHELF-LIFE, which is the thing the work order actually
+# asks for:
+#   - sources: a story checked against four sources outlives one checked against one
+#   - depth: body length, which separates a real piece from a two-paragraph recap
+#   - lineage: a story other stories update is a running subject, not a result
+#   - subject: rulings, legislation, investigations and explainers keep being searched;
+#     a same-day incident report is searched once and never again
+# A pure recap is demoted hard, which is the whole point: those are the pages that decay.
+_EVERGREEN_SUBJECT = re.compile(
+    r"\b(lawsuit|sue[sd]?|court|ruling|verdict|convict\w*|sentenc\w*|settle\w*|"
+    r"legislation|\bbill\b|regulation\w*|rule change|policy|executive order|"
+    r"investigat\w*|indict\w*|inquiry|deadline|eligib\w*|benefit\w*|"
+    r"tariff\w*|recall|ban\w*|approv\w*|how to|what to know|explain\w*|guide)\b", re.I)
+
+
+def evergreen_picks(items, n=25):
+    live = [i for i in items
+            if not i.get("example") and not i.get("superseded_by") and not _is_wrap(i)]
+    scored = []
+    for it in live:
+        body = it.get("body") or []
+        words = sum(len(str(b).split()) for b in body)
+        srcs = len(it.get("sources") or [])
+        blob = " ".join([it.get("title") or "", it.get("dek") or "", it.get("key_fact") or ""])
+        tags = set(tags_for(it))
+        score = 0.0
+        score += min(srcs, 5) * 2.0                      # corroboration, capped
+        score += min(words / 250.0, 4.0)                 # depth, capped
+        if it.get("continued_by") or it.get("update_of"):
+            score += 3.0                                 # a running subject
+        if _EVERGREEN_SUBJECT.search(blob):
+            score += 4.0                                 # searched for months
+        if words < 200:
+            score -= 6.0                                 # a wire-length one-off
+        scored.append((score, it.get("published_utc") or "", it))
+    scored.sort(key=lambda t: (-t[0], t[1]), reverse=False)
+    # One per subject line, so the module does not spend six of its slots on one saga.
+    picked, seen = [], set()
+    for _sc, _when, it in scored:
+        key = frozenset(w for w in _subject_words(it.get("title") or "") if w)
+        if any(len(key & k) >= 2 for k in seen):
+            continue
+        seen.add(key)
+        picked.append(it)
+        if len(picked) >= n:
+            break
+    return picked
+
+
+def evergreen_block(items):
+    picks = evergreen_picks(items)
+    if len(picks) < 6:
+        return ""
+    lis = "".join(
+        f'<li><a href="/articles/{esc(i["slug"])}.html">{esc(i.get("title"))}</a></li>'
+        for i in picks)
+    return (f'<section class="evergreen"><div class="sec-head"><h2>Stories worth keeping</h2>'
+            f'<span class="bar"></span></div>'
+            f'<p class="lede" style="margin:0 0 12px">The reporting that holds up after the '
+            f'news cycle moves on: contracts and lawsuits, broadcast and ownership changes, '
+            f'and the rulings that decide seasons.</p>'
+            f'<ul class="eg-list">{lis}</ul></section>')
+
+
 def render_home(items, dateline, hubs=None):
     """The GoCheckMyNews front door, built for the RETURNING reader: today's headlines,
     the editions, and the storylines the desk is tracking. The brand pitch lives below the
@@ -1706,6 +1778,7 @@ def render_home(items, dateline, hubs=None):
   {desk_html}
   {editions_html}
   {track_html}
+  {evergreen_block(items)}
   <p class="lede home-lede" style="margin-top:22px">Built with one intention: report what
      actually happened and keep the facts honest. Every story is checked against the official
      public record and outlets deliberately spread across the political spectrum, with the
@@ -3074,7 +3147,17 @@ def build():
     arts_sorted = sorted([it for it in arts if not it.get("superseded_by")],
                          key=lambda i: i.get("published_utc") or i.get("date") or "",
                          reverse=True)
-    PRIORITY_N = 30
+    # STOP ASKING GOOGLE TO CRAWL WHAT IT WILL NOT CRAWL (work order 2026-09-12). This
+    # desk has 351 articles queued and uncrawled, an indexed count frozen at 104 and zero
+    # organic clicks ever. Advertising 466 archive URLs on top of that is not neutral: it
+    # spends the crawl budget on pages that have never earned anything and keeps the queue
+    # topped up faster than it drains. The priority set is capped so the whole file stays
+    # under 50 URLs, and the archive sitemap is no longer published at all.
+    #
+    # Nothing is deleted or de-indexed. Every archive page stays live, stays linked from
+    # its section and from related-stories, and Google keeps whatever it has already
+    # indexed. It simply stops being pushed.
+    PRIORITY_N = 25
     ARCHIVE_DAYS = 60
     _site_now = _build_now()
 
@@ -3084,8 +3167,11 @@ def build():
         # riding the archive tier with no honest lastmod
         return (_site_now - dt).total_seconds() / 86400.0 if dt else 1e9
 
-    prio_arts = arts_sorted[:PRIORITY_N]
-    older = arts_sorted[PRIORITY_N:]
+    # Best, not newest: the same evergreen ranking the homepage links, so the file Google
+    # is asked to read whole and the front door agree on what matters.
+    _ev = {i.get("slug") for i in evergreen_picks(arts_sorted, PRIORITY_N)}
+    prio_arts = [i for i in arts_sorted if i.get("slug") in _ev]
+    older = [i for i in arts_sorted if i.get("slug") not in _ev]
     archive_arts = [it for it in older if _age_days(it) <= ARCHIVE_DAYS]
     n_aged = len(older) - len(archive_arts)
 
@@ -3120,14 +3206,13 @@ def build():
         if _d:
             _dated[f"/coverage/{_h['slug']}.html"] = _d
     w("sitemap-priority.xml", _urlset(prio, _dated))
-    w("sitemap-archive.xml", _urlset(archive, _dated))
+    # sitemap-archive.xml is deliberately NOT written; see PRIORITY_N above.
     print(f"sitemap: priority {len(prio)} ({len(cov_paths)} hubs), archive {len(archive)}, "
           f"aged out {n_aged}, superseded excluded {n_superseded}")
     w("sitemap.xml",
       '<?xml version="1.0" encoding="UTF-8"?>\n'
       '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
       f'  <sitemap><loc>{ORIGIN}/sitemap-priority.xml</loc></sitemap>\n'
-      f'  <sitemap><loc>{ORIGIN}/sitemap-archive.xml</loc></sitemap>\n'
       f'  <sitemap><loc>{ORIGIN}/news-sitemap.xml</loc></sitemap>\n'
       '</sitemapindex>\n')
 
