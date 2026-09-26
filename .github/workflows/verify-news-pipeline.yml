@@ -27,6 +27,12 @@ jobs:
         with: { python-version: "3.12" }
       - name: Run offline canary (blocks on failure)
         run: python3 verify_pipeline.py canary
+      # The family handoff builder, offline and dependency-free, in the same
+      # hard gate. A handoff whose ?src= the receiving site rejects still
+      # renders a working link and counts as nothing, so it fails the build
+      # rather than being noticed in a rollup weeks later.
+      - name: Family handoff src survives the receiver
+        run: python3 tests/test_family_modules.py
 
   sources:
     name: Layer 2 source check (notify, non-blocking)
